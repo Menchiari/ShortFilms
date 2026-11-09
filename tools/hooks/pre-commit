@@ -1,0 +1,17 @@
+#!/bin/sh
+# Refuses commits that contain a file over 95 MB (GitHub rejects 100 MiB, and a big file in
+# history is very hard to remove). Installed by tools/install-hooks.sh.
+limit=95000000
+git -c core.quotePath=false diff --cached --name-only --diff-filter=AM | {
+  blocked=0
+  while IFS= read -r f; do
+    [ -f "$f" ] || continue
+    size=$(wc -c < "$f" | tr -d ' ')
+    if [ "$size" -gt "$limit" ]; then
+      echo "BLOCKED: $f is $((size / 1000000)) MB (limit 95 MB)."
+      echo "  Shrink it: python3 tools/media/fps.py fit \"$f\"   or move it to the film's _local/ folder."
+      blocked=1
+    fi
+  done
+  exit $blocked
+}

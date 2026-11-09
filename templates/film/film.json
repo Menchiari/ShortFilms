@@ -1,0 +1,54 @@
+{
+  "id": "{{ID}}",
+  "slug": "{{SLUG}}",
+  "title": "{{TITLE}}",
+  "logline": "",
+  "status": "development",
+  "created": "{{DATE}}",
+  "public": true,
+  "publish": {
+    "story": true,
+    "analysis": false,
+    "bible": true,
+    "shotlist": true,
+    "prompts": true,
+    "costs": true,
+    "sound": true,
+    "music": true
+  },
+  "format": {
+    "aspect": "",
+    "fps": 24,
+    "resolution": "1080p",
+    "target_runtime_s": null
+  },
+  "poster": "",
+  "stages": {
+    "story": "todo",
+    "analysis": "todo",
+    "bible": "todo",
+    "shotlist": "todo",
+    "shot_plan": "todo",
+    "sound_list": "todo",
+    "references": "todo",
+    "generation": "todo",
+    "framerate": "todo",
+    "edit": "todo",
+    "sound_design": "todo",
+    "music": "todo",
+    "release": "todo"
+  },
+  "higgsfield": {
+    "workspace_id": "",
+    "project_id": "",
+    "folders": {}
+  },
+  "extra_costs": [],
+  "links": {
+    "final": "",
+    "discord": ""
+  },
+  "log": [
+    { "date": "{{DATE}}", "text": "Project created." }
+  ]
+}
