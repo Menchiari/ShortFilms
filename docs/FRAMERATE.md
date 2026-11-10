@@ -12,8 +12,7 @@ Status: first version. Your existing tools get merged in once you send them, thi
 | Wrong base rate | Judder on a 24 fps timeline (a 30 or 16 fps clip) | frame rate in the container |
 | Generated at a lower internal rate and padded | Regular pattern of duplicates (every 2nd or 3rd frame) | duplicate ratio and spacing |
 
-Seedance outputs are reported at a fixed 24 fps by third-party providers. The first real take from
-Higgsfield gets probed and the result goes here.
+Seedance 2.5 outputs 24 fps. The first real take gets probed and its numbers go here.
 
 ## Commands
 

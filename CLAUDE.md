@@ -18,10 +18,10 @@ follows these rules. They override habits and defaults.
    into the folder of its scene and shot (`S01/SH010`), reference stills into `REFS`, music into
    `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into another
    project. If a folder does not exist yet, create it in the right project first.
-4. **Never music in shot generations.** Every shot prompt ends with "No music of any kind: no
-   background music, no score, no soundtrack. No subtitles." Sound in generations stays flat and
-   diegetic: dialogue, room tone, contact sounds. The user does the sound design. Music is
-   generated only in the music stage (PIPELINE.md stage 11), only when the user asks for it.
+4. **Never music in shot generations.** Every shot prompt starts and ends with the audio policy
+   in `docs/PROMPTING.md`. Sound in generations stays flat and diegetic: dialogue, room tone,
+   contact sounds. The user does the sound design. Music is generated only in the music stage
+   (PIPELINE.md stage 11), only when the user asks for it.
 5. **No file over 95 MB in git.** GitHub rejects 100 MiB. The pre-commit hook in `tools/hooks`
    enforces it. Big masters and intermediates live in the film's `_local/` folder (gitignored).
 6. **No Git LFS.** By the user's decision.
@@ -34,8 +34,14 @@ follows these rules. They override habits and defaults.
   user, then **keep going** on the best-reasoned assumption, marked `[ASSUMPTION]` in the docs so it
   can be challenged. Never block the pipeline waiting for an answer unless credits are involved.
 - Separate what is known from what is inferred. If you do not know, write "I don't know".
-- Prompts for Seedance follow the `seedance-master` skill (formula, timed beats, reference roles,
-  ACTING TASK block, constraint tail). Load it before writing any generation prompt.
+- Prompts follow `docs/PROMPTING.md` and the film's `03-bible/style.md`. For the ACTING TASK
+  block, load the `seedance-master` skill (the director's acting method).
+- The cheapest method that gives the same or a similar result is always the right choice.
+- References are Higgsfield Elements (`docs/HIGGSFIELD.md`). Images come from the user's own
+  pipeline (the user picks the image model, Midjourney for style); Claude does not pick image
+  models.
+- Docs state rules only: no comparisons of sources, no debates. Keep every document as short as
+  it can be.
 - After every generation: download the file, name it `<filmid>_<S##>_<SH###>_<T##>.mp4`, record the
   take in `shotlist.json` (job id, settings, credits, prompt file), and commit. **Every take goes
   into git, loved or not** (user decision 2026-11-10: scraps can be reused). Watch the repository
@@ -66,7 +72,8 @@ follows these rules. They override habits and defaults.
 ## Where things are
 
 - `PIPELINE.md`: the process, stage by stage.
-- `docs/`: storage and editing, Higgsfield, framerate, website, music.
+- `docs/PROMPTING.md`: how every prompt is built. `docs/`: storage and editing, Higgsfield,
+  framerate, website. `docs/reference/`: source material.
 - `templates/film/`: skeleton copied by `python3 tools/filmtool.py new "Title"`.
 - `films/<id>-<slug>/`: one folder per film.
 - `tools/`: film tool, media tools, site builder, git hooks.

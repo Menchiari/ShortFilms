@@ -83,9 +83,8 @@ stop.
   - **Mapped Mount (set once per computer, automatic after that).** Preferences > System >
     Media Storage. Add the local ShortFilms folder, and in its "Mapped Mount" column put the path
     of the same folder on the other computer. PC: mount `D:\ShortFilms`, mapped mount
-    `/Users/<you>/ShortFilms`. Mac: the reverse. Blackmagic built this for Mac and Windows sharing
-    projects. One user reported that on Windows the field only offered a Browse button; others
-    typed into it. We test it on your PC.
+    `/Users/<you>/ShortFilms`. Mac: the reverse. If the Windows field only offers Browse, use
+    Relink.
   - **Relink (always works).** Select all clips in the Media Pool, right click, Relink Selected
     Clips, pick the film folder. Every file name in this repo is unique
     (`001_S01_SH010_T03.mp4`), so Resolve cannot link the wrong take.

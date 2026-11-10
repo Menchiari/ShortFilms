@@ -23,7 +23,6 @@ Room tone, exterior bleed, recurring sounds.
 ## Continuity locks (never change)
 -
 
-## Reference still prompt
-
-## References
-Stills in `refs/<slug>_01.jpg` and in Higgsfield REFS.
+## Element
+`loc_<name>`, id:
+Images: `refs/<name>_01.jpg`

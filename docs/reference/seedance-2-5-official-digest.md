@@ -1,8 +1,7 @@
 # Seedance 2.5 official prompt guide: digest
 
-Source: ByteDance / BytePlus "Dreamina Seedance 2.5 prompt guide", pasted by the director on
-2026-11-10. This file keeps the facts our pipeline uses, with the guide's section names, so any
-session can check them. Where this digest and other material disagree, the official guide wins.
+Source: ByteDance / BytePlus "Dreamina Seedance 2.5 prompt guide" (received 2026-11-10).
+The facts our pipeline uses, with the guide's section names.
 
 ## Capacity
 - One generation up to 30 s. Up to 50 references: 30 images (up to 4K), 10 videos (30 s total),
@@ -73,5 +72,5 @@ session can check them. Where this digest and other material disagree, the offic
 - Dialogue in braces: `Gao Yan says: {line}` or `Granny Zhou's line (voice trembling): {line}`.
 - Language and accent stated in words before the line.
 - On-screen text in 【 】.
-- Angle brackets are used for asset and character names (`<Image 2>`, `<Lina>`), not for sound.
+- Angle brackets mark asset and character names (`<Image 2>`, `<Lina>`).
 - Non-speakers: "keep their mouths naturally closed".

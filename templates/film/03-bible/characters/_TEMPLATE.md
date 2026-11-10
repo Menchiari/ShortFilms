@@ -32,8 +32,6 @@ One line: who this person is in the story.
 ## Continuity locks (never change)
 -
 
-## Reference still prompt
-Subject, then style, then light, then composition, then lens.
-
-## References
-Stills in `refs/<slug>_01.jpg` and in Higgsfield REFS.
+## Element
+`char_<name>`, id:
+Images: `refs/<name>_01.jpg`

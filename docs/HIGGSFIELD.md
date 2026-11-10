@@ -23,17 +23,25 @@
   be "re-rendered" at 1080p: a new generation is a new performance. Choose the final resolution
   before generating the take you hope to keep.
 
+## Elements (characters, locations, props)
+
+References are Higgsfield Elements, named like the existing ones:
+`char_<name>`, `loc_<name>`, `prop_<name>` (lowercase, hyphens, 32 characters max).
+In an API prompt an element is written `<<<element_id>>>`; Higgsfield turns it into
+`@char_<name>` and attaches the image. Each element's id goes in its bible document
+(`03-bible/characters/<name>.md` and so on). The images come from the director's own pipeline.
+
 ## One project per film
 
 ```
 Higgsfield project: "SF 001 Title"
-  REFS/            character, location, prop stills
+  REFS/            stills used for elements, start and end frames
   S01/
     SH010/         every take of shot 1 of scene 1
     SH020/
   S02/ ...
   MUSIC/
-  TESTS/           calibration and structure tests
+  TESTS/           structure tests
 ```
 
 Folders are created when first needed. Project and folder ids are stored in

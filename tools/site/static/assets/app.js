@@ -19,7 +19,7 @@
     ["generation", "Generation"], ["framerate", "Framerate fix"], ["edit", "Edit"],
     ["sound_design", "Sound design"], ["music", "Music"], ["release", "Release"]
   ];
-  var GROUPS = { world: "World", characters: "Characters", locations: "Locations", props: "Props", vehicles: "Vehicles" };
+  var GROUPS = { style: "Style", world: "World", characters: "Characters", locations: "Locations", props: "Props", vehicles: "Vehicles" };
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -157,7 +157,7 @@
         '<div class="bible-cards">' + g.items.map(function (it, i) {
           var img = it.images && it.images[0];
           return '<details class="bcard" data-doc="' + esc(g.name + ":" + i) + '"><summary>' +
-            (img ? '<img src="' + esc(img) + '" alt="' + esc(it.title) + '" loading="lazy">' : (g.name === "world" ? "" : '<div class="noimg">No reference yet</div>')) +
+            (img ? '<img src="' + esc(img) + '" alt="' + esc(it.title) + '" loading="lazy">' : (g.name === "world" || g.name === "style" ? "" : '<div class="noimg">No reference yet</div>')) +
             "<h4>" + esc(it.title) + "</h4><p>" + esc(it.summary) + '</p></summary><div class="doc-slot"></div></details>';
         }).join("") + "</div></section>";
     }).join("");

@@ -60,9 +60,10 @@ class Builder:
 
     def bible(self, film_dir):
         groups = []
-        world = self.doc(film_dir, "03-bible/world.md")
-        if world:
-            groups.append({"name": "world", "items": [world]})
+        for name in ["style", "world"]:
+            item = self.doc(film_dir, f"03-bible/{name}.md")
+            if item:
+                groups.append({"name": name, "items": [item]})
         for g in BIBLE_GROUPS:
             gdir = film_dir / "03-bible" / g
             if not gdir.is_dir():

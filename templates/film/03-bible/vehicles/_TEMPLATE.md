@@ -15,4 +15,6 @@ Engine character, how it is driven.
 ## Continuity locks (never change)
 -
 
-## Reference still prompt
+## Element
+`prop_<name>`, id:
+Images: `refs/<name>_01.jpg`

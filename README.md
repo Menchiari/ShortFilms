@@ -21,10 +21,12 @@ PIPELINE.md              the process, stage by stage
 CLAUDE.md                standing rules for Claude (credits, folders, no music, no deletions)
 site.json                site settings (title, Discord link)
 docs/
+  PROMPTING.md           how every Seedance prompt is built (one page)
   STORAGE-AND-EDIT.md    git without LFS, sparse clone per film, DaVinci Resolve routine
   HIGGSFIELD.md          cost table, project and folder layout, approval protocol
   FRAMERATE.md           framerate problems and the fix tool
   WEBSITE.md             how the site is built and deployed
+  reference/             official Seedance 2.5 digest, Higgsfield originals
 templates/film/          skeleton of a film folder
 films/                   one folder per film
 tools/

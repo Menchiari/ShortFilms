@@ -16,7 +16,6 @@ One line: why this object matters.
 ## Continuity locks (never change)
 -
 
-## Reference still prompt
-
-## References
-Stills in `refs/<slug>_01.jpg`.
+## Element
+`prop_<name>`, id:
+Images: `refs/<name>_01.jpg`

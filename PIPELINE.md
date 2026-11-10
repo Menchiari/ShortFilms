@@ -13,8 +13,8 @@ Every decision below gets checked against that.
 ```
 
 Stages 1 to 5 run back to back in one pass by Claude, with questions sent along the way.
-Stages 6, 7 and 11 spend credits: every single generation is quoted and waits for your explicit
-approval. Credit spending is never automated.
+Generations spend credits (stages 7 and 11, and any still you ask Claude to make): every single
+one is quoted and waits for your explicit approval. Credit spending is never automated.
 
 ---
 
@@ -56,15 +56,18 @@ Claude reads the whole piece, then answers its own questions in writing:
 
 **Output:** `03-bible/`
 
+- `style.md`: the voice of this film (look line, camera grammar, rhythm, prompt density, sound,
+  acting register, style references, what it never does). Every film gets its own, so no two
+  films look alike.
 - `world.md`: year, place, season, weather, social context, technology of the period, money,
-  brands policy (generic, no logos), palette, light, texture and wear level, lens philosophy.
+  brands policy (generic, no logos), how the world sounds.
 - `characters/<slug>.md`: locked identity (face, body, hair, voice), background (origin, home, job,
   class, income, education, habits), what they drive, what they carry, wardrobe per scene with
-  condition (new, worn, stained, pressed), acting notes, continuity locks, reference-still prompt.
+  condition (new, worn, stained, pressed), acting notes, continuity locks, element.
 - `locations/<slug>.md`: geography, architecture, era, time of day, light sources, set dressing,
-  dirt and wear, sound of the place, continuity locks, reference prompt.
+  dirt and wear, sound of the place, continuity locks, element.
 - `props/<slug>.md`, `vehicles/<slug>.md`: material, era, condition, how it is held or used,
-  who owns it, continuity locks, reference prompt.
+  who owns it, continuity locks, element.
 
 Everything must be believable for the time, place and class of the story. Claude decides by
 reasoning from the text (a night-shift nurse in 1994 Turin does not drive a new car), and asks
@@ -84,18 +87,8 @@ Questions on angles or pacing go to you, Claude keeps going.
 
 **Output:** the `approach` block of each shot in `shotlist.json`, budget in `04-shotlist/BUDGET.md`
 
-For each shot Claude picks the cheapest method that will hold:
-
-| Method | When |
-|---|---|
-| Text to video | Simple shot, no identity that must match other shots |
-| Start frame (image to video) | Composition, light or identity must be exact. Lock the look as a still first, it is far cheaper than re-rolling video |
-| Start + end frame | The shot must land on an exact final composition (match cuts, reveals) |
-| Omni reference (character, location, prop stills) | Recurring characters and places across many shots |
-| Video reference | A camera path or motion rhythm that words cannot hold (from a phone video, a previs, another clip) |
-| Blender previs | Complex geometry, spatial continuity across angles, precise camera moves. Render a grey previs, use it as video reference or clay control |
-| Extension | Continuous takes longer than one generation, or a shot that must flow out of the previous one |
-| Multi-shot in one generation | Only rapid sequences of very short shots |
+For each shot Claude picks the cheapest method that will hold, from the methods in
+`docs/PROMPTING.md`. Multi-shot generations only for rapid sequences of very short shots.
 
 Plus: resolution, duration, risk (low, medium, high), expected takes, estimated credits.
 Total budget goes to you before any spend.
@@ -109,16 +102,17 @@ writes the full list of sound effects you need from ElevenLabs, per scene and sh
 foley, hard effects, designed sounds, each with a ready-to-paste ElevenLabs prompt, duration and
 number of variations. You produce them, files go in `06-sound/sfx/`.
 
-## 6. References (credits)
+## 6. References
 
-Character, location and prop stills generated from the bible prompts, into Higgsfield `REFS`
-and `03-bible/*/refs/`. Each batch is quoted and approved before generating.
+You supply the images from your own pipeline (your choice of model, Midjourney for style) into
+`03-bible/*/refs/`. Claude prepares them (size, format) and registers them as Higgsfield
+Elements (`char_`, `loc_`, `prop_`), with each id written into its bible document.
 
 ## 7. Generation (credits, one shot at a time)
 
 For each shot, in order:
 
-1. Claude writes the prompt (seedance-master format) into
+1. Claude writes the prompt (`docs/PROMPTING.md` and the film's `style.md`) into
    `05-generation/prompts/<film>_<S>_<SH>_<T>.txt` with the settings line.
 2. Claude runs the free cost preflight and asks: shot, settings, credits, balance after.
 3. You approve. Claude generates into the Higgsfield folder `S01/SH010` of this film.
@@ -157,9 +151,8 @@ Yours. SFX from the list in stage 5, guide audio from the takes for timing and l
 5. Longer cues: extend forward (sequel) or backward (prequel) from the best take.
 6. The audio is extracted, the picture discarded.
 
-Cost note: the picture is thrown away, so music runs can be tested at 480p (3 credits per second,
-90 for 30 s) if the audio quality holds at that resolution. I don't know yet whether it does: the
-first music run will compare one 480p and one 720p take before we commit to a rule.
+The picture is thrown away, so music runs start at 480p (3 credits per second, 90 for 30 s)
+and stay there as long as you accept the audio.
 
 ## 12. Release
 

@@ -22,7 +22,7 @@ Source of truth for scenes, shots and takes. `04-shotlist/SHOTLIST.md` is render
           "framing": "WS",
           "angle": "eye level",
           "lens": "35mm",
-          "movement": "static",
+          "movement": "locked-off",
           "duration_s": 6,
           "transition_in": "cut",
           "characters": ["marta"],
@@ -32,7 +32,7 @@ Source of truth for scenes, shots and takes. `04-shotlist/SHOTLIST.md` is render
           "approach": {
             "method": "start-frame",
             "why": "Corridor geometry and her identity must match S01 SH030.",
-            "references": ["03-bible/characters/refs/marta_01.jpg"],
+            "references": ["char_marta", "loc_hospital-corridor"],
             "resolution": "1080p",
             "aspect": "21:9",
             "risk": "medium",
@@ -72,7 +72,11 @@ Source of truth for scenes, shots and takes. `04-shotlist/SHOTLIST.md` is render
 ## Fields
 
 - Shot `status`: `planned`, `ready`, `generating`, `review`, `approved`, `cut`.
-- `framing`: ECU, CU, MCU, MS, MWS, WS, EWS, OTS, POV, INSERT.
+- `framing`: ECU, CU, MCU, MS, COWBOY, MLS, FS, WS, EWS, OTS, POV, INSERT.
+- `movement`: the move, its pace and where it stops (`dolly in slowly, stop on MCU`), or
+  `locked-off`.
+- `approach.references`: element names (`char_marta`, `loc_corridor`) and file paths for start or
+  end frames.
 - `transition_in`: `cut`, `continuous`, `match`, `dissolve`, `smash`.
 - `approach.method`: `t2v`, `start-frame`, `start-end-frame`, `omni-reference`, `video-reference`,
   `blender-previs`, `extension`, `multi-shot`.
