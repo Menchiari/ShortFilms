@@ -1,0 +1,44 @@
+name: stories-sync
+
+# Story writing needs no git steps from the user: when a working branch changes only files in
+# stories/, it is merged into main automatically. Anything else on the branch: nothing happens,
+# that branch goes through a normal pull request.
+
+on:
+  push:
+    branches-ignore: [main]
+    paths: ["stories/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stories-sync
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge story-only branch into main
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          sha=$(git rev-parse HEAD)
+          git fetch origin main
+          other=$(git diff --name-only "$(git merge-base origin/main "$sha")" "$sha" | grep -v '^stories/' || true)
+          if [ -n "$other" ]; then
+            echo "Branch also changes files outside stories/, not merged automatically:"
+            echo "$other"
+            exit 0
+          fi
+          git checkout -B main origin/main
+          git merge --ff-only "$sha" || git merge --no-edit -m "stories: merge $BRANCH" "$sha"
+          git push origin main
