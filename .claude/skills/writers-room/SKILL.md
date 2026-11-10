@@ -10,7 +10,7 @@ argument-hint: "[idea, or path to an existing story folder]"
 The ideas are Leonard's. This skill gets what is in his head onto the page at its best. It never swaps his ideas for its own.
 
 ## Hard rules (apply at every step)
-1. Never delete, move or overwrite any existing file. Every draft is a new numbered file (`-v01`, `-v02`...). Never edit a previous version; copy forward.
+1. Never delete or move any file. Git holds the versions: one file per stage, and a new draft replaces that file's content in place. Commit and push after every draft, answer round and review, so no version exists only on disk; never rewrite a file with uncommitted changes. `idea.md` is Leonard's own words: append-only, never edit or remove anything in it. Files outside the story folder are never edited. To compare or recover a version, use git history (`git log -p -- <file>`, `git show <commit>:<file>`).
 2. No screenplay pages before the story bible is LOCKED.
 3. Tag every story element [MINE] (from Leonard, quote or cite him) or [PROPOSED] (invented here). Never replace his idea silently. [MINE] means his meaning, unchanged: a fact he states stays a fact (do not turn it into the character's belief), "and" stays "and", a cause he gives stays his cause, a slot he filled stays filled. Any reframing, narrowing or reading is [PROPOSED] and sits next to his version. If his words can be read two ways, ask; don't choose. No invented concrete details (a car, a letter, a habit) anywhere untagged, including in the assessment.
 4. Never write the em dash character (U+2014) in any file or message. In screenplay dialogue, interruptions end with a double hyphen `--`.
@@ -24,16 +24,17 @@ The ideas are Leonard's. This skill gets what is in his head onto the page at it
 ## Step 0: read the repo first
 - Read CLAUDE.md and look for existing story folders and a film pipeline (canon, element registry, shot list, prompt system, lookbook, or similar). Read what exists before asking anything.
 - Never edit pipeline files. Writing outputs feed them through the story bible's "Pipeline export" table; propose additions as new files.
-- Stories live in the repo's existing story folder if there is one; otherwise `stories/<slug>/`. File names: `NN-stage-vNN.ext` (for example `05-scene-list-v02.md`).
+- Each story lives in `stories/<slug>/`, with at most these files, each created only when its stage is reached: `idea.md` (intake, question rounds, Leonard's answers verbatim), `restatement.md`, `bible.md`, `beats.md`, `scenes.md`, `treatment.md`, `screenplay.fountain`, `review.md` (latest Braintrust notes). No other files unless Leonard asks.
+- Commit messages: `story <slug>: <what changed>` (for example `story night-shift: bible draft 3`, `story night-shift: review of beats`).
 
 ## Workflow
 1. Intake. Use `templates/intake.md`. Ask only for what is missing: idea, length/format, vibe, references, non-negotiables. If he wants to proceed, mark gaps ASSUMED and carry them into step 3. Load `reference/questions.md` (Layer 0).
 2. Writers' room restatement. Use `templates/restatement.md`. Load `reference/craft.md`, `reference/structure.md` (sections 2 and 3) and `reference/conflicts.md`. Produce: logline, Formula A/B/C/D, central question (professional, personal, private), conscious and unconscious desire, forces of antagonism on three levels and down the negative declension, 2 or 3 candidate controlling ideas, story triangle position, genre promises, then the honest assessment (strong, generic, missing, facts to verify). Every element tagged. Then run the Braintrust.
-3. Questions. Load `reference/questions.md`. Rounds of questions ordered by dependency: whose story, what they want, what it costs, how it ends first. Each says what it decides, offers 2 or 3 concrete options built from his material plus "your own". Mix craft and excavation questions. Never ask what he already answered. Save each round as `03-questions-rNN.md` and his answers as `03-answers-rNN.md` (his words verbatim).
+3. Questions. Load `reference/questions.md`. Rounds of questions ordered by dependency: whose story, what they want, what it costs, how it ends first. Each says what it decides, offers 2 or 3 concrete options built from his material plus "your own". Mix craft and excavation questions. Never ask what he already answered. Append each round of questions to `idea.md`, then his answers under it, his words verbatim. Commit after each.
 4. Lock the story bible. Use `templates/story-bible.md`. Only when every BLOCKING question is answered and Leonard says to lock. Proposed items he accepted become [PROPOSED-ACCEPTED]. Run the Braintrust.
 5. Structure. Load `reference/structure.md` (sections 1, 4, 5, 6) and, when a complication or twist is needed, `reference/complications.md`. Beat sheet first (`templates/beat-sheet.md`, built backward from the climax, scaled to runtime), then scene list (`templates/scene-list.md`): every scene turns a value (+/-). Any structure break is declared with all five lines. Braintrust after each.
 6. Treatment, then screenplay. Ask the screenplay language. Load `reference/dialogue.md` and `reference/anti-slop.md`. Treatment (`templates/treatment.md`): present tense, moment by moment, subtext, almost no dialogue. Then screenplay in Fountain (`templates/screenplay.fountain`). Run anti-slop section E before showing anything. Braintrust after each.
-7. Braintrust review after every stage. Delegate to the `braintrust` subagent with: the stage name, the path of the new draft, the paths of the intake, the latest restatement or bible, and Leonard's answers, plus the vibe. It has fresh context and reads only what you pass. Save its notes as `NN-review-<stage>-vNN.md`, show them to Leonard unedited, and apply only the notes he approves, in a new version file.
+7. Braintrust review after every stage. Commit the draft first. Delegate to the `braintrust` subagent with: the stage name, the path of the draft, the path of `idea.md` (intake, non-negotiables, his answers), the restatement or bible, plus the vibe. It has fresh context and reads only what you pass. Save its notes in `review.md` (replacing the previous review, which stays in git), commit, show them to Leonard unedited, and apply only the notes he approves, as the next draft of the same file.
 
 ## When to load what
 | File | Load at |
@@ -49,6 +50,7 @@ The ideas are Leonard's. This skill gets what is in his head onto the page at it
 | reference/anti-slop.md | before any prose or script; every review |
 | reference/review.md | read by the braintrust subagent |
 | reference/sources.md | when citing or checking a quote |
+| research/*.md | only when a distilled reference file is not enough and the full source notes are needed (McKee chapter notes, writer and director research, template and chart notes) |
 
 ## Output discipline
 - Show Leonard the restatement, questions, notes and drafts in the chat in short form; the full version is in the file.

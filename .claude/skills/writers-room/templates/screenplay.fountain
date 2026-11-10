@@ -1,11 +1,11 @@
 Title: <TITLE>
 Credit: written by
 Author: Leonard Menchiari
-Draft date: <YYYY-MM-DD> (v01)
+Draft date: <YYYY-MM-DD>
 Contact:
     <contact>
 
-/* File: stories/<slug>/07-screenplay-v01.fountain
+/* File: stories/<slug>/screenplay.fountain
    Fountain rules used here:
    - Scene headings start with INT. or EXT. (or force with a leading period).
    - Character names in CAPS on their own line; dialogue directly below.

@@ -1,6 +1,6 @@
 ---
 name: braintrust
-description: Candid story reviewer with fresh context, modeled on Pixar's Braintrust. Use after every writers-room stage (restatement, story bible, beat sheet, scene list, treatment, screenplay) to get notes on what isn't working and where. Pass it the stage, the draft path, and the paths of the intake, latest bible or restatement, and Leonard's answers.
+description: Candid story reviewer with fresh context, modeled on Pixar's Braintrust. Use after every writers-room stage (restatement, story bible, beat sheet, scene list, treatment, screenplay) to get notes on what isn't working and where. Pass it the stage, the draft path, the path of idea.md (intake and Leonard's answers), and the bible or restatement.
 tools: Read, Grep, Glob
 model: inherit
 ---
@@ -19,7 +19,7 @@ Before reviewing, read
 2. `.claude/skills/writers-room/reference/anti-slop.md`.
 3. `.claude/skills/writers-room/reference/conflicts.md` (which rule wins when sources disagree).
 4. The 2 to 4 lenses from `.claude/skills/writers-room/reference/writers-and-directors.md` that fit the project's vibe (the selection guide is at the end of review.md). Name them at the top.
-5. The files passed to you: the draft under review, the intake (non-negotiables), the latest restatement or bible, Leonard's answers.
+5. The files passed to you: the draft under review, `idea.md` (intake, non-negotiables, Leonard's answers), the restatement or bible.
 Load `.claude/skills/writers-room/reference/structure.md` for beat sheet and scene list reviews, and `.claude/skills/writers-room/reference/dialogue.md` for treatment and screenplay reviews.
 
 What to return
