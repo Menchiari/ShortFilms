@@ -1,133 +1,113 @@
-BRAINTRUST REVIEW: Politician, story bible draft 1
+BRAINTRUST REVIEW: Politician, shooting script draft 1
+(The previous review, of bible draft 1, is in git history: commit "story politician: Braintrust review of bible draft 1".)
 
-Stage reviewed: story bible (step 4), draft 1, not locked.
-Files read: /home/user/ShortFilms/stories/politician/bible.md (under review), /home/user/ShortFilms/stories/politician/idea.md, /home/user/ShortFilms/stories/politician/restatement.md, /home/user/ShortFilms/stories/politician/review.md. Reference: review.md, anti-slop.md, conflicts.md, writers-and-directors.md, structure.md (sections 3 to 5), craft.md, mckee.md (ch. 13 to 16), templates/story-bible.md, SKILL.md.
-Lenses: Garland (meaning by inference; the ending must land without a speech), Kubrick (what the audience knows at each point is chosen on purpose), Spielberg (show the threat's effect before the threat; one concrete detail carries the scale). Catmull is the frame, not a lens.
+Stage reviewed: screenplay (step 6), shooting script draft 1. It was written before the bible lock and depends on 3 pending bible items.
+Files read: /home/user/ShortFilms/stories/politician/screenplay.fountain (under review), /home/user/ShortFilms/stories/politician/shooting-script.pdf (its rendering, which matches the source), /home/user/ShortFilms/stories/politician/bible.md, /home/user/ShortFilms/stories/politician/idea.md, /home/user/ShortFilms/stories/politician/review.md (the earlier review). References: review.md, anti-slop.md, conflicts.md, dialogue.md, structure.md section 5, writers-and-directors.md.
+Lenses: Spielberg (hide the threat and show its effect; a count used as suspense; one human detail carries the scale), Kubrick (what the audience knows at each point is a choice), Garland (meaning by inference, so the ending has to read without a speech). Catmull is the frame, not a lens.
 
-Short answers to your checks
-- Fidelity: better than the restatement, but not clean. Five [MINE] items still change his meaning, and the [PROPOSED-ACCEPTED] tags can't be traced because the chat options A to D are not in idea.md (N2).
-- Rejections: nothing he rejected has come back. There is no fat-man beat and no TVs at the end. One remaining risk: the camera position for the last shot (N7).
-- Previous notes N1 to N15: fixed are N2, N3, N6, N9, N10, N11 and N12. Mostly fixed: N7, N14, N15. Partly carried over: N1 (blame only, N2a) and N13 (chat options not recorded, N2e). Carried over: N4 and N8 (N3 here) and N5 (N5 here).
-- "Why do they still want him" readable without a speech? Not as specified. The bible never states the question. Ending A shows why they came (the paper), not why they want him. Nothing planted lets the audience link the paper to anything (N1).
-- Can 4 minutes hold the turns? Not with every beat locked. It runs about 5 to 6 minutes, or it plays as montage (N5).
-- Lock blocked by N1 (needs one answer from Leonard) and N2 (fixes in the file plus recording the chat options).
+SHORT ANSWERS TO YOUR CHECKS
+- Fidelity: no non-negotiable is broken. One untagged addition changes the meaning: the black, unmarked helicopter (N5). Several small renderings are also untagged, and one shot note makes the proposed cause of the miscount look like his.
+- Pacing: the plan is 4:12. The dialogue shots are short by about 10 to 15 s (N3). The first 113 s have about 4 turns. From S05 to boarding there is one turn about every 12 s, and his crisis, his inner turn and the lady's answer get 2 to 6 s each (N1, N2).
+- Is "why do they still want him" readable? The setups work: the reporter's warning and its echo on the TVs, "Wait till they see what I was able to--", "I don't pay your ass for nothing", her silence and her open hand. The payoff shot, as planned, cannot carry the answer (N1).
+- Dialogue: the voices are distinct, no scene ends on an aphorism and nobody states the theme. Three speeches are too long for their shots, and the fat person's speech has been merged into one block (N3).
+- Explicitness: nothing on the page goes past his limit. The closest views of the dead (S09 SH020, SH030) have no distance note, while S06 and S08 do.
+- Anti-slop: no dashes and none of the stock phrases. There are three lines the camera cannot film, and the riot montage and the helicopter use the first image anyone would think of.
 
 ---
 
-N1 [BLOCKING] bible.md: Controlling idea (lines 16 to 18); Forces, helicopter row (line 42); Ending (lines 93 to 95)
-Problem: The bible never states the question his ending exists to answer, and the ending it locks answers a different one. The bible also puts its own cause away from the climax.
-Evidence:
-- None of these lines of his appear in the bible: "Why do they still want him after his reputation went so much to shit? This is the clue part of the movie. It can remain obscure as long as it's clear that it makes sense in a way."; "It's the message of the movie... something that makes us think: oh shit. Of course."; "She's got him, and he needs to get back to work."
-- The bible says: "The lady: what he is carrying [PROPOSED-ACCEPTED]"; "she checks the signature: "Get in.""; "On screen, the cycle lives in the middle of the film, not in the last image".
-- Everything planted before the end says money: "Back seat, a closed suitcase with some money half out", "It's me! I have the money!", the bills flying. The paper first appears in the last scene. Only "Wait till they see what I was able to..." points at it, and that line is cut off.
-- The cause is his Q10 answer quoted whole, not one sentence. Its key sentence has an unclear subject: "He's one of those who does something about it". Line 18 maps it onto the money grab without a tag, but in that image the money flows from him to the crowd, the reverse of "the things that are making this person rich".
-Effect: The audience reads that she wanted the document, it was in order, and he comes along. That explains why they came, not why they still want him. "Of course" needs something the audience already saw and now reads differently. A document they have never seen is new information, so the likely reaction is "a document", not "oh shit". The no-speech part works. What is missing is a link the audience can make on its own. With the cause placed mid-film, the last image carries no argument.
-Principle: McKee ch. 13 (the controlling idea comes from the climax) and ch. 15 (create the desire to know before answering); craft 9; Garland lens; anti-slop 29 (a case whose contents are the reveal is the first version this premise offers).
-Direction: He has given two answers to "why him". One is Q2: "this one is the one that has been blamed, for money... to hide what they are doing by blaming someone else". The other is the delivery: "what I was able to...", "perhaps legal documents?". Ending A carries the second. The first survives only in World (line 62) and the pending image system (line 99). Which one should the last scene carry?
-- Whichever it is: what has the audience already seen (riot intro, signs, chase) that the paper could repeat without a word?
-- The crowd grabs the cash and leaves the paper in the case: is that part of the intended "of course"?
-- If the "He" in Q10 is the one in the crowd who acts, the sniper's first shot (the man with the pipe) already puts his cause in the climax.
+N1 [BLOCKING] screenplay.fountain: S09 SH080 (6 s, TWO SHOT, locked-off)
+Problem: The film's answer lives in this one shot, and as planned the shot cannot carry it. Six seconds have to hold seven things: her silence, her hand, the handover, opening the folder, reading it, a look and "Get in." The page that proves what he delivered is planned in a two-shot.
+Evidence: "She doesn't answer. She holds out her hand. He gives her the folder. She opens it: a page of signatures and stamps. She reads it, then looks at him." Shot note: "6 | TWO SHOT | Locked-off".
+Effect: The silence that answers "I don't pay your ass for nothing" has no time to land as a silence. The look is the "still": she weighs a beaten old man in wet trousers and takes him anyway. It gets under a second. At two-shot size the page reads as "papers". The audience leaves with "rich men get rescued", which is close to the ending he called "Weak, too simple". By my estimate the beats need about 9 to 10 s at a pace an audience can read.
+Principle: review.md screenplay check (last pages: is something lost?); McKee ch. 13 (the climax must be clear without explanation); Garland lens.
+Direction: Which of the three (her silence, the page, her look) does the audience need to see in a shot of its own?
 
-N2 [BLOCKING] bible.md: lines 12, 13, 32, 43, 46, 92, 93, 96, 103, 114
-Problem: Five [MINE] items change what he said, and the acceptance tags rest on options that are not in the record.
-Evidence:
-(a) Line 12, "the one the news blames for the riots...", and line 13, "the news has made the face of a collapse" (both [MINE]).
-   - His Q2: "Perhaps a bit of both. Clearly it's never only one person, but this one is the one that has been blamed, for money." Part 2: "All of this because of this one person." Notes: "He's aware of the damage he's doing to the world, and he doesn't care."
-   - The bible keeps the blame half and drops the half where he did it. "aware... doesn't care" and "a person with guts" appear nowhere; line 32 narrows them to "a mind that feels nothing for the dead".
-   - "Politician", his word for the man throughout, is replaced by "oligarch". Q11 added that word; it did not replace the first one. "needs to be the symbol of everything that everyone hates in politics" and "Generic, hateable, dispicable" are gone.
-(b) Line 43: "corrupt authorities protect him [MINE]". His line is "Authorities are corrupt, but everyone knows his face": a contrast, not a cause. The link from the reporter's warning to the massacre ("with a warning on the news in advance") was tagged [PROPOSED reading] in the restatement and is now untagged. This also answers Q14 (escaped from whom), which is still open. If he escaped from the authorities, the warning means they want him alive for themselves.
-(c) Line 46: "Her role stays obscure [MINE, Q5: "no idea"]". His answer, "That part I have no idea.", is undecided, and the bible turned it into a decision. His "This can be obscure" (Q10) was about the man, not about her.
-(d) Lines 92 and 103: "No splattered head, no brains [MINE]" is placed after the massacre, and the sniper beat reads "a man raises the metal pipe and is shot by a sniper".
-   - His rule was about the old man: "I don't like that his head gets splattered... It's unnecessay satisfaction."
-   - His sniper beat: "gets shot in the face buy a sniper", "probably after a swing or two".
-   - The rule's scope and reason are widened, and his face shot and the swings are dropped without asking him. The real tension (his face shot and "some more get killed just for fun" against "nothing too explicit") was recorded in the restatement and kept by the last review. It is now gone.
-(e) Traceability:
-   - Lines 12, 13, 46 and 93 tag the contract, her silence and open hand, the signature check and "Get in." as [PROPOSED-ACCEPTED]. idea.md records "I like A then B" (line 300) but not what A and B were. Revised B isn't there either, so line 96 ("the fat man pocketing a bill" next to his "I hate putting so much attention to that") can't be checked.
-   - "Get in." is [PROPOSED-ACCEPTED] on lines 46 and 93 but [PENDING] on line 114.
-   - Line 13 tags "handing over" as [MINE]. His text says "a short exchange of words".
-   - The contract's root in his own words is not cited: "perhaps legal documents? I mean... not sure what tbh."
-Effect: The logline he would approve presents him as a scapegoat only. The declension answers Q14 for him. The lady's open slot is closed. The beat sheet will soften a shot he wrote. And no one reading the files later can confirm what he accepted.
-Principle: review.md check 1; anti-slop 34, 39; SKILL.md hard rule 3 and step 3.
-Direction: Restore each item as he wrote it and put the reading beside it as [PROPOSED]. Append the chat options A to D and revised B to idea.md, under his answer.
+N2 [MAJOR] screenplay.fountain: S06 SH050 to SH060; S09 SH020
+Problem: The two moments that show who he is get the least screen time in the film, and both are written as inner states the camera cannot film.
+Evidence: S06 SH050 (4 s): "He stops. One left. He turns the pistol to his own temple and shuts his eyes. Click." S09 SH020 (4 s, "HIS POV, then CLOSE"): "His face changes. The fear leaves it." That leaves his face about 2 s. For comparison, the riot montage runs 28 s and the recognition scene 35 s.
+Effect: The back half plays as a montage of events. The gun at his temple and his change from terror to contempt pass before they register. "One left" is a thought, and only the whispered count carries it. "The fear leaves it" says what goes, not what replaces it, so the actor or the model has nothing to play, and the spit has to carry the whole turn alone.
+Principle: structure.md 5 and the scene-list checks (tempo rising toward the climax); anti-slop 17, 19; McKee ch. 13 (the crisis is static and on screen); Spielberg lens (a count used as suspense).
+Direction: Where should the film slow down so the audience stays inside his choice? What does his own line, "he's a person with guts. That's not the kind of stuff that gets to him", look like on a face?
 
-N3 [MAJOR] bible.md: Story triangle (line 82); declared break (lines 83 to 88); Climax (line 92); Conscious desire (line 30)
-Problem: The climax is done to him by a force the bible gives no setup for, yet the bible calls the design causal Archplot. His own setups for "they" are missing.
-Evidence:
-- Line 82: "single active protagonist until the gun is empty; linear; causal". Every climactic action on line 92 belongs to the sniper, the helicopter and Roger.
-- Not in the bible: the call ("It's me! I have the money! ... I'm slightly south from where we were supposed to meet, the add--"; only "I need you to come get me, fast!" survives); the rock that cuts the call; the fat man's "nobody around to baby-sit you" and "now that no one is around to save your delicate, wrinkly old ass". Only the reporter's warning remains.
-- The declared break covers viewpoint, not his passivity at the climax. Its line 5, "the camera returns to him for the ending", is a return, not a replacement.
-Effect: Without the call and the cut-off address, the helicopter arrives from nowhere, at the climax, where coincidence does the most damage. The fat man's two lines are the only moment in Part 1 that tells the audience someone usually protects this man. Without them, "they" first exist when the shooting starts (last review's N4 and N8, carried over). "I have the money!" now also sits against a case whose point is a contract, and open item 1 doesn't mention the call.
-Principle: McKee ch. 16 (never resolve an ending by coincidence); craft 9; structure.md 4; Spielberg lens.
-Direction: Which of his setups does the bible lock as the cause of the rescue? Is the passive climax a second declared break, with its own five lines?
+N3 [MAJOR] screenplay.fountain: S04 SH060, S05 SH070, S01 SH080, S03 SH020
+Problem: The dialogue shots are timed shorter than the lines they hold. The longest speech has become one block with no reaction inside it.
+Evidence: S04 SH060 gives 7 s to 31 words ("You ruined so many lives... in front of everyone."). S05 SH070 gives 6 s to 29 words (the phone call). S01 SH080 gives 6 s to 20 words. S03 SH020 gives 6 s to 19 words plus pauses. At about 2.5 to 3 words a second, in accented English under stress (my estimate), these need about 11, 10, 7 to 8, and 7 to 8 s. In his draft the fat person's lines are split by the collar grab; here all of them come after it.
+Effect: Either the generation rushes or clips the lines, which makes the accents harder to follow, or the film runs 10 to 15 s over plan. The PDF's 293 generation seconds and its credit figures are low by about the same amount. The 11-second speech is also the longest stop in the chase.
+Principle: dialogue.md 5 (short speeches; a long speech is broken by reactions); structure.md 5 (never assume a shot length).
+Direction: Read each line aloud, with an accent and a stopwatch, before the cost preflight. Can the fat person's speech go back to his two halves, with the grab between them?
 
-N4 [MAJOR] bible.md: World, Period (line 58); Genre (line 79); Story triangle (line 82); Cast (line 51)
-Problem: Two of his style promises have no element to carry them, and several of his visual specs are not routed anywhere.
-Evidence:
-- "surreal but hyper realistic", his first description of the film, is absent; line 82 says "consistent reality".
-- Line 58 records "the kind of tech that we all know exists but nobody can see it yet", and he asked for "realistic political almost sci-fi". The climax shows a sniper, a helicopter and a rope shot: present-day, visible equipment. Kojima appears only as a label.
-- Not routed to style.md: "vertigo effect", "isometric car moving parallel forward", "low angle".
-- "Sexy reporter" is now "REPORTER".
-Effect: The genre turn at the sniper shot is where he promised something the audience has not seen. As locked, it plays as an ordinary armed rescue. style.md and the character files are built from the bible's export table, so what is not here does not reach production.
-Principle: review.md check 1; structure.md 3 (reality spectrum).
-Direction: Where does "surreal" live? What is the one piece of tech nobody can see yet that he pictures?
+N4 [MAJOR] screenplay.fountain: S01 SH010, SH020, SH080 to S02 SH040
+Problem: The intro never shows his face whole. Every image of it is defaced or small, and the reporter's shot has no picture of him.
+Evidence: "devil horns drawn on, the eyes crossed out in red, one printout of him hanging from a noose" (a 4 s handheld wide); SH020: "His face. A red X over each eye."
+Effect: From the cut, the audience can guess that the man in the car is "this man", but they cannot be sure until "Is it really you?". So the 50 s of approach play as a mystery rather than dread. Dread here means: we know who he is and what the town will do if it sees his face. When he covers his face in S04, the audience cannot check what he is hiding.
+Principle: Kubrick lens (the audience's knowledge chosen on purpose); Spielberg lens.
+Direction: Is there one moment in S01 where his face is clean and on screen long enough to recognize later?
 
-N5 [MAJOR] bible.md: Format (line 8); World, riots (line 64); Ending (lines 91 to 95)
-Problem: The bible locks every beat of Part 1, the full riot list and the new exchange for "about 4 minutes". It has no seconds budget, no priority order and no named inciting incident (last review's N5, carried over).
-Evidence: idea.md line 177: "Part 1 alone is about 4.3 screenplay pages (about 4 minutes)". The bible keeps all of Part 1, line 64's twelve riot images plus the reporter, the cabin and the exchange. By my rough count (an estimate), that is about 25 beats besides the riot intro, roughly 8 to 10 seconds each. Three dialogue passages can't play that fast: the recognition, the call and the exchange. With the riots and the arrival first, the engine dying lands after the first 20 percent (48 seconds).
-Effect: Either the film runs about 5 to 6 minutes, or most beats play as montage and no single turn registers, which goes against his "pacing is more important than length". Cost scales with it: one take of every second at 720p is 1,680 credits for 4 minutes and 2,520 for 6 (CLAUDE.md rate), before retakes.
-Principle: structure.md 5; craft 13; McKee ch. 12.
-Direction: Is 4 minutes a ceiling or a guide? Which three beats must play at full length?
+N5 [MAJOR] screenplay.fountain: S08 SH010
+Problem: He asked for a "fancy helicopter" with a real "model name and number". "black" and "No markings" are untagged additions. Together they turn a luxury aircraft into the genre's covert-ops helicopter.
+Evidence: "A sleek black helicopter holds still, high above the rooftops. No markings." The bible's research candidates are VIP configurations.
+Effect: The audience decides who saved him from this shot, before the lady speaks. Black and unmarked says secret state. A fancy VIP aircraft says money, which fits "business lady" and "one of the oligarchs of this time". The black helicopter is also the default image, at the point where he wants the film "surreal".
+Principle: review.md check 1; anti-slop 29, 33.
+Direction: Which "they" should the aircraft show before anyone speaks?
 
-N6 [MINOR] bible.md: Cast (line 53) vs Non-negotiables (line 107)
-Problem: Three openings claim first place: the cat is tagged "first image", the riots are "intro", and the car is "speeding at the start". His two drafts disagree on this, and the bible doesn't say which order wins.
-Direction: Mark the cat's position as open, or ask.
+N6 [MINOR] screenplay.fountain: S03 SH050, S07 SH010, S08 SH010
+Problem: Two locked-off shots "from far above" come before a helicopter that "holds still, high above the rooftops". The script does not say whether anyone hears it during the beating.
+Effect: Viewers may read S07 SH010 afterwards as the helicopter's view: they watched and waited through the swings. That is a strong meaning, and nobody has decided it. Separately, a hovering helicopter is loud. If the crowd does not hear it, "hyper realistic" breaks. If they do hear it, the crack from the sky is no surprise.
+Principle: Kubrick lens; research item: how audible a hovering helicopter is at sniper range.
+Direction: Is "they waited" a reading to use or to avoid?
 
-N7 [MINOR] bible.md: Final image (line 95)
-Problem: The camera position is not stated. Watched from the ground among the bodies, the last image is the town's view and puts the dead back in frame, against "The ending needs to stay with the politician". His own version rises with the helicopter.
-Direction: Which side of the glass is the last shot on?
+N7 [MINOR] screenplay.fountain: S05 SH050 to SH070; S09 SH040 to SH060
+Problem: The geography does not hold. He throws the case away and runs on through a phone call before the rock hits him. Yet in S09 the case is "in the middle of the street", a short limp from the street light, with bills between the dead. The helicopter then lands in a street of "tall, cheap apartment blocks" with street lights.
+Effect: Attentive viewers will notice that the case and the bills have moved. A landing between tall blocks and lamp posts is not believable for any VIP model; rotor clearance is a research item.
+Direction: Where is the street light relative to the case, and relative to a place where a helicopter can land? Could that place be the square from S03?
 
-N8 [MINOR] bible.md: lines 16, 29, 114
-- Line 16, "the value is mine": in a file where [MINE] means Leonard, this reads as his.
-- Line 29, "fires a warning shot, then kills two people": drops his "He keeps shooting until the loud gunshots turn into short metallic clicks", which is where the miscount happens.
-- Line 114 offers "There's a lot of work left to be done." without his verdict on that ending ("Weak, too simple"). As a last line it states the theme (anti-slop 12).
+N8 [MINOR] screenplay.fountain: S10 SH010 (8 s)
+Problem: Seen from an extreme wide, a helicopter is not "gone" 8 s after lift-off. The script also does not say what is in frame: sky only (his chosen ending), or rooftops and the street (closer to the alternative he has on file).
+Effect: Either the last image is cut before the helicopter is gone, or the shot runs well over plan.
+Direction: How long does he want to hold the sky?
 
-N9 [MINOR] bible.md: whole file; Research (line 73)
-- There is no honest assessment. The rubric asks for one, and nothing generic is named: the document reveal (N1), and the riot images, which stay stock images until his Q8 memory arrives.
-- Line 73's invented currency [PROPOSED-PENDING] works against "hyper realistic". He wants the man clearly American, and his money could show that without placing the town. Ask before inventing.
+N9 [MINOR] screenplay.fountain: S01
+Problem: Every riot shot is the first image its bullet point suggests: the price board, mattresses on car roofs, a firebomb on a police truck, a reporter on a rooftop. He asked for "much more believable". The source he offered, Tahrir 2012 (Q8), is still unanswered.
+Effect: The first 28 s look like news footage, and AI generation pulls them further toward the average image.
+Principle: anti-slop 20, 29; Spielberg lens (one human detail carries the scale).
+
+N10 [MINOR] screenplay.fountain: format and pipeline
+- His accent rule appears nowhere in the script except "many accents" for the anchors. The old man's American voice is only in the bible, and the script is the file that gets copied into 01-story/source/.
+- S08 SH070 ("SCOPE POV, then WIDE | Cut") and S09 SH020 ("HIS POV, then CLOSE") are each two shots under one id. The repo default is one shot per generation.
+- At lines 100, 129, 170, 176 and 284 a shot note sits directly above a character cue. Standard Fountain needs an empty line before a cue. The project PDF renders these correctly; other Fountain apps may turn those speeches into action lines.
+- Title page: the "Contact:" field contains "working title".
 
 ---
 
 FIDELITY CHECK
-- [MINE] items reinterpreted: the logline and Formula keep blame only (N2a); "corrupt authorities protect him" (N2b); "Her role stays obscure" (N2c); the non-negotiable widened and "shot in the face" dropped (N2d); "handing over" tagged [MINE] (N2e).
-- Untagged readings: the warning linked to the massacre (line 43); the Q10 cause mapped to the money grab (line 18).
-- His lines with no slot: "Why do they still want him...", "oh shit. Of course.", "makes sense in a way", "She's got him, and he needs to get back to work", "ready to fuck the world up", "aware of the damage", "a person with guts", "symbol of everything that everyone hates in politics", the call and "the add--", the rock, "baby-sit", "no one is around to save", "surreal", "almost sci-fi", "a swing or two", "He keeps shooting", "Sexy", "perhaps legal documents".
-- Accepted items not traceable: the options A to D and revised B are missing from idea.md.
-- Non-negotiables: none broken. One is widened beyond his scope (N2d). Nothing he rejected has returned.
+- Non-negotiables: all intact. No real figures. No splatter or brains: the pipe hits the body and the sniper hit is off-face. Not Egypt. The speeding car and the riot intro are kept. The ending stays with him. The accents are intact in intent but not written in the script (N10).
+- Untagged additions: "black" and "No markings" (N5, the only one that changes meaning); "glamorous, every hair in place" where he wrote "Sexy reporter"; "an expensive shirt"; the anchors' "a fourth day of losses" and "fuel up again overnight"; the S03 TVs playing the reporter's line (his text only says the news echoes); the rotor wash blowing bills across the bodies. The header lists only the scope as proposed.
+- Changed from his text: S05 SH050 "can't close it, and throws it away". His version is "he decides to throw it away to get rid of the crowd instead", a decoy chosen in panic; here it reads as panic only. S03 SH030 "He twists the key. Nothing." His: "The keys twist and the car turns off." S04 SH030 drops "with excitement" after "his eyes widen". "a small group of men" (his: "people").
+- Attribution: the S06 SH050 note reads "miscount from the uncounted warning shot (Leonard, Q13)". The miscount is his. The warning-shot cause is [PROPOSED-PENDING] in the bible, but the note reads as if it were his.
+- Cuts (allowed): "wrinkly old ass" (one of the two lines where the fat person points at his missing protectors; "Nobody around to baby-sit you?" survives); the dead bodies, break-ins and armed people from the intro; the isometric desert road; the money half out of the case; the sniper shot "in the face".
+- Research items to add: whether face recognition on a rifle scope exists (his test: "tech that we all know exists"); how audible a hovering helicopter is (N6); landing clearance (N7).
 
 ANTI-SLOP FINDINGS (by number)
-- 26: none (no U+2014 or U+2013). Section E search terms: none found.
-- 34: N2 (a) to (d).
-- 39: line 43 answers open Q14; line 46 answers Q5 differently from his answer.
-- 29: the case whose content is the reveal (N1).
-- 12: open item 3's "There's a lot of work left to be done." as a last line.
-- 10 (soft): line 18, "in the middle of the film, not in the last image".
-- 11 (low priority): logline triad "the riots, the falling markets and the cities emptying".
+- 26: none (no U+2014 or U+2013 anywhere). 27: no "we see" or "we hear". 22: present tense throughout.
+- 21: "starts texting" (S04 SH050).
+- 17, 19: "His face changes. The fear leaves it."; "One left." (a thought); "Right after lunch" (S03 SH010: no image shows the hour).
+- 11: "Laundry, satellite dishes, shutters half down."; "The skyline, columns of smoke, sirens far away." (this one renders his own triad; his call).
+- 20, 29: the riot montage (N9); the black, unmarked helicopter (N5).
+- 30: "Get in." (pending) is the stock rescue line. 12: the pending alternative, "There's a lot of work left to be done", would state the theme.
+- 36: "a fourth day", "expensive shirt", "No markings".
+- 9: no scene ends on an aphorism.
 
 LOAD-BEARING, KEEP
-- The crisis at his own head with the miscount and the click (line 91). It is the only real dilemma his material gives the man, and it is on screen.
-- Pissing himself, then the spit (line 93). The private layer turns visibly, without words.
-- Her silence and open hand against "I don't pay your ass for nothing" (line 46). It is the one beat that shows "they" are above him, without dialogue. Keep it whatever the paper becomes.
-- No spoken theme at the end. "Get in." is a command, not a moral.
-- The declension now reaches tyranny through the massacre (line 43), as the kit's McKee requires.
-- The viewpoint break declared with five lines (lines 83 to 88). Only line 5 needs fixing.
-- The three-line open-items list and the Removed list with his words: the right size for his reading limit.
+- The SMASH CUT from riot noise to silence (S01 to S02).
+- The reporter's warning and its echo from the TVs in S03. It is the only setup that raises "why protect this man?" before the helicopter arrives.
+- The hierarchy chain: "Wait till they see what I was able to--" leads to "I don't pay your ass for nothing", then her silence and open hand, then she checks the folder before he boards, and he climbs in after her.
+- The count under his breath in S06. It is the only way the audience knows he thinks one bullet is left.
+- The change of camera style: handheld while we are with him, locked-off and stabilized from the helicopter on. It carries his genre switch without a word.
+- If accepted: the insert of the pocket inside the lid (S09 SH050), and the green box among the red ones (S08 SH030). Before the lady appears, the green box is the one image that says they want him, and it shows how they found him after the address was cut off.
 
-OPEN QUESTIONS FOR LEONARD (one line each; the first blocks the lock)
-1. Why do they still want him? You gave two answers: he's "the one that has been blamed, for money", and what's in the case ("what I was able to...", "perhaps legal documents"). Which one should the last scene make us feel, or both?
-2. In "He's one of those who does something about it", is "he" the old man, or the one in the crowd who fights back?
-3. You wrote the sniper shoots the pipe man "in the face". Keep it, or is that too explicit?
-4. On the call, "It's me! I have the money!": keep it, now that the case carries a contract?
-5. "Tech we all know exists but nobody can see it yet": what do you picture?
-6. Last shot: rising with the helicopter, or watching it leave from the ground?
-7. 4 minutes: a limit, or a guide that pacing can break?
-8. The lady: you said "no idea". Can she stay undecided until the script?
+OPEN QUESTIONS FOR LEONARD
+1. Should the helicopter look fancy (money) or black and unmarked (a secret state)? (N5)
+2. Should the shots "from far above" read, afterwards, as the helicopter watching and waiting? (N6)
+3. Does she need any word at the end, or do her silence and her hand already answer him? This bears on the pending "Get in."
+4. The case: did he throw it as a decoy, as in your draft, or only in panic?
+5. Tahrir (Q8): one thing you saw there that you have never seen in a film.
