@@ -170,3 +170,66 @@ Not needed: the idea is in English. One Italian word: "cruscotto" = dashboard.
 
 ## Questions for missing items
 None missing. Length is given but conflicts with the material: asked as Q1 in round 1.
+
+## Question round 1 (2026-11-10)
+Order: length first (it decides what survives), then his words with two readings, then the lady, then the ending. Options marked [PROPOSED] explore his material; none replaces it.
+
+Q1 [BLOCKING] [CRAFT] Length: Part 1 alone is about 4.3 screenplay pages (about 4 minutes). With the riots, the desert road, the twist and the ending, the material runs about 6 to 8 minutes. Which wins, "2-3 minutes" or the material?
+Decides: what gets cut, and the credit budget. One take of every finished second costs 7 credits at 720p and 3 at 480p (CLAUDE.md), before retakes and handles: 3 minutes = 1,260 (720p) or 540 (480p); 7 minutes = 2,940 or 1,260.
+a) 2-3 minutes, as you said. The riots become news audio and a few stills over the desert road; Part 1 keeps the fuel running out, the recognition, the money and the hanging; the gunfight and most of the chase go.
+b) The material decides: about 6 to 8 minutes.
+c) About 4 to 5 minutes: riots as 20 to 30 seconds, Part 1 compressed.
+d) Your own.
+
+Q2 [BLOCKING] [CRAFT] "All of this because of this one person": a fact, or what the news and the people say?
+Decides: whether the ending can show the crowd hating a face that fronts for others (candidate 3), or must be about the guilty man getting away (candidates 1 and 2).
+a) A fact, literally: he did it.
+b) He did it, for people above him; the news only knows his face. [PROPOSED]
+c) The film never confirms it: the news says so, nobody checks. [PROPOSED]
+d) Your own.
+
+Q3 [BLOCKING] [CRAFT] "It's me! I have the money!": whose money is it?
+Decides: what the lady says about it, and what losing it costs him.
+a) A delivery: he was bringing it to them; it is what he "was able to" get.
+b) His own escape money; the call asks only for a pickup.
+c) Your own.
+
+Q4 [LATER] [CRAFT] He "goes back to the briefcase while the helicopter lands": what is in it then?
+Decides: the last prop on screen.
+a) Empty: the crowd took everything.
+b) A few notes left, stuck in the lining. [PROPOSED]
+c) Something under the cash that was never the point (documents, a drive, passports). [PROPOSED]
+d) Your own.
+
+Q5 [BLOCKING] [CRAFT] Who is the business lady to him?
+Decides: who holds power in their exchange, and what she wants for herself.
+a) His employer: he works for her organization; the politics is a job they gave him. [PROPOSED]
+b) His handler from "higher up", inside a state or agency. [PROPOSED]
+c) The owner of the operation and he is its face: each needs the other, she more than he knows. [PROPOSED]
+d) Your own.
+
+Q6 [BLOCKING] [CRAFT] The ending: what is the last thing that happens on screen?
+Decides: the controlling idea and the "oh shit. Of course."
+a) [MINE] She tells him there is a lot of work left to be done; they board; the helicopter flies into the distance. (Down for the crowd, up for him.)
+b) [PROPOSED] The footage: they found him without the address and waited "a swing or two" for the beating to be on camera. In the cabin a medic starts to clean his face and she stops him. That evening every television in the town shows the crowd hanging and hitting him, the reporter from the intro on air, the face everyone knows now as the victim. (Ironic: he gains, the crowd loses even the truth.)
+c) [PROPOSED] The faceless one: she walks among the dead to reach him, every window full of witnesses, and no one knows who she is. He is useful because the rage spends itself on his face. The windows stay full as the helicopter leaves. (Down.)
+d) [PROPOSED] The money: "The money?" "They took it." "They'll pay it back." The helicopter rises; below, a kid picks a banknote off the street next to a body. (Ironic.)
+e) Your own.
+
+Q7 [LATER] [CRAFT] What did he do? ("I'm not sure about what they are fighting for")
+Decides: the riot images, the signs, what the crowd shouts, what the money is.
+a) [MINE, literal] Never said: the news shows only effects (stocks falling, gas too expensive, people leaving the cities).
+b) The banks froze people's savings while he left with cash: the case is literally their money. (research item: real deposit freezes as reference) [PROPOSED]
+c) He sold the public energy to private owners and prices exploded ("Gas too expensive" [MINE]). [PROPOSED]
+d) Your own.
+
+Q8 [LATER] [EXCAVATION] Tahrir: what did you see or hear there that you still remember exactly?
+Decides: the details that make the crowd believable ("I need it to be much more believable").
+Helpful answers: a chant or a sound; what people carried; what happened in the minutes after news spread through the crowd; what the police or the army did; what the phones did.
+
+Q9 [LATER] [EXCAVATION] "the shit that is happening to the world today": name one thing you saw or read that gave you that nausea.
+Decides: the target of the film, which chooses between the ending candidates.
+Helpful answers: a news story, a video, a sentence someone said in public, a number.
+
+### Answers to round 1 (2026-11-10)
+Q1 (answered before the round was shown, verbatim): "it can be 4 minutes if that works, pacing is more important than length. We are aiming for something good"
