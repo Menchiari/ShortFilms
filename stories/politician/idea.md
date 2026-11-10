@@ -274,3 +274,24 @@ c) Your own.
 Q15 [LATER] [EXCAVATION] "Captain Phillips ending type", Kojima, Tom Clancy: what does each one promise you?
 Decides: the style of the twist.
 Helpful answers: a shot or a moment you remember from each; for Captain Phillips, the sniper shot, what comes after it, or both.
+
+### Answers to round 1 and addendum (2026-11-10, verbatim)
+Unprompted, before the answers: "I just realized, the politician could be saying "what took you so long? I don't pay your ass for nothing" or something like that. The briefcase though, what is he bringing with him? Can't be just money, who brings money in a briefcase anymore, perhaps legal documents? I mean... not sure what tbh."
+
+Q2: "good question. Perhaps a bit of both. Clearly it's never only one person, but this one is the one that has been blamed, for money. It's a corrupt world, so news are bashing against each other trying to destroy each political figure or whoever image that tries to go against them, fighting with money using reputation as a weapon to hide what they are doing by blaming someone else."
+
+Q3: "I don't even like the idea of it being money... maybe unclear. If it's money though, it should be those large paper bills, the ones only governments and politicians use"
+
+Q5: "That part I have no idea. She seems important though, with a lot of power"
+
+Q6: "I cannot read md files easily, too much text. My life is limited I cannot spend it reading all your stuff. I don't know what you're talking about"
+
+Q10: "This can be obscure. We all know about these types of people, the ones that are controlling abusing and destroying the world by abusing and taking advantage of the rest of the people living in it. People are clearly hypocritical, because everyone loves to complain but when it comes to do something very few actually do it. So there you go. He's one of those who does something about it, while the others keep doing the things that are making this person rich. It's a whole fucked up cycle. We all know about it. Nobody wants to think about it, so it doesn't matter. He symbolizes that."
+
+Q11: "it's not the film's subject, it's a way to say ironically that he's rich because of capitalism, he's one of the oligarcs of this time"
+
+Q12: "I think it would be nice if we followed mainly him, makes it more personal. Until the helicopter scene of course, then it becomes more tom clancy political thriller with ah hin of kojima type of deal"
+
+Q13: "he realizes that it's better to kill himself than to be taken apart by a crowd, so before the clicks of the gun, he should be counting that there is one bullet left and use it, but he counted poorly. Also he wouldn't be using a revolver, he's using a small portable gun, like someone like him would do."
+
+Working rule from Q6: everything Leonard needs to decide goes in the chat, short; the files are the record.
