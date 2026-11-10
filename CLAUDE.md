@@ -59,7 +59,7 @@ follows these rules. They override habits and defaults.
   credits. Audio and bitrate mode do not change the price.
 - The user works on a PC (Windows) and a Mac, DaVinci Resolve Free. Each computer has its own
   light clone on whichever of its own drives has room, with only the film in progress; paths
-  differ per computer (Resolve Mapped Mount or relink). User-facing commands: `python` on
+  differ per computer (Resolve Mapped Mount or relink). PC clone: `D:\ShortFilms`. Mac: not set up yet. User-facing commands: `python` on
   Windows (PowerShell), `python3` on Mac.
 - `films-index.json` (film sizes for `filmtool space`) is refreshed by `filmtool check`: commit it.
 

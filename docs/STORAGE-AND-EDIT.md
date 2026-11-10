@@ -49,7 +49,7 @@ space it needs. Pick any drive with more free space than that. The sizes come fr
 (Windows: Git for Windows, python.org with "Add python.exe to PATH" ticked, and
 `winget install --id Gyan.FFmpeg -e`; Mac: `xcode-select --install` for Git, python.org for
 Python, ffmpeg from ffmpeg.org or Homebrew). Then, with `<drive>` being the drive you picked
-(examples: `D:\ShortFilms` on the PC, `~/ShortFilms` on the Mac):
+(your PC uses `D:\ShortFilms`; on the Mac for example `~/ShortFilms`):
 
 ```
 git clone --filter=blob:none --sparse https://github.com/Menchiari/ShortFilms.git <drive>
