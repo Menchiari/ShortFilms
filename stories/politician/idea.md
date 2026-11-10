@@ -298,3 +298,6 @@ Working rule from Q6: everything Leonard needs to decide goes in the chat, short
 
 ### Q6 answer (2026-11-10, verbatim, to the chat options A to D)
 "I like A then B, but what about the dead people? People wouldn't just go back to watch TV after something like this, that's unrealistic"
+
+### Note on revised B (2026-11-10, verbatim)
+"no, I hate putting so much attention to that, it makes no sense. The ending needs to say with the politician. We could end it with the camera raising with the helicopter, then the helicopter goes away, and the camera pans down, looking at a few scared people slowly gathering around the bodies. But probably better to just end it with the helicopter going away"
