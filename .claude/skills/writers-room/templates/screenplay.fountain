@@ -1,0 +1,36 @@
+Title: <TITLE>
+Credit: written by
+Author: Leonard Menchiari
+Draft date: <YYYY-MM-DD> (v01)
+Contact:
+    <contact>
+
+/* File: stories/<slug>/07-screenplay-v01.fountain
+   Fountain rules used here:
+   - Scene headings start with INT. or EXT. (or force with a leading period).
+   - Character names in CAPS on their own line; dialogue directly below.
+   - Parentheticals in (parentheses) on their own line, only for action or a reaction that changes the line.
+   - Interruptions end with a double hyphen: --
+   - Transitions end in TO: and are used rarely; cuts are implied.
+   - Present tense. No "we see". No camera directions except essential INSERT or POV.
+   - Never the em dash character.
+   - Dual dialogue: add ^ after the second character name.
+   - Notes to self in [[double brackets]] are not printed. */
+
+FADE IN:
+
+EXT. <PLACE> - <DAY/NIGHT>
+
+<Action in present tense. Short paragraphs; each implies a shot.>
+
+<CHARACTER>
+<Line.>
+
+<OTHER CHARACTER>
+(<action or reaction>)
+<Line cut off -->
+
+<CHARACTER>
+<Line.>
+
+> FADE OUT.
