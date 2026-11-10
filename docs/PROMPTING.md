@@ -47,6 +47,15 @@ Camera: plain terms (shot sizes, push in, pull out, pan, tilt, track, orbit, han
 locked-off, dolly zoom). Every move has a pace, what stays steady and where it stops. A rare term
 gets a short description of what happens on screen.
 
+Cuts: only when needed (a jump in time or place, a view the camera cannot reach in one move).
+Never cut between similar shots: each cut changes the shot size by at least two steps and the
+angle by at least 30 degrees. A camera move that continues across a cut reads as a jump cut.
+Without a real need, one continuous take.
+
+Music in a shot generation only on the user's explicit request. Seedance falls back to the same
+generic string cue (user note 2026-11-10): name the instruments and exclude strings, piano and
+orchestra, or make the music in the music stage instead.
+
 Words to avoid unless the scene needs them: water, waves, echo (audio artifacts); strong emotion
 labels such as "fanatical" or "extremely shocked" (glowing eyes).
 
