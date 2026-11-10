@@ -1,7 +1,7 @@
 // Cloudflare Worker for the route  menchiari.net/filmai*
-// Serves the Pages project filmai.pages.dev under menchiari.net/filmai/
+// Serves the Pages project filmai-6sp.pages.dev under menchiari.net/filmai/
 // Deploy: Cloudflare dashboard > Workers > Create > paste this > add route "menchiari.net/filmai*".
-const ORIGIN = "https://filmai.pages.dev";
+const ORIGIN = "https://filmai-6sp.pages.dev";
 const PREFIX = "/filmai";
 
 export default {

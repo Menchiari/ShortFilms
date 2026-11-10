@@ -57,9 +57,9 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
 2. GitHub, repository Settings > Secrets and variables > Actions: add `CLOUDFLARE_API_TOKEN` and
    `CLOUDFLARE_ACCOUNT_ID`.
 3. Push to `main` (any change under `films/`). The Action `.github/workflows/site.yml` builds and deploys to a Pages project
-   called `filmai` (created on the first run), reachable at `filmai.pages.dev`.
+   called `filmai` (created on the first run), reachable at `filmai-6sp.pages.dev`.
 4. Put it under `menchiari.net/filmai/` (menchiari.net is on Cloudflare): a small Worker on the
-   route `menchiari.net/filmai*` forwards requests to `filmai.pages.dev`. The code is in
+   route `menchiari.net/filmai*` forwards requests to `filmai-6sp.pages.dev`. The code is in
    `tools/site/worker-proxy.js`. Known facts: the most specific route pattern wins, and a Worker
    cannot fetch its own zone, which is why it fetches the `pages.dev` address. Not known: how
    Cloudflare orders a Worker route against a Pages custom domain on the same hostname (its docs
