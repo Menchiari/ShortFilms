@@ -45,15 +45,18 @@ Before any credit spend, Claude posts:
 
 ```
 REQUEST 001 / S01 SH010 T03
-Model: seedance_2_5, mode omni_reference, 8 s, 1080p, 21:9, audio on (no music)
-Credits: 128 (preflight)   Balance after: ~3,505
-Why this take: T02 rushed the turn, this one adds timed beats 0-3 / 3-6 / 6-8
+Model: seedance_2_5, mode omni_reference, 8 s, 720p, 21:9, audio on (never music)
+Credits: 56 (preflight)   Balance after: ~3,577
+This take changes: T02 rushed the turn, this one adds timed beats 0-3 / 3-6 / 6-8
 ```
 
 Nothing is generated until you answer with an approval. An approval covers exactly that request.
+Credit spending is never automated: no budgets, no automatic retries, no batches you did not
+approve one by one.
 
 ## Download and naming
 
-Each finished take is downloaded to `05-generation/takes/S01/SH010/` as
-`001_S01_SH010_T03.mp4`, with the prompt in `05-generation/prompts/001_S01_SH010_T03.txt`.
-Rejected takes are not downloaded into git; the job id in `shotlist.json` is enough to fetch them.
+Every finished take, loved or not, is downloaded to `05-generation/takes/S01/SH010/` as
+`001_S01_SH010_T03.mp4` and committed, with the prompt in
+`05-generation/prompts/001_S01_SH010_T03.txt`. The job id in `shotlist.json` links back to
+Higgsfield.

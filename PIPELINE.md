@@ -13,7 +13,8 @@ Every decision below gets checked against that.
 ```
 
 Stages 1 to 5 run back to back in one pass by Claude, with questions sent along the way.
-Stages 6 and 7 spend credits and go one approval at a time.
+Stages 6, 7 and 11 spend credits: every single generation is quoted and waits for your explicit
+approval. Credit spending is never automated.
 
 ---
 
@@ -23,7 +24,7 @@ Stages 6 and 7 spend credits and go one approval at a time.
 Fountain, Final Draft, anything). Start a film with:
 
 ```
-python3 tools/filmtool.py new "Title"
+python tools/filmtool.py new "Title"
 ```
 
 **Claude:** keeps the source untouched, writes `01-story/story.md` as a clean transcription that
@@ -121,11 +122,12 @@ For each shot, in order:
    `05-generation/prompts/<film>_<S>_<SH>_<T>.txt` with the settings line.
 2. Claude runs the free cost preflight and asks: shot, settings, credits, balance after.
 3. You approve. Claude generates into the Higgsfield folder `S01/SH010` of this film.
-4. Claude downloads, names the file, records the take, makes a muted web preview and a poster.
-5. You react. Claude records love and rating (inferred from your words when you do not give one).
+4. Claude downloads, names the file, records the take and commits it.
+5. You react. Claude records love and rating (inferred from your words when you do not give one)
+   and makes a muted web preview and a poster for loved takes.
 6. Next take changes one axis only, or we move to the next shot.
 
-Loved takes are committed to git. Rejected takes stay in Higgsfield, tracked by job id.
+Every take goes into git, loved or not, so scraps stay reusable.
 
 ## 8. Framerate fix
 

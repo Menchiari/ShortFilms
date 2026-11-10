@@ -78,11 +78,11 @@
 
   // ---------- index ----------
   function renderIndex() {
-    document.title = SITE.title || "FILM AI";
+    document.title = SITE.title || "SHORT FILMS";
     var films = SITE.films || [];
     var html = '<header class="masthead">' +
       '<div class="label">' + esc(SITE.author || "") + " presents</div>" +
-      '<h1 class="marquee">' + esc(SITE.title || "FILM AI") + "</h1>" +
+      '<h1 class="marquee">' + esc(SITE.title || "SHORT FILMS") + "</h1>" +
       '<p class="sub">' + esc(SITE.subtitle || "") + "</p>" +
       '<div class="links">' + discordBtn() + "</div></header>" +
       '<div class="section-title"><span class="label">Program</span><span class="label">' + films.length + (films.length === 1 ? " film" : " films") + "</span></div>";
@@ -105,10 +105,13 @@
     var t = [["overview", "Overview"]];
     if (f.docs.story) t.push(["story", "Story"]);
     if (f.docs.analysis) t.push(["analysis", "Analysis"]);
+    if (f.docs.questions) t.push(["questions", "Questions"]);
     if (f.bible && f.bible.length) t.push(["bible", "Bible"]);
     if (f.scenes && f.scenes.length) t.push(["shotlist", "Shotlist"]);
+    if (f.docs.budget) t.push(["budget", "Budget"]);
     if (f.docs.sound) t.push(["sound", "Sound"]);
     if (f.docs.music) t.push(["music", "Music"]);
+    if (f.docs.edit) t.push(["edit", "Edit"]);
     return t;
   }
 
@@ -203,7 +206,7 @@
     var load = FILMS[slug] ? Promise.resolve(FILMS[slug]) : getJSON("data/films/" + encodeURIComponent(slug) + ".json");
     load.then(function (f) {
       FILMS[slug] = f;
-      document.title = f.title + " / " + (SITE.title || "FILM AI");
+      document.title = f.title + " / " + (SITE.title || "SHORT FILMS");
       var tabs = tabsFor(f);
       if (!tabs.some(function (t) { return t[0] === tab; })) tab = "overview";
       var fmt = f.format || {};

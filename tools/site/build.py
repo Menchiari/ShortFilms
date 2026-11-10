@@ -20,8 +20,8 @@ from filmlib import ROOT, iter_shots, load_json, loved_take, stats  # noqa: E402
 
 BIBLE_GROUPS = ["characters", "locations", "props", "vehicles"]
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".webp"}
-DEFAULT_PUBLISH = {"story": True, "analysis": False, "bible": True, "shotlist": True,
-                   "prompts": True, "costs": True, "sound": True, "music": True}
+DEFAULT_PUBLISH = {"story": True, "analysis": True, "bible": True, "shotlist": True,
+                   "prompts": True, "costs": True, "sound": True, "music": True, "edit": True}
 
 
 class Builder:
@@ -145,10 +145,15 @@ class Builder:
         # a document is published only when its flag allows it and its stage has started,
         # so empty templates never reach the site
         started = {k for k, v in (film.get("stages") or {}).items() if v in ("in-progress", "done")}
-        docs = [("story", "story", "01-story/story.md"), ("analysis", "analysis", "02-analysis/analysis.md"),
-                ("sound", "sound_list", "06-sound/SFX.md"), ("music", "music", "07-music/analysis.md")]
-        for key, stage, rel in docs:
-            if publish[key] and stage in started:
+        docs = [("story", "story", "story", "01-story/story.md"),
+                ("analysis", "analysis", "analysis", "02-analysis/analysis.md"),
+                ("questions", "analysis", "analysis", "02-analysis/questions.md"),
+                ("budget", "costs", "shot_plan", "04-shotlist/BUDGET.md"),
+                ("sound", "sound", "sound_list", "06-sound/SFX.md"),
+                ("music", "music", "music", "07-music/analysis.md"),
+                ("edit", "edit", "edit", "08-edit/EDIT.md")]
+        for key, flag, stage, rel in docs:
+            if publish.get(flag) and stage in started:
                 data["docs"][key] = self.doc(film_dir, rel)
         data["docs"] = {k: v for k, v in data["docs"].items() if v}
         if publish["bible"] and "bible" in started:

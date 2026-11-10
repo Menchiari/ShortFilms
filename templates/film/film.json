@@ -8,18 +8,19 @@
   "public": true,
   "publish": {
     "story": true,
-    "analysis": false,
+    "analysis": true,
     "bible": true,
     "shotlist": true,
     "prompts": true,
     "costs": true,
     "sound": true,
-    "music": true
+    "music": true,
+    "edit": true
   },
   "format": {
     "aspect": "",
     "fps": 24,
-    "resolution": "1080p",
+    "resolution": "",
     "target_runtime_s": null
   },
   "poster": "",

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Framerate and size tool for AI clips. Needs ffmpeg and ffprobe (ffmpeg 5.1 or newer).
 
-  python3 tools/media/fps.py probe clip.mp4
-  python3 tools/media/fps.py fix clip.mp4 [--fps 24] [--method cfr|interp|blend] [--max-mb 95] [-o out.mp4]
-  python3 tools/media/fps.py fit clip.mp4 [--max-mb 95] [--force] [-o out.mp4]
+  python tools/media/fps.py probe clip.mp4
+  python tools/media/fps.py fix clip.mp4 [--fps 24] [--method cfr|interp|blend] [--max-mb 95] [-o out.mp4]
+  python tools/media/fps.py fit clip.mp4 [--max-mb 95] [--force] [-o out.mp4]
 
 fix methods (duration is always preserved):
   cfr     conform to constant frame rate only (VFR or wrong rate). Fast, no frames invented.

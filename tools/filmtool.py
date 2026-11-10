@@ -1,19 +1,22 @@
 #!/usr/bin/env python3
-"""Film project tool.
+"""Film project tool. On Windows use `python`, on Mac and Linux `python3`.
 
-  python3 tools/filmtool.py new "Title" [--id 007]
-  python3 tools/filmtool.py status [film]
-  python3 tools/filmtool.py render <film>
-  python3 tools/filmtool.py add-take <film> S01 SH010 --credits 80 --duration 5 --resolution 1080p
+  python tools/filmtool.py new "Title" [--id 007]
+  python tools/filmtool.py status [film]
+  python tools/filmtool.py render <film>
+  python tools/filmtool.py add-take <film> S01 SH010 --credits 35 --duration 5 --resolution 720p
         [--mode t2v] [--aspect 21:9] [--job JOB_ID] [--no-audio] [--file PATH]
-  python3 tools/filmtool.py rate <film> S01 SH010 T02 --rating 4 [--love] [--inferred] [--notes "..."]
-  python3 tools/filmtool.py log <film> "What happened"
-  python3 tools/filmtool.py check
+  python tools/filmtool.py rate <film> S01 SH010 T02 --rating 4 [--love] [--inferred] [--notes "..."]
+  python tools/filmtool.py log <film> "What happened"
+  python tools/filmtool.py check
+  python tools/filmtool.py get 001        add one film to a sparse clone
+  python tools/filmtool.py hooks          install the 95 MB commit guard (once per computer)
 """
 
 import argparse
 import datetime as dt
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -24,6 +27,15 @@ from filmlib import (  # noqa: E402
 )
 
 TODAY = dt.date.today().isoformat()
+WARN_TOTAL_GB = 4.0
+
+
+def disk_mb(path):
+    return sum(f.stat().st_size for f in path.rglob("*") if f.is_file() and "_local" not in f.parts) / 1e6
+
+
+def git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
 
 
 def cmd_new(args):
@@ -32,7 +44,7 @@ def cmd_new(args):
     fid = args.id.zfill(3) if args.id else str((max(used) + 1) if used else 1).zfill(3)
     if any(d.name.startswith(fid + "-") for d in film_dirs()):
         raise SystemExit(f"Film id {fid} already exists.")
-    slug = f"{fid}-{slugify(args.title)}"
+    slug = f"{fid}-{slugify(args.title)[:40].rstrip('-')}"
     dest = FILMS / slug
     if dest.exists():
         raise SystemExit(f"{dest} already exists, nothing done.")
@@ -51,8 +63,9 @@ def cmd_new(args):
 def cmd_status(args):
     dirs = [find_film(args.film)] if args.film else film_dirs()
     if not dirs:
-        print("No films yet. Start one with: python3 tools/filmtool.py new \"Title\"")
+        print("No films yet. Start one with: python tools/filmtool.py new \"Title\"")
         return
+    total = 0.0
     for d in dirs:
         film, shotlist = load_film(d)
         s = stats(film, shotlist)
@@ -63,6 +76,11 @@ def cmd_status(args):
         stages = film.get("stages", {})
         line = "  " + "  ".join(f"{k}:{stages.get(k, 'todo')}" for k in STAGES)
         print(line)
+        mb = disk_mb(d)
+        total += mb
+        print(f"  size on disk {mb:.1f} MB")
+    if not args.film:
+        print(f"All films on disk: {total / 1000:.2f} GB (GitHub guidance: under 5 GB; warning at {WARN_TOTAL_GB:g} GB)")
 
 
 def cmd_render(args):
@@ -192,10 +210,36 @@ def cmd_check(args):
             mb = path.stat().st_size / 1_000_000
             if mb > MAX_FILE_MB:
                 problems.append(f"{path.relative_to(ROOT)}: {mb:.1f} MB is over {MAX_FILE_MB} MB")
+    total_gb = sum(disk_mb(d) for d in film_dirs()) / 1000
+    if total_gb > WARN_TOTAL_GB:
+        print(f"WARNING: films take {total_gb:.2f} GB on disk, nearing GitHub's 5 GB guidance. Tell the user.")
     if problems:
         print("\n".join(problems))
         raise SystemExit(1)
-    print(f"OK ({len(film_dirs())} films)")
+    print(f"OK ({len(film_dirs())} films, {total_gb:.2f} GB)")
+
+
+def cmd_get(args):
+    fid = args.film.zfill(3) if args.film.isdigit() else args.film
+    r = git("ls-tree", "-d", "--name-only", "HEAD", "films/")
+    names = [n.split("/", 1)[1] for n in r.stdout.split() if n.startswith("films/")]
+    match = [n for n in names if n == fid or n.startswith(fid + "-")]
+    if not match:
+        raise SystemExit(f"No film starting with {fid}- on this branch.")
+    if git("config", "core.sparseCheckout").stdout.strip() != "true":
+        print(f"This clone is complete, films/{match[0]} is already here.")
+        return
+    r = git("sparse-checkout", "add", f"films/{match[0]}")
+    if r.returncode:
+        raise SystemExit(r.stderr)
+    print(f"Ready: films/{match[0]}")
+
+
+def cmd_hooks(args):
+    r = git("config", "core.hooksPath", "tools/hooks")
+    if r.returncode:
+        raise SystemExit(r.stderr)
+    print("Commit guard installed: commits with a file over 95 MB will be refused.")
 
 
 def main():
@@ -233,6 +277,8 @@ def main():
 
     a = sub.add_parser("log"); a.add_argument("film"); a.add_argument("text"); a.set_defaults(func=cmd_log)
     a = sub.add_parser("check"); a.set_defaults(func=cmd_check)
+    a = sub.add_parser("get"); a.add_argument("film"); a.set_defaults(func=cmd_get)
+    a = sub.add_parser("hooks"); a.set_defaults(func=cmd_hooks)
 
     args = p.parse_args()
     args.func(args)

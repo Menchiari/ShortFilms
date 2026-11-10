@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Muted web preview and poster for the site.
 
-  python3 tools/media/preview.py <film> S01 SH010 T03     one take, updates shotlist.json
-  python3 tools/media/preview.py <film> --loved             every loved take without a preview
-  python3 tools/media/preview.py --file clip.mp4 --out DIR  any clip
+  python tools/media/preview.py <film> S01 SH010 T03     one take, updates shotlist.json
+  python tools/media/preview.py <film> --loved             every loved take without a preview
+  python tools/media/preview.py --file clip.mp4 --out DIR  any clip
 
 Preview: H.264, height 720 (never upscaled), CRF 27, no audio, fast start. Poster: JPEG at 40%.
 """
@@ -46,8 +46,8 @@ def for_take(film_dir, take):
         print(f"{take.get('id')}: no file on disk, skipped")
         return False
     mp4, jpg = make(src, film_dir / "05-generation" / "web")
-    take["preview"] = str(mp4.relative_to(film_dir))
-    take["poster"] = str(jpg.relative_to(film_dir))
+    take["preview"] = mp4.relative_to(film_dir).as_posix()
+    take["poster"] = jpg.relative_to(film_dir).as_posix()
     return True
 
 

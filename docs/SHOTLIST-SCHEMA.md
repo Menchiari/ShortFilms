@@ -1,7 +1,7 @@
 # shotlist.json
 
 Source of truth for scenes, shots and takes. `04-shotlist/SHOTLIST.md` is rendered from it with
-`python3 tools/filmtool.py render <film>`. Do not edit the rendered file.
+`python tools/filmtool.py render <film>`. Do not edit the rendered file.
 
 ```json
 {

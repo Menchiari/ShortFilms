@@ -18,9 +18,9 @@ Higgsfield gets probed and the result goes here.
 ## Commands
 
 ```
-python3 tools/media/fps.py probe take.mp4
-python3 tools/media/fps.py fix take.mp4 --method interp
-python3 tools/media/fps.py fit take.mov --max-mb 95
+python tools/media/fps.py probe take.mp4
+python tools/media/fps.py fix take.mp4 --method interp
+python tools/media/fps.py fit take.mov --max-mb 95
 ```
 
 - `probe` prints codec, size, duration, container rate, average rate, frame count, duplicate

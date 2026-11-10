@@ -1,4 +1,7 @@
 * text=auto
+# Git for Windows runs hooks with sh: CRLF line endings would break them
+*.sh text eol=lf
+tools/hooks/* text eol=lf
 *.mp4 binary
 *.mov binary
 *.wav binary

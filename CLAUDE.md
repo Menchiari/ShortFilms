@@ -9,6 +9,8 @@ follows these rules. They override habits and defaults.
    in chat for that exact request. Before asking, run a cost preflight (`get_cost: true`, free) and
    present: what will be generated, model, mode, duration, resolution, count, credits each, total,
    and balance after. An approval covers exactly that list. Anything else is a new request.
+   Credit spending is never automated: no standing budgets, no "up to N takes", no retries, no
+   scheduled or batch spending. The user decides every spend, every time.
 2. **Never delete the user's files.** Not in git, not in Higgsfield, not on disk. Replacing a file
    means a new version next to it (`_v2`, `T02`), never an overwrite or removal. If something truly
    must go, ask first and name the exact path.
@@ -16,9 +18,10 @@ follows these rules. They override habits and defaults.
    into the folder of its scene and shot (`S01/SH010`), reference stills into `REFS`, music into
    `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into another
    project. If a folder does not exist yet, create it in the right project first.
-4. **No music in shot generations, ever.** Every shot prompt carries "No background music." Sound
-   in generations stays flat and diegetic: dialogue, room tone, contact sounds. The user does the
-   sound design.
+4. **Never music in shot generations.** Every shot prompt ends with "No music of any kind: no
+   background music, no score, no soundtrack. No subtitles." Sound in generations stays flat and
+   diegetic: dialogue, room tone, contact sounds. The user does the sound design. Music is
+   generated only in the music stage (PIPELINE.md stage 11), only when the user asks for it.
 5. **No file over 95 MB in git.** GitHub rejects 100 MiB. The pre-commit hook in `tools/hooks`
    enforces it. Big masters and intermediates live in the film's `_local/` folder (gitignored).
 6. **No Git LFS.** By the user's decision.
@@ -34,8 +37,9 @@ follows these rules. They override habits and defaults.
 - Prompts for Seedance follow the `seedance-master` skill (formula, timed beats, reference roles,
   ACTING TASK block, constraint tail). Load it before writing any generation prompt.
 - After every generation: download the file, name it `<filmid>_<S##>_<SH###>_<T##>.mp4`, record the
-  take in `shotlist.json` (job id, settings, credits, prompt file), and commit. Rejected takes stay
-  in Higgsfield and are only referenced by job id; loved takes are committed to git.
+  take in `shotlist.json` (job id, settings, credits, prompt file), and commit. **Every take goes
+  into git, loved or not** (user decision 2026-11-10: scraps can be reused). Watch the repository
+  size with `filmtool.py status` and tell the user before it nears GitHub's 5 GB guidance.
 - Ratings: the user's word wins. If the user only reacts, infer the rating and mark
   `"rating_source": "inferred"`: "love it" = 5 + love, "good/works" = 4, "usable" = 3,
   "meh" = 2, "no/bad" = 1.
@@ -48,10 +52,13 @@ follows these rules. They override habits and defaults.
 - Video model: `seedance_2_5` on Higgsfield. 24 fps output.
 - Shot generation: one shot per generation. Multi-shot generations only for rapid sequences of very
   short shots.
-- `generate_audio: true` (costs the same, gives a guide track and lip sync), always with
-  "No background music. No subtitles."
-- Resolution: decided per shot in the shot plan. Cost per second (checked 2026-11-09):
-  480p = 3, 720p = 7, 1080p = 16 credits. Audio and bitrate mode do not change the price.
+- `generate_audio: true` (costs the same, gives a guide track and lip sync), always with the
+  no-music line from rule 4.
+- Resolution and aspect ratio: decided per film with the user, usually 480p or 720p. 1080p only
+  when the user asks. Cost per second (checked 2026-11-09): 480p = 3, 720p = 7, 1080p = 16
+  credits. Audio and bitrate mode do not change the price.
+- The user edits on Windows laptops with DaVinci Resolve Free, repository at `C:\ShortFilms`.
+  User-facing commands use `python` (not `python3`) and must work in PowerShell.
 
 ## Where things are
 
