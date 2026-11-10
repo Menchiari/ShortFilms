@@ -13,7 +13,8 @@ follows these rules. They override habits and defaults.
    scheduled or batch spending. The user decides every spend, every time.
 2. **Never delete the user's files.** Not in git, not in Higgsfield, not on disk. Replacing a file
    means a new version next to it (`_v2`, `T02`), never an overwrite or removal. If something truly
-   must go, ask first and name the exact path.
+   must go, ask first and name the exact path. Exception: story drafts in `stories/` are versioned
+   by git: edited in place, committed and pushed after every change.
 3. **Higgsfield folder discipline.** Every generation goes into the film's own Higgsfield project,
    into the folder of its scene and shot (`S01/SH010`), reference stills into `REFS`, music into
    `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into another
@@ -54,6 +55,22 @@ follows these rules. They override habits and defaults.
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
 
+## Story development
+
+- For any film idea, story development, outline, treatment or screenplay, use the `writers-room`
+  skill. Review every stage with the `braintrust` subagent.
+- Stories live in `stories/<slug>/`, one file per stage, versions in git. The site never reads
+  `stories/`.
+- A story becomes a film only when the user says so: `python3 tools/filmtool.py new "Title"`, then
+  the locked screenplay is copied (never moved) into the film's `01-story/source/` and PIPELINE.md
+  stage 0 starts.
+- Developing an existing film: story work goes in `stories/<film-slug>/`; the film folder is read,
+  and edited only on explicit instruction.
+- Pipeline export: the story bible's "Pipeline export" table maps story outputs to the film's
+  files: `01-story/story.md`, `02-analysis/analysis.md`, `03-bible/world.md`, `03-bible/style.md`
+  and `style-refs/`, `03-bible/characters|locations|props|vehicles/<slug>.md` (elements; Higgsfield
+  ids there and in `film.json` under `higgsfield`), `shotlist.json`, `docs/PROMPTING.md`.
+
 ## Defaults (until the user changes them)
 
 - Video model: `seedance_2_5` on Higgsfield. 24 fps output.
@@ -77,4 +94,7 @@ follows these rules. They override habits and defaults.
   framerate, website. `docs/reference/`: source material.
 - `templates/film/`: skeleton copied by `python3 tools/filmtool.py new "Title"`.
 - `films/<id>-<slug>/`: one folder per film.
+- `stories/<slug>/`: story development, one folder per idea.
+- `.claude/skills/writers-room/`: writers' room skill and research. `.claude/agents/braintrust.md`:
+  story reviewer.
 - `tools/`: film tool, media tools, site builder, git hooks.
