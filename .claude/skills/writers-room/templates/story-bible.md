@@ -1,5 +1,5 @@
 # Story bible: <title>
-File: stories/<slug>/04-story-bible-v01.md   Status: DRAFT / LOCKED (date)
+File: stories/<slug>/bible.md   Status: DRAFT / LOCKED (date)
 Lock condition: all BLOCKING questions answered; Leonard says "lock".
 Tags: [MINE] / [PROPOSED-ACCEPTED] / [PROPOSED-PENDING]. Nothing pending in a locked bible.
 

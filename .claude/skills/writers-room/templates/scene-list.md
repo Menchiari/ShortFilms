@@ -1,5 +1,5 @@
 # Scene list: <title>
-File: stories/<slug>/05-scene-list-v01.md
+File: stories/<slug>/scenes.md
 Rule: a scene whose opening and closing charge match is cut or merged. Every scene turns on action or revelation.
 
 | # | Slug (INT./EXT. place, time) | Est. pages | Scene objective (who wants what, infinitive) | Opposing want | Value at stake | Opens (+/-) | Closes (+/-) | Turning point (action / revelation: what) | Sets up / Pays off | Sequence # |

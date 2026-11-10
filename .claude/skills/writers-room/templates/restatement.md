@@ -1,5 +1,5 @@
 # Writers' room restatement: <title>
-File: stories/<slug>/02-restatement-v01.md
+File: stories/<slug>/restatement.md
 Every element is tagged [MINE] (from Leonard, with a quote or reference) or [PROPOSED] (invented here). No untagged elements.
 
 ## Source map (write this first)

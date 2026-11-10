@@ -1,5 +1,5 @@
 # Intake: <working title or "untitled">
-File: stories/<slug>/01-intake.md   (date: YYYY-MM-DD)
+File: stories/<slug>/idea.md (append-only: question rounds and Leonard's answers go below the intake)   (date: YYYY-MM-DD)
 
 ## The idea, verbatim
 <Paste exactly what Leonard gave, in his language. Do not clean it up.>

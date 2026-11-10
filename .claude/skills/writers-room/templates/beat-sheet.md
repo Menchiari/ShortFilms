@@ -1,5 +1,5 @@
 # Beat sheet: <title>
-File: stories/<slug>/05-beat-sheet-v01.md
+File: stories/<slug>/beats.md
 Runtime target: <min>  Pages: <n>  Scenes budget: <n>  Acts: <n>  (structure.md section 5)
 Built backward: climax first, then crisis, then inciting incident.
 
