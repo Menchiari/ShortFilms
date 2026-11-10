@@ -1,175 +1,133 @@
-BRAINTRUST REVIEW: Politician, restatement draft 1
+BRAINTRUST REVIEW: Politician, story bible draft 1
 
-Stage reviewed: writers' room restatement (step 2), draft 1.
-Files read: /home/user/ShortFilms/stories/politician/restatement.md (under review), /home/user/ShortFilms/stories/politician/idea.md. Reference: review.md, anti-slop.md, conflicts.md, writers-and-directors.md, structure.md, craft.md, mckee.md (ch. 13 to 16), templates/restatement.md, SKILL.md (hard rules, steps 2 and 3).
-Lenses: Kubrick (political material; the audience's knowledge is chosen on purpose; the opposing view argued at full strength), Garland (meaning by inference; the ending has to land without a speech), Spielberg (hide the threat and show its effect; one concrete human detail carries the scale; the audience present, not informed). Catmull is the frame, not a lens.
+Stage reviewed: story bible (step 4), draft 1, not locked.
+Files read: /home/user/ShortFilms/stories/politician/bible.md (under review), /home/user/ShortFilms/stories/politician/idea.md, /home/user/ShortFilms/stories/politician/restatement.md, /home/user/ShortFilms/stories/politician/review.md. Reference: review.md, anti-slop.md, conflicts.md, writers-and-directors.md, structure.md (sections 3 to 5), craft.md, mckee.md (ch. 13 to 16), templates/story-bible.md, SKILL.md.
+Lenses: Garland (meaning by inference; the ending must land without a speech), Kubrick (what the audience knows at each point is chosen on purpose), Spielberg (show the threat's effect before the threat; one concrete detail carries the scale). Catmull is the frame, not a lens.
 
-Short answers to the four checks you asked for:
-- Fidelity: three BLOCKING sets of [MINE]-tagged reinterpretations (N1 to N3), plus unmapped lines that bear on the ending (N4).
-- Controlling ideas: 1 does not answer his question. 3 is a default in disguise. 2 is the least default, but it is promoted with claims that fail. All three sit in one family (public image), away from the money chain his draft spends most screen time on (N9, N10).
-- Runtime: the direction is right but the framing is wrong. The unit should be turns and seconds, not pages. The arrival is counted twice. The proposed cut hits an item he said to keep (N5).
-- Slogans and invented specifics: yes, listed under anti-slop 35, 36 and 38.
+Short answers to your checks
+- Fidelity: better than the restatement, but not clean. Five [MINE] items still change his meaning, and the [PROPOSED-ACCEPTED] tags can't be traced because the chat options A to D are not in idea.md (N2).
+- Rejections: nothing he rejected has come back. There is no fat-man beat and no TVs at the end. One remaining risk: the camera position for the last shot (N7).
+- Previous notes N1 to N15: fixed are N2, N3, N6, N9, N10, N11 and N12. Mostly fixed: N7, N14, N15. Partly carried over: N1 (blame only, N2a) and N13 (chat options not recorded, N2e). Carried over: N4 and N8 (N3 here) and N5 (N5 here).
+- "Why do they still want him" readable without a speech? Not as specified. The bible never states the question. Ending A shows why they came (the paper), not why they want him. Nothing planted lets the audience link the paper to anything (N1).
+- Can 4 minutes hold the turns? Not with every beat locked. It runs about 5 to 6 minutes, or it plays as montage (N5).
+- Lock blocked by N1 (needs one answer from Leonard) and N2 (fixes in the file plus recording the chat options).
 
 ---
 
-N1 [BLOCKING] restatement.md: Logline (line 25), Formula (line 28)
-Problem: Both are tagged [MINE]. Both turn his fact into the crowd's belief, and the logline adds a cause he never gave. The source map keeps "All of this because of this one person" as "A fact: he caused it" and parks the other reading as Q2. The logline then uses that other reading.
-Evidence: "[MINE] A man everyone blames for the collapse of their world..."; "When a man the whole country blames for its ruin..."; "...until people higher up save him, because "he needs to get back to work". [Open: the reason they still want him, Q5.]" His words: "All of this because of this one person"; "She's got him, and he needs to get back to work. Why do they still want him after his reputation went so much to shit?"
-Effect: Leonard approves a one-line version of his film that has already answered Q2 against his own wording. It also answers Q5 with "because", while the bracket next to it says Q5 is open. Candidates 2 and 3 both depend on Q2, so the logline tilts the ending before he has been asked.
-Principle: review.md check 1; anti-slop 34, 39.
-Direction: While Q2 and Q5 are open, can the logline use his exact words for those two parts?
-
-N2 [BLOCKING] restatement.md: Source map line 10; Formula line 28 and D line 32; Forces lines 50, 52; line 69; Generic line 102
-Problem: Five more [MINE] items change what he wrote.
+N1 [BLOCKING] bible.md: Controlling idea (lines 16 to 18); Forces, helicopter row (line 42); Ending (lines 93 to 95)
+Problem: The bible never states the question his ending exists to answer, and the ending it locks answers a different one. The bible also puts its own cause away from the climax.
 Evidence:
-(a) A slot he filled is marked open: "Age and look left open by him". He wrote "An OLD MAN" and "your delicate, wrinkly old ass". "this part can be explored later" follows the look options (tech-styled, fat, botox), not the age. The draft itself uses "an old body [MINE]" on line 50.
-(b) Agency moved: "the town becomes a mob that takes the money, empties his gun and hangs him from a street light [MINE]". His text: "The old man shoots, one person dies. He shoots again, another person drops dead." and "He keeps shooting until the loud gunshots turn into short metallic clicks." The same erasure recurs on line 102: "What makes him hateable on screen is behavior; the spit is the one he has." He also lies ("I don't know you!") and kills at least two people.
-(c) His last action is replaced. The Formula ends "going back to work [MINE]", and D reads "he spits on the dead and boards [MINE]". His text: "He spits on the dead. He gets up and goes back to the briefcase while the helicopter lands." The briefcase is gone from the climax summary.
-(d) The draft's own value is filed as his: "The crowd: justice by its own hands ... [MINE]", while line 54 labels justice "[PROPOSED value]". His crowd says "rip your guts open" and "Don't let him get away!!!". The draft's own Personal row calls it revenge.
-(e) "[MINE: he texts the crowd together]". His text: "grabs his phone and starts texting". Who he texts is not stated.
-Effect: The man in this analysis never kills anyone and never goes back to the money. Those two facts carry the moral balance of the chase and his last visible choice. Candidates built without them are built on a different film. This hits candidate 2 hardest, because the footage it relies on would show him shooting into a crowd.
-Principle: review.md check 1 (slots emptied, agency and causes changed); anti-slop 34; SKILL.md hard rule 3.
-Direction: Restore each item as he wrote it and put any reading beside it as [PROPOSED].
+- None of these lines of his appear in the bible: "Why do they still want him after his reputation went so much to shit? This is the clue part of the movie. It can remain obscure as long as it's clear that it makes sense in a way."; "It's the message of the movie... something that makes us think: oh shit. Of course."; "She's got him, and he needs to get back to work."
+- The bible says: "The lady: what he is carrying [PROPOSED-ACCEPTED]"; "she checks the signature: "Get in.""; "On screen, the cycle lives in the middle of the film, not in the last image".
+- Everything planted before the end says money: "Back seat, a closed suitcase with some money half out", "It's me! I have the money!", the bills flying. The paper first appears in the last scene. Only "Wait till they see what I was able to..." points at it, and that line is cut off.
+- The cause is his Q10 answer quoted whole, not one sentence. Its key sentence has an unclear subject: "He's one of those who does something about it". Line 18 maps it onto the money grab without a tag, but in that image the money flows from him to the crowd, the reverse of "the things that are making this person rich".
+Effect: The audience reads that she wanted the document, it was in order, and he comes along. That explains why they came, not why they still want him. "Of course" needs something the audience already saw and now reads differently. A document they have never seen is new information, so the likely reaction is "a document", not "oh shit". The no-speech part works. What is missing is a link the audience can make on its own. With the cause placed mid-film, the last image carries no argument.
+Principle: McKee ch. 13 (the controlling idea comes from the climax) and ch. 15 (create the desire to know before answering); craft 9; Garland lens; anti-slop 29 (a case whose contents are the reveal is the first version this premise offers).
+Direction: He has given two answers to "why him". One is Q2: "this one is the one that has been blamed, for money... to hide what they are doing by blaming someone else". The other is the delivery: "what I was able to...", "perhaps legal documents?". Ending A carries the second. The first survives only in World (line 62) and the pending image system (line 99). Which one should the last scene carry?
+- Whichever it is: what has the audience already seen (riot intro, signs, chase) that the paper could repeat without a word?
+- The crowd grabs the cash and leaves the paper in the case: is that part of the intended "of course"?
+- If the "He" in Q10 is the one in the crowd who acts, the sniper's first shot (the man with the pipe) already puts his cause in the climax.
 
-N3 [BLOCKING] restatement.md: Source map line 22; Place line 85
-Problem: The verbatim column misquotes him and cuts the clause that gives his reason for America. The Place line, tagged [MINE], then states a purpose his design contradicts.
-Evidence: Draft: "| "it should be clearly america" | Politician's origin | He is clearly American, slight accent | none |" and "Accented English with no clear origin keeps any country from owning the story [MINE]." His text: "should also have a bit of an accent, but should be clearly america, the land of capitalism, where everything is possible, including what I'm about to paste." His stated purpose for the accents: "so that we don't know where anyone is from."
-Effect: He built an asymmetry: the locals are from nowhere, the one man is from a named country, and he gave a reason ("the land of capitalism, where everything is possible, including" this story). The draft keeps the accent and drops the reason, which is the only reason he gives for making the man American. No candidate draws on it (see N9).
-Principle: review.md check 1 (cause dropped); anti-slop 34; conflicts.md B.4.
-Direction: Is his "land of capitalism" sentence a candidate value for the film? What does the asymmetry do to an audience?
-
-N4 [MAJOR] restatement.md: Source map (lines 8 to 22); Causality line 77; Missing line 112
-Problem: Lines of his that bear directly on Q5 are not mapped, and one ambiguous line is read one way with "none" given as the alternative.
-Evidence: Not mapped: "This person escaped and nobody knows where he went."; "Authorities are corrupt" (only "everyone knows his face" is used, in candidate 3); the fat man's "nobody around to baby-sit you" and "now that no one is around to save your delicate, wrinkly old ass". Read one way: "Why is this politician so important we do not know. Is he even a politician?" becomes "The audience never learns his exact role", with "none" as the other reading. "we do not know" can mean the audience, or Leonard and the room; elsewhere he writes "That final part... we really need to figure it out". "Is he even a politician?" is a question he left open.
-Effect: The draft says "Without those two plants it reads as coincidence" (the call and the reporter's warning). His draft has at least four plants, because the fat man names the missing protectors twice. The "who are they" material (a fugitive, corrupt authorities, protectors the crowd expects to see) is missing from the analysis of the exact problem he asked for help with. And a door he opened himself ("Is he even a politician?") is closed without asking him.
-Principle: templates/restatement.md ("If his words allow two readings, ask; do not choose"); craft 9.
-Direction: Map these lines and ask which reading of "we do not know" he meant.
-
-N5 [MAJOR] restatement.md: Source map line 9; Generic line 101; Missing line 108
-Problem: The direction is right. The material is two to three times the target; by my rough count Part 1 is about 1,200 words, which is consistent with 4 to 5 pages. But the problem is stated in the wrong unit and as the wrong question.
-Evidence: "Part 1 alone measures about 4.3 screenplay pages (about 4 minutes)"; "riots, desert road, twist and ending add 2 to 4 more. At 2-3 minutes most of Part 1 and most of the riot intro go."; "Which wins: the length or the material?"
-- "measures" presents an estimate as a measurement. Converting pages to minutes is least reliable for wordless action, which is most of this film. In this pipeline the unit is shots and seconds; the intake in idea.md already lists cost per second.
-- "desert road" is Part 2's version of the arrival that Part 1 already contains ("I wrote this a few times"). It is counted twice.
-- The constraint that binds is turns, not minutes. structure.md section 5: a micro short holds 1 to 4 scenes, one sequence, "one turn". His material turns about fifteen times: blocked road and empty tank; engine dies; recognition; crowd forms; money flies; call cut by the rock; warning shot holds them; the tough ones advance and he kills two; clicks and the gun at his own head; the hanging; the sniper; the massacre and "That's enough Roger"; the rope; the spit; the lady. In 150 seconds that is about ten seconds per turn, before any riot intro.
-- The inciting incident is due in the first 20 percent, which is 24 to 36 seconds. The draft's own estimate gives the riot intro 30 to 60 seconds. With the speeding car and the fuel on top, he reaches the town after that window has closed.
-- "most of the riot intro go" collides with his "I like the riots as an intro" (kept in idea.md). It also collides with the draft's own use of the reporter's warning, which lives in that intro, as a plant for the rescue. The claim that the montage says "what the town scene shows anyway" is wrong: the town scene shows a quiet street after lunch, not stocks, gas or people leaving.
-- The candidates are not costed. Candidate 2 adds an evening scene with televisions: a new time, probably a new place.
-Effect: Asking "length or material" invites him to trim every beat. At ten seconds a turn the film plays as a montage, and no single change registers.
-Principle: structure.md 1 and 5; craft 1, 4, 29; McKee ch. 12.
-Direction: Can Q1 be asked as two questions: which turn is the film, and what do his two kept openings cost in seconds?
-
-N6 [MAJOR] restatement.md: Central question line 39; Link check line 59; Story triangle line 75
-Problem: The draft's model of the audience during the chase contradicts his, and the draft does not say so. Empathy for a protagonist built to be hated is never addressed. The switch of viewpoint is undeclared.
-Evidence: Draft: "The film makes them fear for the most hated man in the country for about two minutes, then shows what saving him costs. [PROPOSED reading of his structure]". His reason for cutting the brains: "It's unnecessay satisfaction. This is what we would probably expect". Draft: "the film's opposition flips from the man's view to the crowd's view at the twist", next to "Protagonist: single" and "Leans toward: Archplot".
-Effect: His wording assumes the audience wants the man dead; the draft assumes they fear for him. Those two lead to different endings. If the audience is with the crowd, the helicopter kills their side and the rage lands on the rescuers. If they fear for him, the rescue plays first as relief. "for about two minutes" is an invented duration in a 2-3 minute film.
-Principle: craft 12, 15; McKee ch. 16 (Center of Good); structure.md 4; Kubrick lens.
-Direction: During the chase, where is the Center of Good: the crowd, the fat man, the frightened old body, or split between them? Is the switch of viewpoint a declared break?
-
-N7 [MAJOR] restatement.md: Formula D (lines 28, 32); Story triangle line 75; Missing
-Problem: The draft never names a crisis or a climax, and the Formula hides that the protagonist does nothing at the end. Two of his beats that carry the man's inner turn appear nowhere.
-Evidence: "he must respond by getting up among the dead, spitting on them and going back to work [MINE]"; "then passive; the rescue is done to him." Missing from the whole draft: "he points the gun to himself, realizing that he is now out of bullets" and "yelling, pissing himself, looking at the people around him dead, but then you see that he's a person with guts".
-Effect: The rubric asks for controlling ideas derived from the climax. These are derived from the epilogue (the reason they want him). With no climactic choice named, the reason has only the lady's "short exchange of words" to live in, which pulls it toward a spoken line: the version he already calls "Weak, too simple". The gun at his own head is the one dilemma his material gives the man. Terror turning into contempt (pissing himself, then the spit) is the visible turn of the private layer the draft says he has.
-Principle: McKee ch. 13; craft 6, 32; structure.md 1.
-Direction: Whose choice is the climax: his, the lady's, Roger's, or that of whoever decided when to fire? If his passivity at the end is the point, is it declared as such?
-
-N8 [MAJOR] restatement.md: Central question (lines 34 to 39)
-Problem: The question the ending answers, "Why do they still want him", is never raised for the audience before the helicopter arrives.
-Evidence: The three layers ask whether he escapes, whether he delivers, and whether any of it touches him. Then: "What the audience is actually holding during the chase: will the crowd kill him." No layer asks who "they" are.
-Effect: "oh shit. Of course." only works if the audience already holds the pieces and has read them one way first. As restated, the question is born when the helicopter appears and is answered within the same minute. That plays as information, not recognition.
-Principle: craft 9, 11; McKee ch. 15 ("Create the desire to know before answering"); Garland lens.
-Direction: Which of his lines already carry "they" ("Wait till they see what I was able to...", "I have the money!", "nobody around to baby-sit you", the reporter's warning)? Does any candidate pay one of them off with a second meaning?
-
-N9 [MAJOR] restatement.md: Candidate controlling ideas (lines 61 to 70)
-Problem: One candidate does not answer his question, one is a default in disguise, and all three sit in one family, away from the center of his material.
+N2 [BLOCKING] bible.md: lines 12, 13, 32, 43, 46, 92, 93, 96, 103, 114
+Problem: Five [MINE] items change what he said, and the acceptance tags rest on options that are not in the record.
 Evidence:
-- Candidate 1: "Cause: the powerful protect the people who serve them, whatever the public knows." This explains why they protect him, not why they still want him after his name is ruined. It is correctly tagged [DEFAULT]. It shares value and charge ("justice, negative") with candidate 3.
-- Candidate 3: "Cause: hatred fixed on one face protects the people nobody can name." The front man who soaks up the anger is the stock answer to "why keep a hated man". It needs a [DEFAULT] tag, or a case for why it is not one. Its image is the fresh part and also the hard part to film. "no one recognizes her" is the normal state of any stranger, and the audience does not know her either, so the camera has to make an absence visible.
-- Candidates 2 and 3 differ from each other (his ruin reversed vs his ruin as his function), but both turn on his public image. The list method names "the money", "a new face" and "the next city"; the draft does not say why they lost.
-- His material plants one chain more than any other: "I have the money!", the case opening, the crowd on the ground for cash, "our tax money", and his return to the briefcase at the end. Around it sit "Stocks falling", the "business lady" and "the land of capitalism". No candidate draws its cause from that chain; the money survives only as an optional line.
-- No candidate is checked against his own tests: "oh shit. Of course."; "It can remain obscure as long as it's clear that it makes sense in a way"; "nausea and rage"; "without creating anything too explicit".
-Effect: Leonard chooses among variations of one mechanism, and none of them comes from the object his draft spends the most time on.
-Principle: anti-slop 29, 37; templates/restatement.md; Kubrick lens.
-Direction: Should one of the three come from the money chain, or from his "Is he even a politician?"? How does each candidate score on his four tests?
+(a) Line 12, "the one the news blames for the riots...", and line 13, "the news has made the face of a collapse" (both [MINE]).
+   - His Q2: "Perhaps a bit of both. Clearly it's never only one person, but this one is the one that has been blamed, for money." Part 2: "All of this because of this one person." Notes: "He's aware of the damage he's doing to the world, and he doesn't care."
+   - The bible keeps the blame half and drops the half where he did it. "aware... doesn't care" and "a person with guts" appear nowhere; line 32 narrows them to "a mind that feels nothing for the dead".
+   - "Politician", his word for the man throughout, is replaced by "oligarch". Q11 added that word; it did not replace the first one. "needs to be the symbol of everything that everyone hates in politics" and "Generic, hateable, dispicable" are gone.
+(b) Line 43: "corrupt authorities protect him [MINE]". His line is "Authorities are corrupt, but everyone knows his face": a contrast, not a cause. The link from the reporter's warning to the massacre ("with a warning on the news in advance") was tagged [PROPOSED reading] in the restatement and is now untagged. This also answers Q14 (escaped from whom), which is still open. If he escaped from the authorities, the warning means they want him alive for themselves.
+(c) Line 46: "Her role stays obscure [MINE, Q5: "no idea"]". His answer, "That part I have no idea.", is undecided, and the bible turned it into a decision. His "This can be obscure" (Q10) was about the man, not about her.
+(d) Lines 92 and 103: "No splattered head, no brains [MINE]" is placed after the massacre, and the sniper beat reads "a man raises the metal pipe and is shot by a sniper".
+   - His rule was about the old man: "I don't like that his head gets splattered... It's unnecessay satisfaction."
+   - His sniper beat: "gets shot in the face buy a sniper", "probably after a swing or two".
+   - The rule's scope and reason are widened, and his face shot and the swings are dropped without asking him. The real tension (his face shot and "some more get killed just for fun" against "nothing too explicit") was recorded in the restatement and kept by the last review. It is now gone.
+(e) Traceability:
+   - Lines 12, 13, 46 and 93 tag the contract, her silence and open hand, the signature check and "Get in." as [PROPOSED-ACCEPTED]. idea.md records "I like A then B" (line 300) but not what A and B were. Revised B isn't there either, so line 96 ("the fat man pocketing a bill" next to his "I hate putting so much attention to that") can't be checked.
+   - "Get in." is [PROPOSED-ACCEPTED] on lines 46 and 93 but [PENDING] on line 114.
+   - Line 13 tags "handing over" as [MINE]. His text says "a short exchange of words".
+   - The contract's root in his own words is not cited: "perhaps legal documents? I mean... not sure what tbh."
+Effect: The logline he would approve presents him as a scapegoat only. The declension answers Q14 for him. The lady's open slot is closed. The beat sheet will soften a shot he wrote. And no one reading the files later can confirm what he accepted.
+Principle: review.md check 1; anti-slop 34, 39; SKILL.md hard rule 3 and step 3.
+Direction: Restore each item as he wrote it and put the reading beside it as [PROPOSED]. Append the chat options A to D and revised B to idea.md, under his answer.
 
-N10 [MAJOR] restatement.md: Declension line 58; candidate 2 line 64; Strong line 93
-Problem: The draft steers toward candidate 2 with claims that do not hold, and candidate 2 needs machinery the film has no room for.
+N3 [MAJOR] bible.md: Story triangle (line 82); declared break (lines 83 to 88); Climax (line 92); Conscious desire (line 30)
+Problem: The climax is done to him by a force the bible gives no setup for, yet the bible calls the design causal Archplot. His own setups for "they" are missing.
 Evidence:
-- "Only ending candidate 2 below reaches this level." The kit's mckee.md gives the Negation of the Negation for justice as "tyranny for justice". The draft moves tyranny up to Contradictory and invents a new last step. By the kit's own definition, the powerful killing the people who wanted justice (sanctioned in advance, on the draft's own reading of "serious repercussions") is the Negation of the Negation. That happens in all three candidates, because the massacre is his.
-- "Gives the opposing side its full case (the mob is as brutal as the people who stop it)." His mob beats and hangs one man who has just shot at least two of them. His helicopter shoots people while they run, and "some more get killed just for fun". "As brutal" is false to the material. It is the both-sides meaning that anti-slop 31 describes, and it weakens the counter-idea (the crowd's claim to justice) instead of giving it full strength.
-- The premise: "they found him without the address". He did say "slightly south from where we were supposed to meet", and a riot is visible from the air. The Strong section upgrades this to "the audience realizes they were tracked from the start. This plants the "tech that exists but nobody can see"". The audience has an ordinary explanation. And his tech phrase describes the style of the twist (Kojima, Clancy, the sniper, the helicopter), not tracking.
-- The machinery: tracking, waiting, footage, an evening broadcast, and suppression of the crowd's own phone footage of the massacre and of him shooting. The "no signal" image is listed as optional, but candidate 2 depends on it. None of this is in his material. The audience would have to read three things from one television image: they waited, he is now the victim, and that restores his value.
-Effect: The most elaborate option looks strongest for reasons that fail. Its payoff is also the one most likely to need a voice on a television to explain it, which is the spoken ending he has already rejected.
-Principle: mckee.md ch. 14; anti-slop 31, 35; Kubrick lens (the opposing view at full strength); Garland lens.
-Direction: If candidate 2 survives, what single image makes "they waited" readable without a narrator?
+- Line 82: "single active protagonist until the gun is empty; linear; causal". Every climactic action on line 92 belongs to the sniper, the helicopter and Roger.
+- Not in the bible: the call ("It's me! I have the money! ... I'm slightly south from where we were supposed to meet, the add--"; only "I need you to come get me, fast!" survives); the rock that cuts the call; the fat man's "nobody around to baby-sit you" and "now that no one is around to save your delicate, wrinkly old ass". Only the reporter's warning remains.
+- The declared break covers viewpoint, not his passivity at the climax. Its line 5, "the camera returns to him for the ending", is a return, not a replacement.
+Effect: Without the call and the cut-off address, the helicopter arrives from nowhere, at the climax, where coincidence does the most damage. The fat man's two lines are the only moment in Part 1 that tells the audience someone usually protects this man. Without them, "they" first exist when the shooting starts (last review's N4 and N8, carried over). "I have the money!" now also sits against a case whose point is a contract, and open item 1 doesn't mention the call.
+Principle: McKee ch. 16 (never resolve an ending by coincidence); craft 9; structure.md 4; Spielberg lens.
+Direction: Which of his setups does the bible lock as the cause of the rescue? Is the passive climax a second declared break, with its own five lines?
 
-N11 [MINOR] restatement.md: Protagonist's desire, lines 44 to 45
-Problem: Neither unconscious option contradicts the conscious desire.
-Evidence: Conscious: "reach the meeting point with the money and get picked up". The options: "To be seen and praised" and "To be needed... the lady's arrival answers it." The same act satisfies both. Option 1 contradicts a tactic ("He needs to stay unseen"), not the desire. "his bosses" is invented; his text only says "they".
-Effect: There is no inner conflict for later stages to build on. At 2-3 minutes none may be needed, but two that do not contradict will mislead.
-Principle: craft 16; templates/restatement.md.
+N4 [MAJOR] bible.md: World, Period (line 58); Genre (line 79); Story triangle (line 82); Cast (line 51)
+Problem: Two of his style promises have no element to carry them, and several of his visual specs are not routed anywhere.
+Evidence:
+- "surreal but hyper realistic", his first description of the film, is absent; line 82 says "consistent reality".
+- Line 58 records "the kind of tech that we all know exists but nobody can see it yet", and he asked for "realistic political almost sci-fi". The climax shows a sniper, a helicopter and a rope shot: present-day, visible equipment. Kojima appears only as a label.
+- Not routed to style.md: "vertigo effect", "isometric car moving parallel forward", "low angle".
+- "Sexy reporter" is now "REPORTER".
+Effect: The genre turn at the sniper shot is where he promised something the audience has not seen. As locked, it plays as an ordinary armed rescue. style.md and the character files are built from the bible's export table, so what is not here does not reach production.
+Principle: review.md check 1; structure.md 3 (reality spectrum).
+Direction: Where does "surreal" live? What is the one piece of tech nobody can see yet that he pictures?
 
-N12 [MINOR] restatement.md: line 68
-Problem: The proposed exchange ends on a punchline that states the theme, the same weakness as the spoken ending he already rejects. "their own tax money" asserts that the case holds tax money.
-Evidence: ""The money?" "They took it." "They'll pay it back."" and "The crowd grabbed their own tax money off the ground". His fat man asks "Is that what you like to do with our tax money?", which is an accusation about the man, not a statement about the case.
-Principle: anti-slop 9, 12, 36.
+N5 [MAJOR] bible.md: Format (line 8); World, riots (line 64); Ending (lines 91 to 95)
+Problem: The bible locks every beat of Part 1, the full riot list and the new exchange for "about 4 minutes". It has no seconds budget, no priority order and no named inciting incident (last review's N5, carried over).
+Evidence: idea.md line 177: "Part 1 alone is about 4.3 screenplay pages (about 4 minutes)". The bible keeps all of Part 1, line 64's twelve riot images plus the reporter, the cabin and the exchange. By my rough count (an estimate), that is about 25 beats besides the riot intro, roughly 8 to 10 seconds each. Three dialogue passages can't play that fast: the recognition, the call and the exchange. With the riots and the arrival first, the engine dying lands after the first 20 percent (48 seconds).
+Effect: Either the film runs about 5 to 6 minutes, or most beats play as montage and no single turn registers, which goes against his "pacing is more important than length". Cost scales with it: one take of every second at 720p is 1,680 credits for 4 minutes and 2,520 for 6 (CLAUDE.md rate), before retakes.
+Principle: structure.md 5; craft 13; McKee ch. 12.
+Direction: Is 4 minutes a ceiling or a guide? Which three beats must play at full length?
 
-N13 [MINOR] restatement.md: Q1 to Q6 throughout; idea.md line 172
-Problem: The questions are referred to but not written down anywhere. Q3 is used for two different questions (delivery or escape money on line 13; what is in the case at the end on line 14). Candidates 2 and 3 "depend on Q5" while being answers to Q5. idea.md says the length question was "asked as Q1 in round 1", but no round has been appended.
-Effect: Leonard cannot answer questions he cannot see, and nobody can check the order the questions depend on.
-Principle: SKILL.md step 3.
+N6 [MINOR] bible.md: Cast (line 53) vs Non-negotiables (line 107)
+Problem: Three openings claim first place: the cat is tagged "first image", the riots are "intro", and the car is "speeding at the start". His two drafts disagree on this, and the bible doesn't say which order wins.
+Direction: Mark the cat's position as open, or ask.
 
-N14 [MINOR] restatement.md: small accuracy items
-- Line 21: "as long as it's clear that it makes sense" drops his "in a way", which loosens his bar.
-- Lines 28 and 39: "the whole country", "the most hated man in the country". His place "could really be anywhere", and his riots are in "cities".
-- Line 105: "more explicit than the brains he removed". He removed the brains as "unnecessay satisfaction". The tension with "nothing too explicit" is real; the attribution is not.
-- Line 96: "shows killing as routine for these people". His Roger is "smiling, enjoying the process". Routine and enjoyment are directed differently.
-- Line 101: the signs "come from life". He did not say so; this needs asking.
-- Line 82: "by people the audience never saw arrive" is a claim about Captain Phillips. As I remember the film, the rescue team's arrival is shown; check it against the film before using it to define the promise. Kojima and Clancy, named in the same sentence, are missing from the genre promises.
-- Line 85: "it is where the people hit hardest by him live; his collapse made physical" is an untagged reading.
-- Line 25: the logline leaves out his desire (the template asks for protagonist, desire, opposition, stakes).
+N7 [MINOR] bible.md: Final image (line 95)
+Problem: The camera position is not stated. Watched from the ground among the bodies, the last image is the town's view and puts the dead back in frame, against "The ending needs to stay with the politician". His own version rises with the helicopter.
+Direction: Which side of the glass is the last shot on?
 
-N15 [MINOR] restatement.md: Missing (lines 107 to 112); research item line 69
-Problem: His explicit request about the riots, "I need it to be much more believable", is routed only through Q6. His own memory of Tahrir is never asked for. The only research item tied to Egypt is dated 2011; he places what he lived through in 2012.
-Effect: The intro stays at the stock images the draft itself calls generic.
-Principle: craft 22, 26; Spielberg lens (one concrete human detail carries the scale).
-Direction: What did he see in 2012 that he has never seen in a film?
+N8 [MINOR] bible.md: lines 16, 29, 114
+- Line 16, "the value is mine": in a file where [MINE] means Leonard, this reads as his.
+- Line 29, "fires a warning shot, then kills two people": drops his "He keeps shooting until the loud gunshots turn into short metallic clicks", which is where the miscount happens.
+- Line 114 offers "There's a lot of work left to be done." without his verdict on that ending ("Weak, too simple"). As a last line it states the theme (anti-slop 12).
+
+N9 [MINOR] bible.md: whole file; Research (line 73)
+- There is no honest assessment. The rubric asks for one, and nothing generic is named: the document reveal (N1), and the riot images, which stay stock images until his Q8 memory arrives.
+- Line 73's invented currency [PROPOSED-PENDING] works against "hyper realistic". He wants the man clearly American, and his money could show that without placing the town. Ask before inventing.
 
 ---
 
 FIDELITY CHECK
-- [MINE] items reinterpreted: "everyone blames" and "the whole country blames" (a fact turned into a belief); "because" (a cause added); age emptied; "empties his gun" (agency moved); "going back to work" in place of the briefcase; "justice [MINE]"; "texts the crowd together [MINE]"; "keeps any country from owning the story [MINE]"; the misquoted "it should be clearly america". See N1 to N3.
-- Untagged readings or invented specifics: "for about two minutes"; "in the country"; "his collapse made physical"; "come from life"; "tracked from the start" and the tech reading attached to it; "Leans toward: ... ironic ending" (line 79).
-- His lines with a slot not mapped: "This person escaped and nobody knows where he went."; "Authorities are corrupt"; "nobody around to baby-sit you"; "no one is around to save your..."; "he points the gun to himself"; "pissing himself"; "the land of capitalism...".
-- Non-negotiables: none broken outright. At risk: the riots intro ("most of the riot intro go", N5). The purpose of the accented English is restated against "clearly america" (N3). The "nothing too explicit" tension with the massacre is correctly flagged by the draft, though attributed to the wrong reason (N14). The speeding-car opening is not named as protected in the length analysis.
+- [MINE] items reinterpreted: the logline and Formula keep blame only (N2a); "corrupt authorities protect him" (N2b); "Her role stays obscure" (N2c); the non-negotiable widened and "shot in the face" dropped (N2d); "handing over" tagged [MINE] (N2e).
+- Untagged readings: the warning linked to the massacre (line 43); the Q10 cause mapped to the money grab (line 18).
+- His lines with no slot: "Why do they still want him...", "oh shit. Of course.", "makes sense in a way", "She's got him, and he needs to get back to work", "ready to fuck the world up", "aware of the damage", "a person with guts", "symbol of everything that everyone hates in politics", the call and "the add--", the rock, "baby-sit", "no one is around to save", "surreal", "almost sci-fi", "a swing or two", "He keeps shooting", "Sexy", "perhaps legal documents".
+- Accepted items not traceable: the options A to D and revised B are missing from idea.md.
+- Non-negotiables: none broken. One is widened beyond his scope (N2d). Nothing he rejected has returned.
 
 ANTI-SLOP FINDINGS (by number)
-- 26: none. No U+2014 or U+2013. Section E search terms: none found.
-- 31: "the mob is as brutal as the people who stop it".
-- 34: N1, N2, N3 items.
-- 35: "Only ending candidate 2 below reaches this level."; "Gives the opposing side its full case"; "the audience realizes they were tracked from the start"; "which is what an ending needs to be unexpected"; "so the film does not become a sermon"; "the spit is the one he has"; "it matches how crowds form through phones".
-- 36: "for about two minutes"; "his bosses"; "come from life"; "by people the audience never saw arrive"; "their own tax money".
-- 37: candidate 3 is not tagged [DEFAULT].
-- 38: "everyone knows his face [MINE]; nobody knows hers."; "His ruined reputation is the reason they want him: it just turned."; "He is useful because he is hated: the rage spends itself on him."; "then shows what saving him costs"; "and it comes back to the same people".
-- 39: the logline's "because" and "everyone blames" (N1).
-- 9 and 12: "They'll pay it back."
-- 11 (low priority, analysis rather than description): "Panic, an old body, sweat on the phone screen"; "(distance, sound, the crowd's reaction)".
+- 26: none (no U+2014 or U+2013). Section E search terms: none found.
+- 34: N2 (a) to (d).
+- 39: line 43 answers open Q14; line 46 answers Q5 differently from his answer.
+- 29: the case whose content is the reveal (N1).
+- 12: open item 3's "There's a lot of work left to be done." as a last line.
+- 10 (soft): line 18, "in the middle of the film, not in the last image".
+- 11 (low priority): logline triad "the riots, the falling markets and the cities emptying".
 
 LOAD-BEARING, KEEP
-- The source map's "Other possible reading" column, and Q2 in particular (fact or what people say). The ending choice hangs on it.
-- The [DEFAULT] label on his "back to work" ending, with his own verdict quoted.
-- What candidates 2 and 3 have in common: the answer to "why they still want him" is carried by an image, not by the lady's line. Keep that whichever candidate survives.
-- The flagged tension between "killed just for fun" and "without creating anything too explicit", with coverage (distance, sound, reaction) named as the way to hold both.
-- Q6 (one concrete, readable cause for "All of this because of this one person"). It answers his own "much more believable".
-- "Hateable is behavior, not a look", corrected to include that he lies and kills.
-- The facts-to-verify table, including the helicopter model he asked for.
+- The crisis at his own head with the miscount and the click (line 91). It is the only real dilemma his material gives the man, and it is on screen.
+- Pissing himself, then the spit (line 93). The private layer turns visibly, without words.
+- Her silence and open hand against "I don't pay your ass for nothing" (line 46). It is the one beat that shows "they" are above him, without dialogue. Keep it whatever the paper becomes.
+- No spoken theme at the end. "Get in." is a command, not a moral.
+- The declension now reaches tyranny through the massacre (line 43), as the kit's McKee requires.
+- The viewpoint break declared with five lines (lines 83 to 88). Only line 5 needs fixing.
+- The three-line open-items list and the Removed list with his words: the right size for his reading limit.
 
-OPEN QUESTIONS FOR LEONARD
-1. "Why is this politician so important we do not know": should the audience never learn, or do you not know yet? Is "Is he even a politician?" a door you want the ending to use?
-2. "clearly america, the land of capitalism, where everything is possible, including what I'm about to paste": is this sentence what the film means?
-3. Is he old, as Part 1 says ("OLD MAN", "wrinkly old ass"), with only his look left open?
-4. During the chase, who should the audience be with: the crowd (your "unnecessary satisfaction" suggests they want him dead), the frightened old man, or both at once?
-5. "he points the gun to himself": is he trying to kill himself?
-6. "This person escaped": escaped from whom? Are the "higher up people" the corrupt authorities from your bullet list, or someone above them?
-7. Is "2-3 minutes probably" firm, and what is the test film testing? If it is firm, which single moment must survive whole?
-8. "Captain Phillips ending": do you mean the sniper rescue, what comes after it, or both? What do Kojima and Clancy each promise you?
-9. Tahrir 2012: what did you see there that you have never seen in a film?
+OPEN QUESTIONS FOR LEONARD (one line each; the first blocks the lock)
+1. Why do they still want him? You gave two answers: he's "the one that has been blamed, for money", and what's in the case ("what I was able to...", "perhaps legal documents"). Which one should the last scene make us feel, or both?
+2. In "He's one of those who does something about it", is "he" the old man, or the one in the crowd who fights back?
+3. You wrote the sniper shoots the pipe man "in the face". Keep it, or is that too explicit?
+4. On the call, "It's me! I have the money!": keep it, now that the case carries a contract?
+5. "Tech we all know exists but nobody can see it yet": what do you picture?
+6. Last shot: rising with the helicopter, or watching it leave from the ground?
+7. 4 minutes: a limit, or a guide that pacing can break?
+8. The lady: you said "no idea". Can she stay undecided until the script?

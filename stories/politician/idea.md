@@ -301,3 +301,26 @@ Working rule from Q6: everything Leonard needs to decide goes in the chat, short
 
 ### Note on revised B (2026-11-10, verbatim)
 "no, I hate putting so much attention to that, it makes no sense. The ending needs to say with the politician. We could end it with the camera raising with the helicopter, then the helicopter goes away, and the camera pans down, looking at a few scared people slowly gathering around the bodies. But probably better to just end it with the helicopter going away"
+
+## Record: options shown to Leonard in the chat (appended after the bible review, 2026-11-10)
+Shown in the chat because he does not read the md files. His answers above refer to these.
+
+Chat, after his round 1 answers:
+- Briefcase proposal: a layer of big bills on top (the crowd scramble needs paper flying), a signed contract underneath. Completes "Wait till they see what I was able to...": he got the signature. What the contract is stays obscure. Bills in an invented currency.
+- Gun proposal: he miscounts because he did not count the warning shot.
+- A. The signature: the helicopter lands. He: "What took you so long? I don't pay your ass for nothing." She doesn't answer, holds out her hand. He gives her the contract from the case. She checks the signature: "Get in." He obeys.
+- B. The town goes silent again: after the helicopter leaves, doors open, people step out, pick the big bills up from around the bodies, go back inside, TVs still echoing the news.
+- C. The walls (moved down after his Q11).
+- D. She answers his line: "You don't pay us. They do." looking at the dead.
+- Recommendation given: A then B.
+His answer: "I like A then B, but what about the dead people?..." (recorded above).
+
+Chat, revised B (after his realism note):
+- The helicopter leaves; people come out to the bodies; the fat man kneels by his dead friend and pockets a bill stuck to the asphalt; cut to black. Option: the TVs still on, audio only.
+His answer: "no, I hate putting so much attention to that..." (recorded above).
+
+Chat, open items before the bible lock (no answer yet):
+1. Bills on top, contract underneath.
+2. The miscount from the warning shot.
+3. Her last words: "Get in." or "There's a lot of work left to be done."
+Then his request: "give me your first draft pdf shooting script, with shotlist outlined to the left of the script" (screenplay draft 1 written on that request, before the lock).
