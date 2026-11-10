@@ -5,8 +5,9 @@ Portable and self-contained. Give this whole file to any film project, short or 
 sheet supplies the voice; this file supplies the method.
 
 Status of the rules:
-- Unmarked: from ByteDance's official Seedance 2.5 prompt guide, Higgsfield's documentation and
-  price checks, or the director's acting method.
+- Unmarked: from ByteDance's official Seedance 2.5 prompt guide, Higgsfield's documentation,
+  model spec and price checks, the director's acting method and Seedance prompting skill, or
+  standard film craft (screen direction, continuity, coverage).
 - `[UNTESTED]`: reasoned from documented behavior, not yet proven on a take. Test it once on one
   shot before building a sequence on it.
 
@@ -17,7 +18,8 @@ Status of the rules:
 1. One video model for the whole film. Model versions render differently and the cut shows it.
 2. Prompts are plain English prose. Settings (mode, duration, resolution, aspect, audio flag)
    never go inside the prompt: they go in a settings line next to it.
-3. One shot per generation. Multi-shot generations only for rapid sequences of very short shots.
+3. Default: one shot per generation. Multi-shot generations only for rapid sequences of very
+   short shots.
 4. The cheapest method that gives the same or a similar result wins.
 5. Acting is the core. Everyone on screen has a task, speaking or not.
 6. Fixed skeleton, film-specific voice. The skeleton (section 6) never changes. Look, camera
@@ -29,15 +31,20 @@ Status of the rules:
 
 ## 2. Model facts (Seedance 2.5 on Higgsfield, November 2026)
 
-- Duration 4 to 30 s, whole seconds, one continuous single-pass generation. Output 24 fps.
-- Modes: `t2v`, `omni_reference` (image, video and audio references), `video_edit`,
-  `video_extension` (forward or backward).
+- Duration 4 to 30 s, whole seconds, default 5, one continuous single-pass generation.
+- Frame rate is not a setting. Expected 24 fps: probe the first take to confirm (appendix).
+- Modes: `t2v`, `omni_reference` (image, video and audio references), `video_edit` (billed by
+  the source video's duration; duration and aspect settings are ignored), `video_extension`
+  (direction `forward` or `backward`; aspect setting ignored, the output follows the source).
+- Settings: resolution 480p, 720p or 1080p; `generate_audio` on or off; `bitrate_mode` standard
+  or high.
 - Media roles: `start_image`, `end_image`, `image_references`, `video_references`,
   `audio_references`.
 - Aspect: auto, 21:9, 16:9, 4:3, 1:1, 3:4, 9:16.
-- References: up to 50 (30 images, 10 videos, 10 audio; about 30 s total per video and audio).
-  Recommended: 8 or fewer image subjects, 5 or fewer video or audio subjects, clips 5 to 10 s.
-  More than 5 subjects: single-view images only.
+- References: the model takes up to 50 (30 images, 10 videos, 10 audio; about 30 s total per
+  video and audio), per ByteDance. Higgsfield does not publish its own per-request limit: I don't
+  know it. Recommended: 8 or fewer image subjects, 5 or fewer video or audio subjects, clips 5 to
+  10 s. More than 5 subjects: single-view images only.
 - Native audio with lip sync: dialogue, ambience, effects. 11+ languages.
 - No seed parameter. A take cannot be reproduced, and a loved 720p take cannot be re-rendered at
   1080p: a new generation is a new performance. Choose the delivery resolution before generating
@@ -49,7 +56,8 @@ Status of the rules:
 - Unlocked tasks (references are semantic only): reference, storyboard, keyframes. Aspect and
   duration are free.
 - Editing works best on sources up to 20 s with 1 to 5 reference images.
-- Edit and extension keep colour, brightness and audio continuity best with MOV in and out.
+- Edit and extension keep colour, brightness and audio continuity best with MOV in and out
+  (ByteDance guide). Whether Higgsfield accepts and returns MOV: I don't know.
 - Seedance 2.0 ignores timestamps; 2.5 follows them.
 - Price (Higgsfield preflight, 2026-11-09): 480p 3, 720p 7, 1080p 16 credits per second. Audio on
   or off and bitrate mode do not change it. Prices change: run the free preflight every time.
@@ -96,15 +104,24 @@ Prompts copy from these files. They never re-invent.
 
 ## 5. References (Elements)
 
-- Naming: `char_<name>`, `loc_<name>`, `prop_<name>`; lowercase, hyphens, 32 characters max.
-- A typed `@name` attaches nothing. Select the element in the UI, or pass `<<<element_id>>>` in
-  the API (Higgsfield shows it as `@char_name`).
+- Use every element exactly as it is named in the film's element sheet. Higgsfield proposes a
+  name automatically (like `char_example`) and the name can be changed; the sheet is the record.
+- New elements only: `char_<name>`, `loc_<name>`, `prop_<name>`, lowercase, hyphens. Higgsfield
+  caps names at 32 characters and turns spaces into hyphens. Higgsfield categories: character,
+  environment, prop.
+- In the Higgsfield prompt the element is `@element_name`. Through the API (or any tool call),
+  only `<<<element_id>>>` works; Higgsfield injects the image and rewrites it to `@element_name`.
+  A name that matches no element (a template placeholder such as `@character_1`) attaches
+  nothing.
+- Higgsfield's element documentation (November 2026) lists Seedance 2.0 among element-capable
+  video models and does not list 2.5. Confirm elements work in 2.5 with one test before a
+  sequence depends on them.
 - One line per reference: what it provides and what must not transfer. Narrow wins:
   `@char_marta is Marta: face and hair only.` `@loc_corridor: space and light only, empty of people.`
 - Bind every asset in the text; a name written inside the image does nothing. When the asset is
   accurate, say to follow it instead of describing it again.
-- List and upload references in the order the subjects first appear on screen. A wrong order
-  gives the wrong person the face or the voice.
+- Mention references (and upload plain ones) in the order the subjects first appear on screen.
+  A wrong order can give the wrong person the face or the voice.
 - Image = look. Video = motion, camera path, timing. Audio = voice, ambience or a melody. An image
   and a video never do the same job.
 - Several angles of one object: separate images, never a grid, then: `@image1, @image2 and
@@ -115,12 +132,12 @@ Prompts copy from these files. They never re-invent.
   (`ffmpeg -i in.jpg -pix_fmt yuvj420p out.jpg`) or PNG; some JPEGs return HTTP 400.
 - Reference videos: 5 to 10 s, no subtitles.
 - Exact on-screen text: supplied as an image, or spelled letter by letter.
-- The image beats the words. An unwanted detail in a reference (a coat, a scar, a wall) comes
-  back whatever the prompt says. Fix the image.
+- The image beats the words. Wording cannot be relied on to erase an unwanted detail that is in
+  a reference (a coat, a scar, a wall). Fix the image.
 
 Feature scale:
 - **Costumes:** one reference per costume, same face (`char_marta-uniform`, `char_marta-coat`).
-  One element wearing the coat drags the coat into every scene.
+  One element wearing the coat can carry the coat into scenes where it does not belong.
 - **Age, injury, haircut:** a new reference each, same rules.
 - **Locations:** one reference per camera direction you will shoot (toward the door, toward the
   window). Whatever no reference shows, the model invents, and invents differently every take.
@@ -252,7 +269,8 @@ Rules:
 Screen grammar across a scene (the model has no memory between generations, so each prompt
 restates it):
 - Each character's screen side and gaze direction in every shot of the scene: "Ines screen-left,
-  looking screen-right". This is how the 180-degree line survives.
+  looking screen-right". The model keeps nothing between generations, so the 180-degree line
+  holds only if every prompt restates it.
 - Travel keeps one screen direction across a journey unless a shot shows the turn.
 - Key light direction per location setup in every prompt: "key from screen-right, the window".
 
@@ -264,10 +282,13 @@ restates it):
   emotion: `2-4s, Marta's line (testing him): {I thought you weren't coming.}`
 - Overlapping times mean overlapping lines. Silence is allowed; so are lines cut off mid-word.
 - Never repeat a line's wording anywhere else in the prompt, and never attach tone notes to single
-  words inside it. Both make subtitles appear. Refer to lines by order ("during her first line").
+  words inside it. The official guide names both as causes of unwanted subtitles. Refer to lines
+  by order ("during her first line").
 - Non-speakers: "keeps their mouth closed" for the moments they do not speak.
-- Syntax: `{ }` speech, `< >` sound effect, `【 】` on-screen text that is meant to be there.
-  Parentheses only for the delivery verb after the speaker's name.
+- Syntax: `{ }` speech, `【 】` on-screen text that is meant to be there. Parentheses only for the
+  delivery verb after the speaker's name. Sound effects in plain words ("the metal taps on the
+  steel"): the official examples use angle brackets `< >` for asset and character names, so they
+  are not used for sound.
 - The audio policy goes first and last in every prompt, listing every music word (section 6).
   If music still appears, strip non-vocal audio in post.
 - Generated audio is a guide track: dialogue, room tone, contact sounds. It is not
@@ -369,7 +390,7 @@ very short shots may share one generation: `Shot 1, 0-2s: ... Hard cut. Shot 2, 
 2. So stage scenes for few generations. Let one take carry the performance: a master, a moving
    shot, a oner up to 30 s, longer by extension.
 3. Cut on the listener. A reaction shot needs no lip sync, so the speaker's audio from the master
-   plays over it. This is the cheapest coverage there is.
+   plays over it. No lip sync to match makes it the cheapest coverage.
 4. A matching single of the speaker `[UNTESTED]`: attach the master's dialogue audio as `@audio1`
    ("@audio1 provides the exact dialogue, voices and timing; lips match it").
 5. Cut on action: the receiving shot starts with the action already underway at 0 s, in the exact
@@ -386,8 +407,8 @@ very short shots may share one generation: `Shot 1, 0-2s: ... Hard cut. Shot 2, 
 
 ## 14. Start frames and stills
 
-A still costs a fraction of a video take and locks composition and light before motion credits
-are spent. The image model is the director's choice; the grammar below works across models.
+A still is cheaper than a video take and locks composition and light before motion credits are
+spent. The image model is the director's choice; the grammar below works across models.
 
 - Make it at the film's aspect: the video takes the first frame's aspect.
 - Generation order: subject, style, light, composition, lens. Editing: the delta only, what
@@ -408,7 +429,8 @@ are spent. The image model is the director's choice; the grammar below works acr
 
 ## 15. Edit and extend
 
-- Pin the task type (Edit or Extend) in the UI. Auto reads the prompt and may return a new clip.
+- Choose the mode explicitly: `video_edit`, or `video_extension` with its direction. The source
+  clip must be 4 to 30 s.
 - Trigger words. Edit: edit video, add, insert, remove, delete, modify, replace, change to.
   Extend: extend forward, extend backward, continue, continue from.
 - Edit prompt: verb first, time window, current state, target state, then the lock:
@@ -473,7 +495,7 @@ Watch at normal speed with sound, then pick one:
 | Camera wanders | Screen position; each move tied to an event or a time, with a stop |
 | Identity drifts in a long take | 8 or fewer image subjects, 5 to 10 s clips, single-view; cut style first |
 | Wrong language or accent | Language and accent named before the lines |
-| Edit came back as a new clip | Pin the task type; verb-first edit with a time window |
+| Edit came back as a new clip | Mode `video_edit`; verb-first edit with a time window, then the lock |
 | Fingerprint texture on foliage | Resize references to the output resolution |
 | Misspelled text | Spell it letter by letter, or supply it as an image |
 | Looks pasted in (plates) | Key direction, bounce, haze, grain, depth of field, edges |
@@ -494,8 +516,8 @@ Tested prompt: [paste it].
 1. Duration equals the last timecode. Start and end frames share the video's aspect.
 2. Resolution is the delivery resolution if this take could be a keeper.
 3. Audio policy first and last.
-4. Every element attached (not only typed), in order of first appearance, each with a role and
-   what not to take.
+4. Every element named exactly as in the element sheet (`<<<element_id>>>` through the API), in
+   order of first appearance, each with a role and what not to take.
 5. Every action has a named person; every prop has an owner.
 6. Timeline: whole seconds, no gaps, one change per segment, each inheriting the last state, the
    last one stating the final frame.
