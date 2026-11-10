@@ -57,8 +57,11 @@ follows these rules. They override habits and defaults.
 - Resolution and aspect ratio: decided per film with the user, usually 480p or 720p. 1080p only
   when the user asks. Cost per second (checked 2026-11-09): 480p = 3, 720p = 7, 1080p = 16
   credits. Audio and bitrate mode do not change the price.
-- The user edits on Windows laptops with DaVinci Resolve Free, repository at `C:\ShortFilms`.
-  User-facing commands use `python` (not `python3`) and must work in PowerShell.
+- The user works on a PC (Windows) and a Mac, DaVinci Resolve Free. Each computer has its own
+  light clone on whichever of its own drives has room, with only the film in progress; paths
+  differ per computer (Resolve Mapped Mount or relink). User-facing commands: `python` on
+  Windows (PowerShell), `python3` on Mac.
+- `films-index.json` (film sizes for `filmtool space`) is refreshed by `filmtool check`: commit it.
 
 ## Where things are
 

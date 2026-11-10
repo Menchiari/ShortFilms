@@ -11,27 +11,29 @@
   python tools/filmtool.py check
   python tools/filmtool.py get 001        add one film to a sparse clone
   python tools/filmtool.py hooks          install the 95 MB commit guard (once per computer)
+  python tools/filmtool.py space          free space per drive, size of every film
 """
 
 import argparse
 import datetime as dt
+import os
 import shutil
+import string
 import subprocess
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from filmlib import (  # noqa: E402
-    FILMS, MAX_FILE_MB, ROOT, SHOT_STATUSES, STAGES, TEMPLATE, film_dirs, find_film, iter_shots,
-    load_film, load_json, loved_take, save_json, slugify, stats,
+    FILMS, INDEX, MAX_FILE_MB, ROOT, SHOT_STATUSES, STAGES, TEMPLATE, film_dirs, film_disk_mb,
+    find_film, iter_shots, load_film, load_json, loved_take, save_json, slugify, stats, update_index,
 )
 
 TODAY = dt.date.today().isoformat()
 WARN_TOTAL_GB = 4.0
 
 
-def disk_mb(path):
-    return sum(f.stat().st_size for f in path.rglob("*") if f.is_file() and "_local" not in f.parts) / 1e6
+disk_mb = film_disk_mb
 
 
 def git(*args):
@@ -56,6 +58,7 @@ def cmd_new(args):
                     .replace("{{TITLE}}", args.title).replace("{{DATE}}", TODAY))
             path.write_text(text, encoding="utf-8")
     (dest / "_local").mkdir(exist_ok=True)
+    update_index()
     print(f"Created films/{slug}")
     print("Next: put the story in 01-story/source/ or paste it to Claude.")
 
@@ -145,6 +148,7 @@ def cmd_add_take(args):
     takes.append(take)
     shot["status"] = "review"
     save_json(d / "shotlist.json", shotlist)
+    update_index()
     print(f"Added {args.scene} {args.shot} {tid}  ({base})")
 
 
@@ -213,6 +217,8 @@ def cmd_check(args):
     total_gb = sum(disk_mb(d) for d in film_dirs()) / 1000
     if total_gb > WARN_TOTAL_GB:
         print(f"WARNING: films take {total_gb:.2f} GB on disk, nearing GitHub's 5 GB guidance. Tell the user.")
+    if update_index():
+        print("films-index.json refreshed (commit it with the rest).")
     if problems:
         print("\n".join(problems))
         raise SystemExit(1)
@@ -233,6 +239,50 @@ def cmd_get(args):
     if r.returncode:
         raise SystemExit(r.stderr)
     print(f"Ready: films/{match[0]}")
+
+
+def drives():
+    """Mounted drives of this computer: Windows letters, Mac volumes, Linux mounts."""
+    if os.name == "nt":
+        roots = [f"{c}:\\" for c in string.ascii_uppercase if os.path.exists(f"{c}:\\")]
+    else:
+        roots = ["/"]
+        for base in ["/Volumes", "/media", "/mnt", "/run/media"]:
+            b = Path(base)
+            if b.is_dir():
+                for p in b.iterdir():
+                    roots.append(str(p))
+                    if base in ("/media", "/run/media") and p.is_dir():
+                        roots += [str(q) for q in p.iterdir()]
+    seen, out = set(), []
+    for r in roots:
+        try:
+            dev = os.stat(r).st_dev
+            usage = shutil.disk_usage(r)
+        except OSError:
+            continue  # empty card reader, unmounted volume
+        if dev in seen:
+            continue
+        seen.add(dev)
+        out.append((r, usage))
+    return out
+
+
+def cmd_space(args):
+    u = shutil.disk_usage(ROOT)
+    print(f"This copy of ShortFilms: {ROOT}  (its drive has {u.free / 1e9:.1f} GB free)")
+    print("\nDrives on this computer:")
+    for root, u in drives():
+        print(f"  {root:<28} free {u.free / 1e9:7.1f} GB of {u.total / 1e9:7.1f} GB")
+    index = load_json(INDEX) if INDEX.exists() else {"films": []}
+    films = index.get("films", [])
+    if not films:
+        print("\nNo films in the index yet.")
+        return
+    print("\nFilms (a film needs about twice its size on a computer: the files plus git's copy):")
+    for f in films:
+        need = f["size_mb"] * 2 / 1000
+        print(f"  {f['slug']:<44} {f['size_mb'] / 1000:6.2f} GB in git   needs ~{need:5.2f} GB   {f['takes']} takes")
 
 
 def cmd_hooks(args):
@@ -279,6 +329,7 @@ def main():
     a = sub.add_parser("check"); a.set_defaults(func=cmd_check)
     a = sub.add_parser("get"); a.add_argument("film"); a.set_defaults(func=cmd_get)
     a = sub.add_parser("hooks"); a.set_defaults(func=cmd_hooks)
+    a = sub.add_parser("space"); a.set_defaults(func=cmd_space)
 
     args = p.parse_args()
     args.func(args)

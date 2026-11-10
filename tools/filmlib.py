@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FILMS = ROOT / "films"
 TEMPLATE = ROOT / "templates" / "film"
+INDEX = ROOT / "films-index.json"
 
 STAGES = [
     "story", "analysis", "bible", "shotlist", "shot_plan", "sound_list", "references",
@@ -96,3 +97,27 @@ def stats(film, shotlist):
         "stages_total": len(STAGES),
         "estimated_credits": sum((s.get("approach") or {}).get("estimated_credits") or 0 for s in shots),
     }
+
+
+def film_disk_mb(path):
+    """Size of a film folder on disk, without the never-committed _local folder."""
+    return sum(f.stat().st_size for f in path.rglob("*") if f.is_file() and "_local" not in f.parts) / 1e6
+
+
+def update_index():
+    """Refresh films-index.json for the films present on this computer, keep the others as they were.
+    Returns True when the file changed."""
+    old = load_json(INDEX) if INDEX.exists() else {"films": []}
+    entries = {e["slug"]: e for e in old.get("films", [])}
+    for d in film_dirs():
+        film, shotlist = load_film(d)
+        takes = sum(len(s.get("takes", [])) for _, s in iter_shots(shotlist))
+        entries[d.name] = {"slug": d.name, "id": film.get("id"), "title": film.get("title"),
+                           "status": film.get("status"), "takes": takes,
+                           "size_mb": round(film_disk_mb(d), 1)}
+    new = {"note": "Written by tools/filmtool.py. Size of each film in git, used by 'filmtool space'.",
+           "films": sorted(entries.values(), key=lambda e: e["slug"])}
+    if new != old:
+        save_json(INDEX, new)
+        return True
+    return False

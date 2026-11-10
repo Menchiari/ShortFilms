@@ -29,7 +29,8 @@ templates/film/          skeleton of a film folder
 films/                   one folder per film
 tools/
   filmtool.py            new film, status and sizes, render shotlist, takes, ratings, checks,
-                         get (one film into a sparse clone), hooks (install the commit guard)
+                         get (one film into a sparse clone), hooks (install the commit guard),
+                         space (free space per drive, size of every film)
   media/fps.py           probe, fix and fit clips (framerate, size under 95 MB)
   media/preview.py       muted web preview and poster for the site
   site/build.py          static site generator
@@ -56,15 +57,10 @@ films/001-title/
   _local/                never committed (big intermediates, masters)
 ```
 
-## First time on a laptop (Windows, PowerShell)
+## First time on a computer (Mac or PC)
 
-```
-git clone https://github.com/Menchiari/ShortFilms.git C:\ShortFilms
-cd C:\ShortFilms
-python tools/filmtool.py hooks
-```
+Each computer keeps its own copy, on any of its own drives, with only the film in progress.
+`python tools/filmtool.py space` shows which drive has room. Steps in
+`docs/STORAGE-AND-EDIT.md` ("Each computer keeps its own copy").
 
-Always `C:\ShortFilms`, on every laptop: Resolve keeps absolute paths, so the same path means
-media never goes offline. A lighter clone with only one film is in `docs/STORAGE-AND-EDIT.md`.
-
-Requirements: Git for Windows, Python 3.9+, ffmpeg (`winget install --id Gyan.FFmpeg -e`).
+Requirements: Git, Python 3.9+, ffmpeg.

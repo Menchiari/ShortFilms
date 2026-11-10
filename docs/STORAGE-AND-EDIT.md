@@ -1,4 +1,4 @@
-# Storage (git without LFS) and editing (DaVinci Resolve Free, Windows)
+# Storage (git without LFS) and editing (DaVinci Resolve Free, Mac and PC)
 
 ## What GitHub allows
 
@@ -28,34 +28,45 @@ of a Seedance 2.5 file yet: the first take gets measured and the number goes her
 nears the 5 GB guidance, the clean way out is a second repository for finished films (for example
 `ShortFilms-Archive`), decided with you before it is needed, never done silently.
 
-## Setup on a Windows laptop (once per computer)
+## Each computer keeps its own copy
 
-1. Install Git for Windows, Python 3 (python.org, tick "Add python.exe to PATH") and ffmpeg
-   (`winget install --id Gyan.FFmpeg -e` in PowerShell, then reopen the terminal).
-2. Clone to the **same path on every laptop**: `C:\ShortFilms`. Resolve stores absolute paths, and
-   `C:\ShortFilms` is identical on every machine whatever the Windows user name is, so media never
-   goes offline.
+GitHub holds everything. Each computer (Mac or PC) keeps its own copy on whichever of **its own**
+drives has room, and only the film you are working on. Computers never share a drive: they meet
+on GitHub through `git pull` and `git push`.
 
-Everything (simplest):
-
-```
-git clone https://github.com/Menchiari/ShortFilms.git C:\ShortFilms
-cd C:\ShortFilms
-python tools/filmtool.py hooks
-```
-
-Only the films you need (lighter, file contents download only for what you check out):
+**How much room.** A film needs about twice its size on a computer (the files, plus git's own
+copy of them in the hidden `.git` folder). Before downloading a film, run:
 
 ```
-git clone --filter=blob:none --sparse https://github.com/Menchiari/ShortFilms.git C:\ShortFilms
-cd C:\ShortFilms
+python tools/filmtool.py space        (Mac: python3)
+```
+
+It lists every drive of that computer with its free space, and every film with its size and the
+space it needs. Pick any drive with more free space than that. The sizes come from
+`films-index.json`, which Claude keeps current at every commit.
+
+**Setup, once per computer.** Install Git, Python 3 and ffmpeg
+(Windows: Git for Windows, python.org with "Add python.exe to PATH" ticked, and
+`winget install --id Gyan.FFmpeg -e`; Mac: `xcode-select --install` for Git, python.org for
+Python, ffmpeg from ffmpeg.org or Homebrew). Then, with `<drive>` being the drive you picked
+(examples: `D:\ShortFilms` on the PC, `~/ShortFilms` on the Mac):
+
+```
+git clone --filter=blob:none --sparse https://github.com/Menchiari/ShortFilms.git <drive>
+cd <drive>
 git sparse-checkout set tools templates docs
+python tools/filmtool.py space
 python tools/filmtool.py get 001
 python tools/filmtool.py hooks
 ```
 
-`hooks` installs the guard that refuses commits with a file over 95 MB. `get 002` adds another
-film later.
+This light clone downloads the tools (a few MB), then only film 001. `get 002` adds another film.
+`hooks` installs the guard that refuses commits with a file over 95 MB.
+
+**Freeing space after a film is finished.** Everything is on GitHub once pushed. When a computer
+runs short, the clean way is a fresh light clone with only the current film, on any drive; what
+happens to the old folder is your call (after `git status` says nothing to commit and `git push`
+is done, nothing in it is lost).
 
 Daily loop: `git pull` before you start, `git add -A`, `git commit -m "..."`, `git push` when you
 stop.
@@ -67,9 +78,17 @@ stop.
 - Resolve does not keep a project as a folder. Projects live in Resolve's database. A project
   travels as one `.drp` file (Project Manager: right click, Export Project / Import Project). This
   works in the free version.
-- Media links inside a project are absolute paths. With the repository at `C:\ShortFilms` on every
-  laptop, they always resolve. If a clip ever shows offline: select the clips, right click,
-  Relink Selected Clips, pick the film folder.
+- Media links inside a project are absolute paths, and your Mac and your PC have different paths.
+  Two ways to bridge them:
+  - **Mapped Mount (set once per computer, automatic after that).** Preferences > System >
+    Media Storage. Add the local ShortFilms folder, and in its "Mapped Mount" column put the path
+    of the same folder on the other computer. PC: mount `D:\ShortFilms`, mapped mount
+    `/Users/<you>/ShortFilms`. Mac: the reverse. Blackmagic built this for Mac and Windows sharing
+    projects. One user reported that on Windows the field only offered a Browse button; others
+    typed into it. We test it on your PC.
+  - **Relink (always works).** Select all clips in the Media Pool, right click, Relink Selected
+    Clips, pick the film folder. Every file name in this repo is unique
+    (`001_S01_SH010_T03.mp4`), so Resolve cannot link the wrong take.
 - Automation: Blackmagic's 21.1 release notes say Python scripting moved to the Studio version.
   You use Free, so the routine below is manual. It is short.
 
@@ -86,16 +105,17 @@ First time for a film:
    `08-edit\001-title.drp` (overwrite the previous one, git keeps the history).
 5. Commit and push.
 
-On the other laptop:
+On the other computer:
 
-1. `git pull`.
+1. `git pull`. Keep the same Resolve version on both computers: a project from a newer Resolve
+   does not open in an older one.
 2. Project Manager, Import Project, pick `08-edit\001-title.drp`. If a project with that name is
-   already in Resolve on this laptop, rename the local one first (right click, Rename, add
+   already in Resolve on this computer, rename the local one first (right click, Rename, add
    `_old-<date>`), then import. Never delete it: it may hold work that was not exported.
 3. Edit, then export over the `.drp` again before you stop.
 
 The rule that prevents lost work: export the `.drp` at the end of every session, import it at
-the start of a session on the other laptop.
+the start of a session on the other computer.
 
 ### Exports
 
