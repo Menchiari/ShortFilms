@@ -96,7 +96,6 @@ class Builder:
                     if publish["costs"]:
                         entry["credits"] = t.get("credits")
                     if t is lt or t.get("love"):
-                        entry["preview"] = self.copy(film_dir, t.get("preview", ""))
                         entry["poster"] = self.copy(film_dir, t.get("poster", ""))
                         entry["references"] = [self.copy(film_dir, r) for r in t.get("references", [])]
                         if publish["prompts"] and t.get("prompt") and (film_dir / t["prompt"]).is_file():

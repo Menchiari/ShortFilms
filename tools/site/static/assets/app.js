@@ -182,7 +182,7 @@
           var thumb = lt && lt.poster ? '<img class="thumb" src="' + esc(lt.poster) + '" alt="" loading="lazy">' : '<div class="thumb empty">' + esc(sh.id) + "</div>";
           var spec = [sh.framing, sh.angle, sh.lens, sh.movement, sh.duration_s ? sh.duration_s + "s" : "", sh.transition_in && sh.transition_in !== "cut" ? sh.transition_in : ""].filter(Boolean).join(" / ");
           var body = '<div class="shot-body"><div>' +
-            (lt && lt.preview ? '<div class="frame"><video src="' + esc(lt.preview) + '" poster="' + esc(lt.poster || "") + '" controls muted loop playsinline preload="none"></video></div>' : "") +
+            (lt && lt.poster ? '<div class="frame"><img src="' + esc(lt.poster) + '" alt="' + esc(sh.id) + '" loading="lazy"></div>' : "") +
             (sh.purpose ? '<p class="note"><span class="label">Why this shot</span><br>' + esc(sh.purpose) + "</p>" : "") +
             (sh.dialogue ? '<p class="note"><span class="label">Dialogue</span><br>' + esc(sh.dialogue) + "</p>" : "") +
             "</div><div>" +

@@ -34,7 +34,7 @@ tools/
                          get (one film into a sparse clone), hooks (install the commit guard),
                          space (free space per drive, size of every film)
   media/fps.py           probe, fix and fit clips (framerate, size under 95 MB)
-  media/preview.py       muted web preview and poster for the site
+  media/preview.py       poster stills for the site (no video on the site)
   site/build.py          static site generator
   get-film.sh            same as `filmtool.py get` (Git Bash, Mac, Linux)
   install-hooks.sh       same as `filmtool.py hooks` (Git Bash, Mac, Linux)
@@ -51,7 +51,7 @@ films/001-title/
   02-analysis/           analysis.md, questions.md
   03-bible/              world.md, characters/, locations/, props/, vehicles/
   04-shotlist/           SHOTLIST.md (rendered), BUDGET.md
-  05-generation/         prompts/, frames/, takes/S01/SH010/, web/ (site previews)
+  05-generation/         prompts/, frames/, takes/S01/SH010/, web/ (site posters)
   06-sound/              SFX.md (ElevenLabs list), sfx/
   07-music/              input/, analysis.md, prompts/, takes/
   08-edit/               EDIT.md, <film>.drp, exports/

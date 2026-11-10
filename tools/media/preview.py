@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Muted web preview and poster for the site.
+"""Poster still for the site (the site shows no video, to stay light).
 
   python tools/media/preview.py <film> S01 SH010 T03     one take, updates shotlist.json
-  python tools/media/preview.py <film> --loved             every loved take without a preview
+  python tools/media/preview.py <film> --loved             every loved take without a poster
   python tools/media/preview.py --file clip.mp4 --out DIR  any clip
 
-Preview: H.264, height 720 (never upscaled), CRF 27, no audio, fast start. Poster: JPEG at 40%.
+Poster: JPEG frame at 40% of the clip, 1280 px wide at most (about 100 to 250 KB).
 """
 
 import argparse
@@ -26,18 +26,13 @@ def duration(path):
 def make(src, out_dir):
     src, out_dir = Path(src), Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-    mp4, jpg = out_dir / f"{src.stem}.mp4", out_dir / f"{src.stem}.jpg"
-    scale = "scale=-2:'min(720,ih)'"
-    subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src), "-an",
-                    "-vf", scale, "-c:v", "libx264", "-preset", "slow", "-crf", "27",
-                    "-profile:v", "high", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(mp4)],
-                   check=True)
+    jpg = out_dir / f"{src.stem}.jpg"
     t = duration(src) * 0.4
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-ss", f"{t:.3f}", "-i",
-                    str(src), "-frames:v", "1", "-vf", "scale=-2:'min(720,ih)'", "-q:v", "3", str(jpg)],
+                    str(src), "-frames:v", "1", "-vf", "scale='min(1280,iw)':-2", "-q:v", "4", str(jpg)],
                    check=True)
-    print(f"{mp4.name} {mp4.stat().st_size / 1e6:.2f} MB, {jpg.name} {jpg.stat().st_size / 1e3:.0f} KB")
-    return mp4, jpg
+    print(f"{jpg.name} {jpg.stat().st_size / 1e3:.0f} KB")
+    return jpg
 
 
 def for_take(film_dir, take):
@@ -45,8 +40,7 @@ def for_take(film_dir, take):
     if not take.get("file") or not src.exists():
         print(f"{take.get('id')}: no file on disk, skipped")
         return False
-    mp4, jpg = make(src, film_dir / "05-generation" / "web")
-    take["preview"] = mp4.relative_to(film_dir).as_posix()
+    jpg = make(src, film_dir / "05-generation" / "web")
     take["poster"] = jpg.relative_to(film_dir).as_posix()
     return True
 
@@ -72,7 +66,7 @@ def main():
     changed = False
     for scene, shot in iter_shots(shotlist):
         for t in shot.get("takes", []):
-            if a.loved and t.get("love") and not t.get("preview"):
+            if a.loved and t.get("love") and not t.get("poster"):
                 changed |= for_take(d, t)
             elif (scene.get("id"), shot.get("id"), t.get("id")) == (a.scene, a.shot, a.take):
                 changed |= for_take(d, t)

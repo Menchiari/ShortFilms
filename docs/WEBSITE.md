@@ -14,7 +14,7 @@ private repo (films/*)  ->  GitHub Action builds dist/ (small)  ->  Cloudflare s
 - All links are relative, so the same build works at `/filmai/`, at the root of a subdomain, or
   opened from disk.
 - Cloudflare never clones the repository. The Action uploads only `dist/`: documents, JSON,
-  posters and short muted previews of loved takes. Every file stays far below Cloudflare's 25 MiB
+  one small poster still per loved take, never video. Every file stays far below Cloudflare's 25 MiB
   per-file limit, and the free plan allows 20,000 files per deployment.
 - `private/` folders are never read. Each film controls the rest with its `publish` flags in
   `film.json`:

@@ -118,7 +118,7 @@ For each shot, in order:
 3. You approve. Claude generates into the Higgsfield folder `S01/SH010` of this film.
 4. Claude downloads, names the file, records the take and commits it.
 5. You react. Claude records love and rating (inferred from your words when you do not give one)
-   and makes a muted web preview and a poster for loved takes.
+   and makes a poster still for loved takes (the site shows no video).
 6. Next take changes one axis only, or we move to the next shot.
 
 Every take goes into git, loved or not, so scraps stay reusable.
