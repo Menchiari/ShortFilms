@@ -233,3 +233,44 @@ Helpful answers: a news story, a video, a sentence someone said in public, a num
 
 ### Answers to round 1 (2026-11-10)
 Q1 (answered before the round was shown, verbatim): "it can be 4 minutes if that works, pacing is more important than length. We are aiming for something good"
+
+## Question round 1, addendum after the Braintrust review (2026-11-10)
+Added from the review's open questions. Age is not asked: Part 1 says "OLD MAN".
+
+Q6, added option:
+f) [PROPOSED] The walls: the walls that block the town on both sides are construction hoardings printed with a render of glass towers where the town stands. The same render shows up in the riot intro and, at the end, on the lady's tablet in the cabin. She tells him there is a lot of work left to be done [MINE]; the helicopter flies over the walls toward the next city, intact at sunset. (Down: emptying the cities was the job; "People moving out of cities" [MINE].)
+
+Q10 [BLOCKING] [CRAFT] "Why is this politician so important we do not know": who does not know?
+Decides: whether the ending must reveal his role or must keep it hidden.
+a) The audience never learns.
+b) You do not know yet; the ending can decide it.
+c) Your own.
+
+Q11 [BLOCKING] [CRAFT] "clearly america, the land of capitalism, where everything is possible, including what I'm about to paste": what is this sentence for?
+Decides: whether money and markets are the film's subject, which favors candidate f.
+a) Taken literally: it is why he is American, and what the film is about.
+b) Only his origin and flavor.
+c) Your own.
+
+Q12 [BLOCKING] [CRAFT] During the chase, who is the audience with?
+Decides: whether the rescue lands as rage or first as relief.
+a) The crowd: they want him dead ("unnecessay satisfaction"), and the helicopter kills their side.
+b) Him: they are in his car, they fear with him, and the massacre shows them what they were hoping for. [PROPOSED]
+c) Both at once. [PROPOSED]
+d) Your own.
+
+Q13 [BLOCKING] [CRAFT] "he points the gun to himself, realizing that he is now out of bullets": what does he do?
+Decides: whether the man has one real choice (death by his own hand or by the mob) before the rescue.
+a) He tries to kill himself and the gun is empty.
+b) He turns it toward himself to look at it, not to shoot.
+c) Your own.
+
+Q14 [LATER] [CRAFT] "This person escaped and nobody knows where he went": escaped from whom?
+Decides: who else is hunting him, and what "higher up" means.
+a) The authorities.
+b) The crowds.
+c) Your own.
+
+Q15 [LATER] [EXCAVATION] "Captain Phillips ending type", Kojima, Tom Clancy: what does each one promise you?
+Decides: the style of the twist.
+Helpful answers: a shot or a moment you remember from each; for Captain Phillips, the sniper shot, what comes after it, or both.
