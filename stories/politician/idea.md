@@ -295,3 +295,6 @@ Q12: "I think it would be nice if we followed mainly him, makes it more personal
 Q13: "he realizes that it's better to kill himself than to be taken apart by a crowd, so before the clicks of the gun, he should be counting that there is one bullet left and use it, but he counted poorly. Also he wouldn't be using a revolver, he's using a small portable gun, like someone like him would do."
 
 Working rule from Q6: everything Leonard needs to decide goes in the chat, short; the files are the record.
+
+### Q6 answer (2026-11-10, verbatim, to the chat options A to D)
+"I like A then B, but what about the dead people? People wouldn't just go back to watch TV after something like this, that's unrealistic"
