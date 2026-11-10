@@ -27,9 +27,11 @@ in the prompt.
    `0-3s: medium shot, eye level. Camera: dolly slowly in, stop on a medium close-up. Marta ...`
    Each segment starts from where the last one ended. The last one states the final frame: where
    people, objects and camera are. One main change per segment.
-5. **Dialogue:** language and accent once, then `Marta's line (quietly): {I thought you weren't
-   coming.}` Never repeat the words of a line anywhere else in the prompt. Everyone who does not
-   speak: "keeps their mouth closed".
+5. **Dialogue:** language and accent once, then `Marta's line (testing him): {I thought you
+   weren't coming.}` The parentheses carry a playable verb aimed at the partner (testing him,
+   reassuring her), never an emotion label: that keeps the official format and the director's
+   acting school together. Never repeat the words of a line anywhere else in the prompt.
+   Everyone who does not speak: "keeps their mouth closed".
 6. **Acting task** (only when someone speaks, listens or reacts): the director's block (scene
    direction, motive, goal, obstacle, tactic, eye work as action). Refer to lines by their order
    ("during her first line", "after his answer"), never by quoting words: quoted words with
