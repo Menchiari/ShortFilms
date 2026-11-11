@@ -73,8 +73,8 @@ svg.append(f'<text x="{WB/2}" y="{(ty0+ty1)/2+24}" text-anchor="middle" font-fam
 
 # underprint
 if VIGNETTE:
-    bw = 2800; bh = round(bw * 1700 / 2560)
-    svg.append(f'<image href="{VIGNETTE}" x="{WB/2 - bw/2}" y="215" width="{bw}" height="{bh}" preserveAspectRatio="xMidYMid meet"/>')
+    bw = 2900; bh = round(bw * 1080 / 2100)
+    svg.append(f'<image href="{VIGNETTE}" x="{WB/2 - bw/2}" y="250" width="{bw}" height="{bh}" preserveAspectRatio="xMidYMid meet"/>')
 
 def tablet(x, y, w, h, label, value, vcol, vsize):
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="4"/>'
