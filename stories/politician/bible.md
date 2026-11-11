@@ -1,6 +1,7 @@
 # Story bible: Politician (working title)
 File: stories/politician/bible.md   Status: DRAFT 1 (2026-11-10)
 Lock condition: all BLOCKING questions answered; Leonard says "lock".
+Where this bible and screenplay.fountain differ (lines, staging, the dog, the ending), the screenplay wins.
 Tags: [MINE] / [PROPOSED-ACCEPTED] / [PROPOSED-PENDING]. Nothing pending in a locked bible.
 Sources: idea.md (Part 1 = scene draft, Part 2 = bullet outline, Notes, answers to round 1). This bible supersedes restatement.md draft 1; the fidelity errors the Braintrust found there (review.md N1 to N3) are not carried over.
 

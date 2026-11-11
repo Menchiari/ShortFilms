@@ -419,3 +419,7 @@ Earlier the same day, on draft 4: "remove the draft shit, title page, and signat
 Also SH160 not her back to us, she's looking behind us, helicopter behind her, and says "not anymore" more to herself before turning around and getting in the helicopter."
 Then: "if you think of a better type of bond for this movie, say so"
 The bond image is saved as stories/politician/prop-bearer-bond.webp (Lincoln County Public Improvement Bond, $500,000, No. A 004217, dated March 1, 1948, due March 1, 1968, payable to the bearer, "For motion picture use only, not negotiable").
+
+## Leonard's change (2026-11-11, verbatim)
+"Remove "I don't pay your ass for nothing" from the politician movie"
+Applied in screenplay draft 6: S09 SH080 is now only "It'll be national news now." (shot kept at 5 s; the edit trims it).
