@@ -97,6 +97,10 @@ a = np.asarray(img).astype(np.float32) / 255.0
 a += rng.normal(0, 0.010 + 0.006 * L, (h, w, 1)).astype(np.float32)
 a *= 1 - (np.clip(1 - dist_edge / 25.0, 0, 1) * 0.25 * L)[..., None]
 
+import os
+if os.environ.get("NOALPHA"):
+    Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8)).save(out, quality=95)
+    print("saved (no alpha)", out); sys.exit(0)
 # 7. worn edges: alpha with jagged boundary, a nicked corner at level 3
 jag = (lfn(30, 2) - 0.5) * (4 + 10 * L) + 2
 alpha = (dist_edge > jag).astype(np.float32)

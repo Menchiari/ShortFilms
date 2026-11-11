@@ -57,7 +57,7 @@ for (ax, ay, bx, by) in [(x0, y0 + c, x1, y0 + c), (x0, y1 - c, x1, y1 - c), (x0
     svg.append(band(ax, ay, bx, by, T - 26, n=10, wave=150, w=0.8, col=GREEN_D))
 for cxx in range(x0 + 300, x1 - 220, 250):
     for cyy in (y0 + c, y1 - c):
-        if abs(cxx - WB / 2) < 560 and cyy < H / 2:
+        if abs(cxx - WB / 2) < 860 and cyy < H / 2:
             continue  # leave room for the top tablet
         svg.append(f'<circle cx="{cxx}" cy="{cyy}" r="52" fill="{PAPER}" stroke="{GREEN_D}" stroke-width="3"/>' + rosette(cxx, cyy, 30, 14, 9, 6, 0.8))
 for cyy in range(y0 + 330, y1 - 220, 250):
@@ -67,12 +67,12 @@ for (cx, cy) in [(x0 + c, y0 + c), (x1 - c, y0 + c), (x0 + c, y1 - c), (x1 - c, 
     svg.append(f'<circle cx="{cx}" cy="{cy}" r="{T*0.62:.0f}" fill="{PAPER}" stroke="{GREEN_D}" stroke-width="6"/>')
     svg.append(rosette(cx, cy, T * 0.38, T * 0.17, 11, 9, 0.9))
     svg.append(rosette(cx, cy, T * 0.16, T * 0.06, 7, 5, 0.8, GREEN_D))
-tx0, tx1, ty0, ty1 = WB / 2 - 520, WB / 2 + 520, y0 + 28, y0 + T - 28
+tx0, tx1, ty0, ty1 = WB / 2 - 760, WB / 2 + 760, y0 + 28, y0 + T - 28
 svg.append(f'<rect x="{tx0}" y="{ty0}" width="{tx1-tx0}" height="{ty1-ty0}" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="5"/>')
-svg.append(f'<text x="{WB/2}" y="{(ty0+ty1)/2+24}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="70" letter-spacing="8" fill="{GREEN_D}">UNITED STATES OF AMERICA</text>')
+svg.append(f'<text x="{WB/2}" y="{(ty0+ty1)/2+24}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="64" letter-spacing="6" fill="{GREEN_D}" textLength="1240" lengthAdjust="spacing">UNITED STATES OF AMERICA</text>')
 
 # underprint
-svg.append(f'<text x="{WB/2}" y="2210" text-anchor="middle" font-family="Playfair Display" font-weight="900" font-size="1000" fill="{GREEN}" opacity=".08" letter-spacing="-20">500</text>')
+svg.append(f'<text x="{WB/2}" y="2210" text-anchor="middle" font-family="Playfair Display" font-weight="900" style="font-variant-numeric:lining-nums" font-size="1000" fill="{GREEN}" opacity=".08" letter-spacing="-20">500</text>')
 
 def tablet(x, y, w, h, label, value, vcol, vsize):
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="4"/>'
@@ -84,8 +84,8 @@ svg.append(tablet(WB - 700, 290, 400, 170, "DOLLARS", "500,000", INK, 78))
 def counter(cx, cy):
     s = f'<circle cx="{cx}" cy="{cy}" r="205" fill="{PAPER}" stroke="{GREEN_D}" stroke-width="6"/>' + rosette(cx, cy, 150, 48, 18, 10, 0.75)
     s += f'<circle cx="{cx}" cy="{cy}" r="112" fill="{PAPER}" stroke="{GREEN_D}" stroke-width="4"/>'
-    s += f'<text x="{cx+4}" y="{cy+28}" text-anchor="middle" font-family="Playfair Display" font-weight="900" font-size="92" fill="#9a9a9a">500</text>'
-    s += f'<text x="{cx}" y="{cy+24}" text-anchor="middle" font-family="Playfair Display" font-weight="900" font-size="92" fill="{INK}">500</text>'
+    s += f'<text x="{cx+4}" y="{cy+28}" text-anchor="middle" font-family="Playfair Display" font-weight="900" style="font-variant-numeric:lining-nums" font-size="92" fill="#9a9a9a">500</text>'
+    s += f'<text x="{cx}" y="{cy+24}" text-anchor="middle" font-family="Playfair Display" font-weight="900" style="font-variant-numeric:lining-nums" font-size="92" fill="{INK}">500</text>'
     s += f'<text x="{cx}" y="{cy+72}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="20" letter-spacing="5" fill="{GREEN_D}">THOUSAND</text>'
     return s
 svg.append(counter(500, 720)); svg.append(counter(WB - 500, 720))
@@ -137,7 +137,7 @@ for idx, k in enumerate(range(33, 41)):
     svg.append(f'<circle cx="{rx}" cy="{ry}" r="24" fill="{PAPER}" stroke="{GREEN_D}" stroke-width="2"/>')
     svg.append(f'<text x="{rx}" y="{ry+11}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="30" fill="{INK}">{k}</text>')
     svg.append(f'<text x="{cx0+CW-34}" y="{cy0+105}" text-anchor="end" font-family="Libre Caslon Text" font-weight="700" font-size="26" letter-spacing="4" fill="{RED}">No. {k}</text>')
-    svg.append(f'<text x="{cx0+CW-34}" y="{cy0+165}" text-anchor="end" font-family="Playfair Display" font-weight="900" font-size="58" fill="{GREEN_D}">$6,250</text>')
+    svg.append(f'<text x="{cx0+CW-34}" y="{cy0+165}" text-anchor="end" font-family="Playfair Display" font-weight="900" style="font-variant-numeric:lining-nums" font-size="58" fill="{GREEN_D}">$6,250</text>')
     if col == 0:
         svg.append(f'<line x1="{cx0+CW}" y1="{cy0+6}" x2="{cx0+CW}" y2="{cy0+CH-6}" stroke="{GREEN_D}" stroke-width="3" stroke-dasharray="12 9" opacity=".7"/>')
     if row < 3 and col == 0:
