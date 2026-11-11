@@ -97,16 +97,16 @@ if VIGNETTE:
     pass
 
 # title block, to the sides of nothing: below the vignette
-svg.append(f'<text x="{WB/2+9}" y="1158" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="#8d8d8d">County of Franklin</text>')
-svg.append(f'<text x="{WB/2}" y="1150" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="{INK}" stroke="{INK}" stroke-width="1.5">County of Franklin</text>')
-svg.append(f'<text x="{WB/2+5}" y="1253" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" letter-spacing="10" fill="#9a9a9a">PUBLIC IMPROVEMENT BOND</text>')
-svg.append(f'<text x="{WB/2}" y="1248" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" letter-spacing="10" fill="{INK}">PUBLIC IMPROVEMENT BOND</text>')
-svg.append(f'<text x="{WB/2}" y="1302" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="34" letter-spacing="14" fill="{GREEN_D}">SERIES A &#183; DATED MARCH 1, 1948</text>')
+svg.append(f'<text x="{WB/2+9}" y="478" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="#8d8d8d">County of Franklin</text>')
+svg.append(f'<text x="{WB/2}" y="470" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="{INK}" stroke="{INK}" stroke-width="1.5">County of Franklin</text>')
+svg.append(f'<text x="{WB/2+5}" y="573" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" letter-spacing="10" fill="#9a9a9a">PUBLIC IMPROVEMENT BOND</text>')
+svg.append(f'<text x="{WB/2}" y="568" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" letter-spacing="10" fill="{INK}">PUBLIC IMPROVEMENT BOND</text>')
+svg.append(f'<text x="{WB/2}" y="624" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="34" letter-spacing="14" fill="{GREEN_D}">SERIES A &#183; DATED MARCH 1, 1948</text>')
 
 # amount tablet
-svg.append(f'<rect x="{WB/2-800}" y="1322" width="1600" height="262" rx="20" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="6"/>')
-svg.append(f'<rect x="{WB/2-786}" y="1336" width="1572" height="234" rx="14" fill="none" stroke="{GREEN_D}" stroke-width="2"/>')
-svg.append(band(WB/2-786, 1453, WB/2+786, 1453, 220, n=16, wave=90, w=0.7, col="#9cc2a6"))
+svg.append(f'<rect x="{WB/2-800}" y="652" width="1600" height="262" rx="20" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="6"/>')
+svg.append(f'<rect x="{WB/2-786}" y="666" width="1572" height="234" rx="14" fill="none" stroke="{GREEN_D}" stroke-width="2"/>')
+svg.append(band(WB/2-786, 783, WB/2+786, 783, 220, n=16, wave=90, w=0.7, col="#9cc2a6"))
 # signatures and seal (bottom row)
 def sig(img, x, y, w):
     return f'<image href="{img}" x="{x}" y="{y}" width="{w}" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:multiply"/>'
@@ -156,6 +156,7 @@ COLS = """<p>in lawful money of the United States of America, and to pay interes
 <p>This bond is one of an authorized issue of bonds of like date and tenor, except as to maturity, aggregating Twenty Million Dollars ($20,000,000), issued for the purpose of constructing, widening and paving public highways, roads, bridges and streets within the County, pursuant to the Constitution and statutes of the State and to a resolution of the Board of Supervisors duly adopted on the twelfth day of January, 1948, and approved by more than two-thirds of the qualified electors of the County voting at a special election duly called and held for that purpose.</p>
 <p>This bond is transferable by delivery, unless registered as to principal in the name of the holder on the books of the County Treasurer, such registration being noted hereon. Such registration shall not affect the negotiability of the coupons, which shall continue to pass by delivery.</p>
 <p>It is hereby certified, recited and declared that all acts, conditions and things required to exist, happen and be performed precedent to and in the issuance of this bond have existed, happened and been performed in due time, form and manner as required by law; that the total indebtedness of said County, including this bond, does not exceed any constitutional or statutory limitation; and that provision has been made for the levy of an annual tax sufficient to pay the principal of and interest on this bond as the same become due. The full faith and credit of Franklin County are hereby irrevocably pledged for the punctual payment of the principal of and interest on this bond.</p>
+<p>This bond and the interest hereon are exempt from all taxation by the State and by any county, municipality or other political subdivision thereof. Bonds of this issue are not subject to redemption prior to their respective stated maturities.</p>
 <p><span class="sc">In Witness Whereof</span>, Franklin County has caused this bond to be signed by the Chairman of its Board of Supervisors and by its County Treasurer, countersigned by the Clerk of said Board, its corporate seal to be hereunto affixed, and the interest coupons hereto annexed to be authenticated by the facsimile signature of its County Treasurer, and this bond to be dated the first day of March, 1948.</p>"""
 
 page = f"""<!doctype html><html><head><meta charset="utf-8">
@@ -164,9 +165,9 @@ page = f"""<!doctype html><html><head><meta charset="utf-8">
 html,body{{margin:0;padding:0;}}
 .sheet{{position:relative;width:{W}px;height:{H}px;background:{PAPER};overflow:hidden;}}
 .sheet svg{{position:absolute;left:0;top:0;}}
-.p1{{position:absolute;left:300px;top:1598px;width:{WB-600}px;font-family:'IM Fell English';font-style:italic;font-size:29px;line-height:1.38;color:{INK};text-align:justify;text-indent:60px;}}
-.amt{{position:absolute;left:{WB/2-760}px;top:1330px;width:1520px;height:250px;text-align:center;color:{INK};}} .amt .big{{font-family:'Playfair Display';font-weight:900;font-variant-numeric:lining-nums;font-size:250px;line-height:1;color:{GREEN_D};text-shadow:7px 7px 0 #b9b9b9;}} .amt .words{{font-family:'Libre Caslon Text';font-weight:700;font-size:40px;letter-spacing:6px;margin-top:4px;}}
-.cols{{position:absolute;left:300px;top:1700px;width:{WB-600}px;column-count:2;column-gap:70px;column-rule:2px solid {GREEN_L};font-family:'IM Fell English';font-style:italic;font-size:24px;line-height:1.27;color:{INK};text-align:justify;hyphens:auto;}}
+.p1{{position:absolute;left:300px;top:965px;width:{WB-600}px;font-family:'IM Fell English';font-style:italic;font-size:35px;line-height:1.38;color:{INK};text-align:justify;text-indent:60px;}}
+.amt{{position:absolute;left:{WB/2-760}px;top:660px;width:1520px;height:250px;text-align:center;color:{INK};}} .amt .big{{font-family:'Playfair Display';font-weight:900;font-variant-numeric:lining-nums;font-size:250px;line-height:1;color:{GREEN_D};text-shadow:7px 7px 0 #b9b9b9;}} .amt .words{{font-family:'Libre Caslon Text';font-weight:700;font-size:40px;letter-spacing:6px;margin-top:4px;}}
+.cols{{position:absolute;left:300px;top:1090px;width:{WB-600}px;column-count:2;column-gap:70px;column-rule:2px solid {GREEN_L};font-family:'IM Fell English';font-style:italic;font-size:37px;line-height:1.38;color:{INK};text-align:justify;hyphens:auto;}}
 .cols p{{margin:0 0 6px 0;text-indent:44px;}}
 .sc{{font-variant:small-caps;font-style:normal;letter-spacing:2px;}}
 .lab{{position:absolute;font-family:'IM Fell English';font-style:italic;font-size:32px;color:{INK};}}
