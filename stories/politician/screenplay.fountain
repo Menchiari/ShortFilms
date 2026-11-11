@@ -1,10 +1,10 @@
 Title: POLITICIAN
 Credit: written by
 Author: Leonard Menchiari
-Draft date: 2026-11-11 (shooting script, draft 4)
+Draft date: 2026-11-11
 
 /* File: stories/politician/screenplay.fountain
-   Draft 4: Leonard's comments on draft 3 applied (idea.md): his ending, the bobblehead giving the finger, hanging by one foot, the call cut shorter.
+   Draft 5: Leonard's last comment applied ("Fuck you, I won:" struck). Shot notes cleaned of draft and authorship tags; the record of who decided what is in idea.md.
    Shot notes: [[SHOT | seconds | size and angle | movement | note]]. Scene ids S01..S10, shot ids per scene.
    ASSUMPTION (no answer yet, Claude's pick): the gun moment plays in his head; the helicopter holds high and far, unheard under the crowd until the first crack.
    PROPOSED: her last line ("Not anymore."); bearer bonds; the scope with face boxes; Walther PPK/S; the Agreement page.
@@ -12,7 +12,7 @@ Draft date: 2026-11-11 (shooting script, draft 4)
 
 .EXT. CITIES AROUND THE WORLD - DAY TO SUNSET #S01#
 
-[[SH010 | 3 | WIDE, high | Handheld, phone-camera feel | Riots open the film (Leonard). Different cities, different countries]]
+[[SH010 | 3 | WIDE, high | Handheld, phone-camera feel | Different cities, different countries]]
 
 A crowd fills an avenue from wall to wall. Above the heads, signs with the same old face: devil horns drawn on, the eyes crossed out in red, one printout of him photoshopped hanging from a noose.
 
@@ -28,7 +28,7 @@ A cardboard sign. His face. A red X over each eye.
 
 Another country. A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars behind him. Nobody honks.
 
-[[SH040 | 3 | WIDE, long lens, then two cuts | Locked-off | Leonard: multi-shot generation, three cuts in one]]
+[[SH040 | 3 | WIDE, long lens, then two cuts | Locked-off | Multi-shot generation: three cuts in one]]
 
 Another country. A highway out of a city, jammed. Cut: mattresses tied on car roofs. Cut: a child's face at a car window.
 
@@ -36,11 +36,11 @@ Another country. A highway out of a city, jammed. Cut: mattresses tied on car ro
 
 A police line. Hands pull a POLICEMAN into the crowd by his vest. Another officer drags him back. A pistol rises above the heads and fires. The police fire back. Everyone scatters.
 
-[[SH060 | 3 | MEDIUM WIDE | Handheld | Leonard: riot shields struck]]
+[[SH060 | 3 | MEDIUM WIDE | Handheld | ]]
 
 A wall of riot shields. A bottle of fire bursts against it. Flames run down the shields and over the boots. The line breaks.
 
-[[SH070 | 3 | WIDE | Locked-off | Leonard: the truck, realistic]]
+[[SH070 | 3 | WIDE | Locked-off | ]]
 
 A police truck stands abandoned, windows smashed. A bottle sails through the broken windshield. Fire fills the cab.
 
@@ -48,7 +48,7 @@ A police truck stands abandoned, windows smashed. A bottle sails through the bro
 
 Sunset. A skyline under columns of smoke. Sirens far away.
 
-[[SH090 | 9 | MEDIUM, a TV in a shop window | Locked-off | Leonard: seen on a screen, professional news logos. His clean face on screen]]
+[[SH090 | 9 | MEDIUM, a TV in a shop window | Locked-off | Professional news graphics. His clean face on screen]]
 
 A television behind a cracked shop window. A news channel: a polished logo, a red BREAKING bar, a ticker of red numbers. In the corner, his official portrait: the same old face, clean, smiling. A REPORTER, sexy, every hair in place, on a rooftop with smoke behind her.
 
@@ -63,7 +63,7 @@ SMASH CUT TO:
 
 Silence. The sun on the rooftops of a dry, dusty town.
 
-[[SH020 | 3 | MEDIUM | Locked-off | Leonard: stray dog]]
+[[SH020 | 3 | MEDIUM | Locked-off | ]]
 
 A stray dog lies in the shadow of an abandoned building, on the edge of a crumbled concrete wall. Heat rises off the ground.
 
@@ -71,7 +71,7 @@ A stray dog lies in the shadow of an abandoned building, on the edge of a crumbl
 
 Far out on a dirt road, a car comes out of the heat shimmer at full speed, a plume of dust behind it.
 
-[[SH040 | 2 | LOW, ground level | Locked-off, car passes over camera | The speeding car (Leonard)]]
+[[SH040 | 2 | LOW, ground level | Locked-off, car passes over camera | ]]
 
 The car tears over the camera.
 
@@ -79,7 +79,7 @@ The car tears over the camera.
 
 A front wheel locks and slides through the dirt to a rough stop. Dust rolls past.
 
-[[SH060 | 2 | MEDIUM | Locked-off | Leonard: separate shot]]
+[[SH060 | 2 | MEDIUM | Locked-off | ]]
 
 The dog lifts its head.
 
@@ -87,19 +87,19 @@ The dog lifts its head.
 
 The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.
 
-[[SH080 | 2 | INSERT, dashboard | Locked-off | Leonard: him giving the finger. Painted, not gold]]
+[[SH080 | 2 | INSERT, dashboard | Locked-off | Painted, not gold]]
 
 A painted bobblehead on the dashboard: him, grinning, giving the finger. Nodding.
 
-[[SH090 | 2 | INSERT, passenger seat | Locked-off | Leonard: separate shot]]
+[[SH090 | 2 | INSERT, passenger seat | Locked-off | ]]
 
 A BRIEFCASE on the passenger seat, papers sticking out of it, shut in a hurry.
 
-[[SH100 | 3 | POV | Dolly zoom | Vertigo effect (Leonard)]]
+[[SH100 | 3 | POV | Dolly zoom | Vertigo effect]]
 
 The dirt road runs straight into the town. It stretches away from him.
 
-[[SH110 | 2 | CLOSE, through the windshield, beside the bobblehead | Locked-off | Leonard: old-school, static]]
+[[SH110 | 2 | CLOSE, through the windshield, beside the bobblehead | Locked-off | Static]]
 
 He looks left.
 
@@ -111,7 +111,7 @@ Broken ground and a dry ditch. No road.
 
 He looks right.
 
-[[SH140 | 2 | WIDE | Locked-off | Leonard: the only way is through]]
+[[SH140 | 2 | WIDE | Locked-off | The only way is through]]
 
 Rubble, then the town itself, its buildings running to the horizon. No road.
 
@@ -131,13 +131,13 @@ The fuel needle rests on the edge of E.
 
 Sweat runs down his temple. He breathes in.
 
-[[SH190 | 2 | INSERT, footwell | Locked-off | Leonard: the accelerator]]
+[[SH190 | 2 | INSERT, footwell | Locked-off | ]]
 
 His shoe presses the accelerator, gently.
 
 .EXT. TOWN - MAIN STREET - DAY #S03#
 
-[[SH010 | 5 | WIDE, side view | Dolly alongside the car, long lens, flat | Leonard: we dolly with the car as it moves through the town]]
+[[SH010 | 5 | WIDE, side view | Dolly alongside the car, long lens, flat | ]]
 
 The car crawls through the town. Tall, cheap apartment blocks slide past behind it, laundry on the balconies. Nobody outside. From open windows the same news echoes from television to television.
 
@@ -150,15 +150,15 @@ We'll get there, don't worry... Wait till they see what I was able to-- what--? 
 
 The engine pops.
 
-[[SH030 | 2 | GROUND LEVEL | Locked-off | Leonard]]
+[[SH030 | 2 | GROUND LEVEL | Locked-off | ]]
 
 A front wheel rolls toward the camera and stops right in front of it.
 
-[[SH040 | 3 | INSERT, dashboard | Locked-off | Leonard: separate insert]]
+[[SH040 | 3 | INSERT, dashboard | Locked-off | ]]
 
 A beep. The fuel light blinks. His hand twists the key. The engine dies with a last clap.
 
-[[SH050 | 4 | EXTREME WIDE, high | Locked-off | Leonard: alone in a large empty crossroads. The car stays here until the end]]
+[[SH050 | 4 | EXTREME WIDE, high | Locked-off | The car stays here until the end]]
 
 The car sits alone in the middle of a large, empty crossroads. The clap echoes off the buildings and fades.
 
@@ -171,7 +171,7 @@ He peeks around. Empty. He takes the briefcase and gets out, leaving the door op
 
 .EXT. TOWN - SIDE STREETS - DAY #S04#
 
-[[SH010 | 3 | MEDIUM | Handheld, tracking beside him | We stay with him (Leonard, Q12)]]
+[[SH010 | 3 | MEDIUM | Handheld, tracking beside him | ]]
 
 He walks fast, the briefcase against his chest, trying not to make a sound. His breath gets heavier.
 
@@ -183,7 +183,7 @@ A doorway. A bead curtain sways.
 
 A window. A television glows. An old woman eating turns her head toward the street.
 
-[[SH040 | 3 | MEDIUM WIDE | Handheld | Leonard: he feels recognized and runs]]
+[[SH040 | 3 | MEDIUM WIDE | Handheld | ]]
 
 On his left, a small group of people at a doorway. One of them looks at him. Looks again. Nudges the man next to him. The old man walks faster. Then he runs.
 
@@ -191,11 +191,11 @@ On his left, a small group of people at a doorway. One of them looks at him. Loo
 
 He turns a corner and slams into a big, robust FAT PERSON.
 
-[[SH060 | 2 | WIDE | Locked-off | Leonard: shot of the fall]]
+[[SH060 | 2 | WIDE | Locked-off | ]]
 
 He bounces off the big body and lands flat on his back on the ground.
 
-[[SH070 | 4 | LOW, from the ground | Handheld | Leonard: not sure yet]]
+[[SH070 | 4 | LOW, from the ground | Handheld | ]]
 
 The fat person looks down at him. He can't place him. Then his eyes widen with excitement.
 
@@ -210,14 +210,14 @@ On the ground, the old man covers his face with his hand.
 OLD MAN
 I don't know who you think I am. I don't know you!
 
-[[SH090 | 7 | MEDIUM | Handheld | Leonard: the friend films, then texts, in the background, during the line]]
+[[SH090 | 7 | MEDIUM | Handheld | The friend films, then texts, in the background]]
 
 FAT PERSON
 It IS you. What are you doing here, all alone? Nobody around to baby-sit you?
 
 Behind him, his FRIEND films the old man on his phone, then types fast with both thumbs.
 
-[[SH100 | 5 | CLOSE TWO SHOT | Handheld, tight | His line restored]]
+[[SH100 | 5 | CLOSE TWO SHOT | Handheld, tight | ]]
 
 The fat person grabs him by the collar and hauls him up. He looks down at the briefcase in the old man's arms.
 
@@ -233,7 +233,7 @@ Give me one reason why I shouldn't rip your guts open right now, in front of eve
 
 Above them, faces appear at the windows.
 
-[[SH130 | 4 | MEDIUM | Handheld | Leonard: the friend's line]]
+[[SH130 | 4 | MEDIUM | Handheld | ]]
 
 The old man shrinks and slides out of the grip. The fat person lets him go. The old man runs.
 
@@ -259,15 +259,15 @@ The friends run after him, and people pour out of doorways to join them.
 
 A whole crowd runs after him, faster than he is.
 
-[[SH040 | 2 | MEDIUM | Handheld, running | Leonard: he trips]]
+[[SH040 | 2 | MEDIUM | Handheld, running | ]]
 
 He trips. The briefcase hits the asphalt and bursts open.
 
-[[SH050 | 3 | INSERT | Locked-off | Leonard: insert. PROPOSED: bearer bonds. Research item]]
+[[SH050 | 3 | INSERT | Locked-off | Bearer bonds]]
 
 Large engraved certificates spill out: PAY TO BEARER. ONE HUNDRED THOUSAND US DOLLARS.
 
-[[SH060 | 3 | WIDE | Handheld | His decoy (Leonard, Part 1)]]
+[[SH060 | 3 | WIDE | Handheld | A decoy]]
 
 He looks at the crowd, then flings the open case toward them. The certificates fly. The front of the crowd drops to the ground, fighting over them.
 
@@ -278,11 +278,11 @@ Don't let him get away!!!
 
 He runs on, out into the crossroads, past his empty car, pulling out his phone.
 
-[[SH080 | 4 | INSERT, his phone | Locked-off | Leonard: clear insert of the phone]]
+[[SH080 | 4 | INSERT, his phone | Locked-off | ]]
 
 His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.
 
-[[SH090 | 6 | CLOSE | Handheld, running | Leonard: the call ends here]]
+[[SH090 | 6 | CLOSE | Handheld, running | ]]
 
 OLD MAN
 (into the phone)
@@ -298,7 +298,7 @@ He falls and rolls onto the sidewalk at the far corner of the crossroads. Blood 
 
 .EXT. CROSSROADS - CONTINUOUS #S06#
 
-[[SH010 | 3 | LOW, his eye level on the ground | Handheld | Leonard: the crowd getting closer]]
+[[SH010 | 3 | LOW, his eye level on the ground | Handheld | ]]
 
 Feet and faces fill the frame, closing in.
 
@@ -320,7 +320,7 @@ Don't get close! Go away!
 
 Some of them back away. The tough ones step forward. They don't run. They walk toward him, slowly, without fear.
 
-[[SH050 | 7 | MEDIUM, his side | Handheld | Shots 2 to 7: six shots. Countdown audible between shots (Leonard). Distance on the falls]]
+[[SH050 | 7 | MEDIUM, his side | Handheld | Shots 2 to 7: six shots. Countdown audible between shots. Distance on the falls]]
 
 He shoots. A man drops. He shoots again. Another drops. The rest break into a sprint from forty meters away. He keeps firing, counting down out loud between shots.
 
@@ -334,9 +334,9 @@ He fires once more.
 OLD MAN
 One.
 
-[[SH070 | 6 | CLOSE, over his shoulder: him and the crowd in one frame | Slow push in | ASSUMPTION: plays in his head. Leonard: more intense, the realization]]
+[[SH070 | 6 | CLOSE PROFILE, long lens: his face and the crowd in one frame | Slow push in | Plays in his head]]
 
-The sound drains away until only his breathing is left. Beyond his shoulder the sprinting crowd slows to a crawl, twenty meters off. He stops shaking. He presses the muzzle to his temple and shuts his eyes.
+His face in profile fills the foreground. Beyond it, out of focus, the sprinting crowd. The sound drains away until only his breathing is left, and the crowd slows to a crawl, twenty meters off. He stops shaking. He presses the muzzle to his temple and shuts his eyes.
 
 [[SH080 | 2 | EXTREME CLOSE | Locked-off | Sound slams back in]]
 
@@ -348,31 +348,31 @@ He opens his eyes and stares at the gun. The crowd hits him.
 
 .EXT. CROSSROADS - MOMENTS LATER #S07#
 
-[[SH010 | 3 | EXTREME WIDE, high | Locked-off | Seen from afar (Leonard). His car in frame]]
+[[SH010 | 3 | EXTREME WIDE, high | Locked-off | His car in frame]]
 
 From far above, the small mob closes around him at the corner of the crossroads. He disappears inside it. Fists and kicks rise and fall. His car stands alone in the middle.
 
-[[SH020 | 3 | MEDIUM | Handheld | Leonard: rope thrown over the light]]
+[[SH020 | 3 | MEDIUM | Handheld | ]]
 
 A rope sails over the arm of a street light at the corner.
 
-[[SH030 | 3 | WIDE | Locked-off | Leonard: by one foot]]
+[[SH030 | 3 | WIDE | Locked-off | ]]
 
 They haul him up by one ankle. He hangs upside down from one foot, the other leg bent loose.
 
-[[SH040 | 3 | CLOSE, upside down | Locked-off | Not exaggerated (Leonard)]]
+[[SH040 | 3 | CLOSE, upside down | Locked-off | Not exaggerated]]
 
 His face: bruised, a split lip, blood from his ear. With effort, he opens one eye.
 
-[[SH050 | 3 | POV, upside down | Locked-off | Leonard: the shoulder]]
+[[SH050 | 3 | POV, upside down | Locked-off | ]]
 
 He pulls his arms over his head. A man swings a metal pipe into his shoulder. Again.
 
-[[SH060 | 2 | LOW, looking up | Locked-off | Leonard: from below]]
+[[SH060 | 2 | LOW, looking up | Locked-off | ]]
 
 The pipe rises high against the sky, held there with both hands.
 
-[[SH070 | 2 | WIDE, high above and in front of him | Locked-off | Leonard: hit in the face. Never from behind (exit wound): at this distance the hit is a snap of the head]]
+[[SH070 | 2 | WIDE, high above and in front of him | Locked-off | Never from behind (exit wound): at this distance the hit is a snap of the head]]
 
 A crack from the sky. The man with the pipe snaps back and drops. The pipe rings on the asphalt.
 
@@ -382,7 +382,7 @@ The crowd steps back from the body, looking up.
 
 .EXT. SKY ABOVE THE TOWN / INT. HELICOPTER - CONTINUOUS #S08#
 
-[[SH010 | 3 | EXTREME WIDE, long lens | Locked-off | Clancy, hint of Kojima (Leonard, Q12). Airbus ACH160, Lounge cabin (keeps sliding doors; the Exclusive cabin has hinged ones). ASSUMPTION: far enough to stay unheard under the crowd]]
+[[SH010 | 3 | EXTREME WIDE, long lens | Locked-off | Tone shift: Clancy, a hint of Kojima. Airbus ACH160, Lounge cabin (sliding doors). Far enough to stay unheard under the crowd]]
 
 High above and far beyond the rooftops, a helicopter holds still in the sky: an Airbus ACH160, glossy and white, its sliding door open.
 
@@ -390,7 +390,7 @@ High above and far beyond the rooftops, a helicopter holds still in the sky: an 
 
 In the door, between cream leather seats, ROGER, harnessed in, cheek on the stock of a long rifle. He is smiling.
 
-[[SH030 | 4 | SCOPE POV | Steady, stabilized | PROPOSED: the tech that exists but nobody sees]]
+[[SH030 | 4 | SCOPE POV | Steady, stabilized | ]]
 
 The crossroads through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.
 
@@ -419,7 +419,7 @@ The rope snaps.
 
 .EXT. CROSSROADS - CONTINUOUS #S09#
 
-[[SH010 | 5 | MEDIUM | Handheld | Leonard: specify who]]
+[[SH010 | 5 | MEDIUM | Handheld | ]]
 
 THE OLD MAN drops onto the asphalt, shoulder first, and screams.
 
@@ -432,15 +432,15 @@ He curls up, shaking. A dark stain spreads down his trousers.
 
 Bodies lie across the crossroads, certificates stuck to the asphalt between them.
 
-[[SH030 | 5 | MEDIUM, low, his eye height | Locked-off | Leonard: lying back like on a couch, taking it like a champ]]
+[[SH030 | 5 | MEDIUM, low, his eye height | Locked-off | ]]
 
 He rolls onto his back and lies on the sidewalk as if it were a couch, legs out on the street. He catches his breath. He looks at the sky. Nearly a smile.
 
-[[SH040 | 3 | MEDIUM, on him | Locked-off | Leonard: angry, repulsed. The body: a shoulder in the soft foreground only]]
+[[SH040 | 3 | MEDIUM, on him | Locked-off | Angry, repulsed. The body: a shoulder in the soft foreground only]]
 
-He props himself up on an elbow and glares at the nearest body. Fuck you, I won: he spits on it, hard, and keeps glaring.
+He props himself up on an elbow and glares at the nearest body. He spits on it, hard, and keeps glaring.
 
-[[SH050 | 6 | LOW ANGLE, briefcase in the foreground | Locked-off | Leonard: the helicopter lands as he reaches the case]]
+[[SH050 | 6 | LOW ANGLE, briefcase in the foreground | Locked-off | ]]
 
 The briefcase lies open in the foreground, seemingly empty. He gets up and limps toward it. Far back, the helicopter comes down into the crossroads beside his car. Its rotor wash blows the certificates across the bodies. He reaches the case.
 
@@ -452,12 +452,12 @@ He reaches into the pocket inside the lid and takes out a folder.
 
 The BUSINESS LADY steps out, low under the rotors, and walks to him.
 
-[[SH080 | 5 | MEDIUM | Locked-off | His line (Leonard)]]
+[[SH080 | 5 | MEDIUM | Locked-off | ]]
 
 OLD MAN
 What took you so long? I don't pay your ass for nothing.
 
-[[SH090 | 3 | CLOSE, her | Locked-off | Her silence is the answer: its own shot]]
+[[SH090 | 3 | CLOSE, her | Locked-off | Her silence is the answer]]
 
 She doesn't answer. She looks at him.
 
@@ -465,11 +465,11 @@ She doesn't answer. She looks at him.
 
 She holds out her hand. He gives her the folder. She opens it to the last page.
 
-[[SH110 | 2 | INSERT, the last page | Locked-off | Readable on pause, clear signature. Composited in the edit. PROP: the Agreement (last page of this PDF)]]
+[[SH110 | 2 | INSERT, the last page | Locked-off | Readable on pause, clear signature. Composited in the edit (prop: the Agreement)]]
 
 Dense clauses. At the bottom, his signature, large and clear.
 
-[[SH120 | 4 | CLOSE, her | Locked-off | Leonard's ending]]
+[[SH120 | 4 | CLOSE, her | Locked-off | ]]
 
 She closes the folder. She is about to say something. She waits. She looks at him.
 
@@ -477,7 +477,7 @@ She closes the folder. She is about to say something. She waits. She looks at hi
 
 He stares back at her, chin up. A challenge.
 
-[[SH140 | 5 | MEDIUM | Locked-off | His line (Leonard)]]
+[[SH140 | 5 | MEDIUM | Locked-off | ]]
 
 He walks past her, climbs into the helicopter, and from the door points his chin at the street.
 
@@ -488,9 +488,9 @@ That's your money right there.
 
 The certificates flutter among the bodies in the rotor wash.
 
-[[SH160 | 4 | CLOSE, her | Locked-off | Her one line: PROPOSED]]
+[[SH160 | 5 | CLOSE, her, from the helicopter door (his side) | Locked-off | She says it to him, face to camera]]
 
-She squints at the money on the street. She turns away from it, almost disgusted.
+Her back to us, she squints at the money on the street. She turns away from it, toward him in the door, almost disgusted.
 
 BUSINESS LADY
 Not anymore.
@@ -499,7 +499,7 @@ She climbs in after him.
 
 .INT. HIS CAR - CROSSROADS - CONTINUOUS #S10#
 
-[[SH010 | 10 | MEDIUM, through the windshield | Locked-off | The helicopter going away (Leonard). The bobblehead from his car intro returns]]
+[[SH010 | 10 | MEDIUM, through the windshield | Locked-off | ]]
 
 The bobblehead in the foreground, giving the finger, nodding hard in the rotor wash. Through the windshield the helicopter lifts off, banks over the rooftops and goes away into the sky. The bobblehead slows. Keeps nodding. The sky is empty.
 
