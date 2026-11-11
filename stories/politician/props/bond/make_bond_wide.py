@@ -92,22 +92,39 @@ svg.append(counter(500, 720)); svg.append(counter(WB - 500, 720))
 
 # vignette
 if VIGNETTE:
-    vw = 1150; vh = round(vw * 850 / 1280)
-    svg.append(f'<image href="{VIGNETTE}" x="{WB/2 - vw/2}" y="255" width="{vw}" height="{vh}" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:multiply"/>')
+    vcx, vcy, vry = WB / 2, 640, 330
+    vrx = vry * 772 / 1048
+    # engraved frame: guilloche ribbon around the oval
+    pts_sets = []
+    for i in range(14):
+        ph = 2 * math.pi * i / 14
+        pts = []
+        for s_ in range(0, 1441):
+            t = 2 * math.pi * s_ / 1440
+            o = 16 * math.sin(48 * t + ph)
+            pts.append((vcx + (vrx + 34 + o) * math.cos(t), vcy + (vry + 34 + o) * math.sin(t)))
+        svg.append(poly(pts, 0.9, GREEN))
+    svg.append(f'<ellipse cx="{vcx}" cy="{vcy}" rx="{vrx+8}" ry="{vry+8}" fill="none" stroke="{GREEN_D}" stroke-width="5"/>')
+    svg.append(f'<ellipse cx="{vcx}" cy="{vcy}" rx="{vrx+60}" ry="{vry+60}" fill="none" stroke="{GREEN_D}" stroke-width="5"/>')
+    svg.append(f'<image href="{VIGNETTE}" x="{vcx-vrx}" y="{vcy-vry}" width="{2*vrx}" height="{2*vry}" preserveAspectRatio="none" style="mix-blend-mode:multiply"/>')
 else:
-    svg.append(f'<ellipse cx="{WB/2}" cy="640" rx="470" ry="300" fill="none" stroke="#999" stroke-width="3" stroke-dasharray="14 10"/>')
+    svg.append(f'<ellipse cx="{WB/2}" cy="640" rx="243" ry="330" fill="none" stroke="#999" stroke-width="3" stroke-dasharray="14 10"/>')
 
 # title block, to the sides of nothing: below the vignette
-svg.append(f'<text x="{WB/2+9}" y="1188" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="200" fill="#8d8d8d">County of Franklin</text>')
-svg.append(f'<text x="{WB/2}" y="1180" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="200" fill="{INK}" stroke="{INK}" stroke-width="1.5">County of Franklin</text>')
-svg.append(f'<text x="{WB/2+5}" y="1293" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="90" letter-spacing="10" fill="#9a9a9a">PUBLIC IMPROVEMENT BOND</text>')
-svg.append(f'<text x="{WB/2}" y="1288" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="90" letter-spacing="10" fill="{INK}">PUBLIC IMPROVEMENT BOND</text>')
-svg.append(f'<text x="{WB/2}" y="1348" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="38" letter-spacing="14" fill="{GREEN_D}">SERIES A &#183; DATED MARCH 1, 1948</text>')
+svg.append(f'<text x="{WB/2+9}" y="1158" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="#8d8d8d">County of Franklin</text>')
+svg.append(f'<text x="{WB/2}" y="1150" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="{INK}" stroke="{INK}" stroke-width="1.5">County of Franklin</text>')
+svg.append(f'<text x="{WB/2+5}" y="1253" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" letter-spacing="10" fill="#9a9a9a">PUBLIC IMPROVEMENT BOND</text>')
+svg.append(f'<text x="{WB/2}" y="1248" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="80" letter-spacing="10" fill="{INK}">PUBLIC IMPROVEMENT BOND</text>')
+svg.append(f'<text x="{WB/2}" y="1302" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="34" letter-spacing="14" fill="{GREEN_D}">SERIES A &#183; DATED MARCH 1, 1948</text>')
 
+# amount tablet
+svg.append(f'<rect x="{WB/2-800}" y="1322" width="1600" height="262" rx="20" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="6"/>')
+svg.append(f'<rect x="{WB/2-786}" y="1336" width="1572" height="234" rx="14" fill="none" stroke="{GREEN_D}" stroke-width="2"/>')
+svg.append(band(WB/2-786, 1453, WB/2+786, 1453, 220, n=16, wave=90, w=0.7, col="#9cc2a6"))
 # signatures and seal (bottom row)
 def sig(img, x, y, w):
     return f'<image href="{img}" x="{x}" y="{y}" width="{w}" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:multiply"/>'
-SY = 2045
+SY = 2068
 svg.append(sig("sig4_rising.png", 500, SY + 30, 190))
 svg.append(sig("sig1_loop.png", 2080, SY - 30, 330))
 svg.append(sig("sig2_strike.png", 2620, SY + 20, 330))
@@ -148,7 +165,7 @@ for idx, k in enumerate(range(33, 41)):
 <div class="cpb">On the first day of {mname}, {yy}, Franklin County will pay to bearer, at the office of the County Treasurer, upon surrender of this coupon, Six Thousand Two Hundred Fifty Dollars ($6,250), being six months' interest then due on its Public Improvement Bond dated March&nbsp;1,&nbsp;1948, No.&nbsp;{html.escape(SERIAL).replace(' ', '&nbsp;')}.</div>
 <div class="cps"><img src="sig2_strike.png"><div>County Treasurer</div></div></div>''')
 
-P1 = """<span class="sc">Franklin County</span>, a political subdivision duly organized and existing under the Constitution and laws of the State, for value received, hereby acknowledges itself indebted and promises to pay to the bearer of this bond, or, if it be registered, to the registered holder hereof, on the first day of March, 1968, the principal sum of"""
+P1 = """<span class="sc">Franklin County</span>, a political subdivision duly organized and existing under the Constitution and laws of the State, for value received, hereby acknowledges itself indebted and promises to pay to the bearer of this bond, or, if it be registered, to the registered holder hereof, on the first day of March, 1968, the principal sum of <b class=\"sc\" style=\"font-weight:700\">Five Hundred Thousand Dollars ($500,000)</b>"""
 COLS = """<p>in lawful money of the United States of America, and to pay interest thereon from the date hereof at the rate of two and one-half per centum (2&frac12;%) per annum, payable semi-annually on the first days of March and September in each year, upon presentation and surrender of the interest coupons hereto annexed as they severally become due. Both principal and interest are payable at the office of the County Treasurer of Franklin County or, at the option of the holder, at the Fiscal Agency of the County in the City and State of New York.</p>
 <p>This bond is one of an authorized issue of bonds of like date and tenor, except as to maturity, aggregating Twenty Million Dollars ($20,000,000), issued for the purpose of constructing, widening and paving public highways, roads, bridges and streets within the County, pursuant to the Constitution and statutes of the State and to a resolution of the Board of Supervisors duly adopted on the twelfth day of January, 1948, and approved by more than two-thirds of the qualified electors of the County voting at a special election duly called and held for that purpose.</p>
 <p>This bond is transferable by delivery, unless registered as to principal in the name of the holder on the books of the County Treasurer, such registration being noted hereon. Such registration shall not affect the negotiability of the coupons, which shall continue to pass by delivery.</p>
@@ -161,9 +178,9 @@ page = f"""<!doctype html><html><head><meta charset="utf-8">
 html,body{{margin:0;padding:0;}}
 .sheet{{position:relative;width:{W}px;height:{H}px;background:{PAPER};overflow:hidden;}}
 .sheet svg{{position:absolute;left:0;top:0;}}
-.p1{{position:absolute;left:300px;top:1385px;width:{WB-600}px;font-family:'IM Fell English';font-style:italic;font-size:33px;line-height:1.38;color:{INK};text-align:justify;text-indent:60px;}}
-.amt{{position:absolute;left:300px;top:1468px;width:{WB-600}px;text-align:center;color:{INK};}} .amt .big{{font-family:'Playfair Display';font-weight:900;font-variant-numeric:lining-nums;font-size:150px;line-height:1;color:{GREEN_D};text-shadow:5px 5px 0 #b9b9b9;}} .amt .words{{font-family:'Libre Caslon Text';font-weight:700;font-size:40px;letter-spacing:6px;margin-top:4px;}}
-.cols{{position:absolute;left:300px;top:1675px;width:{WB-600}px;column-count:2;column-gap:70px;column-rule:2px solid {GREEN_L};font-family:'IM Fell English';font-style:italic;font-size:25px;line-height:1.28;color:{INK};text-align:justify;hyphens:auto;}}
+.p1{{position:absolute;left:300px;top:1598px;width:{WB-600}px;font-family:'IM Fell English';font-style:italic;font-size:29px;line-height:1.38;color:{INK};text-align:justify;text-indent:60px;}}
+.amt{{position:absolute;left:{WB/2-760}px;top:1330px;width:1520px;height:250px;text-align:center;color:{INK};}} .amt .big{{font-family:'Playfair Display';font-weight:900;font-variant-numeric:lining-nums;font-size:250px;line-height:1;color:{GREEN_D};text-shadow:7px 7px 0 #b9b9b9;}} .amt .words{{font-family:'Libre Caslon Text';font-weight:700;font-size:40px;letter-spacing:6px;margin-top:4px;}}
+.cols{{position:absolute;left:300px;top:1700px;width:{WB-600}px;column-count:2;column-gap:70px;column-rule:2px solid {GREEN_L};font-family:'IM Fell English';font-style:italic;font-size:24px;line-height:1.27;color:{INK};text-align:justify;hyphens:auto;}}
 .cols p{{margin:0 0 6px 0;text-indent:44px;}}
 .sc{{font-variant:small-caps;font-style:normal;letter-spacing:2px;}}
 .lab{{position:absolute;font-family:'IM Fell English';font-style:italic;font-size:32px;color:{INK};}}
@@ -177,7 +194,7 @@ html,body{{margin:0;padding:0;}}
 </style></head><body><div class="sheet">
 <svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">{''.join(svg)}</svg>
 <div class="p1">{P1}</div>
-<div class="amt"><div class="big">$500,000</div><div class="words">FIVE HUNDRED THOUSAND DOLLARS</div></div>
+<div class="amt"><div class="big">$500,000</div></div>
 <div class="cols">{COLS}</div>
 <div class="lab" style="left:330px;top:{SY}px;">Countersigned:</div>
 <div class="labr" style="left:330px;top:{SY+165}px;width:480px;">Clerk of the Board of Supervisors</div>
