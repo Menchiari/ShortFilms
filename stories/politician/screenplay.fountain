@@ -1,13 +1,13 @@
 Title: POLITICIAN
 Credit: written by
 Author: Leonard Menchiari
-Draft date: 2026-11-10 (shooting script, draft 3)
+Draft date: 2026-11-11 (shooting script, draft 4)
 
 /* File: stories/politician/screenplay.fountain
-   Draft 3: Leonard's 22 comments on draft 2 applied (idea.md), plus the Braintrust fixes listed in chat.
+   Draft 4: Leonard's comments on draft 3 applied (idea.md): his ending, the bobblehead giving the finger, hanging by one foot, the call cut shorter.
    Shot notes: [[SHOT | seconds | size and angle | movement | note]]. Scene ids S01..S10, shot ids per scene.
-   ASSUMPTION (no answer yet, Claude's pick): bobblehead not gold, hand on heart; the gun moment plays in his head; the helicopter holds high and far, unheard under the crowd until the first crack.
-   PROPOSED: the final line; bearer bonds; the scope with face boxes; Walther PPK/S.
+   ASSUMPTION (no answer yet, Claude's pick): the gun moment plays in his head; the helicopter holds high and far, unheard under the crowd until the first crack.
+   PROPOSED: her last line ("Not anymore."); bearer bonds; the scope with face boxes; Walther PPK/S; the Agreement page.
    Accents: everyone in the town and on the news speaks English with strong accents nobody can place. The old man is American, with a slight accent. */
 
 .EXT. CITIES AROUND THE WORLD - DAY TO SUNSET #S01#
@@ -24,13 +24,13 @@ NEWS ANCHORS (V.O.)
 
 A cardboard sign. His face. A red X over each eye.
 
-[[SH030 | 3 | MEDIUM | Locked-off | Numbers per liter, no currency sign. Set up for the last line]]
+[[SH030 | 3 | MEDIUM | Locked-off | Numbers per liter, no currency sign. Precedent: Nigeria 2023, petrol about 3x overnight]]
 
-Another country. A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL: 2.07 becomes 6.31. A line of cars behind him. Nobody honks.
+Another country. A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars behind him. Nobody honks.
 
-[[SH040 | 2 | WIDE, long lens | Locked-off | ]]
+[[SH040 | 3 | WIDE, long lens, then two cuts | Locked-off | Leonard: multi-shot generation, three cuts in one]]
 
-Another country. A highway out of a city, jammed. Mattresses tied on car roofs. Children's faces at the windows.
+Another country. A highway out of a city, jammed. Cut: mattresses tied on car roofs. Cut: a child's face at a car window.
 
 [[SH050 | 4 | WIDE, long lens | Handheld | Distance: nothing explicit]]
 
@@ -87,9 +87,9 @@ The dog lifts its head.
 
 The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.
 
-[[SH080 | 2 | INSERT, dashboard | Locked-off | Leonard: separate shot. ASSUMPTION: not gold, no thumb up (no Trump)]]
+[[SH080 | 2 | INSERT, dashboard | Locked-off | Leonard: him giving the finger. Painted, not gold]]
 
-A painted bobblehead on the dashboard: him, smiling, a hand on his heart. Nodding.
+A painted bobblehead on the dashboard: him, grinning, giving the finger. Nodding.
 
 [[SH090 | 2 | INSERT, passenger seat | Locked-off | Leonard: separate shot]]
 
@@ -282,11 +282,11 @@ He runs on, out into the crossroads, past his empty car, pulling out his phone.
 
 His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.
 
-[[SH090 | 10 | CLOSE | Handheld, running | ]]
+[[SH090 | 6 | CLOSE | Handheld, running | Leonard: the call ends here]]
 
 OLD MAN
 (into the phone)
-It's me! I have the money! The car broke down, I'm on foot, come get me, fast! I'm slightly south from where we were supposed to meet, the add--
+It's me! I have the money! The car broke down, I'm on foot, come get me, fast!
 
 [[SH100 | 2 | CLOSE | Handheld | ]]
 
@@ -322,7 +322,7 @@ Some of them back away. The tough ones step forward. They don't run. They walk t
 
 [[SH050 | 7 | MEDIUM, his side | Handheld | Shots 2 to 7: six shots. Countdown audible between shots (Leonard). Distance on the falls]]
 
-He shoots. A man drops. He shoots again. Another drops. The rest break into a sprint, twenty meters away. He keeps firing, counting down out loud between shots.
+He shoots. A man drops. He shoots again. Another drops. The rest break into a sprint from forty meters away. He keeps firing, counting down out loud between shots.
 
 OLD MAN
 ...four... three... two...
@@ -334,9 +334,9 @@ He fires once more.
 OLD MAN
 One.
 
-[[SH070 | 6 | CLOSE, slow push in | Locked-off | ASSUMPTION: plays in his head. Leonard: more intense, the realization]]
+[[SH070 | 6 | CLOSE, over his shoulder: him and the crowd in one frame | Slow push in | ASSUMPTION: plays in his head. Leonard: more intense, the realization]]
 
-The sound drains away until only his breathing is left. In front of him the sprinting crowd slows to a crawl. He looks at the faces. He looks at the gun. His jaw sets. He presses the muzzle to his temple and shuts his eyes.
+The sound drains away until only his breathing is left. Beyond his shoulder the sprinting crowd slows to a crawl, twenty meters off. He stops shaking. He presses the muzzle to his temple and shuts his eyes.
 
 [[SH080 | 2 | EXTREME CLOSE | Locked-off | Sound slams back in]]
 
@@ -356,9 +356,9 @@ From far above, the small mob closes around him at the corner of the crossroads.
 
 A rope sails over the arm of a street light at the corner.
 
-[[SH030 | 3 | WIDE | Locked-off | ]]
+[[SH030 | 3 | WIDE | Locked-off | Leonard: by one foot]]
 
-They haul him up by the ankles, upside down.
+They haul him up by one ankle. He hangs upside down from one foot, the other leg bent loose.
 
 [[SH040 | 3 | CLOSE, upside down | Locked-off | Not exaggerated (Leonard)]]
 
@@ -370,9 +370,9 @@ He pulls his arms over his head. A man swings a metal pipe into his shoulder. Ag
 
 [[SH060 | 2 | LOW, looking up | Locked-off | Leonard: from below]]
 
-The pipe rises high against the sky for the last blow.
+The pipe rises high against the sky, held there with both hands.
 
-[[SH070 | 2 | WIDE, high, from above | Locked-off | Leonard: hit in the face. Wide and from behind the man: nothing explicit]]
+[[SH070 | 2 | WIDE, high above and in front of him | Locked-off | Leonard: hit in the face. Never from behind (exit wound): at this distance the hit is a snap of the head]]
 
 A crack from the sky. The man with the pipe snaps back and drops. The pipe rings on the asphalt.
 
@@ -384,7 +384,7 @@ The crowd steps back from the body, looking up.
 
 [[SH010 | 3 | EXTREME WIDE, long lens | Locked-off | Clancy, hint of Kojima (Leonard, Q12). Airbus ACH160, Lounge cabin (keeps sliding doors; the Exclusive cabin has hinged ones). ASSUMPTION: far enough to stay unheard under the crowd]]
 
-High above and far beyond the rooftops, an Airbus ACH160, glossy and white, holds still in the sky. Its sliding door is open.
+High above and far beyond the rooftops, a helicopter holds still in the sky: an Airbus ACH160, glossy and white, its sliding door open.
 
 [[SH020 | 3 | CLOSE | Locked-off, cabin vibration | ]]
 
@@ -436,9 +436,9 @@ Bodies lie across the crossroads, certificates stuck to the asphalt between them
 
 He rolls onto his back and lies on the sidewalk as if it were a couch, legs out on the street. He catches his breath. He looks at the sky. Nearly a smile.
 
-[[SH040 | 3 | MEDIUM | Locked-off | Leonard: angry, repulsed, "fuck you, I won"]]
+[[SH040 | 3 | MEDIUM, on him | Locked-off | Leonard: angry, repulsed. The body: a shoulder in the soft foreground only]]
 
-He props himself up on an elbow, looks at the nearest body with disgust, and spits on it. Hard. Then he holds his stare on it.
+He props himself up on an elbow and glares at the nearest body. Fuck you, I won: he spits on it, hard, and keeps glaring.
 
 [[SH050 | 6 | LOW ANGLE, briefcase in the foreground | Locked-off | Leonard: the helicopter lands as he reaches the case]]
 
@@ -469,23 +469,38 @@ She holds out her hand. He gives her the folder. She opens it to the last page.
 
 Dense clauses. At the bottom, his signature, large and clear.
 
-[[SH120 | 7 | CLOSE | Locked-off | Final line: PROPOSED. Pays off the gas board (S01 SH030) and the empty tank]]
+[[SH120 | 4 | CLOSE, her | Locked-off | Leonard's ending]]
 
-She closes the folder. She looks at the bodies, then at him.
+She closes the folder. She is about to say something. She waits. She looks at him.
+
+[[SH130 | 3 | CLOSE, him | Locked-off | ]]
+
+He stares back at her, chin up. A challenge.
+
+[[SH140 | 5 | MEDIUM | Locked-off | His line (Leonard)]]
+
+He walks past her, climbs into the helicopter, and from the door points his chin at the street.
+
+OLD MAN
+That's your money right there.
+
+[[SH150 | 2 | HER POV, WIDE | Locked-off | Distance: no wounds in frame]]
+
+The certificates flutter among the bodies in the rotor wash.
+
+[[SH160 | 4 | CLOSE, her | Locked-off | Her one line: PROPOSED]]
+
+She squints at the money on the street. She turns away from it, almost disgusted.
 
 BUSINESS LADY
-Now that it's signed, fuel comes down on Monday.
-(a beat)
-You fixed it.
+Not anymore.
 
-[[SH130 | 3 | MEDIUM | Locked-off | ]]
-
-He holds her look. The corner of his mouth lifts. She turns and walks back to the helicopter. He follows her in.
+She climbs in after him.
 
 .INT. HIS CAR - CROSSROADS - CONTINUOUS #S10#
 
 [[SH010 | 10 | MEDIUM, through the windshield | Locked-off | The helicopter going away (Leonard). The bobblehead from his car intro returns]]
 
-The bobblehead in the foreground, hand on its heart, nodding hard in the rotor wash. Through the windshield the helicopter lifts off, banks over the rooftops and goes away into the sky. The bobblehead slows. Keeps nodding. The sky is empty.
+The bobblehead in the foreground, giving the finger, nodding hard in the rotor wash. Through the windshield the helicopter lifts off, banks over the rooftops and goes away into the sky. The bobblehead slows. Keeps nodding. The sky is empty.
 
 > CUT TO BLACK.
