@@ -72,7 +72,9 @@ svg.append(f'<rect x="{tx0}" y="{ty0}" width="{tx1-tx0}" height="{ty1-ty0}" fill
 svg.append(f'<text x="{WB/2}" y="{(ty0+ty1)/2+24}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="64" letter-spacing="6" fill="{GREEN_D}" textLength="1240" lengthAdjust="spacing">UNITED STATES OF AMERICA</text>')
 
 # underprint
-svg.append(f'<text x="{WB/2}" y="2210" text-anchor="middle" font-family="Playfair Display" font-weight="900" style="font-variant-numeric:lining-nums" font-size="1000" fill="{GREEN}" opacity=".08" letter-spacing="-20">500</text>')
+if VIGNETTE:
+    bw = 2800; bh = round(bw * 1700 / 2560)
+    svg.append(f'<image href="{VIGNETTE}" x="{WB/2 - bw/2}" y="215" width="{bw}" height="{bh}" preserveAspectRatio="xMidYMid meet"/>')
 
 def tablet(x, y, w, h, label, value, vcol, vsize):
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="4"/>'
@@ -92,23 +94,7 @@ svg.append(counter(500, 720)); svg.append(counter(WB - 500, 720))
 
 # vignette
 if VIGNETTE:
-    vcx, vcy, vry = WB / 2, 640, 330
-    vrx = vry * 772 / 1048
-    # engraved frame: guilloche ribbon around the oval
-    pts_sets = []
-    for i in range(14):
-        ph = 2 * math.pi * i / 14
-        pts = []
-        for s_ in range(0, 1441):
-            t = 2 * math.pi * s_ / 1440
-            o = 16 * math.sin(48 * t + ph)
-            pts.append((vcx + (vrx + 34 + o) * math.cos(t), vcy + (vry + 34 + o) * math.sin(t)))
-        svg.append(poly(pts, 0.9, GREEN))
-    svg.append(f'<ellipse cx="{vcx}" cy="{vcy}" rx="{vrx+8}" ry="{vry+8}" fill="none" stroke="{GREEN_D}" stroke-width="5"/>')
-    svg.append(f'<ellipse cx="{vcx}" cy="{vcy}" rx="{vrx+60}" ry="{vry+60}" fill="none" stroke="{GREEN_D}" stroke-width="5"/>')
-    svg.append(f'<image href="{VIGNETTE}" x="{vcx-vrx}" y="{vcy-vry}" width="{2*vrx}" height="{2*vry}" preserveAspectRatio="none" style="mix-blend-mode:multiply"/>')
-else:
-    svg.append(f'<ellipse cx="{WB/2}" cy="640" rx="243" ry="330" fill="none" stroke="#999" stroke-width="3" stroke-dasharray="14 10"/>')
+    pass
 
 # title block, to the sides of nothing: below the vignette
 svg.append(f'<text x="{WB/2+9}" y="1158" text-anchor="middle" font-family="UnifrakturMaguntia" font-size="185" fill="#8d8d8d">County of Franklin</text>')
