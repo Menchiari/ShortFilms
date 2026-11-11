@@ -107,7 +107,7 @@ Music runs at 480p: 90 credits per 30 s. Nothing is spent without a free preflig
 | No seed | A take can't be reproduced or re-rendered at another resolution. | Choose the resolution before each keeper take, and change one thing per retake. |
 | Accents | AI voices drift toward a real nationality. | A written accent per character, checked on the first takes. |
 | Brands | The ACH160, the PPK/S and the car are real products. | No logos anywhere (bible rule). |
-| The bond | Your design: a 1948 county bond, payable to the bearer. US bearer bonds date from before 1982, so the period is right. It matured in 1968. | Keep it. Optional: a strip of interest coupons along the bottom edge, like real bearer bonds had. |
+| The bond | Your design: a 1948 county bond, payable to the bearer. US bearer bonds date from before 1982, so the period is right. It matured in 1968. | Keep it. Done: interest coupons 33 to 40 attached along the bottom (prop-bearer-bond_v2.png). |
 | Repository size | Every take goes into git, and 1080p takes are bigger. | `filmtool status` after each scene; I warn you well before 5 GB. |
 
 ## 9. Order of work
