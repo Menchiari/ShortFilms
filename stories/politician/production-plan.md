@@ -22,7 +22,7 @@ Final script: 10 scenes, 100 shots, 5:34 of screen time. Seedance 2.5 on Higgsfi
 | 1 to 5. Analysis, bible, shot list, shot plan, sound list | One pass, summed up on one PDF page | Read it, answer the few questions (30 min) |
 | 3D crossroads | Builds the blockout in Blender and renders every crossroads angle (section 4) | Approve the look of the layout |
 | 6. References | Prepares and registers your images as Elements in the project "SF 001 Politician", folder REFS | Make the photographic references in your pipeline (Midjourney), on top of my 3D renders for the crossroads. Your biggest block of time. |
-| 6b. Graphic props | Every on-screen text as an image: gas board, bearer bond, news package, scope boxes, phone screens, the Agreement (rebuilt to look like a real contract) | Approve |
+| 6b. Graphic props | Every on-screen text as an image: gas board, news package, scope boxes, phone screens, the Agreement (rebuilt to look like a real contract). The bond is your design. | Approve |
 | 7a. Tests at 480p | The risk tests in section 7 | Approve the spend |
 | 7b. Generation | Prompts, free preflight, generates the list you approve, scene by scene, downloads, logs, commits every take | Approve each list, react to the takes |
 | 8. 24 fps | Probes and fixes every take (section 6) | Nothing |
@@ -45,7 +45,7 @@ Final script: 10 scenes, 100 shots, 5:34 of screen time. Seedance 2.5 on Higgsfi
   - The helicopter cabin (cream leather).
 - **Vehicles:** his car (defined in the bible); the Airbus ACH160, white, Lounge cabin with sliding doors. No logos on either.
 - **Props:** the bobblehead (painted, giving the finger), the briefcase with a pocket in the lid, the pistol, the rope, the metal pipe, his phone.
-- **Graphic props (I make them, no credits):** the gas board, the bearer bond, the news package, the scope's face boxes and crosshair, the phone screens, the Agreement.
+- **Graphic props (I make them, no credits):** the gas board, the news package, the scope's face boxes and crosshair, the phone screens, the Agreement. The bond is yours (Lincoln County Public Improvement Bond, $500,000).
 
 ## 4. 3D: the crossroads in Blender
 
@@ -107,7 +107,7 @@ Music runs at 480p: 90 credits per 30 s. Nothing is spent without a free preflig
 | No seed | A take can't be reproduced or re-rendered at another resolution. | Choose the resolution before each keeper take, and change one thing per retake. |
 | Accents | AI voices drift toward a real nationality. | A written accent per character, checked on the first takes. |
 | Brands | The ACH160, the PPK/S and the car are real products. | No logos anywhere (bible rule). |
-| Bearer bonds | New ones haven't been issued in the US since 1982. | They read as old money. Or switch to another bearer certificate (still to research). |
+| The bond | Your design: a 1948 county bond, payable to the bearer. US bearer bonds date from before 1982, so the period is right. It matured in 1968. | Keep it. Optional: a strip of interest coupons along the bottom edge, like real bearer bonds had. |
 | Repository size | Every take goes into git, and 1080p takes are bigger. | `filmtool status` after each scene; I warn you well before 5 GB. |
 
 ## 9. Order of work

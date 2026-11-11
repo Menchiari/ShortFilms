@@ -412,3 +412,10 @@ I probably should download the models of the car and helicopter unless you would
 
 Any other things like this we should be aware of?"
 Earlier the same day, on draft 4: "remove the draft shit, title page, and signature page (I also don't like how it doesn't look like a contract at all, but that's irrelevant for now)" and "I also need a production plan once you're done thinking."
+
+## Leonard's changes (2026-11-11, verbatim)
+"I'm giving you the money bond one of the sheets that is in the briefcase. Also one change to the script: instead of "what took you so long?" say "it'll be national news now".
+
+Also SH160 not her back to us, she's looking behind us, helicopter behind her, and says "not anymore" more to herself before turning around and getting in the helicopter."
+Then: "if you think of a better type of bond for this movie, say so"
+The bond image is saved as stories/politician/prop-bearer-bond.webp (Lincoln County Public Improvement Bond, $500,000, No. A 004217, dated March 1, 1948, due March 1, 1968, payable to the bearer, "For motion picture use only, not negotiable").

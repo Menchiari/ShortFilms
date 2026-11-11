@@ -7,7 +7,7 @@ Draft date: 2026-11-11
    Draft 5: Leonard's last comment applied ("Fuck you, I won:" struck). Shot notes cleaned of draft and authorship tags; the record of who decided what is in idea.md.
    Shot notes: [[SHOT | seconds | size and angle | movement | note]]. Scene ids S01..S10, shot ids per scene.
    ASSUMPTION (no answer yet, Claude's pick): the gun moment plays in his head; the helicopter holds high and far, unheard under the crowd until the first crack.
-   PROPOSED: her last line ("Not anymore."); bearer bonds; the scope with face boxes; Walther PPK/S; the Agreement page.
+   PROPOSED: her last line ("Not anymore."); the scope with face boxes; Walther PPK/S; the Agreement page. The bond is Leonard's design (prop-bearer-bond.webp).
    Accents: everyone in the town and on the news speaks English with strong accents nobody can place. The old man is American, with a slight accent. */
 
 .EXT. CITIES AROUND THE WORLD - DAY TO SUNSET #S01#
@@ -263,9 +263,9 @@ A whole crowd runs after him, faster than he is.
 
 He trips. The briefcase hits the asphalt and bursts open.
 
-[[SH050 | 3 | INSERT | Locked-off | Bearer bonds]]
+[[SH050 | 3 | INSERT | Locked-off | Prop: the bond (prop-bearer-bond.webp)]]
 
-Large engraved certificates spill out: PAY TO BEARER. ONE HUNDRED THOUSAND US DOLLARS.
+Engraved certificates spill out across the asphalt: PUBLIC IMPROVEMENT BOND. $500,000.
 
 [[SH060 | 3 | WIDE | Handheld | A decoy]]
 
@@ -455,7 +455,7 @@ The BUSINESS LADY steps out, low under the rotors, and walks to him.
 [[SH080 | 5 | MEDIUM | Locked-off | ]]
 
 OLD MAN
-What took you so long? I don't pay your ass for nothing.
+It'll be national news now. I don't pay your ass for nothing.
 
 [[SH090 | 3 | CLOSE, her | Locked-off | Her silence is the answer]]
 
@@ -488,14 +488,15 @@ That's your money right there.
 
 The certificates flutter among the bodies in the rotor wash.
 
-[[SH160 | 5 | CLOSE, her, from the helicopter door (his side) | Locked-off | She says it to him, face to camera]]
+[[SH160 | 5 | CLOSE, her, from the street side, the helicopter behind her | Locked-off | She looks past the lens at the money]]
 
-Her back to us, she squints at the money on the street. She turns away from it, toward him in the door, almost disgusted.
+She faces us, the helicopter behind her, him in the door. She squints past us at the money on the street, almost disgusted.
 
 BUSINESS LADY
+(to herself)
 Not anymore.
 
-She climbs in after him.
+She turns around and climbs in after him.
 
 .INT. HIS CAR - CROSSROADS - CONTINUOUS #S10#
 
