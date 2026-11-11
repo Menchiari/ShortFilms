@@ -1,70 +1,119 @@
 # Politician: production plan
 
-Final script: 10 scenes, 100 shots, 5:34 of screen time. Seedance 2.5 on Higgsfield, 24 fps, following PIPELINE.md.
+Final script: 10 scenes, 100 shots, 5:34 of screen time. Seedance 2.5 on Higgsfield, 24 fps, following PIPELINE.md. The shot-by-shot list of locations and angles is in "Locations and angles" (separate PDF).
 
-## 1. Your decisions first (about 10 minutes)
+## 1. Your decisions first
 
 | # | Decision | My pick |
 |---|---|---|
 | 1 | Lock the story and the script, and start the film | You say "lock". I run `filmtool new "Politician"` (film 001) and copy the script into the film. |
-| 2 | Aspect ratio | 21:9. It suits the Clancy register, and Seedance supports it at the same price. |
-| 3 | Resolution of the takes you keep | 720p. Tests at 480p. A take can't be re-rendered later at a higher resolution as the same performance. |
-| 4 | Voices and accents | Generated audio with a written accent for each character. A line gets replaced with an ElevenLabs voice only if an accent drifts. |
-| 5 | Music | Your two "I Was There" references stay a temp track until the rights are clear (I don't know who holds them). The final cue gets made in stage 11. |
-| 6 | Piazzale Loreto echo of the hanging | Your call: keep it or avoid it. |
+| 2 | Aspect ratio | 21:9 |
+| 3 | Resolution | 720p for most shots. 1080p for 9 establishing shots and big moments (40 s, listed in "Locations and angles"). The resolution is chosen before a take: a take can't be re-rendered later as the same performance. |
+| 4 | The gun (see section 8) | Keep the PPK/S and make it real: the slide locks open after his last shot, and at his temple the trigger does nothing. He opens his eyes and sees the open slide. |
+| 5 | Voices and accents | Generated audio with a written accent for each character. A line gets replaced with an ElevenLabs voice only if an accent drifts. |
+| 6 | Music | Your two "I Was There" references stay a temp track until the rights are clear (I don't know who holds them). |
+| 7 | Piazzale Loreto echo of the hanging | Your call. |
 
 ## 2. Stages and who does what
 
-| Stage | Claude | You | Your time |
-|---|---|---|---|
-| 0. Film created | Runs `filmtool new`, copies the script into `01-story/source/` | Say "lock" | 1 min |
-| 1 to 5. Analysis, bible, shot list, shot plan, sound list | One pass: style, characters, locations, props, `shotlist.json`, budget, SFX list with ElevenLabs prompts | Read a one-page PDF summary, answer the few questions | 30 min |
-| 6. References | Prepares and registers your images as Higgsfield Elements in the film's project, folder REFS | Make the photographic references in your own pipeline (Midjourney) | Your biggest block |
-| 6b. Graphic props | Designs every on-screen text as an image: gas board, bearer bond, news package, scope boxes, phone screens, the Agreement (rebuilt to look like a real contract) | Approve | 15 min |
-| 7a. Tests at 480p | 4 risk tests (section 5) | Approve the spend | 15 min |
-| 7b. Generation | Prompts, free cost preflight, generates the list you approve, scene by scene, downloads, names, logs, commits every take | Approve each list, react to the takes | Your second biggest block |
-| 8. Frame rate | Fixes every take to constant 24 fps | Nothing | 0 |
-| 9 to 11. Edit, sound, music | Conform list, SFX prompts, music analysis and prompts | Edit in Resolve, sound design, music choices | Yours |
-| 12. Release | Updates the site page, writes the Discord post | Final export, the YouTube or Vimeo link | 15 min |
+| Stage | Claude | You |
+|---|---|---|
+| 0. Film created | `filmtool new`, script copied into `01-story/source/` | Say "lock" |
+| 1 to 5. Analysis, bible, shot list, shot plan, sound list | One pass, summed up on one PDF page | Read it, answer the few questions (30 min) |
+| 3D crossroads | Builds the blockout in Blender and renders every crossroads angle (section 4) | Approve the look of the layout |
+| 6. References | Prepares and registers your images as Elements in the project "SF 001 Politician", folder REFS | Make the photographic references in your pipeline (Midjourney), on top of my 3D renders for the crossroads. Your biggest block of time. |
+| 6b. Graphic props | Every on-screen text as an image: gas board, bearer bond, news package, scope boxes, phone screens, the Agreement (rebuilt to look like a real contract) | Approve |
+| 7a. Tests at 480p | The risk tests in section 7 | Approve the spend |
+| 7b. Generation | Prompts, free preflight, generates the list you approve, scene by scene, downloads, logs, commits every take | Approve each list, react to the takes |
+| 8. 24 fps | Probes and fixes every take (section 6) | Nothing |
+| 9 to 12. Edit, sound, music, release | Conform list, SFX prompts, music prompts, site and Discord | Edit, sound design, music choices, final export |
 
-## 3. Elements to make (Higgsfield project "SF 001 Politician")
+## 3. Elements to make
 
-- **Characters (7 sheets):** the old man clean; the old man beaten (blood and dirt, not exaggerated: he still has to look cool at the end); the fat person; the friend; the business lady; Roger; the reporter. The crowd, the police, the old woman and the pipe man don't need sheets.
-- **Locations (5):** the dirt road and the edge of town; the main street with the apartment blocks; the side streets; the crossroads (the street light at the corner, room for a helicopter to land); the helicopter cabin (cream leather).
-- **Vehicles (2):** his car (defined in the bible); the Airbus ACH160, white, Lounge cabin with sliding doors.
-- **Props:** the bobblehead (painted, giving the finger), the briefcase with a pocket in the lid, the nickel Walther PPK/S, the rope, the metal pipe, his phone.
-- **Graphic props, made by me as images, no credits:** the gas price board, the bearer bond certificate, the TV news package (logo, BREAKING bar, ticker, his portrait), the scope's face boxes, the phone's lock and call screens, the Agreement page.
+- **The old man, 4 images for 3 states:**
+  - A, clean: S02 to S05 (until the rock).
+  - B, hit on the head, with dirt and a few rips from the fall: S05 SH100 to S06.
+  - C, beaten, with more dirt and rips, trousers dry: S07 and S08.
+  - D: C with the trousers pissed, S09 on. It's the same image as C, edited, so the two match. The stain spreads during S09 SH010.
+- **Other characters, 1 sheet each:** the fat person, the friend, the business lady, Roger, the reporter. The crowd, the police, the old woman and the pipe man don't need sheets.
+- **Locations:**
+  - The crossroads (from the 3D blockout).
+  - The dirt road and the edge of town.
+  - The main street.
+  - The side streets.
+  - His car's interior.
+  - The helicopter cabin (cream leather).
+- **Vehicles:** his car (defined in the bible); the Airbus ACH160, white, Lounge cabin with sliding doors. No logos on either.
+- **Props:** the bobblehead (painted, giving the finger), the briefcase with a pocket in the lid, the pistol, the rope, the metal pipe, his phone.
+- **Graphic props (I make them, no credits):** the gas board, the bearer bond, the news package, the scope's face boxes and crosshair, the phone screens, the Agreement.
 
-## 4. Budget
+## 4. 3D: the crossroads in Blender
+
+The crossroads hosts 43 shots, about 2:30 of the film. It gets built once as a blockout: the building fronts around a large intersection, the street light at the corner, his car in the middle, a clear landing area, and a fixed sun for just after lunch.
+
+- **What it gives:** the same geography, light direction and positions in every angle. Exact camera positions for all 43 shots. A ground plan for the crowd and the helicopter.
+- **How I build it:** Higgsfield has a hosted Blender ("3D Jutsu"). I drive it with Python and render stills and grey videos. Nothing gets installed on your computer. I don't know yet whether building and rendering there costs credits. Turning a render into AI video does.
+- **What happens to the renders:** they become the base for your start frames (your pipeline paints over them), and grey videos become motion references for Seedance.
+- **Limit:** in this version, the hosted Blender only imports models from Higgsfield's own catalog, not files you download. A real ACH160 or a specific car model in 3D means your local Blender. For previs, a simple proxy shape is enough.
+
+## 5. Crowds and vehicles
+
+**Crowds, in this order (cheapest first):**
+1. **Seedance alone** for most crowd shots. It handles dozens of people in a wide shot. Tested first at 480p.
+2. **For the choreographed moments** (the tough ones advancing, the sprint, the scatter under fire, the mob from above, the crowd stepping back): I write a crowd simulation in Blender. That's your "each person is a ball" idea: agents that walk, sprint, keep their distance and flee from shots. It gets rendered as grey figures from the exact 3D camera, and Seedance turns the figures into people through a video reference.
+3. **Not Unreal:** its crowd tools are powerful, but the setup is heavy and the result is a CG look that won't match the Seedance shots. That's not worth it for this film.
+4. **Real riot footage:** at most as a private motion reference, never in the cut (rights, and real people).
+
+**Vehicles:** the motion comes from Seedance, guided by the vehicle's element images. Blender only where the path has to be exact:
+- the car passing over the low camera (S02 SH040),
+- the helicopter landing behind him with the case in the foreground (S09 SH050),
+- the takeoff seen through the windshield (S10).
+
+You don't need to download 3D models of the vehicles for Seedance. A downloaded model is useful only to render clean reference angles for the elements, and its license has to allow that.
+
+## 6. 24 fps without jitter
+
+Seedance 2.5 outputs 24 fps. Jitter comes from four places, and each one has a fix:
+
+| Cause | Fix |
+|---|---|
+| Duplicate frames or a variable frame rate inside a clip | `fps.py probe` on every take, then `fix` (conform to constant 24, or rebuild the duplicates). The first real take gets measured. |
+| The timeline rate doesn't match the clips | The Resolve project and timeline set to the exact rate the probe reports (24 or 23.976, never mixed). |
+| Speed changes | No frame blending. The slow crowd in S06 SH070 is generated slow, or retimed with optical flow and checked. |
+| Fast pans at 24 fps strobe by nature | Pans in the prompts stay slow, and fast moves get motion blur. Your old-school static shots avoid this. |
+
+## 7. Budget
 
 Your Higgsfield balance on 2026-11-11: 32,871 credits.
 
-| Plan | Generation seconds | 480p (3 per s) | 720p (7 per s) |
+| Plan | 720p part | 1080p part (9 shots) | Total |
 |---|---|---|---|
-| One take of every shot, each shot generated alone (4 s minimum) | 437 | 1,311 | 3,059 |
-| One take, short shots grouped into multi-shot generations | about 352 | about 1,056 | about 2,464 |
-| Realistic: about two takes per generation on average (estimate) | about 700 | about 2,100 | about 4,900 |
-| Risk tests before the main spend | about 60 | about 180 | |
+| One take of every shot, each generated alone (4 s minimum) | 392 s = 2,744 | 45 s = 720 | 3,464 |
+| One take, short shots grouped into multi-shot generations | about 307 s = 2,149 | 45 s = 720 | about 2,870 |
+| Realistic, about two takes per generation (estimate) | | | about 6,000 to 7,000 |
+| Risk tests at 480p before the main spend | | | about 180 |
 
 Music runs at 480p: 90 credits per 30 s. Nothing is spent without a free preflight and your approval of that exact list.
 
-## 5. The hard shots and how we lower the risk
+## 8. Things to watch (realism and production)
 
-| Risk | Where | Plan |
+| Item | What's wrong or risky | Plan |
 |---|---|---|
-| Content filters on guns and the lynching. I don't know Seedance's limits. | S06, S07, S08 | Test first, at 480p: a man falling from a gunshot at a distance; the mob seen from above; the man hanging by one foot; the massacre in a wide. If a shot is refused, imply it: cut on the crack, the fall out of frame, the sound. |
-| Crowd choreography (advancing, sprinting, scattering under fire) | S05, S06, S07 SH080, S08 SH040 | AI crowd first. If it fails, a Blender previs with grey figures as a video reference (a method in PROMPTING.md). Real riot footage only as a private motion reference, never in the cut. |
-| The old man stays the same person across about 45 shots, clean then beaten | S02 to S09 | Two locked character sheets, and wardrobe locks per scene in the bible. |
-| Readable text | All inserts with text | Never generated. My graphics, composited in Resolve or used as start frames. |
-| Hanging upside down by one foot, and the rope over the light | S07 | A start frame from your image pipeline. |
-| A specific helicopter model | S08, S09, S10 | ACH160 reference stills registered as an element. |
-| The crowd slowing down in his head | S06 SH070 | Generate at normal speed and retime in the edit. If the retime isn't clean, ask Seedance for slow motion directly. |
-| Accents drifting between takes | All dialogue | The accent is written for each character. A line is replaced with an ElevenLabs voice only when needed. |
+| The gun's click | Checked: the Walther PPK/S locks its slide open after the last shot. An empty PPK/S doesn't click, and the open slide is visible. | Option A, my pick: the open slide is the reveal (decision 4). Option B: a small revolver, where the empty click is real, as in your first draft. Option C: a pocket pistol with no slide lock (the Seecamp .380 may be one, not verified). |
+| Content filters | I don't know Seedance's limits on guns, shootings and a lynching. | 480p tests first: a fall from a gunshot at a distance, the mob from above, the hanging, the massacre wide. If refused: cut on the crack, the fall out of frame, the sound. |
+| The rope shot from a hover | Hitting a rope from a hovering helicopter is close to impossible. | The helicopter is lower and closer by then. Optional: his first shot sparks off the light pole, the second cuts the rope. |
+| The landing | A helicopter needs a large clear area away from poles and wires. | The 3D crossroads is built wide enough. Rotor size to check. |
+| Readable text | Video models garble text. | Never generated. My graphics, composited or used as start frames. |
+| No seed | A take can't be reproduced or re-rendered at another resolution. | Choose the resolution before each keeper take, and change one thing per retake. |
+| Accents | AI voices drift toward a real nationality. | A written accent per character, checked on the first takes. |
+| Brands | The ACH160, the PPK/S and the car are real products. | No logos anywhere (bible rule). |
+| Bearer bonds | New ones haven't been issued in the US since 1982. | They read as old money. Or switch to another bearer certificate (still to research). |
+| Repository size | Every take goes into git, and 1080p takes are bigger. | `filmtool status` after each scene; I warn you well before 5 GB. |
 
-## 6. Order of work
+## 9. Order of work
 
-1. You decide section 1. I create the film and run stages 1 to 5 in one pass.
-2. You make the references while I build the graphic props.
-3. Tests at 480p (about 180 credits). They answer the filter and crowd questions before any big spend.
-4. Generation, easiest first to lock the look: the road and the town (S02, S03), then the dialogue (S04), then the action (S05 to S07), the helicopter and the ending (S08 to S10), and the riots (S01) last, since they only need his face on the signs.
-5. Frame-rate fix, then your edit, sound design and music, then release.
+1. Your decisions. I create the film and run stages 1 to 5, and build the 3D crossroads.
+2. You make the references (on my renders for the crossroads) while I build the graphic props.
+3. Tests at 480p (about 180 credits).
+4. Generation, easiest first to lock the look: the road and the town (S02, S03), the dialogue (S04), the action (S05 to S07), the helicopter and the ending (S08 to S10), and the riots (S01) last.
+5. 24 fps fixes, then your edit, sound design and music, then release.

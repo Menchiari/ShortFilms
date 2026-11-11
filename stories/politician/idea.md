@@ -396,3 +396,19 @@ Chat: "The ending can be more like what I wrote in the comment. What you did was
 Music notes (chat, verbatim, for the music stage; nothing generated):
 "Liminal space music - I Was There
 Music for Barbarians - I Was There"
+
+## Leonard's production notes (2026-11-11, verbatim)
+"you need three for the old man: clean, hit on the head and with dirt and a bit ripped for the fall, then beaten and with his pants pissed, additional dirt and rips on clothes.
+
+we need a list of every location and shot angle I need to generate, and if there is a place that can be done in 3D like the main place where everything happens blender can do it
+
+we can use some 1080p shots for establishing shots or cool moments
+
+how do we do the crowd? Do we generate it in blender or unreal with animations and tools or do you have other ideas?
+
+how do you do the 24fps without jitter?
+
+I probably should download the models of the car and helicopter unless you would know how to create one, and when it comes to vehicle motion do you make it in blender or seedance?
+
+Any other things like this we should be aware of?"
+Earlier the same day, on draft 4: "remove the draft shit, title page, and signature page (I also don't like how it doesn't look like a contract at all, but that's irrelevant for now)" and "I also need a production plan once you're done thinking."
