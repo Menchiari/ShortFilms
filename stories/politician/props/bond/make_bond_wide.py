@@ -78,8 +78,8 @@ def tablet(x, y, w, h, label, value, vcol, vsize):
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="14" fill="{GREEN_L}" stroke="{GREEN_D}" stroke-width="4"/>'
             f'<text x="{x+w/2}" y="{y+44}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="30" letter-spacing="6" fill="{GREEN_D}">{label}</text>'
             f'<text x="{x+w/2}" y="{y+h-26}" text-anchor="middle" font-family="Libre Caslon Text" font-weight="700" font-size="{vsize}" letter-spacing="4" fill="{vcol}">{value}</text>')
-svg.append(tablet(300, 290, 400, 170, "NUMBER", html.escape(SERIAL), RED, 80))
-svg.append(tablet(WB - 700, 290, 400, 170, "DOLLARS", "500,000", INK, 78))
+svg.append(tablet(300, 290, 280, 120, "NUMBER", html.escape(SERIAL), RED, 46))
+svg.append(tablet(WB - 820, 290, 520, 190, "DOLLARS", "$500,000", INK, 96))
 
 def counter(cx, cy):
     s = f'<circle cx="{cx}" cy="{cy}" r="205" fill="{PAPER}" stroke="{GREEN_D}" stroke-width="6"/>' + rosette(cx, cy, 150, 48, 18, 10, 0.75)
@@ -107,8 +107,8 @@ svg.append(f'<text x="{WB/2}" y="1348" text-anchor="middle" font-family="Libre C
 # signatures and seal (bottom row)
 def sig(img, x, y, w):
     return f'<image href="{img}" x="{x}" y="{y}" width="{w}" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:multiply"/>'
-SY = 1990
-svg.append(sig("sig4_rising.png", 470, SY + 10, 210))
+SY = 2045
+svg.append(sig("sig4_rising.png", 500, SY + 30, 190))
 svg.append(sig("sig1_loop.png", 2080, SY - 30, 330))
 svg.append(sig("sig2_strike.png", 2620, SY + 20, 330))
 sx, sy = WB / 2 - 120, SY + 130
@@ -162,8 +162,8 @@ html,body{{margin:0;padding:0;}}
 .sheet{{position:relative;width:{W}px;height:{H}px;background:{PAPER};overflow:hidden;}}
 .sheet svg{{position:absolute;left:0;top:0;}}
 .p1{{position:absolute;left:300px;top:1385px;width:{WB-600}px;font-family:'IM Fell English';font-style:italic;font-size:33px;line-height:1.38;color:{INK};text-align:justify;text-indent:60px;}}
-.amt{{position:absolute;left:300px;top:1485px;width:{WB-600}px;text-align:center;font-family:'Libre Caslon Text';font-weight:700;font-size:50px;letter-spacing:4px;color:{INK};}}
-.cols{{position:absolute;left:300px;top:1555px;width:{WB-600}px;column-count:2;column-gap:70px;column-rule:2px solid {GREEN_L};font-family:'IM Fell English';font-style:italic;font-size:27px;line-height:1.33;color:{INK};text-align:justify;hyphens:auto;}}
+.amt{{position:absolute;left:300px;top:1468px;width:{WB-600}px;text-align:center;color:{INK};}} .amt .big{{font-family:'Playfair Display';font-weight:900;font-variant-numeric:lining-nums;font-size:150px;line-height:1;color:{GREEN_D};text-shadow:5px 5px 0 #b9b9b9;}} .amt .words{{font-family:'Libre Caslon Text';font-weight:700;font-size:40px;letter-spacing:6px;margin-top:4px;}}
+.cols{{position:absolute;left:300px;top:1675px;width:{WB-600}px;column-count:2;column-gap:70px;column-rule:2px solid {GREEN_L};font-family:'IM Fell English';font-style:italic;font-size:25px;line-height:1.28;color:{INK};text-align:justify;hyphens:auto;}}
 .cols p{{margin:0 0 6px 0;text-indent:44px;}}
 .sc{{font-variant:small-caps;font-style:normal;letter-spacing:2px;}}
 .lab{{position:absolute;font-family:'IM Fell English';font-style:italic;font-size:32px;color:{INK};}}
@@ -177,9 +177,9 @@ html,body{{margin:0;padding:0;}}
 </style></head><body><div class="sheet">
 <svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">{''.join(svg)}</svg>
 <div class="p1">{P1}</div>
-<div class="amt">FIVE HUNDRED THOUSAND DOLLARS ($500,000)</div>
+<div class="amt"><div class="big">$500,000</div><div class="words">FIVE HUNDRED THOUSAND DOLLARS</div></div>
 <div class="cols">{COLS}</div>
-<div class="lab" style="left:330px;top:{SY-30}px;">Countersigned:</div>
+<div class="lab" style="left:330px;top:{SY}px;">Countersigned:</div>
 <div class="labr" style="left:330px;top:{SY+165}px;width:480px;">Clerk of the Board of Supervisors</div>
 <div class="labr" style="left:1990px;top:{SY+165}px;width:520px;">Chairman, Board of Supervisors</div>
 <div class="labr" style="left:2600px;top:{SY+165}px;width:420px;">County Treasurer</div>
