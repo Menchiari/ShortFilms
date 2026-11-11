@@ -106,9 +106,8 @@ for cx in (520, W - 520):
 # ---------- vignette ----------
 VX, VY, VRX, VRY = W / 2, 690, 470, 300
 if VIGNETTE:
-    svg.append(f'<defs><radialGradient id="vg" cx="50%" cy="50%" r="50%"><stop offset="78%" stop-color="#fff" stop-opacity="1"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>'
-               f'<mask id="vm"><ellipse cx="{VX}" cy="{VY}" rx="{VRX}" ry="{VRY}" fill="url(#vg)"/></mask></defs>'
-               f'<image href="{VIGNETTE}" x="{VX-VRX}" y="{VY-VRY}" width="{2*VRX}" height="{2*VRY}" preserveAspectRatio="xMidYMid slice" mask="url(#vm)" style="mix-blend-mode:multiply"/>')
+    vw = 1150; vh = round(vw * 850 / 1280)
+    svg.append(f'<image href="{VIGNETTE}" x="{W/2 - vw/2}" y="292" width="{vw}" height="{vh}" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:multiply"/>')
 else:
     svg.append(f'<ellipse cx="{VX}" cy="{VY}" rx="{VRX}" ry="{VRY}" fill="none" stroke="#999" stroke-width="3" stroke-dasharray="14 10"/>')
     svg.append(f'<text x="{VX}" y="{VY-10}" text-anchor="middle" font-family="Inter" font-size="40" fill="#888">YOUR ENGRAVED VIGNETTE</text>')
