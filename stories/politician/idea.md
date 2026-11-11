@@ -381,3 +381,18 @@ Chat: "very good job. I added the fixes". The five decisions asked in chat (bobb
 - S10 SH040 (spit): "needs to be angry at them, repulsed, like fuck you I won kinda attitude"
 - S10 SH050 (case): "open and seemingly empty"; "behind, behind, improve writing"
 - S10 SH110 ("Now that it's signed... there's no one left to hang."): "ehm... what? I don't know if I like this. But the pacing is right. Just needs a lot of depth. Probably needs as much thinking for this sentence than the entire script combined 10 times"
+
+## Leonard's comments on shooting-script.pdf draft 3 (2026-11-11, verbatim, mapped to draft 3 shots)
+Chat: "The ending can be more like what I wrote in the comment. What you did was too on the nose and doesn't feel cool. She should say at least one thing. After that I think this might be the last version."
+- Ending (comment on the summary page, next to the final-line item): "Maybe she's about to say something, then waits. Looks at him. He keeps staring with a challenging look. He walks by her and gets on the helicopter. "That's your money right there". She squints looking at the money on the street, then turns around, almost disgusted, and gets on the helicopter too."
+- Hanging (comment on the summary page): "make him hang only by one foot"
+- S01 SH030 (gas board): "just is, slide only one sign, the other is already there"
+- S01 SH040 (highway): "some shots can be multiple shots in one generation. This is a good example."
+- S02 SH080 (bobblehead): "him giving the finger"
+- S05 SH090 (phone call): struck "I'm slightly south from where we were supposed to meet, the add--"
+- S08 SH010: "add helicopter, or reader won't know what this is"
+- S09 SH120 to SH130: struck the line "Now that it's signed, fuel comes down on Monday. (a beat) You fixed it." and the action after it.
+
+Music notes (chat, verbatim, for the music stage; nothing generated):
+"Liminal space music - I Was There
+Music for Barbarians - I Was There"
