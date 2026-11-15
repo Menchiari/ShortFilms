@@ -82,7 +82,7 @@ def S08_SH040(nf):
     JA = hanging(nf / core.FPS, struggle=0.2, seed=21); him = Actor("him", COST["him"], nf); him.joints(0, JA)
     body = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); body.joints(0, [pipe_fall(nf)[-1]] * nf)
     rng = np.random.default_rng(201); n = 30
-    P0 = slots((ARM[0], ARM[1]), n, r0=4.5, dr=1.0, arc=(100, 380), seed=202)
+    P0 = falloff((ARM[0], ARM[1]), n, r_min=2.6, lam=2.4, arc=(100, 380), seed=202, walls=SQ_WALLS, max_r=22)
     out = P0 - ARM[:2][None]; out /= np.linalg.norm(out, axis=1)[:, None]
     T_ = P0 + out * 30
     cr = Crowd(P0, rng.uniform(4.0, 5.2, n), walls=SQ_WALLS, space_k=0.0, seed=203)

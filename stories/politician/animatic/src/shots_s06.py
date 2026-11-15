@@ -17,9 +17,8 @@ def gun_on(a):
 def line_crowd(n, r0, r1, T, seed, spread=7.0, speed=None, start=0.0, falls=()):
     """People in the street west of him at distance r0, moving to r1 (meters from him)."""
     rng = np.random.default_rng(seed)
-    P0 = np.stack([FALL[0] - rng.uniform(r0 - 3, r0 + 3, n), FALL[1] + 1.5 + rng.uniform(-spread, spread, n) * 0.5], 1)
-    P0[:, 1] = np.clip(P0[:, 1], -9.5, 9.5)
-    T_ = np.stack([FALL[0] - (r1 + (np.abs(P0[:, 0] - FALL[0]) - r0) * 0.6), P0[:, 1] * 0.8 + FALL[1] * 0.2], 1)
+    P0 = band(FALL[0] - r0, n, 2.6, -9.6, 9.6, seed=seed, dirx=-1.0, walls=SQ_WALLS)
+    T_ = P0 + np.array((r0 - r1, 0.0))
     v = np.full(n, abs(r0 - r1) / max(0.5, T - start)) if speed is None else np.full(n, speed)
     cr = Crowd(P0, v, walls=SQ_WALLS, space_k=0.0, seed=seed)
     look = np.repeat(np.array(FALL)[None], n, 0)
@@ -47,9 +46,12 @@ def S06_SH010(nf):
     him.seq([(0, pose("gun_up", **base)), (2.6, pose("gun_up", **base)), (3.2, pose("gun_point", **base, ra=(80, 5, 5)))])
     him.talk(0.6, 2.2); him.talk(3.3, 5.6); him.face(0, 6, eyes=1.4)
     rng = np.random.default_rng(31)
-    P0 = np.concatenate([slots(FALL, 8, r0=1.5, dr=0.8, arc=(95, 138), seed=31), slots(FALL, 8, r0=1.5, dr=0.8, arc=(178, 290), seed=32)])
+    camp = np.array((-43.6, -6.9))
+    sight = [(tuple(camp + (np.array(FALL) - camp) * u), 0.9) for u in np.linspace(0, 0.8, 7)]
+    P0 = falloff(FALL, 18, r_min=1.4, lam=1.7, arc=(90, 300), seed=31, walls=SQ_WALLS, avoid=sight, max_r=14)
     cr = Crowd(P0, rng.uniform(1.2, 1.8, len(P0)), walls=SQ_WALLS, space_k=0.0, seed=33)
-    T_ = np.array(FALL)[None] + (P0 - np.array(FALL)[None]) / np.linalg.norm(P0 - np.array(FALL)[None], axis=1)[:, None] * rng.uniform(7, 10, len(P0))[:, None]
+    d = P0 - np.array(FALL)[None]; r = np.linalg.norm(d, axis=1)
+    T_ = np.array(FALL)[None] + d / r[:, None] * (6.0 + 1.5 * r)[:, None]
     look = np.repeat(np.array(FALL)[None], len(P0), 0)
     def brain(t, P, V):
         Vd = seek(P, T_, cr.v0, 1.0)
@@ -71,8 +73,7 @@ def S06_SH030(nf):
     mid = (FALL[0] - 21, FALL[1] + 5.5); sq((mid[0], mid[1], 30))
     him = sitter(nf, "gun_point", ra=(80, 5, 5))
     rng = np.random.default_rng(51); n = 28
-    P0 = np.stack([FALL[0] - np.concatenate([rng.uniform(32, 35, 6), rng.uniform(38, 46, n - 6)]), FALL[1] + 1.5 + rng.uniform(-6, 6, n)], 1)
-    P0[:, 1] = np.clip(P0[:, 1], -9.5, 9.5)
+    P0 = np.concatenate([band(FALL[0] - 32, 6, 1.0, -4, 4, seed=56, dirx=-1.0, walls=SQ_WALLS), band(FALL[0] - 38, n - 6, 2.8, -9.6, 9.6, seed=57, dirx=-1.0, walls=SQ_WALLS)])
     cr = Crowd(P0, np.full(n, 1.0), walls=SQ_WALLS, space_k=0.0, seed=52)
     look = np.repeat(np.array(FALL)[None], n, 0)
     def brain(t, P, V):
@@ -124,7 +125,7 @@ def S06_SH110(nf):
              (4.9, pose("gun_temple", **base))])
     T = nf / core.FPS
     rng = np.random.default_rng(71)
-    P0 = np.stack([FALL[0] - rng.uniform(22, 26, 26), FALL[1] + rng.uniform(-5, 6, 26)], 1)
+    P0 = band(FALL[0] - 22, 26, 2.6, -9.6, 9.6, seed=74, dirx=-1.0, walls=SQ_WALLS)
     cr = Crowd(P0, np.full(26, 1.0), walls=SQ_WALLS, space_k=0.0, seed=72)
     look = np.repeat(np.array(FALL)[None], 26, 0)
     def brain(t, P, V):

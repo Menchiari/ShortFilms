@@ -11,8 +11,9 @@ def street(eye):
 
 def runners_sim(n, x0, x1, y0, y1, T, speed, target_fn, seed, walls=ST_WALLS, start=None):
     rng = np.random.default_rng(seed)
-    P0 = np.stack([rng.uniform(x0, x1, n), rng.uniform(y0, y1, n)], 1)
-    cr = Crowd(P0, rng.uniform(*speed, n), walls=walls, space_k=0.0, seed=seed)
+    P0 = band(x1, n, max(1.5, (x1 - x0) / 4), y0, y1, seed=seed, dirx=-1.0, walls=walls)
+    rank = np.argsort(np.argsort(-P0[:, 0])) / max(1, n - 1)
+    cr = Crowd(P0, speed[1] - (speed[1] - speed[0]) * rank + rng.uniform(-0.15, 0.15, n), walls=walls, space_k=0.0, seed=seed)
     st = start if start is not None else np.zeros(n)
     def brain(t, P, V):
         T_ = target_fn(t, P); Vd = seek(P, T_, cr.v0, arrive=2.0); Vd[st > t] = 0
@@ -163,8 +164,8 @@ def fall_square():
 
 def gather_sim(n, T, seed, start_box=(-100, -70, -6, 6), arc=(-110, 190), r0=1.4, dr=0.8, speed=(3.4, 4.4), center=FALL):
     rng = np.random.default_rng(seed)
-    P0 = np.stack([rng.uniform(start_box[0], start_box[1], n), rng.uniform(start_box[2], start_box[3], n)], 1)
-    S = slots(center, n, r0=r0, dr=dr, arc=arc, seed=seed, spacing=0.9)
+    P0 = band(start_box[1], n, 4.0, start_box[2], start_box[3], seed=seed, dirx=-1.0, walls=SQ_WALLS)
+    S = falloff(center, n, r_min=1.3, lam=2.0, arc=arc, seed=seed, walls=SQ_WALLS, max_r=18)
     T_ = assign(P0, S, center)
     cr = Crowd(P0, rng.uniform(*speed, n), focus=center, space_k=0.03, walls=SQ_WALLS, bubble=lambda t: (center, 1.0), seed=seed)
     look = np.repeat(np.array(center)[None], n, 0)

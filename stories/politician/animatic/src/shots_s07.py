@@ -64,8 +64,8 @@ def S07_SH010(nf):
     him = Actor("him", COST["him"], nf)
     him.seq([(0, pose("sit_ground", x=FALL[0], y=FALL[1], yaw=90)), (1.2, pose("lie_curl", x=FALL[0], y=FALL[1], yaw=90))])
     rng = np.random.default_rng(81); n = 44
-    P0 = slots(FALL, n, r0=7.0, dr=1.6, arc=(100, 300), seed=81, spacing=1.6)
-    S = slots(FALL, n, r0=0.95, dr=0.72, arc=(-120, 200), seed=82, spacing=0.75)
+    P0 = falloff(FALL, n, r_min=6.0, lam=3.0, arc=(100, 300), seed=81, walls=SQ_WALLS, max_r=30)
+    S = falloff(FALL, n, r_min=0.85, lam=1.5, arc=(-120, 200), seed=82, walls=SQ_WALLS, max_r=16)
     T_ = assign(P0, S, FALL)
     cr = Crowd(P0, rng.uniform(3.5, 5.0, n), focus=FALL, space_k=0.02, walls=SQ_WALLS, bubble=lambda t: (FALL, 0.65), seed=83)
     look = np.repeat(np.array(FALL)[None], n, 0)
@@ -121,7 +121,7 @@ def S07_SH030(nf):
         a = Actor(f"n{i}", crowd_costume(random.Random(110 + i)), nf); a.hold(0, 4, pose("stand", x=x, y=y, yaw=fdir((x, y), (ARM[0], ARM[1])), hpitch=-15)); near.append(a)
     rng = np.random.default_rng(120)
     ring = []
-    for i, (x, y) in enumerate(slots((ARM[0], ARM[1]), 14, r0=2.2, dr=0.9, arc=(150, 330), seed=121)):
+    for i, (x, y) in enumerate(falloff((ARM[0], ARM[1]), 16, r_min=2.0, lam=1.8, arc=(150, 330), seed=121, walls=SQ_WALLS, max_r=16)):
         a = Actor(f"r{i}", crowd_costume(random.Random(130 + i)), nf); a.hold(0, 4, pose("stand", x=x, y=y, yaw=fdir((x, y), ARM[:2]))); ring.append(a)
     return {"cam": cam(p, (ARM[0], ARM[1], 2.2), 30, hh=0.7), "actors": [him] + pullers + near + ring, "sticks": [s1, s2, s3],
             "cues": [[0.5, 3.1, "THEY HAUL HIM UP BY ONE ANKLE"]]}
@@ -185,7 +185,7 @@ def S07_SH070(nf):
         u = min(1, (t - 1.05) / 0.5); a = np.array((-39.3, -4.4, 2.4)); b = np.array((-39.0, -4.0, 0.05))
         s = a + (b - a) * u * u; return tuple(s), tuple(s + np.array((0.9 * u, 0.3 * u, (1 - u) * 1.0)))
     ring = []
-    for i, (x, y) in enumerate(slots((ARM[0], ARM[1]), 14, r0=2.6, dr=0.9, arc=(140, 340), seed=151)):
+    for i, (x, y) in enumerate(falloff((ARM[0], ARM[1]), 16, r_min=2.4, lam=1.8, arc=(140, 340), seed=151, walls=SQ_WALLS, max_r=16)):
         a = Actor(f"r{i}", crowd_costume(random.Random(160 + i)), nf); d = np.array((x, y)) - ARM[:2]; d /= np.linalg.norm(d)
         a.hold(0, 1.0, pose("stand", x=x, y=y, yaw=fdir((x, y), ARM[:2]))); a.path(1.0, 3.0, [(x, y), (x + d[0] * 1.2, y + d[1] * 1.2)], "walk", speed="out", yaw_fixed=fdir((x, y), ARM[:2]))
         ring.append(a)
@@ -197,8 +197,8 @@ def S07_SH080(nf):
     JA = hanging(nf / core.FPS, struggle=0.15, seed=15); him = Actor("him", COST["him"], nf); him.joints(0, JA)
     body = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); body.joints(0, [pipe_fall(nf)[-1]] * nf)
     rng = np.random.default_rng(171); n = 26
-    P0 = slots((ARM[0], ARM[1]), n, r0=2.2, dr=0.9, arc=(120, 360), seed=172)
-    T_ = np.array(ARM[:2])[None] + (P0 - ARM[:2][None]) * rng.uniform(2.3, 3.4, n)[:, None]
+    P0 = falloff((ARM[0], ARM[1]), n, r_min=2.0, lam=1.9, arc=(120, 360), seed=172, walls=SQ_WALLS, max_r=16)
+    T_ = np.array(ARM[:2])[None] + (P0 - ARM[:2][None]) * rng.uniform(1.8, 2.6, n)[:, None]
     cr = Crowd(P0, rng.uniform(1.0, 1.6, n), walls=SQ_WALLS, space_k=0.0, seed=173)
     look = np.repeat(ARM[:2][None], n, 0)
     def brain(t, P, V):

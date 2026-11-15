@@ -55,6 +55,9 @@ retakes 2,000 to 3,000. Every list gets a free preflight and your approval of th
 - **Filters** (gun at the temple, hanging, firebombs, the stain): tested Monday morning at 480p.
   Every risky shot has a written fallback: cut on the action, the hit out of frame, sound carries it.
 - **Same old man in 60 shots, four states:** B, C, D are edits of the same A image.
+- **Crowds:** density falls off with distance from what they watch (inverse exponential): a dense core near
+  the focus and as many people spread around it, alone and in pairs, at every distance. Never one clump, never
+  an even ring. In prompts: "dense near him, thinning out to scattered people and small groups across the square".
 - **Text on screen** (signs, gas board, bond, Agreement, phone, scope, TV): never generated
   readable. Start and end frames carry the exact text, or I composite it.
 - **Shots under 4 s** (63 of 105): runs of short shots in one place become one multi-shot

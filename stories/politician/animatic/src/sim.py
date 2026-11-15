@@ -85,6 +85,8 @@ def crowd_actors(prefix, sim_out, t0=0.0, nf=0, rnd=None, lod="low", costumes=No
         cst = costumes[i] if costumes else crowd_costume(rnd)
         a = Actor(f"{prefix}{i:02d}", cst, nf, lod=lod)
         a.traj(t0, X[:, i], Y[:, i], YW[:, i], SP[:, i], blend=0.0)
+        ph = (i * 2.399) % 6.283; fr = 0.08 + (i % 5) * 0.035; amp = 12 + (i % 4) * 7
+        a.overlays.append((0, nf, lambda f, q, ph=ph, fr=fr, amp=amp: dict(q, hyaw=q["hyaw"] + amp * math.sin(2 * math.pi * fr * f / core.FPS + ph))))
         acts.append(a)
     return acts
 
