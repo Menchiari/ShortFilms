@@ -32,9 +32,6 @@ def avenue(eye, seed=7, sky="day", clear=()):
     for x in range(-200, 220, 46):
         cable(mb, (x, -14.5, 9 + rnd.uniform(0, 3)), (x + rnd.uniform(-6, 6), 14.5, 9 + rnd.uniform(0, 3)))
     debris(mb, rnd, -200, 200, -10.5, -8, 40); debris(mb, rnd, -200, 200, 8, 10.5, 40)
-    for x in range(-220, 240, 28):
-        if abs(x) > 20 and rnd.random() < 0.6:
-            palm(mb, rnd, x + rnd.uniform(-4, 4), rnd.choice([-13.2, 13.2]))
     mb.build("city")
     return {"car": (0.0, 1.0), "car_facing": 90}
 
@@ -117,9 +114,7 @@ def square(eye, seed=11):
     for (x, y, w, d, h) in [(-230, 120, 26, 24, 120), (160, 190, 30, 26, 100), (250, -60, 24, 22, 135), (-180, -200, 26, 26, 95), (60, 260, 22, 22, 85)]:
         tower(mb, rnd, x, y, w, d, h)
     # central island with palms, east of the landing area
-    mb.cyl(22, 4, 0, 0.35, 8, PAL["curb"], n=24); mb.cyl(22, 4, 0.35, 0.4, 7.6, PAL["frond"], n=24)
-    for i in range(6):
-        a = i * math.pi / 3; palm(mb, rnd, 22 + 5 * math.cos(a), 4 + 5 * math.sin(a))
+    mb.cyl(22, 4, 0, 0.35, 8, PAL["curb"], n=24); mb.cyl(22, 4, 0.35, 0.4, 7.6, PAL["rubble"], n=24)
     hero = street_light(mb, -41.6, -8.6, (-36.0, -3.0), h=8.6, arm=2.8)
     for (x, y, tx, ty) in [(-41.6, 9.0, -36, 6), (-20, 29.8, -20, 20), (5, 29.8, 5, 20), (30, 29.8, 30, 20), (41.6, 18, 30, 18),
                            (41.6, -18, 30, -18), (30, -29.8, 30, -20), (-20, -29.8, -20, -20), (5, -29.8, 5, -20), (-60, 8.8, -60, 0), (-85, -8.8, -85, 0)]:
@@ -127,7 +122,5 @@ def square(eye, seed=11):
     for x in range(-150, -50, 18):
         cable(mb, (x, -10.5, 10 + rnd.uniform(0, 3)), (x + rnd.uniform(-5, 5), 10.5, 10 + rnd.uniform(0, 3)))
     debris(mb, rnd, -38, 38, -27, -18, 26); debris(mb, rnd, -38, 38, 18, 27, 26); debris(mb, rnd, 25, 40, -15, 15, 10)
-    for (x, y) in [(-30, 25), (35, -25), (34, 24)]:
-        palm(mb, rnd, x, y)
     mb.build("city")
     return {"hero_arm": hero, "pad": (-12.0, 2.0), "case": (-50.0, -2.2), "fall": (-39.0, -6.0)}

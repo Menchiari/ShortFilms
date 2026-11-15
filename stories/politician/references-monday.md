@@ -81,7 +81,7 @@ Full-body photograph of an original thin man in his [twenties], standing upright
 Settings: 21:9.
 
 ```
-Empty main street of a dry, dusty town on the edge of the desert, hazy afternoon. Tall cheap concrete apartment blocks with balconies, laundry hanging, satellite dishes, faded shop shutters, sand on the asphalt, a crumbled concrete wall, power cables across the street. A place that could be anywhere in a hot country. No people, no signs with readable text. Warm ochre and brown palette, soft hazy sun, dust in the air, deep brown shadows, 35mm film, anamorphic framing.
+Empty main street of a dry, dusty town on the edge of the desert, hazy afternoon. Tall cheap concrete apartment blocks with balconies, laundry hanging, satellite dishes, faded shop shutters, sand on the asphalt, a crumbled concrete wall, power cables across the street. A place that could be anywhere in a hot country: unwelcoming and anonymous, nothing to remember it by. Shutters down. No trees, no palms, no greenery. No people, no signs with readable text. Warm ochre and brown palette, soft hazy sun, dust in the air, deep brown shadows, 35mm film, anamorphic framing.
 ```
 
 ## 8. Dirt road and edge of town (S02)
@@ -93,7 +93,7 @@ A straight dirt road across flat desert running into the edge of a low town of c
 ## 9. Side streets (S04, S05)
 
 ```
-A narrow side street in the same town: doorways with bead curtains, a window with a television glowing inside, plastic chairs, potted plants, cables, a small corner where the street turns. No people. Hazy afternoon light, warm ochre palette, 35mm film, anamorphic framing.
+A narrow side street in the same town: doorways with bead curtains, a window with a television glowing inside, plastic chairs, cables, shutters down, a small corner where the street turns. Unwelcoming and anonymous, no trees, no plants. No people. Hazy afternoon light, warm ochre palette, 35mm film, anamorphic framing.
 ```
 
 ## 10. His car, outside and inside (S02, S03, S10)

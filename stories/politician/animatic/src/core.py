@@ -15,10 +15,10 @@ PAL = {
     "wall": ["#A9825A", "#B8915F", "#9A7650", "#C4A074", "#8E6C4C", "#B39573", "#A48A68", "#9C6F4A"],
     "wall_old": ["#7E5E42", "#86654A", "#735740"],
     "window": "#2B2219", "frame": "#5A4634", "balcony": "#8A6A4A", "shutter": "#6A5642", "shutter2": "#5B4E44",
-    "awning": ["#8E4B3A", "#5E6B4A", "#5A6670", "#A88B5E", "#7A3D33"],
+    "awning": ["#7A6450", "#6B5F52", "#857260", "#5E564C"],
     "asphalt": "#7E6850", "sidewalk": "#98805F", "curb": "#A08A6B", "dirt": "#A07F58", "desert": "#B48D60",
     "road_dirt": "#9C7A52", "ditch": "#6E5338", "rubble": "#8E7656", "pole": "#3A3530", "palm": "#5E4B39",
-    "frond": "#55603F", "tank": "#2E2E2E", "tank2": "#BDBAB2", "dish": "#C9C4B8", "sign": ["#8C2F2A", "#2F5D7C", "#C7A04A", "#3F6B4F"],
+    "frond": "#55603F", "tank": "#2E2E2E", "tank2": "#BDBAB2", "dish": "#C9C4B8", "sign": ["#6E6258", "#5C5650", "#7A6A5A"],
     "laundry": ["#C9C2B0", "#8E3B36", "#3D5C7A", "#C8A85A", "#6F7F5A"], "cable": "#2A2622", "tower": "#9C8C78",
     "concrete": "#8F8676", "debris": "#5F5244", "tire": "#1E1C1A", "car": "#141414", "carglass": "#3B4148",
     "seat": "#D8CDB5", "heli": "#EDEDEA", "heli_dark": "#2A2A2C", "rope": "#C2A878",
@@ -211,13 +211,13 @@ def facade(mb, rnd, side, x0, x1, y0, y1, h, style, ground_shop=True):
         for s in range(shops):
             ua = u0 + s * sw + 0.4; ub = ua + sw - 0.8
             r = rnd.random()
-            if r < 0.6:
+            if r < 0.88:
                 Q(ua, ub, 0.15, gf - 0.9, rnd.choice([PAL["shutter"], PAL["shutter2"]]))
             else:
                 Q(ua, ub, 0.15, gf - 0.9, PAL["window"])
-            if rnd.random() < 0.45:
+            if rnd.random() < 0.2:
                 B(ua - 0.1, ub + 0.1, gf - 0.85, gf - 0.65, 0, 1.6, rnd.choice(PAL["awning"]))
-            if rnd.random() < 0.25:
+            if rnd.random() < 0.1:
                 Q(ua + 0.3, ub - 0.3, gf - 0.55, gf - 0.05, rnd.choice(PAL["sign"]))
 
 def roof(mb, rnd, x0, x1, y0, y1, h, style):
