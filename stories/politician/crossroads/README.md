@@ -28,10 +28,11 @@ the town style frame and the palette as reference. Grey figures are placeholders
 | 02 Wheel, ground level | `setup_02_wheel_ground.jpg` | S03 SH030 |
 | 03 At his door | `setup_03_door_mcu.jpg` | S03 SH060 |
 | 04 Running past the car | `setup_04_run_past_car.jpg` | S05 SH070, SH090, SH100 |
-| 05 The fall at the corner | `setup_05_corner_fall.jpg` | S05 SH110 |
-| 06 The crowd, from his corner | `setup_06_crowd_from_corner.jpg` | S06 SH040 |
-| 07 Ground level, his eyes | `setup_07_ground_eye.jpg` | S06 SH010, SH020, SH030, SH050, S09 SH020 |
-| 08 Profile, long lens | `setup_08_profile_long.jpg` | S06 SH060, SH070, SH080, SH090 |
+| 05 The fall at the corner, car behind him | `setup_05_corner_fall.jpg` | S05 SH110 |
+| 06 The crowd backs off to 40 m, the tough ones walk in | `setup_06_crowd_from_corner.jpg` | S06 SH040 |
+| 07 Ground level, faces over him | `setup_07_ground_eye.jpg` | S06 SH010, SH020, SH030, S09 SH020 |
+| 07b His side, crowd at 40 m | `setup_07b_his_side_40m.jpg` | S06 SH050 |
+| 08 Profile, long lens, crowd at 20 m | `setup_08_profile_long.jpg` | S06 SH060, SH070, SH080, SH090 |
 | 09 Street light, wide | `setup_09_streetlight_wide.jpg` | S07 SH030, SH080, S08 SH040, SH080 |
 | 10 Street light, high | `setup_10_streetlight_high.jpg` | S07 SH070 |
 | 11 Briefcase, low | `setup_11_briefcase_low.jpg` | S09 SH050 |
