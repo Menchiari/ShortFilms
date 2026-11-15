@@ -22,6 +22,8 @@ The crossroads stays empty from S03 SH050 until S05 SH070.
 Each render is a base for a start frame: paint it in your pipeline keeping the composition, with
 the town style frame and the palette as reference. Grey figures are placeholders for people.
 
+Shot ids in this table are draft 6. Draft 7 cameras come with the animatic.
+
 | Setup | Render | Shots |
 |---|---|---|
 | 01 Establishing, high | `setup_01_est_high.jpg` | S03 SH050, S07 SH010 |
