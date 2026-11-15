@@ -7,10 +7,10 @@ import bpy
 from mathutils import Vector, Quaternion, Euler
 from bpy_extras.object_utils import world_to_camera_view
 import core
-from puppet import Puppet, HEAD, NECK, PELVIS
+from puppet import Puppet, MixedPuppet, HEAD, NECK, PELVIS, R_J
 from parse import parse
 
-SCRIPT = "/home/user/ShortFilms/stories/politician/screenplay.fountain"
+SCRIPT = os.path.join(HERE, "..", "..", "screenplay.fountain")
 
 def catmull(P, u):
     """Catmull-Rom through points P (k,3) at global parameter u in [0,1]."""
@@ -80,7 +80,17 @@ def main():
         actors = spec.get("actors", [])
         for a in actors:
             if a.J is None: a.compute()
-        pups = [Puppet(a) for a in actors]
+        # floor check: how far any joint's mesh dips below the ground or a sidewalk under it
+        worst = [0.0, ""]
+        for a in actors:
+            rj = R_J * a.c.get("scale", 1.0)
+            for f in range(0, nf, 2):
+                if not a.visible[f]: continue
+                J = a.J[f]; gz = np.array([core.ground_z(x, y) for x, y in J[:, :2]])
+                dz = float(np.min(J[:, 2] - rj - gz))
+                if dz < worst[0]: worst = [round(dz, 3), f"{a.name}@{f}"]
+        info["below"] = worst
+        pups = [MixedPuppet(a) if a.style == "shape" else Puppet(a) for a in actors]
         sticks = spec.get("sticks", [])
         sc = bpy.context.scene
         cd = bpy.data.cameras.new("CAM"); cd.sensor_width = 36; cd.clip_start = 0.05; cd.clip_end = 6000
@@ -92,10 +102,11 @@ def main():
         for f in range(nf):
             t = f / core.FPS
             sc.frame_set(f + 1)
-            for p in pups: p.apply(f)
+            pos, tgt, lens, roll = cam_at(cs, t, sh["sec"], actors)
+            for p in pups:
+                p.apply(f, (pos, lens)) if isinstance(p, MixedPuppet) else p.apply(f)
             for s in sticks: s.apply(f)
             for cb in spec.get("callbacks", []): cb(f)
-            pos, tgt, lens, roll = cam_at(cs, t, sh["sec"], actors)
             if "euler" in cs:
                 e = Euler(tuple(math.radians(v) for v in cs["euler"]))
             else:
@@ -119,6 +130,6 @@ def main():
             if k in spec: info[k] = spec[k]
         info["render_s"] = round(time.time() - t_start, 1)
         json.dump(info, open(os.path.join(d, "meta.json"), "w"))
-        print("DONE", sid, info["render_s"], flush=True)
+        print("DONE", sid, info["render_s"], "below", info["below"], flush=True)
 
 main()

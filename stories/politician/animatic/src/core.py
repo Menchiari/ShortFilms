@@ -38,6 +38,14 @@ class Mats:
         return self.cache[key]
 
 MATS = None
+SIDEWALKS = []
+
+def ground_z(x, y):
+    """Height of the ground under (x, y): 0.15 on a sidewalk, 0 elsewhere."""
+    for (x0, x1, y0, y1) in SIDEWALKS:
+        if x0 <= x <= x1 and y0 <= y <= y1:
+            return 0.15
+    return 0.0
 
 def reset(sky="day", light=(0.55, -0.35, 0.75)):
     global MATS
@@ -57,6 +65,7 @@ def reset(sky="day", light=(0.55, -0.35, 0.75)):
     sc.view_settings.view_transform = "Standard"; sc.view_settings.exposure = 0.9
     sc.render.image_settings.file_format = "PNG"
     MATS = Mats(sky)
+    SIDEWALKS.clear()
     return sc
 
 # ------------------------------------------------------------------ mesh builder
@@ -279,6 +288,7 @@ def ground(mb, x0, x1, y0, y1, col, z=0.0, tile=40):
         x = xb
 
 def sidewalk(mb, x0, x1, y0, y1, tile=40):
+    SIDEWALKS.append((min(x0, x1), max(x0, x1), min(y0, y1), max(y0, y1)))
     ground(mb, x0, x1, y0, y1, PAL["sidewalk"], z=0.15, tile=tile)
 
 def street_light(mb, x, y, toward, h=9.0, arm=2.6):

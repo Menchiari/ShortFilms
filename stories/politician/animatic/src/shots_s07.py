@@ -4,6 +4,7 @@ from shots_s05 import SQ_WALLS, FALL, gather_sim, people
 CUES = {"S07_SH040": [[0, 3, "THE CROWD, MUFFLED"]]}
 ARM = np.array((-39.62, -6.62, 8.75))
 TOP = np.array((ARM[0], ARM[1], 2.75))
+HELI_AT = np.array((40.0, 80.0, 170.0))   # the helicopter hovering over the square, north-east, high
 LIE = (-39.9, -5.6)            # where he lies before the haul, feet toward the arm
 PIPE_AT = (-39.55, -5.05)       # the man with the pipe, north of him
 
@@ -75,7 +76,7 @@ def S07_SH010(nf):
 
 def S07_SH020(nf):
     p = (-35.2, -2.9, 1.7); sq(p)
-    th = Actor("thrower", crowd_costume(random.Random(91)), nf, lod="high")
+    th = Actor("thrower", crowd_costume(random.Random(91)), nf, lod="high"); th.style = "shape"
     tp = (-38.1, -5.0); yaw = fdir(tp, ARM)
     th.seq([(0, pose("stand", x=tp[0], y=tp[1], yaw=yaw)), (0.3, pose("throw_back", x=tp[0], y=tp[1], yaw=yaw, ra=(165, 15, 40))),
             (0.75, pose("throw_fwd", x=tp[0], y=tp[1], yaw=yaw, ra=(150, 10, 5))), (1.6, pose("stand", x=tp[0], y=tp[1], yaw=yaw, hpitch=-40))])
@@ -107,7 +108,7 @@ def S07_SH030(nf):
     him.face(0, 4, eyes=1.3, mouth=0.5)
     pullers = []
     for i, (x, y) in enumerate([(-38.2, -3.2), (-37.6, -2.5), (-37.0, -1.8)]):
-        a = Actor(f"pull{i}", crowd_costume(random.Random(100 + i)), nf)
+        a = Actor(f"pull{i}", crowd_costume(random.Random(100 + i)), nf); a.style = "shape"
         yaw = fdir((x, y), ARM[:2])
         a.hold(0, 0.5, pose("pull", x=x, y=y, yaw=yaw))
         a.path(0.5, 3.2, [(x, y), (x + 0.6, y + 1.2)], "walk", speed="io", base=POSES["pull"], yaw_fixed=yaw)
@@ -135,7 +136,7 @@ def S07_SH040(nf):
     return {"cam": follow(him, p, lens=50, offset=(0, 0, 0), lag=0.2, joint=HEAD), "actors": [him], "sticks": [rope_stick(JA)]}
 
 def pipe_man(nf, keys):
-    a = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); yaw = fdir(PIPE_AT, (ARM[0], ARM[1]))
+    a = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); a.style = "shape"; yaw = fdir(PIPE_AT, (ARM[0], ARM[1]))
     a.seq([(t, pose(n, x=PIPE_AT[0], y=PIPE_AT[1], yaw=yaw)) for t, n in keys]); return a
 
 def pipe_stick(a):
@@ -174,7 +175,7 @@ def pipe_fall(nf):
 
 def S07_SH070(nf):
     p = (-31.5, -1.5, 8.5); sq(p)
-    pm = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); yaw = fdir(PIPE_AT, (ARM[0], ARM[1]))
+    pm = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); pm.style = "shape"; yaw = fdir(PIPE_AT, (ARM[0], ARM[1]))
     pm.hold(0, 1.0, pose("pipe_up", x=PIPE_AT[0], y=PIPE_AT[1], yaw=yaw)); pm.joints(1.0, pipe_fall(nf))
     pm.compute()
     JA = hanging(nf / core.FPS, struggle=0.2, seed=14); him = Actor("him", COST["him"], nf); him.joints(0, JA)
@@ -207,5 +208,5 @@ def S07_SH080(nf):
         return Vd, look
     acts = people("c", cr.run(nf / core.FPS, brain), nf, 174)
     for a in acts:
-        a.look(0.2, 3.0, (160.0, 240.0, 120.0))
+        a.look(0.2, 3.0, tuple(HELI_AT))
     return {"cam": cam(p, (-40, -6.5, 3.0), 35), "actors": [him, body] + acts, "sticks": [rope_stick(JA)], "cues": [[0, 3, "SILENCE, A FAINT ROTOR FAR AWAY"]]}

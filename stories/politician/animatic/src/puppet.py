@@ -4,7 +4,7 @@ Joints: 0 head, 1 neck, 2 pelvis, 3 lsh, 4 lel, 5 lha, 6 rsh, 7 rel, 8 rha, 9 lh
         13 rhip, 14 rkn, 15 ran, 16 rto, 17 nose (a point in front of the face, gives the head its direction).
 Yaw: 0 faces +y, positive turns left (counterclockwise). tilt +90 = lying on the back, -90 = face down.
 """
-import math, random
+import math, random, os
 import numpy as np
 import bpy
 from mathutils import Matrix
@@ -143,6 +143,7 @@ CYCLE = {"walk": 1.45, "jog": 2.2, "run": 2.8, "limp": 1.0}
 class Actor:
     def __init__(self, name, costume, nf, lod="high"):
         self.name = name; self.c = costume; self.nf = nf; self.lod = lod
+        self.style = costume.get("style", "detail")
         self.tracks = []          # (f0, f1, fn(f) -> params dict or ("J", joints), blend_frames)
         self.overlays = []        # (f0, f1, fn(f, params) -> params)
         self.J = None
@@ -240,7 +241,7 @@ class Actor:
         self.visible[max(0, F(t0)):min(self.nf, F(t1) + 1)] = False
 
     def compute(self):
-        J = np.zeros((self.nf, NJ, 3)); E = np.ones(self.nf); M = np.zeros(self.nf)
+        J = np.zeros((self.nf, NJ, 3)); E = np.ones(self.nf); M = np.zeros(self.nf); K = np.zeros(self.nf, bool)
         last = None
         for f in range(self.nf):
             tr = None
@@ -256,6 +257,7 @@ class Actor:
                 fe = f
             r = tr[2](fe)
             if isinstance(r, tuple) and r[0] == "J":
+                K[f] = True
                 j = np.array(r[1]); q = dict(BASE)
                 for (o0, o1, fn) in self.overlays:
                     if o0 <= f <= o1:
@@ -276,20 +278,29 @@ class Actor:
                     self._bstart = (id(tr), last.copy())
                 u = ease((f - tr[0] + 1) / (tr[3] + 1)); j = self._bstart[1] * (1 - u) + j * u
             J[f] = j; E[f] = e; M[f] = m; last = j
-        self.J = J; self.E = E; self.M = M
+        # nothing goes below the ground: lift each frame by what the meshes would sink (sidewalks are 0.15 high)
+        for f in range(self.nf):
+            gz = core.ground_z(J[f, PELVIS, 0], J[f, PELVIS, 1])
+            low = float(np.min(J[f, :, 2] - R_J * self.c.get("scale", 1.0)))
+            if low < gz:
+                J[f, :, 2] += gz - low
+        self.J = J; self.E = E; self.M = M; self.K = K
         return J
 
 def F(t):
     return int(round(t * core.FPS))
 
+# how far each joint's mesh reaches below the joint (head, neck, pelvis, arms, legs, nose)
+R_J = np.array([0.12, 0.08, 0.14, 0.08, 0.055, 0.05, 0.08, 0.055, 0.05, 0.1, 0.075, 0.05, 0.05, 0.1, 0.075, 0.05, 0.05, 0.03])
+
 # ------------------------------------------------------------------ meshes
 COST = {
-    "him": dict(skin="#C9A085", hair="#5A3A22", shirt="#9DB8D6", sleeve="rolled", pants="#3C3C40", shoes="#6B4A33", scale=1.0),
-    "fat": dict(skin="#B88A6A", hair="#B88A6A", beard="#2A2420", shirt="#E9E5DA", sleeve="none", pants="#76767A", shoes="#3A3A3A", scale=1.07, wide=1.5, belly=True),
-    "friend": dict(skin="#B08868", hair="#2A2420", cap="#3A3A3A", shirt="#6E7A4A", sleeve="short", pants="#8A7A5A", shoes="#4A4A4A", scale=0.98),
-    "lady": dict(skin="#C8A48C", hair="#1E1A18", bun=True, shirt="#2E2E33", sleeve="long", pants="#2E2E33", shoes="#151515", scale=0.95),
-    "roger": dict(skin="#D2B09A", hair="#3A2E26", shirt="#1C1C1E", sleeve="long", pants="#1C1C1E", shoes="#151515", scale=1.0, headset=True),
-    "pilot": dict(skin="#C4A08A", hair="#2A2420", shirt="#5A5E64", sleeve="long", pants="#5A5E64", shoes="#151515", scale=1.0, headset=True),
+    "him": dict(style="shape", skin="#C9A085", hair="#5A3A22", shirt="#9DB8D6", sleeve="rolled", pants="#3C3C40", shoes="#6B4A33", scale=1.0),
+    "fat": dict(style="shape", skin="#B88A6A", hair="#B88A6A", beard="#2A2420", shirt="#E9E5DA", sleeve="none", pants="#76767A", shoes="#3A3A3A", scale=1.07, wide=1.5, belly=True),
+    "friend": dict(style="shape", skin="#B08868", hair="#2A2420", cap="#3A3A3A", shirt="#6E7A4A", sleeve="short", pants="#8A7A5A", shoes="#4A4A4A", scale=0.98),
+    "lady": dict(style="shape", skin="#C8A48C", hair="#1E1A18", bun=True, shirt="#2E2E33", sleeve="long", pants="#2E2E33", shoes="#151515", scale=0.95),
+    "roger": dict(style="shape", skin="#D2B09A", hair="#3A2E26", shirt="#1C1C1E", sleeve="long", pants="#1C1C1E", shoes="#151515", scale=1.0, headset=True),
+    "pilot": dict(style="shape", skin="#C4A08A", hair="#2A2420", shirt="#5A5E64", sleeve="long", pants="#5A5E64", shoes="#151515", scale=1.0, headset=True),
 }
 CROWD_SHIRTS = ["#8A7A66", "#5E6B70", "#9C8C70", "#6E5A48", "#C9C1B0", "#7A4E3A", "#4E5A48", "#A89A80", "#3E4248", "#B5A58A", "#8C5A44", "#5A4E62"]
 CROWD_PANTS = ["#3A3632", "#4A4640", "#5A5248", "#2E2C2A", "#6A6050"]
@@ -390,6 +401,8 @@ class Puppet:
             hr.location = (0, -0.018 * s, 0.035 * s)
         P["blob"] = _obj(n + "_blob", _mesh_cyl(n + "_blob", 0.32 * s, 0.32 * s, 0.01, n=12), "#3E3226")
         self.s = s
+        known = set(o.name for o in list(P.values()) + list(self.face.values()))
+        self.acc = [o for o in hd.children_recursive if o.name not in known]
 
     @staticmethod
     def frame(z, xref):
@@ -412,7 +425,7 @@ class Puppet:
     def apply(self, f):
         a = self.a; P = self.parts
         vis = bool(a.visible[min(f, a.nf - 1)])
-        for o in list(P.values()) + list(self.face.values()):
+        for o in list(P.values()) + list(self.face.values()) + self.acc:
             o.hide_render = not vis
         if not vis:
             return
@@ -459,3 +472,82 @@ class Stick:
         R = Puppet.frame(d, np.array((1.0, 0, 0)))
         m = Puppet.M(R, A); m = m @ Matrix.Diagonal((1, 1, max(L, 1e-3), 1))
         self.o.matrix_world = m
+
+
+class ShapePuppet:
+    """A plain moving shape for acting characters: body cylinder with flat shoulders, neck, head ball, one legs pill.
+    No arms. A facing wedge on the head; eye and mouth slits instead when the head is big in frame (close shots)."""
+    def __init__(self, actor):
+        a = actor; c = a.c; s = c.get("scale", 1.0); n = a.name + "_shape"; wide = min(1.4, c.get("wide", 1.0))
+        self.a = a; self.s = s
+        self.rt = 0.17 * s * wide; self.rl = 0.13 * s * wide; self.rh = 0.112 * s
+        self.torso = _obj(n + "_torso", _mesh_cyl(n + "_torso", self.rt, self.rt, 1.0, n=14), c["shirt"])
+        self.top = _obj(n + "_top", _mesh_sphere(n + "_top", self.rt, 1, 1, 0.5, seg=14, rings=7), c["shirt"])
+        self.bot = _obj(n + "_bot", _mesh_sphere(n + "_bot", self.rt, seg=14, rings=7), c["shirt"])
+        self.legs = _obj(n + "_legs", _mesh_cyl(n + "_legs", self.rl, self.rl * 0.85, 1.0, n=12), c["pants"])
+        self.foot = _obj(n + "_foot", _mesh_sphere(n + "_foot", self.rl * 0.85, seg=12, rings=6), c["pants"])
+        self.neck = _obj(n + "_neck", _mesh_cyl(n + "_neck", 0.062 * s, 0.062 * s, 1.0, n=10), c["skin"])
+        self.head = _obj(n + "_head", _mesh_sphere(n + "_head", self.rh, seg=16, rings=10), c["skin"])
+        self.wedge = _obj(n + "_wedge", _mesh_box(n + "_wedge", 0.03 * s, 0.03 * s, 0.0, 0.1 * s), c.get("hair", "#2A2420"))
+        self.eyes = [_obj(n + f"_eye{k}", _mesh_box(n + f"_eye{k}", 0.017 * s, 0.009 * s, -0.009 * s, 0.009 * s), "#161616", self.head) for k in (0, 1)]
+        for o, x in zip(self.eyes, (-0.042, 0.042)):
+            o.location = (x * s, 0.099 * s, 0.022 * s)
+        self.mouth = _obj(n + "_mouth", _mesh_box(n + "_mouth", 0.03 * s, 0.009 * s, -0.005 * s, 0.005 * s), "#3A1A16", self.head)
+        self.mouth.location = (0, 0.099 * s, -0.046 * s)
+        self.face = self.eyes + [self.mouth]
+        self.blob = _obj(n + "_blob", _mesh_cyl(n + "_blob", 0.32 * s, 0.32 * s, 0.01, n=12), "#3E3226")
+        self.parts = [self.torso, self.top, self.bot, self.legs, self.foot, self.neck, self.head, self.wedge, self.blob]
+    def show(self, on):
+        for o in self.parts + self.face:
+            o.hide_render = not on
+    def apply(self, f, cam=None):
+        ff = min(f, self.a.nf - 1); J = self.a.J[ff]; s = self.s
+        up = J[NECK] - J[PELVIS]; u = up / (np.linalg.norm(up) + 1e-9)
+        pel = J[PELVIS] + u * 0.02; top = J[NECK] - u * 0.065 * s
+        feet = (J[LAN] + J[RAN]) / 2 + np.array((0, 0, 0.1 * s)); hipc = (J[LHIP] + J[RHIP]) / 2; head = J[HEAD].copy()
+        # nothing of the shape sinks into the ground or a sidewalk
+        gz = core.ground_z(J[PELVIS, 0], J[PELVIS, 1])
+        low = min(pel[2] - self.rt, top[2] - self.rt, hipc[2] - self.rl, feet[2] - self.rl * 0.85, head[2] - self.rh)
+        lift = np.array((0.0, 0.0, max(0.0, gz + 0.005 - low)))
+        pel = pel + lift; top = top + lift; feet = feet + lift; hipc = hipc + lift; head = head + lift
+        xr = J[RSH] - J[LSH]
+        def seg(o, A, B):
+            d = B - A; L = np.linalg.norm(d) + 1e-6
+            o.matrix_world = Puppet.M(Puppet.frame(d, xr), A) @ Matrix.Diagonal((1, 1, L, 1))
+        seg(self.torso, pel, top); seg(self.legs, hipc, feet); seg(self.neck, top, head)
+        self.bot.matrix_world = Puppet.M(np.eye(3), pel)
+        self.top.matrix_world = Puppet.M(Puppet.frame(top - pel, xr), top)
+        self.foot.matrix_world = Puppet.M(np.eye(3), feet)
+        z = J[HEAD] - J[NECK]; fwd = J[NOSE] - J[HEAD]
+        self.head.matrix_world = Puppet.M(Puppet.frame(z, np.cross(fwd, z)), head)
+        fw = fwd / (np.linalg.norm(fwd) + 1e-9)
+        slits = False
+        if cam is not None and os.environ.get("SHAPE_SLITS", "1") != "0":     # SHAPE_SLITS=0: no faces at all (Seedance references)
+            dist = float(np.linalg.norm(np.array(cam[0], float) - head))
+            slits = 2 * self.rh / max(1e-3, dist * 36.0 / cam[1] * 480 / 1120) > 0.3
+        self.wedge.hide_render = slits
+        for o in self.face:
+            o.hide_render = not slits
+        if slits:
+            for o in self.eyes:
+                o.scale = (1, 1, max(0.08, float(self.a.E[ff])))
+            self.mouth.scale = (1, 1, 0.3 + 3.0 * float(self.a.M[ff]))
+        else:
+            self.wedge.matrix_world = Puppet.M(Puppet.frame(fw, xr), head + fw * 0.075 * s)
+        self.blob.matrix_world = Puppet.M(np.eye(3), np.array((J[PELVIS, 0], J[PELVIS, 1], gz + 0.004)))
+        self.blob.hide_render = bool(J[PELVIS, 2] > gz + 3.0)
+
+class MixedPuppet:
+    """Detailed figure while physics drives the body (ragdoll frames), plain shape while the character acts."""
+    def __init__(self, actor):
+        self.a = actor; self.d = Puppet(actor); self.sh = ShapePuppet(actor)
+    def apply(self, f, cam=None):
+        a = self.a; ff = min(f, a.nf - 1)
+        vis = bool(a.visible[ff])
+        if a.K[ff] or not vis:
+            self.sh.show(False); self.d.apply(f)
+        else:
+            self.d.apply(f)
+            for o in list(self.d.parts.values()) + list(self.d.face.values()) + self.d.acc:
+                o.hide_render = True
+            self.sh.show(True); self.sh.apply(f, cam)

@@ -14,6 +14,26 @@ def sitter(nf, pose_name="gun_up", **kw):
 def gun_on(a):
     g = PR.hand_prop("gun", "gun"); return PR.attach(g, a, offset=(0, 0.02, 0))
 
+def gun_temple_cb(g, a, t_from=None, t_to=None):
+    """The muzzle pressed to his right temple. Between t_from and t_to it travels there from his hand."""
+    hand = PR.attach(g, a, offset=(0, 0.02, 0))
+    def at_temple(f):
+        J = a.J[min(f, a.nf - 1)]
+        up = J[HEAD] - J[NECK]; up = up / np.linalg.norm(up)
+        right = J[RSH] - J[LSH]; right = right - up * np.dot(right, up); right = right / np.linalg.norm(right)
+        y = -right; z = up; x = np.cross(y, z)
+        tip = J[HEAD] + right * 0.1 + up * 0.03
+        return Puppet.M(np.stack([x, y, z], 1), tip - y * 0.13)
+    def cb(f):
+        t = f / core.FPS
+        if t_from is None or t >= t_to:
+            g.hide_render = False; g.matrix_world = at_temple(f); return
+        hand(f)
+        if t > t_from:
+            u = (t - t_from) / (t_to - t_from); u = u * u * (3 - 2 * u)
+            g.matrix_world = g.matrix_world.lerp(at_temple(f), u)
+    return cb
+
 def line_crowd(n, r0, r1, T, seed, spread=7.0, speed=None, start=0.0, falls=()):
     """People in the street west of him at distance r0, moving to r1 (meters from him)."""
     rng = np.random.default_rng(seed)
@@ -118,7 +138,7 @@ def S06_SH100(nf):
     d = lips(nf, [(0.6, 1.4)]); d["say"] = [[0.5, 1.9, "OLD MAN"]]; d["cues"] = [[0, 0.3, "SHOT 8"]]; return d
 
 def S06_SH110(nf):
-    p0 = (FALL[0] + 0.75, FALL[1] + 0.15, 1.0); sq(p0)
+    p0 = (FALL[0] + 0.95, FALL[1] + 0.3, 1.05); sq(p0)
     him = Actor("him", COST["him"], nf)
     base = dict(x=FALL[0], y=FALL[1], yaw=FACE)
     him.seq([(0, pose("gun_point", **base, ra=(82, 4, 4))), (0.8, pose("sit_ground", **base, ra=(30, 15, 40), hpitch=8)), (4.1, pose("sit_ground", **base, ra=(30, 15, 40), hpitch=8)),
@@ -134,8 +154,8 @@ def S06_SH110(nf):
         return seek(P, T_, cr.v0, 1.0), look
     acts = people("c", cr.run(T, brain), nf, 73)
     g = PR.hand_prop("gun", "gun")
-    return {"cam": move([(0, p0, (FALL[0] - 22, FALL[1] - 0.75, 0.95), 60), (5, (FALL[0] + 0.6, FALL[1] + 0.12, 1.0), (FALL[0] - 22, FALL[1] - 0.75, 0.95), 60)], ease="io"),
-            "actors": [him] + acts, "callbacks": [PR.attach(g, him, offset=(0, 0.02, 0))], "cues": [[0, 5, "THE SOUND DRAINS TO HIS BREATHING"]]}
+    return {"cam": move([(0, p0, (FALL[0] - 22, FALL[1] - 4.5, 0.95), 60), (5, (FALL[0] + 0.8, FALL[1] + 0.3, 1.02), (FALL[0] - 22, FALL[1] - 4.5, 0.95), 60)], ease="io"),
+            "actors": [him] + acts, "callbacks": [gun_temple_cb(g, him, 4.1, 4.9)], "cues": [[0, 5, "THE SOUND DRAINS TO HIS BREATHING"]]}
 
 def S06_SH120(nf):
     him0 = Actor("h0", COST["him"], nf); him0.hold(0, 6, pose("gun_temple", x=FALL[0], y=FALL[1], yaw=FACE)); him0.compute()
@@ -143,5 +163,5 @@ def S06_SH120(nf):
     p = tuple(h + np.array((-0.85, 0.22, 0.04))); sq(p)
     him = Actor("him", COST["him"], nf); him.hold(0, 6, pose("gun_temple", x=FALL[0], y=FALL[1], yaw=FACE))
     him.face(0, 2.25, eyes=0.08); him.face(2.25, 2.6, eyes=0.5); him.face(2.6, 6, eyes=1.75, mouth=0.6)
-    return {"cam": cam(p, tuple(h + np.array((0, 0, -0.02))), 45, hh=0.3), "actors": [him], "callbacks": [gun_on(him)],
+    return {"cam": cam(p, tuple(h + np.array((0, 0, -0.02))), 45, hh=0.3), "actors": [him], "callbacks": [gun_temple_cb(PR.hand_prop("gun", "gun"), him)],
             "cues": [[0, 2.2, "ONLY HIS BREATHING"], [2.2, 2.6, "CLICK"], [2.8, 6, "THE ROAR CRASHES BACK IN"]]}

@@ -88,8 +88,8 @@ def S09_SH050(nf):
 
 def S09_SH060(nf):
     p = (-46.2, -1.35, 1.68); sq(p)
-    h, hcb = heli_landed(); him, la = standing_pair(nf)
-    return {"cam": cam(p, (LADYC[0], LADYC[1], 1.58), 50), "actors": [him, la] + scenery(nf), "callbacks": [hcb]}
+    h, hcb = heli_landed(); him, la = standing_pair(nf); la.compute()
+    return {"cam": cam(p, (LADYC[0], LADYC[1], float(la.J[0, HEAD, 2]) - 0.05), 50), "actors": [him, la] + scenery(nf), "callbacks": [hcb]}
 
 def S09_SH070(nf):
     p = (-45.7, 1.6, 1.55); sq(p)
@@ -109,13 +109,13 @@ def S09_SH090(nf):
     p = (-46.2, -1.35, 1.68); sq(p)
     h, hcb = heli_landed(); him, la = standing_pair(nf, lady_kw=dict(ra=(50, 5, 70), la=(50, 5, 70)))
     la.face(1.4, 2.0, mouth=0.3)
-    folder = PR.hand_prop("folder", "folder")
-    return {"cam": cam(p, (LADYC[0], LADYC[1], 1.58), 50), "actors": [him, la] + scenery(nf), "callbacks": [hcb, PR.attach(folder, la)]}
+    folder = PR.hand_prop("folder", "folder"); la.compute()
+    return {"cam": cam(p, (LADYC[0], LADYC[1], float(la.J[0, HEAD, 2]) - 0.05), 50), "actors": [him, la] + scenery(nf), "callbacks": [hcb, PR.attach(folder, la)]}
 
 def S09_SH100(nf):
     p = (-45.25, -1.3, 1.7); sq(p)
-    h, hcb = heli_landed(); him, la = standing_pair(nf, him_kw=dict(hpitch=-12))
-    return {"cam": cam(p, (HIMC[0], HIMC[1], 1.6), 50), "actors": [him, la] + scenery(nf), "callbacks": [hcb]}
+    h, hcb = heli_landed(); him, la = standing_pair(nf, him_kw=dict(hpitch=-12)); him.compute()
+    return {"cam": cam(p, (HIMC[0], HIMC[1], float(him.J[0, HEAD, 2]) - 0.05), 50), "actors": [him, la] + scenery(nf), "callbacks": [hcb]}
 
 def S09_SH110(nf):
     p = (-34.0, 9.0, 1.7); sq(p)

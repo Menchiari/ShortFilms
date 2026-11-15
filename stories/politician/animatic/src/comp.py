@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 from parse import parse, fmt
 
 FPS, W, H = 12, 1120, 480
-SCRIPT = "/home/user/ShortFilms/stories/politician/screenplay.fountain"
+SCRIPT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "screenplay.fountain")
 FD = "/usr/share/fonts/truetype/dejavu/"
 F_LAB = ImageFont.truetype(FD + "DejaVuSans-Bold.ttf", 17)
 F_LAB2 = ImageFont.truetype(FD + "DejaVuSans.ttf", 12)

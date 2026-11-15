@@ -1,9 +1,9 @@
 from sh import *
 from shots_s05 import SQ_WALLS, people
-from shots_s07 import ARM, TOP, hanging, rope_stick, pipe_fall
+from shots_s07 import ARM, TOP, HELI_AT, hanging, rope_stick, pipe_fall
 
 CUES = {"S08_SH030": [[0, 4, "CABIN HUM"]], "S08_SH070": [[1.2, 1.5, "CRACK"]]}
-HELI_FAR = np.array((150.0, 240.0, 120.0))
+HELI_FAR = HELI_AT
 
 def sq(eye, sky="sunset"):
     reset(sky); return sets.square(eye)
@@ -34,10 +34,10 @@ def cabin_set():
 
 def cabin_people(nf, lady_turn=None, roger_shift=None):
     r = Actor("roger", COST["roger"], nf)
-    rp = dict(x=0.5, y=-0.75, yaw=-90.0)
+    rp = dict(x=0.5, y=-0.75, yaw=-62.0)
     keys = [(0, pose("aim", **rp, z=0.45 + 0.17))]
     if roger_shift is not None:
-        keys += [(roger_shift, pose("aim", **rp, z=0.62)), (roger_shift + 0.6, pose("aim", **dict(rp, yaw=-80.0), z=0.62))]
+        keys += [(roger_shift, pose("aim", **rp, z=0.62)), (roger_shift + 0.6, pose("aim", **dict(rp, yaw=-52.0), z=0.62))]
     r.seq(keys) if len(keys) > 1 else r.hold(0, nf / core.FPS, keys[0][1])
     pl = Actor("pilot", COST["pilot"], nf); pl.hold(0, nf / core.FPS, pose("seat", x=0.55, y=2.0, yaw=0.0, z=0.6, la=(60, 8, 40), ra=(60, 8, 40)))
     la = Actor("lady", COST["lady"], nf)
@@ -47,11 +47,20 @@ def cabin_people(nf, lady_turn=None, roger_shift=None):
     else:
         la.seq([(0, pose("seat", **lp, yaw=0.0)), (lady_turn, pose("seat", **lp, yaw=0.0)), (lady_turn + 0.6, pose("seat", **lp, yaw=0.0, twist=45, hyaw=75))])
     for a in (r, pl, la): a.compute()
-    def rifle(f):
+    def axis(f):
+        """The rifle at his right cheek, level with his eye, pointing where he looks, tipped down a little."""
         J = r.J[min(f, nf - 1)]; d = J[NOSE] - J[HEAD]; d[2] = 0; d /= (np.linalg.norm(d) + 1e-9)
-        s = J[RSH] + np.array((0, 0, 0.05)) - d * 0.15
-        return tuple(s), tuple(s + d * 1.55)
-    return r, pl, la, Stick("rifle", 0.035, "#1A1A1A", rifle)
+        d = d * math.cos(math.radians(4)) + np.array((0, 0, -math.sin(math.radians(4))))
+        right = np.cross(d, (0, 0, 1.0)); right /= np.linalg.norm(right)
+        return J[HEAD] + right * 0.075 - np.array((0, 0, 0.06)) - d * 0.32, d
+    def part(a, b, lift=0.0):
+        def fn(f):
+            s0, d = axis(f); up = np.array((0, 0, lift))
+            return tuple(s0 + d * a + up), tuple(s0 + d * b + up)
+        return fn
+    rf = [Stick("rifle_stock", 0.03, "#1A1A1A", part(0.0, 0.8)), Stick("rifle_barrel", 0.011, "#1A1A1A", part(0.8, 1.75)),
+          Stick("rifle_scope", 0.022, "#2C2C2C", part(0.28, 0.62, 0.065))]
+    return r, pl, la, rf
 
 def S08_SH010(nf):
     p = (-36.0, -4.0, 1.7); sq(p)
@@ -63,19 +72,19 @@ def S08_SH010(nf):
 def S08_SH020(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf)
     r.face(0, 4, mouth=0.15)
-    return {"cam": cam((1.15, -1.3, 1.45), (-0.3, 2.0, 1.15), 28, hh=0.12), "actors": [r, pl, la], "sticks": [rf], "cues": [[0, 4, "ROTORS, MUFFLED"]]}
+    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.1), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
 
 def S08_SH050(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf, lady_turn=0.2)
     la.talk(1.0, 2.6)
-    return {"cam": cam((1.15, -1.3, 1.45), (-0.3, 2.0, 1.15), 28, hh=0.12), "actors": [r, pl, la], "sticks": [rf],
+    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.1), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf,
             "speakers": {"BUSINESS LADY": la}, "say": [[1.0, 2.7, "BUSINESS LADY"]]}
 
 def S08_SH060(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf, roger_shift=1.4)
     r.face(0, 0.4, mouth=0.4); r.face(0.4, 1.0, mouth=0.0, eyes=1.2); r.face(1.0, 3.0, mouth=0.0)
     J = r.J[0]
-    return {"cam": cam(tuple(J[HEAD] + np.array((1.0, 0.08, 0.02))), tuple(J[HEAD]), 50, hh=0.12), "actors": [r, pl, la], "sticks": [rf]}
+    return {"cam": cam(tuple(J[HEAD] + np.array((1.0, 0.08, 0.02))), tuple(J[HEAD]), 50, hh=0.12), "actors": [r, pl, la], "sticks": rf}
 
 def S08_SH040(nf):
     p = (-22.0, 10.0, 1.6); sq(p)
@@ -97,7 +106,7 @@ def S08_SH040(nf):
     return {"cam": cam(p, (-40.0, -7.0, 2.4), 50), "actors": [him, body] + acts, "sticks": [rope_stick(JA)], "cues": [[0.3, 4, "CRACKS FROM THE SKY"]]}
 
 def S08_SH080(nf):
-    p = (ARM[0] + 0.85, ARM[1] + 1.25, 6.3); sq(p)
+    p = (ARM[0] + 0.85, ARM[1] + 1.25, ARM[2] - 1.28); sq(p)
     def upper(f):
         t = f / core.FPS; return (tuple(ARM), tuple(ARM - np.array((0, 0, 2.2 if t < 0.4 else 1.0))))
     def lower(f):
@@ -105,5 +114,5 @@ def S08_SH080(nf):
         if t < 0.4: return (tuple(ARM - np.array((0, 0, 2.2))), tuple(TOP))
         u = (t - 0.4); dz = 4.9 * u * u
         return (tuple(ARM - np.array((0, 0, 1.15 + dz))), tuple(TOP - np.array((0, 0, dz))))
-    return {"cam": cam(p, (ARM[0], ARM[1], 6.7), 50), "sticks": [Stick("ropeu", 0.045, "#E2CFA0", upper), Stick("ropel", 0.045, "#E2CFA0", lower)],
+    return {"cam": cam(p, (ARM[0], ARM[1], ARM[2] - 1.08), 50), "sticks": [Stick("ropeu", 0.045, "#E2CFA0", upper), Stick("ropel", 0.045, "#E2CFA0", lower)],
             "cues": [[0.35, 0.6, "SNAP"]]}

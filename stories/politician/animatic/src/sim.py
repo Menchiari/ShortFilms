@@ -97,7 +97,7 @@ BONES = [(HEAD, NECK), (NECK, PELVIS), (NECK, LSH), (NECK, RSH), (LSH, RSH), (LS
          (NECK, LHIP), (NECK, RHIP), (LKN, LTO), (RKN, RTO)]
 SOFT = [(HEAD, LSH), (HEAD, RSH), (NOSE, LSH), (NOSE, RSH), (NOSE, PELVIS)]
 MINS = [(LHIP, LAN, 0.38), (RHIP, RAN, 0.38), (LSH, LHA, 0.2), (RSH, RHA, 0.2), (HEAD, PELVIS, 0.62), (LKN, RKN, 0.12), (LHA, RHA, 0.1)]
-RAD = np.array([0.1, 0.06, 0.12, 0.06, 0.05, 0.05, 0.06, 0.05, 0.05, 0.08, 0.06, 0.05, 0.04, 0.08, 0.06, 0.05, 0.04, 0.05])
+RAD = np.array([0.12, 0.09, 0.14, 0.09, 0.06, 0.05, 0.09, 0.06, 0.05, 0.1, 0.075, 0.05, 0.05, 0.1, 0.075, 0.05, 0.05, 0.03])
 
 class Ragdoll:
     def __init__(self, J0, V0=None, dt=1 / 240):
@@ -105,7 +105,16 @@ class Ragdoll:
         self.xp = self.x - (np.zeros_like(self.x) if V0 is None else np.array(V0, float) * dt)
         self.rest = [(i, j, np.linalg.norm(self.x[i] - self.x[j])) for i, j in BONES]
         self.soft = [(i, j, np.linalg.norm(self.x[i] - self.x[j])) for i, j in SOFT]
-        self.pins = {}; self.muscles = []; self.t = 0.0; self.ground = True; self.walls = []
+        self.pins = {}; self.muscles = []; self.t = 0.0; self.ground = True
+        self.walls = [(x0, x1, y0, y1, 0.15) for (x0, x1, y0, y1) in core.SIDEWALKS]
+        # a body that starts over a sidewalk starts on top of it, not inside it
+        lift = 0.0
+        for (x0, x1, y0, y1, z1) in self.walls:
+            inside = (self.x[:, 0] > x0) & (self.x[:, 0] < x1) & (self.x[:, 1] > y0) & (self.x[:, 1] < y1)
+            if inside.any():
+                lift = max(lift, float(np.max(z1 + RAD[inside] - self.x[inside, 2])))
+        if lift > 0:
+            self.x[:, 2] += lift; self.xp[:, 2] += lift
 
     def step(self):
         dt = self.dt; acc = np.zeros_like(self.x); acc[:, 2] -= 9.81
@@ -132,13 +141,14 @@ class Ragdoll:
             if self.ground:
                 low = self.x[:, 2] < RAD
                 if low.any():
-                    self.x[low, 2] = RAD[low]
+                    self.x[low, 2] = RAD[low]; self.xp[low, 2] = RAD[low]
                     self.xp[low, 0] = self.xp[low, 0] * 0.7 + self.x[low, 0] * 0.3
                     self.xp[low, 1] = self.xp[low, 1] * 0.7 + self.x[low, 1] * 0.3
             for (x0, x1, y0, y1, z1) in self.walls:
                 inside = (self.x[:, 0] > x0) & (self.x[:, 0] < x1) & (self.x[:, 1] > y0) & (self.x[:, 1] < y1) & (self.x[:, 2] < z1)
                 if inside.any():
-                    self.x[inside, 2] = np.maximum(self.x[inside, 2], z1)
+                    self.x[inside, 2] = np.maximum(self.x[inside, 2], z1 + RAD[inside])
+                    self.xp[inside, 2] = self.x[inside, 2]          # a push out of the curb stops the joint, it never launches it
         self.t += dt
 
     def run(self, T):

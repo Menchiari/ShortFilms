@@ -82,16 +82,17 @@ def bump_fall():
 def S04_SH070(nf):
     p = (-57.0, 4.6, 1.6); street(p)
     him = Actor("him", COST["him"], nf)
-    him.path(0, 3.0, [(-56.5, Y), (-65.0, -4.6)], "jog", speed="lin", base=dict(la=(55, 10, 110)))
-    him.over(0.3, 3.0, hyaw=-70, twist=-15)
-    JA = bump_fall(); him.joints(3.0, JA[: F(1.0) + 1])
+    # cut half a second after the impact: SH080 picks the fall up from above
+    him.path(0, 3.5, [(-56.5, Y), (-65.0, -4.6)], "jog", speed="lin", base=dict(la=(55, 10, 110)))
+    him.over(0.3, 3.5, hyaw=-70, twist=-15)
+    JA = bump_fall(); him.joints(3.5, JA[: F(0.5) + 1])
     fa = Actor("fat", COST["fat"], nf)
-    fa.path(0, 3.0, [(-65.5, -10.5), (F_POS[0], F_POS[1])], "walk", speed="lin")
-    fa.blend(3.0, 3.4, pose("stand", x=F_POS[0], y=F_POS[1], yaw=0), pose("stand", x=F_POS[0] - 0.15, y=F_POS[1], yaw=-30, spine=-6, la=(30, 20, 30), ra=(30, 20, 30)))
-    fa.hold(3.4, 4.0, pose("stand", x=F_POS[0] - 0.15, y=F_POS[1], yaw=-30, spine=-6, la=(30, 20, 30), ra=(30, 20, 30)))
+    fa.path(0, 3.5, [(-65.5, -10.5), (F_POS[0], F_POS[1])], "walk", speed="lin")
+    fa.blend(3.5, 3.9, pose("stand", x=F_POS[0], y=F_POS[1], yaw=0), pose("stand", x=F_POS[0] - 0.15, y=F_POS[1], yaw=-30, spine=-6, la=(30, 20, 30), ra=(30, 20, 30)))
+    fa.hold(3.9, 4.0, pose("stand", x=F_POS[0] - 0.15, y=F_POS[1], yaw=-30, spine=-6, la=(30, 20, 30), ra=(30, 20, 30)))
     case = PR.hand_prop("case", "case")
     return {"cam": follow(him, p, lens=85, offset=(0, 0, 0.5), lag=0.35, hh=0.4), "actors": [him, fa],
-            "callbacks": [PR.attach(case, him, joint=LHA, elbow=LEL, visible=lambda f: f < F(3.1))], "cues": [[2.9, 3.3, "IMPACT"]]}
+            "callbacks": [PR.attach(case, him, joint=LHA, elbow=LEL, visible=lambda f: f < F(3.6))], "cues": [[3.4, 3.8, "IMPACT"]]}
 
 def S04_SH080(nf):
     p = (-63.2, -2.2, 5.2); street(p)
@@ -142,7 +143,8 @@ def S04_SH130(nf):
     p = (-64.1, -4.25, 1.62); street(p)
     him = Actor("him", COST["him"], nf); him.hold(0, 6, pose("stand", x=-64.55, y=-4.75, yaw=90, la=(60, 8, 100), ra=(55, 8, 100)))
     fa = Actor("fat", COST["fat"], nf); fa.hold(0, 6, pose("stand", x=F_POS[0], y=F_POS[1], yaw=-90, la=(85, 5, 30), ra=(85, 5, 30), spine=10, hpitch=10)); fa.talk(0.3, 5.7)
-    return {"cam": cam(p, (F_POS[0], F_POS[1], 1.62), 50, hh=0.5), "actors": [him, fa], "speakers": {"FAT PERSON": fa}, "say": [[0.3, 5.7, "FAT PERSON"]]}
+    fa.compute(); hz = float(fa.J[0, HEAD, 2])
+    return {"cam": cam(p, (F_POS[0], F_POS[1], hz - 0.1), 50, hh=0.5), "actors": [him, fa], "speakers": {"FAT PERSON": fa}, "say": [[0.3, 5.7, "FAT PERSON"]]}
 
 def S04_SH140(nf):
     p = (-59.0, -2.8, 0.5); reset("day"); sets.streets(p, clear=[(-58.0, 5.5, 8.0, 9.0)])
