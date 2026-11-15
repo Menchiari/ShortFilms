@@ -32,7 +32,9 @@ burned in. You answer in one line.
    the car, the landing area, the sun. Twelve camera setups, one grey render each: you paint over
    them, so geography and light match in every angle.
 3. **Moves words cannot hold** (car over the camera, the landing, the dolly zoom): a grey render of
-   the move becomes the video reference.
+   the move becomes the video reference. Coarse shapes only (no faces, no limb detail, plain boxes for
+   buildings): Seedance copies what it sees. The prompt names what to take from it: camera and blocking.
+   The detailed animatic is for review, never a reference. Tested before use.
 4. **Frame chaining:** a frame of an approved take seeds the next shot of the same setup.
 
 ## Keeping the color
