@@ -55,7 +55,7 @@ def S04_SH060(nf):
     him = Actor("him", COST["him"], nf); him.path(0, 3, [(-34.5, Y), (-40.5, Y)], "walk", speed="in", base=dict(la=(55, 10, 110)))
     him.look(0.6, 1.5, (-31.4, 4.7, 1.2)); him.look(2.1, 2.9, (-31.4, 4.7, 1.2))
     case = PR.hand_prop("case", "case")
-    return {"cam": move([(0, p0, (-34.5, Y, 1.55), 40), (3, (-41.8, -3.0, 1.6), (-40.5, Y, 1.55), 40)], hh=0.7, ease="in"),
+    return {"cam": move([(0, p0, (-34.5, Y, 1.66), 40), (3, (-41.8, -3.0, 1.6), (-40.5, Y, 1.66), 40)], hh=0.7, ease="in"),
             "actors": [him] + barmen(nf, look_from=0, target=(-38, Y, 1.6)), "callbacks": [PR.attach(case, him, joint=LHA, elbow=LEL)]}
 
 _FALL = {}

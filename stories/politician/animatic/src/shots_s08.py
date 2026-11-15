@@ -72,12 +72,12 @@ def S08_SH010(nf):
 def S08_SH020(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf)
     r.face(0, 4, mouth=0.15)
-    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.1), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
+    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.64), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
 
 def S08_SH050(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf, lady_turn=0.2)
     la.talk(1.0, 2.6)
-    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.1), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf,
+    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.64), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf,
             "speakers": {"BUSINESS LADY": la}, "say": [[1.0, 2.7, "BUSINESS LADY"]]}
 
 def S08_SH060(nf):

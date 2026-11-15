@@ -279,11 +279,27 @@ class Actor:
                 u = ease((f - tr[0] + 1) / (tr[3] + 1)); j = self._bstart[1] * (1 - u) + j * u
             J[f] = j; E[f] = e; M[f] = m; last = j
         # nothing goes below the ground: lift each frame by what the meshes would sink (sidewalks are 0.15 high)
+        rj = R_J * self.c.get("scale", 1.0); LEGS = ((LKN, LAN, LTO), (RKN, RAN, RTO))
         for f in range(self.nf):
             gz = core.ground_z(J[f, PELVIS, 0], J[f, PELVIS, 1])
-            low = float(np.min(J[f, :, 2] - R_J * self.c.get("scale", 1.0)))
+            low = float(np.min(J[f, :, 2] - rj))
             if low < gz:
                 J[f, :, 2] += gz - low
+            # a curb under one joint: a standing figure steps that foot up, a figure low on the ground lies on top of it
+            if not core.SIDEWALKS:
+                continue
+            need = np.array([core.ground_z(x, y) for x, y in J[f, :, :2]]) + rj - J[f, :, 2]
+            if need.max() <= 1e-3:
+                continue
+            if J[f, PELVIS, 2] - gz < 0.55:
+                J[f, :, 2] += need.max(); continue
+            for (kn, an, to) in LEGS:
+                up = max(0.0, need[an], need[to])
+                if up > 0:
+                    J[f, an, 2] += up; J[f, to, 2] += up; J[f, kn, 2] += up * 0.5
+            rest = need.copy(); rest[[LKN, LAN, LTO, RKN, RAN, RTO]] = 0.0
+            if rest.max() > 1e-3:
+                J[f, :, 2] += rest.max()
         self.J = J; self.E = E; self.M = M; self.K = K
         return J
 
