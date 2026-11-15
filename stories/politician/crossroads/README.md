@@ -5,6 +5,18 @@ the car in the middle facing north, the hero street light on the north-east corn
 under it and hangs from it), the helicopter landing south-west of the car, the sun low in the
 west.
 
+His route (screenplay S03 to S05):
+1. S03 SH060: the car dies in the empty crossroads. He gets out on the driver side (west) and
+   leaves the door open. Nobody is around.
+2. S04: he walks away down the west street into the side streets, fast and quiet. He speeds up
+   only once he is noticed, turns a corner and hits the fat person: far from the car, out of
+   sight of the crossroads.
+3. S05: chased, he runs back the way he came, out of the west street into the crossroads, past
+   his car, and falls at the far corner (north-east). The crowd follows him out of the west
+   street.
+
+The crossroads stays empty from S03 SH050 until S05 SH070.
+
 3D scene (Blender, hosted on Higgsfield): https://higgsfield.ai/3d-jutsu/ac128706-ec7c-4795-887d-88a69532bfbf
 
 Each render is a base for a start frame: paint it in your pipeline keeping the composition, with
