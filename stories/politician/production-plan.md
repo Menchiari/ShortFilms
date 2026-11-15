@@ -57,7 +57,7 @@ retakes 2,000 to 3,000. Every list gets a free preflight and your approval of th
 - **Same old man in 60 shots, four states:** B, C, D are edits of the same A image.
 - **Text on screen** (signs, gas board, bond, Agreement, phone, scope, TV): never generated
   readable. Start and end frames carry the exact text, or I composite it.
-- **Shots under 4 s** (64 of 105): runs of short shots in one place become one multi-shot
+- **Shots under 4 s** (63 of 105): runs of short shots in one place become one multi-shot
   generation; the rest at 4 s, trimmed.
 - **Voices:** generated with the takes for lip sync, then each character unified with one voice.
 - **Music:** never in the takes. Original cue on Wednesday 25 if you want one.
