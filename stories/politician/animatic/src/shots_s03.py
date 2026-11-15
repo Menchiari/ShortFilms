@@ -36,7 +36,16 @@ def S03_SH030(nf):
 
 def S03_SH050(nf):
     p = (24.0, -14.2, 16.6); reset("day"); sets.avenue(p, clear=[(24.0, -14.5, 16.0, 14.0)])
-    mb = core.MB(None, detail=False); mb.box(21.5, 26.5, -14.5, -13.3, 14.85, 15.0, PAL["balcony"]); mb.box(21.5, 26.5, -13.42, -13.3, 15.0, 15.6, PAL["balcony"]); mb.build("own_balcony")
+    # balcony: floor under the camera, railing square to the view, low enough to stay a thin band at the bottom edge
+    tgt = np.array((-4.0, 1.0, 0.5)); d = (tgt[:2] - np.array(p[:2])); d /= np.linalg.norm(d); perp = np.array((-d[1], d[0]))
+    pitch = math.degrees(math.atan2(p[2] - tgt[2], np.linalg.norm(tgt[:2] - np.array(p[:2]))))
+    half_v = math.degrees(math.atan(36 / (1120 / 480) / 2 / 28)); edge = pitch + half_v - 1.8
+    top = p[2] - 0.65 * math.tan(math.radians(edge)); c = np.array(p[:2]) + d * 0.65
+    R = np.stack([np.append(perp, 0), np.append(d, 0), np.array((0, 0, 1.0))], axis=1)
+    mb = core.MB(None, detail=False)
+    mb.box(21.5, 26.5, -14.5, -13.3, 14.85, 15.0, PAL["balcony"])
+    mb.obox((c[0], c[1], (15.0 + top) / 2), (3.0, 0.07, top - 15.0), R, PAL["balcony"])
+    mb.build("own_balcony")
     c = PR.car("car"); PR.place(c, (CAR[0], CAR[1], 0), YAW)
     def door(f):
         t = f / core.FPS; u = min(1, max(0, (t - 5.0) / 0.6)); PR.set_door(c, u * u * (3 - 2 * u))
@@ -50,6 +59,6 @@ def S03_SH050(nf):
     him.path(9.0, 14.0, [(out[0] - 0.3, out[1]), (-6.0, -0.8), (-9.8, -1.4)], "walk", speed="in")
     him.talk(7.0, 8.6)
     case = PR.hand_prop("case", "case")
-    return {"cam": cam(p, (-12, 5, 2.0), 28, hh=0.25), "actors": [him], "speakers": {"OLD MAN": him}, "say": [[7.0, 8.6, "OLD MAN"]],
+    return {"cam": cam(p, tuple(tgt), 28, hh=0.25), "actors": [him], "speakers": {"OLD MAN": him}, "say": [[7.0, 8.6, "OLD MAN"]],
             "callbacks": [door, PR.attach(case, him, offset=(0, 0, 0.02), visible=lambda f: f >= F(8.6))],
             "cues": [[0, 3, "CLAP ECHOES OFF THE BUILDINGS, FADES"], [3, 5, "SILENCE"], [0, 14, "cigarette smoke drifts across the foreground"]]}
