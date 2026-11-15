@@ -1,6 +1,7 @@
 # Politician: production plan v4
 
 Draft 6: 10 scenes, 100 shots, 5:34. Credits 31,721 (2026-11-15).
+Contest limit: 7 minutes maximum. Draft 6 fits with 1:26 to spare; no cuts needed for length.
 Deadline: Wednesday 25 November, night [ASSUMPTION: confirm the hour and time zone].
 Generation Monday 16 to Sunday 22, edit Monday 23, sound Tuesday 24, music Wednesday 25.
 
