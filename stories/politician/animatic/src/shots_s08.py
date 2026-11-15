@@ -58,8 +58,7 @@ def cabin_people(nf, lady_turn=None, roger_shift=None):
             s0, d = axis(f); up = np.array((0, 0, lift))
             return tuple(s0 + d * a + up), tuple(s0 + d * b + up)
         return fn
-    rf = [Stick("rifle_stock", 0.03, "#1A1A1A", part(0.0, 0.8)), Stick("rifle_barrel", 0.011, "#1A1A1A", part(0.8, 1.75)),
-          Stick("rifle_scope", 0.022, "#2C2C2C", part(0.28, 0.62, 0.065))]
+    rf = [Stick("rifle_stock", 0.03, "#1A1A1A", part(0.0, 0.8)), Stick("rifle_barrel", 0.011, "#1A1A1A", part(0.8, 1.75))]
     return r, pl, la, rf
 
 def S08_SH010(nf):
@@ -72,12 +71,12 @@ def S08_SH010(nf):
 def S08_SH020(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf)
     r.face(0, 4, mouth=0.15)
-    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.64), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
+    return {"cam": cam((1.15, -1.1, 1.3), (-0.6, 2.0, 1.35), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
 
 def S08_SH050(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf, lady_turn=0.2)
     la.talk(1.0, 2.6)
-    return {"cam": cam((1.15, -1.3, 1.2), (-0.3, 2.0, 1.64), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf,
+    return {"cam": cam((1.15, -1.1, 1.3), (-0.6, 2.0, 1.35), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf,
             "speakers": {"BUSINESS LADY": la}, "say": [[1.0, 2.7, "BUSINESS LADY"]]}
 
 def S08_SH060(nf):
