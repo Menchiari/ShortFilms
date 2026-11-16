@@ -22,7 +22,9 @@ OVERRIDE = {"S01_SH010": [(0, 2, ANCHOR, FRAG[0])], "S01_SH020": [(0, 2, ANCHOR,
             "S01_SH030": [(0.5, 3, ANCHOR, FRAG[1])], "S01_SH040": [(0, 1, ANCHOR, FRAG[1])], "S01_SH050": [(0, 2, ANCHOR, FRAG[1])],
             "S01_SH060": [(0.3, 2, ANCHOR, FRAG[2])], "S01_SH070": [(0, 2, ANCHOR, FRAG[2])], "S01_SH080": [], "S01_SH090": [],
             "S01_SH100": [], "S01_SH110": []}
-IMAGES = {"S05_SH050": "/home/user/ShortFilms/stories/politician/prop-bearer-bond_v2.png"}
+IMAGES = {"S05_SH050": os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "prop-bearer-bond_v2.png")}
+# a picture over a rendered shot for a moment: (image, t0, t1). The bond tumbling past the lens.
+INSETS = {"S05_SH100": (os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "prop-bearer-bond_v2.png"), 1.6, 2.7)}
 
 def chunks(text, maxc=100):
     parts = re.split(r"(?<=[.!?])\s+(?=\S)", text.strip())
@@ -113,6 +115,12 @@ def main():
             for f in range(nf):
                 t = f / FPS
                 im = base_card.copy() if base_card else Image.open(frames[min(f, len(frames) - 1)]).convert("RGB")
+                if sid in INSETS and os.path.exists(INSETS[sid][0]) and INSETS[sid][1] <= t < INSETS[sid][2]:
+                    path, a0, a1 = INSETS[sid]; u = (t - a0) / (a1 - a0)
+                    pic = Image.open(path).convert("RGB"); sc_ = 0.55 + 0.6 * u
+                    pic = pic.resize((int(W * sc_), int(W * sc_ * pic.height / pic.width))).rotate(18 - 30 * u, expand=True, fillcolor=(0, 0, 0))
+                    mask = pic.convert("L").point(lambda v: 255 if v > 8 else 0)
+                    im.paste(pic, (int(W * (0.75 - 0.9 * u) - pic.width / 2), int(H * 0.45 - pic.height / 2)), mask)
                 dr = ImageDraw.Draw(im)
                 # label
                 dr.rectangle([0, 0, 252, 44], fill=(0, 0, 0))

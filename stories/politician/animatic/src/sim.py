@@ -1,5 +1,5 @@
 """Crowd simulation (social forces with personal space) and a verlet ragdoll."""
-import math
+import math, random
 import numpy as np
 import core
 from puppet import *
@@ -8,8 +8,11 @@ from puppet import *
 class Crowd:
     """Agents in 2D. brain(t, P, V) -> (desired velocity (n,2), look points (n,2)).
     Personal space grows with distance from `focus`: the further back, the harder it is to be close."""
-    def __init__(self, P0, v0, radius=0.26, seed=0, focus=None, space_k=0.02, walls=(), bubble=None):
+    def __init__(self, P0, v0, radius=0.26, seed=0, focus=None, space_k=0.02, walls=(), bubble=None, start=None, life=0.18):
         self.P = np.array(P0, float); self.n = len(self.P); self.V = np.zeros_like(self.P)
+        rs = np.random.default_rng(seed + 991)
+        self.start = np.zeros(self.n) if start is None else np.array(start, float)     # each agent sets off at his own time
+        self.mod = (life * rs.uniform(0.5, 1.0, self.n), rs.uniform(0.15, 0.5, self.n), rs.uniform(0, 6.283, self.n))
         self.v0 = np.array(v0, float) if np.ndim(v0) else np.full(self.n, v0)
         self.r = np.full(self.n, radius); self.rnd = np.random.default_rng(seed)
         self.focus = focus; self.space_k = space_k; self.walls = list(walls); self.bubble = bubble
@@ -51,9 +54,15 @@ class Crowd:
         steps = int(round(T / dt)); every = int(round(1 / (core.FPS * dt)))
         X, Y, YW, SP = [], [], [], []
         yaw = self.yaw.copy(); turn = math.radians(220) * dt
+        Vd0, look0 = brain(0.0, self.P, self.V)                      # face where you are going (or looking) from the first frame
+        mv = np.linalg.norm(Vd0, axis=1) > 0.05
+        yaw = np.where(mv, np.degrees(np.arctan2(-Vd0[:, 0], Vd0[:, 1])), np.degrees(np.arctan2(-(look0[:, 0] - self.P[:, 0]), look0[:, 1] - self.P[:, 1])))
+        amp, fr, ph = self.mod
         for k in range(steps + 1):
             t = k * dt
             Vd, look = brain(t, self.P, self.V)
+            Vd = Vd * (1.0 + amp * np.sin(2 * np.pi * fr * t + ph))[:, None]
+            Vd[self.start > t] = 0.0
             Fz = self.forces(t, self.P, self.V, Vd)
             self.V += Fz * dt
             sp = np.linalg.norm(self.V, axis=1); vmax = self.v0 * 1.35 + 0.2
@@ -84,7 +93,10 @@ def crowd_actors(prefix, sim_out, t0=0.0, nf=0, rnd=None, lod="low", costumes=No
     for i in range(X.shape[1]):
         cst = costumes[i] if costumes else crowd_costume(rnd)
         a = Actor(f"{prefix}{i:02d}", cst, nf, lod=lod)
-        a.traj(t0, X[:, i], Y[:, i], YW[:, i], SP[:, i], blend=0.0)
+        rr = random.Random(i * 7919 + 17)
+        lean = rr.uniform(-4, 9)
+        a.traj(t0, X[:, i], Y[:, i], YW[:, i], SP[:, i], blend=0.0, phase0=rr.uniform(0, 6.283), stride=rr.uniform(0.82, 1.18),
+               base=dict(spine=lean))
         ph = (i * 2.399) % 6.283; fr = 0.08 + (i % 5) * 0.035; amp = 12 + (i % 4) * 7
         a.overlays.append((0, nf, lambda f, q, ph=ph, fr=fr, amp=amp: dict(q, hyaw=q["hyaw"] + amp * math.sin(2 * math.pi * fr * f / core.FPS + ph))))
         acts.append(a)

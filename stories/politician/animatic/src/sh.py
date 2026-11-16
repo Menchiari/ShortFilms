@@ -8,9 +8,16 @@ import sets
 from puppet import *
 from sim import *
 import props as PR
+from mathutils import Matrix, Vector
 
-def cam(pos, tgt, lens=35, hh=0.0, roll=0):
-    return {"keys": [(0, pos, tgt, lens)], "hh": hh, "roll": roll}
+def cam(pos, tgt, lens=35, hh=0.0, roll=0, focus=None, fstop=2.0):
+    d = {"keys": [(0, pos, tgt, lens)], "hh": hh, "roll": roll}
+    if focus is not None: d["focus"] = focus; d["fstop"] = fstop
+    return d
+
+def dof(spec, focus, fstop=2.0):
+    """Add depth of field to any camera spec."""
+    spec["focus"] = focus; spec["fstop"] = fstop; return spec
 
 def move(keys, hh=0.0, ease="io", spline=False, roll=0):
     return {"keys": keys, "hh": hh, "ease": ease, "spline": spline, "roll": roll}

@@ -1,6 +1,6 @@
 from sh import *
 
-CUES = {"S03_SH040": [[0, 1, "BEEP"], [2, 3, "LAST CLAP"]]}
+CUES = {"S03_SH040": [[0, 1.4, "THE FUEL LIGHT GLOWS"], [1.4, 2.4, "THE STARTER GRINDS"], [2.6, 3.6, "AGAIN. NOTHING"], [4.0, 5.0, "KEY OUT. LIGHT OFF"]]}
 CAR = (0.0, 1.0); YAW = 90.0
 
 def town(eye, sky="day"):
@@ -14,25 +14,34 @@ def S03_SH010(nf):
             "actors": [him], "callbacks": [car_cb(c, path)], "cues": [[0, 6, "THE SAME NEWS FROM WINDOW TO WINDOW"]]}
 
 def S03_SH020(nf):
-    pos = (60.0, 3.0); p = tuple(PR.car_world(pos, YAW, 1.45, 0.62, 1.25)); town(p)
-    c = PR.car("car"); PR.place(c, (pos[0], pos[1], 0), YAW)
-    case = PR.briefcase("case"); w = PR.car_world(pos, YAW, 0.42, -0.2, 0.6); PR.place(case, (w[0], w[1], 0.6), YAW + 90)
+    """Close from the passenger side, the car crawling: the street slides past behind him. He mumbles, eyes on the road."""
+    path = lambda t: ((60.0 - 2.0 * t, 3.0), YAW)
+    p0 = tuple(PR.car_world((60.0, 3.0), YAW, 0.5, 0.35, 1.25)); town(p0)
+    c = PR.car("car"); case = PR.briefcase("case")
     him = Actor("him", COST["him"], nf)
-    base = PR.car_world(pos, YAW, -0.42, -0.25)
-    seat = dict(x=float(base[0]), y=float(base[1]), yaw=YAW)
-    him.seq([(0, pose("drive", **seat)), (0.5, pose("drive", **seat, hyaw=-55, hpitch=20)), (2.2, pose("drive", **seat, hyaw=-55, hpitch=20)),
-             (2.8, pose("drive", **seat)), (6.8, pose("drive", **seat)), (7.4, pose("drive", **seat, hpitch=-8, eyes=1.4))])
-    him.talk(0.4, 7.6)
-    head = PR.car_world(pos, YAW, -0.42, -0.3, 1.3)
-    return {"cam": cam(p, tuple(head), 32), "actors": [him], "speakers": {"OLD MAN": him}, "say": [[0.4, 7.6, "OLD MAN"]], "cues": [[7, 8, "ENGINE POPS"]]}
+    def seat_at(t):
+        (pos, yaw) = path(t); w = PR.car_world(pos, yaw, -0.42, -0.25); return dict(x=float(w[0]), y=float(w[1]), yaw=YAW)
+    def fn(f):
+        t = f / core.FPS; sp = seat_at(t)
+        look = -40 if 0.6 < t < 1.6 else 0
+        return pose("drive", **sp, spine=10, hyaw=look, hpitch=(14 if 0.6 < t < 1.6 else 0), eyes=(1.4 if t > 7.3 else 0.9))
+    him.tracks.append((0, nf - 1, fn, 0))
+    him.talk(1.8, 7.3)
+    def cb(f):
+        t = f / core.FPS; (pos, yaw) = path(t); w = PR.car_world(pos, yaw, 0.42, -0.2, 0.6); PR.place(case, (w[0], w[1], 0.6), yaw + 90)
+    def camfn(t):
+        (pos, yaw) = path(t)
+        return PR.car_world(pos, yaw, 0.32, 0.72, 1.22), PR.car_world(pos, yaw, -0.42, -0.25, 1.3), 40, 0
+    return {"cam": {"fn": camfn, "hh": 0.15}, "actors": [him], "speakers": {"OLD MAN": him}, "say": [[1.8, 7.3, "OLD MAN"]],
+            "callbacks": [car_cb(c, path), cb], "cues": [[7.4, 8, "THE ENGINE POPS AND DIES"]]}
 
 def S03_SH030(nf):
+    """Ground level: the front wheel rolls in, slower and slower, and stops right in front of the lens."""
     p = (-3.3, -0.65, 0.25); town(p)
     c = PR.car("car")
     def path(t):
-        u = min(1.0, t / 1.6); u = 1 - (1 - u) ** 2
-        return ((7.0 - 7.0 * u, 1.0), YAW)
-    return {"cam": cam(p, (-1.55, 0.15, 0.36), 28), "callbacks": [car_cb(c, path)], "cues": [[1.5, 2, "THE CAR STOPS"]]}
+        u = min(1.0, t / 6.2); return ((6.2 * (1 - u) ** 2, 1.0), YAW)
+    return {"cam": cam(p, (-1.55, 0.15, 0.36), 28), "callbacks": [car_cb(c, path)], "cues": [[0, 6.2, "TIRES ON GRIT, SLOWER"], [6.2, 7, "SILENCE"]]}
 
 def S03_SH050(nf):
     p = (24.0, -14.2, 16.6); reset("day"); sets.avenue(p, clear=[(24.0, -14.5, 16.0, 14.0)])
@@ -46,6 +55,11 @@ def S03_SH050(nf):
     mb.box(21.5, 26.5, -14.5, -13.3, 14.85, 15.0, PAL["balcony"])
     mb.obox((c[0], c[1], (15.0 + top) / 2), (3.0, 0.07, top - 15.0), R, PAL["balcony"])
     mb.build("own_balcony")
+    left = np.array((-d[1], d[0])); sp = np.array(p[:2]) + d * 1.25 + left * 0.82
+    smoker = Actor("smoker", crowd_costume(random.Random(77)), nf); smoker.style = "shape"
+    smoker.hold(0, nf / core.FPS, pose("stand", x=float(sp[0]), y=float(sp[1]), z=15.0, yaw=fdir(sp, tgt[:2]) + 25, spine=12, hpitch=20))
+    cig = np.array((sp[0], sp[1], 16.05)) + np.append(-left * 0.12 + d * 0.25, 0)
+    smoke = PR.dust("smoke", 8, lambda t: (cig[0] - left[0] * 0.15 * t, cig[1] - left[1] * 0.15 * t), size=0.18, col="#B8B4AC")
     c = PR.car("car"); PR.place(c, (CAR[0], CAR[1], 0), YAW)
     def door(f):
         t = f / core.FPS; u = min(1, max(0, (t - 5.0) / 0.6)); PR.set_door(c, u * u * (3 - 2 * u))
@@ -59,6 +73,7 @@ def S03_SH050(nf):
     him.path(9.0, 14.0, [(out[0] - 0.3, out[1]), (-6.0, -0.8), (-9.8, -1.4)], "walk", speed="in")
     him.talk(7.0, 8.6)
     case = PR.hand_prop("case", "case")
-    return {"cam": cam(p, tuple(tgt), 28, hh=0.25), "actors": [him], "speakers": {"OLD MAN": him}, "say": [[7.0, 8.6, "OLD MAN"]],
-            "callbacks": [door, PR.attach(case, him, offset=(0, 0, 0.02), visible=lambda f: f >= F(8.6))],
-            "cues": [[0, 3, "CLAP ECHOES OFF THE BUILDINGS, FADES"], [3, 5, "SILENCE"], [0, 14, "cigarette smoke drifts across the foreground"]]}
+    smoke_cb = lambda f: [smoke(f), [setattr(o, "location", (o.location[0], o.location[1], 16.05 + (o.location[2] % 0.6))) for o in []]]
+    return {"cam": cam(p, tuple(tgt), 28, hh=0.25), "actors": [him, smoker], "speakers": {"OLD MAN": him}, "say": [[7.0, 8.6, "OLD MAN"]],
+            "callbacks": [door, PR.chest(case, him, visible=lambda f: f >= F(8.6)), smoke],
+            "cues": [[0, 5, "SILENCE"]]}

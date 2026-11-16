@@ -187,15 +187,15 @@ class Actor:
             p["x"], p["y"], p["yaw"] = float(pos[0]), float(pos[1]), yaw
             return p
         self.tracks.append((f0, f1, fn, F(blend)))
-    def traj(self, t0, X, Y, YAW, SPEED, base=None, blend=0.2, kinds=("walk", "jog", "run")):
-        """Follow a simulated trajectory (arrays at the frame rate starting at t0)."""
+    def traj(self, t0, X, Y, YAW, SPEED, base=None, blend=0.2, kinds=("walk", "jog", "run"), phase0=0.0, stride=1.0):
+        """Follow a simulated trajectory (arrays at the frame rate starting at t0). phase0 and stride make each walker his own."""
         f0 = F(t0); n = len(X); base = base or {}
         dist = np.concatenate([[0], np.cumsum(np.hypot(np.diff(X), np.diff(Y)))])
         def fn(f):
             i = min(n - 1, f - f0); v = SPEED[i]
             k = "run" if v > 3.0 else ("jog" if v > 1.9 else "walk")
             w = max(0.0, min(1.0, v / (0.9 if k == "walk" else 2.0)))
-            p = dict(BASE); p.update(base); p.update(gait(k, 2 * math.pi * dist[i] / CYCLE[k], w))
+            p = dict(BASE); p.update(base); p.update(gait(k, phase0 + 2 * math.pi * dist[i] / (CYCLE[k] * stride), w))
             p["x"], p["y"], p["yaw"] = float(X[i]), float(Y[i]), float(YAW[i])
             return p
         self.tracks.append((f0, f0 + n - 1, fn, F(blend)))
@@ -292,7 +292,7 @@ class Actor:
             if need.max() <= 1e-3:
                 continue
             if J[f, PELVIS, 2] - gz < 0.55:
-                J[f, :, 2] += need.max(); continue
+                J[f, :, 2] += np.maximum(0.0, need); continue
             for (kn, an, to) in LEGS:
                 up = max(0.0, need[an], need[to])
                 if up > 0:
@@ -516,8 +516,18 @@ class ShapePuppet:
     def show(self, on):
         for o in self.parts + self.face:
             o.hide_render = not on
+    def smooth(self):
+        """Heights averaged over ~0.6 s: the shape glides, the gait bob is gone (Seedance gets the walk from the prompt)."""
+        if getattr(self, "_Jg", None) is None:
+            J = self.a.J; k = 3; Jg = J.copy()
+            pad = np.concatenate([J[:1].repeat(k, 0), J, J[-1:].repeat(k, 0)])
+            z = np.mean([pad[i:i + len(J), :, 2] for i in range(2 * k + 1)], axis=0)
+            moving = np.abs(J[:, PELVIS, 2] - z[:, PELVIS]) < 0.12          # keep real drops (falls, sitting) as they are
+            Jg[moving, :, 2] = z[moving]
+            self._Jg = Jg
+        return self._Jg
     def apply(self, f, cam=None):
-        ff = min(f, self.a.nf - 1); J = self.a.J[ff]; s = self.s
+        ff = min(f, self.a.nf - 1); J = self.smooth()[ff] if not self.a.K[ff] else self.a.J[ff]; s = self.s
         up = J[NECK] - J[PELVIS]; u = up / (np.linalg.norm(up) + 1e-9)
         pel = J[PELVIS] + u * 0.02; top = J[NECK] - u * 0.065 * s
         feet = (J[LAN] + J[RAN]) / 2 + np.array((0, 0, 0.1 * s)); hipc = (J[LHIP] + J[RHIP]) / 2; head = J[HEAD].copy()
@@ -542,6 +552,7 @@ class ShapePuppet:
             dist = float(np.linalg.norm(np.array(cam[0], float) - head))
             slits = 2 * self.rh / max(1e-3, dist * 36.0 / cam[1] * 480 / 1120) > 0.3
         self.wedge.hide_render = slits
+        if slits: self.any_slits = True
         for o in self.face:
             o.hide_render = not slits
         if slits:

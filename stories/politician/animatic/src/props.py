@@ -5,7 +5,7 @@ import bpy
 from mathutils import Matrix
 import core
 from core import MB, PAL
-from puppet import Puppet, NJ, HEAD, NECK, PELVIS, LHA, RHA, LEL, REL, _mesh_cyl, _mesh_box, _mesh_sphere, _obj
+from puppet import Puppet, NJ, HEAD, NECK, PELVIS, LHA, RHA, LEL, REL, LSH, RSH, NOSE, _mesh_cyl, _mesh_box, _mesh_sphere, _obj
 
 def mesh_obj(name, mb):
     mb.d = None
@@ -180,7 +180,35 @@ def attach(o, actor, joint=RHA, elbow=REL, offset=(0, 0, 0), visible=None):
         o.matrix_world = Puppet.M(R2, J[joint] + R2 @ np.array(offset))
     return cb
 
-def papers(prefix, n, center, spread, t0, t1, rise=3.0, seed=4, drift=(0, 0), lift_from=None):
+def chest(o, actor, visible=None, out=0.2):
+    """The briefcase hugged flat against his chest, both arms around it (the shape has no arms)."""
+    def cb(f):
+        if visible is not None and not visible(f):
+            o.hide_render = True; return
+        o.hide_render = False
+        J = actor.J[min(f, actor.nf - 1)]; up = J[NECK] - J[PELVIS]; up = up / (np.linalg.norm(up) + 1e-9)
+        right = J[RSH] - J[LSH]; right = right - up * np.dot(right, up); right = right / (np.linalg.norm(right) + 1e-9)
+        fwd = np.cross(up, right)
+        c = J[PELVIS] + up * 0.47 + fwd * out
+        R = np.stack([right, fwd, up], 1)              # case: wide along right, thin along fwd, tall along up (handle up)
+        o.matrix_world = Puppet.M(R, c + up * 0.17)
+    return cb
+
+def at_ear(o, actor, side=1.0, visible=None):
+    """The phone pressed to his ear: upright along the jaw, screen to the cheek."""
+    def cb(f):
+        if visible is not None and not visible(f):
+            o.hide_render = True; return
+        o.hide_render = False
+        J = actor.J[min(f, actor.nf - 1)]; up = J[HEAD] - J[NECK]; up = up / (np.linalg.norm(up) + 1e-9)
+        fwd = J[NOSE] - J[HEAD]; fwd = fwd - up * np.dot(fwd, up); fwd = fwd / (np.linalg.norm(fwd) + 1e-9)
+        right = np.cross(fwd, up)
+        tilt = up * 0.94 + fwd * 0.34; tilt /= np.linalg.norm(tilt)
+        R = np.stack([fwd, right, tilt], 1)
+        o.matrix_world = Puppet.M(R, J[HEAD] + right * side * 0.125 - up * 0.01)
+    return cb
+
+def papers(prefix, n, center, spread, t0, t1, rise=3.0, seed=4, drift=(0, 0), lift_from=None, hidden_before=False):
     """Bills: white flats lying, then blown around between t0 and t1. Returns a callback."""
     rnd = np.random.default_rng(seed); objs = []
     base = np.stack([center[0] + rnd.uniform(-spread, spread, n), center[1] + rnd.uniform(-spread, spread, n)], 1)
@@ -190,6 +218,7 @@ def papers(prefix, n, center, spread, t0, t1, rise=3.0, seed=4, drift=(0, 0), li
     def cb(f):
         t = f / core.FPS
         for i, o in enumerate(objs):
+            o.hide_render = bool(hidden_before and t < t0)
             u = 0.0 if t < t0 else min(1.0, (t - t0) / max(0.01, (t1 - t0)))
             k = u * u * (3 - 2 * u)
             x = base[i, 0] + (drift[0] * k + 2.5 * amp[i] * math.sin(ph[i, 0] + t * 1.7) * k)

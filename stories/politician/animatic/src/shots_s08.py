@@ -1,6 +1,7 @@
 from sh import *
 from shots_s05 import SQ_WALLS, people
-from shots_s07 import ARM, TOP, HELI_AT, hanging, rope_stick, pipe_fall
+from shots_s07 import ARM, TOP, HELI_AT, hanging, rope_stick, bodies_s07
+import phys
 
 CUES = {"S08_SH030": [[0, 4, "CABIN HUM"]], "S08_SH070": [[1.2, 1.5, "CRACK"]]}
 HELI_FAR = HELI_AT
@@ -45,7 +46,7 @@ def cabin_people(nf, lady_turn=None, roger_shift=None):
     if lady_turn is None:
         la.hold(0, nf / core.FPS, pose("seat", **lp, yaw=0.0))
     else:
-        la.seq([(0, pose("seat", **lp, yaw=0.0)), (lady_turn, pose("seat", **lp, yaw=0.0)), (lady_turn + 0.6, pose("seat", **lp, yaw=0.0, twist=45, hyaw=75))])
+        la.seq([(0, pose("seat", **lp, yaw=0.0)), (lady_turn, pose("seat", **lp, yaw=0.0)), (lady_turn + 0.6, pose("seat", **lp, yaw=0.0, twist=-45, hyaw=-75))])
     for a in (r, pl, la): a.compute()
     def axis(f):
         """The rifle at his right cheek, level with his eye, pointing where he looks, tipped down a little."""
@@ -71,12 +72,12 @@ def S08_SH010(nf):
 def S08_SH020(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf)
     r.face(0, 4, mouth=0.15)
-    return {"cam": cam((1.15, -1.1, 1.3), (-0.6, 2.0, 1.35), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
+    return {"cam": cam((1.35, -1.3, 1.35), (0.0, 2.0, 1.22), 20, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
 
 def S08_SH050(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf, lady_turn=0.2)
     la.talk(1.0, 2.6)
-    return {"cam": cam((1.15, -1.1, 1.3), (-0.6, 2.0, 1.35), 28, hh=0.12), "actors": [r, pl, la], "sticks": rf,
+    return {"cam": cam((1.35, -1.3, 1.35), (0.0, 2.0, 1.22), 20, hh=0.12), "actors": [r, pl, la], "sticks": rf,
             "speakers": {"BUSINESS LADY": la}, "say": [[1.0, 2.7, "BUSINESS LADY"]]}
 
 def S08_SH060(nf):
@@ -85,24 +86,45 @@ def S08_SH060(nf):
     J = r.J[0]
     return {"cam": cam(tuple(J[HEAD] + np.array((1.0, 0.08, 0.02))), tuple(J[HEAD]), 50, hh=0.12), "actors": [r, pl, la], "sticks": rf}
 
-def S08_SH040(nf):
-    p = (-22.0, 10.0, 1.6); sq(p)
-    JA = hanging(nf / core.FPS, struggle=0.2, seed=21); him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    body = Actor("pipe", crowd_costume(random.Random(141)), nf, lod="high"); body.joints(0, [pipe_fall(nf)[-1]] * nf)
+SNIPE = [(1, 0.4), (4, 0.9), (7, 1.5), (10, 2.0), (13, 2.6), (16, 3.1)]
+_SK = {}
+def sniper_sim(T=4.0):
+    if "sim" in _SK: return _SK["sim"]
     rng = np.random.default_rng(201); n = 30
     P0 = falloff((ARM[0], ARM[1]), n, r_min=2.6, lam=2.4, arc=(100, 380), seed=202, walls=SQ_WALLS, max_r=22)
     out = P0 - ARM[:2][None]; out /= np.linalg.norm(out, axis=1)[:, None]
     T_ = P0 + out * 30
-    cr = Crowd(P0, rng.uniform(4.0, 5.2, n), walls=SQ_WALLS, space_k=0.0, seed=203)
-    starts = rng.uniform(0.0, 0.6, n)
-    def brain(t, P, V):
-        Vd = seek(P, T_, cr.v0, 1.0); Vd[starts > t] = 0; return Vd, T_
-    sim = cr.run(nf / core.FPS, brain)
-    acts = people("c", sim, nf, 204)
-    from shots_s06 import collapse_actor
-    for k, (i, t) in enumerate([(1, 0.4), (4, 0.9), (7, 1.5), (10, 2.0), (13, 2.6), (16, 3.1), (19, 3.5)]):
-        collapse_actor(acts[i], t, i, sim)
-    return {"cam": cam(p, (-40.0, -7.0, 2.4), 50), "actors": [him, body] + acts, "sticks": [rope_stick(JA)], "cues": [[0.3, 4, "CRACKS FROM THE SKY"]]}
+    cr = Crowd(P0, rng.uniform(3.6, 5.2, n), walls=SQ_WALLS, space_k=0.0, seed=203, start=rng.uniform(0.0, 0.8, n))
+    _SK["sim"] = cr.run(T, lambda t, P, V: (seek(P, T_, cr.v0, 1.0), T_)); return _SK["sim"]
+
+def sniper_kills():
+    """The people the sniper drops in the square: where they are when hit, and the fall (MuJoCo)."""
+    if "k" in _SK: return _SK["k"]
+    X, Y, YW, SP = sniper_sim(); out = []
+    for i, t in SNIPE:
+        f = F(t)
+        if math.hypot(X[f, i] - (-39.6), Y[f, i] - (-6.55)) < 4.0:
+            continue; fwd = np.array((-math.sin(math.radians(YW[f, i])), math.cos(math.radians(YW[f, i]))))
+        JA = phys.death((float(X[f, i]), float(Y[f, i])), float(YW[f, i]), 3.5, speed=float(SP[f, i]), hit=(fwd[0] * 1.5, fwd[1] * 1.5, -0.8), buckle=SP[f, i] < 2.0, seed=60 + i)
+        out.append((i, t, JA))
+    _SK["k"] = out; return out
+
+def sniper_dead(nf):
+    acts = []
+    rnd = random.Random(204); costs = [crowd_costume(rnd) for _ in range(30)]       # the same clothes as in SH040
+    for i, t, JA in sniper_kills():
+        a = Actor(f"sd{i}", costs[i], nf); a.joints(0, [JA[-1]] * nf); acts.append(a)
+    return acts
+
+def S08_SH040(nf):
+    """From the street, long lens: cracks from the sky. People fall, the rest run, some fall while they run. The dead stay down."""
+    p = (-22.0, 10.0, 1.6); sq(p)
+    JA = hanging(nf / core.FPS, struggle=0.2, seed=21); him = Actor("him", COST["him"], nf); him.joints(0, JA)
+    acts = people("c", sniper_sim(), nf, 204)
+    for i, t, JD in sniper_kills():
+        acts[i].joints(t, JD)
+    cues = [[t, t + 0.2, "CRACK"] for _, t, _ in sniper_kills()]
+    return {"cam": cam(p, (-40.0, -7.0, 2.4), 50), "actors": [him] + acts + bodies_s07(nf), "sticks": [rope_stick(JA)], "cues": cues}
 
 def S08_SH080(nf):
     p = (ARM[0] + 0.85, ARM[1] + 1.25, ARM[2] - 1.28); sq(p)

@@ -59,6 +59,21 @@ def cam_at(spec, t, T, actors):
             tgt = np.array(a[2]) + (np.array(b[2]) - np.array(a[2])) * u
             return pos, tgt, a[3] + (b[3] - a[3]) * u, spec.get("roll", 0)
 
+def focus_dist(spec, t, pos):
+    """Focus distance for the camera at pos. spec: number, 3D point, (actor, joint) or keys [(t, spec), ...] (eased)."""
+    if isinstance(spec, list):
+        ts = [k[0] for k in spec]
+        if t <= ts[0]: return focus_dist(spec[0][1], t, pos)
+        if t >= ts[-1]: return focus_dist(spec[-1][1], t, pos)
+        for a, b in zip(spec, spec[1:]):
+            if a[0] <= t <= b[0]:
+                u = ease((t - a[0]) / max(1e-6, b[0] - a[0]), "io")
+                return focus_dist(a[1], t, pos) * (1 - u) + focus_dist(b[1], t, pos) * u
+    if isinstance(spec, (int, float)): return float(spec)
+    if isinstance(spec, tuple) and len(spec) == 2 and hasattr(spec[0], "J"):
+        a, j = spec; f = min(a.nf - 1, int(round(t * core.FPS))); return float(np.linalg.norm(a.J[f, j] - np.array(pos)))
+    return float(np.linalg.norm(np.array(spec, float) - np.array(pos)))
+
 def main():
     out_dir = sys.argv[1]; want = sys.argv[2:]
     meta, scenes = parse(SCRIPT)
@@ -95,7 +110,10 @@ def main():
         sc = bpy.context.scene
         cd = bpy.data.cameras.new("CAM"); cd.sensor_width = 36; cd.clip_start = 0.05; cd.clip_end = 6000
         cam = bpy.data.objects.new("CAM", cd); sc.collection.objects.link(cam); sc.camera = cam
-        cs = spec["cam"]; hh = math.radians(cs.get("hh", 0.0)); ph = np.random.default_rng(abs(hash(sid)) % 999).uniform(0, 6.28, 6)
+        cs = spec["cam"]; hh = math.radians(cs.get("hh", 0.0))
+        sc.display.shading.use_dof = "focus" in cs; cd.dof.use_dof = "focus" in cs
+        if "focus" in cs: cd.dof.aperture_fstop = cs.get("fstop", 2.0)
+        ph = np.random.default_rng(abs(hash(sid)) % 999).uniform(0, 6.28, 6)
         frames = sorted({0, nf // 2, nf - 1}) if preview else list(range(nf))
         anchors = [dict() for _ in range(nf)]
         spk = spec.get("speakers", {})
@@ -117,6 +135,7 @@ def main():
                 e.x += hh * (0.6 * math.sin(t * 1.3 + ph[0]) + 0.4 * math.sin(t * 3.1 + ph[1]))
                 e.z += hh * (0.6 * math.sin(t * 1.1 + ph[2]) + 0.4 * math.sin(t * 2.7 + ph[3]))
             cam.location = tuple(pos); cam.rotation_euler = e; cd.lens = lens
+            if "focus" in cs: cd.dof.focus_distance = max(0.1, focus_dist(cs["focus"], t, pos))
             bpy.context.view_layer.update()
             for name, a in spk.items():
                 hp = a.J[f, HEAD] + np.array((0, 0, 0.22))
@@ -126,6 +145,7 @@ def main():
                 sc.render.filepath = os.path.join(d, f"{'p' if preview else 'f'}_{f + 1:04d}.png")
                 bpy.ops.render.render(write_still=True)
         info["anchors"] = anchors
+        info["slits"] = any(getattr(getattr(p, "sh", None), "any_slits", False) for p in pups)
         for k in ("say", "cues"):
             if k in spec: info[k] = spec[k]
         info["render_s"] = round(time.time() - t_start, 1)
