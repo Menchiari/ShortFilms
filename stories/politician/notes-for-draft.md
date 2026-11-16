@@ -1,5 +1,7 @@
 # Leonard's decisions of 2026-11-16 for the next draft
 
+Applied in screenplay draft 10 (2026-11-17).
+
 Taken out of the draft 8 screenplay on main so draft 10 merges cleanly. Apply them in the draft.
 
 1. **S02 town edge:** no continuous wall. Towers stand shoulder to shoulder like a wall
