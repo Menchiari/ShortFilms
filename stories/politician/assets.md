@@ -1,6 +1,6 @@
 # Politician: every asset, in the order to make them
 
-Prompts: `references-monday.md` (sections 1 to 12) and the new ones below (13 to 15).
+Characters: Leonard. Locations, vehicles, props: Claude, prompts in `prompts/assets_2026-11-16.md` (request 002). Old man A is char_politician (start state); B = after the rock, C = beaten, D = after the hanging.
 Characters and props: plain light grey background, one view per image. Drop each image in
 `stories/politician/refs/` or in chat. Status 2026-11-16.
 
