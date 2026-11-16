@@ -97,3 +97,14 @@ retakes 2,000 to 3,000. Every list gets a free preflight and your approval of th
 Project "Talent Contest - Politician" `37733499-03c4-4405-8dee-fea3a2d3b96e` (folders Scenes, Elements,
 Documents are yours). Scenes/S01 `da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e`, Scenes/S01/SH010
 `974bb130-1e0f-4c54-b3dd-5d85a861ff84`. These move to `film.json` when film 001 is created.
+REFS `7632ec77-b35c-49fd-9273-f78302b2d543` (uploaded references), Elements
+`8a3f83dc-d7b1-47dd-a3d1-9e0b9200f300` (element images). Rule (Leonard): everything for the film is made
+inside this project; anything made outside it is void for the contest.
+
+| Element | Id | Used |
+|---|---|---|
+| char_politician | 1d544095-f1c6-4865-8e97-e09dbadcabc7 | S02 to S04, until he bounces off the fat person |
+| char_politician_dusty | 1ecc0e0b-5c3c-4826-b0fd-361861a4b87b | S04 after the fall, S05 until the rock |
+| char_politician_blood | b3b677ef-3cd5-48d1-abe8-39552e40b573 | S05 after the rock, S06, S07 until the pipe |
+| char_politician_final | f4279c8f-0cbb-407d-98b6-7c774a5f7603 | S07 after the pipe, S09, S10 |
+| prop_briefcase | 1f5eb35a-c180-4c28-a0ca-3b4ac49ec939 | Leonard's, dark leather |
