@@ -3,6 +3,16 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-16, Politician S01 SH010 T02 (12 credits, refunded)
+
+- **What:** the take was blocked by the output filter. The request did not say the shot carried a
+  filter risk.
+- **Cause:** the production plan lists hanging as a filter risk with a written fallback. The
+  request was checked against reason and material, not against that list. T02 made the noose
+  explicit and put his real face on it.
+- **Rule:** before any request, check the shot against the plan's filter list. A listed risk goes
+  in the request with its fallback.
+
 ## 2026-11-16, Politician props (request 002b, 4 credits)
 
 - **What:** the PPK/S came out as a Beretta 92 with a misspelled engraving; the bobblehead does not
