@@ -102,3 +102,24 @@ N16 S03 to S10: S03 to S09 are continuous DAY, but S10 is "SUNSET".
 - N1: he stands in S06 (Leonard: "close up of him getting up from the floor", then "catapulted to the ground" by the wave). S06 SH010 note and action updated.
 - N12: the region label removed from the dog.
 - N11 wording, and anti-slop #19/#27 in lines written for draft 9 ("The town waits", "toward us", "We follow it").
+
+---
+
+# Braintrust review: screenplay draft 10 (2026-11-17)
+
+Nothing blocking. Issues and what was done:
+
+| # | Issue | Resolution |
+|---|---|---|
+| N1 | S10 at sunset seconds after S09; geography of square and crossroads unstated | Header: light runs afternoon to sunset through the continuous sequence (production plan). S10: [ASSUMPTION] the square is a few blocks away; the helicopter passes low over the crossroads |
+| N2 | The five kills generated three times, bodies laid out twice | SH030 restored to the d9 content (the crowd comes again: the two runners of the count). SH025 is coverage only. Header: one body map (animatic S07 SH010) for S06 to S10 |
+| N3 | Cutting S05 SH100 removed the only readable bond and the gust | The bond reads in SH110; SH090 adds the gust |
+| N4 | He falls twice (SH080, SH090) | Noted as two angles of one fall; the edit uses it once |
+| N5 | Which eyebrow | Open: analysis sent to Leonard |
+| N6 | S04 eyelines; SH140 let go after the slide | Eyelines written in SH110; SH140 back to the d9 content, SH135 is coverage; no smile |
+| N7 | Wall vs third person; side views on different sides | Wall a few steps behind; camera close behind him; SH030 and SH060 both him screen left, crowd screen right |
+| N8 | S09 180-degree side not stated | Open: written after the d10 animatic fixes the side |
+| N9 | He leaves the case with no beat | S05 SH120: he looks at the case, then at the crowd, and backs away |
+| Fidelity | S06 SH030 misread; S07 SH050 unchanged text | SH030 fixed (see N2); SH050 5 s with the beats written out |
+
+Still open from d9: the rock timing against the line; PPK/S click or lock open; the S07 gore wording against "no splattered head".

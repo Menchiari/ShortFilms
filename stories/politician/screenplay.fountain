@@ -6,9 +6,11 @@ Draft date: 2026-11-17
 /* File: stories/politician/screenplay.fountain
    Draft 10: Leonard's notes on animatic d9 (2026-11-16). S02: the bobblehead faces into the car, the case lies flat, a real skid, the two window POVs from inside through the windshield. S04: SH120 on the old man with the line off screen; SH130 the watchers already there; new SH135 over the fat person's shoulder: he slides out of the grip. S05: SH040 to SH060 and SH100 cut, the phone goes into SH030; the rock hits harder (right eyebrow) and drops him; the case slams down at speed. S06: a wall behind him in SH010; SH020 third person behind him; new SH025 gun insert; SH030 the side view. S07: readable wind-ups, the pipe rebounds off the arm, SH070 reframed, SH080 a second death. S08 SH010 back to the d8 framing. S09: elbows on the sidewalk, the case flat, generation pairs SH060+SH080 and SH100+SH120. S10: the helicopter close, the camera sinks to the bobblehead.
    No renumbering from draft 10: cut shots leave a gap, new shots take a free number (S04 SH135, S06 SH025), so every earlier reference stays valid.
+   Light: afternoon S02 to S05, warming through S06 and S07, sunset S08 to S10 (production-plan.md, the two palette images). The town sequence is continuous: the sun sinks while it runs.
+   Body map: one map of the dead for every shot from S06 to S10: the animatic's S07 SH010 (high wide) shows where each one fell.
    Draft 9: Leonard's notes on animatic d8 v5 (2026-11-16). S02: the dog's close-up comes between the far car and the car over the camera; bobblehead and briefcase while driving; the car stops close to the wall; one take for the left and right looks. S03: closer, mumbled, slow halt, the dashboard only. S04: the bump inside SH060, the old SH070 removed. S05 from SH020 and S06 rebuilt: the case falls when the rock hits, the money flies, the crowd closes, a shot in the air, one side view of the killings, one whispered count, the click, the wave. S07: the fat person from S04 is the man with the pipe; he blocks a blow with his arm; the kill on two angles; he hangs beside the sidewalk; the old SH080 removed. S08: SH020 further back, she turns right. S09: she stays by the helicopter, the old SH070 removed, rack focus on her. S10: the bobblehead only at the end, held 5 s.
    Renumbered: S02 040>050, 050>080, 060>040, 070>090, 080>060, 090>070. S04 SH070 gone, 080..150 > 070..140. S05 from SH020 and S06: new. S07 new SH060, 060>070, 070>080, old 080 gone. S09 SH070 gone, 080..130 > 070..120.
-   Gun count: 1 into the air (S05 SH140), 5 in S06 SH020 (the same five again in SH025 and SH030, the edit picks), 2 on the count (S06 SH040). Eight. The click is empty.
+   Gun count: 1 into the air (S05 SH140), 5 in S06 SH020 (the SH025 insert is coverage of those five), 2 on the count (S06 SH040, the two runners of SH030). Eight. The click is empty.
    Walks, runs and getting up: the prompt describes them; the animatic only gives position and timing.
    Draft 8: Leonard's notes on the animatic of draft 7 (2026-11-15). The car stays where he leaves it and is seen again only in S10; the chase ends in a square. The town edge is a wall with one street. New shot: the car enters the town seen from behind. S03 SH010 from the other side of the street. The bump is one long-lens pan. S08 SH020 composition. Third kill removed (draft 7 error). One screen direction per sequence: into the town left to right, the flight back right to left.
    Draft 7: Garland-style edit pass (Civil War: hard cuts into silence, long locked-off holds, violence far and flat). No title or end credits: the film opens on the riots. Contest limit 7:00.
@@ -110,7 +112,7 @@ A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers st
 
 [[SH080 | 2 | INSERT, ground level | Locked-off | A real skid: the wheels lock, the car slides and scrubs off its speed, the nose dips and settles back | Skid]]
 
-The front wheel locks and the car skids through the dirt, slides, and settles to a stop a few meters from the wall. Dust rolls past.
+The front wheel locks and the car skids through the dirt to a stop a few meters from the wall. Dust rolls past.
 
 [[SH090 | 4 | MEDIUM, through the windshield | Locked-off | The car stands a few meters from the wall, facing the gap | Was SH070]]
 
@@ -246,7 +248,7 @@ It IS you. What are you doing here, all alone? Nobody around to baby-sit you?
 
 Behind him, his FRIEND films the old man on his phone, then types fast with both thumbs.
 
-[[SH110 | 5 | CLOSE, over the old man's shoulder | Handheld, tight | The two close together, a deep street behind them, out of focus | Was SH120: tighter, OTS, soft background]]
+[[SH110 | 5 | CLOSE, over the old man's shoulder | Handheld, tight | The two close together, a deep street behind them, out of focus. Eyelines for SH110 to SH140: the old man screen left looking right, the fat person screen right looking left, as at the bump | Was SH120: tighter, OTS, soft background]]
 
 The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.
 
@@ -264,13 +266,13 @@ Give me one reason why I shouldn't rip your guts open right now, in front of eve
 
 Above them, at the windows and on the balconies, faces are already watching.
 
-[[SH135 | 3 | OVER THE SHOULDER of the fat person, on the old man | Handheld | Polite, almost apologetic: no violence | NEW]]
+[[SH135 | 3 | OVER THE SHOULDER of the fat person, on the old man | Handheld | Polite, almost apologetic: no violence. Coverage of the slide in SH140 | NEW]]
 
-The old man smiles, cordial, and slowly, gently, slides himself out of the grip.
+Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.
 
-[[SH140 | 3 | CLOSE, same angle as SH110 | Handheld | No violence. From here he runs right to left: back the way he came | The slide moves to SH135]]
+[[SH140 | 4 | CLOSE, same angle as SH110 | Handheld | No violence. From here he runs right to left: back the way he came | SH135 added before it]]
 
-The fat person lets him go. The old man runs.
+The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.
 
 FRIEND
 (in the background)
@@ -312,17 +314,17 @@ It's me! I have the money! The car broke down, I'm on foot, come get me, fast!
 
 A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.
 
-[[SH090 | 2 | LOW, ground level | Locked-off | The case arrives at speed, with momentum. He falls into frame beside it | Slams, he falls beside it]]
+[[SH090 | 2 | LOW, ground level | Locked-off | The case arrives at speed, with momentum. He falls into frame beside it. SH080 and SH090 cover the same fall from two angles: the edit uses it once | Slams, he falls beside it]]
 
-The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it.
+The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.
 
-[[SH110 | 3 | MEDIUM WIDE, low | Handheld | | NEW]]
+[[SH110 | 3 | MEDIUM WIDE, low | Handheld | Prop: the bond (prop-bearer-bond.webp), readable on the sheet that tumbles past the lens: moved here from the cut SH100 | The bond reads here]]
 
-People stop and look up at the paper flying over their heads.
+People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.
 
 [[SH120 | 3 | CLOSE | Handheld | ELEMENT from here: old man B (blood) | NEW]]
 
-He gets up from the asphalt. Blood runs down his face.
+He gets up from the asphalt. Blood runs down his face. He looks at the open case, then at the people coming, and backs away from it.
 
 [[SH130 | 4 | POV | Handheld | Everyone keeps coming: nobody turns away | ]]
 
@@ -334,9 +336,9 @@ At the corner where the street opens into the square, under a tall street light,
 
 .EXT. SQUARE - CONTINUOUS #S06#
 
-[[SH010 | 6 | MEDIUM, frontal, from the crowd's side | Handheld | He stands from S05 SH120 until the wave in SH060. A wall close behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun | A wall behind him, runners in the foreground]]
+[[SH010 | 6 | MEDIUM, frontal, from the crowd's side | Handheld | He stands from S05 SH120 until the wave in SH060. A wall a few steps behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun | A wall behind him, runners in the foreground]]
 
-Standing at the corner, a wall at his back, he points the small nickel pistol at them, smoke curling from the muzzle. A few people close to us run off past the camera. The rest have frozen.
+Standing at the corner, a wall a few steps behind him, he points the small nickel pistol at them, smoke curling from the muzzle. A few people near the camera run off past it. The rest have frozen.
 
 OLD MAN
 STAY BACK!!!
@@ -346,7 +348,7 @@ They back away past the camera.
 OLD MAN
 Don't get close! Go away!
 
-[[SH020 | 12 | THIRD PERSON, behind him, over his shoulder | Handheld, following him | Like a third-person action game. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film | Third person behind him]]
+[[SH020 | 12 | THIRD PERSON, behind him, over his shoulder | Handheld, close behind him, turning with him as he aims | Like a third-person action game. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film | Third person behind him]]
 
 From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.
 
@@ -354,9 +356,9 @@ From behind him, over his shoulder, the gun out in front of him. Around him the 
 
 The pistol fires, again and again: the flash, the slide kicking back, a casing spinning away.
 
-[[SH030 | 8 | WIDE, side view | Locked-off | The side view of d9 SH020: the same five shots seen from the side, coverage for the edit. The dead drop in different spots | Restaged: the side view]]
+[[SH030 | 4 | WIDE, side view | Locked-off | The look of d9 SH020: him screen left, the crowd screen right. Never in step: one after another. The two runners are the men shot on the count in SH040. The dead lie where they fell | The side view]]
 
-From the side: him at the corner, the gun out. They come at him, not all together, and drop one after another, each where he is.
+From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.
 
 [[SH040 | 4 | EXTREME CLOSE, his lips, from the side | Locked-off | The lens very close to his mouth, much more to the side. Faster. One shot. Shots 7 and 8 of 8, off screen, on "three" and "two". At "one" he believes one is left, for himself. The magazine is empty | One shot replaces SH050 to SH100]]
 
@@ -380,7 +382,7 @@ One.
 
 Eyes shut tight, he raises the gun and presses it to his temple. Click. Nothing. A second. He understands.
 
-[[SH060 | 4 | WIDE, side view | Locked-off | Seedance: the crowd moves as one body | NEW]]
+[[SH060 | 4 | WIDE, side view | Locked-off | Seedance: the crowd moves as one body. Same side as SH030: him screen left, the crowd screen right | Same side as SH030]]
 
 From the side, the crowd hits him like a wave and throws him to the ground.
 
@@ -402,9 +404,9 @@ Between heads and shoulders, they haul him up by one ankle. He hangs upside down
 
 His face: bruised, a split lip, blood from his ear. With effort, he opens one eye.
 
-[[SH050 | 4 | POV, upside down | Locked-off | The fat person from S04. Both hands on the pipe. The wind-up and the swing must read clearly | Readable wind-up]]
+[[SH050 | 5 | POV, upside down | Locked-off | The fat person from S04. Both hands on the pipe. The wind-up and the swing must read clearly: a slow lift, a hold, a hard swing | Readable wind-up, longer]]
 
-He pulls his arms over his head. The FAT PERSON from the side street steps in, a metal pipe cocked back over his shoulder in both hands. He holds it there. Waits. Swings.
+He pulls his arms over his head. The FAT PERSON from the side street steps in with a metal pipe in both hands and slowly lifts it back over his shoulder. He holds it there, waiting for the moment. Then he swings, hard, straight at him.
 
 [[SH060 | 2 | CLOSE | Handheld | The pipe rebounds off the arm, like real physics | Rebound]]
 
@@ -416,7 +418,7 @@ The fat person slowly lifts the pipe high over his head with both hands, taking 
 
 [[SH080 | 5 | WIDE, high above and in front of him | Locked-off | The crowd spread all around, the dead where they fell | Was SH070, longer]]
 
-A crack from the sky. The fat person drops. The pipe rings on the asphalt. The crowd takes a step back, confused, looking around. A few seconds later, another man drops. Some start to run, not all together.
+A crack from the sky. The fat person drops. The pipe rings on the asphalt. The crowd takes a step back, confused, looking around. A few seconds later, another man drops. A few run. Then others.
 
 .EXT. SKY ABOVE THE TOWN / INT. HELICOPTER - CONTINUOUS #S08#
 
@@ -516,7 +518,7 @@ The certificates flutter among the bodies in the rotor wash.
 
 [[SH120 | 6 | CLOSE, her face, same frame as SH100 | Locked-off | She looks past the lens at the money. One generation with SH100 | Paired with SH100]]
 
-She squints past us at the money on the street, almost disgusted.
+She squints past the camera at the money on the street, almost disgusted.
 
 BUSINESS LADY
 (to herself)
@@ -526,8 +528,8 @@ She turns around and walks to the helicopter, slowly, and climbs in after him.
 
 .INT. HIS CAR - THE CROSSROADS WHERE HE LEFT IT - SUNSET #S10#
 
-[[SH010 | 15 | MEDIUM, from inside the car, through the windshield | Holds, then a slow pedestal down | The helicopter rises into frame from the bottom, close, banks hard and turns away: a reckless pilot flying it perfectly, real helicopter flight. As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. Hold on the head while the helicopter shrinks away | Restaged: the helicopter close, the camera sinks]]
+[[SH010 | 15 | MEDIUM, from inside the car, through the windshield | Holds, then a slow pedestal down | [ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks hard and turns away: a reckless pilot flying it perfectly, real helicopter flight. As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. Hold on the head while the helicopter shrinks away | Restaged: the helicopter close, the camera sinks]]
 
-Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, banks hard and swings around toward the horizon: too low, too fast, perfectly controlled. As it turns, we sink, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down the street, lifting certificates into the air, and hits the car. The head wobbles, slower and slower, and stops. Far away, the helicopter shrinks into the sunset.
+Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, banks hard and swings around toward the horizon: too low, too fast, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down the street, lifting certificates into the air, and hits the car. The head wobbles, slower and slower, and stops. Far away, the helicopter shrinks into the sunset.
 
 > CUT TO BLACK.
