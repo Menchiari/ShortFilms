@@ -74,3 +74,9 @@ retakes 2,000 to 3,000. Every list gets a free preflight and your approval of th
 2. **A filter refuses a core beat:** the fallback changes the film; you decide the same day.
 3. **Your hours:** this needs about 4 to 5 hours a day from you on Monday and Tuesday, less after.
    If that is too much, I prepare a list of shots that can go without hurting the story.
+
+## Higgsfield
+
+Project "Talent Contest - Politician" `37733499-03c4-4405-8dee-fea3a2d3b96e` (folders Scenes, Elements,
+Documents are yours). Scenes/S01 `da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e`, Scenes/S01/SH010
+`974bb130-1e0f-4c54-b3dd-5d85a861ff84`. These move to `film.json` when film 001 is created.
