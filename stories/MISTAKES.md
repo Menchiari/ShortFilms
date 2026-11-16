@@ -3,6 +3,16 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-16, Politician props (request 002b, 4 credits)
+
+- **What:** the PPK/S came out as a Beretta 92 with a misspelled engraving; the bobblehead does not
+  have his face.
+- **Cause:** a specific real object was asked for by name only, with no photo. The bobblehead relied
+  on the element placeholder alone.
+- **Rule:** a real, specific object (gun, vehicle model, product) needs a real photo as reference,
+  or the photo itself becomes the element. A face that must be recognized gets the element image as
+  a direct reference too.
+
 ## 2026-11-16, Politician S01 SH010 T01 (28 credits)
 
 - **What:** generated the riot signs with a generic face. The face exists so the audience
