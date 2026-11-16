@@ -1,0 +1,23 @@
+Audio: only running footsteps on asphalt, doors opening, scattered shouting voices, the hot quiet street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+The reference video is a motion diagram only: it gives the camera angle (straight down from high above) and the timing and paths of the people, nothing else. Its plain grey ground and small dots are not the look. The town is a real place and is described in this prompt.
+The afternoon street photograph: color and light only. Do not copy its buildings, street or composition.
+
+From straight above, high over a real, lived-in, narrow town street in the hot afternoon, an old man in a dark grey suit runs down the middle of the street from left to right while townspeople come out from under the balconies and doorways on both sides and drift toward him, each at his own pace, in one locked-off top view, like real drone footage.
+
+The street from above: cracked, sun-bleached asphalt patched in places, dust and rubbish along the edges, worn plaster rooftops, rusty balconies, rooftop tanks and satellite dishes along the top and bottom edges of the frame, a few parked scooters and plastic chairs, sharp real shadows.
+
+0-2s: Camera: locked-off, looking straight down from high above, the street crossing the frame from left to right. He runs along the middle of the street, small in frame, from the left third toward the center. A few people step out from under the balconies on both sides and stop, looking up the street at him.
+2-4s: Camera unchanged. More people come out and walk, then jog toward him, never in step, each at his own speed and on his own line, closing in from both sides. Final frame: him just right of center, still running, a loose ring of people drawing in around him, nobody touching him yet; the camera has not moved.
+
+The townspeople: ordinary people of a poor hot town in worn light summer clothes, undershirts, work shirts, house dresses, all different, real bodies with real weight.
+
+ACTING TASK, THE TOWNSPEOPLE (fully invested in their tactic; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): he does not get away.
+TACTIC: each one checks the people nearest him before taking the next step; the moment a neighbor moves, he moves too.
+ACTING TASK, THE OLD MAN: GOAL: reach the open square before they close the street. TACTIC: he keeps his eyes on the end of the street and refuses to look at them.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Look: 35mm film, hard hazy afternoon sun, dust in the air, warm brown and ochre palette, soft contrast, fine grain, photographic, never a 3D render or a miniature model. Count of men in a suit: one. No cuts, no slow motion, no text, no logo, no flicker.
+
+Audio: only running footsteps on asphalt, doors opening, scattered shouting voices, the hot quiet street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

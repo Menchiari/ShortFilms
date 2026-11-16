@@ -105,7 +105,16 @@ def main():
                 dz = float(np.min(J[:, 2] - rj - gz))
                 if dz < worst[0]: worst = [round(dz, 3), f"{a.name}@{f}"]
         info["below"] = worst
+        motion_only = bool(os.environ.get("MOTION_ONLY"))
+        set_objs = [o for o in bpy.data.objects] if motion_only else []
         pups = [MixedPuppet(a) if a.style == "shape" else Puppet(a) for a in actors]
+        if motion_only:
+            # reference for motion only: the set and props hidden, people on a plain flat ground
+            for o in set_objs:
+                o.hide_render = True; o.hide_viewport = True
+            bpy.ops.mesh.primitive_plane_add(size=4000, location=(0, 0, 0))
+            gp = bpy.context.active_object; gm = bpy.data.materials.new("plain"); gm.diffuse_color = (0.42, 0.40, 0.37, 1)
+            gp.data.materials.append(gm)
         sticks = spec.get("sticks", [])
         sc = bpy.context.scene
         cd = bpy.data.cameras.new("CAM"); cd.sensor_width = 36; cd.clip_start = 0.05; cd.clip_end = 6000
