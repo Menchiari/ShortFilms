@@ -56,6 +56,7 @@ Negative declension of justice (McKee: justice, unfairness, injustice, tyranny):
 
 ## World
 - Place: a city that resembles southern Italy or Egypt, outskirts, slums, "the part of the city that you're afraid of usually"; "very confusing place, unclear, generic, it could really be anywhere"; not Egypt [MINE]. Walls on both sides surrounded by desert, one main road through, a square [MINE, Part 2].
+- Look (Leonard's mood images, `look/mood/`, 2026-11-16): more modern than first assumed: concrete apartment blocks and towers, roads of asphalt buried in dust and drifted sand, rolled-down shutters, satellite dishes, no laundry. The square is low-rise and open, one tall street light. Sunset: orange haze and smoke.
 - Time: day, the heat; "right after lunch", people eating or napping; the news echoing between cheap televisions [MINE, Part 1].
 - Period: today [MINE]. The rescue uses "the kind of tech that we all know exists but nobody can see it yet" [MINE].
 - Language: everyone speaks English with strong accents "so that we don't know where anyone is from"; he is clearly American [MINE].
