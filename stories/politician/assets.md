@@ -9,7 +9,7 @@ Characters and props: plain light grey background, one view per image. Drop each
 | # | Asset | Images | Unlocks | Prompt | Status |
 |---|---|---|---|---|---|
 | 1 | Old man A | full body, face | about 30 shots, B C D, every sign, billboard, TV, bobblehead | refs 1 | done: char_politician `1d544095-f1c6-4865-8e97-e09dbadcabc7` (image job `a7601ce4-95ee-410c-b6f1-2887359c73a9`) |
-| 2 | Old man B, C, D | edits of A, 2 each | S05 to S10 | refs 2 | elements exist: char_politician_blood `b3b677ef-3cd5-48d1-abe8-39552e40b573`, char_politician_dusty `1ecc0e0b-5c3c-4826-b0fd-361861a4b87b`, char_politician_final `f4279c8f-0cbb-407d-98b6-7c774a5f7603`. Which state each one is: not recorded yet |
+| 2 | Old man B, C, D | edits of A, 2 each | S05 to S10 | refs 2 | elements exist: char_politician_blood `b3b677ef-3cd5-48d1-abe8-39552e40b573`, char_politician_dusty `1ecc0e0b-5c3c-4826-b0fd-361861a4b87b`, char_politician_final `f4279c8f-0cbb-407d-98b6-7c774a5f7603`. States and shots: element table in `production-plan.md` |
 | 3 | The square, with its corner street light | wide, 21:9 | S06, S07, S09 (33 shots), plus views from S05 and S08 | 13 below | missing, was not on the list |
 | 4 | The town (style frame) | 21:9 | every town shot | refs 7 | missing |
 | 5 | Business lady | full body, close-up | S08, S09 | refs 3 | missing |

@@ -105,3 +105,18 @@ Documents are yours). Scenes/S01 `da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e`, Scenes/
 `fbc4de00-66d7-4067-a9d6-6c216230e3bd`, SH080 `c146e937-65bf-4f1a-968f-ebae993817fc`, SH090
 `831b75a9-7c4f-4b83-9223-28aaf34d196f`, SH100 `36ee7aeb-fa59-4a42-8637-125ad2be387d`, SH110
 `bc4e420a-586d-4e3a-8c9f-c86e020c5931`. These move to `film.json` when film 001 is created.
+REFS `7632ec77-b35c-49fd-9273-f78302b2d543` (uploaded references), Elements
+`8a3f83dc-d7b1-47dd-a3d1-9e0b9200f300` (element images). Rule (Leonard): everything for the film is made
+inside this project; anything made outside it is void for the contest.
+
+| Element | Id | Used |
+|---|---|---|
+| char_politician | 1d544095-f1c6-4865-8e97-e09dbadcabc7 | S02 to S04, until he bounces off the fat person |
+| char_politician_dusty | 1ecc0e0b-5c3c-4826-b0fd-361861a4b87b | S04 after the fall, S05 until the rock |
+| char_politician_blood | b3b677ef-3cd5-48d1-abe8-39552e40b573 | S05 after the rock, S06, S07 until the pipe |
+| char_politician_final | f4279c8f-0cbb-407d-98b6-7c774a5f7603 | S07 after the pipe, S09, S10 |
+| prop_briefcase | 1f5eb35a-c180-4c28-a0ca-3b4ac49ec939 | Leonard's, dark leather |
+| prop_gun | 8c5ae0e6-7b29-4e4d-acd3-f3bf423254a0 | the PPK/S, S06 |
+| prop_wobblehead | 79dc8b10-0969-4c09-b152-f1bfd0a92490 | S02, S10 |
+| char_boss | 69d22ecb-f04a-419e-95bf-f50071d2fa89 | the lady, S08 to S10 |
+| char_sniper | 5f97e15f-91bf-446c-b457-aaf95231f22f | Roger, S08 |
