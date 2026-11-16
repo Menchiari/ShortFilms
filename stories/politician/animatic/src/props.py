@@ -180,7 +180,7 @@ def attach(o, actor, joint=RHA, elbow=REL, offset=(0, 0, 0), visible=None):
         o.matrix_world = Puppet.M(R2, J[joint] + R2 @ np.array(offset))
     return cb
 
-def chest(o, actor, visible=None, out=0.2):
+def chest(o, actor, visible=None, out=0.2, low=0.0):
     """The briefcase hugged flat against his chest, both arms around it (the shape has no arms)."""
     def cb(f):
         if visible is not None and not visible(f):
@@ -189,7 +189,7 @@ def chest(o, actor, visible=None, out=0.2):
         J = actor.J[min(f, actor.nf - 1)]; up = J[NECK] - J[PELVIS]; up = up / (np.linalg.norm(up) + 1e-9)
         right = J[RSH] - J[LSH]; right = right - up * np.dot(right, up); right = right / (np.linalg.norm(right) + 1e-9)
         fwd = np.cross(up, right)
-        c = J[PELVIS] + up * 0.47 + fwd * out
+        c = J[PELVIS] + up * (0.47 - low) + fwd * out
         R = np.stack([right, fwd, up], 1)              # case: wide along right, thin along fwd, tall along up (handle up)
         o.matrix_world = Puppet.M(R, c + up * 0.17)
     return cb

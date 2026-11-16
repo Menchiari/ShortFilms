@@ -102,7 +102,8 @@ def S04_SH100(nf):
     """Low, from his eyes on the ground: the fat man above him; behind, the friend films, then types on his phone."""
     p = (O_DOWN[0] + 0.75, O_DOWN[1] + 0.1, 0.35); street(p)
     fa = fat(nf); fa.over(0, 7, hpitch=30, spine=8); fa.talk(0.4, 6.4)
-    fr = friend(nf)
+    fp = (-67.3, -5.7)                      # the friend out of the side street, visible past the fat man
+    fr = Actor("friend", COST["friend"], nf); fr.hold(0, nf / core.FPS, pose("stand", x=fp[0], y=fp[1], yaw=fdir(fp, O_DOWN), hpitch=15))
     him = Actor("him", COST["him"], nf); him.hold(0, 7, pose("lie_cover", x=O_DOWN[0], y=O_DOWN[1], yaw=90)); him.hide(0, 7)   # his eyes: he is the camera
     phone = PR.hand_prop("phone", "phone")
     fr.compute()
@@ -136,7 +137,7 @@ def S04_SH110(nf):
     case = PR.hand_prop("case", "case")
     tgt = fa.J[0, HEAD] + np.array((0, 0, -0.05))
     return {"cam": cam(p, tuple(tgt), 50, hh=0.5, focus=(fa, HEAD), fstop=1.8), "actors": [him, fa], "speakers": {"FAT PERSON": fa}, "say": [[1.6, 4.8, "FAT PERSON"]],
-            "callbacks": [PR.chest(case, him)]}
+            "callbacks": [PR.chest(case, him, low=0.3)]}
 
 def S04_SH120(nf):
     p = (-64.3, -5.1, 1.7); street(p)
@@ -172,4 +173,4 @@ def S04_SH140(nf):
     case = PR.hand_prop("case", "case"); fa.compute()
     tgt = fa.J[0, HEAD] + np.array((0, 0, -0.05))
     return {"cam": cam(p, tuple(tgt), 50, hh=0.6, focus=(fa, HEAD), fstop=2.2), "actors": [him, fa, fr], "speakers": {"FRIEND": fr}, "say": [[2.6, 4.0, "FRIEND"]],
-            "callbacks": [PR.chest(case, him)]}
+            "callbacks": [PR.chest(case, him, low=0.3)]}

@@ -95,13 +95,21 @@ def death(pos, yaw, T, speed=0.0, hit=(0.0, 0.0, 0.0), hit_t=0.02, buckle=True, 
     d = M.Doll(scale=scale, wide=wide)
     q0 = dict(q or {}); q0.setdefault("lhip_x", rng.uniform(-10, 25)); q0.setdefault("rhip_x", rng.uniform(-10, 25))
     q0.setdefault("lkn_x", rng.uniform(-30, -5)); q0.setdefault("rkn_x", rng.uniform(-30, -5))
-    d.place((pos[0], pos[1], 1.004 * scale + 0.01), yaw=yaw, q=q0, vel=tuple(fwd * speed))
+    gz = max(core.ground_z(pos[0] + dx, pos[1] + dy) for dx in (-0.3, 0, 0.3) for dy in (-0.3, 0, 0.3))   # on a sidewalk: start on top of it
+    d.place((pos[0], pos[1], 1.004 * scale + 0.01 + gz), yaw=yaw, q=q0, vel=tuple(fwd * speed))
     side = rng.uniform(-1, 1)
     def ctrl(t, dd):
         if buckle and t < 0.45:
             u = min(1.0, t / 0.3)
             return {"lkn_x": (-120 * u, 60), "rkn_x": (-110 * u, 60), "lhip_x": (80 * u, 50), "rhip_x": (75 * u, 50),
                     "waist_x": (-30 * u, 30), "waist_y": (12 * side * u, 20), "neck_x": (-20 * u, 5)}
+        if not buckle and hit_t + 0.1 < t < hit_t + 0.7:
+            # a shot runner: the knees give as he goes down, nobody lands on straight locked legs
+            u = min(1.0, (t - hit_t - 0.1) / 0.25)
+            return {"lkn_x": (-75 * u, 35), "rkn_x": (-60 * u, 35), "lhip_x": (35 * u, 15), "rhip_x": (25 * u, 15)}
+        if t > 0.7:
+            # dead weight: the knees fold under it, so nobody stays bent over on locked legs
+            return {"lkn_x": (-70, 14), "rkn_x": (-60, 14), "lhip_x": (45, 4), "rhip_x": (40, 4)}
         return {}
     tip = np.array((math.cos(rng.uniform(0, 6.28)), math.sin(rng.uniform(0, 6.28)), 0.0)) * 0.5 + fwd * 0.5
     def forces(t, dd):
@@ -110,6 +118,8 @@ def death(pos, yaw, T, speed=0.0, hit=(0.0, 0.0, 0.0), hit_t=0.02, buckle=True, 
             out.append(("head", np.array(hit, float) * 20.0))
         if buckle and 0.45 <= t < 0.75:
             out.append(("torso", tip * 160.0))
+        if t > 0.9 and dd.d.xpos[dd.bid["pelvis"]][2] > 0.5:
+            out.append(("pelvis", (tip * 0.6 + np.array((0.0, 0.0, -0.4))) * 300.0))   # hips left high: the dead weight goes over
         return out
     JA = d.run(T, ctrl=ctrl, tone=0.6, forces=forces)
     _C[key] = JA

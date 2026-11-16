@@ -144,10 +144,10 @@ def S07_SH030(nf):
 def S07_SH040(nf):
     JA = hanging(nf / core.FPS, struggle=0.08, seed=11)
     head0 = JA[0][HEAD]
-    p = tuple(head0 + np.array((1.0, 1.55, 0.1))); sq(p)
+    p = tuple(head0 + np.array((2.1, 3.3, 0.15))); sq(p)
     him = Actor("him", COST["him"], nf); him.joints(0, JA)
     him.face(0, 1.2, eyes=0.1); him.face(1.2, 3.0, eyes=0.55)
-    return {"cam": follow(him, p, lens=85, offset=(0, 0, 0), lag=0.2, joint=HEAD), "actors": [him], "sticks": [rope_stick(JA)]}
+    return {"cam": follow(him, p, lens=150, offset=(0, 0, 0), lag=0.2, joint=HEAD), "actors": [him], "sticks": [rope_stick(JA)]}
 
 def S07_SH050(nf):
     """His upside-down view: the fat man, the pipe cocked over his shoulder. He holds it. Waits. Swings."""

@@ -56,7 +56,7 @@ def kills():
         d = him - start; L = np.linalg.norm(d); u = d / L
         hitp = him - u * dh; t0 = ts - (L - dh) / RUN
         yaw = fdir(start, FALL)
-        JA = phys.death((float(hitp[0]), float(hitp[1])), yaw, 4.0, speed=RUN, hit=tuple(-u * 3.0) + (0.6,), buckle=False, seed=40 + i)
+        JA = phys.death((float(hitp[0]), float(hitp[1])), yaw, 4.0, speed=RUN, hit=tuple(-u * 1.0) + (0.3,), buckle=False, seed=40 + i)
         out.append(dict(i=i, start=start, hit=hitp, t0=t0, ts=ts, n=n, shot=shot, yaw=yaw, JA=JA, cost=crowd_costume(random.Random(500 + i))))
     _K["k"] = out; return out
 
@@ -104,11 +104,11 @@ def S06_SH010(nf):
     acts = people("c", cr.run(nf / core.FPS, lambda t, P, V: (seek(P, T_, cr.v0, 1.0), look)), nf, 34)
     for a in acts: a.overlays.append((0, nf, lambda f, q: dict(q, spine=q["spine"] - 6)))
     # the ones right beside the camera: shoulders at the frame edges, backing off past the lens
-    for i, (dx, dy) in enumerate(((-0.4, 1.3), (-0.2, -1.1), (0.9, 1.7))):
+    for i, (dx, dy) in enumerate(((1.0, 0.62), (1.15, -0.66), (1.9, 0.95))):
         x0, y0 = p[0] + dx, p[1] + dy
         a = Actor(f"fg{i}", crowd_costume(random.Random(37 + i)), nf); yw = fdir((x0, y0), FALL)
         a.hold(0, 3.0 + 0.3 * i, pose("stand", x=x0, y=y0, yaw=yw, spine=-5))
-        a.path(3.0 + 0.3 * i, 6.0, [(x0, y0), (x0 - 2.5, y0 + 0.4 * np.sign(dy))], "walk", speed="io", yaw_fixed=yw)
+        a.path(3.0 + 0.3 * i, 6.0, [(x0, y0), (x0 - 2.5, y0 + 0.9 * np.sign(dy))], "walk", speed="io", yaw_fixed=yw)
         acts.append(a)
     return {"cam": cam(p, (FALL[0], FALL[1], 1.55), 35, hh=0.6), "actors": [him] + acts, "speakers": {"OLD MAN": him},
             "say": [[0.6, 2.2, "OLD MAN"], [3.3, 5.6, "OLD MAN"]], "callbacks": [gun_on(him)], "cues": [[0, 1.5, "EARS RINGING, SMOKE FROM THE MUZZLE"]]}
