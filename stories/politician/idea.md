@@ -423,3 +423,57 @@ The bond image is saved as stories/politician/prop-bearer-bond.webp (Lincoln Cou
 ## Leonard's change (2026-11-11, verbatim)
 "Remove "I don't pay your ass for nothing" from the politician movie"
 Applied in screenplay draft 6: S09 SH080 is now only "It'll be national news now." (shot kept at 5 s; the edit trims it).
+
+## Leonard's notes on animatic d8 v5 (2026-11-16, verbatim)
+"About the animatic (I'll list it in order, you can figure out the scene):
+
+* sh020 could be merged with sh060, could be 2 shots in 1 generation, where the last 2 seconds is a closeup of the dog looking up. Be sure you use the right kind of stray dog
+* sh030 and sh040 is a perfect example of 2 shots that do not go well together. Perhaps have sh030, then the dog looking up, then sh040 but starting with the view of the city and the car speeding by over the camera, perhaps a slight jump too (can seedance do that or do we need blender to simulate that?)
+* the other shots like the suitcase and the  wobble should be while the car is still going
+* sh100 is nice, but if there is a wall in front it looks like that's the end of the road. Instead make the street longer, keep it going, it's the main road
+*  s110 and s130 can be in the same generation. Also, I pictured the shot from the passenger's seat, a bit lower than his shoulder as he leans forward and watches left and right
+* s120 and s140 work but he's way too far from the edge. He should be much closer to the border of the city, so you clearly see the wall. If you can see it from inside the car that's even better
+* s020 should be closer on him, he needs to speak mumbling to himself while he's super concentrated looking at the road sweating with tension. The background needs to be moving
+* s030 needs to be much longer, the car must slowly halt to a stop. Let it linger, 6-8 seconds.
+* sh040 while all of this happens, we only see the fuel symbol (must be the same symbol - do we need an element?) while he takes out the keys when he turns off the car the light turns off, but we never see him we only see the cockpit. The car already stopped, so he could try a couple of times (we could see a bit on the reflection if needed) then he takes out the key and it turns off
+* sh050 if there is someone smoking a cigarette in the fg put him way left, don't let him cover the car like how you're doing now
+* sh010 he walks ok, but not realistic. Keep in mind that seedance would probably make the actor walk in his own way, so I'd rather you tell seedance how he should be walking based on his personality rather than showing a mannequin walk incorrectly. Seedance is pretty good at acting walks runs and so forth
+* instead of s070 try using s060 at the very end of the shot, that angle, to make him bump into the guy. This is just a perfect way to make the guy appear out of nowhere, then you can remove s070 directly
+* sh080 should be seen from OTS of the large guy looking down, much longer lens, same side of the 180 wall (same as sh100 btw). And please just make a blob or shape or something, that mannequin goes through the ground it's unbearable to watch
+* sh110 make the camera much lower, like it's seen from the politician pov. Also the friend is confusing what he's doing. If he's texting make him text on a square or something or put a shape only this is confusing
+* sh120 needs a much nicer background, and it should be out of focus. Camera much tighter and the two should be much closer to each other. perhaps more like an OTS of sh130 since it's closer to what I was thinking, but nicer background, doesn't have to be in that corner that cinematography shot is pretty bad
+* sh150 could be similar to the new sh120 angle, he just needs to get away being nice, and slowly sliding off the grip of the guy with no violence
+* sh010 and other shots be sure the briefcase is being held right, looks a bit odd sometimes
+*  sh020 you see people appearing from nothing, be sure this won't be a problem. Probably a better shot is top down seeing people slowly closing in on him
+* sh030 would work best if you had a closeup on him and the crowd out of focus in the background. Be sure they start in the right direction you have a glitch there (and don't make them run all together - this is a common thing you have not just in this shot but all crowd shots, they need to be all slightly different and all play at different speeds, it's essential to make them all seem alive and not the same exact thing)
+*  sh060 he gets up in an instant, maybe let seedance handle him getting up instead. Don't let him throw away the suitcase yet. From here on, all shots are fucked until scene 7. Let me explain how it should go: he gets up, suitcase didn't open, he just gets up and keeps running. People aren't chasing him, they are all walking fast, some are running, nobody is even too sure what to do at this point. cut to him trying to talk to the phone, as you have now (except the phone is being held wrong). CUT to the shot of the finger trying to unlock the phone (I will provide an actual video of the phone being unlocked you can use as reference in the phone he's holding). CUT to the same shot as before, as he says I have the money, he gets hit by a rock. AT THAT POINT the briefcase falls (cut); the money flies around (cut); people look at the money fly above their heads (cut). Now you have a close up of him getting up from the floor. Cut to the crowd slowly surrounding him seen from his POV. CUT to crowd densing around him, then a BANG, the crowd disperces. CUT to medium of him holding the gun pointing it to the crowd, telling them to stay back. CUT side third person view of politician holding the gun to the crowd, everyone still, then one man yells and runs towards him, he aims and shoots at him, he drops dead, then another runs, and he shoots at him too, then more and more more frequently until he's shooting one after another (bastard!!!). Cut to distant view of crowd slowly running towards him not all together but slowly one after another. CUT to only ONE SHOT of his mouth whispering "three, two, one...". CUT to close up of him raising the gun to his temple with his eyes closed shut and... CLICK, the gun doesn't go off, a second of realizing (hold the gun right this time). CUT of the side view of him being catapulted to the ground side perspective as if the crowd was a giant wave (keep in mind you don't have to simulate all these things, some of them can be done by seedance). No more shots than the ones that are needed, clear? Now we can proceed from s7sh010
+* s7sh010 works but there aren't nearly as many people, there should be more here, and definitely more around, and also keep the dead people on the floor each one that has been killed must stay there
+* sh020 can be around a light post or streetlight pole, just make the shot more of an insert shot or close up on where the rope goes around the pole
+* sh030 the shot works, but the physics are all wobbly, we need it to be much more realistic if possible. perhaps more stiff, how can it be more realistic, like a real person is being hung by a foot?
+* sh040 is awesome except the leg is falling all the way to his side, that's not how it works. Should you consider an alternative biped ragdoll simulation model?
+* sh050 doesn't work. The guy needs to hold the bat correctly. He needs to hold it back for a bit, then when the moment is right... swing! 
+* insert a shot of politician being hit on his arm because he blocked the metal bar aimed at his head.
+* sh60 perfect, except this is where he must be shot and fall in place with his head split open (you can have 2 shots like that I'll edit them later)
+* sh70 make the crowd more realistic, not all gathered in the same spot, have many more all around and keep the dead where they should be of course always. And we still have the leg issue which is unrealistic ragdoll (check if you have anywhere online with better ragdoll models). I like how they all take a step back, confused. Another one should drop after a few seconds.
+* a note, he should be hung next to a sidewalk, right now I notice there is an empty spot around him, which doesn't work. He needs to be next to the sidewalk because when he falls he needs to rest on the sidewalk with his elbows before spitting at the guy that was about to kill him (same fat guy at the beginning)
+* no need for sh080
+* sh020 the shoot isn't framed well, must be a bit further back, you bust be able to see the rifle or this shot makes no sense
+* sh050 be sure is the same camera position as sh020, make her turn the other way, it's more natural if she turns right instead of left in this case
+* s09sh010 works except when he shivers: make him rotated 180 deg towards camera instead of back to camera, that would make much more sense that way when he gets up. Everything else, from when he gets up, rests and spits is correct, except be sure he doesn't float, which currently he does
+* s9sh040 the businesslady shouldn't get too far from the helicopter, it is him who gets close to her
+* sh050 he says this while limping towards the businesslady, who has the sholders to the camera (be sure not to break the 180 degree rule). She faces him, he gets close to her, it is a medium on him with her shoulders in frame as he limps towards her and hands her the folder
+* sh060 she must have the helicopter behind her since she hasn't moved much. She takes the folder and reads it.
+* sh070 remove
+* sh100 at the end of the shot he starts limping towards the helicopter
+* sh110 should be same angle as sh090 (or sh130). they are both close to the helicopter, he passes by her, she doesn't move, before getting on the helicopter half turned towards her says "that's your money right there", rack focus to her face, same expression as he gets on the helicopter out of focus.
+* sh130 should be close up on her face (could be like sh110). Make her go towards the helicopter much more slowly
+* sh110 do not show the wobblehead at the beginning, car can be repositioned for this shot, building in the background can be removed to improve cinematography and clarity of helicopter in the shot, only at the end you see the head wobble only after some papers get close to the car. Hold on the head wobbling for 5 seconds before cutting to black
+
+
+Any questions ask. But remember, this doesn't have to be perfect, it needs to be balanced. The stuff I ask you to fix needs to be fixed, but some stuff seedance will either reference too much therefore looking too mechanical or ideally will only get the idea. I don't know if that's up to the prompt or up to the video, but it's something to keep in mind. Be sure every shot is also saved separately so that it can be used in the generations as references.
+
+If there are any changes to the script, fix the script with the new updates and send me the pdf first then the animatic later. Let me know when you're done."
+
+Questions asked the same day, Leonard's answers:
+- S06, the whispered "three, two, one": "Fires on the count (Recommended)" (shots off screen on three and two; at one he believes one is left; 1 in the air, 5 in the side shot, 2 during the count).
+- S07, "2 shots like that": "Two angles of the kill (Recommended)" (the low angle and the high wide both show the fat man shot and dropping in place).

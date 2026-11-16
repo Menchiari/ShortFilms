@@ -44,7 +44,7 @@ for sc in scenes:
                    f'<td>{E(sh["size"])}</td><td>{E(sh["move"])}</td><td class="c">{E(sh["change"])}</td><td class="w"></td></tr>')
         tc += sh["sec"]
 
-doc = f"""<!doctype html><html><head><meta charset="utf-8"><title>Politician shooting script draft 7</title><style>
+doc = f"""<!doctype html><html><head><meta charset="utf-8"><title>Politician shooting script draft 9</title><style>
 @page {{ size: letter; margin: 0.55in 0.45in 0.6in 0.45in; }}
 * {{ box-sizing: border-box; }}
 body {{ font: 8.4pt/1.32 "DejaVu Sans", Arial, sans-serif; color: #111; margin: 0; }}
@@ -86,11 +86,11 @@ td.w {{ width: 1.5in; }}
 tr {{ break-inside: avoid; }}
 </style></head><body>
 <h1>POLITICIAN</h1>
-<div class="sub">Shooting script, draft 8 &nbsp;|&nbsp; {E(meta.get("Draft date",""))} &nbsp;|&nbsp; 10 scenes, {nshots} shots, <b>{fmt(total)}</b> &nbsp;|&nbsp; contest limit 7:00, no title or end credits</div>
-<div class="legend">Left column: shot, duration, timecode where it starts, size, movement, <span class="note">production note</span>, <span class="chg strong">change from draft 7</span>. Right column: your notes. The shotlist with timecodes is at the end.</div>
+<div class="sub">Shooting script, draft 9 &nbsp;|&nbsp; {E(meta.get("Draft date",""))} &nbsp;|&nbsp; 10 scenes, {nshots} shots, <b>{fmt(total)}</b> &nbsp;|&nbsp; contest limit 7:00, no title or end credits</div>
+<div class="legend">Left column: shot, duration, timecode where it starts, size, movement, <span class="note">production note</span>, <span class="chg strong">change from draft 8</span>. Right column: your notes. The shotlist with timecodes is at the end.</div>
 {''.join(rows)}
-<h2>Shotlist, draft 8: {nshots} shots, {fmt(total)}</h2>
-<table><tr><th>Shot</th><th>In</th><th>Dur</th><th>Size</th><th>Movement</th><th>Change from draft 6</th><th>Notes</th></tr>{''.join(trs)}</table>
+<h2>Shotlist, draft 9: {nshots} shots, {fmt(total)}</h2>
+<table><tr><th>Shot</th><th>In</th><th>Dur</th><th>Size</th><th>Movement</th><th>Change from draft 8</th><th>Notes</th></tr>{''.join(trs)}</table>
 </body></html>"""
 open(out_html, "w", encoding="utf-8").write(doc)
 print(nshots, fmt(total))
