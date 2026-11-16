@@ -108,3 +108,7 @@ inside this project; anything made outside it is void for the contest.
 | char_politician_blood | b3b677ef-3cd5-48d1-abe8-39552e40b573 | S05 after the rock, S06, S07 until the pipe |
 | char_politician_final | f4279c8f-0cbb-407d-98b6-7c774a5f7603 | S07 after the pipe, S09, S10 |
 | prop_briefcase | 1f5eb35a-c180-4c28-a0ca-3b4ac49ec939 | Leonard's, dark leather |
+| prop_gun | 8c5ae0e6-7b29-4e4d-acd3-f3bf423254a0 | the PPK/S, S06 |
+| prop_wobblehead | 79dc8b10-0969-4c09-b152-f1bfd0a92490 | S02, S10 |
+| char_boss | 69d22ecb-f04a-419e-95bf-f50071d2fa89 | the lady, S08 to S10 |
+| char_sniper | 5f97e15f-91bf-446c-b457-aaf95231f22f | Roger, S08 |
