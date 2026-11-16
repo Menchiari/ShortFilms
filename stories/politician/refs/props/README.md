@@ -12,3 +12,4 @@
 | prop_bobblehead_v2.jpg | requested Nano Banana Pro; Higgsfield reports nano_banana_2; job 5b275718 | his thinning hair and square face, smug grin |
 
 PNG masters: `refs/_local/` (not in git).
+| ref_gas-price-sign_crop.jpg | Flickr, "Gas Prices update" by brownpau, CC BY 2.0 (flickr.com/photos/44124483743@N01/2506309084), cropped to the price rows, brand removed. Higgsfield media dfd0a841-bd0c-4e21-8737-6dcf056a657e, in REFS | S01 SH020: sign construction and tile size only |

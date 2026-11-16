@@ -3,6 +3,14 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-16, Politician S01 SH020 T01 (12 credits)
+
+- **What:** the price board came out building-sized, each digit taller than the worker.
+- **Cause:** a real object (a gas price sign) was described without a photo and without a scale
+  anchor; "tall price board with large number panels" gave the model no size.
+- **Rule:** a real object gets a real photo as reference (see the PPK/S entry), and every object
+  that can be any size gets a size tied to a body: "each tile the size of the worker's head".
+
 ## 2026-11-16, Politician S01 REQUEST 005 (SH030, SH070, SH100)
 
 - **What:** SH070 had cars facing both ways; SH100 showed a delivery van alone on an empty plain;
