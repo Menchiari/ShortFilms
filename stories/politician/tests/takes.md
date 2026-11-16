@@ -13,3 +13,15 @@ Uploaded refs: sunset palette 1f563179-51a7-4e02-bcac-0affdd52a903, afternoon pa
 S09 SH010 animatic f831ff0a-c0a5-45b4-991d-7eae53293cca (not used), S05 SH020 animatic 449a7c8b-aac7-452f-b62a-72517f06eeb7.
 
 Net spend: 12 credits (S09 and S06 blocked and refunded). Both blocked takes carry an old man element with blood on the face; the passed take has no element.
+
+## Round 2 (approved 2026-11-16, 24 credits at most)
+
+| Take | Job id | Duration | Credits | Refs | Prompt | Folder | Result |
+|---|---|---|---|---|---|---|---|
+| FILTER blood element | dcee6e93-f991-42d2-a49d-a71415236e6f | 4 s | 12 | char_politician_blood image (73236f58) as image_references | FILTER_blood_element_prompt.txt | TESTS (8ccc6c44-5206-40c6-bff5-c6b00a33ede4) | |
+| S05 SH020 T02 | 0b6ce512-f385-4397-9d14-3ec7ae117e80 | 4 s | 12 | motion-only clip (d0c8119e), afternoon palette | S05_SH020_T02_prompt.txt | Scenes/S05/SH020 | |
+
+Finding: with seedance_2_5 the `<<<element_id>>>` placeholder is NOT injected (the backend received the raw text and no
+image; first FILTER submission rejected with "omni_reference requires at least one reference media item", no charge).
+S09 SH010 T01 and S06 SH060 T01 therefore ran with no character images. For seedance_2_5 the element's image job id goes
+in `medias` as `image_references` (ids in ../elements.md), and the prompt names it as "the reference image of ...".
