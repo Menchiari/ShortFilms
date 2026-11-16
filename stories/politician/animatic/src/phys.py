@@ -9,6 +9,7 @@ ARM = np.array((-39.62, -6.62, 8.75))        # end of the street light arm, 0.4 
 TOP = np.array((ARM[0], ARM[1], 2.75))       # his right ankle when hung
 LIE = (-39.9, -5.9)                          # where he lies before the haul
 ROPE_FINAL = float(ARM[2] - TOP[2])
+CORNER = [(-43.5, -35.5, -10.5, -7.0), (-43.5, -40.0, -31.5, -10.5)]   # the square's corner sidewalks, whatever set was built last
 _C = {}
 
 
@@ -34,7 +35,7 @@ def haul(T=4.0):
     """Lying on his back by the curb, hauled up by the right ankle (rope shortened by the crowd), fighting."""
     if "haul" in _C:
         return _C["haul"]
-    d = M.Doll(rope=tuple(ARM)); d.place((LIE[0], LIE[1], 0.13), yaw=0, lying="back")
+    d = M.Doll(rope=tuple(ARM), sidewalks=CORNER); d.place((LIE[0], LIE[1], 0.13), yaw=0, lying="back")
     L0 = float(np.linalg.norm(d.joints()[15] - ARM)) + 0.05; d.set_rope(L0)
     keys = [(0.0, 0.0), (0.5, 0.0), (0.9, 0.25), (1.2, 0.3), (1.6, 0.55), (1.9, 0.6), (2.4, 0.85), (2.7, 0.92), (3.1, 1.0)]
     rf = lambda t: L0 + (ROPE_FINAL - L0) * float(np.interp(t, [k[0] for k in keys], [k[1] for k in keys]))
@@ -53,7 +54,7 @@ def hanging(T, struggle=0.0, seed=7, hits=(), protect=None, hit_body="lfarm", re
     rng = np.random.default_rng(seed)
     crunch = tuple(sorted(rng.uniform(0.2, max(0.3, T - 1.0), int(round(2 * struggle))))) if struggle else ()
     kicks = tuple(sorted(rng.uniform(0.0, T, int(round(6 * struggle))))) if struggle else ()
-    d = M.Doll(rope=tuple(ARM)); d.set_state(_C["settled"]); d.set_rope(ROPE_FINAL)
+    d = M.Doll(rope=tuple(ARM), sidewalks=CORNER); d.set_state(_C["settled"]); d.set_rope(ROPE_FINAL)
     def forces(t, dd):
         out = []
         for th in hits:
@@ -71,7 +72,7 @@ def drop(T, release=0.3, seed=3):
     if ("drop", T) in _C:
         return _C[("drop", T)]
     haul()
-    d = M.Doll(rope=tuple(ARM)); d.set_state(_C["settled"]); d.set_rope(ROPE_FINAL)
+    d = M.Doll(rope=tuple(ARM), sidewalks=CORNER); d.set_state(_C["settled"]); d.set_rope(ROPE_FINAL)
     def ctrl(t, dd):
         if t < release:
             return _tone_live(t, dd)

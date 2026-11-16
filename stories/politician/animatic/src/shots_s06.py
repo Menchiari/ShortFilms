@@ -146,7 +146,7 @@ def S06_SH030(nf):
 def lips(nf, word_t):
     him = Actor("him", COST["him"], nf)
     him.hold(0, nf / core.FPS, pose("stand", x=FALL[0], y=FALL[1], yaw=FACE, ra=(85, 4, 4)))
-    him.compute()
+    sq((FALL[0] - 1.0, FALL[1], 1.6)); him.compute()        # the set first: his height depends on the curb under him
     h = him.J[0, HEAD]; fwd = np.array((-1.0, 0.0, 0.0))
     p = tuple(h + fwd * 0.95 + np.array((0, 0.28, -0.08)))
     sq(p)
@@ -164,7 +164,7 @@ def S06_SH040(nf):
 
 def S06_SH050(nf):
     """Close: eyes shut tight, the gun comes up to his temple. Click. Nothing. A second. He understands."""
-    h0 = standing(nf); h0.compute(); h = h0.J[0, HEAD]
+    sq((FALL[0] - 1.0, FALL[1], 1.6)); h0 = standing(nf); h0.compute(); h = h0.J[0, HEAD]
     p = tuple(h + np.array((-0.85, 0.22, 0.04))); sq(p)
     him = standing(nf)
     him.face(0.9, 3.4, eyes=0.08); him.face(3.4, 4.3, eyes=0.5); him.face(4.3, 6, eyes=1.75, mouth=0.5)
