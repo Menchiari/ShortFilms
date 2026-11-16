@@ -1,11 +1,12 @@
 Audio: only the old man's voice and breathing, his body hitting the asphalt, cloth, the spit, a distant crowd and a far helicopter. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
+<<<f5cc12be-ecbd-4a93-bf39-76debb61c908>>>: the big man's face, curly hair, moustache, t-shirt, cargo trousers and boots only. Its three views show one single man. Do not use its background, its standing pose or its layout.
 <<<f4279c8f-0cbb-407d-98b6-7c774a5f7603>>>: the old man's face, hair, suit, tie, wounds and dirt only. Its three views show one single man. Do not use its background, its standing pose or its layout.
 The sunset street photograph: color and light only. Do not copy its buildings, street or composition.
 
 In a hot city square at sunset, an old man in a torn dusty suit falls from above onto the asphalt beside a stone curb, screams, curls up shaking, then leans back against the curb, breathes, and spits on the big man lying still beside him, filmed in one locked-off take from across the street, the camera almost on the ground, long telephoto lens.
 
-Starting state: the street asphalt fills the lower third of the frame; a low stone curb and a sidewalk run across the frame behind it; building walls soft and out of focus in warm haze further back. At frame left a big heavy man with a shaved head and a short black beard, in a white sleeveless undershirt and grey track pants, lies on his back on the asphalt along the curb, eyes closed, still like a sleeping man, and stays exactly like this for the whole shot. The center of the frame is empty.
+Starting state: the street asphalt fills the lower third of the frame; a low stone curb and a sidewalk run across the frame behind it; building walls soft and out of focus in warm haze further back. At frame left the big man lies on his back on the asphalt along the curb, eyes closed, still like a sleeping man, and stays exactly like this for the whole shot. The center of the frame is empty.
 
 0-2s: Camera: locked-off, almost on the ground, long lens, medium close framing on the empty space beside the curb at frame center. The old man drops into frame from above and lands on his right shoulder and hip on the asphalt beside the curb; a short cut length of rope still knotted around his right ankle falls onto the street after him.
 2-6s: Camera unchanged. He curls up on his side facing the camera, knees pulled up, arms wrapped around his ribs, his whole body shaking; shoulder, hip and knees stay on the asphalt.
