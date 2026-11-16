@@ -10,7 +10,7 @@ Characters and props: plain light grey background, one view per image. Drop each
 |---|---|---|---|---|---|
 | 1 | Old man A | full body, face | about 30 shots, B C D, every sign, billboard, TV, bobblehead | refs 1 | missing |
 | 2 | Old man B, C, D | edits of A, 2 each | S05 to S10 | refs 2 | missing |
-| 3 | The square, with its corner street light | wide, 21:9 | S05 end to S09, about 40 shots | 13 below | missing, was not on the list |
+| 3 | The square, with its corner street light | wide, 21:9 | S06, S07, S09 (33 shots), plus views from S05 and S08 | 13 below | missing, was not on the list |
 | 4 | The town (style frame) | 21:9 | every town shot | refs 7 | missing |
 | 5 | Business lady | full body, close-up | S08, S09 | refs 3 | missing |
 | 6 | Roger | full body, close-up | S08 | refs 4 | missing |

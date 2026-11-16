@@ -15,7 +15,7 @@ the rule that prevents it. Newest first.
 
 ## 2026-11-16, Politician asset list
 
-- **What:** the Monday reference list missed the square (about 40 shots, the main location since
+- **What:** the Monday reference list missed the square (33 shots in S06, S07, S09, plus views from S05 and S08; the main location since
   draft 8), the man with the pipe and the reporter.
 - **Cause:** the list was written before draft 8 (2026-11-15 06:15) and edited after it (21:17)
   without being checked against it. Draft 8 moved the chase to a square.
