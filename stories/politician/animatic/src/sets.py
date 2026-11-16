@@ -12,13 +12,14 @@ import math, random
 import numpy as np
 from core import *
 
-def avenue(eye, seed=7, sky="day", clear=(), hr=(20, 38)):
+def avenue(eye, seed=7, sky="day", clear=()):
     rnd = random.Random(seed); mb = MB(eye); mb.excl = list(clear)
     ground(mb, -600, 600, -600, 600, PAL["asphalt"])
     for sx in (-1, 1):
         for sy in (-1, 1):
             xa, xb = sorted((sx * 9, sx * 400)); ya, yb = sorted((sy * 11, sy * 14.5)); sidewalk(mb, xa, xb, ya, yb)
             xa, xb = sorted((sx * 9, sx * 12.5)); ya, yb = sorted((sy * 14.5, sy * 300)); sidewalk(mb, xa, xb, ya, yb)
+    hr = (20, 38)
     for (bx0, bx1) in ((-260, -12.5), (12.5, 260)):
         block(mb, rnd, bx0, bx1, 14.5, 140, hr, faces="SWE")
         block(mb, rnd, bx0, bx1, -140, -14.5, hr, faces="NWE")
@@ -89,7 +90,7 @@ def streets(eye, seed=3, clear=()):
     mb.build("city")
     return {"bar": (-30.0, 4.7), "corner": (-66.5, -5.5), "fat": (-68.5, -7.5)}
 
-def square(eye, seed=11, hr=(24, 42)):
+def square(eye, seed=11):
     rnd = random.Random(seed); mb = MB(eye, haze=(80, 420))
     ground(mb, -600, 600, -600, 600, PAL["asphalt"])
     # sidewalks around the square and along the streets
@@ -101,6 +102,7 @@ def square(eye, seed=11, hr=(24, 42)):
         xa, xb = sorted((sx * 43.5, sx * 300)); sidewalk(mb, xa, xb, 7, 10.5); sidewalk(mb, xa, xb, -10.5, -7)
         for sy in (-1, 1):
             ya, yb = sorted((sy * 31.5, sy * 300)); xa, xb = sorted((sx * 8, sx * 11.5)); sidewalk(mb, xa, xb, ya, yb)
+    hr = (24, 42)
     block(mb, rnd, -200, -43.5, 10.5, 140, hr, faces="SE")
     block(mb, rnd, -200, -43.5, -140, -10.5, hr, faces="NE")
     block(mb, rnd, -43.5, -11.5, 31.5, 140, hr, faces="SE")

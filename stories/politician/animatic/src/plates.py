@@ -4,7 +4,7 @@ import sys, os, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import bpy
 from mathutils import Vector
-import core
+import core, inspect
 from sets import avenue, square
 
 PLATES = {
@@ -17,7 +17,7 @@ def render(out_dir, name):
     fn, kw, pos, tgt, lens = PLATES[name]
     sc = core.reset(sky="day")
     sc.render.resolution_x, sc.render.resolution_y = 1680, 720
-    fn(pos, **kw)
+    fn(pos, **{k: v for k, v in kw.items() if k in inspect.signature(fn).parameters})
     cd = bpy.data.cameras.new("CAM"); cd.sensor_width = 36; cd.clip_start = 0.05; cd.clip_end = 6000; cd.lens = lens
     cam = bpy.data.objects.new("CAM", cd); sc.collection.objects.link(cam); sc.camera = cam
     cam.location = pos
