@@ -3,6 +3,17 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-16, Politician S01 REQUEST 005 (SH030, SH070, SH100)
+
+- **What:** SH070 had cars facing both ways; SH100 showed a delivery van alone on an empty plain;
+  SH030 answered the shot with gunfire at once and hid the action behind the crowd.
+- **Cause:** SH070's prompt named two directions (outbound toward camera, inbound empty) and too
+  many lanes. SH100 followed the screenplay line literally and named "police truck" without the
+  features that make one. SH030 packed cause and answer into one second each.
+- **Rule:** traffic: one direction, said once, a few lanes, no moving traffic. A vehicle type
+  needs its identifying features or an element. Check that the image delivers the shot's reason
+  in its world. Violence has beats: the act, the reaction, a pause, the answer.
+
 ## 2026-11-16, Politician S01 SH010 T02 (12 credits, refunded)
 
 - **What:** the take was blocked by the output filter. The request did not say the shot carried a
