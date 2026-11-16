@@ -104,7 +104,8 @@ def sniper_kills():
     for i, t in SNIPE:
         f = F(t)
         if math.hypot(X[f, i] - (-39.6), Y[f, i] - (-6.55)) < 4.0:
-            continue; fwd = np.array((-math.sin(math.radians(YW[f, i])), math.cos(math.radians(YW[f, i]))))
+            continue
+        fwd = np.array((-math.sin(math.radians(YW[f, i])), math.cos(math.radians(YW[f, i]))))
         JA = phys.death((float(X[f, i]), float(Y[f, i])), float(YW[f, i]), 3.5, speed=float(SP[f, i]), hit=(fwd[0] * 1.5, fwd[1] * 1.5, -0.8), buckle=SP[f, i] < 2.0, seed=60 + i)
         out.append((i, t, JA))
     _SK["k"] = out; return out
