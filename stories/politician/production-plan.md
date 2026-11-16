@@ -24,6 +24,23 @@ Generation Monday 16 to Sunday 22, edit Monday 23, sound Tuesday 24, music Wedne
 Reviews take about 30 minutes a day: one video per scene, takes in script order, shot and take
 burned in. You answer in one line.
 
+## Before any generation (Leonard, 2026-11-16)
+
+1. **Every shot has a reason:** it says something, or it is interesting, beautiful, or both. Name the
+   reason in one line before writing the prompt. No reason: the shot goes.
+2. **Material check:** list what the reason needs (elements, start frames, props). Anything missing:
+   stop and say it in one line at the top of the request, before any preflight. Missing material is as
+   bad as no prompt.
+3. **Short requests:** the stop or the approval list first, everything else after or never.
+
+## S01 (riots)
+
+- 480p, 16:9: social media footage, around 2020, time unplaceable. Heavy compression added in post
+  (old YouTube look).
+- No palette reference in S01: the palette starts later [more instructions from Leonard to come].
+- The signs, the billboard and the TV carry his face so the audience recognizes him in S02 and after.
+  SH010, SH040, SH050 and SH120 wait for old man A. SH010 T01 (generic face) is a look test only.
+
 ## Keeping the vision
 
 1. **The shots you see clearly** get a start frame from your pipeline: the video starts exactly on
