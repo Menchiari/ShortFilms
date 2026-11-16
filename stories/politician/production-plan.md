@@ -106,7 +106,8 @@ Documents are yours). Scenes/S01 `da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e`, Scenes/
 `b536d925-b813-444f-a96c-bbf0b65f7bb6`, SH060 `1749fbb5-8c05-4f41-9643-b7d6ddb0235d`, SH070
 `fbc4de00-66d7-4067-a9d6-6c216230e3bd`, SH080 `c146e937-65bf-4f1a-968f-ebae993817fc`, SH090
 `831b75a9-7c4f-4b83-9223-28aaf34d196f`, SH100 `36ee7aeb-fa59-4a42-8637-125ad2be387d`, SH110
-`bc4e420a-586d-4e3a-8c9f-c86e020c5931`. These move to `film.json` when film 001 is created.
+`bc4e420a-586d-4e3a-8c9f-c86e020c5931`, SH020 `d827601b-a892-40ae-8c96-f03a5d3cbe1e`, SH050
+`39f0d374-8a7a-4160-8a56-c5ea33fc22ed`, SH120 `64936a0f-3786-4ca3-abc6-347c215f708f`. These move to `film.json` when film 001 is created.
 REFS `7632ec77-b35c-49fd-9273-f78302b2d543` (uploaded references), Elements
 `8a3f83dc-d7b1-47dd-a3d1-9e0b9200f300` (element images). Rule (Leonard): everything for the film is made
 inside this project; anything made outside it is void for the contest.
