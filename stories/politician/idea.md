@@ -477,3 +477,46 @@ If there are any changes to the script, fix the script with the new updates and 
 Questions asked the same day, Leonard's answers:
 - S06, the whispered "three, two, one": "Fires on the count (Recommended)" (shots off screen on three and two; at one he believes one is left; 1 in the air, 5 in the side shot, 2 during the count).
 - S07, "2 shots like that": "Two angles of the kill (Recommended)" (the low angle and the high wide both show the fat man shot and dropping in place).
+
+## Leonard's notes on animatic d9 (2026-11-16, verbatim)
+
+* s02sh060: wobble should be facing towards the inside of the car not the outside
+*  070 the suitcase is not flat on the seat
+*  080 make the car skid a bit, like when a car stops the wheels. Think of car's physics and make it skid just right to a stop
+* 110 130 and 160 glitch animation
+* 120 and 140 we cannot see shit, we should see the side of the city from inside the car's windshield
+* s03sh050 it's great. Be sure he doesn't go through the car's open door
+* s04sh050 seems not well framed, the heads are cut off, fix the cinematography (I assume all this will have coherent lighting?)
+* s04sh070 works but maybe camera a bit higher and frame the head as he falls
+* sh080 check if the animation is glitching
+*  s04sh120 this shot should be exactly the way it is, but instead of the fat guy it should be the politician in frame while he talks behind him (even the 180 would be right, you just messed it up here - you flipped the 180 and framed the fat guy. Instead you should frame the politician and have the shot exactly like this without the talking which happens in the background off screen)
+* sh130 have people already at their balconies watching rather than appearing so we don't confuse the model
+* before s04sh140 let's add an over the shoulder shot of the politician slowly and cordially sliding away from the guy's grip
+* s05sh040 and sh050 and sh060 can be cut, not necessary as long as we see him picking up the phone in sh030
+*  s05sh080 have the camera a bit more wobbly and closer to him, and the rock must hit much harder, you need to feel the pain. And yes he will bleed it hits him on the right eyebrow (if that's a problem and it's better to have left eyebrow, I will change the element sheet to mirror what we have so figure out what is best). He needs to fall on the ground.
+* sh090 the suitcase must slam with force and momentum, like it was going at high speed, he must fall too next to it
+* sh100 seems irrelevant if we have sh110 so remove it
+*  sh130 one guy turns around and leaves for no reason
+*  sh140 make them get closer way slower (have the people already started moving don't let them start in the moment the shot starts). Also have them move at different speeds, but all slower than this. When he shoots, have different reactions, all get scared, then some run away before others  
+* s06sh10 I don't like that he has the back empty, he should have a wall behind him, makes him feel more trapped. I don't like how the pole is in the way either, gives him less importance. Maybe start with a few people in the foreground running away from the shot
+* s06sh020 this shot is supposed to be third person behind the politician, almost like a third person action game. The people around should react: they should be freaked out, some should run away, others should walk very hesitantly forward, but super slow, others crouch other panic, but don't let them just stand there. I love the way they fall, but I want them to die in different spots not all in the same pile
+* s06sh030 could look like the current sh020, but add a close up of the gun shooting various times before this shot (remember I will be editing, so if the edit is not perfect it's ok as long as we get each shot right)
+* sh040 he must say it faster, and much closer to his mouth and much more to the side
+* sh050 even more frontal
+* s07sh050 we can't tell too much that the guy is about to swing or that he swung
+* s07sh060 I think the timing doesn't match when he hits  or when he swings back ( the bat must bounce back if he hits, like in real physics )
+* s07sh070 this shot is horribly framed. You're supposed to see the guy slowly lifting the rod, ready to hit with anticipation and as he's about to swing his head blows off. He's barely in the frame right now
+* sh080 have another guy die, some run away (not all together)
+* s08sh010 I liked the previous version of this shot a lot more, from afar, not so below, buildings around it, it was cooler than this one
+* sh020 the rifle should be a bit lower, shot can be a bit improved
+*  s09sh010 not sure it will work, the legs are weird but hey maybe who knows we need to test and see. When he relaxes however he's way too high: he needs to rest his elbows on the sidewalk before spitting on the guy
+* s09sh020 the suitcase should be lying down not up (and the papers lift very strangely - let's use accurate wind simulation for this one), so that it works better, using seedance might be a lot better anyway
+*   sh050 he's carrying the blue thing to his face, and he's walking way too fast
+*  sh060 she's holding the folder way too high over her face
+* sh080 shot should start with her looking up: this shot can be united with sh060 and split in editing to make generations easier
+* s09sh100 is awesome, only thing is that he's out of frame at the very end
+* sh110 no need to move the papers in the previz because it looks really bad
+* s09sh120 can be generated together with s09sh100
+* s10sh010 we should see the helicopter lifting up near the camera, turning around and flying in the distance with helicopter realistic aerodynamics (study them accurately, this must look like a simulation) - the driver is nuts so the maneuver is excessively risky but professional. The helicopter gets in the shot from the bottom of the screen, turns around and flies in the distance. As it turns, the camera crane/pedestal lowers enough to reveal the wobble head in the foreground appearing from the lower part of the screen. The wind of the helicopter moves more papers and goes away, when the wind arrives at the car, the head wobbles a bit to a stop while the helicopter flies into the distance for a bit
+
+Same evening: "going to bed, do what you have to do".
