@@ -36,6 +36,8 @@ burned in. You answer in one line.
    approved generation blocked by a filter is resubmitted unchanged once its credits show as refunded in the
    transactions. One at a time, up to 10 resubmissions, stop at the first that goes through. No refund: no
    resubmission, report it.
+5. **Show every render (Leonard, 2026-11-16):** each finished take is shown to Leonard as soon as it is ready,
+   as the file and in the Higgsfield widget.
 
 ## S01 (riots)
 
