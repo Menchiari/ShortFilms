@@ -32,6 +32,10 @@ burned in. You answer in one line.
    stop and say it in one line at the top of the request, before any preflight. Missing material is as
    bad as no prompt.
 3. **Short requests:** the stop or the approval list first, everything else after or never.
+4. **Filter blocks (Leonard, 2026-11-16, overrides "no retries" in CLAUDE.md rule 1 for this case only):** an
+   approved generation blocked by a filter is resubmitted unchanged once its credits show as refunded in the
+   transactions. One at a time, up to 10 resubmissions, stop at the first that goes through. No refund: no
+   resubmission, report it.
 
 ## S01 (riots)
 
@@ -96,4 +100,8 @@ retakes 2,000 to 3,000. Every list gets a free preflight and your approval of th
 
 Project "Talent Contest - Politician" `37733499-03c4-4405-8dee-fea3a2d3b96e` (folders Scenes, Elements,
 Documents are yours). Scenes/S01 `da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e`, Scenes/S01/SH010
-`974bb130-1e0f-4c54-b3dd-5d85a861ff84`. These move to `film.json` when film 001 is created.
+`974bb130-1e0f-4c54-b3dd-5d85a861ff84`. S01 shot folders: SH030 `69ddf0c4-23ac-47d8-aab0-7f9ff8978d5c`, SH040
+`b536d925-b813-444f-a96c-bbf0b65f7bb6`, SH060 `1749fbb5-8c05-4f41-9643-b7d6ddb0235d`, SH070
+`fbc4de00-66d7-4067-a9d6-6c216230e3bd`, SH080 `c146e937-65bf-4f1a-968f-ebae993817fc`, SH090
+`831b75a9-7c4f-4b83-9223-28aaf34d196f`, SH100 `36ee7aeb-fa59-4a42-8637-125ad2be387d`, SH110
+`bc4e420a-586d-4e3a-8c9f-c86e020c5931`. These move to `film.json` when film 001 is created.
