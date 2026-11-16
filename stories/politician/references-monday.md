@@ -53,10 +53,11 @@ Close-up portrait of the same woman, head and shoulders, facing the camera, unre
 ## 4. Roger, the shooter (S08)
 
 Look (Leonard, 2026-11-16): no helmet, only earbuds; triangular sport smart glasses, an
-alternative take on the sport Meta glasses. Midjourney.
+alternative take on the sport Meta glasses. Midjourney. The character image takes no `--sref`:
+it stays neutral, the scene light comes from the video prompt.
 
 ```
-full-body photograph of an original man in his late thirties standing upright facing the camera, plain light grey seamless background, boyish clean-shaven face, close-cropped hair, a quick easy smile, angular sport smart glasses with two sharp inverted-triangle lenses, light smoke lenses with a faint copper mirror sheen, his eyes faintly visible through them, thin matte black frame, thick temple arms, a tiny camera lens in the frame, no helmet, small black wireless earbuds in both ears, black technical softshell jacket, black tactical trousers, climbing harness over the jacket, fingerless gloves, visible skin texture and pores, no beauty filter, not resembling any real person, soft even light, shot on 35mm film --ar 2:3 --style raw --no helmet, headset, logo, text
+full-body character photograph, head to toe, an original man in his late thirties standing upright facing the camera, arms relaxed at his sides, feet and boots fully visible, plain light grey seamless studio background, lean athletic build, boyish clean-shaven face, close-cropped hair, a quick easy smile, angular sport smart glasses with two sharp inverted-triangle lenses, light smoke lenses with a faint copper mirror sheen, his eyes faintly visible through them, thin matte black frame, thick temple arms, a tiny camera lens in the frame, no helmet, small black wireless earbuds in both ears, black technical softshell jacket, black tactical trousers, black tactical boots, climbing harness over the jacket, fingerless gloves, visible skin texture and pores, no beauty filter, not resembling any real person, soft even light, shot on 35mm film --ar 2:3 --style raw --no helmet, headset, logo, text
 ```
 
 Close-up, with the full-body image as `--oref`:
