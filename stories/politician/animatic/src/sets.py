@@ -12,7 +12,7 @@ import math, random
 import numpy as np
 from core import *
 
-def avenue(eye, seed=7, sky="day", clear=()):
+def avenue(eye, seed=7, sky="day", clear=(), towers=True):
     rnd = random.Random(seed); mb = MB(eye); mb.excl = list(clear)
     ground(mb, -600, 600, -600, 600, PAL["asphalt"])
     for sx in (-1, 1):
@@ -24,7 +24,7 @@ def avenue(eye, seed=7, sky="day", clear=()):
         block(mb, rnd, bx0, bx1, 14.5, 140, hr, faces="SWE")
         block(mb, rnd, bx0, bx1, -140, -14.5, hr, faces="NWE")
     for i, (x, y, w, d, h) in enumerate([(-320, 60, 24, 20, 110), (-300, -90, 30, 26, 80), (-420, 10, 20, 20, 130), (380, 70, 26, 22, 95), (-220, 210, 22, 22, 90)]):
-        tower(mb, rnd, x, y, w, d, h)
+        if towers: tower(mb, rnd, x, y, w, d, h)
     for x in range(-240, 260, 34):
         for sy in (-1, 1):
             if abs(x) > 15:
@@ -40,7 +40,7 @@ def desert(eye, seed=5):
     ground(mb, 0, 900, -900, 900, PAL["desert"], tile=60)
     ground(mb, -900, 0, -900, 900, PAL["dirt"], tile=60)
     mb.box(0, 900, -3.5, 3.5, 0, 0.012, PAL["road_dirt"])
-    mb.box(-60, 0, -7, 7, 0, 0.012, PAL["asphalt"])
+    mb.box(-900, 0, -7, 7, 0, 0.012, PAL["asphalt"])            # the main road runs on through the town to the horizon
     mb.box(10, 160, -16, -8, -0.01, 0.006, PAL["ditch"])
     for i in range(70):
         x = rnd.uniform(6, 120); y = rnd.uniform(8, 45); s = rnd.uniform(0.4, 2.0)
@@ -54,8 +54,7 @@ def desert(eye, seed=5):
             y += w
     # inside: rising city, towers far
     for (ya, yb) in ((7, 300), (-300, -7)):
-        block(mb, rnd, -160, -26, ya + (6 if ya > 0 else 0), yb - (6 if yb < 0 else 0), (22, 40), faces="SN", lot=(14, 26))
-    block(mb, rnd, -300, -170, -260, 260, (26, 48), faces="E", lot=(16, 30))
+        block(mb, rnd, -560, -26, ya + (6 if ya > 0 else 0), yb - (6 if yb < 0 else 0), (22, 40), faces="SN", lot=(14, 26))
     for (x, y, w, d, h) in [(-260, 30, 26, 24, 110), (-330, -60, 30, 28, 90), (-400, 120, 22, 22, 130), (-220, -150, 24, 20, 85)]:
         tower(mb, rnd, x, y, w, d, h)
     # abandoned building and the crumbled wall, south of the road, where the dog lies
@@ -64,7 +63,7 @@ def desert(eye, seed=5):
     for i in range(7):
         mb.obox((36 - i * 0.6, -19.4 + i * 0.25, 0.15), (0.7, 0.4, 0.3), rotz(rnd.uniform(0, 2)), PAL["concrete"])
     mb.build("town")
-    return {"stop": (40.0, 0.0), "dog": (44.5, -18.2)}
+    return {"stop": (7.0, 0.0), "dog": (44.5, -18.2)}
 
 def streets(eye, seed=3, clear=()):
     rnd = random.Random(seed); mb = MB(eye, haze=(60, 260)); mb.excl = list(clear)
@@ -95,6 +94,7 @@ def square(eye, seed=11):
     ground(mb, -600, 600, -600, 600, PAL["asphalt"])
     # sidewalks around the square and along the streets
     sidewalk(mb, -43.5, -40, -31.5, -10.5); sidewalk(mb, -43.5, -40, 10.5, 31.5)
+    sidewalk(mb, -43.5, -35.5, -10.5, -7.0)      # the corner: the street light stands on it, he hangs beside its curb
     sidewalk(mb, 40, 43.5, -31.5, -10.5); sidewalk(mb, 40, 43.5, 10.5, 31.5)
     sidewalk(mb, -40, -11.5, 28, 31.5); sidewalk(mb, 11.5, 40, 28, 31.5)
     sidewalk(mb, -40, -11.5, -31.5, -28); sidewalk(mb, 11.5, 40, -31.5, -28)
