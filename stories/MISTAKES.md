@@ -32,6 +32,17 @@ the rule that prevents it. Newest first.
 - **Rule:** before any request, check the shot against the plan's filter list. A listed risk goes
   in the request with its fallback.
 
+## 2026-11-16, Politician screenplay edited in two sessions at once
+
+- **What:** I edited `screenplay.fountain` (S02 towers and asphalt, S06 SH120 PPK/S slide) and
+  `animatic/src/sets.py` on my branch; they auto-merged to main. Another session was writing drafts
+  9 and 10 on its own branch. Every push of that branch now conflicts with main: the stories-sync job
+  fails and GitHub emails Leonard each time (11 failures since 21:56 UTC).
+- **Cause:** I did not check other branches for a newer draft before editing a shared story file.
+- **Rule:** before editing the screenplay, the animatic source or any shared story file, fetch all
+  branches and check who else changed it. If another session holds a newer draft, do not edit:
+  hand the change to that session (or to Leonard) as a note.
+
 ## 2026-11-16, Politician props (request 002b, 4 credits)
 
 - **What:** the PPK/S came out as a Beretta 92 with a misspelled engraving; the bobblehead does not
