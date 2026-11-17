@@ -401,6 +401,14 @@
     {
       "date": "2026-11-17",
       "text": "Leonard: the 040c still is stretched (GPT Image squeezed the 16:9 element into 21:9). Replaced, free: frames/001_S03_SH040_fuel-on_v2.png and fuel-off_v2.png, the element cropped to 21:9 (y 180-1332, no scaling), the pump symbol lit amber locally on the element's own pixels. Uploaded: on c317a203, off cbfa703c. REQUEST 040d now start_image on + end_image off, preflight 15."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040d approved (15 credits, 480p, no draft flag, 21:9, 5 s, audio on) and submitted: S03 SH040 T02 4361343e-ef55-4a43-b233-105fb7d1b62f, fuel-on v2 as start_image, fuel-off v2 as end_image; the job echo lists both as reference_images."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040d done (15 credits): S03 SH040 T02 in, file takes/S03/SH040/001_S03_SH040_T02.mp4. Start and end frames held the framing this time."
     }
   ],
   "story_sync": {

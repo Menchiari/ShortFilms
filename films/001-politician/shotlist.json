@@ -1754,6 +1754,28 @@
               ],
               "love": false,
               "notes": "REQUEST 040b, 480p, no draft flag (040a with the flag failed, refunded). 992x432, 5.06 s. Claude's read (frames and audio levels, not heard): wider than S02 SH170: the whole cluster (tach, speedo, fuel and temp gauges), so the fuel gauge is small at the right and not the same close framing as SH170; the amber light is a separate warning lamp by the speedo, not the pump symbol; light on 0-2 s, off about 2-2.8 s, on again about 3-4 s, off for the tail; sound in two blocks (0-1.8 s and 2.6-4.1 s) with a quiet gap between, quieter tail. No hands or person visible in the sampled frames."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "4361343e-ef55-4a43-b233-105fb7d1b62f",
+              "prompt": "05-generation/prompts/001_S03_SH040_T02.txt",
+              "file": "05-generation/takes/S03/SH040/001_S03_SH040_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start_image: 05-generation/frames/001_S03_SH040_fuel-on_v2.png (c317a203)",
+                "end_image: 05-generation/frames/001_S03_SH040_fuel-off_v2.png (cbfa703c)"
+              ],
+              "love": false,
+              "notes": "REQUEST 040d, 480p, no draft flag. 992x432, 5.06 s. Claude's read (frames at 4 fps and audio levels, not heard): the framing of the stills, unstretched, steady from first to last frame (SSIM to the off still about 0.57 at 0, 2.5 and 4.9 s: no drift); only the fuel symbol ever lights, nothing on the speedo or tach. The light blinks fully off for a frame or two during the cranks (about 1.0 s, 1.5-2.0 s, 3.25 s) instead of only dimming, then stays off from about 4.0 s to the end. Sound in two louder blocks with a quiet dip around 2.75-3 s and a quiet tail from about 4.5 s."
             }
           ],
           "description": "The fuel light glows. The key turns: the starter grinds and doesn't catch. Again. Nothing. The key comes out. The light goes off.",
