@@ -1732,7 +1732,7 @@
         },
         {
           "id": "SH040",
-          "status": "generated",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
