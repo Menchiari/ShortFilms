@@ -1743,9 +1743,9 @@
                 "Leonard's Midjourney start frame, cropped to 21:9 (94b73080, sent as start_image, registered as image reference): 05-generation/frames/001_S03_SH020_T01_start.jpg"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 020a, draft (finalizable at 720p within 7 days). 992x432, 8.06 s. Claude's read (frames and audio levels, not heard): face and wardrobe hold; the frame drifts wider from the first second; the start image was taken as a reference, not an exact first frame; the street blocks slide past; talking from about 1.7 s to 6.9 s, quieter tail from 7 s."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 020a, 480p, sent without the draft flag (not finalizable). 992x432, 8.06 s. Claude's read (frames and audio levels, not heard): face and wardrobe hold; the frame drifts wider from the first second; the start image was taken as a reference, not an exact first frame; the street blocks slide past; talking from about 1.7 s to 6.9 s, quieter tail from 7 s. Leonard: not quite. He reads as in an open street: he must be always in shadow, walled in by the side buildings, one main street ahead, always a wall beside him. Fewer words: he thinks the lines so hard that only some come out as whispers; when he realizes he is out of fuel he gets pissed."
             }
           ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
