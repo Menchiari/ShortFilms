@@ -257,6 +257,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 015 approved (29.5 credits, prices 10.49 / 10.69 / 10.89): S01 SH010 T04 f5da08a3-44dd-4418-b60f-f6ab994663ae; SH020 end still 80f8771c-03e3-4a09-b959-66d075617321 (REFS, text exact); SH020 start still 2d664efc-8d15-4e53-a5cc-615be661363d (REFS); SH020 T04 video after the stills check."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 016 approved (20.5 credits): S01 SH020 T05 start still 4d9c31a3-b2f5-48ba-ab66-23d0cff6d2cd, end still bbfcb4d4-f006-439c-aef1-993baa1c86b8 (REFS); video after the stills check."
     }
   ],
   "story_sync": {
