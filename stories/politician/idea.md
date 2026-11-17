@@ -543,3 +543,7 @@ Pose reference attached for S09 SH010: look/pose_ref_s09_sh010.webp (a figure sl
 * s10sh110 it's good, but the helicopter physics dynamics can be improved a lot. Make it get closer to the camera when it turns, smoother slower maneuver so that it feels heavier like the helicopter that it is (a black hawk). And at the very end, lower the camera a tiny bit more so that we see the full figure. The final shot needs to be a beautiful composition as the helicopter vanishes in the horizon. It can last 5 extra seconds.
 
 Question (2026-11-17): "a black hawk" in the S10 note. [ASSUMPTION] it describes the weight: the helicopter stays the white ACH160 of the asset prompts and mood_3, flown heavy, slow and smooth. If the model itself changes to a Black Hawk (S-70 / UH-60), S08 and the asset prompts change too.
+Questions after the draft 11 review (2026-11-17):
+- The pistol: the script says nickel; the element prop_ppks_v2 is black and worn. Which one?
+- S07 SH070: the close kill against the sky versus "nothing too explicit": how much of the wound on screen?
+- Does the 7:00 limit count anything outside the film (slate, black)? Draft 11 sums to exactly 7:00 with every coverage angle.
