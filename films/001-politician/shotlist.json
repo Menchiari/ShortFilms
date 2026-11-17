@@ -1145,6 +1145,58 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST 016. Claude's read: the street reads as untextured CG and the road carries the animatic's flat patches: the clip's geometry was copied. Cause: no image of the main street itself. Leonard 2026-11-17: looks like previz, not live action."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a762d15e-4c26-47ce-baf6-4cbd540d3b63",
+              "prompt": "05-generation/prompts/001_S02_SH100_T02.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "loc_main-street c30451ef",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH100 line-drawing guide e625c859 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street: real concrete, rolling shutters, rubble, dust; a real curved dashboard edge at the bottom. Winner of the test. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "5b401d41-b5b4-4dd6-821f-4b81ba7492ca",
+              "prompt": "05-generation/prompts/001_S02_SH100_T03.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "loc_main-street c30451ef",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH100 blurred guide 7237b832 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street too, but the bottom edge came out as flat slab shapes taken from the blur. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",

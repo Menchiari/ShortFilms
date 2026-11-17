@@ -14,3 +14,8 @@ SH030 road and block, SH100 street, the towers in SH090's rear window). Shots wh
 photoreal (SH020 dog, SH070 briefcase, SH080 car). Rule: never give a set clip for a shot whose frame is filled by place;
 the composition comes from a photoreal start frame made over the animatic frame (production plan, Keeping the vision 1-2),
 or from words.
+
+Method from REQUEST 018a (2026-11-17): the clip goes in as a line drawing, never as the render:
+`ffmpeg -i in.mp4 -vf "format=gray,edgedetect=low=0.08:high=0.25,negate,format=yuv420p" out_lines.mp4`, with the prompt's
+strict guide paragraph (take only camera position, movement, framing, rough positions, paths and timing). Both line and
+blurred versions came out photographic on S02 SH100; the line version kept real detail, the blurred one turned edges into slabs.

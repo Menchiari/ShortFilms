@@ -252,6 +252,19 @@
       "S02/SH200": "c4c4eb3d-38d1-4824-ad34-e1908b87d9bd",
       "S02/SH100 lines": "e625c859-ee7b-4c78-8b1f-d093e7283a9b",
       "S02/SH100 blur": "7237b832-9197-4405-98e1-01c7bb1c3213"
+    },
+    "animatic_refs_d11_lines": {
+      "S02/SH010": "eaea0633-6406-451f-a716-db5b55843818",
+      "S02/SH020+SH040": "cb05789e-08ea-4882-82fb-48e5c9a373ad",
+      "S02/SH030": "219c398c-bea8-4181-a134-20625da40689",
+      "S02/SH050": "cdcd9efc-a43f-4db4-835c-fdd18b3fde3a",
+      "S02/SH070": "cfb87636-5aaf-4af6-a5f9-ac4b1c62aa27",
+      "S02/SH090": "3d180ccf-2b62-4615-af38-06851e56c958",
+      "S02/SH100": "e625c859-ee7b-4c78-8b1f-d093e7283a9b",
+      "S02/SH110+SH130+SH160": "c4e6b110-bff7-4a68-8d59-2687e3c71ca6",
+      "S02/SH120+SH140": "5b32b81d-9b82-41cc-a50f-6b8810672076",
+      "S02/SH180": "2ccff74d-a2cd-4394-beac-4d9d2c38ef81",
+      "S02/SH200": "54161b25-e946-4177-9260-663152138a2e"
     }
   },
   "extra_costs": [],
@@ -303,6 +316,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 018a approved (24 credits, 480p drafts) and submitted: SH100 T02 line-drawing guide a762d15e-4c26-47ce-baf6-4cbd540d3b63, SH100 T03 blurred guide 5b401d41-b5b4-4dd6-821f-4b81ba7492ca. Test: which processed guide clip keeps the camera and loses the previz look."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 018a done (24 credits): the line-drawing guide clip (ffmpeg edgedetect) plus the strict guide paragraph gives photographic results; it becomes the method for every animatic clip."
     }
   ],
   "story_sync": {
