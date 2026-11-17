@@ -11,3 +11,8 @@ Taken out of the draft 8 screenplay on main so draft 10 merges cleanly. Apply th
 3. **No laundry** anywhere. The city is more modern than first written (`look/mood/`).
 4. **The gun:** a Walther PPK/S locks its slide open after the last shot. No click: he squeezes the
    trigger, nothing fires, he looks at the gun and sees the slide locked back, empty.
+
+# Leonard's decisions of 2026-11-17
+
+1. **The helicopter:** black, military looking, aggressive and dangerous. Not the white, sleek ACH160 of
+   draft 10 (S08 SH010, S09, S10).
