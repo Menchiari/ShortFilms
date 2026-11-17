@@ -1,0 +1,14 @@
+S03 SH050 start frame v2, REQUEST 050b (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b.
+Image 1 = the REQUEST 050a frame (job 25f0e435). Leonard 2026-11-17: the smoker is a guy in a sleeveless shirt leaning on a metal bar balcony, resting on his forearms, looking below.
+
+Prompt:
+
+Image 1 is the frame: keep it exactly as it is, the same camera, framing, street, buildings, car, its position and shadow, light, haze and color. Change only two things, both in the foreground.
+
+First: the concrete railing along the bottom edge becomes an old metal balcony railing: a flat steel top bar running across the whole bottom of the frame, thin vertical bars below it, worn dark paint with rust at the edges.
+
+Second: the man at the left becomes a different man, seen from behind and slightly from the side: a heavy-set man in his forties in a dirty white sleeveless undershirt, bare shoulders and arms, short dark hair. He leans forward on the metal railing, resting on both forearms on the top bar, his head bowed, looking down at the street below. A lit cigarette between the fingers of his right hand, a thin thread of smoke drifting up. He sits at the far left of the frame, from the left edge to about one fifth of the width, never in front of the car. His face is turned away from the camera: only the back of his head, his ear and the line of his jaw, no eyes, no features.
+
+Count of people: one, the man on the balcony. Count of cars: one.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.
