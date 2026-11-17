@@ -14,7 +14,7 @@ private repo (films/*)  ->  GitHub Action builds dist/ (small)  ->  Cloudflare s
 - All links are relative, so the same build works at `/filmai/`, at the root of a subdomain, or
   opened from disk.
 - Cloudflare never clones the repository. The Action uploads only `dist/`: documents, JSON,
-  poster stills of loved takes, and every take video (copied from `05-generation/takes/`, no extra
+  a still of every take, and every take video (copied from `05-generation/takes/`, no extra
   copy in git). A take over Cloudflare's 25 MiB per-file limit is left out of the site. The free
   plan allows 20,000 files per deployment; uploads send only files that changed.
 - `tools/site/functions/films/[[path]].js` (a Pages Function) answers byte-range requests for the
@@ -63,8 +63,9 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
   - Quality: rating spread, strong shots with no select yet, weak shots, takes waiting for a
     rating. Then stages and the production log.
 - **Shotlist tab**: every shot with its takes, rating and cost. The shot's animatic clip, when
-  there is one, is the first row. Opening a shot plays the loved take (else the latest, else the
-  animatic) with its prompt and notes beside it; clicking a row switches to it.
+  there is one, is the first row. Each shot shows and opens on its face take: the approved one,
+  else the best rated (3 or more, newest on a tie), else the newest; without takes, the animatic.
+  The prompt and notes sit beside the video; clicking a row switches to it.
 - **Characters tab**: one card per character element (`03-bible/characters/`), whole sheet
   image, use, Higgsfield ids.
 - Other tabs: Story, Analysis, Questions, Bible, Budget, Sound, Music, Edit. Tabs appear as their

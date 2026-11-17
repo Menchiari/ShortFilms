@@ -51,8 +51,8 @@ follows these rules. They override habits and defaults.
   `"rating_source": "inferred"`: "love it" = 5 + love, "good/works" = 4, "usable" = 3,
   "meh" = 2, "no/bad" = 1.
 - Keep `film.json` stages and log current. The website reads them. The site plays every take
-  with its prompt and notes (user decision 2026-11-17), one poster still per loved take for the
-  cards, the finished film is linked (YouTube or Vimeo).
+  with its prompt and notes (user decision 2026-11-17) and a still of every take (made
+  automatically by film-sync), the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
 
