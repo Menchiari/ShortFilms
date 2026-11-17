@@ -1704,6 +1704,29 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST 020a, 480p, sent without the draft flag (not finalizable). 992x432, 8.06 s. Claude's read (frames and audio levels, not heard): face and wardrobe hold; the frame drifts wider from the first second; the start image was taken as a reference, not an exact first frame; the street blocks slide past; talking from about 1.7 s to 6.9 s, quieter tail from 7 s. Leonard: not quite. He reads as in an open street: he must be always in shadow, walled in by the side buildings, one main street ahead, always a wall beside him. Fewer words: he thinks the lines so hard that only some come out as whispers; when he realizes he is out of fuel he gets pissed."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 24.0,
+              "job_id": "7e3e652d-4274-4276-9801-3671c420768b",
+              "prompt": "05-generation/prompts/001_S03_SH020_T02.txt",
+              "file": "05-generation/takes/S03/SH020/001_S03_SH020_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "Leonard's start frame v3 (c4e65b4b, start_image), 1120x480: 05-generation/frames/001_S03_SH020_T02_start_v3.jpg"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 020d (020b and 020c failed with the draft flag plus a start image, refunded). 480p without the draft flag: not finalizable. 992x432, 8.06 s. Claude's read (frames every 0.5 s and audio levels, not heard): the first frame matches the start frame closely; the shaded wall with shutters slides past behind him the whole time; mouth mostly closed; a short sound burst around 2 to 3 s (the whisper); louder from about 4.8 s to 6.6 s with his hand flying up at 6 s (the slam) and a grimace; quiet tail from 7 s."
             }
           ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",

@@ -405,6 +405,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 030a approved (21 credits, 480p draft, 21:9, 7 s): S03 SH030 T01 1c95b86e-5a77-466b-b6fb-ed018b94065a, no guide clip (the boxy previz car would be copied), prop_car, loc_main-street, palette_afternoon as @Image1-3. Leonard: reference images as @Image1, @Image2 in the prompt, not 'Image 1:'."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020d done (24 credits): S03 SH020 T02 in. The start frame held this time. Rule learned: with a start image, send seedance_2_5 without the draft flag."
     }
   ],
   "story_sync": {
