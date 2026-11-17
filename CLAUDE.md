@@ -30,6 +30,8 @@ follows these rules. They override habits and defaults.
 
 ## How to work
 
+- Anything Leonard will paste or run (prompts, commands, text) is given whole, ready to copy,
+  every time it changes. Never a fragment to swap into an earlier version.
 - Follow `PIPELINE.md` stage by stage. Each stage writes its output into the film folder.
 - When something is unclear: write the question into `02-analysis/questions.md`, send it to the
   user, then **keep going** on the best-reasoned assumption, marked `[ASSUMPTION]` in the docs so it
