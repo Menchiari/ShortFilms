@@ -3,6 +3,19 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician elements and locations (request 011)
+
+- **What:** I created 9 elements with the Higgsfield tool: they landed in the workspace, outside the project, so
+  they are void for the contest. The locations broke street rules: the crossroads had no traffic lights, no
+  markings, four lamp posts at the four corners pointing in like stage lights; the other streets had no
+  markings, no signs, lamps placed for the picture.
+- **Cause:** the element tool has no project field; I created the elements after saying I could not confirm
+  where they would live. The crossroads copied my own 3D blockout, which placed lamps for the composition, and
+  the prompt said "keep the street lights". No prompt named any street furniture rule.
+- **Rule:** Claude never creates elements; images go to the project folder, Leonard makes the elements. Every
+  location prompt carries the street rules in `politician/assets.md`. A blockout gives camera and layout, never
+  street furniture. When I cannot confirm an action meets a hard constraint, I do not take it: I say so.
+
 ## 2026-11-16, Politician S01 SH020 T01 (12 credits)
 
 - **What:** the price board came out building-sized, each digit taller than the worker.
