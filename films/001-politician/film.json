@@ -19,9 +19,9 @@
     "edit": true
   },
   "format": {
-    "aspect": "16:9",
+    "aspect": "21:9",
     "fps": 24,
-    "resolution": "480p",
+    "resolution": "720p",
     "target_runtime_s": 420
   },
   "poster": "03-bible/style-refs/mood_4_town-edge.webp",
@@ -261,6 +261,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 016 approved (20.5 credits): S01 SH020 T05 start still 4d9c31a3-b2f5-48ba-ab66-23d0cff6d2cd, end still bbfcb4d4-f006-439c-aef1-993baa1c86b8 (REFS); video after the stills check."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Format: 720p, 21:9 (Leonard)."
     }
   ],
   "story_sync": {
