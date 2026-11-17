@@ -1680,7 +1680,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "cut",
           "takes": [
             {
               "id": "T01",
