@@ -1,0 +1,20 @@
+Audio: only the engine idling and a faint dry wind outside the glass. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Image 1: the towers: architecture and materials only, not its framing. Image 2: the dashboard, the windshield pillars and the rear-view mirror only, not the view through the windows. Image 3: the briefcase. Image 4: the bobblehead. Image 5: color and light only.
+VIDEO 1 IS A ROUGH GUIDE (@@KIND@@), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game. Video 1 covers the first two shots only; the third shot is described in this prompt.
+
+Three locked-off shots from the driver's seat of a black sedan stopped a few meters from the wall of towers at the edge of a desert town, cut together.
+
+0-2s: point of view through the windshield, looking left, camera position and framing from Video 1: the left windshield pillar at the right of frame, the edge of the dashboard at the bottom right. Camera: locked-off. Outside: broken ground and a deep dry ditch full of rubble, then the concrete towers a few meters away, standing shoulder to shoulder and running away to the left into the haze. No road.
+2-4s: hard cut. Point of view looking right across the dashboard, camera position and framing from Video 1: the bobblehead from image 4, small, on the dashboard at the left, facing the driver; the briefcase from image 3 lying flat on the passenger seat at the bottom right; the right windshield pillar. Camera: locked-off. Outside: rubble and the dry ditch, then the towers running away to the right, all the way to the horizon. No road.
+4-6s: hard cut. Insert, close on the rear-view mirror, the windshield around it out of focus. Camera: locked-off. In the mirror: the empty road behind the car running back into the flat desert, the last of the car's own dust settling. Nobody. Final frame: the mirror with the empty road in it.
+
+Nobody in any shot. Count of briefcases: one. Count of bobbleheads: one.
+
+Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the engine idling and a faint dry wind outside the glass. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
