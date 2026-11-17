@@ -1,61 +1,105 @@
 # Politician: every asset, in the order to make them
 
-Characters: Leonard. Locations, vehicles, props: Claude, prompts in `prompts/assets_2026-11-16.md` (request 002). Old man A is char_politician (start state); B = after the rock, C = beaten, D = after the hanging.
-Characters and props: plain light grey background, one view per image. Drop each image in
-`stories/politician/refs/` or in chat. Status 2026-11-16.
+Status 2026-11-17, checked against screenplay draft 10 (98 shots) and the live Higgsfield element list.
+Leonard makes the images inside the Higgsfield project "Talent Contest - Politician" (anything made outside
+it is void for the contest). Claude registers each one as an element after Leonard's OK.
+Locations: 21:9, empty, the afternoon palette image (`look/palette_ref_1_afternoon.jpg`) for color and light
+only; helicopter: the sunset one. Props: plain light grey background. One view per image.
 
-## You make (images, your pipeline)
+## Done (elements live, ids in `elements.md`)
 
-| # | Asset | Images | Unlocks | Prompt | Status |
-|---|---|---|---|---|---|
-| 1 | Old man A | full body, face | about 30 shots, B C D, every sign, billboard, TV, bobblehead | refs 1 | done: char_politician `1d544095-f1c6-4865-8e97-e09dbadcabc7` (image job `a7601ce4-95ee-410c-b6f1-2887359c73a9`) |
-| 2 | Old man B, C, D | edits of A, 2 each | S05 to S10 | refs 2 | elements exist: char_politician_blood `b3b677ef-3cd5-48d1-abe8-39552e40b573`, char_politician_dusty `1ecc0e0b-5c3c-4826-b0fd-361861a4b87b`, char_politician_final `f4279c8f-0cbb-407d-98b6-7c774a5f7603`. States and shots: element table in `production-plan.md` |
-| 3 | The square, with its corner street light | wide, 21:9 | S06, S07, S09 (33 shots), plus views from S05 and S08 | 13 below | missing, was not on the list |
-| 4 | The town (style frame) | 21:9 | every town shot | refs 7 | missing |
-| 5 | Business lady | full body, close-up | S08, S09 | refs 3 | missing |
-| 6 | Roger | full body, close-up | S08 | refs 4 | missing |
-| 7 | The fat person | full body, close-up | S04 | refs 5 | missing |
-| 8 | The friend | full body | S04, S05 | refs 6 | missing |
-| 9 | The man with the pipe | full body | S07, S09 (alive, then the body) | 14 below | missing, was not on the list |
-| 10 | The reporter | close-up | S01 SH120 | 15 below | missing, was not on the list |
-| 11 | Dirt road, town edge | 21:9 | S02 | refs 8 | missing |
-| 12 | Side streets | 21:9 | S04, S05 | refs 9 | missing |
-| 13 | His car, outside and inside | 2 | S02, S03, S10 | refs 10 | missing |
-| 14 | Helicopter, outside and cabin | 2 | S08, S09, S10 | refs 11 | missing |
-| 15 | Briefcase, pistol, bobblehead | 3 | S02 to S09 | refs 12 | missing |
-| 16 | Crossroads start frames | paint over my grey renders | S03, S10 | refs, last section | renders done, paint missing |
+Old man A, dusty, blood, final (D = final plus the stain, written in the prompt), the fat person (also the
+man with the pipe since draft 9), the business lady, Roger, the briefcase, the gun, the bobblehead. The bond
+(`props/bond/`, a file, composited).
+
+## Missing: you make (shooting order; the main street first, as the master every location takes as reference)
+
+| # | Asset | Shots it unlocks | Prompt | Status |
+|---|---|---|---|---|
+| 1 | Main street (master frame) | S03 SH010 to SH030, the look of every town shot | M1 | candidate: `refs/locations/loc_main-street_v1.jpg` (not registered: your OK or a new one) |
+| 2 | Town edge: towers like a wall, one gap | S02, 10 shots | M2 | missing |
+| 3 | His car, outside | S02, S03, S10 | M3 | missing |
+| 4 | His car, inside | S02 inserts and POVs, S03 SH020, S10 | M4 | missing |
+| 5 | Instrument cluster (one still) | S02 SH170, S03 SH040 (the same fuel symbol) | M5 | missing, new in draft 10 |
+| 6 | Crossroads | S03 SH050, S10 | paint over `crossroads/setup_01_est_high.jpg` with #1 as reference | render done, paint missing |
+| 7 | Side streets | S04 (15 shots), S05 SH010 to SH130 (9) | M6 | missing |
+| 8 | The square, street light corner | S05 SH140, S06, S07, S08 POVs, S09: 32 shots | M7 | candidate: `refs/locations/loc_square_v1.jpg` (not registered: your OK or a new one) |
+| 9 | Helicopter, outside | S08 SH010, S09, S10 | M8 | missing |
+| 10 | Helicopter cabin | S08 SH020, SH050, SH060 | M9 | missing |
+
+Optional:
+
+| Asset | Shots | Note |
+|---|---|---|
+| Rifle | S08 SH020, SH050 | candidate `refs/props/prop_rifle_v1.jpg` works; registered on your OK |
+| The friend | S04 SH100 (seen), SH140 (voice) | one visible shot: text is enough. Prompt in `references-monday.md` section 6 |
+
+Not needed any more: the man with the pipe (he is the fat person), the reporter (S01 SH120 T01 exists from
+text). From text, no element: the dog, the policeman, the child, the old woman, the three men at the bar, the
+pilot, the crowds, the rope, the pipe.
+
+Open: the screenplay says the gun is nickel (S06 SH010); the prop_gun element is black and worn. One of the
+two changes. I don't know which you want.
 
 ## I make (no credits)
 
-| Asset | Needs | Status |
-|---|---|---|
-| S01 signs: horns, red X eyes, the noose collage | old man A | SH010 T02: made in the prompt from char_politician (wide, 480p). Composite only if the take fails |
-| S01 billboard (SH050), sign insert (SH040) | old man A, then a start frame from you or a composite | waits for A |
-| TV news screen (S01 SH120) | old man A, reporter | waits for both |
-| Gas price board (S01 SH020) | nothing | can start |
-| Friend's phone screen, scope overlay, the Agreement | nothing | can start |
-| The bond | done | `props/bond/` |
-| Square blockout (street light corner, landing, sun) like the crossroads | your call: worth it if the square shots must match | not started |
+| Asset | Status |
+|---|---|
+| S01 signs, billboard, TV news | made from char_politician in the prompts; composites only if a take fails |
+| Phone screen, scope overlay, the Agreement | can start |
 
-No element needed (one shot each, generated from text): the policeman, the child, the old woman at
-the TV, the rope, the metal pipe, the crowds.
+## Prompts (draft 10: dusty asphalt, towers, no laundry)
 
-## New prompts
-
-### 13. The square (21:9)
+### M1. Main street (master)
 
 ```
-A wide, empty square in the same dry, dusty town, hazy afternoon. Cheap concrete apartment blocks on all sides, shutters down, faded shop fronts, power cables. Several streets open into it; at the corner where one narrow street meets the square, a single tall old street light on a steel pole with a long horizontal arm. Cracked asphalt, sand, rubble at the edges, open space in the middle big enough to land a helicopter. Unwelcoming and anonymous. No trees, no palms, no greenery, no people, no cars, no signs with readable text. Warm ochre and brown palette, soft hazy sun, dust in the air, deep brown shadows, 35mm film, anamorphic framing.
+The main street of a dry, dusty modern town where the outskirts of a city meet the desert: tall plain concrete apartment towers on both sides, balconies closed in with corrugated plastic, satellite dishes, air-conditioner units, rolled-down metal shutters, faded and stained plaster, power cables across the street, asphalt buried in dust and drifted sand. The part of a city people are afraid of. Unplaceable. The sun from the left of frame, mid-afternoon, shadows falling across the street to the right. No laundry, no trees, no palms, no greenery, no people, no cars, no readable signs. Hazy afternoon, warm ochre and brown palette, dust in the air, deep brown shadows, 35mm film photograph, anamorphic framing. Documentary realism, not CGI.
 ```
 
-### 14. The man with the pipe
+### M2. Town edge (image refs: `look/mood/mood_4_town-edge.webp` for composition, #1 for architecture)
 
 ```
-Full-body photograph of an original man in his [thirties], lean and wiry, standing upright facing the camera, holding a rusty metal pipe about one meter long in both hands, plain light grey background. [Unshaven, short dark hair, a sweat-stained grey t-shirt, worn work trousers, dusty sneakers.] Heritage impossible to place. Visible skin texture, no beauty filter. Soft even light, 35mm film photograph.
+Extreme wide shot from a road across flat desert toward the edge of a dry, dusty modern town. Tall plain concrete apartment towers stand shoulder to shoulder like a wall, running to the horizon on both sides. One single gap between two towers: the road runs straight into it and becomes a long street that runs deep into the town. The road is asphalt buried in dust and drifted sand. On both sides of the road, broken ground, a deep dry ditch and rubble that no car could cross. In the near foreground, an abandoned building with a crumbled concrete wall. Heat shimmer over the road, the sun on the rooftops. No laundry, no trees, no palms, no greenery, no people, no cars, no animals, no readable signs. Hazy afternoon, warm ochre and brown palette, dust in the air, deep brown shadows, 35mm film photograph, anamorphic framing.
 ```
 
-### 15. The reporter
+### M3. His car, outside
 
 ```
-Close-up portrait, head and shoulders, of an original woman in her [thirties], a television news reporter, facing the camera, composed professional expression, every hair in place, polished on-camera makeup, a small microphone clipped to her blazer, plain light grey background. Heritage impossible to place. Soft even light, 35mm film photograph.
+A black full-size luxury sedan, modern, no badges or logos, covered in desert dust, three-quarter front view, standing on a road of asphalt buried in dust and drifted sand, flat hazy desert behind it. No people. Hazy afternoon light, 35mm film photograph.
+```
+
+### M4. His car, inside
+
+```
+The interior of the same black luxury sedan seen from the back seat: dusty leather seats, a dusty dashboard, the windshield showing a road of dusty asphalt running toward a wall of tall concrete towers. No people, no objects on the dashboard or the seats. Hazy afternoon light, 35mm film photograph.
+```
+
+### M5. Instrument cluster
+
+```
+Close-up of the instrument cluster of the same black luxury sedan, straight on: the fuel gauge needle resting on the edge of E, beside a fuel pump symbol, the low fuel warning light off, the speedometer at zero. A thin layer of dust on the glass. Soft daylight through the windshield, 35mm film photograph.
+```
+
+### M6. Side streets
+
+```
+A narrow side street in the same dry, dusty town, eye level. Doorways, one with a bead curtain; a ground-floor window with a television glowing inside; a small bar with an awning and plastic chairs against the wall; balconies and windows above; tangled cables overhead; shutters down; a corner ahead where the street turns. Asphalt buried in dust. Unwelcoming and anonymous. No laundry, no trees, no plants, no people, no readable signs. Hazy afternoon, warm ochre and brown palette, deep brown shadows, dust in the air, 35mm film photograph, anamorphic framing.
+```
+
+### M7. The square
+
+```
+A wide, empty square in the same dry, dusty town, seen from one corner at eye level. Tall plain concrete apartment towers on all sides, shutters down, faded shop fronts, power cables. Several streets open into it. In the near corner, where a narrow street meets the square, one tall old street light on a steel pole with a long horizontal arm, beside a sidewalk with a high curb, and a concrete wall a few steps behind it. Asphalt buried in dust and sand, rubble at the edges, open space in the middle big enough to land a helicopter. No laundry, no trees, no palms, no greenery, no people, no cars, no readable signs. Hazy afternoon, warm ochre and brown palette, dust in the air, deep brown shadows, 35mm film photograph, anamorphic framing.
+```
+
+### M8. Helicopter, outside
+
+```
+A glossy white Airbus ACH160 private helicopter, no logos or markings, its right sliding cabin door open, in flight above a dusty town of tall concrete towers, seen from the side and slightly below with a long lens. Orange sunset haze, smoke on the horizon, 35mm film photograph.
+```
+
+### M9. Helicopter cabin
+
+```
+The cabin of a white Airbus ACH160 VIP helicopter, seen from the rear of the cabin looking forward: cream leather seats, the right sliding door open with sunset light pouring in, the cockpit beyond with two front seats, the town far below through the open door. No people. Sunset, 35mm film photograph.
 ```
