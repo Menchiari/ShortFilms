@@ -355,6 +355,10 @@
     },
     {
       "date": "2026-11-17",
+      "text": "REQUEST 018b: 7 takes in; SH050 T02 blocked by the output filter (second block on SH050); SH090 T03 ebed37ad-cfa7-404e-8551-8f1c95382213 and SH120 T01 fa1d1a60-a95d-4eb7-af99-c61ce3a172a5 submitted after the rate limit cleared."
+    },
+    {
+      "date": "2026-11-17",
       "text": "REQUEST 019 approved (18 credits, 480p draft, 21:9, 6 s): S03 SH010 T01 a169222f-d3da-4e37-b69b-a6b8949408f0, line-drawing guide 13e9c827 plus char_politician, prop_car, loc_side-street (Leonard: side street as background), palette_afternoon. Leonard: great cinematography lighting, added as a motivated-sun lighting paragraph."
     }
   ],

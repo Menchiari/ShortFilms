@@ -905,6 +905,31 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST 016. Claude's read: the d11 angle holds with a real look: the towers fill the frame like a wall, dust streams across the ground, rubble scattered. No animatic geometry copied."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a2e3451a-2c70-4c1c-80f7-745cad62a471",
+              "prompt": "05-generation/prompts/001_S02_SH010_T03.txt",
+              "file": "05-generation/takes/S02/SH010/001_S02_SH010_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "palette_afternoon 3bf30eee",
+                "line guide eaea0633"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic: the towers fill the frame like a wall, dust blowing low. The towers are still uniform with grid windows; small white posts scattered on the ground; no dust devil visible."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
@@ -945,6 +970,31 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 016. Covers SH020 (0-3 s) and SH040 (3-5 s). Claude's read: the same dog in both shots, lying by the concrete wall in the shade, then the close from behind the shoulder: head up, ears up, looking right. Real look. Leonard 2026-11-17: when it gets up the dog must look behind it; the dog dirtier, clearly stray; trash and bits of plastic around, like a poor suburb in Mexico."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "e1ffc2d1-1fc0-405a-9b0b-fbd6c802f992",
+              "prompt": "05-generation/prompts/001_S02_SH020_T02.txt",
+              "file": "05-generation/takes/S02/SH020/001_S02_SH020_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd (ground)",
+                "palette_afternoon 3bf30eee",
+                "line guide cb05789e"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH020 and SH040. Photographic: the dog in the shade among trash (bottle, bags, a crate). The close: the head comes up and looks ahead to the right, not back over its shoulder. The dog reads lean but not clearly filthy or mangy."
             }
           ],
           "description": "A stray dog lies in the shadow of an abandoned building, on the edge of a crumbled concrete wall. Heat rises off the ground.",
@@ -985,6 +1035,32 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST 016. Claude's read: the car and its dust far out work, but the animatic geometry was copied: the foreground block is the animatic's untextured box and the road is its flat polygon patches. Cause: no image of the road itself, so the clip was the only source for the ground."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "13fadbe9-cd4a-4799-8fe0-e78209e4ae57",
+              "prompt": "05-generation/prompts/001_S02_SH030_T02.txt",
+              "file": "05-generation/takes/S02/SH030/001_S02_SH030_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd (road)",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "line guide 219c398c"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic: real broken concrete slab in the foreground, the road into the haze; the car appears late, far out, with its dust plume."
             }
           ],
           "description": "Far out on a road of asphalt buried in dust and drifted sand, a car comes out of the heat shimmer at full speed, a plume of dust behind it.",
@@ -1019,7 +1095,7 @@
           "framing": "LOW, ground level, facing the town",
           "movement": "Locked-off, car passes over camera",
           "duration_s": 3,
-          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed",
+          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed REQUEST 016 SH050 T01 (6cb55640-3cc4-41ee-bb81-dfdcfc9acf0b) blocked by the output filter (\"Something went wrong\"), 28 credits refunded 13:35 UTC. Unchanged resubmission waits for Leonard's go-ahead (the session's permission check stopped it). Leonard 2026-11-17: add camera shake, the wind pressure moving the camera as the car speeds by. REQUEST 018b SH050 T02 (7e324cfe-a591-455c-ad31-853bb047953a) blocked by the output filter again (\"Something went wrong\").",
           "animatic": {
             "file": "05-generation/animatic/d11/S02_SH050.mp4",
             "draft": "d11"
@@ -1095,6 +1171,32 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST 016. Claude's read: the briefcase lies flat on the brown seat, papers out, trembles and shifts a little, never leaves the seat. Leonard 2026-11-17: not so unrealistic: just a subtle wobble, it is a suitcase on a seat."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "bb09857b-d843-45fc-b235-5449dfd5016e",
+              "prompt": "05-generation/prompts/001_S02_SH070_T02.txt",
+              "file": "05-generation/takes/S02/SH070/001_S02_SH070_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "loc_car-interior 60a2aec8",
+                "palette_afternoon 3bf30eee",
+                "line guide cfb87636"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic: the case lies still on the seat with a faint wobble, papers out."
             }
           ],
           "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
@@ -1307,8 +1409,35 @@
         },
         {
           "id": "SH110",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "e41b2b2a-5598-40d3-9962-062150ff9683",
+              "prompt": "05-generation/prompts/001_S02_SH110_T01.txt",
+              "file": "05-generation/takes/S02/SH110/001_S02_SH110_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "loc_car-interior 60a2aec8",
+                "palette_afternoon 3bf30eee",
+                "line guide c4e6b110"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH110, SH130, SH160. Photographic: from behind his shoulder he looks left, then turns right toward the lens with a hard look. Through the windshield a street of buildings rather than the wall of towers a few meters away."
+            }
+          ],
           "description": "He leans forward over the wheel and looks left.",
           "framing": "CLOSE, from the passenger seat, low, below his shoulder",
           "movement": "Locked-off",
@@ -1397,8 +1526,35 @@
         },
         {
           "id": "SH180",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "dedb136c-a687-4c0c-9f44-cee2bd802330",
+              "prompt": "05-generation/prompts/001_S02_SH180_T01.txt",
+              "file": "05-generation/takes/S02/SH180/001_S02_SH180_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "loc_car-interior 60a2aec8",
+                "palette_afternoon 3bf30eee",
+                "line guide 2ccff74d"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH180 and SH190. Photographic: close behind his right shoulder, then the shoe pressing the pedal. Through the windshield a ruined street with some greenery (from the car interior image), against the no-greenery rule."
+            }
+          ],
           "description": "Sweat runs down his temple. He breathes in.",
           "framing": "CLOSE",
           "movement": "Locked-off",
@@ -1421,8 +1577,36 @@
         },
         {
           "id": "SH200",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "5f89a3f1-e1d4-4267-bcd7-08764168d311",
+              "prompt": "05-generation/prompts/001_S02_SH200_T01.txt",
+              "file": "05-generation/takes/S02/SH200/001_S02_SH200_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "loc_main-street c30451ef",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "line guide 54161b25"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: The car rolls away down the main street and gets small. Lighting photographic; the facades are clean and repetitive, a little rendered."
+            }
+          ],
           "description": "The car rolls through the gap and into the only street. The town swallows it.",
           "framing": "WIDE, from behind the car",
           "movement": "Locked-off",
