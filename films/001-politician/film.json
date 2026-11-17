@@ -140,7 +140,11 @@
       "S02/SH050": "576ede40-7260-41e6-93ea-4b7ca8e15ed3",
       "S02/SH070": "59f873ec-1d5d-451e-8966-448e09f792aa",
       "S02/SH080": "8857fd30-fa81-4a87-b3f9-8be569aea610",
-      "S02/SH100": "6a61f303-5728-4d21-81b7-dbe3caa2c71f"
+      "S02/SH100": "6a61f303-5728-4d21-81b7-dbe3caa2c71f",
+      "S02/SH110": "70755316-c47b-4be5-9aa6-cd78bc3a6278",
+      "S02/SH120": "1f6606d3-f46f-4ef6-a744-2dcf85199a2b",
+      "S02/SH180": "4d040337-1820-4f8d-8000-de93a1832adb",
+      "S02/SH200": "1439fbcb-8208-4412-aaf2-9af713175025"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -320,6 +324,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 018a done (24 credits): the line-drawing guide clip (ffmpeg edgedetect) plus the strict guide paragraph gives photographic results; it becomes the method for every animatic clip."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 018b approved (147 credits, 480p drafts, line guides). Submitted: SH010 T03 a2e3451a-2c70-4c1c-80f7-745cad62a471, SH020 T02 e1ffc2d1-1fc0-405a-9b0b-fbd6c802f992, SH030 T02 13fadbe9-cd4a-4799-8fe0-e78209e4ae57, SH050 T02 7e324cfe-a591-455c-ad31-853bb047953a, SH070 T02 bb09857b-d843-45fc-b235-5449dfd5016e, SH110 T01 e41b2b2a-5598-40d3-9962-062150ff9683, SH180 T01 dedb136c-a687-4c0c-9f44-cee2bd802330, SH200 T01 5f89a3f1-e1d4-4267-bcd7-08764168d311. SH090 T03 and SH120 T01 refused by the rate limit (429, no job, no charge): sent when the queue drains."
     }
   ],
   "story_sync": {
