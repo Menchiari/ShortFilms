@@ -172,6 +172,7 @@ class Builder:
 
         data = {
             "slug": film_dir.name, "id": film.get("id"), "title": film.get("title"),
+            "project": film.get("project", ""),
             "logline": film.get("logline", ""), "status": film.get("status", ""),
             "created": film.get("created", ""), "format": film.get("format", {}),
             "stages": film.get("stages", {}), "links": film.get("links", {}),
@@ -216,7 +217,7 @@ class Builder:
                 continue
             (self.out / "data" / "films" / f"{d.name}.json").write_text(
                 json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-            summary = {k: data[k] for k in ["slug", "id", "title", "logline", "status", "created",
+            summary = {k: data[k] for k in ["slug", "id", "title", "project", "logline", "status", "created",
                                              "poster", "stats", "format", "links"]}
             summary["strip"] = [
                 {"id": f"{sc['id']} {sh['id']}", "status": sh["status"], "loved": bool(sh["loved"]),
