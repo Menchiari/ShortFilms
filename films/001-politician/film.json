@@ -376,6 +376,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020b failed at Higgsfield within seconds (\"Something went wrong. Please try again, or change your input files or prompt.\"), 24 credits refunded. No file. Cause unknown; the one input that differs from T01 is the start frame size (992x432 instead of 1120x480). Prepared 05-generation/frames/001_S03_SH020_T02_start_v2.jpg at 1120x480."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020c approved and submitted (S03 SH020 T02, job dde0fb5d-8857-4f78-8eb6-e523ddfa9a62, frame v3 at 1120x480): failed within seconds with the same generic error, 24 refunded. Frame size ruled out. Both failures had the draft flag with a start image; T01 (no draft flag, start image) worked; the S02 drafts that worked had no start image."
     }
   ],
   "story_sync": {
