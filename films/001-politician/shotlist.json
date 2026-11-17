@@ -1303,6 +1303,32 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 016. New acting task from Leonard's note. Claude's read: bowed over the wheel, lifts his head, jaw set, a hard scowl fixed on the gap: angry and focused. Desert through the side windows, but through the rear window two towers and a low town on the horizon, against the note (only desert behind him). Leonard 2026-11-17: a city in the background; there should be only desert, as in the previz."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "ebed37ad-cfa7-404e-8551-8f1c95382213",
+              "prompt": "05-generation/prompts/001_S02_SH090_T03.txt",
+              "file": "05-generation/takes/S02/SH090/001_S02_SH090_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "line guide 3d180ccf"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic. Only desert behind him through the side and rear windows. Bowed over the wheel, lifts his head, holds a hard look ahead."
             }
           ],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
@@ -1450,8 +1476,37 @@
         },
         {
           "id": "SH120",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "fa1d1a60-a95d-4eb7-af99-c61ce3a172a5",
+              "prompt": "05-generation/prompts/001_S02_SH120_T01.txt",
+              "file": "05-generation/takes/S02/SH120/001_S02_SH120_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "loc_car-interior 60a2aec8",
+                "prop_briefcase 4bf36cb5",
+                "prop_wobblehead fa19c43f",
+                "palette_afternoon 3bf30eee",
+                "line guide 5b32b81d"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH120, SH140, SH150. Photographic: the deep dry ditch and rubble, the bobblehead on the dash and the briefcase, then the mirror with the empty road. The towers stand far off on the horizon, not a few meters away."
+            }
+          ],
           "description": "Through the windshield: broken ground and a deep dry ditch, rubble, then the towers, shoulder to shoulder, running away to the left. No road.",
           "framing": "POV, from inside the car, through the windshield, looking left",
           "movement": "Locked-off",
