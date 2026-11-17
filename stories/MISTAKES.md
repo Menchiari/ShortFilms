@@ -3,6 +3,14 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician S02 request 013 (no credits spent)
+
+- **What:** S02 prompts used the request 011 images for the town edge and the car. Leonard had already registered
+  different images as the elements loc_town-edge and prop_car. Two of four references were wrong.
+- **Cause:** I took image ids from the repo docs and local files, not from the live element list in Higgsfield.
+- **Rule:** before any preflight, list the live elements (manage_reference_elements, action list) and take every
+  image id from there. The ids in `films/<film>/film.json` under `higgsfield.elements` are refreshed from that list.
+
 ## 2026-11-16, Politician S01 SH020 T01 (12 credits)
 
 - **What:** the price board came out building-sized, each digit taller than the worker.
