@@ -372,6 +372,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020b approved (24 credits, 480p draft flag, 21:9, audio on) and submitted: S03 SH020 T02 9535b58b-338a-4ab7-be2f-18ef4b33a8bb, on Leonard's new Midjourney frame (shade, wall beside him; media 3f04ddd9), sent as start_image; the job echo lists it as reference_images."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020b failed at Higgsfield within seconds (\"Something went wrong. Please try again, or change your input files or prompt.\"), 24 credits refunded. No file. Cause unknown; the one input that differs from T01 is the start frame size (992x432 instead of 1120x480). Prepared 05-generation/frames/001_S03_SH020_T02_start_v2.jpg at 1120x480."
     }
   ],
   "story_sync": {
