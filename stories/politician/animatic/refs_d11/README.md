@@ -7,3 +7,8 @@ S04 SH135 and S06 SH025 are new; S05 SH040 to SH060 and SH100 are cut; S08 SH030
 Use: the prompt names each clip and its one job ("a motion diagram only: the camera angle and the timing and paths of
 the people"). Test S05 SH020 showed that a clip with the grey set gets copied as a fake 3D model: for crowd and fall
 shots use the motion-only clip in `../refs_d11_motion/` (people on plain ground, no set), and describe the place in words.
+
+S02 at 720p (REQUEST 016, 2026-11-17): the clip held where every place in frame also had a real reference image (SH010 town
+edge, SH020 dog, SH070 briefcase and seat, SH090 man and car). Where the clip was the only source for the ground or the street,
+Seedance copied its geometry as untextured CG (SH030 road and foreground block, SH100 street). Rule: give every place in frame
+a real image, or drop the clip and describe the place in words.
