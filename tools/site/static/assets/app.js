@@ -62,7 +62,7 @@
     if (!cells || !cells.length) return '<p class="label">Shotlist not written yet</p>';
     return '<div class="strip" aria-label="one square per shot, filled when a take is approved">' +
       cells.map(function (c) {
-        return '<span class="cell ' + (c.loved ? "loved" : esc(c.status)) + '" title="' + esc(c.id) + '"></span>';
+        return '<span class="cell ' + (c.loved ? "loved" : esc(c.status)) + (c.quality ? " q" + c.quality : "") + '" title="' + esc(c.id + (c.quality ? " · best " + c.quality + "/5" : "")) + '"></span>';
       }).join("") + "</div>";
   }
   function numbers(st, withCredits) {
@@ -74,6 +74,203 @@
   }
   function discordBtn() {
     return SITE && SITE.discord ? '<a class="btn red" href="' + esc(SITE.discord) + '" target="_blank" rel="noopener">Join the Discord</a>' : "";
+  }
+
+  // ---------- production board ----------
+  var DAY = 86400000;
+  var WEEKDAY = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MONTH = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  function localISO(d) {
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
+  function parseISO(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function dayLabel(s) { var d = parseISO(s); return WEEKDAY[d.getDay()] + " " + d.getDate() + " " + MONTH[d.getMonth()]; }
+  function daysBetween(a, b) { return Math.round((parseISO(b) - parseISO(a)) / DAY); }
+  function mmss(sec) { sec = Math.round(sec || 0); return Math.floor(sec / 60) + ":" + String(sec % 60).padStart(2, "0"); }
+  function pct(a, b) { return b ? Math.round(a / b * 100) : 0; }
+  function ago(iso) {
+    if (!iso) return "";
+    var m = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60000));
+    if (m < 1) return "just now";
+    if (m < 60) return m + " min ago";
+    var h = Math.floor(m / 60);
+    if (h < 24) return h + " h " + (m % 60) + " min ago";
+    return Math.floor(h / 24) + " d ago";
+  }
+
+  function sceneStats(sc) {
+    var live = sc.shots.filter(function (s) { return s.status !== "cut"; });
+    var st = { id: sc.id, total: live.length, approved: 0, review: 0, todo: 0, sec: 0, secDone: 0, takes: 0 };
+    live.forEach(function (s) {
+      st.sec += s.duration_s || 0;
+      st.takes += s.takes.length;
+      if (s.status === "approved") { st.approved++; st.secDone += s.duration_s || 0; }
+      else if (s.status === "review" || s.status === "generating") st.review++;
+      else st.todo++;
+    });
+    return st;
+  }
+
+  function segbar(st, tall) {
+    var parts = [["approved", st.approved, "Approved"], ["review", st.review, "In review"], ["todo", st.todo, "Not shot"]];
+    var name = parts.map(function (p) { return p[2] + " " + p[1] + " (" + pct(p[1], st.total) + "%)"; }).join(", ");
+    return '<div class="seg' + (tall ? " tall" : "") + '" role="img" aria-label="' + esc(name) + '">' + parts.map(function (p) {
+      if (!p[1]) return "";
+      var share = pct(p[1], st.total);
+      return '<span class="part ' + p[0] + '" style="flex:' + p[1] + '" title="' + esc(p[2] + ": " + p[1] + " shots, " + share + "%") + '">' +
+        (tall && share >= 7 ? share + "%" : "") + "</span>";
+    }).join("") + "</div>";
+  }
+
+  function tile(f, sc, sh) {
+    var q = sh.quality;
+    var cls = "tile " + esc(sh.status) + (q ? " q" + q : "");
+    var info = [sc.id + " " + sh.id, sh.framing, sh.duration_s ? sh.duration_s + " s" : "",
+      sh.takes.length + (sh.takes.length === 1 ? " take" : " takes"), q ? "best " + q + "/5" : (sh.takes.length ? "unrated" : ""),
+      sh.status === "approved" ? "approved" : sh.status].filter(Boolean).join(" · ");
+    return '<a class="' + cls + '" href="#/film/' + esc(f.slug) + "/shotlist/" + esc(sc.id + "-" + sh.id) + '" title="' + esc(info) + '" aria-label="' + esc(info) + '">' +
+      '<span class="n">' + esc(sh.id.replace(/^SH/, "")) + "</span>" +
+      '<span class="q">' + (sh.loved ? "♥" : "") + (q || (sh.takes.length ? "?" : "")) + "</span></a>";
+  }
+
+  function scheduleRows(f, byScene, today) {
+    var days = (f.schedule && f.schedule.days) || [];
+    return days.map(function (d) {
+      var sts = (d.scenes || []).map(function (id) { return byScene[id]; }).filter(Boolean);
+      var tot = sts.reduce(function (a, s) { return a + s.total; }, 0);
+      var ok = sts.reduce(function (a, s) { return a + s.approved; }, 0);
+      var state = d.date === today ? "today" : (d.date < today ? "past" : "next");
+      var flag = "";
+      if (tot) {
+        if (ok === tot) flag = '<span class="flag done">✓ Done</span>';
+        else if (d.date < today) flag = '<span class="flag late">! Behind ' + (tot - ok) + "</span>";
+        else if (d.date === today) flag = '<span class="flag now">● Today</span>';
+      } else if (d.date === today) flag = '<span class="flag now">● Today</span>';
+      return '<li class="day ' + state + '"><time>' + esc(dayLabel(d.date)) + "</time>" +
+        '<div class="day-body"><div class="day-scenes">' + (sts.length ? sts.map(function (s) {
+          return '<a href="#scene-' + esc(s.id) + '" class="chip">' + esc(s.id) + " <b>" + s.approved + "/" + s.total + "</b></a>";
+        }).join("") : "") + '<span class="task">' + esc(d.task || "") + "</span></div>" +
+        (tot ? '<div class="mini"><span style="width:' + pct(ok, tot) + '%"></span></div>' : "") + "</div>" + flag + "</li>";
+    }).join("");
+  }
+
+  function qualityPanel(f) {
+    var counts = { 5: 0, 4: 0, 3: 0, 2: 0, 1: 0, u: 0 };
+    var weak = [], pick = [], unrated = [];
+    f.scenes.forEach(function (sc) {
+      sc.shots.forEach(function (sh) {
+        if (sh.status === "cut" || !sh.takes.length) return;
+        var ref = { f: f, sc: sc, sh: sh };
+        if (sh.quality) counts[sh.quality]++; else counts.u++;
+        if (sh.quality && sh.quality <= 2 && !sh.loved) weak.push(ref);
+        if (sh.quality && sh.quality >= 4 && !sh.loved) pick.push(ref);
+        if (sh.takes.some(function (t) { return !t.rating && !t.love; })) unrated.push(ref);
+      });
+    });
+    var shot = Object.keys(counts).reduce(function (a, k) { return a + counts[k]; }, 0);
+    var max = Math.max.apply(null, Object.keys(counts).map(function (k) { return counts[k]; }).concat([1]));
+    var rows = [["5", "5 great"], ["4", "4 good"], ["3", "3 usable"], ["2", "2 meh"], ["1", "1 no"], ["u", "Unrated"]];
+    function list(items, label) {
+      if (!items.length) return "";
+      return '<div class="qlist"><div class="label">' + label + " (" + items.length + ")</div>" + items.map(function (r) {
+        return '<a href="#/film/' + esc(r.f.slug) + "/shotlist/" + esc(r.sc.id + "-" + r.sh.id) + '">' + esc(r.sc.id + " " + r.sh.id) +
+          (r.sh.quality ? " <b>" + r.sh.quality + "</b>" : "") + "</a>";
+      }).join("") + "</div>";
+    }
+    return '<div class="panel"><div class="label">Quality of the shots with takes (' + shot + ")</div>" +
+      '<p class="hint">Best take per shot, or the loved one. Ratings 1 to 5 from your reviews.</p>' +
+      '<table class="qdist">' + rows.map(function (r) {
+        var n = counts[r[0]];
+        return "<tr><th>" + r[1] + '</th><td><span class="qbar ' + (r[0] === "u" ? "qu" : "q" + r[0]) + '" style="width:' + (n / max * 100) + '%"></span></td><td class="v">' + n + "</td></tr>";
+      }).join("") + "</table>" +
+      list(pick, "Strong, no select yet") + list(weak, "Weak, retake or cut") + list(unrated, "Takes waiting for a rating") + "</div>";
+  }
+
+  function renderProduction(f) {
+    var today = localISO(new Date());
+    var all = { total: 0, approved: 0, review: 0, todo: 0, sec: 0, secDone: 0, takes: 0 };
+    var byScene = {};
+    f.scenes.forEach(function (sc) {
+      var s = sceneStats(sc);
+      byScene[sc.id] = s;
+      ["total", "approved", "review", "todo", "sec", "secDone", "takes"].forEach(function (k) { all[k] += s[k]; });
+    });
+    var sched = f.schedule || {};
+    var days = sched.days || [];
+    var dueIds = {};
+    var lastGen = "";
+    days.forEach(function (d) {
+      if ((d.scenes || []).length && d.date > lastGen) lastGen = d.date;
+      if (d.date <= today) (d.scenes || []).forEach(function (id) { dueIds[id] = 1; });
+    });
+    var due = 0, dueOk = 0;
+    Object.keys(dueIds).forEach(function (id) { if (byScene[id]) { due += byScene[id].total; dueOk += byScene[id].approved; } });
+    var left = all.total - all.approved;
+
+    var tiles = [];
+    tiles.push(["Approved", pct(all.approved, all.total) + "%", all.approved + " of " + all.total + " shots"]);
+    tiles.push(["Left", left, left === 1 ? "shot to approve" : "shots to approve"]);
+    tiles.push(["Runtime approved", mmss(all.secDone), "of " + mmss(all.sec) + " planned"]);
+    if (sched.deadline) {
+      var dl = daysBetween(today, sched.deadline);
+      tiles.push(["Deadline", dl >= 0 ? dl + (dl === 1 ? " day" : " days") : "passed", dayLabel(sched.deadline)]);
+    }
+    if (f.stats.credits != null) tiles.push(["Credits spent", num(f.stats.credits), all.takes + " takes"]);
+
+    var pace = "";
+    if (lastGen && left) {
+      var genDays = daysBetween(today, lastGen) + 1;
+      pace = genDays > 0
+        ? "To approve every shot by " + dayLabel(lastGen) + " (last generation day in the plan): <b>" + Math.ceil(left / genDays) + " shots a day</b> for " + genDays + (genDays === 1 ? " day." : " days.")
+        : "The plan's generation days are over: " + left + " shots still to approve.";
+    }
+    var plan = due
+      ? "Plan up to today: <b>" + due + "</b> shots approved. Actual: <b>" + dueOk + "</b>" + (due > dueOk ? ", behind by <b>" + (due - dueOk) + "</b>." : ", on plan.")
+      : "";
+
+    var html = '<div class="board-head"><span class="live" title="The page checks for new data every minute">Live</span>' +
+      '<span class="label">Data from the repository, built ' + esc(ago(SITE.built)) + (SITE.commit ? " · " + esc(SITE.commit) : "") + "</span></div>" +
+      '<div class="tiles">' + tiles.map(function (t) {
+        return '<div class="tile-stat"><div class="label">' + t[0] + '</div><div class="val">' + t[1] + '</div><div class="sub2">' + esc(t[2]) + "</div></div>";
+      }).join("") + "</div>" +
+      '<div class="panel">' + segbar(all, true) +
+      '<div class="legend"><span><i class="sw approved"></i>Approved (a loved take)</span><span><i class="sw review"></i>In review (takes, no select)</span><span><i class="sw todo"></i>Not shot</span></div>' +
+      (plan || pace ? '<p class="plan">' + plan + (plan && pace ? "<br>" : "") + pace + "</p>" : "") + "</div>";
+
+    if (days.length) {
+      html += '<h2 class="h2">Schedule</h2>' + (sched.source ? '<p class="hint">' + esc(sched.source) + "</p>" : "") +
+        '<ol class="schedule">' + scheduleRows(f, byScene, today) + "</ol>";
+    }
+
+    html += '<h2 class="h2">Shots by scene</h2>' +
+      '<div class="legend"><span><i class="sw tile-k q5"></i>5</span><span><i class="sw tile-k q4"></i>4</span><span><i class="sw tile-k q3"></i>3</span><span><i class="sw tile-k q2"></i>2</span><span><i class="sw tile-k q1"></i>1</span>' +
+      '<span><i class="sw tile-k un"></i>? takes, unrated</span><span><i class="sw tile-k pl"></i>not shot</span><span>♥ approved</span><span class="hint">Number: best rating. Click a shot for its takes.</span></div>' +
+      '<div class="scenes-board">' + f.scenes.map(function (sc) {
+        var s = byScene[sc.id];
+        var planned = days.filter(function (d) { return (d.scenes || []).indexOf(sc.id) >= 0; }).map(function (d) { return dayLabel(d.date); });
+        return '<section class="srow" id="scene-' + esc(sc.id) + '"><div class="srow-head"><h3>' + esc(sc.id) + "</h3>" +
+          '<div class="srow-meta"><div class="stitle">' + esc(sc.title || "") + "</div>" +
+          '<div class="label">' + s.approved + "/" + s.total + " approved · " + s.review + " in review · " + mmss(s.secDone) + " of " + mmss(s.sec) +
+          (planned.length ? " · planned " + esc(planned.join(", ")) : "") + "</div></div></div>" +
+          segbar(s, false) +
+          '<div class="tiles-grid">' + sc.shots.filter(function (sh) { return sh.status !== "cut"; }).map(function (sh) { return tile(f, sc, sh); }).join("") + "</div></section>";
+      }).join("") + "</div>";
+
+    var stages = '<ul class="stages">' + STAGES.map(function (s) {
+      var v = (f.stages || {})[s[0]] || "todo";
+      return '<li class="' + esc(v) + '"><span class="box ' + esc(v) + '"></span>' + s[1] + "</li>";
+    }).join("") + "</ul>";
+    var log = (f.log || []).map(function (l, i) { return [l, i]; }).sort(function (a, b) {
+      return (b[0].date || "").localeCompare(a[0].date || "") || b[1] - a[1];
+    }).map(function (p) { return "<li><time>" + esc(p[0].date) + "</time><span>" + esc(p[0].text) + "</span></li>"; }).join("");
+    var final = f.links && f.links.final ? '<a class="btn" href="' + esc(f.links.final) + '" target="_blank" rel="noopener">Watch the film</a>' : "";
+
+    html += '<div class="grid-2 lower">' + qualityPanel(f) +
+      '<div class="panel"><div class="label" style="margin-bottom:10px">Stages ' + f.stats.stages_done + "/" + f.stats.stages_total + "</div>" + stages +
+      '<div class="links">' + final + discordBtn() + "</div></div></div>" +
+      (log ? '<h2 class="h2">Production log</h2><ul class="log">' + log + "</ul>" : "");
+    return html;
   }
 
   // ---------- index ----------
@@ -102,7 +299,7 @@
 
   // ---------- film ----------
   function tabsFor(f) {
-    var t = [["overview", "Overview"]];
+    var t = [["production", "Production"]];
     if (f.docs.story) t.push(["story", "Story"]);
     if (f.docs.analysis) t.push(["analysis", "Analysis"]);
     if (f.docs.questions) t.push(["questions", "Questions"]);
@@ -113,33 +310,6 @@
     if (f.docs.music) t.push(["music", "Music"]);
     if (f.docs.edit) t.push(["edit", "Edit"]);
     return t;
-  }
-
-  function renderOverview(f) {
-    var st = f.stats;
-    var pct = Math.round((st.shot_progress || 0) * 100);
-    var cells = [];
-    (f.scenes || []).forEach(function (sc) {
-      sc.shots.forEach(function (sh) { if (sh.status !== "cut") cells.push({ id: sc.id + " " + sh.id, status: sh.status, loved: !!sh.loved }); });
-    });
-    var stages = '<ul class="stages">' + STAGES.map(function (s) {
-      var v = (f.stages || {})[s[0]] || "todo";
-      return '<li class="' + esc(v) + '"><span class="box ' + esc(v) + '"></span>' + s[1] + "</li>";
-    }).join("") + "</ul>";
-    var log = (f.log || []).map(function (l, i) { return [l, i]; }).sort(function (a, b) {
-      return (b[0].date || "").localeCompare(a[0].date || "") || b[1] - a[1];
-    }).map(function (p) { return p[0]; }).map(function (l) {
-      return "<li><time>" + esc(l.date) + "</time><span>" + esc(l.text) + "</span></li>";
-    }).join("");
-    var final = f.links && f.links.final ? '<a class="btn" href="' + esc(f.links.final) + '" target="_blank" rel="noopener">Watch the film</a>' : "";
-    return '<div class="grid-2">' +
-      '<div class="panel"><div class="label">Shots approved</div><div class="big">' + pct + "<small>%</small></div>" +
-      strip(cells) + '<div style="height:12px"></div>' + numbers(st, st.credits != null) +
-      (st.estimated_credits ? '<p class="label" style="margin-top:10px">Planned budget ' + num(st.estimated_credits) + " credits</p>" : "") +
-      '<div class="links">' + final + discordBtn() + "</div></div>" +
-      '<div class="panel"><div class="label" style="margin-bottom:10px">Stages ' + st.stages_done + "/" + st.stages_total + "</div>" + stages + "</div>" +
-      "</div>" +
-      (log ? '<h2 class="label" style="margin:34px 0 8px">Production log</h2><ul class="log">' + log + "</ul>" : "");
   }
 
   function renderDoc(target, doc, asScreenplay) {
@@ -192,23 +362,24 @@
               sh.takes.map(function (t) { return takeRow(t, costs); }).join("") + "</table>" : '<p class="label">No takes yet' + (sh.method ? " &middot; method: " + esc(sh.method) : "") + "</p>") +
             (lt && lt.notes ? '<p class="note">' + esc(lt.notes) + "</p>" : "") +
             "</div></div>";
-          return '<details class="shot"><summary>' + thumb +
+          return '<details class="shot" id="shot-' + esc(sc.id + "-" + sh.id) + '"><summary>' + thumb +
             '<div class="sid-col"><div class="sid">' + esc(sh.id) + "</div></div>" +
             '<div><div class="spec">' + esc(spec) + '</div><p class="desc">' + esc(sh.description) + "</p></div>" +
             '<div class="state ' + esc(sh.status) + '">' + (sh.loved ? '<span class="heart">♥</span> ' : "") + esc(sh.status) +
+            (sh.quality ? ' <span class="qnum q' + sh.quality + '">' + sh.quality + "</span>" : "") +
             "<br>" + sh.takes.length + (sh.takes.length === 1 ? " take" : " takes") + "</div>" +
             "</summary>" + body + "</details>";
         }).join("") + "</section>";
     }).join("");
   }
 
-  function renderFilm(slug, tab) {
+  function renderFilm(slug, tab, focus, keepScroll) {
     var load = FILMS[slug] ? Promise.resolve(FILMS[slug]) : getJSON("data/films/" + encodeURIComponent(slug) + ".json");
     load.then(function (f) {
       FILMS[slug] = f;
       document.title = f.title + " / " + (SITE.title || "SHORT FILMS");
       var tabs = tabsFor(f);
-      if (!tabs.some(function (t) { return t[0] === tab; })) tab = "overview";
+      if (!tabs.some(function (t) { return t[0] === tab; })) tab = "production";
       var fmt = f.format || {};
       app.innerHTML = '<a class="back label" href="#/">&larr; All films</a>' +
         '<header class="film-head"><div class="label">No. ' + esc(f.id) + "</div><h1>" + esc(f.title) + "</h1>" +
@@ -219,7 +390,7 @@
           return '<a href="#/film/' + esc(slug) + "/" + t[0] + '"' + (t[0] === tab ? ' aria-current="page"' : "") + ">" + t[1] + "</a>";
         }).join("") + '</nav><section id="tab"></section>';
       var box = document.getElementById("tab");
-      if (tab === "overview") box.innerHTML = renderOverview(f);
+      if (tab === "production") box.innerHTML = renderProduction(f);
       else if (tab === "story") renderDoc(box, f.docs.story, true);
       else if (tab === "bible") {
         box.innerHTML = renderBible(f);
@@ -236,15 +407,27 @@
         });
       } else if (tab === "shotlist") box.innerHTML = renderShotlist(f);
       else renderDoc(box, f.docs[tab], false);
-      window.scrollTo(0, 0);
+      var target = focus && document.getElementById("shot-" + focus);
+      if (target) target.open = true;
+      if (keepScroll != null) window.scrollTo(0, keepScroll);
+      else if (target) target.scrollIntoView();
+      else window.scrollTo(0, 0);
     }).catch(function () {
       app.innerHTML = '<a class="back label" href="#/">&larr; All films</a><div class="empty-state" style="margin-top:30px">This reel is missing.</div>';
     });
   }
 
-  function route() {
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#scene-"]');
+    if (!a) return;
+    e.preventDefault();
+    var el = document.getElementById(a.getAttribute("href").slice(1));
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  function route(keepScroll) {
     var parts = (location.hash || "#/").replace(/^#\/?/, "").split("/").filter(Boolean);
-    if (parts[0] === "film" && parts[1]) renderFilm(decodeURIComponent(parts[1]), parts[2] || "overview");
+    if (parts[0] === "film" && parts[1]) renderFilm(decodeURIComponent(parts[1]), parts[2] || "production", parts[3], keepScroll);
     else renderIndex();
   }
 
@@ -253,8 +436,22 @@
     foot.innerHTML = '<span class="label">Made shot by shot</span><span class="label">' +
       (s.discord ? '<a href="' + esc(s.discord) + '" target="_blank" rel="noopener">Discord</a> &middot; ' : "") +
       (s.home_url ? '<a href="' + esc(s.home_url) + '">' + esc(s.home_url.replace(/^https?:\/\//, "").replace(/\/$/, "")) + "</a>" : "") + "</span>";
-    window.addEventListener("hashchange", route);
+    window.addEventListener("hashchange", function () { route(); });
     route();
+    setInterval(function () {
+      if (document.hidden) return;
+      fetch("data/site.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (n) {
+        if (!n) return;
+        var fresh = n.built !== SITE.built;
+        SITE = n;
+        if (fresh) FILMS = {};
+        var open = [].map.call(document.querySelectorAll("details[open][id]"), function (d) { return d.id; });
+        if (fresh || /#\/film\/[^/]+\/?(production)?$/.test(location.hash)) {
+          route(window.scrollY);
+          setTimeout(function () { open.forEach(function (id) { var d = document.getElementById(id); if (d) d.open = true; }); }, 300);
+        }
+      }).catch(function () {});
+    }, 60000);
   }).catch(function () {
     app.innerHTML = '<div class="empty-state" style="margin-top:30vh">The projector is warming up. Try again in a minute.</div>';
   });

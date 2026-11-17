@@ -45,10 +45,42 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
 ## Pages
 
 - **Index**: every public film as a reel card: poster, title, logline, status stamp, progress
-  strip (approved shots out of planned), takes, credits, Discord link.
-- **Film**: tabs for Overview (stages, numbers, log), Story, Analysis, Questions, Bible,
-  Shotlist (click a shot to see the loved take, its prompt and its references, plus every take
-  with rating and cost), Budget, Sound, Music, Edit. Tabs appear as their stage starts.
+  strip (one cell per shot, colored by its best rating), takes, credits, Discord link.
+- **Film, Production tab** (the default): the production board.
+  - Approved share, shots left, runtime approved, days to the deadline, credits spent.
+  - One bar: approved (a loved take), in review (takes, no select), not shot.
+  - Plan check: shots the schedule wanted approved by today against the real count, and the pace
+    (shots a day) needed to finish by the last generation day of the plan.
+  - Schedule: one row per day from `film.json` `schedule`, its scenes with approved/total, a flag
+    when a past day is behind. "Today" is the viewer's local date.
+  - Shots by scene: one tile per shot. Fill = best rating (red 1 to 2, gray 3, blue 4 to 5, the
+    number printed), dashed = not shot, ring and heart = approved. A tile opens the shot.
+  - Quality: rating spread, strong shots with no select yet, weak shots, takes waiting for a
+    rating. Then stages and the production log.
+- Other tabs: Story, Analysis, Questions, Bible, Shotlist (every shot with its takes, rating and
+  cost; the loved take with poster, prompt and references), Budget, Sound, Music, Edit. Tabs
+  appear as their stage starts.
+
+Shot state on the site: a loved take (or status `approved`) = approved; takes without a select =
+in review; no takes = its status (`planned`, `ready`); `cut` shots are left out of every count.
+
+### Schedule (in `film.json`)
+
+```json
+"schedule": {
+  "source": "production plan v4",
+  "deadline": "2026-11-25",
+  "days": [ { "date": "2026-11-17", "scenes": ["S02", "S03"], "task": "Crossroads start frames." } ]
+}
+```
+
+### Live updates
+
+1. A working branch that changes only `stories/`, `films/` and `films-index.json` is merged into
+   `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes, and the site
+   workflow is started. From push to live: about 2 minutes.
+2. An open page checks `data/site.json` every minute and redraws when a new build is there. The
+   board shows when the data was built and from which commit.
 
 ## Deploy setup (one time, needs your Cloudflare and GitHub logins)
 
@@ -56,15 +88,16 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
    your Account ID from the dashboard sidebar.
 2. GitHub, repository Settings > Secrets and variables > Actions: add `CLOUDFLARE_API_TOKEN` and
    `CLOUDFLARE_ACCOUNT_ID`.
-3. Push to `main` (any change under `films/`). The Action `.github/workflows/site.yml` builds and deploys to a Pages project
-   called `filmai` (created on the first run), reachable at `filmai-6sp.pages.dev`.
+3. Push to `main` (any change under `films/`), or a content-only branch (Live updates above). The
+   Action `.github/workflows/site.yml` builds and deploys to the Pages project `filmai`, reachable
+   at `filmai-6sp.pages.dev`.
 4. Put it under `menchiari.net/filmai/` (menchiari.net is on Cloudflare): a small Worker on the
    route `menchiari.net/filmai*` forwards requests to `filmai-6sp.pages.dev`. The code is in
    `tools/site/worker-proxy.js`. Known facts: the most specific route pattern wins, and a Worker
-   cannot fetch its own zone, which is why it fetches the `pages.dev` address. Not known: how
-   Cloudflare orders a Worker route against a Pages custom domain on the same hostname (its docs
-   are not consistent), so we test it on your account. Fallback if it misbehaves: the subdomain
-   `filmai.menchiari.net` as a Pages custom domain, two clicks.
+   cannot fetch its own zone, which is why it fetches the `pages.dev` address.
+   Checked 2026-11-17: `www.menchiari.net/filmai/` serves the site; `menchiari.net/filmai/` (no
+   www) returns 404. Fix: the same Worker on a second route `menchiari.net/filmai*` (Cloudflare
+   dashboard, Workers Routes).
 
 Until the two secrets exist, the Action builds and skips the deploy, so nothing fails.
 
