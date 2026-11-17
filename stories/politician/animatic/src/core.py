@@ -39,6 +39,7 @@ class Mats:
 
 MATS = None
 SIDEWALKS = []
+LAUNDRY = False         # d10: no laundry anywhere (Leonard 2026-11-16). The random draws still happen, so layouts stay the same
 
 def ground_z(x, y):
     """Height of the ground under (x, y): 0.15 on a sidewalk, 0 elsewhere."""
@@ -204,7 +205,8 @@ def facade(mb, rnd, side, x0, x1, y0, y1, h, style, ground_shop=True):
                 B(ub, ub + bw, vz + 0.14, vz + 1.0, 0.92, 1.0, PAL["balcony"])
                 if rnd.random() < 0.18:
                     lc = rnd.choice(PAL["laundry"])
-                    B(ub + 0.3, ub + 0.9, vz + 0.5, vz + 1.1, 1.02, 1.05, lc)
+                    if LAUNDRY:
+                        B(ub + 0.3, ub + 0.9, vz + 0.5, vz + 1.1, 1.02, 1.05, lc)
             elif rnd.random() < 0.12:
                 B(uc + ww / 2 + 0.1, uc + ww / 2 + 0.9, vz + 0.5, vz + 1.0, 0, 0.45, "#B9B3A6")   # AC unit
         if style == "downtown" and fl % 3 == 0:

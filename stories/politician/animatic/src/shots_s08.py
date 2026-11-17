@@ -4,7 +4,7 @@ from shots_s07 import ARM, TOP, HELI_AT, hanging, rope_stick, bodies_s07
 import phys
 
 CUES = {"S08_SH030": [[0, 4, "CABIN HUM"]], "S08_SH070": [[1.2, 1.5, "CRACK"]]}
-HELI_FAR = HELI_AT
+HELI_FAR = np.array((150.0, 240.0, 150.0))   # d8 framing (d10 note): far beyond the rooftops, buildings around it (30 m higher than d8: today's roofs)
 
 def sq(eye, sky="sunset"):
     reset(sky); return sets.square(eye)
@@ -63,21 +63,25 @@ def cabin_people(nf, lady_turn=None, roger_shift=None):
     return r, pl, la, rf
 
 def S08_SH010(nf):
-    p = (-36.0, -4.0, 1.7); sq(p)
+    """d8 framing: from the street, long lens, the helicopter far beyond the rooftops, just above them."""
+    p = (-38.0, -6.0, 1.7); sq(p)
     h = PR.heli("heli")
     yaw = math.degrees(math.atan2(-(p[0] - HELI_FAR[0]), p[1] - HELI_FAR[1])) - 90
     path = lambda t: (HELI_FAR + np.array((1.5 * math.sin(t * 0.7), 0.0, 0.8 * math.sin(t * 0.5))), yaw + 2 * math.sin(t * 0.4), 0.0)
     return {"cam": cam(p, tuple(HELI_FAR + np.array((0, 0, -6))), 135), "callbacks": [PR.heli_cb(h, path)], "cues": [[0, 4, "THE CROWD BELOW, NO ROTOR"]]}
 
+CAB_CAM = ((1.4, -1.1, 1.45), (-0.35, 2.0, 1.12), 18)     # d10: a little higher, so the rifle sits lower in frame; the lady centered
+
 def S08_SH020(nf):
+    """Left: Roger's face, cheek on the stock. Center: the lady in the front seat. Right: the front half of the rifle out of frame."""
     cabin_set(); r, pl, la, rf = cabin_people(nf)
     r.face(0, 4, mouth=0.15)
-    return {"cam": cam((1.35, -1.3, 1.35), (0.0, 2.0, 1.22), 20, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
+    return {"cam": cam(*CAB_CAM, hh=0.12), "actors": [r, pl, la], "sticks": rf, "cues": [[0, 4, "ROTORS, MUFFLED"]]}
 
 def S08_SH050(nf):
     cabin_set(); r, pl, la, rf = cabin_people(nf, lady_turn=0.2)
     la.talk(1.0, 2.6)
-    return {"cam": cam((1.35, -1.3, 1.35), (0.0, 2.0, 1.22), 20, hh=0.12), "actors": [r, pl, la], "sticks": rf,
+    return {"cam": cam(*CAB_CAM, hh=0.12), "actors": [r, pl, la], "sticks": rf,
             "speakers": {"BUSINESS LADY": la}, "say": [[1.0, 2.7, "BUSINESS LADY"]]}
 
 def S08_SH060(nf):
@@ -117,11 +121,27 @@ def sniper_dead(nf):
         a = Actor(f"sd{i}", costs[i], nf); a.joints(0, [JA[-1]] * nf); acts.append(a)
     return acts
 
+def off_bodies(sim, keep, bodies, r=0.5, t_stand=4.0):
+    """d10 body map: nobody stands on or runs over the dead. A person who comes on a body is moved off it (his whole path,
+    a few decimetres); the sniper's victims (keep) are untouched, so the body map of S09 stays the same."""
+    X, Y, YW, SP = [np.array(a, float).copy() for a in sim]
+    pts = np.concatenate([np.asarray(b)[:, :2] for b in bodies]); fs = slice(0, F(t_stand) + 1)
+    for i in range(X.shape[1]):
+        if i in keep: continue
+        for _ in range(4):
+            d = np.hypot(pts[None, :, 0] - X[fs, i, None], pts[None, :, 1] - Y[fs, i, None])
+            f, k = np.unravel_index(np.argmin(d), d.shape)
+            if d[f, k] >= r: break
+            v = np.array((X[f, i] - pts[k, 0], Y[f, i] - pts[k, 1])); n = np.linalg.norm(v)
+            v = v / n if n > 1e-6 else np.array((1.0, 0.0))
+            X[:, i] += v[0] * (r - d[f, k] + 0.05); Y[:, i] += v[1] * (r - d[f, k] + 0.05)
+    return X, Y, YW, SP
+
 def S08_SH040(nf):
     """From the street, long lens: cracks from the sky. People fall, the rest run, some fall while they run. The dead stay down."""
     p = (-22.0, 10.0, 1.6); sq(p)
     JA = hanging(nf / core.FPS, struggle=0.2, seed=21); him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    acts = people("c", sniper_sim(), nf, 204)
+    acts = people("c", off_bodies(sniper_sim(), {i for i, _, _ in sniper_kills()}, [a.J[-1] if a.J is not None else a.compute()[-1] for a in bodies_s07(nf)]), nf, 204)
     for i, t, JD in sniper_kills():
         acts[i].joints(t, JD)
     cues = [[t, t + 0.2, "CRACK"] for _, t, _ in sniper_kills()]

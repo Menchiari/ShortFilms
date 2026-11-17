@@ -79,23 +79,194 @@ def strikers(acts, t0=0.6):
         a.overlays.append((0, a.nf, fn))
 
 
+# ---------------------------------------------------------------- d10: bodies as obstacles, keyed poses, the pipe rig
+def body_boxes(pad=0.25):
+    """Floor boxes around the S06 dead: crowds walk around them and nobody is placed on them."""
+    out = []
+    for k in kills():
+        J = k["JA"][-1]; out.append((float(J[:, 0].min()) - pad, float(J[:, 0].max()) + pad, float(J[:, 1].min()) - pad, float(J[:, 1].max()) + pad))
+    return out
+
+def ez(u, k):
+    u = min(1.0, max(0.0, u))
+    if k == "in": return u * u
+    if k == "out": return 1 - (1 - u) ** 2
+    if k == "lin": return u
+    return u * u * (3 - 2 * u)
+
+def keyed(a, keys, t0=0.0):
+    """Pose to pose on the scene clock: keys [(t, pose, ease into this key)]. The shot starts at scene time t0."""
+    def fn(f):
+        t = f / core.FPS + t0
+        if t <= keys[0][0]: return dict(keys[0][1])
+        for (ta, pa, _), (tb, pb, kb) in zip(keys, keys[1:]):
+            if t <= tb: return lerp_pose(pa, pb, ez((t - ta) / max(1e-6, tb - ta), kb))
+        return dict(keys[-1][1])
+    a.tracks.append((0, a.nf - 1, fn, 0))
+
+def bframe(J):
+    """Up, forward, right of the chest (follows lean and twist)."""
+    up = J[NECK] - J[PELVIS]; up = up / np.linalg.norm(up)
+    rt = J[RSH] - J[LSH]; rt = rt - up * np.dot(rt, up); rt = rt / np.linalg.norm(rt)
+    return up, np.cross(up, rt), rt
+
+PIPE_BACK, PIPE_FRONT = 0.2, 1.15     # pipe length behind and in front of the hands
+
+def pipe_pose(J, k):
+    """k = (th, tl, gf, gu, gr): th 0 = straight up, + toward the front; tl tips the swing plane to his right;
+    the hands (both on the pipe) at the neck + forward gf, up gu, right gr. Returns butt, tip, grip, direction."""
+    th, tl, gf, gu, gr = k; up, fw, rt = bframe(J)
+    a, b = math.radians(th), math.radians(tl)
+    d = (up * math.cos(b) + rt * math.sin(b)) * math.cos(a) + fw * math.sin(a)
+    G = J[NECK] + fw * gf + up * gu + rt * gr
+    return G - d * PIPE_BACK, G + d * PIPE_FRONT, G, d
+
+def pkey(keys, t):
+    """keys [(t, (th, tl, gf, gu, gr), ease into this key)] -> interpolated pipe key."""
+    if t <= keys[0][0]: return keys[0][1]
+    for (ta, ka, _), (tb, kb, e) in zip(keys, keys[1:]):
+        if t <= tb:
+            u = ez((t - ta) / max(1e-6, tb - ta), e); return tuple(x + (y - x) * u for x, y in zip(ka, kb))
+    return keys[-1][1]
+
+def solve_contact(J, P, gf, tl=80.0, gr=0.05):
+    """The pipe key whose shaft passes through P. The swing plane keeps its tilt tl (90 = level, a flat swing at his
+    head, under the hanging body); the hands go to the height that puts P in that plane. Returns the key and how far
+    along the pipe P is."""
+    up, fw, rt = bframe(J); b = math.radians(tl)
+    nn = rt * math.cos(b) - up * math.sin(b); e1 = up * math.cos(b) + rt * math.sin(b)
+    gu = float(np.clip((gr * math.cos(b) - float((np.array(P) - J[NECK]) @ nn)) / math.sin(b), -0.75, 0.1))
+    G = J[NECK] + fw * gf + up * gu + rt * gr; v = np.array(P) - G
+    th = math.degrees(math.atan2(float(v @ fw), float(v @ e1)))
+    return (th, tl, gf, gu, gr), float(np.linalg.norm(v))
+
+def rod_fall(A0, B0, T, v0=(0.0, 0.0, 0.0), e=0.35, r=0.03):
+    """The dropped pipe: two ends with a fixed distance, gravity, bounces on the asphalt (it rings), slides to rest."""
+    dt = 1 / 480.0; X = np.array([A0, B0], float); L = float(np.linalg.norm(X[1] - X[0]))
+    Xp = X - np.array(v0, float) * dt; g = np.array((0, 0, -9.81)); out = []; every = int(round(1 / (core.FPS * dt)))
+    for k in range(int(round(T / dt)) + 1):
+        if k % every == 0: out.append(X.copy())
+        V = X - Xp; Xp = X.copy(); X = X + V * 0.999 + g * dt * dt
+        for _ in range(4):
+            d = X[1] - X[0]; dl = np.linalg.norm(d) + 1e-9; c = (dl - L) / dl * 0.5; X[0] += d * c; X[1] -= d * c
+            for i in (0, 1):
+                h = core.ground_z(X[i, 0], X[i, 1]) + r
+                if X[i, 2] < h:
+                    X[i, 2] = h; Xp[i, 2] = h + V[i, 2] * e if V[i, 2] < 0 else h
+                    Xp[i, :2] = X[i, :2] - V[i, :2] * 0.7
+    return np.array(out)
+
+def watchers(nf, n, seed, avoid=(), r_min=2.4, lam=2.6, max_r=16, center=None):
+    """People standing around the corner, watching him hang; nobody on the dead."""
+    c = center if center is not None else (ARM[0], ARM[1])
+    P = falloff(c, n, r_min=r_min, lam=lam, arc=(-180, 180), seed=seed, walls=SQ_WALLS + body_boxes(), max_r=max_r, avoid=list(avoid))
+    rng = np.random.default_rng(seed); out = []
+    for i, (x, y) in enumerate(P):
+        a = Actor(f"w{i}", crowd_costume(random.Random(seed * 10 + i)), nf)
+        a.hold(0, nf / core.FPS, pose("stand", x=float(x), y=float(y), yaw=fdir((x, y), ARM[:2]) + rng.uniform(-15, 15), hpitch=-12, spine=rng.uniform(-3, 8)))
+        ph = rng.uniform(0, 6.28); fr = rng.uniform(0.1, 0.3)
+        a.overlays.append((0, nf, lambda f, q, ph=ph, fr=fr: dict(q, hyaw=q["hyaw"] + 10 * math.sin(2 * math.pi * fr * f / core.FPS + ph))))
+        out.append(a)
+    return out
+
+def dies(a, t, JA):
+    """Physics from time t (shot time) on, and the body stays down after the simulation ends."""
+    a.joints(t, JA); a.joints(t + (len(JA) - 1) / core.FPS, [JA[-1]] * (a.nf + 1))
+
+def fat_actor(nf, keys, t0=0.0):
+    a = Actor("fat", COST["fat"], nf); keyed(a, keys, t0); return a
+
+def pipe_track(a, keys, t0=0.0, after=None):
+    """The pipe in his hands on the scene clock; after = (t_shot, frames of the dropped pipe) once he is shot."""
+    def fn(f):
+        t = f / core.FPS
+        if after is not None and t >= after[0]:
+            R = after[1][min(len(after[1]) - 1, F(t - after[0]))]; return tuple(R[0]), tuple(R[1])
+        A, B, _, _ = pipe_pose(a.J[min(f, a.nf - 1)], pkey(keys, t + t0)); return tuple(A), tuple(B)
+    return Stick("pipe_bar", 0.03, "#8A8A8E", fn)
+
+# The blow (SH050 and SH060 are two angles of one blow, on one clock: SH050 starts at 0, SH060 at H - 0.8)
+H = 4.0                     # contact, SH050 time
+SW_T = 5.4                  # length of the simulated hang around the blow
+STEADY = 1.5
+LOW = (150.0, 0.0, 0.42, -0.62, -0.12)       # pipe held low in front, both hands at the belly
+COCK = (-20.0, -45.0, 0.12, -0.02, -0.28)    # cocked back over his shoulder (the left: he swings left to right, his forearm comes first)
+ANTIC = (-38.0, -52.0, 0.05, 0.0, -0.30)     # coiled a little further before the swing
+READY = (-15.0, -12.0, 0.25, -0.12, -0.18)   # after the blow: back up at the shoulder, ready again
+_SW = {}
+def swing_plan():
+    """Where his forearm is at the blow, the fat man's moves, the pipe keys, and the hang with the blow in it."""
+    if "plan" in _SW: return _SW["plan"]
+    pre = phys.hanging(SW_T, struggle=0.15, seed=12, protect=0.3, steady=STEADY)
+    fH = F(H); J = pre[fH]; FM = np.array(PIPE_AT)
+    uh = (J[HEAD, :2] - FM) / np.linalg.norm(J[HEAD, :2] - FM); rgt = np.array((uh[1], -uh[0]))
+    cand = []
+    for side, (e, h) in (("lfarm", (LEL, LHA)), ("rfarm", (REL, RHA))):
+        P = J[e] * 0.45 + J[h] * 0.55
+        cand.append((float((P[:2] - FM) @ rgt), side, P))      # the swing comes from his left: the leftmost forearm meets it first
+    _, side, P = min(cand, key=lambda c: c[0])
+    yaw = fdir(PIPE_AT, P[:2]); u = (P[:2] - FM) / np.linalg.norm(P[:2] - FM); nrm = np.array((-u[1], u[0]))
+    W = FM - u * 0.6                                    # wind-up spot: he steps into the blow
+    S0 = W - nrm * 1.6 - u * 0.5                        # he comes in from the side, out of the crowd
+    st = lambda x, y, **kw: pose("stand", x=float(x), y=float(y), **dict(dict(yaw=yaw), **kw))
+    body = [(0.0, st(*S0, yaw=fdir(S0, W)), "io"), (1.2, st(*W), "io"),
+            (2.5, st(*W, spine=-5, twist=16), "io"), (3.5, st(*W, spine=-4, twist=18), "io"),
+            (3.72, st(*(W + u * 0.15), spine=-9, twist=30), "io"), (H, st(*FM, spine=10, twist=-22), "io"),
+            (H + 0.2, st(*FM, spine=3, twist=-12), "out"), (H + 1.4, st(*FM, spine=2, twist=8), "io")]
+    fm = Actor("fatplan", COST["fat"], F(SW_T) + 1); keyed(fm, body); fm.compute()
+    CON, L = solve_contact(fm.J[fH], P, 0.42, tl=-80.0, gr=-0.05)
+    # cocked high, the pipe drops behind him into a flat swing at his head height (under the hanging body, so the
+    # forearm is the first thing it meets); it accelerates into the contact (ease in: fastest at the hit), then
+    # rebounds with the restitution e: the angular speed reverses at e times the speed it came in with
+    t_a = 3.72; t_s = 3.84; SLOT = (-40.0, -70.0, 0.22, -0.32, -0.24)
+    e = 0.3; w_in = 2 * (CON[0] - SLOT[0]) / (H - t_s); D2 = 0.22; dth = e * w_in * D2 / 2
+    REB = (CON[0] - dth, CON[1], CON[2] - 0.14, CON[3] + 0.05, CON[4] - 0.05)
+    keys = [(0.0, LOW, "io"), (1.1, LOW, "io"), (2.5, COCK, "io"), (3.5, (-22.0, -46.0, 0.12, -0.01, -0.28), "io"),
+            (t_a, ANTIC, "io"), (t_s, SLOT, "in"), (H, CON, "in"), (H + D2, REB, "out"), (H + 1.3, READY, "io")]
+    # the blow pushes where the pipe moves at contact
+    A1, B1, G1, d1 = pipe_pose(fm.J[fH], CON); A0, B0, G0, d0 = pipe_pose(fm.J[fH - 1], pkey(keys, H - 1 / core.FPS))
+    hd = (G1 + d1 * L) - (G0 + d0 * L); hd[2] = min(hd[2], 0.0)
+    JA = phys.hanging(SW_T, struggle=0.15, seed=12, protect=0.3, steady=STEADY, hits=(H,), hit_body=side, hit_dir=tuple(hd))
+    _SW["plan"] = dict(JA=JA, body=body, keys=keys, P=P, side=side, L=L, CON=CON, W=W, S0=S0, yaw=yaw, hd=hd, w_in=w_in, dth=dth)
+    return _SW["plan"]
+
+# The kill (SH070 and SH080 are two angles of one kill, on one clock: SH070 starts at 0, SH080 at KC - 0.8)
+KC = 2.65                   # the crack, SH070 time
+HIGH = (-30.0, 0.0, 0.12, 0.60, -0.03)         # the pipe high over his head, both hands up
+HIGH2 = (-58.0, 0.0, 0.04, 0.66, -0.03)        # stretched back to strike: the anticipation
+KILL_YAW = fdir(PIPE_AT, (ARM[0], ARM[1]))
+def kill_body():
+    st = lambda **kw: pose("stand", x=PIPE_AT[0], y=PIPE_AT[1], yaw=KILL_YAW, **kw)
+    return [(0.0, st(spine=2, twist=8), "io"), (0.3, st(spine=2, twist=8), "io"), (2.0, st(spine=-6), "io"), (KC, st(spine=-12), "io")]
+KILL_KEYS = [(0.0, READY, "io"), (0.3, READY, "io"), (2.0, HIGH, "io"), (KC, HIGH2, "io")]
+_KP = {}
+def kill_pipe():
+    """The pipe at the crack, then dropped: it falls, rings on the asphalt, rolls to rest (the same in SH070 and SH080)."""
+    if "R" not in _KP:
+        fm = fat_actor(F(KC) + 2, kill_body()); fm.compute()
+        A, B, _, _ = pipe_pose(fm.J[F(KC)], pkey(KILL_KEYS, KC))
+        _KP["R"] = rod_fall(A, B, 3.0, v0=(0.25 * math.sin(math.radians(KILL_YAW)), -0.25 * math.cos(math.radians(KILL_YAW)), 0.3))
+    return _KP["R"]
+
+
 def S07_SH010(nf):
     """From far above: the mob closes over him at the corner; more keep coming from every street; the dead lie where they fell."""
     p = (-20.0, 16.0, 26.0); sq(p)
     him = Actor("him", COST["him"], nf); him.hold(0, nf / core.FPS, pose("lie_curl", x=DOWN_AT[0], y=DOWN_AT[1], yaw=90))
     rng = np.random.default_rng(81); n = 60
-    P0 = falloff(DOWN_AT, n, r_min=4.0, lam=2.6, arc=(-180, 180), seed=81, walls=SQ_WALLS, max_r=24)
-    S = falloff(DOWN_AT, n, r_min=0.8, lam=1.4, arc=(-180, 180), seed=82, walls=SQ_WALLS, max_r=12)
+    BW = SQ_WALLS + body_boxes()
+    P0 = falloff(DOWN_AT, n, r_min=4.0, lam=2.6, arc=(-180, 180), seed=81, walls=BW, max_r=24)
+    S = falloff(DOWN_AT, n, r_min=0.8, lam=1.4, arc=(-180, 180), seed=82, walls=BW, max_r=12)
     T_ = assign(P0, S, DOWN_AT)
-    cr = Crowd(P0, rng.uniform(1.5, 4.5, n), focus=DOWN_AT, space_k=0.02, walls=SQ_WALLS, bubble=lambda t: (DOWN_AT, 0.65), seed=83, start=rng.uniform(0, 1.2, n))
+    cr = Crowd(P0, rng.uniform(1.5, 4.5, n), focus=DOWN_AT, space_k=0.02, walls=BW, bubble=lambda t: (DOWN_AT, 0.65), seed=83, start=rng.uniform(0, 1.2, n))
     look = np.repeat(np.array(DOWN_AT)[None], n, 0)
     acts = people("c", cr.run(nf / core.FPS, lambda t, P, V: (seek(P, T_, cr.v0, 2.0), look)), nf, 84)
     strikers(acts, 0.6)
     # more people arriving from the streets and the square, each at his own pace, and the ones who just watch
     m = 70
-    Q0 = falloff(DOWN_AT, m, r_min=14.0, lam=9.0, arc=(-180, 180), seed=85, walls=SQ_WALLS, max_r=60)
-    Q1 = falloff(DOWN_AT, m, r_min=4.0, lam=4.0, arc=(-180, 180), seed=86, walls=SQ_WALLS, max_r=30); QT = assign(Q0, Q1, DOWN_AT)
-    cr2 = Crowd(Q0, rng.uniform(0.6, 3.0, m), walls=SQ_WALLS, space_k=0.0, seed=87, start=rng.uniform(0, 3.5, m))
+    Q0 = falloff(DOWN_AT, m, r_min=14.0, lam=9.0, arc=(-180, 180), seed=85, walls=BW, max_r=60)
+    Q1 = falloff(DOWN_AT, m, r_min=4.0, lam=4.0, arc=(-180, 180), seed=86, walls=BW, max_r=30); QT = assign(Q0, Q1, DOWN_AT)
+    cr2 = Crowd(Q0, rng.uniform(0.6, 3.0, m), walls=BW, space_k=0.0, seed=87, start=rng.uniform(0, 3.5, m))
     acts += people("o", cr2.run(nf / core.FPS, lambda t, P, V: (seek(P, QT, cr2.v0, 2.0), np.repeat(np.array(DOWN_AT)[None], m, 0))), nf, 88)
     return {"cam": cam(p, (-41, -8, 0.5), 35), "actors": [him] + acts + dead_actors(nf), "cues": [[0, 5, "ROAR, FISTS AND KICKS"]]}
 
@@ -136,9 +307,9 @@ def S07_SH030(nf):
     for i, (x, y) in enumerate([(-37.6, -4.9), (-38.0, -5.4), (-38.6, -4.7), (-37.3, -5.6), (-38.9, -5.8)]):
         a = Actor(f"n{i}", crowd_costume(random.Random(110 + i)), nf); a.hold(0, 4, pose("stand", x=x, y=y, yaw=fdir((x, y), (ARM[0], ARM[1])), hpitch=-15)); near.append(a)
     ring = []
-    for i, (x, y) in enumerate(falloff((ARM[0], ARM[1]), 22, r_min=2.0, lam=2.2, arc=(-180, 180), seed=121, walls=SQ_WALLS, max_r=18, avoid=[((-36.4, -3.6), 1.5)])):
+    for i, (x, y) in enumerate(falloff((ARM[0], ARM[1]), 22, r_min=2.0, lam=2.2, arc=(-180, 180), seed=121, walls=SQ_WALLS + body_boxes(), max_r=18, avoid=[((-36.4, -3.6), 1.5)])):
         a = Actor(f"r{i}", crowd_costume(random.Random(130 + i)), nf); a.hold(0, 4, pose("stand", x=x, y=y, yaw=fdir((x, y), ARM[:2]))); ring.append(a)
-    return {"cam": cam(p, (ARM[0], ARM[1], 2.2), 30, hh=0.7), "actors": [him] + pullers + near + ring, "sticks": [s1, s2],
+    return {"cam": cam(p, (ARM[0], ARM[1], 2.2), 30, hh=0.7), "actors": [him] + pullers + near + ring + dead_actors(nf), "sticks": [s1, s2],
             "cues": [[0.5, 3.1, "THEY HAUL HIM UP BY ONE ANKLE"]]}
 
 def S07_SH040(nf):
@@ -149,62 +320,111 @@ def S07_SH040(nf):
     him.face(0, 1.2, eyes=0.1); him.face(1.2, 3.0, eyes=0.55)
     return {"cam": follow(him, p, lens=150, offset=(0, 0, 0), lag=0.2, joint=HEAD), "actors": [him], "sticks": [rope_stick(JA)]}
 
+def _seg(a, b, k=6, r=0.9):
+    a = np.array(a[:2], float); b = np.array(b[:2], float); return [(tuple(a + (b - a) * u), r) for u in np.linspace(0, 1, k)]
+
 def S07_SH050(nf):
-    """His upside-down view: the fat man, the pipe cocked over his shoulder. He holds it. Waits. Swings."""
-    T = nf / core.FPS; hit = 3.05
-    JA = hanging(T, hits=(hit,), struggle=0.15, seed=12, protect=0.2)
+    """His upside-down view: the fat man steps in, the pipe low in both hands, slowly lifts it back over his shoulder,
+    holds it there, waits, then swings hard straight at him. The pipe cracks on his forearm and bounces back."""
+    pl = swing_plan(); JA = pl["JA"]
     sq(tuple(JA[0][HEAD]))
-    fm = fat_man(nf, [(0, "stand"), (3.0, "stand")]); fm.compute()
-    him = Actor("him", COST["him"], nf); him.joints(0, JA); him.hide(0, T)
+    fm = fat_actor(nf, pl["body"]); fm.compute()
+    him = Actor("him", COST["him"], nf); him.joints(0, JA[:nf]); him.hide(0, nf / core.FPS)
+    tgt = np.array((pl["W"][0], pl["W"][1], 1.2))
+    side = np.array((-(tgt[1] - JA[0][HEAD][1]), tgt[0] - JA[0][HEAD][0], 0.0)); side /= np.linalg.norm(side)
     def camfn(t):
-        f = min(len(JA) - 1, int(round(t * core.FPS))); J = JA[f]
-        pos = J[HEAD] + (J[NOSE] - J[HEAD]) * 0.8
-        return pos, np.array((PIPE_AT[0], PIPE_AT[1], 1.45)), 24, 180
-    return {"cam": {"fn": camfn}, "actors": [him, fm], "sticks": [pipe_stick(fm, swing(t_swing=2.6, t_hit=hit))], "cues": [[hit, hit + 0.25, "HIT"]]}
+        f = int(round(t * core.FPS)); pts = []
+        for k in range(-1, 2):
+            J = JA[min(len(JA) - 1, max(0, f + k))]; pts.append(J[HEAD] + (J[NOSE] - J[HEAD]) * 0.8)
+        jolt = 0.0 if t <= H + 0.01 else 0.3 * math.exp(-(t - H) / 0.2) * math.cos((t - H - 0.08) * 30)     # the blow snaps his head
+        return np.mean(pts, axis=0), tgt + side * jolt, 16, 180 + 25 * jolt
+    crowd = watchers(nf, 26, 61, avoid=_seg(ARM, pl["W"]) + _seg(pl["S0"], pl["W"]) + [(tuple(pl["W"]), 1.6)])
+    return {"cam": {"fn": camfn}, "actors": [him, fm] + crowd + dead_actors(nf), "sticks": [pipe_track(fm, pl["keys"])],
+            "cues": [[H, H + 0.25, "CRACK ON THE FOREARM"]]}
 
 def S07_SH060(nf):
-    """Close: the pipe slams into his forearm, raised over his head."""
-    hit = 0.8
-    JA = hanging(nf / core.FPS, hits=(hit,), struggle=0.0, seed=16, protect=0.0)
-    head0 = JA[0][HEAD]; p = tuple(head0 + np.array((-0.6, 2.3, 0.4))); sq(p)
-    him = Actor("him", COST["him"], nf); him.joints(0, JA); him.face(0, 2, eyes=0.1)
-    fm = fat_man(nf, [(0, "stand"), (2.0, "stand")]); fm.compute()
-    return {"cam": cam(p, tuple(head0 + np.array((0.45, 0.0, 0.25))), 35, hh=0.4), "actors": [him, fm],
-            "sticks": [pipe_stick(fm, swing(t_swing=0.45, t_hit=hit)), rope_stick(JA)], "cues": [[hit, hit + 0.25, "CRACK ON THE FOREARM"]]}
+    """Close, handheld, from the side: the pipe slams into his forearm, raised over his head, and bounces back off it."""
+    pl = swing_plan(); t0 = H - 0.8; f0 = F(t0); JA = pl["JA"][f0:f0 + nf]
+    P = pl["P"]; u = (P[:2] - np.array(PIPE_AT)); u /= np.linalg.norm(u); n = np.array((-u[1], u[0]))
+    dv = u * 0.75 + n * 1.0; dv /= np.linalg.norm(dv)
+    p = np.array((P[0] + dv[0] * 1.8, P[1] + dv[1] * 1.8, P[2] + 0.3)); sq(tuple(p))
+    him = Actor("him", COST["him"], nf); him.joints(0, JA); him.face(0, 0.8, eyes=0.2); him.face(0.8, 2, eyes=0.0)
+    fm = fat_actor(nf, pl["body"], t0); fm.compute()
+    crowd = watchers(nf, 18, 62, avoid=_seg(p, P, r=1.0) + [(tuple(PIPE_AT), 1.4), (tuple(pl["W"]), 1.2)])
+    tgt = (P[0] + u[0] * 0.05, P[1] + u[1] * 0.05, P[2] + 0.12)
+    return {"cam": cam(tuple(p), tgt, 28, hh=0.4), "actors": [him, fm] + crowd + dead_actors(nf),
+            "sticks": [pipe_track(fm, pl["keys"], t0), rope_stick(JA)], "cues": [[0.8, 1.05, "CRACK ON THE FOREARM"]]}
+
+def _kill_hang(T, seed):
+    return phys.hanging(T, struggle=0.12, seed=seed, steady=STEADY)
 
 def S07_SH070(nf):
-    """Low, looking up: the pipe high against the sky, held with both hands. A crack. He drops where he stands."""
-    p = (-39.2, -4.7, 0.35); sq(p)
-    shot = 1.3
-    fm = fat_man(nf, [(0, "stand")]); fm.joints(shot, fat_death()); fm.compute()
-    JA = hanging(nf / core.FPS, struggle=0.1, seed=13); him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    stick = pipe_stick(fm, lambda t: -8.0); orig = stick.fn
-    def pipe(f):
-        t = f / core.FPS
-        if t < shot: return orig(f)
-        a, b = [np.array(v) for v in orig(F(shot) - 1)]; u = min(1, (t - shot) / 0.6)
-        return tuple(a + np.array((0.2, 0.3, -a[2] + 0.03)) * u), tuple(b + np.array((0.9, 0.4, -b[2] + 0.03)) * u)
-    stick.fn = pipe
-    return {"cam": cam(p, (PIPE_AT[0], PIPE_AT[1], 2.4), 24), "actors": [fm, him], "sticks": [stick, rope_stick(JA)],
-            "cues": [[shot, shot + 0.3, "A CRACK FROM THE SKY"], [shot + 0.6, 3, "THE PIPE RINGS ON THE ASPHALT"]]}
+    """Low, looking up, his whole figure: he slowly lifts the pipe high over his head with both hands, taking his time.
+    As he is about to swing: a crack. He drops where he stands; the pipe falls and rings on the asphalt."""
+    fv = np.array((-math.sin(math.radians(KILL_YAW)), math.cos(math.radians(KILL_YAW))))
+    a = math.radians(75); cd = np.array((fv[0] * math.cos(a) - fv[1] * math.sin(a), fv[0] * math.sin(a) + fv[1] * math.cos(a)))
+    b = np.array(PIPE_AT) + cd * 3.0
+    gz = 0.15 if any(x0 <= b[0] <= x1 and y0 <= b[1] <= y1 for (x0, x1, y0, y1) in phys.CORNER) else 0.0
+    p = (float(b[0]), float(b[1]), gz + 0.2); sq(p)
+    fm = fat_actor(nf, kill_body()); dies(fm, KC, fat_death()); fm.compute()
+    JA = _kill_hang(nf / core.FPS, 13); him = Actor("him", COST["him"], nf); him.joints(0, JA)
+    crowd = watchers(nf, 22, 71, avoid=_seg(p, PIPE_AT, r=1.4) + [(tuple(PIPE_AT), 1.8), (p[:2], 4.8)])
+    return {"cam": cam(p, (PIPE_AT[0], PIPE_AT[1], 1.5), 14), "actors": [fm, him] + crowd + dead_actors(nf),
+            "sticks": [pipe_track(fm, KILL_KEYS, 0.0, after=(KC, kill_pipe())), rope_stick(JA)],
+            "cues": [[KC, KC + 0.3, "A CRACK FROM THE SKY"], [KC + 0.6, 4, "THE PIPE RINGS ON THE ASPHALT"]]}
 
 def S07_SH080(nf):
-    """High and in front: the crack, the fat man drops, the pipe rings. The crowd steps back, confused. Seconds later another man drops."""
-    p = (-31.5, -1.5, 8.5); sq(p)
-    shot = 0.6; shot2 = 3.6
-    fm = fat_man(nf, [(0, "stand")]); fm.joints(shot, fat_death())
-    JA = hanging(nf / core.FPS, struggle=0.15, seed=14); him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    rng = np.random.default_rng(171); n = 70
-    P0 = falloff((ARM[0], ARM[1]), n, r_min=2.4, lam=3.0, arc=(-180, 180), seed=172, walls=SQ_WALLS, max_r=30)
+    """High and in front: the crack, the fat man drops, the pipe rings. The crowd steps back, confused, looking around.
+    Seconds later another man drops. A few run. Then others."""
+    p = (-30.6, -9.0, 6.2); sq(p)
+    shot = 0.8; shot2 = 3.0; t0 = KC - shot
+    fm = fat_actor(nf, kill_body(), t0); dies(fm, shot, fat_death()); fm.compute()
+    JA = _kill_hang(nf / core.FPS, 14); him = Actor("him", COST["him"], nf); him.joints(0, JA)
+    rng = np.random.default_rng(171); n = 64
+    P0 = falloff((ARM[0], ARM[1]), n, r_min=2.4, lam=3.0, arc=(-180, 180), seed=172, walls=SQ_WALLS + body_boxes(), max_r=26,
+                 avoid=[(tuple(PIPE_AT), 1.3), (SECOND, 1.3), (p[:2], 5.5)] + _seg(p, SECOND, k=8, r=0.8) + _seg(p, PIPE_AT, k=10, r=0.6))
     out = P0 - ARM[:2][None]; out /= np.linalg.norm(out, axis=1)[:, None]
-    T_ = P0 + out * rng.uniform(0.6, 2.2, n)[:, None]
-    cr = Crowd(P0, rng.uniform(0.6, 1.3, n), walls=SQ_WALLS, space_k=0.0, seed=173, start=shot + rng.uniform(0.3, 1.2, n))
-    look = np.repeat(ARM[:2][None], n, 0)
-    acts = people("c", cr.run(nf / core.FPS, lambda t, P, V: (seek(P, T_, cr.v0, 0.8), look)), nf, 174)
+    back = P0 + out * rng.uniform(0.6, 2.0, n)[:, None]
+    far = P0 + out * 30.0
+    dsec = np.linalg.norm(P0 - np.array(SECOND)[None], axis=1)
+    away2 = P0 + (P0 - np.array(SECOND)[None]) / dsec[:, None] * rng.uniform(1.5, 3.0, n)[:, None]
+    near2 = dsec < 3.5
+    react = shot + rng.uniform(0.25, 0.9, n)
+    react2 = shot2 + rng.uniform(0.15, 0.5, n)
+    t_run = np.full(n, 99.0); order = [i for i in rng.permutation(n)]
+    for j, i in enumerate(order[:5]):
+        t_run[i] = shot2 + 0.35 + 0.2 * j + rng.uniform(0, 0.15)              # a few run
+    for j, i in enumerate(order[5:30]):
+        t_run[i] = shot2 + 1.15 + 0.035 * j + rng.uniform(0, 0.35)            # then others
+    v_back = rng.uniform(0.8, 1.3, n); v_run = rng.uniform(3.4, 5.0, n)
+    v0 = np.where(t_run < 50, v_run, np.maximum(v_back, 1.6))
+    def brain(t, P, V):
+        T = back.copy(); sp = v_back.copy()
+        m2 = near2 & (t >= react2); T[m2] = away2[m2]; sp[m2] = 1.6
+        r = t >= t_run; T[r] = far[r]; sp[r] = v_run[r]
+        Vd = seek(P, T, sp, 0.8); Vd[t < react] = 0.0
+        return Vd, np.repeat(ARM[:2][None], n, 0)
+    cr = Crowd(P0, v0, walls=SQ_WALLS + body_boxes(), space_k=0.0, seed=173)
+    X, Y, YW, SP = cr.run(nf / core.FPS, brain)
+    # stepping back they keep their eyes on the corner (a step back, not a turn away); runners face where they run
+    for i in range(n):
+        for f in range(X.shape[0]):
+            t = f / core.FPS
+            if t < t_run[i] and not (near2[i] and t >= react2[i]):
+                YW[f, i] = fdir((X[f, i], Y[f, i]), ARM[:2])
+    acts = people("c", (X, Y, YW, SP), nf, 174)
     for i, a in enumerate(acts):
-        a.overlays.append((F(shot + 0.4), nf, lambda f, q, s=rng.uniform(-60, 60), pt=rng.uniform(-40, -10): dict(q, hyaw=q["hyaw"] + s, hpitch=pt)))
-    sec = Actor("second", crowd_costume(random.Random(171)), nf); sec.hold(0, shot2, pose("stand", x=SECOND[0], y=SECOND[1], yaw=fdir(SECOND, ARM[:2]) + 180)); sec.joints(shot2, second_death())
-    pipe = Stick("pipe_bar", 0.025, "#8A8A8E", lambda f: ((PIPE_AT[0] + 0.3, PIPE_AT[1] + 0.4, 1.9), (PIPE_AT[0] + 0.4, PIPE_AT[1] + 0.5, 3.0)) if f < F(shot)
-                 else ((PIPE_AT[0] + 0.4, PIPE_AT[1] + 0.6, 0.03), (PIPE_AT[0] + 1.3, PIPE_AT[1] + 1.0, 0.03)))
-    return {"cam": cam(p, (-40, -6.5, 3.0), 35), "actors": [fm, him, sec] + acts + dead_actors(nf), "sticks": [rope_stick(JA), pipe],
+        # confused: looking around and up at the sky, each on his own beat
+        s1, s2, pt = rng.uniform(-70, 70), rng.uniform(-70, 70), rng.uniform(-40, -10); tl = react[i] + rng.uniform(0.3, 1.2)
+        def look(f, q, s1=s1, s2=s2, pt=pt, tl=tl, r0=react[i], tr=t_run[i]):
+            t = f / core.FPS
+            if t < r0 or t >= tr: return q
+            w = ez((t - r0) / 0.4, "io"); s = s1 if t < tl else s2
+            return dict(q, hyaw=q["hyaw"] + s * w, hpitch=q["hpitch"] + pt * w)
+        a.overlays.append((0, nf, look))
+    sec = Actor("second", crowd_costume(random.Random(171)), nf)
+    sec.hold(0, shot2, pose("stand", x=SECOND[0], y=SECOND[1], yaw=fdir(SECOND, ARM[:2]) + 180)); dies(sec, shot2, second_death())
+    sec.overlays.append((F(shot + 0.5), F(shot2), lambda f, q: dict(q, hyaw=q["hyaw"] + 40 * math.sin(f * 0.25), hpitch=-25)))
+    return {"cam": cam(p, (-36.9, -4.3, 1.0), 26), "actors": [fm, him, sec] + acts + dead_actors(nf),
+            "sticks": [rope_stick(JA), pipe_track(fm, KILL_KEYS, t0, after=(shot, kill_pipe()))],
             "cues": [[shot, shot + 0.3, "A CRACK FROM THE SKY"], [shot + 0.5, shot + 1.2, "THE PIPE RINGS"], [shot2, shot2 + 0.3, "ANOTHER CRACK"]]}
