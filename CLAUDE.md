@@ -50,8 +50,9 @@ follows these rules. They override habits and defaults.
 - Ratings: the user's word wins. If the user only reacts, infer the rating and mark
   `"rating_source": "inferred"`: "love it" = 5 + love, "good/works" = 4, "usable" = 3,
   "meh" = 2, "no/bad" = 1.
-- Keep `film.json` stages and log current. The website reads them. The site never carries video:
-  one poster still per loved take, the finished film is linked (YouTube or Vimeo).
+- Keep `film.json` stages and log current. The website reads them. The site plays every take
+  with its prompt and notes (user decision 2026-11-17), one poster still per loved take for the
+  cards, the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
 
