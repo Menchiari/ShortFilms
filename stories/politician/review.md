@@ -123,3 +123,22 @@ Nothing blocking. Issues and what was done:
 | Fidelity | S06 SH030 misread; S07 SH050 unchanged text | SH030 fixed (see N2); SH050 5 s with the beats written out |
 
 Still open from d9: the rock timing against the line; PPK/S click or lock open; the S07 gore wording against "no splattered head".
+
+---
+
+# Braintrust review: screenplay draft 11 (2026-11-17)
+
+Nothing blocking. Fixes made the same day:
+
+| # | Issue | Resolution |
+|---|---|---|
+| N1 | The body map pointed to a shot before the sniper's kills | Header: the animatic d11 holds the map (his eight, the fat person and a second man in S07, three in S08); the helicopter lands clear; the case may sit off its S05 spot |
+| N2 | "Black Hawk" in prompt-facing text | Removed from the shot note; the question stays open |
+| N3 | S09 SH100 turn without screen direction | He ends in profile, face toward frame left, chin up at the street (animatic d11) |
+| N4 | S06 gun aim missing in the text | SH010 and SH020: the gun aims along his extended right arm at his target |
+| N5 | "Until it is gone" impossible in 8 to 10 s | It shrinks to a speck in the sunset haze |
+| N6 | S07 SH040 panic vs daze | One eye opens, then panic |
+| N8 | Running dead dropped from S08 SH040 | The last of the three is hit while he runs |
+| N10 | Leg pose contradiction | One knee up, one leg out |
+| N11 | The car "only in S10" | Seen far off in S09 SH110 and in S10 |
+| Open | N7 runtime margin zero; N9 the kill close-up against "nothing too explicit"; N12 accepted (Leonard's angle); N13 pistol finish | Questions for Leonard |

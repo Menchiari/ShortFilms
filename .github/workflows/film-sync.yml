@@ -1,0 +1,64 @@
+name: film-sync
+
+# Keeps every film in step with its story folder (tools/storysync.py: shots follow the screenplay,
+# takes logged in the story are copied in), then keeps the live site in step with main. Runs after
+# every stories-sync run and on pushes to main, always with main's copy of this file, so work from
+# a session whose branch is out of date still reaches the site.
+
+on:
+  workflow_run:
+    workflows: [stories-sync]
+    types: [completed]
+  push:
+    branches: [main]
+    paths: ["stories/**", "tools/storysync.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: film-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/stories/*/*
+            /stories/*/screenplay.fountain
+            /stories/*/takes/
+            /stories/*/prompts/
+            !/docs/reference/
+
+      - name: Sync films with their stories, deploy if the site is behind
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 tools/storysync.py
+          if [ -n "$(git status --porcelain -- films films-index.json)" ]; then
+            python3 tools/filmtool.py check
+            git add films films-index.json
+            git commit -q -m "films: synced from stories (shots, takes)"
+            for i in 1 2 3; do git push -q origin HEAD:main && break; git pull -q --rebase origin main; done
+          fi
+          live=$(curl -fsS "https://filmai-6sp.pages.dev/data/site.json" | python3 -c "import sys,json;print(json.load(sys.stdin).get('commit',''))" || true)
+          if [ -z "$live" ] || ! git cat-file -e "$live^{commit}" 2>/dev/null \
+             || [ -n "$(git diff --name-only "$live" HEAD -- films tools/site site.json)" ]; then
+            gh workflow run site.yml --ref main
+            echo "Site deploy started (live build: ${live:-unknown})."
+          else
+            echo "Site already shows main (live build: $live)."
+          fi

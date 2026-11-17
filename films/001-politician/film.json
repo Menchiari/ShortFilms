@@ -1,7 +1,8 @@
 {
   "id": "001",
   "slug": "001-politician",
-  "title": "Politician",
+  "title": "Routine",
+  "project": "Politician",
   "logline": "",
   "status": "generation",
   "created": "2026-11-17",
@@ -23,7 +24,7 @@
     "resolution": "480p",
     "target_runtime_s": 420
   },
-  "poster": "",
+  "poster": "03-bible/style-refs/mood_4_town-edge.webp",
   "schedule": {
     "source": "production plan v4 (2026-11-15), written for draft 8",
     "deadline": "2026-11-25",
@@ -247,7 +248,15 @@
     },
     {
       "date": "2026-11-17",
+      "text": "Title: Routine (project name stays Politician). Poster: the Midjourney town-edge mood image."
+    },
+    {
+      "date": "2026-11-17",
       "text": "REQUEST 014 approved (105 credits) and submitted: S01 SH010 T03 08ec040c-0633-4548-9dff-153f18770d7a, SH020 T03 (edit of T02) d9990f39-b8dc-4d00-94f4-3dd12bdd682c, SH050 T02 (edit of T01) fd97bfbf-e697-45af-86c8-5d431a57855a, SH060 T02 13416e9e-1c84-4215-ba03-f87db37e333d, SH070 T05 07c6dca2-439f-45e6-bfc7-1ce112ff0cbe, SH100 T04 b3741589-d64f-45ce-8d01-60f6a160e928."
     }
-  ]
+  ],
+  "story_sync": {
+    "screenplay": "stories/politician/screenplay.fountain",
+    "takes_log": "stories/politician/takes/log.md"
+  }
 }

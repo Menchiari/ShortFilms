@@ -14,8 +14,11 @@ private repo (films/*)  ->  GitHub Action builds dist/ (small)  ->  Cloudflare s
 - All links are relative, so the same build works at `/filmai/`, at the root of a subdomain, or
   opened from disk.
 - Cloudflare never clones the repository. The Action uploads only `dist/`: documents, JSON,
-  one small poster still per loved take, never video. Every file stays far below Cloudflare's 25 MiB
-  per-file limit, and the free plan allows 20,000 files per deployment.
+  poster stills of loved takes, and every take video (copied from `05-generation/takes/`, no extra
+  copy in git). A take over Cloudflare's 25 MiB per-file limit is left out of the site. The free
+  plan allows 20,000 files per deployment; uploads send only files that changed.
+- `tools/site/functions/films/[[path]].js` (a Pages Function) answers byte-range requests for the
+  videos: Pages static files do not, and Safari (Mac, iPhone) plays video only with them.
 - `private/` folders are never read. Each film controls the rest with its `publish` flags in
   `film.json`:
 
@@ -24,8 +27,9 @@ private repo (films/*)  ->  GitHub Action builds dist/ (small)  ->  Cloudflare s
 | `story` | true | `01-story/story.md` |
 | `analysis` | true | `02-analysis/analysis.md` and `questions.md` (open questions, answers) |
 | `bible` | true | `03-bible/**/*.md` and reference stills |
-| `shotlist` | true | the shotlist with status per shot |
-| `prompts` | true | prompts of loved takes |
+| `shotlist` | true | the shotlist with status per shot, notes of every take |
+| `takes` | true | the video of every take, played in the Shotlist tab |
+| `prompts` | true | the prompt of every take, shown beside its video |
 | `costs` | true | credits spent and `04-shotlist/BUDGET.md` |
 | `sound` | true | `06-sound/SFX.md` |
 | `music` | true | `07-music/analysis.md` |
@@ -58,9 +62,10 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
     number printed), dashed = not shot, ring and heart = approved. A tile opens the shot.
   - Quality: rating spread, strong shots with no select yet, weak shots, takes waiting for a
     rating. Then stages and the production log.
-- Other tabs: Story, Analysis, Questions, Bible, Shotlist (every shot with its takes, rating and
-  cost; the loved take with poster, prompt and references), Budget, Sound, Music, Edit. Tabs
-  appear as their stage starts.
+- **Shotlist tab**: every shot with its takes, rating and cost. Opening a shot plays the loved
+  take (else the latest) with its prompt and notes beside it; clicking a take switches to it.
+- Other tabs: Story, Analysis, Questions, Bible, Budget, Sound, Music, Edit. Tabs appear as their
+  stage starts.
 
 Shot state on the site: a loved take (or status `approved`) = approved; takes without a select =
 in review; no takes = its status (`planned`, `ready`); `cut` shots are left out of every count.
@@ -79,10 +84,16 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 ### Live updates
 
 1. A working branch that changes only `stories/`, `films/` and `films-index.json` is merged into
-   `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes, and the site
-   workflow is started. From push to live: about 2 minutes.
-2. An open page checks `data/site.json` every minute and redraws when a new build is there. The
-   board shows when the data was built and from which commit.
+   `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes.
+2. Then `.github/workflows/film-sync.yml` (also on every push to main touching `stories/`) runs
+   `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay
+   and the takes logged in the story's `takes/log.md` (details in the script). It commits the
+   result to main and starts the site deploy whenever the live build is behind main. It always
+   runs main's copy, so a session on an old branch still reaches the site. Push to live: about
+   2 minutes.
+3. An open page checks `data/site.json` every minute and redraws when a new build is there (never
+   while a video plays: it waits until it stops). The board shows when the data was built and from
+   which commit.
 
 ## Deploy setup (one time, needs your Cloudflare and GitHub logins)
 

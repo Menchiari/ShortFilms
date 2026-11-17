@@ -50,8 +50,9 @@ follows these rules. They override habits and defaults.
 - Ratings: the user's word wins. If the user only reacts, infer the rating and mark
   `"rating_source": "inferred"`: "love it" = 5 + love, "good/works" = 4, "usable" = 3,
   "meh" = 2, "no/bad" = 1.
-- Keep `film.json` stages and log current. The website reads them. The site never carries video:
-  one poster still per loved take, the finished film is linked (YouTube or Vimeo).
+- Keep `film.json` stages and log current. The website reads them. The site plays every take
+  with its prompt and notes (user decision 2026-11-17), one poster still per loved take for the
+  cards, the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
 
@@ -70,7 +71,9 @@ follows these rules. They override habits and defaults.
   the locked screenplay is copied (never moved) into the film's `01-story/source/` and PIPELINE.md
   stage 0 starts.
 - Developing an existing film: story work goes in `stories/<film-slug>/`; the film folder is read,
-  and edited only on explicit instruction.
+  and edited only on explicit instruction. One automatic exception: a film with `story_sync` in
+  `film.json` takes its shots from the screenplay and the takes logged in the story
+  (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` after every push).
 - Pipeline export: the story bible's "Pipeline export" table maps story outputs to the film's
   files: `01-story/story.md`, `02-analysis/analysis.md`, `03-bible/world.md`, `03-bible/style.md`
   and `style-refs/`, `03-bible/characters|locations|props|vehicles/<slug>.md` (elements; Higgsfield

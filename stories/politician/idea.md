@@ -520,3 +520,30 @@ Questions asked the same day, Leonard's answers:
 * s10sh010 we should see the helicopter lifting up near the camera, turning around and flying in the distance with helicopter realistic aerodynamics (study them accurately, this must look like a simulation) - the driver is nuts so the maneuver is excessively risky but professional. The helicopter gets in the shot from the bottom of the screen, turns around and flies in the distance. As it turns, the camera crane/pedestal lowers enough to reveal the wobble head in the foreground appearing from the lower part of the screen. The wind of the helicopter moves more papers and goes away, when the wind arrives at the car, the head wobbles a bit to a stop while the helicopter flies into the distance for a bit
 
 Same evening: "going to bed, do what you have to do".
+
+## Leonard's notes on animatic d10 (2026-11-17, verbatim)
+
+Pose reference attached for S09 SH010: look/pose_ref_s09_sh010.webp (a figure slouched back in a chair, one leg out).
+
+* s02sh090 closer oh him
+* s04sh070 should be the same angle as s04sh090 
+* s05sh020 people should be slowly moving around him, speeding up at the very end, only the distant ones, never the close ones
+* s06sh010 and sh020 the gun is pointed wrong
+* s07sh030 make longer, I love this one
+* s07sh040 should be the front of his face not the back, and he should be moving a bit not so static, panicked
+* s07sh070 should be closer to the guy holding the rod only, sky behind him, like finishing shot
+* s08sh020 too static, give it some movement
+* s08sh030 I think you might need to do more than a card for this one, show the scene from the right angle, I doubt seedance will guess it right here
+* s08sh040 one shot every 2 seconds, get three people killed, make shot last some seconds longer
+* s8sh050 same as before give a bit more movement
+* s09sh010 still a bit awkward, when he leans on the sidewalk, position is right, but too stiff, might need extra spine bones to make him lean properly. I attached an image of more or less how I want him to stand, but more leaning on the sidewalk instead of the couch of course, hope it's not more confusing than helpful (image attached)
+* s09sh020 the wind is not realistic at all. We need to see those documents fly realistically with the helicopter wind, now it feels like they're floating in water. The way he walks is too fast: he needs to be limping slowly towards the briefcase (maybe put the briefcase closer if timing is a concern?)
+* s09sh100 make him turn the other side, half way only so that he never faces her fully while he talks, as he doesn't even dignify her of a look while telling her
+* s09sh110 seems like we need more stuff in the background. Perhaps the car in the distance, more buildings in the background, feels too empty in the background. Place some people in the distance hiding behind covers, some gusts of dusty wind
+* s10sh110 it's good, but the helicopter physics dynamics can be improved a lot. Make it get closer to the camera when it turns, smoother slower maneuver so that it feels heavier like the helicopter that it is (a black hawk). And at the very end, lower the camera a tiny bit more so that we see the full figure. The final shot needs to be a beautiful composition as the helicopter vanishes in the horizon. It can last 5 extra seconds.
+
+Question (2026-11-17): "a black hawk" in the S10 note. [ASSUMPTION] it describes the weight: the helicopter stays the white ACH160 of the asset prompts and mood_3, flown heavy, slow and smooth. If the model itself changes to a Black Hawk (S-70 / UH-60), S08 and the asset prompts change too.
+Questions after the draft 11 review (2026-11-17):
+- The pistol: the script says nickel; the element prop_ppks_v2 is black and worn. Which one?
+- S07 SH070: the close kill against the sky versus "nothing too explicit": how much of the wound on screen?
+- Does the 7:00 limit count anything outside the film (slate, black)? Draft 11 sums to exactly 7:00 with every coverage angle.

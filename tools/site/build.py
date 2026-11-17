@@ -23,8 +23,9 @@ from filmlib import ROOT, iter_shots, load_json, loved_take, stats  # noqa: E402
 
 BIBLE_GROUPS = ["characters", "locations", "props", "vehicles"]
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".webp"}
-DEFAULT_PUBLISH = {"story": True, "analysis": True, "bible": True, "shotlist": True,
+DEFAULT_PUBLISH = {"story": True, "analysis": True, "bible": True, "shotlist": True, "takes": True,
                    "prompts": True, "costs": True, "sound": True, "music": True, "edit": True}
+MAX_SITE_FILE = 25 * 1024 * 1024  # Cloudflare Pages limit per file
 
 
 def shot_state(shot, lt):
@@ -122,15 +123,18 @@ class Builder:
                 takes = []
                 for t in shot.get("takes", []):
                     entry = {k: t.get(k) for k in ["id", "date", "mode", "duration_s", "resolution",
-                                                    "aspect", "love", "rating"]}
+                                                    "aspect", "love", "rating", "rating_source"]}
                     if publish["costs"]:
                         entry["credits"] = t.get("credits")
+                    video = film_dir / (t.get("file") or "_none_")
+                    if publish["takes"] and video.is_file() and video.stat().st_size <= MAX_SITE_FILE:
+                        entry["video"] = self.copy(film_dir, t["file"])
+                    if publish["prompts"] and t.get("prompt") and (film_dir / t["prompt"]).is_file():
+                        entry["prompt"] = (film_dir / t["prompt"]).read_text(encoding="utf-8").strip()
+                    entry["notes"] = t.get("notes", "")
                     if t is lt or t.get("love"):
                         entry["poster"] = self.copy(film_dir, t.get("poster", ""))
                         entry["references"] = [self.copy(film_dir, r) for r in t.get("references", [])]
-                        if publish["prompts"] and t.get("prompt") and (film_dir / t["prompt"]).is_file():
-                            entry["prompt"] = (film_dir / t["prompt"]).read_text(encoding="utf-8").strip()
-                        entry["notes"] = t.get("notes", "")
                     takes.append(entry)
                 keep = ["id", "status", "description", "purpose", "framing", "angle", "lens", "movement",
                         "duration_s", "transition_in", "characters", "props", "dialogue", "note"]
@@ -168,6 +172,7 @@ class Builder:
 
         data = {
             "slug": film_dir.name, "id": film.get("id"), "title": film.get("title"),
+            "project": film.get("project", ""),
             "logline": film.get("logline", ""), "status": film.get("status", ""),
             "created": film.get("created", ""), "format": film.get("format", {}),
             "stages": film.get("stages", {}), "links": film.get("links", {}),
@@ -212,7 +217,7 @@ class Builder:
                 continue
             (self.out / "data" / "films" / f"{d.name}.json").write_text(
                 json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-            summary = {k: data[k] for k in ["slug", "id", "title", "logline", "status", "created",
+            summary = {k: data[k] for k in ["slug", "id", "title", "project", "logline", "status", "created",
                                              "poster", "stats", "format", "links"]}
             summary["strip"] = [
                 {"id": f"{sc['id']} {sh['id']}", "status": sh["status"], "loved": bool(sh["loved"]),
@@ -231,7 +236,7 @@ class Builder:
         print(f"Built {self.out} : {len(summaries)} public films, "
               f"{sum(1 for p in self.out.rglob('*') if p.is_file())} files, {size / 1e6:.1f} MB "
               f"(largest {biggest.name} {biggest.stat().st_size / 1e6:.1f} MB)")
-        if biggest.stat().st_size > 25 * 1024 * 1024:
+        if biggest.stat().st_size > MAX_SITE_FILE:
             raise SystemExit(f"{biggest} is over Cloudflare's 25 MiB per-file limit.")
 
 

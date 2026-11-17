@@ -206,11 +206,13 @@ def S02_SH080(nf):
     return {"cam": cam(p, (5.45, -0.95, 0.4), 32), "callbacks": [cb, skid_dust(state, ts)], "cues": [[0, 1.6, "TIRES SKID ON DUSTY ASPHALT"]]}
 
 def S02_SH090(nf):
-    p = tuple(PR.car_world(STOP, YAW, -0.42, 4.3, 1.3)); town(p)
+    """MEDIUM CLOSE through the windshield (d11: closer): head and chest, the roof edge, the left pillar and the dashboard
+    frame him."""
+    p = tuple(PR.car_world(STOP, YAW, -0.42, 3.0, 1.34)); town(p)
     c, him = parked(nf)
     him.seq([(0, pose("drive", **_seat(), hpitch=35, eyes=0.7)), (0.6, pose("drive", **_seat(), hpitch=35, eyes=0.7)),
              (2.6, pose("drive", **_seat(), hpitch=0, eyes=1.3))])
-    return {"cam": cam(p, HEADP, 50), "actors": [him], "callbacks": [PR.bob_nod(c, lambda t: 4)]}
+    return {"cam": cam(p, (HEADP[0], HEADP[1], HEADP[2] - 0.1), 70), "actors": [him], "callbacks": [PR.bob_nod(c, lambda t: 4)]}
 
 def S02_SH100(nf):
     """POV dolly zoom: the gap keeps its size while the main road beyond it stretches away."""
