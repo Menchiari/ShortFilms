@@ -450,6 +450,14 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020f done (24 credits): S03 SH020 T04 in."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040d approved (15 credits, 480p, no draft flag, 21:9, 5 s, audio on) and submitted: S03 SH040 T02 4361343e-ef55-4a43-b233-105fb7d1b62f, fuel-on v2 as start_image, fuel-off v2 as end_image; the job echo lists both as reference_images."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040d done (15 credits): S03 SH040 T02 in, file takes/S03/SH040/001_S03_SH040_T02.mp4. Start and end frames held the framing this time."
     }
   ],
   "story_sync": {
