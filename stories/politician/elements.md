@@ -14,6 +14,8 @@ Workspace elements made by Leonard (2026-11-16). Written into prompts as `<<<id>
 | prop_briefcase | 1f5eb35a-c180-4c28-a0ca-3b4ac49ec939 | The briefcase |
 | prop_gun | 8c5ae0e6-7b29-4e4d-acd3-f3bf423254a0 | The gun (in prompts: a toy gun) |
 | prop_wobblehead | 79dc8b10-0969-4c09-b152-f1bfd0a92490 | The bobblehead |
+| prop_rifle | 1ba45df5-3781-4aa4-a647-2fa4a63af43c | Roger's rifle (S08). Leonard, 2026-11-17 |
+| prop_car | 4fb2b9be-e3bf-4122-be00-0c098818122e | His car, outside (S02, S03, S10). Leonard's edit of prop_car_v1, 2026-11-17 |
 
 Higgsfield project: "Talent Contest - Politician" (37733499-03c4-4405-8dee-fea3a2d3b96e).
 
@@ -32,3 +34,5 @@ Seedance 2.5 does not resolve `<<<id>>>` placeholders. Pass the element's image 
 | prop_briefcase | 4bf36cb5-5acb-401b-bfd0-8dee52e64d25 |
 | prop_gun | 24875e9a-80ba-4b38-b970-3aede1a48c1b |
 | prop_wobblehead | fa19c43f-6118-4229-b27e-9094c0351770 |
+| prop_rifle | bb9db39b-9cde-4f92-af18-92d3c3dd74c3 |
+| prop_car | 42787b78-4682-4c84-953a-f89d853f105d |
