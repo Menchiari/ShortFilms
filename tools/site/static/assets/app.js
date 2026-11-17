@@ -5,6 +5,7 @@
   var foot = document.getElementById("foot");
   var SITE = null;
   var FILMS = {};
+  var PENDING = false;
 
   var STATUS = {
     "development": "In development",
@@ -338,36 +339,107 @@
     }).join("");
   }
 
-  function takeRow(t, costs) {
-    var stars = t.rating ? new Array(t.rating + 1).join("★") : "";
-    return '<tr class="' + (t.love ? "is-loved" : "") + '"><td>' + esc(t.id) + (t.love ? " ♥" : "") + "</td><td>" + esc(t.date || "") +
+  // ---------- shotlist with the take viewer ----------
+  var SHOTS = {};      // "S01-SH030" -> { sc, sh }
+  var SELECTED = {};   // "S01-SH030" -> take id the viewer shows
+
+  function stars(n) { return n ? new Array(n + 1).join("★") : ""; }
+
+  function takeRow(t, costs, active) {
+    return '<tr data-take="' + esc(t.id) + '" class="pick' + (t.love ? " is-loved" : "") + (active ? " is-active" : "") + '" tabindex="0">' +
+      '<td class="play">' + (t.video ? "▶" : "") + "</td><td>" + esc(t.id) + (t.love ? " ♥" : "") + "</td><td>" + esc(t.date || "") +
       "</td><td>" + esc([t.duration_s ? t.duration_s + "s" : "", t.resolution, t.mode].filter(Boolean).join(" / ")) +
-      "</td><td>" + stars + "</td>" + (costs ? "<td>" + (t.credits != null ? num(t.credits) : "") + "</td>" : "") + "</tr>";
+      '</td><td title="' + (t.rating_source === "inferred" ? "inferred from your reaction" : "") + '">' + stars(t.rating) + (t.rating_source === "inferred" ? "<sup>i</sup>" : "") +
+      "</td>" + (costs ? "<td>" + (t.credits != null ? num(t.credits) : "") + "</td>" : "") + "</tr>";
+  }
+
+  function defaultTake(sh) {
+    var key = sh.__key;
+    var pick = null;
+    sh.takes.forEach(function (t) { if (t.id === SELECTED[key]) pick = t; });
+    if (pick) return pick;
+    sh.takes.forEach(function (t) { if (t.id === sh.loved) pick = t; });
+    if (pick) return pick;
+    for (var i = sh.takes.length - 1; i >= 0; i--) if (sh.takes[i].video) return sh.takes[i];
+    return sh.takes[sh.takes.length - 1] || null;
+  }
+
+  function viewerHTML(sh, t) {
+    if (!t) return "";
+    var cap = [t.id + (t.love ? " ♥" : ""), t.duration_s ? t.duration_s + " s" : "", t.resolution, t.mode,
+      t.rating ? t.rating + "/5" + (t.rating_source === "inferred" ? " (inferred)" : "") : "unrated",
+      t.credits != null ? num(t.credits) + " credits" : "", t.date].filter(Boolean).join(" · ");
+    return '<div class="player"><div class="screen">' + (t.video
+      ? '<video controls playsinline preload="metadata" src="' + esc(t.video) + '"' + (t.poster ? ' poster="' + esc(t.poster) + '"' : "") + "></video>"
+      : '<div class="novideo">No video file for ' + esc(t.id) + "</div>") +
+      '</div><div class="take-cap">' + esc(cap) + "</div></div>" +
+      '<div class="ptext"><div class="label">Prompt · ' + esc(t.id) + "</div>" +
+      (t.prompt ? '<pre class="prompt">' + esc(t.prompt) + "</pre>" : '<p class="label">No prompt file</p>') +
+      (t.notes ? '<div class="label" style="margin-top:12px">Notes</div><p class="note">' + esc(t.notes) + "</p>" : "") + "</div>";
+  }
+
+  function showTake(details, takeId, play) {
+    var hit = SHOTS[details.id.replace(/^shot-/, "")];
+    if (!hit) return;
+    var sh = hit.sh;
+    if (takeId) SELECTED[sh.__key] = takeId;
+    var t = defaultTake(sh);
+    details.querySelector(".viewer").innerHTML = viewerHTML(sh, t);
+    details.querySelectorAll("tr[data-take]").forEach(function (r) { r.classList.toggle("is-active", !!t && r.dataset.take === t.id); });
+    var v = details.querySelector("video");
+    if (v && play) { var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); }
+  }
+
+  function wireShotlist(box) {
+    box.querySelectorAll("details.shot").forEach(function (d) {
+      d.addEventListener("toggle", function () {
+        if (d.open) { if (!d.querySelector(".viewer").innerHTML) showTake(d, null, false); }
+        else d.querySelectorAll("video").forEach(function (v) { v.pause(); });
+      });
+    });
+    function pick(e) {
+      var row = e.target.closest && e.target.closest("tr[data-take]");
+      if (!row) return;
+      if (e.type === "keydown" && e.key !== "Enter" && e.key !== " ") return;
+      e.preventDefault();
+      var d = row.closest("details.shot");
+      d.querySelectorAll("video").forEach(function (v) { v.pause(); });
+      showTake(d, row.dataset.take, true);
+    }
+    box.addEventListener("click", pick);
+    box.addEventListener("keydown", pick);
   }
 
   function renderShotlist(f) {
     var costs = f.stats.credits != null;
+    SHOTS = {};
     return f.scenes.map(function (sc) {
       return '<section class="scene"><div class="scene-head"><h3>' + esc(sc.id) + (sc.title ? " &middot; " + esc(sc.title) : "") + "</h3>" +
         '<span class="label">' + esc([sc.location, sc.time].filter(Boolean).join(" / ")) + "</span></div>" +
         (sc.summary ? '<p class="note">' + esc(sc.summary) + "</p>" : "") +
         sc.shots.map(function (sh) {
+          var key = sc.id + "-" + sh.id;
+          sh.__key = key;
+          SHOTS[key] = { sc: sc, sh: sh };
           var lt = null;
           sh.takes.forEach(function (t) { if (t.id === sh.loved) lt = t; });
           var thumb = lt && lt.poster ? '<img class="thumb" src="' + esc(lt.poster) + '" alt="" loading="lazy">' : '<div class="thumb empty">' + esc(sh.id) + "</div>";
           var spec = [sh.framing, sh.angle, sh.lens, sh.movement, sh.duration_s ? sh.duration_s + "s" : "", sh.transition_in && sh.transition_in !== "cut" ? sh.transition_in : ""].filter(Boolean).join(" / ");
-          var body = '<div class="shot-body"><div>' +
-            (lt && lt.poster ? '<div class="frame"><img src="' + esc(lt.poster) + '" alt="' + esc(sh.id) + '" loading="lazy"></div>' : "") +
-            (sh.purpose ? '<p class="note"><span class="label">Why this shot</span><br>' + esc(sh.purpose) + "</p>" : "") +
-            (sh.dialogue ? '<p class="note"><span class="label">Dialogue</span><br>' + esc(sh.dialogue) + "</p>" : "") +
-            "</div><div>" +
-            (lt && lt.prompt ? '<div class="label">Prompt of the loved take ' + esc(lt.id) + '</div><pre class="prompt">' + esc(lt.prompt) + "</pre>" : "") +
+          var cur = sh.takes.length ? defaultTake(sh) : null;
+          var info = (sh.purpose ? '<p class="note"><span class="label">Why this shot</span><br>' + esc(sh.purpose) + "</p>" : "") +
+            (sh.note ? '<p class="note"><span class="label">Screenplay note</span><br>' + esc(sh.note) + "</p>" : "") +
+            (sh.dialogue ? '<p class="note"><span class="label">Dialogue</span><br>' + esc(sh.dialogue) + "</p>" : "");
+          var body = '<div class="shot-open">' +
+            (sh.takes.length
+              ? '<div class="viewer"></div>' +
+                '<table class="takes"><tr><th></th><th>Take</th><th>Date</th><th>Settings</th><th>Rating</th>' + (costs ? "<th>Credits</th>" : "") + "</tr>" +
+                sh.takes.map(function (t) { return takeRow(t, costs, cur && t.id === cur.id); }).join("") + "</table>" +
+                '<p class="hint">Click a take to play it with its prompt.</p>'
+              : '<div class="viewer"></div><p class="label">No takes yet' + (sh.method ? " &middot; method: " + esc(sh.method) : "") + "</p>") +
+            info +
             (lt && lt.references && lt.references.filter(Boolean).length ? '<div class="refs">' + lt.references.filter(Boolean).map(function (r) { return '<img src="' + esc(r) + '" alt="reference" loading="lazy">'; }).join("") + "</div>" : "") +
-            (sh.takes.length ? '<table class="takes"><tr><th>Take</th><th>Date</th><th>Settings</th><th>Rating</th>' + (costs ? "<th>Credits</th>" : "") + "</tr>" +
-              sh.takes.map(function (t) { return takeRow(t, costs); }).join("") + "</table>" : '<p class="label">No takes yet' + (sh.method ? " &middot; method: " + esc(sh.method) : "") + "</p>") +
-            (lt && lt.notes ? '<p class="note">' + esc(lt.notes) + "</p>" : "") +
-            "</div></div>";
-          return '<details class="shot" id="shot-' + esc(sc.id + "-" + sh.id) + '"><summary>' + thumb +
+            "</div>";
+          return '<details class="shot" id="shot-' + esc(key) + '"><summary>' + thumb +
             '<div class="sid-col"><div class="sid">' + esc(sh.id) + "</div></div>" +
             '<div><div class="spec">' + esc(spec) + '</div><p class="desc">' + esc(sh.description) + "</p></div>" +
             '<div class="state ' + esc(sh.status) + '">' + (sh.loved ? '<span class="heart">♥</span> ' : "") + esc(sh.status) +
@@ -410,7 +482,7 @@
             }
           });
         });
-      } else if (tab === "shotlist") box.innerHTML = renderShotlist(f);
+      } else if (tab === "shotlist") { box.innerHTML = renderShotlist(f); wireShotlist(box); }
       else renderDoc(box, f.docs[tab], false);
       var target = focus && document.getElementById("shot-" + focus);
       if (target) target.open = true;
@@ -447,9 +519,12 @@
       if (document.hidden) return;
       fetch("data/site.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (n) {
         if (!n) return;
-        var fresh = n.built !== SITE.built;
+        var fresh = n.built !== SITE.built || PENDING;
         SITE = n;
         if (fresh) FILMS = {};
+        var playing = [].some.call(document.querySelectorAll("video"), function (v) { return !v.paused && !v.ended; });
+        if (playing) { PENDING = fresh; return; }
+        PENDING = false;
         var open = [].map.call(document.querySelectorAll("details[open][id]"), function (d) { return d.id; });
         if (fresh || /#\/film\/[^/]+\/?(production)?$/.test(location.hash)) {
           route(window.scrollY);

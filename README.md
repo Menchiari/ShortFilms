@@ -34,7 +34,7 @@ tools/
                          get (one film into a sparse clone), hooks (install the commit guard),
                          space (free space per drive, size of every film)
   media/fps.py           probe, fix and fit clips (framerate, size under 95 MB)
-  media/preview.py       poster stills for the site (no video on the site)
+  media/preview.py       poster stills for the site cards
   site/build.py          static site generator
   get-film.sh            same as `filmtool.py get` (Git Bash, Mac, Linux)
   install-hooks.sh       same as `filmtool.py hooks` (Git Bash, Mac, Linux)

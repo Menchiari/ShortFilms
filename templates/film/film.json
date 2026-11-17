@@ -11,6 +11,7 @@
     "analysis": true,
     "bible": true,
     "shotlist": true,
+    "takes": true,
     "prompts": true,
     "costs": true,
     "sound": true,
