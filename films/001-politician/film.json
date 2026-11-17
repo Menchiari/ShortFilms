@@ -380,6 +380,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020c approved and submitted (S03 SH020 T02, job dde0fb5d-8857-4f78-8eb6-e523ddfa9a62, frame v3 at 1120x480): failed within seconds with the same generic error, 24 refunded. Frame size ruled out. Both failures had the draft flag with a start image; T01 (no draft flag, start image) worked; the S02 drafts that worked had no start image."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020d approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T02 7e3e652d-4274-4276-9801-3671c420768b, frame v3. Passed the point where 020b and 020c failed (in progress after 15 s): the draft flag with a start image is the likely cause."
     }
   ],
   "story_sync": {
