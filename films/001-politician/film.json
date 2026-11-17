@@ -389,6 +389,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 040a failed at Higgsfield about 50 s after submit, same generic error as 020b and 020c (\"Something went wrong...\"), 15 credits refunded (transaction 16:19:44 UTC). No file. Same pattern: draft flag with image inputs only, no video reference. REQUEST 040b (same prompt, no draft flag) prepared, waiting for approval."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040b approved (15 credits, 480p, no draft flag, 21:9, 5 s, audio on) and done: S03 SH040 T01 2f1ded62-ded6-47f4-a3e4-a6d09de513fd, file takes/S03/SH040/001_S03_SH040_T01.mp4. The draft-flag-with-images-only failure pattern holds (3 of 3 failed with it, this one passed without it)."
     }
   ],
   "story_sync": {
