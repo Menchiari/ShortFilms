@@ -426,6 +426,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020e approved (Leonard: \"let's make this shot real\", 24 credits, 480p, no draft flag) and submitted: S03 SH020 T03 05e92d77-37d2-4f1d-a428-df26b6da93c4, frame v3, car motion cues and sounds in angle brackets."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020e done (24 credits): S03 SH020 T03 in. Folder check: all SH020 jobs are in S03/SH020; the three uploaded start frames (94b73080, 3f04ddd9, c4e65b4b) were outside the project and are now attached to REFS."
     }
   ],
   "story_sync": {
