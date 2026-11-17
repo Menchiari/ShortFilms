@@ -784,6 +784,31 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST 015a. Higgsfield folder S02/SH010. Passed first submission. File 1470x630, 24 fps, 4.06 s. Claude's read: holds the start frame, a locked-off hold with dust drifting on the road; nothing breaks. Leonard 2026-11-17: too static, boring and insignificant; perhaps a different angle. T02: the d11 animatic angle (towers fill the frame), wind and heat moving in the frame."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "eb724d16-8978-4f74-b08a-cc73edf9a4a2",
+              "prompt": "05-generation/prompts/001_S02_SH010_T02.txt",
+              "file": "05-generation/takes/S02/SH010/001_S02_SH010_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd (architecture)",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH010 39340d9c (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 016. Claude's read: the d11 angle holds with a real look: the towers fill the frame like a wall, dust streams across the ground, rubble scattered. No animatic geometry copied."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
@@ -798,8 +823,34 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "2fd50460-17a4-4e33-b7d9-0712704b8714",
+              "prompt": "05-generation/prompts/001_S02_SH020_T01.txt",
+              "file": "05-generation/takes/S02/SH020/001_S02_SH020_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd (ground and concrete only)",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH020+SH040 joined dbb41e14 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 016. Covers SH020 (0-3 s) and SH040 (3-5 s). Claude's read: the same dog in both shots, lying by the concrete wall in the shade, then the close from behind the shoulder: head up, ears up, looking right. Real look."
+            }
+          ],
           "description": "A stray dog lies in the shadow of an abandoned building, on the edge of a crumbled concrete wall. Heat rises off the ground.",
           "framing": "MEDIUM",
           "movement": "Locked-off",
@@ -812,8 +863,34 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "2e035fc1-54b5-4f87-9011-d48ac4e654a2",
+              "prompt": "05-generation/prompts/001_S02_SH030_T01.txt",
+              "file": "05-generation/takes/S02/SH030/001_S02_SH030_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH030 871b9996 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 016. Claude's read: the car and its dust far out work, but the animatic geometry was copied: the foreground block is the animatic's untextured box and the road is its flat polygon patches. Cause: no image of the road itself, so the clip was the only source for the ground."
+            }
+          ],
           "description": "Far out on a road of asphalt buried in dust and drifted sand, a car comes out of the heat shimmer at full speed, a plume of dust behind it.",
           "framing": "EXTREME WIDE, long lens",
           "movement": "Locked-off",
@@ -895,8 +972,35 @@
         },
         {
           "id": "SH070",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "e545c5a8-7727-4b94-b981-406e924a5301",
+              "prompt": "05-generation/prompts/001_S02_SH070_T01.txt",
+              "file": "05-generation/takes/S02/SH070/001_S02_SH070_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "loc_car-interior 60a2aec8 (seat)",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH070 23fe344d (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 016. Claude's read: the briefcase lies flat on the brown seat, papers out, trembles and shifts a little, never leaves the seat."
+            }
+          ],
           "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
           "framing": "INSERT, passenger seat",
           "movement": "Road vibration",
@@ -949,6 +1053,32 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST 015a. Higgsfield folder S02/SH090. Passed first submission. Claude's read: old man A reads right; head bowed over the wheel, raises it, fixes on the gap: the acting works. Framed far wider than a medium close-up (the whole windshield, he is small). Behind the car a town street with balconied buildings, not the desert road: he looks already inside the town. The hood reads beige under the dust. Leonard 2026-11-17: does not work, the acting is flat. He is always angry inside, pissed, focused: another fucking challenge, another thing that will go wrong, maybe this is where he dies, just another fucking day. He is not in the city yet: behind him only desert. T02: new acting task, the d11 animatic framing, desert behind."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "1c1b53d2-e928-4c9e-ad3f-0dcc9865eb9e",
+              "prompt": "05-generation/prompts/001_S02_SH090_T02.txt",
+              "file": "05-generation/takes/S02/SH090/001_S02_SH090_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH090 ff43c009 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 016. New acting task from Leonard's note. Claude's read: bowed over the wheel, lifts his head, jaw set, a hard scowl fixed on the gap: angry and focused. Desert through the side windows, but through the rear window two towers and a low town on the horizon, against the note (only desert behind him)."
             }
           ],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
@@ -963,8 +1093,34 @@
         },
         {
           "id": "SH100",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "d42b0535-66e5-4065-a9b4-679574c8f2c1",
+              "prompt": "05-generation/prompts/001_S02_SH100_T01.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd (architecture)",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S02_SH100 adf37a56 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 016. Claude's read: the street reads as untextured CG and the road carries the animatic's flat patches: the clip's geometry was copied. Cause: no image of the main street itself."
+            }
+          ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
           "framing": "POV",
           "movement": "Dolly zoom",
