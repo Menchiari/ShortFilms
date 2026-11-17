@@ -42,7 +42,8 @@ What the generated guide track carries, what stays silent.
 How much is said, how much is held back, how characters listen and overlap.
 
 ## Style references
-Images that set the look (Midjourney or other), in `style-refs/`.
+Images that set the look (Midjourney or other), in `style-refs/`. Stills and plates: GPT Image 2.6 Sunburst, quality high, 1k (Leonard, 2026-11-17).
 
 ## This film never
 Holds a shot where nothing happens, unless the frame is breathtaking (Leonard, 2026-11-17).
+Names a real director, film or artist in any prompt: it is a contest entry (Leonard, 2026-11-17).
