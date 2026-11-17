@@ -547,3 +547,170 @@ Questions after the draft 11 review (2026-11-17):
 - The pistol: the script says nickel; the element prop_ppks_v2 is black and worn. Which one?
 - S07 SH070: the close kill against the sky versus "nothing too explicit": how much of the wound on screen?
 - Does the 7:00 limit count anything outside the film (slate, black)? Draft 11 sums to exactly 7:00 with every coverage angle.
+
+## Direction given in chat, recovered verbatim from the session transcript (2026-11-15 to 2026-11-17)
+
+Every message of Leonard's from these days that carries direction, word for word, in order. The three animatic note
+lists of 2026-11-16 and 2026-11-17 are already above in full and are not repeated here. Saved 2026-11-17.
+
+**2026-11-15 06:09 UTC**
+
+> I got sick for 5 days and I'm still not ok. 2 weeks became less than 10 days.
+>
+> I can't start today I'll have to start tomorrow hoping that I'm still not with a god damn fever. And there is no single god or it would be infamous. There are multiple ones, good ones, mischievous ones, evil ones, and loving ones. I'm grateful to the good ones that didn't make me sick before the festival and irritated to the mischievous ones that are keeping me sick for almost a whole fucking week... anywho, you don't need to know this, tmi.
+> I need you to come up with a solid plan, basically on Monday I need to make all elements, probably also all locations I presume? Maybe a Blender previz could help to reduce the workload and have specific shots? I have certain shots in mind very clearly but I worry that seedance will make up stuff that is very far from what I'm visualizing in my head. And for a movie like this, it's imperative that the vision stays accurate or the short will suck pretty badly.
+> Another thing I'm kinda concerned about is color correction: I want the look to remain consistent, not change shot by shot. We might need a color palette sample or something. I'm picturing mostly egypt brown yellow like tahrir (I attached a before and after palette, so it ends during sunset)
+>
+> Figure out what can be automated, if you have any questions, and hopefully we can have most of the stuff ready so I can start working on it on Monday. It's Sunday now and I'm still fucking sick.
+> The contest ends on the next wednesday night.
+>
+> I want to spend all next week making the movie so I have next monday to edit it, and tuesday for sound, wednesday for music. It's a stretch, but it's all we got.
+>
+> I don't expect you to come up with all solutions, but let's cooperate. I'll go back to bed see you later
+
+**2026-11-15 08:26 UTC**
+
+> Would it be easier to do with blender
+
+**2026-11-15 09:30 UTC**
+
+> Wouldn't have been better to know the car model first?
+
+**2026-11-15 09:31 UTC**
+
+> I don't like the shots. The city should be deserted when he enters it, only later after the car stops and they find out its him then people surround him
+
+**2026-11-15 10:01 UTC**
+
+> Dear God this will never work...
+
+**2026-11-15 10:02 UTC**
+
+> It's like you're unable to read the script or something
+
+**2026-11-15 12:13 UTC**
+
+> I know what a blockout is
+
+**2026-11-15 12:13 UTC**
+
+> When he exits the car, things don't happen immediately next to the car, he walks a bit before speeding up and bumping into the big guy
+
+**2026-11-15 12:14 UTC**
+
+> The film has to be Max 7 min long
+
+**2026-11-15 13:37 UTC**
+
+> Ok give me the complete 7 minute animatic, with the correct pacing, alex garland type editing, subtitles on top of talking characters.
+> I want to see how much you got right and wrong. Each shot should display its name and duration.
+> I know the script is longer than 7 minutes, that's why you must revalue the whole shotlist and editing before delivering me the final animatic.
+>
+> The things to keep in mind:
+>
+> - initial riot scenes need to be a mix of random shots (title cards work too)
+> -
+
+**2026-11-15 13:54 UTC**
+
+> I accidentally pressed go, hopefully what I wrote earlier still applies.
+> - when he gets out of the car it needs to be a very wide shot, like it's been seen from someone's balcony while they're smoking
+> - nobody in the streets at all, it's too hot for people to be out. Except for a few: the few the politician notices are outside some bar talking among themselves, one looks at him then he looks back and that makes him pick up the speed and that's how he bumps into someone and falls on the floor.
+> - that someone needs to be seen from low angle while the politician on the ground covering his face needs to be seen from high angle
+> - when the crowd overcomes him and surrounds him, it's a wide shot that shows him disappearing in the crowd until he shoots in the sky
+> - next shot is him with the smoking gun pointed in the sky then points it to the crowd, frontal seen from the crowd's perspective as they back away behind the camera
+> - when he shoots at the crowd one top view one from behind him
+> - when he counts close up on his lips
+> - pointing his "call it toy gun" at his head he clicks with his eyes shut and then his eyes widen with terror when he realizes he's still alive, this is a close up on his face
+> - when he's hung by a foot, it's seen from 10 feet away, crowd between him and camera
+> - when sniper aims, lady must be in the front seat of the helicopter next to the pilot right behind the sniper's gun (she turns around to tell him to stop)
+> - close up of rope snapping
+> - when the politician drops, camera must be almost on the floor, long lens, looking at him from the opposite side of the street medium close on him, as he turns around and leans on the sidewalk like it's the edge of a short couch. A dead body next to him, with disgust he spits on it (you can say sleeping not dead)
+> - when he picks up the folder in the briefcase pocket, you need to see him get up from far away and walk to the briefcase in the foreground, helicopter landing in the background. The printed bills flying all around with the helicopter wind.
+> - last shot after seeing the helicopter flying in the sky, camera follows it flying in the horizon seen from inside the windshield of the car, and as the shot lowers, you see the wobble head giving the finger in the foreground while the helicopter flies on the sunset.
+>
+>
+> Please ask any questions now before starting
+
+**2026-11-15 14:12 UTC**
+
+> 1. Are you using higgsfield credits to do the animatic? I'm sure we can do it so you only use claude credits not higgsfields, I need those for the videos. No title and end credits needed, it can start directly with the riots
+> 2. Do it here just don't take more than 6 hours that's absurd
+> 3. I mean in the animatics you can use title cards to save you time and energy, I do not want title cards in the final movie
+> 4. Seems correct not surr
+> 5. Perfect
+> 6. Yes that works
+>
+> Before you start give me the updated script pdf  with shotlists so I can print it and write notes on it
+
+**2026-11-15 19:52 UTC**
+
+> Ok there is so much wrong with this, I'm sure you can figure it out. And let's try to not have the car in the middle of all the scenes, the car must be gone when he leaves it and you only see it again once the helicopter leaves.
+>
+> Analyze everything, and improve. Reframe the shots that are off, fix the 180 mistakes, remove jarring shots or replace with shots that aren't jarring; the city looks nothing like a city, should look like the one I sent you the references; make the sides of the city/town more like walls so it's obvious that he can only get in the city through that street; and when he gets in the town make him go in first seen from behind, then the side view sh010 should be going from the other point of view.
+> I think you nailed sh050.
+> The crowd is horrendous, not sure if you need help with simulating, but an easy trick is to imagine a physical force pushing everyone slightly away from each other. The further they are the harder it is to be close. This will make people not be all condensed into the same spot when they gather, they need some distance, humans and crowds don't behave like that. If necessary we can build a little simulation tool to make the crowd more realistic unless you get it.
+> When he gets up from the ground it's horrific, rotating box we can't even tell what's happening.
+> When he's hung by his foot I'm wondering if you can create a ragdoll simulation of a human body being held by a foot trying to free himself, while the rope pulls him up. Maybe the simulation could do a much better reference if you think you can do it (like that old ios ninja game where you dragged the ninja around, one of the very first mobile games).
+> In the helicopter sh020 should be: left close up of sniper, center the lady in the helicopter sear, right half of the front of the gun (the rest is off screen to the right)
+>
+> Oh and the scene where he bumps into the guy is a no: try to follow the politician with a long lens until he bumps into the big guy which you cannot see because off screen until the moment he bumps into him. And then cut to the politician falling on the ground seen from high angle.
+>
+> Aside from that there are some awkward close ups that are cut poorly, the pacing is a bit off, some of the easing isn't there, and other minor mistakes that we can go through tomorrow. For now just watch the whole thing, review it, figure out what's wrong and fix the stuff I poorly mentioned to you because I'm in bed with a fever that has lasted 5 days so far.
+>
+> Looking forward to your result.
+
+**2026-11-15 21:16 UTC**
+
+> Good job on the city. I don't want palms however. The city needs to feel unwelcoming and anonymous
+
+**2026-11-15 21:41 UTC**
+
+> About the crowd, keep in mind that it's always an inverse exponential curve when it comes to where they are located: there can be many nearby, but just as many need to be spread around too. Having all people in one spot reads unrealistic, having them smoothly around is more natural. I'm sending you an example
+
+**2026-11-15 21:53 UTC**
+
+> Remember too much detail on the characters and their movement and seedance will copy them more. you'll have to be even more cautious because of how Seedance is, but you probably know this already. We can do tests tomorrow and see
+> Can I see that physics generator you made so I see how the crowd acts?
+
+**2026-11-15 21:57 UTC**
+
+> You can see here that the shot is half blocked by the balcony which hides the main character
+
+**2026-11-15 22:01 UTC**
+
+> Anyway have fun see you tomorrow
+> Ralph it a few times until you get it right
+> Problem is that characters are too detailed. This will confuse seedance probably, especially when the motion isn't perfectly accurate or the character goes through the floor
+> Maybe you can have a mix of detailed and not. Physics based stuff and crowd can be detailed while anything that needs more work on seedance can be more like a moving shape or something
+
+**2026-11-16 21:47 UTC**
+
+> can you render s09sh010 at 480p just so I see how it comes out while I write all the notes
+
+**2026-11-16 21:59 UTC**
+
+> alright before starting give me quickly the fat person's prompt for midjourney and I'll create the character element
+
+**2026-11-16 22:09 UTC**
+
+> I need you to give me just one, not so specific, but give him clothes that cannot be identified. I need the guy to look like an asshole, like those who are politically active but don't know shit, arrogantly presumptuous thinking they know how the world works but they are just as closed minded as it gets. Stupid and dangerous.
+
+**2026-11-16 22:23 UTC**
+
+> yea go. I'll start with the big list of changes for the animatic so you can work tonight
+
+**2026-11-16 22:35 UTC**
+
+> That crowd shot... looks like a fake 3D model. You must specify that you must only reference the motion, not so much to the letter. That's what I was fearing...
+
+**2026-11-17 09:03 UTC**
+
+> we're getting so close. Commit everything for now, the changes I have are pretty minor, great job so far. I'll give you the fixes after you commit and push everything
+
+**2026-11-17 11:53 UTC**
+
+> commit and push everything. There are only a few shots that need fixing but we can do them when we work on them individually.
+
+Where the rest lives: Leonard's comments on shooting-script drafts 1 to 5 are his annotated PDFs in
+`leonard-pdf-notes/` (drafts 1 to 3 are also transcribed above). Every animatic round from d8 v5 on is above in full.
