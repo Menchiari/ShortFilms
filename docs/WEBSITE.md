@@ -35,8 +35,8 @@ private repo (films/*)  ->  GitHub Action builds dist/ (small)  ->  Cloudflare s
 | `music` | true | `07-music/analysis.md` |
 | `edit` | true | `08-edit/EDIT.md` (cut notes) |
 
-A document appears only once its stage has started in `film.json`, so empty templates never
-show up. The site is your tracking board as much as the community's window: anything you want
+A document appears only once its stage has started in `film.json` and differs from its template,
+so empty templates never show up. The site is your tracking board as much as the community's window: anything you want
 kept off it goes in the film's `private/` folder or gets its flag set to `false`.
 
 Preview locally:
@@ -62,8 +62,11 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
     number printed), dashed = not shot, ring and heart = approved. A tile opens the shot.
   - Quality: rating spread, strong shots with no select yet, weak shots, takes waiting for a
     rating. Then stages and the production log.
-- **Shotlist tab**: every shot with its takes, rating and cost. Opening a shot plays the loved
-  take (else the latest) with its prompt and notes beside it; clicking a take switches to it.
+- **Shotlist tab**: every shot with its takes, rating and cost. The shot's animatic clip, when
+  there is one, is the first row. Opening a shot plays the loved take (else the latest, else the
+  animatic) with its prompt and notes beside it; clicking a row switches to it.
+- **Characters tab**: one card per character element (`03-bible/characters/`), whole sheet
+  image, use, Higgsfield ids.
 - Other tabs: Story, Analysis, Questions, Bible, Budget, Sound, Music, Edit. Tabs appear as their
   stage starts.
 
@@ -86,8 +89,9 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 1. A working branch that changes only `stories/`, `films/` and `films-index.json` is merged into
    `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes.
 2. Then `.github/workflows/film-sync.yml` (also on every push to main touching `stories/`) runs
-   `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay
-   and the takes logged in the story's `takes/log.md` (details in the script). It commits the
+   `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay,
+   the takes logged in the story's `takes/log.md`, the animatic clip of each shot and its
+   character elements (details in the script). It commits the
    result to main and starts the site deploy whenever the live build is behind main. It always
    runs main's copy, so a session on an old branch still reaches the site. Push to live: about
    2 minutes.
