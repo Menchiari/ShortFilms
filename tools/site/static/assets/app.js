@@ -362,15 +362,22 @@
   }
   function allTakes(sh) { var a = animTake(sh); return (a ? [a] : []).concat(sh.takes); }
 
+  // the shot's face: the approved take, else the best rated (3 or more, newest on a tie), else the newest
+  function bestTake(sh) {
+    var pick = null;
+    sh.takes.forEach(function (t) { if (t.id === sh.loved) pick = t; });
+    if (pick) return pick;
+    sh.takes.forEach(function (t) { if ((t.rating || 0) >= 3 && (!pick || t.rating >= pick.rating)) pick = t; });
+    if (pick) return pick;
+    for (var i = sh.takes.length - 1; i >= 0; i--) if (sh.takes[i].video) return sh.takes[i];
+    return sh.takes[sh.takes.length - 1] || null;
+  }
+
   function defaultTake(sh) {
     var key = sh.__key;
     var pick = null;
     allTakes(sh).forEach(function (t) { if (t.id === SELECTED[key]) pick = t; });
-    if (pick) return pick;
-    sh.takes.forEach(function (t) { if (t.id === sh.loved) pick = t; });
-    if (pick) return pick;
-    for (var i = sh.takes.length - 1; i >= 0; i--) if (sh.takes[i].video) return sh.takes[i];
-    return animTake(sh) || sh.takes[sh.takes.length - 1] || null;
+    return pick || bestTake(sh) || animTake(sh);
   }
 
   function animRow(a, costs, active) {
@@ -443,7 +450,8 @@
           SHOTS[key] = { sc: sc, sh: sh };
           var lt = null;
           sh.takes.forEach(function (t) { if (t.id === sh.loved) lt = t; });
-          var thumb = lt && lt.poster ? '<img class="thumb" src="' + esc(lt.poster) + '" alt="" loading="lazy">' : '<div class="thumb empty">' + esc(sh.id) + "</div>";
+          var face = bestTake(sh);
+          var thumb = face && face.poster ? '<img class="thumb" src="' + esc(face.poster) + '" alt="' + esc(sh.id + " " + face.id) + '" title="' + esc(face.id) + '" loading="lazy">' : '<div class="thumb empty">' + esc(sh.id) + "</div>";
           var spec = [sh.framing, sh.angle, sh.lens, sh.movement, sh.duration_s ? sh.duration_s + "s" : "", sh.transition_in && sh.transition_in !== "cut" ? sh.transition_in : ""].filter(Boolean).join(" / ");
           var cur = (sh.takes.length || sh.animatic) ? defaultTake(sh) : null;
           var info = (sh.purpose ? '<p class="note"><span class="label">Why this shot</span><br>' + esc(sh.purpose) + "</p>" : "") +

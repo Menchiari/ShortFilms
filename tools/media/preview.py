@@ -3,12 +3,14 @@
 
   python tools/media/preview.py <film> S01 SH010 T03     one take, updates shotlist.json
   python tools/media/preview.py <film> --loved             every loved take without a poster
+  python tools/media/preview.py <film> --all               every take without a poster (exit 3: no ffmpeg)
   python tools/media/preview.py --file clip.mp4 --out DIR  any clip
 
 Poster: JPEG frame at 40% of the clip, 1280 px wide at most (about 100 to 250 KB).
 """
 
 import argparse
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -52,6 +54,7 @@ def main():
     p.add_argument("shot", nargs="?")
     p.add_argument("take", nargs="?")
     p.add_argument("--loved", action="store_true")
+    p.add_argument("--all", action="store_true")
     p.add_argument("--file")
     p.add_argument("--out", default=".")
     a = p.parse_args()
@@ -64,6 +67,15 @@ def main():
     d = find_film(a.film)
     film, shotlist = load_film(d)
     changed = False
+    if a.all:
+        todo = [t for _, shot in iter_shots(shotlist) for t in shot.get("takes", [])
+                if t.get("file") and (d / t["file"]).is_file()
+                and not (t.get("poster") and (d / t["poster"]).is_file())]
+        if todo and not shutil.which("ffmpeg"):
+            print(f"{len(todo)} takes need a poster, ffmpeg is not installed")
+            raise SystemExit(3)
+        for t in todo:
+            changed |= for_take(d, t)
     for scene, shot in iter_shots(shotlist):
         for t in shot.get("takes", []):
             if a.loved and t.get("love") and not t.get("poster"):

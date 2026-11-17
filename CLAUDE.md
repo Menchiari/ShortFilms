@@ -51,8 +51,8 @@ follows these rules. They override habits and defaults.
   `"rating_source": "inferred"`: "love it" = 5 + love, "good/works" = 4, "usable" = 3,
   "meh" = 2, "no/bad" = 1.
 - Keep `film.json` stages and log current. The website reads them. The site plays every take
-  with its prompt and notes (user decision 2026-11-17), one poster still per loved take for the
-  cards, the finished film is linked (YouTube or Vimeo).
+  with its prompt and notes (user decision 2026-11-17) and a still of every take (made
+  automatically by film-sync), the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
 
@@ -63,10 +63,11 @@ follows these rules. They override habits and defaults.
 - Stories live in `stories/<slug>/`, one file per stage, versions in git. The site never reads
   `stories/`.
 - A pushed branch that changes only `stories/`, `films/` and `films-index.json` is merged into
-  main automatically (`.github/workflows/stories-sync.yml`), and when `films/` changed the site
-  redeploys (the production board is live): no pull request needed. Keep story and production work
-  on their own branch, without tool or doc changes. If the sync fails (a conflict, or
-  `filmtool check`), tell the user and fix it.
+  main automatically by `.github/workflows/film-sync.yml` (`tools/mergebranches.sh`: film JSON
+  merged by structure, append-only logs keep both sides), and the site redeploys: no pull request
+  needed. Keep story and production work on their own branch, without tool or doc changes. The
+  run log names any branch it could not merge (a real conflict, or `filmtool check`): tell the
+  user and fix it.
 - A story becomes a film only when the user says so: `python3 tools/filmtool.py new "Title"`, then
   the locked screenplay is copied (never moved) into the film's `01-story/source/` and PIPELINE.md
   stage 0 starts.

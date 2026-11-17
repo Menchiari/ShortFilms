@@ -11,6 +11,18 @@ S02 to S10 [ASSUMPTION, 2026-11-17, from the request 011 location images]:
 The light words follow the scene: afternoon S02 to S05, warming S06 and S07, sunset S08 to S10. S01 keeps its amateur footage line.
 Format S02 to S10: 21:9, 480p [ASSUMPTION: the tests, the animatic and the location images are 21:9].
 
+## Light
+- One sun for the whole town, low in the west (crossroads README). Hazy afternoon S02 to S05,
+  warming S06 and S07, sunset S08 to S10. Every prompt says where the sun is relative to the
+  camera and what it does on faces.
+- Haze and dust soften the sun in every exterior. Shadows deep brown, never black. Highlights
+  warm cream, never pure white (palette card).
+- Inside the car: no artificial light. Faces get the sun through the windows plus warm bounce
+  from the dashboard, the seats and the sunlit road. Exposure for the face; windows bright and
+  hazy, the outside still readable.
+- The main street runs north [ASSUMPTION: the car reaches the crossroads facing north]: driving
+  it, the sun is on the driver's side, and the gaps between the blocks throw sun and shade across
+  the car in turn.
 
 ## Camera grammar
 Distance and height to the characters, when the camera moves and when it never does, lens
@@ -33,3 +45,4 @@ How much is said, how much is held back, how characters listen and overlap.
 Images that set the look (Midjourney or other), in `style-refs/`.
 
 ## This film never
+Holds a shot where nothing happens, unless the frame is breathtaking (Leonard, 2026-11-17).

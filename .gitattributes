@@ -10,3 +10,10 @@ tools/hooks/* text eol=lf
 *.png binary
 *.drp binary
 *.mid binary
+# Content branches merge into main automatically (tools/mergebranches.sh): structure-aware for the
+# film JSON, both sides kept for append-only logs, the size index regenerated after the merge
+films/*/film.json merge=filmjson
+films/*/shotlist.json merge=filmjson
+films-index.json merge=keep
+**/MISTAKES.md merge=union
+stories/*/takes/log.md merge=union

@@ -19,9 +19,9 @@
     "edit": true
   },
   "format": {
-    "aspect": "16:9",
+    "aspect": "21:9",
     "fps": 24,
-    "resolution": "480p",
+    "resolution": "720p",
     "target_runtime_s": 420
   },
   "poster": "03-bible/style-refs/mood_4_town-edge.webp",
@@ -144,7 +144,10 @@
       "S02/SH110": "70755316-c47b-4be5-9aa6-cd78bc3a6278",
       "S02/SH120": "1f6606d3-f46f-4ef6-a744-2dcf85199a2b",
       "S02/SH180": "4d040337-1820-4f8d-8000-de93a1832adb",
-      "S02/SH200": "1439fbcb-8208-4412-aaf2-9af713175025"
+      "S02/SH200": "1439fbcb-8208-4412-aaf2-9af713175025",
+      "S03": "c29a8193-37ea-4ed6-baf1-64c5c9cd1f8b",
+      "S03/SH020": "5ce159a6-f318-4f34-987a-e7f6581c22f6",
+      "S03/SH010": "b1c49662-6de6-4e71-b6d6-e7284a86ea82"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -268,7 +271,8 @@
       "S02/SH110+SH130+SH160": "c4e6b110-bff7-4a68-8d59-2687e3c71ca6",
       "S02/SH120+SH140": "5b32b81d-9b82-41cc-a50f-6b8810672076",
       "S02/SH180": "2ccff74d-a2cd-4394-beac-4d9d2c38ef81",
-      "S02/SH200": "54161b25-e946-4177-9260-663152138a2e"
+      "S02/SH200": "54161b25-e946-4177-9260-663152138a2e",
+      "S03/SH010": "13e9c827-913e-48a4-8b3f-c7d6d55ec4d9"
     }
   },
   "extra_costs": [],
@@ -296,6 +300,26 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 014 approved (105 credits) and submitted: S01 SH010 T03 08ec040c-0633-4548-9dff-153f18770d7a, SH020 T03 (edit of T02) d9990f39-b8dc-4d00-94f4-3dd12bdd682c, SH050 T02 (edit of T01) fd97bfbf-e697-45af-86c8-5d431a57855a, SH060 T02 13416e9e-1c84-4215-ba03-f87db37e333d, SH070 T05 07c6dca2-439f-45e6-bfc7-1ce112ff0cbe, SH100 T04 b3741589-d64f-45ce-8d01-60f6a160e928."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 015 approved (29.5 credits, prices 10.49 / 10.69 / 10.89): S01 SH010 T04 f5da08a3-44dd-4418-b60f-f6ab994663ae; SH020 end still 80f8771c-03e3-4a09-b959-66d075617321 (REFS, text exact); SH020 start still 2d664efc-8d15-4e53-a5cc-615be661363d (REFS); SH020 T04 video after the stills check."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 016 approved (20.5 credits): S01 SH020 T05 start still 4d9c31a3-b2f5-48ba-ab66-23d0cff6d2cd, end still bbfcb4d4-f006-439c-aef1-993baa1c86b8 (REFS); video after the stills check."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Format: 720p, 21:9 (Leonard)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 016: both SH020 T05 stills passed the text check; video submitted 600952b1-4aeb-4476-936b-f39de1bba584 (5 s, 15 credits)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 017 (Leonard: do it again, the start picture with only the Plus row missing): start still 829b131b-fc28-4f42-9a75-8db61a2f8865 (REFS, 2.75, text exact), video SH020 T06 439f9405-1c1f-4056-a55b-9e44934ed1c9 (15), end still bbfcb4d4 reused."
     },
     {
       "date": "2026-11-17",
@@ -332,6 +356,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 018b: 7 takes in; SH050 T02 blocked by the output filter (second block on SH050); SH090 T03 ebed37ad-cfa7-404e-8551-8f1c95382213 and SH120 T01 fa1d1a60-a95d-4eb7-af99-c61ce3a172a5 submitted after the rate limit cleared."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 019 approved (18 credits, 480p draft, 21:9, 6 s): S03 SH010 T01 a169222f-d3da-4e37-b69b-a6b8949408f0, line-drawing guide 13e9c827 plus char_politician, prop_car, loc_side-street (Leonard: side street as background), palette_afternoon. Leonard: great cinematography lighting, added as a motivated-sun lighting paragraph."
     }
   ],
   "story_sync": {
