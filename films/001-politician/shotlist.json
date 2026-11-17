@@ -73,6 +73,29 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 014. Higgsfield folder S01/SH010. Passed first submission. Downloaded to takes/S01/. Claude's read: far more going on: red flares, a man on a traffic light pole, a burning bin; signs vary (horns, red X eyes, a clown caricature, different photos of him). Some cardboard shows fake lettering. The noose collage is not visible in the frames I checked. Leonard 2026-11-17: signs too near the camera, spread them out. T04."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f5da08a3-44dd-4418-b60f-f6ab994663ae",
+              "prompt": "05-generation/prompts/001_S01_SH010_T04.txt",
+              "file": "05-generation/takes/S01/SH010/001_S01_SH010_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 015. Folder S01/SH010. Passed first submission. Claude's read: the first second shows a grey-haired man in a dark jacket from behind at the balcony, in the foreground, who can read as him watching (cut it). From 1 to 2 s the signs are spread across the crowd; from 3 s the camera tilts down and his face signs bunch again in the lower foreground."
             }
           ],
           "description": "A crowd fills an avenue from wall to wall. Above the heads, signs with the same old face: devil horns drawn on, the eyes crossed out in red, one printout of him photoshopped hanging from a noose.",
@@ -149,6 +172,31 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST 014. Higgsfield folder S01/SH020. Passed first submission. Downloaded to takes/S01/. Claude's read: digital red LED display, worker and ladder gone, 194 changes to 589, DIESEL 631. The decimal points are missing (reads 194, not 1.94): a dot can be added in post. Leonard 2026-11-17: NO. Use the reference sign photo, exact numbers; nothing mechanical: the worker slides one last panel; absurdly high prices; rows Regular, Plus, Supreme (not Plus twice). T04: start and end stills with the exact prices, then the video between them."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 17.5,
+              "job_id": "e0f50fc4-5b14-492c-9dd8-0f4f8e1f3340",
+              "prompt": "05-generation/prompts/001_S01_SH020_T04.txt",
+              "file": "05-generation/takes/S01/SH020/001_S01_SH020_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start still 2d664efc (REFS)",
+                "end still 80f8771c (REFS)",
+                "from ref_gas-price-sign_crop dfd0a841"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 015: 12 for the video plus 2 x 2.75 for the stills (GPT Image 2.6, frames/001_S01_SH020_T04_start.png and _end.png). Folder S01/SH020. Passed first submission. Claude's read: the 1 slides into the Supreme row in the first second, then a 3 s hold; Regular 10.49, Plus 10.69, Supreme 10.89, each 9/10, stable for the whole take."
             }
           ],
           "description": "A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars. Nobody honks.",
