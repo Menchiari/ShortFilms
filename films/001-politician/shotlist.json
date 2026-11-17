@@ -1625,8 +1625,36 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "a169222f-d3da-4e37-b69b-a6b8949408f0",
+              "prompt": "05-generation/prompts/001_S03_SH010_T01.txt",
+              "file": "05-generation/takes/S03/SH010/001_S03_SH010_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH010_T01.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_car 42787b78",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S03_SH010 line-drawing guide 13e9c827 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 019, draft (finalizable at 720p within 7 days). Seed 440285058. Guide clip confirmed in the job as a video reference (role video). Claude's read: photographic, live-action look, nothing of the previz style. Light: warm low sun on the upper facades, shutters and car body in warm shade, his face softly lit, shadows keep detail. Framing does NOT match the previz: much tighter, the car fills the frame with roof, nose, tail and wheels cropped, no road visible; the previz has the whole car small in a wide. Car speed: steady slow crawl, facades slide right to left throughout (not measured against the previz). Action: sits fairly upright, only a slight lean, not hunched with eyes near the windshield; forearm wipe across the forehead at about 2s; at 4.5-5.5s he looks up at the buildings, turns away, then back to the road. Sweat not readable at 480p. Front passenger window open. No extra cars or people."
+            }
+          ],
           "description": "The car crawls through the town. Tall apartment blocks slide past behind it, shutters down. Nobody outside. From open windows the same news echoes from television to television.",
           "framing": "WIDE, side view, from the far side of the street",
           "movement": "Dolly alongside the car, long lens, flat",
