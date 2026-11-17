@@ -1798,7 +1798,7 @@
               "prompt": "05-generation/prompts/001_S03_SH040_T01.txt",
               "file": "05-generation/takes/S03/SH040/001_S03_SH040_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S03_SH040_T01.jpg",
               "references": [
                 "prop_instrument-cluster 4025ee1a"
               ],
