@@ -1,11 +1,12 @@
-Audio: only a faint dry wind and the dog's slow breathing. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+Audio: only a faint dry wind and the dog's slow breathing; at the very end, very faint and far away, an engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
 Image 1: the dusty ground and the color of the concrete only. Not its composition, not the towers. Image 2: color and light only.
+The reference video is a motion diagram only: it gives the camera position, the framing and the timing of what moves, nothing else. Its plain untextured boxes and flat colors are not the look and are never copied: the place, the car and the people are real and come from the reference images and from this prompt.
 
 Two locked-off shots of a lean stray dog resting in the shade at the edge of a dusty desert town, cut together.
 
-0-3s: medium shot, low, at the dog's height. Camera: locked-off. A lean street dog with a short sandy coat, upright ears and a curled tail lies on its side in the shadow of an abandoned concrete building, along the base of a crumbled concrete wall, its head down on its front paws, its ribs rising and falling slowly. Beyond the shadow line the ground is bright with sun and heat rises off it in a visible shimmer.
-3-5s: hard cut to a close-up of the same dog's head, same shade, same light. Camera: locked-off. The dog lifts its head off its paws, its ears turn forward, and it looks off to screen left toward a sound far away. Final frame: the dog's head up and still, ears forward, looking off screen left.
+0-3s: medium shot, low, at the dog's height, framed as in the reference video. Camera: locked-off. A lean street dog with a short sandy coat, upright ears and a curled tail lies on its side in the shadow of an abandoned concrete building, along the base of a crumbled pale concrete wall, its head down on its front paws, its ribs rising and falling slowly. Beyond the shadow line the ground is bright with sun and heat rises off it in a visible shimmer.
+3-5s: hard cut to a close shot of the same dog from just behind its shoulder, framed as in the reference video, same shade, same light. Camera: locked-off. The dog lifts its head off its paws, its ears come up, and it points its nose to screen right, toward a sound far away. Final frame: the dog's head up and still, ears up, looking off to screen right.
 
 Count of dogs: one. The same dog in both shots.
 
@@ -13,4 +14,4 @@ Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no reada
 
 Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
 
-Audio: only a faint dry wind and the dog's slow breathing. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+Audio: only a faint dry wind and the dog's slow breathing; at the very end, very faint and far away, an engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

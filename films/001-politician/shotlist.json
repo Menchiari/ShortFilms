@@ -781,9 +781,9 @@
                 "loc_town-edge 146470dd (start_image)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 015a. Higgsfield folder S02/SH010. Passed first submission. File 1470x630, 24 fps, 4.06 s. Claude's read: holds the start frame, a locked-off hold with dust drifting on the road; nothing breaks."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 015a. Higgsfield folder S02/SH010. Passed first submission. File 1470x630, 24 fps, 4.06 s. Claude's read: holds the start frame, a locked-off hold with dust drifting on the road; nothing breaks. Leonard 2026-11-17: too static, boring and insignificant; perhaps a different angle. T02: the d11 animatic angle (towers fill the frame), wind and heat moving in the frame."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
@@ -878,9 +878,9 @@
                 "palette_afternoon 3bf30eee (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 015a. Covers SH060 (0-2 s) and SH070 (2-4 s). Higgsfield folder S02/SH060. Passed first submission. Claude's read: the bobblehead matches the element and faces the driver, it nods only a little; through the windshield minarets and low mud-brick buildings, not the modern towers of the town edge. The briefcase is the element, papers out, bouncing hard, lands flat; the seats are black leather, the element's interior is brown."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 015a. Covers SH060 (0-2 s) and SH070 (2-4 s). Higgsfield folder S02/SH060. Passed first submission. Claude's read: the bobblehead matches the element and faces the driver, it nods only a little; through the windshield minarets and low mud-brick buildings, not the modern towers of the town edge. The briefcase is the element, papers out, bouncing hard, lands flat; the seats are black leather, the element's interior is brown. Leonard 2026-11-17: the bobblehead is fine (SH060 uses 0-2 s of this take). The briefcase (SH070 half) bounces way too much: a car seat on a dirt road, not a flying horse. SH070 gets its own take."
             }
           ],
           "description": "A painted bobblehead on the dashboard, facing the driver's seat: him, grinning, giving the finger. It nods hard with every bump.",
@@ -946,9 +946,9 @@
                 "palette_afternoon 3bf30eee (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 015a. Higgsfield folder S02/SH090. Passed first submission. Claude's read: old man A reads right; head bowed over the wheel, raises it, fixes on the gap: the acting works. Framed far wider than a medium close-up (the whole windshield, he is small). Behind the car a town street with balconied buildings, not the desert road: he looks already inside the town. The hood reads beige under the dust."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 015a. Higgsfield folder S02/SH090. Passed first submission. Claude's read: old man A reads right; head bowed over the wheel, raises it, fixes on the gap: the acting works. Framed far wider than a medium close-up (the whole windshield, he is small). Behind the car a town street with balconied buildings, not the desert road: he looks already inside the town. The hood reads beige under the dust. Leonard 2026-11-17: does not work, the acting is flat. He is always angry inside, pissed, focused: another fucking challenge, another thing that will go wrong, maybe this is where he dies, just another fucking day. He is not in the city yet: behind him only desert. T02: new acting task, the d11 animatic framing, desert behind."
             }
           ],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",

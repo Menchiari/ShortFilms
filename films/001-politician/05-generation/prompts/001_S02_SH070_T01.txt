@@ -1,0 +1,16 @@
+Audio: only the engine at speed, the tires humming on the road, the leather of the briefcase creaking, one soft thud on the seat. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Image 1: the briefcase. Image 2: the passenger seat, its material and color only, not the view through the windows. Image 3: color and light only.
+The reference video is a motion diagram only: it gives the camera position, the framing and the timing of what moves, nothing else. Its plain untextured boxes and flat colors are not the look and are never copied: the place, the car and the people are real and come from the reference images and from this prompt.
+
+An insert inside a black luxury sedan driving fast down a long straight desert road: the briefcase lying on the passenger seat.
+
+0-4s: insert, the briefcase seen from above at an angle, framed as in the reference video. Camera: rigged to the car, a light steady road vibration. The briefcase from image 1 lies flat on the passenger seat, white papers sticking out from under its closed lid where it was shut in a hurry. The ride is fast and firm but smooth: the briefcase trembles with the vibration, and on two small bumps it jolts, slides a few centimeters and settles back. It never leaves the seat, never tips up, never tilts on its edge. The papers flutter in the air from the vents. Final frame: the briefcase flat on the seat, the papers fluttering.
+
+Count of briefcases: one. Nobody in frame.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the engine at speed, the tires humming on the road, the leather of the briefcase creaking, one soft thud on the seat. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -3,6 +3,18 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician S02 REQUEST 015a (84 credits)
+
+- **What:** SH010 T01 was static and the town small; SH090 T01 was framed wide with a town behind him and flat acting;
+  the briefcase in SH060 T01 bounced like it was on a horse. No S02 prompt used the d11 animatic clips, which exist for
+  every 3D shot and carry Leonard's framing.
+- **Cause:** my material check covered elements and images, not the animatic clip in each shot's `animatic` field, so
+  prompts written without the clips passed. Motion was described without a size ("bounces with the road" in a car
+  "racing over a rough road"). The acting task played calculation; his inner state was in no document.
+- **Rule:** the material check lists each shot's animatic clip, and every 3D shot uses it as a video reference with the
+  motion diagram line (no extra cost). Every motion gets a size ("slides a few centimeters"). His inner state is in the
+  bible (Leonard, 2026-11-17) and goes into every acting task.
+
 ## 2026-11-17, Politician S02 request 013 (no credits spent)
 
 - **What:** S02 prompts used the request 011 images for the town edge and the car. Leonard had already registered

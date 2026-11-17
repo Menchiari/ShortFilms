@@ -1,10 +1,11 @@
 Audio: only a dry wind; from about 3s the faint, distant whine of an engine at full throttle, arriving late. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
 Image 1: the black full-size luxury sedan: its body, grille, lights, black paint and light coat of desert dust only, not its background. Image 2: color and light only.
+The reference video is a motion diagram only: it gives the camera position, the framing and the timing of what moves, nothing else. Its plain untextured boxes and flat colors are not the look and are never copied: the place, the car and the people are real and come from the reference images and from this prompt.
 
-Seen from the edge of town with a long lens, a black sedan races out of the heat shimmer on a desert road, a plume of dust behind it.
+Low at the side of a desert road, a long lens watches a black sedan race out of the heat shimmer, a plume of dust behind it.
 
-0-5s: extreme wide, long telephoto lens, eye level from the side of the road at the edge of town, looking out along the road into the flat desert. Camera: locked-off. The straight road of dark asphalt, half buried in dust and drifted sand, runs away to the horizon and wobbles in a thick heat shimmer. Far out, the black sedan comes out of the shimmer at full speed, straight toward camera, a long plume of pale dust rising behind it. Compressed by the long lens, it grows only a little. Final frame: the car still far away in the center of frame, still racing toward camera, the dust plume trailing back to the horizon.
+0-5s: extreme wide, long telephoto lens, the camera low on the ground at the roadside, framed as in the reference video: a broken concrete block in the left foreground, the straight road of dark asphalt, half buried in dust and drifted sand, running away to the horizon, wobbling in a thick heat shimmer. Camera: locked-off. Far out, the black sedan comes out of the shimmer at full speed, straight toward camera, a long plume of pale dust rising behind it. Compressed by the long lens, it grows only a little. Final frame: the car still far away in the center of frame, still racing toward camera, the dust plume trailing back to the horizon.
 
 Count of cars: one.
 
