@@ -3,6 +3,15 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician S02 prompt files emptied (no credits)
+
+- **What:** my script emptied 001_S02_SH120_T01.txt and 001_S02_SH200_T01.txt in commit 7e1d0d8, and the REQUEST 018 table
+  offered them as ready. Caught before any submission.
+- **Cause:** `open(f, "w").write(f(open(f).read()))` truncates the file before reading it; my check only looked for banned
+  words, which an empty file passes.
+- **Rule:** read into a variable first, write after. Every prompt check asserts a minimum length and the audio line at the
+  start.
+
 ## 2026-11-17, Politician S02 REQUEST 016 (63 credits)
 
 - **What:** SH030 T01 (35) and SH100 T01 (28) copied the d11 animatic's grey geometry as untextured CG: the road and a
