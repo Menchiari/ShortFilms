@@ -70,7 +70,7 @@ Negative declension of justice (McKee: justice, unfairness, injustice, tyranny):
 ## Research
 | Fact the story relies on | Status | What changes if false |
 |---|---|---|
-| Helicopter model: "fancy", "we need the model name and number" [MINE] | To verify. Candidates to check: Airbus ACH160, Leonardo AW139 VIP, Leonardo AW169 | Look, sound and cabin of the Roger and lady shots |
+| Helicopter model: "fancy", "we need the model name and number" [MINE] | Decided 2026-11-17 (Leonard): a Sikorsky UH-60 Black Hawk, matte black, unmarked, bare military cabin. Replaces "fancy" | Look, sound and cabin of the Roger and lady shots |
 | A marksman can hit people, and a rope, from a helicopter | To verify (aerial marksman units) | If the rope shot is not credible, Roger shoots it after landing |
 | Compact pistol for a rich old man, and its capacity | To verify | Shot count: the warning shot, two kills, the miscount |
 | Large-denomination banknotes as a look reference | To verify which real notes; the film's currency is invented so the place stays unplaceable [PROPOSED-PENDING] | The bills' look |
