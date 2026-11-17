@@ -1738,7 +1738,7 @@
               "prompt": "05-generation/prompts/001_S03_SH020_T01.txt",
               "file": "05-generation/takes/S03/SH020/001_S03_SH020_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S03_SH020_T01.jpg",
               "references": [
                 "Leonard's Midjourney start frame, cropped to 21:9 (94b73080, sent as start_image, registered as image reference): 05-generation/frames/001_S03_SH020_T01_start.jpg"
               ],
