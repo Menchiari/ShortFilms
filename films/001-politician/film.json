@@ -442,6 +442,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 050b approved (1.5 credits): S03 SH050 start frame v2, gpt_image_2_6 high 1k 21:9, job 39b69882-c03c-490e-96a7-8957c5f66113, edit of 050a: metal railing, man in a sleeveless undershirt leaning on his forearms, looking down, smoking (Leonard's note). Files frames/001_S03_SH050_T01_start_v2_src.png and _start_v2.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Leonard: the 040c still is stretched (GPT Image squeezed the 16:9 element into 21:9). Replaced, free: frames/001_S03_SH040_fuel-on_v2.png and fuel-off_v2.png, the element cropped to 21:9 (y 180-1332, no scaling), the pump symbol lit amber locally on the element's own pixels. Uploaded: on c317a203, off cbfa703c. REQUEST 040d now start_image on + end_image off, preflight 15."
     }
   ],
   "story_sync": {
