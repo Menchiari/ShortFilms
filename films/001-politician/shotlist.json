@@ -1736,7 +1736,7 @@
         },
         {
           "id": "SH030",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1760,9 +1760,9 @@
                 "no guide clip"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 030a, draft (finalizable at 720p within 7 days). Higgsfield folder S03/SH030. Reference images written @Image1-3 in the prompt (Leonard). Claude's read from 1 fps frames and a motion measure, sound not heard: the car is the prop_car sedan (grille, headlights, multi-spoke wheels, dust), photographic, no previz look. Ground-level camera. 0-2s: the car comes head-on down the street faster than walking pace, kicking dust; one parked car at the right curb and two round road signs at top right (no readable text) carried over from the street image. 2-5s: it fills frame and the camera ends on the car's front wheel on its right side (screen left of the grille), the wheel at center-left, not the right half. Motion falls to near zero at 6.5-7s: the stop lands at about 6 s, leaving about 1 s of hold. Daytime running lights on."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 030a, draft (finalizable at 720p within 7 days). Higgsfield folder S03/SH030. Reference images written @Image1-3 in the prompt (Leonard). Claude's read from 1 fps frames and a motion measure, sound not heard: the car is the prop_car sedan (grille, headlights, multi-spoke wheels, dust), photographic, no previz look. Ground-level camera. 0-2s: the car comes head-on down the street faster than walking pace, kicking dust; one parked car at the right curb and two round road signs at top right (no readable text) carried over from the street image. 2-5s: it fills frame and the camera ends on the car's front wheel on its right side (screen left of the grille), the wheel at center-left, not the right half. Motion falls to near zero at 6.5-7s: the stop lands at about 6 s, leaving about 1 s of hold. Daytime running lights on. Leonard 2026-11-17: 'finally a shot that you got right. Save it, this one works.' Approved as the SH030 take."
             }
           ],
           "description": "A front wheel rolls toward the camera, slower and slower, and stops right in front of it. The dust settles.",
