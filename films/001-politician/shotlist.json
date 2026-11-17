@@ -106,7 +106,7 @@
         },
         {
           "id": "SH020",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -197,6 +197,54 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 015: 12 for the video plus 2 x 2.75 for the stills (GPT Image 2.6, frames/001_S01_SH020_T04_start.png and _end.png). Folder S01/SH020. Passed first submission. Claude's read: the 1 slides into the Supreme row in the first second, then a 3 s hold; Regular 10.49, Plus 10.69, Supreme 10.89, each 9/10, stable for the whole take. Leonard 2026-11-17: too static. He reaches, places it, then starts down the ladder. T05."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 20.5,
+              "job_id": "600952b1-4aeb-4476-936b-f39de1bba584",
+              "prompt": "05-generation/prompts/001_S01_SH020_T05.txt",
+              "file": "05-generation/takes/S01/SH020/001_S01_SH020_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start still 4d9c31a3 (REFS)",
+                "end still bbfcb4d4 (REFS)"
+              ],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 016: 15 for the video plus 2 x 2.75 for the stills (frames/001_S01_SH020_T05_start.png, _end.png, both text-exact). Folder S01/SH020. Passed first submission. Claude's read: frame 0 does not match the start still: the Plus row reads 0.69, so he slides the 1 into the Plus row (0 to 2 s) and the Supreme 1 pops in by itself at about 2.2 s. From 2.4 s the numbers are right; the reach and the climb down two rungs work."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 17.75,
+              "job_id": "439f9405-1c1f-4056-a55b-9e44934ed1c9",
+              "prompt": "05-generation/prompts/001_S01_SH020_T06.txt",
+              "file": "05-generation/takes/S01/SH020/001_S01_SH020_T06.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start still 829b131b (REFS, Plus row empty)",
+                "end still bbfcb4d4 (REFS)"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 017 (Leonard: do it again, start picture with only the Plus row missing): 15 for the video plus 2.75 for the start still (frames/001_S01_SH020_T06_start.png). Folder S01/SH020. Passed first submission. Claude's read: frame 0 matches the start still; he reaches up (0 to 1 s), slides the 1 into Plus and pushes it (1 to 2.5 s), climbs down two rungs (2.5 to 5 s). Regular 10.49, Plus 10.69, Supreme 10.89 hold to the last frame. Leonard 2026-11-17: finally."
             }
           ],
           "description": "A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars. Nobody honks.",

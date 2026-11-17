@@ -3,6 +3,16 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician S01 SH020 T03 to T06 (70.75 credits for one 2 s shot)
+
+- **What:** four takes. T03 edited the old take into an LED sign Leonard never asked for; T04 held still; T05 put the
+  panel in the wrong row; T06 worked.
+- **Cause:** T03: I chose an edit of a take Leonard had rejected instead of starting from the reference he named.
+  T05: Seedance moved the empty slot to the Plus row on frame zero; I proposed re-rolling the same inputs with
+  firmer words. Leonard's fix was to rebuild the start picture around what the model did.
+- **Rule:** when a take drifts the same way twice, rebuild the inputs around the drift instead of re-rolling them.
+  When Leonard names a source, start from that source.
+
 ## 2026-11-17, Politician S01 SH020 T04 (29.5 credits with the stills)
 
 - **What:** the sign was right, but after the panel went in the take held still for three seconds: nothing happened.
