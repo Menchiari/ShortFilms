@@ -33,3 +33,4 @@ How much is said, how much is held back, how characters listen and overlap.
 Images that set the look (Midjourney or other), in `style-refs/`.
 
 ## This film never
+Holds a shot where nothing happens, unless the frame is breathtaking (Leonard, 2026-11-17).

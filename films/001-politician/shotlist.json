@@ -7,7 +7,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -93,9 +93,9 @@
                 "char_politician a7601ce4 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 015. Folder S01/SH010. Passed first submission. Claude's read: the first second shows a grey-haired man in a dark jacket from behind at the balcony, in the foreground, who can read as him watching (cut it). From 1 to 2 s the signs are spread across the crowd; from 3 s the camera tilts down and his face signs bunch again in the lower foreground."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 015. Folder S01/SH010. Passed first submission. Claude's read: the first second shows a grey-haired man in a dark jacket from behind at the balcony, in the foreground, who can read as him watching (cut it). From 1 to 2 s the signs are spread across the crowd; from 3 s the camera tilts down and his face signs bunch again in the lower foreground. Leonard 2026-11-17: works now."
             }
           ],
           "description": "A crowd fills an avenue from wall to wall. Above the heads, signs with the same old face: devil horns drawn on, the eyes crossed out in red, one printout of him photoshopped hanging from a noose.",
@@ -194,9 +194,9 @@
                 "from ref_gas-price-sign_crop dfd0a841"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 015: 12 for the video plus 2 x 2.75 for the stills (GPT Image 2.6, frames/001_S01_SH020_T04_start.png and _end.png). Folder S01/SH020. Passed first submission. Claude's read: the 1 slides into the Supreme row in the first second, then a 3 s hold; Regular 10.49, Plus 10.69, Supreme 10.89, each 9/10, stable for the whole take."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 015: 12 for the video plus 2 x 2.75 for the stills (GPT Image 2.6, frames/001_S01_SH020_T04_start.png and _end.png). Folder S01/SH020. Passed first submission. Claude's read: the 1 slides into the Supreme row in the first second, then a 3 s hold; Regular 10.49, Plus 10.69, Supreme 10.89, each 9/10, stable for the whole take. Leonard 2026-11-17: too static. He reaches, places it, then starts down the ladder. T05."
             }
           ],
           "description": "A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars. Nobody honks.",

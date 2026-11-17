@@ -3,6 +3,13 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician S01 SH020 T04 (29.5 credits with the stills)
+
+- **What:** the sign was right, but after the panel went in the take held still for three seconds: nothing happened.
+- **Cause:** I wrote the second half as a hold ("keeps his hand on it, looks at the sign") to land on the end still.
+- **Rule (Leonard):** "beautiful, interesting, or both" does not cover a shot where nothing happens and the frame is
+  not breathtaking. Every second of a shot carries an action, unless the image itself is breathtaking.
+
 ## 2026-11-17, Politician S02 request 013 (no credits spent)
 
 - **What:** S02 prompts used the request 011 images for the town edge and the car. Leonard had already registered
