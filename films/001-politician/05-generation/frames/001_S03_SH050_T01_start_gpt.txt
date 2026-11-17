@@ -1,5 +1,6 @@
-S03 SH050 T01 start frame, REQUEST 050a (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b.
+S03 SH050 T01 start frame, REQUEST 050a, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b.
 Images: 1 = guide frame 0 of animatic d11 (media 19a2dd38), 2 = loc_crossroads (a5b52222), 3 = prop_car (42787b78), 4 = palette_afternoon (3bf30eee).
+Result: job 25f0e435-1170-4787-9b28-bbceb1324ba3, 1.5 credits.
 No character element: in frame 0 he is still inside the car with the door closed.
 
 Prompt:
