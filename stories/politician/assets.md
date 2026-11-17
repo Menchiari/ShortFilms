@@ -18,7 +18,7 @@ man with the pipe since draft 9), the business lady, Roger, the briefcase, the g
 |---|---|---|---|---|
 | 1 | Main street (master frame) | S03 SH010 to SH030, the look of every town shot | M1 | candidate: `refs/locations/loc_main-street_v1.jpg` (not registered: your OK or a new one) |
 | 2 | Town edge: towers like a wall, one gap | S02, 10 shots | M2 | missing |
-| 3 | His car, outside | S02, S03, S10 | M3 | missing |
+| 3 | His car, outside | S02, S03, S10 | M3 | done: prop_car `4fb2b9be-e3bf-4122-be00-0c098818122e` (Leonard's edit) |
 | 4 | His car, inside | S02 inserts and POVs, S03 SH020, S10 | M4 | missing |
 | 5 | Instrument cluster (one still) | S02 SH170, S03 SH040 (the same fuel symbol) | M5 | missing, new in draft 10 |
 | 6 | Crossroads | S03 SH050, S10 | paint over `crossroads/setup_01_est_high.jpg` with #1 as reference | render done, paint missing |
@@ -31,7 +31,7 @@ Optional:
 
 | Asset | Shots | Note |
 |---|---|---|
-| Rifle | S08 SH020, SH050 | candidate `refs/props/prop_rifle_v1.jpg` works; registered on your OK |
+| Rifle | S08 SH020, SH050 | done: prop_rifle `1ba45df5-3781-4aa4-a647-2fa4a63af43c` |
 | The friend | S04 SH100 (seen), SH140 (voice) | one visible shot: text is enough. Prompt in `references-monday.md` section 6 |
 
 Not needed any more: the man with the pipe (he is the fat person), the reporter (S01 SH120 T01 exists from
