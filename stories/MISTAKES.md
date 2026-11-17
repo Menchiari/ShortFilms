@@ -3,6 +3,16 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-17, Politician S02 REQUEST 016 (63 credits)
+
+- **What:** SH030 T01 (35) and SH100 T01 (28) copied the d11 animatic's grey geometry as untextured CG: the road and a
+  foreground block in SH030, the whole street in SH100.
+- **Cause:** both prompts gave the clip with no real image of that place (SH030: car and palette only; SH100: the town
+  edge seen from outside). The S05 SH020 test had already shown the same failure with a palette-only prompt, and I had
+  read it. I flagged the risk as unknown instead of applying it.
+- **Rule:** a reference clip goes in only when every place in its frame also has a real image in the references.
+  Otherwise drop the clip and describe the place in words.
+
 ## 2026-11-17, Politician S02 REQUEST 015a (84 credits)
 
 - **What:** SH010 T01 was static and the town small; SH090 T01 was framed wide with a town behind him and flat acting;
