@@ -711,7 +711,7 @@
           "status": "planned",
           "takes": [],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
-          "framing": "MEDIUM, through the windshield",
+          "framing": "MEDIUM CLOSE, through the windshield",
           "movement": "Locked-off",
           "duration_s": 4,
           "note": "The car stands a few meters from the towers, facing the gap"
@@ -880,7 +880,7 @@
           "framing": "EXTREME WIDE, high, from a balcony across the crossroads",
           "movement": "Locked-off, a slight handheld drift",
           "duration_s": 14,
-          "note": "Someone on a balcony, smoking: the railing edge and the drifting smoke at the far left of frame, no face, never over the car. The car stays here: it is seen again only in S10. He steps around the open door, never through it"
+          "note": "Someone on a balcony, smoking: the railing edge and the drifting smoke at the far left of frame, no face, never over the car. The car stays here: it is seen again only far off in S09 SH110 and in S10. He steps around the open door, never through it"
         }
       ]
     },
@@ -953,10 +953,10 @@
           "status": "planned",
           "takes": [],
           "description": "He bounces off the big body and lands flat on his back on the ground.",
-          "framing": "OVER THE SHOULDER of the fat person, looking down, long lens",
-          "movement": "Locked-off",
+          "framing": "HIGH, looking down on him, the same angle as SH090",
+          "movement": "Handheld",
           "duration_s": 3,
-          "note": "Same side of the line as SH090. Camera a little higher; his head stays in frame through the fall"
+          "note": "One setup for the fall and the lines that follow; his head stays in frame through the fall"
         },
         {
           "id": "SH080",
@@ -1062,7 +1062,7 @@
           "framing": "TOP VIEW, high",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Nobody pops into frame: they come out of doorways and side streets, each at his own pace"
+          "note": "Nobody pops into frame: they come out of doorways and side streets, each at his own pace. They move slowly around him; only the distant ones speed up at the very end, never the close ones"
         },
         {
           "id": "SH030",
@@ -1158,7 +1158,7 @@
           "framing": "MEDIUM, frontal, from the crowd's side",
           "movement": "Handheld",
           "duration_s": 6,
-          "note": "He stands from S05 SH120 until the wave in SH060. A wall a few steps behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun"
+          "note": "He stands from S05 SH120 until the wave in SH060. The gun aims along his extended right arm at the crowd in front of him. A wall a few steps behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun"
         },
         {
           "id": "SH020",
@@ -1168,7 +1168,7 @@
           "framing": "THIRD PERSON, behind him, over his shoulder",
           "movement": "Handheld, close behind him, turning with him as he aims",
           "duration_s": 12,
-          "note": "Like a third-person action game. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film"
+          "note": "Like a third-person action game. The gun aims along his extended right arm at each runner he shoots. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film"
         },
         {
           "id": "SH025",
@@ -1253,18 +1253,18 @@
           "description": "Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.",
           "framing": "MEDIUM WIDE, 3 m away, the crowd between him and the camera",
           "movement": "Handheld",
-          "duration_s": 4,
+          "duration_s": 6,
           "note": "He hangs beside the sidewalk. Simulated: a body hauled up by one ankle, heavy, nothing elastic"
         },
         {
           "id": "SH040",
           "status": "planned",
           "takes": [],
-          "description": "His face: bruised, a split lip, blood from his ear. With effort, he opens one eye.",
-          "framing": "CLOSE, upside down",
+          "description": "His face: bruised, a split lip, blood from his ear. With effort, he opens one eye, and panic takes him: he twists on the rope, gasping, eyes darting for a way out.",
+          "framing": "CLOSE, upside down, the front of his face",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": "The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C"
+          "note": "He moves, panicked: never static. The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C"
         },
         {
           "id": "SH050",
@@ -1291,10 +1291,10 @@
           "status": "planned",
           "takes": [],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
-          "framing": "LOW, looking up, the fat person full figure",
+          "framing": "LOW, close on the fat person alone, the sky behind him",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post"
+          "note": "Like a finishing shot: only him, the pipe and the sky. SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post"
         },
         {
           "id": "SH080",
@@ -1316,11 +1316,11 @@
           "id": "SH010",
           "status": "planned",
           "takes": [],
-          "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: an Airbus ACH160, glossy and white, its sliding door open.",
+          "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
           "framing": "EXTREME WIDE, long lens",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Tone shift: Clancy, a hint of Kojima. Airbus ACH160, Lounge cabin (sliding doors). Far enough to stay unheard under the crowd. From far, not from below: buildings around it"
+          "note": "Tone shift: Clancy, a hint of Kojima. Sikorsky UH-60 Black Hawk, matte black, unmarked, bare military cabin (sliding doors) (Leonard, 2026-11-17). Far enough to stay unheard under the crowd. From far, not from below: buildings around it"
         },
         {
           "id": "SH020",
@@ -1328,7 +1328,7 @@
           "takes": [],
           "description": "ROGER, harnessed in, cheek on the stock of a long rifle, his face on the left. He is smiling. Beyond him, in the front seat beside the pilot, the BUSINESS LADY, a headset over her hair. On the right, the front half of the rifle runs out of frame toward the open door.",
           "framing": "CLOSE, inside the cabin, a step further back",
-          "movement": "Locked-off, cabin vibration",
+          "movement": "Handheld, a slow drift, cabin vibration",
           "duration_s": 4,
           "note": "Left: Roger's face. Center: the lady in the front seat beside the pilot. Right: the front half of the rifle, clearly a rifle, running out of frame, held a little lower"
         },
@@ -1340,17 +1340,17 @@
           "framing": "SCOPE POV",
           "movement": "Steady, stabilized",
           "duration_s": 4,
-          "note": ""
+          "note": "Staged in 3D in the animatic, from the helicopter's real position, so Seedance gets the angle"
         },
         {
           "id": "SH040",
           "status": "planned",
           "takes": [],
-          "description": "Cracks from the sky. People fall. The rest run. Some fall while they run.",
+          "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
           "framing": "WIDE, from the street, long lens",
           "movement": "Locked-off",
-          "duration_s": 4,
-          "note": "Distance and dust: nothing explicit. The dead stay where they fell"
+          "duration_s": 7,
+          "note": "Distance and dust: nothing explicit. One shot every two seconds, three dead. The dead stay where they fell"
         },
         {
           "id": "SH050",
@@ -1358,7 +1358,7 @@
           "takes": [],
           "description": "In the front seat, the lady turns around to him, over her right shoulder.",
           "framing": "CLOSE, same setup as SH020",
-          "movement": "Locked-off, cabin vibration",
+          "movement": "Handheld, a slow drift, cabin vibration",
           "duration_s": 3,
           "note": "She turns over her right shoulder"
         },
@@ -1406,17 +1406,17 @@
           "framing": "MEDIUM CLOSE, camera almost on the ground across the street, long lens",
           "movement": "Locked-off",
           "duration_s": 18,
-          "note": "One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. ELEMENT: old man D (stain)"
+          "note": "One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. When he leans back: slouched and loose, the spine curved, one knee up, one leg out, elbows on the sidewalk (pose: look/pose_ref_s09_sh010.webp). ELEMENT: old man D (stain)"
         },
         {
           "id": "SH020",
           "status": "planned",
           "takes": [],
-          "description": "The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it. Behind him the helicopter comes down into the square. Its rotor wash throws the certificates into the air: they fly all around. He reaches the case.",
+          "description": "The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it, slowly. Behind him the helicopter comes down into the square. Its rotor wash tears the certificates off the asphalt: they flip, tumble and fly off in the gusts. He reaches the case.",
           "framing": "LOW, the briefcase in the foreground, him far",
           "movement": "Locked-off",
           "duration_s": 13,
-          "note": "The briefcase lies flat in the street where it fell; the square opens behind him. Seedance does the wind and the paper"
+          "note": "The briefcase lies flat in the street where it fell; the square opens behind him. Real rotor wash: the sheets are torn off the asphalt and tumble fast in gusts, nothing floats. A slow limp; the case lies closer to him. Seedance does the wind and the paper"
         },
         {
           "id": "SH030",
@@ -1492,11 +1492,11 @@
           "id": "SH100",
           "status": "planned",
           "takes": [],
-          "description": "He limps past her. She doesn't move. At the door he half turns toward her and points his chin at the street.",
+          "description": "He limps past her. She doesn't move. At the door he half turns, away from her, and points his chin at the street without a look at her.",
           "framing": "CLOSE, her, same frame as SH080",
           "movement": "Locked-off, rack focus",
           "duration_s": 7,
-          "note": "He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. One generation with SH120"
+          "note": "He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. On his line he turns only halfway, away from her: he never faces her. One generation with SH120"
         },
         {
           "id": "SH110",
@@ -1506,7 +1506,7 @@
           "framing": "HER POV, WIDE",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": "Distance: no wounds in frame. The animatic leaves the paper still: Seedance moves it"
+          "note": "Distance: no wounds in frame. A full background: more buildings, his car far off at the crossroads, a few people hiding behind cover, dusty gusts. The animatic leaves the paper still: Seedance moves it"
         },
         {
           "id": "SH120",
@@ -1528,11 +1528,11 @@
           "id": "SH010",
           "status": "planned",
           "takes": [],
-          "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, banks hard and swings around toward the horizon: too low, too fast, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down the street, lifting certificates into the air, and",
+          "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
           "framing": "MEDIUM, from inside the car, through the windshield",
-          "movement": "Holds, then a slow pedestal down",
-          "duration_s": 15,
-          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks hard and turns away: a reckless pilot flying it perfectly, real helicopter flight. As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. Hold on the head while the helicopter shrinks away"
+          "movement": "Holds, then a slow pedestal down, a little lower at the end",
+          "duration_s": 20,
+          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks and turns away, closest to the camera in the turn: a reckless pilot flying it perfectly, real helicopter flight, heavy, slow and smooth, a big machine ([ASSUMPTION] the white ACH160 of S08, flown heavy: Leonard wrote \"a black hawk\"; no military helicopter in prompts until he confirms). As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. At the end the camera is low enough for the whole bobblehead; hold the composition while the helicopter shrinks to a speck and melts into the haze over the horizon"
         }
       ]
     }

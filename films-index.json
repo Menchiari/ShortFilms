@@ -4,10 +4,10 @@
     {
       "slug": "001-politician",
       "id": "001",
-      "title": "Politician",
+      "title": "Routine",
       "status": "generation",
       "takes": 23,
-      "size_mb": 29.9
+      "size_mb": 30.2
     }
   ]
 }

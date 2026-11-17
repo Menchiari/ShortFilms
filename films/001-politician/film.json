@@ -1,7 +1,8 @@
 {
   "id": "001",
   "slug": "001-politician",
-  "title": "Politician",
+  "title": "Routine",
+  "project": "Politician",
   "logline": "",
   "status": "generation",
   "created": "2026-11-17",
@@ -23,7 +24,7 @@
     "resolution": "480p",
     "target_runtime_s": 420
   },
-  "poster": "",
+  "poster": "03-bible/style-refs/mood_4_town-edge.webp",
   "schedule": {
     "source": "production plan v4 (2026-11-15), written for draft 8",
     "deadline": "2026-11-25",
@@ -149,6 +150,14 @@
     {
       "date": "2026-11-17",
       "text": "Film created from screenplay draft 10 (98 shots) and the S01 takes log (23 takes)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Title: Routine (project name stays Politician). Poster: the Midjourney town-edge mood image."
     }
-  ]
+  ],
+  "story_sync": {
+    "screenplay": "stories/politician/screenplay.fountain",
+    "takes_log": "stories/politician/takes/log.md"
+  }
 }
