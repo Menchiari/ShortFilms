@@ -1,12 +1,15 @@
 Audio: only a dry wind over open ground, sand hissing across the dirt, a loose plastic sheet flapping far off. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
-Image 1: the architecture of the town only: tall modern concrete apartment towers standing shoulder to shoulder and the single gap where the road enters. Real weathered concrete, real balconies and windows. Not its composition, not its distance. Image 2: color and light only.
+VIDEO 1 IS A ROUGH GUIDE (@@KIND@@), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the architecture and materials of the town only: tall modern concrete apartment towers standing shoulder to shoulder and the single gap where the road enters. Not its composition, not its distance. Image 2: color and light only.
 
-From low on the flat desert ground just outside a town, its outer towers stand shoulder to shoulder like a fortress wall and fill the frame, and the air in front of them moves with wind and heat.
+From low on the flat desert ground just outside a town, its outer towers stand shoulder to shoulder like a fortress wall, and the air in front of them moves with wind and heat.
 
-0-4s: wide shot, long telephoto lens, low and close to the ground: the long lens compresses the outer towers into one wall that fills the frame from edge to edge and almost to the top, real weathered concrete apartment blocks of different heights, balconies closed in with corrugated plastic, satellite dishes, shutters down; the single dark gap in the center where the road enters; flat broken ground with a little real rubble across the bottom third. Camera: locked-off. Heat shimmer bends and ripples the towers. The wind drives long ribbons of sand low across the ground from left to right, and a thin dust devil turns at the right of frame, rises and fades. A loose sheet of corrugated plastic on a high balcony flaps in the wind. The sun sits on the rooftops. Nobody, no vehicles. Final frame: the same framing, sand still streaming across the ground.
+0-4s: wide shot, low and close to the ground, camera position and framing from Video 1: the outer towers fill the frame from edge to edge and almost to the top, real weathered concrete apartment blocks of different heights and shades, balconies closed in with corrugated plastic, satellite dishes, water tanks, shutters down, stains and cracks; the single dark gap in the center where the road enters; flat broken ground with real rubble, broken bricks and faded bits of plastic across the bottom third. Camera: locked-off. Heat shimmer bends and ripples the towers. The wind drives long ribbons of sand low across the ground from left to right, and a thin dust devil turns at the right of frame, rises and fades. A loose sheet of corrugated plastic on a high balcony flaps in the wind. Nobody, no vehicles. Final frame: the same framing, sand still streaming across the ground.
 
 Count of gaps in the wall of towers: one.
+
+Never copy the look of Video 1.
 
 Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
 

@@ -1,11 +1,12 @@
 Audio: only the engine idling, his breathing through the nose, the leather of the seat creaking as he leans. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
+VIDEO 1 IS A ROUGH GUIDE (@@KIND@@), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
 Image 1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the dashboard, steering wheel, windshield pillars and seat leather only, not the view through the windows. Image 3: color and light only.
-The reference video is a motion diagram only: it gives the camera position, the framing and the timing of what moves, nothing else. Its plain untextured boxes and flat colors are not the look and are never copied: the place, the car and the people are real and come from the reference images and from this prompt.
+
 
 Inside the black sedan stopped a few meters from the wall of towers, the old man from image 1 leans over the wheel and hunts for another way, in one continuous locked-off take.
 
-0-2s: close shot from the passenger seat, low, just behind and below his right shoulder, looking up past it at the back and right side of his head, the dark roof edge across the top of frame and the windshield pillar beside him, framed as in the reference video. Camera: locked-off for the whole shot. He leans forward over the wheel, both forearms on top of it, and turns his head hard to his left, looking out through the windshield along the wall of towers (subtext: there has to be a road).
+0-2s: close shot from the passenger seat, low, just behind and below his right shoulder, looking up past it at the back and right side of his head, the dark roof edge across the top of frame and the windshield pillar beside him, camera position and framing from Video 1. Camera: locked-off for the whole shot. He leans forward over the wheel, both forearms on top of it, and turns his head hard to his left, looking out through the windshield along the wall of towers (subtext: there has to be a road).
 2-4s: same frame. He turns his head all the way to his right, across the passenger side and past the camera, his face coming round toward the lens in profile (subtext: nothing. Of course).
 4-6s: same frame. He drops his eyes to the dashboard in front of him and keeps them there. Final frame: leaning over the wheel, his eyes down on the instrument cluster, his mouth closed.
 Through the windshield the whole time: bright hazy sky and the tops of the concrete towers a few meters away, out of focus.
@@ -17,6 +18,10 @@ GOAL: find any way past the town that keeps him in the car.
 OBSTACLE: on both sides only the ditch, the rubble and the wall of towers; the only road runs into the town, where people know his face.
 TACTIC: he checks the exits like a man who already knows the door is locked and tries it anyway: his eyes rake the left side for a road, a track, any opening, find the ditch and throw it away; they rake the right side the same way and find the same; then they go to the one thing that can still decide for him: the fuel.
 (Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Never copy the look of Video 1.
+
+Never copy the look of Video 1.
 
 Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
 
