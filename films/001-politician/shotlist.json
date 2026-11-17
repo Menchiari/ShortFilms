@@ -1782,8 +1782,30 @@
         },
         {
           "id": "SH040",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "2f1ded62-ded6-47f4-a3e4-a6d09de513fd",
+              "prompt": "05-generation/prompts/001_S03_SH040_T01.txt",
+              "file": "05-generation/takes/S03/SH040/001_S03_SH040_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_instrument-cluster 4025ee1a"
+              ],
+              "love": false,
+              "notes": "REQUEST 040b, 480p, no draft flag (040a with the flag failed, refunded). 992x432, 5.06 s. Claude's read (frames and audio levels, not heard): wider than S02 SH170: the whole cluster (tach, speedo, fuel and temp gauges), so the fuel gauge is small at the right and not the same close framing as SH170; the amber light is a separate warning lamp by the speedo, not the pump symbol; light on 0-2 s, off about 2-2.8 s, on again about 3-4 s, off for the tail; sound in two blocks (0-1.8 s and 2.6-4.1 s) with a quiet gap between, quieter tail. No hands or person visible in the sampled frames."
+            }
+          ],
           "description": "The fuel light glows. The key turns: the starter grinds and doesn't catch. Again. Nothing. The key comes out. The light goes off.",
           "framing": "INSERT, dashboard",
           "movement": "Locked-off",
