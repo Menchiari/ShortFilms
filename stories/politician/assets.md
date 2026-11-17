@@ -7,32 +7,17 @@ workspace elements outside the project, which are void (Leonard, 2026-11-17).
 Locations: 21:9, empty, the afternoon palette image (`look/palette_ref_1_afternoon.jpg`) for color and light
 only; helicopter: the sunset one. Props: plain light grey background. One view per image.
 
-## Done (elements live, ids in `elements.md`)
+## Done: all 21 elements (2026-11-17, Leonard, in the project; ids in `elements.md`)
 
-Old man A, dusty, blood, final (D = final plus the stain, written in the prompt), the fat person (also the
-man with the pipe since draft 9), the business lady, Roger, the briefcase, the gun, the bobblehead. The bond
-(`props/bond/`, a file, composited).
-
-## Missing: you make (shooting order; the main street first, as the master every location takes as reference)
-
-| # | Asset | Shots it unlocks | Prompt | Status |
-|---|---|---|---|---|
-| 1 | Main street (master frame) | S03 SH010 to SH030, the look of every town shot | M1 | done: loc_main-street `a85235c7` |
-| 2 | Town edge: towers like a wall, one gap | S02, 10 shots | M2 | done: loc_town-edge `86326c41` |
-| 3 | His car, outside | S02, S03, S10 | M3 | done: prop_car `4fb2b9be-e3bf-4122-be00-0c098818122e` (Leonard's edit) |
-| 4 | His car, inside | S02 inserts and POVs, S03 SH020, S10 | M4 | done: loc_car-interior `61e6cb72` (palms through the windshield) |
-| 5 | Instrument cluster (one still) | S02 SH170, S03 SH040 (the same fuel symbol) | M5 | done: prop_instrument-cluster `b5c349f4` |
-| 6 | Crossroads | S03 SH050, S10 | paint over `crossroads/setup_01_est_high.jpg` with #1 as reference | done: loc_crossroads `2ed7ddd7` |
-| 7 | Side streets | S04 (15 shots), S05 SH010 to SH130 (9) | M6 | done: loc_side-streets `4cca367a` |
-| 8 | The square, street light corner | S05 SH140, S06, S07, S08 POVs, S09: 32 shots | M7 | done: loc_square `628fa32c` |
-| 9 | Helicopter, outside | S08 SH010, S09, S10 | M8 | done: prop_helicopter `72463ac3` (black Black Hawk) |
-| 10 | Helicopter cabin | S08 SH020, SH050, SH060 | M9 | done: loc_heli-cabin `b10298b3` (bare military) |
+Characters: old man A, dusty, blood, final (D = final plus the stain, in the prompt), the fat person (also the man
+with the pipe), the business lady, Roger. Props: briefcase, gun, bobblehead, rifle, car, instrument cluster, the
+black Black Hawk. Locations: town edge, main street, crossroads, side street, square, car interior, Black Hawk
+cabin. The bond (`props/bond/`, a file, composited).
 
 Optional:
 
 | Asset | Shots | Note |
 |---|---|---|
-| Rifle | S08 SH020, SH050 | done: prop_rifle `1ba45df5-3781-4aa4-a647-2fa4a63af43c` |
 | The friend | S04 SH100 (seen), SH140 (voice) | one visible shot: text is enough. Prompt in `references-monday.md` section 6 |
 
 Not needed any more: the man with the pipe (he is the fat person), the reporter (S01 SH120 T01 exists from
