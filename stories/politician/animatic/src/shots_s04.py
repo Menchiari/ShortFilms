@@ -85,10 +85,12 @@ def S04_SH060(nf):
     return {"cam": follow(him, pos, lens=40, offset=(-0.6, 0, 0.6), lag=0.3, hh=0.7), "actors": [him, fa],
             "callbacks": [PR.chest(case, him, visible=lambda f: f < F(4.5))], "cues": [[4.3, 4.7, "IMPACT"]]}
 
-SH070_CAM = (-70.0, -3.6, 3.2); SH070_TGT = (-63.6, -4.6, 1.0); SH070_LENS = 60     # higher, further back: his head stays in frame
+SH090_CAM = (-65.1, -3.9, 2.35); SH090_TGT = (O_DOWN[0] + 0.5, O_DOWN[1], 0.15); SH090_LENS = 28
 def S04_SH070(nf):
-    """Over the fat man's shoulder, long lens, looking down: he lands flat on his back (a shape: no body through the ground)."""
-    p = SH070_CAM; street(p)
+    """d11: the SH090 setup (HIGH, looking down on him, handheld), one setup for the fall and the lines that follow.
+    Same camera position and lens as SH090; the handheld operator starts tilted up on him standing and tilts down with
+    the fall, landing on the exact SH090 frame, so his head stays in frame. He lands flat on his back."""
+    p = SH090_CAM; street(p)
     him = Actor("him", COST["him"], nf)
     him.seq([(0.0, pose("stand", x=HIT[0] + 0.45, y=HIT[1] - 0.05, yaw=90, spine=-22, hpitch=-25)), (0.3, pose("stand", x=HIT[0] + 0.8, y=-4.7, yaw=90, spine=-35, hpitch=-30)),
              (0.75, down_pose()), (3.0, down_pose())])
@@ -98,7 +100,10 @@ def S04_SH070(nf):
         t = f / core.FPS; u = min(1, t / 0.6); k = u * u * (3 - 2 * u)
         x, y = -63.9 + 1.0 * u, -4.25 + 0.2 * u            # it lands on the sidewalk (0.15 high)
         PR.place(case, (x, y, 0.6 * (1 - u) ** 2 + (0.06 + core.ground_z(x, y)) * k), 30 + 60 * u, extra=Matrix.Rotation(math.radians(90 * k), 4, "X"))
-    return {"cam": cam(p, SH070_TGT, SH070_LENS), "actors": [him, fa], "callbacks": [ccb], "cues": [[0.6, 1.0, "THUD ON THE ASPHALT"]]}
+    c = np.array(p); d = np.array(SH090_TGT) - c; hd = math.atan2(d[1], d[0]); r = 2.5; up = math.radians(-31)
+    t0 = tuple(c + r * np.array((math.cos(hd) * math.cos(up), math.sin(hd) * math.cos(up), math.sin(up))))
+    return {"cam": move([(0, p, t0, SH090_LENS), (0.3, p, t0, SH090_LENS), (0.95, p, SH090_TGT, SH090_LENS)], hh=0.4), "actors": [him, fa],
+            "callbacks": [ccb], "cues": [[0.6, 1.0, "THUD ON THE ASPHALT"]]}
 
 def S04_SH080(nf):
     p = (O_DOWN[0] - 0.3, O_DOWN[1] + 0.55, 0.32); street(p)
@@ -112,12 +117,14 @@ def S04_SH080(nf):
     return {"cam": cam(p, (F_POS[0], F_POS[1], 1.85), 24, hh=0.4), "actors": [fa, him], "speakers": {"FAT PERSON": fa}, "say": [[2.2, 3.9, "FAT PERSON"]]}
 
 def S04_SH090(nf):
-    p = (-65.1, -3.9, 2.35); street(p)
+    p = SH090_CAM; street(p)
     him = Actor("him", COST["him"], nf)
     him.seq([(0, down_pose()), (0.6, pose("lie_cover", x=O_DOWN[0], y=O_DOWN[1], yaw=90))])
     him.talk(1.0, 4.6)
     fa = fat(nf)
-    return {"cam": cam(p, (O_DOWN[0] + 0.5, O_DOWN[1], 0.15), 28, hh=0.4), "actors": [him, fa], "speakers": {"OLD MAN": him}, "say": [[1.0, 4.6, "OLD MAN"]]}
+    case = PR.briefcase("case"); x, y = -62.9, -4.05            # where it landed in SH070 (same setup), flat on the sidewalk
+    PR.place(case, (x, y, 0.06 + core.ground_z(x, y)), 90, extra=Matrix.Rotation(math.radians(90), 4, "X"))
+    return {"cam": cam(p, SH090_TGT, SH090_LENS, hh=0.4), "actors": [him, fa], "speakers": {"OLD MAN": him}, "say": [[1.0, 4.6, "OLD MAN"]]}
 
 def S04_SH100(nf):
     """Low, from his eyes on the ground: the fat man above him; behind, the friend films, then types on his phone."""

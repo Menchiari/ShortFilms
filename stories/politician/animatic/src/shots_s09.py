@@ -6,8 +6,8 @@ import phys
 
 CUES = {"S09_SH030": [[0, 3, "ROTORS WINDING DOWN"]], "S09_SH070": [[0, 2, "ROTORS"]]}
 SEAT = (-39.6, -6.66)            # his pelvis on the road, his back against the corner curb (y = -7)
-CASE = CASE_AT                   # the case lies where it fell when the rock hit him
-HIMC = (CASE[0] + 0.6, CASE[1] - 0.3)
+CASE = (-45.6, -4.0)             # d11: the case lies closer to him (Leonard: a slow limp to it), clear of the bodies
+HIMC = (CASE[0] + 0.6, CASE[1])
 PAD = (-24.0, 0.5)               # helicopter in the square; door faces west
 DOOR = (-25.6, 1.0)
 DOORP = (-25.95, 0.55)           # where he stops at the door (the south half of the opening), then climbs in
@@ -77,6 +77,76 @@ def heli_landed(yaw=180.0):
     h = PR.heli("heli"); return h, PR.heli_cb(h, lambda t: (np.array((PAD[0], PAD[1], 0.0)), yaw, 0.0))
 
 # ------------------------------------------------------------------ SH010: limbs for the shape lying on the street
+UPPER = (NECK, HEAD, NOSE, LSH, LEL, LHA, RSH, REL, RHA)
+def _bend(j, beta):
+    """Turn everything above mid-spine (neck, head, arms) about the mid-spine point, forward by beta degrees."""
+    j = j.copy(); P0 = j[PELVIS]; M = P0 + 0.5 * (j[NECK] - P0)
+    k = j[RHIP] - j[LHIP]; k = k / (np.linalg.norm(k) + 1e-9); r = -math.radians(beta); c, s_ = math.cos(r), math.sin(r)
+    for i in UPPER:
+        v = j[i] - M; j[i] = M + v * c + np.cross(k, v) * s_ + k * np.dot(k, v) * (1 - c)
+    return j
+
+def spine_bend(a, keys):
+    """d11: a bending spine for the shape. The torso gets a joint at mid-spine: the upper body turns about it, forward by
+    beta degrees, so the back curves (a slouch) instead of staying one rigid cylinder. keys: [(t, beta)], eased between.
+    The joints are recomputed like Actor.compute (same blends, same ground and sidewalk lifts), with the bend applied to
+    each pose before the lifts. Stores the lower spine direction per frame (a.SD) for the drawing."""
+    ts = [k[0] for k in keys]; bs = [k[1] for k in keys]
+    def beta_at(f):
+        t = f / core.FPS; i = int(np.searchsorted(ts, t))
+        if i == 0: return bs[0]
+        if i >= len(ts): return bs[-1]
+        return bs[i - 1] + (bs[i] - bs[i - 1]) * _ease((t - ts[i - 1]) / (ts[i] - ts[i - 1]))
+    nf = a.nf; J = np.zeros((nf, NJ, 3)); E = np.ones(nf); Mo = np.zeros(nf); K = np.zeros(nf, bool); SD = np.zeros((nf, 3)); last = None
+    for f in range(nf):
+        tr = None
+        for t in a.tracks:
+            if t[0] <= f <= t[1]: tr = t
+        if tr is None:
+            prev = [t for t in a.tracks if t[1] < f]
+            tr = max(prev, key=lambda t: t[1]) if prev else min(a.tracks, key=lambda t: t[0]); fe = tr[1] if prev else tr[0]
+        else:
+            fe = f
+        r = tr[2](fe)
+        if isinstance(r, tuple) and r[0] == "J":
+            K[f] = True; j = np.array(r[1]); q = dict(BASE)
+            for (o0, o1, fn) in a.overlays:
+                if o0 <= f <= o1:
+                    try: q = fn(f, q)
+                    except Exception: pass
+            e = q.get("eyes", 1.0); m = q.get("mouth", 0.0)
+        else:
+            p = r
+            for (o0, o1, fn) in a.overlays:
+                if o0 <= f <= o1: p = fn(f, p)
+            j = fk(p); e = p.get("eyes", 1.0); m = p.get("mouth", 0.0)
+            d = j[NECK] - j[PELVIS]; SD[f] = d / (np.linalg.norm(d) + 1e-9)
+            j = _bend(j, beta_at(f))
+        if tr[3] > 0 and tr[0] <= f < tr[0] + tr[3] and last is not None and f > 0:
+            if getattr(a, "_bs", (None,))[0] != id(tr): a._bs = (id(tr), last.copy())
+            u = _ease((f - tr[0] + 1) / (tr[3] + 1)); j = a._bs[1] * (1 - u) + j * u
+        if not SD[f].any():
+            d = j[NECK] - j[PELVIS]; SD[f] = d / (np.linalg.norm(d) + 1e-9)
+        J[f] = j; E[f] = e; Mo[f] = m; last = j
+    rj = R_J * a.c.get("scale", 1.0); LEGS = ((LKN, LAN, LTO), (RKN, RAN, RTO))
+    for f in range(nf):                                  # the same lifts as Actor.compute
+        gz = core.ground_z(J[f, PELVIS, 0], J[f, PELVIS, 1]); low = float(np.min(J[f, :, 2] - rj))
+        if low < gz: J[f, :, 2] += gz - low
+        if not core.SIDEWALKS: continue
+        need = np.array([core.ground_z(x, y) for x, y in J[f, :, :2]]) + rj - J[f, :, 2]
+        if need.max() <= 1e-3: continue
+        if J[f, PELVIS, 2] - gz < 0.55:
+            J[f, :, 2] += np.maximum(0.0, need); continue
+        for (kn, an, to) in LEGS:
+            up = max(0.0, need[an], need[to])
+            if up > 0: J[f, an, 2] += up; J[f, to, 2] += up; J[f, kn, 2] += up * 0.5
+        rest = need.copy(); rest[[LKN, LAN, LTO, RKN, RAN, RTO]] = 0.0
+        if rest.max() > 1e-3: J[f, :, 2] += rest.max()
+    a.J = J; a.E = E; a.M = Mo; a.K = K; a.SD = SD
+
+def _ease(u):
+    u = min(1.0, max(0.0, u)); return u * u * (3 - 2 * u)
+
 def shape_limbs(a, t0=0.0):
     """d10, for the reclining shape in SH010: two legs (thigh, knee, shin, shoe) and two arms (upper arm, elbow,
     forearm, hand) in the costume's colours instead of the single legs pill, so the knees read and the elbows rest on
@@ -94,6 +164,13 @@ def shape_limbs(a, t0=0.0):
         P[sd + "el"] = _obj(n + sd + "el", _mesh_sphere(n + sd + "el", 0.05 * s, seg=8, rings=5), c["shirt"])
         P[sd + "fa"] = _obj(n + sd + "fa", _mesh_cyl(n + sd + "fa", 0.045 * s, 0.038 * s, 1.0, n=10), fa_col)
         P[sd + "ha"] = _obj(n + sd + "ha", _mesh_sphere(n + sd + "ha", 0.045 * s, 1, 0.8, 1.2, seg=8, rings=5), c["skin"])
+    bent = hasattr(a, "SD")
+    if bent:                                    # d11: a two-segment torso that follows the bending spine
+        for nm in ("tlo", "tup"):
+            P[nm] = _obj(n + nm, _mesh_cyl(n + nm, rt, rt, 1.0, n=14), c["shirt"])
+        for nm in ("tbot", "tmid", "ttop"):
+            P[nm] = _obj(n + nm, _mesh_sphere(n + nm, rt, seg=14, rings=7), c["shirt"])
+        P["tneck"] = _obj(n + "tneck", _mesh_cyl(n + "tneck", 0.062 * s, 0.062 * s, 1.0, n=10), c["skin"])
     st = {}
     def smooth():
         if "Jg" not in st:
@@ -110,7 +187,7 @@ def shape_limbs(a, t0=0.0):
         ff = min(f, a.nf - 1); show = bool(a.visible[ff]) and not a.K[ff] and f >= F(t0)
         for o in P.values(): o.hide_render = not show
         if not show: return
-        for nm in ("_shape_legs", "_shape_foot"):
+        for nm in ("_shape_legs", "_shape_foot") + (("_shape_torso", "_shape_top", "_shape_bot", "_shape_neck") if bent else ()):
             o = bpy.data.objects.get(a.name + nm)
             if o is not None: o.hide_render = True
         J = smooth()[ff].copy()
@@ -121,6 +198,12 @@ def shape_limbs(a, t0=0.0):
         low = min(pel[2] - rt, top[2] - rt, hipc[2] - rl, feet[2] - rl * 0.85, J[HEAD, 2] - rh)
         J[:, 2] += max(0.0, gz + 0.005 - low)
         xr = J[RSH] - J[LSH]
+        if bent:
+            M = J[PELVIS] + a.SD[ff] * 0.5 * L_SPINE * s; u2 = J[NECK] - M; u2 = u2 / (np.linalg.norm(u2) + 1e-9)
+            p0 = J[PELVIS] + a.SD[ff] * 0.02; tp = J[NECK] - u2 * 0.065 * s
+            seg(P["tlo"], p0, M, xr); seg(P["tup"], M, tp, xr); seg(P["tneck"], tp, J[HEAD], xr)
+            for nm, q in (("tbot", p0), ("tmid", M), ("ttop", tp)):
+                P[nm].matrix_world = Puppet.M(np.eye(3), q)
         for sd, (hp, kn, an, to, sh, el, ha) in (("l", (LHIP, LKN, LAN, LTO, LSH, LEL, LHA)), ("r", (RHIP, RKN, RAN, RTO, RSH, REL, RHA))):
             seg(P[sd + "th"], J[hp], J[kn], xr); seg(P[sd + "sh"], J[kn], J[an], xr)
             P[sd + "kn"].matrix_world = Puppet.M(np.eye(3), J[kn])
@@ -132,18 +215,21 @@ def shape_limbs(a, t0=0.0):
 
 # his poses by the curb (pelvis 0.18 up: the shape's hips rest on the asphalt)
 CURL = dict(x=-39.95, y=-6.62, z=None, yaw=0, roll=86, spine=32, ll=(95, 6, 112), rl=(84, 6, 118), la=(70, 12, 105), ra=(82, 10, 92),
-            hpitch=-15, ground="all")                                   # on his right side, curled up, facing the camera
+            hpitch=-28, ground="all")                                   # on his right side, curled up, facing the camera
 LEAN = dict(x=SEAT[0], y=SEAT[1], z=0.18, yaw=0, tilt=70, spine=4, ra=(-118, -10, 142), la=(-118, -6, 148), ll=(26, 10, 22), rl=(14, 3, 2))
+SLOUCH = dict(x=SEAT[0], y=-6.5, z=0.18, yaw=0, tilt=80, spine=0, roll=-13, twist=8, ll=(50, 12, 100), rl=(6, 6, 4), ra=(-81, 52, 100),
+              la=(-112, -6, 3), hyaw=12, hpitch=34, hroll=14)                # d11: slouched against the curb, loose (with a 35 deg bend)
 PROP = dict(LEAN, tilt=55, spine=8, roll=33, twist=-22, ra=(-102, 54, 147), la=(11, 14, 32), ll=(41, 10, 22), rl=(29, 3, 2),
             hyaw=-58, hpitch=2)                                         # up on his right elbow, turned to the body beside him
 
 def S09_SH010(nf):
-    """The rope goes: he drops beside the curb, curls up facing the camera, shaking; turns over and leans back against
-    the curb, elbows on the sidewalk behind him, legs out on the street; props up on his right elbow and spits on the fat man."""
+    """The rope goes: he drops beside the curb, curls up facing the camera, shaking; turns over and slouches back against
+    the curb, the spine curved, elbows on the sidewalk, one knee up, one leg out; looks at the sky; props up on his right
+    elbow and spits on the fat man."""
     p = (-39.4, 8.4, 0.3); sq(p)
     JA = phys.drop(1.6)
     him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    curl = pose("stand", **CURL); lean = pose("stand", **LEAN); prop = pose("stand", **PROP)
+    curl = pose("stand", **CURL); lean = pose("stand", **SLOUCH); prop = pose("stand", **PROP)
     # turning over at ground level: a tilt about his long axis rolls him from his side onto his back (head still east),
     # then he swivels on his back, sliding up against the curb, and leans back on his elbows
     back = pose("stand", x=-39.85, y=-6.65, z=0.18, yaw=0, tilt=88, roll=88, spine=14, la=(20, 25, 50), ra=(30, 20, 40), ll=(75, 8, 105),
@@ -155,7 +241,9 @@ def S09_SH010(nf):
              (18.0, prop)], blend=0.6)
     him.overlays.append((F(4.4), F(7.3), lambda f, q: dict(q, spine=q["spine"] + 4 * math.sin(f * 2.3))))
     him.overlays.append((F(10.0), F(13.4), lambda f, q: dict(q, spine=q["spine"] - 3 * math.sin(f / core.FPS * 3.0))))
+    him.over(11.0, 12.7, hpitch=-22)                                      # he looks at the sky
     him.talk(0.6, 4.2); him.face(12.2, 13.2, mouth=0.12); him.face(13.6, 14.4, mouth=0.15); him.face(14.9, 15.2, mouth=0.9)
+    spine_bend(him, [(1.6, 15), (7.3, 15), (8.3, 6), (9.2, 14), (10.0, 35), (13.4, 35), (14.6, 0), (18.0, 0)])
     rope = Stick("rope", 0.018, PAL["rope"], lambda f: (tuple(ARM), tuple(TOP)) if f < F(0.3) else (tuple(ARM), tuple(ARM - np.array((0, 0, 1.0)))))
     return {"cam": cam(p, (SEAT[0] + 0.4, SEAT[1], 0.42), 135), "actors": [him] + scenery(nf, case=False), "sticks": [rope],
             "callbacks": [shape_limbs(him, 1.6)], "speakers": {"OLD MAN": him},
@@ -166,22 +254,73 @@ def hpath_landing(t):
     u = min(1.0, max(0.0, (t - 0.5) / 9.0)); u = 1 - (1 - u) ** 2.2
     return np.array((PAD[0] + 8 * (1 - u), PAD[1], 32 * (1 - u))), 180.0 + 10 * (1 - u), 4 * (1 - u)
 
+def rotor_wash(n, box, seed, src, R=6.6):
+    """d11: certificates in a real rotor wash. The downwash hits the street under the rotor and spreads as a wall jet
+    (strong near the disk, falling off about as 1/r, thin near the ground, a front that rolls outward) once the hub is
+    lower than about two rotor diameters. Gusts come and go per sheet. A sheet is torn off the asphalt when the local
+    wind beats a threshold, thrown up, dragged hard by the air horizontally, falls slowly with flutter (high vertical
+    drag), tumbles and flips fast while airborne, lands, slides and can be torn off again. src(t) -> (x, y, hub height)."""
+    rnd = np.random.default_rng(seed); dt = 1.0 / 48; nfr = int(14 * core.FPS) + 2; sub = 4
+    P = np.stack([rnd.uniform(box[0], box[1], n), rnd.uniform(box[2], box[3], n), np.full(n, 0.005)], 1)
+    V = np.zeros((n, 3)); up = np.zeros(n, bool); ang = np.zeros((n, 3)); ang[:, 2] = rnd.uniform(0, 6.28, n)
+    axis = rnd.normal(0, 1, (n, 3)); axis /= np.linalg.norm(axis, axis=1)[:, None]
+    ph = rnd.uniform(0, 100, (n, 3)); thr = rnd.uniform(3.2, 5.0, n); front = R; objs = []
+    POS = np.zeros((nfr, n, 3)); ROT = np.zeros((nfr, n, 3))
+    def noise(x):
+        return 0.5 + 0.25 * np.sin(x) + 0.15 * np.sin(2.7 * x + 1.3) + 0.1 * np.sin(5.9 * x + 0.4)
+    for f in range(nfr):
+        for k in range(sub):
+            t = (f * sub + k) * dt
+            hx, hy, H = src(t); S = max(0.0, min(1.0, (26.0 - H) / 18.0))
+            if S > 0.15: front += 7.0 * dt
+            d = P[:, :2] - np.array((hx, hy)); r = np.linalg.norm(d, axis=1) + 1e-6; er = d / r[:, None]
+            U = 18.0 * S * np.minimum(1.0, 9.0 / r) * (r < front)
+            g = 0.55 + 0.9 * noise(ph[:, 0] + t * 3.1)                          # gusts
+            z = P[:, 2]; prof = np.where(z < 0.4, (np.maximum(z, 0.02) / 0.4) ** (1 / 7), np.exp(-(z - 0.4) / 2.5))
+            Wh = er * (U * g * prof)[:, None]
+            Wz = U * (0.3 + 1.1 * (noise(ph[:, 1] + t * 4.3) - 0.5)) * np.exp(-z / 4.0)   # turbulent vertical gusts
+            Wz += 7.0 * S * np.exp(-((r - front + 2.0) / 2.0) ** 2) * (front < 60)          # the vortex rolling at the front lifts
+            # torn off the ground
+            go = (~up) & (U * g > thr) & (rnd.random(n) < 6.0 * dt)
+            V[go, :2] = Wh[go] * 0.5; V[go, 2] = rnd.uniform(1.5, 3.8, int(go.sum())); up |= go
+            rel_h = Wh - V[:, :2]; rel_z = Wz - V[:, 2]
+            A = np.zeros((n, 3))
+            A[:, :2] = 0.55 * rel_h * np.linalg.norm(rel_h, axis=1)[:, None]
+            A[:, 2] = -9.81 + 3.2 * rel_z * np.abs(rel_z)                       # a sheet falls at about 1.7 m/s, fluttering
+            A[:, 0] += 3.0 * np.sin(ph[:, 2] + t * 9.0) * (U > 0.5); A[:, 1] += 3.0 * np.cos(ph[:, 2] + t * 7.0) * (U > 0.5)   # flutter
+            V[up] += A[up] * dt; P[up] += V[up] * dt
+            spin = 6.0 + 2.5 * np.linalg.norm(np.concatenate([rel_h, rel_z[:, None]], 1), axis=1)
+            ang[up] += axis[up] * (spin[up] * dt)[:, None]
+            land = up & (P[:, 2] <= 0.005) & (V[:, 2] < 0)
+            P[land, 2] = 0.005; V[land, 2] = 0.0; V[land, :2] *= 0.5; up[land] = False
+            ang[land, 0] = 0.0; ang[land, 1] = 0.0
+            slide = (~up) & (np.linalg.norm(V[:, :2], axis=1) > 0.02)
+            P[slide, :2] += V[slide, :2] * dt; V[slide, :2] *= (1 - 4.0 * dt)
+        POS[f] = P; ROT[f] = ang
+    for i in range(n):
+        mb = core.MB(None, detail=False); mb.box(-0.1, 0.1, -0.045, 0.045, 0, 0.004, "#EDE6D2"); objs.append(PR.mesh_obj(f"bond{i}", mb))
+    def cb(f):
+        f = min(f, nfr - 1)
+        for i, o in enumerate(objs):
+            o.location = tuple(POS[f, i]); o.rotation_euler = tuple(ROT[f, i])
+    return cb
+
 def S09_SH020(nf):
-    """Low, the open case lying flat in the foreground; far back he gets up and limps to it; the helicopter comes down;
-    the certificates drift away from the wash along the street (Seedance does the wind and the paper)."""
+    """Low, the open case lying flat in the foreground; far back he gets up and limps slowly to it; the helicopter comes
+    down; its rotor wash tears the certificates off the asphalt: they flip, tumble and fly off in the gusts."""
     p = (CASE[0] - 1.8, CASE[1] + 0.45, 0.35); sq(p)
     him = Actor("him", COST["him"], nf)
-    prop = pose("stand", **PROP)
-    him.seq([(0, prop), (1.0, prop), (2.0, pose("hands_knees", x=SEAT[0], y=SEAT[1] + 0.3, yaw=fdir(SEAT, HIMC))),
-             (3.0, pose("kneel", x=SEAT[0] - 0.1, y=SEAT[1] + 0.4, yaw=fdir(SEAT, HIMC))), (3.8, pose("stand", x=SEAT[0] - 0.2, y=SEAT[1] + 0.45, yaw=fdir(SEAT, HIMC)))])
-    him.path(3.8, 12.4, [(SEAT[0] - 0.2, SEAT[1] + 0.45), (-45.0, -4.2), HIMC], "limp", speed="io")
-    him.blend(12.4, 13.0, pose("stand", x=HIMC[0], y=HIMC[1], yaw=fdir(HIMC, CASE)), pose("crouch", x=HIMC[0], y=HIMC[1], yaw=fdir(HIMC, CASE)))
+    prop = pose("stand", **PROP); st = (SEAT[0] - 0.2, SEAT[1] + 0.45); yd = fdir(st, (-40.5, -5.2))
+    him.seq([(0, prop), (0.8, prop), (1.7, pose("hands_knees", x=SEAT[0], y=SEAT[1] + 0.3, yaw=yd)),
+             (2.6, pose("kneel", x=SEAT[0] - 0.1, y=SEAT[1] + 0.4, yaw=yd)), (3.4, pose("stand", x=st[0], y=st[1], yaw=yd))])
+    him.path(3.4, 12.3, [st, (-40.5, -5.2), (-42.8, -4.3), HIMC], "limp", speed="lin")         # a slow limp, about 0.67 m/s
+    him.blend(12.3, 13.0, pose("stand", x=HIMC[0], y=HIMC[1], yaw=fdir(HIMC, CASE)), pose("crouch", x=HIMC[0], y=HIMC[1], yaw=fdir(HIMC, CASE)))
     h = PR.heli("heli")
     def src(t):
         pos = hpath_landing(t)[0]; return pos[0], pos[1], pos[2] + 3.1
-    paper = wash_drift(70, (-44.0, -3.0), 7, 7, src)
+    paper = rotor_wash(90, (-52.0, -28.0, -8.5, 5.0), 7, src)
     return {"cam": cam(p, (-36.0, -4.5, 1.6), 24), "actors": [him] + scenery(nf), "callbacks": [PR.heli_cb(h, hpath_landing), paper],
-            "cues": [[0, 13, "ROTOR WASH GROWS"]]}
+            "cues": [[0, 13, "ROTOR WASH GROWS, PAPER TORN UP"]]}
 
 def S09_SH040(nf):
     """Wide: she steps out low under the rotors and stops a few steps from the helicopter. He limps toward her."""
@@ -320,9 +459,12 @@ def S09_SH100(nf):
     la = lady(nf)
     him = Actor("him", COST["him"], nf)
     him.path(0, 3.8, [(MEET[0] + 0.7, MEET[1] - 0.6), (LADYC[0] + 0.8, LADYC[1] - 0.45), DOORP], "limp", speed="io")
-    yd = fdir(DOORP, LADYC) + 40
-    him.blend(3.8, 4.4, pose("stand", x=DOORP[0], y=DOORP[1], yaw=-90), pose("point_chin", x=DOORP[0], y=DOORP[1], yaw=yd))
-    him.hold(4.4, 5.9, pose("point_chin", x=DOORP[0], y=DOORP[1], yaw=yd)); him.talk(4.4, 5.8)
+    # d11: on his line he turns only halfway, the other way (away from her, counterclockwise): he ends in profile to the
+    # lens, chin up, pointing at the street; his face points to frame left. He never faces her.
+    yd = math.degrees(math.atan2(DOORP[1] - FRAME_A[0][1], DOORP[0] - FRAME_A[0][0]))    # facing at right angles to the line of sight
+    him.seq([(3.8, pose("stand", x=DOORP[0], y=DOORP[1], yaw=-90)), (4.6, pose("point_chin", x=DOORP[0], y=DOORP[1], yaw=yd)),
+             (5.9, pose("point_chin", x=DOORP[0], y=DOORP[1], yaw=yd))])
+    him.talk(4.4, 5.8)
     # he climbs in: a foot up onto the cabin floor, leaning into the doorway (the body is solid: he stays outside its skin)
     him.seq([(5.9, pose("stand", x=DOORP[0], y=DOORP[1], yaw=-90)), (6.5, pose("stand", x=DOORP[0] + 0.25, y=DOORP[1], yaw=-90, spine=14, ll=(75, 6, 85))),
              (7.0, pose("stand", x=DOORP[0] + 0.4, y=DOORP[1], yaw=-90, z=1.25, spine=22, ll=(80, 6, 95), rl=(-5, 4, 10)))])
@@ -332,12 +474,68 @@ def S09_SH100(nf):
     d["speakers"] = {"OLD MAN": him}; d["say"] = [[4.4, 5.8, "OLD MAN"]]
     return d
 
+def far_city(eye, seed=31):
+    """d11: the west street does not end in empty sky. More blocks beyond x = -200 with a cross street at x -215..-200
+    (the crossroads where his car stands), a row of buildings closing the street far off, towers behind."""
+    rnd = random.Random(seed); mb = core.MB(eye, haze=(80, 420))
+    for (ya, yb) in ((7, 10.5), (-10.5, -7)):
+        core.sidewalk(mb, -430, -215, ya, yb); core.sidewalk(mb, -200, -190, ya, yb)
+    hr = (24, 44)
+    core.block(mb, rnd, -430, -215, 10.5, 140, hr, faces="SE")
+    core.block(mb, rnd, -430, -215, -140, -10.5, hr, faces="NE")
+    core.block(mb, rnd, -520, -436, -90, 90, (30, 52), faces="E")                       # the street ends at a row of buildings
+    for (x, y, w, d, h) in [(-560, 40, 26, 24, 120), (-600, -70, 30, 26, 95), (-500, 160, 24, 22, 110), (-470, -150, 26, 26, 85)]:
+        core.tower(mb, rnd, x, y, w, d, h)
+    mb.build("far_city")
+
+def cover_people(nf):
+    """d11: a few people far down the street, hiding behind cover and peeking toward the square."""
+    rnd = random.Random(77); acts = []; mb = core.MB(None, detail=False)
+    mb.box(-76.0, -74.4, 8.4, 9.3, 0.15, 1.45, "#3E4A3A")                              # a dumpster on the north sidewalk
+    mb.box(-97.0, -93.0, -9.4, -7.6, 0.0, 1.25, "#4A4440"); mb.box(-96.2, -93.8, -9.3, -7.7, 1.25, 1.6, "#3A3532")   # a burnt car wreck
+    mb.box(-150.0, -148.6, 7.6, 8.6, 0.0, 1.0, "#6A5A48")                              # a heap of crates
+    mb.build("cover")
+    spots = [((-76.4, 8.6), -95, dict(spine=18, hpitch=-6)), ((-97.8, -8.0), -80, dict(spine=14)), ((-97.6, -7.2), -85, dict(spine=24)),
+             ((-149.6, 7.3), -95, dict(spine=10)), ((-203.0, 10.1), -70, None), ((-123.0, 10.25), -100, None)]
+    for i, ((x, y), yaw, kw) in enumerate(spots):
+        a = Actor(f"hide{i}", crowd_costume(rnd), nf, lod="low")
+        p = pose("crouch", x=x, y=y, yaw=yaw, **kw) if kw is not None else pose("stand", x=x, y=y, yaw=yaw, spine=6, hyaw=-15)
+        a.hold(0, nf / core.FPS, p); a.look(0.2, nf / core.FPS, (-30.0, 0.0, 2.0), strength=0.7); acts.append(a)
+    return acts
+
+def dust_gusts(n=10, seed=5):
+    """d11: dusty gusts blown down the street by the rotor wash: translucent puffs racing west, growing and thinning."""
+    rnd = np.random.default_rng(seed); objs = []
+    for i in range(n):
+        o = _obj(f"gust{i}", _mesh_sphere(f"gust{i}", 1.0, seg=16, rings=9), "#D8C8A8")
+        m = o.data.materials[0].copy(); o.data.materials[0] = m
+        for attr, val in (("surface_render_method", "BLENDED"), ("blend_method", "BLEND")):
+            try: setattr(m, attr, val)
+            except Exception: pass
+        objs.append((o, m))
+    T0 = rnd.uniform(-1.2, 2.4, n); Y = rnd.uniform(-6.0, 6.0, n); X0 = rnd.uniform(-40.0, -34.0, n); SP = rnd.uniform(6.0, 9.0, n)
+    def cb(f):
+        t = f / core.FPS
+        for i, (o, m) in enumerate(objs):
+            age = t - T0[i]
+            if age < 0 or age > 3.5:
+                o.hide_render = True; continue
+            o.hide_render = False; u = age / 3.5
+            r = 0.5 + 1.6 * u; o.location = (X0[i] - SP[i] * age, Y[i] + 0.8 * math.sin(age * 1.7 + i), 0.05 + 0.3 * r)
+            o.scale = (r * 3.2, r * 1.3, r * 0.35)
+            m.diffuse_color = (*m.diffuse_color[:3], 0.14 * math.sin(math.pi * min(1.0, u * 1.2)) ** 0.8)
+    return cb
+
 def S09_SH110(nf):
-    """Her point of view: the certificates among the bodies, lying still (Seedance moves the paper in the wash)."""
-    p = (LADYC[0] - 0.3, LADYC[1], 1.62); sq(p)
+    """Her point of view: the certificates among the bodies (lying still: Seedance moves the paper in the wash), dusty
+    gusts racing down the street, far off his car at the crossroads with its door open, a few people peeking from cover,
+    the street closed by buildings far away."""
+    p = (LADYC[0] - 0.3, LADYC[1], 1.62); sq(p); far_city(p)
     h, hcb = heli_landed()
+    car = PR.car("car", door_open=1.0); PR.place(car, (-207.5, 2.6, 0.0), 90)
     paper = still_papers(70, (-46.0, -2.5), 8, 11)
-    return {"cam": cam(p, (-50.0, -3.5, 0.4), 28), "actors": scenery(nf), "callbacks": [hcb, paper], "cues": [[0, 3, "ROTOR WASH, PAPER FLUTTERING"]]}
+    return {"cam": cam(p, (-50.0, -3.5, 0.4), 28), "actors": scenery(nf) + cover_people(nf), "callbacks": [hcb, paper, dust_gusts()],
+            "cues": [[0, 3, "ROTOR WASH, PAPER FLUTTERING, DUST"]]}
 
 def S09_SH120(nf):
     """Close on her face, same frame: Not anymore. She turns and walks to the helicopter, slowly."""

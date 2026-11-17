@@ -54,20 +54,60 @@ def S05_SH010(nf):
 
 DOORS = [(-52, -5.0), (-47, 5.0), (-44, -5.0), (-40, 5.0), (-37, -5.0), (-50, 5.0), (-45.5, -5.0), (-42, 5.0), (-35, 5.0), (-33, -5.0),
          (-56, 5.0), (-54, -5.0), (-38.5, 5.0), (-30, -5.0), (-48.5, -5.0), (-31.5, 5.0)]
+FAR = [(-57.0, -1.8), (-56.5, 2.2), (-27.0, 2.6), (-26.5, -1.4), (-58.5, 4.6), (-25.0, -4.6)]   # down the street, already out
 def S05_SH020(nf):
-    """Top view: him down the middle of the street; people step out of their doorways and drift toward him, each at his own pace."""
-    p = (-41.0, -3.0, 30.0); street(p)
+    """Top view: him down the middle of the street. People step out of their doorways and move slowly around him and toward him,
+    each at his own pace; he runs through them and they step aside. In the last second only the distant ones speed up, never the close ones."""
+    p = (-41.0, -3.0, 30.0); street(p); T = nf / core.FPS
+    hx = lambda t: -50.0 + 3.5 * min(max(t, 0.0), 4.0)
     him = Actor("him", COST["him"], nf); him.path(0, 4, [(-50, -0.6), (-36, -0.6)], "run", speed="lin")
-    rng = np.random.default_rng(31); P0 = np.array(DOORS, float)
-    start = rng.uniform(0.0, 2.2, len(P0)); v = rng.uniform(0.9, 2.4, len(P0))
-    cr = Crowd(P0, v, walls=ST_WALLS, space_k=0.0, seed=31, start=start)
+    rng = np.random.default_rng(31); P0 = np.array(DOORS + FAR, float); n = len(P0)
+    start = np.concatenate([rng.uniform(0.0, 1.8, len(DOORS)), rng.uniform(0.0, 0.5, len(FAR))])
+    slow = rng.uniform(0.45, 0.9, n); fast = rng.uniform(2.2, 3.2, n)
+    a = rng.uniform(0, 2 * math.pi, n); r = rng.uniform(2.6, 5.0, n); off = np.stack([np.cos(a) * r, np.sin(a) * r * 0.8], 1)
+    cr = Crowd(P0, slow.copy(), walls=ST_WALLS, space_k=0.0, seed=31, start=start, life=0.1, bubble=lambda t: ((hx(t), -0.6), 1.3))
+    sstep = lambda u: np.clip(u, 0, 1) ** 2 * (3 - 2 * np.clip(u, 0, 1))
     def brain(t, P, V):
-        hx = -50 + 3.5 * t; T_ = np.stack([np.full(len(P), hx + 2.0), np.zeros(len(P)) + np.clip(P[:, 1], -2.5, 2.5) * 0.4], 1)
-        return seek(P, T_, cr.v0, 1.5), T_
-    acts = people("door", cr.run(nf / core.FPS, brain), nf, 33)
+        H = np.array((hx(t), -0.6)); T_ = H[None] + off
+        d = np.linalg.norm(P - H[None], axis=1)
+        cr.v0[:] = slow + (fast - slow) * sstep((t - (T - 1.3)) / 0.6) * sstep((d - 7.0) / 4.0)     # the far ones hurry at the end
+        return seek(P, T_, cr.v0, 2.0), np.repeat(H[None], n, 0)
+    acts = people("door", cr.run(T, brain), nf, 33)
     case = PR.hand_prop("case", "case")
-    return {"cam": cam(p, (-41.0, -0.5, 0.0), 30), "actors": [him] + acts, "callbacks": [PR.chest(case, him)],
+    return {"cam": cam(p, (-41.0, -0.5, 0.0), 30), "actors": [him] + acts, "callbacks": [PR.chest(case, Glide(him))],
             "cues": [[0, 4, "DOORS, VOICES"]]}
+
+def along_arm(a, f, fwd_off=0.02, kick=0.0):
+    """World matrix for a pistol in his right hand (local: barrel +y, top +z, origin at the top of the grip):
+    the barrel along his forearm, so it points where his arm points; kick (deg) flips the muzzle up (recoil)."""
+    J = a.J[min(f, a.nf - 1)]
+    y = J[RHA] - J[REL]; y = y / (np.linalg.norm(y) + 1e-9)
+    up = J[NECK] - J[PELVIS]; up = up / (np.linalg.norm(up) + 1e-9)
+    if abs(np.dot(y, up)) > 0.8:                                       # arm straight up: the top of the slide faces back
+        fw = J[NOSE] - J[HEAD]; fw[2] = 0; up = -fw / (np.linalg.norm(fw) + 1e-9)
+    z = up - y * np.dot(up, y); z = z / (np.linalg.norm(z) + 1e-9); x = np.cross(y, z)
+    R = np.stack([x, y, z], 1)
+    if kick: R = R @ core.rotx(math.radians(kick))
+    return Puppet.M(R, J[RHA] + y * fwd_off)
+
+def gun_along_arm(o, a, visible=None):
+    """A hand prop gun (PR.hand_prop "gun") held along his arm, wherever the arm points."""
+    def cb(f):
+        if visible is not None and not visible(f): o.hide_render = True; return
+        o.hide_render = False; o.matrix_world = along_arm(a, f)
+    return cb
+
+def arm_sticks(a, prefix="him"):
+    """His arms for the shape (which has none): upper arm in the shirt, forearm and hand in skin, both sides (as S04 does for the fat man)."""
+    c = a.c; out = []
+    for side, (sh_, el_, ha_) in (("r", (RSH, REL, RHA)), ("l", (LSH, LEL, LHA))):
+        J = lambda f: a.J[min(f, a.nf - 1)]
+        out.append(Stick(f"{prefix}_{side}ua", 0.048, c["shirt"], lambda f, s_=sh_, e_=el_: (tuple(J(f)[s_]), tuple(J(f)[e_]))))
+        out.append(Stick(f"{prefix}_{side}fa", 0.04, c["skin"], lambda f, e_=el_, h_=ha_: (tuple(J(f)[e_]), tuple(J(f)[h_]))))
+        def hand(f, e_=el_, h_=ha_):
+            j = J(f); d = j[h_] - j[e_]; d = d / (np.linalg.norm(d) + 1e-9); return tuple(j[h_] - d * 0.02), tuple(j[h_] + d * 0.07)
+        out.append(Stick(f"{prefix}_{side}ha", 0.042, c["skin"], hand))
+    return out
 
 class Glide:
     """His joints as the shape draws them (gait bob smoothed out, as ShapePuppet.smooth): props and the camera ride on the shape, not on the bob."""
@@ -439,5 +479,5 @@ def S05_SH140(nf):
     for i, a in enumerate(acts):
         flinch(a, SHOT1 + rng.uniform(0.0, 0.12), min(react[i] + 0.35, 1.2), amt=rng.uniform(0.6, 1.0), crouch=rng.random() < 0.3)
     g = PR.hand_prop("gun", "gun")
-    return {"cam": cam(p, (FALL[0], FALL[1], 1.0), 30), "actors": [him] + acts, "callbacks": [PR.attach(g, him, offset=(0, 0.02, 0), visible=lambda f: f >= F(SHOT1 - 0.3))],
+    return {"cam": cam(p, (FALL[0], FALL[1], 1.0), 30), "actors": [him] + acts, "callbacks": [gun_along_arm(g, him, visible=lambda f: f >= F(SHOT1 - 0.3))], "sticks": arm_sticks(him),
             "cues": [[0, SHOT1, "THE YELLING CLOSES IN"], [SHOT1, SHOT1 + 0.3, "GUNSHOT, INTO THE AIR"], [SHOT1 + 0.3, T, "SCREAMS, FEET"]]}

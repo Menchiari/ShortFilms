@@ -134,7 +134,7 @@ Nothing blocking. Fixes made the same day:
 |---|---|---|
 | N1 | The body map pointed to a shot before the sniper's kills | Header: the animatic d11 holds the map (his eight, the fat person and a second man in S07, three in S08); the helicopter lands clear; the case may sit off its S05 spot |
 | N2 | "Black Hawk" in prompt-facing text | Removed from the shot note; the question stays open |
-| N3 | S09 SH100 turn without screen direction | He ends in profile, chin at the street; the frame edge is written after the d11 render |
+| N3 | S09 SH100 turn without screen direction | He ends in profile, face toward frame left, chin up at the street (animatic d11) |
 | N4 | S06 gun aim missing in the text | SH010 and SH020: the gun aims along his extended right arm at his target |
 | N5 | "Until it is gone" impossible in 8 to 10 s | It shrinks to a speck in the sunset haze |
 | N6 | S07 SH040 panic vs daze | One eye opens, then panic |

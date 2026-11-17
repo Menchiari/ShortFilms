@@ -1,6 +1,7 @@
 from sh import *
 from shots_s05 import SQ_WALLS, FALL, gather_sim, people
 import phys
+import mjdoll as M
 from shots_s06 import dead_actors, kills
 
 CUES = {"S07_SH040": [[0, 3, "THE CROWD, MUFFLED"]]}
@@ -288,37 +289,86 @@ def S07_SH020(nf):
     return {"cam": cam(p, tuple(ARM - np.array((0.2, 0.2, 0.25))), 45, hh=0.3), "sticks": [s1, s2, wrap],
             "callbacks": [coil_cb], "cues": [[0.2, 1.0, "THE ROPE WHIPS OVER"], [1.6, 2.0, "PULLED TIGHT"]]}
 
+_HM = {}
+def haul_more(T, seed=31):
+    """d11: after the haul (unchanged), the same body keeps going on the rope: twisting, clawing, kicking."""
+    key = (round(T, 3), seed)
+    if key not in _HM:
+        phys.haul(); rng = np.random.default_rng(seed)
+        d = M.Doll(rope=tuple(ARM), sidewalks=phys.CORNER); d.set_state(phys._C["haul_state"]); d.set_rope(phys.ROPE_FINAL)
+        kicks = tuple(sorted(rng.uniform(0.0, T, 4))); reach = tuple(sorted(rng.uniform(0.0, T - 0.6, 2))); crunch = (rng.uniform(0.3, max(0.4, T - 1.0)),)
+        ctrl = lambda t, dd: phys._tone_live(t, dd, crunch=crunch, kicks=kicks, reach=reach)
+        _HM[key] = d.run(T, ctrl=ctrl, rope_fn=lambda t: phys.ROPE_FINAL, tone=20)
+    return _HM[key]
+
 def S07_SH030(nf):
-    """Through heads and shoulders: they haul him up by one ankle, beside the curb. Real weight."""
+    """Through heads and shoulders: they haul him up by one ankle, beside the curb. Real weight. Then he hangs there,
+    twisting, clawing at the rope, the free leg kicking (d11: longer; the haul itself is unchanged)."""
     p = (-36.4, -3.6, 1.85); sq(p)
-    JA = haul(); him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    him.face(0, 4, eyes=1.3, mouth=0.5)
+    JH = haul(); T = nf / core.FPS
+    JA = np.concatenate([JH[:len(JH) - 1], haul_more(T - (len(JH) - 1) / core.FPS + 0.1)])[:nf] if T > 4.0 + 1e-6 else JH
+    him = Actor("him", COST["him"], nf); him.joints(0, JA)
+    him.face(0, T, eyes=1.3, mouth=0.5)
     pullers = []
     for i, (x, y) in enumerate([(-38.2, -3.2), (-37.6, -2.5), (-37.0, -1.8)]):
         a = Actor(f"pull{i}", crowd_costume(random.Random(100 + i)), nf); a.style = "shape"
         yaw = fdir((x, y), ARM[:2])
         a.hold(0, 0.5, pose("pull", x=x, y=y, yaw=yaw))
         a.path(0.5, 3.2, [(x, y), (x + 0.6, y + 1.2)], "walk", speed="io", base=POSES["pull"], yaw_fixed=yaw)
-        a.hold(3.2, 4, pose("pull", x=x + 0.6, y=y + 1.2, yaw=yaw)); pullers.append(a)
+        a.hold(3.2, T, pose("pull", x=x + 0.6, y=y + 1.2, yaw=yaw)); pullers.append(a)
     for a in pullers: a.compute()
     s1 = rope_stick(JA)
     s2 = Stick("rope2", 0.018, PAL["rope"], lambda f: (tuple(ARM), tuple(pullers[0].J[min(f, nf - 1)][RHA])))
     near = []
     for i, (x, y) in enumerate([(-37.6, -4.9), (-38.0, -5.4), (-38.6, -4.7), (-37.3, -5.6), (-38.9, -5.8)]):
-        a = Actor(f"n{i}", crowd_costume(random.Random(110 + i)), nf); a.hold(0, 4, pose("stand", x=x, y=y, yaw=fdir((x, y), (ARM[0], ARM[1])), hpitch=-15)); near.append(a)
+        a = Actor(f"n{i}", crowd_costume(random.Random(110 + i)), nf); a.hold(0, T, pose("stand", x=x, y=y, yaw=fdir((x, y), (ARM[0], ARM[1])), hpitch=-15)); near.append(a)
     ring = []
     for i, (x, y) in enumerate(falloff((ARM[0], ARM[1]), 22, r_min=2.0, lam=2.2, arc=(-180, 180), seed=121, walls=SQ_WALLS + body_boxes(), max_r=18, avoid=[((-36.4, -3.6), 1.5)])):
-        a = Actor(f"r{i}", crowd_costume(random.Random(130 + i)), nf); a.hold(0, 4, pose("stand", x=x, y=y, yaw=fdir((x, y), ARM[:2]))); ring.append(a)
+        a = Actor(f"r{i}", crowd_costume(random.Random(130 + i)), nf); a.hold(0, T, pose("stand", x=x, y=y, yaw=fdir((x, y), ARM[:2]))); ring.append(a)
     return {"cam": cam(p, (ARM[0], ARM[1], 2.2), 30, hh=0.7), "actors": [him] + pullers + near + ring + dead_actors(nf), "sticks": [s1, s2],
-            "cues": [[0.5, 3.1, "THEY HAUL HIM UP BY ONE ANKLE"]]}
+            "cues": [[0.5, 3.1, "THEY HAUL HIM UP BY ONE ANKLE"], [4.0, T, "HE TWISTS AND FIGHTS ON THE ROPE"]]}
+
+_PN = {}
+PANIC = 1.3                 # SH040: dazed until he gets one eye open, then panic takes him
+def hang_panic(T, seed=11):
+    """d11 SH040: first dazed, still; once he gets an eye open, panic: he twists on the rope, the head turns and
+    searches for a way out, the free leg kicks. The sideways swing is damped (as in SH050) so the close stays on his face."""
+    key = (round(T, 3), seed)
+    if key not in _PN:
+        phys.haul(); rng = np.random.default_rng(seed)
+        d = M.Doll(rope=tuple(ARM), sidewalks=phys.CORNER); d.set_state(phys._C["settled"]); d.set_rope(phys.ROPE_FINAL)
+        kicks = tuple(sorted(rng.uniform(PANIC, T, 4))); reach = (2.3,); ph = rng.uniform(0, 6.28, 4)
+        def ctrl(t, dd):
+            g = phys._tone_live(t, dd, kicks=kicks, reach=reach)
+            w = min(1.0, max(0.0, (t - PANIC) / 0.35))
+            g["neck_z"] = (w * (38 * math.sin(2.6 * t + ph[0]) + 16 * math.sin(5.9 * t + ph[1])), 12)
+            g["neck_y"] = (w * 12 * math.sin(3.7 * t + ph[2]), 10)
+            g["neck_x"] = (-20 + w * 15 * math.sin(4.1 * t + ph[3]), 12)
+            return g
+        def forces(t, dd):
+            v = dd.d.qvel[0:3].copy(); v[2] = 0.0
+            return [("pelvis", -STEADY * 60.0 * v), ("torso", -STEADY * 30.0 * v)]
+        _PN[key] = d.run(T, ctrl=ctrl, rope_fn=lambda t: phys.ROPE_FINAL, tone=20, forces=forces)
+    return _PN[key]
 
 def S07_SH040(nf):
-    JA = hanging(nf / core.FPS, struggle=0.08, seed=11)
-    head0 = JA[0][HEAD]
-    p = tuple(head0 + np.array((2.1, 3.3, 0.15))); sq(p)
+    """Close on the front of his face, upside down: bruised. With effort he opens one eye, then panic takes him: he twists
+    on the rope, gasping, eyes darting for a way out.
+    The camera eases round with his slow turn on the rope, so it stays on his face."""
+    T = nf / core.FPS; JA = hang_panic(T)
+    D = np.array([(J[NOSE] - J[HEAD])[:2] / (np.linalg.norm((J[NOSE] - J[HEAD])[:2]) + 1e-9) for J in JA])
+    k = 9; Dp = np.concatenate([D[:1].repeat(k, 0), D, D[-1:].repeat(k, 0)])
+    Ds = np.array([Dp[i:i + 2 * k + 1].mean(axis=0) for i in range(len(D))]); Ds /= np.linalg.norm(Ds, axis=1)[:, None]
+    Hp = np.concatenate([JA[:1, HEAD].repeat(k, 0), JA[:, HEAD], JA[-1:, HEAD].repeat(k, 0)])
+    Hs = np.array([Hp[i:i + 2 * k + 1].mean(axis=0) for i in range(len(D))])
+    def pos(t):
+        f = min(len(D) - 1, int(round(t * core.FPS))); return Hs[f] + np.array((Ds[f][0] * 2.1, Ds[f][1] * 2.1, 0.05))
+    p = tuple(pos(0)); sq(p)
     him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    him.face(0, 1.2, eyes=0.1); him.face(1.2, 3.0, eyes=0.55)
-    return {"cam": follow(him, p, lens=150, offset=(0, 0, 0), lag=0.2, joint=HEAD), "actors": [him], "sticks": [rope_stick(JA)]}
+    him.face(0, 0.7, eyes=0.08, mouth=0.1); him.face(0.7, PANIC, eyes=0.45, mouth=0.15)                # with effort, an eye opens
+    him.face(PANIC, T, eyes=1.15)                                                                      # then wide, darting
+    him.overlays.append((F(PANIC), nf, lambda f, q: dict(q, mouth=0.25 + 0.45 * abs(math.sin(f * 1.1)))))   # gasping
+    return {"cam": follow(him, pos, lens=70, offset=(0, 0, 0), lag=0.35, joint=HEAD), "actors": [him], "sticks": [rope_stick(JA)]}
 
 def _seg(a, b, k=6, r=0.9):
     a = np.array(a[:2], float); b = np.array(b[:2], float); return [(tuple(a + (b - a) * u), r) for u in np.linspace(0, 1, k)]
@@ -359,18 +409,16 @@ def _kill_hang(T, seed):
     return phys.hanging(T, struggle=0.12, seed=seed, steady=STEADY)
 
 def S07_SH070(nf):
-    """Low, looking up, his whole figure: he slowly lifts the pipe high over his head with both hands, taking his time.
-    As he is about to swing: a crack. He drops where he stands; the pipe falls and rings on the asphalt."""
+    """Low and close on the fat man alone, the sky behind him, like a finishing move: he slowly lifts the pipe high over
+    his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops out of the frame where
+    he stands; the pipe falls and rings on the asphalt. A cheat: the hanging man is left out (only him, the pipe, the sky)."""
     fv = np.array((-math.sin(math.radians(KILL_YAW)), math.cos(math.radians(KILL_YAW))))
-    a = math.radians(75); cd = np.array((fv[0] * math.cos(a) - fv[1] * math.sin(a), fv[0] * math.sin(a) + fv[1] * math.cos(a)))
-    b = np.array(PIPE_AT) + cd * 3.0
-    gz = 0.15 if any(x0 <= b[0] <= x1 and y0 <= b[1] <= y1 for (x0, x1, y0, y1) in phys.CORNER) else 0.0
-    p = (float(b[0]), float(b[1]), gz + 0.2); sq(p)
+    a = math.radians(15); cd = np.array((fv[0] * math.cos(a) - fv[1] * math.sin(a), fv[0] * math.sin(a) + fv[1] * math.cos(a)))
+    b = np.array(PIPE_AT) + cd * 1.7
+    p = (float(b[0]), float(b[1]), 0.5); sq(p)
     fm = fat_actor(nf, kill_body()); dies(fm, KC, fat_death()); fm.compute()
-    JA = _kill_hang(nf / core.FPS, 13); him = Actor("him", COST["him"], nf); him.joints(0, JA)
-    crowd = watchers(nf, 22, 71, avoid=_seg(p, PIPE_AT, r=1.4) + [(tuple(PIPE_AT), 1.8), (p[:2], 4.8)])
-    return {"cam": cam(p, (PIPE_AT[0], PIPE_AT[1], 1.5), 14), "actors": [fm, him] + crowd + dead_actors(nf),
-            "sticks": [pipe_track(fm, KILL_KEYS, 0.0, after=(KC, kill_pipe())), rope_stick(JA)],
+    return {"cam": cam(p, (PIPE_AT[0], PIPE_AT[1], 1.75), 20), "actors": [fm],
+            "sticks": [pipe_track(fm, KILL_KEYS, 0.0, after=(KC, kill_pipe()))],
             "cues": [[KC, KC + 0.3, "A CRACK FROM THE SKY"], [KC + 0.6, 4, "THE PIPE RINGS ON THE ASPHALT"]]}
 
 def S07_SH080(nf):
