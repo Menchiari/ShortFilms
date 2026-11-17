@@ -1,9 +1,10 @@
 Title: POLITICIAN
 Credit: written by
 Author: Leonard Menchiari
-Draft date: 2026-11-17
+Draft date: 2026-11-17 (draft 11)
 
 /* File: stories/politician/screenplay.fountain
+   Draft 11: Leonard's notes on animatic d10 (2026-11-17). S02 SH090 closer. S04 SH070 the angle of SH090. S05 SH020 only the distant ones speed up. S07 SH030 longer; SH040 his face, panicked; SH070 the fat person alone against the sky, a finishing shot. S08 SH020 and SH050 move; SH030 staged in 3D; SH040 three kills, one every two seconds. S09 SH010 a slouched lean (pose reference); SH020 real rotor wash, a slow limp; SH100 he turns away from her; SH110 a fuller background. S10 heavier flight, closer turn, the full bobblehead, 20 s. Runtime 7:00 counting every coverage angle.
    Draft 10: Leonard's notes on animatic d9 (2026-11-16). S02: the bobblehead faces into the car, the case lies flat, a real skid, the two window POVs from inside through the windshield. S04: SH120 on the old man with the line off screen; SH130 the watchers already there; new SH135 over the fat person's shoulder: he slides out of the grip. S05: SH040 to SH060 and SH100 cut, the phone goes into SH030; the rock hits harder (right eyebrow) and drops him; the case slams down at speed. S06: a wall behind him in SH010; SH020 third person behind him; new SH025 gun insert; SH030 the side view. S07: readable wind-ups, the pipe rebounds off the arm, SH070 reframed, SH080 a second death. S08 SH010 back to the d8 framing. S09: elbows on the sidewalk, the case flat, generation pairs SH060+SH080 and SH100+SH120. S10: the helicopter close, the camera sinks to the bobblehead.
    No renumbering from draft 10: cut shots leave a gap, new shots take a free number (S04 SH135, S06 SH025), so every earlier reference stays valid.
    Leonard's decisions of 2026-11-16 (notes-for-draft.md), applied here: the town edge is towers standing shoulder to shoulder like a wall, with broken ground, a deep dry ditch and rubble on both sides of the car; roads are asphalt buried in dust and drifted sand, not dirt; no laundry anywhere, the city more modern (look/mood/); the PPK/S locks its slide open after the last shot: no click.
@@ -115,7 +116,7 @@ A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers st
 
 The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.
 
-[[SH090 | 4 | MEDIUM, through the windshield | Locked-off | The car stands a few meters from the towers, facing the gap | Was SH070]]
+[[SH090 | 4 | MEDIUM CLOSE, through the windshield | Locked-off | The car stands a few meters from the towers, facing the gap | Closer]]
 
 The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.
 
@@ -223,7 +224,7 @@ One of the men stops talking and looks at him.
 
 The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.
 
-[[SH070 | 3 | OVER THE SHOULDER of the fat person, looking down, long lens | Locked-off | Same side of the line as SH090. Camera a little higher; his head stays in frame through the fall | Higher, his head in frame]]
+[[SH070 | 3 | HIGH, looking down on him, the same angle as SH090 | Handheld | One setup for the fall and the lines that follow; his head stays in frame through the fall | Same angle as SH090]]
 
 He bounces off the big body and lands flat on his back on the ground.
 
@@ -289,7 +290,7 @@ VOICES
 (from windows and balconies, overlapping)
 Thief! / Close the street! / He's going to the square!
 
-[[SH020 | 4 | TOP VIEW, high | Locked-off | Nobody pops into frame: they come out of doorways and side streets, each at his own pace | Top view]]
+[[SH020 | 4 | TOP VIEW, high | Locked-off | Nobody pops into frame: they come out of doorways and side streets, each at his own pace. They move slowly around him; only the distant ones speed up at the very end, never the close ones | Only the distant ones speed up]]
 
 From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.
 
@@ -397,11 +398,11 @@ From far above, the mob closes over him at the corner of the square. More people
 
 A rope whips around the arm of the street light and is pulled tight.
 
-[[SH030 | 4 | MEDIUM WIDE, 3 m away, the crowd between him and the camera | Handheld | He hangs beside the sidewalk. Simulated: a body hauled up by one ankle, heavy, nothing elastic | Real weight]]
+[[SH030 | 6 | MEDIUM WIDE, 3 m away, the crowd between him and the camera | Handheld | He hangs beside the sidewalk. Simulated: a body hauled up by one ankle, heavy, nothing elastic | Longer]]
 
 Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.
 
-[[SH040 | 3 | CLOSE, upside down | Locked-off | The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C | ]]
+[[SH040 | 3 | CLOSE, upside down, the front of his face | Locked-off | He moves, panicked: never static. The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C | His face, panicked]]
 
 His face: bruised, a split lip, blood from his ear. With effort, he opens one eye.
 
@@ -413,7 +414,7 @@ He pulls his arms over his head. The FAT PERSON from the side street steps in wi
 
 The pipe slams into his forearm, raised to cover his head, and bounces back off it.
 
-[[SH070 | 4 | LOW, looking up, the fat person full figure | Locked-off | SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post | Reframed: the whole wind-up]]
+[[SH070 | 4 | LOW, close on the fat person alone, the sky behind him | Locked-off | Like a finishing shot: only him, the pipe and the sky. SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post | Closer, the sky behind him]]
 
 The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.
 
@@ -427,19 +428,19 @@ A crack from the sky. The fat person drops. The pipe rings on the asphalt. The c
 
 High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.
 
-[[SH020 | 4 | CLOSE, inside the cabin, a step further back | Locked-off, cabin vibration | Left: Roger's face. Center: the lady in the front seat beside the pilot. Right: the front half of the rifle, clearly a rifle, running out of frame, held a little lower | Rifle lower]]
+[[SH020 | 4 | CLOSE, inside the cabin, a step further back | Handheld, a slow drift, cabin vibration | Left: Roger's face. Center: the lady in the front seat beside the pilot. Right: the front half of the rifle, clearly a rifle, running out of frame, held a little lower | Rifle lower, the camera moves]]
 
 ROGER, harnessed in, cheek on the stock of a long rifle, his face on the left. He is smiling. Beyond him, in the front seat beside the pilot, the BUSINESS LADY, a headset over her hair. On the right, the front half of the rifle runs out of frame toward the open door.
 
-[[SH030 | 4 | SCOPE POV | Steady, stabilized | | ]]
+[[SH030 | 4 | SCOPE POV | Steady, stabilized | Staged in 3D in the animatic, from the helicopter's real position, so Seedance gets the angle | 3D, not a card]]
 
 The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.
 
-[[SH040 | 4 | WIDE, from the street, long lens | Locked-off | Distance and dust: nothing explicit. The dead stay where they fell | ]]
+[[SH040 | 7 | WIDE, from the street, long lens | Locked-off | Distance and dust: nothing explicit. One shot every two seconds, three dead. The dead stay where they fell | Three kills, longer]]
 
-Cracks from the sky. People fall. The rest run. Some fall while they run.
+A crack from the sky, then another every two seconds. Three people drop, one after another. The rest run.
 
-[[SH050 | 3 | CLOSE, same setup as SH020 | Locked-off, cabin vibration | She turns over her right shoulder | Same setup, she turns right]]
+[[SH050 | 3 | CLOSE, same setup as SH020 | Handheld, a slow drift, cabin vibration | She turns over her right shoulder | The camera moves]]
 
 In the front seat, the lady turns around to him, over her right shoulder.
 
@@ -460,7 +461,7 @@ The rope snaps.
 
 .EXT. SQUARE - CONTINUOUS #S09#
 
-[[SH010 | 18 | MEDIUM CLOSE, camera almost on the ground across the street, long lens | Locked-off | One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. ELEMENT: old man D (stain) | Facing the camera]]
+[[SH010 | 18 | MEDIUM CLOSE, camera almost on the ground across the street, long lens | Locked-off | One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. When he leans back: slouched and loose, the spine curved, one knee up, one leg out, elbows on the sidewalk (pose: look/pose_ref_s09_sh010.webp). ELEMENT: old man D (stain) | A slouched lean]]
 
 Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.
 
@@ -469,9 +470,9 @@ Fuck! FUCK! Fuck fuck fuck...
 
 He curls up facing the camera, shaking. A dark stain spreads down his trousers. He turns over and leans back against the curb, his elbows resting on the sidewalk behind him, like the edge of a short couch, legs out on the street. He catches his breath. He looks at the sky. Nearly a smile. The fat person lies next to him. He props himself up on an elbow and looks at him with disgust. He spits on him, hard, and keeps glaring.
 
-[[SH020 | 13 | LOW, the briefcase in the foreground, him far | Locked-off | The briefcase lies flat in the street where it fell; the square opens behind him. Seedance does the wind and the paper | Case flat]]
+[[SH020 | 13 | LOW, the briefcase in the foreground, him far | Locked-off | The briefcase lies flat in the street where it fell; the square opens behind him. Real rotor wash: the sheets are torn off the asphalt and tumble fast in gusts, nothing floats. A slow limp; the case lies closer to him. Seedance does the wind and the paper | Real wash, a slow limp]]
 
-The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it. Behind him the helicopter comes down into the square. Its rotor wash throws the certificates into the air: they fly all around. He reaches the case.
+The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it, slowly. Behind him the helicopter comes down into the square. Its rotor wash tears the certificates off the asphalt: they flip, tumble and fly off in the gusts. He reaches the case.
 
 [[SH030 | 3 | INSERT | Locked-off | | ]]
 
@@ -504,16 +505,16 @@ She looks up from the folder, at him. She closes it. She is about to say somethi
 
 He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.
 
-[[SH100 | 7 | CLOSE, her, same frame as SH080 | Locked-off, rack focus | He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. One generation with SH120 | He stays in frame, paired with SH120]]
+[[SH100 | 7 | CLOSE, her, same frame as SH080 | Locked-off, rack focus | He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. On his line he turns only halfway, away from her: he never faces her. One generation with SH120 | He turns away from her]]
 
-He limps past her. She doesn't move. At the door he half turns toward her and points his chin at the street.
+He limps past her. She doesn't move. At the door he half turns, away from her, and points his chin at the street without a look at her.
 
 OLD MAN
 That's your money right there.
 
 The focus pulls to her face. The same expression. Behind her, out of focus, he climbs in.
 
-[[SH110 | 3 | HER POV, WIDE | Locked-off | Distance: no wounds in frame. The animatic leaves the paper still: Seedance moves it | Paper still in the animatic]]
+[[SH110 | 3 | HER POV, WIDE | Locked-off | Distance: no wounds in frame. A full background: more buildings, his car far off at the crossroads, a few people hiding behind cover, dusty gusts. The animatic leaves the paper still: Seedance moves it | A fuller background]]
 
 The certificates flutter among the bodies in the rotor wash.
 
@@ -529,8 +530,8 @@ She turns around and walks to the helicopter, slowly, and climbs in after him.
 
 .INT. HIS CAR - THE CROSSROADS WHERE HE LEFT IT - SUNSET #S10#
 
-[[SH010 | 15 | MEDIUM, from inside the car, through the windshield | Holds, then a slow pedestal down | [ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks hard and turns away: a reckless pilot flying it perfectly, real helicopter flight. As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. Hold on the head while the helicopter shrinks away | Restaged: the helicopter close, the camera sinks]]
+[[SH010 | 20 | MEDIUM, from inside the car, through the windshield | Holds, then a slow pedestal down, a little lower at the end | [ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks and turns away, closest to the camera in the turn: a reckless pilot flying it perfectly, real helicopter flight, heavy, slow and smooth like a Black Hawk ([ASSUMPTION] the model stays the white ACH160). As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. At the end the camera is low enough for the whole bobblehead; hold the composition while the helicopter vanishes on the horizon | Heavier, closer, the full bobblehead, 20 s]]
 
-Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, banks hard and swings around toward the horizon: too low, too fast, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down the street, lifting certificates into the air, and hits the car. The head wobbles, slower and slower, and stops. Far away, the helicopter shrinks into the sunset.
+Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down the street, lifting certificates into the air, and hits the car. The head wobbles, slower and slower, and stops. The whole bobblehead in the frame, and far away the helicopter shrinking into the sunset until it is gone.
 
 > CUT TO BLACK.
