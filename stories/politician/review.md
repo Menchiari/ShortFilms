@@ -118,7 +118,7 @@ Nothing blocking. Issues and what was done:
 | N5 | Which eyebrow | Open: analysis sent to Leonard |
 | N6 | S04 eyelines; SH140 let go after the slide | Eyelines written in SH110; SH140 back to the d9 content, SH135 is coverage; no smile |
 | N7 | Wall vs third person; side views on different sides | Wall a few steps behind; camera close behind him; SH030 and SH060 both him screen left, crowd screen right |
-| N8 | S09 180-degree side not stated | Open: written after the d10 animatic fixes the side |
+| N8 | S09 180-degree side not stated | S09 SH050: her screen left looking right, him screen right looking left, for SH050 to SH120 (as in animatic d10) |
 | N9 | He leaves the case with no beat | S05 SH120: he looks at the case, then at the crowd, and backs away |
 | Fidelity | S06 SH030 misread; S07 SH050 unchanged text | SH030 fixed (see N2); SH050 5 s with the beats written out |
 
