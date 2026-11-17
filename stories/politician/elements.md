@@ -1,6 +1,6 @@
 # Politician: Higgsfield elements
 
-Workspace elements (Higgsfield elements belong to the workspace; the tool has no project field). Characters and most props by Leonard; locations, vehicles and the cluster by Claude on Leonard's request (2026-11-17), from images in the project's Elements folder. Written into prompts as `<<<id>>>`.
+Elements by Leonard, created inside the project. The rows marked "Claude, 2026-11-17" are workspace elements made with Claude's tool, outside the project: void for the contest (Leonard, 2026-11-17), never used in prompts. Leonard is redoing them in the project; their new ids replace these rows. Written into prompts as `<<<id>>>`.
 
 | Element | Id | Use |
 |---|---|---|
