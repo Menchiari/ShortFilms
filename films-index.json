@@ -1,4 +1,13 @@
 {
   "note": "Written by tools/filmtool.py. Size of each film in git, used by 'filmtool space'.",
-  "films": []
+  "films": [
+    {
+      "slug": "001-politician",
+      "id": "001",
+      "title": "Politician",
+      "status": "generation",
+      "takes": 23,
+      "size_mb": 29.8
+    }
+  ]
 }
