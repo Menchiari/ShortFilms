@@ -1750,6 +1750,29 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST 020e, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s and audio levels, not heard): his head and shoulders now sway and shift between frames; the wall slides behind him; mouth open more often than in T02 (more talking than asked); a lunge forward with the hand slam at about 6.5 s; louder from about 4.8 s to 7.3 s, quiet tail after. Leonard: I don't buy it (he does not feel inside a car). T04: handheld camera from the passenger seat, moving in position, not only pivoting."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 24.0,
+              "job_id": "06769720-bb10-4c30-a594-fc0efd8256d7",
+              "prompt": "05-generation/prompts/001_S03_SH020_T04.txt",
+              "file": "05-generation/takes/S03/SH020/001_S03_SH020_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "Leonard's start frame v3 (c4e65b4b, start_image, in REFS): 05-generation/frames/001_S03_SH020_T02_start_v3.jpg"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 020f, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s, not heard): the framing shifts between frames (his head moves around in frame, the frame edges change), so the camera does move; mouth open in several frames from about 2 s to 6 s; the slam lunge at about 6 s."
             }
           ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
