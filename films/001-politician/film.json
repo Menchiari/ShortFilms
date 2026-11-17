@@ -134,7 +134,13 @@
       "S02": "85c74305-2755-4124-a32b-561d162a5a59",
       "S02/SH010": "78de1b61-9708-4c53-8ff4-e9ace7c092f6",
       "S02/SH060": "b853772d-c55f-424c-a999-214445b3e156",
-      "S02/SH090": "d69e487c-9326-442c-910d-df2aba26e14b"
+      "S02/SH090": "d69e487c-9326-442c-910d-df2aba26e14b",
+      "S02/SH020": "35d8bdaf-a603-4fc4-9e09-0cea6ff42742",
+      "S02/SH030": "87808c05-8e6d-457c-aceb-a590f1f8f2a1",
+      "S02/SH050": "576ede40-7260-41e6-93ea-4b7ca8e15ed3",
+      "S02/SH070": "59f873ec-1d5d-451e-8966-448e09f792aa",
+      "S02/SH080": "8857fd30-fa81-4a87-b3f9-8be569aea610",
+      "S02/SH100": "6a61f303-5728-4d21-81b7-dbe3caa2c71f"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -230,6 +236,16 @@
         "element": "",
         "image": "1f563179-51a7-4e02-bcac-0affdd52a903"
       }
+    },
+    "animatic_refs_d11": {
+      "S02/SH010": "39340d9c-3876-4695-9849-b5d92c2d1e60",
+      "S02/SH020+SH040": "dbb41e14-afdd-429b-9b18-546589488c4d",
+      "S02/SH030": "871b9996-4c20-48b2-b1e1-827850a208a9",
+      "S02/SH050": "fece4158-59fa-4af4-89d8-0a254e24a9fb",
+      "S02/SH070": "23fe344d-f1cb-4ec2-9d5e-4236b063babb",
+      "S02/SH080": "17f7d9cd-144b-46ce-9ba9-fb5ea36ed93e",
+      "S02/SH090": "ff43c009-d767-4e89-8a3d-8a59977e60cb",
+      "S02/SH100": "adf37a56-dfcc-4b97-b551-082817760bbe"
     }
   },
   "extra_costs": [],
@@ -265,6 +281,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 015a done, 84 credits, all three passed first submission: S02 SH010 T01, SH060 T01 (with SH070), SH090 T01."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 016 approved (245 credits) and submitted, 720p 21:9, d11 animatic clips as video references: SH010 T02 eb724d16-8978-4f74-b08a-cc73edf9a4a2, SH020+SH040 T01 2fd50460-17a4-4e33-b7d9-0712704b8714, SH030 T01 2e035fc1-54b5-4f87-9011-d48ac4e654a2, SH050 T01 6cb55640-3cc4-41ee-bb81-dfdcfc9acf0b, SH070 T01 e545c5a8-7727-4b94-b981-406e924a5301, SH080 T01 e15ac40d-4b01-4400-9dac-b842f263ebc6, SH090 T02 1c1b53d2-e928-4c9e-ad3f-0dcc9865eb9e, SH100 T01 d42b0535-66e5-4065-a9b4-679574c8f2c1."
     }
   ],
   "story_sync": {
