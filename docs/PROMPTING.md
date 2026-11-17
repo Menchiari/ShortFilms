@@ -65,6 +65,24 @@ labels such as "fanatical" or "extremely shocked" (glowing eyes).
 
 Complex requests become several simple passes. One video model per film.
 
+## Previz guide clips
+
+A previz clip (animatic, Blender) gives Seedance four things only: camera position, camera
+movement, framing, and the rough positions, paths and timing of people and objects. It never
+gives look. Its colors, light, surfaces and shapes are placeholders; its locations only show
+what the frame contains. All look comes from reference images and words. Seedance copies
+whatever it believes is the target, so every prompt that uses a clip says this plainly.
+
+- Never send the render. Send a line drawing of it:
+  `ffmpeg -i in.mp4 -vf "format=gray,edgedetect=low=0.08:high=0.25,negate,format=yuv420p" -an out_lines.mp4`
+- A frame filled by place (street, buildings, ground) gets no set clip: a start frame or words.
+- Describe every person, object and place in words and images as if there were no clip.
+- The guide paragraph goes right after the first audio line, word for word, with the placeholder sentence
+  naming this shot's blocks; "Never copy the look of Video N." goes before the look line.
+
+Guide paragraph:
+`VIDEO 1 IS A ROUGH GUIDE (a line drawing traced from a crude grey 3D sketch), NOT FOOTAGE AND NOT A STYLE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or outlines, not its flat surfaces, colors, light or style. Its simple blocks only mark where real things are: [the ball is a real human head, the boxes are real buildings]. Every building, wall, road, object and person in the result is real and photographed, with real skin, real fabric, real dust and real sunlight, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing, clay model or video game.`
+
 ## Saving credits
 
 - Fix the cause before paying for a retake (see "After every take").
