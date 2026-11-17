@@ -8,7 +8,9 @@ Use: the prompt names each clip and its one job ("a motion diagram only: the cam
 the people"). Test S05 SH020 showed that a clip with the grey set gets copied as a fake 3D model: for crowd and fall
 shots use the motion-only clip in `../refs_d11_motion/` (people on plain ground, no set), and describe the place in words.
 
-S02 at 720p (REQUEST 016, 2026-11-17): the clip held where every place in frame also had a real reference image (SH010 town
-edge, SH020 dog, SH070 briefcase and seat, SH090 man and car). Where the clip was the only source for the ground or the street,
-Seedance copied its geometry as untextured CG (SH030 road and foreground block, SH100 street). Rule: give every place in frame
-a real image, or drop the clip and describe the place in words.
+S02 at 720p (REQUEST 016, 2026-11-17), corrected after a full-resolution check: every shot where the clip carried
+architecture or ground came out as 3D previz, even with a real image of the place attached (SH010 towers and boxy rubble,
+SH030 road and block, SH100 street, the towers in SH090's rear window). Shots where the clip carried only a subject held
+photoreal (SH020 dog, SH070 briefcase, SH080 car). Rule: never give a set clip for a shot whose frame is filled by place;
+the composition comes from a photoreal start frame made over the animatic frame (production plan, Keeping the vision 1-2),
+or from words.
