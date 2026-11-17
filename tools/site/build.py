@@ -146,8 +146,8 @@ class Builder:
                     if publish["prompts"] and t.get("prompt") and (film_dir / t["prompt"]).is_file():
                         entry["prompt"] = (film_dir / t["prompt"]).read_text(encoding="utf-8").strip()
                     entry["notes"] = t.get("notes", "")
+                    entry["poster"] = self.copy(film_dir, t.get("poster", ""))
                     if t is lt or t.get("love"):
-                        entry["poster"] = self.copy(film_dir, t.get("poster", ""))
                         entry["references"] = [self.copy(film_dir, r) for r in t.get("references", [])]
                     takes.append(entry)
                 keep = ["id", "status", "description", "purpose", "framing", "angle", "lens", "movement",
