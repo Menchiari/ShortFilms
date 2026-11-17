@@ -1,6 +1,6 @@
 # Politician: Higgsfield elements
 
-Workspace elements made by Leonard (2026-11-16). Written into prompts as `<<<id>>>`.
+Workspace elements (Higgsfield elements belong to the workspace; the tool has no project field). Characters and most props by Leonard; locations, vehicles and the cluster by Claude on Leonard's request (2026-11-17), from images in the project's Elements folder. Written into prompts as `<<<id>>>`.
 
 | Element | Id | Use |
 |---|---|---|
@@ -16,6 +16,15 @@ Workspace elements made by Leonard (2026-11-16). Written into prompts as `<<<id>
 | prop_wobblehead | 79dc8b10-0969-4c09-b152-f1bfd0a92490 | The bobblehead |
 | prop_rifle | 1ba45df5-3781-4aa4-a647-2fa4a63af43c | Roger's rifle (S08). Leonard, 2026-11-17 |
 | prop_car | 4fb2b9be-e3bf-4122-be00-0c098818122e | His car, outside (S02, S03, S10). Leonard's edit of prop_car_v1, 2026-11-17 |
+| loc_main-street | a85235c7-5f3d-4552-8e77-2045cc719e91 | The main street (S03), master look of the town. Claude, 2026-11-17 |
+| loc_town-edge | 86326c41-a762-42a4-8059-8d1b3a7dd88f | Town edge, towers like a wall, one gap (S02). Claude, 2026-11-17 |
+| loc_side-streets | 4cca367a-be65-4e17-892e-9e828e8b9741 | Side streets (S04, S05). Claude, 2026-11-17 |
+| loc_square | 628fa32c-ba3c-4159-b4d7-d14cde18e151 | The square, street light corner (S05 SH140 to S09). Claude, 2026-11-17 |
+| loc_crossroads | 2ed7ddd7-b755-4062-ab3f-5aead6e34a2a | The crossroads (S03 SH050, S10). Claude, 2026-11-17 |
+| loc_car-interior | 61e6cb72-0285-4965-ab03-78c7d6de3a39 | His car, inside (S02, S03, S10). Palms through the windshield: name the towers in the prompt. Claude, 2026-11-17 |
+| prop_instrument-cluster | b5c349f4-d0e1-4b0b-9973-e840e486d97e | Fuel needle on E (S02 SH170, S03 SH040). Claude, 2026-11-17 |
+| prop_helicopter | 72463ac3-1c0e-4e49-b5c3-b39fbfd7e7d3 | Matte black Black Hawk, unmarked (S08, S09, S10). A gunner sits in the door: say the door is empty or Roger's. Claude, 2026-11-17 |
+| loc_heli-cabin | b10298b3-ada9-4bfb-8d93-edde78d3aaa5 | Black Hawk cabin, bare military (S08). Claude, 2026-11-17 |
 
 Higgsfield project: "Talent Contest - Politician" (37733499-03c4-4405-8dee-fea3a2d3b96e).
 
@@ -36,3 +45,12 @@ Seedance 2.5 does not resolve `<<<id>>>` placeholders. Pass the element's image 
 | prop_wobblehead | fa19c43f-6118-4229-b27e-9094c0351770 |
 | prop_rifle | bb9db39b-9cde-4f92-af18-92d3c3dd74c3 |
 | prop_car | 42787b78-4682-4c84-953a-f89d853f105d |
+| loc_main-street | c758e4e6-4cc6-4871-af3e-83c39a46940c |
+| loc_town-edge | b73a0ba3-7e16-4543-acb1-af56f2de2d16 |
+| loc_side-streets | 06709193-ec74-4f64-83b3-e65b715ad8a5 |
+| loc_square | ad9c994a-8fb1-4a4c-a67d-6453e164eb64 |
+| loc_crossroads | 94ac5651-d88d-460b-b8d8-ca4a6b2ce1e4 |
+| loc_car-interior | 60a2aec8-3fc7-49b7-b030-3eacbe274b77 |
+| prop_instrument-cluster | 4025ee1a-fb17-4220-9842-2967dc102054 |
+| prop_helicopter | 6c8efe25-fd49-4797-a086-047c9c7ca372 |
+| loc_heli-cabin | 75f579e3-8496-4bdf-aaf4-82329a0b01eb |
