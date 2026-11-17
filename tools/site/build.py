@@ -9,9 +9,12 @@ Only public material is copied: films with "public": true, and inside them only 
 
 import argparse
 import json
+import os
 import re
 import shutil
+import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -22,6 +25,33 @@ BIBLE_GROUPS = ["characters", "locations", "props", "vehicles"]
 IMAGE_EXT = {".jpg", ".jpeg", ".png", ".webp"}
 DEFAULT_PUBLISH = {"story": True, "analysis": True, "bible": True, "shotlist": True,
                    "prompts": True, "costs": True, "sound": True, "music": True, "edit": True}
+
+
+def shot_state(shot, lt):
+    """Status the site shows: a loved take approves the shot, takes without a select mean review."""
+    status = shot.get("status") or "planned"
+    if status == "cut":
+        return "cut"
+    if lt or status == "approved":
+        return "approved"
+    if shot.get("takes"):
+        return status if status == "generating" else "review"
+    return status
+
+
+def shot_quality(shot, lt):
+    """Rating of the loved take, else the best rating among the takes, else None."""
+    if lt and lt.get("rating"):
+        return lt["rating"]
+    return max((t.get("rating") or 0 for t in shot.get("takes", [])), default=0) or None
+
+
+def commit_id():
+    sha = os.environ.get("GITHUB_SHA", "")
+    if not sha:
+        r = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True)
+        sha = r.stdout.strip()
+    return sha[:7]
 
 
 class Builder:
@@ -103,8 +133,10 @@ class Builder:
                         entry["notes"] = t.get("notes", "")
                     takes.append(entry)
                 keep = ["id", "status", "description", "purpose", "framing", "angle", "lens", "movement",
-                        "duration_s", "transition_in", "characters", "props", "dialogue"]
+                        "duration_s", "transition_in", "characters", "props", "dialogue", "note"]
                 s = {k: shot.get(k) for k in keep}
+                s["status"] = shot_state(shot, lt)
+                s["quality"] = shot_quality(shot, lt)
                 ap = shot.get("approach") or {}
                 s["method"] = ap.get("method", "")
                 s["takes"] = takes
@@ -140,6 +172,7 @@ class Builder:
             "created": film.get("created", ""), "format": film.get("format", {}),
             "stages": film.get("stages", {}), "links": film.get("links", {}),
             "log": film.get("log", []), "poster": poster, "stats": st,
+            "schedule": film.get("schedule") or {},
             "docs": {}, "bible": [], "scenes": [],
         }
         # a document is published only when its flag allows it and its stage has started,
@@ -182,11 +215,15 @@ class Builder:
             summary = {k: data[k] for k in ["slug", "id", "title", "logline", "status", "created",
                                              "poster", "stats", "format", "links"]}
             summary["strip"] = [
-                {"id": f"{sc['id']} {sh['id']}", "status": sh["status"], "loved": bool(sh["loved"])}
+                {"id": f"{sc['id']} {sh['id']}", "status": sh["status"], "loved": bool(sh["loved"]),
+                 "quality": sh["quality"]}
                 for sc in data["scenes"] for sh in sc["shots"] if sh["status"] != "cut"
             ]
+            summary["deadline"] = (data["schedule"] or {}).get("deadline", "")
             summaries.append(summary)
         site["films"] = sorted(summaries, key=lambda f: f["id"] or "", reverse=True)
+        site["built"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        site["commit"] = commit_id()
         (self.out / "data" / "site.json").write_text(json.dumps(site, ensure_ascii=False, indent=1),
                                                      encoding="utf-8")
         size = sum(p.stat().st_size for p in self.out.rglob("*") if p.is_file())

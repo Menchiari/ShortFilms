@@ -81,6 +81,7 @@ Source of truth for scenes, shots and takes. `04-shotlist/SHOTLIST.md` is render
 - `approach.method`: `t2v`, `start-frame`, `start-end-frame`, `omni-reference`, `video-reference`,
   `blender-previs`, `extension`, `multi-shot`.
 - `approach.risk`: `low`, `medium`, `high`.
+- `note`: the screenplay's production note for the shot, when it has one.
 - Take `rating`: 1 to 5. `rating_source`: `user` or `inferred`. `love`: true marks the select.
 - `file` is empty for rejected takes that were never downloaded. `job_id` always points to
   Higgsfield.

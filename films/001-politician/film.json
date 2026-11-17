@@ -1,0 +1,153 @@
+{
+  "id": "001",
+  "slug": "001-politician",
+  "title": "Politician",
+  "logline": "",
+  "status": "generation",
+  "created": "2026-11-17",
+  "public": true,
+  "publish": {
+    "story": true,
+    "analysis": true,
+    "bible": true,
+    "shotlist": true,
+    "prompts": true,
+    "costs": true,
+    "sound": true,
+    "music": true,
+    "edit": true
+  },
+  "format": {
+    "aspect": "16:9",
+    "fps": 24,
+    "resolution": "480p",
+    "target_runtime_s": 420
+  },
+  "poster": "",
+  "schedule": {
+    "source": "production plan v4 (2026-11-15), written for draft 8",
+    "deadline": "2026-11-25",
+    "days": [
+      {
+        "date": "2026-11-16",
+        "scenes": [
+          "S01"
+        ],
+        "task": "References from Leonard. Filter tests, S01."
+      },
+      {
+        "date": "2026-11-17",
+        "scenes": [
+          "S02",
+          "S03",
+          "S04"
+        ],
+        "task": "Crossroads start frames. Review S01, S02."
+      },
+      {
+        "date": "2026-11-18",
+        "scenes": [
+          "S05",
+          "S06"
+        ],
+        "task": "Review."
+      },
+      {
+        "date": "2026-11-19",
+        "scenes": [
+          "S07",
+          "S08"
+        ],
+        "task": "Review."
+      },
+      {
+        "date": "2026-11-20",
+        "scenes": [
+          "S09",
+          "S10"
+        ],
+        "task": "Review, one retake list."
+      },
+      {
+        "date": "2026-11-21",
+        "scenes": [],
+        "task": "Retakes. Composites: TV news, phone, scope, the Agreement. Voices unified."
+      },
+      {
+        "date": "2026-11-22",
+        "scenes": [],
+        "task": "Last retakes. Assembly in Resolve, 24 fps check, base grade."
+      },
+      {
+        "date": "2026-11-23",
+        "scenes": [],
+        "task": "Edit."
+      },
+      {
+        "date": "2026-11-24",
+        "scenes": [],
+        "task": "Sound design."
+      },
+      {
+        "date": "2026-11-25",
+        "scenes": [],
+        "task": "Music, final grade, export, upload. Deadline at night."
+      }
+    ]
+  },
+  "stages": {
+    "story": "in-progress",
+    "analysis": "todo",
+    "bible": "todo",
+    "shotlist": "in-progress",
+    "shot_plan": "todo",
+    "sound_list": "todo",
+    "references": "in-progress",
+    "generation": "in-progress",
+    "framerate": "todo",
+    "edit": "todo",
+    "sound_design": "todo",
+    "music": "todo",
+    "release": "todo"
+  },
+  "higgsfield": {
+    "workspace_id": "",
+    "project_id": "37733499-03c4-4405-8dee-fea3a2d3b96e",
+    "folders": {
+      "REFS": "7632ec77-b35c-49fd-9273-f78302b2d543",
+      "Elements": "8a3f83dc-d7b1-47dd-a3d1-9e0b9200f300",
+      "S01": "da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e",
+      "S01/SH010": "974bb130-1e0f-4c54-b3dd-5d85a861ff84",
+      "S01/SH020": "d827601b-a892-40ae-8c96-f03a5d3cbe1e",
+      "S01/SH030": "69ddf0c4-23ac-47d8-aab0-7f9ff8978d5c",
+      "S01/SH040": "b536d925-b813-444f-a96c-bbf0b65f7bb6",
+      "S01/SH050": "39f0d374-8a7a-4160-8a56-c5ea33fc22ed",
+      "S01/SH060": "1749fbb5-8c05-4f41-9643-b7d6ddb0235d",
+      "S01/SH070": "fbc4de00-66d7-4067-a9d6-6c216230e3bd",
+      "S01/SH080": "c146e937-65bf-4f1a-968f-ebae993817fc",
+      "S01/SH090": "831b75a9-7c4f-4b83-9223-28aaf34d196f",
+      "S01/SH100": "36ee7aeb-fa59-4a42-8637-125ad2be387d",
+      "S01/SH110": "bc4e420a-586d-4e3a-8c9f-c86e020c5931",
+      "S01/SH120": "64936a0f-3786-4ca3-abc6-347c215f708f"
+    }
+  },
+  "extra_costs": [],
+  "links": {
+    "final": "",
+    "discord": ""
+  },
+  "log": [
+    {
+      "date": "2026-11-17",
+      "text": "Project created."
+    },
+    {
+      "date": "2026-11-16",
+      "text": "S01 SH010 T02: blocked once by the output filter, refunded, passed on the retry."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Film created from screenplay draft 10 (98 shots) and the S01 takes log (23 takes)."
+    }
+  ]
+}

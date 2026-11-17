@@ -24,6 +24,11 @@
     "target_runtime_s": null
   },
   "poster": "",
+  "schedule": {
+    "source": "",
+    "deadline": "",
+    "days": []
+  },
   "stages": {
     "story": "todo",
     "analysis": "todo",

@@ -1,16 +1,19 @@
 name: stories-sync
 
-# Story writing needs no git steps from the user: when a working branch changes only files in
-# stories/, it is merged into main automatically. Anything else on the branch: nothing happens,
-# that branch goes through a normal pull request.
+# Story and production data need no git steps from the user: when a working branch changes only
+# files in stories/ and films/ (plus films-index.json), it is merged into main automatically, and
+# when films/ changed the site is rebuilt and deployed (the production board stays live).
+# Anything else on the branch (tools, docs, workflows): nothing happens, that branch goes through a
+# normal pull request.
 
 on:
   push:
     branches-ignore: [main]
-    paths: ["stories/**"]
+    paths: ["stories/**", "films/**", "films-index.json"]
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: stories-sync
@@ -24,21 +27,33 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Merge story-only branch into main
+      - name: Merge content-only branch into main
         env:
           BRANCH: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           sha=$(git rev-parse HEAD)
           git fetch origin main
-          other=$(git diff --name-only "$(git merge-base origin/main "$sha")" "$sha" | grep -v '^stories/' || true)
+          changed=$(git diff --name-only "$(git merge-base origin/main "$sha")" "$sha")
+          other=$(echo "$changed" | grep -v -e '^stories/' -e '^films/' -e '^films-index\.json$' || true)
           if [ -n "$other" ]; then
-            echo "Branch also changes files outside stories/, not merged automatically:"
+            echo "Branch also changes files outside stories/ and films/, not merged automatically:"
             echo "$other"
             exit 0
           fi
+          films=$(echo "$changed" | grep -e '^films/' || true)
+          if [ -n "$films" ]; then
+            # a broken film.json or shotlist.json never reaches main or the site
+            python3 tools/filmtool.py check
+            git checkout -- .
+          fi
           git checkout -B main origin/main
-          git merge --ff-only "$sha" || git merge --no-edit -m "stories: merge $BRANCH" "$sha"
+          git merge --ff-only "$sha" || git merge --no-edit -m "content: merge $BRANCH" "$sha"
           git push origin main
+          if [ -n "$films" ]; then
+            gh workflow run site.yml --ref main
+            echo "Site deploy started."
+          fi

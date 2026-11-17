@@ -1,0 +1,1540 @@
+{
+  "film": "001-politician",
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "EXT. CITIES AROUND THE WORLD - DAY TO SUNSET",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "7830f951-01f4-4524-9a24-3066a64fde6f",
+              "prompt": "05-generation/prompts/001_S01_SH010_T01.txt",
+              "file": "05-generation/takes/S01/SH010/001_S01_SH010_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Look test only: generic face, the shot needs old man A (Leonard: wrong without him). Palette and crowd work. Opens on a hand holding a phone (0 to 0.5 s). Smooth crane move, not handheld. Collage has no rope. Concrete blocks read Cairo."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "",
+              "duration_s": null,
+              "resolution": "",
+              "aspect": "",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "28fc84db-5388-4b75-8fc2-9320152dce78",
+              "prompt": "05-generation/prompts/001_S01_SH010_T02.txt",
+              "file": "05-generation/takes/S01/SH010/001_S01_SH010_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Same prompt resubmitted after the filter block (Leonard 2026-11-16: retry blocked jobs, max 10, one at a time after the refund). Passed first retry. Downloaded as takes/S01/SH010/001_S01_SH010_T02.mp4."
+            }
+          ],
+          "description": "A crowd fills an avenue from wall to wall. Above the heads, signs with the same old face: devil horns drawn on, the eyes crossed out in red, one printout of him photoshopped hanging from a noose.",
+          "framing": "WIDE, high",
+          "movement": "Handheld, phone-camera feel",
+          "duration_s": 2,
+          "note": "The film opens here, cold. SH010 to SH110: random riot shots, different cities and countries, no order. Multi-shot generations"
+        },
+        {
+          "id": "SH020",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "72cbff80-59b4-4c2f-ad9f-be6862afadc7",
+              "prompt": "05-generation/prompts/001_S01_SH020_T01.txt",
+              "file": "05-generation/takes/S01/SH020/001_S01_SH020_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 007. Folder S01/SH020. Passed first submission. Downloaded to takes/S01/. Leonard: the numbers are far too big. Use a real reference, be specific."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "07ce40ca-bc63-428d-a2b4-452d1cfb8947",
+              "prompt": "05-generation/prompts/001_S01_SH020_T02.txt",
+              "file": "05-generation/takes/S01/SH020/001_S01_SH020_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 010. Folder S01/SH020. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars. Nobody honks.",
+          "framing": "MEDIUM",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "Numbers per liter, no currency sign. Precedent: Nigeria 2023, petrol about 3x overnight"
+        },
+        {
+          "id": "SH030",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "458bfd26-5100-41c0-8c57-7e2268f5ba62",
+              "prompt": "05-generation/prompts/001_S01_SH030_T01.txt",
+              "file": "05-generation/takes/S01/SH030/001_S01_SH030_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH030. Passed first submission. Downloaded to takes/S01/. Leonard: a bit weird, the answer is too instant. T02: 8 s, crowd shoots, people run, one cop, then the line, then the cameraman runs. Seen: camera behind the crowd, the pull and the gun not readable."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 24.0,
+              "job_id": "2495f6f6-3434-4007-86e2-2cd76633254b",
+              "prompt": "05-generation/prompts/001_S01_SH030_T02.txt",
+              "file": "05-generation/takes/S01/SH030/001_S01_SH030_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 006. Folder S01/SH030. Passed first submission. Downloaded to takes/S01/. Leonard: no. New strategy in T03: a violent riot, police out of sync, the shooter stays, every person reacts differently, rooftop snipers answer."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 15,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 45.0,
+              "job_id": "f4eb8a1c-d778-4645-b98e-b6afa1a43db3",
+              "prompt": "05-generation/prompts/001_S01_SH030_T03.txt",
+              "file": "05-generation/takes/S01/SH030/001_S01_SH030_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 007. Folder S01/SH030. Passed first submission. Downloaded to takes/S01/. Leonard: better, but the gun looks strange; order should be pistol, sniper shots, panic, more shots, then the commander trying to stop them and panicking; snipers too close together, look American, too organized. T04 fixes these."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 18,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 54.0,
+              "job_id": "5af46a57-49d4-4326-9859-8f5eead0eb1c",
+              "prompt": "05-generation/prompts/001_S01_SH030_T04.txt",
+              "file": "05-generation/takes/S01/SH030/001_S01_SH030_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 009. Folder S01/SH030. Queued about 40 minutes, passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A police line. Hands pull a POLICEMAN into the crowd by his vest. Another officer drags him back. A pistol rises above the heads and fires. The police fire back. Everyone scatters.",
+          "framing": "WIDE, long lens",
+          "movement": "Handheld",
+          "duration_s": 4,
+          "note": "Distance: nothing explicit"
+        },
+        {
+          "id": "SH040",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "24c3c1fb-1ec7-41a3-b0b5-be03bfee20eb",
+              "prompt": "05-generation/prompts/001_S01_SH040_T01.txt",
+              "file": "05-generation/takes/S01/SH040/001_S01_SH040_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 005. Higgsfield folder S01/SH040. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A cardboard sign. His face. A red X over each eye.",
+          "framing": "INSERT",
+          "movement": "Locked-off",
+          "duration_s": 1,
+          "note": ""
+        },
+        {
+          "id": "SH050",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "cb9617e4-32c4-427c-85ff-5e4105ed71d6",
+              "prompt": "05-generation/prompts/001_S01_SH050_T01.txt",
+              "file": "05-generation/takes/S01/SH050/001_S01_SH050_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 007. Folder S01/SH050. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A billboard of his smiling face burns, the paper curling off in sheets.",
+          "framing": "WIDE",
+          "movement": "Handheld",
+          "duration_s": 2,
+          "note": "PROPOSED"
+        },
+        {
+          "id": "SH060",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "8b4cfeff-8376-43de-a9af-b7d899d6b21d",
+              "prompt": "05-generation/prompts/001_S01_SH060_T01.txt",
+              "file": "05-generation/takes/S01/SH060/001_S01_SH060_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 005. Higgsfield folder S01/SH060. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A wall of riot shields. A bottle of fire bursts against it. Flames run down the shields. The line breaks.",
+          "framing": "MEDIUM WIDE",
+          "movement": "Handheld",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH070",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f60ab385-c712-4757-93dc-1cd8fc6c312f",
+              "prompt": "05-generation/prompts/001_S01_SH070_T01.txt",
+              "file": "05-generation/takes/S01/SH070/001_S01_SH070_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH070. Passed first submission. Downloaded to takes/S01/. Leonard: cars face both ways. T02: 4 lanes, all facing away and standing still, people out of the cars, camera from the side, empty carriageway beyond the median."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "ce75c206-9a92-44e8-b155-9271ab0e9d5a",
+              "prompt": "05-generation/prompts/001_S01_SH070_T02.txt",
+              "file": "05-generation/takes/S01/SH070/001_S01_SH070_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 006. Folder S01/SH070. Passed first submission. Downloaded to takes/S01/. Leonard: works, but 2 lanes, not 4. T03: 4 lanes, 5 s."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "b0e0cdd2-87e7-4a2d-97ff-cf2536a76912",
+              "prompt": "05-generation/prompts/001_S01_SH070_T03.txt",
+              "file": "05-generation/takes/S01/SH070/001_S01_SH070_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 007. Folder S01/SH070. Passed first submission. Downloaded to takes/S01/. Leonard: too many similar people, too many out of the cars, too deserted: a big city like Los Angeles or Chicago."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "34f1a03a-aef5-4892-841a-f3fe4eb7886c",
+              "prompt": "05-generation/prompts/001_S01_SH070_T04.txt",
+              "file": "05-generation/takes/S01/SH070/001_S01_SH070_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 010. Folder S01/SH070. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A highway out of a city, jammed. Mattresses tied on car roofs.",
+          "framing": "WIDE, long lens",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH080",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "eb164fb3-a756-406e-b4c8-aa0c1b622fdf",
+              "prompt": "05-generation/prompts/001_S01_SH080_T01.txt",
+              "file": "05-generation/takes/S01/SH080/001_S01_SH080_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 005. Higgsfield folder S01/SH080. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A tear gas canister skids across the asphalt, spinning, pouring white smoke. Feet run past it.",
+          "framing": "MEDIUM, low",
+          "movement": "Handheld",
+          "duration_s": 2,
+          "note": "PROPOSED"
+        },
+        {
+          "id": "SH090",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f052fe72-a16e-489a-82a4-ef0bda12650f",
+              "prompt": "05-generation/prompts/001_S01_SH090_T01.txt",
+              "file": "05-generation/takes/S01/SH090/001_S01_SH090_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 005. Higgsfield folder S01/SH090. Passed first submission. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A child's face at a car window.",
+          "framing": "CLOSE",
+          "movement": "Locked-off",
+          "duration_s": 1,
+          "note": ""
+        },
+        {
+          "id": "SH100",
+          "status": "approved",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "537332f5-e1fe-4b60-8fbd-64ae5e09e363",
+              "prompt": "05-generation/prompts/001_S01_SH100_T01.txt",
+              "file": "05-generation/takes/S01/SH100/001_S01_SH100_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH100. Passed first submission. Downloaded to takes/S01/. Leonard: the truck is not right and a lone truck makes no sense. Seen: a delivery van on an empty plain, reads as a miniature. T02: 6 s of riot chaos around an armored police truck."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "85d2c41b-3d52-49bf-b7e3-5bc5f87e4c61",
+              "prompt": "05-generation/prompts/001_S01_SH100_T02.txt",
+              "file": "05-generation/takes/S01/SH100/001_S01_SH100_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S01_SH100_T02.jpg",
+              "references": [],
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST 006. Folder S01/SH100. Queued about 45 minutes at Higgsfield, passed first submission. Downloaded to takes/S01/. Leonard: works amazing, too short. T03: forward extension."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "4561168a-7918-438e-9023-43ca7f10dcc3",
+              "prompt": "05-generation/prompts/001_S01_SH100_T03.txt",
+              "file": "05-generation/takes/S01/SH100/001_S01_SH100_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 008. Folder S01/SH100. Downloaded to takes/S01/."
+            }
+          ],
+          "description": "A police truck stands abandoned, windows smashed. A bottle sails through the broken windshield. Fire fills the cab.",
+          "framing": "WIDE",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH110",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a0d6fd7e-9a6a-4a0f-8a46-b15a4b481c9d",
+              "prompt": "05-generation/prompts/001_S01_SH110_T01.txt",
+              "file": "05-generation/takes/S01/SH110/001_S01_SH110_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH110. Passed first submission. Downloaded to takes/S01/. Leonard: should be much longer. T02: 10 s."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "d93c45c7-56c9-4375-b2e0-4d09de74e258",
+              "prompt": "05-generation/prompts/001_S01_SH110_T02.txt",
+              "file": "05-generation/takes/S01/SH110/001_S01_SH110_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST 006. Folder S01/SH110. Passed first submission. Downloaded to takes/S01/. Leonard: great."
+            }
+          ],
+          "description": "Sunset. A skyline under columns of smoke. Sirens far away.",
+          "framing": "EXTREME WIDE",
+          "movement": "Slow pan",
+          "duration_s": 3,
+          "note": ""
+        },
+        {
+          "id": "SH120",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-16",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "06c11b3b-e06d-447f-8724-ebd18a78294e",
+              "prompt": "05-generation/prompts/001_S01_SH120_T01.txt",
+              "file": "05-generation/takes/S01/SH120/001_S01_SH120_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 007. Folder S01/SH120. Passed first submission. Downloaded to takes/S01/. News graphics to be composited."
+            }
+          ],
+          "description": "A television behind a cracked shop window. A news channel: a polished logo, a red BREAKING bar, a ticker of red numbers. In the corner, his official portrait: the same old face, clean, smiling. A REPORTER, sexy, every hair in place, on a rooftop with smoke behind her.",
+          "framing": "MEDIUM, a TV in a shop window",
+          "movement": "Locked-off",
+          "duration_s": 9,
+          "note": "Professional news graphics. His clean face on screen"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "EXT. DUSTY ROAD INTO A TOWN - DAY",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
+          "framing": "EXTREME WIDE",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Hard cut to silence. Hold it. The outer towers stand shoulder to shoulder like a wall (look/mood/mood_4_town-edge.webp)"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "A stray dog lies in the shadow of an abandoned building, on the edge of a crumbled concrete wall. Heat rises off the ground.",
+          "framing": "MEDIUM",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": "One generation with SH040: the dog lying, then its head lifting in close-up. PROPOSED: a lean street dog, short sandy coat, upright ears, curled tail"
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "Far out on a road of asphalt buried in dust and drifted sand, a car comes out of the heat shimmer at full speed, a plume of dust behind it.",
+          "framing": "EXTREME WIDE, long lens",
+          "movement": "Locked-off",
+          "duration_s": 5,
+          "note": "The engine arrives late, faint"
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "The dog lifts its head.",
+          "framing": "CLOSE, the dog",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "The last 2 seconds of the SH020 take"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "The town on the horizon. The car hits a bump and tears over the camera, wheels off the ground for an instant.",
+          "framing": "LOW, ground level, facing the town",
+          "movement": "Locked-off, car passes over camera",
+          "duration_s": 3,
+          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed"
+        },
+        {
+          "id": "SH060",
+          "status": "planned",
+          "takes": [],
+          "description": "A painted bobblehead on the dashboard, facing the driver's seat: him, grinning, giving the finger. It nods hard with every bump.",
+          "framing": "INSERT, dashboard",
+          "movement": "Road vibration",
+          "duration_s": 2,
+          "note": "The car is still moving. The bobblehead faces into the car, toward the driver"
+        },
+        {
+          "id": "SH070",
+          "status": "planned",
+          "takes": [],
+          "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
+          "framing": "INSERT, passenger seat",
+          "movement": "Road vibration",
+          "duration_s": 2,
+          "note": "The car is still moving. The case lies flat on the seat"
+        },
+        {
+          "id": "SH080",
+          "status": "planned",
+          "takes": [],
+          "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
+          "framing": "INSERT, ground level",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "A real skid: the wheels lock, the car slides and scrubs off its speed, the nose dips and settles back"
+        },
+        {
+          "id": "SH090",
+          "status": "planned",
+          "takes": [],
+          "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
+          "framing": "MEDIUM, through the windshield",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "The car stands a few meters from the towers, facing the gap"
+        },
+        {
+          "id": "SH100",
+          "status": "planned",
+          "takes": [],
+          "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
+          "framing": "POV",
+          "movement": "Dolly zoom",
+          "duration_s": 4,
+          "note": "Vertigo effect: the gap keeps its size, the road stretches. Through the gap the main road runs on and on, no end in sight"
+        },
+        {
+          "id": "SH110",
+          "status": "planned",
+          "takes": [],
+          "description": "He leans forward over the wheel and looks left.",
+          "framing": "CLOSE, from the passenger seat, low, below his shoulder",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "One generation with SH130: he leans forward over the wheel and looks left, then right"
+        },
+        {
+          "id": "SH120",
+          "status": "planned",
+          "takes": [],
+          "description": "Through the windshield: broken ground and a deep dry ditch, rubble, then the towers, shoulder to shoulder, running away to the left. No road.",
+          "framing": "POV, from inside the car, through the windshield, looking left",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "The windshield frame and the dashboard edge in frame. The side of the town: the towers a few meters away, running off to the left"
+        },
+        {
+          "id": "SH130",
+          "status": "planned",
+          "takes": [],
+          "description": "He looks right.",
+          "framing": "CLOSE, same frame as SH110",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "The second half of the SH110 take"
+        },
+        {
+          "id": "SH140",
+          "status": "planned",
+          "takes": [],
+          "description": "Through the windshield, past the briefcase: rubble and the dry ditch, then the towers running away to the right, to the horizon. No road.",
+          "framing": "POV, from inside the car, through the windshield, looking right, past the briefcase",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "The windshield frame in frame. The only way is through"
+        },
+        {
+          "id": "SH150",
+          "status": "planned",
+          "takes": [],
+          "description": "The rear-view mirror. An empty road. Nobody.",
+          "framing": "INSERT",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH160",
+          "status": "planned",
+          "takes": [],
+          "description": "He looks down at the dashboard.",
+          "framing": "CLOSE, same frame as SH110",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH170",
+          "status": "planned",
+          "takes": [],
+          "description": "The fuel needle rests on the edge of E, beside the pump symbol.",
+          "framing": "INSERT",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "ELEMENT: the instrument cluster (one still), the same in S03 SH040, so the fuel symbol is identical"
+        },
+        {
+          "id": "SH180",
+          "status": "planned",
+          "takes": [],
+          "description": "Sweat runs down his temple. He breathes in.",
+          "framing": "CLOSE",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": ""
+        },
+        {
+          "id": "SH190",
+          "status": "planned",
+          "takes": [],
+          "description": "His shoe presses the accelerator, gently.",
+          "framing": "INSERT, footwell",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH200",
+          "status": "planned",
+          "takes": [],
+          "description": "The car rolls through the gap and into the only street. The town swallows it.",
+          "framing": "WIDE, from behind the car",
+          "movement": "Locked-off",
+          "duration_s": 5,
+          "note": "He goes in first seen from behind"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "EXT. TOWN - MAIN STREET - DAY",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "The car crawls through the town. Tall apartment blocks slide past behind it, shutters down. Nobody outside. From open windows the same news echoes from television to television.",
+          "framing": "WIDE, side view, from the far side of the street",
+          "movement": "Dolly alongside the car, long lens, flat",
+          "duration_s": 6,
+          "note": "The car moves left to right, like his walk into the side streets. Nobody outside: too hot"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
+          "framing": "CLOSE, passenger side",
+          "movement": "Mounted on the car: the street slides past behind him",
+          "duration_s": 8,
+          "note": "He drives, eyes locked on the road, and mumbles to himself"
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "A front wheel rolls toward the camera, slower and slower, and stops right in front of it. The dust settles.",
+          "framing": "GROUND LEVEL",
+          "movement": "Locked-off",
+          "duration_s": 7,
+          "note": "Let it linger"
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "The fuel light glows. The key turns: the starter grinds and doesn't catch. Again. Nothing. The key comes out. The light goes off.",
+          "framing": "INSERT, dashboard",
+          "movement": "Locked-off",
+          "duration_s": 5,
+          "note": "Only the cockpit, never him: at most a hint of him in the reflection on the gauge glass. ELEMENT: the instrument cluster, as in S02 SH170"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
+          "framing": "EXTREME WIDE, high, from a balcony across the crossroads",
+          "movement": "Locked-off, a slight handheld drift",
+          "duration_s": 14,
+          "note": "Someone on a balcony, smoking: the railing edge and the drifting smoke at the far left of frame, no face, never over the car. The car stays here: it is seen again only in S10. He steps around the open door, never through it"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "EXT. TOWN - SIDE STREETS - DAY",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "He walks fast, the briefcase hugged to his chest, trying not to make a sound. Shutters closed. Nobody. His breath gets heavier.",
+          "framing": "MEDIUM",
+          "movement": "Handheld, tracking beside him",
+          "duration_s": 4,
+          "note": "Nobody in the streets: too hot. He moves left to right. His walk is written in the prompt, not copied from the animatic. PROPOSED: a man used to being driven, short quick steps, shoulders up, trying to be silent"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "A doorway. A bead curtain sways.",
+          "framing": "POV",
+          "movement": "Handheld",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "A window. A television glows. An old woman eating turns her head toward the street.",
+          "framing": "POV",
+          "movement": "Handheld",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "Across the street, outside a small bar, three men sit on plastic chairs in the shade of an awning, talking low. He passes on the far sidewalk, head down.",
+          "framing": "WIDE, long lens",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "The only people outside in the whole town"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "One of the men stops talking and looks at him.",
+          "framing": "MEDIUM, long lens",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "Every head fully in frame"
+        },
+        {
+          "id": "SH060",
+          "status": "planned",
+          "takes": [],
+          "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
+          "framing": "CLOSE",
+          "movement": "Handheld, tracking beside him",
+          "duration_s": 5,
+          "note": "The fat person enters the frame only at the impact, from nowhere"
+        },
+        {
+          "id": "SH070",
+          "status": "planned",
+          "takes": [],
+          "description": "He bounces off the big body and lands flat on his back on the ground.",
+          "framing": "OVER THE SHOULDER of the fat person, looking down, long lens",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": "Same side of the line as SH090. Camera a little higher; his head stays in frame through the fall"
+        },
+        {
+          "id": "SH080",
+          "status": "planned",
+          "takes": [],
+          "description": "The fat person looks down at him. He can't place him. Then his eyes widen with excitement.",
+          "framing": "LOW, from the ground, looking up at him",
+          "movement": "Handheld",
+          "duration_s": 4,
+          "note": ""
+        },
+        {
+          "id": "SH090",
+          "status": "planned",
+          "takes": [],
+          "description": "On the ground, the old man covers his face with his hand.",
+          "framing": "HIGH, looking down on him",
+          "movement": "Handheld",
+          "duration_s": 5,
+          "note": "Same side of the line as SH070"
+        },
+        {
+          "id": "SH100",
+          "status": "planned",
+          "takes": [],
+          "description": "Behind him, his FRIEND films the old man on his phone, then types fast with both thumbs.",
+          "framing": "LOW, from his eyes on the ground",
+          "movement": "Handheld",
+          "duration_s": 7,
+          "note": "Close to his point of view. The friend behind holds a phone: he films, then types with both thumbs"
+        },
+        {
+          "id": "SH110",
+          "status": "planned",
+          "takes": [],
+          "description": "The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.",
+          "framing": "CLOSE, over the old man's shoulder",
+          "movement": "Handheld, tight",
+          "duration_s": 5,
+          "note": "The two close together, a deep street behind them, out of focus. Eyelines for SH110 to SH140: the old man screen left looking right, the fat person screen right looking left, as at the bump"
+        },
+        {
+          "id": "SH120",
+          "status": "planned",
+          "takes": [],
+          "description": "The old man, face to face with him, says nothing.",
+          "framing": "CLOSE, the old man",
+          "movement": "Handheld, tight",
+          "duration_s": 6,
+          "note": "The framing of d9 SH120, on the old man. The fat person speaks off screen, from the camera side"
+        },
+        {
+          "id": "SH130",
+          "status": "planned",
+          "takes": [],
+          "description": "Above them, at the windows and on the balconies, faces are already watching.",
+          "framing": "WIDE, low",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "The watchers are there from the first frame: nobody appears"
+        },
+        {
+          "id": "SH135",
+          "status": "planned",
+          "takes": [],
+          "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
+          "framing": "OVER THE SHOULDER of the fat person, on the old man",
+          "movement": "Handheld",
+          "duration_s": 3,
+          "note": "Polite, almost apologetic: no violence. Coverage of the slide in SH140"
+        },
+        {
+          "id": "SH140",
+          "status": "planned",
+          "takes": [],
+          "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
+          "framing": "CLOSE, same angle as SH110",
+          "movement": "Handheld",
+          "duration_s": 4,
+          "note": "No violence. From here he runs right to left: back the way he came"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "EXT. TOWN - STREETS TO A SQUARE - CONTINUOUS",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
+          "framing": "MEDIUM",
+          "movement": "Handheld, backing in front of him",
+          "duration_s": 3,
+          "note": "Variation in the voices"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
+          "framing": "TOP VIEW, high",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Nobody pops into frame: they come out of doorways and side streets, each at his own pace"
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "He runs. Behind him, soft and growing, the street fills with people coming his way. He pulls out his phone and presses it to his ear, running.",
+          "framing": "CLOSE",
+          "movement": "Handheld, running",
+          "duration_s": 5,
+          "note": "The street behind him out of focus. Nobody moves in step: every person at his own speed. The phone held right, against his ear. PROPOSED: the line"
+        },
+        {
+          "id": "SH070",
+          "status": "planned",
+          "takes": [],
+          "description": "His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.",
+          "framing": "INSERT, his phone",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Reference: Leonard's video of the phone unlocking"
+        },
+        {
+          "id": "SH080",
+          "status": "planned",
+          "takes": [],
+          "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
+          "framing": "CLOSE, same frame as SH030, closer",
+          "movement": "Handheld, running, more shake",
+          "duration_s": 6,
+          "note": "The rock hits his right eyebrow, hard: his head snaps, he drops to the ground. The blood comes from here"
+        },
+        {
+          "id": "SH090",
+          "status": "planned",
+          "takes": [],
+          "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
+          "framing": "LOW, ground level",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "The case arrives at speed, with momentum. He falls into frame beside it. SH080 and SH090 cover the same fall from two angles: the edit uses it once"
+        },
+        {
+          "id": "SH110",
+          "status": "planned",
+          "takes": [],
+          "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
+          "framing": "MEDIUM WIDE, low",
+          "movement": "Handheld",
+          "duration_s": 3,
+          "note": "Prop: the bond (prop-bearer-bond.webp), readable on the sheet that tumbles past the lens: moved here from the cut SH100"
+        },
+        {
+          "id": "SH120",
+          "status": "planned",
+          "takes": [],
+          "description": "He gets up from the asphalt. Blood runs down his face. He looks at the open case, then at the people coming, and backs away from it.",
+          "framing": "CLOSE",
+          "movement": "Handheld",
+          "duration_s": 3,
+          "note": "ELEMENT from here: old man B (blood)"
+        },
+        {
+          "id": "SH130",
+          "status": "planned",
+          "takes": [],
+          "description": "Faces close in around him, slowly, from every side.",
+          "framing": "POV",
+          "movement": "Handheld",
+          "duration_s": 4,
+          "note": "Everyone keeps coming: nobody turns away"
+        },
+        {
+          "id": "SH140",
+          "status": "planned",
+          "takes": [],
+          "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",
+          "framing": "WIDE",
+          "movement": "Locked-off",
+          "duration_s": 6,
+          "note": "The corner of the square, under the tall street light, beside the sidewalk. The crowd is already moving in when the shot starts, slowly, each at a different speed. Gun: shot 1 of 8, into the air. On the shot everyone flinches; some run at once, others later"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "EXT. SQUARE - CONTINUOUS",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "Standing at the corner, a wall a few steps behind him, he points the small nickel pistol at them, smoke curling from the muzzle. A few people near the camera run off past it. The rest have frozen.",
+          "framing": "MEDIUM, frontal, from the crowd's side",
+          "movement": "Handheld",
+          "duration_s": 6,
+          "note": "He stands from S05 SH120 until the wave in SH060. A wall a few steps behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
+          "framing": "THIRD PERSON, behind him, over his shoulder",
+          "movement": "Handheld, close behind him, turning with him as he aims",
+          "duration_s": 12,
+          "note": "Like a third-person action game. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film"
+        },
+        {
+          "id": "SH025",
+          "status": "planned",
+          "takes": [],
+          "description": "The pistol fires, again and again: the flash, the slide kicking back, a casing spinning away.",
+          "framing": "INSERT, the gun",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": "Coverage for the edit: the same shots"
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",
+          "framing": "WIDE, side view",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "The look of d9 SH020: him screen left, the crowd screen right. Never in step: one after another. The two runners are the men shot on the count in SH040. The dead lie where they fell"
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "A shot.",
+          "framing": "EXTREME CLOSE, his lips, from the side",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "The lens very close to his mouth, much more to the side. Faster. One shot. Shots 7 and 8 of 8, off screen, on \"three\" and \"two\". At \"one\" he believes one is left, for himself. The magazine is empty"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
+          "framing": "CLOSE, his face, fully frontal",
+          "movement": "Locked-off",
+          "duration_s": 6,
+          "note": "The gun held right: muzzle at the temple. The PPK/S slide is locked open: nothing fires. The sound slams back in when he sees it"
+        },
+        {
+          "id": "SH060",
+          "status": "planned",
+          "takes": [],
+          "description": "From the side, the crowd hits him like a wave and throws him to the ground.",
+          "framing": "WIDE, side view",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Seedance: the crowd moves as one body. Same side as SH030: him screen left, the crowd screen right"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "EXT. SQUARE - MOMENTS LATER",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "From far above, the mob closes over him at the corner of the square. More people keep coming from every street. Fists and kicks rise and fall. The dead lie where they fell.",
+          "framing": "EXTREME WIDE, high",
+          "movement": "Locked-off",
+          "duration_s": 5,
+          "note": "Many more people, spread all around. The dead stay where they fell"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "A rope whips around the arm of the street light and is pulled tight.",
+          "framing": "INSERT",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": ""
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.",
+          "framing": "MEDIUM WIDE, 3 m away, the crowd between him and the camera",
+          "movement": "Handheld",
+          "duration_s": 4,
+          "note": "He hangs beside the sidewalk. Simulated: a body hauled up by one ankle, heavy, nothing elastic"
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "His face: bruised, a split lip, blood from his ear. With effort, he opens one eye.",
+          "framing": "CLOSE, upside down",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": "The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "He pulls his arms over his head. The FAT PERSON from the side street steps in with a metal pipe in both hands and slowly lifts it back over his shoulder. He holds it there, waiting for the moment. Then he swings, hard, straight at him.",
+          "framing": "POV, upside down",
+          "movement": "Locked-off",
+          "duration_s": 5,
+          "note": "The fat person from S04. Both hands on the pipe. The wind-up and the swing must read clearly: a slow lift, a hold, a hard swing"
+        },
+        {
+          "id": "SH060",
+          "status": "planned",
+          "takes": [],
+          "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",
+          "framing": "CLOSE",
+          "movement": "Handheld",
+          "duration_s": 2,
+          "note": "The pipe rebounds off the arm, like real physics"
+        },
+        {
+          "id": "SH070",
+          "status": "planned",
+          "takes": [],
+          "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
+          "framing": "LOW, looking up, the fat person full figure",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post"
+        },
+        {
+          "id": "SH080",
+          "status": "planned",
+          "takes": [],
+          "description": "A crack from the sky. The fat person drops. The pipe rings on the asphalt. The crowd takes a step back, confused, looking around. A few seconds later, another man drops. A few run. Then others.",
+          "framing": "WIDE, high above and in front of him",
+          "movement": "Locked-off",
+          "duration_s": 5,
+          "note": "The crowd spread all around, the dead where they fell"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "EXT. SKY ABOVE THE TOWN / INT. HELICOPTER - CONTINUOUS",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: an Airbus ACH160, glossy and white, its sliding door open.",
+          "framing": "EXTREME WIDE, long lens",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Tone shift: Clancy, a hint of Kojima. Airbus ACH160, Lounge cabin (sliding doors). Far enough to stay unheard under the crowd. From far, not from below: buildings around it"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "ROGER, harnessed in, cheek on the stock of a long rifle, his face on the left. He is smiling. Beyond him, in the front seat beside the pilot, the BUSINESS LADY, a headset over her hair. On the right, the front half of the rifle runs out of frame toward the open door.",
+          "framing": "CLOSE, inside the cabin, a step further back",
+          "movement": "Locked-off, cabin vibration",
+          "duration_s": 4,
+          "note": "Left: Roger's face. Center: the lady in the front seat beside the pilot. Right: the front half of the rifle, clearly a rifle, running out of frame, held a little lower"
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
+          "framing": "SCOPE POV",
+          "movement": "Steady, stabilized",
+          "duration_s": 4,
+          "note": ""
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "Cracks from the sky. People fall. The rest run. Some fall while they run.",
+          "framing": "WIDE, from the street, long lens",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Distance and dust: nothing explicit. The dead stay where they fell"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "In the front seat, the lady turns around to him, over her right shoulder.",
+          "framing": "CLOSE, same setup as SH020",
+          "movement": "Locked-off, cabin vibration",
+          "duration_s": 3,
+          "note": "She turns over her right shoulder"
+        },
+        {
+          "id": "SH060",
+          "status": "planned",
+          "takes": [],
+          "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",
+          "framing": "CLOSE",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": ""
+        },
+        {
+          "id": "SH070",
+          "status": "planned",
+          "takes": [],
+          "description": "The crosshair settles on the rope. A crack.",
+          "framing": "SCOPE POV",
+          "movement": "Steady",
+          "duration_s": 2,
+          "note": ""
+        },
+        {
+          "id": "SH080",
+          "status": "planned",
+          "takes": [],
+          "description": "The rope snaps.",
+          "framing": "CLOSE, the rope",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "EXT. SQUARE - CONTINUOUS",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.",
+          "framing": "MEDIUM CLOSE, camera almost on the ground across the street, long lens",
+          "movement": "Locked-off",
+          "duration_s": 18,
+          "note": "One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. ELEMENT: old man D (stain)"
+        },
+        {
+          "id": "SH020",
+          "status": "planned",
+          "takes": [],
+          "description": "The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it. Behind him the helicopter comes down into the square. Its rotor wash throws the certificates into the air: they fly all around. He reaches the case.",
+          "framing": "LOW, the briefcase in the foreground, him far",
+          "movement": "Locked-off",
+          "duration_s": 13,
+          "note": "The briefcase lies flat in the street where it fell; the square opens behind him. Seedance does the wind and the paper"
+        },
+        {
+          "id": "SH030",
+          "status": "planned",
+          "takes": [],
+          "description": "He reaches into the pocket inside the lid and takes out a folder.",
+          "framing": "INSERT",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": ""
+        },
+        {
+          "id": "SH040",
+          "status": "planned",
+          "takes": [],
+          "description": "The BUSINESS LADY steps out, low under the rotors, and stops a few steps from the helicopter. She waits.",
+          "framing": "WIDE",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "She stays near the helicopter: he goes to her"
+        },
+        {
+          "id": "SH050",
+          "status": "planned",
+          "takes": [],
+          "description": "He limps toward her, close, and holds out the folder.",
+          "framing": "MEDIUM, him, over her shoulders",
+          "movement": "Locked-off",
+          "duration_s": 6,
+          "note": "Her back to the camera. One side of the line for SH050 to SH120: her screen left looking right, him screen right looking left. A slow limp; the folder held low, at his chest"
+        },
+        {
+          "id": "SH060",
+          "status": "planned",
+          "takes": [],
+          "description": "She doesn't answer. She takes the folder and opens it to the last page.",
+          "framing": "CLOSE, her, the helicopter behind her",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Her silence is the answer. The folder low, at her chest, her face clear. One generation with SH080, split in the edit"
+        },
+        {
+          "id": "SH070",
+          "status": "planned",
+          "takes": [],
+          "description": "Dense clauses. At the bottom, his signature, large and clear.",
+          "framing": "INSERT, the last page",
+          "movement": "Locked-off",
+          "duration_s": 2,
+          "note": "Readable on pause, clear signature. Composited in the edit (prop: the Agreement)"
+        },
+        {
+          "id": "SH080",
+          "status": "planned",
+          "takes": [],
+          "description": "She looks up from the folder, at him. She closes it. She is about to say something. She waits. She looks at him.",
+          "framing": "CLOSE, her",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "Starts on her looking up. One generation with SH060"
+        },
+        {
+          "id": "SH090",
+          "status": "planned",
+          "takes": [],
+          "description": "He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.",
+          "framing": "CLOSE, him",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": ""
+        },
+        {
+          "id": "SH100",
+          "status": "planned",
+          "takes": [],
+          "description": "He limps past her. She doesn't move. At the door he half turns toward her and points his chin at the street.",
+          "framing": "CLOSE, her, same frame as SH080",
+          "movement": "Locked-off, rack focus",
+          "duration_s": 7,
+          "note": "He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. One generation with SH120"
+        },
+        {
+          "id": "SH110",
+          "status": "planned",
+          "takes": [],
+          "description": "The certificates flutter among the bodies in the rotor wash.",
+          "framing": "HER POV, WIDE",
+          "movement": "Locked-off",
+          "duration_s": 3,
+          "note": "Distance: no wounds in frame. The animatic leaves the paper still: Seedance moves it"
+        },
+        {
+          "id": "SH120",
+          "status": "planned",
+          "takes": [],
+          "description": "She squints past the camera at the money on the street, almost disgusted.",
+          "framing": "CLOSE, her face, same frame as SH100",
+          "movement": "Locked-off",
+          "duration_s": 6,
+          "note": "She looks past the lens at the money. One generation with SH100"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "INT. HIS CAR - THE CROSSROADS WHERE HE LEFT IT - SUNSET",
+      "shots": [
+        {
+          "id": "SH010",
+          "status": "planned",
+          "takes": [],
+          "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, banks hard and swings around toward the horizon: too low, too fast, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down the street, lifting certificates into the air, and",
+          "framing": "MEDIUM, from inside the car, through the windshield",
+          "movement": "Holds, then a slow pedestal down",
+          "duration_s": 15,
+          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks hard and turns away: a reckless pilot flying it perfectly, real helicopter flight. As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. Hold on the head while the helicopter shrinks away"
+        }
+      ]
+    }
+  ]
+}
