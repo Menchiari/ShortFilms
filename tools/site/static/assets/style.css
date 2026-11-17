@@ -326,3 +326,8 @@ img, video { max-width: 100%; display: block; }
 .takes tr.is-active td.play { color: var(--red); }
 .takes sup { color: var(--dim); font-size: 9px; margin-left: 2px; }
 @media (max-width: 760px) { .takes tr > :nth-child(3) { display: none; } }
+
+/* characters: whole sheets (front, back, close-up), never cropped */
+.bcard.char img { aspect-ratio: 4 / 3; object-fit: contain; background: #0b0a09; filter: none; }
+.bible-cards:has(.char) { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+.takes tr.anim td { color: var(--bone-2); font-style: italic; }

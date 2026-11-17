@@ -72,8 +72,10 @@ follows these rules. They override habits and defaults.
   stage 0 starts.
 - Developing an existing film: story work goes in `stories/<film-slug>/`; the film folder is read,
   and edited only on explicit instruction. One automatic exception: a film with `story_sync` in
-  `film.json` takes its shots from the screenplay and the takes logged in the story
-  (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` after every push).
+  `film.json` takes its shots, logged takes, per-shot animatic clips and character elements from
+  the story (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` after every push).
+  When a character element is registered, save its image as
+  `films/<film>/03-bible/characters/refs/<element name>.<ext>` (GitHub cannot reach Higgsfield).
 - Pipeline export: the story bible's "Pipeline export" table maps story outputs to the film's
   files: `01-story/story.md`, `02-analysis/analysis.md`, `03-bible/world.md`, `03-bible/style.md`
   and `style-refs/`, `03-bible/characters|locations|props|vehicles/<slug>.md` (elements; Higgsfield

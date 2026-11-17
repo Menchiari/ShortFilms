@@ -47,6 +47,17 @@ def shot_quality(shot, lt):
     return max((t.get("rating") or 0 for t in shot.get("takes", [])), default=0) or None
 
 
+def is_template(rel, text):
+    """True when a film document is still its unfilled copy from templates/film/."""
+    tpl = ROOT / "templates" / "film" / rel
+    if not tpl.is_file():
+        return False
+    t = re.sub(r"<!--.*?-->", "", tpl.read_text(encoding="utf-8"), flags=re.S).strip()
+    pattern = re.escape(t).replace(r"\{\{", "{{").replace(r"\}\}", "}}")
+    pattern = re.sub(r"\{\{[A-Z]+\}\}", ".*", pattern)
+    return re.fullmatch(pattern, text, flags=re.S) is not None
+
+
 def commit_id():
     sha = os.environ.get("GITHUB_SHA", "")
     if not sha:
@@ -79,7 +90,7 @@ class Builder:
             return None
         text = path.read_text(encoding="utf-8")
         text = re.sub(r"<!--.*?-->", "", text, flags=re.S).strip()
-        if len(text.splitlines()) <= 1:  # template left empty
+        if len(text.splitlines()) <= 1 or is_template(rel, text):  # template left empty
             return None
         title = next((ln[2:].strip() for ln in text.splitlines() if ln.startswith("# ")), path.stem)
         body = "\n".join(ln for ln in text.splitlines() if not ln.startswith("# ")).strip()
@@ -100,7 +111,10 @@ class Builder:
             if not gdir.is_dir():
                 continue
             items = []
-            for md in sorted(gdir.glob("*.md")):
+            def order(md):
+                m = re.search(r"<!--[^>]*?order:\s*(\d+)", md.read_text(encoding="utf-8")[:400])
+                return (int(m.group(1)) if m else 10_000, md.name)
+            for md in sorted(gdir.glob("*.md"), key=order):
                 if md.name.startswith("_"):
                     continue
                 item = self.doc(film_dir, f"03-bible/{g}/{md.name}")
@@ -145,6 +159,10 @@ class Builder:
                 s["method"] = ap.get("method", "")
                 s["takes"] = takes
                 s["loved"] = lt.get("id") if lt else None
+                anim = shot.get("animatic") or {}
+                clip = film_dir / (anim.get("file") or "_none_")
+                if publish["takes"] and clip.is_file() and clip.stat().st_size <= MAX_SITE_FILE:
+                    s["animatic"] = {"video": self.copy(film_dir, anim["file"]), "draft": anim.get("draft", "")}
                 shots.append(s)
             scenes.append({k: scene.get(k) for k in ["id", "title", "location", "time", "summary"]}
                           | {"shots": shots})

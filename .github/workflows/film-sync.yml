@@ -38,6 +38,11 @@ jobs:
             /stories/*/screenplay.fountain
             /stories/*/takes/
             /stories/*/prompts/
+            /stories/*/elements.md
+            /stories/*/animatic/
+            !/stories/*/animatic/*
+            /stories/*/animatic/refs_d*/
+            !/stories/*/animatic/refs_d*_motion/
             !/docs/reference/
 
       - name: Sync films with their stories, deploy if the site is behind

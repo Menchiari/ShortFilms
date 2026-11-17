@@ -11,6 +11,12 @@ For every film whose film.json has "story_sync":
   "takes_log": takes logged in the story's takes/log.md and missing from shotlist.json (same job id)
       are added, their video and prompt copied (never moved) into the film. A take already in
       shotlist.json only gets a rating, love or notes it does not have yet.
+  "animatic": the story's animatic folder. Each shot gets the clip <S##>_<SH###>.mp4 of the newest
+      refs_d<N> folder that has one (motion-only folders ignored), copied to
+      05-generation/animatic/d<N>/. The site lists it first among the shot's takes.
+  "elements": the story's elements.md. Each char_ row becomes 03-bible/characters/<name>.md (only
+      files this script wrote are rewritten). The card image is 03-bible/characters/refs/<name>.*,
+      saved by the session that registers the element (GitHub cannot reach Higgsfield).
 Python 3 standard library only.
 """
 
@@ -181,6 +187,56 @@ def sync_takes(film_dir, film, shotlist, log_path, label):
     return changes
 
 
+def sync_animatic(film_dir, shotlist, anim_dir):
+    drafts = sorted(((int(m.group(1)), d) for d in anim_dir.iterdir()
+                     if d.is_dir() and (m := re.fullmatch(r"refs_d(\d+)", d.name))), reverse=True)
+    changes = []
+    for sc in shotlist.get("scenes", []):
+        for sh in sc.get("shots", []):
+            name = f"{sc['id']}_{sh['id']}.mp4"
+            hit = next(((n, d / name) for n, d in drafts if (d / name).is_file()), None)
+            if not hit:
+                continue
+            rel = f"05-generation/animatic/d{hit[0]}/{name}"
+            dest = film_dir / rel
+            if not dest.exists():
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(hit[1], dest)
+            entry = {"file": rel, "draft": f"d{hit[0]}"}
+            if sh.get("animatic") != entry:
+                sh["animatic"] = entry
+                changes.append(f"animatic {sc['id']} {sh['id']} d{hit[0]}")
+    return changes
+
+
+MARK = "<!-- written by tools/storysync.py from {src}: edit the source, not this file. order: {n} -->"
+
+
+def sync_elements(film_dir, elements_path):
+    src = elements_path.relative_to(ROOT).as_posix()
+    out_dir = film_dir / "03-bible" / "characters"
+    changes = []
+    n = 0
+    for line in elements_path.read_text(encoding="utf-8").splitlines():
+        c = [x.strip() for x in line.strip().strip("|").split("|")]
+        if len(c) < 4 or not re.fullmatch(r"char_[\w-]+", c[0]):
+            continue
+        n += 1
+        name, element_id, image_id, use = c[0], c[1], c[2], c[3]
+        text = "\n".join([MARK.format(src=src, n=n), f"# {name}", "", use, "",
+                          "| Higgsfield element | Image job |", "|---|---|",
+                          f"| `{element_id}` | `{image_id}` |", ""])
+        path = out_dir / f"{name}.md"
+        if path.exists():
+            old = path.read_text(encoding="utf-8")
+            if not old.startswith("<!-- written by tools/storysync.py") or old == text:
+                continue
+        out_dir.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+        changes.append(f"element {name}")
+    return changes
+
+
 def refresh_status(shotlist):
     for sc in shotlist.get("scenes", []):
         for sh in sc.get("shots", []):
@@ -207,6 +263,14 @@ def main():
         log = ROOT / cfg.get("takes_log", "")
         if cfg.get("takes_log") and log.is_file():
             changes += sync_takes(d, film, shotlist, log, d.name)
+        anim = ROOT / cfg.get("animatic", "")
+        if cfg.get("animatic") and anim.is_dir():
+            changes += sync_animatic(d, shotlist, anim)
+        el = ROOT / cfg.get("elements", "")
+        if cfg.get("elements") and el.is_file():
+            docs = sync_elements(d, el)
+            if docs:
+                print(f"{d.name}: {' '.join(docs)}")
         refresh_status(shotlist)
         if repr(shotlist) != before:
             save_json(d / "shotlist.json", shotlist)
