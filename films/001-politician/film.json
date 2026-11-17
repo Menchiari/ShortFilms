@@ -389,6 +389,14 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020d approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T02 7e3e652d-4274-4276-9801-3671c420768b, frame v3. Passed the point where 020b and 020c failed (in progress after 15 s): the draft flag with a start image is the likely cause."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040a approved (15 credits, 480p draft flag, 21:9, 5 s, audio on) and submitted: S03 SH040 T01 f2c96eaa-1ea6-4b2e-9779-315cdc40474c, prop_instrument-cluster 4025ee1a as image reference."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040a failed at Higgsfield about 50 s after submit, same generic error as 020b and 020c (\"Something went wrong...\"), 15 credits refunded (transaction 16:19:44 UTC). No file. Same pattern: draft flag with image inputs only, no video reference. REQUEST 040b (same prompt, no draft flag) prepared, waiting for approval."
     }
   ],
   "story_sync": {
