@@ -1765,7 +1765,7 @@
               "prompt": "05-generation/prompts/001_S03_SH020_T04.txt",
               "file": "05-generation/takes/S03/SH020/001_S03_SH020_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S03_SH020_T04.jpg",
               "references": [
                 "Leonard's start frame v3 (c4e65b4b, start_image, in REFS): 05-generation/frames/001_S03_SH020_T02_start_v3.jpg"
               ],
