@@ -16,3 +16,7 @@ Taken out of the draft 8 screenplay on main so draft 10 merges cleanly. Apply th
 
 1. **The helicopter:** black, military looking, aggressive and dangerous. Not the white, sleek ACH160 of
    draft 10 (S08 SH010, S09, S10).
+2. **The town edge:** as in the loc_town-edge element (Leonard's image): flat desert on both sides of the road,
+   no ditch or rubble in the wide. [ASSUMPTION] The ditch and rubble stay in the two close POVs (S02 SH120,
+   SH140), a few meters from the car, where the wide cannot show them: they still say why the gap is the only way.
+3. **The gun:** as in the prop_gun element: a black, worn PPK/S. Applied in S06 SH010.

@@ -24,8 +24,7 @@ Not needed any more: the man with the pipe (he is the fat person), the reporter 
 text). From text, no element: the dog, the policeman, the child, the old woman, the three men at the bar, the
 pilot, the crowds, the rope, the pipe.
 
-Open: the screenplay says the gun is nickel (S06 SH010); the prop_gun element is black and worn. One of the
-two changes. I don't know which you want.
+Gun: black and worn, as in prop_gun (Leonard, 2026-11-17).
 
 ## I make (no credits)
 
