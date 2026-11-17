@@ -422,6 +422,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 050a approved (1.5 credits): S03 SH050 T01 start frame, gpt_image_2_6 high 1k 21:9, job 25f0e435-1170-4787-9b28-bbceb1324ba3, over animatic d11 frame 0 (media 19a2dd38) plus loc_crossroads, prop_car, palette_afternoon. Higgsfield folder S03/SH050 44d8f62f created. Files frames/001_S03_SH050_T01_start_src.png (1344x576) and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020e approved (Leonard: \"let's make this shot real\", 24 credits, 480p, no draft flag) and submitted: S03 SH020 T03 05e92d77-37d2-4f1d-a428-df26b6da93c4, frame v3, car motion cues and sounds in angle brackets."
     }
   ],
   "story_sync": {
