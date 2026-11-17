@@ -6,6 +6,11 @@ another film.
 
 ## Look line (in every prompt)
 
+S02 to S10 [ASSUMPTION, 2026-11-17, from the request 011 location images]:
+`Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.`
+The light words follow the scene: afternoon S02 to S05, warming S06 and S07, sunset S08 to S10. S01 keeps its amateur footage line.
+Format S02 to S10: 21:9, 480p [ASSUMPTION: the tests, the animatic and the location images are 21:9].
+
 
 ## Camera grammar
 Distance and height to the characters, when the camera moves and when it never does, lens
