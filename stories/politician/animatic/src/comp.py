@@ -24,7 +24,7 @@ OVERRIDE = {"S01_SH010": [(0, 2, ANCHOR, FRAG[0])], "S01_SH020": [(0, 2, ANCHOR,
             "S01_SH100": [], "S01_SH110": []}
 IMAGES = {"S05_SH050": os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "prop-bearer-bond_v2.png")}
 # a picture over a rendered shot for a moment: (image, t0, t1). The bond tumbling past the lens.
-INSETS = {"S05_SH100": (os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "prop-bearer-bond_v2.png"), 1.6, 2.7)}
+INSETS = {"S05_SH110": (os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "prop-bearer-bond_v2.png"), 1.2, 2.0)}   # d10: the bond reads in SH110 (SH100 cut)
 
 def chunks(text, maxc=100):
     parts = re.split(r"(?<=[.!?])\s+(?=\S)", text.strip())

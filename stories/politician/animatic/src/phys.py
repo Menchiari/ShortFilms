@@ -48,19 +48,28 @@ def haul(T=4.0):
     return JA
 
 
-def hanging(T, struggle=0.0, seed=7, hits=(), protect=None, hit_body="lfarm", release=None):
-    """Hanging from the settled state. hits: times of pipe blows (on the raised forearm). release: time the rope is cut."""
+def hanging(T, struggle=0.0, seed=7, hits=(), protect=None, hit_body="lfarm", release=None, hit_dir=None, steady=0.0):
+    """Hanging from the settled state. hits: times of pipe blows (on the raised forearm). release: time the rope is cut.
+    hit_dir: direction of the blow (the pipe's motion at contact; None = the old fixed push toward -y).
+    steady: damps the sideways swing on the rope (hands of the crowd on him); 0 = free swing."""
     haul()
     rng = np.random.default_rng(seed)
     crunch = tuple(sorted(rng.uniform(0.2, max(0.3, T - 1.0), int(round(2 * struggle))))) if struggle else ()
     kicks = tuple(sorted(rng.uniform(0.0, T, int(round(6 * struggle))))) if struggle else ()
     d = M.Doll(rope=tuple(ARM), sidewalks=CORNER); d.set_state(_C["settled"]); d.set_rope(ROPE_FINAL)
+    hd = None if hit_dir is None else np.array(hit_dir, float) / np.linalg.norm(hit_dir)
     def forces(t, dd):
         out = []
         for th in hits:
             if th <= t < th + 0.07:
-                out.append((hit_body, np.array((0.0, -1.0, 0.25)) * 900.0))
-                out.append(("torso", np.array((0.0, -1.0, 0.1)) * 400.0))
+                if hd is None:
+                    out.append((hit_body, np.array((0.0, -1.0, 0.25)) * 900.0))
+                    out.append(("torso", np.array((0.0, -1.0, 0.1)) * 400.0))
+                else:
+                    out.append((hit_body, hd * 900.0)); out.append(("torso", hd * 400.0))
+        if steady:
+            v = dd.d.qvel[0:3].copy(); v[2] = 0.0
+            out.append(("pelvis", -steady * 60.0 * v)); out.append(("torso", -steady * 30.0 * v))
         return out
     ctrl = lambda t, dd: _tone_live(t, dd, crunch=crunch, kicks=kicks, protect=protect)
     rf = (lambda t: ROPE_FINAL if (release is None or t < release) else 100.0)

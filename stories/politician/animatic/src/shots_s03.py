@@ -3,8 +3,16 @@ from sh import *
 CUES = {"S03_SH040": [[0, 1.4, "THE FUEL LIGHT GLOWS"], [1.4, 2.4, "THE STARTER GRINDS"], [2.6, 3.6, "AGAIN. NOTHING"], [4.0, 5.0, "KEY OUT. LIGHT OFF"]]}
 CAR = (0.0, 1.0); YAW = 90.0
 
+def avenue(eye, **kw):
+    """The avenue set without laundry on the balconies (draft 10: no laundry anywhere)."""
+    core.LAUNDRY = False
+    try:
+        return sets.avenue(eye, **kw)
+    finally:
+        core.LAUNDRY = False
+
 def town(eye, sky="day"):
-    reset(sky); return sets.avenue(eye)
+    reset(sky); return avenue(eye)
 
 def S03_SH010(nf):
     p0 = (121.5, 13.2, 1.45); town(p0)
@@ -44,7 +52,7 @@ def S03_SH030(nf):
     return {"cam": cam(p, (-1.55, 0.15, 0.36), 28), "callbacks": [car_cb(c, path)], "cues": [[0, 6.2, "TIRES ON GRIT, SLOWER"], [6.2, 7, "SILENCE"]]}
 
 def S03_SH050(nf):
-    p = (24.0, -14.2, 16.6); reset("day"); sets.avenue(p, clear=[(24.0, -14.5, 16.0, 14.0)])
+    p = (24.0, -14.2, 16.6); reset("day"); avenue(p, clear=[(24.0, -14.5, 16.0, 14.0)])
     # balcony: floor under the camera, railing square to the view, low enough to stay a thin band at the bottom edge
     tgt = np.array((-4.0, 1.0, 0.5)); d = (tgt[:2] - np.array(p[:2])); d /= np.linalg.norm(d); perp = np.array((-d[1], d[0]))
     pitch = math.degrees(math.atan2(p[2] - tgt[2], np.linalg.norm(tgt[:2] - np.array(p[:2]))))
@@ -69,8 +77,10 @@ def S03_SH050(nf):
     out = PR.car_world(CAR, YAW, -1.35, 0.35)
     him.seq([(5.4, pose("stand", x=float(out[0]), y=float(out[1]), yaw=180)), (6.2, pose("stand", x=float(out[0]), y=float(out[1]), yaw=230)),
              (7.2, pose("stand", x=float(out[0]), y=float(out[1]), yaw=130)), (8.4, pose("stand", x=float(out[0]), y=float(out[1]), yaw=150)),
-             (9.0, pose("stand", x=float(out[0]) - 0.3, y=float(out[1]), yaw=90))], blend=0.3)
-    him.path(9.0, 14.0, [(out[0] - 0.3, out[1]), (-6.0, -0.8), (-9.8, -1.4)], "walk", speed="in")
+             (9.0, pose("stand", x=float(out[0]), y=float(out[1]), yaw=200))], blend=0.3)
+    # the open door (1.1 m) sticks out from the front hinge, world (-0.95, 0.07) to (-0.49, -0.93): he walks along it,
+    # 0.37 m inside it, past its far end, then turns west; his center stays 0.36 m or more from the door
+    him.path(9.0, 14.0, [(out[0], out[1]), (0.07, -1.26), (-1.6, -1.55), (-6.0, -1.3), (-9.8, -1.4)], "walk", speed="in")
     him.talk(7.0, 8.6)
     case = PR.hand_prop("case", "case")
     smoke_cb = lambda f: [smoke(f), [setattr(o, "location", (o.location[0], o.location[1], 16.05 + (o.location[2] % 0.6))) for o in []]]

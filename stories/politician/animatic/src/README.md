@@ -34,3 +34,17 @@ Local Blender (bpy) with the Workbench engine, no Higgsfield credits.
 - Props held right: the briefcase hugged to the chest (`PR.chest`), the phone at the ear (`PR.at_ear`), the gun at the
   temple, the pipe in both hands at the shoulder.
 - Depth of field and rack focus: a camera spec takes `focus` (a distance, a point, (actor, joint) or timed keys) and `fstop`.
+
+## Draft 10 additions
+- Shot ids are never renumbered: cut shots leave a gap (their functions stay, marked cut), new shots take a free number
+  (S04 SH135, S06 SH025).
+- `MOTION_ONLY=1` (run2.py): hides the set and props, renders the people on a plain flat ground. Reference clips for
+  crowd and physics shots: Seedance copied the full animatic's grey set as a fake model (test S05 SH020 T01); the
+  motion-only clip gave real-looking footage (T02).
+- `core.LAUNDRY = False`: no laundry anywhere (Leonard 2026-11-16); the random draws still run, so layouts stay the same.
+- S02: `sets.desert(edge="towers")`: towers shoulder to shoulder, a dry moat, side ditches, rubble, dusty asphalt.
+- The dead: S06 VICTIMS spread in a fan (different distances and directions), so nobody falls in a pile.
+- `phys.hanging(hit_dir=, steady=)`: the blow pushes along the pipe's travel; the sway can be damped (hands of the crowd).
+- S05: `rock_fall()` (MuJoCo, the head snaps, he drops). S06: `pistol()` with a slide that locks open. S09: `open_case()`
+  (the briefcase flat and open). S10: a helicopter flight model (thrust along the tilted rotor, drag, attitude lag,
+  coordinated turns: turn rate = g * tan(bank) / airspeed) and a rotor-wash front that lifts paper and shakes the car.
