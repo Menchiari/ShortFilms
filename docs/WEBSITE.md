@@ -87,10 +87,15 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 
 ### Live updates
 
-1. A working branch that changes only `stories/`, `films/` and `films-index.json` is merged into
-   `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes.
-2. Then `.github/workflows/film-sync.yml` (also on every push to main touching `stories/`) runs
-   `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay,
+1. Every push to a working branch starts `.github/workflows/film-sync.yml` (through
+   `stories-sync.yml`; also on pushes to main touching `stories/`). It runs main's copy, so old
+   branches cannot block it. `tools/mergebranches.sh` merges every branch pushed in the last 48
+   hours that is ahead of main and changes only `stories/`, `films/` and `films-index.json`:
+   `film.json` and `shotlist.json` by structure (`tools/jsonmerge.py`: shots and takes by id,
+   both sides' log entries kept), `MISTAKES.md` and `takes/log.md` keeping both sides,
+   `films-index.json` regenerated. A real conflict or a failed `filmtool check` leaves that branch
+   out and is named in the run log.
+2. Then it runs `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay,
    the takes logged in the story's `takes/log.md`, the animatic clip of each shot and its
    character elements (details in the script). It commits the
    result to main and starts the site deploy whenever the live build is behind main. It always

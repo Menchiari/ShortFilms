@@ -1,11 +1,8 @@
 name: stories-sync
 
-# Story and production data need no git steps from the user: when a working branch changes only
-# files in stories/ and films/ (plus films-index.json), it is merged into main automatically.
-# film-sync.yml runs after every run of this one: it syncs films with their stories and deploys
-# the site when it is behind main.
-# Anything else on the branch (tools, docs, workflows): nothing happens, that branch goes through a
-# normal pull request.
+# The push trigger for working branches. When it finishes, film-sync.yml (always main's copy)
+# merges every recent branch that changes only stories/, films/ and films-index.json into main,
+# syncs the films and deploys the site. A branch with other changes goes through a pull request.
 
 on:
   push:
@@ -13,42 +10,10 @@ on:
     paths: ["stories/**", "films/**", "films-index.json"]
 
 permissions:
-  contents: write
-
-concurrency:
-  group: stories-sync
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  merge:
+  trigger:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Merge content-only branch into main
-        env:
-          BRANCH: ${{ github.ref_name }}
-        run: |
-          set -eu
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          sha=$(git rev-parse HEAD)
-          git fetch origin main
-          changed=$(git diff --name-only "$(git merge-base origin/main "$sha")" "$sha")
-          other=$(echo "$changed" | grep -v -e '^stories/' -e '^films/' -e '^films-index\.json$' || true)
-          if [ -n "$other" ]; then
-            echo "Branch also changes files outside stories/ and films/, not merged automatically:"
-            echo "$other"
-            exit 0
-          fi
-          films=$(echo "$changed" | grep -e '^films/' || true)
-          if [ -n "$films" ]; then
-            # a broken film.json or shotlist.json never reaches main or the site
-            python3 tools/filmtool.py check
-            git checkout -- .
-          fi
-          git checkout -B main origin/main
-          git merge --ff-only "$sha" || git merge --no-edit -m "content: merge $BRANCH" "$sha"
-          git push origin main
+      - run: echo "film-sync merges ${{ github.ref_name }} into main if it changes only content."
