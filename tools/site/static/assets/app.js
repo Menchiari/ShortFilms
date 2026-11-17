@@ -209,21 +209,26 @@
     var left = all.total - all.approved;
 
     var tiles = [];
-    tiles.push(["Approved", pct(all.approved, all.total) + "%", all.approved + " of " + all.total + " shots"]);
+    tiles.push(["Approved", pct(all.approved, all.total) + "<small>%</small>", all.approved + " of " + all.total + " shots"]);
     tiles.push(["Left", left, left === 1 ? "shot to approve" : "shots to approve"]);
+    var due_by = sched.shots_due || lastGen;
+    if (sched.shots_due) {
+      var sd = daysBetween(today, sched.shots_due);
+      tiles.push(["Shots due", sd >= 0 ? sd + (sd === 1 ? "<small> day</small>" : "<small> days</small>") : "passed", dayLabel(sched.shots_due) + ", then edit"]);
+    }
     tiles.push(["Runtime approved", mmss(all.secDone), "of " + mmss(all.sec) + " planned"]);
     if (sched.deadline) {
       var dl = daysBetween(today, sched.deadline);
-      tiles.push(["Deadline", dl >= 0 ? dl + (dl === 1 ? " day" : " days") : "passed", dayLabel(sched.deadline)]);
+      tiles.push(["Deadline", dl >= 0 ? dl + (dl === 1 ? "<small> day</small>" : "<small> days</small>") : "passed", dayLabel(sched.deadline)]);
     }
     if (f.stats.credits != null) tiles.push(["Credits spent", num(f.stats.credits), all.takes + " takes"]);
 
     var pace = "";
-    if (lastGen && left) {
-      var genDays = daysBetween(today, lastGen) + 1;
+    if (due_by && left) {
+      var genDays = daysBetween(today, due_by) + 1;
       pace = genDays > 0
-        ? "To approve every shot by " + dayLabel(lastGen) + " (last generation day in the plan): <b>" + Math.ceil(left / genDays) + " shots a day</b> for " + genDays + (genDays === 1 ? " day." : " days.")
-        : "The plan's generation days are over: " + left + " shots still to approve.";
+        ? "To approve every shot by " + dayLabel(due_by) + ": <b>" + Math.ceil(left / genDays) + " shots a day</b>, today included."
+        : "Shots were due " + dayLabel(due_by) + ": " + left + " still to approve.";
     }
     var plan = due
       ? "Plan up to today: <b>" + due + "</b> shots approved. Actual: <b>" + dueOk + "</b>" + (due > dueOk ? ", behind by <b>" + (due - dueOk) + "</b>." : ", on plan.")

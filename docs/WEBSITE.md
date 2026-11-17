@@ -50,7 +50,8 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
   - Approved share, shots left, runtime approved, days to the deadline, credits spent.
   - One bar: approved (a loved take), in review (takes, no select), not shot.
   - Plan check: shots the schedule wanted approved by today against the real count, and the pace
-    (shots a day) needed to finish by the last generation day of the plan.
+    (shots a day) needed to approve every shot by `shots_due` (the last day before the edit;
+    without it, the last day that has scenes).
   - Schedule: one row per day from `film.json` `schedule`, its scenes with approved/total, a flag
     when a past day is behind. "Today" is the viewer's local date.
   - Shots by scene: one tile per shot. Fill = best rating (red 1 to 2, gray 3, blue 4 to 5, the
@@ -70,6 +71,7 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 "schedule": {
   "source": "production plan v4",
   "deadline": "2026-11-25",
+  "shots_due": "2026-11-22",
   "days": [ { "date": "2026-11-17", "scenes": ["S02", "S03"], "task": "Crossroads start frames." } ]
 }
 ```

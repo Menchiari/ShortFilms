@@ -226,6 +226,7 @@ img, video { max-width: 100%; display: block; }
 .tile-stat { border: 1px solid var(--line); background: var(--ink-2); padding: 14px 16px 12px; }
 .tile-stat .val { font: 600 40px/1.05 var(--mono); margin: 8px 0 2px; letter-spacing: -.01em; }
 .tile-stat:first-child .val { font-size: 56px; color: var(--bone); }
+.tile-stat .val small { font-size: .45em; font-weight: 500; color: var(--bone-2); letter-spacing: 0; }
 .tile-stat .sub2 { font: 400 12px/1.4 var(--mono); color: var(--bone-2); }
 
 .seg { display: flex; gap: 2px; height: 8px; border-radius: 4px; overflow: hidden; background: transparent; margin: 8px 0 6px; }
