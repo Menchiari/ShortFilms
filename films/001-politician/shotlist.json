@@ -920,7 +920,7 @@
               "prompt": "05-generation/prompts/001_S02_SH010_T03.txt",
               "file": "05-generation/takes/S02/SH010/001_S02_SH010_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH010_T03.jpg",
               "references": [
                 "loc_town-edge 146470dd",
                 "palette_afternoon 3bf30eee",
@@ -985,7 +985,7 @@
               "prompt": "05-generation/prompts/001_S02_SH020_T02.txt",
               "file": "05-generation/takes/S02/SH020/001_S02_SH020_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH020_T02.jpg",
               "references": [
                 "loc_town-edge 146470dd (ground)",
                 "palette_afternoon 3bf30eee",
@@ -1050,7 +1050,7 @@
               "prompt": "05-generation/prompts/001_S02_SH030_T02.txt",
               "file": "05-generation/takes/S02/SH030/001_S02_SH030_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH030_T02.jpg",
               "references": [
                 "loc_town-edge 146470dd (road)",
                 "prop_car 42787b78",
@@ -1095,7 +1095,7 @@
           "framing": "LOW, ground level, facing the town",
           "movement": "Locked-off, car passes over camera",
           "duration_s": 3,
-          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed REQUEST 016 SH050 T01 (6cb55640-3cc4-41ee-bb81-dfdcfc9acf0b) blocked by the output filter (\"Something went wrong\"), 28 credits refunded 13:35 UTC. Unchanged resubmission waits for Leonard's go-ahead (the session's permission check stopped it). Leonard 2026-11-17: add camera shake, the wind pressure moving the camera as the car speeds by. REQUEST 018b SH050 T02 (7e324cfe-a591-455c-ad31-853bb047953a) blocked by the output filter again (\"Something went wrong\").",
+          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed",
           "animatic": {
             "file": "05-generation/animatic/d11/S02_SH050.mp4",
             "draft": "d11"
@@ -1186,7 +1186,7 @@
               "prompt": "05-generation/prompts/001_S02_SH070_T02.txt",
               "file": "05-generation/takes/S02/SH070/001_S02_SH070_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH070_T02.jpg",
               "references": [
                 "prop_briefcase 4bf36cb5",
                 "loc_car-interior 60a2aec8",
@@ -1451,7 +1451,7 @@
               "prompt": "05-generation/prompts/001_S02_SH110_T01.txt",
               "file": "05-generation/takes/S02/SH110/001_S02_SH110_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH110_T01.jpg",
               "references": [
                 "char_politician a7601ce4",
                 "loc_car-interior 60a2aec8",
@@ -1597,7 +1597,7 @@
               "prompt": "05-generation/prompts/001_S02_SH180_T01.txt",
               "file": "05-generation/takes/S02/SH180/001_S02_SH180_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH180_T01.jpg",
               "references": [
                 "char_politician a7601ce4",
                 "loc_car-interior 60a2aec8",
@@ -1648,7 +1648,7 @@
               "prompt": "05-generation/prompts/001_S02_SH200_T01.txt",
               "file": "05-generation/takes/S02/SH200/001_S02_SH200_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH200_T01.jpg",
               "references": [
                 "loc_town-edge 146470dd",
                 "loc_main-street c30451ef",
@@ -1680,8 +1680,36 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "a169222f-d3da-4e37-b69b-a6b8949408f0",
+              "prompt": "05-generation/prompts/001_S03_SH010_T01.txt",
+              "file": "05-generation/takes/S03/SH010/001_S03_SH010_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH010_T01.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_car 42787b78",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S03_SH010 line-drawing guide 13e9c827 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 019, draft (finalizable at 720p within 7 days). Seed 440285058. Guide clip confirmed in the job as a video reference (role video). Claude's read: photographic, live-action look, nothing of the previz style. Light: warm low sun on the upper facades, shutters and car body in warm shade, his face softly lit, shadows keep detail. Framing does NOT match the previz: much tighter, the car fills the frame with roof, nose, tail and wheels cropped, no road visible; the previz has the whole car small in a wide. Car speed: steady slow crawl, facades slide right to left throughout (not measured against the previz). Action: sits fairly upright, only a slight lean, not hunched with eyes near the windshield; forearm wipe across the forehead at about 2s; at 4.5-5.5s he looks up at the buildings, turns away, then back to the road. Sweat not readable at 480p. Front passenger window open. No extra cars or people."
+            }
+          ],
           "description": "The car crawls through the town. Tall apartment blocks slide past behind it, shutters down. Nobody outside. From open windows the same news echoes from television to television.",
           "framing": "WIDE, side view, from the far side of the street",
           "movement": "Dolly alongside the car, long lens, flat",
