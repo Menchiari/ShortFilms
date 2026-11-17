@@ -65,7 +65,7 @@
               "prompt": "05-generation/prompts/001_S01_SH010_T03.txt",
               "file": "05-generation/takes/S01/SH010/001_S01_SH010_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH010_T03.jpg",
               "references": [
                 "char_politician a7601ce4 (image_references)"
               ],
@@ -88,7 +88,7 @@
               "prompt": "05-generation/prompts/001_S01_SH010_T04.txt",
               "file": "05-generation/takes/S01/SH010/001_S01_SH010_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH010_T04.jpg",
               "references": [
                 "char_politician a7601ce4 (image_references)"
               ],
@@ -164,7 +164,7 @@
               "prompt": "05-generation/prompts/001_S01_SH020_T03.txt",
               "file": "05-generation/takes/S01/SH020/001_S01_SH020_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH020_T03.jpg",
               "references": [
                 "edit of SH020 T02 (07ce40ca)"
               ],
@@ -187,7 +187,7 @@
               "prompt": "05-generation/prompts/001_S01_SH020_T04.txt",
               "file": "05-generation/takes/S01/SH020/001_S01_SH020_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH020_T04.jpg",
               "references": [
                 "start still 2d664efc (REFS)",
                 "end still 80f8771c (REFS)",
@@ -371,7 +371,7 @@
               "prompt": "05-generation/prompts/001_S01_SH050_T02.txt",
               "file": "05-generation/takes/S01/SH050/001_S01_SH050_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH050_T02.jpg",
               "references": [
                 "edit of SH050 T01 (cb9617e4)"
               ],
@@ -426,7 +426,7 @@
               "prompt": "05-generation/prompts/001_S01_SH060_T02.txt",
               "file": "05-generation/takes/S01/SH060/001_S01_SH060_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH060_T02.jpg",
               "references": [],
               "love": false,
               "rating": 4,
@@ -542,7 +542,7 @@
               "prompt": "05-generation/prompts/001_S01_SH070_T05.txt",
               "file": "05-generation/takes/S01/SH070/001_S01_SH070_T05.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH070_T05.jpg",
               "references": [],
               "love": false,
               "rating": 4,
@@ -701,7 +701,7 @@
               "prompt": "05-generation/prompts/001_S01_SH100_T04.txt",
               "file": "05-generation/takes/S01/SH100/001_S01_SH100_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH100_T04.jpg",
               "references": [],
               "love": false,
               "rating": 4,
