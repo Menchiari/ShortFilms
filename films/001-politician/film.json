@@ -249,7 +249,9 @@
       "S02/SH110+SH130+SH160": "7bf45669-2217-4872-9d90-61ca028217ef",
       "S02/SH120+SH140": "66287d92-27a3-436f-a424-7a1be4fac4f4",
       "S02/SH180": "16abd7a9-2793-4513-8561-5fbc6e792aac",
-      "S02/SH200": "c4c4eb3d-38d1-4824-ad34-e1908b87d9bd"
+      "S02/SH200": "c4c4eb3d-38d1-4824-ad34-e1908b87d9bd",
+      "S02/SH100 lines": "e625c859-ee7b-4c78-8b1f-d093e7283a9b",
+      "S02/SH100 blur": "7237b832-9197-4405-98e1-01c7bb1c3213"
     }
   },
   "extra_costs": [],
@@ -297,6 +299,10 @@
     {
       "date": "2026-11-17",
       "text": "Leonard: back to 480p, every take as a draft (same price, a keeper can be finished at 720p within 7 days). Method: the animatic clip only where a person or object fills the frame; where a place fills it, words and real images, no clip."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 018a approved (24 credits, 480p drafts) and submitted: SH100 T02 line-drawing guide a762d15e-4c26-47ce-baf6-4cbd540d3b63, SH100 T03 blurred guide 5b401d41-b5b4-4dd6-821f-4b81ba7492ca. Test: which processed guide clip keeps the camera and loses the previz look."
     }
   ],
   "story_sync": {
