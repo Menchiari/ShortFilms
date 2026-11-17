@@ -385,6 +385,10 @@
     {
       "date": "2026-11-17",
       "text": "S03 SH040: Higgsfield folder S03/SH040 created (7797dab3). Prompt 05-generation/prompts/001_S03_SH040_T01.txt written; REQUEST 040a preflight 15 credits, waiting for approval. [ASSUMPTION] the key is heard, not seen: frame holds on the instrument cluster only."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020d approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T02 7e3e652d-4274-4276-9801-3671c420768b, frame v3. Passed the point where 020b and 020c failed (in progress after 15 s): the draft flag with a start image is the likely cause."
     }
   ],
   "story_sync": {
