@@ -438,6 +438,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020f approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T04 06769720-bb10-4c30-a594-fc0efd8256d7, frame v3, handheld camera from the passenger seat."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 050b approved (1.5 credits): S03 SH050 start frame v2, gpt_image_2_6 high 1k 21:9, job 39b69882-c03c-490e-96a7-8957c5f66113, edit of 050a: metal railing, man in a sleeveless undershirt leaning on his forearms, looking down, smoking (Leonard's note). Files frames/001_S03_SH050_T01_start_v2_src.png and _start_v2.jpg (1120x480)."
     }
   ],
   "story_sync": {
