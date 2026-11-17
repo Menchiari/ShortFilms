@@ -1865,7 +1865,7 @@
               "prompt": "05-generation/prompts/001_S03_SH040_T02.txt",
               "file": "05-generation/takes/S03/SH040/001_S03_SH040_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S03_SH040_T02.jpg",
               "references": [
                 "start_image: 05-generation/frames/001_S03_SH040_fuel-on_v2.png (c317a203)",
                 "end_image: 05-generation/frames/001_S03_SH040_fuel-off_v2.png (cbfa703c)"
