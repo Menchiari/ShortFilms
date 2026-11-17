@@ -1747,9 +1747,9 @@
                 "Leonard's start frame v3 (c4e65b4b, start_image, now also in REFS): 05-generation/frames/001_S03_SH020_T02_start_v3.jpg"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 020e, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s and audio levels, not heard): his head and shoulders now sway and shift between frames; the wall slides behind him; mouth open more often than in T02 (more talking than asked); a lunge forward with the hand slam at about 6.5 s; louder from about 4.8 s to 7.3 s, quiet tail after."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 020e, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s and audio levels, not heard): his head and shoulders now sway and shift between frames; the wall slides behind him; mouth open more often than in T02 (more talking than asked); a lunge forward with the hand slam at about 6.5 s; louder from about 4.8 s to 7.3 s, quiet tail after. Leonard: I don't buy it (he does not feel inside a car). T04: handheld camera from the passenger seat, moving in position, not only pivoting."
             }
           ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
