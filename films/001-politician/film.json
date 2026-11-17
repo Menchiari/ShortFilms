@@ -352,6 +352,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 018b approved (147 credits, 480p drafts, line guides). Submitted: SH010 T03 a2e3451a-2c70-4c1c-80f7-745cad62a471, SH020 T02 e1ffc2d1-1fc0-405a-9b0b-fbd6c802f992, SH030 T02 13fadbe9-cd4a-4799-8fe0-e78209e4ae57, SH050 T02 7e324cfe-a591-455c-ad31-853bb047953a, SH070 T02 bb09857b-d843-45fc-b235-5449dfd5016e, SH110 T01 e41b2b2a-5598-40d3-9962-062150ff9683, SH180 T01 dedb136c-a687-4c0c-9f44-cee2bd802330, SH200 T01 5f89a3f1-e1d4-4267-bcd7-08764168d311. SH090 T03 and SH120 T01 refused by the rate limit (429, no job, no charge): sent when the queue drains."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 019 approved (18 credits, 480p draft, 21:9, 6 s): S03 SH010 T01 a169222f-d3da-4e37-b69b-a6b8949408f0, line-drawing guide 13e9c827 plus char_politician, prop_car, loc_side-street (Leonard: side street as background), palette_afternoon. Leonard: great cinematography lighting, added as a motivated-sun lighting paragraph."
     }
   ],
   "story_sync": {
