@@ -409,6 +409,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020d done (24 credits): S03 SH020 T02 in. The start frame held this time. Rule learned: with a start image, send seedance_2_5 without the draft flag."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "S03 SH030 T01 approved by Leonard ('this one works', rating 4 inferred). What made it work: no guide clip, prop_car as @Image1, the street and palette as @Image2-3."
     }
   ],
   "story_sync": {
