@@ -148,7 +148,8 @@
       "S03": "c29a8193-37ea-4ed6-baf1-64c5c9cd1f8b",
       "S03/SH020": "5ce159a6-f318-4f34-987a-e7f6581c22f6",
       "S03/SH010": "b1c49662-6de6-4e71-b6d6-e7284a86ea82",
-      "S03/SH040": "7797dab3-43ac-4dff-92e2-6339e8a1ecfb"
+      "S03/SH040": "7797dab3-43ac-4dff-92e2-6339e8a1ecfb",
+      "S03/SH030": "76a40ddf-96a0-483a-bf70-9f2be034cba8"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -400,6 +401,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 040a failed at Higgsfield about 50 s after submit, same generic error as 020b and 020c (\"Something went wrong...\"), 15 credits refunded (transaction 16:19:44 UTC). No file. Same pattern: draft flag with image inputs only, no video reference. REQUEST 040b (same prompt, no draft flag) prepared, waiting for approval."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 030a approved (21 credits, 480p draft, 21:9, 7 s): S03 SH030 T01 1c95b86e-5a77-466b-b6fb-ed018b94065a, no guide clip (the boxy previz car would be copied), prop_car, loc_main-street, palette_afternoon as @Image1-3. Leonard: reference images as @Image1, @Image2 in the prompt, not 'Image 1:'."
     }
   ],
   "story_sync": {

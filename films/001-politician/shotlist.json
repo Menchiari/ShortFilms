@@ -1718,8 +1718,35 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "1c95b86e-5a77-466b-b6fb-ed018b94065a",
+              "prompt": "05-generation/prompts/001_S03_SH030_T01.txt",
+              "file": "05-generation/takes/S03/SH030/001_S03_SH030_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH030_T01.jpg",
+              "references": [
+                "prop_car 42787b78",
+                "loc_main-street c30451ef",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 030a, draft (finalizable at 720p within 7 days). Higgsfield folder S03/SH030. Reference images written @Image1-3 in the prompt (Leonard). Claude's read from 1 fps frames and a motion measure, sound not heard: the car is the prop_car sedan (grille, headlights, multi-spoke wheels, dust), photographic, no previz look. Ground-level camera. 0-2s: the car comes head-on down the street faster than walking pace, kicking dust; one parked car at the right curb and two round road signs at top right (no readable text) carried over from the street image. 2-5s: it fills frame and the camera ends on the car's front wheel on its right side (screen left of the grille), the wheel at center-left, not the right half. Motion falls to near zero at 6.5-7s: the stop lands at about 6 s, leaving about 1 s of hold. Daytime running lights on."
+            }
+          ],
           "description": "A front wheel rolls toward the camera, slower and slower, and stops right in front of it. The dust settles.",
           "framing": "GROUND LEVEL",
           "movement": "Locked-off",
