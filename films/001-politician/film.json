@@ -368,6 +368,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 020 (= 020a, per the S03 request labels) done (24 credits): S03 SH020 T01 in, file takes/S03/SH020/001_S03_SH020_T01.mp4."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020b approved (24 credits, 480p draft flag, 21:9, audio on) and submitted: S03 SH020 T02 9535b58b-338a-4ab7-be2f-18ef4b33a8bb, on Leonard's new Midjourney frame (shade, wall beside him; media 3f04ddd9), sent as start_image; the job echo lists it as reference_images."
     }
   ],
   "story_sync": {
