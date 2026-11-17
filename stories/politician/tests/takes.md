@@ -18,7 +18,7 @@ Net spend: 12 credits (S09 and S06 blocked and refunded). Both blocked takes car
 
 | Take | Job id | Duration | Credits | Refs | Prompt | Folder | Result |
 |---|---|---|---|---|---|---|---|
-| FILTER blood element | dcee6e93-f991-42d2-a49d-a71415236e6f | 4 s | 12 | char_politician_blood image (73236f58) as image_references | FILTER_blood_element_prompt.txt | TESTS (8ccc6c44-5206-40c6-bff5-c6b00a33ede4) | |
+| FILTER blood element | dcee6e93-f991-42d2-a49d-a71415236e6f | 4 s | 12 | char_politician_blood image (73236f58) as image_references | FILTER_blood_element_prompt.txt | TESTS (8ccc6c44-5206-40c6-bff5-c6b00a33ede4) | Completed after 66 min in the queue: politician_FILTER_blood_T01.mp4. Passed the filter, identity holds, but the blood is almost gone (a faint mark at the right temple). The blood image is not what blocked S09 and S06: their text was |
 | S05 SH020 T02 | 0b6ce512-f385-4397-9d14-3ec7ae117e80 | 4 s | 12 | motion-only clip (d0c8119e), afternoon palette | S05_SH020_T02_prompt.txt | Scenes/S05/SH020 | Completed: politician_S05_SH020_T02.mp4. Reads as real drone footage: the motion-only clip carries the crowd's motion without the set |
 
 Finding: with seedance_2_5 the `<<<element_id>>>` placeholder is NOT injected (the backend received the raw text and no
