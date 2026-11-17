@@ -463,7 +463,7 @@
         },
         {
           "id": "SH100",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -502,7 +502,7 @@
               "preview": "",
               "poster": "05-generation/web/001_S01_SH100_T02.jpg",
               "references": [],
-              "love": false,
+              "love": true,
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 006. Folder S01/SH100. Queued about 45 minutes at Higgsfield, passed first submission. Downloaded to takes/S01/. Leonard: works amazing, too short. T03: forward extension. Leonard 2026-11-17: many things wrong: the bottle passes through the window grille; glass must break and spill; the lady is a babushka stereotype, she becomes an ordinary Korean woman of about 60, surgical mask, glasses, realistic white slingshot. One 10 s take instead of the extension (T04). Love removed by this note."
