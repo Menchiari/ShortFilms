@@ -1,5 +1,5 @@
 from sh import *
-from shots_s05 import SQ_WALLS, FALL, gather_sim, people, flinch
+from shots_s05 import SQ_WALLS, FALL, gather_sim, people, flinch, along_arm, arm_sticks
 
 CUES = {}
 FACE = 90.0                     # he faces west, toward the crowd
@@ -135,12 +135,13 @@ def pistol(name, hand=False):
 def casing(name):
     return PR._obj(name, PR._mesh_cyl(name, 0.0045, 0.0045, 0.017, n=8), "#C9A048")
 
-def gun_hand_cb(G, a, shots=(), locked_after=None, smoke_until=0.0):
-    """The pistol in his right hand, along the forearm (PR.attach). A flash and the slide kick on each shot; locked back after locked_after."""
-    hold = PR.attach(G["root"], a, offset=(0, 0.02, 0))
-    fr = [F(t) for t in shots]
+def gun_hand_cb(G, a, shots=(), locked_after=None, smoke_until=0.0, flash_scale=1.0):
+    """The pistol in his right hand, the barrel along his extended arm, pointing where he aims. On each shot: the flash at the
+    muzzle, the slide kicks back, the muzzle flips up; locked back after locked_after."""
+    fr = [F(t) for t in shots]; G["flash"].scale = (flash_scale,) * 3
     def cb(f):
-        hold(f); G["show"](True)
+        kick = 12.0 if f in fr else (6.0 if f - 1 in fr else 0.0)
+        G["root"].matrix_world = along_arm(a, f, kick=kick); G["show"](True)
         back = 1.0 if (locked_after is not None and f / core.FPS >= locked_after) else 0.0
         for k in fr:
             if f == k: back = 1.0
@@ -207,7 +208,7 @@ def S06_SH010(nf):
         acts.append(a)
     G = pistol("gun")
     tgt = (FALL[0] + r_[0] * 0.25, FALL[1] + r_[1] * 0.25, 1.45)
-    return {"cam": cam(p, tgt, 35, hh=0.6), "actors": [him] + acts, "speakers": {"OLD MAN": him},
+    return {"cam": cam(p, tgt, 35, hh=0.6), "actors": [him] + acts, "speakers": {"OLD MAN": him}, "sticks": arm_sticks(him),
             "say": [[0.6, 2.2, "OLD MAN"], [3.3, 5.6, "OLD MAN"]], "callbacks": [gun_hand_cb(G, him), smoke_cb(G)],
             "cues": [[0, 1.5, "EARS RINGING, SMOKE FROM THE MUZZLE"]]}
 
@@ -272,8 +273,9 @@ def S06_SH020(nf):
     for k in ks:
         ya = fdir(FALL, k["hit"])
         keys.append((max(0.3, k["ts"] - 0.9), pose("stand", **STAND, yaw=ya + 8, ra=(80, 4, 4))))
-        keys.append((k["ts"] - 0.3, pose("stand", **STAND, yaw=ya, ra=(88, 4, 4))))
-        keys.append((k["ts"] + 0.12, pose("stand", **STAND, yaw=ya, ra=(99, 4, 4), spine=-4)))
+        keys.append((k["ts"] - 0.3, pose("stand", **STAND, yaw=ya, ra=(84, 3, 3))))                  # aimed: a little down, at his chest
+        keys.append((k["ts"] + 0.08, pose("stand", **STAND, yaw=ya, ra=(92, 3, 3), spine=-3)))       # the kick
+        keys.append((k["ts"] + 0.3, pose("stand", **STAND, yaw=ya, ra=(84, 3, 3))))
     him.seq(sorted(keys, key=lambda kk: kk[0]))
     lines = [(tuple(np.array(k["start"]) + (np.array(k["hit"]) - np.array(k["start"])) * u), 1.0) for k in ks for u in np.linspace(0, 1, 6)]
     acts = [victim_actor(k, nf) for k in ks] + reacting_crowd(40, 61, nf, [k["ts"] for k in ks], keep_clear=lines)
@@ -284,10 +286,11 @@ def S06_SH020(nf):
         f = min(nf - 1, int(round(t * core.FPS))); lag = [yaws[max(0, f - k)] for k in range(4)]; y = math.radians(float(np.mean(lag)))
         fw = np.array((-math.sin(y), math.cos(y))); rt = np.array((fw[1], -fw[0]))
         c = np.array(FALL)
-        pos = c - fw * 1.9 + rt * 0.55; tgt = c + fw * 8.0 + rt * 0.3
-        return np.array((pos[0], pos[1], 1.86)), np.array((tgt[0], tgt[1], 1.2)), 28, 0
+        pos = c - fw * 1.75 + rt * 0.75; tgt = c + fw * 8.0 + rt * 0.1           # at his shoulder height (he stands on the curb): the gun arm reads level, aimed into the frame
+        return np.array((pos[0], pos[1], 1.77)), np.array((tgt[0], tgt[1], 1.4)), 28, 0
     cues = [[k["ts"] - 1.2, k["ts"] - 0.6, "A YELL"] for k in ks[:2]] + [[k["ts"], k["ts"] + 0.25, f"SHOT {k['n']}"] for k in ks]
-    return {"cam": {"fn": camfn, "hh": 0.9}, "actors": [him] + acts, "callbacks": [gun_hand_cb(G, him, shots=[k["ts"] for k in ks])], "cues": cues}
+    return {"cam": {"fn": camfn, "hh": 0.9}, "actors": [him] + acts, "sticks": arm_sticks(him),
+            "callbacks": [gun_hand_cb(G, him, shots=[k["ts"] for k in ks], flash_scale=1.6)], "cues": cues}
 
 # ---------------------------------------------------------------- SH025: insert, the pistol firing again and again
 SH025_SHOTS = [4 / 12, 11 / 12, 17 / 12, 24 / 12, 30 / 12]
@@ -348,7 +351,7 @@ def S06_SH030(nf):
     acts += people("w", cr.run(T, brain), nf, 76)
     acts += dead_actors(nf, upto=6)
     G = pistol("gun")
-    return {"cam": cam(*SIDE), "actors": [him] + acts, "callbacks": [gun_hand_cb(G, him)],
+    return {"cam": cam(*SIDE), "actors": [him] + acts, "callbacks": [gun_hand_cb(G, him)], "sticks": arm_sticks(him),
             "cues": [[1.1, 1.6, "A YELL, HE RUNS"], [1.9, 2.4, "ANOTHER"], [2.4, T, "MORE FEET"]]}
 
 # ---------------------------------------------------------------- SH040: his lips, from the side, the lens right at his mouth
