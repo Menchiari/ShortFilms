@@ -385,6 +385,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 050a approved (1.5 credits): S03 SH050 T01 start frame, gpt_image_2_6 high 1k 21:9, job 25f0e435-1170-4787-9b28-bbceb1324ba3, over animatic d11 frame 0 (media 19a2dd38) plus loc_crossroads, prop_car, palette_afternoon. Higgsfield folder S03/SH050 44d8f62f created. Files frames/001_S03_SH050_T01_start_src.png (1344x576) and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 050b approved (1.5 credits): S03 SH050 start frame v2, gpt_image_2_6 high 1k 21:9, job 39b69882-c03c-490e-96a7-8957c5f66113, edit of 050a: metal railing, man in a sleeveless undershirt leaning on his forearms, looking down, smoking (Leonard's note). Files frames/001_S03_SH050_T01_start_v2_src.png and _start_v2.jpg (1120x480)."
     }
   ],
   "story_sync": {
