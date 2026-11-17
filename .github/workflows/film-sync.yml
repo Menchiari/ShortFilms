@@ -1,7 +1,8 @@
 name: film-sync
 
 # Keeps every film in step with its story folder (tools/storysync.py: shots follow the screenplay,
-# takes logged in the story are copied in), then keeps the live site in step with main. Runs after
+# takes logged in the story are copied in), makes a still for every take that has none, then keeps
+# the live site in step with main. Runs after
 # every stories-sync run and on pushes to main, always with main's copy of this file, so work from
 # a session whose branch is out of date still reaches the site.
 
@@ -38,6 +39,11 @@ jobs:
             /stories/*/screenplay.fountain
             /stories/*/takes/
             /stories/*/prompts/
+            /stories/*/elements.md
+            /stories/*/animatic/
+            !/stories/*/animatic/*
+            /stories/*/animatic/refs_d*/
+            !/stories/*/animatic/refs_d*_motion/
             !/docs/reference/
 
       - name: Sync films with their stories, deploy if the site is behind
@@ -48,6 +54,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           python3 tools/storysync.py
+          # a still for every take that has none (ffmpeg installed only when one is needed)
+          for d in films/*/; do
+            [ -f "$d/film.json" ] || continue
+            python3 tools/media/preview.py "$d" --all || {
+              [ $? -eq 3 ] && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null \
+                && python3 tools/media/preview.py "$d" --all
+            }
+          done
           if [ -n "$(git status --porcelain -- films films-index.json)" ]; then
             python3 tools/filmtool.py check
             git add films films-index.json

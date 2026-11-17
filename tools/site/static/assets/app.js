@@ -309,7 +309,8 @@
     if (f.docs.story) t.push(["story", "Story"]);
     if (f.docs.analysis) t.push(["analysis", "Analysis"]);
     if (f.docs.questions) t.push(["questions", "Questions"]);
-    if (f.bible && f.bible.length) t.push(["bible", "Bible"]);
+    if (charGroup(f)) t.push(["characters", "Characters"]);
+    if (otherBible(f).length) t.push(["bible", "Bible"]);
     if (f.scenes && f.scenes.length) t.push(["shotlist", "Shotlist"]);
     if (f.docs.budget) t.push(["budget", "Budget"]);
     if (f.docs.sound) t.push(["sound", "Sound"]);
@@ -327,12 +328,15 @@
     }).catch(function () { target.innerHTML = '<p class="label">Could not load this document.</p>'; });
   }
 
-  function renderBible(f) {
-    return f.bible.map(function (g) {
+  function charGroup(f) { return (f.bible || []).filter(function (g) { return g.name === "characters"; })[0]; }
+  function otherBible(f) { return (f.bible || []).filter(function (g) { return g.name !== "characters"; }); }
+
+  function renderBible(f, groups) {
+    return groups.map(function (g) {
       return '<section class="bible-group"><h2 class="label" style="margin:0 0 12px">' + esc(GROUPS[g.name] || g.name) + "</h2>" +
         '<div class="bible-cards">' + g.items.map(function (it, i) {
           var img = it.images && it.images[0];
-          return '<details class="bcard" data-doc="' + esc(g.name + ":" + i) + '"><summary>' +
+          return '<details class="bcard' + (g.name === "characters" ? " char" : "") + '" data-doc="' + esc(g.name + ":" + i) + '"><summary>' +
             (img ? '<img src="' + esc(img) + '" alt="' + esc(it.title) + '" loading="lazy">' : (g.name === "world" || g.name === "style" ? "" : '<div class="noimg">No reference yet</div>')) +
             "<h4>" + esc(it.title) + "</h4><p>" + esc(it.summary) + '</p></summary><div class="doc-slot"></div></details>';
         }).join("") + "</div></section>";
@@ -353,19 +357,42 @@
       "</td>" + (costs ? "<td>" + (t.credits != null ? num(t.credits) : "") + "</td>" : "") + "</tr>";
   }
 
-  function defaultTake(sh) {
-    var key = sh.__key;
+  function animTake(sh) {
+    return sh.animatic ? { id: "ANIM", anim: true, video: sh.animatic.video, draft: sh.animatic.draft } : null;
+  }
+  function allTakes(sh) { var a = animTake(sh); return (a ? [a] : []).concat(sh.takes); }
+
+  // the shot's face: the approved take, else the best rated (3 or more, newest on a tie), else the newest
+  function bestTake(sh) {
     var pick = null;
-    sh.takes.forEach(function (t) { if (t.id === SELECTED[key]) pick = t; });
-    if (pick) return pick;
     sh.takes.forEach(function (t) { if (t.id === sh.loved) pick = t; });
+    if (pick) return pick;
+    sh.takes.forEach(function (t) { if ((t.rating || 0) >= 3 && (!pick || t.rating >= pick.rating)) pick = t; });
     if (pick) return pick;
     for (var i = sh.takes.length - 1; i >= 0; i--) if (sh.takes[i].video) return sh.takes[i];
     return sh.takes[sh.takes.length - 1] || null;
   }
 
+  function defaultTake(sh) {
+    var key = sh.__key;
+    var pick = null;
+    allTakes(sh).forEach(function (t) { if (t.id === SELECTED[key]) pick = t; });
+    return pick || bestTake(sh) || animTake(sh);
+  }
+
+  function animRow(a, costs, active) {
+    return '<tr data-take="ANIM" class="pick anim' + (active ? " is-active" : "") + '" tabindex="0"><td class="play">▶</td><td>Animatic</td><td></td><td>' +
+      esc(a.draft ? "draft " + a.draft.replace(/^d/, "") : "") + "</td><td></td>" + (costs ? "<td></td>" : "") + "</tr>";
+  }
+
   function viewerHTML(sh, t) {
     if (!t) return "";
+    if (t.anim) {
+      return '<div class="player"><div class="screen"><video controls playsinline preload="metadata" src="' + esc(t.video) + '"></video></div>' +
+        '<div class="take-cap">Animatic · draft ' + esc((t.draft || "").replace(/^d/, "")) + " · " + esc(sh.duration_s ? sh.duration_s + " s planned" : "") + "</div></div>" +
+        '<div class="ptext"><div class="label">Screenplay · ' + esc(sh.id) + '</div><p class="note">' + esc(sh.description || "") + "</p>" +
+        '<p class="hint">Grey blockout for timing and camera, not a generation.</p></div>';
+    }
     var cap = [t.id + (t.love ? " ♥" : ""), t.duration_s ? t.duration_s + " s" : "", t.resolution, t.mode,
       t.rating ? t.rating + "/5" + (t.rating_source === "inferred" ? " (inferred)" : "") : "unrated",
       t.credits != null ? num(t.credits) + " credits" : "", t.date].filter(Boolean).join(" · ");
@@ -423,18 +450,20 @@
           SHOTS[key] = { sc: sc, sh: sh };
           var lt = null;
           sh.takes.forEach(function (t) { if (t.id === sh.loved) lt = t; });
-          var thumb = lt && lt.poster ? '<img class="thumb" src="' + esc(lt.poster) + '" alt="" loading="lazy">' : '<div class="thumb empty">' + esc(sh.id) + "</div>";
+          var face = bestTake(sh);
+          var thumb = face && face.poster ? '<img class="thumb" src="' + esc(face.poster) + '" alt="' + esc(sh.id + " " + face.id) + '" title="' + esc(face.id) + '" loading="lazy">' : '<div class="thumb empty">' + esc(sh.id) + "</div>";
           var spec = [sh.framing, sh.angle, sh.lens, sh.movement, sh.duration_s ? sh.duration_s + "s" : "", sh.transition_in && sh.transition_in !== "cut" ? sh.transition_in : ""].filter(Boolean).join(" / ");
-          var cur = sh.takes.length ? defaultTake(sh) : null;
+          var cur = (sh.takes.length || sh.animatic) ? defaultTake(sh) : null;
           var info = (sh.purpose ? '<p class="note"><span class="label">Why this shot</span><br>' + esc(sh.purpose) + "</p>" : "") +
             (sh.note ? '<p class="note"><span class="label">Screenplay note</span><br>' + esc(sh.note) + "</p>" : "") +
             (sh.dialogue ? '<p class="note"><span class="label">Dialogue</span><br>' + esc(sh.dialogue) + "</p>" : "");
           var body = '<div class="shot-open">' +
-            (sh.takes.length
+            (sh.takes.length || sh.animatic
               ? '<div class="viewer"></div>' +
                 '<table class="takes"><tr><th></th><th>Take</th><th>Date</th><th>Settings</th><th>Rating</th>' + (costs ? "<th>Credits</th>" : "") + "</tr>" +
+                (sh.animatic ? animRow(animTake(sh), costs, cur && cur.anim) : "") +
                 sh.takes.map(function (t) { return takeRow(t, costs, cur && t.id === cur.id); }).join("") + "</table>" +
-                '<p class="hint">Click a take to play it with its prompt.</p>'
+                '<p class="hint">' + (sh.takes.length ? "Click a take to play it with its prompt." : "No takes yet: the animatic shows the plan.") + "</p>"
               : '<div class="viewer"></div><p class="label">No takes yet' + (sh.method ? " &middot; method: " + esc(sh.method) : "") + "</p>") +
             info +
             (lt && lt.references && lt.references.filter(Boolean).length ? '<div class="refs">' + lt.references.filter(Boolean).map(function (r) { return '<img src="' + esc(r) + '" alt="reference" loading="lazy">'; }).join("") + "</div>" : "") +
@@ -469,8 +498,10 @@
       var box = document.getElementById("tab");
       if (tab === "production") box.innerHTML = renderProduction(f);
       else if (tab === "story") renderDoc(box, f.docs.story, true);
-      else if (tab === "bible") {
-        box.innerHTML = renderBible(f);
+      else if (tab === "bible" || tab === "characters") {
+        box.innerHTML = tab === "characters"
+          ? '<p class="hint">Character elements registered in Higgsfield for this film. Open a card for its ids.</p>' + renderBible(f, [charGroup(f)])
+          : renderBible(f, otherBible(f));
         box.querySelectorAll("details.bcard").forEach(function (d) {
           d.addEventListener("toggle", function () {
             var slot = d.querySelector(".doc-slot");

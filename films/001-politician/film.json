@@ -100,7 +100,7 @@
   "stages": {
     "story": "in-progress",
     "analysis": "todo",
-    "bible": "todo",
+    "bible": "in-progress",
     "shotlist": "in-progress",
     "shot_plan": "todo",
     "sound_list": "todo",
@@ -261,6 +261,8 @@
   ],
   "story_sync": {
     "screenplay": "stories/politician/screenplay.fountain",
-    "takes_log": "stories/politician/takes/log.md"
+    "takes_log": "stories/politician/takes/log.md",
+    "animatic": "stories/politician/animatic",
+    "elements": "stories/politician/elements.md"
   }
 }

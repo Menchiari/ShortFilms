@@ -23,7 +23,7 @@
               "prompt": "05-generation/prompts/001_S01_SH010_T01.txt",
               "file": "05-generation/takes/S01/SH010/001_S01_SH010_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH010_T01.jpg",
               "references": [],
               "love": false,
               "rating": null,
@@ -44,7 +44,7 @@
               "prompt": "05-generation/prompts/001_S01_SH010_T02.txt",
               "file": "05-generation/takes/S01/SH010/001_S01_SH010_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH010_T02.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -122,7 +122,7 @@
               "prompt": "05-generation/prompts/001_S01_SH020_T01.txt",
               "file": "05-generation/takes/S01/SH020/001_S01_SH020_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH020_T01.jpg",
               "references": [],
               "love": false,
               "rating": 1,
@@ -143,7 +143,7 @@
               "prompt": "05-generation/prompts/001_S01_SH020_T02.txt",
               "file": "05-generation/takes/S01/SH020/001_S01_SH020_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH020_T02.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -223,7 +223,7 @@
               "prompt": "05-generation/prompts/001_S01_SH030_T01.txt",
               "file": "05-generation/takes/S01/SH030/001_S01_SH030_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH030_T01.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -244,7 +244,7 @@
               "prompt": "05-generation/prompts/001_S01_SH030_T02.txt",
               "file": "05-generation/takes/S01/SH030/001_S01_SH030_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH030_T02.jpg",
               "references": [],
               "love": false,
               "rating": 1,
@@ -265,7 +265,7 @@
               "prompt": "05-generation/prompts/001_S01_SH030_T03.txt",
               "file": "05-generation/takes/S01/SH030/001_S01_SH030_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH030_T03.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -286,7 +286,7 @@
               "prompt": "05-generation/prompts/001_S01_SH030_T04.txt",
               "file": "05-generation/takes/S01/SH030/001_S01_SH030_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH030_T04.jpg",
               "references": [],
               "love": false,
               "rating": 3,
@@ -318,7 +318,7 @@
               "prompt": "05-generation/prompts/001_S01_SH040_T01.txt",
               "file": "05-generation/takes/S01/SH040/001_S01_SH040_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH040_T01.jpg",
               "references": [],
               "love": false,
               "rating": 4,
@@ -350,7 +350,7 @@
               "prompt": "05-generation/prompts/001_S01_SH050_T01.txt",
               "file": "05-generation/takes/S01/SH050/001_S01_SH050_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH050_T01.jpg",
               "references": [],
               "love": false,
               "rating": 3,
@@ -405,7 +405,7 @@
               "prompt": "05-generation/prompts/001_S01_SH060_T01.txt",
               "file": "05-generation/takes/S01/SH060/001_S01_SH060_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH060_T01.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -458,7 +458,7 @@
               "prompt": "05-generation/prompts/001_S01_SH070_T01.txt",
               "file": "05-generation/takes/S01/SH070/001_S01_SH070_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH070_T01.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -479,7 +479,7 @@
               "prompt": "05-generation/prompts/001_S01_SH070_T02.txt",
               "file": "05-generation/takes/S01/SH070/001_S01_SH070_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH070_T02.jpg",
               "references": [],
               "love": false,
               "rating": 4,
@@ -500,7 +500,7 @@
               "prompt": "05-generation/prompts/001_S01_SH070_T03.txt",
               "file": "05-generation/takes/S01/SH070/001_S01_SH070_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH070_T03.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -521,7 +521,7 @@
               "prompt": "05-generation/prompts/001_S01_SH070_T04.txt",
               "file": "05-generation/takes/S01/SH070/001_S01_SH070_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH070_T04.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -574,7 +574,7 @@
               "prompt": "05-generation/prompts/001_S01_SH080_T01.txt",
               "file": "05-generation/takes/S01/SH080/001_S01_SH080_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH080_T01.jpg",
               "references": [],
               "love": false,
               "rating": 4,
@@ -606,7 +606,7 @@
               "prompt": "05-generation/prompts/001_S01_SH090_T01.txt",
               "file": "05-generation/takes/S01/SH090/001_S01_SH090_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH090_T01.jpg",
               "references": [],
               "love": false,
               "rating": 4,
@@ -638,7 +638,7 @@
               "prompt": "05-generation/prompts/001_S01_SH100_T01.txt",
               "file": "05-generation/takes/S01/SH100/001_S01_SH100_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH100_T01.jpg",
               "references": [],
               "love": false,
               "rating": 1,
@@ -680,7 +680,7 @@
               "prompt": "05-generation/prompts/001_S01_SH100_T03.txt",
               "file": "05-generation/takes/S01/SH100/001_S01_SH100_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH100_T03.jpg",
               "references": [],
               "love": false,
               "rating": 2,
@@ -733,7 +733,7 @@
               "prompt": "05-generation/prompts/001_S01_SH110_T01.txt",
               "file": "05-generation/takes/S01/SH110/001_S01_SH110_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH110_T01.jpg",
               "references": [],
               "love": false,
               "rating": 3,
@@ -754,7 +754,7 @@
               "prompt": "05-generation/prompts/001_S01_SH110_T02.txt",
               "file": "05-generation/takes/S01/SH110/001_S01_SH110_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH110_T02.jpg",
               "references": [],
               "love": false,
               "rating": 5,
@@ -786,7 +786,7 @@
               "prompt": "05-generation/prompts/001_S01_SH120_T01.txt",
               "file": "05-generation/takes/S01/SH120/001_S01_SH120_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH120_T01.jpg",
               "references": [],
               "love": false,
               "rating": 3,
@@ -814,7 +814,11 @@
           "framing": "EXTREME WIDE",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Hard cut to silence. Hold it. The outer towers stand shoulder to shoulder like a wall (look/mood/mood_4_town-edge.webp)"
+          "note": "Hard cut to silence. Hold it. The outer towers stand shoulder to shoulder like a wall (look/mood/mood_4_town-edge.webp)",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -824,7 +828,11 @@
           "framing": "MEDIUM",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": "One generation with SH040: the dog lying, then its head lifting in close-up. PROPOSED: a lean street dog, short sandy coat, upright ears, curled tail"
+          "note": "One generation with SH040: the dog lying, then its head lifting in close-up. PROPOSED: a lean street dog, short sandy coat, upright ears, curled tail",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -834,7 +842,11 @@
           "framing": "EXTREME WIDE, long lens",
           "movement": "Locked-off",
           "duration_s": 5,
-          "note": "The engine arrives late, faint"
+          "note": "The engine arrives late, faint",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH030.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH040",
@@ -844,7 +856,11 @@
           "framing": "CLOSE, the dog",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The last 2 seconds of the SH020 take"
+          "note": "The last 2 seconds of the SH020 take",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH040.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH050",
@@ -854,7 +870,11 @@
           "framing": "LOW, ground level, facing the town",
           "movement": "Locked-off, car passes over camera",
           "duration_s": 3,
-          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed"
+          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH050.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH060",
@@ -864,7 +884,11 @@
           "framing": "INSERT, dashboard",
           "movement": "Road vibration",
           "duration_s": 2,
-          "note": "The car is still moving. The bobblehead faces into the car, toward the driver"
+          "note": "The car is still moving. The bobblehead faces into the car, toward the driver",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH060.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH070",
@@ -874,7 +898,11 @@
           "framing": "INSERT, passenger seat",
           "movement": "Road vibration",
           "duration_s": 2,
-          "note": "The car is still moving. The case lies flat on the seat"
+          "note": "The car is still moving. The case lies flat on the seat",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH070.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH080",
@@ -884,7 +912,11 @@
           "framing": "INSERT, ground level",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "A real skid: the wheels lock, the car slides and scrubs off its speed, the nose dips and settles back"
+          "note": "A real skid: the wheels lock, the car slides and scrubs off its speed, the nose dips and settles back",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH080.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH090",
@@ -894,7 +926,11 @@
           "framing": "MEDIUM CLOSE, through the windshield",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "The car stands a few meters from the towers, facing the gap"
+          "note": "The car stands a few meters from the towers, facing the gap",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH090.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH100",
@@ -904,7 +940,11 @@
           "framing": "POV",
           "movement": "Dolly zoom",
           "duration_s": 4,
-          "note": "Vertigo effect: the gap keeps its size, the road stretches. Through the gap the main road runs on and on, no end in sight"
+          "note": "Vertigo effect: the gap keeps its size, the road stretches. Through the gap the main road runs on and on, no end in sight",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH100.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH110",
@@ -914,7 +954,11 @@
           "framing": "CLOSE, from the passenger seat, low, below his shoulder",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "One generation with SH130: he leans forward over the wheel and looks left, then right"
+          "note": "One generation with SH130: he leans forward over the wheel and looks left, then right",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH110.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH120",
@@ -924,7 +968,11 @@
           "framing": "POV, from inside the car, through the windshield, looking left",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The windshield frame and the dashboard edge in frame. The side of the town: the towers a few meters away, running off to the left"
+          "note": "The windshield frame and the dashboard edge in frame. The side of the town: the towers a few meters away, running off to the left",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH120.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH130",
@@ -934,7 +982,11 @@
           "framing": "CLOSE, same frame as SH110",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The second half of the SH110 take"
+          "note": "The second half of the SH110 take",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH130.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH140",
@@ -944,7 +996,11 @@
           "framing": "POV, from inside the car, through the windshield, looking right, past the briefcase",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The windshield frame in frame. The only way is through"
+          "note": "The windshield frame in frame. The only way is through",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH140.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH150",
@@ -964,7 +1020,11 @@
           "framing": "CLOSE, same frame as SH110",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH160.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH170",
@@ -984,7 +1044,11 @@
           "framing": "CLOSE",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH180.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH190",
@@ -1004,7 +1068,11 @@
           "framing": "WIDE, from behind the car",
           "movement": "Locked-off",
           "duration_s": 5,
-          "note": "He goes in first seen from behind"
+          "note": "He goes in first seen from behind",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S02_SH200.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1020,7 +1088,11 @@
           "framing": "WIDE, side view, from the far side of the street",
           "movement": "Dolly alongside the car, long lens, flat",
           "duration_s": 6,
-          "note": "The car moves left to right, like his walk into the side streets. Nobody outside: too hot"
+          "note": "The car moves left to right, like his walk into the side streets. Nobody outside: too hot",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S03_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1030,7 +1102,11 @@
           "framing": "CLOSE, passenger side",
           "movement": "Mounted on the car: the street slides past behind him",
           "duration_s": 8,
-          "note": "He drives, eyes locked on the road, and mumbles to himself"
+          "note": "He drives, eyes locked on the road, and mumbles to himself",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S03_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -1040,7 +1116,11 @@
           "framing": "GROUND LEVEL",
           "movement": "Locked-off",
           "duration_s": 7,
-          "note": "Let it linger"
+          "note": "Let it linger",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S03_SH030.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH040",
@@ -1060,7 +1140,11 @@
           "framing": "EXTREME WIDE, high, from a balcony across the crossroads",
           "movement": "Locked-off, a slight handheld drift",
           "duration_s": 14,
-          "note": "Someone on a balcony, smoking: the railing edge and the drifting smoke at the far left of frame, no face, never over the car. The car stays here: it is seen again only far off in S09 SH110 and in S10. He steps around the open door, never through it"
+          "note": "Someone on a balcony, smoking: the railing edge and the drifting smoke at the far left of frame, no face, never over the car. The car stays here: it is seen again only far off in S09 SH110 and in S10. He steps around the open door, never through it",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S03_SH050.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1076,7 +1160,11 @@
           "framing": "MEDIUM",
           "movement": "Handheld, tracking beside him",
           "duration_s": 4,
-          "note": "Nobody in the streets: too hot. He moves left to right. His walk is written in the prompt, not copied from the animatic. PROPOSED: a man used to being driven, short quick steps, shoulders up, trying to be silent"
+          "note": "Nobody in the streets: too hot. He moves left to right. His walk is written in the prompt, not copied from the animatic. PROPOSED: a man used to being driven, short quick steps, shoulders up, trying to be silent",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1106,7 +1194,11 @@
           "framing": "WIDE, long lens",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "The only people outside in the whole town"
+          "note": "The only people outside in the whole town",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH040.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH050",
@@ -1116,7 +1208,11 @@
           "framing": "MEDIUM, long lens",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "Every head fully in frame"
+          "note": "Every head fully in frame",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH050.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH060",
@@ -1126,7 +1222,11 @@
           "framing": "CLOSE",
           "movement": "Handheld, tracking beside him",
           "duration_s": 5,
-          "note": "The fat person enters the frame only at the impact, from nowhere"
+          "note": "The fat person enters the frame only at the impact, from nowhere",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH060.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH070",
@@ -1136,7 +1236,11 @@
           "framing": "HIGH, looking down on him, the same angle as SH090",
           "movement": "Handheld",
           "duration_s": 3,
-          "note": "One setup for the fall and the lines that follow; his head stays in frame through the fall"
+          "note": "One setup for the fall and the lines that follow; his head stays in frame through the fall",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH070.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH080",
@@ -1146,7 +1250,11 @@
           "framing": "LOW, from the ground, looking up at him",
           "movement": "Handheld",
           "duration_s": 4,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH080.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH090",
@@ -1156,7 +1264,11 @@
           "framing": "HIGH, looking down on him",
           "movement": "Handheld",
           "duration_s": 5,
-          "note": "Same side of the line as SH070"
+          "note": "Same side of the line as SH070",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH090.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH100",
@@ -1166,7 +1278,11 @@
           "framing": "LOW, from his eyes on the ground",
           "movement": "Handheld",
           "duration_s": 7,
-          "note": "Close to his point of view. The friend behind holds a phone: he films, then types with both thumbs"
+          "note": "Close to his point of view. The friend behind holds a phone: he films, then types with both thumbs",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH100.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH110",
@@ -1176,7 +1292,11 @@
           "framing": "CLOSE, over the old man's shoulder",
           "movement": "Handheld, tight",
           "duration_s": 5,
-          "note": "The two close together, a deep street behind them, out of focus. Eyelines for SH110 to SH140: the old man screen left looking right, the fat person screen right looking left, as at the bump"
+          "note": "The two close together, a deep street behind them, out of focus. Eyelines for SH110 to SH140: the old man screen left looking right, the fat person screen right looking left, as at the bump",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH110.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH120",
@@ -1186,7 +1306,11 @@
           "framing": "CLOSE, the old man",
           "movement": "Handheld, tight",
           "duration_s": 6,
-          "note": "The framing of d9 SH120, on the old man. The fat person speaks off screen, from the camera side"
+          "note": "The framing of d9 SH120, on the old man. The fat person speaks off screen, from the camera side",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH120.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH130",
@@ -1196,7 +1320,11 @@
           "framing": "WIDE, low",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The watchers are there from the first frame: nobody appears"
+          "note": "The watchers are there from the first frame: nobody appears",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH130.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH135",
@@ -1206,7 +1334,11 @@
           "framing": "OVER THE SHOULDER of the fat person, on the old man",
           "movement": "Handheld",
           "duration_s": 3,
-          "note": "Polite, almost apologetic: no violence. Coverage of the slide in SH140"
+          "note": "Polite, almost apologetic: no violence. Coverage of the slide in SH140",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH135.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH140",
@@ -1216,7 +1348,11 @@
           "framing": "CLOSE, same angle as SH110",
           "movement": "Handheld",
           "duration_s": 4,
-          "note": "No violence. From here he runs right to left: back the way he came"
+          "note": "No violence. From here he runs right to left: back the way he came",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S04_SH140.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1232,7 +1368,11 @@
           "framing": "MEDIUM",
           "movement": "Handheld, backing in front of him",
           "duration_s": 3,
-          "note": "Variation in the voices"
+          "note": "Variation in the voices",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1242,7 +1382,11 @@
           "framing": "TOP VIEW, high",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Nobody pops into frame: they come out of doorways and side streets, each at his own pace. They move slowly around him; only the distant ones speed up at the very end, never the close ones"
+          "note": "Nobody pops into frame: they come out of doorways and side streets, each at his own pace. They move slowly around him; only the distant ones speed up at the very end, never the close ones",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -1252,7 +1396,11 @@
           "framing": "CLOSE",
           "movement": "Handheld, running",
           "duration_s": 5,
-          "note": "The street behind him out of focus. Nobody moves in step: every person at his own speed. The phone held right, against his ear. PROPOSED: the line"
+          "note": "The street behind him out of focus. Nobody moves in step: every person at his own speed. The phone held right, against his ear. PROPOSED: the line",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH030.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH070",
@@ -1272,7 +1420,11 @@
           "framing": "CLOSE, same frame as SH030, closer",
           "movement": "Handheld, running, more shake",
           "duration_s": 6,
-          "note": "The rock hits his right eyebrow, hard: his head snaps, he drops to the ground. The blood comes from here"
+          "note": "The rock hits his right eyebrow, hard: his head snaps, he drops to the ground. The blood comes from here",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH080.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH090",
@@ -1282,7 +1434,11 @@
           "framing": "LOW, ground level",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The case arrives at speed, with momentum. He falls into frame beside it. SH080 and SH090 cover the same fall from two angles: the edit uses it once"
+          "note": "The case arrives at speed, with momentum. He falls into frame beside it. SH080 and SH090 cover the same fall from two angles: the edit uses it once",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH090.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH110",
@@ -1292,7 +1448,11 @@
           "framing": "MEDIUM WIDE, low",
           "movement": "Handheld",
           "duration_s": 3,
-          "note": "Prop: the bond (prop-bearer-bond.webp), readable on the sheet that tumbles past the lens: moved here from the cut SH100"
+          "note": "Prop: the bond (prop-bearer-bond.webp), readable on the sheet that tumbles past the lens: moved here from the cut SH100",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH110.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH120",
@@ -1302,7 +1462,11 @@
           "framing": "CLOSE",
           "movement": "Handheld",
           "duration_s": 3,
-          "note": "ELEMENT from here: old man B (blood)"
+          "note": "ELEMENT from here: old man B (blood)",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH120.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH130",
@@ -1312,7 +1476,11 @@
           "framing": "POV",
           "movement": "Handheld",
           "duration_s": 4,
-          "note": "Everyone keeps coming: nobody turns away"
+          "note": "Everyone keeps coming: nobody turns away",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH130.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH140",
@@ -1322,7 +1490,11 @@
           "framing": "WIDE",
           "movement": "Locked-off",
           "duration_s": 6,
-          "note": "The corner of the square, under the tall street light, beside the sidewalk. The crowd is already moving in when the shot starts, slowly, each at a different speed. Gun: shot 1 of 8, into the air. On the shot everyone flinches; some run at once, others later"
+          "note": "The corner of the square, under the tall street light, beside the sidewalk. The crowd is already moving in when the shot starts, slowly, each at a different speed. Gun: shot 1 of 8, into the air. On the shot everyone flinches; some run at once, others later",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S05_SH140.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1338,7 +1510,11 @@
           "framing": "MEDIUM, frontal, from the crowd's side",
           "movement": "Handheld",
           "duration_s": 6,
-          "note": "He stands from S05 SH120 until the wave in SH060. The gun aims along his extended right arm at the crowd in front of him. A wall a few steps behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun"
+          "note": "He stands from S05 SH120 until the wave in SH060. The gun aims along his extended right arm at the crowd in front of him. A wall a few steps behind him: trapped. The street light beside him, never between him and the camera. Gun: Walther PPK/S, nickel, 7 in the magazine + 1 chambered = 8. In prompts: a toy gun",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1348,7 +1524,11 @@
           "framing": "THIRD PERSON, behind him, over his shoulder",
           "movement": "Handheld, close behind him, turning with him as he aims",
           "duration_s": 12,
-          "note": "Like a third-person action game. The gun aims along his extended right arm at each runner he shoots. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film"
+          "note": "Like a third-person action game. The gun aims along his extended right arm at each runner he shoots. Shots 2 to 6 of 8. The crowd reacts, nobody stands still: some run, some creep forward very slowly, some crouch, some panic. Every man he hits drops where he is, each in a different spot, and stays there for the rest of the film",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH025",
@@ -1358,7 +1538,11 @@
           "framing": "INSERT, the gun",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": "Coverage for the edit: the same shots"
+          "note": "Coverage for the edit: the same shots",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH025.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -1368,7 +1552,11 @@
           "framing": "WIDE, side view",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "The look of d9 SH020: him screen left, the crowd screen right. Never in step: one after another. The two runners are the men shot on the count in SH040. The dead lie where they fell"
+          "note": "The look of d9 SH020: him screen left, the crowd screen right. Never in step: one after another. The two runners are the men shot on the count in SH040. The dead lie where they fell",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH030.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH040",
@@ -1378,7 +1566,11 @@
           "framing": "EXTREME CLOSE, his lips, from the side",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "The lens very close to his mouth, much more to the side. Faster. One shot. Shots 7 and 8 of 8, off screen, on \"three\" and \"two\". At \"one\" he believes one is left, for himself. The magazine is empty"
+          "note": "The lens very close to his mouth, much more to the side. Faster. One shot. Shots 7 and 8 of 8, off screen, on \"three\" and \"two\". At \"one\" he believes one is left, for himself. The magazine is empty",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH040.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH050",
@@ -1388,7 +1580,11 @@
           "framing": "CLOSE, his face, fully frontal",
           "movement": "Locked-off",
           "duration_s": 6,
-          "note": "The gun held right: muzzle at the temple. The PPK/S slide is locked open: nothing fires. The sound slams back in when he sees it"
+          "note": "The gun held right: muzzle at the temple. The PPK/S slide is locked open: nothing fires. The sound slams back in when he sees it",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH050.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH060",
@@ -1398,7 +1594,11 @@
           "framing": "WIDE, side view",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Seedance: the crowd moves as one body. Same side as SH030: him screen left, the crowd screen right"
+          "note": "Seedance: the crowd moves as one body. Same side as SH030: him screen left, the crowd screen right",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S06_SH060.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1414,7 +1614,11 @@
           "framing": "EXTREME WIDE, high",
           "movement": "Locked-off",
           "duration_s": 5,
-          "note": "Many more people, spread all around. The dead stay where they fell"
+          "note": "Many more people, spread all around. The dead stay where they fell",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1424,7 +1628,11 @@
           "framing": "INSERT",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -1434,7 +1642,11 @@
           "framing": "MEDIUM WIDE, 3 m away, the crowd between him and the camera",
           "movement": "Handheld",
           "duration_s": 6,
-          "note": "He hangs beside the sidewalk. Simulated: a body hauled up by one ankle, heavy, nothing elastic"
+          "note": "He hangs beside the sidewalk. Simulated: a body hauled up by one ankle, heavy, nothing elastic",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH030.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH040",
@@ -1444,7 +1656,11 @@
           "framing": "CLOSE, upside down, the front of his face",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": "He moves, panicked: never static. The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C"
+          "note": "He moves, panicked: never static. The free leg hangs bent forward, never out to the side. Not exaggerated. ELEMENT: old man C",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH040.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH050",
@@ -1454,7 +1670,11 @@
           "framing": "POV, upside down",
           "movement": "Locked-off",
           "duration_s": 5,
-          "note": "The fat person from S04. Both hands on the pipe. The wind-up and the swing must read clearly: a slow lift, a hold, a hard swing"
+          "note": "The fat person from S04. Both hands on the pipe. The wind-up and the swing must read clearly: a slow lift, a hold, a hard swing",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH050.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH060",
@@ -1464,7 +1684,11 @@
           "framing": "CLOSE",
           "movement": "Handheld",
           "duration_s": 2,
-          "note": "The pipe rebounds off the arm, like real physics"
+          "note": "The pipe rebounds off the arm, like real physics",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH060.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH070",
@@ -1474,7 +1698,11 @@
           "framing": "LOW, close on the fat person alone, the sky behind him",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Like a finishing shot: only him, the pipe and the sky. SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post"
+          "note": "Like a finishing shot: only him, the pipe and the sky. SH070 and SH080 are two angles of the same kill, chosen in the edit. Gore: Seedance may refuse it; fallback, a composite in post",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH070.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH080",
@@ -1484,7 +1712,11 @@
           "framing": "WIDE, high above and in front of him",
           "movement": "Locked-off",
           "duration_s": 5,
-          "note": "The crowd spread all around, the dead where they fell"
+          "note": "The crowd spread all around, the dead where they fell",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S07_SH080.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1500,7 +1732,11 @@
           "framing": "EXTREME WIDE, long lens",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Tone shift: Clancy, a hint of Kojima. Sikorsky UH-60 Black Hawk, matte black, unmarked, bare military cabin (sliding doors) (Leonard, 2026-11-17). Far enough to stay unheard under the crowd. From far, not from below: buildings around it"
+          "note": "Tone shift: Clancy, a hint of Kojima. Sikorsky UH-60 Black Hawk, matte black, unmarked, bare military cabin (sliding doors) (Leonard, 2026-11-17). Far enough to stay unheard under the crowd. From far, not from below: buildings around it",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1510,7 +1746,11 @@
           "framing": "CLOSE, inside the cabin, a step further back",
           "movement": "Handheld, a slow drift, cabin vibration",
           "duration_s": 4,
-          "note": "Left: Roger's face. Center: the lady in the front seat beside the pilot. Right: the front half of the rifle, clearly a rifle, running out of frame, held a little lower"
+          "note": "Left: Roger's face. Center: the lady in the front seat beside the pilot. Right: the front half of the rifle, clearly a rifle, running out of frame, held a little lower",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -1520,7 +1760,11 @@
           "framing": "SCOPE POV",
           "movement": "Steady, stabilized",
           "duration_s": 4,
-          "note": "Staged in 3D in the animatic, from the helicopter's real position, so Seedance gets the angle"
+          "note": "Staged in 3D in the animatic, from the helicopter's real position, so Seedance gets the angle",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH030.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH040",
@@ -1530,7 +1774,11 @@
           "framing": "WIDE, from the street, long lens",
           "movement": "Locked-off",
           "duration_s": 7,
-          "note": "Distance and dust: nothing explicit. One shot every two seconds, three dead. The dead stay where they fell"
+          "note": "Distance and dust: nothing explicit. One shot every two seconds, three dead. The dead stay where they fell",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH040.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH050",
@@ -1540,7 +1788,11 @@
           "framing": "CLOSE, same setup as SH020",
           "movement": "Handheld, a slow drift, cabin vibration",
           "duration_s": 3,
-          "note": "She turns over her right shoulder"
+          "note": "She turns over her right shoulder",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH050.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH060",
@@ -1550,7 +1802,11 @@
           "framing": "CLOSE",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH060.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH070",
@@ -1570,7 +1826,11 @@
           "framing": "CLOSE, the rope",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S08_SH080.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1586,7 +1846,11 @@
           "framing": "MEDIUM CLOSE, camera almost on the ground across the street, long lens",
           "movement": "Locked-off",
           "duration_s": 18,
-          "note": "One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. When he leans back: slouched and loose, the spine curved, one knee up, one leg out, elbows on the sidewalk (pose: look/pose_ref_s09_sh010.webp). ELEMENT: old man D (stain)"
+          "note": "One take. He faces the camera while he shakes. Nothing floats: shoulder, hip and elbows on the asphalt and the curb. The body next to him is the fat person; in prompts, a sleeping man. When he leans back: slouched and loose, the spine curved, one knee up, one leg out, elbows on the sidewalk (pose: look/pose_ref_s09_sh010.webp). ELEMENT: old man D (stain)",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH010.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH020",
@@ -1596,7 +1860,11 @@
           "framing": "LOW, the briefcase in the foreground, him far",
           "movement": "Locked-off",
           "duration_s": 13,
-          "note": "The briefcase lies flat in the street where it fell; the square opens behind him. Real rotor wash: the sheets are torn off the asphalt and tumble fast in gusts, nothing floats. A slow limp; the case lies closer to him. Seedance does the wind and the paper"
+          "note": "The briefcase lies flat in the street where it fell; the square opens behind him. Real rotor wash: the sheets are torn off the asphalt and tumble fast in gusts, nothing floats. A slow limp; the case lies closer to him. Seedance does the wind and the paper",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH020.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH030",
@@ -1616,7 +1884,11 @@
           "framing": "WIDE",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "She stays near the helicopter: he goes to her"
+          "note": "She stays near the helicopter: he goes to her",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH040.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH050",
@@ -1626,7 +1898,11 @@
           "framing": "MEDIUM, him, over her shoulders",
           "movement": "Locked-off",
           "duration_s": 6,
-          "note": "Her back to the camera. One side of the line for SH050 to SH120: her screen left looking right, him screen right looking left. A slow limp; the folder held low, at his chest"
+          "note": "Her back to the camera. One side of the line for SH050 to SH120: her screen left looking right, him screen right looking left. A slow limp; the folder held low, at his chest",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH050.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH060",
@@ -1636,7 +1912,11 @@
           "framing": "CLOSE, her, the helicopter behind her",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Her silence is the answer. The folder low, at her chest, her face clear. One generation with SH080, split in the edit"
+          "note": "Her silence is the answer. The folder low, at her chest, her face clear. One generation with SH080, split in the edit",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH060.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH070",
@@ -1656,7 +1936,11 @@
           "framing": "CLOSE, her",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Starts on her looking up. One generation with SH060"
+          "note": "Starts on her looking up. One generation with SH060",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH080.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH090",
@@ -1666,7 +1950,11 @@
           "framing": "CLOSE, him",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": ""
+          "note": "",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH090.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH100",
@@ -1676,7 +1964,11 @@
           "framing": "CLOSE, her, same frame as SH080",
           "movement": "Locked-off, rack focus",
           "duration_s": 7,
-          "note": "He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. On his line he turns only halfway, away from her: he never faces her. He ends in profile, his face toward frame left, chin up at the street. One generation with SH120"
+          "note": "He in focus at the door, she soft in the foreground; the focus pulls to her on the line. He stays in frame to the end. On his line he turns only halfway, away from her: he never faces her. He ends in profile, his face toward frame left, chin up at the street. One generation with SH120",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH100.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH110",
@@ -1686,7 +1978,11 @@
           "framing": "HER POV, WIDE",
           "movement": "Locked-off",
           "duration_s": 3,
-          "note": "Distance: no wounds in frame. A full background: more buildings, his car far off at the crossroads, a few people hiding behind cover, dusty gusts. The animatic leaves the paper still: Seedance moves it"
+          "note": "Distance: no wounds in frame. A full background: more buildings, his car far off at the crossroads, a few people hiding behind cover, dusty gusts. The animatic leaves the paper still: Seedance moves it",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH110.mp4",
+            "draft": "d11"
+          }
         },
         {
           "id": "SH120",
@@ -1696,7 +1992,11 @@
           "framing": "CLOSE, her face, same frame as SH100",
           "movement": "Locked-off",
           "duration_s": 6,
-          "note": "She looks past the lens at the money. One generation with SH100"
+          "note": "She looks past the lens at the money. One generation with SH100",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S09_SH120.mp4",
+            "draft": "d11"
+          }
         }
       ]
     },
@@ -1712,7 +2012,11 @@
           "framing": "MEDIUM, from inside the car, through the windshield",
           "movement": "Holds, then a slow pedestal down, a little lower at the end",
           "duration_s": 20,
-          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks and turns away, closest to the camera in the turn: a reckless pilot flying it perfectly, real helicopter flight, heavy, slow and smooth, a big machine ([ASSUMPTION] the white ACH160 of S08, flown heavy: Leonard wrote \"a black hawk\"; no military helicopter in prompts until he confirms). As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. At the end the camera is low enough for the whole bobblehead; hold the composition while the helicopter shrinks to a speck and melts into the haze over the horizon"
+          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks and turns away, closest to the camera in the turn: a reckless pilot flying it perfectly, real helicopter flight, heavy, slow and smooth, a big machine ([ASSUMPTION] the white ACH160 of S08, flown heavy: Leonard wrote \"a black hawk\"; no military helicopter in prompts until he confirms). As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. At the end the camera is low enough for the whole bobblehead; hold the composition while the helicopter shrinks to a speck and melts into the haze over the horizon",
+          "animatic": {
+            "file": "05-generation/animatic/d11/S10_SH010.mp4",
+            "draft": "d11"
+          }
         }
       ]
     }
