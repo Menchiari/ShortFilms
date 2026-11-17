@@ -70,9 +70,9 @@
                 "char_politician a7601ce4 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 014. Higgsfield folder S01/SH010. Passed first submission. Downloaded to takes/S01/. Claude's read: far more going on: red flares, a man on a traffic light pole, a burning bin; signs vary (horns, red X eyes, a clown caricature, different photos of him). Some cardboard shows fake lettering. The noose collage is not visible in the frames I checked."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 014. Higgsfield folder S01/SH010. Passed first submission. Downloaded to takes/S01/. Claude's read: far more going on: red flares, a man on a traffic light pole, a burning bin; signs vary (horns, red X eyes, a clown caricature, different photos of him). Some cardboard shows fake lettering. The noose collage is not visible in the frames I checked. Leonard 2026-11-17: signs too near the camera, spread them out. T04."
             }
           ],
           "description": "A crowd fills an avenue from wall to wall. Above the heads, signs with the same old face: devil horns drawn on, the eyes crossed out in red, one printout of him photoshopped hanging from a noose.",
@@ -146,9 +146,9 @@
                 "edit of SH020 T02 (07ce40ca)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 014. Higgsfield folder S01/SH020. Passed first submission. Downloaded to takes/S01/. Claude's read: digital red LED display, worker and ladder gone, 194 changes to 589, DIESEL 631. The decimal points are missing (reads 194, not 1.94): a dot can be added in post."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 014. Higgsfield folder S01/SH020. Passed first submission. Downloaded to takes/S01/. Claude's read: digital red LED display, worker and ladder gone, 194 changes to 589, DIESEL 631. The decimal points are missing (reads 194, not 1.94): a dot can be added in post. Leonard 2026-11-17: NO. Use the reference sign photo, exact numbers; nothing mechanical: the worker slides one last panel; absurdly high prices; rows Regular, Plus, Supreme (not Plus twice). T04: start and end stills with the exact prices, then the video between them."
             }
           ],
           "description": "A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars. Nobody honks.",
@@ -286,7 +286,7 @@
         },
         {
           "id": "SH050",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -328,9 +328,9 @@
                 "edit of SH050 T01 (cb9617e4)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 014. Higgsfield folder S01/SH050. Passed first submission. Downloaded to takes/S01/. Claude's read: RESHAPING THE FUTURE spelled right on a blue band, burns off with the paper."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 014. Higgsfield folder S01/SH050. Passed first submission. Downloaded to takes/S01/. Claude's read: RESHAPING THE FUTURE spelled right on a blue band, burns off with the paper. Leonard 2026-11-17: works."
             }
           ],
           "description": "A billboard of his smiling face burns, the paper curling off in sheets.",
@@ -341,7 +341,7 @@
         },
         {
           "id": "SH060",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -381,9 +381,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 014. Higgsfield folder S01/SH060. Passed first submission. Downloaded to takes/S01/. Claude's read: angry from the first frame (poles raised against the shields), the bottle bursts, the camera jolts, then people doing different things, a shield on the ground, fires on the asphalt."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 014. Higgsfield folder S01/SH060. Passed first submission. Downloaded to takes/S01/. Claude's read: angry from the first frame (poles raised against the shields), the bottle bursts, the camera jolts, then people doing different things, a shield on the ground, fires on the asphalt. Leonard 2026-11-17: works."
             }
           ],
           "description": "A wall of riot shields. A bottle of fire bursts against it. Flames run down the shields. The line breaks.",
@@ -394,7 +394,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -497,9 +497,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 014. Higgsfield folder S01/SH070. Passed first submission. Downloaded to takes/S01/. Claude's read: three full lanes, not four; empty lanes on both sides of the jam; all facing away, standing still, four people outside, suburbs and brown hills ahead."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 014. Higgsfield folder S01/SH070. Passed first submission. Downloaded to takes/S01/. Claude's read: three full lanes, not four; empty lanes on both sides of the jam; all facing away, standing still, four people outside, suburbs and brown hills ahead. Leonard 2026-11-17: works."
             }
           ],
           "description": "A highway out of a city, jammed. Mattresses tied on car roofs.",
@@ -574,7 +574,7 @@
         },
         {
           "id": "SH100",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -656,9 +656,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 014. Higgsfield folder S01/SH100. Passed first submission. Downloaded to takes/S01/. Claude's read: no grille on the windshield, the bottle sets the cab and hood on fire; the woman is right (grey hair, glasses, surgical mask, beige jacket, bag) but the slingshot is yellow again, not white; most of the crowd reads East Asian."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 014. Higgsfield folder S01/SH100. Passed first submission. Downloaded to takes/S01/. Claude's read: no grille on the windshield, the bottle sets the cab and hood on fire; the woman is right (grey hair, glasses, surgical mask, beige jacket, bag) but the slingshot is yellow again, not white; most of the crowd reads East Asian. Leonard 2026-11-17: works."
             }
           ],
           "description": "A police truck stands abandoned, windows smashed. A bottle sails through the broken windshield. Fire fills the cab.",
