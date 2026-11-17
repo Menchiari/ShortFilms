@@ -1,0 +1,14 @@
+S03 SH050 start frame v3, REQUEST 050c (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+Image 1 = the REQUEST 050b frame (job 39b69882). Leonard 2026-11-17: he should be on a balcony, only on the left side.
+
+Prompt:
+
+Image 1 is the frame: keep it exactly as it is, the same camera, framing, street, buildings, car, its position and shadow, light, haze and color, and the same man in the white sleeveless undershirt with his cigarette. Change only the railing.
+
+The man stands on his own small balcony at the far left edge of the frame: a small concrete balcony slab jutting out from the building wall on the left, with an old rusty metal railing around it, and he leans on that railing on his forearms, looking down at the street. His balcony and its railing are only on the left side of the frame, ending just to the right of his elbow.
+
+Remove the long metal railing that runs across the bottom of the frame: from his balcony to the right edge, the bottom of the frame shows only the open drop and the street far below, nothing in the foreground. The camera is in the air beside his balcony, looking down at the crossroads.
+
+Count of people: one, the man on the balcony. Count of cars: one.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.
