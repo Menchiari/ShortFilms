@@ -113,7 +113,7 @@
     "release": "todo"
   },
   "higgsfield": {
-    "workspace_id": "",
+    "workspace_id": "3d8348de-0720-4519-9f26-435e8f2c5bd0",
     "project_id": "37733499-03c4-4405-8dee-fea3a2d3b96e",
     "folders": {
       "REFS": "7632ec77-b35c-49fd-9273-f78302b2d543",
@@ -130,7 +130,11 @@
       "S01/SH090": "831b75a9-7c4f-4b83-9223-28aaf34d196f",
       "S01/SH100": "36ee7aeb-fa59-4a42-8637-125ad2be387d",
       "S01/SH110": "bc4e420a-586d-4e3a-8c9f-c86e020c5931",
-      "S01/SH120": "64936a0f-3786-4ca3-abc6-347c215f708f"
+      "S01/SH120": "64936a0f-3786-4ca3-abc6-347c215f708f",
+      "S02": "85c74305-2755-4124-a32b-561d162a5a59",
+      "S02/SH010": "78de1b61-9708-4c53-8ff4-e9ace7c092f6",
+      "S02/SH060": "b853772d-c55f-424c-a999-214445b3e156",
+      "S02/SH090": "d69e487c-9326-442c-910d-df2aba26e14b"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -253,6 +257,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 014 approved (105 credits) and submitted: S01 SH010 T03 08ec040c-0633-4548-9dff-153f18770d7a, SH020 T03 (edit of T02) d9990f39-b8dc-4d00-94f4-3dd12bdd682c, SH050 T02 (edit of T01) fd97bfbf-e697-45af-86c8-5d431a57855a, SH060 T02 13416e9e-1c84-4215-ba03-f87db37e333d, SH070 T05 07c6dca2-439f-45e6-bfc7-1ce112ff0cbe, SH100 T04 b3741589-d64f-45ce-8d01-60f6a160e928."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 015a approved (84 credits): S02 T01 at 720p, 21:9, the first three: SH010 596e4e95-94ae-4106-b2dc-02b47f712e27, SH060+SH070 ad946a4a-6a54-453d-b210-ee0c8570450c, SH090 82067eb1-2d23-4139-9801-9f0a35f4e63b. S02 moves to 720p (Leonard)."
     }
   ],
   "story_sync": {
