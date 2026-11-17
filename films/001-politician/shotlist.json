@@ -1770,9 +1770,9 @@
                 "Leonard's start frame v3 (c4e65b4b, start_image, in REFS): 05-generation/frames/001_S03_SH020_T02_start_v3.jpg"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 020f, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s, not heard): the framing shifts between frames (his head moves around in frame, the frame edges change), so the camera does move; mouth open in several frames from about 2 s to 6 s; the slam lunge at about 6 s."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 020f, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s, not heard): the framing shifts between frames (his head moves around in frame, the frame edges change), so the camera does move; mouth open in several frames from about 2 s to 6 s; the slam lunge at about 6 s. Leonard: better, but he still talks too much. T05: the whispered line removed, silent until the angry line at 6 s."
             }
           ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
