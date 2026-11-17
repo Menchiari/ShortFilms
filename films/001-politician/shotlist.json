@@ -47,9 +47,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Same prompt resubmitted after the filter block (Leonard 2026-11-16: retry blocked jobs, max 10, one at a time after the refund). Passed first retry. Downloaded as takes/S01/SH010/001_S01_SH010_T02.mp4."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "Same prompt resubmitted after the filter block (Leonard 2026-11-16: retry blocked jobs, max 10, one at a time after the refund). Passed first retry. Downloaded as takes/S01/SH010/001_S01_SH010_T02.mp4. Leonard 2026-11-17: too clean, the signs are all the same, wrong. T03: more signs, more chaos, every sign different."
             }
           ],
           "description": "A crowd fills an avenue from wall to wall. Above the heads, signs with the same old face: devil horns drawn on, the eyes crossed out in red, one printout of him photoshopped hanging from a noose.",
@@ -100,9 +100,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 010. Folder S01/SH020. Passed first submission. Downloaded to takes/S01/."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 010. Folder S01/SH020. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: nothing mechanical about these signs: digital, or a worker placing the last magnetic digit. T03: edit of T02 into a digital LED display."
             }
           ],
           "description": "A gas station. A worker on a ladder pulls 1.94 off the price board and slides in 5.89. Under it, DIESEL already reads 6.31. A line of cars. Nobody honks.",
@@ -113,7 +113,7 @@
         },
         {
           "id": "SH030",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -195,9 +195,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 009. Folder S01/SH030. Queued about 40 minutes, passed first submission. Downloaded to takes/S01/."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 009. Folder S01/SH030. Queued about 40 minutes, passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: ok, leave it."
             }
           ],
           "description": "A police line. Hands pull a POLICEMAN into the crowd by his vest. Another officer drags him back. A pistol rises above the heads and fires. The police fire back. Everyone scatters.",
@@ -208,7 +208,7 @@
         },
         {
           "id": "SH040",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -227,9 +227,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 005. Higgsfield folder S01/SH040. Passed first submission. Downloaded to takes/S01/."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH040. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: works."
             }
           ],
           "description": "A cardboard sign. His face. A red X over each eye.",
@@ -259,9 +259,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 007. Folder S01/SH050. Passed first submission. Downloaded to takes/S01/."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 007. Folder S01/SH050. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: should say something like \"reshaping the future\". T02: edit of T01 adding the slogan."
             }
           ],
           "description": "A billboard of his smiling face burns, the paper curling off in sheets.",
@@ -291,9 +291,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 005. Higgsfield folder S01/SH060. Passed first submission. Downloaded to takes/S01/."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH060. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: more chaos; already angry, not all starting to run together; camera shake after the molotov, then people doing different things. T02."
             }
           ],
           "description": "A wall of riot shields. A bottle of fire bursts against it. Flames run down the shields. The line breaks.",
@@ -386,9 +386,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 010. Folder S01/SH070. Passed first submission. Downloaded to takes/S01/."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 010. Folder S01/SH070. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: still only 2 lanes; 3 to 5 lanes, 4 is great, keeping every earlier instruction. T05: each row described as four vehicles side by side."
             }
           ],
           "description": "A highway out of a city, jammed. Mattresses tied on car roofs.",
@@ -399,7 +399,7 @@
         },
         {
           "id": "SH080",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -418,9 +418,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 005. Higgsfield folder S01/SH080. Passed first submission. Downloaded to takes/S01/."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH080. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: works."
             }
           ],
           "description": "A tear gas canister skids across the asphalt, spinning, pouring white smoke. Feet run past it.",
@@ -431,7 +431,7 @@
         },
         {
           "id": "SH090",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -450,9 +450,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 005. Higgsfield folder S01/SH090. Passed first submission. Downloaded to takes/S01/."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 005. Higgsfield folder S01/SH090. Passed first submission. Downloaded to takes/S01/. Leonard 2026-11-17: works."
             }
           ],
           "description": "A child's face at a car window.",
@@ -463,7 +463,7 @@
         },
         {
           "id": "SH100",
-          "status": "approved",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -502,10 +502,10 @@
               "preview": "",
               "poster": "05-generation/web/001_S01_SH100_T02.jpg",
               "references": [],
-              "love": true,
-              "rating": 5,
+              "love": false,
+              "rating": 3,
               "rating_source": "inferred",
-              "notes": "REQUEST 006. Folder S01/SH100. Queued about 45 minutes at Higgsfield, passed first submission. Downloaded to takes/S01/. Leonard: works amazing, too short. T03: forward extension."
+              "notes": "REQUEST 006. Folder S01/SH100. Queued about 45 minutes at Higgsfield, passed first submission. Downloaded to takes/S01/. Leonard: works amazing, too short. T03: forward extension. Leonard 2026-11-17: many things wrong: the bottle passes through the window grille; glass must break and spill; the lady is a babushka stereotype, she becomes an ordinary Korean woman of about 60, surgical mask, glasses, realistic white slingshot. One 10 s take instead of the extension (T04). Love removed by this note."
             },
             {
               "id": "T03",
@@ -524,9 +524,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 008. Folder S01/SH100. Downloaded to takes/S01/."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 008. Folder S01/SH100. Downloaded to takes/S01/. Leonard 2026-11-17: replaced by one 10 s take (T04)."
             }
           ],
           "description": "A police truck stands abandoned, windows smashed. A bottle sails through the broken windshield. Fire fills the cab.",
@@ -537,7 +537,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -579,7 +579,7 @@
               "love": false,
               "rating": 5,
               "rating_source": "inferred",
-              "notes": "REQUEST 006. Folder S01/SH110. Passed first submission. Downloaded to takes/S01/. Leonard: great."
+              "notes": "REQUEST 006. Folder S01/SH110. Passed first submission. Downloaded to takes/S01/. Leonard: great. Leonard 2026-11-17: ok."
             }
           ],
           "description": "Sunset. A skyline under columns of smoke. Sirens far away.",
@@ -590,7 +590,7 @@
         },
         {
           "id": "SH120",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -609,9 +609,9 @@
               "poster": "",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 007. Folder S01/SH120. Passed first submission. Downloaded to takes/S01/. News graphics to be composited."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 007. Folder S01/SH120. Passed first submission. Downloaded to takes/S01/. News graphics to be composited. Leonard 2026-11-17: ok."
             }
           ],
           "description": "A television behind a cracked shop window. A news channel: a polished logo, a red BREAKING bar, a ticker of red numbers. In the corner, his official portrait: the same old face, clean, smiling. A REPORTER, sexy, every hair in place, on a rooftop with smoke behind her.",

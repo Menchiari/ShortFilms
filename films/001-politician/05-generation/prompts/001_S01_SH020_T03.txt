@@ -1,0 +1,13 @@
+Audio: only idling engines and a distant siren. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Edit the whole clip. Replace the price sign: it becomes a modern digital LED gas price display of the same size, on the same pole, in the same place: a black panel with glowing red seven-segment LED digits, two rows of prices. Remove the worker and the ladder: nobody touches the sign.
+
+0-2s: the top row glows 1.94; the row below glows 6.31, with the small word DIESEL beside it.
+2s: the top row blinks off and lights up 5.89.
+2-4s: the top row reads 5.89, the row below still 6.31. The line of cars waits at the pumps, engines idling. Nobody honks.
+
+Exact text on the display: 1.94, then 5.89 on the top row; DIESEL 6.31 on the row below. Count of price rows: two. No worker, no ladder. No brand, no logo, no currency sign.
+
+Keep the gas station, the canopy, the pumps, the line of waiting cars, the light, the camera and everything else exactly the same.
+
+Audio: only idling engines and a distant siren. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
