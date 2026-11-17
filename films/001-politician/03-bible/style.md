@@ -20,9 +20,9 @@ Format S02 to S10: 21:9, 480p [ASSUMPTION: the tests, the animatic and the locat
 - Inside the car: no artificial light. Faces get the sun through the windows plus warm bounce
   from the dashboard, the seats and the sunlit road. Exposure for the face; windows bright and
   hazy, the outside still readable.
-- The main street runs north [ASSUMPTION: the car reaches the crossroads facing north]: driving
-  it, the sun is on the driver's side, and the gaps between the blocks throw sun and shade across
-  the car in turn.
+- The main street runs north [ASSUMPTION: the car reaches the crossroads facing north], narrow,
+  walled in by tall blocks. In the car (Leonard, 2026-11-17): always in the blocks' shade, a wall
+  always beside him, one street ahead; only the upper floors catch the sun.
 
 ## Camera grammar
 Distance and height to the characters, when the camera moves and when it never does, lens
