@@ -1722,8 +1722,32 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 24.0,
+              "job_id": "52ac6d78-7a2d-46c7-8b61-003bfd2c098e",
+              "prompt": "05-generation/prompts/001_S03_SH020_T01.txt",
+              "file": "05-generation/takes/S03/SH020/001_S03_SH020_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "Leonard's Midjourney start frame, cropped to 21:9 (94b73080, sent as start_image, registered as image reference): 05-generation/frames/001_S03_SH020_T01_start.jpg"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 020a, draft (finalizable at 720p within 7 days). 992x432, 8.06 s. Claude's read (frames and audio levels, not heard): face and wardrobe hold; the frame drifts wider from the first second; the start image was taken as a reference, not an exact first frame; the street blocks slide past; talking from about 1.7 s to 6.9 s, quieter tail from 7 s."
+            }
+          ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
           "framing": "CLOSE, passenger side",
           "movement": "Mounted on the car: the street slides past behind him",
