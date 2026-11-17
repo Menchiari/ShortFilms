@@ -294,7 +294,7 @@
     } else {
       html += '<div class="reels">' + films.map(function (f) {
         return '<a class="reel" href="#/film/' + esc(f.slug) + '">' + frame(f.poster, f.title) +
-          '<div class="reel-body"><div class="label">No. ' + esc(f.id) + (f.format && f.format.aspect ? " / " + esc(f.format.aspect) : "") + "</div>" +
+          '<div class="reel-body"><div class="label">No. ' + esc(f.id) + (f.project && f.project !== f.title ? " / Project " + esc(f.project) : "") + (f.format && f.format.aspect ? " / " + esc(f.format.aspect) : "") + "</div>" +
           "<h2>" + esc(f.title) + "</h2>" +
           (f.logline ? '<p class="logline">' + esc(f.logline) + "</p>" : "") +
           stamp(f.status) + strip(f.strip) + numbers(f.stats, true) + "</div></a>";
@@ -459,7 +459,7 @@
       if (!tabs.some(function (t) { return t[0] === tab; })) tab = "production";
       var fmt = f.format || {};
       app.innerHTML = '<a class="back label" href="#/">&larr; All films</a>' +
-        '<header class="film-head"><div class="label">No. ' + esc(f.id) + "</div><h1>" + esc(f.title) + "</h1>" +
+        '<header class="film-head"><div class="label">No. ' + esc(f.id) + (f.project && f.project !== f.title ? " / Project " + esc(f.project) : "") + "</div><h1>" + esc(f.title) + "</h1>" +
         (f.logline ? '<p class="logline">' + esc(f.logline) + "</p>" : "") +
         '<div class="film-meta">' + stamp(f.status) + '<span class="label">' +
         esc([fmt.aspect, fmt.fps ? fmt.fps + " fps" : "", fmt.resolution].filter(Boolean).join(" / ")) + "</span></div></header>" +

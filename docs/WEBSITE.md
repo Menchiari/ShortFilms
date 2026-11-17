@@ -84,9 +84,14 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 ### Live updates
 
 1. A working branch that changes only `stories/`, `films/` and `films-index.json` is merged into
-   `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes, and the site
-   workflow is started. From push to live: about 2 minutes.
-2. An open page checks `data/site.json` every minute and redraws when a new build is there (never
+   `main` by `.github/workflows/stories-sync.yml` after `filmtool check` passes.
+2. Then `.github/workflows/film-sync.yml` (also on every push to main touching `stories/`) runs
+   `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay
+   and the takes logged in the story's `takes/log.md` (details in the script). It commits the
+   result to main and starts the site deploy whenever the live build is behind main. It always
+   runs main's copy, so a session on an old branch still reaches the site. Push to live: about
+   2 minutes.
+3. An open page checks `data/site.json` every minute and redraws when a new build is there (never
    while a video plays: it waits until it stops). The board shows when the data was built and from
    which commit.
 
