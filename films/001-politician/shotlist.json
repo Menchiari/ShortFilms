@@ -1063,7 +1063,7 @@
           "framing": "INSERT",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "ELEMENT: the instrument cluster (one still), the same in S03 SH040, so the fuel symbol is identical"
+          "note": "ELEMENT: the instrument cluster (one still), the same in S03 SH040, so the fuel symbol is identical Still, 0 credits: 05-generation/frames/001_S02_SH170_still.jpg, prop_instrument-cluster (4025ee1a) cropped 21:9 on the fuel gauge (tachometer at 0 out of frame), 1470x630. Road vibration added in the edit."
         },
         {
           "id": "SH180",
