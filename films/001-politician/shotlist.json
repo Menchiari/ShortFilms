@@ -846,9 +846,9 @@
                 "animatic d11 S02_SH020+SH040 joined dbb41e14 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 016. Covers SH020 (0-3 s) and SH040 (3-5 s). Claude's read: the same dog in both shots, lying by the concrete wall in the shade, then the close from behind the shoulder: head up, ears up, looking right. Real look."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 016. Covers SH020 (0-3 s) and SH040 (3-5 s). Claude's read: the same dog in both shots, lying by the concrete wall in the shade, then the close from behind the shoulder: head up, ears up, looking right. Real look. Leonard 2026-11-17: when it gets up the dog must look behind it; the dog dirtier, clearly stray; trash and bits of plastic around, like a poor suburb in Mexico."
             }
           ],
           "description": "A stray dog lies in the shadow of an abandoned building, on the edge of a crumbled concrete wall. Heat rises off the ground.",
@@ -923,7 +923,7 @@
           "framing": "LOW, ground level, facing the town",
           "movement": "Locked-off, car passes over camera",
           "duration_s": 3,
-          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed REQUEST 016 SH050 T01 (6cb55640-3cc4-41ee-bb81-dfdcfc9acf0b) blocked by the output filter (\"Something went wrong\"), 28 credits refunded 13:35 UTC. Unchanged resubmission waits for Leonard's go-ahead (the session's permission check stopped it).",
+          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed REQUEST 016 SH050 T01 (6cb55640-3cc4-41ee-bb81-dfdcfc9acf0b) blocked by the output filter (\"Something went wrong\"), 28 credits refunded 13:35 UTC. Unchanged resubmission waits for Leonard's go-ahead (the session's permission check stopped it). Leonard 2026-11-17: add camera shake, the wind pressure moving the camera as the car speeds by.",
           "animatic": {
             "file": "05-generation/animatic/d11/S02_SH050.mp4",
             "draft": "d11"
@@ -996,9 +996,9 @@
                 "animatic d11 S02_SH070 23fe344d (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 016. Claude's read: the briefcase lies flat on the brown seat, papers out, trembles and shifts a little, never leaves the seat."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 016. Claude's read: the briefcase lies flat on the brown seat, papers out, trembles and shifts a little, never leaves the seat. Leonard 2026-11-17: not so unrealistic: just a subtle wobble, it is a suitcase on a seat."
             }
           ],
           "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
@@ -1036,9 +1036,9 @@
                 "animatic d11 S02_SH080 17f7d9cd (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 016. Claude's read: real look, no animatic geometry: the black sedan races at the low camera, brakes and skids head-on until it fills the frame, then its own dust swallows the lens. It comes straight at us rather than sliding sideways."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 016. Claude's read: real look, no animatic geometry: the black sedan races at the low camera, brakes and skids head-on until it fills the frame, then its own dust swallows the lens. It comes straight at us rather than sliding sideways. Leonard 2026-11-17: keeping the skid straight is right (he looks left and right afterwards); the previz worked."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
@@ -1102,9 +1102,9 @@
                 "animatic d11 S02_SH090 ff43c009 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 016. New acting task from Leonard's note. Claude's read: bowed over the wheel, lifts his head, jaw set, a hard scowl fixed on the gap: angry and focused. Desert through the side windows, but through the rear window two towers and a low town on the horizon, against the note (only desert behind him)."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 016. New acting task from Leonard's note. Claude's read: bowed over the wheel, lifts his head, jaw set, a hard scowl fixed on the gap: angry and focused. Desert through the side windows, but through the rear window two towers and a low town on the horizon, against the note (only desert behind him). Leonard 2026-11-17: a city in the background; there should be only desert, as in the previz."
             }
           ],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
@@ -1142,9 +1142,9 @@
                 "animatic d11 S02_SH100 adf37a56 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 016. Claude's read: the street reads as untextured CG and the road carries the animatic's flat patches: the clip's geometry was copied. Cause: no image of the main street itself."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 016. Claude's read: the street reads as untextured CG and the road carries the animatic's flat patches: the clip's geometry was copied. Cause: no image of the main street itself. Leonard 2026-11-17: looks like previz, not live action."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
