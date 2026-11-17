@@ -27,6 +27,7 @@
   "schedule": {
     "source": "production plan v4 (2026-11-15), written for draft 8",
     "deadline": "2026-11-25",
+    "shots_due": "2026-11-22",
     "days": [
       {
         "date": "2026-11-16",
