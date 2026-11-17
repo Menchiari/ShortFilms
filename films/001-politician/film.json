@@ -434,6 +434,10 @@
     {
       "date": "2026-11-17",
       "text": "REQUEST 040c approved (2.75 credits, gpt_image_2_6 high 2k 21:9) and done: fuel-on still cf1509d0-79bc-43ba-ae08-b79043595b78 in REFS, file 05-generation/frames/001_S03_SH040_fuel-on.png (2688x1152). Edit of prop_instrument-cluster 4025ee1a: only the fuel pump symbol lit amber. Found: the element image is the whole cluster; 001_S02_SH170_still.jpg is a closer, different framing. REQUEST 040d prepared: prompts/001_S03_SH040_T02.txt, fuel-on still as start_image, no draft flag."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020f approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T04 06769720-bb10-4c30-a594-fc0efd8256d7, frame v3, handheld camera from the passenger seat."
     }
   ],
   "story_sync": {
