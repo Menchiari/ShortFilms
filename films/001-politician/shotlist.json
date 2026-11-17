@@ -212,7 +212,7 @@
               "prompt": "05-generation/prompts/001_S01_SH020_T05.txt",
               "file": "05-generation/takes/S01/SH020/001_S01_SH020_T05.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH020_T05.jpg",
               "references": [
                 "start still 4d9c31a3 (REFS)",
                 "end still bbfcb4d4 (REFS)"
@@ -236,7 +236,7 @@
               "prompt": "05-generation/prompts/001_S01_SH020_T06.txt",
               "file": "05-generation/takes/S01/SH020/001_S01_SH020_T06.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S01_SH020_T06.jpg",
               "references": [
                 "start still 829b131b (REFS, Plus row empty)",
                 "end still bbfcb4d4 (REFS)"
@@ -872,7 +872,7 @@
               "prompt": "05-generation/prompts/001_S02_SH010_T01.txt",
               "file": "05-generation/takes/S02/SH010/001_S02_SH010_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH010_T01.jpg",
               "references": [
                 "loc_town-edge 146470dd (start_image)"
               ],
@@ -895,7 +895,7 @@
               "prompt": "05-generation/prompts/001_S02_SH010_T02.txt",
               "file": "05-generation/takes/S02/SH010/001_S02_SH010_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH010_T02.jpg",
               "references": [
                 "loc_town-edge 146470dd (architecture)",
                 "palette_afternoon 3bf30eee",
@@ -935,7 +935,7 @@
               "prompt": "05-generation/prompts/001_S02_SH020_T01.txt",
               "file": "05-generation/takes/S02/SH020/001_S02_SH020_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH020_T01.jpg",
               "references": [
                 "loc_town-edge 146470dd (ground and concrete only)",
                 "palette_afternoon 3bf30eee",
@@ -975,7 +975,7 @@
               "prompt": "05-generation/prompts/001_S02_SH030_T01.txt",
               "file": "05-generation/takes/S02/SH030/001_S02_SH030_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH030_T01.jpg",
               "references": [
                 "prop_car 42787b78",
                 "palette_afternoon 3bf30eee",
@@ -1019,7 +1019,7 @@
           "framing": "LOW, ground level, facing the town",
           "movement": "Locked-off, car passes over camera",
           "duration_s": 3,
-          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed REQUEST 016 SH050 T01 (6cb55640-3cc4-41ee-bb81-dfdcfc9acf0b) blocked by the output filter (\"Something went wrong\"), 28 credits refunded 13:35 UTC. Unchanged resubmission waits for Leonard's go-ahead (the session's permission check stopped it). Leonard 2026-11-17: add camera shake, the wind pressure moving the camera as the car speeds by.",
+          "note": "Starts on the town. A slight jump: keyframed in the animatic, no simulation needed",
           "animatic": {
             "file": "05-generation/animatic/d11/S02_SH050.mp4",
             "draft": "d11"
@@ -1043,7 +1043,7 @@
               "prompt": "05-generation/prompts/001_S02_SH060_T01.txt",
               "file": "05-generation/takes/S02/SH060/001_S02_SH060_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH060_T01.jpg",
               "references": [
                 "prop_wobblehead fa19c43f",
                 "prop_briefcase 4bf36cb5",
@@ -1084,7 +1084,7 @@
               "prompt": "05-generation/prompts/001_S02_SH070_T01.txt",
               "file": "05-generation/takes/S02/SH070/001_S02_SH070_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH070_T01.jpg",
               "references": [
                 "prop_briefcase 4bf36cb5",
                 "loc_car-interior 60a2aec8 (seat)",
@@ -1125,7 +1125,7 @@
               "prompt": "05-generation/prompts/001_S02_SH080_T01.txt",
               "file": "05-generation/takes/S02/SH080/001_S02_SH080_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH080_T01.jpg",
               "references": [
                 "prop_car 42787b78",
                 "palette_afternoon 3bf30eee",
@@ -1165,7 +1165,7 @@
               "prompt": "05-generation/prompts/001_S02_SH090_T01.txt",
               "file": "05-generation/takes/S02/SH090/001_S02_SH090_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH090_T01.jpg",
               "references": [
                 "char_politician a7601ce4",
                 "prop_car 42787b78",
@@ -1190,7 +1190,7 @@
               "prompt": "05-generation/prompts/001_S02_SH090_T02.txt",
               "file": "05-generation/takes/S02/SH090/001_S02_SH090_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH090_T02.jpg",
               "references": [
                 "char_politician a7601ce4",
                 "prop_car 42787b78",
@@ -1231,7 +1231,7 @@
               "prompt": "05-generation/prompts/001_S02_SH100_T01.txt",
               "file": "05-generation/takes/S02/SH100/001_S02_SH100_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH100_T01.jpg",
               "references": [
                 "loc_town-edge 146470dd (architecture)",
                 "palette_afternoon 3bf30eee",
@@ -1341,7 +1341,7 @@
           "framing": "INSERT",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "ELEMENT: the instrument cluster (one still), the same in S03 SH040, so the fuel symbol is identical Still, 0 credits: 05-generation/frames/001_S02_SH170_still.jpg, prop_instrument-cluster (4025ee1a) cropped 21:9 on the fuel gauge (tachometer at 0 out of frame), 1470x630. Road vibration added in the edit."
+          "note": "ELEMENT: the instrument cluster (one still), the same in S03 SH040, so the fuel symbol is identical"
         },
         {
           "id": "SH180",
