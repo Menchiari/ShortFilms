@@ -1,0 +1,17 @@
+S03 SH050 T01 start frame, REQUEST 050a (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b.
+Images: 1 = guide frame 0 of animatic d11 (media 19a2dd38), 2 = loc_crossroads (a5b52222), 3 = prop_car (42787b78), 4 = palette_afternoon (3bf30eee).
+No character element: in frame 0 he is still inside the car with the door closed.
+
+Prompt:
+
+Image 1 is a rough 3D previz frame. Keep exactly its camera position, height, angle, lens and framing, and the position, size and angle of every shape in it. Turn it into a real photograph: nothing of its flat 3D look stays.
+
+What the shapes are: the dark band across the whole bottom edge is the worn concrete top of a balcony railing, close to the camera. The round shape at the far left edge is the back of a bald man's head and one shoulder, seen from behind, in shade and soft focus, a thin thread of cigarette smoke drifting up beside him; his face is never visible. The tall wall on the left is a 1970s concrete apartment block with small balconies, running away into depth. The building at the top right is the corner of a concrete apartment block with rolled-down corrugated metal shutters at street level and a wide dusty sidewalk. The large empty ground is the crossroads: cracked asphalt buried in dust and drifted sand, a few scattered stones. The dark box in the middle is the black full-size luxury sedan from image 3, the same car: its body, its black paint, a light coat of desert dust. It stands alone, stopped in the middle of the crossroads, at exactly the place, size and angle of the box in image 1, all doors closed.
+
+The buildings, plaster, shutters, cables and street lamps look like the street in image 2: take its materials and architecture only, not its framing.
+
+Light, motivated by the sun only: a low hazy afternoon sun from screen left, long soft warm shadows falling to the right across the asphalt, the upper floors warm and sunlit, street level in warm shade, golden dust in the air. Color and light from image 4 only. Deep brown shadows with detail, never black; highlights soft cream, never white.
+
+Count of cars: one. Count of people: one, the smoker at the left edge. Nobody in the street, at the windows or on the other balconies. No laundry, no trees, no palms, no signs, no writing, no logos, no mosque, minaret, dome or flag.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.
