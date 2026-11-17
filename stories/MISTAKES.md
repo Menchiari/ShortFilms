@@ -19,6 +19,36 @@ the rule that prevents it. Newest first.
 - **Cause:** I wrote the second half as a hold ("keeps his hand on it, looks at the sign") to land on the end still.
 - **Rule (Leonard):** "beautiful, interesting, or both" does not cover a shot where nothing happens and the frame is
   not breathtaking. Every second of a shot carries an action, unless the image itself is breathtaking.
+## 2026-11-17, Politician S02 prompt files emptied (no credits)
+
+- **What:** my script emptied 001_S02_SH120_T01.txt and 001_S02_SH200_T01.txt in commit 7e1d0d8, and the REQUEST 018 table
+  offered them as ready. Caught before any submission.
+- **Cause:** `open(f, "w").write(f(open(f).read()))` truncates the file before reading it; my check only looked for banned
+  words, which an empty file passes.
+- **Rule:** read into a variable first, write after. Every prompt check asserts a minimum length and the audio line at the
+  start.
+
+## 2026-11-17, Politician S02 REQUEST 016 (63 credits)
+
+- **What:** SH030 T01 (35) and SH100 T01 (28) copied the d11 animatic's grey geometry as untextured CG: the road and a
+  foreground block in SH030, the whole street in SH100.
+- **Cause:** both prompts gave the clip with no real image of that place (SH030: car and palette only; SH100: the town
+  edge seen from outside). The S05 SH020 test had already shown the same failure with a palette-only prompt, and I had
+  read it. I flagged the risk as unknown instead of applying it.
+- **Rule:** a reference clip goes in only when every place in its frame also has a real image in the references.
+  Otherwise drop the clip and describe the place in words.
+
+## 2026-11-17, Politician S02 REQUEST 015a (84 credits)
+
+- **What:** SH010 T01 was static and the town small; SH090 T01 was framed wide with a town behind him and flat acting;
+  the briefcase in SH060 T01 bounced like it was on a horse. No S02 prompt used the d11 animatic clips, which exist for
+  every 3D shot and carry Leonard's framing.
+- **Cause:** my material check covered elements and images, not the animatic clip in each shot's `animatic` field, so
+  prompts written without the clips passed. Motion was described without a size ("bounces with the road" in a car
+  "racing over a rough road"). The acting task played calculation; his inner state was in no document.
+- **Rule:** the material check lists each shot's animatic clip, and every 3D shot uses it as a video reference with the
+  motion diagram line (no extra cost). Every motion gets a size ("slides a few centimeters"). His inner state is in the
+  bible (Leonard, 2026-11-17) and goes into every acting task.
 
 ## 2026-11-17, Politician S02 request 013 (no credits spent)
 

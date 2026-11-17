@@ -1,15 +1,16 @@
 Audio: only tires screeching and scrubbing on grit, the engine dropping to idle, dust hissing past. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
 Image 1: the black full-size luxury sedan: its body, grille, lights, black paint and light coat of desert dust only, not its background. Image 2: color and light only.
+The reference video is a motion diagram only: it gives the camera position, the framing and the timing of what moves, nothing else. Its plain untextured boxes and flat colors are not the look and are never copied: the place, the car and the people are real and come from the reference images and from this prompt.
 
-At ground level by a dusty road, a black sedan locks its front wheels and skids to a stop.
+At ground level on a dusty road at the edge of town, a black sedan locks its wheels and skids to a stop close to the camera.
 
-0-2s: insert, ground level, the camera low on the asphalt at the side of the road. Camera: locked-off. The black sedan enters from screen left at speed; its front wheel locks and the car skids across the dusty asphalt, the tires scrubbing and throwing dust, the nose dipping hard under the braking.
-2-4s: the car slides to a stop with its front wheel close to the camera at screen right; the nose rises back up and settles on its springs. A cloud of dust rolls on past the car and over the lens. Final frame: the front wheel stopped close to camera at screen right, the car still, dust drifting across.
+0-2s: low angle, the camera on the asphalt in the road, framed as in the reference video. Camera: locked-off for the whole shot. The black sedan races toward the camera from down the road; its front wheels lock and it skids, the tires scrubbing and throwing dust, the nose dipping hard under the braking, the car sliding a little sideways.
+2-4s: the car slides to a stop close to the camera, its side toward us, its front at screen right; the nose rises back up and settles on its springs. A cloud of dust rolls on past the car and over the lens. Final frame: the car stopped close to the camera, its front at screen right, dust drifting across.
 
 Count of cars: one.
 
-Unplaceable town: no landmark, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
 
 Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
 

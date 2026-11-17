@@ -1,0 +1,18 @@
+Audio: only a dry wind; from about 3s the faint, distant whine of an engine at full throttle, arriving late. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (@@KIND@@), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the dusty road, the desert ground and the haze only, not the towers, not its framing. Image 2: the black full-size luxury sedan: its body, grille, lights, black paint and light coat of desert dust only, not its background. Image 3: color and light only.
+
+Low at the side of a desert road, a long lens watches a black sedan race out of the heat shimmer, a plume of dust behind it.
+
+0-5s: extreme wide, long telephoto lens, the camera low on the ground at the roadside, camera position and framing from Video 1: a real broken slab of concrete in the left foreground, chipped and dusty; the straight road of cracked dark asphalt, half buried in dust and drifted sand, running away to the horizon, wobbling in a thick heat shimmer. Camera: locked-off. Far out, timed as in Video 1, the black sedan comes out of the shimmer at full speed, straight toward camera, a long plume of pale dust rising behind it. Compressed by the long lens, it grows only a little. Final frame: the car still far away in the center of frame, still racing toward camera, the dust plume trailing back to the horizon.
+
+Count of cars: one.
+
+Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a dry wind; from about 3s the faint, distant whine of an engine at full throttle, arriving late. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,21 +1,25 @@
 Audio: only the engine idling, his one long breath in through the nose, then the engine rising softly as the pedal goes down. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
-Image 1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the dashboard and seat leather only, not the view through the windows. Image 3: color and light only.
+VIDEO 1 IS A ROUGH GUIDE (@@KIND@@), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game. Video 1 covers the first shot only; the second shot is described in this prompt.
+Image 1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the dashboard, pedals, footwell and seat leather only, not the view through the windows. Image 3: color and light only.
 
-Inside the stopped black sedan, two locked-off shots cut together: the old man from image 1 commits to the gap, and his foot touches the accelerator.
 
-0-3s: close shot of the right side of his face from the passenger side, slightly behind him, the windshield and the gap between the towers out of focus beyond. Camera: locked-off. A bead of sweat runs from his hairline down his temple and into his collar. He takes one long breath in through the nose, his chest rising, and holds it.
-3-5s: hard cut to an insert of the driver's footwell, low. Camera: locked-off. His scuffed black leather shoe and the hem of his charcoal trouser leg rest on the accelerator pedal. The shoe presses the pedal down, gently, a little. Final frame: the pedal held a little down under the shoe.
+Inside the stopped black sedan, two locked-off shots cut together: the old man from image 1 decides, and his foot touches the accelerator.
 
-ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
-SCENE DIRECTION (shared, unspoken): get across this town without anyone ever knowing he was here.
-MOTIVE (his fuel): what he carries in the briefcase must reach the other side, and he has never had to walk anywhere.
-GOAL: find any way past the town that keeps him in the car.
-OBSTACLE: the only road runs straight into the town, and in there people know his face.
-TACTIC (0-3s): he commits: his eyes find the gap and fix on it, the way a man looks at a door he has decided to walk through, and the breath is him closing that decision.
+0-3s: close shot from just behind his right shoulder, camera position and framing from Video 1: the right side of his head, his ear, temple and cheek, the windshield pillar beside him and, out of focus beyond the glass, the gap between the towers and the street behind it. Camera: locked-off. A bead of sweat runs from his hairline down his temple. He takes one long breath in through his nose, his shoulders rising, and holds it (subtext: fine. Let's go).
+3-5s: hard cut to an insert of the driver's footwell, low. Camera: locked-off. His scuffed black leather shoe and the hem of his charcoal trouser leg on the accelerator pedal. The shoe presses the pedal down, gently, a little. Final frame: the pedal held a little down under the shoe.
+
+ACTING TASK, the old man, 0-3s (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, it has been eating him from the inside for years, and he has never once stopped; what he carries in the briefcase has to reach the other side.
+GOAL: go in on his own terms.
+OBSTACLE: in there people know his face, and with his luck this is where it goes wrong.
+TACTIC: he stops looking for a way out and commits: his eyes lock on the gap the way they have locked on every fight he has walked into, and the breath is him closing the decision and swallowing whatever is eating him.
 (Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
 
-Unplaceable town: no landmark, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
 
 Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
 

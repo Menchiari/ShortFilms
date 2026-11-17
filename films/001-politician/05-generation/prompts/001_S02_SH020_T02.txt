@@ -1,0 +1,19 @@
+Audio: only a faint dry wind, a plastic bag rustling against the wall, the dog's slow breathing; at the very end, very faint and far away, an engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (@@KIND@@), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the dusty ground and the color of the concrete only. Not its composition, not the towers. Image 2: color and light only.
+
+Two locked-off shots of a stray dog resting in the shade at the dirty edge of a poor desert town, cut together.
+
+0-3s: medium shot, low, at the dog's height, camera position and framing from Video 1. Camera: locked-off. A lean, filthy stray dog, clearly nobody's: a short sandy coat matted with dust and dirt, patches of mange on its flank, one torn ear, ribs showing, upright ears, a curled tail. It lies on its side in the shadow of an abandoned concrete building, along the base of a crumbled concrete wall, its head down on its front paws, its ribs rising and falling slowly. Around it in the dirt, like the outskirts of a poor suburb in northern Mexico: a crushed plastic bottle, torn plastic bags snagged on the wall, food wrappers, a broken crate, all faded by the sun, nothing readable. Beyond the shadow line the ground is bright with sun and heat rises off it.
+3-5s: hard cut to a close shot of the same dog from just behind its shoulder, camera position and framing from Video 1, same shade, same light. Camera: locked-off. The dog pushes itself up onto its front legs, ears up, and turns its head to look back over its shoulder, behind it, toward a sound far away. Final frame: the dog up on its front legs, head turned back over its shoulder, ears up, still.
+
+Count of dogs: one. The same dog in both shots.
+
+Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a faint dry wind, a plastic bag rustling against the wall, the dog's slow breathing; at the very end, very faint and far away, an engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

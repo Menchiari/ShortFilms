@@ -1,0 +1,23 @@
+Audio: only the engine idling low, a faint dry wind, his heavy breathing through the nose. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Image 1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the black full-size luxury sedan: its windshield, pillars and black paint under a thin film of desert dust only, not its background. Image 3: color and light only.
+The reference video is a motion diagram only: it gives the camera position, the framing and the timing of what moves, nothing else. Its plain untextured boxes and flat colors are not the look and are never copied: the place, the car and the people are real and come from the reference images and from this prompt. Its buildings behind the car are wrong: behind him there is only desert.
+
+The old man from image 1 sits behind the wheel of the black sedan, stopped on a desert road just outside a town, seen through the windshield. Behind the car there is only desert.
+
+0-2s: medium close-up through the windshield, the camera in front of the car at his eye level, framed as in the reference video: he sits right of center behind the wheel, the empty passenger seat at the left, the windshield pillar and the roof edge framing the glass. Camera: locked-off for the whole shot. Dust on the glass, wiped clear in two arcs. Behind him, through the rear window and the side windows, the empty road runs back into flat open desert to the horizon: no buildings anywhere, nothing standing. His jacket is on, his white shirt dark with sweat at the collar, sweat on his face. His head is bowed over the wheel, both hands gripping it, and he breathes out hard through his nose (subtext: one more thing that is going to go wrong).
+2-5s: he lifts his head and looks ahead, past the camera, at the town, and holds it (subtext: fine. Another day. Get it done). Final frame: his eyes fixed past the camera on the gap between the towers, mouth closed, both hands tight on the wheel.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, it has been eating him from the inside for years, and he has never once stopped; what he carries in the briefcase has to reach the other side.
+GOAL: size the town up and go in on his own terms.
+OBSTACLE: the only road runs straight into the town, people in there know his face, and with his luck this is where it all goes wrong, maybe this is where he dies.
+TACTIC: he stares the town down like an opponent he has met a hundred times: his eyes find the gap and hold it, read the street behind it for the trouble he already knows is waiting, and refuse to look away; everything that has been eating him he clamps down and points straight at that gap.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the engine idling low, a faint dry wind, his heavy breathing through the nose. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

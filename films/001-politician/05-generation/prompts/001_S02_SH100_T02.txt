@@ -1,0 +1,16 @@
+Audio: only the engine idling and a faint dry wind whistling through the gap. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the towers and the gap between them: architecture and materials only, not its distance or framing. Image 2: the main street beyond the gap: its buildings, road, curbs and street furniture only, not its framing. Image 3: color and light only.
+
+His point of view from the driver's seat of a stopped car a few meters from the edge of a desert town: the dusty road runs into the only gap between two tall concrete towers and becomes the main street, and the street stretches away from him.
+
+0-4s: point of view, eye level, centered on the gap, camera position and framing from Video 1. Camera: a slow, steady dolly zoom, timed as in Video 1: the camera moves slowly forward while the lens slowly zooms out, keeping the gap between the two towers the same size in frame from start to end, while the street beyond it stretches longer and longer, its far end sliding away. The towers and the street are real: weathered concrete, cracked plaster, rusted shutters pulled down, closed-in balconies, satellite dishes, power cables, asphalt buried in dust and drifted sand. Nobody in the street. Final frame: the gap the same size as in the first frame, the street beyond it endless.
+
+No windshield in frame. Count of gaps: one. Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the engine idling and a faint dry wind whistling through the gap. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

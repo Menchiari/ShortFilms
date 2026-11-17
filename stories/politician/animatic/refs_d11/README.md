@@ -7,3 +7,10 @@ S04 SH135 and S06 SH025 are new; S05 SH040 to SH060 and SH100 are cut; S08 SH030
 Use: the prompt names each clip and its one job ("a motion diagram only: the camera angle and the timing and paths of
 the people"). Test S05 SH020 showed that a clip with the grey set gets copied as a fake 3D model: for crowd and fall
 shots use the motion-only clip in `../refs_d11_motion/` (people on plain ground, no set), and describe the place in words.
+
+S02 at 720p (REQUEST 016, 2026-11-17), corrected after a full-resolution check: every shot where the clip carried
+architecture or ground came out as 3D previz, even with a real image of the place attached (SH010 towers and boxy rubble,
+SH030 road and block, SH100 street, the towers in SH090's rear window). Shots where the clip carried only a subject held
+photoreal (SH020 dog, SH070 briefcase, SH080 car). Rule: never give a set clip for a shot whose frame is filled by place;
+the composition comes from a photoreal start frame made over the animatic frame (production plan, Keeping the vision 1-2),
+or from words.
