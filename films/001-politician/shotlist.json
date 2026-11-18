@@ -1251,7 +1251,7 @@
         },
         {
           "id": "SH090",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1302,7 +1302,7 @@
               "love": false,
               "rating": 3,
               "rating_source": "inferred",
-              "notes": "REQUEST 016. New acting task from Leonard's note. Claude's read: bowed over the wheel, lifts his head, jaw set, a hard scowl fixed on the gap: angry and focused. Desert through the side windows, but through the rear window two towers and a low town on the horizon, against the note (only desert behind him). Leonard 2026-11-17: a city in the background; there should be only desert, as in the previz."
+              "notes": "REQUEST 016. New acting task from Leonard's note. Claude's read: bowed over the wheel, lifts his head, jaw set, a hard scowl fixed on the gap: angry and focused. Desert through the side windows, but through the rear window two towers and a low town on the horizon, against the note (only desert behind him). Leonard 2026-11-17: a city in the background; there should be only desert, as in the previz. Leonard 2026-11-18: likes this performance more than T03; fixed in post as T04."
             },
             {
               "id": "T03",
@@ -1326,9 +1326,32 @@
                 "line guide 3d180ccf"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: Photographic. Only desert behind him through the side and rear windows. Bowed over the wheel, lifts his head, holds a hard look ahead."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic. Only desert behind him through the side and rear windows. Bowed over the wheel, lifts his head, holds a hard look ahead. Leonard 2026-11-18: likes T02 more."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "post",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S02_SH090_T02.txt",
+              "file": "05-generation/takes/S02/SH090/001_S02_SH090_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T02 1c1b53d2"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Post fix of T02 (no credits): the town in the rear window painted out with a static clean plate (rows of the window's own clean sky shading to its ground band, soft mask to the window shape, light temporal grain; ffmpeg overlay). Camera locked-off (rear window luma stable within 0.3%), the town never passes behind his head. Picture, acting, audio otherwise T02. Leonard 2026-11-18: that works, the final render."
             }
           ],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
