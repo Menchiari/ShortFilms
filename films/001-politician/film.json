@@ -583,6 +583,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH040-c prepared, not submitted: S04 SH040 T03, prompts/001_S04_SH040_T03.txt, 5 s. Leonard's notes: much more paranoid, trying to be inconspicuous, passes the briefcase to the other hand, pretends not to see the men but clearly avoids them. get_cost: 35 credits at 720p (15 at 480p)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-c approved by Leonard (\"yes 720 go\"; get_cost 35 credits) and submitted: S04 SH040 T03 57cf471d-833a-4ba1-aefc-7bc7a36fa87c, seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, no draft flag, char_politician, prop_briefcase, loc_side-street, palette_afternoon."
     }
   ],
   "story_sync": {
