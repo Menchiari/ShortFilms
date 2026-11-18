@@ -1983,7 +1983,7 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -1999,7 +1999,7 @@
               "prompt": "05-generation/prompts/001_S04_SH020_T01.txt",
               "file": "05-generation/takes/S04/SH020/001_S04_SH020_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH020_T01.jpg",
               "references": [
                 "loc_side-street image e728a9ae-4623-423a-b70a-2537058db407 (image_references)"
               ],
