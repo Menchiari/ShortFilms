@@ -1162,6 +1162,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH080-c approved (42 credits, 720p, 21:9, 6 s, seed 1823186076): S05 SH080 T03 a3308c65. SH030 gait, case at chest, small cut at the right eyebrow, real-time fall; no pebble visible on screen."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH080 prompts T01 to T04 named references 'Image 1' / 'VIDEO 1' although Leonard decided @Image1, @Video1 on 2026-11-17 (REQUEST 030a). Same cause as the S05 SH020 entry: the session followed the S03 SH010 T01 template named in its brief and the rule is not in docs/PROMPTING.md. T04 prompt corrected to @Image1-4, @Video1, @Audio1 before submission; T01-T03 were generated with the old naming."
     }
   ],
   "story_sync": {
