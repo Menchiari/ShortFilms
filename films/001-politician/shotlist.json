@@ -2028,6 +2028,41 @@
       "title": "EXT. TOWN - MAIN STREET - DAY",
       "shots": [
         {
+          "id": "SH015",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "post",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S02_SH100_T04.txt",
+              "file": "05-generation/takes/S03/SH015/001_S03_SH015_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH015_T01.jpg",
+              "references": [
+                "S02 SH100 T05 (copy)",
+                "S02 SH100 T04 job 2d2022de"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Copy of S02 SH100 T05 (T04 job 2d2022de with the zoom out added in post). Leonard 2026-11-18: 'I like that shot, keep it as a separate shot (when he's driving in the city)'. Draft 480p: a final needs a higher-resolution generation of T04 or a finalize of the draft."
+            }
+          ],
+          "description": "His point of view as he drives: the main street runs on ahead, lamps, traffic lights, dusty parked cars, and stretches away from him.",
+          "framing": "POV",
+          "movement": "Dolly zoom: forward travel, zoom out in post",
+          "duration_s": 4,
+          "note": "Leonard 2026-11-18: S02 SH100 T05 becomes this shot. The junction keeps its size, the street beyond stretches"
+        },
+        {
           "id": "SH020",
           "status": "review",
           "takes": [
