@@ -1267,7 +1267,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1342,9 +1342,9 @@
                 "palette_afternoon 3bf30eee"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018c, draft, no video guide. Approved by Leonard. Claude's read at 8 fps and full res: the case lies still on a whole leather seat with only a faint shake, papers out at the bottom, door, window and desert in frame. But it is the rear bench seen low from the side, not the front passenger seat seen from above."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018c, draft, no video guide. Approved by Leonard. Claude's read at 8 fps and full res: the case lies still on a whole leather seat with only a faint shake, papers out at the bottom, door, window and desert in frame. But it is the rear bench seen low from the side, not the front passenger seat seen from above. Leonard 2026-11-18: this works enough."
             }
           ],
           "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
