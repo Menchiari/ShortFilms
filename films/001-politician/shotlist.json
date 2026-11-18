@@ -3050,9 +3050,9 @@
                 "guide v2 refs/001_S04_SH060_lines_d11_v2.mp4 8b375053 (video_references, big man erased before the impact)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH060-b, 480p (992x432), 5.06 s, audio present (mean -26.9 dB, peak -3.8 dB; not listened to). Claude's read from frames every 0.5 s and every 3 frames from 3.8 s: photoreal; he looks back from 0.5 s; the case comes up from his hand at about 3 s and is clutched to his chest by 3.8 s. The big man walks in from the right edge at about 3.5 s (later than T01's 3 s, still before the impact). Impact at about 4.2 s; the old man rebounds hard, head thrown back, and falls backward out of the bottom-left of frame by about 4.7 s, still holding the case. Final frame: the big man alone right of center, standing still. The street opens onto a sandy lot with hazy towers behind the big man. The walk cannot be judged from stills."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH060-b, 480p (992x432), 5.06 s, audio present (mean -26.9 dB, peak -3.8 dB; not listened to). Claude's read from frames every 0.5 s and every 3 frames from 3.8 s: photoreal; he looks back from 0.5 s; the case comes up from his hand at about 3 s and is clutched to his chest by 3.8 s. The big man walks in from the right edge at about 3.5 s (later than T01's 3 s, still before the impact). Impact at about 4.2 s; the old man rebounds hard, head thrown back, and falls backward out of the bottom-left of frame by about 4.7 s, still holding the case. Final frame: the big man alone right of center, standing still. The street opens onto a sandy lot with hazy towers behind the big man. The walk cannot be judged from stills. Leonard 2026-11-18: 'this works, but the corner of the street must look more like in shot 110 or 140' (behind the big man: the street with buildings, doorway, sidewalk and road, not an empty sandy lot). T03: video_edit of T02 changing only that background."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
