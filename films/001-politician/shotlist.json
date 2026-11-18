@@ -1705,9 +1705,9 @@
                 "line guide 54161b25"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: The car rolls away down the main street and gets small. Lighting photographic; the facades are clean and repetitive, a little rendered."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018b, draft. Claude's read: The car rolls away down the main street and gets small. Lighting photographic; the facades are clean and repetitive, a little rendered. Leonard 2026-11-18: \"atrocious\". At full resolution the car is the animatic's open box placeholder, not the sedan; facades copy the animatic boxes; no street furniture. Next: no reference video."
             }
           ],
           "description": "The car rolls through the gap and into the only street. The town swallows it.",
