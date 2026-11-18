@@ -2231,6 +2231,33 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH040-a, 480p (992x432), 4.06 s, audio present (mean -38.6 dB; not listened to). Claude's read from frames 0, 47, 95 and the last frame: photographic, no previz or blocky look: worn plaster, balconies, cables, backlit dust, real cafe with lights and shelves. Men: Man 1 grey hair, pale blue shirt; Man 2 shaved head, olive polo, drinking tea; Man 3 mustache, brown shirt, cigarette; they stay turned to each other. Misses: he walks down the middle of the road over a crosswalk straight at the camera, not along the far sidewalk, and grows from small to medium-wide (feet at the frame bottom at the end); a crossroads, not a long narrow street; three parked cars despite 'no cars'; a red no-entry sign; beige awning, not red; round table, not a low plastic one; the sun is behind the street, facing the camera, not at screen right; the briefcase reads blue-grey in this grade (I don't know whether it is the element's color or the light). Leonard 2026-11-18: 'I like this, and I like the cinematography style here.'"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "5690ab22-697e-4cfd-8c52-6b2eba28276b",
+              "prompt": "05-generation/prompts/001_S04_SH040_T02.txt",
+              "file": "05-generation/takes/S04/SH040/001_S04_SH040_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH040-b, 720p (1470x630), 4.06 s, audio present (mean -39.5 dB; not listened to). Claude's read from frames 0, 32, 50, 64, 75, 96: the T01 composition and backlight held (corner bar left, him down the right half of the road over the crosswalk, long shadows toward camera, dust glowing). Briefcase in his right hand at his side, arm swinging; the case reads as a boxy dark hard case. He walks upright, chest out, firm stride, left arm swinging. About frame 75 he turns his head toward the men (the prompt said eyes only, no head turn), then faces front again by frame 96. Men match the T02 description: Man 1 grey hair, pale blue shirt; Man 2 shaved head, olive shirt, tea glass; Man 3 short beard, brown shirt. A teal object next to Man 2, possibly a fourth chair (I don't know). One parked car at the right edge."
             }
           ],
           "description": "Across the street, outside a small bar, three men sit on plastic chairs in the shade of an awning, talking low. He passes on the far sidewalk, head down.",
