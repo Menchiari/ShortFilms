@@ -3316,8 +3316,32 @@
         },
         {
           "id": "SH130",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "edc164f8-0cbf-426c-ae55-1c203c41af33",
+              "prompt": "05-generation/prompts/001_S04_SH130_T01.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_side-street e728a9ae (image_references)",
+                "palette_afternoon 3bf30eee (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH130-a, approved by Leonard 2026-11-18 after his direction (realistic, anamorphic, film, Garland-style near documentary, intimidating, everyone watching from above). Folder S04/SH130. Text + elements, no previz guide. Claude's read (frames 0, 48, 95): photographic, not 3D. Locked-off, no cuts, nothing enters or leaves. Six watchers, all there from frame 1: heavyset man in a grey undershirt and the woman in a pale headscarf on the lower left balcony, young man in a brown t-shirt in the center window, man in a white shirt on the lower right balcony, the old woman in a dark dress on an upper LEFT BALCONY (asked: a window), and a small figure on the upper right balcony (asked: a woman at a shutter). Upper center window empty and dark, one cable. Low angle up with mild convergence, warm haze, sun flare at top right and a blue horizontal anamorphic streak across the top third. Audio: quiet room tone (mean -43 dB); Claude cannot listen, check for music. The edit uses 2 s of the 4."
+            }
+          ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
           "framing": "WIDE, low",
           "movement": "Locked-off",
