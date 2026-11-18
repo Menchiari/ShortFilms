@@ -3681,7 +3681,7 @@
               "prompt": "05-generation/prompts/001_S05_SH070_T02.txt",
               "file": "05-generation/takes/S05/SH070/001_S05_SH070_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S05_SH070_T02.jpg",
               "references": [
                 "char_politician_dusty 98e1e69e (hand, sleeve)",
                 "palette_afternoon 3bf30eee",
