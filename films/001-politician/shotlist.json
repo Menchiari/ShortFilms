@@ -3592,6 +3592,28 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST A (Leonard 2026-11-18: \"go with A\"): 720p final of T03 by video_edit of T03 5f723cad, prompt: change nothing, render at higher resolution. Folder S04/SH130. Output 1458x634, 24 fps, 4.04 s. Claude's read (frames 0 and 95, and a native-size crop against T03 scaled up): content matches T03: same people, places, phones, pan, flare and light; no drift seen. Edges (railings, cable, faces) slightly crisper than T03 scaled up; the gain in detail is modest, not a new level of detail. Audio: quiet room tone (mean -41.8 dB); Claude cannot listen, check for music."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "topaz_video",
+              "mode": "upscale",
+              "duration_s": 4,
+              "resolution": "1080p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 5.0,
+              "job_id": "102605e2-0f6d-41ac-8ce3-4ceec6ca3940",
+              "prompt": "",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T03 5f723cad (upscale source)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Option B (Leonard 2026-11-18: \"try B curious\", then \"ok let's try it\" after the first call was blocked by the session's permission check): Topaz Video upscale of T03 5f723cad, 1080p, 21:9. No cost preflight exists for upscales; charge read from the transaction log: 5 credits. Output 2560x1080, 24 fps, 4.04 s. Not filed in the Higgsfield folder: the upscale tool takes no folder and attaching it to S04/SH130 was refused (403, Cinema action is not permitted). Claude's read: frame-exact T03 content, but STRETCHED about 3% horizontally (T03 is 992x432, 2.30:1; Topaz output is 2.37:1). Checked by PSNR against T03: squeezed back to 992x432 = 36.1 dB, cropped instead = 26.3 dB. Fix in Resolve: scale width to 2480 at 1080 high, or set the clip's horizontal scale to about 0.969. Look, from a crop against T04: sharper than T04, with upscaler artifacts: faces a little waxy, plaster smoothed and oversharpened edges; T04 reads more like film."
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
