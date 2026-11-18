@@ -2946,8 +2946,35 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "09f36584-bfab-4b26-9939-db60d0016df1",
+              "prompt": "05-generation/prompts/001_S05_SH010_T01.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH010-a, Leonard's direction: fast walk building to a run, case held normally, clutched to the chest once then lowered to look ordinary, eyes scanning, panic and rage. No previz guide. Claude's read of frames: photoreal street, no previz look. Framing wider than asked: full figure, not knees-up. Case at his side 0-2s, held up in front of his body with both hands about 2.5-3.5s (front of the torso, lower than the chest), lowered to his side by 4s, run 4.5-6s with the case swinging. His eyes go up to the balconies a lot, head tilted back. Nobody visible at windows or balconies. Audio loudness peaks near 2s and 5s (likely the pot and the voices); words not verified by Claude."
+            }
+          ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
           "framing": "MEDIUM",
           "movement": "Handheld, backing in front of him",
