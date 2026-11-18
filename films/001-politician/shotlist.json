@@ -2177,9 +2177,9 @@
                 "no guide clip"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH040-a, 480p (992x432), 4.06 s, audio present (mean -38.6 dB; not listened to). Claude's read from frames 0, 47, 95 and the last frame: photographic, no previz or blocky look: worn plaster, balconies, cables, backlit dust, real cafe with lights and shelves. Men: Man 1 grey hair, pale blue shirt; Man 2 shaved head, olive polo, drinking tea; Man 3 mustache, brown shirt, cigarette; they stay turned to each other. Misses: he walks down the middle of the road over a crosswalk straight at the camera, not along the far sidewalk, and grows from small to medium-wide (feet at the frame bottom at the end); a crossroads, not a long narrow street; three parked cars despite 'no cars'; a red no-entry sign; beige awning, not red; round table, not a low plastic one; the sun is behind the street, facing the camera, not at screen right; the briefcase reads blue-grey in this grade (I don't know whether it is the element's color or the light)."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH040-a, 480p (992x432), 4.06 s, audio present (mean -38.6 dB; not listened to). Claude's read from frames 0, 47, 95 and the last frame: photographic, no previz or blocky look: worn plaster, balconies, cables, backlit dust, real cafe with lights and shelves. Men: Man 1 grey hair, pale blue shirt; Man 2 shaved head, olive polo, drinking tea; Man 3 mustache, brown shirt, cigarette; they stay turned to each other. Misses: he walks down the middle of the road over a crosswalk straight at the camera, not along the far sidewalk, and grows from small to medium-wide (feet at the frame bottom at the end); a crossroads, not a long narrow street; three parked cars despite 'no cars'; a red no-entry sign; beige awning, not red; round table, not a low plastic one; the sun is behind the street, facing the camera, not at screen right; the briefcase reads blue-grey in this grade (I don't know whether it is the element's color or the light). Leonard 2026-11-18: 'I like this, and I like the cinematography style here.'"
             }
           ],
           "description": "Across the street, outside a small bar, three men sit on plastic chairs in the shade of an awning, talking low. He passes on the far sidewalk, head down.",

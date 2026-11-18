@@ -551,6 +551,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH030 T01 loved by Leonard (\"love it\"): rating 5, love, inferred."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard on S04 SH040 T01: 'I like this, and I like the cinematography style here' (rating 4, inferred). Inputs behind it: no previz clip, loc_side-street for surfaces, palette_afternoon for color and light, the motivated-sun lighting paragraph, the look line, the realism paragraph (Leonard's 'not blocky' note), locked-off long lens. The backlit sun was the model's choice: the prompt asked for screen right."
     }
   ],
   "story_sync": {
