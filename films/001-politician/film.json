@@ -174,7 +174,8 @@
       "S04/SH090": "11abe270-ae25-48f5-8e0d-5f7da3a805e2",
       "S04/SH060": "5b9923a0-c359-42f3-9199-c5bebcbe3744",
       "S04/SH110": "c7222bc7-a85c-440e-8680-3583f247cf9f",
-      "S04/SH140": "cdf33b76-4df1-49be-be04-87ad62dea945"
+      "S04/SH140": "cdf33b76-4df1-49be-be04-87ad62dea945",
+      "S04/SH135": "6cefbd72-bd45-4172-89a1-899cc4d14db0"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -299,7 +300,8 @@
       "S02/SH120+SH140": "5b32b81d-9b82-41cc-a50f-6b8810672076",
       "S02/SH180": "2ccff74d-a2cd-4394-beac-4d9d2c38ef81",
       "S02/SH200": "54161b25-e946-4177-9260-663152138a2e",
-      "S03/SH010": "13e9c827-913e-48a4-8b3f-c7d6d55ec4d9"
+      "S03/SH010": "13e9c827-913e-48a4-8b3f-c7d6d55ec4d9",
+      "S04/SH135": "ed1d884b-009b-44fa-8dda-f11beba6dbf4"
     },
     "start_frames": {
       "S02/SH010 v1": "6227907d-21e8-4550-aaf0-cc8c38d04169"
@@ -742,6 +744,14 @@
     {
       "date": "2026-11-18",
       "text": "Higgsfield folder S04/SH140 created inside S04 (cdf33b76-4df1-49be-be04-87ad62dea945). REQUEST S04-SH140-a prepared, not submitted: prompts/001_S04_SH140_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, text and elements only (char_politician_dusty 98e1e69e, char_big-guy 6228445b, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee), no previz clip: the edge-detect line version of refs_d11/S04_SH140 keeps almost nothing (the soft-focus old man and the friend vanish, only a faint outline of the fat person's head). The friend's description is copied word for word from the SH100 T01 prompt. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH135 created inside S04 (6cefbd72-bd45-4172-89a1-899cc4d14db0)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH135-a prepared, not submitted: prompts/001_S04_SH135_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s (model minimum; the shot is 3 s, trim in the edit), audio on. Images: char_big-guy 6228445b, char_politician_dusty 98e1e69e, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref ed1d884b (refs/001_S04_SH135_lines_d11.mp4: d11 clip as a line drawing, last frame held 1 s to fill 4 s), filed in REFS. Estimate 12 credits. [ASSUMPTION: sun behind the fat person at screen right; to be matched with SH110 and SH140.]"
     }
   ],
   "story_sync": {
