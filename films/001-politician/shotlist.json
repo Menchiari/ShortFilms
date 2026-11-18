@@ -4397,6 +4397,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH090-d. Draft. Changes from T03: the case leaves his hand, violent impact, packed with A4 bonds, bond still without coupons. Claude's read: the case now clearly flies out of his right hand as he hits the ground. It lands flat and CLOSED, lies still about 0.6 s, then the lid opens by itself at about 1.3 s: not on impact. Inside: tight bundles that read as stacks of banknotes, and the flying cloud reads as notes, not A4 sheets. Framing tighter than T03, he fills the left half; background narrow street but with a parked car (forbidden). Acting closest so far: from about 2 s he lifts his head, bares his teeth, eyes on the case and the paper, reaches with the right hand, then drops his head again at the end. Blood: a gash over the brow with a stream down the temple."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d875ca30-9a2e-4350-8c90-809ef129bb7b",
+              "prompt": "05-generation/prompts/001_S05_SH090_T05.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T05.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_dusty 98e1e69e",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg)",
+                "loc_side-street e728a9ae",
+                "refs/001_S05_SH090_motion_d11_tight.mp4 eeadc9a1 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-e. Draft. Changes from T04: Leonard's bond image, impact at 0.8 s with the lid open at once, no parked cars. Claude's read: the case leaves his hand, hits at about 0.8 s and is already opening on the bounce: the opening is fixed. Contents worse: green banknote bricks inside, green dollar bills flying, clearly cash. Parked cars still in the background. Acting: he lifts his head, eyes on the case, reaches toward it with the right hand; stays down. Blood stream from the right brow."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
