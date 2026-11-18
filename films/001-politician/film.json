@@ -1214,6 +1214,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH080 prompts T01 to T04 named references 'Image 1' / 'VIDEO 1' although Leonard decided @Image1, @Video1 on 2026-11-17 (REQUEST 030a). Same cause as the S05 SH020 entry: the session followed the S03 SH010 T01 template named in its brief and the rule is not in docs/PROMPTING.md. T04 prompt corrected to @Image1-4, @Video1, @Audio1 before submission; T01-T03 were generated with the old naming."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard dropped the T05 edit: \"try again\", think over the whole chat, the movement is pathetic (grabbing thin air). Review of Claude errors: the reaching and clawing at the sheets was Claude's own addition, not Leonard's note; \"never banknotes, never dollar bills\" broke the positive-wording rule of PROMPTING.md and named the very thing; \"packed full, edge to edge, hundreds\" reads as a case of cash; T03 changed three things at once, so the cause of the paper drift cannot be isolated; prompts near 7000 characters buried the paper description. REQUEST S05-SH090-f prepared, not submitted: prompts/001_S05_SH090_T06.txt, about half the length, the sheet described positively and physically (cream paper, green border, printer-paper size, as long as his forearm, one flat stack like a long legal document), no money words, the struggle as pushing up from the ground with hands always on the asphalt and eyes following the sheets into the sky, empty street. Same references as T05. Estimate 12 credits."
     }
   ],
   "story_sync": {
