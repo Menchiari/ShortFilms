@@ -2973,6 +2973,32 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH010-a, Leonard's direction: fast walk building to a run, case held normally, clutched to the chest once then lowered to look ordinary, eyes scanning, panic and rage. No previz guide. Claude's read of frames: photoreal street, no previz look. Framing wider than asked: full figure, not knees-up. Case at his side 0-2s, held up in front of his body with both hands about 2.5-3.5s (front of the torso, lower than the chest), lowered to his side by 4s, run 4.5-6s with the case swinging. His eyes go up to the balconies a lot, head tilted back. Nobody visible at windows or balconies. Audio loudness peaks near 2s and 5s (likely the pot and the voices); words not verified by Claude."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "25d91c21-5d9d-455c-ba05-7a9613308f35",
+              "prompt": "05-generation/prompts/001_S05_SH010_T02.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH010-b. One change from T01: waist-up framing. Claude's read of frames: 0-2s waist up as asked, case below frame; about 2.5-3s he hauls the case up in front of his waist with both hands and looks back over his shoulder; about 3.5-4.5s the camera falls back and he reads near full figure (the distance does not hold); 5-6s close again, chest up, running at the lens, eyes up. Face more strained than T01. Audio peaks near 1-2s and 5s; words not verified by Claude."
             }
           ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
