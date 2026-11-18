@@ -1,0 +1,38 @@
+Audio: only the low, unintelligible murmur of three men talking quietly at a distance, the quick firm footsteps of one man on gritty asphalt, the clink of a small tea glass, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. @Image2: the dark leather briefcase: its shape, leather and clasps only, not its background. @Image3: the side street: its plastered walls, rolled-down metal shutters, balconies, cables, street lamps and dusty asphalt only, not its people, cars, chairs or framing. @Image4: color and light only.
+
+Wide shot on a long lens, locked-off, at a street corner in a desert town: outside a small corner bar on the left, three men sit on plastic chairs under a faded awning, talking low, the only people outside in the whole town, while the old man from @Image1 strides down the right half of the road toward the camera, the briefcase from @Image2 carried normally in his right hand at his side.
+
+The three men (keep them exactly like this): Man 1, nearest the bar door, seen in profile: thin, in his sixties, short grey hair, a pale blue long-sleeved shirt, dark trousers. Man 2, in the middle, facing the camera behind the table: heavyset, in his fifties, shaved head, clean-shaven, an olive green short-sleeved shirt, a small glass of dark tea in his right hand. Man 3, nearest the street: wiry, in his thirties, short black hair, a short black beard and mustache, a faded brown short-sleeved shirt, dark trousers, a lit cigarette in his left hand. Three cream plastic garden chairs, a small round dark table between them with small tea glasses on it. The awning is faded cream canvas with a scalloped edge, plain, no writing. Behind them the bar is open: a dim interior with shelves of bottles and a few warm hanging bulbs.
+
+The street is a real, lived-in street photographed on location, never blocky or simplified: uneven sun-worn plaster with cracks, stains and patches, facades of different heights and colors, irregular balconies with thin metal railings, dented and dusty metal shutters, sagging cables, chipped curbs, broken paving, a faded crosswalk and drifted sand along the walls. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun behind the far end of the street, facing the camera. Backlight: the haze and the dust down the street glow warm, the far facades soften into it, rim light catches the old man's shoulders and head, and his shadow and the shadows of the poles stretch long and soft toward the camera. The men sit in the shade of the awning, lit by warm bounce from the sunlit pavement, their faces readable. The front of the old man is in soft shade, filled by warm bounce from the asphalt, his face and eyes readable. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: wide, eye level, locked-off on a tripod, no camera movement at all for the whole shot. The corner bar and the three men fill the left third of the frame, whole bodies and chairs in frame, turned toward each other: Man 2 talks low, Man 1 listens and nods once, Man 3 draws on his cigarette. In the right half of the frame, far down the road, the old man walks toward the camera, small in frame, whole body visible: upright, chest out, chin level, a quick firm stride that does not hurry and does not hide. The briefcase hangs from his right hand at his side, his arm relaxed and swinging a little with each step, his grip tight on the handle. His left arm swings free.
+2-4s: the camera stays locked. The men keep talking low among themselves, none of them turns toward him yet: Man 1 answers something short, Man 2 lifts his tea glass, Man 3 taps ash onto the ground. The old man keeps the same firm stride across the faded crosswalk in the right half of the frame, growing from small to a full figure. Without slowing and without turning his head, his eyes slide to the three men, take their measure, and come back to the road ahead. Final frame: the camera exactly where it started; the three men seated in the left third under the awning, still turned toward each other; the old man in the right third, a full figure from head to shoes, mid-stride, the briefcase in his right hand at his side.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): an ordinary hot afternoon in which nothing is supposed to happen.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once in his life let a street make him small.
+GOAL: walk past these three men as if the town belonged to him.
+OBSTACLE: he trusts nobody, every window could hold a watcher, these three are the first faces he has met on foot, and one of them could know who he is.
+TACTIC: he dares the street: he keeps his chin up and his pace firm, because a man who hides gets noticed and a man who owns the road gets left alone. His eyes never stop working: they sweep the windows and the corners for a watcher, slide to the three men, check each face for a flicker of recognition, find none, and go back to the road with contempt, as if they were not worth a second look.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the three men (they are fully invested in their tactic; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): an ordinary hot afternoon in which nothing is supposed to happen.
+MOTIVE: the heat has emptied the town and there is nothing to do but sit it out together.
+GOAL: pass the hot hours easily, keep the talk going.
+OBSTACLE: there is nothing new to talk about.
+TACTIC: they keep each other company: each one watches the face of whoever is talking, waiting for his turn, and answers with small words and nods. Their eyes stay on each other, not on the street.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people: four, the three seated men and the old man. Count of briefcases: one, in the old man's right hand the whole time. Count of chairs: three. Nobody else on the street, at the windows, doors or balconies. No moving cars. Everyone keeps their words low and unintelligible; the old man keeps his mouth closed.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, awning, shutter or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the low, unintelligible murmur of three men talking quietly at a distance, the quick firm footsteps of one man on gritty asphalt, the clink of a small tea glass, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
