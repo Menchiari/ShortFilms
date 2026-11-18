@@ -3,6 +3,15 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-18, Politician S02 SH100 T02 and T03 (24 credits)
+
+- **What:** Leonard: "the city doesn't look realistic, street signs everything is wrong". No lamp posts, lane lines,
+  traffic lights, signs, sidewalks or parked cars; storefronts sit on a dirt road; identical towers repeat to infinity.
+- **Cause:** the prompt carried none of the street rules ("Nobody in the street", furniture only named as "only" for
+  image 2), and the guide clip is the d11 animatic street, which has no furniture: the model took the layout from it.
+- **Rule:** a guide clip of a street that lacks the street rules is not used. Start from the location image that
+  carries them (start frame) and describe the camera in words.
+
 ## 2026-11-17, Politician S01 SH020 T03 to T06 (70.75 credits for one 2 s shot)
 
 - **What:** four takes. T03 edited the old take into an LED sign Leonard never asked for; T04 held still; T05 put the
