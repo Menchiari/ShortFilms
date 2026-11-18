@@ -1,5 +1,6 @@
-S03 SH050 start frame v4, REQUEST 050d (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+S03 SH050 start frame v4, REQUEST 050d, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
 A new image, not an edit: 050a to 050c chained off 050a, which took only materials from loc_crossroads and lost its tall blocks, road markings and traffic lights.
+Result: job 5ecbe0a0-a861-41df-a56e-9c546bcdb706, 1.5 credits. Markings in; angle, car and rail copied from image 4.
 Images: 1 = guide frame 0 of animatic d11 (media 19a2dd38), 2 = loc_crossroads (a5b52222, saved as 001_S03_SH050_loc_crossroads_ref.png), 3 = prop_car (42787b78), 4 = the 050c frame (job e4433f6c), for the man only.
 Leonard 2026-11-18: higher and steeper like the previz, the balconies taller; the balcony bar made no sense; the car lower in frame and smaller; road markings as in the crossroads reference.
 
