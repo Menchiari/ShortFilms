@@ -3051,6 +3051,26 @@
               "rating": 4,
               "notes": "REQUEST S05-SH130-a. Folder S05/SH130. Text only, no references (Leonard 2026-11-18: try without references). Passed first submission. Claude's read: the closing-in works: eyes on the lens from every face, slow pace, warm hazy backlight, faces readable, a packed wall of faces by 4 s. Off: the street is a plain newer block of flat facades, not the old side street (no cables overhead, few balconies); the crowd is mostly young men in brown and olive shirts who look alike; the woman in the headscarf drops out; the heavy man ends mid-frame, not filling it. Leonard 2026-11-18: \"I like it, but the camera should be looking around not only in one spot\".",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "688ac3fb-81a5-4f77-9885-2258d50b9af4",
+              "prompt": "05-generation/prompts/001_S05_SH130_T02.txt",
+              "file": "05-generation/takes/S05/SH130/001_S05_SH130_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH130_T02.jpg",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH130-b. Folder S05/SH130. T01 prompt with only the camera changed: looks left, right, back to the front (Leonard on T01: the camera should be looking around). Passed first submission. Claude's read: the looking around works: front, left on men coming out of a dark doorway, right on the woman in the black headscarf and an old man, back front on the heavy man close. Off: each turn is a blurred whip pan despite the prompt; the crowd is thinner and further away than T01, so the faces do not press in; the last frame is a close-up of the heavy man, not his face filling the frame."
             }
           ],
           "description": "Faces close in around him, slowly, from every side.",
