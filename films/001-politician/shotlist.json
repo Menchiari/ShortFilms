@@ -1338,6 +1338,32 @@
               "rating": null,
               "rating_source": "",
               "notes": "Leonard approved 2026-11-18 (12 credits), warning that the video reference might break it. Claude's read: same look, physics and dust as T01, but the car yaws again: by 1 s its left side is in full view and it slides diagonally into the frame, as in T01. The T01 reference carried the slide over despite the prompt."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "draft": true,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "2cf51fb4-dfeb-4cec-a8b1-1d41ea7e5740",
+              "seed": 21089572,
+              "prompt": "05-generation/prompts/001_S02_SH080_T03.txt",
+              "file": "05-generation/takes/S02/SH080/001_S02_SH080_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH080_T03.jpg",
+              "references": [
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "Leonard approved 2026-11-18 (go T03). No video reference. Claude's read: the car stays dead straight, grille to the lens, both headlights visible throughout; it stops close and its dust swallows the frame. But the place is wrong: it is inside a city street lined with tall buildings and a few palms, not the open edge of town of T01 (palms were banned in the prompt)."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
