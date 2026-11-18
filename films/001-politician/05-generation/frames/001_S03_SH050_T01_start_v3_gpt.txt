@@ -1,0 +1,18 @@
+S03 SH050 start frame v3, REQUEST 050c, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+Images: 1 = the REQUEST 050b frame (job 39b69882), 2 = guide frame 0 of animatic d11 (media 19a2dd38), 3 = prop_car (42787b78).
+Result: job e4433f6c-738b-40d8-b6e6-03accea073d7, 1.5 credits.
+Leonard 2026-11-18 (001_S03_SH050_T01_start_v2_notes.webp): the railing only at the corner around the man, in perspective; no railing across the bottom; the car faces the opposite way, as in the reference.
+
+Prompt:
+
+Image 1 is the frame: keep the same camera, framing, street, buildings, light, haze and color, and the same man in the white sleeveless undershirt with his cigarette, leaning on his forearms and looking down. Change only two things.
+
+First, the railing. The man stands at the corner of his own small balcony at the left of the frame. The old rusty metal railing exists only at that corner: its top bar runs along in front of him, where his forearms rest, and at his right side it turns a corner and runs straight toward the camera, down and out of the bottom of the frame just to the right of his elbow, in correct perspective, its vertical bars getting taller and closer as they come toward the camera. To the right of that corner there is no railing at all: from there to the right edge, the bottom of the frame shows only the open drop and the street far below.
+
+Second, the car. The black sedan of image 3 stays at the same place and size in the crossroads, but turned around to face the opposite way: its nose points up and to the left, away from the camera, toward the street on the upper left, and we see its rear and trunk toward the lower right, as the car box sits in image 2. All doors closed. Its shadow falls to the right on the asphalt.
+
+Take nothing else from image 2: it is a rough 3D previz, only the direction the car faces.
+
+Count of people: one, the man on the balcony. Count of cars: one.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.

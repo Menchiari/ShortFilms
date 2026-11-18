@@ -1,0 +1,11 @@
+S03 SH050 T01 start frame. Midjourney, made by Leonard. Frame 0 of the shot: the car alone, door closed, nobody out yet.
+
+Inputs:
+- Structure: 001_S03_SH050_T01_guide.png (frame 0 of animatic d11, 1120x480). Midjourney Editor > Retexture, so the composition stays.
+- Style: --sref stories/politician/look/palette_ref_1_afternoon.jpg (color and light only).
+
+Prompt:
+
+film still, extreme wide high angle looking down from a balcony across a large empty crossroads in a poor desert town, one black full-size luxury sedan stopped alone in the middle of the intersection, small in frame, nose toward the lower right, driver door closed, a light coat of desert dust on its black paint, along the whole bottom edge of the frame the dark worn concrete top of a balcony railing, at the far left edge the back of a bald man's head and one shoulder in shade, soft focus, a thin thread of cigarette smoke drifting up beside him, his face never visible, on the left a tall 1970s concrete apartment block with small balconies running away into depth, at the top right the corner of a concrete apartment block with rolled-down corrugated metal shutters at street level and a wide dusty sidewalk, cracked asphalt buried in dust and drifted sand filling the frame, a few scattered stones, nobody else anywhere, low hazy afternoon sun from the left, long soft warm shadows, golden dust in the air, warm ochre and brown palette, deep brown shadows with detail, highlights soft cream, still and silent, shot on 35mm film, anamorphic, fine grain, naturalistic light, documentary realism --ar 21:9 --style raw --no pedestrians, crowd, laundry, trees, palms, signs, text, logos, mosque, minaret, dome, flag
+
+[ASSUMPTION] Sun from screen left: he walks off into the west street, which is screen left in the animatic.
