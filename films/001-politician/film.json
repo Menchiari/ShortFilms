@@ -1190,6 +1190,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH020-h done (12 credits): S05 SH020 T06 c10adbc4, animatic line guide plus elements, 480p draft, 21:9, 4 s. True top view in the animatic framing, people foreshortened from above, reads as drone footage; people just there, nobody closing."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard sent the bond image to use (Franklin County A 017, folded, no coupons): saved as refs/001_S05_SH090_bond_v3_src.webp and refs/001_S05_SH090_bond_v3.jpg (1120 wide), media 93b84cd4, filed in REFS. REQUEST S05-SH090-e updated: @Image3 = 93b84cd4 instead of fa669df1; prompt unchanged (prompts/001_S05_SH090_T05.txt). Estimate 12 credits."
     }
   ],
   "story_sync": {
