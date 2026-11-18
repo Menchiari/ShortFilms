@@ -156,7 +156,13 @@
       "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
       "S04/SH040": "21642846-4d02-4194-ab47-76dd557a0d21",
       "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947",
-      "S05": "e5f1beec-b90d-4286-8c78-6cfb75d2f775"
+      "S05": "e5f1beec-b90d-4286-8c78-6cfb75d2f775",
+      "S05/SH070": "763bfcc0-f47c-4e28-9d1d-9b5b1013d30b",
+      "S05/SH130": "c919d3a9-8825-4bb8-bc64-e76ea4f947d7",
+      "S05/SH080": "dd853efa-63f1-429e-be62-eca4e85352ac",
+      "S05/SH140": "88233c64-0863-4790-8a5e-39aabad78aac",
+      "S05/SH030": "dd57dcc5-56e6-400d-9594-34cb8f10f8de",
+      "S05/SH090": "b2dcfe97-5fb4-4808-94d0-be17e1660532"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -644,6 +650,26 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 020 approved (12 credits, 480p draft, 21:9, 4 s): S02 SH100 T06 58f37c4a-4d65-4e92-ba45-e3f5a35be3f5, start frame loc_town-edge cropped on the gap. The town is right; the forward travel is only 8%, too little for a vertigo effect."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S05/SH070 created (763bfcc0-f47c-4e28-9d1d-9b5b1013d30b). No takes yet; waiting for Leonard's phone-unlock video."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S05/SH080 created (dd853efa-63f1-429e-be62-eca4e85352ac)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S05/SH140 created (88233c64-0863-4790-8a5e-39aabad78aac)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S05/SH030 created (dd57dcc5-56e6-400d-9594-34cb8f10f8de)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S05/SH090 created inside S05 (b2dcfe97-5fb4-4808-94d0-be17e1660532)."
     }
   ],
   "story_sync": {
