@@ -640,6 +640,10 @@
     {
       "date": "2026-11-18",
       "text": "Higgsfield folder S05 created at the project root (e5f1beec-b90d-4286-8c78-6cfb75d2f775). One session per S05 shot; each creates only its own S05/SHxxx."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 020 approved (12 credits, 480p draft, 21:9, 4 s): S02 SH100 T06 58f37c4a-4d65-4e92-ba45-e3f5a35be3f5, start frame loc_town-edge cropped on the gap. The town is right; the forward travel is only 8%, too little for a vertigo effect."
     }
   ],
   "story_sync": {

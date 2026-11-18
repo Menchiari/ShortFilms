@@ -1767,6 +1767,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "T04 with the zoom out added in post (0 credits): the junction was tracked (OpenCV optical flow, scale 1.000 to 1.267 over 96 frames in T04) and each frame is cropped by 1.267/scale around it, so frame 0 is a 1.27x crop and frame 96 is the full T04 frame. Measured on T05: junction traffic-light spacing 150 px at frame 0 and 150 px at frame 96 (tracked scale 0.96); far tower 92 px to 68 px (-26%). The vertigo effect happens. Cost: the first frames are 1.27x upscaled (softer); the far tower stays (an end in sight)."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "58f37c4a-4d65-4e92-ba45-e3f5a35be3f5",
+              "prompt": "05-generation/prompts/001_S02_SH100_T06.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T06.jpg",
+              "references": [
+                "start frame: loc_town-edge 146470dd cropped 1.6x on the gap (0308330d, frames/001_S02_SH100_T06_start.jpg)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 020, draft. Plan: real forward travel from Seedance, zoom out in post. Claude's read: photographic town, one gap, the street visible through it. Measured: the gap grows only 8% in 4 s (tracked scale 1.000 to 1.081), asked for 2x: the camera barely travels against a town about a kilometer away, so a post zoom out would show almost no vertigo. A dashboard edge sits at the bottom for the first second, against the prompt. Frame 0 is a re-rendering of the start frame, slightly wider."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
