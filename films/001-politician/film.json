@@ -176,7 +176,8 @@
       "S04/SH110": "c7222bc7-a85c-440e-8680-3583f247cf9f",
       "S04/SH140": "cdf33b76-4df1-49be-be04-87ad62dea945",
       "S04/SH135": "6cefbd72-bd45-4172-89a1-899cc4d14db0",
-      "S04/SH070": "31a59886-72c9-4812-98e7-b49befa80736"
+      "S04/SH070": "31a59886-72c9-4812-98e7-b49befa80736",
+      "S05/SH120": "3865bb40-82b6-4a55-bcd0-2a7d928dd9b5"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1274,6 +1275,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH130 T05 (Topaz 1080p) rated 4, inferred from Leonard's \"works\". Shot approved: T03 loved, T04 720p and T05 1080p both available for the edit (T05 needs horizontal scale about 0.969)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH120-a approved (12 credits, 480p draft, 21:9, 4 s): S05 SH120 T01 e5840d30-5dd7-4019-a33c-30d832e5a807, elements only (blood sheet updated to 0d0a5637). Folder S05/SH120 3865bb40-82b6-4a55-bcd0-2a7d928dd9b5. Photographic street; the wound likely on the wrong side."
     }
   ],
   "story_sync": {
