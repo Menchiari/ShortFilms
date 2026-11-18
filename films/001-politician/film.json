@@ -154,6 +154,7 @@
       "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480",
       "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7",
       "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
+      "S04/SH040": "21642846-4d02-4194-ab47-76dd557a0d21",
       "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
@@ -522,6 +523,18 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH010-a done (12 credits): S04 SH010 T01 in, 480p 992x432."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH040 created (21642846-4d02-4194-ab47-76dd557a0d21). REQUEST S04-SH040-a prepared, not submitted: prompts/001_S04_SH040_T01.txt, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip; get_cost 12 credits. The three men are described in the prompt for SH050 to reuse word for word."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-a approved by Leonard (\"do it, be sure you keep the streets realistic and not blocky\"; get_cost 12 credits) and submitted: S04 SH040 T01 c307d1d5-c422-4f6f-a4c5-77e7eeab4f28, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip. Added before submit, no cost change: a paragraph keeping the street real, lived-in and never blocky."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-a done (12 credits): S04 SH040 T01 in, file takes/S04/SH040/001_S04_SH040_T01.mp4. Photographic street, not blocky. He walks down the middle of the road toward the camera instead of the far sidewalk; parked cars appeared. Notes in shotlist.json."
     }
   ],
   "story_sync": {

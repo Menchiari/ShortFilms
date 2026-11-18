@@ -2078,7 +2078,35 @@
         {
           "id": "SH040",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "c307d1d5-c422-4f6f-a4c5-77e7eeab4f28",
+              "prompt": "05-generation/prompts/001_S04_SH040_T01.txt",
+              "file": "05-generation/takes/S04/SH040/001_S04_SH040_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH040-a, 480p (992x432), 4.06 s, audio present (mean -38.6 dB; not listened to). Claude's read from frames 0, 47, 95 and the last frame: photographic, no previz or blocky look: worn plaster, balconies, cables, backlit dust, real cafe with lights and shelves. Men: Man 1 grey hair, pale blue shirt; Man 2 shaved head, olive polo, drinking tea; Man 3 mustache, brown shirt, cigarette; they stay turned to each other. Misses: he walks down the middle of the road over a crosswalk straight at the camera, not along the far sidewalk, and grows from small to medium-wide (feet at the frame bottom at the end); a crossroads, not a long narrow street; three parked cars despite 'no cars'; a red no-entry sign; beige awning, not red; round table, not a low plastic one; the sun is behind the street, facing the camera, not at screen right; the briefcase reads blue-grey in this grade (I don't know whether it is the element's color or the light)."
+            }
+          ],
           "description": "Across the street, outside a small bar, three men sit on plastic chairs in the shade of an awning, talking low. He passes on the far sidewalk, head down.",
           "framing": "WIDE, long lens",
           "movement": "Locked-off",
