@@ -1581,7 +1581,7 @@
         },
         {
           "id": "SH180",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1605,9 +1605,9 @@
                 "line guide 2ccff74d"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: Covers SH180 and SH190. Photographic: close behind his right shoulder, then the shoe pressing the pedal. Through the windshield a ruined street with some greenery (from the car interior image), against the no-greenery rule."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH180 and SH190. Photographic: close behind his right shoulder, then the shoe pressing the pedal. Through the windshield a ruined street with some greenery (from the car interior image), against the no-greenery rule. Leonard 2026-11-18: \"this works\" (rating inferred 4)."
             }
           ],
           "description": "Sweat runs down his temple. He breathes in.",
@@ -1622,13 +1622,13 @@
         },
         {
           "id": "SH190",
-          "status": "planned",
+          "status": "approved",
           "takes": [],
           "description": "His shoe presses the accelerator, gently.",
           "framing": "INSERT, footwell",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": ""
+          "note": "Covered by SH180 T01 (the 3-5s insert after the cut)."
         },
         {
           "id": "SH200",
