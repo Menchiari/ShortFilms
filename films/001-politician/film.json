@@ -152,7 +152,8 @@
       "S03/SH030": "76a40ddf-96a0-483a-bf70-9f2be034cba8",
       "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b",
       "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480",
-      "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7"
+      "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7",
+      "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -496,6 +497,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050e approved (1.5 credits): S03 SH050 start frame v5, gpt_image_2_6 high 1k 21:9, job 1310a61e-df17-4e20-a90c-1c1426b367d0, guide frame, loc_crossroads, prop_car, man in words. Claude's read: steeper angle, car just right of center and a little below the middle, about a tenth of the width, nose to the upper left; road markings and traffic lights; only a short rail under his arms. Files frames/001_S03_SH050_T01_start_v5_src.png and _start_v5.jpg."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH020 created (68d1b82c-cbbc-4fee-bd43-e2bff083a724)."
     }
   ],
   "story_sync": {
