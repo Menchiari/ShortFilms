@@ -1054,6 +1054,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH060-c done (18 credits): S04 SH060 T03 in, edit of T02, file takes/S04/SH060/001_S04_SH060_T03.mp4. Performance kept; the sandy lot is now the street of SH110/SH140; the plain wall beside him also became a shopfront facade. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T03 loved (5, inferred from Leonard's \"love it\"), shot approved. Leonard asked for a 720p final. T03 is a 480p video_edit, not a draft job: draft finalize quotes 80 credits (suspect, matches the 1080p 5 s default) and may not apply. Options quoted: video_edit of T03 at 720p keeping everything, 31 credits; upscale of T03 (no cost preflight available). Waiting for Leonard's pick."
     }
   ],
   "story_sync": {
