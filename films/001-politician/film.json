@@ -151,7 +151,8 @@
       "S03/SH040": "7797dab3-43ac-4dff-92e2-6339e8a1ecfb",
       "S03/SH030": "76a40ddf-96a0-483a-bf70-9f2be034cba8",
       "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b",
-      "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480"
+      "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480",
+      "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -479,6 +480,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 020g done (56 credits): S03 SH020 T05 in, 720p 1470x630."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH010 created (93345e53-8f79-45dc-84f4-bb0cf08cbca7)."
     }
   ],
   "story_sync": {
