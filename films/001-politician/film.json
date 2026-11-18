@@ -752,6 +752,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH135-a prepared, not submitted: prompts/001_S04_SH135_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s (model minimum; the shot is 3 s, trim in the edit), audio on. Images: char_big-guy 6228445b, char_politician_dusty 98e1e69e, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref ed1d884b (refs/001_S04_SH135_lines_d11.mp4: d11 clip as a line drawing, last frame held 1 s to fill 4 s), filed in REFS. Estimate 12 credits. [ASSUMPTION: sun behind the fat person at screen right; to be matched with SH110 and SH140.]"
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH120: Higgsfield folder S04/SH120 5e489526 created. T01 prompt written (prompts/001_S04_SH120_T01.txt), text + elements, no guide clip: the d11 clip is a static close whose frame is filled by the faceted head, a line drawing of it would hand the model polygon edges on the face; words hold the framing. Images: char_politician_dusty 98e1e69e, char_big-guy 6228445b (his fist on the collar and a blurred edge of his head are in frame), loc_side-street e728a9ae, palette_afternoon 3bf30eee. REQUEST S04-SH120-a quoted at 18 credits (seedance_2_5, 480p, 21:9, 6 s, audio on), waiting for approval."
     }
   ],
   "story_sync": {
