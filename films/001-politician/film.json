@@ -171,7 +171,8 @@
       "S04/SH120": "5e489526-0ea9-40f2-9c0c-82933fe697ae",
       "S04/SH050": "eb370852-1bce-443b-b265-0ba496292f3b",
       "S04/SH100": "a9b5ddd1-f3d4-49e2-9099-95839c6e14a5",
-      "S04/SH090": "11abe270-ae25-48f5-8e0d-5f7da3a805e2"
+      "S04/SH090": "11abe270-ae25-48f5-8e0d-5f7da3a805e2",
+      "S04/SH060": "5b9923a0-c359-42f3-9199-c5bebcbe3744"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -727,6 +728,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH090-a prepared, not submitted: prompts/001_S04_SH090_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on. Images: char_politician_dusty 98e1e69e, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref 877cb2aa (refs/001_S04_SH090_lines.mp4, line drawing of refs_d11 S04_SH090, filed in REFS). [ASSUMPTION] the dark blob next to him in the d11 clip is the fat person's shadow: written as his shadow, he stays out of frame. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH060: Higgsfield folder S04/SH060 created (5b9923a0-c359-42f3-9199-c5bebcbe3744). Line-drawing guide refs/001_S04_SH060_lines_d11.mp4 (edgedetect of refs_d11/S04_SH060.mp4) uploaded to REFS (video 9fc85eee-e865-47e1-9211-353cb1bf2b12). REQUEST S04-SH060-a prepared, not submitted: prompts/001_S04_SH060_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on, char_politician a7601ce4, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, char_big-guy 6228445b, palette_afternoon 3bf30eee. Estimate 15 credits."
     }
   ],
   "story_sync": {
