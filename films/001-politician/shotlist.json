@@ -3068,6 +3068,34 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH070-a, 480p (992x432), 4.06 s. Line-drawing guide of refs_d11 S04_SH070. Higgsfield folder S04/SH070. Claude's read (frames every 0.25 s and audio levels, not heard): photographic, nothing of the previz look. High angle, handheld. 0-1 s: the fat person's head and shoulder fill the right edge in the foreground (curly hair, grey-brown T-shirt, matches the element), more of him than the prompt asked, part of his face in profile; the old man rebounds off him. About 1-1.5 s: he falls back, the briefcase flies out to the left, a dust puff at the landing. 1.5-4 s: flat on his back, arms spread, head top center, legs toward the bottom, the briefcase flat on his left side of frame, a curb and sidewalk on a diagonal at the right; mouth open, gasping, eyes up past the camera. His head stays in frame. Sunlit and golden rather than the warm shade written. Audio mean -27.7 dB, peak -6 dB. Element char_politician (clean) [ASSUMPTION]. Leonard 2026-11-18: the impact is too slow, slow-motion-like; he must be immediately conscious of the briefcase, find it and grab it: the impact hurts but the briefcase is his concern. T02 changes this."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "82578f76-f50d-4d8b-8f0f-608c2339d0f9",
+              "prompt": "05-generation/prompts/001_S04_SH070_T02.txt",
+              "file": "05-generation/takes/S04/SH070/001_S04_SH070_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH070_T02.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "char_big-guy 6228445b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "lines guide 91aef5db (refs/001_S04_SH070_lines_d11.mp4, video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH070-b, 480p (992x432), 4.06 s. Changes from T01 (Leonard's note): real-time fall, he goes for the briefcase at once. Claude's read (frames every 0.25 s and audio levels, not heard): photographic. 0-0.5 s the fat person's back and shoulder (grey-brown T-shirt) fill the right foreground, face not shown; the old man slams into him. The fall is fast: down by about 0.75 s, the briefcase flies to screen left, dust at the landing. About 1-1.5 s a short beat on his back, then he rolls toward the case, reaches with his right arm, grabs it by about 2.25 s, hauls it onto his chest by 2.75 s and ends clutching it with both arms, eyes up past the camera, gasping. Head in frame throughout. Camera: handheld, more movement than T01; the final frame has him center-right on a diagonal with a curb and sidewalk behind, not the exact d11 end framing (head not at the top). A sunlit wall with a window at the top in the first second. Audio mean -25.5 dB, peak -2.1 dB."
             }
           ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",
