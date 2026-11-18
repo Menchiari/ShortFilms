@@ -3482,8 +3482,37 @@
         },
         {
           "id": "SH135",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "2c289efe-bb5e-4806-9208-79303119142c",
+              "prompt": "05-generation/prompts/001_S04_SH135_T01.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_big-guy 6228445b",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "S04 SH120 T02 frame 1.5 s 94b4d5ee",
+                "video: refs_d11 S04_SH135 line drawing, held to 4 s, ed1d884b"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH135-a, 480p (992x432), 4.06 s, audio present (mean -40 dB, peak -20 dB; not listened to). Leonard: 'go ahead, and use sh120 as a reference' (T02 frame used). Claude's read from frames every 0.5 s and frames 12, 54, 66, 96: photographic, nothing of the previz look. Over the fat person's right shoulder, old man screen left facing right: eyelines match SH110 to SH140. Light and street match SH120 T02 (backlit hazy sun high screen left, face in soft bounce). Both fists twist his collar to about 2.3 s; the hands loosen and one drops past the briefcase around 2.5 to 2.8 s; from about 3 s he stands free, the briefcase hugged flat to his chest, tie and stained shirt visible. No shove, no blow. Misses: the release reads as him stepping back out of the grip more than sinking; he ends further from the camera (waist-up, smaller) instead of half a step left; the fat person's face shows in partial profile, his hair short and dark rather than the element's curls; a dark parked car appears in the background at the end; the briefcase is not visible during the grip (0 to 2 s). The nods and the eye work were not checked frame by frame."
+            }
+          ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
           "framing": "OVER THE SHOULDER of the fat person, on the old man",
           "movement": "Handheld",
