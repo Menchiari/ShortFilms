@@ -1118,6 +1118,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH030-c approved (Leonard: \"ok go\"; 35 credits, 720p final, 21:9, 5 s, seed 1823186076) and submitted: S05 SH030 T03 6057f946-86a2-4e3d-95d1-8a819690d1b3, folder S05/SH030."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T05: Topaz upscale of T03 to 1080p (Leonard's option B), 5 credits from the transaction log (no preflight exists for upscales), job 102605e2-0f6d-41ac-8ce3-4ceec6ca3940, takes/S04/SH130/001_S04_SH130_T05.mp4, 2560x1080. Stretched about 3% wide against T03 (fix in the edit); sharper than T04 with waxy upscaler faces. Not in the Higgsfield folder: attach refused (403). SH130 total: 75 credits."
     }
   ],
   "story_sync": {
