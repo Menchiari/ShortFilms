@@ -3700,7 +3700,7 @@
               "prompt": "05-generation/prompts/001_S04_SH135_T03.txt",
               "file": "05-generation/takes/S04/SH135/001_S04_SH135_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH135_T03.jpg",
               "references": [
                 "char_big-guy 6228445b",
                 "char_politician_dusty 98e1e69e",
