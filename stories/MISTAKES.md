@@ -157,3 +157,12 @@ the rule that prevents it. Newest first.
 - **Cause:** the list was written before draft 8 (2026-11-15 06:15) and edited after it (21:17)
   without being checked against it. Draft 8 moved the chase to a square.
 - **Rule:** after every new draft, recheck the asset list against the screenplay, scene by scene.
+
+## 2026-11-18 001 S02 SH010 T06: angle not changed, tripod in frame (28 credits)
+
+- **What:** asked for eye height with start frame v1 as an image reference. The take kept the reference's
+  camera height exactly, and a camera tripod stands on the road for the whole shot.
+- **Cause:** a Seedance image reference of a whole scene locks its composition like a start frame; the
+  prompt text cannot move the camera against it. "Locked-off on a tripod" was drawn as an object.
+- **Rule:** a new angle needs a new image at that angle (from Leonard's pipeline). Never write "tripod" in a
+  prompt: write "static camera".
