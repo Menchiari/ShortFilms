@@ -950,9 +950,9 @@
                 "start frame v1 6227907d (start_image, crop of loc_town-edge 146470dd)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Draft. Higgsfield folder S02/SH010. File 992x432, 24 fps, 4.04 s, audio wind only (mean -38.5 dB). Claude's read: every tower, the gap and the road hold the start frame exactly, no redraw. Locked-off. Motion is small: dust blows off the road edges, a small dust devil rises at the right around 2 s and fades, sun glints on the rooftops. No visible dust through the gap, heat shimmer too subtle to read at 480p. Still a near-static postcard: the same weakness as T01, now with the right angle."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Draft. Higgsfield folder S02/SH010. File 992x432, 24 fps, 4.04 s, audio wind only (mean -38.5 dB). Claude's read: every tower, the gap and the road hold the start frame exactly, no redraw. Locked-off. Motion is small: dust blows off the road edges, a small dust devil rises at the right around 2 s and fades, sun glints on the rooftops. No visible dust through the gap, heat shimmer too subtle to read at 480p. Still a near-static postcard: the same weakness as T01, now with the right angle. Leonard 2026-11-18: work. Next: 720p from human eye height (T06; T05 push-in prompt never generated)."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
