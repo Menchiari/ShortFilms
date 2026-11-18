@@ -1234,6 +1234,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH090 T06 downloaded (12 credits). Papers right for the first time since T02 (large cream sheets, no cash), the case opens on impact, the struggle is a push-up and collapse with hands on the ground. Left: parked cars, eyes forward not up, the wound reads as gashes on the temple."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard, naming rule (restated 2026-11-18): reference images are @Image1, @Image2, @Image3 by upload order, the video @Video1, audio @Audio1. Characters ALWAYS as @char_<name> in the version that matches the scene in the script (S05 before the rock: @char_politician_dusty; after: @char_politician_blood), props @prop_<name>, locations @loc_<name> when used. Format: '@char_politician_dusty (@Image1): ...', then @char_ / @prop_ / @loc_ names in the body. S05 SH080 T04 prompt updated to it."
     }
   ],
   "story_sync": {
