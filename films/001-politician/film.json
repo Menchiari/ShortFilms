@@ -155,7 +155,8 @@
       "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7",
       "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
       "S04/SH040": "21642846-4d02-4194-ab47-76dd557a0d21",
-      "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947"
+      "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947",
+      "S05": "e5f1beec-b90d-4286-8c78-6cfb75d2f775"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -631,6 +632,10 @@
     {
       "date": "2026-11-18",
       "text": "S02 SH050 T04 resubmitted unchanged (Leonard: resubmit it, go) and passed: f8ffe52c, 12 credits. Car from behind, single pass, lands and drives to the gap."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S05 created at the project root (e5f1beec-b90d-4286-8c78-6cfb75d2f775). One session per S05 shot; each creates only its own S05/SHxxx."
     }
   ],
   "story_sync": {
