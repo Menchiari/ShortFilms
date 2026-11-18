@@ -10,7 +10,7 @@ Seedance 2.5 does not resolve `<<<id>>>` placeholders: pass the element's image 
 |---|---|---|---|
 | char_politician | 1d544095-f1c6-4865-8e97-e09dbadcabc7 | a7601ce4-95ee-410c-b6f1-2887359c73a9 | Old man A: S02 to S04, until he bounces off the fat person |
 | char_politician_dusty | 1ecc0e0b-5c3c-4826-b0fd-361861a4b87b | 98e1e69e-c6a2-42c5-acbe-92a3607d484a | S04 after the fall, S05 until the rock |
-| char_politician_blood | b3b677ef-3cd5-48d1-abe8-39552e40b573 | 73236f58-4093-48bf-a4fc-88f05e189556 | Old man B: S05 after the rock, S06, S07 until the pipe |
+| char_politician_blood | b3b677ef-3cd5-48d1-abe8-39552e40b573 | 0d0a5637-8109-4f72-b184-682b4a3bd534 | Old man B: S05 after the rock, S06, S07 until the pipe. Image replaced by Leonard 2026-11-18 13:30 (was 73236f58) |
 | char_politician_final | f4279c8f-0cbb-407d-98b6-7c774a5f7603 | 547bbfa3-b1b2-441e-b704-ae87c835eaec | Old man C: S07 after the pipe, S09, S10. D = this plus the stain, in the prompt |
 | char_big-guy | f5cc12be-ecbd-4a93-bf39-76debb61c908 | 6228445b-458a-498a-b4aa-88ba8d8ca3d5 | The fat person (S04, the pipe in S07, S09) |
 | char_boss | 69d22ecb-f04a-419e-95bf-f50071d2fa89 | 7ef41962-b628-4da9-b376-d0ca1975659b | The business lady (S08 to S10) |
