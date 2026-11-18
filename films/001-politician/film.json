@@ -681,6 +681,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH020-h done (12 credits): S05 SH020 T06 c10adbc4, animatic line guide plus elements, 480p draft, 21:9, 4 s. True top view in the animatic framing, people foreshortened from above, reads as drone footage; people just there, nobody closing."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH020: prompts T03 to T07 named references 'Image 1' although Leonard decided @Image1, @Image2 on 2026-11-17 (REQUEST 030a). Cause: Claude read only the last log entries, followed the S03 SH010 template, and the rule is not in docs/PROMPTING.md. T07 prompt corrected to @Image1."
     }
   ],
   "story_sync": {
