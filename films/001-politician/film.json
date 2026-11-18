@@ -488,6 +488,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050d approved (1.5 credits): S03 SH050 start frame v4, gpt_image_2_6 high 1k 21:9, job 5ecbe0a0-a861-41df-a56e-9c546bcdb706, new image from guide frame, loc_crossroads, prop_car and the 050c frame (for the man). Claude's read: road markings, traffic lights and signs in; angle, car position and size, and the corner rail carried over from 050c (image 4 set the composition). Files frames/001_S03_SH050_T01_start_v4_src.png and _start_v4.jpg."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH010-a approved by Leonard (\"approved, go with S04-SH010-a\"; estimate 12 credits) and submitted: S04 SH010 T01 1d9dc729-344b-4a64-8ed9-2b29dbf63da9, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip."
     }
   ],
   "story_sync": {
