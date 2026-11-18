@@ -3830,10 +3830,10 @@
                 "palette_afternoon 3bf30eee",
                 "animatic d11 motion-only S05_SH030 39372293 (video_references)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH030-b (Leonard: ok go). Folder S05/SH030. Seed 1823186076 (same as T01), T01 prompt plus two fixes: one briefcase rising in the same hand, gruff grouchy American voice. Claude's read from stills: one briefcase in every frame, at his left side, then held upright against his chest while he thumbs the phone. The crowd shows from about 1.5 s and grows; the background slightly softer than T01; still a medium shot and parked cars. Voice not verified by ear (speech energy at about 1.2 to 1.9 s)."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH030-b (Leonard: ok go). Folder S05/SH030. Seed 1823186076 (same as T01), T01 prompt plus two fixes: one briefcase rising in the same hand, gruff grouchy American voice. Claude's read from stills: one briefcase in every frame, at his left side, then held upright against his chest while he thumbs the phone. The crowd shows from about 1.5 s and grows; the background slightly softer than T01; still a medium shot and parked cars. Voice not verified by ear (speech energy at about 1.2 to 1.9 s). Leonard: love it, make the 720p version. Submitted without the draft flag (Claude's error against Leonard's every-take-as-draft rule), so it cannot be finalized: 720p needs a new generation, an edit or an upscale."
             }
           ],
           "description": "He runs. Behind him, soft and growing, the street fills with people coming his way. He pulls out his phone and presses it to his ear, running.",
