@@ -975,7 +975,7 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "Approved by Leonard 2026-11-18 (28 credits). Eye-height angle, 720p final, folder S02/SH010. Submitted, pending."
+              "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
