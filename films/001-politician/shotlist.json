@@ -3039,7 +3039,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3092,10 +3092,10 @@
                 "palette_afternoon 3bf30eee",
                 "lines guide 91aef5db (refs/001_S04_SH070_lines_d11.mp4, video_references)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH070-b, 480p (992x432), 4.06 s. Changes from T01 (Leonard's note): real-time fall, he goes for the briefcase at once. Claude's read (frames every 0.25 s and audio levels, not heard): photographic. 0-0.5 s the fat person's back and shoulder (grey-brown T-shirt) fill the right foreground, face not shown; the old man slams into him. The fall is fast: down by about 0.75 s, the briefcase flies to screen left, dust at the landing. About 1-1.5 s a short beat on his back, then he rolls toward the case, reaches with his right arm, grabs it by about 2.25 s, hauls it onto his chest by 2.75 s and ends clutching it with both arms, eyes up past the camera, gasping. Head in frame throughout. Camera: handheld, more movement than T01; the final frame has him center-right on a diagonal with a curb and sidewalk behind, not the exact d11 end framing (head not at the top). A sunlit wall with a window at the top in the first second. Audio mean -25.5 dB, peak -2.1 dB."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH070-b, 480p (992x432), 4.06 s. Changes from T01 (Leonard's note): real-time fall, he goes for the briefcase at once. Claude's read (frames every 0.25 s and audio levels, not heard): photographic. 0-0.5 s the fat person's back and shoulder (grey-brown T-shirt) fill the right foreground, face not shown; the old man slams into him. The fall is fast: down by about 0.75 s, the briefcase flies to screen left, dust at the landing. About 1-1.5 s a short beat on his back, then he rolls toward the case, reaches with his right arm, grabs it by about 2.25 s, hauls it onto his chest by 2.75 s and ends clutching it with both arms, eyes up past the camera, gasping. Head in frame throughout. Camera: handheld, more movement than T01; the final frame has him center-right on a diagonal with a curb and sidewalk behind, not the exact d11 end framing (head not at the top). A sunlit wall with a window at the top in the first second. Audio mean -25.5 dB, peak -2.1 dB. Leonard 2026-11-18: love it."
             }
           ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",
