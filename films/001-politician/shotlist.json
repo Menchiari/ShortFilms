@@ -1061,6 +1061,32 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST 018b, draft. Claude's read: Photographic: real broken concrete slab in the foreground, the road into the haze; the car appears late, far out, with its dust plume. Leonard: prefers the animatic: the car so far out you barely see it move, heat waves, dust behind. T03 at 720p does that."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "586c5e43-2599-4e1e-a3f8-d073f829f85e",
+              "prompt": "05-generation/prompts/001_S02_SH030_T03.txt",
+              "file": "05-generation/takes/S02/SH030/001_S02_SH030_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH030_T03.jpg",
+              "references": [
+                "line guide 219c398c (video)",
+                "loc_town-edge 146470dd (road)",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Leonard approved 35 credits, 720p. Claude's read: the car is on the horizon from frame one and barely grows, as in the animatic; photographic. Dust rises as a dark column off the car around 2.5 s (can read as smoke) and drifts left, not back along the road; sand blows across the road; a crest hides the car's wheels; heat shimmer not confirmed from stills."
             }
           ],
           "description": "Far out on a road of asphalt buried in dust and drifted sand, a car comes out of the heat shimmer at full speed, a plume of dust behind it.",
