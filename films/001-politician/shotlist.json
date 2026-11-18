@@ -3397,7 +3397,7 @@
         },
         {
           "id": "SH130",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3465,9 +3465,10 @@
               "references": [
                 "T02 d3dd7ed7 (video_references, edit source)"
               ],
-              "love": false,
-              "rating": null,
-              "notes": "REQUEST S04-SH130-c, approved by Leonard 2026-11-18: video_edit of T02 d3dd7ed7 (his note: more people, a third recording with phones). Folder S04/SH130. The request echo listed T02 under reference_images, but the result is an edit of T02. Claude's read (frames 0, 48, 95): T02's framing, pan, light, flare and sky kept. About 15 to 17 people visible per frame (was 6), mostly added on the left facade: a fourth man on the crowded balcony, people on the balconies above and below, figures on the top floors against the sky, two on the building at the right edge. The far buildings stay almost empty. Phones: at 480p Claude can make out about three to four dark phones held up (on the crowded balcony and the balcony below it), not clearly six. People are small; phones read as a gesture more than as objects. Audio: quiet room tone (mean -42.9 dB); Claude cannot listen, check for music."
+              "love": true,
+              "rating": 5,
+              "notes": "REQUEST S04-SH130-c, approved by Leonard 2026-11-18: video_edit of T02 d3dd7ed7 (his note: more people, a third recording with phones). Folder S04/SH130. The request echo listed T02 under reference_images, but the result is an edit of T02. Claude's read (frames 0, 48, 95): T02's framing, pan, light, flare and sky kept. About 15 to 17 people visible per frame (was 6), mostly added on the left facade: a fourth man on the crowded balcony, people on the balconies above and below, figures on the top floors against the sky, two on the building at the right edge. The far buildings stay almost empty. Phones: at 480p Claude can make out about three to four dark phones held up (on the crowded balcony and the balcony below it), not clearly six. People are small; phones read as a gesture more than as objects. Audio: quiet room tone (mean -42.9 dB); Claude cannot listen, check for music. Leonard 2026-11-18: \"love it, finalize it at 720p\".",
+              "rating_source": "inferred"
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
