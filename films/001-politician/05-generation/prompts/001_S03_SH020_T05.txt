@@ -1,0 +1,34 @@
+Audio: only these sounds, never spoken: <a big engine idling low and rough>, <tires crunching slowly on grit>, <the car body creaking softly over small bumps>, <his heavy breathing through the nose>, <the engine sputtering twice>, <one flat slap of a hand on a steering wheel>, <the engine cutting out>, <tires rolling on grit in silence>. The only spoken words are his one angry line at 6-8s; before it he says nothing at all. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Image 1 is the exact first frame. Keep the old man, his face, hair, sweat, suit, stained shirt and rust tie, the car interior, the framing and the light exactly as they are in image 1.
+
+Inside a black sedan crawling up a narrow street deep in shade, walled in by tall concrete apartment blocks, the old man drives, lost in his own head, and the car runs out of fuel under him: one continuous close shot in right profile, handheld by a camera operator sitting in the passenger seat.
+
+The car is clearly moving the whole time: the car body rocks gently over the uneven road; his head and shoulders sway slightly with every bump, independent of the camera; his hands make small corrections on the steering wheel; bands of shade and soft light slide across his face, the dashboard and the roof lining as the car passes the building fronts. Faint reflections of the passing wall slide across the glass of the driver's window behind him and across the windshield at frame right, so the glass is always readable. The wall outside slides past with light motion blur.
+
+0-2s: close shot in right profile, framing from image 1. Camera: handheld from the passenger seat, the way an operator's body moves inside a moving car: the camera itself drifts a few centimeters in position, up and down, forward and back, toward him and away, not only turning; it bounces a little on each bump, a beat after the car, and makes small loose reframes to keep his face; never smooth, never stabilized, never locked to the car. This handheld movement continues through the whole shot. Through the driver's window behind him, close, the shaded concrete wall of the apartment block alongside the street slides past from frame right to frame left: weathered plaster, shutters pulled down, closed balconies. At frame right, the windshield pillar and the same walled street running on ahead. He drives, both eyes on the road, lips pressed shut, sweat running down his temple into his collar, thinking hard. His eyes drop once to frame left, to the briefcase on the passenger seat, out of frame, then back to the road.
+2-5s: he says nothing. His lips stay pressed shut; the whole argument happens inside his head and shows only in his eyes and his jaw: the jaw muscles clench and release, his lips tighten once as if he almost says something and swallows it, his breath goes in and out hard through his nose; his eyes stay on the road.
+5-6s: the engine sputters twice and the car jerks. His eyes snap to the dashboard and freeze there: he understands he is out of fuel.
+6-8s: the anger he always swallows breaks through: teeth clenched, nostrils flaring, he says his angry line low and hard, and slams the heel of his right hand once on the steering wheel as the engine cuts out. The car rolls on in silence, slowing, the rocking fading, the wall outside sliding past more and more slowly. Final frame: the same framing as image 1, his hand back on the wheel, his eyes burning on the road ahead.
+
+Language: American English with a slight accent nobody can place.
+6-8s, his angry line, low and hard through clenched teeth (refusing it): {No, no no no...}
+This is the only line in the shot. From 0 to 6 seconds his mouth stays closed and silent.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, it has been eating him from the inside for years, and he has never once stopped; what he carries in the briefcase has to reach the other side.
+GOAL: keep his head clear and get the case across this town alive.
+OBSTACLE: the heat is cooking his head like a fever, the rage he always swallows is close to the surface, and the car under him is running dry.
+TACTIC: he talks himself through it silently, inside his head, the way he has talked himself through every mess, keeping the lid on the rage; his eyes stay nailed to the road and check the case once, like checking a pulse; when the engine sputters his eyes catch the dashboard and the lid comes off for one moment, then he forces his eyes back to the road.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence. Subtle until the sputter: small mouth movements, no big expressions.)
+
+Light, as in image 1: the street is in the shade of the tall blocks; warm soft light on his face and hair, glistening on his sweat; the walls around the car in warm-brown shade. No open sky, no direct sun on the walls.
+
+One man in the car. Count of briefcases: one, out of frame. A wall always beside him: no open sky, no open ground, no gaps.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only these sounds, never spoken: <a big engine idling low and rough>, <tires crunching slowly on grit>, <the car body creaking softly over small bumps>, <his heavy breathing through the nose>, <the engine sputtering twice>, <one flat slap of a hand on a steering wheel>, <the engine cutting out>, <tires rolling on grit in silence>. The only spoken words are his one angry line at 6-8s; before it he says nothing at all. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
