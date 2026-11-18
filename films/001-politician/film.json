@@ -466,6 +466,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 020g approved by Leonard at 720p (\"let's do the 720p version go\"; get_cost 56 credits) and submitted: S03 SH020 T05 f616f4c2-c15c-4dba-be97-49a435ad7421, 720p, 21:9, 8 s, no draft flag, start frame v3 at full source resolution (1244x532, media eb99a51a, in REFS), silent until the angry line."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050c approved (1.5 credits): S03 SH050 start frame v3, gpt_image_2_6 high 1k 21:9, job e4433f6c-738b-40d8-b6e6-03accea073d7, edit of 050b with guide frame and prop_car: railing only at the corner of his balcony, in perspective; car turned to face the upper-left street (Leonard's notes). Files frames/001_S03_SH050_T01_start_v3_src.png and _start_v3.jpg (1120x480)."
     }
   ],
   "story_sync": {

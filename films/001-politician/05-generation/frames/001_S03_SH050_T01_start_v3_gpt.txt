@@ -1,5 +1,6 @@
-S03 SH050 start frame v3, REQUEST 050c (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+S03 SH050 start frame v3, REQUEST 050c, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
 Images: 1 = the REQUEST 050b frame (job 39b69882), 2 = guide frame 0 of animatic d11 (media 19a2dd38), 3 = prop_car (42787b78).
+Result: job e4433f6c-738b-40d8-b6e6-03accea073d7, 1.5 credits.
 Leonard 2026-11-18 (001_S03_SH050_T01_start_v2_notes.webp): the railing only at the corner around the man, in perspective; no railing across the bottom; the car faces the opposite way, as in the reference.
 
 Prompt:
