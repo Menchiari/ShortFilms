@@ -1957,9 +1957,9 @@
                 "T09"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Tilt preview of T09 (0 credits): T08 with the gap held, plus a base scale of 1.12 and the frame shifted up by 13% of its height (clamped at the top edge). Measured: horizon at 49.3% of frame height at frame 0 (T09: 42.6%), 54.4% at 4.5 s (T09: 37.7%). 480p, softer than T09 by the extra 1.12x."
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Tilt preview of T09 (0 credits): T08 with the gap held, plus a base scale of 1.12 and the frame shifted up by 13% of its height (clamped at the top edge). Measured: horizon at 49.3% of frame height at frame 0 (T09: 42.6%), 54.4% at 4.5 s (T09: 37.7%). 480p, softer than T09 by the extra 1.12x. Leonard 2026-11-18: 'perfect works' (the tilt). Final: a 1080p finalize of T08 with this post (REQUEST 023 A, 144 credits) not yet approved."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
