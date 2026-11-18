@@ -1137,7 +1137,7 @@
         },
         {
           "id": "SH050",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T03",
@@ -1153,7 +1153,7 @@
               "prompt": "05-generation/prompts/001_S02_SH050_T03.txt",
               "file": "05-generation/takes/S02/SH050/001_S02_SH050_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH050_T03.jpg",
               "references": [
                 "loc_town-edge 146470dd",
                 "prop_car 42787b78",
