@@ -677,6 +677,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH030 T02 loved (Leonard). T01 and T02 were submitted without draft: true, against the every-take-as-draft rule, so no finalize. 720p options quoted: regenerate same seed 35 credits, video_edit of T02 38 credits, upscale (no preflight). Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard chose B (new 720p generation) with a change: he passes some people who start from behind the camera. T03 prompt written (three townspeople from behind the camera, he passes between them at 1-2 s). REQUEST S05-SH030-c quoted at 35 credits, waiting for approval of this exact request."
     }
   ],
   "story_sync": {
