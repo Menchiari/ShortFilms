@@ -72,7 +72,7 @@ Complex requests become several simple passes. One video model per film.
 - Shots last as long as the edit needs, never padded. Minimum 4 s.
 - Test at 480p only when a shot is risky and the test answers a structural question. Without a
   seed a test is never the keeper.
-- Every 480p take goes out with `draft: true`, so a keeper can be finalized at a higher
+- A 480p take goes out with `draft: true` whenever the job allows it, so a keeper can be finalized at a higher
   resolution instead of regenerated (rules in `docs/HIGGSFIELD.md`).
 - Music runs: picture is discarded, so the lowest resolution that keeps the audio.
 
