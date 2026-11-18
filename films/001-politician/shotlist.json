@@ -2957,6 +2957,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S04-SH050-a, 480p (992x432), 4.06 s, 24 fps, passed first submission. Audio present (mean -36.9 dB, max -17.4 dB; not listened to). Claude's read from frames every 0.5 s and face crops of Man 2: photographic, no previz look; locked-off; the SH040 bar held: cream scalloped awning, bottle shelves, hanging bulbs. All three heads fully in frame, men from the knees up. Man 1 grey hair, pale blue shirt, profile facing right; Man 2 shaved head, olive polo, tea glass, facing camera; Man 3 short beard and mustache, brown shirt, cigarette, but his hair is curly and fuller than in SH040. Man 2 talks with eyes down 0-2 s; from about 2.5 s his eyes come up and lock off screen to the right of the lens, mouth half open, head turned slightly toward screen right; he holds that look to the end. The slow head turn from right to left of the lens did not happen: the final eyeline is to screen right, not just left of the lens. Man 1 and Man 3 stay turned to each other. No parked cars, no extra people. Leonard 2026-11-18: flip it horizontally (he must look left, not right) and make a prequel where the politician passes fast right to left in the foreground. Flipped version (free, ffmpeg hflip, same audio): takes/S04/SH050/001_S04_SH050_T01_flip.mp4."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "7793d395-76fa-49fe-a557-637250bde123",
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02.jpg",
+              "references": [
+                "backward extension of T01 flipped, cut from 1.75 s (upload 8facbda6, refs/001_S04_SH050_T01_flip_from1.75s.mp4)",
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S04-SH050-b approved by Leonard, passed first submission. Returns only the new 4 s (96 frames, 992x432). Join with the flipped T01 holds: last frame vs source first frame SSIM 0.95, same men, poses and light. Joined preview (free, concat): takes/S04/SH050/001_S04_SH050_T02_join.mp4, 6.34 s. Audio present (mean -40.2 dB; not listened to). Claude's read from frames every 0.25 s: the men talk 0-1 s; he enters at the right edge at about 1 s at mid-distance, his face sharp and readable for about half a second, then walks toward the lens on a diagonal and crosses right to left very close, body nearly frontal, so from about 1.75 s his head is cut off by the top of the frame and he is a soft blur of suit and rust tie from the chest down, hiding the men; gone at the left edge by about 3.75 s. Misses: his head not in frame during the cross; no briefcase visible in any sampled frame (hands empty). Man 2 keeps talking and does not look up, as asked."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
