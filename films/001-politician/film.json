@@ -590,6 +590,10 @@
     },
     {
       "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-c done (35 credits): S04 SH040 T03 in, 720p 5 s, file takes/S04/SH040/001_S04_SH040_T03.mp4. The hand-to-hand briefcase pass works; camera closer to the bar than T01/T02; he turns his head to the men once instead of only his eyes. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
       "text": "REQUEST 050h approved (1.5 credits): S03 SH050 street plate v2, gpt_image_2_6 high 1k 21:9, job c34fb281-06ca-43d4-9527-5389d420bf70, edit of the T01 frame at 1 s: worn patched asphalt, faded markings, manholes, litter, cables, building shadow. Files frames/001_S03_SH050_T01_plate_v2_src.png (1344x576) and _plate_v2.png (1470x630, the video size)."
     },
     {
