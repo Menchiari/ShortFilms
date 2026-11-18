@@ -902,6 +902,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH070 T02 loved (Leonard: love it), rated 5 inferred; SH070 approved. Continuity for SH090: the briefcase ends on his chest, clutched in his arms, not on the ground."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH080 T01 rated 2 (inferred): Leonard, still looks like acting; start slightly apologetic, then confusion and stupor in his eyes, one more second, no smile. REQUEST S04-SH080-b prepared, not submitted: prompts/001_S04_SH080_T02.txt, 5 s (0-2 apologetic hand reaching to help, 2-4 stops, confusion and stupor, silent, 4-5 the line), same inputs and settings. [ASSUMPTION] Leonard's '... wait... is... no...' is the thought process, not a new spoken line. get_cost 15 credits."
     }
   ],
   "story_sync": {
