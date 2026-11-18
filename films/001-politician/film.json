@@ -405,6 +405,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050f approved (98 credits, 720p, 21:9, 14 s, audio on, no draft flag) and submitted: S03 SH050 T01 c6a30881-577e-4ba8-be88-1922e30323f9, start frame v5 (job 1310a61e) plus char_politician and prop_briefcase, prompt 05-generation/prompts/001_S03_SH050_T01.txt. The job echo lists the start frame as reference_images."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050f done (98 credits): S03 SH050 T01 in, file takes/S03/SH050/001_S03_SH050_T01.mp4."
     }
   ],
   "story_sync": {
