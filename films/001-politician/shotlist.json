@@ -3001,8 +3001,35 @@
         },
         {
           "id": "SH110",
-          "status": "planned",
-          "takes": [],
+          "status": "in_progress",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "6a850e02-bee8-43d8-b934-cdee8de9b1c8",
+              "prompt": "05-generation/prompts/001_S05_SH110_T01.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T01.jpg",
+              "references": [
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)",
+                "animatic d11 S05_SH110 line-drawing guide 1142fac7 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-a. Folder S05/SH110. Passed first submission. Tests whether Seedance renders the bond text from the image. Claude's read: fails on three counts. 1) 0-3.3 s copies the animatic: blocky box-bodied figures and flat buildings, previz look, despite the line-drawing guide (the clip's frame is filled by place: refs_d11 README rule). 2) The bond passes the lens at 1.4-1.8 s with the right green border and cream paper, but its text is a green smear, unreadable at 480p. 3) At about 3.3 s a hard cut to a different photoreal wide: the crowd lined up across a ruined street, a palm tree."
+            }
+          ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
           "framing": "MEDIUM WIDE, low",
           "movement": "Handheld",
