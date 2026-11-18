@@ -1210,6 +1210,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH020: prompts T03 to T07 named references 'Image 1' although Leonard decided @Image1, @Image2 on 2026-11-17 (REQUEST 030a). Cause: Claude read only the last log entries, followed the S03 SH010 template, and the rule is not in docs/PROMPTING.md. T07 prompt corrected to @Image1."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH080 prompts T01 to T04 named references 'Image 1' / 'VIDEO 1' although Leonard decided @Image1, @Video1 on 2026-11-17 (REQUEST 030a). Same cause as the S05 SH020 entry: the session followed the S03 SH010 T01 template named in its brief and the rule is not in docs/PROMPTING.md. T04 prompt corrected to @Image1-4, @Video1, @Audio1 before submission; T01-T03 were generated with the old naming."
     }
   ],
   "story_sync": {
