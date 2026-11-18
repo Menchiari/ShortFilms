@@ -2956,7 +2956,7 @@
               "love": false,
               "rating": null,
               "rating_source": "",
-              "notes": "REQUEST S04-SH050-a, 480p (992x432), 4.06 s, 24 fps, passed first submission. Audio present (mean -36.9 dB, max -17.4 dB; not listened to). Claude's read from frames every 0.5 s and face crops of Man 2: photographic, no previz look; locked-off; the SH040 bar held: cream scalloped awning, bottle shelves, hanging bulbs. All three heads fully in frame, men from the knees up. Man 1 grey hair, pale blue shirt, profile facing right; Man 2 shaved head, olive polo, tea glass, facing camera; Man 3 short beard and mustache, brown shirt, cigarette, but his hair is curly and fuller than in SH040. Man 2 talks with eyes down 0-2 s; from about 2.5 s his eyes come up and lock off screen to the right of the lens, mouth half open, head turned slightly toward screen right; he holds that look to the end. The slow head turn from right to left of the lens did not happen: the final eyeline is to screen right, not just left of the lens. Man 1 and Man 3 stay turned to each other. No parked cars, no extra people."
+              "notes": "REQUEST S04-SH050-a, 480p (992x432), 4.06 s, 24 fps, passed first submission. Audio present (mean -36.9 dB, max -17.4 dB; not listened to). Claude's read from frames every 0.5 s and face crops of Man 2: photographic, no previz look; locked-off; the SH040 bar held: cream scalloped awning, bottle shelves, hanging bulbs. All three heads fully in frame, men from the knees up. Man 1 grey hair, pale blue shirt, profile facing right; Man 2 shaved head, olive polo, tea glass, facing camera; Man 3 short beard and mustache, brown shirt, cigarette, but his hair is curly and fuller than in SH040. Man 2 talks with eyes down 0-2 s; from about 2.5 s his eyes come up and lock off screen to the right of the lens, mouth half open, head turned slightly toward screen right; he holds that look to the end. The slow head turn from right to left of the lens did not happen: the final eyeline is to screen right, not just left of the lens. Man 1 and Man 3 stay turned to each other. No parked cars, no extra people. Leonard 2026-11-18: flip it horizontally (he must look left, not right) and make a prequel where the politician passes fast right to left in the foreground. Flipped version (free, ffmpeg hflip, same audio): takes/S04/SH050/001_S04_SH050_T01_flip.mp4."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
@@ -3222,8 +3222,36 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "7f30f7a9-8a2e-44fb-b023-549fd0044f35",
+              "prompt": "05-generation/prompts/001_S05_SH030_T01.txt",
+              "file": "05-generation/takes/S05/SH030/001_S05_SH030_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH030_T01.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 motion-only S05_SH030 39372293 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH030-a (Leonard: approved, go). Folder S05/SH030. Seed 1823186076, draft false, 992x432 24 fps 5.06 s. Motion clip confirmed in the job as role video. Claude's read: photoreal, no previz look. Phone to his right ear at about 1 s, briefcase in his left hand, at about 3.5 s the case clamped to his chest and he thumbs the phone: as directed. Misses: framing is a medium shot (waist up), not close; the background is sharp, not soft; the crowd only appears at about 4 s as a small far group, the street never fills; parked cars and a covered car stand in the street. Words of the line not verified by ear (speech energy at about 1.3 to 2.6 s)."
+            }
+          ],
           "description": "He runs. Behind him, soft and growing, the street fills with people coming his way. He pulls out his phone and presses it to his ear, running.",
           "framing": "CLOSE",
           "movement": "Handheld, running",
