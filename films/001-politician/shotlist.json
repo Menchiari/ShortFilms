@@ -2931,7 +2931,7 @@
         },
         {
           "id": "SH050",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -2957,6 +2957,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S04-SH050-a, 480p (992x432), 4.06 s, 24 fps, passed first submission. Audio present (mean -36.9 dB, max -17.4 dB; not listened to). Claude's read from frames every 0.5 s and face crops of Man 2: photographic, no previz look; locked-off; the SH040 bar held: cream scalloped awning, bottle shelves, hanging bulbs. All three heads fully in frame, men from the knees up. Man 1 grey hair, pale blue shirt, profile facing right; Man 2 shaved head, olive polo, tea glass, facing camera; Man 3 short beard and mustache, brown shirt, cigarette, but his hair is curly and fuller than in SH040. Man 2 talks with eyes down 0-2 s; from about 2.5 s his eyes come up and lock off screen to the right of the lens, mouth half open, head turned slightly toward screen right; he holds that look to the end. The slow head turn from right to left of the lens did not happen: the final eyeline is to screen right, not just left of the lens. Man 1 and Man 3 stay turned to each other. No parked cars, no extra people. Leonard 2026-11-18: flip it horizontally (he must look left, not right) and make a prequel where the politician passes fast right to left in the foreground. Flipped version (free, ffmpeg hflip, same audio): takes/S04/SH050/001_S04_SH050_T01_flip.mp4."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "7793d395-76fa-49fe-a557-637250bde123",
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02.jpg",
+              "references": [
+                "backward extension of T01 flipped, cut from 1.75 s (upload 8facbda6, refs/001_S04_SH050_T01_flip_from1.75s.mp4)",
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH050-b approved by Leonard, passed first submission. Returns only the new 4 s (96 frames, 992x432). Join with the flipped T01 holds: last frame vs source first frame SSIM 0.95, same men, poses and light. Joined preview (free, concat): takes/S04/SH050/001_S04_SH050_T02_join.mp4, 6.34 s. Audio present (mean -40.2 dB; not listened to). Claude's read from frames every 0.25 s: the men talk 0-1 s; he enters at the right edge at about 1 s at mid-distance, his face sharp and readable for about half a second, then walks toward the lens on a diagonal and crosses right to left very close, body nearly frontal, so from about 1.75 s his head is cut off by the top of the frame and he is a soft blur of suit and rust tie from the chest down, hiding the men; gone at the left edge by about 3.75 s. Miss: his head not in frame during the cross. Claude's read said no briefcase; Leonard 2026-11-18: he does have the briefcase (Claude's read was wrong). Man 2 keeps talking and does not look up, as asked. Leonard 2026-11-18: 'The whole shot works'; the shared preview had heavy compression artifacts. Rebuilt from the original downloads in one pass (flip, trim and join together, crf 10): takes/S04/SH050/001_S04_SH050_T02_join_v2.mp4 (480p) and _join_720p.mp4 (lanczos to 1470x630, crf 12). The 720p file adds no detail: the sources are 480p at 418 kb/s (T01) and 888 kb/s (T02)."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
@@ -2971,8 +2996,37 @@
         },
         {
           "id": "SH060",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "4dd2d3d9-329d-40a9-9b20-8d25fea8914f",
+              "prompt": "05-generation/prompts/001_S04_SH060_T01.txt",
+              "file": "05-generation/takes/S04/SH060/001_S04_SH060_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH060_T01.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "char_big-guy 6228445b",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S04_SH060 line-drawing guide 9fc85eee (video_references)"
+              ],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH060-a, 480p (992x432), 5.06 s, audio present (mean -27.3 dB, peak -2.1 dB; not listened to). Claude's read from frames every 0.5 s: photoreal, no previz look; identity matches char_politician. 0 to 1 s camera behind his left shoulder, he turns his head back; 1 to 3.5 s he looks back almost straight into the lens; the case comes up into both arms at about 3 s and stays clutched to his chest to the end. The big man is visible from about 3 s, walking toward him down the open street (the guide's timing, not 'from nowhere'). Impact at about 4.3 s, soft: the old man's head tips back, he is pushed back a step, the big man stands still. Final frame: old man screen left looking right and up, big man screen right looking left and down. The big man reads stocky and muscular more than fat. Leonard 2026-11-18: agrees the big man shows too early and the impact is too soft: he must bounce off and fall back (SH070 opens with him on the ground); the look into the lens is irrelevant; the big man's build is fine; the hurried walk looks a bit funny, make it more realistic. T02."
+            }
+          ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
           "framing": "CLOSE",
           "movement": "Handheld, tracking beside him",
@@ -2985,8 +3039,37 @@
         },
         {
           "id": "SH070",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d6be83ba-1900-4248-af22-73b66e350a85",
+              "prompt": "05-generation/prompts/001_S04_SH070_T01.txt",
+              "file": "05-generation/takes/S04/SH070/001_S04_SH070_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH070_T01.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "char_big-guy 6228445b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "lines guide 91aef5db (refs/001_S04_SH070_lines_d11.mp4, video_references)"
+              ],
+              "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH070-a, 480p (992x432), 4.06 s. Line-drawing guide of refs_d11 S04_SH070. Higgsfield folder S04/SH070. Claude's read (frames every 0.25 s and audio levels, not heard): photographic, nothing of the previz look. High angle, handheld. 0-1 s: the fat person's head and shoulder fill the right edge in the foreground (curly hair, grey-brown T-shirt, matches the element), more of him than the prompt asked, part of his face in profile; the old man rebounds off him. About 1-1.5 s: he falls back, the briefcase flies out to the left, a dust puff at the landing. 1.5-4 s: flat on his back, arms spread, head top center, legs toward the bottom, the briefcase flat on his left side of frame, a curb and sidewalk on a diagonal at the right; mouth open, gasping, eyes up past the camera. His head stays in frame. Sunlit and golden rather than the warm shade written. Audio mean -27.7 dB, peak -6 dB. Element char_politician (clean) [ASSUMPTION]. Leonard 2026-11-18: the impact is too slow, slow-motion-like; he must be immediately conscious of the briefcase, find it and grab it: the impact hurts but the briefcase is his concern. T02 changes this."
+            }
+          ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",
           "framing": "HIGH, looking down on him, the same angle as SH090",
           "movement": "Handheld",

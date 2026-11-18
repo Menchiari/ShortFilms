@@ -818,6 +818,46 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH050 T01 flipped horizontally on Leonard's note (takes/S04/SH050/001_S04_SH050_T01_flip.mp4). REQUEST S04-SH050-b prepared, not submitted: prompts/001_S04_SH050_T02.txt, backward extension (4 s, 480p, audio on) of the flipped T01 cut from 1.75 s (refs/001_S04_SH050_T01_flip_from1.75s.mp4, upload 8facbda6, filed in REFS): the old man crosses the foreground fast right to left, then the flipped T01 plays and Man 2 looks after him to screen left. Images: char_politician a7601ce4, prop_briefcase 4bf36cb5. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-a approved by Leonard (\"go\"; get_cost 15 credits) and submitted: S04 SH060 T01 4dd2d3d9-329d-40a9-9b20-8d25fea8914f, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, folder S04/SH060, char_politician, prop_briefcase, loc_side-street, char_big-guy, palette_afternoon, line guide 9fc85eee."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-a done (15 credits): S04 SH060 T01 in, 480p 5 s, file takes/S04/SH060/001_S04_SH060_T01.mp4. Photoreal; briefcase from hand to chest at 3 s works; the big man is visible from about 3 s instead of only at the impact; the impact is soft. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH070-a approved by Leonard (12 credits, 480p draft, 21:9, 4 s): S04 SH070 T01 submitted, job d6be83ba-1900-4248-af22-73b66e350a85, folder S04/SH070, prompt 001_S04_SH070_T01.txt. Element char_politician (clean) [ASSUMPTION, Leonard did not answer the element question]."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH050-b approved by Leonard (12 credits): S04 SH050 T02 7793d395, backward extension of the flipped T01, 480p, 4 s. Join holds (SSIM 0.95). He crosses close right to left but his head leaves the top of frame during the cross and no briefcase shows. Joined preview takes/S04/SH050/001_S04_SH050_T02_join.mp4."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH070 T01 in: takes/S04/SH070/001_S04_SH070_T01.mp4 (job d6be83ba, 12 credits). Photographic, the fall lands on the d11 framing with the head in frame; the fat person shows more than asked in the first second. Waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH090-b prepared, not submitted: prompts/001_S05_SH090_T02.txt. Leonard on T01: use char_politician_dusty with a little blood pouring from the right eyebrow; looks a bit fake: longer lens, shallower depth of field, anamorphic. Also changed: narrow side street with no high-rises, arms limp through the fall, lens almost on the asphalt. Images: prop_briefcase, char_politician_dusty 98e1e69e, bond fa669df1, loc_side-street, palette_afternoon; video ref 28d3d598. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard: S04 SH050 T02 joined to the flipped T01 works (inferred 4); he has the briefcase (Claude's read was wrong). Join rebuilt in one pass from the originals: _join_v2.mp4 (480p) and _join_720p.mp4 (resized, no added detail)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH070 T01 rated 2 (inferred): Leonard, too slow-motion-like, he must go for the briefcase at once. REQUEST S04-SH070-b prepared, not submitted: prompts/001_S04_SH070_T02.txt, same inputs and settings as T01 (480p, 21:9, 4 s, audio on); the fall in well under a second, he grabs the case by 1.5 s and ends on his back with it on his chest. Quote 12 credits. Continuity: SH090's prompt still has the case on the ground, out of reach."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH060 T01 notes from Leonard (rating 2, inferred): big man too early, impact too soft (he must bounce off and fall back), walk more realistic. New guide refs/001_S04_SH060_lines_d11_v2.mp4: the d11 line drawing with the big man erased from frames 72 to 103, so he appears only at the impact (4.33 s); uploaded to REFS (video 8b375053-8fdc-40e9-b9b4-df473dcb2b7c). REQUEST S04-SH060-b prepared, not submitted: prompts/001_S04_SH060_T02.txt, same settings and images as T01, guide v2. get_cost 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH080 prompt v2 (prompts/001_S04_SH080_T01_v2.txt) with Leonard's direction: curious at first, small natural expressions; a decent man the politician ruined (family left when the money ran out, three jobs, eats the bare minimum), quiet hatred held underneath; recognition as a hunter going still over prey he cannot believe is there. Same inputs; get_cost 12 credits. REQUEST S04-SH080-a now uses v2, waiting for approval."
     }
   ],
   "story_sync": {
