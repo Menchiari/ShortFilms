@@ -1,0 +1,13 @@
+Image 1 is the background: keep it exactly as it is, the same street, buildings, shutters, cables, street lamp, light, haze, color and framing. Change only two things in it.
+
+First: in the hazy distance at the top right, the thin pointed spire behind the balcony becomes a plain flat-roofed concrete building like the others.
+
+Second: add the black full-size luxury sedan from image 3, in exact side profile, crawling left to right along the street in the middle of the frame, nose to screen right, its wheels on the cracked asphalt, the whole car visible from nose to tail with a strip of empty asphalt below it. It is the car of image 3: its body, its black paint, a light coat of desert dust. It sits in the warm shade of the street, with a thin line of warm sunlight glinting along its roof and windshield edge, and a soft reflection of the ochre facades in its black doors.
+
+The front passenger window is rolled down. Through it, across the empty passenger seat, we see the old man from image 2 at the wheel: his face, hair, build, charcoal suit, white shirt and rust tie. He leans far forward, hunched over the steering wheel, both hands gripping the top of it, his face close to the windshield, eyes on the street ahead. His face and neck shine with sweat, his collar dark with it. Warm light bounced from the street softly lights his face.
+
+Count of cars: one. Count of people: one, the old man inside the car. Nobody on the street, at the windows or on the balconies. No writing, signs or logos anywhere.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism. Same lens, perspective and light as image 1.
+
+Result: job 8b0b65ef-e354-46fc-9d83-8a7110f890b0, gpt_image_2_6 high 1k 21:9, 1.5 credits (REQUEST 020), Higgsfield folder S03/SH010 b1c49662.
