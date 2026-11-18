@@ -1129,7 +1129,7 @@
           "framing": "CLOSE, the dog",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The last 2 seconds of the SH020 take Approved: last 2 s of SH020 T03.",
+          "note": "The last 2 seconds of the SH020 take",
           "animatic": {
             "file": "05-generation/animatic/d11/S02_SH040.mp4",
             "draft": "d11"
@@ -1445,7 +1445,7 @@
               "prompt": "05-generation/prompts/001_S02_SH090_T02.txt",
               "file": "05-generation/takes/S02/SH090/001_S02_SH090_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH090_T04.jpg",
               "references": [
                 "T02 1c1b53d2"
               ],
