@@ -3430,6 +3430,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S04-SH120-b, 480p (992x432), 6.08 s, audio present (mean -29 dB; not listened to). Prompt T02 with Leonard's panic direction. Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: both fists twist the collar under his chin; the pleading half smile close to crying shows around 1-1.5 s; eyes move, a hard squint around 2.5 s, a wary sideways look around 3-4 s; from about 4.4 s to the end (about 1.6 s) he looks up, head tilted, mouth open, brows raised. Misses: the first frame already has him looking up with mouth open, so the look up happens twice; his face reads rounder and heavier than the dusty element; the suit reads like a black jacket over a turtleneck-like collar and the rust tie is gone; the big man's profile (nose, mustache, cheek) shows at the right edge, smaller than in T01 but more than a sliver. I did not check his lips frame by frame against the line."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "f5921f3f-cb48-479d-86be-b1ed18d9b2d7",
+              "prompt": "05-generation/prompts/001_S04_SH120_T03.txt",
+              "file": "05-generation/takes/S04/SH120/001_S04_SH120_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH120_T03.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH120-c, 480p (992x432), 6.08 s, audio present (mean -28.6 dB; not listened to). Prompt T03: teeth, struggle, pain. Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: eyes level at the start (he looks off to the left), then clenched-teeth grimace smiles around 1-1.5 s, 3 s and 4 s, a hard eyes-shut squeeze around 2 s, a sideways look around 2.5 s; from about 4.4 s to the end he looks straight up, head back, mouth open, with a lot of eye white showing. Big man's head fully out of frame. Misses: only one hand reads at his throat, and it grips the neck more than the collar; the teeth smile can read as a manic grin more than crying; the eyes roll up so far at the end they can read as fainting; the rust tie is gone again (pale shirt, dark jacket); parked cars in the soft background; the first second is framed wider and from a different angle than the rest."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
