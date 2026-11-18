@@ -3043,8 +3043,35 @@
         },
         {
           "id": "SH140",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "04edd85c-4cde-478c-9c43-a4c0f8f23482",
+              "prompt": "05-generation/prompts/001_S05_SH140_T01.txt",
+              "file": "05-generation/takes/S05/SH140/001_S05_SH140_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH140_T01.jpg",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 73236f58",
+                "palette_afternoon 3bf30eee",
+                "motion-only d11 S05_SH140 8064f0b1 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH140-a, draft. Claude's read: photographic, no previz look copied. The corner reads: the tall street lamp with its arm over the road, traffic lights, the concrete wall at the right, towers behind. Low sun behind the towers (backlit, long shadows toward camera), not from screen right as written. The crowd is all men and mills toward the corner rather than visibly closing over him; I cannot pick him out at 480p. Near silence 0.3 to 3.8 s, then the gunshot at about 3.8 s: an arm with the gun goes up from the middle of the crowd with a puff of smoke, everyone flinches, a few run at once, others later, the crowd scatters by 6 s. The arm stays raised to the end."
+            }
+          ],
           "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",
           "framing": "WIDE",
           "movement": "Locked-off",
