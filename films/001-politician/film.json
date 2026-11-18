@@ -603,6 +603,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard on S04 SH040 T03: 'sure this works, save it' (rating 4, inferred). SH040 approved with T03 (720p, 5 s). SH050 matches the three men from the T02/T03 prompt description."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S02 SH050: T01 (6cb55640) and T02 (7e324cfe) filter blocks refunded (28, 12). T03 (71b11a84, 12 credits) passed with neutral wording, same references: car came head-on from the town, pass doubled, shake 1-2 px. T04 (0e6ff473, car from behind, hard jolt) blocked by the filter (nsfw), 12 refunded 10:43 UTC."
     }
   ],
   "story_sync": {
