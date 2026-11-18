@@ -1511,9 +1511,9 @@
                 "prop_car 42787b78"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "Leonard approved 2026-11-18 (go T04). Palette image dropped (it is a city street and caused T03's city). Claude's read: empty desert only, the car dead straight head-on the whole way, stops close, dust swallows the frame. Weaker than T01: the skid throws less dust at the wheels and the final cloud reads more as haze than a rolling wave."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "Leonard approved 2026-11-18 (go T04). Palette image dropped (it is a city street and caused T03's city). Claude's read: empty desert only, the car dead straight head-on the whole way, stops close, dust swallows the frame. Weaker than T01: the skid throws less dust at the wheels and the final cloud reads more as haze than a rolling wave. Leonard 2026-11-18: does not like the way the car skids. Claude's read at 6 fps: no visible braking; the car glides in and slows with small dust puffs, no locked wheels, no nose dive, no weight."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
