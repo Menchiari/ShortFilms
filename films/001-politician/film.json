@@ -673,6 +673,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH090 T02 downloaded (12 credits). Blood right; lens, background and fall unchanged from T01. Diagnosis: the high-rise boulevard is not in loc_side-street, most likely from palette_afternoon; the wide framing and the arms reaching out come from the motion clip."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH090-c prepared, not submitted: prompts/001_S05_SH090_T03.txt. Leonard on T02: the case opens the moment it hits the ground, his arm forward, he is not fainting: he sees the papers fly (FUCK NO) and struggles to get up, staying on the ground. Also: palette_afternoon dropped (suspected source of the high-rise boulevard), motion guide cropped tighter for the long lens (refs/001_S05_SH090_motion_d11_tight.mp4, media eeadc9a1, filed in REFS), the guide figure pose not copied. Images: prop_briefcase, char_politician_dusty, bond, loc_side-street. Estimate 12 credits."
     }
   ],
   "story_sync": {
