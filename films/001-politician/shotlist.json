@@ -2949,7 +2949,7 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3027,10 +3027,10 @@
                 "palette_afternoon 3bf30eee",
                 "animatic d11 motion-only S05_SH030 39372293 (video_references)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH030-c (Leonard: ok go). 720p final (1470x630, 24 fps, 5.06 s), seed 1823186076. T02 prompt plus Leonard's change: three townspeople from behind the camera, he passes between them. Claude's read from stills: the three enter from behind the camera at 0 to 0.5 s (one left, two right) and he passes them by about 1.5 s; they look at him and walk on beside and behind him. The crowd fills the street from about 2 s, fuller than T02. One briefcase in every sampled frame, but at the end it stays low in front of him, not lifted to his chest. Shop awnings at the start and parked cars. Voice not verified by ear (speech energy at about 1.2 to 1.9 s)."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH030-c (Leonard: ok go). 720p final (1470x630, 24 fps, 5.06 s), seed 1823186076. T02 prompt plus Leonard's change: three townspeople from behind the camera, he passes between them. Claude's read from stills: the three enter from behind the camera at 0 to 0.5 s (one left, two right) and he passes them by about 1.5 s; they look at him and walk on beside and behind him. The crowd fills the street from about 2 s, fuller than T02. One briefcase in every sampled frame, but at the end it stays low in front of him, not lifted to his chest. Shop awnings at the start and parked cars. Voice not verified by ear (speech energy at about 1.2 to 1.9 s). Leonard: love it."
             }
           ],
           "description": "He runs. Behind him, soft and growing, the street fills with people coming his way. He pulls out his phone and presses it to his ear, running.",
