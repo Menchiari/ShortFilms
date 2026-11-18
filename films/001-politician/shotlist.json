@@ -3198,7 +3198,7 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
