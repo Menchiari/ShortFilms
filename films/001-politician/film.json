@@ -175,7 +175,8 @@
       "S04/SH060": "5b9923a0-c359-42f3-9199-c5bebcbe3744",
       "S04/SH110": "c7222bc7-a85c-440e-8680-3583f247cf9f",
       "S04/SH140": "cdf33b76-4df1-49be-be04-87ad62dea945",
-      "S04/SH135": "6cefbd72-bd45-4172-89a1-899cc4d14db0"
+      "S04/SH135": "6cefbd72-bd45-4172-89a1-899cc4d14db0",
+      "S04/SH070": "31a59886-72c9-4812-98e7-b49befa80736"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -301,7 +302,8 @@
       "S02/SH180": "2ccff74d-a2cd-4394-beac-4d9d2c38ef81",
       "S02/SH200": "54161b25-e946-4177-9260-663152138a2e",
       "S03/SH010": "13e9c827-913e-48a4-8b3f-c7d6d55ec4d9",
-      "S04/SH135": "ed1d884b-009b-44fa-8dda-f11beba6dbf4"
+      "S04/SH135": "ed1d884b-009b-44fa-8dda-f11beba6dbf4",
+      "S04/SH070": "91aef5db-63e6-4587-ade8-94ffac50a114"
     },
     "start_frames": {
       "S02/SH010 v1": "6227907d-21e8-4550-aaf0-cc8c38d04169"
@@ -764,6 +766,14 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH030-a approved (Leonard: \"approved, go\"; 15 credits, 480p, 21:9, 5 s) and submitted: S05 SH030 T01 7f30f7a9-8a2e-44fb-b023-549fd0044f35, folder S05/SH030, motion clip 39372293 as video reference."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH070 created inside S04 (31a59886-72c9-4812-98e7-b49befa80736). Line-drawing guide refs/001_S04_SH070_lines_d11.mp4 (edgedetect of refs_d11/S04_SH070, last frame held to 4 s) uploaded to REFS (video 91aef5db-63e6-4587-ade8-94ffac50a114): the motion-only clip has another camera (eye level, fat person in frame), so it cannot carry the high angle."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH070-a prepared, not submitted: prompts/001_S04_SH070_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s (model minimum), audio on. Images: char_politician a7601ce4 [ASSUMPTION: clean element, the dust comes from the fall in the prompt], char_big-guy 6228445b, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video 91aef5db (lines). Quote 12 credits, waiting for Leonard."
     }
   ],
   "story_sync": {
