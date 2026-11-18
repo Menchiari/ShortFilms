@@ -393,6 +393,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050c approved (1.5 credits): S03 SH050 start frame v3, gpt_image_2_6 high 1k 21:9, job e4433f6c-738b-40d8-b6e6-03accea073d7, edit of 050b with guide frame and prop_car: railing only at the corner of his balcony, in perspective; car turned to face the upper-left street (Leonard's notes). Files frames/001_S03_SH050_T01_start_v3_src.png and _start_v3.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050d approved (1.5 credits): S03 SH050 start frame v4, gpt_image_2_6 high 1k 21:9, job 5ecbe0a0-a861-41df-a56e-9c546bcdb706, new image from guide frame, loc_crossroads, prop_car and the 050c frame (for the man). Claude's read: road markings, traffic lights and signs in; angle, car position and size, and the corner rail carried over from 050c (image 4 set the composition). Files frames/001_S03_SH050_T01_start_v4_src.png and _start_v4.jpg."
     }
   ],
   "story_sync": {
