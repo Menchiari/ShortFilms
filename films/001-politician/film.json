@@ -166,7 +166,8 @@
       "S05/SH010": "e597d14c-3c93-4c83-9909-d3f9227ad578",
       "S05/SH110": "426ca3ac-94f5-4180-84ff-4de600d790e4",
       "S05/SH020": "d4ab191c-4c76-427f-a8b6-2c47f8f6ba04",
-      "S04/SH130": "d6997aeb-161f-4b9e-8354-554f4f28bc0e"
+      "S04/SH130": "d6997aeb-161f-4b9e-8354-554f4f28bc0e",
+      "S04/SH080": "8530ace6-29a0-4144-a241-0830c26879e1"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -698,6 +699,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH130: Higgsfield folder S04/SH130 created (d6997aeb). Previz clip is a static low view up a facade, 6 watchers, the two men not in frame. T01 prompt written, text + elements (loc_side-street e728a9ae, palette_afternoon 3bf30eee), no previz guide. REQUEST S04-SH130-a quoted at 12 credits (480p, 21:9, 4 s, the model minimum; trim to 2 s in the edit), waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH080 created (8530ace6-29a0-4144-a241-0830c26879e1). REQUEST S04-SH080-a prepared, not submitted: prompts/001_S04_SH080_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, text and elements only (char_big-guy 6228445b, loc_side-street e728a9ae, palette_afternoon 3bf30eee), no previz clip: the d11 clip is a near-static low angle filled by a building (no-set-clip rule), and words hold it. The old man is out of frame (clip checked). Estimate 12 credits."
     }
   ],
   "story_sync": {
