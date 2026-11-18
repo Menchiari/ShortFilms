@@ -866,6 +866,14 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH100 prompt v2 (prompts/001_S04_SH100_T01_v2.txt), Leonard: the friend is not one of the bar men; same attitude as SH080. The fat man's motive taken word for word from SH080 v2 (decent worn-out man, quiet hatred held underneath); no grin, small natural expressions, low slow quiet voice, the contempt only in the eyes. Same inputs; get_cost 21 credits. REQUEST S04-SH100-a now uses v2, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH080-a approved by Leonard (\"approved, go with S04-SH080-a\"; get_cost 12 credits) and submitted: S04 SH080 T01 07f5d79b-d266-4612-b2e5-bdc7b3339061, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, prompt v2, char_big-guy, loc_side-street, palette_afternoon, folder S04/SH080."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH080-a done (12 credits): S04 SH080 T01 in, 480p 992x432, 4 s, file takes/S04/SH080/001_S04_SH080_T01.mp4. Photographic backlit street, restrained recognition; framed wider than asked. Notes in shotlist.json. Awaiting Leonard's review."
     }
   ],
   "story_sync": {

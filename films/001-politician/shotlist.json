@@ -3082,8 +3082,34 @@
         },
         {
           "id": "SH080",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "07f5d79b-d266-4612-b2e5-bdc7b3339061",
+              "prompt": "05-generation/prompts/001_S04_SH080_T01_v2.txt",
+              "file": "05-generation/takes/S04/SH080/001_S04_SH080_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_big-guy 6228445b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S04-SH080-a. Higgsfield folder S04/SH080. Prompt v2 with Leonard's acting direction. 4.06 s, 992x432, 24 fps, audio present. Claude's read (frames only, audio not heard): photographic, real lived-in street (balconies, AC boxes, shutters), hazy backlight from upper left with rim light, no previz look. Framed wider than asked: low angle on him from head to thighs, head at the top edge, building behind; the cable is faint. Acting restrained: frown and slight head tilt studying the face, then eyes lock, a faint half smile, mouth opens for the line from about 2.5 s. Sound present 1.0-2.6 s and 2.8-3.5 s: whether that is breath or words, and whether the line is complete, not verified."
+            }
+          ],
           "description": "The fat person looks down at him. He can't place him. Then his eyes widen with excitement.",
           "framing": "LOW, from the ground, looking up at him",
           "movement": "Handheld",
