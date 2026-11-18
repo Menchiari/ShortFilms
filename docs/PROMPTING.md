@@ -19,15 +19,17 @@ Plain English prose. Settings (duration, resolution, aspect, audio flag) never g
    `Audio: only [the dialogue / room tone / named sounds]. No music, BGM, score, instrumental,
    melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or
    stinger at any moment. No subtitles.`
-2. **Elements,** one line each, in the order they first appear on screen. In the API call each
-   element is the placeholder `<<<element_id>>>` (Higgsfield shows it as `@char_marta`).
-   What it gives, and what not to take from it.
-   `@char_marta: face, hair and coat. @loc_corridor: space and light only, empty of people.`
+2. **References,** one line each. Each element's image job id goes in `medias` as
+   `image_references` (Seedance 2.5 ignores `<<<element_id>>>` placeholders). In the prompt the
+   images are `@Image1`, `@Image2` ... in `medias` order, videos `@Video1`; never "Image 1" or
+   "the reference image of" (director's decision, 2026-11-17). What each gives, and what not to
+   take from it.
+   `@Image1: the old man's face, hair and suit only. @Image2: the street, materials only.`
    Name the character before each action. Say who holds each prop.
 3. **One sentence:** who, where, what happens, in the film's style, with which camera.
 4. **Timeline in whole seconds, no gaps:**
    `0-3s: medium shot, eye level. Camera: dolly slowly in, stop on a medium close-up.
-   @char_marta ...` Each segment starts where the last ended. One main change per segment. The
+   The old man from @Image1 ...` Each segment starts where the last ended. One main change per segment. The
    last segment states the final frame: where people, objects and camera are.
 5. **Dialogue,** language and accent once, then each line with its time and a playable verb:
    `2-4s, Marta's line (testing him): {I thought you weren't coming.}`
