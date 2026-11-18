@@ -1253,6 +1253,32 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST 015a. Covers SH060 (0-2 s) and SH070 (2-4 s). Higgsfield folder S02/SH060. Passed first submission. Claude's read: the bobblehead matches the element and faces the driver, it nods only a little; through the windshield minarets and low mud-brick buildings, not the modern towers of the town edge. The briefcase is the element, papers out, bouncing hard, lands flat; the seats are black leather, the element's interior is brown. Leonard 2026-11-17: the bobblehead is fine (SH060 uses 0-2 s of this take). The briefcase (SH070 half) bounces way too much: a car seat on a dirt road, not a flying horse. SH070 gets its own take."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "draft": true,
+              "credits": 12.0,
+              "job_id": "a1c7a8a1-e8fa-4ebc-8dc0-e608c13e49d7",
+              "prompt": "05-generation/prompts/001_S02_SH060_T02.txt",
+              "file": "05-generation/takes/S02/SH060/001_S02_SH060_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH060_T02.jpg",
+              "references": [
+                "prop_wobblehead fa19c43f",
+                "loc_car-interior 60a2aec8",
+                "palette_afternoon 3bf30eee (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "Higgsfield folder S02/SH060. Passed first submission (after a permission block, nothing sent). 4 s is Seedance's minimum; SH060 uses 2 s of it. Leonard 2026-11-18 on T01: the physics works, the background is wrong, focus on the bobblehead so little of the outside shows. No animatic clip: it shows the outside. Claude's read: tight on the bobblehead, the dark dashboard and defroster vent fill the background, the windshield is a blown-out warm strip at the top with no buildings or towers. The head bobs on a visible spring, more than T01. Feet cropped at the frame bottom."
             }
           ],
           "description": "A painted bobblehead on the dashboard, facing the driver's seat: him, grinning, giving the finger. It nods hard with every bump.",
