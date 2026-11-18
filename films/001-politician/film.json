@@ -1110,6 +1110,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH120-d (Leonard: \"try again, both hands on collar, less grin, go\"; preflight 18 credits, same settings) done: S04 SH120 T04 39119b98-eb16-485c-bf0b-fefbd3a789cd, folder S04/SH120. Two fists on the collar the whole shot, no grin, squints, look up from about 4.4 s with pupils visible; the big man's profile is back at the right edge."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH020 T05 start still eceb7f8f rejected by Leonard (not how it should be, reads like GPT). Cause: Claude changed the approved camera (closer, lower) unasked and the image model's staged charge look showed at that size. Next proposal: back to the approved T04 still 8453bc84, prompt 001_S05_SH020_T05_v2.txt (people step into the street first, he runs through them), 5 s."
     }
   ],
   "story_sync": {
