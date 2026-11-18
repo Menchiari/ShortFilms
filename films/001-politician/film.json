@@ -147,7 +147,15 @@
       "S02/SH200": "1439fbcb-8208-4412-aaf2-9af713175025",
       "S03": "c29a8193-37ea-4ed6-baf1-64c5c9cd1f8b",
       "S03/SH020": "5ce159a6-f318-4f34-987a-e7f6581c22f6",
-      "S03/SH010": "b1c49662-6de6-4e71-b6d6-e7284a86ea82"
+      "S03/SH010": "b1c49662-6de6-4e71-b6d6-e7284a86ea82",
+      "S03/SH040": "7797dab3-43ac-4dff-92e2-6339e8a1ecfb",
+      "S03/SH030": "76a40ddf-96a0-483a-bf70-9f2be034cba8",
+      "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b",
+      "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480",
+      "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7",
+      "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
+      "S04/SH040": "21642846-4d02-4194-ab47-76dd557a0d21",
+      "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -365,8 +373,224 @@
       "text": "REQUEST 019 approved (18 credits, 480p draft, 21:9, 6 s): S03 SH010 T01 a169222f-d3da-4e37-b69b-a6b8949408f0, line-drawing guide 13e9c827 plus char_politician, prop_car, loc_side-street (Leonard: side street as background), palette_afternoon. Leonard: great cinematography lighting, added as a motivated-sun lighting paragraph."
     },
     {
+      "date": "2026-11-17",
+      "text": "REQUEST 020 approved (24 credits, 480p draft, 21:9, audio on) and submitted: S03 SH020 T01 52ac6d78-7a2d-46c7-8b61-003bfd2c098e, on Leonard's Midjourney start frame (cropped to 21:9, media 94b73080), no previz clip."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020 (= 020a, per the S03 request labels) done (24 credits): S03 SH020 T01 in, file takes/S03/SH020/001_S03_SH020_T01.mp4."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020b approved (24 credits, 480p draft flag, 21:9, audio on) and submitted: S03 SH020 T02 9535b58b-338a-4ab7-be2f-18ef4b33a8bb, on Leonard's new Midjourney frame (shade, wall beside him; media 3f04ddd9), sent as start_image; the job echo lists it as reference_images."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020b failed at Higgsfield within seconds (\"Something went wrong. Please try again, or change your input files or prompt.\"), 24 credits refunded. No file. Cause unknown; the one input that differs from T01 is the start frame size (992x432 instead of 1120x480). Prepared 05-generation/frames/001_S03_SH020_T02_start_v2.jpg at 1120x480."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020c approved and submitted (S03 SH020 T02, job dde0fb5d-8857-4f78-8eb6-e523ddfa9a62, frame v3 at 1120x480): failed within seconds with the same generic error, 24 refunded. Frame size ruled out. Both failures had the draft flag with a start image; T01 (no draft flag, start image) worked; the S02 drafts that worked had no start image."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "S03 SH040: Higgsfield folder S03/SH040 created (7797dab3). Prompt 05-generation/prompts/001_S03_SH040_T01.txt written; REQUEST 040a preflight 15 credits, waiting for approval. [ASSUMPTION] the key is heard, not seen: frame holds on the instrument cluster only."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020d approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T02 7e3e652d-4274-4276-9801-3671c420768b, frame v3. Passed the point where 020b and 020c failed (in progress after 15 s): the draft flag with a start image is the likely cause."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040a approved (15 credits, 480p draft flag, 21:9, 5 s, audio on) and submitted: S03 SH040 T01 f2c96eaa-1ea6-4b2e-9779-315cdc40474c, prop_instrument-cluster 4025ee1a as image reference."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040a failed at Higgsfield about 50 s after submit, same generic error as 020b and 020c (\"Something went wrong...\"), 15 credits refunded (transaction 16:19:44 UTC). No file. Same pattern: draft flag with image inputs only, no video reference. REQUEST 040b (same prompt, no draft flag) prepared, waiting for approval."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 030a approved (21 credits, 480p draft, 21:9, 7 s): S03 SH030 T01 1c95b86e-5a77-466b-b6fb-ed018b94065a, no guide clip (the boxy previz car would be copied), prop_car, loc_main-street, palette_afternoon as @Image1-3. Leonard: reference images as @Image1, @Image2 in the prompt, not 'Image 1:'."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020d done (24 credits): S03 SH020 T02 in. The start frame held this time. Rule learned: with a start image, send seedance_2_5 without the draft flag."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "S03 SH030 T01 approved by Leonard ('this one works', rating 4 inferred). What made it work: no guide clip, prop_car as @Image1, the street and palette as @Image2-3."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040b approved (15 credits, 480p, no draft flag, 21:9, 5 s, audio on) and done: S03 SH040 T01 2f1ded62-ded6-47f4-a3e4-a6d09de513fd, file takes/S03/SH040/001_S03_SH040_T01.mp4. The draft-flag-with-images-only failure pattern holds (3 of 3 failed with it, this one passed without it)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 050a approved (1.5 credits): S03 SH050 T01 start frame, gpt_image_2_6 high 1k 21:9, job 25f0e435-1170-4787-9b28-bbceb1324ba3, over animatic d11 frame 0 (media 19a2dd38) plus loc_crossroads, prop_car, palette_afternoon. Higgsfield folder S03/SH050 44d8f62f created. Files frames/001_S03_SH050_T01_start_src.png (1344x576) and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020e approved (Leonard: \"let's make this shot real\", 24 credits, 480p, no draft flag) and submitted: S03 SH020 T03 05e92d77-37d2-4f1d-a428-df26b6da93c4, frame v3, car motion cues and sounds in angle brackets."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020e done (24 credits): S03 SH020 T03 in. Folder check: all SH020 jobs are in S03/SH020; the three uploaded start frames (94b73080, 3f04ddd9, c4e65b4b) were outside the project and are now attached to REFS."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040c approved (2.75 credits, gpt_image_2_6 high 2k 21:9) and done: fuel-on still cf1509d0-79bc-43ba-ae08-b79043595b78 in REFS, file 05-generation/frames/001_S03_SH040_fuel-on.png (2688x1152). Edit of prop_instrument-cluster 4025ee1a: only the fuel pump symbol lit amber. Found: the element image is the whole cluster; 001_S02_SH170_still.jpg is a closer, different framing. REQUEST 040d prepared: prompts/001_S03_SH040_T02.txt, fuel-on still as start_image, no draft flag."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020f approved (24 credits, 480p, no draft flag) and submitted: S03 SH020 T04 06769720-bb10-4c30-a594-fc0efd8256d7, frame v3, handheld camera from the passenger seat."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 050b approved (1.5 credits): S03 SH050 start frame v2, gpt_image_2_6 high 1k 21:9, job 39b69882-c03c-490e-96a7-8957c5f66113, edit of 050a: metal railing, man in a sleeveless undershirt leaning on his forearms, looking down, smoking (Leonard's note). Files frames/001_S03_SH050_T01_start_v2_src.png and _start_v2.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Leonard: the 040c still is stretched (GPT Image squeezed the 16:9 element into 21:9). Replaced, free: frames/001_S03_SH040_fuel-on_v2.png and fuel-off_v2.png, the element cropped to 21:9 (y 180-1332, no scaling), the pump symbol lit amber locally on the element's own pixels. Uploaded: on c317a203, off cbfa703c. REQUEST 040d now start_image on + end_image off, preflight 15."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 020f done (24 credits): S03 SH020 T04 in."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040d approved (15 credits, 480p, no draft flag, 21:9, 5 s, audio on) and submitted: S03 SH040 T02 4361343e-ef55-4a43-b233-105fb7d1b62f, fuel-on v2 as start_image, fuel-off v2 as end_image; the job echo lists both as reference_images."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "REQUEST 040d done (15 credits): S03 SH040 T02 in, file takes/S03/SH040/001_S03_SH040_T02.mp4. Start and end frames held the framing this time."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard on S03 SH040 T02: \"works\" (rating 4, inferred). SH040 approved with T02."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 020g approved by Leonard at 720p (\"let's do the 720p version go\"; get_cost 56 credits) and submitted: S03 SH020 T05 f616f4c2-c15c-4dba-be97-49a435ad7421, 720p, 21:9, 8 s, no draft flag, start frame v3 at full source resolution (1244x532, media eb99a51a, in REFS), silent until the angry line."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050c approved (1.5 credits): S03 SH050 start frame v3, gpt_image_2_6 high 1k 21:9, job e4433f6c-738b-40d8-b6e6-03accea073d7, edit of 050b with guide frame and prop_car: railing only at the corner of his balcony, in perspective; car turned to face the upper-left street (Leonard's notes). Files frames/001_S03_SH050_T01_start_v3_src.png and _start_v3.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04 created (722dee3f-a951-4c54-b5d3-6b5b42c1c480). S04 hub ready; one session per shot."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 020g done (56 credits): S03 SH020 T05 in, 720p 1470x630."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH010 created (93345e53-8f79-45dc-84f4-bb0cf08cbca7)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050d approved (1.5 credits): S03 SH050 start frame v4, gpt_image_2_6 high 1k 21:9, job 5ecbe0a0-a861-41df-a56e-9c546bcdb706, new image from guide frame, loc_crossroads, prop_car and the 050c frame (for the man). Claude's read: road markings, traffic lights and signs in; angle, car position and size, and the corner rail carried over from 050c (image 4 set the composition). Files frames/001_S03_SH050_T01_start_v4_src.png and _start_v4.jpg."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH010-a approved by Leonard (\"approved, go with S04-SH010-a\"; estimate 12 credits) and submitted: S04 SH010 T01 1d9dc729-344b-4a64-8ed9-2b29dbf63da9, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050e approved (1.5 credits): S03 SH050 start frame v5, gpt_image_2_6 high 1k 21:9, job 1310a61e-df17-4e20-a90c-1c1426b367d0, guide frame, loc_crossroads, prop_car, man in words. Claude's read: steeper angle, car just right of center and a little below the middle, about a tenth of the width, nose to the upper left; road markings and traffic lights; only a short rail under his arms. Files frames/001_S03_SH050_T01_start_v5_src.png and _start_v5.jpg."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH020 created (68d1b82c-cbbc-4fee-bd43-e2bff083a724)."
+    },
+    {
       "date": "2026-11-18",
       "text": "S02 SH010 T04 approved (12 credits, 480p draft, start frame v1 6227907d, locked-off) and submitted: ff097cf2-61f4-45c1-ab91-a869dd45f730."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050f approved (98 credits, 720p, 21:9, 14 s, audio on, no draft flag) and submitted: S03 SH050 T01 c6a30881-577e-4ba8-be88-1922e30323f9, start frame v5 (job 1310a61e) plus char_politician and prop_briefcase, prompt 05-generation/prompts/001_S03_SH050_T01.txt. The job echo lists the start frame as reference_images."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH030 created (3952351d-e365-4d15-a957-14508c0d7947). S04 SH030 T01 prompt drafted, REQUEST S04-SH030-a pending approval (estimate 12 credits)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH020-a done (12 credits): S04 SH020 T01 in, 480p 4 s, job 0a9ca05d-f614-466f-89b0-d712a9527857."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH010-a done (12 credits): S04 SH010 T01 in, 480p 992x432."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH040 created (21642846-4d02-4194-ab47-76dd557a0d21). REQUEST S04-SH040-a prepared, not submitted: prompts/001_S04_SH040_T01.txt, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip; get_cost 12 credits. The three men are described in the prompt for SH050 to reuse word for word."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-a approved by Leonard (\"do it, be sure you keep the streets realistic and not blocky\"; get_cost 12 credits) and submitted: S04 SH040 T01 c307d1d5-c422-4f6f-a4c5-77e7eeab4f28, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip. Added before submit, no cost change: a paragraph keeping the street real, lived-in and never blocky."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-a done (12 credits): S04 SH040 T01 in, file takes/S04/SH040/001_S04_SH040_T01.mp4. Photographic street, not blocky. He walks down the middle of the road toward the camera instead of the far sidewalk; parked cars appeared. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050f done (98 credits): S03 SH050 T01 in, file takes/S03/SH050/001_S03_SH050_T01.mp4."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH030-a approved by Leonard (\"approved, go with S04-SH030-a\"; estimate 12 credits) and submitted: S04 SH030 T01 f9687cda-6d0b-49eb-91a0-a13aa734a78c, seedance_2_5 omni_reference, 480p, 21:9, 4 s (shot is 2 s, trimmed in the edit), audio on, text and loc_side-street only, old woman in words, no previz clip."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH030 T01 done (f9687cda), downloaded to takes/S04/SH030/. She turns and looks into the lens at about 2.1-2.6 s; trim window about 1.0-3.0 s. Awaiting Leonard's review."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH030 T01 loved by Leonard (\"love it\"): rating 5, love, inferred."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard on S04 SH040 T01: 'I like this, and I like the cinematography style here' (rating 4, inferred). Inputs behind it: no previz clip, loc_side-street for surfaces, palette_afternoon for color and light, the motivated-sun lighting paragraph, the look line, the realism paragraph (Leonard's 'not blocky' note), locked-off long lens. The backlit sun was the model's choice: the prompt asked for screen right."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-b prepared, not submitted: S04 SH040 T02, prompts/001_S04_SH040_T02.txt. Leonard's notes: briefcase carried normally in one hand, not to the chest; he is arrogant, suspicious and paranoid but has balls (overrides the screenplay's 'head down'); 720p. T01's composition (corner bar left, him down the road toward the camera, backlit sun) written in as rendered; the men re-described from T01's frame for SH050. get_cost: 28 credits (720p, 4 s). Edit of T01 priced at 31 and not chosen."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050g approved (28 credits, 720p, 4 s, audio on) and submitted: S03 SH050 T02 = T01 extended forward, job ed3de9c1-8328-4118-bd84-d384ad284a43, he hugs the briefcase to his chest (Leonard). Prompt 05-generation/prompts/001_S03_SH050_T02.txt."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard: keep what made S04 SH040 T01 work in future prompts. Written into 03-bible/style.md: backlit sun when the angle allows, the lighting paragraph, the realism paragraph, references narrowed to one job, locked-off long lens for wides, paths in screen terms, a task for every person, 'no parked cars', no set clip for place-filled frames."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-b approved by Leonard (\"approved, go with S04-SH040-b\"; get_cost 28 credits) and submitted: S04 SH040 T02 5690ab22-697e-4cfd-8c52-6b2eba28276b, seedance_2_5 omni_reference, 720p, 21:9, 4 s, audio on, no draft flag, char_politician, prop_briefcase, loc_side-street, palette_afternoon."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050g done (28 credits): S03 SH050 T02 in (4 s extension), file takes/S03/SH050/001_S03_SH050_T02.mp4. Last 3 frames broken (he vanishes, door closes): usable to 3.875 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-b done (28 credits): S04 SH040 T02 in, 720p, file takes/S04/SH040/001_S04_SH040_T02.mp4. T01 composition and backlight held; briefcase carried in his right hand; upright firm walk; he turns his head to the men once. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-c prepared, not submitted: S04 SH040 T03, prompts/001_S04_SH040_T03.txt, 5 s. Leonard's notes: much more paranoid, trying to be inconspicuous, passes the briefcase to the other hand, pretends not to see the men but clearly avoids them. get_cost: 35 credits at 720p (15 at 480p)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-c approved by Leonard (\"yes 720 go\"; get_cost 35 credits) and submitted: S04 SH040 T03 57cf471d-833a-4ba1-aefc-7bc7a36fa87c, seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, no draft flag, char_politician, prop_briefcase, loc_side-street, palette_afternoon."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050h approved (1.5 credits): S03 SH050 street plate v2, gpt_image_2_6 high 1k 21:9, job c34fb281-06ca-43d4-9527-5389d420bf70, edit of the T01 frame at 1 s: worn patched asphalt, faded markings, manholes, litter, cables, building shadow. Files frames/001_S03_SH050_T01_plate_v2_src.png (1344x576) and _plate_v2.png (1470x630, the video size)."
     },
     {
       "date": "2026-11-18",
