@@ -1258,6 +1258,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH020-i done (12 credits): S05 SH020 T07 d1eff4a4, words plus char_politician_dusty as @Image1, 480p draft, 21:9, 4 s. Most cinematic so far (golden backlight, haze), but not a top view: high angle down the length of the street, he comes toward camera; low one-storey buildings."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH135: T01 to T04 prompts used the old naming ('Image 1'), copied from the S03 SH010 template; PROMPTING.md changed the rule on 2026-11-18 (e2da6bb) and this session did not re-read it. REQUEST S04-SH135-d is now prompts/001_S04_SH135_T04_v2.txt: @char_big-guy (@Image1), @char_politician_dusty (@Image2), @prop_briefcase (@Image3), @loc_side-street (@Image4), @Image5 palette, @Image6 SH120 T02 frame for light, street and color only (no longer the grip). Element image ids in medias as before. Estimate 12 credits."
     }
   ],
   "story_sync": {
