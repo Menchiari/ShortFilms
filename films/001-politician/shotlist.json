@@ -856,7 +856,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -973,9 +973,9 @@
                 "start frame v1 6227907d (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame. Tripod removed for free with ffmpeg delogo (box x726 y498 w60 h118), libx264 crf 12, audio copied: 05-generation/takes/S02/SH010/001_S02_SH010_T06_v2.mp4. Leonard 2026-11-18, after seeing the cleaned version: this shot works. [ASSUMPTION] 'this shot' = T06_v2 (the last file shown). Optional finish: paint the soft patch in Resolve Fusion."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
@@ -1227,7 +1227,7 @@
               "prompt": "05-generation/prompts/001_S02_SH050_T04.txt",
               "file": "05-generation/takes/S02/SH050/001_S02_SH050_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S02_SH050_T04.jpg",
               "references": [
                 "loc_town-edge 146470dd",
                 "prop_car 42787b78",
@@ -1251,7 +1251,7 @@
         },
         {
           "id": "SH060",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1300,10 +1300,10 @@
                 "loc_car-interior 60a2aec8",
                 "palette_afternoon 3bf30eee (image_references)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "Higgsfield folder S02/SH060. Passed first submission (after a permission block, nothing sent). 4 s is Seedance's minimum; SH060 uses 2 s of it. Leonard 2026-11-18 on T01: the physics works, the background is wrong, focus on the bobblehead so little of the outside shows. No animatic clip: it shows the outside. Claude's read: tight on the bobblehead, the dark dashboard and defroster vent fill the background, the windshield is a blown-out warm strip at the top with no buildings or towers. The head bobs on a visible spring, more than T01. Feet cropped at the frame bottom."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Higgsfield folder S02/SH060. Passed first submission (after a permission block, nothing sent). 4 s is Seedance's minimum; SH060 uses 2 s of it. Leonard 2026-11-18 on T01: the physics works, the background is wrong, focus on the bobblehead so little of the outside shows. No animatic clip: it shows the outside. Claude's read: tight on the bobblehead, the dark dashboard and defroster vent fill the background, the windshield is a blown-out warm strip at the top with no buildings or towers. The head bobs on a visible spring, more than T01. Feet cropped at the frame bottom. Leonard 2026-11-18: love it. Keeper."
             }
           ],
           "description": "A painted bobblehead on the dashboard, facing the driver's seat: him, grinning, giving the finger. It nods hard with every bump.",
@@ -2105,6 +2105,41 @@
       "id": "S03",
       "title": "EXT. TOWN - MAIN STREET - DAY",
       "shots": [
+        {
+          "id": "SH015",
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "post",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S02_SH100_T04.txt",
+              "file": "05-generation/takes/S03/SH015/001_S03_SH015_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH015_T01.jpg",
+              "references": [
+                "S02 SH100 T05 (copy)",
+                "S02 SH100 T04 job 2d2022de"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Copy of S02 SH100 T05 (T04 job 2d2022de with the zoom out added in post). Leonard 2026-11-18: 'I like that shot, keep it as a separate shot (when he's driving in the city)'. Draft 480p: a final needs a higher-resolution generation of T04 or a finalize of the draft."
+            }
+          ],
+          "description": "His point of view as he drives: the main street runs on ahead, lamps, traffic lights, dusty parked cars, and stretches away from him.",
+          "framing": "POV",
+          "movement": "Dolly zoom: forward travel, zoom out in post",
+          "duration_s": 4,
+          "note": "Leonard 2026-11-18: S02 SH100 T05 becomes this shot. The junction keeps its size, the street beyond stretches"
+        },
         {
           "id": "SH020",
           "status": "review",
