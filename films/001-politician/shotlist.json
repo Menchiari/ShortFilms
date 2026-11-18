@@ -2987,8 +2987,37 @@
         },
         {
           "id": "SH090",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "b1a93c79-042e-44c8-8ef0-84ab41930cda",
+              "prompt": "05-generation/prompts/001_S05_SH090_T01.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T01.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_blood 73236f58",
+                "bond sheet fa669df1 (refs/001_S05_SH090_bond.jpg, from ref_bond_element_v7)",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "refs_d11_motion S05_SH090 28d3d598 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-a. Draft (finalizable at 720p within 7 days). Output 992x432, 24 fps, 4.04 s, audio present (not listened to by Claude). Claude's read: angle, timing and end state follow the motion clip: he lands at about 0.3 s, the case slams down right of his head at about 0.6-1 s, bounces, lands upright and open; sheets fly up and off to the right from 1.5 s to the end, many separate paths, some flip and glide, a few skid on the ground. Impact: he dives in with his arms out and slides on his chest and face in a burst of dust: fast, but he partly catches himself, not dead weight. Blood smeared across most of his face, more than the eyebrow. Asphalt: grit and small stones visible but not razor sharp at 480p; the ground strip is thin. Background wrong: a wide boulevard with high-rise towers at the end and trees, a big city, not the side street; the prompt forbade trees. Many sheets stay stuck upright in the case. Sheet size reads smaller than A4 next to him in some frames."
+            }
+          ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
           "framing": "LOW, ground level",
           "movement": "Locked-off",
