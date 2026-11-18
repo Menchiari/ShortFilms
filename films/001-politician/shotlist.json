@@ -1933,9 +1933,33 @@
                 "T08"
               ],
               "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "T08 with the gap held in post (0 credits): each frame scaled up by 1/gap ratio around the center (1.00 to 1.43 at 6 s, held through the still), gap ratio following the tracked easing of T08. Measured: gap 550 px at frame 0, 565 px at 6 s; the street beyond the gap shrinks about 30% while the gap holds. Cost: the end is a 1.43x crop of a 480p frame, softer. Leonard 2026-11-18: 'T09 works, tilt slightly more upward, render it at 720p'."
+            },
+            {
+              "id": "T10",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "post",
+              "duration_s": 9,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S02_SH100_T08.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T10.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T10.jpg",
+              "references": [
+                "T08",
+                "T09"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "T08 with the gap held in post (0 credits): each frame scaled up by 1/gap ratio around the center (1.00 to 1.43 at 6 s, held through the still), gap ratio following the tracked easing of T08. Measured: gap 550 px at frame 0, 565 px at 6 s; the street beyond the gap shrinks about 30% while the gap holds. Cost: the end is a 1.43x crop of a 480p frame, softer."
+              "notes": "Tilt preview of T09 (0 credits): T08 with the gap held, plus a base scale of 1.12 and the frame shifted up by 13% of its height (clamped at the top edge). Measured: horizon at 49.3% of frame height at frame 0 (T09: 42.6%), 54.4% at 4.5 s (T09: 37.7%). 480p, softer than T09 by the extra 1.12x."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
