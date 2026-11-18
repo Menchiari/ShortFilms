@@ -165,7 +165,8 @@
       "S05/SH090": "b2dcfe97-5fb4-4808-94d0-be17e1660532",
       "S05/SH010": "e597d14c-3c93-4c83-9909-d3f9227ad578",
       "S05/SH110": "426ca3ac-94f5-4180-84ff-4de600d790e4",
-      "S05/SH020": "d4ab191c-4c76-427f-a8b6-2c47f8f6ba04"
+      "S05/SH020": "d4ab191c-4c76-427f-a8b6-2c47f8f6ba04",
+      "S04/SH080": "8530ace6-29a0-4144-a241-0830c26879e1"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -693,6 +694,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH090-a prepared, not submitted: prompts/001_S05_SH090_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on. Images: prop_briefcase 4bf36cb5, char_politician_blood 73236f58 (Leonard: use the blood element here), bond sheet fa669df1 (refs/001_S05_SH090_bond.jpg from props/bond/ref_bond_element_v7.jpg) [ASSUMPTION: v7 Franklin County design is the current bond], loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref 28d3d598 (refs_d11_motion S05_SH090, 2 s). Both uploads filed in REFS. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH080 created (8530ace6-29a0-4144-a241-0830c26879e1). REQUEST S04-SH080-a prepared, not submitted: prompts/001_S04_SH080_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, text and elements only (char_big-guy 6228445b, loc_side-street e728a9ae, palette_afternoon 3bf30eee), no previz clip: the d11 clip is a near-static low angle filled by a building (no-set-clip rule), and words hold it. The old man is out of frame (clip checked). Estimate 12 credits."
     }
   ],
   "story_sync": {
