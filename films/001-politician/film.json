@@ -677,6 +677,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH020: Leonard: the generated stills are bad, the animatic is the best shot; he goes fast but does not sprint; the people are just there, not closing him off (screenplay). Claude had added the closing-off tactic from T04 on. Image route dropped (prompts 001_S05_SH020_T06_start*.txt unused). Next: T06 = animatic d11 set clip as a line drawing (frames/001_S05_SH020_guide_lines_d11.mp4, media a77a2e75) plus elements, prompt 001_S05_SH020_T06.txt, 4 s, 12 credits, awaiting approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH020-h done (12 credits): S05 SH020 T06 c10adbc4, animatic line guide plus elements, 480p draft, 21:9, 4 s. True top view in the animatic framing, people foreshortened from above, reads as drone footage; people just there, nobody closing."
     }
   ],
   "story_sync": {
