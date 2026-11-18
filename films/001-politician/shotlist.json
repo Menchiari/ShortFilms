@@ -3148,6 +3148,29 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH070-b, 480p (992x432), 4.06 s. Changes from T01 (Leonard's note): real-time fall, he goes for the briefcase at once. Claude's read (frames every 0.25 s and audio levels, not heard): photographic. 0-0.5 s the fat person's back and shoulder (grey-brown T-shirt) fill the right foreground, face not shown; the old man slams into him. The fall is fast: down by about 0.75 s, the briefcase flies to screen left, dust at the landing. About 1-1.5 s a short beat on his back, then he rolls toward the case, reaches with his right arm, grabs it by about 2.25 s, hauls it onto his chest by 2.75 s and ends clutching it with both arms, eyes up past the camera, gasping. Head in frame throughout. Camera: handheld, more movement than T01; the final frame has him center-right on a diagonal with a curb and sidewalk behind, not the exact d11 end framing (head not at the top). A sunlit wall with a window at the top in the first second. Audio mean -25.5 dB, peak -2.1 dB. Leonard 2026-11-18: love it."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 31.0,
+              "job_id": "dcc02823-d24f-4714-85f8-60b269f1980a",
+              "prompt": "05-generation/prompts/001_S04_SH070_T03.txt",
+              "file": "05-generation/takes/S04/SH070/001_S04_SH070_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH070_T03.jpg",
+              "references": [
+                "T02 82578f76 (video_edit source)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH070-c: video_edit of T02 at 720p with a change-nothing prompt, because T02 had no draft flag and cannot be finalized. 1458x634, 4.04 s, audio present (mean -26.4 dB, peak -2.6 dB, not heard). Same performance, framing and timing as T02 frame for frame. Measured against T02 scaled to 1458x634 with bicubic: SSIM 0.972, edge energy (sobel mean) 11.90 vs 12.45 for the plain upscale. So the edit adds no detail: 720p pixels holding 480p detail, as Leonard predicted. Bitrate 4.2 Mb/s vs 2.2."
             }
           ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",

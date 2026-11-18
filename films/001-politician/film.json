@@ -1070,6 +1070,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard on S04 SH060 T03: 'sure this is fine' (rating 4, inferred). SH060 approved with T03 (480p edit of T02, 5 s). Total on SH060: 48 credits (T01 15, T02 15, T03 18)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH070 T03 in (job dcc02823, 31 credits): 720p video_edit of T02, identical performance, but no added detail (SSIM 0.972 against a bicubic upscale of T02, edge energy slightly lower). Lesson: video_edit at a higher resolution does not finalize a non-draft take. Every draft goes out with the draft flag from now on."
     }
   ],
   "story_sync": {
