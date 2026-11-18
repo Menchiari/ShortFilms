@@ -4194,6 +4194,35 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S05-SH080-b, 720p (1470x630), 6.08 s, 2.9 MB, audio present (not listened to). Changes from T01: voice reference from S03 SH020 T03, stone half size (hen's egg), framing locked to the animatic, briefcase dark brown. Claude's read from frames: framing wider than T01 and closer to the animatic, more street on both sides. The stone is on screen about 5 frames from screen left and lands on his right brow and eye area, then the head goes back; it still reads as big as a fist or larger (the animatic's object is big and the words did not shrink it) and it presses across the eye rather than stopping on the brow corner. Audio peak at 4.50-4.75 s on the hit, body impact at 5.25-5.5 s. Final frame: on his back, a clear red gash with blood beside his eye, briefcase dark leather, still gripped in his left hand. New faults: parked cars along the street (the prompt did not forbid them), a wider apartment-block street than loc_side-street."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "a3308c65-fdfe-4f80-8801-f32022643c98",
+              "prompt": "05-generation/prompts/001_S05_SH080_T03.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 motion-only S05_SH080, stone painted out (refs/001_S05_SH080_motion_d11_nostone.mp4) 0715cb8b (video_references)",
+                "voice from S03 SH020 T03 (refs/001_S03_SH020_T03_voice.mp3) 8cd83ab3 (audio_references)",
+                "seed 1823186076 (as S05 SH030 T03)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-c, 720p (1470x630), 6.08 s, audio present (not listened to). Built on S05 SH030 T03 (seed, long lens, fast walk), stone painted out of the guide clip, kiwi-sized pebble in words, small cut only. Claude's read from every frame 100-123: chest-up frontal, briefcase held at his chest, phone at his right ear, fast walk close to SH030; a large crowd running toward him behind, no parked cars. No pebble is visible in any frame: at frame 108 (4.5 s) a cut simply appears at the outer end of his right eyebrow; audio peak at 4.50 s. Head knocked back, eyes shut, he falls backward, camera tilts down; final frame on his back, a short red cut at the outer right eyebrow with a thin trickle, briefcase and phone on the ground beside him. During 4.6-4.7 s the cut briefly reads longer, up toward the forehead."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
