@@ -838,6 +838,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH070 T01 in: takes/S04/SH070/001_S04_SH070_T01.mp4 (job d6be83ba, 12 credits). Photographic, the fall lands on the d11 framing with the head in frame; the fat person shows more than asked in the first second. Waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH090-b prepared, not submitted: prompts/001_S05_SH090_T02.txt. Leonard on T01: use char_politician_dusty with a little blood pouring from the right eyebrow; looks a bit fake: longer lens, shallower depth of field, anamorphic. Also changed: narrow side street with no high-rises, arms limp through the fall, lens almost on the asphalt. Images: prop_briefcase, char_politician_dusty 98e1e69e, bond fa669df1, loc_side-street, palette_afternoon; video ref 28d3d598. Estimate 12 credits."
     }
   ],
   "story_sync": {
