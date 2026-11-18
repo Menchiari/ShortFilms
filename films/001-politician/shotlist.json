@@ -2396,7 +2396,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -2422,7 +2422,7 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST S04-SH010-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH010. Claude's read (frames every 0.5 s and audio levels, not heard): photographic, nothing of the previz look. Profile facing screen right, just left of center, walls and rolled-down shutters slide right to left: matches the previz composition. Framed from the hips up, tighter than the mid-thigh asked, so the steps are not visible. Briefcase held upright against his chest with both arms, shoulders hunched. Around 2 s he turns his head away toward a shutter, then back. Nobody else, no cars, no writing. Audio quiet throughout (mean -39 dB, peak -20 dB), no silent gaps."
+              "notes": "REQUEST S04-SH010-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH010. Claude's read (frames every 0.5 s and audio levels, not heard): photographic, nothing of the previz look. Profile facing screen right, just left of center, walls and rolled-down shutters slide right to left: matches the previz composition. Framed from the hips up, tighter than the mid-thigh asked, so the steps are not visible. Briefcase held upright against his chest with both arms, shoulders hunched. Around 2 s he turns his head away toward a shutter, then back. Nobody else, no cars, no writing. Audio quiet throughout (mean -39 dB, peak -20 dB), no silent gaps. Selected as the head of the shot: T02 extends it (Leonard 2026-11-18)."
             },
             {
               "id": "T02",
@@ -2446,9 +2446,9 @@
                 "loc_side-street e728a9ae"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH010-b, forward extension of T01, 720p (1458x634), 5.00 s. The file holds only the new 5 s, not T01. Its first frame matches T01's last frame (same pose, shutter and bead curtain); T01 is 480p, so the cut joins 480p to 720p. Claude's read (frames every 0.5 s and audio levels, not heard): at 0.5 s he lowers the case and holds it flat by the handle in his right hand, then it drops below frame at about 1 s and is never seen again. From 1 s on his shoulders drop and he walks upright, but his eyes keep scanning: up at the windows, behind him over his shoulder around 3.5 s, then forward. Against the prompt: dusty parked cars along the curb from about 1 s to 4.5 s (the prompt said no cars). A window at 1.5 s shows a glowing television. Audio quiet, peak -14 dB."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH010-b, forward extension of T01, 720p (1458x634), 5.00 s. The file holds only the new 5 s, not T01. Its first frame matches T01's last frame (same pose, shutter and bead curtain); T01 is 480p, so the cut joins 480p to 720p. Claude's read (frames every 0.5 s and audio levels, not heard): at 0.5 s he lowers the case and holds it flat by the handle in his right hand, then it drops below frame at about 1 s and is never seen again. From 1 s on his shoulders drop and he walks upright, but his eyes keep scanning: up at the windows, behind him over his shoulder around 3.5 s, then forward. Against the prompt: dusty parked cars along the curb from about 1 s to 4.5 s (the prompt said no cars). A window at 1.5 s shows a glowing television. Audio quiet, peak -14 dB. Leonard 2026-11-18: \"perfect, this works. Let's save it\" (rating 4 inferred from \"works\"). Selected: the shot is T01 followed by T02 (T02 continues T01's last frame)."
             }
           ],
           "description": "He walks fast, the briefcase hugged to his chest, trying not to make a sound. Shutters closed. Nobody. His breath gets heavier.",
