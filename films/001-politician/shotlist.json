@@ -2118,8 +2118,32 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "approved",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f9687cda-6d0b-49eb-91a0-a13aa734a78c",
+              "prompt": "05-generation/prompts/001_S04_SH030_T01.txt",
+              "file": "05-generation/takes/S04/SH030/001_S04_SH030_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH030_T01.jpg",
+              "references": [
+                "loc_side-street e728a9ae"
+              ],
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH030-a. Higgsfield folder S04/SH030. 4.06 s, 992x432, 24 fps, audio present. Shot is 2 s: trim about 1.0-3.0 s. Claude's read (frames only, audio not heard): photographic, warm afternoon look. 0-0.9 s: walking along the wall, a parked car at right and a bar awning with chairs and a red sign far down the street (prompt said no parked cars; mostly outside the trim). 1.2 s: the window enters on the left, dark room, blue TV glow, plate of food, glass, fork in her hand. About 2.1-2.6 s she turns her head and looks straight into the lens. About 2.4-2.7 s a blurred bare forearm swings big toward the lower right of frame (reads as her arm reaching to the sill; unclear). 2.8-4 s: pan right past a rolled shutter to the street."
+            }
+          ],
           "description": "A window. A television glows. An old woman eating turns her head toward the street.",
           "framing": "POV",
           "movement": "Handheld",
