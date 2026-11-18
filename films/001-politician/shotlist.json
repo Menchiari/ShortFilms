@@ -3086,9 +3086,9 @@
                 "no video reference"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH070-e, 720p, passed first submission, about 60 minutes in queue and render. 1470x630, 6.08 s, 24 fps. Leonard on T04: no slide wording, tap the green circle, almost running, the contact is You're Fired. Claude's read from frames: over his right shoulder, the asphalt streams past with motion blur, his head and charcoal sleeve at the right. The 4:17 lock screen is back (the slide wording was the cause in T04, inferred): about 3 s of thumb pushes, around 2.3 s his left hand wipes across the wet right hand, the phone stays in frame. Then You're Fired spelled right with the apostrophe, padlock and Encrypted, the green circle tapped several times, then the red circle and Calling. Small: a tiny line of text above 4:17 on the lock screen. Very sweaty hand. Audio not listened to."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH070-e, 720p, passed first submission, about 60 minutes in queue and render. 1470x630, 6.08 s, 24 fps. Leonard on T04: no slide wording, tap the green circle, almost running, the contact is You're Fired. Claude's read from frames: over his right shoulder, the asphalt streams past with motion blur, his head and charcoal sleeve at the right. The 4:17 lock screen is back (the slide wording was the cause in T04, inferred): about 3 s of thumb pushes, around 2.3 s his left hand wipes across the wet right hand, the phone stays in frame. Then You're Fired spelled right with the apostrophe, padlock and Encrypted, the green circle tapped several times, then the red circle and Calling. Small: a tiny line of text above 4:17 on the lock screen. Very sweaty hand. Audio not listened to. Leonard: liked how he did it before; keeps T02 (Honeypot) as the shot."
             }
           ],
           "description": "His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.",
