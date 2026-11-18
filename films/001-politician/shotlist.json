@@ -3296,7 +3296,7 @@
         },
         {
           "id": "SH100",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3320,9 +3320,9 @@
                 "no guide clip"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH100-a. Higgsfield folder S04/SH100. Prompt v2 (SH080 attitude). 7.07 s, 992x432, 24 fps, audio present (mean -32.9 dB). Claude's read (frames at 1.5 fps, audio not heard): photographic, real street (rolled-down shutter, barred window, balconies), hazy backlight from upper right, face in shade but readable. Low angle from the ground as asked. The fat man is centered, not in the right half; first frame cuts his head at the top edge, then he bends close over the lens from about 0.7 s and holds there, eyes on the lens, no grin, a hard stare. The friend stands behind, left of center, by a barred window: films with the phone raised from 0 to about 5.5 s, then lowers it and looks down at it in the last second (typing reads only briefly). Sound present 0.6-2.0, 2.35-2.45, 2.75-5.43, 5.88-6.30 s: whether the words are the line and in order, not verified. Leonard's SH080 note (apologetic start, confusion, no smile) arrived after this prompt was written."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH100-a. Higgsfield folder S04/SH100. Prompt v2 (SH080 attitude). 7.07 s, 992x432, 24 fps, audio present (mean -32.9 dB). Claude's read (frames at 1.5 fps, audio not heard): photographic, real street (rolled-down shutter, barred window, balconies), hazy backlight from upper right, face in shade but readable. Low angle from the ground as asked. The fat man is centered, not in the right half; first frame cuts his head at the top edge, then he bends close over the lens from about 0.7 s and holds there, eyes on the lens, no grin, a hard stare. The friend stands behind, left of center, by a barred window: films with the phone raised from 0 to about 5.5 s, then lowers it and looks down at it in the last second (typing reads only briefly). Sound present 0.6-2.0, 2.35-2.45, 2.75-5.43, 5.88-6.30 s: whether the words are the line and in order, not verified. Leonard's SH080 note (apologetic start, confusion, no smile) arrived after this prompt was written. Leonard 2026-11-18: 'this works'."
             }
           ],
           "description": "Behind him, his FRIEND films the old man on his phone, then types fast with both thumbs.",
