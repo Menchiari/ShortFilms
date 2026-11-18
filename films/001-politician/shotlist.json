@@ -1828,7 +1828,7 @@
         },
         {
           "id": "SH040",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1871,7 +1871,9 @@
                 "end_image: 05-generation/frames/001_S03_SH040_fuel-off_v2.png (cbfa703c)"
               ],
               "love": false,
-              "notes": "REQUEST 040d, 480p, no draft flag. 992x432, 5.06 s. Claude's read (frames at 4 fps and audio levels, not heard): the framing of the stills, unstretched, steady from first to last frame (SSIM to the off still about 0.57 at 0, 2.5 and 4.9 s: no drift); only the fuel symbol ever lights, nothing on the speedo or tach. The light blinks fully off for a frame or two during the cranks (about 1.0 s, 1.5-2.0 s, 3.25 s) instead of only dimming, then stays off from about 4.0 s to the end. Sound in two louder blocks with a quiet dip around 2.75-3 s and a quiet tail from about 4.5 s."
+              "notes": "REQUEST 040d, 480p, no draft flag. 992x432, 5.06 s. Claude's read (frames at 4 fps and audio levels, not heard): the framing of the stills, unstretched, steady from first to last frame (SSIM to the off still about 0.57 at 0, 2.5 and 4.9 s: no drift); only the fuel symbol ever lights, nothing on the speedo or tach. The light blinks fully off for a frame or two during the cranks (about 1.0 s, 1.5-2.0 s, 3.25 s) instead of only dimming, then stays off from about 4.0 s to the end. Sound in two louder blocks with a quiet dip around 2.75-3 s and a quiet tail from about 4.5 s. Leonard: works.",
+              "rating": 4,
+              "rating_source": "inferred"
             }
           ],
           "description": "The fuel light glows. The key turns: the starter grinds and doesn't catch. Again. Nothing. The key comes out. The light goes off.",
