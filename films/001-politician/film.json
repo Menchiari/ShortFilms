@@ -170,7 +170,8 @@
       "S04/SH080": "8530ace6-29a0-4144-a241-0830c26879e1",
       "S04/SH120": "5e489526-0ea9-40f2-9c0c-82933fe697ae",
       "S04/SH050": "eb370852-1bce-443b-b265-0ba496292f3b",
-      "S04/SH100": "a9b5ddd1-f3d4-49e2-9099-95839c6e14a5"
+      "S04/SH100": "a9b5ddd1-f3d4-49e2-9099-95839c6e14a5",
+      "S04/SH140": "cdf33b76-4df1-49be-be04-87ad62dea945"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -718,6 +719,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH100: Higgsfield folder S04/SH100 created (a9b5ddd1-f3d4-49e2-9099-95839c6e14a5). T01 prompt written (prompts/001_S04_SH100_T01.txt): text + elements, no guide clip (static low angle, frame filled by wall and sky). Images: char_big-guy 6228445b, loc_side-street e728a9ae, palette_afternoon 3bf30eee. The friend described in the prompt [ASSUMPTION: a new man, questions.md 2]. REQUEST S04-SH100-a quoted at 21 credits (seedance_2_5, 480p, 21:9, 7 s, audio on), waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH140 created inside S04 (cdf33b76-4df1-49be-be04-87ad62dea945). REQUEST S04-SH140-a prepared, not submitted: prompts/001_S04_SH140_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, text and elements only (char_politician_dusty 98e1e69e, char_big-guy 6228445b, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee), no previz clip: the edge-detect line version of refs_d11/S04_SH140 keeps almost nothing (the soft-focus old man and the friend vanish, only a faint outline of the fat person's head). The friend's description is copied word for word from the SH100 T01 prompt. Estimate 12 credits."
     }
   ],
   "story_sync": {
