@@ -1756,8 +1756,8 @@
               ],
               "love": true,
               "rating": 5,
-              "rating_source": "inferred",
-              "notes": "Final of draft T01 (draft_job_id e41b2b2a), same prompt and references. Leonard asked for 720p; the request said 720p, but Higgsfield rendered the final at 1080p (job record: resolution 1080p, 2016x864; delivered file 2206x946) and charged 96, the 1080p price, as quoted and approved. Claude's read: the same performance as T01 frame for frame, sharper."
+              "rating_source": "user",
+              "notes": "Final of draft T01 (draft_job_id e41b2b2a), same prompt and references. Leonard asked for 720p; the request said 720p, but Higgsfield rendered the final at 1080p (job record: resolution 1080p, 2016x864; delivered file 2206x946) and charged 96, the 1080p price, as quoted and approved. Claude's read: the same performance as T01 frame for frame, sharper. Leonard 2026-11-18: \"love it\"."
             }
           ],
           "description": "He leans forward over the wheel and looks left.",
