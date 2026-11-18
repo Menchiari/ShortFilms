@@ -579,6 +579,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH040-b done (28 credits): S04 SH040 T02 in, 720p, file takes/S04/SH040/001_S04_SH040_T02.mp4. T01 composition and backlight held; briefcase carried in his right hand; upright firm walk; he turns his head to the men once. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-c prepared, not submitted: S04 SH040 T03, prompts/001_S04_SH040_T03.txt, 5 s. Leonard's notes: much more paranoid, trying to be inconspicuous, passes the briefcase to the other hand, pretends not to see the men but clearly avoids them. get_cost: 35 credits at 720p (15 at 480p)."
     }
   ],
   "story_sync": {
