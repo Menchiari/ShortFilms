@@ -1,0 +1,32 @@
+Audio: only the old man's line, his short heavy breaths, the scrape of his suit on gritty asphalt, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera angle, the framing, and the rough positions of the man and the briefcase on the ground. Take NOTHING else from it, ever: not its shapes as objects, not its lines, not its surfaces, colors, light or style, and not the pose of the person in it. Every surface, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the old man's face, hair, build, dusty charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the dark leather briefcase: its shape, leather and clasps only, not its background. Image 3: the side street: its dusty asphalt, chipped curb, drifted sand and the foot of a plastered wall only, not its people, cars, chairs or framing. Image 4: color and light only.
+
+High handheld shot looking down at the old man from image 1 lying flat on his back on the dusty asphalt of a desert-town side street, his briefcase from image 2 fallen on the ground beside him, as he hides his face behind his hand and speaks up at the big man standing over him, out of frame.
+
+Lighting, motivated by the sun only: a hazy afternoon sun high behind the buildings. The street level lies in warm shade; a sunlit strip of asphalt at the edge of frame throws warm bounce light up onto his face and hands, so his eyes between his fingers, the sweat and the dust on his skin read clearly. The soft shadow of the big man standing over him falls across the asphalt next to his body. Golden dust hangs in the air. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+The ground is real and photographed: worn asphalt buried in fine dust and drifted sand, small grit and pebbles, a crack running through it, the chipped edge of a curb and the base of a sun-worn plastered wall at the frame edge. Nothing looks like a box, a slab or a 3D model.
+
+0-1s: high angle looking down, framing from Video 1: the old man lies on his back on a diagonal across the frame, his head toward the top of frame just right of center, his legs running out of frame toward the lower right. The briefcase lies flat on the asphalt to the left of his body, a little out of his reach. Camera: handheld, a light breathing sway, held high above him, it stays at this height and angle for the whole shot. His chest heaves, dust on his suit and in his hair from the fall, his tie pulled sideways. He has just landed and is already raising his right hand toward his face.
+1-2s: his right hand spreads flat over his face, fingers slightly open, palm toward the camera, his left arm still on the ground beside him. Through the gaps between his fingers his eyes stay on the big man above the camera.
+2-5s: he speaks from behind his hand, his mouth visible below his palm, his breath short. He keeps his hand over his face the whole time. Final frame: the old man still flat on his back in the same place and diagonal, right hand over his face, eyes between his fingers looking up past the camera, the briefcase flat on the ground to his left, the camera high and handheld above him.
+
+Language: English, American with a slight accent. 2-5s, the old man's line (denying it, fast, breathless, from behind his hand): {I don't know who you think I am. I don't know you!}
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: walk out of this as a stranger nobody recognized.
+OBSTACLE: he is flat on his back at the feet of a man who has almost placed his face, and one word of recognition brings the whole street to its windows.
+TACTIC: he takes his face away from the man and talks him out of the thought before it finishes: from behind his hand his eyes hunt the man's face between his fingers, checking whether the doubt is still alive in it, and he pushes the denial harder the moment he sees it is not working. For a beat his eyes flick to the briefcase on the ground and straight back up.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people in frame: one, the old man. The big man stays above the camera, out of frame, seen only as his shadow on the ground. Count of briefcases: one. Nobody else on the street.
+
+Unplaceable town: no landmark, no flag, no readable writing on any wall or object, no logos. No laundry, no trees, no palms, no greenery. Never copy the look of Video 1.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the old man's line, his short heavy breaths, the scrape of his suit on gritty asphalt, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
