@@ -3393,6 +3393,29 @@
               "rating": 3,
               "notes": "REQUEST S04-SH130-a, approved by Leonard 2026-11-18 after his direction (realistic, anamorphic, film, Garland-style near documentary, intimidating, everyone watching from above). Folder S04/SH130. Text + elements, no previz guide. Claude's read (frames 0, 48, 95): photographic, not 3D. Locked-off, no cuts, nothing enters or leaves. Six watchers, all there from frame 1: heavyset man in a grey undershirt and the woman in a pale headscarf on the lower left balcony, young man in a brown t-shirt in the center window, man in a white shirt on the lower right balcony, the old woman in a dark dress on an upper LEFT BALCONY (asked: a window), and a small figure on the upper right balcony (asked: a woman at a shutter). Upper center window empty and dark, one cable. Low angle up with mild convergence, warm haze, sun flare at top right and a blue horizontal anamorphic streak across the top third. Audio: quiet room tone (mean -43 dB); Claude cannot listen, check for music. The edit uses 2 s of the 4. Leonard 2026-11-18: \"it's ok, but maybe have the angle a bit lower, people a bit more far away, and have the camera pan around a bit, not so symmetric\".",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d3dd7ed7-22eb-4920-947a-cb8c6a19a671",
+              "prompt": "05-generation/prompts/001_S04_SH130_T02.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_side-street e728a9ae (image_references)",
+                "palette_afternoon 3bf30eee (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH130-b, approved by Leonard 2026-11-18. Folder S04/SH130. Changes from T01, all from Leonard's note: lower angle, people farther, a small pan, asymmetric. Claude's read (frames 0, 24, 48, 72, 95): photographic, no cuts. Low angle up, asymmetric: the left facade at a diagonal fills the left half, a hazy sky with the cable fills most of the right half (asked: a narrow wedge), far buildings low in frame. The pan is continuous and bigger than asked (about a quarter of the frame, not one window): the woman on the building across at the right edge is in frame only at the start, and the man in the white shirt on the top balcony comes into frame during the pan. The heavyset man, the woman in the headscarf and the young man stand together on one balcony (asked: the young man at a separate window); one older person at a lower window. People smaller than T01. Sun flare and a pink-blue anamorphic streak mid-frame. Audio: quiet room tone (mean -42.5 dB); Claude cannot listen, check for music."
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
