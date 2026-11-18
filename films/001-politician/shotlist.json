@@ -1394,7 +1394,7 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street: real concrete, rolling shutters, rubble, dust; a real curved dashboard edge at the bottom. Winner of the test. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames."
+              "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street: real concrete, rolling shutters, rubble, dust; a real curved dashboard edge at the bottom. Winner of the test. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames. Measured 2026-11-18 (sky width in % of frame width, frame 0 / 72 / 96): far end of the street 10.3 / 4.4 / 2.9; sky between the towers at the top of frame 14.3 / 14.0 / 10.0. Animatic d11: 10.4 / 4.4 / 3.2 and 14.3 / 13.9 / 10.5. The dolly zoom happens and copies the animatic within 0.3 points: the far end shrinks to 28% while the near towers grow; the tower opening holds for 3 s, then narrows 30% in the last second (as in the animatic). Far end: haze, no end in sight. A dashboard and steering wheel grow at the bottom (the zoom out)."
             },
             {
               "id": "T03",
@@ -1420,7 +1420,7 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street too, but the bottom edge came out as flat slab shapes taken from the blur. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames."
+              "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street too, but the bottom edge came out as flat slab shapes taken from the blur. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames. Measured 2026-11-18 (same method): far end 10.1 at frame 0, then hidden by haze; top opening 14.0 / 13.8 / 10.3. Same dolly zoom as T02. Faults: a city skyline is visible at the far end in the first second (an end in sight); the animatic's flat road patches became flat slabs on the car hood."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
