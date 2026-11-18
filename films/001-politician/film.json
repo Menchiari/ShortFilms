@@ -689,6 +689,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH020-a done (2.75 credits, Leonard: gpt first): start still for S05 SH020 T03, GPT Image 2.6 high 2k 21:9, job 2522297d-b514-4547-ae8f-d2c14aa1e62a, folder S05/SH020, frames/001_S05_SH020_T03_start.png. Layout from animatic d11 frame 0. Claude's read: photographic, positions match the animatic (old man left quarter, about 22 people on both sidewalks, two cables), shade band at top, long shadows. The camera is a high oblique angle (about 60 degrees), not straight down; the near buildings read one storey; the suit reads brown."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH090-a prepared, not submitted: prompts/001_S05_SH090_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on. Images: prop_briefcase 4bf36cb5, char_politician_blood 73236f58 (Leonard: use the blood element here), bond sheet fa669df1 (refs/001_S05_SH090_bond.jpg from props/bond/ref_bond_element_v7.jpg) [ASSUMPTION: v7 Franklin County design is the current bond], loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref 28d3d598 (refs_d11_motion S05_SH090, 2 s). Both uploads filed in REFS. Estimate 12 credits."
     }
   ],
   "story_sync": {
