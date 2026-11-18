@@ -1,0 +1,26 @@
+Audio: only the crack of the leather briefcase hitting the asphalt and its latches snapping, the thud of his body hitting the street, grit scraping under him, the breath knocked out of him in one grunt, his strained breathing and growls as he struggles, a gust of wind, and the dry flapping of many paper sheets. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+The reference video is a motion diagram only: it gives the camera framing and the timing and paths of the man, the briefcase and the papers, nothing else. Do not copy the pose or limbs of its grey figure. Its plain grey ground, flat background and blocky shapes are not the look. The place is real and is described in this prompt. The result is live-action 35mm film footage shot on location, never a 3D render.
+@Image1: the briefcase: its dark worn leather, shape, handle and latches only. @Image2: the old man: his face, hair, build, dusty charcoal suit, white shirt and rust tie only, not his pose; his wound is described below. @Image3: one sheet of paper from the briefcase: thick cream paper with a green engraved border and dense printed text, the size of a sheet of printer paper, as long as his forearm. Every sheet in this shot is exactly this kind of sheet. Inside the briefcase they lie in one thick flat stack, like the pages of a long legal document. @Image4: the street: its cracked asphalt and shuttered low buildings only, not its cars, people or framing.
+
+Ground level in an empty, narrow, sun-baked side street: the old man from @Image2 crashes onto the asphalt, the briefcase from @Image1 flies out of his hand, bursts open on impact, and the wind lifts its large paper sheets into the sky while he fights to get up. Locked-off long anamorphic lens with the lens almost on the asphalt, shallow focus on him and the ground he lies on, the street behind him soft shuttered facades. A low hazy afternoon sun from screen right rakes across the coarse asphalt, so every grain of grit and every small sharp stone stands out in relief.
+
+0-1s: framing and timing from the reference video. The old man crashes into frame from the left, the briefcase gripped in his right hand. He hits the asphalt chest and right cheek first, hard: his cheek scrapes across the grit and dust puffs out from under him. As he lands his right arm flies forward and the briefcase tears out of his hand. A thin stream of fresh blood runs from a split in his right eyebrow down his cheek.
+1-2s: the briefcase hits the asphalt to the right of his head with violent force, corner first. On that impact the latches snap and the lid bursts open: the briefcase is never closed on the ground. The stack of sheets explodes out of it: dozens of large cream sheets thrown up into the air.
+2-4s: the wind from the left catches the sheets. Each large sheet tilts, slips sideways, flips over, glides and rises again, each on its own path; most climb into the sky and drift out of the top and right of frame, a few skid flat across the asphalt. At the same time the old man lifts his head and his eyes go up after the sheets rising into the sky. He tries to get up: both palms push down hard on the asphalt, his arms shake, his chest lifts off the ground, one knee drags forward under him, his arms give way and he drops back down, and he pushes again. His hands always press against the ground. Final frame: he is still on the ground, propped on both hands, head tilted up, eyes on the sheets in the sky; the open briefcase lies to the right of his head with a few sheets still in it.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): those papers are the whole point of this day.
+GOAL: get up and go after them.
+OBSTACLE: the fall has knocked the strength out of him, and every second the wind carries the sheets higher.
+TACTIC: his eyes never leave the sheets: they lock on the highest one, then the next, refusing what he sees, everything in him screaming no, while he orders his body up off the ground.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people: one, the old man. Count of briefcases: one. The street is empty: no cars, no people. Real time, fast and heavy.
+
+Unplaceable town: no landmark, no dome, no flag, no readable writing on any sign or wall, no logos. No trees, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the crack of the leather briefcase hitting the asphalt and its latches snapping, the thud of his body hitting the street, grit scraping under him, the breath knocked out of him in one grunt, his strained breathing and growls as he struggles, a gust of wind, and the dry flapping of many paper sheets. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
