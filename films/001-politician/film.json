@@ -1046,6 +1046,14 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH120 T02, Leonard: try again with more teeth and struggle, as if he is suffering too. T03 prompt (prompts/001_S04_SH120_T03.txt): teeth-baring pleading smile in pain, neck straining against the fists, breath through clenched teeth; plus eyes level until 4.5 s (T02 opened already looking up) and the element's costume named. REQUEST S04-SH120-c quoted at 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-c approved by Leonard (\"go\"; get_cost 18 credits) and submitted: S04 SH060 T03 1e5c14ee-49bd-42d9-a49b-c8fb49ca2724, seedance_2_5 video_edit of T02 7503a780, 480p, 21:9, audio on, place still 7afcbc84, folder S04/SH060."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-c done (18 credits): S04 SH060 T03 in, edit of T02, file takes/S04/SH060/001_S04_SH060_T03.mp4. Performance kept; the sandy lot is now the street of SH110/SH140; the plain wall beside him also became a shopfront facade. Notes in shotlist.json."
     }
   ],
   "story_sync": {
