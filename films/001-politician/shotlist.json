@@ -1495,6 +1495,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street too, but the bottom edge came out as flat slab shapes taken from the blur. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames. Measured 2026-11-18 (same method): far end 10.1 at frame 0, then hidden by haze; top opening 14.0 / 13.8 / 10.3. Same dolly zoom as T02. Faults: a city skyline is visible at the far end in the first second (an end in sight); the animatic's flat road patches became flat slabs on the car hood."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "2d2022de-32dd-4b4a-b069-72a28f939616",
+              "prompt": "05-generation/prompts/001_S02_SH100_T04.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T04.jpg",
+              "references": [
+                "loc_main-street c30451ef (start frame; the API listed it as reference_images)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 019, draft. Leonard on T02/T03: the city does not look realistic, street signs everything wrong. T04: no guide clip, the street image as the start. Claude's read: real street with lamps, lane lines, zebra, traffic lights, signs, parked cars, sidewalks. Measured: junction traffic-light spacing 119 px at frame 0, 150 px at frame 96 (+26%); far tower 72 px to 68 px (-6%). A forward dolly with at most a slight zoom out: the junction does not hold its size, so no vertigo effect. The far tower stays at the end of the street (an end in sight)."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
