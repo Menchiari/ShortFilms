@@ -944,7 +944,7 @@
         },
         {
           "id": "SH020",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1016,10 +1016,10 @@
                 "palette_afternoon 3bf30eee",
                 "no line guide"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S02-SH020-T03, draft, Leonard approved 15 credits. Folder S02/SH020. No line guide (T02 copied the animatic head turning right). Claude's read: wide 0-3 s: the dog asleep against the wall, trash all around (bottles, bags, crate, wrappers), a smudge of illegible marks on one white sack. Close 3-5 s: the dog lifts its head and turns it back over its shoulder until it stares into the lens; it stays lying, it does not push up onto its front legs. Open mange sores on hip and leg, a scab on the muzzle: reads stray. Coat still fairly clean, not caked with mud. Wide dog looks darker than the close dog."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S02-SH020-T03, draft, Leonard approved 15 credits. Folder S02/SH020. No line guide (T02 copied the animatic head turning right). Claude's read: wide 0-3 s: the dog asleep against the wall, trash all around (bottles, bags, crate, wrappers), a smudge of illegible marks on one white sack. Close 3-5 s: the dog lifts its head and turns it back over its shoulder until it stares into the lens; it stays lying, it does not push up onto its front legs. Open mange sores on hip and leg, a scab on the muzzle: reads stray. Coat still fairly clean, not caked with mud. Wide dog looks darker than the close dog. Leonard 2026-11-18: perfect, approved."
             }
           ],
           "description": "A stray dog lies in the shadow of an abandoned building, on the edge of a crumbled concrete wall. Heat rises off the ground.",
@@ -1100,13 +1100,13 @@
         },
         {
           "id": "SH040",
-          "status": "planned",
+          "status": "approved",
           "takes": [],
           "description": "The dog lifts its head.",
           "framing": "CLOSE, the dog",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "The last 2 seconds of the SH020 take",
+          "note": "The last 2 seconds of the SH020 take Approved: last 2 s of SH020 T03.",
           "animatic": {
             "file": "05-generation/animatic/d11/S02_SH040.mp4",
             "draft": "d11"
