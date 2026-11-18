@@ -164,7 +164,8 @@
       "S05/SH030": "dd57dcc5-56e6-400d-9594-34cb8f10f8de",
       "S05/SH090": "b2dcfe97-5fb4-4808-94d0-be17e1660532",
       "S05/SH010": "e597d14c-3c93-4c83-9909-d3f9227ad578",
-      "S05/SH110": "426ca3ac-94f5-4180-84ff-4de600d790e4"
+      "S05/SH110": "426ca3ac-94f5-4180-84ff-4de600d790e4",
+      "S05/SH020": "d4ab191c-4c76-427f-a8b6-2c47f8f6ba04"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
