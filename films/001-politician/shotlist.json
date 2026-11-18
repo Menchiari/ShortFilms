@@ -3065,9 +3065,9 @@
                 "lines guide 91aef5db (refs/001_S04_SH070_lines_d11.mp4, video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH070-a, 480p (992x432), 4.06 s. Line-drawing guide of refs_d11 S04_SH070. Higgsfield folder S04/SH070. Claude's read (frames every 0.25 s and audio levels, not heard): photographic, nothing of the previz look. High angle, handheld. 0-1 s: the fat person's head and shoulder fill the right edge in the foreground (curly hair, grey-brown T-shirt, matches the element), more of him than the prompt asked, part of his face in profile; the old man rebounds off him. About 1-1.5 s: he falls back, the briefcase flies out to the left, a dust puff at the landing. 1.5-4 s: flat on his back, arms spread, head top center, legs toward the bottom, the briefcase flat on his left side of frame, a curb and sidewalk on a diagonal at the right; mouth open, gasping, eyes up past the camera. His head stays in frame. Sunlit and golden rather than the warm shade written. Audio mean -27.7 dB, peak -6 dB. Element char_politician (clean) [ASSUMPTION]."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH070-a, 480p (992x432), 4.06 s. Line-drawing guide of refs_d11 S04_SH070. Higgsfield folder S04/SH070. Claude's read (frames every 0.25 s and audio levels, not heard): photographic, nothing of the previz look. High angle, handheld. 0-1 s: the fat person's head and shoulder fill the right edge in the foreground (curly hair, grey-brown T-shirt, matches the element), more of him than the prompt asked, part of his face in profile; the old man rebounds off him. About 1-1.5 s: he falls back, the briefcase flies out to the left, a dust puff at the landing. 1.5-4 s: flat on his back, arms spread, head top center, legs toward the bottom, the briefcase flat on his left side of frame, a curb and sidewalk on a diagonal at the right; mouth open, gasping, eyes up past the camera. His head stays in frame. Sunlit and golden rather than the warm shade written. Audio mean -27.7 dB, peak -6 dB. Element char_politician (clean) [ASSUMPTION]. Leonard 2026-11-18: the impact is too slow, slow-motion-like; he must be immediately conscious of the briefcase, find it and grab it: the impact hurts but the briefcase is his concern. T02 changes this."
             }
           ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",

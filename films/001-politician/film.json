@@ -846,6 +846,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard: S04 SH050 T02 joined to the flipped T01 works (inferred 4); he has the briefcase (Claude's read was wrong). Join rebuilt in one pass from the originals: _join_v2.mp4 (480p) and _join_720p.mp4 (resized, no added detail)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH070 T01 rated 2 (inferred): Leonard, too slow-motion-like, he must go for the briefcase at once. REQUEST S04-SH070-b prepared, not submitted: prompts/001_S04_SH070_T02.txt, same inputs and settings as T01 (480p, 21:9, 4 s, audio on); the fall in well under a second, he grabs the case by 1.5 s and ends on his back with it on his chest. Quote 12 credits. Continuity: SH090's prompt still has the case on the ground, out of reach."
     }
   ],
   "story_sync": {
