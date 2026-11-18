@@ -3152,6 +3152,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH090-f. Draft. Rewritten prompt after the review: half the length, no money words, the sheet described physically (printer-paper size, as long as his forearm, a flat stack like a legal document), the struggle as pushing up with the hands always on the ground, guide clip named @Video1. Claude's read: papers fixed: cream sheets, large, inside the case a flat stack with green borders, dozens fly up and out of frame, some skid on the ground, no cash anywhere. The case leaves his hand as he dives in, hits at about 0.7 s and bursts open on impact with sheets already flying. Movement: from about 2 s he pushes up on both arms, chest off the ground, arms straight, then collapses back to the asphalt: hands always on the ground, no reaching. His eyes stay forward on the street and the case, not up at the sheets in the sky. Wound reads as three diagonal gashes on the right temple, not a stream from the eyebrow. Background: narrow street of shuttered buildings, softer but not as shallow as T03-T05; three or four parked cars (loc_side-street itself shows two parked cars, likely the source)."
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "93b77990-c583-4ccc-9d8f-5e9e56d817bd",
+              "prompt": "05-generation/prompts/001_S05_SH090_T07.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T07.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_dusty 98e1e69e",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg)",
+                "loc_side-street e728a9ae",
+                "refs/001_S05_SH090_motion_d11_tight.mp4 eeadc9a1 (video_references, named @Video1)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-g. Draft. T06 plus Leonard's notes: more knocked out, sheets as large as A4 (size tied to his forearm, his face, the inside of the case, the open lid, one landing by his hand). Claude's read: sheets now clearly A4: those near the lid and the one that lands by his hand at about 2.8 s are bigger than his hand; cream paper, the green border barely readable at 480p. The case is in his hand as he falls, hits at about 0.7 s and bursts open at once with sheets flying. Dazed: he lies with his head down, lifts it slowly and only a little, eyes heavy, hand resting flat, and lets it sink again at the end; no push-up this time, the chest barely moves. Eyes go forward and down, not up at the sky. Wound: diagonal gashes over the right brow and temple with fresh blood. Two parked cars still in the background."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
