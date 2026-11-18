@@ -1930,8 +1930,34 @@
         },
         {
           "id": "SH050",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 14,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 98.0,
+              "job_id": "c6a30881-577e-4ba8-be88-1922e30323f9",
+              "prompt": "05-generation/prompts/001_S03_SH050_T01.txt",
+              "file": "05-generation/takes/S03/SH050/001_S03_SH050_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH050_T01.jpg",
+              "references": [
+                "Start frame v5, gpt_image_2_6 (REQUEST 050e, job 1310a61e, sent as start_image, echoed as reference): 05-generation/frames/001_S03_SH050_T01_start_v5.jpg",
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear."
+            }
+          ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
           "framing": "EXTREME WIDE, high, from a balcony across the crossroads",
           "movement": "Locked-off, a slight handheld drift",

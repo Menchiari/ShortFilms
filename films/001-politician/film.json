@@ -535,6 +535,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH040-a done (12 credits): S04 SH040 T01 in, file takes/S04/SH040/001_S04_SH040_T01.mp4. Photographic street, not blocky. He walks down the middle of the road toward the camera instead of the far sidewalk; parked cars appeared. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050f done (98 credits): S03 SH050 T01 in, file takes/S03/SH050/001_S03_SH050_T01.mp4."
     }
   ],
   "story_sync": {
