@@ -1514,6 +1514,31 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "Leonard approved 2026-11-18 (go T04). Palette image dropped (it is a city street and caused T03's city). Claude's read: empty desert only, the car dead straight head-on the whole way, stops close, dust swallows the frame. Weaker than T01: the skid throws less dust at the wheels and the final cloud reads more as haze than a rolling wave. Leonard 2026-11-18: does not like the way the car skids. Claude's read at 6 fps: no visible braking; the car glides in and slows with small dust puffs, no locked wheels, no nose dive, no weight."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "draft": true,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "11946974-775a-4200-b8eb-b139e144ad1e",
+              "seed": 577127377,
+              "prompt": "05-generation/prompts/001_S02_SH080_T05.txt",
+              "file": "05-generation/takes/S02/SH080/001_S02_SH080_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH080_T05.jpg",
+              "references": [
+                "prop_car 42787b78"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "Leonard approved 2026-11-18 (go T05). Physics spelled out in words. Claude's read at 6 fps: desert only, dead straight head-on throughout; from about 1.2 s thick fans of sand and gravel spray from both front wheels, grit flying, then a heavy dust wave rolls over the car and swallows the frame by 3.5 s, headlights glowing through. The approach reads slower than 100 km/h; the nose dive is not clearly visible in stills."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
