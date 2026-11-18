@@ -1993,7 +1993,7 @@
         },
         {
           "id": "SH030",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -2013,9 +2013,9 @@
               "references": [
                 "loc_side-street e728a9ae"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
               "notes": "REQUEST S04-SH030-a. Higgsfield folder S04/SH030. 4.06 s, 992x432, 24 fps, audio present. Shot is 2 s: trim about 1.0-3.0 s. Claude's read (frames only, audio not heard): photographic, warm afternoon look. 0-0.9 s: walking along the wall, a parked car at right and a bar awning with chairs and a red sign far down the street (prompt said no parked cars; mostly outside the trim). 1.2 s: the window enters on the left, dark room, blue TV glow, plate of food, glass, fork in her hand. About 2.1-2.6 s she turns her head and looks straight into the lens. About 2.4-2.7 s a blurred bare forearm swings big toward the lower right of frame (reads as her arm reaching to the sill; unclear). 2.8-4 s: pan right past a rolled shutter to the street."
             }
           ],
