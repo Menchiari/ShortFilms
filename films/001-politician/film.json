@@ -949,6 +949,130 @@
     },
     {
       "date": "2026-11-18",
+      "text": "S04 SH120 T01, Leonard: 'absolutely not', far too calm. T02 prompt written (prompts/001_S04_SH120_T02.txt) with his direction: both fists on the collar, a pleading smile close to crying, flashes of fear and hate, eyes all over the place (wide and squinting) like a wild animal just caught, mouth slightly open to breathe; the line ends by 4.5 s so he looks up for 1.5 s at the end, scared. Big man reduced to two fists and at most a blurred sliver of hair. REQUEST S04-SH120-b quoted at 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T01 rated 3 (inferred from Leonard's \"it's ok\"). T02 prompt written with his notes (lower angle, people farther, a small pan, not symmetric): 32mm anamorphic from the asphalt, steep tilt, left facade at a diagonal with a wedge of sky, six watchers spread over five floors, slow small pan right to left easing to a stop. REQUEST S04-SH130-b quoted at 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH090-b approved (15 credits, 480p draft, 21:9, 5 s): S04 SH090 T02 b1cb13c9-fb34-4f01-b868-8498a027dcc6. He curls up behind his forearm, eyes glaring above the sleeve; the case reads unclearly after 1 s; mouth hidden. Sent to Leonard in chat."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH090 T02 loved (Leonard: love it). Shot approved."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard on S04 SH140 T01: the fat person should hold him with two hands; the friend less screaming, more questioning the big guy. REQUEST S04-SH140-b prepared, not submitted: prompts/001_S04_SH140_T02.txt (T01 plus: both hands on the lapels, both hands open on the release; the friend asks, normal volume, no arm fling, his own ACTING TASK; line punctuation '?' instead of '?!'). Same settings and elements as T01, seed 431679478 from T01. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH020-c done (2.75 credits, Leonard: ok go): T04 start still, GPT Image 2.6 high 2k edit of 2522297d, job 8453bc84-eea7-4455-a3a3-cedee6c02a3b, frames/001_S05_SH020_T04_start.png. Leonard: half the people, all in front of him. Claude's read: street, light, car and old man unchanged; nobody behind him; 11 people ahead (5 top, 4 bottom, 2 right edge), clean removal. The three on the bottom sidewalk stand at even intervals."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH030 T01, Leonard: almost there; two briefcases at the end; grouchy American accent needed. T02 prompt written (one briefcase rising in the same hand, accent line), same seed 1823186076, REQUEST S05-SH030-b quoted at 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH130-b approved and done (12 credits, 480p draft, 21:9, 4 s): S04 SH130 T02 d3dd7ed7-22eb-4920-947a-cb8c6a19a671, takes/S04/SH130/001_S04_SH130_T02.mp4. Lower, asymmetric, people farther; the pan came out bigger than asked. Unrated, waiting for Leonard."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH070-b approved (18 credits, 480p draft, 21:9, 6 s) and submitted: S05 SH070 T02 8e29c58e-c970-4bc2-aa0e-f55ef99951d9. Leonard on T01: he walks, the ground behind the phone instead of the street, a sweaty thumb the screen ignores so he repeats, the contact is \"Honeypot\" with no number, the encrypted version of the Apple UI ([ASSUMPTION] read as iPhone-style UI, no logo, padlock + \"Encrypted\")."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH090-b approved by Leonard (\"ok let's see\"; estimate 12 credits) and submitted: S05 SH090 T02 f1bc9f7b-7414-4bf8-a5cd-099a2d9c8c9f, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, folder S05/SH090."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH030-b approved (Leonard: \"ok go\"; 15 credits, 480p, 21:9, 5 s, seed 1823186076) and submitted: S05 SH030 T02 781d912b-558e-4df3-ae1b-18e313205c24, folder S05/SH030."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH120-b approved (Leonard: \"ok go\"; 18 credits, 480p, 21:9, 6 s) and done: S04 SH120 T02 a3384d72-8582-4ca4-a559-f8fa58b6e817, folder S04/SH120. Both fists on the collar, pleading smile, squints, a 1.6 s look up at the end; misses: opens already looking up, face rounder than the element, suit and tie drift, the big man's profile at the right edge."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH090 T02 downloaded (12 credits). Blood right; lens, background and fall unchanged from T01. Diagnosis: the high-rise boulevard is not in loc_side-street, most likely from palette_afternoon; the wide framing and the arms reaching out come from the motion clip."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T02 rated 4 (inferred from Leonard's \"very nice\"). T03 prompt written with his note (more people, a third recording on phones): video_edit of T02 d3dd7ed7, adding about twelve neighbors (about eighteen in all), six of them filming down with phones, everything else of T02 kept. REQUEST S04-SH130-c quoted at 15 credits (edit, billed on T02's 4.06 s); a fresh 4 s generation would be 12 but rerolls the framing. Waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH060 T02 rated 4 (inferred from Leonard's 'this works'). His note: the street corner must look like SH110/SH140. Place still refs/001_S04_SH060_street_from_SH140.jpg (frame 0 of S04 SH140 T01) uploaded to REFS (image 7afcbc84-04e8-49ae-a91a-c10f5e10dbe3). REQUEST S04-SH060-c prepared, not submitted: prompts/001_S04_SH060_T03.txt, seedance_2_5 video_edit of T02 7503a780, 480p, 21:9, audio on, background behind the big man only. get_cost 18 credits (a fresh 5 s take would be 15 but rerolls the performance)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH110 approved by Leonard (\"this works I love it\"): T01 rated 5 + love (inferred). The profile two-shot is the SH110 angle; SH140 reuses it."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH020-d done (12 credits): S05 SH020 T04 75cb835e, edited start still plus words, 480p draft, 21:9, 4 s. Photographic, street behind him empty; the crowd stays on the sidewalks instead of closing the street; he slows to near a walk."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH140-b approved by Leonard (\"go ahead with S04-SH140-b\"; estimate 12 credits) and submitted: S04 SH140 T02 de18257d-9e7a-4ffa-848b-acc74bbbef56, seed 431679478, same settings and elements as T01, folder S04/SH140. Fixed before submit, no cost change: the old man's OBSTACLE line says two hands, not a fist."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH130-c approved and done (15 credits, video_edit of T02, 480p): S04 SH130 T03 5f723cad-dff5-4f45-a1cf-400145c062c7, takes/S04/SH130/001_S04_SH130_T03.mp4. T02 kept, about 15 to 17 watchers, 3 to 4 phones readable at 480p. Unrated, waiting for Leonard."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH135-a approved by Leonard ('go ahead, and use sh120 as a reference'), 12 credits, submitted: job 2c289efe-bb5e-4806-9208-79303119142c, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S04/SH135. Added image 6: a frame at 1.5 s of S04 SH120 T02 (refs/001_S04_SH135_ref_SH120_T02.jpg, media 94b4d5ee, filed in REFS) for light, background and the two-fisted grip; prompt changed to two fists and the SH120 light (sun behind the old man, high screen left). [ASSUMPTION: 'sh120' means T02, the take with Leonard's two-hands direction.]"
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH030 T02 downloaded and recorded (job 781d912b, 15 credits). One briefcase throughout; crowd earlier and fuller. Voice for Leonard to judge."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH140 T02 done (de18257d, 12 credits, seed 431679478): open-handed release, no fist; the friend walks closer and asks with an open palm. Framed wider than T01, with a sharper street and parked cars. Waiting for Leonard's review."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH135 T01 in (job 2c289efe, 12 credits): takes/S04/SH135/001_S04_SH135_T01.mp4. Photographic, eyelines right, two-fisted grip released without violence by about 3 s; he steps back rather than sinks, a parked car at the end."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH070 T02 is not finalizable (sent without the draft flag). REQUEST S04-SH070-c approved by Leonard (31 credits, option A): T03 = video_edit of T02 at 720p with a change-nothing prompt (prompts/001_S04_SH070_T03.txt), job dcc02823-d24f-4714-85f8-60b269f1980a, folder S04/SH070. Leonard: this method usually comes out low resolution."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH120 T02, Leonard: try again with more teeth and struggle, as if he is suffering too. T03 prompt (prompts/001_S04_SH120_T03.txt): teeth-baring pleading smile in pain, neck straining against the fists, breath through clenched teeth; plus eyes level until 4.5 s (T02 opened already looking up) and the element's costume named. REQUEST S04-SH120-c quoted at 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-c approved by Leonard (\"go\"; get_cost 18 credits) and submitted: S04 SH060 T03 1e5c14ee-49bd-42d9-a49b-c8fb49ca2724, seedance_2_5 video_edit of T02 7503a780, 480p, 21:9, audio on, place still 7afcbc84, folder S04/SH060."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-c done (18 credits): S04 SH060 T03 in, edit of T02, file takes/S04/SH060/001_S04_SH060_T03.mp4. Performance kept; the sandy lot is now the street of SH110/SH140; the plain wall beside him also became a shopfront facade. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T03 loved (5, inferred from Leonard's \"love it\"), shot approved. Leonard asked for a 720p final. T03 is a 480p video_edit, not a draft job: draft finalize quotes 80 credits (suspect, matches the 1080p 5 s default) and may not apply. Options quoted: video_edit of T03 at 720p keeping everything, 31 credits; upscale of T03 (no cost preflight available). Waiting for Leonard's pick."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH140 T02 approved by Leonard ('works, nice', rating 4 inferred). What made it work: Leonard's two notes (two hands on the collar, the friend asks instead of shouting), the release written as both hands opening palms up, the friend's own ACTING TASK, the line punctuated '?' not '?!', text and elements only, T01's seed."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH135-b prepared, not submitted: prompts/001_S04_SH135_T02.txt. Leonard on T01: 'make him use his hands more struggle a bit more before he lets go, closer CU'. Changes: close-up framed as SH120 T02 (image 6 now also gives the framing), briefcase under his left arm so both hands pry the fists, one yank before the grip gives, no parked cars; line guide dropped (it holds the wider framing). seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, same six images. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard on S04 SH060 T03: 'sure this is fine' (rating 4, inferred). SH060 approved with T03 (480p edit of T02, 5 s). Total on SH060: 48 credits (T01 15, T02 15, T03 18)."
+    },
+    {
+      "date": "2026-11-18",
       "text": "REQUEST S04-SH100-a done (21 credits): S04 SH100 T01 in, 480p 7 s, file takes/S04/SH100/001_S04_SH100_T01.mp4. Photographic low angle, hard quiet stare, friend films then looks down at the phone at the end; fat man centered, not right half. Notes in shotlist.json. Awaiting Leonard's review."
     }
   ],

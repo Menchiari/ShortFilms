@@ -2996,7 +2996,7 @@
         },
         {
           "id": "SH060",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3050,9 +3050,33 @@
                 "guide v2 refs/001_S04_SH060_lines_d11_v2.mp4 8b375053 (video_references, big man erased before the impact)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH060-b, 480p (992x432), 5.06 s, audio present (mean -26.9 dB, peak -3.8 dB; not listened to). Claude's read from frames every 0.5 s and every 3 frames from 3.8 s: photoreal; he looks back from 0.5 s; the case comes up from his hand at about 3 s and is clutched to his chest by 3.8 s. The big man walks in from the right edge at about 3.5 s (later than T01's 3 s, still before the impact). Impact at about 4.2 s; the old man rebounds hard, head thrown back, and falls backward out of the bottom-left of frame by about 4.7 s, still holding the case. Final frame: the big man alone right of center, standing still. The street opens onto a sandy lot with hazy towers behind the big man. The walk cannot be judged from stills."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH060-b, 480p (992x432), 5.06 s, audio present (mean -26.9 dB, peak -3.8 dB; not listened to). Claude's read from frames every 0.5 s and every 3 frames from 3.8 s: photoreal; he looks back from 0.5 s; the case comes up from his hand at about 3 s and is clutched to his chest by 3.8 s. The big man walks in from the right edge at about 3.5 s (later than T01's 3 s, still before the impact). Impact at about 4.2 s; the old man rebounds hard, head thrown back, and falls backward out of the bottom-left of frame by about 4.7 s, still holding the case. Final frame: the big man alone right of center, standing still. The street opens onto a sandy lot with hazy towers behind the big man. The walk cannot be judged from stills. Leonard 2026-11-18: 'this works, but the corner of the street must look more like in shot 110 or 140' (behind the big man: the street with buildings, doorway, sidewalk and road, not an empty sandy lot). T03: video_edit of T02 changing only that background."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "1e5c14ee-49bd-42d9-a49b-c8fb49ca2724",
+              "prompt": "05-generation/prompts/001_S04_SH060_T03.txt",
+              "file": "05-generation/takes/S04/SH060/001_S04_SH060_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH060_T03.jpg",
+              "references": [
+                "edit of SH060 T02 (7503a780)",
+                "street still from S04 SH140 T01, refs/001_S04_SH060_street_from_SH140.jpg (7afcbc84)"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH060-c, 480p (992x432), 5.04 s, audio present (mean -27.3 dB, peak -2.6 dB; not listened to). Claude's read, frames 0, 48, 84, 96, 104, 110, 119 side by side with T02: the old man, the big man, the case, the timing, the impact and the fall match T02. Behind the big man the sandy lot is now a street: shuttered shops and barred doorways, sidewalk and curb, an asphalt road with markings at screen right, apartment blocks in the haze. The edit also changed the plain wall beside the old man from about 2 s into a facade with shutters and barred windows, so there is no wall corner any more: the facade runs on. The road at right is sunlit and brighter than T02. A small box or bin on the sidewalk at about 3.5 s; possible small parked vehicles far down the road at the end. Leonard 2026-11-18: 'sure this is fine.' Approved as the SH060 take."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
@@ -3203,7 +3227,7 @@
         },
         {
           "id": "SH090",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3231,6 +3255,33 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH090-a, 480p (992x432), 5.06 s, audio present (mean -31.8 dB). Leonard's direction before the take: closer, dismissive, a bit scared, 'piss off' attitude; prompt revised to a close-up, same references and settings as the approved quote. Claude's read from frames every 0.5 s (not listened to): photographic, nothing of the previz look. Straight top-down close-up, head and shoulders, head at the top of frame; body runs straight down, not on the diagonal. Right hand comes up at about 0.5 s and stays spread over his face to the end, mouth visible below the palm; the fingers cover his eyes, so the eye work (contempt, checking) does not read at this size. Briefcase at the left edge, larger and closer than asked. Dust on the suit, a frayed elbow on the right sleeve. A shadow lies above his head. Ground reads as packed sandy dirt with pebbles, not asphalt; he reads sunlit, not in shade. Loud audio only from about 1.8 s to 3.4 s: the line seems shorter than the 3 s it needs (I don't know whether every word is there). Leonard 2026-11-18: the briefcase must be on him, not beside his head; he looks like he just woke up from a nap, too calm; he must look caught, devil in his eyes, a wild fox planning his escape with guns pointed at him, using his shoulder to cover himself."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "b1cb13c9-fb34-4f01-b868-8498a027dcc6",
+              "prompt": "05-generation/prompts/001_S04_SH090_T02.txt",
+              "file": "05-generation/takes/S04/SH090/001_S04_SH090_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH090_T02.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "SH070 T02 last frame b4a4c0bd (refs/001_S04_SH070_T02_last.png)",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH090-b, 480p (992x432), 5.06 s, audio present (mean -27.4 dB, sound from about 0.4 s to 4.9 s; not listened to, I don't know if the full line is there). Changes from T01 (Leonard's notes): case on his chest from SH070 T02's last frame, he hides his face, agitated, a fox planning his escape; no guide clip, clean element as in SH070 T02. Claude's read from frames every 0.5 s: photographic. 0-0.5 s: on his back, head up off the ground, case on his chest, glaring up with an open mouth. By 1 s he curls up into a ball toward the camera: forearm across his nose and mouth, wristwatch hand at his cheek, eyes uncovered above the sleeve, narrowed and glaring up at the camera, holding through the end. The case is hard to read after 1 s (a dark shape under his arms, it may be his knees); his mouth is hidden by the sleeve, so lip sync does not show. Angle lower and more oblique than T01, the curb behind him on a diagonal. Shot sent to Leonard in chat. Leonard 2026-11-18: love it."
             }
           ],
           "description": "On the ground, the old man covers his face with his hand.",
@@ -3286,7 +3337,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3310,8 +3361,10 @@
                 "loc_side-street e728a9ae",
                 "palette_afternoon 3bf30eee"
               ],
-              "love": false,
-              "notes": "REQUEST S04-SH110-a, draft, no previz clip. Claude's read: photographic, 992x432, 5 s. The haul-up happens at about 0.5 to 1 s; eyelines right (old man screen left looking right, fat person screen right looking left). Framed as a close profile two-shot, not over the shoulder: the old man's face is in profile, not his back. His suit reads near black, no tie visible. The briefcase shows only as a dark corner with a metal clasp at the bottom of frame. Background street fairly sharp, not very soft. Audio continuous (no gap over 0.3 s); the spoken words not checked by ear."
+              "love": true,
+              "notes": "REQUEST S04-SH110-a, draft, no previz clip. Claude's read: photographic, 992x432, 5 s. The haul-up happens at about 0.5 to 1 s; eyelines right (old man screen left looking right, fat person screen right looking left). Framed as a close profile two-shot, not over the shoulder: the old man's face is in profile, not his back. His suit reads near black, no tie visible. The briefcase shows only as a dark corner with a metal clasp at the bottom of frame. Background street fairly sharp, not very soft. Audio continuous (no gap over 0.3 s); the spoken words not checked by ear. Leonard 2026-11-18: \"this works I love it\".",
+              "rating": 5,
+              "rating_source": "inferred"
             }
           ],
           "description": "The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.",
@@ -3351,9 +3404,36 @@
                 "no guide clip"
               ],
               "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH120-a, 480p (992x432), 6.08 s, audio present (mean -30 dB; not listened to). Prompt v2 with Leonard's eye direction. Claude's read from frames every 0.5 s and the last second at 6 fps: photographic, the old man matches the dusty element, backlit afternoon sun, soft facades behind. Acting: eyes down and away at the start, a small closed-mouth half smile around 1 s, a level look to screen right in the middle, a softer look after; the look up at the windows comes only in the last few frames (about 5.8 s), very short. Lips closed in the frames checked. Misses: the fat person is not a blurred sliver: the back of his head and ear fill the right third, dark and fairly sharp, very close to the old man; his hand at the collar reads small, holding the tie knot more than gripping the collar. Leonard 2026-11-18: 'absolutely not', way too calm; the man should hold him with both hands."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "a3384d72-8582-4ca4-a559-f8fa58b6e817",
+              "prompt": "05-generation/prompts/001_S04_SH120_T02.txt",
+              "file": "05-generation/takes/S04/SH120/001_S04_SH120_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH120_T02.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST S04-SH120-a, 480p (992x432), 6.08 s, audio present (mean -30 dB; not listened to). Prompt v2 with Leonard's eye direction. Claude's read from frames every 0.5 s and the last second at 6 fps: photographic, the old man matches the dusty element, backlit afternoon sun, soft facades behind. Acting: eyes down and away at the start, a small closed-mouth half smile around 1 s, a level look to screen right in the middle, a softer look after; the look up at the windows comes only in the last few frames (about 5.8 s), very short. Lips closed in the frames checked. Misses: the fat person is not a blurred sliver: the back of his head and ear fill the right third, dark and fairly sharp, very close to the old man; his hand at the collar reads small, holding the tie knot more than gripping the collar."
+              "notes": "REQUEST S04-SH120-b, 480p (992x432), 6.08 s, audio present (mean -29 dB; not listened to). Prompt T02 with Leonard's panic direction. Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: both fists twist the collar under his chin; the pleading half smile close to crying shows around 1-1.5 s; eyes move, a hard squint around 2.5 s, a wary sideways look around 3-4 s; from about 4.4 s to the end (about 1.6 s) he looks up, head tilted, mouth open, brows raised. Misses: the first frame already has him looking up with mouth open, so the look up happens twice; his face reads rounder and heavier than the dusty element; the suit reads like a black jacket over a turtleneck-like collar and the rust tie is gone; the big man's profile (nose, mustache, cheek) shows at the right edge, smaller than in T01 but more than a sliver. I did not check his lips frame by frame against the line."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
@@ -3368,7 +3448,7 @@
         },
         {
           "id": "SH130",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3390,8 +3470,56 @@
                 "palette_afternoon 3bf30eee (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S04-SH130-a, approved by Leonard 2026-11-18 after his direction (realistic, anamorphic, film, Garland-style near documentary, intimidating, everyone watching from above). Folder S04/SH130. Text + elements, no previz guide. Claude's read (frames 0, 48, 95): photographic, not 3D. Locked-off, no cuts, nothing enters or leaves. Six watchers, all there from frame 1: heavyset man in a grey undershirt and the woman in a pale headscarf on the lower left balcony, young man in a brown t-shirt in the center window, man in a white shirt on the lower right balcony, the old woman in a dark dress on an upper LEFT BALCONY (asked: a window), and a small figure on the upper right balcony (asked: a woman at a shutter). Upper center window empty and dark, one cable. Low angle up with mild convergence, warm haze, sun flare at top right and a blue horizontal anamorphic streak across the top third. Audio: quiet room tone (mean -43 dB); Claude cannot listen, check for music. The edit uses 2 s of the 4."
+              "rating": 3,
+              "notes": "REQUEST S04-SH130-a, approved by Leonard 2026-11-18 after his direction (realistic, anamorphic, film, Garland-style near documentary, intimidating, everyone watching from above). Folder S04/SH130. Text + elements, no previz guide. Claude's read (frames 0, 48, 95): photographic, not 3D. Locked-off, no cuts, nothing enters or leaves. Six watchers, all there from frame 1: heavyset man in a grey undershirt and the woman in a pale headscarf on the lower left balcony, young man in a brown t-shirt in the center window, man in a white shirt on the lower right balcony, the old woman in a dark dress on an upper LEFT BALCONY (asked: a window), and a small figure on the upper right balcony (asked: a woman at a shutter). Upper center window empty and dark, one cable. Low angle up with mild convergence, warm haze, sun flare at top right and a blue horizontal anamorphic streak across the top third. Audio: quiet room tone (mean -43 dB); Claude cannot listen, check for music. The edit uses 2 s of the 4. Leonard 2026-11-18: \"it's ok, but maybe have the angle a bit lower, people a bit more far away, and have the camera pan around a bit, not so symmetric\".",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d3dd7ed7-22eb-4920-947a-cb8c6a19a671",
+              "prompt": "05-generation/prompts/001_S04_SH130_T02.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH130_T02.jpg",
+              "references": [
+                "loc_side-street e728a9ae (image_references)",
+                "palette_afternoon 3bf30eee (image_references)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "REQUEST S04-SH130-b, approved by Leonard 2026-11-18. Folder S04/SH130. Changes from T01, all from Leonard's note: lower angle, people farther, a small pan, asymmetric. Claude's read (frames 0, 24, 48, 72, 95): photographic, no cuts. Low angle up, asymmetric: the left facade at a diagonal fills the left half, a hazy sky with the cable fills most of the right half (asked: a narrow wedge), far buildings low in frame. The pan is continuous and bigger than asked (about a quarter of the frame, not one window): the woman on the building across at the right edge is in frame only at the start, and the man in the white shirt on the top balcony comes into frame during the pan. The heavyset man, the woman in the headscarf and the young man stand together on one balcony (asked: the young man at a separate window); one older person at a lower window. People smaller than T01. Sun flare and a pink-blue anamorphic streak mid-frame. Audio: quiet room tone (mean -42.5 dB); Claude cannot listen, check for music. Leonard 2026-11-18: \"very nice, now more people and a third of them recording with their phones\".",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "5f723cad-dff5-4f45-a1cf-400145c062c7",
+              "prompt": "05-generation/prompts/001_S04_SH130_T03.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH130_T03.jpg",
+              "references": [
+                "T02 d3dd7ed7 (video_references, edit source)"
+              ],
+              "love": true,
+              "rating": 5,
+              "notes": "REQUEST S04-SH130-c, approved by Leonard 2026-11-18: video_edit of T02 d3dd7ed7 (his note: more people, a third recording with phones). Folder S04/SH130. The request echo listed T02 under reference_images, but the result is an edit of T02. Claude's read (frames 0, 48, 95): T02's framing, pan, light, flare and sky kept. About 15 to 17 people visible per frame (was 6), mostly added on the left facade: a fourth man on the crowded balcony, people on the balconies above and below, figures on the top floors against the sky, two on the building at the right edge. The far buildings stay almost empty. Phones: at 480p Claude can make out about three to four dark phones held up (on the crowded balcony and the balcony below it), not clearly six. People are small; phones read as a gesture more than as objects. Audio: quiet room tone (mean -42.9 dB); Claude cannot listen, check for music. Leonard 2026-11-18: \"love it, finalize it at 720p\".",
+              "rating_source": "inferred"
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
@@ -3406,8 +3534,37 @@
         },
         {
           "id": "SH135",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "2c289efe-bb5e-4806-9208-79303119142c",
+              "prompt": "05-generation/prompts/001_S04_SH135_T01.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T01.jpg",
+              "references": [
+                "char_big-guy 6228445b",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "S04 SH120 T02 frame 1.5 s 94b4d5ee",
+                "video: refs_d11 S04_SH135 line drawing, held to 4 s, ed1d884b"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH135-a, 480p (992x432), 4.06 s, audio present (mean -40 dB, peak -20 dB; not listened to). Leonard: 'go ahead, and use sh120 as a reference' (T02 frame used). Claude's read from frames every 0.5 s and frames 12, 54, 66, 96: photographic, nothing of the previz look. Over the fat person's right shoulder, old man screen left facing right: eyelines match SH110 to SH140. Light and street match SH120 T02 (backlit hazy sun high screen left, face in soft bounce). Both fists twist his collar to about 2.3 s; the hands loosen and one drops past the briefcase around 2.5 to 2.8 s; from about 3 s he stands free, the briefcase hugged flat to his chest, tie and stained shirt visible. No shove, no blow. Misses: the release reads as him stepping back out of the grip more than sinking; he ends further from the camera (waist-up, smaller) instead of half a step left; the fat person's face shows in partial profile, his hair short and dark rather than the element's curls; a dark parked car appears in the background at the end; the briefcase is not visible during the grip (0 to 2 s). The nods and the eye work were not checked frame by frame."
+            }
+          ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
           "framing": "OVER THE SHOULDER of the fat person, on the old man",
           "movement": "Handheld",
@@ -3420,7 +3577,7 @@
         },
         {
           "id": "SH140",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3448,7 +3605,36 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST S04-SH140-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH140. Claude's read (frames every 0.125-0.25 s and audio levels, not listened to): photographic, nothing of the previz look; the fat person matches char_big-guy, the old man reads as char_politician_dusty (thinning hair, charcoal jacket). Eyelines right: old man screen left facing right, fat person screen right facing left. The old man sinks and slides down and out of the bottom left by about 1.75 s, no shove, no blow. Off from the prompt: the fat person's hand stays a closed fist, raised beside the old man's head while he ducks under it (1.25-2 s): it can read as a threat, not a release. The old man's face shows in profile while he ducks. The friend (olive shirt, jeans, phone) walks forward and from about 2.75 s flings his arm out to screen right, the wrong way (the old man ran screen left). Briefcase only glimpsed low in frame at 0-0.5 s, reads as a black hard case. Small round red street sign far right, no readable text. Audio quiet to 2.5 s (about -44 dB), louder 2.5-4 s (about -24 to -28 dB), consistent with the shouted line; not verified by ear."
+              "notes": "REQUEST S04-SH140-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH140. Claude's read (frames every 0.125-0.25 s and audio levels, not listened to): photographic, nothing of the previz look; the fat person matches char_big-guy, the old man reads as char_politician_dusty (thinning hair, charcoal jacket). Eyelines right: old man screen left facing right, fat person screen right facing left. The old man sinks and slides down and out of the bottom left by about 1.75 s, no shove, no blow. Off from the prompt: the fat person's hand stays a closed fist, raised beside the old man's head while he ducks under it (1.25-2 s): it can read as a threat, not a release. The old man's face shows in profile while he ducks. The friend (olive shirt, jeans, phone) walks forward and from about 2.75 s flings his arm out to screen right, the wrong way (the old man ran screen left). Briefcase only glimpsed low in frame at 0-0.5 s, reads as a black hard case. Small round red street sign far right, no readable text. Audio quiet to 2.5 s (about -44 dB), louder 2.5-4 s (about -24 to -28 dB), consistent with the shouted line; not verified by ear. Seed 431679478."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "de18257d-9e7a-4ffa-848b-acc74bbbef56",
+              "prompt": "05-generation/prompts/001_S04_SH140_T02.txt",
+              "file": "05-generation/takes/S04/SH140/001_S04_SH140_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH140_T02.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip",
+                "seed 431679478 (T01's)"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH140-b, 480p (992x432), 4.06 s. Leonard's notes on T01: two hands on the collar; the friend questions the big guy instead of screaming. Claude's read (frames every 0.25 s and audio levels, not listened to): framed wider than T01 (medium, not close) and the street behind is sharper, with parked cars down the street. The fat person hauls the jacket collar up to the old man's chin; one gripping hand is clearly visible, the second is not readable in the frames. The old man sinks into the jacket and drops out of the bottom left at about 2 s; his cheek and ear show in profile. Release: both hands open, palms up, held out toward where he went (about 1.75-2.5 s), then lowered: no fist, nothing reads as a blow. The friend walks forward from the deep background to the mid-ground and opens one hand palm up at his side (3-4 s); no pointing. Audio quiet to 3 s (about -38 to -45 dB), about -27.5 dB at 3-4 s, a little quieter than T01's peak (-24 dB); the line's delivery not verified by ear. Leonard 2026-11-18: 'works, nice.' Approved as the SH140 take."
             }
           ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
@@ -3560,6 +3746,29 @@
                 "palette_afternoon 3bf30eee"
               ],
               "notes": "REQUEST S05-SH020-b, draft, Leonard approved 12 credits (\"try again\"). Folder S05/SH020. Earlier tests T01, T02 in the old test project (stories/politician/tests). Start still: GPT Image 2.6 job 2522297d (2.75 credits, REQUEST S05-SH020-a, frames/001_S05_SH020_T03_start.png), layout from animatic d11 frame 0; no video reference (Leonard: the previz animation is wrong, the positions work). Claude's read: frame 0 matches the still; photographic, no CG look. High oblique angle (Leonard: the angle works). The old man runs from the left quarter to the center with the case, uneven. People walk off the top sidewalk and out of the side street and doorways, at different moments and speeds, on their own lines; at the end the street holds about 30 people spread around him. The bottom sidewalk mostly stays put, so the ring closes from the top and the ends more than from below. He ends at center, not right of center. Audio not yet checked by ear."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 14.75,
+              "job_id": "75cb835e-66dd-4703-b468-1dabe34a0ee2",
+              "prompt": "05-generation/prompts/001_S05_SH020_T04.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T04.jpg",
+              "references": [
+                "start_image 8453bc84 (GPT Image 2.6 edit of 2522297d)",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "notes": "REQUEST S05-SH020-d, draft, Leonard approved 12 credits (\"ok let's do it\"). Folder S05/SH020. Start still: GPT Image 2.6 edit 8453bc84 (2.75 credits, REQUEST S05-SH020-c, frames/001_S05_SH020_T04_start.png): Leonard, half the people, all in front of him. Claude's read: frame 0 matches the still; photographic; the street behind him stays empty. The people turn toward him and shift, step and drift on the sidewalks, each differently, but almost nobody steps into the street ahead of him: no line forms across the street. The old man covers only about a quarter of the frame in 4 s (x 23% to 45%) and slows from a run to near a walk by the end. One extra man appears in the bottom-right roof opening (12 at the end, not 11). Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
@@ -3599,9 +3808,36 @@
                 "animatic d11 motion-only S05_SH030 39372293 (video_references)"
               ],
               "love": false,
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH030-a (Leonard: approved, go). Folder S05/SH030. Seed 1823186076, draft false, 992x432 24 fps 5.06 s. Motion clip confirmed in the job as role video. Claude's read: photoreal, no previz look. Phone to his right ear at about 1 s, briefcase in his left hand, at about 3.5 s the case clamped to his chest and he thumbs the phone: as directed. Misses: framing is a medium shot (waist up), not close; the background is sharp, not soft; the crowd only appears at about 4 s as a small far group, the street never fills; parked cars and a covered car stand in the street. Words of the line not verified by ear (speech energy at about 1.3 to 2.6 s). Leonard: almost there; at the end he has two briefcases; he needs a grouchy American accent, not what he speaks. T02 fixes those two, same seed."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "781d912b-558e-4df3-ae1b-18e313205c24",
+              "prompt": "05-generation/prompts/001_S05_SH030_T02.txt",
+              "file": "05-generation/takes/S05/SH030/001_S05_SH030_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH030_T02.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 motion-only S05_SH030 39372293 (video_references)"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST S05-SH030-a (Leonard: approved, go). Folder S05/SH030. Seed 1823186076, draft false, 992x432 24 fps 5.06 s. Motion clip confirmed in the job as role video. Claude's read: photoreal, no previz look. Phone to his right ear at about 1 s, briefcase in his left hand, at about 3.5 s the case clamped to his chest and he thumbs the phone: as directed. Misses: framing is a medium shot (waist up), not close; the background is sharp, not soft; the crowd only appears at about 4 s as a small far group, the street never fills; parked cars and a covered car stand in the street. Words of the line not verified by ear (speech energy at about 1.3 to 2.6 s)."
+              "notes": "REQUEST S05-SH030-b (Leonard: ok go). Folder S05/SH030. Seed 1823186076 (same as T01), T01 prompt plus two fixes: one briefcase rising in the same hand, gruff grouchy American voice. Claude's read from stills: one briefcase in every frame, at his left side, then held upright against his chest while he thumbs the phone. The crowd shows from about 1.5 s and grows; the background slightly softer than T01; still a medium shot and parked cars. Voice not verified by ear (speech energy at about 1.2 to 1.9 s)."
             }
           ],
           "description": "He runs. Behind him, soft and growing, the street fills with people coming his way. He pulls out his phone and presses it to his ear, running.",
@@ -3642,6 +3878,31 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH070-a, draft, passed first submission, about 25 minutes in the queue. 992x432, 4.06 s, 24 fps. Claude's read from frames: old dusty hand and charcoal sleeve with white cuff match; afternoon palette right, blurred street with people behind. Lock screen reads 4:17; the thumb goes at the lock screen twice before it opens (whether the first try reads as a failure: I don't know from stills). Contact screen with a grey placeholder and the number, then the calling screen: 045 731 2289 spelled exactly. Against the prompt: the phone sits upper left at an angle, not centered; it looks like an older iPhone with a home button and iOS-style call screen, no logo visible; small garbled text in the status bar, under the number and on the call buttons; the status bar clock differs from 4:17. Audio not listened to (mean -40.8 dB)."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "8e29c58e-c970-4bc2-aa0e-f55ef99951d9",
+              "prompt": "05-generation/prompts/001_S05_SH070_T02.txt",
+              "file": "05-generation/takes/S05/SH070/001_S05_SH070_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH070_T02.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e (hand, sleeve)",
+                "palette_afternoon 3bf30eee",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH070-b, draft, passed first submission, about 18 minutes in the queue. 992x432, 6.08 s, 24 fps. Leonard's T01 notes applied: walking, the ground behind, a lagging screen, Honeypot, encrypted UI ([ASSUMPTION] iPhone-style, no logo, padlock + Encrypted). Claude's read from frames: over-the-shoulder looking down, sandy asphalt behind, his shoes and shadows pass below: the walk reads. About 3 s of repeated thumb attempts on the 4:17 lock screen, then a call screen: grey placeholder, Honeypot, padlock, Encrypted, green button tapped several times, then red end button and Calling. No number. Text readable at 480p; the y of Honeypot is slightly malformed in the last frame. His out-of-focus head fills the right edge. The sleeve reads grey-olive with a light cuff, less charcoal than the element. Modern notch-style phone, no logo seen. Audio not listened to."
             }
           ],
           "description": "His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.",
@@ -3723,6 +3984,34 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH090-a. Draft (finalizable at 720p within 7 days). Output 992x432, 24 fps, 4.04 s, audio present (not listened to by Claude). Claude's read: angle, timing and end state follow the motion clip: he lands at about 0.3 s, the case slams down right of his head at about 0.6-1 s, bounces, lands upright and open; sheets fly up and off to the right from 1.5 s to the end, many separate paths, some flip and glide, a few skid on the ground. Impact: he dives in with his arms out and slides on his chest and face in a burst of dust: fast, but he partly catches himself, not dead weight. Blood smeared across most of his face, more than the eyebrow. Asphalt: grit and small stones visible but not razor sharp at 480p; the ground strip is thin. Background wrong: a wide boulevard with high-rise towers at the end and trees, a big city, not the side street; the prompt forbade trees. Many sheets stay stuck upright in the case. Sheet size reads smaller than A4 next to him in some frames."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f1bc9f7b-7414-4bf8-a5cd-099a2d9c8c9f",
+              "prompt": "05-generation/prompts/001_S05_SH090_T02.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T02.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_dusty 98e1e69e",
+                "bond sheet fa669df1",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "refs_d11_motion S05_SH090 28d3d598 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-b. Draft. Changes from T01: char_politician_dusty with blood in words, long anamorphic lens and shallow focus, narrow street, limp arms. Claude's read: blood right: a thin stream from the right eyebrow across the eye, face otherwise dusty. Lens NOT changed: framing and depth of field almost identical to T01, background still sharp-ish. Background still the same high-rise boulevard with the same tower and trees as T01; loc_side-street (checked) is a narrow street, so the boulevard most likely comes from the palette_afternoon image (not viewable from here). Fall: he lands on his hands and slides, again not dead weight; the previz figure also reaches forward, likely the cause. Case lands flat, then the lid opens upright; fewer sheets fly than in T01, sheets read closer to A4. Asphalt: cracks, grit and small stones clear."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
