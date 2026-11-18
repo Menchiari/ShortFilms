@@ -3001,7 +3001,7 @@
         },
         {
           "id": "SH110",
-          "status": "in_progress",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
