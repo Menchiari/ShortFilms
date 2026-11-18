@@ -4159,6 +4159,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH090-b. Draft. Changes from T01: char_politician_dusty with blood in words, long anamorphic lens and shallow focus, narrow street, limp arms. Claude's read: blood right: a thin stream from the right eyebrow across the eye, face otherwise dusty. Lens NOT changed: framing and depth of field almost identical to T01, background still sharp-ish. Background still the same high-rise boulevard with the same tower and trees as T01; loc_side-street (checked) is a narrow street, so the boulevard most likely comes from the palette_afternoon image (not viewable from here). Fall: he lands on his hands and slides, again not dead weight; the previz figure also reaches forward, likely the cause. Case lands flat, then the lid opens upright; fewer sheets fly than in T01, sheets read closer to A4. Asphalt: cracks, grit and small stones clear."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "22e0a8ee-6f1d-446d-abb6-48c42b7f9991",
+              "prompt": "05-generation/prompts/001_S05_SH090_T03.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T03.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_dusty 98e1e69e",
+                "bond sheet fa669df1",
+                "loc_side-street e728a9ae",
+                "refs/001_S05_SH090_motion_d11_tight.mp4 eeadc9a1 (video_references, cropped refs_d11_motion S05_SH090)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-c. Draft. Changes from T02: Leonard's acting notes (case opens on impact, arm forward, conscious, fights to get up from the ground), palette_afternoon dropped, motion guide cropped tighter. Claude's read: background now the narrow side street with shutters, soft, shallow focus, long-lens look: the high-rise boulevard is gone (palette dropped and crop changed together, so the cause is not isolated). Asphalt grit and small stones sharp in the focus plane, long hard sun shadows. Case lands and is open at once, settles upright. Right arm forward. From about 1.7 s he lifts his head and chest, eyes forward to screen right, reaches and claws with the right hand, stays down; the fury reads as strain, not clearly as 'no'. Papers wrong: few, small, banknote-sized, not A4 sheets; the case is nearly empty after the burst. Blood: three gash lines across the right brow and temple more than a stream."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
