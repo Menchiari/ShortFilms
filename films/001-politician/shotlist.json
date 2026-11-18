@@ -1489,6 +1489,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "Leonard approved 2026-11-18 (go T03). No video reference. Claude's read: the car stays dead straight, grille to the lens, both headlights visible throughout; it stops close and its dust swallows the frame. But the place is wrong: it is inside a city street lined with tall buildings and a few palms, not the open edge of town of T01 (palms were banned in the prompt)."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "draft": true,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "60eaa6da-c21a-44ed-83ef-da878d32ddf1",
+              "seed": 1832073846,
+              "prompt": "05-generation/prompts/001_S02_SH080_T04_v2.txt",
+              "file": "05-generation/takes/S02/SH080/001_S02_SH080_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH080_T04.jpg",
+              "references": [
+                "prop_car 42787b78"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "Leonard approved 2026-11-18 (go T04). Palette image dropped (it is a city street and caused T03's city). Claude's read: empty desert only, the car dead straight head-on the whole way, stops close, dust swallows the frame. Weaker than T01: the skid throws less dust at the wheels and the final cloud reads more as haze than a rolling wave."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
