@@ -156,7 +156,8 @@
       "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
       "S04/SH040": "21642846-4d02-4194-ab47-76dd557a0d21",
       "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947",
-      "S05": "e5f1beec-b90d-4286-8c78-6cfb75d2f775"
+      "S05": "e5f1beec-b90d-4286-8c78-6cfb75d2f775",
+      "S05/SH120": "3865bb40-82b6-4a55-bcd0-2a7d928dd9b5"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -644,6 +645,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 020 approved (12 credits, 480p draft, 21:9, 4 s): S02 SH100 T06 58f37c4a-4d65-4e92-ba45-e3f5a35be3f5, start frame loc_town-edge cropped on the gap. The town is right; the forward travel is only 8%, too little for a vertigo effect."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH120-a approved (12 credits, 480p draft, 21:9, 4 s): S05 SH120 T01 e5840d30-5dd7-4019-a33c-30d832e5a807, elements only (blood sheet updated to 0d0a5637). Folder S05/SH120 3865bb40-82b6-4a55-bcd0-2a7d928dd9b5. Photographic street; the wound likely on the wrong side."
     }
   ],
   "story_sync": {
