@@ -2996,7 +2996,7 @@
         },
         {
           "id": "SH060",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3074,9 +3074,9 @@
                 "street still from S04 SH140 T01, refs/001_S04_SH060_street_from_SH140.jpg (7afcbc84)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH060-c, 480p (992x432), 5.04 s, audio present (mean -27.3 dB, peak -2.6 dB; not listened to). Claude's read, frames 0, 48, 84, 96, 104, 110, 119 side by side with T02: the old man, the big man, the case, the timing, the impact and the fall match T02. Behind the big man the sandy lot is now a street: shuttered shops and barred doorways, sidewalk and curb, an asphalt road with markings at screen right, apartment blocks in the haze. The edit also changed the plain wall beside the old man from about 2 s into a facade with shutters and barred windows, so there is no wall corner any more: the facade runs on. The road at right is sunlit and brighter than T02. A small box or bin on the sidewalk at about 3.5 s; possible small parked vehicles far down the road at the end."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH060-c, 480p (992x432), 5.04 s, audio present (mean -27.3 dB, peak -2.6 dB; not listened to). Claude's read, frames 0, 48, 84, 96, 104, 110, 119 side by side with T02: the old man, the big man, the case, the timing, the impact and the fall match T02. Behind the big man the sandy lot is now a street: shuttered shops and barred doorways, sidewalk and curb, an asphalt road with markings at screen right, apartment blocks in the haze. The edit also changed the plain wall beside the old man from about 2 s into a facade with shutters and barred windows, so there is no wall corner any more: the facade runs on. The road at right is sunlit and brighter than T02. A small box or bin on the sidewalk at about 3.5 s; possible small parked vehicles far down the road at the end. Leonard 2026-11-18: 'sure this is fine.' Approved as the SH060 take."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
