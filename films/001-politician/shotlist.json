@@ -1237,6 +1237,31 @@
               "love": false,
               "rating": null,
               "notes": "First submission 0e6ff473 blocked by the filter (nsfw), refunded; resubmitted unchanged with Leonard's go-ahead and passed: the blocks are at least partly random. Draft, seed 99420740, 992x432, 24 fps, 4.04 s. Claude's read: right direction. Empty road to the towers and the gap, the car enters from the top edge from behind the camera, its underside and wheels pass over once, it lands rear first and drives away toward the gap, tail lights to us, dust trail. Grit flecks on the lens after the pass. Shake: skyline moves up to about 6 px (1.5% of frame height) for about half a second after the pass, then settles: visible but smaller than the tenth asked. The road is a dirt track, not asphalt."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "54517fdc-e1f9-4f73-8335-49b030cfcee3",
+              "prompt": "05-generation/prompts/001_S02_SH050_T05.txt",
+              "file": "05-generation/takes/S02/SH050/001_S02_SH050_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "line guide cdcd9efc (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "First send refused by the rate limit (429, no job). Passed first submission. Draft, seed 1413101057, 992x432, 24 fps, 4.04 s. Claude's read: ground level worked (gravel fills the bottom of frame), the car comes from behind, one pass, lands and drives off. Scale worse than T04: the words 'about 60 m away, as tall as half a tower' were ignored; the car shrinks to a speck at the foot of the skyline by 3 s and is gone by 3.5 s. The town is again the far skyline of the loc_town-edge image, not the close wall of the d11 clip. Usable to about 2.3 s."
             }
           ],
           "description": "The town on the horizon. The car hits a bump and tears over the camera, wheels off the ground for an instant.",
