@@ -2258,6 +2258,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S04-SH040-b, 720p (1470x630), 4.06 s, audio present (mean -39.5 dB; not listened to). Claude's read from frames 0, 32, 50, 64, 75, 96: the T01 composition and backlight held (corner bar left, him down the right half of the road over the crosswalk, long shadows toward camera, dust glowing). Briefcase in his right hand at his side, arm swinging; the case reads as a boxy dark hard case. He walks upright, chest out, firm stride, left arm swinging. About frame 75 he turns his head toward the men (the prompt said eyes only, no head turn), then faces front again by frame 96. Men match the T02 description: Man 1 grey hair, pale blue shirt; Man 2 shaved head, olive shirt, tea glass; Man 3 short beard, brown shirt. A teal object next to Man 2, possibly a fourth chair (I don't know). One parked car at the right edge."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "57cf471d-833a-4ba1-aefc-7bc7a36fa87c",
+              "prompt": "05-generation/prompts/001_S04_SH040_T03.txt",
+              "file": "05-generation/takes/S04/SH040/001_S04_SH040_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH040-c, 720p (1470x630), 5.06 s, audio present (mean -38.9 dB; not listened to). Claude's read from frames 0, 24, 36, 48, 60, 72, 84, 96, 100, 119 and face crops: the handover works: case in his right hand to about 1 s, held in front of his belt at 2 s, in his left hand from about 3 s to the end, one case throughout. Backlight, dust and street held. Changes from T02: the camera sits closer to the bar, the men are bigger and Man 2 has his back to the camera (the prompt said facing it); he comes closer, ending cut at mid-thigh, not a full figure. Eye work: at about 3.5 s he turns his head toward the men for a nervous look (the prompt said eyes only), then looks down and away; in the last frame his face is turned toward screen left, not screen right. Right hand at his belt near the end. Parked cars far down the street."
             }
           ],
           "description": "Across the street, outside a small bar, three men sit on plastic chairs in the shade of an awning, talking low. He passes on the far sidewalk, head down.",
