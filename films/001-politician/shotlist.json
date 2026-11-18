@@ -3025,6 +3025,34 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH060-a, 480p (992x432), 5.06 s, audio present (mean -27.3 dB, peak -2.1 dB; not listened to). Claude's read from frames every 0.5 s: photoreal, no previz look; identity matches char_politician. 0 to 1 s camera behind his left shoulder, he turns his head back; 1 to 3.5 s he looks back almost straight into the lens; the case comes up into both arms at about 3 s and stays clutched to his chest to the end. The big man is visible from about 3 s, walking toward him down the open street (the guide's timing, not 'from nowhere'). Impact at about 4.3 s, soft: the old man's head tips back, he is pushed back a step, the big man stands still. Final frame: old man screen left looking right and up, big man screen right looking left and down. The big man reads stocky and muscular more than fat. Leonard 2026-11-18: agrees the big man shows too early and the impact is too soft: he must bounce off and fall back (SH070 opens with him on the ground); the look into the lens is irrelevant; the big man's build is fine; the hurried walk looks a bit funny, make it more realistic. T02."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "7503a780-2897-4e7a-b0a7-590f4f65280f",
+              "prompt": "05-generation/prompts/001_S04_SH060_T02.txt",
+              "file": "05-generation/takes/S04/SH060/001_S04_SH060_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "char_big-guy 6228445b",
+                "palette_afternoon 3bf30eee",
+                "guide v2 refs/001_S04_SH060_lines_d11_v2.mp4 8b375053 (video_references, big man erased before the impact)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH060-b, 480p (992x432), 5.06 s, audio present (mean -26.9 dB, peak -3.8 dB; not listened to). Claude's read from frames every 0.5 s and every 3 frames from 3.8 s: photoreal; he looks back from 0.5 s; the case comes up from his hand at about 3 s and is clutched to his chest by 3.8 s. The big man walks in from the right edge at about 3.5 s (later than T01's 3 s, still before the impact). Impact at about 4.2 s; the old man rebounds hard, head thrown back, and falls backward out of the bottom-left of frame by about 4.7 s, still holding the case. Final frame: the big man alone right of center, standing still. The street opens onto a sandy lot with hazy towers behind the big man. The walk cannot be judged from stills."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
