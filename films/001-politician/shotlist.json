@@ -4526,7 +4526,7 @@
         },
         {
           "id": "SH120",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -4549,8 +4549,9 @@
                 "loc_side-street e728a9ae"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S05-SH120-a, folder S05/SH120. Elements only, named in the prompt (@char_politician_blood, @prop_briefcase, @loc_side-street); no palette image, no previz guide. Passed first submission. Draft, 992x432, 24 fps, 4.06 s. Claude's read (frames, not heard; audio peak -13.5 dB): photographic, real low-rise street, hazy backlight from screen right, no cars, no towers. Starts on his hands and knees (not flat on his chest), head over the open case at screen right; the case reads right: black hard case, lid up, cream A4 certificates with an ornate border, a few sheets on the ground. He rises bent forward, turns his head to the men coming from screen right, ends half upright in the left third. Against the prompt: the blood is on the side of his face toward camera while he faces screen right, which most likely makes it his left side, not the right eyebrow; three gash lines across temple and cheek instead of one stream; the crowd is about ten men only, white shirts, closer and sharper than asked; a backward step is not clear from the frames; blue TV glow in two windows."
+              "rating": 4,
+              "notes": "REQUEST S05-SH120-a, folder S05/SH120. Elements only, named in the prompt (@char_politician_blood, @prop_briefcase, @loc_side-street); no palette image, no previz guide. Passed first submission. Draft, 992x432, 24 fps, 4.06 s. Claude's read (frames, not heard; audio peak -13.5 dB): photographic, real low-rise street, hazy backlight from screen right, no cars, no towers. Starts on his hands and knees (not flat on his chest), head over the open case at screen right; the case reads right: black hard case, lid up, cream A4 certificates with an ornate border, a few sheets on the ground. He rises bent forward, turns his head to the men coming from screen right, ends half upright in the left third. Against the prompt: the blood is on the side of his face toward camera while he faces screen right, which most likely makes it his left side, not the right eyebrow; three gash lines across temple and cheek instead of one stream; the crowd is about ten men only, white shirts, closer and sharper than asked; a backward step is not clear from the frames; blue TV glow in two windows. Leonard 2026-11-18: \"this works\" (rating inferred 4). Approved as the SH120 take.",
+              "rating_source": "inferred"
             }
           ],
           "description": "He gets up from the asphalt. Blood runs down his face. He looks at the open case, then at the people coming, and backs away from it.",
