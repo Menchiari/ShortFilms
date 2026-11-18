@@ -1812,9 +1812,9 @@
                 "start frame: loc_town-edge 146470dd cropped 1.6x on the gap (0308330d, frames/001_S02_SH100_T06_start.jpg)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 020, draft. Plan: real forward travel from Seedance, zoom out in post. Claude's read: photographic town, one gap, the street visible through it. Measured: the gap grows only 8% in 4 s (tracked scale 1.000 to 1.081), asked for 2x: the camera barely travels against a town about a kilometer away, so a post zoom out would show almost no vertigo. A dashboard edge sits at the bottom for the first second, against the prompt. Frame 0 is a re-rendering of the start frame, slightly wider."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 020, draft. Plan: real forward travel from Seedance, zoom out in post. Claude's read: photographic town, one gap, the street visible through it. Measured: the gap grows only 8% in 4 s (tracked scale 1.000 to 1.081), asked for 2x: the camera barely travels against a town about a kilometer away, so a post zoom out would show almost no vertigo. A dashboard edge sits at the bottom for the first second, against the prompt. Frame 0 is a re-rendering of the start frame, slightly wider. Leonard 2026-11-18: 'I like this shot too, but this is not the vertigo effect shot I'm looking for.'"
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
