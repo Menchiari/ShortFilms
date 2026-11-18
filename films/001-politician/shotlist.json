@@ -1815,6 +1815,30 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST 020, draft. Plan: real forward travel from Seedance, zoom out in post. Claude's read: photographic town, one gap, the street visible through it. Measured: the gap grows only 8% in 4 s (tracked scale 1.000 to 1.081), asked for 2x: the camera barely travels against a town about a kilometer away, so a post zoom out would show almost no vertigo. A dashboard edge sits at the bottom for the first second, against the prompt. Frame 0 is a re-rendering of the start frame, slightly wider. Leonard 2026-11-18: 'I like this shot too, but this is not the vertigo effect shot I'm looking for.'"
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 13.5,
+              "job_id": "dae97c29-a5f3-44fc-a740-9d2da7adcfe8",
+              "prompt": "05-generation/prompts/001_S02_SH100_T07.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T07.jpg",
+              "references": [
+                "start frame: REQUEST 021 image 460fac61 (gpt_image_2_6 high 1k, edit of animatic d11 frame 0 with loc_town-edge 146470dd and loc_main-street c30451ef; frames/001_S02_SH100_T07_start.png, prompt 001_S02_SH100_T07_start.txt)",
+                "animatic d11 S02_SH100 line-drawing guide e625c859 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUESTS 021 (image, 1.5) + 021b (video, 12). Claude's read: photographic street, the T02 camera move. Measured (tracked scale of the center of frame, frame 0 to 96): 0.354; T02 0.350: the far street shrinks to 35% while the near facades grow and lean in, the same vertigo as T02. Faults: most lamp posts, the traffic lights, the signs and most parked cars are gone by the last frame; no entrance read (no desert road, no outer-wall towers), the start image itself came out as a plain street; frame 0 is a re-render of the start frame, camera lower."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
