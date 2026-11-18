@@ -3446,6 +3446,28 @@
               "rating": 4,
               "notes": "REQUEST S04-SH130-b, approved by Leonard 2026-11-18. Folder S04/SH130. Changes from T01, all from Leonard's note: lower angle, people farther, a small pan, asymmetric. Claude's read (frames 0, 24, 48, 72, 95): photographic, no cuts. Low angle up, asymmetric: the left facade at a diagonal fills the left half, a hazy sky with the cable fills most of the right half (asked: a narrow wedge), far buildings low in frame. The pan is continuous and bigger than asked (about a quarter of the frame, not one window): the woman on the building across at the right edge is in frame only at the start, and the man in the white shirt on the top balcony comes into frame during the pan. The heavyset man, the woman in the headscarf and the young man stand together on one balcony (asked: the young man at a separate window); one older person at a lower window. People smaller than T01. Sun flare and a pink-blue anamorphic streak mid-frame. Audio: quiet room tone (mean -42.5 dB); Claude cannot listen, check for music. Leonard 2026-11-18: \"very nice, now more people and a third of them recording with their phones\".",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "5f723cad-dff5-4f45-a1cf-400145c062c7",
+              "prompt": "05-generation/prompts/001_S04_SH130_T03.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T02 d3dd7ed7 (video_references, edit source)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH130-c, approved by Leonard 2026-11-18: video_edit of T02 d3dd7ed7 (his note: more people, a third recording with phones). Folder S04/SH130. The request echo listed T02 under reference_images, but the result is an edit of T02. Claude's read (frames 0, 48, 95): T02's framing, pan, light, flare and sky kept. About 15 to 17 people visible per frame (was 6), mostly added on the left facade: a fourth man on the crowded balcony, people on the balconies above and below, figures on the top floors against the sky, two on the building at the right edge. The far buildings stay almost empty. Phones: at 480p Claude can make out about three to four dark phones held up (on the crowded balcony and the balcony below it), not clearly six. People are small; phones read as a gesture more than as objects. Audio: quiet room tone (mean -42.9 dB); Claude cannot listen, check for music."
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
