@@ -1773,6 +1773,29 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 020f, 480p without the draft flag. 992x432, 8.06 s. Claude's read (frames every 0.5 s, not heard): the framing shifts between frames (his head moves around in frame, the frame edges change), so the camera does move; mouth open in several frames from about 2 s to 6 s; the slam lunge at about 6 s. Leonard: better, but he still talks too much. T05: the whispered line removed, silent until the angry line at 6 s."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 56.0,
+              "job_id": "f616f4c2-c15c-4dba-be97-49a435ad7421",
+              "prompt": "05-generation/prompts/001_S03_SH020_T05.txt",
+              "file": "05-generation/takes/S03/SH020/001_S03_SH020_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "Leonard's start frame v3 at full resolution 1244x532 (eb99a51a, start_image, in REFS): 05-generation/frames/001_S03_SH020_T05_start_720.jpg"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 020g, 720p (1470x630), 8.06 s, 2.5 MB. Claude's read (frames every 0.5 s and audio levels, not heard): lips pressed shut with a working jaw and grimace from 0 to about 6 s; audio quiet until about 4.8 s; mouth opens on the angry line around 6.5 s; loudest 6 to 7 s; quiet tail from 7.2 s. The handheld framing shifts frame to frame."
             }
           ],
           "description": "He drives hunched over the wheel, eyes locked on the road, sweat running into his collar. He glances at the briefcase.",
