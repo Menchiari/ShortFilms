@@ -1042,6 +1042,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH070 T02 is not finalizable (sent without the draft flag). REQUEST S04-SH070-c approved by Leonard (31 credits, option A): T03 = video_edit of T02 at 720p with a change-nothing prompt (prompts/001_S04_SH070_T03.txt), job dcc02823-d24f-4714-85f8-60b269f1980a, folder S04/SH070. Leonard: this method usually comes out low resolution."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH140 T02 approved by Leonard ('works, nice', rating 4 inferred). What made it work: Leonard's two notes (two hands on the collar, the friend asks instead of shouting), the release written as both hands opening palms up, the friend's own ACTING TASK, the line punctuated '?' not '?!', text and elements only, T01's seed."
     }
   ],
   "story_sync": {
