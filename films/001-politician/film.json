@@ -1254,6 +1254,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH090-g approved by Leonard (\"do it\"; estimate 12 credits) and submitted: S05 SH090 T07 93b77990-c583-4ccc-9d8f-5e9e56d817bd, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, folder S05/SH090."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH135: T01 to T04 prompts used the old naming ('Image 1'), copied from the S03 SH010 template; PROMPTING.md changed the rule on 2026-11-18 (e2da6bb) and this session did not re-read it. REQUEST S04-SH135-d is now prompts/001_S04_SH135_T04_v2.txt: @char_big-guy (@Image1), @char_politician_dusty (@Image2), @prop_briefcase (@Image3), @loc_side-street (@Image4), @Image5 palette, @Image6 SH120 T02 frame for light, street and color only (no longer the grip). Element image ids in medias as before. Estimate 12 credits."
     }
   ],
   "story_sync": {
