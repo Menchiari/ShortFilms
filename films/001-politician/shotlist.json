@@ -3125,6 +3125,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH090-e. Draft. Changes from T04: Leonard's bond image, impact at 0.8 s with the lid open at once, no parked cars. Claude's read: the case leaves his hand, hits at about 0.8 s and is already opening on the bounce: the opening is fixed. Contents worse: green banknote bricks inside, green dollar bills flying, clearly cash. Parked cars still in the background. Acting: he lifts his head, eyes on the case, reaches toward it with the right hand; stays down. Blood stream from the right brow."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a79557f0-9243-4ff7-8cd5-8bb36c6742f5",
+              "prompt": "05-generation/prompts/001_S05_SH090_T06.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T06.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_dusty 98e1e69e",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg)",
+                "loc_side-street e728a9ae",
+                "refs/001_S05_SH090_motion_d11_tight.mp4 eeadc9a1 (video_references, named @Video1)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-f. Draft. Rewritten prompt after the review: half the length, no money words, the sheet described physically (printer-paper size, as long as his forearm, a flat stack like a legal document), the struggle as pushing up with the hands always on the ground, guide clip named @Video1. Claude's read: papers fixed: cream sheets, large, inside the case a flat stack with green borders, dozens fly up and out of frame, some skid on the ground, no cash anywhere. The case leaves his hand as he dives in, hits at about 0.7 s and bursts open on impact with sheets already flying. Movement: from about 2 s he pushes up on both arms, chest off the ground, arms straight, then collapses back to the asphalt: hands always on the ground, no reaching. His eyes stay forward on the street and the case, not up at the sheets in the sky. Wound reads as three diagonal gashes on the right temple, not a stream from the eyebrow. Background: narrow street of shuttered buildings, softer but not as shallow as T03-T05; three or four parked cars (loc_side-street itself shows two parked cars, likely the source)."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
