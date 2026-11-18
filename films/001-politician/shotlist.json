@@ -3274,8 +3274,36 @@
         },
         {
           "id": "SH120",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "11873110-feda-444a-85a0-1c9ed5d8b89f",
+              "prompt": "05-generation/prompts/001_S04_SH120_T01_v2.txt",
+              "file": "05-generation/takes/S04/SH120/001_S04_SH120_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH120_T01.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH120-a, 480p (992x432), 6.08 s, audio present (mean -30 dB; not listened to). Prompt v2 with Leonard's eye direction. Claude's read from frames every 0.5 s and the last second at 6 fps: photographic, the old man matches the dusty element, backlit afternoon sun, soft facades behind. Acting: eyes down and away at the start, a small closed-mouth half smile around 1 s, a level look to screen right in the middle, a softer look after; the look up at the windows comes only in the last few frames (about 5.8 s), very short. Lips closed in the frames checked. Misses: the fat person is not a blurred sliver: the back of his head and ear fill the right third, dark and fairly sharp, very close to the old man; his hand at the collar reads small, holding the tie knot more than gripping the collar."
+            }
+          ],
           "description": "The old man, face to face with him, says nothing.",
           "framing": "CLOSE, the old man",
           "movement": "Handheld, tight",
