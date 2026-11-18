@@ -2007,6 +2007,31 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear. Leonard 2026-11-18: this shot works; not fully convinced by the street, maybe some cars: a modified still for post (he adds it in post)."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "ed3de9c1-8328-4118-bd84-d384ad284a43",
+              "prompt": "05-generation/prompts/001_S03_SH050_T02.txt",
+              "file": "05-generation/takes/S03/SH050/001_S03_SH050_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH050_T02.jpg",
+              "references": [
+                "extension forward of SH050 T01 (c6a30881)",
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST 050g. Returns only the new 4 s (96 frames, 1470x630), cut after T01's last frame. Claude's read (frames and levels, not heard): the join with T01 holds; he walks up and left into the depth of the crossroads, the case held high against his chest and shoulder; the camera, car, open door and smoker hold. Defect: from about frame 93 (3.9 s) he vanishes and the door is closed; use frames 0-92 (3.875 s). Audio mean -35 dB."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",

@@ -571,6 +571,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH040-b approved by Leonard (\"approved, go with S04-SH040-b\"; get_cost 28 credits) and submitted: S04 SH040 T02 5690ab22-697e-4cfd-8c52-6b2eba28276b, seedance_2_5 omni_reference, 720p, 21:9, 4 s, audio on, no draft flag, char_politician, prop_briefcase, loc_side-street, palette_afternoon."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050g done (28 credits): S03 SH050 T02 in (4 s extension), file takes/S03/SH050/001_S03_SH050_T02.mp4. Last 3 frames broken (he vanishes, door closes): usable to 3.875 s."
     }
   ],
   "story_sync": {
