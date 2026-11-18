@@ -3848,7 +3848,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3895,9 +3895,9 @@
                 "palette_afternoon 3bf30eee",
                 "no video reference"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
               "notes": "REQUEST S05-SH070-b, draft, passed first submission, about 18 minutes in the queue. 992x432, 6.08 s, 24 fps. Leonard's T01 notes applied: walking, the ground behind, a lagging screen, Honeypot, encrypted UI ([ASSUMPTION] iPhone-style, no logo, padlock + Encrypted). Claude's read from frames: over-the-shoulder looking down, sandy asphalt behind, his shoes and shadows pass below: the walk reads. About 3 s of repeated thumb attempts on the 4:17 lock screen, then a call screen: grey placeholder, Honeypot, padlock, Encrypted, green button tapped several times, then red end button and Calling. No number. Text readable at 480p; the y of Honeypot is slightly malformed in the last frame. His out-of-focus head fills the right edge. The sleeve reads grey-olive with a light cuff, less charcoal than the element. Modern notch-style phone, no logo seen. Audio not listened to."
             }
           ],
