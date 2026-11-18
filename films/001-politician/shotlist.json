@@ -3550,7 +3550,7 @@
         },
         {
           "id": "SH140",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3605,9 +3605,9 @@
                 "seed 431679478 (T01's)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH140-b, 480p (992x432), 4.06 s. Leonard's notes on T01: two hands on the collar; the friend questions the big guy instead of screaming. Claude's read (frames every 0.25 s and audio levels, not listened to): framed wider than T01 (medium, not close) and the street behind is sharper, with parked cars down the street. The fat person hauls the jacket collar up to the old man's chin; one gripping hand is clearly visible, the second is not readable in the frames. The old man sinks into the jacket and drops out of the bottom left at about 2 s; his cheek and ear show in profile. Release: both hands open, palms up, held out toward where he went (about 1.75-2.5 s), then lowered: no fist, nothing reads as a blow. The friend walks forward from the deep background to the mid-ground and opens one hand palm up at his side (3-4 s); no pointing. Audio quiet to 3 s (about -38 to -45 dB), about -27.5 dB at 3-4 s, a little quieter than T01's peak (-24 dB); the line's delivery not verified by ear."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH140-b, 480p (992x432), 4.06 s. Leonard's notes on T01: two hands on the collar; the friend questions the big guy instead of screaming. Claude's read (frames every 0.25 s and audio levels, not listened to): framed wider than T01 (medium, not close) and the street behind is sharper, with parked cars down the street. The fat person hauls the jacket collar up to the old man's chin; one gripping hand is clearly visible, the second is not readable in the frames. The old man sinks into the jacket and drops out of the bottom left at about 2 s; his cheek and ear show in profile. Release: both hands open, palms up, held out toward where he went (about 1.75-2.5 s), then lowered: no fist, nothing reads as a blow. The friend walks forward from the deep background to the mid-ground and opens one hand palm up at his side (3-4 s); no pointing. Audio quiet to 3 s (about -38 to -45 dB), about -27.5 dB at 3-4 s, a little quieter than T01's peak (-24 dB); the line's delivery not verified by ear. Leonard 2026-11-18: 'works, nice.' Approved as the SH140 take."
             }
           ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
