@@ -727,6 +727,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH090-a prepared, not submitted: prompts/001_S04_SH090_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on. Images: char_politician_dusty 98e1e69e, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref 877cb2aa (refs/001_S04_SH090_lines.mp4, line drawing of refs_d11 S04_SH090, filed in REFS). [ASSUMPTION] the dark blob next to him in the d11 clip is the fat person's shadow: written as his shadow, he stays out of frame. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH120: Higgsfield folder S04/SH120 5e489526 created. T01 prompt written (prompts/001_S04_SH120_T01.txt), text + elements, no guide clip: the d11 clip is a static close whose frame is filled by the faceted head, a line drawing of it would hand the model polygon edges on the face; words hold the framing. Images: char_politician_dusty 98e1e69e, char_big-guy 6228445b (his fist on the collar and a blurred edge of his head are in frame), loc_side-street e728a9ae, palette_afternoon 3bf30eee. REQUEST S04-SH120-a quoted at 18 credits (seedance_2_5, 480p, 21:9, 6 s, audio on), waiting for approval."
     }
   ],
   "story_sync": {
