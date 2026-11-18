@@ -31,6 +31,8 @@ Plain English prose. Settings (duration, resolution, aspect, audio flag) never g
      `@loc_corridor (@Image2): space and light only, empty of people.`
    - In the body use only the `@char_` / `@prop_` / `@loc_` names. Name the character before
      each action. Say who holds each prop.
+   - Template: `films/001-politician/05-generation/prompts/001_S05_SH120_T01_v5.txt`. Prompts
+     before 2026-11-18 use the old naming: never copy them.
 3. **One sentence:** who, where, what happens, in the film's style, with which camera.
 4. **Timeline in whole seconds, no gaps:**
    `0-3s: medium shot, eye level. Camera: dolly slowly in, stop on a medium close-up.
