@@ -3,6 +3,15 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-18, Politician S02 SH100 T02 and T03 (24 credits)
+
+- **What:** Leonard: "the city doesn't look realistic, street signs everything is wrong". No lamp posts, lane lines,
+  traffic lights, signs, sidewalks or parked cars; storefronts sit on a dirt road; identical towers repeat to infinity.
+- **Cause:** the prompt carried none of the street rules ("Nobody in the street", furniture only named as "only" for
+  image 2), and the guide clip is the d11 animatic street, which has no furniture: the model took the layout from it.
+- **Rule:** a guide clip of a street that lacks the street rules is not used. Start from the location image that
+  carries them (start frame) and describe the camera in words.
+
 ## 2026-11-17, Politician S01 SH020 T03 to T06 (70.75 credits for one 2 s shot)
 
 - **What:** four takes. T03 edited the old take into an LED sign Leonard never asked for; T04 held still; T05 put the
@@ -19,6 +28,16 @@ the rule that prevents it. Newest first.
 - **Cause:** I wrote the second half as a hold ("keeps his hand on it, looks at the sign") to land on the end still.
 - **Rule (Leonard):** "beautiful, interesting, or both" does not cover a shot where nothing happens and the frame is
   not breathtaking. Every second of a shot carries an action, unless the image itself is breathtaking.
+## 2026-11-17/18, "a branch for each shot" (no credits)
+
+- **What:** Leonard asked for a conversation branch per shot. I first queued suggestion cards for separate sessions, then
+  told him twice that I cannot create conversation branches, while his sidebar showed other sessions doing exactly that.
+- **Cause:** I read "branch" as a git branch or an app feature for forking a chat, and never connected it to
+  `create_session`, which opens a child conversation nested under the current one. I answered from an assumption instead
+  of checking what he could see.
+- **Rule:** a conversation branch is a child session made with `create_session` from the current session (titled
+  "Scene N - SHxxx", with a self-contained brief). When a word has two readings, check the user's evidence before acting.
+
 ## 2026-11-17, Politician S02 prompt files emptied (no credits)
 
 - **What:** my script emptied 001_S02_SH120_T01.txt and 001_S02_SH200_T01.txt in commit 7e1d0d8, and the REQUEST 018 table
@@ -138,3 +157,12 @@ the rule that prevents it. Newest first.
 - **Cause:** the list was written before draft 8 (2026-11-15 06:15) and edited after it (21:17)
   without being checked against it. Draft 8 moved the chase to a square.
 - **Rule:** after every new draft, recheck the asset list against the screenplay, scene by scene.
+
+## 2026-11-18 001 S02 SH010 T06: angle not changed, tripod in frame (28 credits)
+
+- **What:** asked for eye height with start frame v1 as an image reference. The take kept the reference's
+  camera height exactly, and a camera tripod stands on the road for the whole shot.
+- **Cause:** a Seedance image reference of a whole scene locks its composition like a start frame; the
+  prompt text cannot move the camera against it. "Locked-off on a tripod" was drawn as an object.
+- **Rule:** a new angle needs a new image at that angle (from Leonard's pipeline). Never write "tripod" in a
+  prompt: write "static camera".
