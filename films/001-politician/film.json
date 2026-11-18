@@ -1078,6 +1078,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH030 T02 loved (Leonard). T01 and T02 were submitted without draft: true, against the every-take-as-draft rule, so no finalize. 720p options quoted: regenerate same seed 35 credits, video_edit of T02 38 credits, upscale (no preflight). Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH130 option A approved and done (31 credits, video_edit of T03 at 720p): S04 SH130 T04 5f039c86-6333-4aac-a5d4-96c922236202, takes/S04/SH130/001_S04_SH130_T04.mp4, 1458x634. Matches T03, slightly crisper. SH130 total spent: 70 credits. Lesson: submit likely keepers with draft true so a 720p finalize of the same take is possible."
     }
   ],
   "story_sync": {
