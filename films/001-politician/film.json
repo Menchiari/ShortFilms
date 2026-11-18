@@ -818,6 +818,14 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH050 T01 flipped horizontally on Leonard's note (takes/S04/SH050/001_S04_SH050_T01_flip.mp4). REQUEST S04-SH050-b prepared, not submitted: prompts/001_S04_SH050_T02.txt, backward extension (4 s, 480p, audio on) of the flipped T01 cut from 1.75 s (refs/001_S04_SH050_T01_flip_from1.75s.mp4, upload 8facbda6, filed in REFS): the old man crosses the foreground fast right to left, then the flipped T01 plays and Man 2 looks after him to screen left. Images: char_politician a7601ce4, prop_briefcase 4bf36cb5. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-a approved by Leonard (\"go\"; get_cost 15 credits) and submitted: S04 SH060 T01 4dd2d3d9-329d-40a9-9b20-8d25fea8914f, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, folder S04/SH060, char_politician, prop_briefcase, loc_side-street, char_big-guy, palette_afternoon, line guide 9fc85eee."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH060-a done (15 credits): S04 SH060 T01 in, 480p 5 s, file takes/S04/SH060/001_S04_SH060_T01.mp4. Photoreal; briefcase from hand to chest at 3 s works; the big man is visible from about 3 s instead of only at the impact; the impact is soft. Notes in shotlist.json."
     }
   ],
   "story_sync": {

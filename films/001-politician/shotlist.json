@@ -2947,8 +2947,37 @@
         },
         {
           "id": "SH060",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "4dd2d3d9-329d-40a9-9b20-8d25fea8914f",
+              "prompt": "05-generation/prompts/001_S04_SH060_T01.txt",
+              "file": "05-generation/takes/S04/SH060/001_S04_SH060_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "char_big-guy 6228445b",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 S04_SH060 line-drawing guide 9fc85eee (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH060-a, 480p (992x432), 5.06 s, audio present (mean -27.3 dB, peak -2.1 dB; not listened to). Claude's read from frames every 0.5 s: photoreal, no previz look; identity matches char_politician. 0 to 1 s camera behind his left shoulder, he turns his head back; 1 to 3.5 s he looks back almost straight into the lens; the case comes up into both arms at about 3 s and stays clutched to his chest to the end. The big man is visible from about 3 s, walking toward him down the open street (the guide's timing, not 'from nowhere'). Impact at about 4.3 s, soft: the old man's head tips back, he is pushed back a step, the big man stands still. Final frame: old man screen left looking right and up, big man screen right looking left and down. The big man reads stocky and muscular more than fat."
+            }
+          ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
           "framing": "CLOSE",
           "movement": "Handheld, tracking beside him",
