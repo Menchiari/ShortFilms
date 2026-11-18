@@ -3122,8 +3122,36 @@
         },
         {
           "id": "SH090",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "a0b96647-7fb8-4e13-b432-6f5fe758a452",
+              "prompt": "05-generation/prompts/001_S04_SH090_T01.txt",
+              "file": "05-generation/takes/S04/SH090/001_S04_SH090_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH090_T01.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "line guide 877cb2aa (refs/001_S04_SH090_lines.mp4)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH090-a, 480p (992x432), 5.06 s, audio present (mean -31.8 dB). Leonard's direction before the take: closer, dismissive, a bit scared, 'piss off' attitude; prompt revised to a close-up, same references and settings as the approved quote. Claude's read from frames every 0.5 s (not listened to): photographic, nothing of the previz look. Straight top-down close-up, head and shoulders, head at the top of frame; body runs straight down, not on the diagonal. Right hand comes up at about 0.5 s and stays spread over his face to the end, mouth visible below the palm; the fingers cover his eyes, so the eye work (contempt, checking) does not read at this size. Briefcase at the left edge, larger and closer than asked. Dust on the suit, a frayed elbow on the right sleeve. A shadow lies above his head. Ground reads as packed sandy dirt with pebbles, not asphalt; he reads sunlit, not in shade. Loud audio only from about 1.8 s to 3.4 s: the line seems shorter than the 3 s it needs (I don't know whether every word is there)."
+            }
+          ],
           "description": "On the ground, the old man covers his face with his hand.",
           "framing": "HIGH, looking down on him",
           "movement": "Handheld",
