@@ -1038,6 +1038,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH135 T01 in (job 2c289efe, 12 credits): takes/S04/SH135/001_S04_SH135_T01.mp4. Photographic, eyelines right, two-fisted grip released without violence by about 3 s; he steps back rather than sinks, a parked car at the end."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH070 T02 is not finalizable (sent without the draft flag). REQUEST S04-SH070-c approved by Leonard (31 credits, option A): T03 = video_edit of T02 at 720p with a change-nothing prompt (prompts/001_S04_SH070_T03.txt), job dcc02823-d24f-4714-85f8-60b269f1980a, folder S04/SH070. Leonard: this method usually comes out low resolution."
     }
   ],
   "story_sync": {
