@@ -1006,6 +1006,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH060 T02 rated 4 (inferred from Leonard's 'this works'). His note: the street corner must look like SH110/SH140. Place still refs/001_S04_SH060_street_from_SH140.jpg (frame 0 of S04 SH140 T01) uploaded to REFS (image 7afcbc84-04e8-49ae-a91a-c10f5e10dbe3). REQUEST S04-SH060-c prepared, not submitted: prompts/001_S04_SH060_T03.txt, seedance_2_5 video_edit of T02 7503a780, 480p, 21:9, audio on, background behind the big man only. get_cost 18 credits (a fresh 5 s take would be 15 but rerolls the performance)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH110 approved by Leonard (\"this works I love it\"): T01 rated 5 + love (inferred). The profile two-shot is the SH110 angle; SH140 reuses it."
     }
   ],
   "story_sync": {
