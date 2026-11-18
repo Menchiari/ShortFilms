@@ -413,6 +413,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050g approved (28 credits, 720p, 4 s, audio on) and submitted: S03 SH050 T02 = T01 extended forward, job ed3de9c1-8328-4118-bd84-d384ad284a43, he hugs the briefcase to his chest (Leonard). Prompt 05-generation/prompts/001_S03_SH050_T02.txt."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050g done (28 credits): S03 SH050 T02 in (4 s extension), file takes/S03/SH050/001_S03_SH050_T02.mp4. Last 3 frames broken (he vanishes, door closes): usable to 3.875 s."
     }
   ],
   "story_sync": {
