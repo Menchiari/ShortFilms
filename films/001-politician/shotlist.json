@@ -1860,6 +1860,31 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST 018b, draft. Claude's read: The car rolls away down the main street and gets small. Lighting photographic; the facades are clean and repetitive, a little rendered. Leonard 2026-11-18: \"atrocious\". At full resolution the car is the animatic's open box placeholder, not the sedan; facades copy the animatic boxes; no street furniture. Next: no reference video."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "f89eae0c-58ea-4829-8c4d-4909152208bd",
+              "prompt": "05-generation/prompts/001_S02_SH200_T02.txt",
+              "file": "05-generation/takes/S02/SH200/001_S02_SH200_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH200_T02.jpg",
+              "references": [
+                "loc_main-street c30451ef",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Approved by Leonard 2026-11-18 (\"go T02\"). No reference video. Draft, seed 313531424. Claude's read: photographic, no previz look; real sedan, street rules all present (curbs, lamps, lane lines, lights, signs, parked cars). The street copies the loc_main-street image almost frame for frame, framing included; no tower corners framing a gap. The car rises into frame from below the lens at 0s, then rolls away and gets small; it reads dusty grey in the sun, not clearly black; a row of letters on the trunk lid (not readable at 480p). Sun low on the left, behind the towers, as written."
             }
           ],
           "description": "The car rolls through the gap and into the only street. The town swallows it.",
