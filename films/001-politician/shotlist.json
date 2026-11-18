@@ -1983,8 +1983,32 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "0a9ca05d-f614-466f-89b0-d712a9527857",
+              "prompt": "05-generation/prompts/001_S04_SH020_T01.txt",
+              "file": "05-generation/takes/S04/SH020/001_S04_SH020_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH020_T01.jpg",
+              "references": [
+                "loc_side-street image e728a9ae-4623-423a-b70a-2537058db407 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S04-SH020-a, 480p (992x432), 4.06 s, 1.4 MB. Claude's read (frames every 0.25 s and audio levels, not heard): 0-1.5 s walking POV down the sidewalk, the bead curtain doorway on the left wall; 1.5-2.5 s pan left, the curtain fills frame, heavy motion blur on the beads, sway not readable from stills; 2.5-3.2 s whip past a dark window with a blue TV glow; 3.2-4 s back to the street ahead. No people. Far parked cars, cafe chairs and a no-entry sign remain small in the background. Audio steady, about -36 to -42 dB RMS."
+            }
+          ],
           "description": "A doorway. A bead curtain sways.",
           "framing": "POV",
           "movement": "Handheld",

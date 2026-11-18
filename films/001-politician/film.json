@@ -531,6 +531,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard on S04 SH040 T01: 'I like this, and I like the cinematography style here' (rating 4, inferred). Inputs behind it: no previz clip, loc_side-street for surfaces, palette_afternoon for color and light, the motivated-sun lighting paragraph, the look line, the realism paragraph (Leonard's 'not blocky' note), locked-off long lens. The backlit sun was the model's choice: the prompt asked for screen right."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH020-a done (12 credits): S04 SH020 T01 in, 480p 4 s, job 0a9ca05d-f614-466f-89b0-d712a9527857."
     }
   ],
   "story_sync": {
