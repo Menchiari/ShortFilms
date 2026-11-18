@@ -3046,9 +3046,9 @@
               "poster": "05-generation/web/001_S05_SH110_T02.jpg",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH110-b. Folder S05/SH110. Passed first submission. Leonard: the shot as a film, no reference; the bonds A4 size. Claude's read: photoreal side street, one continuous take (no scene cut detected). The hero sheet passes the lens at 1.3-2.0 s and reads PUBLIC IMPROVEMENT BOND and $500,000 at 1.7 s; the layout is not the Franklin design (no reference). Everyone is a man in a similar grey shirt; the sheets high against the sky look small (distance or scale: not judged)."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH110-b. Folder S05/SH110. Passed first submission. Leonard: the shot as a film, no reference; the bonds A4 size. Claude's read: photoreal side street, one continuous take (no scene cut detected). The hero sheet passes the lens at 1.3-2.0 s and reads PUBLIC IMPROVEMENT BOND and $500,000 at 1.7 s; the layout is not the Franklin design (no reference). Everyone is a man in a similar grey shirt; the sheets high against the sky look small (distance or scale: not judged). Leonard 2026-11-18: good, except the 500k sheet must look like the Franklin bond (ref_bond_element_v8)."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
