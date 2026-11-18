@@ -607,6 +607,10 @@
     {
       "date": "2026-11-18",
       "text": "S02 SH050: T01 (6cb55640) and T02 (7e324cfe) filter blocks refunded (28, 12). T03 (71b11a84, 12 credits) passed with neutral wording, same references: car came head-on from the town, pass doubled, shake 1-2 px. T04 (0e6ff473, car from behind, hard jolt) blocked by the filter (nsfw), 12 refunded 10:43 UTC."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH010-b approved by Leonard (\"go\"; estimate 35 credits) and submitted: S04 SH010 T02 7324fcf6-d06a-4ec4-b4ae-02d35dbfc875, seedance_2_5 video_extension forward of T01 (1d9dc729), 720p, 5 s, audio on, plus char_politician, prop_briefcase, loc_side-street. [ASSUMPTION] 'puts down the briefcase' read as lowering it to carry by the handle. The job echo lists T01 under reference_images."
     }
   ],
   "story_sync": {
