@@ -1,5 +1,6 @@
-S03 SH050 start frame v5, REQUEST 050e (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+S03 SH050 start frame v5, REQUEST 050e, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
 Same prompt as 050d with one change: the 050c frame (image 4) is removed; it set the composition in 050d. The man is in words only.
+Result: job 1310a61e-df17-4e20-a90c-1c1426b367d0, 1.5 credits.
 Images: 1 = guide frame 0 of animatic d11 (media 19a2dd38), 2 = loc_crossroads (a5b52222), 3 = prop_car (42787b78).
 
 Prompt:
