@@ -1742,7 +1742,7 @@
         },
         {
           "id": "SH050",
-          "status": "generated",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
