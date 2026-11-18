@@ -150,7 +150,8 @@
       "S03/SH010": "b1c49662-6de6-4e71-b6d6-e7284a86ea82",
       "S03/SH040": "7797dab3-43ac-4dff-92e2-6339e8a1ecfb",
       "S03/SH030": "76a40ddf-96a0-483a-bf70-9f2be034cba8",
-      "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b"
+      "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b",
+      "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -470,6 +471,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050c approved (1.5 credits): S03 SH050 start frame v3, gpt_image_2_6 high 1k 21:9, job e4433f6c-738b-40d8-b6e6-03accea073d7, edit of 050b with guide frame and prop_car: railing only at the corner of his balcony, in perspective; car turned to face the upper-left street (Leonard's notes). Files frames/001_S03_SH050_T01_start_v3_src.png and _start_v3.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04 created (722dee3f-a951-4c54-b5d3-6b5b42c1c480). S04 hub ready; one session per shot."
     }
   ],
   "story_sync": {
