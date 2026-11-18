@@ -673,6 +673,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH030 T02 downloaded and recorded (job 781d912b, 15 credits). One briefcase throughout; crowd earlier and fuller. Voice for Leonard to judge."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH030 T02 loved (Leonard). T01 and T02 were submitted without draft: true, against the every-take-as-draft rule, so no finalize. 720p options quoted: regenerate same seed 35 credits, video_edit of T02 38 credits, upscale (no preflight). Waiting for Leonard."
     }
   ],
   "story_sync": {
