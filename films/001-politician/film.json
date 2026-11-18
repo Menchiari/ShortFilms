@@ -681,6 +681,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard chose B (new 720p generation) with a change: he passes some people who start from behind the camera. T03 prompt written (three townspeople from behind the camera, he passes between them at 1-2 s). REQUEST S05-SH030-c quoted at 35 credits, waiting for approval of this exact request."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH030-c approved (Leonard: \"ok go\"; 35 credits, 720p final, 21:9, 5 s, seed 1823186076) and submitted: S05 SH030 T03 6057f946-86a2-4e3d-95d1-8a819690d1b3, folder S05/SH030."
     }
   ],
   "story_sync": {
