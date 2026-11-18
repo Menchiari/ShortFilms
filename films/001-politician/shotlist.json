@@ -3600,9 +3600,9 @@
                 "animatic d11 motion-only S05_SH030 39372293 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH030-a (Leonard: approved, go). Folder S05/SH030. Seed 1823186076, draft false, 992x432 24 fps 5.06 s. Motion clip confirmed in the job as role video. Claude's read: photoreal, no previz look. Phone to his right ear at about 1 s, briefcase in his left hand, at about 3.5 s the case clamped to his chest and he thumbs the phone: as directed. Misses: framing is a medium shot (waist up), not close; the background is sharp, not soft; the crowd only appears at about 4 s as a small far group, the street never fills; parked cars and a covered car stand in the street. Words of the line not verified by ear (speech energy at about 1.3 to 2.6 s)."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH030-a (Leonard: approved, go). Folder S05/SH030. Seed 1823186076, draft false, 992x432 24 fps 5.06 s. Motion clip confirmed in the job as role video. Claude's read: photoreal, no previz look. Phone to his right ear at about 1 s, briefcase in his left hand, at about 3.5 s the case clamped to his chest and he thumbs the phone: as directed. Misses: framing is a medium shot (waist up), not close; the background is sharp, not soft; the crowd only appears at about 4 s as a small far group, the street never fills; parked cars and a covered car stand in the street. Words of the line not verified by ear (speech energy at about 1.3 to 2.6 s). Leonard: almost there; at the end he has two briefcases; he needs a grouchy American accent, not what he speaks. T02 fixes those two, same seed."
             }
           ],
           "description": "He runs. Behind him, soft and growing, the street fills with people coming his way. He pulls out his phone and presses it to his ear, running.",
