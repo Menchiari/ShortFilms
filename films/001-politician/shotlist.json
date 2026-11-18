@@ -4166,6 +4166,34 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S05-SH080-a, 480p draft (992x432), 6.08 s, audio present. Claude's read from frames: 0-4.4 s photoreal, phone at his right ear, crowd soft behind, strong running shake. Impact at frame 111-113 (about 4.65 s), real time: the rock enters from screen left and is on screen about 4 frames, then bounces up and away with red flecks; audio peak at 4.70-4.75 s lines up with contact. Weak: the rock smears across his forehead instead of stopping hard on the outer corner of the right eyebrow; no visible skin tear at this resolution, a red cut shows near his eye once he is down; the head goes back, not sideways; the briefcase reads teal/blue plastic while swinging (4.3-4.8 s), dark on the ground. Fall and camera drop to the ground work, final frame on his back with the case beside him."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "698a37df-ff75-434e-a5de-104a737f8aec",
+              "prompt": "05-generation/prompts/001_S05_SH080_T02.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 motion-only S05_SH080 0922d8bb (video_references)",
+                "voice from S03 SH020 T03 2.0-7.4 s 8cd83ab3 (audio_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-b, 720p (1470x630), 6.08 s, 2.9 MB, audio present (not listened to). Changes from T01: voice reference from S03 SH020 T03, stone half size (hen's egg), framing locked to the animatic, briefcase dark brown. Claude's read from frames: framing wider than T01 and closer to the animatic, more street on both sides. The stone is on screen about 5 frames from screen left and lands on his right brow and eye area, then the head goes back; it still reads as big as a fist or larger (the animatic's object is big and the words did not shrink it) and it presses across the eye rather than stopping on the brow corner. Audio peak at 4.50-4.75 s on the hit, body impact at 5.25-5.5 s. Final frame: on his back, a clear red gash with blood beside his eye, briefcase dark leather, still gripped in his left hand. New faults: parked cars along the street (the prompt did not forbid them), a wider apartment-block street than loc_side-street."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
