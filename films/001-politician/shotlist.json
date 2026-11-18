@@ -3685,6 +3685,34 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S04-SH135-b, 480p (992x432), 4.06 s, audio present (mean -35.5 dB, peak -12.4 dB; not listened to). Leonard on T01: more hands, more struggle before the release, closer CU. Claude's read from frames every 1/3 s and 2.6-4.0 s at 8 fps: photographic, a close-up matching SH120 T02 in light, street and framing; old man screen left facing right, the fat person's dark head at the right edge in partial profile. 0 to about 2.8 s works: his hands on the fists at his collar, prying, a strained apologetic half smile, the collar pulled tight. Misses: around 2.9 to 3.2 s the camera swings and he drops to frame left as if free, then from about 3.4 s both fists are back on his collar to the end: the release never lands, the last frame is still the grip. A hand with a wristwatch and a pale cuff works at the fists; whose arm it is reads ambiguous. The briefcase shows only as a dark strap edge at the bottom in the first second. No parked cars seen. Nods not checked frame by frame."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "07063120-2996-4cac-90cd-1d6c06fca930",
+              "prompt": "05-generation/prompts/001_S04_SH135_T03.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_big-guy 6228445b",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "S04 SH120 T02 frame 1.5 s 94b4d5ee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH135-c, 480p (992x432), 4.06 s, audio present (mean -34.1 dB, peak -11.4 dB; not listened to). Leonard on T02: briefcase in one hand, one hand prying, keep the expression. Claude's read from frames every 1/3 s and frames 36, 76, 86, 96: photographic close-up, SH120 light and street, old man screen left facing right. The release lands: from about 3.3 s he ducks down out of the grip and ends free, collar open, rust tie and dusty suit clear (closer to the dusty element than T02). Struggle 0 to 3 s: worried, pleading eyes, a strained half smile around 2.3 to 3 s; less smile than T02. Misses: the hands read ambiguous again: a hand in a charcoal sleeve with a shirt cuff grips the collar like the fat person's fist while one hand with a grey long sleeve and a ring comes from the right; only one of the fat person's hands is clearly his, and his forearm is sleeved, not bare. The briefcase is not visible during the struggle; only a dark handle and clasp show at the bottom right in the last frames. The camera follows his duck, so he does not end lower in frame. A dark parked car shows behind him at the end. The fat person's face shows in partial profile."
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
