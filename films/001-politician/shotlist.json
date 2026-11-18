@@ -2246,7 +2246,7 @@
               "prompt": "05-generation/prompts/001_S04_SH040_T02.txt",
               "file": "05-generation/takes/S04/SH040/001_S04_SH040_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH040_T02.jpg",
               "references": [
                 "char_politician a7601ce4",
                 "prop_briefcase 4bf36cb5",
