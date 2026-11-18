@@ -3053,6 +3053,30 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH060-b, 480p (992x432), 5.06 s, audio present (mean -26.9 dB, peak -3.8 dB; not listened to). Claude's read from frames every 0.5 s and every 3 frames from 3.8 s: photoreal; he looks back from 0.5 s; the case comes up from his hand at about 3 s and is clutched to his chest by 3.8 s. The big man walks in from the right edge at about 3.5 s (later than T01's 3 s, still before the impact). Impact at about 4.2 s; the old man rebounds hard, head thrown back, and falls backward out of the bottom-left of frame by about 4.7 s, still holding the case. Final frame: the big man alone right of center, standing still. The street opens onto a sandy lot with hazy towers behind the big man. The walk cannot be judged from stills. Leonard 2026-11-18: 'this works, but the corner of the street must look more like in shot 110 or 140' (behind the big man: the street with buildings, doorway, sidewalk and road, not an empty sandy lot). T03: video_edit of T02 changing only that background."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "1e5c14ee-49bd-42d9-a49b-c8fb49ca2724",
+              "prompt": "05-generation/prompts/001_S04_SH060_T03.txt",
+              "file": "05-generation/takes/S04/SH060/001_S04_SH060_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "edit of SH060 T02 (7503a780)",
+                "street still from S04 SH140 T01, refs/001_S04_SH060_street_from_SH140.jpg (7afcbc84)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH060-c, 480p (992x432), 5.04 s, audio present (mean -27.3 dB, peak -2.6 dB; not listened to). Claude's read, frames 0, 48, 84, 96, 104, 110, 119 side by side with T02: the old man, the big man, the case, the timing, the impact and the fall match T02. Behind the big man the sandy lot is now a street: shuttered shops and barred doorways, sidewalk and curb, an asphalt road with markings at screen right, apartment blocks in the haze. The edit also changed the plain wall beside the old man from about 2 s into a facade with shutters and barred windows, so there is no wall corner any more: the facade runs on. The road at right is sunlit and brighter than T02. A small box or bin on the sidewalk at about 3.5 s; possible small parked vehicles far down the road at the end."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
