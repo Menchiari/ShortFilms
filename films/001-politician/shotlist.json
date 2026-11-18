@@ -1837,9 +1837,9 @@
                 "start frame: loc_town-edge 146470dd cropped 1.6x on the gap (0308330d, frames/001_S02_SH100_T06_start.jpg)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 020, draft. Plan: real forward travel from Seedance, zoom out in post. Claude's read: photographic town, one gap, the street visible through it. Measured: the gap grows only 8% in 4 s (tracked scale 1.000 to 1.081), asked for 2x: the camera barely travels against a town about a kilometer away, so a post zoom out would show almost no vertigo. A dashboard edge sits at the bottom for the first second, against the prompt. Frame 0 is a re-rendering of the start frame, slightly wider."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 020, draft. Plan: real forward travel from Seedance, zoom out in post. Claude's read: photographic town, one gap, the street visible through it. Measured: the gap grows only 8% in 4 s (tracked scale 1.000 to 1.081), asked for 2x: the camera barely travels against a town about a kilometer away, so a post zoom out would show almost no vertigo. A dashboard edge sits at the bottom for the first second, against the prompt. Frame 0 is a re-rendering of the start frame, slightly wider. Leonard 2026-11-18: 'I like this shot too, but this is not the vertigo effect shot I'm looking for.'"
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
@@ -2971,8 +2971,61 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "09f36584-bfab-4b26-9939-db60d0016df1",
+              "prompt": "05-generation/prompts/001_S05_SH010_T01.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH010_T01.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH010-a, Leonard's direction: fast walk building to a run, case held normally, clutched to the chest once then lowered to look ordinary, eyes scanning, panic and rage. No previz guide. Claude's read of frames: photoreal street, no previz look. Framing wider than asked: full figure, not knees-up. Case at his side 0-2s, held up in front of his body with both hands about 2.5-3.5s (front of the torso, lower than the chest), lowered to his side by 4s, run 4.5-6s with the case swinging. His eyes go up to the balconies a lot, head tilted back. Nobody visible at windows or balconies. Audio loudness peaks near 2s and 5s (likely the pot and the voices); words not verified by Claude."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "25d91c21-5d9d-455c-ba05-7a9613308f35",
+              "prompt": "05-generation/prompts/001_S05_SH010_T02.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH010_T02.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH010-b. One change from T01: waist-up framing. Claude's read of frames: 0-2s waist up as asked, case below frame; about 2.5-3s he hauls the case up in front of his waist with both hands and looks back over his shoulder; about 3.5-4.5s the camera falls back and he reads near full figure (the distance does not hold); 5-6s close again, chest up, running at the lens, eyes up. Face more strained than T01. Audio peaks near 1-2s and 5s; words not verified by Claude."
+            }
+          ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
           "framing": "MEDIUM",
           "movement": "Handheld, backing in front of him",
@@ -2985,8 +3038,32 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 14.75,
+              "job_id": "e3cc8d91-3a4c-41ca-9ddc-fd88b1d28a7d",
+              "prompt": "05-generation/prompts/001_S05_SH020_T03_v3.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T03.jpg",
+              "references": [
+                "start_image 2522297d (GPT Image 2.6 still over animatic d11 frame 0)",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "notes": "REQUEST S05-SH020-b, draft, Leonard approved 12 credits (\"try again\"). Folder S05/SH020. Earlier tests T01, T02 in the old test project (stories/politician/tests). Start still: GPT Image 2.6 job 2522297d (2.75 credits, REQUEST S05-SH020-a, frames/001_S05_SH020_T03_start.png), layout from animatic d11 frame 0; no video reference (Leonard: the previz animation is wrong, the positions work). Claude's read: frame 0 matches the still; photographic, no CG look. High oblique angle (Leonard: the angle works). The old man runs from the left quarter to the center with the case, uneven. People walk off the top sidewalk and out of the side street and doorways, at different moments and speeds, on their own lines; at the end the street holds about 30 people spread around him. The bottom sidewalk mostly stays put, so the ring closes from the top and the ends more than from below. He ends at center, not right of center. Audio not yet checked by ear."
+            }
+          ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
           "framing": "TOP VIEW, high",
           "movement": "Locked-off",
@@ -3023,8 +3100,36 @@
         },
         {
           "id": "SH080",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "636252d4-3825-479d-b7e3-68f50c6933c7",
+              "prompt": "05-generation/prompts/001_S05_SH080_T01.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH080_T01.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "animatic d11 motion-only S05_SH080 0922d8bb (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-a, 480p draft (992x432), 6.08 s, audio present. Claude's read from frames: 0-4.4 s photoreal, phone at his right ear, crowd soft behind, strong running shake. Impact at frame 111-113 (about 4.65 s), real time: the rock enters from screen left and is on screen about 4 frames, then bounces up and away with red flecks; audio peak at 4.70-4.75 s lines up with contact. Weak: the rock smears across his forehead instead of stopping hard on the outer corner of the right eyebrow; no visible skin tear at this resolution, a red cut shows near his eye once he is down; the head goes back, not sideways; the briefcase reads teal/blue plastic while swinging (4.3-4.8 s), dark on the ground. Fall and camera drop to the ground work, final frame on his back with the case beside him."
+            }
+          ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
           "framing": "CLOSE, same frame as SH030, closer",
           "movement": "Handheld, running, more shake",
@@ -3037,8 +3142,37 @@
         },
         {
           "id": "SH090",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "b1a93c79-042e-44c8-8ef0-84ab41930cda",
+              "prompt": "05-generation/prompts/001_S05_SH090_T01.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T01.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_blood 73236f58",
+                "bond sheet fa669df1 (refs/001_S05_SH090_bond.jpg, from ref_bond_element_v7)",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "refs_d11_motion S05_SH090 28d3d598 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-a. Draft (finalizable at 720p within 7 days). Output 992x432, 24 fps, 4.04 s, audio present (not listened to by Claude). Claude's read: angle, timing and end state follow the motion clip: he lands at about 0.3 s, the case slams down right of his head at about 0.6-1 s, bounces, lands upright and open; sheets fly up and off to the right from 1.5 s to the end, many separate paths, some flip and glide, a few skid on the ground. Impact: he dives in with his arms out and slides on his chest and face in a burst of dust: fast, but he partly catches himself, not dead weight. Blood smeared across most of his face, more than the eyebrow. Asphalt: grit and small stones visible but not razor sharp at 480p; the ground strip is thin. Background wrong: a wide boulevard with high-rise towers at the end and trees, a big city, not the side street; the prompt forbade trees. Many sheets stay stuck upright in the case. Sheet size reads smaller than A4 next to him in some frames."
+            }
+          ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
           "framing": "LOW, ground level",
           "movement": "Locked-off",
