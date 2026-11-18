@@ -1114,6 +1114,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH020 T05 start still eceb7f8f rejected by Leonard (not how it should be, reads like GPT). Cause: Claude changed the approved camera (closer, lower) unasked and the image model's staged charge look showed at that size. Next proposal: back to the approved T04 still 8453bc84, prompt 001_S05_SH020_T05_v2.txt (people step into the street first, he runs through them), 5 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH030-c approved (Leonard: \"ok go\"; 35 credits, 720p final, 21:9, 5 s, seed 1823186076) and submitted: S05 SH030 T03 6057f946-86a2-4e3d-95d1-8a819690d1b3, folder S05/SH030."
     }
   ],
   "story_sync": {
