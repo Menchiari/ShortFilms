@@ -1081,9 +1081,9 @@
                 "line guide 219c398c"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: Photographic: real broken concrete slab in the foreground, the road into the haze; the car appears late, far out, with its dust plume."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic: real broken concrete slab in the foreground, the road into the haze; the car appears late, far out, with its dust plume. Leonard: prefers the animatic: the car so far out you barely see it move, heat waves, dust behind. T03 at 720p does that."
             }
           ],
           "description": "Far out on a road of asphalt buried in dust and drifted sand, a car comes out of the heat shimmer at full speed, a plume of dust behind it.",
