@@ -514,11 +514,19 @@
     },
     {
       "date": "2026-11-18",
-      "text": "Higgsfield folder S04/SH040 created (21642846-4d02-4194-ab47-76dd557a0d21). REQUEST S04-SH040-a prepared, not submitted: prompts/001_S04_SH040_T01.txt, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip; get_cost 12 credits. The three men are described in the prompt for SH050 to reuse word for word."
+      "text": "Higgsfield folder S04/SH030 created (3952351d-e365-4d15-a957-14508c0d7947). S04 SH030 T01 prompt drafted, REQUEST S04-SH030-a pending approval (estimate 12 credits)."
     },
     {
       "date": "2026-11-18",
-      "text": "Higgsfield folder S04/SH030 created (3952351d-e365-4d15-a957-14508c0d7947). S04 SH030 T01 prompt drafted, REQUEST S04-SH030-a pending approval (estimate 12 credits)."
+      "text": "REQUEST S04-SH020-a done (12 credits): S04 SH020 T01 in, 480p 4 s, job 0a9ca05d-f614-466f-89b0-d712a9527857."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH010-a done (12 credits): S04 SH010 T01 in, 480p 992x432."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH040 created (21642846-4d02-4194-ab47-76dd557a0d21). REQUEST S04-SH040-a prepared, not submitted: prompts/001_S04_SH040_T01.txt, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip; get_cost 12 credits. The three men are described in the prompt for SH050 to reuse word for word."
     },
     {
       "date": "2026-11-18",
@@ -530,7 +538,7 @@
     },
     {
       "date": "2026-11-18",
-      "text": "Leonard on S04 SH040 T01: 'I like this, and I like the cinematography style here' (rating 4, inferred). Inputs behind it: no previz clip, loc_side-street for surfaces, palette_afternoon for color and light, the motivated-sun lighting paragraph, the look line, the realism paragraph (Leonard's 'not blocky' note), locked-off long lens. The backlit sun was the model's choice: the prompt asked for screen right."
+      "text": "REQUEST 050f done (98 credits): S03 SH050 T01 in, file takes/S03/SH050/001_S03_SH050_T01.mp4."
     },
     {
       "date": "2026-11-18",
@@ -539,6 +547,22 @@
     {
       "date": "2026-11-18",
       "text": "Leonard: keep what made S04 SH040 T01 work in future prompts. Written into 03-bible/style.md: backlit sun when the angle allows, the lighting paragraph, the realism paragraph, references narrowed to one job, locked-off long lens for wides, paths in screen terms, a task for every person, 'no parked cars', no set clip for place-filled frames."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH030-a approved by Leonard (\"approved, go with S04-SH030-a\"; estimate 12 credits) and submitted: S04 SH030 T01 f9687cda-6d0b-49eb-91a0-a13aa734a78c, seedance_2_5 omni_reference, 480p, 21:9, 4 s (shot is 2 s, trimmed in the edit), audio on, text and loc_side-street only, old woman in words, no previz clip."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH030 T01 done (f9687cda), downloaded to takes/S04/SH030/. She turns and looks into the lens at about 2.1-2.6 s; trim window about 1.0-3.0 s. Awaiting Leonard's review."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH030 T01 loved by Leonard (\"love it\"): rating 5, love, inferred."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard on S04 SH040 T01: 'I like this, and I like the cinematography style here' (rating 4, inferred). Inputs behind it: no previz clip, loc_side-street for surfaces, palette_afternoon for color and light, the motivated-sun lighting paragraph, the look line, the realism paragraph (Leonard's 'not blocky' note), locked-off long lens. The backlit sun was the model's choice: the prompt asked for screen right."
     }
   ],
   "story_sync": {

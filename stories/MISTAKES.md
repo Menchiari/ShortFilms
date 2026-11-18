@@ -19,6 +19,16 @@ the rule that prevents it. Newest first.
 - **Cause:** I wrote the second half as a hold ("keeps his hand on it, looks at the sign") to land on the end still.
 - **Rule (Leonard):** "beautiful, interesting, or both" does not cover a shot where nothing happens and the frame is
   not breathtaking. Every second of a shot carries an action, unless the image itself is breathtaking.
+## 2026-11-17/18, "a branch for each shot" (no credits)
+
+- **What:** Leonard asked for a conversation branch per shot. I first queued suggestion cards for separate sessions, then
+  told him twice that I cannot create conversation branches, while his sidebar showed other sessions doing exactly that.
+- **Cause:** I read "branch" as a git branch or an app feature for forking a chat, and never connected it to
+  `create_session`, which opens a child conversation nested under the current one. I answered from an assumption instead
+  of checking what he could see.
+- **Rule:** a conversation branch is a child session made with `create_session` from the current session (titled
+  "Scene N - SHxxx", with a self-contained brief). When a word has two readings, check the user's evidence before acting.
+
 ## 2026-11-17, Politician S02 prompt files emptied (no credits)
 
 - **What:** my script emptied 001_S02_SH120_T01.txt and 001_S02_SH200_T01.txt in commit 7e1d0d8, and the REQUEST 018 table
