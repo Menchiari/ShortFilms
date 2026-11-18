@@ -1667,7 +1667,7 @@
               "model": "seedance_2_5",
               "mode": "omni_reference",
               "duration_s": 6,
-              "resolution": "720p",
+              "resolution": "1080p",
               "aspect": "21:9",
               "audio": true,
               "credits": 96.0,
@@ -1685,7 +1685,7 @@
               "love": true,
               "rating": 5,
               "rating_source": "inferred",
-              "notes": "Final of draft T01 (draft_job_id e41b2b2a), same prompt and references. Leonard asked for the 720p version of T01. Claude's read: the same performance as T01 frame for frame, sharper. File is 2206x946, 24 fps. Quote: draft finals cost 96 for 6 s, at 720p and at 1080p alike; a fresh 720p generation quotes 42."
+              "notes": "Final of draft T01 (draft_job_id e41b2b2a), same prompt and references. Leonard asked for 720p; the request said 720p, but Higgsfield rendered the final at 1080p (job record: resolution 1080p, 2016x864; delivered file 2206x946) and charged 96, the 1080p price, as quoted and approved. Claude's read: the same performance as T01 frame for frame, sharper."
             }
           ],
           "description": "He leans forward over the wheel and looks left.",
