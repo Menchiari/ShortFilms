@@ -1,0 +1,22 @@
+S03 SH050 street plate v2, REQUEST 050h (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+Image 1 = clean frame at 1 s of T01 (media 52bca528, 001_S03_SH050_T01_plate_base.png), same framing as the video.
+Leonard 2026-11-18: same place, fix the streets, much more realistic, "I still don't buy it".
+Claude's read of what reads fake in image 1: the asphalt is one clean even CG surface; the markings are too many, too crisp and run in directions that do not follow the streets; the curbs and sidewalks are spotless; the low sun casts no building shadows across the street; nothing of daily life is left behind.
+
+Prompt:
+
+Image 1 is the frame: keep the same camera, framing and perspective, the same street layout, buildings, corners, sidewalks, street lights, traffic lights and road signs in the same places, the black sedan exactly where it is with its shadow, and the man on the balcony at the left exactly as he is. Make the streets look like a real, poor, half-abandoned desert town photographed on film, not a clean 3D render. Change only the surfaces and the details of the street:
+
+The asphalt: old, sun-bleached and uneven, in patches of different greys and browns, with dark tar seams and crack sealing in long lines, alligator cracking, a few shallow potholes and square patch repairs, oil stains and old black tire marks, two round iron manhole covers and a storm drain grate at the curb. Sand and dust drift in soft banks against the curbs and into the cracks, thin in the middle of the road where cars once drove.
+
+The markings: fewer and old: the zebra crossings faded and worn away in the middle, chipped and partly buried in sand, each one straight across its own street; only a few broken lane lines left, faded, following the direction of each street. No crisp new paint anywhere.
+
+The sidewalks and curbs: cracked and uneven paving slabs, some missing, chipped curb stones, a loose plastic bag, a few cigarette butts and scraps of paper, a tipped-over plastic chair against a wall, a rusty metal bin. The street lights and traffic light poles weathered and leaning very slightly, the traffic lights dark. The road signs faded, with no writing.
+
+The buildings at street level: dirty, stained concrete with rust streaks under the air conditioners, faded rolled-down shutters with dents and old paste marks, tangled power cables sagging across the streets between the buildings, a few water tanks and satellite dishes on the roofs.
+
+Light: the same low hazy afternoon sun from screen left; the tall building on the left throws a long soft shadow across the near part of the street, the far streets in warm sun and haze, dust hanging in the air. Deep brown shadows with detail, highlights soft cream.
+
+Count of cars: one, the black sedan. Count of people: one, the man on the balcony. Nobody else. No readable writing, no logos, no laundry, no trees, no palms, no mosque, minaret, dome or flag.
+
+Photographic film still, 35mm film, anamorphic, fine grain, real location, documentary realism, not CGI.
