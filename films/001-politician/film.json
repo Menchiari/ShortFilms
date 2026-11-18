@@ -756,6 +756,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH120: Higgsfield folder S04/SH120 5e489526 created. T01 prompt written (prompts/001_S04_SH120_T01.txt), text + elements, no guide clip: the d11 clip is a static close whose frame is filled by the faceted head, a line drawing of it would hand the model polygon edges on the face; words hold the framing. Images: char_politician_dusty 98e1e69e, char_big-guy 6228445b (his fist on the collar and a blurred edge of his head are in frame), loc_side-street e728a9ae, palette_afternoon 3bf30eee. REQUEST S04-SH120-a quoted at 18 credits (seedance_2_5, 480p, 21:9, 6 s, audio on), waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH090-a approved by Leonard (\"approved, go with S05-SH090-a\"; estimate 12 credits) and submitted: S05 SH090 T01 b1a93c79-042e-44c8-8ef0-84ab41930cda, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, folder S05/SH090."
     }
   ],
   "story_sync": {
