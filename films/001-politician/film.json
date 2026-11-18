@@ -854,6 +854,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH060 T01 notes from Leonard (rating 2, inferred): big man too early, impact too soft (he must bounce off and fall back), walk more realistic. New guide refs/001_S04_SH060_lines_d11_v2.mp4: the d11 line drawing with the big man erased from frames 72 to 103, so he appears only at the impact (4.33 s); uploaded to REFS (video 8b375053-8fdc-40e9-b9b4-df473dcb2b7c). REQUEST S04-SH060-b prepared, not submitted: prompts/001_S04_SH060_T02.txt, same settings and images as T01, guide v2. get_cost 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH080 prompt v2 (prompts/001_S04_SH080_T01_v2.txt) with Leonard's direction: curious at first, small natural expressions; a decent man the politician ruined (family left when the money ran out, three jobs, eats the bare minimum), quiet hatred held underneath; recognition as a hunter going still over prey he cannot believe is there. Same inputs; get_cost 12 credits. REQUEST S04-SH080-a now uses v2, waiting for approval."
     }
   ],
   "story_sync": {
