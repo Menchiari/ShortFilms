@@ -858,6 +858,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH080 prompt v2 (prompts/001_S04_SH080_T01_v2.txt) with Leonard's direction: curious at first, small natural expressions; a decent man the politician ruined (family left when the money ran out, three jobs, eats the bare minimum), quiet hatred held underneath; recognition as a hunter going still over prey he cannot believe is there. Same inputs; get_cost 12 credits. REQUEST S04-SH080-a now uses v2, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH070-b approved by Leonard (12 credits): S04 SH070 T02 submitted, job 82578f76-f50d-4d8b-8f0f-608c2339d0f9, folder S04/SH070, prompt 001_S04_SH070_T02.txt (one fix before submit: he twists onto his right side, toward the case)."
     }
   ],
   "story_sync": {
