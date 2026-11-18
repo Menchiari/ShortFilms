@@ -417,6 +417,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050g done (28 credits): S03 SH050 T02 in (4 s extension), file takes/S03/SH050/001_S03_SH050_T02.mp4. Last 3 frames broken (he vanishes, door closes): usable to 3.875 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050h approved (1.5 credits): S03 SH050 street plate v2, gpt_image_2_6 high 1k 21:9, job c34fb281-06ca-43d4-9527-5389d420bf70, edit of the T01 frame at 1 s: worn patched asphalt, faded markings, manholes, litter, cables, building shadow. Files frames/001_S03_SH050_T01_plate_v2_src.png (1344x576) and _plate_v2.png (1470x630, the video size)."
     }
   ],
   "story_sync": {

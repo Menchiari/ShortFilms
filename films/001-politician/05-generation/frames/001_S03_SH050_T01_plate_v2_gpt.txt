@@ -1,5 +1,6 @@
-S03 SH050 street plate v2, REQUEST 050h (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+S03 SH050 street plate v2, REQUEST 050h, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
 Image 1 = clean frame at 1 s of T01 (media 52bca528, 001_S03_SH050_T01_plate_base.png), same framing as the video.
+Result: job c34fb281-06ca-43d4-9527-5389d420bf70, 1.5 credits.
 Leonard 2026-11-18: same place, fix the streets, much more realistic, "I still don't buy it".
 Claude's read of what reads fake in image 1: the asphalt is one clean even CG surface; the markings are too many, too crisp and run in directions that do not follow the streets; the curbs and sidewalks are spotless; the low sun casts no building shadows across the street; nothing of daily life is left behind.
 
