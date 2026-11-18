@@ -2989,7 +2989,7 @@
               "prompt": "05-generation/prompts/001_S05_SH080_T01.txt",
               "file": "05-generation/takes/S05/SH080/001_S05_SH080_T01.mp4",
               "preview": "",
-              "poster": "05-generation/web/001_S05_SH080_T01.jpg",
+              "poster": "",
               "references": [
                 "char_politician_dusty 98e1e69e",
                 "prop_briefcase 4bf36cb5",
