@@ -723,6 +723,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH110: Higgsfield folder S04/SH110 created (c7222bc7). REQUEST S04-SH110-a prepared, not submitted: prompts/001_S04_SH110_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on, words and elements only (no previz clip: its line version carries only the fat person's outline, the old man's soft head vanishes; a video ref costs the same). Images: char_politician_dusty 98e1e69e, char_big-guy 6228445b, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee. [ASSUMPTION] sun far down the street behind the fat person (backlight), as in SH040. get_cost: 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH110-a approved by Leonard (\"ok let's do it\"; get_cost 15 credits) and submitted: S04 SH110 T01 572c5abc-9dfe-416a-9d2d-3ff7bc3182c7, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, folder S04/SH110."
     }
   ],
   "story_sync": {
