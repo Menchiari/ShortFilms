@@ -3286,7 +3286,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3310,8 +3310,10 @@
                 "loc_side-street e728a9ae",
                 "palette_afternoon 3bf30eee"
               ],
-              "love": false,
-              "notes": "REQUEST S04-SH110-a, draft, no previz clip. Claude's read: photographic, 992x432, 5 s. The haul-up happens at about 0.5 to 1 s; eyelines right (old man screen left looking right, fat person screen right looking left). Framed as a close profile two-shot, not over the shoulder: the old man's face is in profile, not his back. His suit reads near black, no tie visible. The briefcase shows only as a dark corner with a metal clasp at the bottom of frame. Background street fairly sharp, not very soft. Audio continuous (no gap over 0.3 s); the spoken words not checked by ear."
+              "love": true,
+              "notes": "REQUEST S04-SH110-a, draft, no previz clip. Claude's read: photographic, 992x432, 5 s. The haul-up happens at about 0.5 to 1 s; eyelines right (old man screen left looking right, fat person screen right looking left). Framed as a close profile two-shot, not over the shoulder: the old man's face is in profile, not his back. His suit reads near black, no tie visible. The briefcase shows only as a dark corner with a metal clasp at the bottom of frame. Background street fairly sharp, not very soft. Audio continuous (no gap over 0.3 s); the spoken words not checked by ear. Leonard 2026-11-18: \"this works I love it\".",
+              "rating": 5,
+              "rating_source": "inferred"
             }
           ],
           "description": "The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.",
