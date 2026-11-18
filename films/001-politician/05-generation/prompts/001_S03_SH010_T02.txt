@@ -1,0 +1,27 @@
+Audio: only the low hum of the slow car engine, its tires crunching grit on the asphalt, and his short heavy breaths through the open window. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Image 1 is the first frame: the old man, the car, the street, the light and the framing all start exactly as in image 1. The result is live-action 35mm film footage shot on location.
+
+Wide side view from the far side of an empty street in a desert town: the black sedan crawls left to right past shuttered apartment buildings, and through its open passenger window the old man drives hunched over the wheel, drenched in sweat, the camera tracking alongside on a long lens.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from behind the buildings at screen right, at a raking angle. The far facades are split: their upper floors and balcony edges warm and sunlit, the street level in deep warm shade. The car drives through a soft line between sun and shade: hard warm sunlight glints along its dusty roof line and windshield edge, the body sits in shade with rich detail. Inside the car, warm bounce light from the sunlit asphalt fills his face softly from below and from the open window, so his sweating skin, eyes and the shine on his forehead read clearly, with a gentle falloff to darkness on the far side of his face. Golden dust hangs in the shafts of sun between the buildings. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: the first frame is image 1, exactly: the whole car in profile in the middle of frame, nose to screen right, wheels on the asphalt. Camera: a sideways dolly at exactly the car's pace, long lens, flat and compressed; the car stays centered in frame while the facades behind it slide slowly from right to left, about one shutter width every two seconds. The camera rides on a dolly running along old, slightly uneven rails: a constant fine vertical jitter, and a small soft bump about once a second as the wheels cross a rail joint. The framing otherwise holds steady. No rails, tracks or train anywhere in frame. The car crawls at walking pace from the first frame to the last. The front passenger window is rolled down: across the empty passenger seat the old man sits at the wheel, leaning far forward, his head close to the top of the steering wheel, both hands gripping it, his eyes close to the windshield, peering down the street ahead. His face, hair and neck shine with sweat, his shirt collar dark with it.
+2-4s: the car keeps crawling, the camera keeps pace with the same fine rail jitter. The old man takes his right hand off the wheel and drags his right forearm across his forehead, the charcoal sleeve wiping the sweat away, his left hand stays tight on the wheel, then the right hand goes straight back to the wheel.
+4-6s: the car keeps crawling, the camera keeps pace with the same fine rail jitter. Still hunched over the wheel, he darts his eyes up to the windows on the buildings ahead, then across toward the passenger window, then straight back to the street through the windshield. Final frame: the car still centered in profile, the whole car in frame, still crawling left to right, the old man hunched close to the wheel with both hands on it, eyes on the road, the shuttered facades sliding behind.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: get through this town without anyone seeing his face.
+OBSTACLE: in here people know his face, every shuttered window could have someone behind it, and the heat is soaking him through.
+TACTIC: he reads the street ahead the way he reads a hostile room: his eyes hunt the road in front of the bumper, then flick to each window and corner that could hold a watcher, measuring it and dismissing it, then lock back on the road. The sweat is in his way, so he wipes it off without taking his eyes off the street.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of cars: one. Count of people: one, the old man inside the car. No parked cars, nobody on the street, nobody at the windows or on the balconies.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the low hum of the slow car engine, its tires crunching grit on the asphalt, and his short heavy breaths through the open window. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
