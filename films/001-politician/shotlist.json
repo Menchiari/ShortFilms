@@ -1983,7 +1983,7 @@
         },
         {
           "id": "SH200",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -2033,9 +2033,9 @@
                 "palette_afternoon 3bf30eee"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Approved by Leonard 2026-11-18 (\"go T02\"). No reference video. Draft, seed 313531424. Claude's read: photographic, no previz look; real sedan, street rules all present (curbs, lamps, lane lines, lights, signs, parked cars). The street copies the loc_main-street image almost frame for frame, framing included; no tower corners framing a gap. The car rises into frame from below the lens at 0s, then rolls away and gets small; it reads dusty grey in the sun, not clearly black; a row of letters on the trunk lid (not readable at 480p). Sun low on the left, behind the towers, as written."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Approved by Leonard 2026-11-18 (\"go T02\"). No reference video. Draft, seed 313531424. Claude's read: photographic, no previz look; real sedan, street rules all present (curbs, lamps, lane lines, lights, signs, parked cars). The street copies the loc_main-street image almost frame for frame, framing included; no tower corners framing a gap. The car rises into frame from below the lens at 0s, then rolls away and gets small; it reads dusty grey in the sun, not clearly black; a row of letters on the trunk lid (not readable at 480p). Sun low on the left, behind the towers, as written. Leonard 2026-11-18: \"works, save\". Approved."
             }
           ],
           "description": "The car rolls through the gap and into the only street. The town swallows it.",
