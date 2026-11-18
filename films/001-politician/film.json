@@ -1270,6 +1270,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH070-d prepared, not submitted (Leonard asked for a new generation with T02 as the reference for performance and briefcase): prompts/001_S04_SH070_T04.txt, seedance_2_5 omni_reference, 720p, 21:9, 4 s, audio on. Images as T02; video reference T02 82578f76 (replaces the line guide). Quote 28 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T05 (Topaz 1080p) rated 4, inferred from Leonard's \"works\". Shot approved: T03 loved, T04 720p and T05 1080p both available for the edit (T05 needs horizontal scale about 0.969)."
     }
   ],
   "story_sync": {

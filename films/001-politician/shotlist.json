@@ -3612,8 +3612,9 @@
                 "T03 5f723cad (upscale source)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "Option B (Leonard 2026-11-18: \"try B curious\", then \"ok let's try it\" after the first call was blocked by the session's permission check): Topaz Video upscale of T03 5f723cad, 1080p, 21:9. No cost preflight exists for upscales; charge read from the transaction log: 5 credits. Output 2560x1080, 24 fps, 4.04 s. Not filed in the Higgsfield folder: the upscale tool takes no folder and attaching it to S04/SH130 was refused (403, Cinema action is not permitted). Claude's read: frame-exact T03 content, but STRETCHED about 3% horizontally (T03 is 992x432, 2.30:1; Topaz output is 2.37:1). Checked by PSNR against T03: squeezed back to 992x432 = 36.1 dB, cropped instead = 26.3 dB. Fix in Resolve: scale width to 2480 at 1080 high, or set the clip's horizontal scale to about 0.969. Look, from a crop against T04: sharper than T04, with upscaler artifacts: faces a little waxy, plaster smoothed and oversharpened edges; T04 reads more like film."
+              "rating": 4,
+              "notes": "Option B (Leonard 2026-11-18: \"try B curious\", then \"ok let's try it\" after the first call was blocked by the session's permission check): Topaz Video upscale of T03 5f723cad, 1080p, 21:9. No cost preflight exists for upscales; charge read from the transaction log: 5 credits. Output 2560x1080, 24 fps, 4.04 s. Not filed in the Higgsfield folder: the upscale tool takes no folder and attaching it to S04/SH130 was refused (403, Cinema action is not permitted). Claude's read: frame-exact T03 content, but STRETCHED about 3% horizontally (T03 is 992x432, 2.30:1; Topaz output is 2.37:1). Checked by PSNR against T03: squeezed back to 992x432 = 36.1 dB, cropped instead = 26.3 dB. Fix in Resolve: scale width to 2480 at 1080 high, or set the clip's horizontal scale to about 0.969. Look, from a crop against T04: sharper than T04, with upscaler artifacts: faces a little waxy, plaster smoothed and oversharpened edges; T04 reads more like film. Leonard 2026-11-18: \"works\".",
+              "rating_source": "inferred"
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
