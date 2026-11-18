@@ -3067,9 +3067,9 @@
                 "motion-only d11 S05_SH140 8064f0b1 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH140-a, draft. Claude's read: photographic, no previz look copied. The corner reads: the tall street lamp with its arm over the road, traffic lights, the concrete wall at the right, towers behind. Low sun behind the towers (backlit, long shadows toward camera), not from screen right as written. The crowd is all men and mills toward the corner rather than visibly closing over him; I cannot pick him out at 480p. Near silence 0.3 to 3.8 s, then the gunshot at about 3.8 s: an arm with the gun goes up from the middle of the crowd with a puff of smoke, everyone flinches, a few run at once, others later, the crowd scatters by 6 s. The arm stays raised to the end."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH140-a, draft. Claude's read: photographic, no previz look copied. The corner reads: the tall street lamp with its arm over the road, traffic lights, the concrete wall at the right, towers behind. Low sun behind the towers (backlit, long shadows toward camera), not from screen right as written. The crowd is all men and mills toward the corner rather than visibly closing over him; I cannot pick him out at 480p. Near silence 0.3 to 3.8 s, then the gunshot at about 3.8 s: an arm with the gun goes up from the middle of the crowd with a puff of smoke, everyone flinches, a few run at once, others later, the crowd scatters by 6 s. The arm stays raised to the end. Leonard 2026-11-18: \"horrific wrong, no human acts like this.\" The gun goes up too fast (videogame). T02: no previz, study the angle only; he struggles, reaches into his inner pocket while holding the briefcase, then points up and shoots; the crowd gathers slowly, few people at first; a different angle with the wall behind him, no open space."
             }
           ],
           "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",
