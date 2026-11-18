@@ -1,0 +1,16 @@
+Audio: only a dry wind over the flat ground; very faint, from about 3s, the thin distant whine of an engine at full throttle, arriving late. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough position, path and timing of the car and its dust. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every object in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the dusty road, the desert ground and the haze only, not the towers, not its framing. Image 2: the black full-size luxury sedan: its body, black paint and light coat of desert dust only, not its background. Image 3: color and light only.
+
+A very long lens watches a black sedan, tiny on the horizon, racing toward camera through the heat waves, a tall plume of dust behind it.
+
+0-5s: extreme wide, very long telephoto lens, the camera low at the roadside, framing from Video 1: the horizon at the middle of the frame, a low solid slab of broken concrete in the left foreground, the straight road of dark asphalt, half buried under dust and drifted sand, running away to the horizon. Camera: locked-off. From the first frame the black sedan is already there, tiny, exactly on the horizon at the center of frame, no wider than one twentieth of the frame, coming straight toward camera at full speed. Strong heat waves boil over the asphalt between the camera and the car: the air ripples and wobbles, the car's shape melts and swims in it, its lower half lost in a shimmering mirage. Behind the car a tall plume of pale dust rises and drifts back along the road, two or three times the height of the car. Compressed by the long lens, the car barely grows in five seconds: by the last frame it is only slightly bigger, still tiny, still on the horizon, still racing toward camera.
+
+Count of cars: one. The car is visible in every frame.
+
+Unplaceable place: no landmark, no building, no flag, no readable writing, no logos. No trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a dry wind over the flat ground; very faint, from about 3s, the thin distant whine of an engine at full throttle, arriving late. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

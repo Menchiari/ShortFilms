@@ -1,0 +1,23 @@
+S03 SH050 start frame v4, REQUEST 050d, approved. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.5 credits.
+A new image, not an edit: 050a to 050c chained off 050a, which took only materials from loc_crossroads and lost its tall blocks, road markings and traffic lights.
+Result: job 5ecbe0a0-a861-41df-a56e-9c546bcdb706, 1.5 credits. Markings in; angle, car and rail copied from image 4.
+Images: 1 = guide frame 0 of animatic d11 (media 19a2dd38), 2 = loc_crossroads (a5b52222, saved as 001_S03_SH050_loc_crossroads_ref.png), 3 = prop_car (42787b78), 4 = the 050c frame (job e4433f6c), for the man only.
+Leonard 2026-11-18: higher and steeper like the previz, the balconies taller; the balcony bar made no sense; the car lower in frame and smaller; road markings as in the crossroads reference.
+
+Prompt:
+
+Image 1 is a rough 3D previz frame: keep exactly its camera position, height and steep downward angle, its framing, and where everything sits in it. Take nothing of its 3D look.
+
+The camera is high up on a tall apartment block, about the eighth floor, looking steeply down at a large empty crossroads: a dizzy, exposed view from high above. The ground fills most of the frame.
+
+The place is the crossroads of image 2, the same town and the same street furniture: tall 1970s concrete apartment blocks of eight to ten floors with stacked balconies, some closed with corrugated plastic, satellite dishes, rolled-down metal shutters at street level, wide sidewalks with curbs, tall street lights, traffic lights on poles, round and triangular road signs with no writing, and on the asphalt faded white zebra crossings on every side of the intersection, stop lines and dashed lane markings, half buried in dust and drifted sand. As in image 1, the tall block on the left runs away into depth with its balconies, and the corner of a tall block stands at the top right.
+
+The black full-size luxury sedan of image 3, with a light coat of desert dust, stands alone, stopped in the middle of the intersection, exactly where the car box sits in image 1: just right of the center of the frame and a little below the middle. It is small in the frame, about one tenth of the frame's width. Its nose points up and to the left, toward the street on the upper left; we see its roof, its rear and trunk toward the lower right. All doors closed.
+
+At the far left edge, in the foreground, the man of image 4: the same heavy-set man in a dirty white sleeveless undershirt, seen from behind, leaning forward on the railing of his own balcony on both forearms, head bowed, looking down at the car far below, a cigarette in his right hand with a thin thread of smoke. Only a short straight piece of his balcony's metal railing shows, under his forearms, cut off by the left and bottom edges of the frame. His face turned away: no eyes, no features. He takes the left fifth of the frame, never in front of the car. Nothing else in the foreground.
+
+Light, motivated by the sun only: a low hazy afternoon sun from screen left, long soft warm shadows falling to the right, the upper floors warm and sunlit, the street in warm shade with soft patches of sun, golden dust in the air. Deep brown shadows with detail, never black; highlights soft cream, never white.
+
+Count of cars: one, no parked cars. Count of people: one, the man on the balcony. Nobody on the street, at the windows or on the other balconies. No laundry, no trees, no palms, no writing on any sign, no logos, no mosque, minaret, dome or flag.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.
