@@ -397,6 +397,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050d approved (1.5 credits): S03 SH050 start frame v4, gpt_image_2_6 high 1k 21:9, job 5ecbe0a0-a861-41df-a56e-9c546bcdb706, new image from guide frame, loc_crossroads, prop_car and the 050c frame (for the man). Claude's read: road markings, traffic lights and signs in; angle, car position and size, and the corner rail carried over from 050c (image 4 set the composition). Files frames/001_S03_SH050_T01_start_v4_src.png and _start_v4.jpg."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050e approved (1.5 credits): S03 SH050 start frame v5, gpt_image_2_6 high 1k 21:9, job 1310a61e-df17-4e20-a90c-1c1426b367d0, guide frame, loc_crossroads, prop_car, man in words. Claude's read: steeper angle, car just right of center and a little below the middle, about a tenth of the width, nose to the upper left; road markings and traffic lights; only a short rail under his arms. Files frames/001_S03_SH050_T01_start_v5_src.png and _start_v5.jpg."
     }
   ],
   "story_sync": {
