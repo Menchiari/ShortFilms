@@ -1253,6 +1253,32 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST 015a. Covers SH060 (0-2 s) and SH070 (2-4 s). Higgsfield folder S02/SH060. Passed first submission. Claude's read: the bobblehead matches the element and faces the driver, it nods only a little; through the windshield minarets and low mud-brick buildings, not the modern towers of the town edge. The briefcase is the element, papers out, bouncing hard, lands flat; the seats are black leather, the element's interior is brown. Leonard 2026-11-17: the bobblehead is fine (SH060 uses 0-2 s of this take). The briefcase (SH070 half) bounces way too much: a car seat on a dirt road, not a flying horse. SH070 gets its own take."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "draft": true,
+              "credits": 12.0,
+              "job_id": "a1c7a8a1-e8fa-4ebc-8dc0-e608c13e49d7",
+              "prompt": "05-generation/prompts/001_S02_SH060_T02.txt",
+              "file": "05-generation/takes/S02/SH060/001_S02_SH060_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH060_T02.jpg",
+              "references": [
+                "prop_wobblehead fa19c43f",
+                "loc_car-interior 60a2aec8",
+                "palette_afternoon 3bf30eee (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "Higgsfield folder S02/SH060. Passed first submission (after a permission block, nothing sent). 4 s is Seedance's minimum; SH060 uses 2 s of it. Leonard 2026-11-18 on T01: the physics works, the background is wrong, focus on the bobblehead so little of the outside shows. No animatic clip: it shows the outside. Claude's read: tight on the bobblehead, the dark dashboard and defroster vent fill the background, the windshield is a blown-out warm strip at the top with no buildings or towers. The head bobs on a visible spring, more than T01. Feet cropped at the frame bottom."
             }
           ],
           "description": "A painted bobblehead on the dashboard, facing the driver's seat: him, grinning, giving the finger. It nods hard with every bump.",
@@ -1267,7 +1293,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1342,9 +1368,9 @@
                 "palette_afternoon 3bf30eee"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018c, draft, no video guide. Approved by Leonard. Claude's read at 8 fps and full res: the case lies still on a whole leather seat with only a faint shake, papers out at the bottom, door, window and desert in frame. But it is the rear bench seen low from the side, not the front passenger seat seen from above."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018c, draft, no video guide. Approved by Leonard. Claude's read at 8 fps and full res: the case lies still on a whole leather seat with only a faint shake, papers out at the bottom, door, window and desert in frame. But it is the rear bench seen low from the side, not the front passenger seat seen from above. Leonard 2026-11-18: this works enough."
             }
           ],
           "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
@@ -1526,7 +1552,7 @@
               "love": false,
               "rating": 4,
               "rating_source": "inferred",
-              "notes": "Post fix of T02 (no credits): the town in the rear window painted out with a static clean plate (rows of the window's own clean sky shading to its ground band, soft mask to the window shape, light temporal grain; ffmpeg overlay). Camera locked-off (rear window luma stable within 0.3%), the town never passes behind his head. Picture, acting, audio otherwise T02. Leonard 2026-11-18: that works, the final render."
+              "notes": "Post fix of T02 (no credits): the town in the rear window painted out with a static clean plate (rows of the window's own clean sky shading to its ground band, soft mask to the window shape, light temporal grain; ffmpeg overlay). Camera locked-off (rear window luma stable within 0.3%), the town never passes behind his head. Picture, acting, audio otherwise T02. Leonard 2026-11-18: that works, the final render. Leonard 2026-11-18, after seeing the final file: perfect, this works."
             }
           ],
           "description": "The OLD MAN behind the wheel, American, his shirt dark with sweat, slowly raises his head and looks ahead, frightened.",
@@ -1619,6 +1645,52 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST 018a, draft (finalizable at 720p within 7 days). Claude's read: Photographic street too, but the bottom edge came out as flat slab shapes taken from the blur. Dolly zoom: a forward move; the vertigo effect cannot be judged from frames. Measured 2026-11-18 (same method): far end 10.1 at frame 0, then hidden by haze; top opening 14.0 / 13.8 / 10.3. Same dolly zoom as T02. Faults: a city skyline is visible at the far end in the first second (an end in sight); the animatic's flat road patches became flat slabs on the car hood."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "2d2022de-32dd-4b4a-b069-72a28f939616",
+              "prompt": "05-generation/prompts/001_S02_SH100_T04.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T04.jpg",
+              "references": [
+                "loc_main-street c30451ef (start_image, confirmed in the job)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 019, draft. Leonard on T02/T03: the city does not look realistic, street signs everything wrong. T04: no guide clip, the street image as the start. Claude's read: real street with lamps, lane lines, zebra, traffic lights, signs, parked cars, sidewalks. Measured: junction traffic-light spacing 119 px at frame 0, 150 px at frame 96 (+26%); far tower 72 px to 68 px (-6%). A forward dolly with at most a slight zoom out: the junction does not hold its size, so no vertigo effect. The far tower stays at the end of the street (an end in sight)."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "post",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S02_SH100_T04.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T05.jpg",
+              "references": [
+                "T04"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "T04 with the zoom out added in post (0 credits): the junction was tracked (OpenCV optical flow, scale 1.000 to 1.267 over 96 frames in T04) and each frame is cropped by 1.267/scale around it, so frame 0 is a 1.27x crop and frame 96 is the full T04 frame. Measured on T05: junction traffic-light spacing 150 px at frame 0 and 150 px at frame 96 (tracked scale 0.96); far tower 92 px to 68 px (-26%). The vertigo effect happens. Cost: the first frames are 1.27x upscaled (softer); the far tower stays (an end in sight)."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
@@ -1757,6 +1829,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST 018c, draft, seed 70053040. Covers SH120 and SH140 only; SH150 stays from T01 (Leonard's favourite). Claude's read: the towers are now close and fill the frame. Problems: they read as one continuous smooth megablock, render-like; a concrete trench edge still crosses the foreground and a sandy strip runs along the facades like a road; SH140 shows open desert with slabs on the right. Bobblehead and one briefcase correct, nothing at the glovebox."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "9dfe1f05-4dc9-46fc-8212-21c6c7c2ea01",
+              "prompt": "05-generation/prompts/001_S02_SH120_T03.txt",
+              "file": "05-generation/takes/S02/SH120/001_S02_SH120_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH120_T03.jpg",
+              "references": [
+                "loc_town-edge 146470dd",
+                "loc_car-interior 60a2aec8",
+                "prop_briefcase 4bf36cb5",
+                "prop_wobblehead fa19c43f",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018d, draft, seed 793633044, no line guide. Covers SH120 and SH140; SH150 stays from T01. Claude's read: photographic, no ditch; separate weathered towers, tops cut by the frame, about a hundred meters off rather than ten; bare dusty ground with low mounds. Streets open between the towers (right of the pillar in SH120, left in SH140). SH140 looks forward-right more than right; bobblehead faces in, giving the finger as scripted; one briefcase, low at the bottom right. Leonard 2026-11-18 after T03: \"forget it\". No more takes on SH120/SH140/SH150 in this session."
             }
           ],
           "description": "Through the windshield: broken ground and a deep dry ditch, rubble, then the towers, shoulder to shoulder, running away to the left. No road.",
@@ -2209,7 +2308,7 @@
               "love": false,
               "rating": 4,
               "rating_source": "inferred",
-              "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear. Leonard 2026-11-18: this shot works; not fully convinced by the street, maybe some cars: a modified still for post (he adds it in post)."
+              "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear. Leonard 2026-11-18: this shot works; not fully convinced by the street, maybe some cars: a modified still for post (he adds it in post). Composite 2026-11-18 (Leonard): street plate v2 laid into every part of T01 that does not move, file takes/S03/SH050/001_S03_SH050_T01_comp_v1.mp4, script 05-generation/comp/001_S03_SH050_T01_comp.py. Camera measured static (under 0.2 px drift), plate aligned by edge matching; the old man, the door and the smoker come from the video, his shadow and the smoke are added as differences onto the plate; matched grain and flicker."
             },
             {
               "id": "T02",
@@ -2297,7 +2396,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -2323,7 +2422,33 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST S04-SH010-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH010. Claude's read (frames every 0.5 s and audio levels, not heard): photographic, nothing of the previz look. Profile facing screen right, just left of center, walls and rolled-down shutters slide right to left: matches the previz composition. Framed from the hips up, tighter than the mid-thigh asked, so the steps are not visible. Briefcase held upright against his chest with both arms, shoulders hunched. Around 2 s he turns his head away toward a shutter, then back. Nobody else, no cars, no writing. Audio quiet throughout (mean -39 dB, peak -20 dB), no silent gaps."
+              "notes": "REQUEST S04-SH010-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH010. Claude's read (frames every 0.5 s and audio levels, not heard): photographic, nothing of the previz look. Profile facing screen right, just left of center, walls and rolled-down shutters slide right to left: matches the previz composition. Framed from the hips up, tighter than the mid-thigh asked, so the steps are not visible. Briefcase held upright against his chest with both arms, shoulders hunched. Around 2 s he turns his head away toward a shutter, then back. Nobody else, no cars, no writing. Audio quiet throughout (mean -39 dB, peak -20 dB), no silent gaps. Selected as the head of the shot: T02 extends it (Leonard 2026-11-18)."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "7324fcf6-d06a-4ec4-b4ae-02d35dbfc875",
+              "prompt": "05-generation/prompts/001_S04_SH010_T02.txt",
+              "file": "05-generation/takes/S04/SH010/001_S04_SH010_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH010_T02.jpg",
+              "references": [
+                "T01 1d9dc729 (video_references, extension forward)",
+                "char_politician a7601ce4",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae"
+              ],
+              "love": false,
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH010-b, forward extension of T01, 720p (1458x634), 5.00 s. The file holds only the new 5 s, not T01. Its first frame matches T01's last frame (same pose, shutter and bead curtain); T01 is 480p, so the cut joins 480p to 720p. Claude's read (frames every 0.5 s and audio levels, not heard): at 0.5 s he lowers the case and holds it flat by the handle in his right hand, then it drops below frame at about 1 s and is never seen again. From 1 s on his shoulders drop and he walks upright, but his eyes keep scanning: up at the windows, behind him over his shoulder around 3.5 s, then forward. Against the prompt: dusty parked cars along the curb from about 1 s to 4.5 s (the prompt said no cars). A window at 1.5 s shows a glowing television. Audio quiet, peak -14 dB. Leonard 2026-11-18: \"perfect, this works. Let's save it\" (rating 4 inferred from \"works\"). Selected: the shot is T01 followed by T02 (T02 continues T01's last frame)."
             }
           ],
           "description": "He walks fast, the briefcase hugged to his chest, trying not to make a sound. Shutters closed. Nobody. His breath gets heavier.",
