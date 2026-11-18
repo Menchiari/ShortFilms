@@ -3,6 +3,14 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-18, Politician S02 SH110 T02 (96 credits, approved)
+
+- **What:** asked for a 720p final of a Seedance 2.5 draft; Higgsfield rendered it at 1080p and charged the 1080p price.
+- **Cause:** a draft final (`draft_job_id`) ignores `resolution`. The preflight showed it: 96 credits at 720p and at 1080p
+  alike, while a fresh 720p generation quoted 42. I flagged the gap as unknown instead of reading it as the answer.
+- **Rule:** a draft final costs the 1080p rate (16 credits per second) and comes out at 1080p. Present it that way. When two
+  quotes that should differ come back equal, the parameter that differs is being ignored.
+
 ## 2026-11-18, Politician S02 SH100 T02 and T03 (24 credits)
 
 - **What:** Leonard: "the city doesn't look realistic, street signs everything is wrong". No lamp posts, lane lines,
