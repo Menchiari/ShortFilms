@@ -563,6 +563,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard: keep what made S04 SH040 T01 work in future prompts. Written into 03-bible/style.md: backlit sun when the angle allows, the lighting paragraph, the realism paragraph, references narrowed to one job, locked-off long lens for wides, paths in screen terms, a task for every person, 'no parked cars', no set clip for place-filled frames."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S02 SH050: T01 (6cb55640) and T02 (7e324cfe) filter blocks refunded (28, 12). T03 (71b11a84, 12 credits) passed with neutral wording, same references: car came head-on from the town, pass doubled, shake 1-2 px. T04 (0e6ff473, car from behind, hard jolt) blocked by the filter (nsfw), 12 refunded 10:43 UTC."
     }
   ],
   "story_sync": {
