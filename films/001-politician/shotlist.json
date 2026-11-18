@@ -856,7 +856,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -973,9 +973,9 @@
                 "start frame v1 6227907d (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame. Tripod removed for free with ffmpeg delogo (box x726 y498 w60 h118), libx264 crf 12, audio copied: 05-generation/takes/S02/SH010/001_S02_SH010_T06_v2.mp4. Leonard 2026-11-18, after seeing the cleaned version: this shot works. [ASSUMPTION] 'this shot' = T06_v2 (the last file shown). Optional finish: paint the soft patch in Resolve Fusion."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
