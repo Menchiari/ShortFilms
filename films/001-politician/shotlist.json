@@ -1676,7 +1676,7 @@
           "framing": "INSERT, footwell",
           "movement": "Locked-off",
           "duration_s": 2,
-          "note": "Covered by SH180 T01 (the 3-5s insert after the cut)."
+          "note": ""
         },
         {
           "id": "SH200",
@@ -2152,7 +2152,7 @@
         },
         {
           "id": "SH040",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -2168,7 +2168,7 @@
               "prompt": "05-generation/prompts/001_S04_SH040_T01.txt",
               "file": "05-generation/takes/S04/SH040/001_S04_SH040_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH040_T01.jpg",
               "references": [
                 "char_politician a7601ce4",
                 "prop_briefcase 4bf36cb5",
