@@ -3029,6 +3029,27 @@
                 "palette_afternoon 3bf30eee"
               ],
               "notes": "REQUEST S05-SH020-h, draft, Leonard approved 12 credits (\"try\"). Folder S05/SH020. No start still (Leonard: the generated images are bad, the animatic is the best shot). Video 1: animatic d11 set clip as a line drawing (frames/001_S05_SH020_guide_lines_d11.mp4, media a77a2e75) with the strict guide paragraph; prompt back to the screenplay: he goes fast, not a sprint; people are just there, drift slowly, nobody closes him off; only the far ones speed up. Claude's read: true top view in the animatic's framing (street across the frame, rooftops along the bottom, the two cables, the boxes in the street). People are seen from above, heads and shoulders foreshortened, long real shadows: reads as drone footage, not figurines. He goes from the left quarter to the center at a quick jog. People step out and stand or drift on both sidewalks; by the end a loose scattering in the street around him, nobody blocking. Weak: at 480p he is a small dark figure, white hair and case hard to read; the light is darker than T03 (wide shade band); the animatic's boxes became concrete blocks and crates in the street; the bottom rooftops follow the animatic's block shapes, check that they do not read as CG. Audio not checked by ear."
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d1eff4a4-ea93-4a7f-abc0-30b1aa17a46d",
+              "prompt": "05-generation/prompts/001_S05_SH020_T07.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T07.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e as @Image1",
+                "everything else in words"
+              ],
+              "notes": "REQUEST S05-SH020-i, draft, Leonard approved 12 credits (\"go\"). Folder S05/SH020. Words only plus char_politician_dusty as @Image1 (Leonard: only descriptions, no references; then: the old man must be char_politician_dusty). Claude's read: the most cinematic take so far: hazy golden backlight down the street, long shadows toward the camera, dust glowing, people read as real. But Seedance ignored the framing: not a top view and not left to right; a high angle looking down the length of the street, which runs into depth, and he comes toward the camera down the middle. He walks briskly rather than jogs. People stand along both sidewalks under the shutters, a few step out; behind him more people come into the street from the far end. Nobody closes him off. The buildings are low one-storey rows of shutters with flat roofs, not the six-storey blocks of the town. Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
