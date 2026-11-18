@@ -3064,6 +3064,31 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH070-d, 720p, passed first submission, about 35 minutes in queue and render. 1470x630, 6.08 s, 24 fps. Leonard on T03: opposite angle, the call is a button tap, no slide. Claude's read from frames: over his right shoulder as asked, charcoal jacket and light cuff, cracked asphalt and his shoe passing: angle and walk work. Against the prompt: there is no 4:17 lock screen; it opens on an iOS-style slide-to-answer screen (green knob in a slider track, a garbled name at the top) and the struggle happens on that slider, the opposite of the note; around 2 s the phone leaves the frame entirely for a moment. Then Grandma, crisp, the green button tapped several times, then the red button. Calling never appears: Encrypted twice instead. Older phone with a home button. Hand less wet than T03. Audio not listened to."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "47816775-c551-4ac9-b83e-31516d6745e1",
+              "prompt": "05-generation/prompts/001_S05_SH070_T05.txt",
+              "file": "05-generation/takes/S05/SH070/001_S05_SH070_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e (hand, sleeve)",
+                "palette_afternoon 3bf30eee",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH070-e, 720p, passed first submission, about 60 minutes in queue and render. 1470x630, 6.08 s, 24 fps. Leonard on T04: no slide wording, tap the green circle, almost running, the contact is You're Fired. Claude's read from frames: over his right shoulder, the asphalt streams past with motion blur, his head and charcoal sleeve at the right. The 4:17 lock screen is back (the slide wording was the cause in T04, inferred): about 3 s of thumb pushes, around 2.3 s his left hand wipes across the wet right hand, the phone stays in frame. Then You're Fired spelled right with the apostrophe, padlock and Encrypted, the green circle tapped several times, then the red circle and Calling. Small: a tiny line of text above 4:17 on the lock screen. Very sweaty hand. Audio not listened to."
             }
           ],
           "description": "His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.",
