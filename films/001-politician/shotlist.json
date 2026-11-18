@@ -3203,7 +3203,7 @@
         },
         {
           "id": "SH090",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3254,10 +3254,10 @@
                 "palette_afternoon 3bf30eee",
                 "no guide clip"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH090-b, 480p (992x432), 5.06 s, audio present (mean -27.4 dB, sound from about 0.4 s to 4.9 s; not listened to, I don't know if the full line is there). Changes from T01 (Leonard's notes): case on his chest from SH070 T02's last frame, he hides his face, agitated, a fox planning his escape; no guide clip, clean element as in SH070 T02. Claude's read from frames every 0.5 s: photographic. 0-0.5 s: on his back, head up off the ground, case on his chest, glaring up with an open mouth. By 1 s he curls up into a ball toward the camera: forearm across his nose and mouth, wristwatch hand at his cheek, eyes uncovered above the sleeve, narrowed and glaring up at the camera, holding through the end. The case is hard to read after 1 s (a dark shape under his arms, it may be his knees); his mouth is hidden by the sleeve, so lip sync does not show. Angle lower and more oblique than T01, the curb behind him on a diagonal. Shot sent to Leonard in chat."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH090-b, 480p (992x432), 5.06 s, audio present (mean -27.4 dB, sound from about 0.4 s to 4.9 s; not listened to, I don't know if the full line is there). Changes from T01 (Leonard's notes): case on his chest from SH070 T02's last frame, he hides his face, agitated, a fox planning his escape; no guide clip, clean element as in SH070 T02. Claude's read from frames every 0.5 s: photographic. 0-0.5 s: on his back, head up off the ground, case on his chest, glaring up with an open mouth. By 1 s he curls up into a ball toward the camera: forearm across his nose and mouth, wristwatch hand at his cheek, eyes uncovered above the sleeve, narrowed and glaring up at the camera, holding through the end. The case is hard to read after 1 s (a dark shape under his arms, it may be his knees); his mouth is hidden by the sleeve, so lip sync does not show. Angle lower and more oblique than T01, the curb behind him on a diagonal. Shot sent to Leonard in chat. Leonard 2026-11-18: love it."
             }
           ],
           "description": "On the ground, the old man covers his face with his hand.",
