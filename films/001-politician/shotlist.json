@@ -3073,6 +3073,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH110-c. Folder S05/SH110. video_edit of T02 (547e4e5d) with the Franklin bond (ref_bond_element_v8, 733c151a). Claude's read: no visible change. The sheet is the same generic certificate as T02; PSNR against T02 is 39.6 dB average (a re-encode, not an edit). The API echo listed both inputs under reference_images: the edit may not have used T02 as its source video. I don't know which."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "74a2ff10-d549-41ad-9f80-1d195a13238c",
+              "prompt": "05-generation/prompts/001_S05_SH110_T04.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T04.jpg",
+              "references": [
+                "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-d. Folder S05/SH110. T02's prompt plus the Franklin bond (ref_bond_element_v8, 733c151a) as the only reference. Claude's read: one continuous take (no scene cut detected), photoreal street, a few women in long dresses in the crowd. The sheets are page-sized and carry the Franklin layout: green band, rosettes with 500, blackletter title, the green box. The hero sheet passes the lens at about 1.3-2.0 s: the large $500,000 reads (the $ blurs); the blackletter title only resembles County of Franklin and the smaller lines are smeared."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
