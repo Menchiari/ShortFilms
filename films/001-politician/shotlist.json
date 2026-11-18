@@ -3234,7 +3234,7 @@
         },
         {
           "id": "SH110",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -3250,7 +3250,7 @@
               "prompt": "05-generation/prompts/001_S04_SH110_T01.txt",
               "file": "05-generation/takes/S04/SH110/001_S04_SH110_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH110_T01.jpg",
               "references": [
                 "char_politician_dusty 98e1e69e",
                 "char_big-guy 6228445b",
