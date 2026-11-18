@@ -1238,6 +1238,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard, naming rule (restated 2026-11-18): reference images are @Image1, @Image2, @Image3 by upload order, the video @Video1, audio @Audio1. Characters ALWAYS as @char_<name> in the version that matches the scene in the script (S05 before the rock: @char_politician_dusty; after: @char_politician_blood), props @prop_<name>, locations @loc_<name> when used. Format: '@char_politician_dusty (@Image1): ...', then @char_ / @prop_ / @loc_ names in the body. S05 SH080 T04 prompt updated to it."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH070 closed: Leonard keeps T02 (Honeypot, 480p, loved). T05 rated 2 (inferred: \"I liked how he did it before\"). Shot total 156 credits over T01 to T05. T02 needs an upscale when the edit locks."
     }
   ],
   "story_sync": {
