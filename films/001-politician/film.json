@@ -505,6 +505,10 @@
     {
       "date": "2026-11-18",
       "text": "S02 SH010 T04 approved (12 credits, 480p draft, start frame v1 6227907d, locked-off) and submitted: ff097cf2-61f4-45c1-ab91-a869dd45f730."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050f approved (98 credits, 720p, 21:9, 14 s, audio on, no draft flag) and submitted: S03 SH050 T01 c6a30881-577e-4ba8-be88-1922e30323f9, start frame v5 (job 1310a61e) plus char_politician and prop_briefcase, prompt 05-generation/prompts/001_S03_SH050_T01.txt. The job echo lists the start frame as reference_images."
     }
   ],
   "story_sync": {
