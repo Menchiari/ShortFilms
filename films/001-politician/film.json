@@ -401,6 +401,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050e approved (1.5 credits): S03 SH050 start frame v5, gpt_image_2_6 high 1k 21:9, job 1310a61e-df17-4e20-a90c-1c1426b367d0, guide frame, loc_crossroads, prop_car, man in words. Claude's read: steeper angle, car just right of center and a little below the middle, about a tenth of the width, nose to the upper left; road markings and traffic lights; only a short rail under his arms. Files frames/001_S03_SH050_T01_start_v5_src.png and _start_v5.jpg."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050f approved (98 credits, 720p, 21:9, 14 s, audio on, no draft flag) and submitted: S03 SH050 T01 c6a30881-577e-4ba8-be88-1922e30323f9, start frame v5 (job 1310a61e) plus char_politician and prop_briefcase, prompt 05-generation/prompts/001_S03_SH050_T01.txt. The job echo lists the start frame as reference_images."
     }
   ],
   "story_sync": {
