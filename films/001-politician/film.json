@@ -1262,6 +1262,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH135: T01 to T04 prompts used the old naming ('Image 1'), copied from the S03 SH010 template; PROMPTING.md changed the rule on 2026-11-18 (e2da6bb) and this session did not re-read it. REQUEST S04-SH135-d is now prompts/001_S04_SH135_T04_v2.txt: @char_big-guy (@Image1), @char_politician_dusty (@Image2), @prop_briefcase (@Image3), @loc_side-street (@Image4), @Image5 palette, @Image6 SH120 T02 frame for light, street and color only (no longer the grip). Element image ids in medias as before. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH070-d prepared, not submitted (Leonard asked for a new generation with T02 as the reference for performance and briefcase): prompts/001_S04_SH070_T04.txt, seedance_2_5 omni_reference, 720p, 21:9, 4 s, audio on. Images as T02; video reference T02 82578f76 (replaces the line guide). Quote 28 credits."
     }
   ],
   "story_sync": {
