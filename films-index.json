@@ -6,8 +6,13 @@
       "id": "001",
       "title": "Routine",
       "status": "generation",
+<<<<<<< HEAD
       "takes": 74,
       "size_mb": 168.2
+=======
+      "takes": 75,
+      "size_mb": 172.9
+>>>>>>> 86bed8a6f8cc2584006cbf14058fc78b855fd125
     }
   ]
 }
