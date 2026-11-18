@@ -2931,7 +2931,7 @@
         },
         {
           "id": "SH050",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -2979,9 +2979,9 @@
                 "prop_briefcase 4bf36cb5"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S04-SH050-b approved by Leonard, passed first submission. Returns only the new 4 s (96 frames, 992x432). Join with the flipped T01 holds: last frame vs source first frame SSIM 0.95, same men, poses and light. Joined preview (free, concat): takes/S04/SH050/001_S04_SH050_T02_join.mp4, 6.34 s. Audio present (mean -40.2 dB; not listened to). Claude's read from frames every 0.25 s: the men talk 0-1 s; he enters at the right edge at about 1 s at mid-distance, his face sharp and readable for about half a second, then walks toward the lens on a diagonal and crosses right to left very close, body nearly frontal, so from about 1.75 s his head is cut off by the top of the frame and he is a soft blur of suit and rust tie from the chest down, hiding the men; gone at the left edge by about 3.75 s. Misses: his head not in frame during the cross; no briefcase visible in any sampled frame (hands empty). Man 2 keeps talking and does not look up, as asked."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH050-b approved by Leonard, passed first submission. Returns only the new 4 s (96 frames, 992x432). Join with the flipped T01 holds: last frame vs source first frame SSIM 0.95, same men, poses and light. Joined preview (free, concat): takes/S04/SH050/001_S04_SH050_T02_join.mp4, 6.34 s. Audio present (mean -40.2 dB; not listened to). Claude's read from frames every 0.25 s: the men talk 0-1 s; he enters at the right edge at about 1 s at mid-distance, his face sharp and readable for about half a second, then walks toward the lens on a diagonal and crosses right to left very close, body nearly frontal, so from about 1.75 s his head is cut off by the top of the frame and he is a soft blur of suit and rust tie from the chest down, hiding the men; gone at the left edge by about 3.75 s. Miss: his head not in frame during the cross. Claude's read said no briefcase; Leonard 2026-11-18: he does have the briefcase (Claude's read was wrong). Man 2 keeps talking and does not look up, as asked. Leonard 2026-11-18: 'The whole shot works'; the shared preview had heavy compression artifacts. Rebuilt from the original downloads in one pass (flip, trim and join together, crf 10): takes/S04/SH050/001_S04_SH050_T02_join_v2.mp4 (480p) and _join_720p.mp4 (lanczos to 1470x630, crf 12). The 720p file adds no detail: the sources are 480p at 418 kb/s (T01) and 888 kb/s (T02)."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
