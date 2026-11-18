@@ -910,6 +910,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH090-b prepared, not submitted: prompts/001_S04_SH090_T02.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on, no guide clip. Leonard: match the end pose of SH070, less out of it, much more upset, 'a wild cat exposed to the spotlight'. Images: char_politician a7601ce4 (clean, as in SH070 T02, the loved take), SH070 T02 last frame b4a4c0bd (refs/001_S04_SH070_T02_last.png, filed in REFS: pose, case on his chest, place, light), prop_briefcase 4bf36cb5, palette_afternoon 3bf30eee. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH110-a approved by Leonard (\"ok let's do it\"; get_cost 15 credits) and submitted: S04 SH110 T01 572c5abc-9dfe-416a-9d2d-3ff7bc3182c7, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, folder S04/SH110."
     }
   ],
   "story_sync": {
