@@ -3827,8 +3827,8 @@
                 "palette_afternoon 3bf30eee"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
+              "rating": 4,
+              "rating_source": "inferred",
               "notes": "REQUEST S05-SH010-b. One change from T01: waist-up framing. Claude's read of frames: 0-2s waist up as asked, case below frame; about 2.5-3s he hauls the case up in front of his waist with both hands and looks back over his shoulder; about 3.5-4.5s the camera falls back and he reads near full figure (the distance does not hold); 5-6s close again, chest up, running at the lens, eyes up. Face more strained than T01. Audio peaks near 1-2s and 5s; words not verified by Claude."
             }
           ],
