@@ -462,6 +462,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard on S03 SH040 T02: \"works\" (rating 4, inferred). SH040 approved with T02."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 020g approved by Leonard at 720p (\"let's do the 720p version go\"; get_cost 56 credits) and submitted: S03 SH020 T05 f616f4c2-c15c-4dba-be97-49a435ad7421, 720p, 21:9, 8 s, no draft flag, start frame v3 at full source resolution (1244x532, media eb99a51a, in REFS), silent until the angry line."
     }
   ],
   "story_sync": {
