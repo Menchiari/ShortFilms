@@ -3,6 +3,15 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-18, Politician S02 SH100 T02 and T03 (24 credits)
+
+- **What:** Leonard: "the city doesn't look realistic, street signs everything is wrong". No lamp posts, lane lines,
+  traffic lights, signs, sidewalks or parked cars; storefronts sit on a dirt road; identical towers repeat to infinity.
+- **Cause:** the prompt carried none of the street rules ("Nobody in the street", furniture only named as "only" for
+  image 2), and the guide clip is the d11 animatic street, which has no furniture: the model took the layout from it.
+- **Rule:** a guide clip of a street that lacks the street rules is not used. Start from the location image that
+  carries them (start frame) and describe the camera in words.
+
 ## 2026-11-17, Politician S01 SH020 T03 to T06 (70.75 credits for one 2 s shot)
 
 - **What:** four takes. T03 edited the old take into an LED sign Leonard never asked for; T04 held still; T05 put the
@@ -148,3 +157,12 @@ the rule that prevents it. Newest first.
 - **Cause:** the list was written before draft 8 (2026-11-15 06:15) and edited after it (21:17)
   without being checked against it. Draft 8 moved the chase to a square.
 - **Rule:** after every new draft, recheck the asset list against the screenplay, scene by scene.
+
+## 2026-11-18 001 S02 SH010 T06: angle not changed, tripod in frame (28 credits)
+
+- **What:** asked for eye height with start frame v1 as an image reference. The take kept the reference's
+  camera height exactly, and a camera tripod stands on the road for the whole shot.
+- **Cause:** a Seedance image reference of a whole scene locks its composition like a start frame; the
+  prompt text cannot move the camera against it. "Locked-off on a tripod" was drawn as an object.
+- **Rule:** a new angle needs a new image at that angle (from Leonard's pipeline). Never write "tripod" in a
+  prompt: write "static camera".
