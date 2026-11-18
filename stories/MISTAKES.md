@@ -3,6 +3,15 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-18, Politician S02 SH050 T03 and T04 (24 credits)
+
+- **What:** in both takes the car reaches the foot of the towers in two seconds: the town reads as a toy model (Leonard).
+- **Cause:** my prompt ended on "the car small, racing toward the gap". For the car to look small next to a skyline about
+  1.5 km away it has to cover about 200 m in 2 s (about 340 km/h). The town's distance came from the loc_town-edge image
+  (a far skyline), not from the d11 clip (towers close, filling the frame); the end state was never checked against speed.
+- **Rule:** every end position of a moving object gets a distance that its speed can reach in the time ("about 60 m
+  away after 2 s"), and its size in frame against a fixed object ("as tall as half a tower").
+
 ## 2026-11-18, Politician S02 SH110 T02 (96 credits, approved)
 
 - **What:** asked for a 720p final of a Seedance 2.5 draft; Higgsfield rendered it at 1080p and charged the 1080p price.
