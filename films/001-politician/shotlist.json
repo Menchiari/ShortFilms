@@ -3354,6 +3354,33 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH120-a, 480p (992x432), 6.08 s, audio present (mean -30 dB; not listened to). Prompt v2 with Leonard's eye direction. Claude's read from frames every 0.5 s and the last second at 6 fps: photographic, the old man matches the dusty element, backlit afternoon sun, soft facades behind. Acting: eyes down and away at the start, a small closed-mouth half smile around 1 s, a level look to screen right in the middle, a softer look after; the look up at the windows comes only in the last few frames (about 5.8 s), very short. Lips closed in the frames checked. Misses: the fat person is not a blurred sliver: the back of his head and ear fill the right third, dark and fairly sharp, very close to the old man; his hand at the collar reads small, holding the tie knot more than gripping the collar. Leonard 2026-11-18: 'absolutely not', way too calm; the man should hold him with both hands."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "a3384d72-8582-4ca4-a559-f8fa58b6e817",
+              "prompt": "05-generation/prompts/001_S04_SH120_T02.txt",
+              "file": "05-generation/takes/S04/SH120/001_S04_SH120_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH120_T02.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH120-b, 480p (992x432), 6.08 s, audio present (mean -29 dB; not listened to). Prompt T02 with Leonard's panic direction. Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: both fists twist the collar under his chin; the pleading half smile close to crying shows around 1-1.5 s; eyes move, a hard squint around 2.5 s, a wary sideways look around 3-4 s; from about 4.4 s to the end (about 1.6 s) he looks up, head tilted, mouth open, brows raised. Misses: the first frame already has him looking up with mouth open, so the look up happens twice; his face reads rounder and heavier than the dusty element; the suit reads like a black jacket over a turtleneck-like collar and the rust tie is gone; the big man's profile (nose, mustache, cheek) shows at the right edge, smaller than in T01 but more than a sliver. I did not check his lips frame by frame against the line."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
