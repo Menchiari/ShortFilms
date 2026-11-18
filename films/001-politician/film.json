@@ -818,6 +818,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH050 T01 flipped horizontally on Leonard's note (takes/S04/SH050/001_S04_SH050_T01_flip.mp4). REQUEST S04-SH050-b prepared, not submitted: prompts/001_S04_SH050_T02.txt, backward extension (4 s, 480p, audio on) of the flipped T01 cut from 1.75 s (refs/001_S04_SH050_T01_flip_from1.75s.mp4, upload 8facbda6, filed in REFS): the old man crosses the foreground fast right to left, then the flipped T01 plays and Man 2 looks after him to screen left. Images: char_politician a7601ce4, prop_briefcase 4bf36cb5. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH070-a approved by Leonard (12 credits, 480p draft, 21:9, 4 s): S04 SH070 T01 submitted, job d6be83ba-1900-4248-af22-73b66e350a85, folder S04/SH070, prompt 001_S04_SH070_T01.txt. Element char_politician (clean) [ASSUMPTION, Leonard did not answer the element question]."
     }
   ],
   "story_sync": {
