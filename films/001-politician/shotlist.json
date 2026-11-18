@@ -1978,9 +1978,9 @@
                 "prop_briefcase 4bf36cb5"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear. Leonard 2026-11-18: this shot works; not fully convinced by the street, maybe some cars: a modified still for post (he adds it in post)."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",

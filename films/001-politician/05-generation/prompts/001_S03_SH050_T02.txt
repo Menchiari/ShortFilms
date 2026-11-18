@@ -1,0 +1,20 @@
+REQUEST 050g (pending approval): S03 SH050 T02 = T01 (job c6a30881) extended forward 4 s. seedance_2_5, mode video_extension, extension_mode forward, 720p, audio on, folder S03/SH050. Images: 1 = char_politician (a7601ce4), 2 = prop_briefcase (4bf36cb5). 28 credits.
+Leonard 2026-11-18: extend 4 seconds, same resolution, he holds the briefcase to his chest.
+
+Prompt:
+
+Audio: only the near silence of an empty town from high above: a faint dry wind, his shoes on grit, and the smoker's slow exhale close by. No engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Continue the video forward from its last frame, the same shot: the same camera position, framing and very slight handheld drift, the same crossroads, light and color, the black sedan in the same place with its driver door wide open, the man on the balcony at the far left still leaning on his forearms, smoking, watching. Image 1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only. Image 2: the dark leather briefcase only. Do not replay or recreate anything that happened before the last frame.
+
+0-2s: the old man keeps walking toward screen left at the same steady walking pace, away from the car. As he walks he brings the briefcase of image 2 up in front of him with both hands and hugs it flat against his chest, both arms wrapped over it.
+2-4s: he keeps walking left with the briefcase held tight to his chest in both arms, never running, his head down, toward the street on the left side of the frame. Final frame: the old man small and far, further left on the crossroads, the briefcase hugged to his chest, still walking; the car with its door open in the same place; the man on the balcony watching him go; the camera in the same position.
+
+ACTING TASK, the old man (he is fully invested in his tactic; at this distance the work is in his body):
+TACTIC: out in the open on foot, he guards the one thing that matters: he pulls the case in to his body like something alive and keeps walking, making himself small, so that nothing about him draws a glance.
+
+Count of cars: one. Count of people: two, the old man and the man on the balcony. Count of briefcases: one. Nobody else in the street, at the windows or on the balconies.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the near silence of an empty town from high above: a faint dry wind, his shoes on grit, and the smoker's slow exhale close by. No engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
