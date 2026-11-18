@@ -1705,6 +1705,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST 018c, draft, seed 70053040. Covers SH120 and SH140 only; SH150 stays from T01 (Leonard's favourite). Claude's read: the towers are now close and fill the frame. Problems: they read as one continuous smooth megablock, render-like; a concrete trench edge still crosses the foreground and a sandy strip runs along the facades like a road; SH140 shows open desert with slabs on the right. Bobblehead and one briefcase correct, nothing at the glovebox."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "9dfe1f05-4dc9-46fc-8212-21c6c7c2ea01",
+              "prompt": "05-generation/prompts/001_S02_SH120_T03.txt",
+              "file": "05-generation/takes/S02/SH120/001_S02_SH120_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "loc_car-interior 60a2aec8",
+                "prop_briefcase 4bf36cb5",
+                "prop_wobblehead fa19c43f",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST 018d, draft, seed 793633044, no line guide. Covers SH120 and SH140; SH150 stays from T01. Claude's read: photographic, no ditch; separate weathered towers, tops cut by the frame, about a hundred meters off rather than ten; bare dusty ground with low mounds. Streets open between the towers (right of the pillar in SH120, left in SH140). SH140 looks forward-right more than right; bobblehead faces in, giving the finger as scripted; one briefcase, low at the bottom right."
             }
           ],
           "description": "Through the windshield: broken ground and a deep dry ditch, rubble, then the towers, shoulder to shoulder, running away to the left. No road.",
