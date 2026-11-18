@@ -953,6 +953,29 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "Draft. Higgsfield folder S02/SH010. File 992x432, 24 fps, 4.04 s, audio wind only (mean -38.5 dB). Claude's read: every tower, the gap and the road hold the start frame exactly, no redraw. Locked-off. Motion is small: dust blows off the road edges, a small dust devil rises at the right around 2 s and fades, sun glints on the rooftops. No visible dust through the gap, heat shimmer too subtle to read at 480p. Still a near-static postcard: the same weakness as T01, now with the right angle. Leonard 2026-11-18: work. Next: 720p from human eye height (T06; T05 push-in prompt never generated)."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "c0043f42-928f-4c50-8dcc-a560ab957ded",
+              "prompt": "05-generation/prompts/001_S02_SH010_T06.txt",
+              "file": "05-generation/takes/S02/SH010/001_S02_SH010_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH010_T06.jpg",
+              "references": [
+                "start frame v1 6227907d (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame."
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
