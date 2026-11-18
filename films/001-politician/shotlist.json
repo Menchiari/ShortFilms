@@ -1536,9 +1536,9 @@
                 "prop_car 42787b78"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "Leonard approved 2026-11-18 (go T05). Physics spelled out in words. Claude's read at 6 fps: desert only, dead straight head-on throughout; from about 1.2 s thick fans of sand and gravel spray from both front wheels, grit flying, then a heavy dust wave rolls over the car and swallows the frame by 3.5 s, headlights glowing through. The approach reads slower than 100 km/h; the nose dive is not clearly visible in stills."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "Leonard approved 2026-11-18 (go T05). Physics spelled out in words. Claude's read at 6 fps: desert only, dead straight head-on throughout; from about 1.2 s thick fans of sand and gravel spray from both front wheels, grit flying, then a heavy dust wave rolls over the car and swallows the frame by 3.5 s, headlights glowing through. The approach reads slower than 100 km/h; the nose dive is not clearly visible in stills. Leonard 2026-11-18: too much dirt; make it skid a bit left and right, as long as it stops centered."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
