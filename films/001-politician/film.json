@@ -172,7 +172,8 @@
       "S04/SH050": "eb370852-1bce-443b-b265-0ba496292f3b",
       "S04/SH100": "a9b5ddd1-f3d4-49e2-9099-95839c6e14a5",
       "S04/SH090": "11abe270-ae25-48f5-8e0d-5f7da3a805e2",
-      "S04/SH060": "5b9923a0-c359-42f3-9199-c5bebcbe3744"
+      "S04/SH060": "5b9923a0-c359-42f3-9199-c5bebcbe3744",
+      "S04/SH110": "c7222bc7-a85c-440e-8680-3583f247cf9f"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -732,6 +733,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH060: Higgsfield folder S04/SH060 created (5b9923a0-c359-42f3-9199-c5bebcbe3744). Line-drawing guide refs/001_S04_SH060_lines_d11.mp4 (edgedetect of refs_d11/S04_SH060.mp4) uploaded to REFS (video 9fc85eee-e865-47e1-9211-353cb1bf2b12). REQUEST S04-SH060-a prepared, not submitted: prompts/001_S04_SH060_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on, char_politician a7601ce4, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, char_big-guy 6228445b, palette_afternoon 3bf30eee. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH110: Higgsfield folder S04/SH110 created (c7222bc7). REQUEST S04-SH110-a prepared, not submitted: prompts/001_S04_SH110_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on, words and elements only (no previz clip: its line version carries only the fat person's outline, the old man's soft head vanishes; a video ref costs the same). Images: char_politician_dusty 98e1e69e, char_big-guy 6228445b, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee. [ASSUMPTION] sun far down the street behind the fat person (backlight), as in SH040. get_cost: 15 credits."
     }
   ],
   "story_sync": {
