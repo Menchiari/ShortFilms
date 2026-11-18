@@ -3068,7 +3068,7 @@
               "prompt": "05-generation/prompts/001_S04_SH060_T03.txt",
               "file": "05-generation/takes/S04/SH060/001_S04_SH060_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH060_T03.jpg",
               "references": [
                 "edit of SH060 T02 (7503a780)",
                 "street still from S04 SH140 T01, refs/001_S04_SH060_street_from_SH140.jpg (7afcbc84)"
