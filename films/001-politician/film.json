@@ -1042,6 +1042,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH070 T02 is not finalizable (sent without the draft flag). REQUEST S04-SH070-c approved by Leonard (31 credits, option A): T03 = video_edit of T02 at 720p with a change-nothing prompt (prompts/001_S04_SH070_T03.txt), job dcc02823-d24f-4714-85f8-60b269f1980a, folder S04/SH070. Leonard: this method usually comes out low resolution."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH130 T03 loved (5, inferred from Leonard's \"love it\"), shot approved. Leonard asked for a 720p final. T03 is a 480p video_edit, not a draft job: draft finalize quotes 80 credits (suspect, matches the 1080p 5 s default) and may not apply. Options quoted: video_edit of T03 at 720p keeping everything, 31 credits; upscale of T03 (no cost preflight available). Waiting for Leonard's pick."
     }
   ],
   "story_sync": {
