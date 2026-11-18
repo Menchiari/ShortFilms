@@ -3235,7 +3235,33 @@
         {
           "id": "SH110",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "572c5abc-9dfe-416a-9d2d-3ff7bc3182c7",
+              "prompt": "05-generation/prompts/001_S04_SH110_T01.txt",
+              "file": "05-generation/takes/S04/SH110/001_S04_SH110_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "notes": "REQUEST S04-SH110-a, draft, no previz clip. Claude's read: photographic, 992x432, 5 s. The haul-up happens at about 0.5 to 1 s; eyelines right (old man screen left looking right, fat person screen right looking left). Framed as a close profile two-shot, not over the shoulder: the old man's face is in profile, not his back. His suit reads near black, no tie visible. The briefcase shows only as a dark corner with a metal clasp at the bottom of frame. Background street fairly sharp, not very soft. Audio continuous (no gap over 0.3 s); the spoken words not checked by ear."
+            }
+          ],
           "description": "The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.",
           "framing": "CLOSE, over the old man's shoulder",
           "movement": "Handheld, tight",
