@@ -1206,6 +1206,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S05-SH070-e approved (42 credits, 720p, 21:9, 6 s) and submitted: S05 SH070 T05 47816775-c551-4ac9-b83e-31516d6745e1. Leonard: the T04 fixes (no slide wording, tap the green circle), almost running, the contact is \"You're Fired\"."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH020: prompts T03 to T07 named references 'Image 1' although Leonard decided @Image1, @Image2 on 2026-11-17 (REQUEST 030a). Cause: Claude read only the last log entries, followed the S03 SH010 template, and the rule is not in docs/PROMPTING.md. T07 prompt corrected to @Image1."
     }
   ],
   "story_sync": {
