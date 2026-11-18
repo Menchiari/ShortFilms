@@ -1122,6 +1122,10 @@
     {
       "date": "2026-11-18",
       "text": "S04 SH130 T05: Topaz upscale of T03 to 1080p (Leonard's option B), 5 credits from the transaction log (no preflight exists for upscales), job 102605e2-0f6d-41ac-8ce3-4ceec6ca3940, takes/S04/SH130/001_S04_SH130_T05.mp4, 2560x1080. Stretched about 3% wide against T03 (fix in the edit); sharper than T04 with waxy upscaler faces. Not in the Higgsfield folder: attach refused (403). SH130 total: 75 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S05 SH070 T02 loved (Leonard: love it). REQUEST S05-SH070-c approved (42 credits, 720p, 21:9, 6 s) and submitted: S05 SH070 T03 3e0d0bc1-80ec-489a-8b82-c233b253e1aa, the T02 prompt with the contact renamed Grandma (Leonard)."
     }
   ],
   "story_sync": {
