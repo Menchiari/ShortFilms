@@ -3393,8 +3393,37 @@
         },
         {
           "id": "SH140",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "5b0a2b22-2eb2-4629-95ad-feefb09359f4",
+              "prompt": "05-generation/prompts/001_S04_SH140_T01.txt",
+              "file": "05-generation/takes/S04/SH140/001_S04_SH140_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH140-a, 480p (992x432), 4.06 s. Text and elements only, no previz clip. Higgsfield folder S04/SH140. Claude's read (frames every 0.125-0.25 s and audio levels, not listened to): photographic, nothing of the previz look; the fat person matches char_big-guy, the old man reads as char_politician_dusty (thinning hair, charcoal jacket). Eyelines right: old man screen left facing right, fat person screen right facing left. The old man sinks and slides down and out of the bottom left by about 1.75 s, no shove, no blow. Off from the prompt: the fat person's hand stays a closed fist, raised beside the old man's head while he ducks under it (1.25-2 s): it can read as a threat, not a release. The old man's face shows in profile while he ducks. The friend (olive shirt, jeans, phone) walks forward and from about 2.75 s flings his arm out to screen right, the wrong way (the old man ran screen left). Briefcase only glimpsed low in frame at 0-0.5 s, reads as a black hard case. Small round red street sign far right, no readable text. Audio quiet to 2.5 s (about -44 dB), louder 2.5-4 s (about -24 to -28 dB), consistent with the shouted line; not verified by ear."
+            }
+          ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
           "framing": "CLOSE, same angle as SH110",
           "movement": "Handheld",
