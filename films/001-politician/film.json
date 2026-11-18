@@ -153,7 +153,8 @@
       "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b",
       "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480",
       "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7",
-      "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724"
+      "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
+      "S04/SH030": "3952351d-e365-4d15-a957-14508c0d7947"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -509,6 +510,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050f approved (98 credits, 720p, 21:9, 14 s, audio on, no draft flag) and submitted: S03 SH050 T01 c6a30881-577e-4ba8-be88-1922e30323f9, start frame v5 (job 1310a61e) plus char_politician and prop_briefcase, prompt 05-generation/prompts/001_S03_SH050_T01.txt. The job echo lists the start frame as reference_images."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH030 created (3952351d-e365-4d15-a957-14508c0d7947). S04 SH030 T01 prompt drafted, REQUEST S04-SH030-a pending approval (estimate 12 credits)."
     }
   ],
   "story_sync": {
