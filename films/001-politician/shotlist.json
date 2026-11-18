@@ -1090,7 +1090,33 @@
         {
           "id": "SH050",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "71b11a84-d4cf-44df-a8ce-472c6eec0f76",
+              "prompt": "05-generation/prompts/001_S02_SH050_T03.txt",
+              "file": "05-generation/takes/S02/SH050/001_S02_SH050_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_town-edge 146470dd",
+                "prop_car 42787b78",
+                "palette_afternoon 3bf30eee",
+                "line guide cdcd9efc (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Filter test after T01 (6cb55640) and T02 (7e324cfe) were blocked (nsfw, both refunded). Same references and line guide as T02; only the wording changed (no underside, blast, tears, hits; 'sails over, clearing it by a wide margin'; 'no people'). Passed first submission: the cause of the blocks was the wording. Draft, seed 84453033, 992x432, 24 fps, 4.04 s. Claude's read: photographic, real tower wall with the gap. The car comes FROM the town head-on toward the lens instead of from behind the camera, passes over, then its underside appears a second time (frame 9 empty, then underside again), then drives away to the town: direction wrong and the pass doubled. Shake: skyline moves only 1 to 2 px after the pass, too small for Leonard's note. Last 2 s the road turns to dirt with a dust trail."
+            }
+          ],
           "description": "The town on the horizon. The car hits a bump and tears over the camera, wheels off the ground for an instant.",
           "framing": "LOW, ground level, facing the town",
           "movement": "Locked-off, car passes over camera",
