@@ -1483,7 +1483,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1506,10 +1506,10 @@
                 "palette_afternoon 3bf30eee",
                 "line guide c4e6b110"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: Covers SH110, SH130, SH160. Photographic: from behind his shoulder he looks left, then turns right toward the lens with a hard look. Through the windshield a street of buildings rather than the wall of towers a few meters away."
+              "love": true,
+              "rating": 5,
+              "rating_source": "user",
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH110, SH130, SH160. Photographic: from behind his shoulder he looks left, then turns right toward the lens with a hard look. Through the windshield a street of buildings rather than the wall of towers a few meters away. Leonard 2026-11-18: \"this shot is perfect\"."
             }
           ],
           "description": "He leans forward over the wheel and looks left.",
