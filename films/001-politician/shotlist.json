@@ -4317,6 +4317,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH090-c. Draft. Changes from T02: Leonard's acting notes (case opens on impact, arm forward, conscious, fights to get up from the ground), palette_afternoon dropped, motion guide cropped tighter. Claude's read: background now the narrow side street with shutters, soft, shallow focus, long-lens look: the high-rise boulevard is gone (palette dropped and crop changed together, so the cause is not isolated). Asphalt grit and small stones sharp in the focus plane, long hard sun shadows. Case lands and is open at once, settles upright. Right arm forward. From about 1.7 s he lifts his head and chest, eyes forward to screen right, reaches and claws with the right hand, stays down; the fury reads as strain, not clearly as 'no'. Papers wrong: few, small, banknote-sized, not A4 sheets; the case is nearly empty after the burst. Blood: three gash lines across the right brow and temple more than a stream."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "96c93129-4c86-4826-a6fe-196ae6c9cdb3",
+              "prompt": "05-generation/prompts/001_S05_SH090_T04.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T04.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_dusty 98e1e69e",
+                "bond still without coupons b54d3a91 (refs/001_S05_SH090_bond_v2.jpg)",
+                "loc_side-street e728a9ae",
+                "refs/001_S05_SH090_motion_d11_tight.mp4 eeadc9a1 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH090-d. Draft. Changes from T03: the case leaves his hand, violent impact, packed with A4 bonds, bond still without coupons. Claude's read: the case now clearly flies out of his right hand as he hits the ground. It lands flat and CLOSED, lies still about 0.6 s, then the lid opens by itself at about 1.3 s: not on impact. Inside: tight bundles that read as stacks of banknotes, and the flying cloud reads as notes, not A4 sheets. Framing tighter than T03, he fills the left half; background narrow street but with a parked car (forbidden). Acting closest so far: from about 2 s he lifts his head, bares his teeth, eyes on the case and the paper, reaches with the right hand, then drops his head again at the end. Blood: a gash over the brow with a stream down the temple."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
