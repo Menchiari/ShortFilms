@@ -2959,6 +2959,29 @@
                 "palette_afternoon 3bf30eee"
               ],
               "notes": "REQUEST S05-SH020-b, draft, Leonard approved 12 credits (\"try again\"). Folder S05/SH020. Earlier tests T01, T02 in the old test project (stories/politician/tests). Start still: GPT Image 2.6 job 2522297d (2.75 credits, REQUEST S05-SH020-a, frames/001_S05_SH020_T03_start.png), layout from animatic d11 frame 0; no video reference (Leonard: the previz animation is wrong, the positions work). Claude's read: frame 0 matches the still; photographic, no CG look. High oblique angle (Leonard: the angle works). The old man runs from the left quarter to the center with the case, uneven. People walk off the top sidewalk and out of the side street and doorways, at different moments and speeds, on their own lines; at the end the street holds about 30 people spread around him. The bottom sidewalk mostly stays put, so the ring closes from the top and the ends more than from below. He ends at center, not right of center. Audio not yet checked by ear."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 14.75,
+              "job_id": "75cb835e-66dd-4703-b468-1dabe34a0ee2",
+              "prompt": "05-generation/prompts/001_S05_SH020_T04.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T04.jpg",
+              "references": [
+                "start_image 8453bc84 (GPT Image 2.6 edit of 2522297d)",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "notes": "REQUEST S05-SH020-d, draft, Leonard approved 12 credits (\"ok let's do it\"). Folder S05/SH020. Start still: GPT Image 2.6 edit 8453bc84 (2.75 credits, REQUEST S05-SH020-c, frames/001_S05_SH020_T04_start.png): Leonard, half the people, all in front of him. Claude's read: frame 0 matches the still; photographic; the street behind him stays empty. The people turn toward him and shift, step and drift on the sidewalks, each differently, but almost nobody steps into the street ahead of him: no line forms across the street. The old man covers only about a quarter of the frame in 4 s (x 23% to 45%) and slows from a run to near a walk by the end. One extra man appears in the bottom-right roof opening (12 at the end, not 11). Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
