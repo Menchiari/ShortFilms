@@ -3025,9 +3025,9 @@
                 "animatic d11 S05_SH110 line-drawing guide 1142fac7 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH110-a. Folder S05/SH110. Passed first submission. Tests whether Seedance renders the bond text from the image. Claude's read: fails on three counts. 1) 0-3.3 s copies the animatic: blocky box-bodied figures and flat buildings, previz look, despite the line-drawing guide (the clip's frame is filled by place: refs_d11 README rule). 2) The bond passes the lens at 1.4-1.8 s with the right green border and cream paper, but its text is a green smear, unreadable at 480p. 3) At about 3.3 s a hard cut to a different photoreal wide: the crowd lined up across a ruined street, a palm tree."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH110-a. Folder S05/SH110. Passed first submission. Tests whether Seedance renders the bond text from the image. Claude's read: fails on three counts. 1) 0-3.3 s copies the animatic: blocky box-bodied figures and flat buildings, previz look, despite the line-drawing guide (the clip's frame is filled by place: refs_d11 README rule). 2) The bond passes the lens at 1.4-1.8 s with the right green border and cream paper, but its text is a green smear, unreadable at 480p. 3) At about 3.3 s a hard cut to a different photoreal wide: the crowd lined up across a ruined street, a palm tree. Leonard 2026-11-18: all wrong."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
