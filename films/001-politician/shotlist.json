@@ -1194,9 +1194,9 @@
                 "line guide cfb87636"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: Photographic: the case lies still on the seat with a faint wobble, papers out."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018b, draft. Claude's read: Photographic: the case lies still on the seat with a faint wobble, papers out. Leonard 2026-11-18: bounces too much; the seat is broken, you can see through the car. Keep it on the seat, subtle bumps from the car's physics, not the briefcase itself. Claude's diagnosis at 8 fps: the line guide (animatic d11) jumps the case frame to frame and its seat is a floating block; the take copied both. T03 drops the video guide."
             }
           ],
           "description": "A BRIEFCASE lies flat on the passenger seat and bounces with the road, papers sticking out of it, shut in a hurry.",
