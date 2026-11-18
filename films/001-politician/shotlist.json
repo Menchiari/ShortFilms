@@ -1435,7 +1435,7 @@
         },
         {
           "id": "SH080",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1585,10 +1585,10 @@
               "references": [
                 "prop_car 42787b78"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "Leonard approved 2026-11-18 (go T06; first submit got 429, resent once). Claude's read at 6 fps: desert only, light dust, the car always visible. Between about 1.3 and 2.3 s it drifts a little left of center, then a little right, with a slight yaw, then stops centered and square, grille to the lens. The stop comes at about 2.7 s and the last 1.3 s is a near-still hold with dust drifting."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Leonard approved 2026-11-18 (go T06; first submit got 429, resent once). Claude's read at 6 fps: desert only, light dust, the car always visible. Between about 1.3 and 2.3 s it drifts a little left of center, then a little right, with a slight yaw, then stops centered and square, grille to the lens. The stop comes at about 2.7 s and the last 1.3 s is a near-still hold with dust drifting. Leonard 2026-11-18: perfect."
             }
           ],
           "description": "The front wheel locks and the car skids across the dusty asphalt to a stop a few meters from the edge of the town. Dust rolls past.",
