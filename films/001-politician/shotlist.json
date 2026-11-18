@@ -2786,8 +2786,34 @@
         },
         {
           "id": "SH050",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "227176c4-bd84-40b3-aa24-c9342684811e",
+              "prompt": "05-generation/prompts/001_S04_SH050_T01.txt",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T01.jpg",
+              "references": [
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S04-SH050-a, 480p (992x432), 4.06 s, 24 fps, passed first submission. Audio present (mean -36.9 dB, max -17.4 dB; not listened to). Claude's read from frames every 0.5 s and face crops of Man 2: photographic, no previz look; locked-off; the SH040 bar held: cream scalloped awning, bottle shelves, hanging bulbs. All three heads fully in frame, men from the knees up. Man 1 grey hair, pale blue shirt, profile facing right; Man 2 shaved head, olive polo, tea glass, facing camera; Man 3 short beard and mustache, brown shirt, cigarette, but his hair is curly and fuller than in SH040. Man 2 talks with eyes down 0-2 s; from about 2.5 s his eyes come up and lock off screen to the right of the lens, mouth half open, head turned slightly toward screen right; he holds that look to the end. The slow head turn from right to left of the lens did not happen: the final eyeline is to screen right, not just left of the lens. Man 1 and Man 3 stay turned to each other. No parked cars, no extra people."
+            }
+          ],
           "description": "One of the men stops talking and looks at him.",
           "framing": "MEDIUM, long lens",
           "movement": "Locked-off",
