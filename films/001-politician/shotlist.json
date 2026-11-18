@@ -3942,6 +3942,30 @@
                 "palette_afternoon 3bf30eee"
               ],
               "notes": "REQUEST S05-SH020-f2, draft, Leonard approved 15 credits (\"try again\"). Folder S05/SH020. Start still 8453bc84 (the T04 still, approved angle); new still eceb7f8f rejected (reads like GPT, camera changed unasked). Prompt v2: people step into the street, he runs through them, nobody charges. Claude's read: he runs through them. He veers to the bottom sidewalk group, passes between the man in the blue shirt and the old woman with the cane (his shoulder brushes her, she turns), the man in the white undershirt reaches for him as he passes, and he runs out of frame right at about 4.5 s with the case. Each one turns after him at his own pace; the top sidewalk group walks into the street. Photographic. Weak: the people mostly wait near the bottom curb instead of moving into the middle of the street; he and the old woman overlap for a few frames at about 2.5 s (check for a merged body at full speed). Audio not checked by ear."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "c10adbc4-234b-4912-a141-ecad906a0d4d",
+              "prompt": "05-generation/prompts/001_S05_SH020_T06.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T06.jpg",
+              "references": [
+                "animatic d11 S05_SH020 as line drawing a77a2e75 (video_references)",
+                "char_politician_dusty 98e1e69e",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "notes": "REQUEST S05-SH020-h, draft, Leonard approved 12 credits (\"try\"). Folder S05/SH020. No start still (Leonard: the generated images are bad, the animatic is the best shot). Video 1: animatic d11 set clip as a line drawing (frames/001_S05_SH020_guide_lines_d11.mp4, media a77a2e75) with the strict guide paragraph; prompt back to the screenplay: he goes fast, not a sprint; people are just there, drift slowly, nobody closes him off; only the far ones speed up. Claude's read: true top view in the animatic's framing (street across the frame, rooftops along the bottom, the two cables, the boxes in the street). People are seen from above, heads and shoulders foreshortened, long real shadows: reads as drone footage, not figurines. He goes from the left quarter to the center at a quick jog. People step out and stand or drift on both sidewalks; by the end a loose scattering in the street around him, nobody blocking. Weak: at 480p he is a small dark figure, white hair and case hard to read; the light is darker than T03 (wide shade band); the animatic's boxes became concrete blocks and crates in the street; the bottom rooftops follow the animatic's block shapes, check that they do not read as CG. Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
