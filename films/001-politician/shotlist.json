@@ -3516,6 +3516,28 @@
               "rating": 5,
               "notes": "REQUEST S04-SH130-c, approved by Leonard 2026-11-18: video_edit of T02 d3dd7ed7 (his note: more people, a third recording with phones). Folder S04/SH130. The request echo listed T02 under reference_images, but the result is an edit of T02. Claude's read (frames 0, 48, 95): T02's framing, pan, light, flare and sky kept. About 15 to 17 people visible per frame (was 6), mostly added on the left facade: a fourth man on the crowded balcony, people on the balconies above and below, figures on the top floors against the sky, two on the building at the right edge. The far buildings stay almost empty. Phones: at 480p Claude can make out about three to four dark phones held up (on the crowded balcony and the balcony below it), not clearly six. People are small; phones read as a gesture more than as objects. Audio: quiet room tone (mean -42.9 dB); Claude cannot listen, check for music. Leonard 2026-11-18: \"love it, finalize it at 720p\".",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 31.0,
+              "job_id": "5f039c86-6333-4aac-a5d4-96c922236202",
+              "prompt": "05-generation/prompts/001_S04_SH130_T04.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T03 5f723cad (video_references, edit source)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST A (Leonard 2026-11-18: \"go with A\"): 720p final of T03 by video_edit of T03 5f723cad, prompt: change nothing, render at higher resolution. Folder S04/SH130. Output 1458x634, 24 fps, 4.04 s. Claude's read (frames 0 and 95, and a native-size crop against T03 scaled up): content matches T03: same people, places, phones, pan, flare and light; no drift seen. Edges (railings, cable, faces) slightly crisper than T03 scaled up; the gain in detail is modest, not a new level of detail. Audio: quiet room tone (mean -41.8 dB); Claude cannot listen, check for music."
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
