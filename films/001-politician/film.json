@@ -171,7 +171,8 @@
       "S04/SH120": "5e489526-0ea9-40f2-9c0c-82933fe697ae",
       "S04/SH050": "eb370852-1bce-443b-b265-0ba496292f3b",
       "S04/SH100": "a9b5ddd1-f3d4-49e2-9099-95839c6e14a5",
-      "S04/SH090": "11abe270-ae25-48f5-8e0d-5f7da3a805e2"
+      "S04/SH090": "11abe270-ae25-48f5-8e0d-5f7da3a805e2",
+      "S04/SH135": "6cefbd72-bd45-4172-89a1-899cc4d14db0"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -296,7 +297,8 @@
       "S02/SH120+SH140": "5b32b81d-9b82-41cc-a50f-6b8810672076",
       "S02/SH180": "2ccff74d-a2cd-4394-beac-4d9d2c38ef81",
       "S02/SH200": "54161b25-e946-4177-9260-663152138a2e",
-      "S03/SH010": "13e9c827-913e-48a4-8b3f-c7d6d55ec4d9"
+      "S03/SH010": "13e9c827-913e-48a4-8b3f-c7d6d55ec4d9",
+      "S04/SH135": "ed1d884b-009b-44fa-8dda-f11beba6dbf4"
     },
     "start_frames": {
       "S02/SH010 v1": "6227907d-21e8-4550-aaf0-cc8c38d04169"
@@ -727,6 +729,14 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH090-a prepared, not submitted: prompts/001_S04_SH090_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 5 s, audio on. Images: char_politician_dusty 98e1e69e, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref 877cb2aa (refs/001_S04_SH090_lines.mp4, line drawing of refs_d11 S04_SH090, filed in REFS). [ASSUMPTION] the dark blob next to him in the d11 clip is the fat person's shadow: written as his shadow, he stays out of frame. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH135 created inside S04 (6cefbd72-bd45-4172-89a1-899cc4d14db0)."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH135-a prepared, not submitted: prompts/001_S04_SH135_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s (model minimum; the shot is 3 s, trim in the edit), audio on. Images: char_big-guy 6228445b, char_politician_dusty 98e1e69e, prop_briefcase 4bf36cb5, loc_side-street e728a9ae, palette_afternoon 3bf30eee; video ref ed1d884b (refs/001_S04_SH135_lines_d11.mp4: d11 clip as a line drawing, last frame held 1 s to fill 4 s), filed in REFS. Estimate 12 credits. [ASSUMPTION: sun behind the fat person at screen right; to be matched with SH110 and SH140.]"
     }
   ],
   "story_sync": {

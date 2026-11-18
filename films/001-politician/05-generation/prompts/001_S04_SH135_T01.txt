@@ -1,0 +1,31 @@
+Audio: only the soft rustle of a cotton shirt collar sliding through a fist, the creak of the leather briefcase pressed to his chest, two quiet breaths, one shoe scuffing grit on the asphalt, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style, and not the pose of the person in it. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the fat person's curly dark hair, the back of his head, his heavy shoulders and his dusty grey-brown t-shirt only, not his pose or background. Image 2: the old man's face, hair, build, dusty charcoal suit, stained shirt and rust tie only, not his pose or background. Image 3: the dark leather briefcase: its shape, leather and clasps only, not its background. Image 4: the side street: its plastered walls, rolled-down metal shutters, balconies, cables and dusty asphalt only, not its people, cars or framing. Image 5: color and light only.
+
+Close over-the-shoulder shot on a narrow side street of a desert town: from behind the fat person from image 1, the old man from image 2, his collar in the fat person's fist, slowly and politely slides himself out of the grip, almost apologizing, with no violence at all, the camera handheld and close.
+
+Screen positions, held the whole shot: the back of the fat person's head and his right shoulder fill the right half of the frame in the foreground, soft and out of focus. The old man stands in the left half, facing screen right toward him, in focus, framed from the chest up. The street runs away behind the old man on the left, deep and soft.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from behind the fat person at screen right, at a raking angle. The fat person's curly hair and shoulder carry a warm rim of sunlight. The old man's face is in soft shade, filled by warm bounce from the sunlit asphalt, so his eyes, the dust and the sweat on his skin read clearly. The street behind him glows with warm dust in the sun shafts. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: close over-the-shoulder shot, camera position and framing from Video 1, handheld with a slight natural sway. The fat person's right fist holds a bunch of the old man's shirt collar and lapel under his chin. The old man hugs the briefcase from image 3 flat against his chest with both arms. He looks up into the fat person's eyes and gives a small, polite nod.
+1-3s: the old man, still holding his gaze, slowly lowers himself, bending his knees a little and drawing his neck down into his shoulders, and eases back half a step toward screen left. His collar slides out through the fat person's fingers, cloth dragging gently over the knuckles. The fat person's hand stays where it was, open in the air at the edge of frame, then drops out of frame. Nobody pushes, nobody pulls.
+3-4s: the old man is free, a little lower and half a step further left than at the start, the briefcase still flat against his chest in both arms, his shirt collar crumpled. He gives one more small apologetic nod, his eyes still on the fat person, his weight already on his left foot toward screen left. Final frame: the fat person's head and shoulder still fill the right half of the frame, the old man in the left half, free, upright, facing screen right, about to go, the camera in the same over-the-shoulder position.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): this stays a conversation between two men in front of the whole street; nobody makes the first violent move.
+MOTIVE (his fuel): a lifetime of rooms where the man who stays calm walks out with what he came with.
+GOAL: get his collar out of that fist and leave with the briefcase, without a fight.
+OBSTACLE: the man holding him is twice his size, the windows above are full of faces, and one wrong move turns this into a beating.
+TACTIC: he apologizes his way out. He holds the fat person's eyes, checking one eye and then the other for the moment the anger slackens, and offers small polite nods as if he were sorry for bumping into him, while his body quietly lowers itself out of the grip. His eyes never leave the partner's: they keep him talking to a man, not grabbing a thing.
+ACTING TASK, the fat person (seen only from behind): he is deciding whether this old man is worth a fight in front of his neighbors, and his grip lets the collar go without his deciding to. He keeps his mouth closed.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people: two, the old man and the fat person. Count of briefcases: one, in the old man's arms the whole shot. The old man keeps his mouth closed. No punch, no shove, no struggle.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, shutter or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the soft rustle of a cotton shirt collar sliding through a fist, the creak of the leather briefcase pressed to his chest, two quiet breaths, one shoe scuffing grit on the asphalt, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
