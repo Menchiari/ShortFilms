@@ -2987,7 +2987,7 @@
         },
         {
           "id": "SH090",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3176,9 +3176,9 @@
                 "refs/001_S05_SH090_motion_d11_tight.mp4 eeadc9a1 (video_references, named @Video1)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH090-g. Draft. T06 plus Leonard's notes: more knocked out, sheets as large as A4 (size tied to his forearm, his face, the inside of the case, the open lid, one landing by his hand). Claude's read: sheets now clearly A4: those near the lid and the one that lands by his hand at about 2.8 s are bigger than his hand; cream paper, the green border barely readable at 480p. The case is in his hand as he falls, hits at about 0.7 s and bursts open at once with sheets flying. Dazed: he lies with his head down, lifts it slowly and only a little, eyes heavy, hand resting flat, and lets it sink again at the end; no push-up this time, the chest barely moves. Eyes go forward and down, not up at the sky. Wound: diagonal gashes over the right brow and temple with fresh blood. Two parked cars still in the background."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH090-g. Draft. T06 plus Leonard's notes: more knocked out, sheets as large as A4 (size tied to his forearm, his face, the inside of the case, the open lid, one landing by his hand). Claude's read: sheets now clearly A4: those near the lid and the one that lands by his hand at about 2.8 s are bigger than his hand; cream paper, the green border barely readable at 480p. The case is in his hand as he falls, hits at about 0.7 s and bursts open at once with sheets flying. Dazed: he lies with his head down, lifts it slowly and only a little, eyes heavy, hand resting flat, and lets it sink again at the end; no push-up this time, the chest barely moves. Eyes go forward and down, not up at the sky. Wound: diagonal gashes over the right brow and temple with fresh blood. Two parked cars still in the background. Leonard 2026-11-18: 'this works' (rating 4, inferred)."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
