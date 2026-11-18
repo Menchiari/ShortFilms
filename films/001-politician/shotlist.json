@@ -3039,8 +3039,37 @@
         },
         {
           "id": "SH070",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d6be83ba-1900-4248-af22-73b66e350a85",
+              "prompt": "05-generation/prompts/001_S04_SH070_T01.txt",
+              "file": "05-generation/takes/S04/SH070/001_S04_SH070_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH070_T01.jpg",
+              "references": [
+                "char_politician a7601ce4",
+                "char_big-guy 6228445b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "lines guide 91aef5db (refs/001_S04_SH070_lines_d11.mp4, video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH070-a, 480p (992x432), 4.06 s. Line-drawing guide of refs_d11 S04_SH070. Higgsfield folder S04/SH070. Claude's read (frames every 0.25 s and audio levels, not heard): photographic, nothing of the previz look. High angle, handheld. 0-1 s: the fat person's head and shoulder fill the right edge in the foreground (curly hair, grey-brown T-shirt, matches the element), more of him than the prompt asked, part of his face in profile; the old man rebounds off him. About 1-1.5 s: he falls back, the briefcase flies out to the left, a dust puff at the landing. 1.5-4 s: flat on his back, arms spread, head top center, legs toward the bottom, the briefcase flat on his left side of frame, a curb and sidewalk on a diagonal at the right; mouth open, gasping, eyes up past the camera. His head stays in frame. Sunlit and golden rather than the warm shade written. Audio mean -27.7 dB, peak -6 dB. Element char_politician (clean) [ASSUMPTION]."
+            }
+          ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",
           "framing": "HIGH, looking down on him, the same angle as SH090",
           "movement": "Handheld",
