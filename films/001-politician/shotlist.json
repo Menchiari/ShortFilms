@@ -3014,6 +3014,31 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH070-b, draft, passed first submission, about 18 minutes in the queue. 992x432, 6.08 s, 24 fps. Leonard's T01 notes applied: walking, the ground behind, a lagging screen, Honeypot, encrypted UI ([ASSUMPTION] iPhone-style, no logo, padlock + Encrypted). Claude's read from frames: over-the-shoulder looking down, sandy asphalt behind, his shoes and shadows pass below: the walk reads. About 3 s of repeated thumb attempts on the 4:17 lock screen, then a call screen: grey placeholder, Honeypot, padlock, Encrypted, green button tapped several times, then red end button and Calling. No number. Text readable at 480p; the y of Honeypot is slightly malformed in the last frame. His out-of-focus head fills the right edge. The sleeve reads grey-olive with a light cuff, less charcoal than the element. Modern notch-style phone, no logo seen. Audio not listened to."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "3e0d0bc1-80ec-489a-8b82-c233b253e1aa",
+              "prompt": "05-generation/prompts/001_S05_SH070_T03.txt",
+              "file": "05-generation/takes/S05/SH070/001_S05_SH070_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_dusty 98e1e69e (hand, sleeve)",
+                "palette_afternoon 3bf30eee",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH070-c, 720p, passed first submission, about 22 minutes in the queue. 1470x630, 6.08 s, 24 fps. The T02 prompt with the contact renamed Grandma (Leonard). Claude's read from frames: over his left shoulder looking down, cracked sandy asphalt, his shoe and shadow pass: the walk reads. Very wet, sweaty hand, light shirt cuff, grey sleeve. About 3 s of thumb attempts on the 4:17 lock screen, including a moment around 2 s where the phone swings away (the thumb wipe) and blurs. Then Grandma, crisp, the green button tapped several times, then the red end button. Against the prompt: under Grandma it reads Called, not Calling; Encrypted is small and malformed; the lock screen carries a small date line and in a few frames a notification-like banner. Audio not listened to."
             }
           ],
           "description": "His sweaty thumb slides across the lock screen. It fails. It works. A contact with no name, only a number. Call.",
