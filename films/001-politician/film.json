@@ -153,7 +153,8 @@
       "S03/SH050": "44d8f62f-bd10-4da4-8129-f10d7f886a4b",
       "S04": "722dee3f-a951-4c54-b5d3-6b5b42c1c480",
       "S04/SH010": "93345e53-8f79-45dc-84f4-bb0cf08cbca7",
-      "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724"
+      "S04/SH020": "68d1b82c-cbbc-4fee-bd43-e2bff083a724",
+      "S04/SH040": "21642846-4d02-4194-ab47-76dd557a0d21"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -509,6 +510,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050f approved (98 credits, 720p, 21:9, 14 s, audio on, no draft flag) and submitted: S03 SH050 T01 c6a30881-577e-4ba8-be88-1922e30323f9, start frame v5 (job 1310a61e) plus char_politician and prop_briefcase, prompt 05-generation/prompts/001_S03_SH050_T01.txt. The job echo lists the start frame as reference_images."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Higgsfield folder S04/SH040 created (21642846-4d02-4194-ab47-76dd557a0d21). REQUEST S04-SH040-a prepared, not submitted: prompts/001_S04_SH040_T01.txt, text and elements only (char_politician, prop_briefcase, loc_side-street, palette_afternoon), no previz clip; get_cost 12 credits. The three men are described in the prompt for SH050 to reuse word for word."
     }
   ],
   "story_sync": {
