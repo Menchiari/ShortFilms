@@ -20,6 +20,13 @@ the rule that prevents it. Newest first.
 - **Rule:** a guide clip of a street that lacks the street rules is not used. Start from the location image that
   carries them (start frame) and describe the camera in words.
 
+## 2026-11-18, Politician S02 SH080 T03 (12 credits)
+
+- **What:** the car skidded straight, but in a city street with towers and palms; the shot happens outside the city, desert only.
+- **Cause:** the "palette_afternoon" image (3bf30eee) is a city street. I passed it as "color and light only" without looking at it;
+  once the T01 video stopped carrying the place, the model copied the street.
+- **Rule:** look at every reference image before a preflight, palette images included. A "color only" image still gives its place.
+
 ## 2026-11-17, Politician S01 SH020 T03 to T06 (70.75 credits for one 2 s shot)
 
 - **What:** four takes. T03 edited the old take into an LED sign Leonard never asked for; T04 held still; T05 put the
