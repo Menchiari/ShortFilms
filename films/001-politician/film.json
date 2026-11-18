@@ -1166,6 +1166,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH080 prompts T01 to T04 named references 'Image 1' / 'VIDEO 1' although Leonard decided @Image1, @Video1 on 2026-11-17 (REQUEST 030a). Same cause as the S05 SH020 entry: the session followed the S03 SH010 T01 template named in its brief and the rule is not in docs/PROMPTING.md. T04 prompt corrected to @Image1-4, @Video1, @Audio1 before submission; T01-T03 were generated with the old naming."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Leonard, naming rule (restated 2026-11-18): reference images are @Image1, @Image2, @Image3 by upload order, the video @Video1, audio @Audio1. Characters ALWAYS as @char_<name> in the version that matches the scene in the script (S05 before the rock: @char_politician_dusty; after: @char_politician_blood), props @prop_<name>, locations @loc_<name> when used. Format: '@char_politician_dusty (@Image1): ...', then @char_ / @prop_ / @loc_ names in the body. S05 SH080 T04 prompt updated to it."
     }
   ],
   "story_sync": {
