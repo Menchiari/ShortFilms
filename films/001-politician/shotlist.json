@@ -3324,9 +3324,9 @@
                 "no guide clip"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH120-a, 480p (992x432), 6.08 s, audio present (mean -30 dB; not listened to). Prompt v2 with Leonard's eye direction. Claude's read from frames every 0.5 s and the last second at 6 fps: photographic, the old man matches the dusty element, backlit afternoon sun, soft facades behind. Acting: eyes down and away at the start, a small closed-mouth half smile around 1 s, a level look to screen right in the middle, a softer look after; the look up at the windows comes only in the last few frames (about 5.8 s), very short. Lips closed in the frames checked. Misses: the fat person is not a blurred sliver: the back of his head and ear fill the right third, dark and fairly sharp, very close to the old man; his hand at the collar reads small, holding the tie knot more than gripping the collar."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH120-a, 480p (992x432), 6.08 s, audio present (mean -30 dB; not listened to). Prompt v2 with Leonard's eye direction. Claude's read from frames every 0.5 s and the last second at 6 fps: photographic, the old man matches the dusty element, backlit afternoon sun, soft facades behind. Acting: eyes down and away at the start, a small closed-mouth half smile around 1 s, a level look to screen right in the middle, a softer look after; the look up at the windows comes only in the last few frames (about 5.8 s), very short. Lips closed in the frames checked. Misses: the fat person is not a blurred sliver: the back of his head and ear fill the right third, dark and fairly sharp, very close to the old man; his hand at the collar reads small, holding the tie knot more than gripping the collar. Leonard 2026-11-18: 'absolutely not', way too calm; the man should hold him with both hands."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
