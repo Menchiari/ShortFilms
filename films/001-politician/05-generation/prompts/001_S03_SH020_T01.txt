@@ -1,14 +1,13 @@
 Audio: only the engine running low and rough, tires rolling on grit, and his mumbled lines; at 5 seconds the engine coughs twice, at 7 seconds it pops and dies, then only the tires rolling on grit. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
 
-VIDEO 1 IS A ROUGH GUIDE (a line drawing traced from a crude grey 3D sketch), NOT FOOTAGE AND NOT A STYLE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or outlines, not its flat surfaces, colors, light or style. Its simple blocks only mark where real things are: the ball is a real human head, the boxes are real buildings and a real car. Every building, wall, road, object and person in the result is real and photographed, with real skin, real fabric, real dust and real sunlight, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing, clay model or video game.
-Image 1: the old man's face, hair, build, charcoal suit, stained white shirt and rust tie only, not his pose or background. Image 2: the car's interior, dashboard, seats and window pillars only, not the view through the windows. Image 3: the main street: its tall concrete apartment blocks, shutters, balconies and dusty road only, seen through his window, not its framing. Image 4: color and light only.
+Image 1 is the exact first frame. Keep the old man, his face, hair, sweat, suit, stained shirt and rust tie, the car interior, the framing and the light exactly as they are in image 1.
 
-Inside the black sedan crawling up the empty main street of a desert town, the old man from image 1 drives, talking to himself, and the engine dies under him: one continuous close shot, camera mounted on the passenger side of the dashboard.
+Inside a black sedan crawling up the empty main street of a desert town, the old man drives, talking to himself, and the engine dies under him: one continuous close shot in right profile from the passenger seat, camera mounted on the car.
 
-0-2s: close shot, camera position and framing from Video 1: the camera is mounted on the passenger side of the dashboard, near the windshield, at his head height, looking back across the car at him: his face in front three-quarter view, turned a little to frame right toward the road ahead, his head and shoulders in the center of frame; the windshield pillar at frame right; through the driver's window behind him the street slides slowly past from frame right to frame left. Camera: fixed to the car, only the soft road vibration. He drives hunched over the wheel, eyes locked on the road, sweat running down his neck into his collar. He glances down at the briefcase on the passenger seat, out of frame below, then back to the road.
+0-2s: close shot in right profile, framing from image 1. Camera: fixed to the car, moving with it, only a soft road vibration. Through the driver's window behind him and through the windshield at frame right, the tall concrete apartment blocks slide slowly past from frame right to frame left. He drives, both eyes on the road ahead, sweat running down his temple and neck into his collar. He glances down to frame left at the briefcase on the passenger seat, out of frame, then back to the road.
 2-5s: he talks to himself, eyes back on the road, his first line.
 5-7s: the engine coughs twice. His second line breaks off; his eyes drop to the dashboard and back to the road; his third line.
-7-8s: the engine pops and dies. The car rolls on in silence, slowing. Final frame: the same framing, his hands still on the wheel, his eyes on the road, the street sliding past more slowly.
+7-8s: the engine pops and dies. The car rolls on in silence, slowing, the blocks outside sliding past more and more slowly. Final frame: the same framing as image 1, his right hand still on the wheel, his eyes on the road.
 
 Language: American English with a slight accent nobody can place. He mumbles to himself, low, gravelly and exhausted, through clenched teeth, the jaw barely opening, never projected.
 2-5s, his first line (soothing the briefcase like a tired dog): {We'll get there, don't worry... Wait till they see what I was able to--}
@@ -23,9 +22,9 @@ OBSTACLE: the heat is cooking his head like a fever, the rage he always swallows
 TACTIC: he talks himself through it the way he has talked himself through every mess, quiet and controlled, keeping the lid on the rage; his eyes stay nailed to the road and check the case once, like checking a pulse; when the engine coughs his eyes go to the dashboard to catch the lie, and come back to the road refusing it.
 (Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence. Subtle: small mouth movements, no big expressions.)
 
-Light: the low afternoon sun is behind him, through the driver's window: a warm rim on his hair, his ear and the sweat on his neck. His face is in soft warm bounce from the dashboard and the sunlit road, never flat. The gaps between the tall blocks pass sun and shade across him in turn. Exposure for his face; the window behind him bright and hazy, the street still readable.
+Light, as in image 1: the low afternoon sun behind him through the driver's window, a warm rim on his hair, ear and sweat, his face in soft warm bounce. The gaps between the blocks pass sun and shade across him in turn.
 
-One man in the car. Count of briefcases: one. Never copy the look of Video 1.
+One man in the car. Count of briefcases: one, out of frame.
 
 Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
 
