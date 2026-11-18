@@ -669,6 +669,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH020 T05 start still eceb7f8f rejected by Leonard (not how it should be, reads like GPT). Cause: Claude changed the approved camera (closer, lower) unasked and the image model's staged charge look showed at that size. Next proposal: back to the approved T04 still 8453bc84, prompt 001_S05_SH020_T05_v2.txt (people step into the street first, he runs through them), 5 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH020-f2 done (15 credits): S05 SH020 T05 b8da239a, T04 still plus prompt v2, 480p draft, 21:9, 5 s. He runs through the bottom group (brushes the old woman, a hand reaches for him) and out of frame right; the crowd mostly waits near the curb."
     }
   ],
   "story_sync": {

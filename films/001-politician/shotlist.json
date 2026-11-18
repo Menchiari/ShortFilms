@@ -2982,6 +2982,29 @@
                 "palette_afternoon 3bf30eee"
               ],
               "notes": "REQUEST S05-SH020-d, draft, Leonard approved 12 credits (\"ok let's do it\"). Folder S05/SH020. Start still: GPT Image 2.6 edit 8453bc84 (2.75 credits, REQUEST S05-SH020-c, frames/001_S05_SH020_T04_start.png): Leonard, half the people, all in front of him. Claude's read: frame 0 matches the still; photographic; the street behind him stays empty. The people turn toward him and shift, step and drift on the sidewalks, each differently, but almost nobody steps into the street ahead of him: no line forms across the street. The old man covers only about a quarter of the frame in 4 s (x 23% to 45%) and slows from a run to near a walk by the end. One extra man appears in the bottom-right roof opening (12 at the end, not 11). Audio not checked by ear."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "b8da239a-f12d-4cc2-acc2-b21b3dfa1864",
+              "prompt": "05-generation/prompts/001_S05_SH020_T05_v2.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T05.jpg",
+              "references": [
+                "start_image 8453bc84 (T04 still)",
+                "char_politician_dusty 98e1e69e",
+                "prop_briefcase 4bf36cb5",
+                "palette_afternoon 3bf30eee"
+              ],
+              "notes": "REQUEST S05-SH020-f2, draft, Leonard approved 15 credits (\"try again\"). Folder S05/SH020. Start still 8453bc84 (the T04 still, approved angle); new still eceb7f8f rejected (reads like GPT, camera changed unasked). Prompt v2: people step into the street, he runs through them, nobody charges. Claude's read: he runs through them. He veers to the bottom sidewalk group, passes between the man in the blue shirt and the old woman with the cane (his shoulder brushes her, she turns), the man in the white undershirt reaches for him as he passes, and he runs out of frame right at about 4.5 s with the case. Each one turns after him at his own pace; the top sidewalk group walks into the street. Photographic. Weak: the people mostly wait near the bottom curb instead of moving into the middle of the street; he and the old woman overlap for a few frames at about 2.5 s (check for a merged body at full speed). Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
