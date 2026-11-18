@@ -1839,6 +1839,53 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUESTS 021 (image, 1.5) + 021b (video, 12). Claude's read: photographic street, the T02 camera move. Measured (tracked scale of the center of frame, frame 0 to 96): 0.354; T02 0.350: the far street shrinks to 35% while the near facades grow and lean in, the same vertigo as T02. Faults: most lamp posts, the traffic lights, the signs and most parked cars are gone by the last frame; no entrance read (no desert road, no outer-wall towers), the start image itself came out as a plain street; frame 0 is a re-render of the start frame, camera lower."
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 9,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.5,
+              "job_id": "235d5110-2ef2-4714-a233-02b787bc656c",
+              "prompt": "05-generation/prompts/001_S02_SH100_T08.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T08.jpg",
+              "references": [
+                "start frame: REQUEST 022 image 9ab9727c (gpt_image_2_6 edit of the T07 start frame with loc_town-edge 146470dd; frames/001_S02_SH100_T08_start.png, prompt 001_S02_SH100_T08_start.txt)",
+                "animatic d11 S02_SH100 line guide slowed 1.5x plus 3 s hold, a39e009f (frames/001_S02_SH100_T08_guide_lines.mp4)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUESTS 022 (image, 1.5) + 022b (video, 27). Leonard: preflight both fixes, slow down the vertigo, a few seconds of still at the end, go. Claude's read: the entrance reads (bare wall towers, sand drifts, desert road into the gap, the street beyond); lamps, signs, traffic lights and parked cars stay for the whole move. Measured: move 0-6 s, then still 6-9 s (frame difference 0.01 to 0.1, almost frozen: only faint dust). Center of frame scale 0.571 at 6 s; the gap between the wall towers narrows 30% (550 px to 385 px) instead of holding its size, so it reads more as a zoom out with the walls closing in."
+            },
+            {
+              "id": "T09",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "post",
+              "duration_s": 9,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S02_SH100_T08.txt",
+              "file": "05-generation/takes/S02/SH100/001_S02_SH100_T09.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH100_T09.jpg",
+              "references": [
+                "T08"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "T08 with the gap held in post (0 credits): each frame scaled up by 1/gap ratio around the center (1.00 to 1.43 at 6 s, held through the still), gap ratio following the tracked easing of T08. Measured: gap 550 px at frame 0, 565 px at 6 s; the street beyond the gap shrinks about 30% while the gap holds. Cost: the end is a 1.43x crop of a 480p frame, softer."
             }
           ],
           "description": "The dusty road runs into the only gap between the towers and becomes the main street, running deep into the town. It stretches away from him.",
