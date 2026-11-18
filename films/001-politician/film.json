@@ -575,6 +575,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST 050g done (28 credits): S03 SH050 T02 in (4 s extension), file takes/S03/SH050/001_S03_SH050_T02.mp4. Last 3 frames broken (he vanishes, door closes): usable to 3.875 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH040-b done (28 credits): S04 SH040 T02 in, 720p, file takes/S04/SH040/001_S04_SH040_T02.mp4. T01 composition and backlight held; briefcase carried in his right hand; upright firm walk; he turns his head to the men once. Notes in shotlist.json."
     }
   ],
   "story_sync": {
