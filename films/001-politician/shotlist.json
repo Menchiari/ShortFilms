@@ -1502,9 +1502,9 @@
                 "line guide 5b32b81d"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST 018b, draft. Claude's read: Covers SH120, SH140, SH150. Photographic: the deep dry ditch and rubble, the bobblehead on the dash and the briefcase, then the mirror with the empty road. The towers stand far off on the horizon, not a few meters away."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST 018b, draft. Claude's read: Covers SH120, SH140, SH150. Photographic: the deep dry ditch and rubble, the bobblehead on the dash and the briefcase, then the mirror with the empty road. The towers stand far off on the horizon, not a few meters away. Leonard 2026-11-18: the ditch around the city reads dystopian and fake; wants the edge of a city with no roads. The rear-view mirror is the shot he likes most (keep it for SH150)."
             }
           ],
           "description": "Through the windshield: broken ground and a deep dry ditch, rubble, then the towers, shoulder to shoulder, running away to the left. No road.",
