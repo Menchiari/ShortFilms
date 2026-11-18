@@ -3179,7 +3179,7 @@
               "prompt": "05-generation/prompts/001_S04_SH080_T02.txt",
               "file": "05-generation/takes/S04/SH080/001_S04_SH080_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH080_T02.jpg",
               "references": [
                 "char_big-guy 6228445b",
                 "loc_side-street e728a9ae",
@@ -3357,7 +3357,7 @@
               "prompt": "05-generation/prompts/001_S04_SH130_T01.txt",
               "file": "05-generation/takes/S04/SH130/001_S04_SH130_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH130_T01.jpg",
               "references": [
                 "loc_side-street e728a9ae (image_references)",
                 "palette_afternoon 3bf30eee (image_references)"
