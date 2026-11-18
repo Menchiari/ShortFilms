@@ -3096,6 +3096,33 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH140-b, draft, no previz. Claude's read: frontal, the cracked concrete wall fills the background edge to edge, no open space; he stands centered with the briefcase in his left hand, a lamp post and a traffic-light pole either side of him. Four people at first in two pairs, more arrive from both sides and behind camera from about 3 s, backs filling the foreground. His right hand goes into the jacket at about 2.5 s and works there until about 5 s; the gun comes up at about 5.5 s and is held up nearly 2 s before the shot at about 7.4 s. Everyone flinches, the nearest run past camera at once, the rest after; final frame him alone, gun up, briefcase in hand. The crowd keeps a distance: it never closes over him. [ASSUMPTION] the briefcase in his hand, per Leonard's note, conflicts with SH120 and the S09 body map. Leonard 2026-11-18: \"the shot is good, maybe a bit more handheld.\" T03: the crowd closer and aggressive, ready to fight; he more scared, walking backwards with the briefcase, frantic reach into the pocket, prop_gun element; when the gun comes out he is almost hidden by the crowd; on the shot some run, some jump back, a few far away frozen in fear."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-18",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "b7cba8d7-345b-436c-a53a-f2793689024c",
+              "prompt": "05-generation/prompts/001_S05_SH140_T03.txt",
+              "file": "05-generation/takes/S05/SH140/001_S05_SH140_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH140_T03.jpg",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 73236f58",
+                "prop_briefcase 4bf36cb5",
+                "prop_gun 24875e9a",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH140-c, draft. Claude's read: frontal on the wall, light handheld drift (the pole shifts in frame). Men walk in at him from the start; by 5 s the crowd is dense, his right hand at his jacket at about 5 to 6 s; from about 6.5 s he is hidden behind the backs; the gun rises above the heads at about 7 s and fires at about 7.4 s. On the shot the nearest flinch and lunge back, many run past camera; final frame him at the wall, gun up, briefcase in hand, people still at the edges. The gun reads dark (black), from the prop_gun element, not nickel. The crowd is all men again. Near silence for the first 3.7 s. I cannot confirm the backward steps from stills."
             }
           ],
           "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",
