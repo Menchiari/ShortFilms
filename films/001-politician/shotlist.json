@@ -1788,7 +1788,7 @@
               "prompt": "05-generation/prompts/001_S03_SH020_T05.txt",
               "file": "05-generation/takes/S03/SH020/001_S03_SH020_T05.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S03_SH020_T05.jpg",
               "references": [
                 "Leonard's start frame v3 at full resolution 1244x532 (eb99a51a, start_image, in REFS): 05-generation/frames/001_S03_SH020_T05_start_720.jpg"
               ],
