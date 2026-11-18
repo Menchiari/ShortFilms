@@ -814,6 +814,10 @@
     {
       "date": "2026-11-18",
       "text": "S05 SH030 T01 downloaded and recorded (job 7f30f7a9, 15 credits). Action and props as directed; framing wider than close, background sharp, crowd too small and late."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH050 T01 flipped horizontally on Leonard's note (takes/S04/SH050/001_S04_SH050_T01_flip.mp4). REQUEST S04-SH050-b prepared, not submitted: prompts/001_S04_SH050_T02.txt, backward extension (4 s, 480p, audio on) of the flipped T01 cut from 1.75 s (refs/001_S04_SH050_T01_flip_from1.75s.mp4, upload 8facbda6, filed in REFS): the old man crosses the foreground fast right to left, then the flipped T01 plays and Man 2 looks after him to screen left. Images: char_politician a7601ce4, prop_briefcase 4bf36cb5. Estimate 12 credits."
     }
   ],
   "story_sync": {
