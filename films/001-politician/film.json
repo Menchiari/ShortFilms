@@ -587,6 +587,10 @@
     {
       "date": "2026-11-18",
       "text": "REQUEST S04-SH040-c approved by Leonard (\"yes 720 go\"; get_cost 35 credits) and submitted: S04 SH040 T03 57cf471d-833a-4ba1-aefc-7bc7a36fa87c, seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, no draft flag, char_politician, prop_briefcase, loc_side-street, palette_afternoon."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050h approved (1.5 credits): S03 SH050 street plate v2, gpt_image_2_6 high 1k 21:9, job c34fb281-06ca-43d4-9527-5389d420bf70, edit of the T01 frame at 1 s: worn patched asphalt, faded markings, manholes, litter, cables, building shadow. Files frames/001_S03_SH050_T01_plate_v2_src.png (1344x576) and _plate_v2.png (1470x630, the video size)."
     }
   ],
   "story_sync": {
