@@ -555,6 +555,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard on S04 SH040 T01: 'I like this, and I like the cinematography style here' (rating 4, inferred). Inputs behind it: no previz clip, loc_side-street for surfaces, palette_afternoon for color and light, the motivated-sun lighting paragraph, the look line, the realism paragraph (Leonard's 'not blocky' note), locked-off long lens. The backlit sun was the model's choice: the prompt asked for screen right."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST 050g approved (28 credits, 720p, 4 s, audio on) and submitted: S03 SH050 T02 = T01 extended forward, job ed3de9c1-8328-4118-bd84-d384ad284a43, he hugs the briefcase to his chest (Leonard). Prompt 05-generation/prompts/001_S03_SH050_T02.txt."
     }
   ],
   "story_sync": {

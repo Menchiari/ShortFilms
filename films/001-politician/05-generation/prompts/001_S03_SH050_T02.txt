@@ -1,4 +1,4 @@
-REQUEST 050g (pending approval): S03 SH050 T02 = T01 (job c6a30881) extended forward 4 s. seedance_2_5, mode video_extension, extension_mode forward, 720p, audio on, folder S03/SH050. Images: 1 = char_politician (a7601ce4), 2 = prop_briefcase (4bf36cb5). 28 credits.
+REQUEST 050g, approved, job ed3de9c1-8328-4118-bd84-d384ad284a43: S03 SH050 T02 = T01 (job c6a30881) extended forward 4 s. seedance_2_5, mode video_extension, extension_mode forward, 720p, audio on, folder S03/SH050. Images: 1 = char_politician (a7601ce4), 2 = prop_briefcase (4bf36cb5). 28 credits.
 Leonard 2026-11-18: extend 4 seconds, same resolution, he holds the briefcase to his chest.
 
 Prompt:
