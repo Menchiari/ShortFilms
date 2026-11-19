@@ -1836,6 +1836,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T03 done (12 credits, passed the filter), downloaded to takes/S07/SH070/001_S07_SH070_T03.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T03 rated 4 (inferred, 'this is good but'). REQUEST S07-SH070-d prepared, not submitted: prompts/001_S07_SH070_T04.txt = T03_v2 with two changes only: the crowd pressed around the lens, the nearest men yelling straight into the camera; the pipe the length of a baseball bat (about 75 cm, never a staff). New take, not video_edit (Leonard: video_edit does nothing). Same inputs, 480p, 21:9, 4 s, audio on, draft true so a 720p finalize stays possible (T01 to T03 went without it). get_cost 12 credits."
     }
   ],
   "story_sync": {

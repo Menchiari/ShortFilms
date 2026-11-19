@@ -5873,8 +5873,9 @@
                 "loc_square 62815a4f (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH070-c. Folder S07/SH070. Passed the filter on first submission. Claude's read: 0-1.7 s rough handheld with a strong cant (about 30 degrees), he heaves the pipe up, a shoving crowd behind; about 1.7 s the camera rights itself and settles; 2-2.9 s pipe overhead, mouth wide in a roar; about 2.9 s thick dark chunks spray up from his head, his head snaps back, his arms fling out and the pipe swings sideways, he falls out of the bottom of frame by about 3.6 s; chunks keep falling to the end. Misses: hazy sky shows above the towers at screen right and the sun flares from behind a building at upper left (not glass); camera less steep than asked (crowd fills the middle band); the fall is a backward fling, not an instant slack drop. Audio: harmonic band 1.8-2.6 s (likely the roar), loud transient cluster about 2.7 s."
+              "rating": 4,
+              "notes": "REQUEST S07-SH070-c. Folder S07/SH070. Passed the filter on first submission. Claude's read: 0-1.7 s rough handheld with a strong cant (about 30 degrees), he heaves the pipe up, a shoving crowd behind; about 1.7 s the camera rights itself and settles; 2-2.9 s pipe overhead, mouth wide in a roar; about 2.9 s thick dark chunks spray up from his head, his head snaps back, his arms fling out and the pipe swings sideways, he falls out of the bottom of frame by about 3.6 s; chunks keep falling to the end. Misses: hazy sky shows above the towers at screen right and the sun flares from behind a building at upper left (not glass); camera less steep than asked (crowd fills the middle band); the fall is a backward fling, not an instant slack drop. Audio: harmonic band 1.8-2.6 s (likely the roar), loud transient cluster about 2.7 s. Leonard 2026-11-19: 'this is good but': the crowd still too distant and not yelling into the camera; the bar way too big, as long as a baseball bat; the rest is perfect.",
+              "rating_source": "inferred"
             }
           ],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
