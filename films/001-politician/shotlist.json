@@ -6683,7 +6683,7 @@
               "prompt": "05-generation/prompts/001_S08_SH060_T02.txt",
               "file": "05-generation/takes/S08/SH060/001_S08_SH060_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH060_T02.jpg",
               "references": [
                 "char_sniper 8716ad9f (image_references)",
                 "prop_rifle bb9db39b (image_references)",
