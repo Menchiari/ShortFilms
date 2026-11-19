@@ -1764,6 +1764,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 T03 downloaded (job 55061ebc, 18 credits, passed first time): clenched teeth, yell 1.7-2.3 s, no shot; gun turns silver from about 4.3 s; eyes go up screen right and wide. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-ref approved by Leonard ('go ahead', 1.5 credits): gpt_image_2_6 high 1k 21:9 edit of the SH060 T02 frame, job c2998d8e-ca04-4478-9e94-d50b22c7a5d9, folder REFS. Saved as 05-generation/refs/001_S06_SH030_location-plate_v1.png (1344x576): the wall edge to edge, no sky, the pole in the left third casting a long shadow to the right (sun from screen left), rubble along the foot, empty pavement. Waiting for Leonard."
     }
   ],
   "story_sync": {
