@@ -1833,6 +1833,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH030-ref3 approved by Leonard ('go ahead', 1.5 credits): start frame v1, job 70fd4fb7-4831-4c51-b1a6-1255233de391, REFS, saved as 05-generation/refs/001_S06_SH030_start-frame_v1.png. The wall is now the ground floor of an apartment building with windows; he stands at it by the pole facing right, gun out, case in his left hand; five men on the asphalt with the pipe; a mixed crowd at screen right facing him. T03 prompt (prompts/001_S06_SH030_T03.txt): start_image = this still, plus char_politician_blood, prop_gun, prop_briefcase. REQUEST S06-SH030-d quoted at 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH010-ref-v2 approved by Leonard ('ok go'): S07 SH010 start frame as a Seedream 5.0 Pro 2k 21:9 edit of the first still (b428e5e5, which Leonard read as an end frame and is now the end frame), job 1a9129b2-4fc4-401f-87e0-171bb6dae96f, folder Scenes/S07/SH010, 2.5 credits. Prompt prompts/001_S07_SH010_REF_startframe_v2.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe_v2.png. Claude's read: same camera, wall, lamp, light and body spots; knot of about fifteen at the wall, scattered runners, open paving; six bodies readable; crowd still mostly men."
     }
   ],
   "story_sync": {
