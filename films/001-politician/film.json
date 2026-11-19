@@ -207,7 +207,18 @@
       "S08/SH050": "78a595cb-1074-4a24-9157-d364ba63c414",
       "S08/SH060": "002e09b1-a39f-47ed-be9e-f96f78db5261",
       "S08/SH070": "7a96506e-3b26-4bd0-8ece-4e0b50d06f46",
-      "S08/SH080": "d77580f7-e4c6-4d1d-b5c5-94bb824265af"
+      "S08/SH080": "d77580f7-e4c6-4d1d-b5c5-94bb824265af",
+      "S09/SH020": "5d7884c5-e258-4d71-8ef1-836705a74673",
+      "S09/SH030": "33105fc5-55e2-4867-8440-6537b6c7407a",
+      "S09/SH040": "aace931d-9283-4ee7-9696-540d67edd1a9",
+      "S09/SH050": "b350bd6f-84fd-40d6-87a4-1d8fa2ced4ec",
+      "S09/SH060": "7268acbc-5122-41a1-83ab-f5f314abae60",
+      "S09/SH070": "4449150a-77b8-42e9-9d9d-68fb16e18329",
+      "S09/SH080": "2a2f8c75-89e3-425c-804c-d70795267991",
+      "S09/SH090": "c6fa8576-f660-4765-909b-50c5d777a92b",
+      "S09/SH100": "bdbc8e30-e967-4dc2-aaf3-d822fc1d759c",
+      "S09/SH110": "811bc305-4e63-49a2-9218-43daab761a06",
+      "S09/SH120": "b3cf719d-5a9a-48cb-870f-3e798f77a3e8"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1841,6 +1852,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH060-a approved by Leonard ('ok go, 12 credits'): S07 SH060 T01, seedance_2_5 omni_reference, 4 s (the model minimum; the shot is 2 s, trimmed in the edit), 480p, 21:9, audio on, refs char_politician_blood 0d0a5637 and char_big-guy 6228445b, no previz clip, folder Scenes/S07/SH060, prompt prompts/001_S07_SH060_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 4bcd1a45-4223-443d-addd-eb48a2a3a207), no job id returned. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Higgsfield: S09 (inside Scenes, already had SH010) completed with SH020 to SH120."
     }
   ],
   "story_sync": {
