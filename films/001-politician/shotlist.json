@@ -5910,6 +5910,31 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH010-b. Folder S08/SH010. No helicopter element: the Black Hawk described in words; loc_square, palette_sunset. Claude's read: a real, solid UH-60 in three-quarter front view, nose to screen left, dark olive-black; it bobs and shifts a little in place (the stabilizing reads mildly); one figure sits in the open door, legs hanging out, the rifle not clearly readable at 480p; sun in frame at the right, warm haze, real rooftops with tanks, dishes and antennas. Misses: about 45% of frame width and low just above the near roofs, not far beyond them; the tall block at screen left is gone (d8 framing lost). Audio present (mean -30 dB); Claude cannot listen, music not verified. Leonard 2026-11-19: no; make it exactly the animatic composition, but realistic."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "165d3c84-59d1-4351-ac10-144395ee1ab1",
+              "prompt": "05-generation/prompts/001_S08_SH010_T03_v2.txt",
+              "file": "05-generation/takes/S08/SH010/001_S08_SH010_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame v1 8f2af3e5 (start_image)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH010-c. Folder S08/SH010. Start frame v1 (Seedream 8f2af3e5) as start_image (the API echo listed it under reference_images; the takes's frames match the still, so it was used), loc_square, palette_sunset, no guide clip. Claude's read: the animatic composition held for the whole 4 s: the tall balconied block at screen left, the lower block's roof edge diagonal at right, the helicopter in the sky upper middle, nose left, a real UH-60, about a fifth of frame width. It drifts a little side to side and shifts its attitude slightly: a hover, the fight for stability subtle. A man is visible in the open door, the rifle not readable at 480p. Sky pale warm cream as in the start frame. Camera locked. Audio present (mean -29 dB); Claude cannot listen, music not verified."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
