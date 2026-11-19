@@ -7158,6 +7158,30 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S08-SH020-a, second submission (first refused 429). Folder Scenes/S08/SH020. Claude's read from frames: photoreal, no previz look; Roger in the left half kneeling at the open door, sunglasses, earpiece, plate carrier, rifle with scope and bipod aimed out of the door, slow drift right, sunset sun at screen right, haze, town far below. Misses: the lady and the pilot are absent (both cockpit seats empty); his cheek is not on the stock and the smile does not read; the whole rifle is in frame instead of running out of it; the town below is a big city with high-rises, smoke plumes and one dome-like tower. Audio present (mean -29.7 dB); not listened to, music unchecked."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "3d341a42-a61c-4da1-a854-467788ada1a7",
+              "prompt": "05-generation/prompts/001_S08_SH020_T02.txt",
+              "file": "05-generation/takes/S08/SH020/001_S08_SH020_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame v3 e0aa58d6 (start_image, refs/001_S08_SH020_start-frame_v3_gpt.png)",
+                "char_sniper 8716ad9f (image_references)",
+                "char_boss 7ef41962 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH020-b, approved 'ok go, 12 credits'. Folder Scenes/S08/SH020. Claude's read from frames: starts on the v3 start frame (slightly reframed); lady in the left front seat, pilot right, rifle out of the door at the right edge, door empty, low sandy town, sun at right; the framing sways and widens a little over the 4 s. Roger's smile does not read: his mouth stays hidden behind his cheek and the stock. Audio mean -30.7 dB; spectrum shows broadband noise with regular rotor-like pulses and no tonal lines, so no sign of music, but Claude cannot listen."
             }
           ],
           "description": "ROGER, harnessed in, cheek on the stock of a long rifle, his face on the left. He is smiling. Beyond him, in the front seat beside the pilot, the BUSINESS LADY, a headset over her hair. On the right, the front half of the rifle runs out of frame toward the open door.",
