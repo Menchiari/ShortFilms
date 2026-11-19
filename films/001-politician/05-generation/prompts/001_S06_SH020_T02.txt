@@ -1,0 +1,49 @@
+Audio: only his hoarse yelling, the men's shouts and threats, five sharp gunshots, the screams and shouting of a packed crowd, running and scuffing feet on gritty asphalt, bodies thudding onto the asphalt, his ragged panicked breathing. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_blood: the old man's face, thinning sweat-wet brown hair, heavy build, dusty charcoal suit, stained white shirt, rust tie and the fresh wound on his right eyebrow only, not his pose or background. @prop_gun: the toy gun: its small shape, size and black finish only, not its background. @loc_side-street: the street: its cracked ochre plaster, rolled-down metal shutters, small balconies, sagging cables and gritty asphalt only, not its framing, people or cars. @prop_briefcase: the dark leather briefcase: its shape, leather, handle and latches only.
+
+Handheld over-the-shoulder shot, live-action 35mm film footage, from close behind the old man from @char_politician_blood, trapped against a wall at the mouth of a narrow street packed with an angry crowd: panicking and furious, he screams at them to stay back with the toy gun from @prop_gun shaking in his right hand, they keep coming at him one after another, and five times he fires and a man drops where he is.
+
+He is an untrained old man who has never fired at anyone. He holds the gun out in his right hand with the elbow bent, the arm trembling, never locked straight and never steady; he jabs it at faces as he yells; each shot kicks the gun up and makes his whole body flinch, and he stumbles half a step back. His head whips from side to side, he never knows where the next one comes from. His left hand still clamps the briefcase from @prop_briefcase against his left side. All his movements are clumsy, heavy, real, never smooth.
+
+Camera: handheld at his shoulder height, about a step behind him and a little to his right, his back, right shoulder, the back of his head and his gun arm in the left third of frame. A real operator caught in the panic: the camera jolts on every shot, gets bumped, swings late after his gun when he turns, searches and recovers. Never smooth, never floating.
+
+The street from @loc_side-street, a real narrow street photographed on location: about eight meters from wall to wall, three- to five-storey buildings close on both sides, the facades filling the frame left and right, rolled-down shutters, balconies, cables sagging across, chipped curbs, grit and sand on the asphalt. Only a strip of hazy sky at the top of frame. No open square, no wide road, no towers, no parked cars.
+
+The crowd: packed into the street in front of him, men and women of different ages in plain worn everyday clothes, the nearest only a few meters away, more pouring in from behind, getting denser all the time. Chaos: some turn and run away, shoving others aside, some surge forward, some crouch, some pull others back, some scream at him, faces furious and terrified. Nobody stands still. Nobody looks into the lens.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun turning golden, raking down the street from screen right, one side of the street in warm light, the other in deep shadow, golden dust hanging in the air. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-2s: he backs into the wall behind him, gun shaking out in front of him, swinging it from face to face, yelling his first line. The crowd presses up the street toward him, shouting.
+2-3s: a man in a light shirt at the front of the crowd yells and charges straight at him. The old man screams his second line and fires: a flash, the gun kicks up, he flinches. The man pitches forward onto the asphalt about ten meters away, near the left-hand shutters, and lies still, as if sleeping.
+3-5s: screams. The crowd recoils, then a second man bursts out of it on the right, shoving people aside, pointing at the old man, roaring his line as he runs at him. The old man backs, yelling his third line, the gun shaking toward him.
+5-6s: he fires. The second man drops about seven meters away, near the right-hand curb, and lies still, as if sleeping.
+6-8s: the street erupts: people fleeing back down it collide with people pushing forward; a third man runs straight up the middle at him. The old man screams at him to stop and fires. The third man falls in the middle of the street about six meters away and lies still, as if sleeping.
+8-10s: two more break out of the crowd at once, one from each side. He whips the gun to the left one and fires; that man drops about four meters away on the left and lies still, as if sleeping.
+10-11s: the other one is already on him from the right; the old man swings back, stumbling, and fires almost point blank. The man drops at the bottom of frame, two or three meters in front of him, and lies still, as if sleeping.
+11-12s: the old man, gasping, hoarse, the gun shaking at the crowd, yells his last line. Final frame: from behind his right shoulder, his trembling gun arm pointing into the frame, the five men lying still on the asphalt where they fell, the packed crowd beyond them seething: some backing away, some edging forward, some screaming at him. The camera still at his shoulder, unsteady.
+
+Dialogue: everyone speaks English. The old man is American with a slight accent; the men in the crowd speak with strong accents nobody can place.
+0-2s, the old man's first line (warning them off, the gun up): {Stay back! Stay back!}
+2-3s, the old man's second line (begging him to stop): {Don't! Don't do it!}
+3-5s, the second man's line (charging, out for revenge): {I'm going to kill you!}
+4-5s, the old man's third line (pleading and furious at once): {Go back! Go back!}
+6-7s, the old man's fourth line (screaming at the third man): {Stop!}
+11-12s, the old man's last line (hoarse, raging at all of them): {Get away from me!}
+Between their lines the men in the crowd shout over each other, no words clear. The men who are hit say nothing.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, and he refuses to die on this street.
+GOAL: make them stop coming, without having to shoot anyone else.
+OBSTACLE: every man he shoots makes the rest angrier, there are more of them every second, the wall is at his back and there is nowhere left to go.
+TACTIC: he shouts them down and threatens with the gun to scare them off, his eyes jumping from face to face hunting for the one who is about to charge, begging each one with his eyes to turn back; when one runs anyway he fires out of pure terror, hates that he did it, and his eyes are already on the next one, pleading, furious at them for forcing him.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Each man who is hit drops exactly where he is hit, on his own spot of the asphalt, and never moves again for the rest of the shot. Hits read as a flinch and a fall, no blood spray, no wounds shown. Count of guns: one, the toy gun from @prop_gun, always in his right hand, fired five times, only by the old man. Count of briefcases: one, always in his left hand. Count of men lying on the asphalt at the end: five. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his hoarse yelling, the men's shouts and threats, five sharp gunshots, the screams and shouting of a packed crowd, running and scuffing feet on gritty asphalt, bodies thudding onto the asphalt, his ragged panicked breathing. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
