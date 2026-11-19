@@ -5815,6 +5815,29 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH010-a, draft, Leonard approved 15 credits ('ok go'). Folder Scenes/S07/SH010. Start frame 1a9129b2 (Seedream edit) and end frame b428e5e5 (Seedream), no guide clip, no loc_square; the job echo listed both under reference_images, yet frame 0 and the last frame match the stills closely (the video sits a touch wider). Claude's read (contact sheet, first and last frame, audio levels only, not watched at speed or listened to): photoreal, locked-off steep rooftop view, wall corner with the one lamp, golden low sun from screen left, long shadows. The knot at the wall grows from about fifteen into a dense mob; dozens of people run in from every edge at different paces and paths, many more than in the stills by the end. Bodies stay readable near the knot (about five or six, not eight). Crowd still reads mostly men in beige and dark clothes. Audio a steady crowd bed at about -35 to -27 dB RMS, rising at about 1.2 s and 3 s; music not checked by ear. Not rated by Leonard yet."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "87fabfce-0ea6-4629-99ff-e6d424d7a094",
+              "prompt": "05-generation/prompts/001_S07_SH010_T02.txt",
+              "file": "05-generation/takes/S07/SH010/001_S07_SH010_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH010_T02.jpg",
+              "references": [
+                "start frame 7ffdd6b5 (start_image, 05-generation/refs/001_S07_SH010_REF_startframe_v3.png)",
+                "end frame b428e5e5 (end_image, 05-generation/refs/001_S07_SH010_REF_startframe.png)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH010-b, draft, Leonard approved 15 credits ('ok go'). Folder Scenes/S07/SH010. Change from T01: start frame v3 (7ffdd6b5, he stands alone) and beats where the crowd reaches him and he goes down; end frame b428e5e5 as T01. Claude's read (contact sheet at 2 fps, crops around him, frame 0 vs the start still, audio levels only, not watched at speed or listened to): frame 0 matches start frame v3 (the video sits a touch wider). Locked-off, photoreal, golden low sun from screen left. He stands alone at the wall beside the lamp, still, until about 1.5 s while the crowd closes from every side; at about 2 s the first runners reach him and by about 2.5 s he is gone under them; the knot then swells into a dense mob and people keep streaming in to the end. The nearest bodies get covered by the knot as it grows; the farther ones stay still in their spots. Crowd still mostly men in beige and dark clothes. Audio a crowd bed rising from about -34 dB to -22 dB RMS at about 2 s with the impact; music not checked by ear. Not rated by Leonard yet."
             }
           ],
           "description": "From far above, the mob closes over him at the corner of the square. More people keep coming from every street. Fists and kicks rise and fall. The dead lie where they fell.",
