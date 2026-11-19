@@ -60,7 +60,8 @@ How much is said, how much is held back, how characters listen and overlap.
 Images that set the look (Midjourney or other), in `style-refs/`. Stills and plates: GPT Image 2.6 Sunburst, quality high, 1k (Leonard, 2026-11-17).
 
 ## This film never
-Gets a set or previz clip as a video reference for a frame filled by place: it comes out as 3D
-previz (refs_d11 README). Composition from words, a photoreal start frame, or the line drawing.
+Gets an animatic or previz clip as a video reference, line drawing included: what the clip alone
+shows (people, street, paper) is copied as boxes (S02 SH030, SH100 T01; S05 SH110 T01, T08). An
+animatic composition enters only as a photoreal start frame made over its frame (S05 SH110 T09).
 Holds a shot where nothing happens, unless the frame is breathtaking (Leonard, 2026-11-17).
 Names a real director, film or artist in any prompt: it is a contest entry (Leonard, 2026-11-17).
