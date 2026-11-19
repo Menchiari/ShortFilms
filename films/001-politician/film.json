@@ -1870,6 +1870,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH040: line-drawing guide refs/001_S09_SH040_lines_d11.mp4 (edgedetect of refs_d11/S09_SH040.mp4) uploaded and filed in REFS (video a972756a-5e12-44e5-89db-8e8efe532d36). REQUEST S09-SH040-a prepared, not submitted: prompts/001_S09_SH040_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder Scenes/S09/SH040. Images: prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179. Estimate 12 credits. [ASSUMPTION] the dead count is twelve (seven he shot: 8 rounds minus the one into the air, per the gun count and S07 SH080 T01; plus the fat person, the second man, three from S08); the CLAUDE brief said 'his eight'. [ASSUMPTION] sun behind the scene at upper left, out of frame; door empty; he stands still by the street light with the folder."
     }
   ],
   "story_sync": {
