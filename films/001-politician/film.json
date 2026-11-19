@@ -1332,6 +1332,10 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH080 T02 rated 3 (inferred): Leonard, less happy and more mortified, more human and realistic. REQUEST S04-SH080-c prepared, not submitted: T03 = video_edit of T02 (7e71c979), 0-2 s only (grin becomes a mortified, worried wince, hand reaching down), rest kept; prompts/001_S04_SH080_T03.txt, 480p, 21:9, 5 s, audio on, plus char_big-guy. get_cost 18 credits. Alternative: a new 5 s take, 15 credits, rerolls the confusion part too."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH120: Leonard: 'using image instead of elements'. Checked: Higgsfield's element tool lists seedance_2_0, not seedance_2_5, as element-capable; seedance_2_5 has no element role (medias: start_image, end_image, image_references, video_references, audio_references); docs/PROMPTING.md says Seedance 2.5 ignores <<<element>>> placeholders. The images passed are each element's own image job. Fixed what was wrong: the prompt now names the elements as the house template does (@char_politician_dusty (@Image1) and so on): prompts/001_S04_SH120_T05_v2.txt. Same media and cost (18 credits), waiting for approval."
     }
   ],
   "story_sync": {
