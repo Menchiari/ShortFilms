@@ -1864,6 +1864,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070: REQUEST S08-SH070-a prepared, not submitted: fallback plate for the 2 s scope POV (the 0-credit method, a punch-in on SH030's take, waits for SH030). prompts/001_S08_SH070_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s (model minimum), audio on, folder S08/SH070. Refs: loc_square 62815a4f, char_politician_blood 0d0a5637 (trousers and shoe only), palette_sunset 1f563179. No video reference: refs_d11 has no S08_SH070; S08_SH030 (scope look) and S08_SH080 (rope) read for intent only. [ASSUMPTION] clean optics, no ring or crosshair: the scope overlay is added in post for SH030 and SH070 alike; sun from screen left as in S07 SH030. Rope stays whole (SH080 has the snap). get_cost 12 credits, balance 26990.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-a approved by Leonard ('go ahead, just remember photorealism is key', 12 credits): S08 SH070 T01 submitted, job 6a64e4e3-2b9b-47a3-81a9-b2a60d17b6ef, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. Prompt 001_S08_SH070_T01_v2.txt: T01 plus one photorealism sentence (Leonard's note); same refs and settings as quoted."
     }
   ],
   "story_sync": {
