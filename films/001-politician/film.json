@@ -1804,6 +1804,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH030 T01 rated 2 (inferred): nobody pulling, he looks like a mannequin, crowd only Middle Eastern men, the wall should continue as in other shots. T02 prompt prompts/001_S07_SH030_T02.txt: guide clip dropped (its still figures, as in S06 SH060 T01); pullers at the pole always in view, the arm in frame; a living body, face readable at shoulder height; a mixed crowd from everywhere, men and women; wall from a S06 SH060 T02 frame (refs/001_S07_SH030_wall_from_S06_SH060_T02.jpg, media 53f407e7), one continuous wall past every edge [ASSUMPTION: 'continue' = one unbroken wall]. REQUEST S07-SH030-b quoted 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH030-b approved by Leonard ('go ahead', 18 credits): S07 SH030 T02 submitted, seedance_2_5 omni_reference 480p 21:9 6 s audio on, job 4fd167a5-1c5a-4a6a-853d-efac7b8971f3, folder Scenes/S07/SH030, prompt 001_S07_SH030_T02.txt, refs char_politician_blood 0d0a5637, loc_square 62815a4f, wall frame 53f407e7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T02 downloaded (job 4fd167a5, 18 credits, passed the filter): pullers clearly hauling at the pole, arm in frame, continuous wall, livelier body with his face readable; misses: no lift from the ground (he is already up at 0 s), a swing near 5 s that looks thrown, and the crowd is still all bearded men in matching beige, no women. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

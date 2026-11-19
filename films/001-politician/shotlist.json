@@ -5772,6 +5772,30 @@
               "rating": 2,
               "notes": "REQUEST S07-SH030-a. Folder S07/SH030. Claude's read (frames, not heard): photoreal, golden late sun, weathered concrete wall across the frame, plain pole in the middle, handheld from behind heads at head height. He rises above the heads at about 2.5 s, upside down by one ankle, jacket falling, then turns and kicks left of the pole to the end. Misses: the light's arm is out of frame, the rope just drops from the top edge; nobody is seen hauling it; his head stays below the line of heads, the face never reads; the crowd is mostly men, many shaved heads in the same beige, the far rows stand still facing the camera like an audience. Leonard 2026-11-19: nobody is pulling him; he looks like a mannequin; the crowd is only Middle Eastern men, it needs to be mixed; the wall should continue like in other shots.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "4fd167a5-1c5a-4a6a-853d-efac7b8971f3",
+              "prompt": "05-generation/prompts/001_S07_SH030_T02.txt",
+              "file": "05-generation/takes/S07/SH030/001_S07_SH030_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "wall frame from S06 SH060 T02 53f407e7 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH030-b. Folder S07/SH030. No guide clip. Claude's read (frames, not heard): the pullers read clearly: a line of about ten people at the pole, rope wrapped around it, hauling sideways; the arm is in frame; the wall is one continuous weathered wall across the frame. He is already off the ground in the first frame (no lift from the pavement), then jerks up, flips and twists, arms grabbing, more alive than T01; his face shows upside down from about 2.5 s; around 4.5 to 5 s he swings almost horizontal, which looks thrown rather than hanging. Misses: the crowd mix failed again and got worse: the pullers are near copies, bearded men in the same beige shirt, no women readable."
             }
           ],
           "description": "Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.",
