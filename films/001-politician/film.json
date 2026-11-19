@@ -1844,6 +1844,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH050 T04: sideways swings left and right, not vertical; he hangs, he is not on the floor. REQUEST S07-SH050-e prepared: prompt 001_S07_SH050_T05.txt: flat sideways forehand and backhand swings that knock the camera spinning on the rope; camera in the air at the crowd's chest height, level, ground out of frame. [ASSUMPTION] Leonard did not pick between start frame (A) and text only (B) for the crowd: T05 takes B, the cheaper one: char_big-guy image dropped and the fat man described in words (risk: his face drifts from S04), 'desert town' and 'concrete towers' removed, most men clean-shaven. Refs: loc_square 62815a4f only. seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-e approved by Leonard ('go ahead', 15 credits): T05 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job 2ffde0f1-01df-45ca-8680-f0335e48653d, folder S07/SH050, prompt 001_S07_SH050_T05.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T05 done (job 2ffde0f1, 15 credits): 001_S07_SH050_T05.mp4. Mixed crowd with women at last (dropping the char_big-guy image and 'desert town' worked), camera at chest height with whip spins on the blows, sideways and diagonal swings. Weak: the fat man's face is not the S04 man, the rod switches between thin grey and a thick black bat. Waiting for Leonard."
     }
   ],
   "story_sync": {
