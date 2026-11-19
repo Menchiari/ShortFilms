@@ -1800,6 +1800,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH040 T01 downloaded (001_S07_SH040_T01.mp4, 12 credits). Fails: Seedance rolled the camera, so the square and crowd are upside down and he reads as an upright man with raised arms. Not retaken; next fix proposed to Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH040 T01: 'this works alright for now, maybe more wobble more movement, more chaos, more people around' (rating 4, inferred). REQUEST S07-SH040-b prepared, not submitted: prompts/001_S07_SH040_T02.txt = T01 with more swing and spin on the rope, a dense shoving crowd close around him, blurred passers crossing the frame edges. Same inputs and settings (480p, 21:9, 4 s, audio on). [ASSUMPTION] 'wobble' means his body on the rope; the camera stays locked-off as in the screenplay. Estimate 12 credits."
     }
   ],
   "story_sync": {
