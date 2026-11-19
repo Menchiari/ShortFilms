@@ -2110,6 +2110,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH050: Leonard chose to wait for SH020 and generate SH050 as a 4 s take (trimmed to 3 s in the edit) from the last frame of his chosen SH020 take, start_image plus char_boss and char_sniper. Draft prompt prompts/001_S08_SH050_T01.txt, lighting to be filled from the SH020 frame. [ASSUMPTION] American English for the lady. Nothing generated."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH060-a approved by Leonard ('ok go, 24 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id cf0894e6-f540-4692-bce3-20bc7d619092), no job id returned, nothing charged. Not resubmitted: waiting for Leonard."
     }
   ],
   "story_sync": {
