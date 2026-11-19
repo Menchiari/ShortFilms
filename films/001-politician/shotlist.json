@@ -4523,6 +4523,35 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S05-SH080-d, 720p (1470x630), 8.06 s, 3.4 MB, audio present (not listened to). Leonard's performance notes: agitated, looks back, walk to run to faster, stumble, heavy breathing, repeated words, hates begging. First prompt with @Image/@Video/@Audio and @char_/@prop_/@loc_ names. Claude's read from frames: at about 1 s he turns his whole head back over his shoulder, then shouts into the phone with grimaces, mouth wide; he moves faster through 2-6 s with the case bouncing under his left arm (at his side, not his chest); a forward lurch at about 3.5 s but no clear trip and catch. Hit at frame 162-164 (about 6.8 s): head snaps back, phone hand flies up, no pebble visible in any frame; audio peak 7.25 s. He spins and lands on his front and side, not on his back; final frame: a short red cut at the right brow and temple, his hand on the briefcase, phone on the ground. Faults: parked and wrecked cars along both sides of the street despite 'no cars at all', graffiti on a wall, no pebble."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "1e7582a4-6fba-42f4-a45e-34a001873630",
+              "prompt": "05-generation/prompts/001_S05_SH080_T05.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "@char_politician_dusty 98e1e69e (@Image1), its elbow tear excluded in words",
+                "@loc_side-street e728a9ae (@Image2)",
+                "@prop_briefcase 4bf36cb5 (@Image3)",
+                "palette_afternoon 3bf30eee (@Image4)",
+                "6 s stone-free guide 0715cb8b (@Video1)",
+                "voice from S03 SH020 T03 8cd83ab3 (@Audio1)",
+                "seed 1823186076"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-e, 720p (1470x630), 6.08 s, audio present (not listened to). Changes from T04: 6 s, line once with heavy breathing, elbow tear excluded in words, no graffiti. Claude's read from frames: no tear visible on either sleeve in the sampled frames; he turns his whole head back at about 1 s; a clear stumble at about 2.3-2.7 s (he dips low and pitches forward, then recovers); the pebble shows for about 2 frames as a small light streak from screen left at his brow (frames 105-106, about 4.4 s), small, then he winces and his head snaps back; he falls onto his back, final frame with the briefcase and phone beside him. Faults: the blood ends up at his nose and upper lip in the final frame, not at the outer right eyebrow; the street reads as a wide, ruined boulevard with high-rises, not the narrow side street; the briefcase is at his left side, not his chest. No cars, no graffiti. Body impact peak at 5.25 s."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
