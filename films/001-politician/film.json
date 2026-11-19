@@ -1950,6 +1950,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH060 T01 done: job ac24ba37, 12 credits, saved as 05-generation/takes/S07/SH060/001_S07_SH060_T01.mp4. Photographic, both characters right; the contact and rebound off the forearm are not clearly readable; bat-shaped pipe; static staring crowd. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-e approved by Leonard ('go ahead', 12 credits): S06 SH030 T03 submitted, job 7b51d8cf-830a-43b0-8211-037501d7b7a8, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T03_v2.txt, refs f61e2fee, 2aa49ff6, 663578f1."
     }
   ],
   "story_sync": {
