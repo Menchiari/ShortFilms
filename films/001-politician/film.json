@@ -1357,6 +1357,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T02 delivered (job f667821b, 12 credits): real speed and empty shells fixed, five shots; background still distant. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T02 rated 3 (inferred): Leonard, the gun is correct; hand rests on a wall, and the background must be a wall, not a crowd. REQUEST S06-SH025-c prepared: T03 = video_edit of T02 (f667821b) with loc_square 62815a4f for the wall, prompts/001_S06_SH025_T03.txt, 480p, 21:9, 4 s, audio on. Estimate 15 credits (a fresh take is 12 but rerolls the gun). Waiting for approval."
     }
   ],
   "story_sync": {
