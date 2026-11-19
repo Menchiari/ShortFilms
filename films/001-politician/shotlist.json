@@ -5968,9 +5968,9 @@
                 "no video reference"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S08-SH070-a. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset light; high angle down onto the asphalt, a curved yellow line and the curb at right, no wall. The street light head and arm at top left, the frayed rope hangs from the arm through frame center with a knot at the crosshair, a black shoe heel-up with a dark trouser leg at the bottom edge. Seedance baked in a black scope ring and a fine crosshair with mil ticks, against the prompt. 0-3 s gentle sway, near still from about 2 s. Crack peak at 3.07 s, the view kicks at about 3.1 s and settles by 3.6 s; rope stays whole. Faults: the knot sits a third of the way above the shoe, not around the ankle; the rope runs on past the shoe. Edit window: about 1.6-3.6 s."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH070-a. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset light; high angle down onto the asphalt, a curved yellow line and the curb at right, no wall. The street light head and arm at top left, the frayed rope hangs from the arm through frame center with a knot at the crosshair, a black shoe heel-up with a dark trouser leg at the bottom edge. Seedance baked in a black scope ring and a fine crosshair with mil ticks, against the prompt. 0-3 s gentle sway, near still from about 2 s. Crack peak at 3.07 s, the view kicks at about 3.1 s and settles by 3.6 s; rope stays whole. Faults: the knot sits a third of the way above the shoe, not around the ankle; the rope runs on past the shoe. Edit window: about 1.6-3.6 s. Leonard 2026-11-19: the rope is not a noose, it is tied around the post; the feet are not seen, they are tied far away; when the shot fires the rope should snap."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
