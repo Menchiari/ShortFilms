@@ -1341,6 +1341,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025: Higgsfield folder S06/SH025 created (b8e674ec-f71b-4165-a1a1-394664830ade)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH025-a approved by Leonard (12 credits): S06 SH025 T01 submitted, 480p, 21:9, 4 s, omni_reference with prop_gun and char_politician_blood, job a26418ca-6a97-4ac7-ba41-95d8eb7f9c82, folder S06/SH025, prompt 001_S06_SH025_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T01 delivered (job a26418ca, 12 credits): three firing cycles in 4 s (asked four), black gun, hand and sleeve right, nobody in frame. Waiting for Leonard."
     }
   ],
   "story_sync": {
