@@ -1820,6 +1820,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH080 T02 rated 3 (inferred). Leonard 2026-11-19: 'I don't mind it'; wishes for more people all around, also on the left side; maybe another person drops; all run in different directions. Body map: a third drop here makes the sniper's count six with S08 SH040's three, unless S08 SH040 drops to two (open, Leonard decides). Prepared: REQUEST S07-SH080-ref2, edit of the start frame (job 7e4832d7) with about half again as many people, the left side filled, limbs fixed, seedream_v5_pro 2k 21:9, prompt prompts/001_S07_SH080_REF_startframe_v2.txt, quoted 2.5 credits; then REQUEST S07-SH080-d, T03 from that frame, prompt prompts/001_S07_SH080_T03.txt (three cracks, a third man drops at the left, the crowd runs in every direction), 5 s 480p 21:9 audio on, 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-ref2 and -d approved by Leonard ('ok go'): start frame v2, edit job a9413cf0-71ab-4ba3-81f5-25f3e36037df (2.5 credits), saved refs/001_S07_SH080_REF_startframe_v2.png; T03 job ea9b8ece-12bc-4ed1-990f-333e65358c08 (15 credits), folder S07/SH080, passed first time, downloaded as takes/S07/SH080/001_S07_SH080_T03.mp4. Denser crowd, left side filled; no third drop readable; the run goes mostly right. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

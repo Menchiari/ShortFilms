@@ -5865,6 +5865,28 @@
               "rating": 3,
               "notes": "REQUEST S07-SH080-c, draft, Leonard approved 15 credits ('ok go'). Start frame frames/001_S07_SH080_T02_start.jpg (media 661e9bb7) sent as start_image; the job echo lists it under reference_images. Prompt T02_v2. Claude's read (frames at 2 fps, two full frames, audio levels only, not listened): photoreal, no previz look. The frame is wider than the start frame (taken as a reference, not an exact first frame) but keeps the previz layout: the lamp post at the far left on the curb, a concrete parapet in the lower left foreground, the old man hanging upside down from the lamp's arm by a visible rope at left, the fat man left of center, smoke at right. 0-0.5 s riot in motion, the fat man swings the pipe up; a loud event peaks at about 1.15 s; he is down by 1 s with the pipe on the asphalt beside him. 1.5-3.5 s the crowd stands and turns, many heads up and around, varied stances, some still drifting; quieter (about -37 dB). Second loud event 3.6-4 s; a man in a red shirt lies center by 4 s. 4-5 s the crowd scatters in several directions at different speeds, motion blur. Crowd: men and women, varied modern clothes with color; skin mostly light to olive, few clearly Black or East Asian faces at this size. Bodies readable: about four besides the two new ones. No limb errors seen at this resolution. Leonard 2026-11-19: 'I don't mind it'; wishes for more people all around, also on the left side; maybe another person drops; all run in different directions.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "ea9b8ece-12bc-4ed1-990f-333e65358c08",
+              "prompt": "05-generation/prompts/001_S07_SH080_T03.txt",
+              "file": "05-generation/takes/S07/SH080/001_S07_SH080_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame v2 001_S07_SH080_T03_start.jpg 89efaeee (start_image), from refs/001_S07_SH080_REF_startframe_v2.png (job a9413cf0)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH080-d, draft, Leonard approved 2.5 + 15 credits ('ok go'). Start frame v2 refs/001_S07_SH080_REF_startframe_v2.png (edit job a9413cf0 of 7e4832d7), sent as frames/001_S07_SH080_T03_start.jpg (media 89efaeee, start_image). Prompt T03. Claude's read (frames at 2 fps, two full frames, audio levels only, not listened): photoreal, wider than the start frame again, same previz layout. Much denser crowd than T02, people now on the left along the sidewalk and behind the hanging man. 0-1 s riot in motion, the fat man drops by 1 s, pipe beside him (loud 0-1.2 s). 1.5-3 s the crowd mills and turns, quieter. Loud from 3.1 s. The man in the red shirt lies center-right by about 4.5 s. Misses: no third drop on the left is readable; the run at 4-5 s goes mostly to the right and top right, a few to the top left, not in every direction; skin still mostly light to olive at this size."
             }
           ],
           "description": "A crack from the sky. The fat person drops. The pipe rings on the asphalt. The crowd takes a step back, confused, looking around. A few seconds later, another man drops. A few run. Then others.",
