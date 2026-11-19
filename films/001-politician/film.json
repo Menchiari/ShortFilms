@@ -1852,6 +1852,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH050 T05 done (job 2ffde0f1, 15 credits): 001_S07_SH050_T05.mp4. Mixed crowd with women at last (dropping the char_big-guy image and 'desert town' worked), camera at chest height with whip spins on the blows, sideways and diagonal swings. Weak: the fat man's face is not the S04 man, the rod switches between thin grey and a thick black bat. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard likes the S07 SH050 T05 crowd (T05 rating 4 inferred). Crowd recipe written into 03-bible/style.md (Prompt density, Crowds) on his instruction."
     }
   ],
   "story_sync": {

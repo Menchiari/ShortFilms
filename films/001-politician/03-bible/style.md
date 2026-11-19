@@ -49,6 +49,15 @@ Dense. Every shot prompt carries, besides the PROMPTING.md skeleton:
   walls), ending "Nothing looks like a box, a slab or a 3D model." (Leonard, 2026-11-18)
 - A task for every person in frame, extras included, so nobody looks into the lens or drifts.
 - "No cars" is not enough: name "no parked cars" when the street must be empty.
+- Crowds (Leonard, 2026-11-19, from S07 SH050 T05): a real riot crowd filmed like documentary
+  news footage, packed close; about half women; every face different, named one by one (a
+  grey-haired white woman in a cardigan, a young Black man in a red hoodie, an East Asian woman in
+  glasses, a bald clean-shaven white man in his sixties, a young woman with a blonde ponytail, a
+  South Asian man in a blue work shirt, a heavy Latina woman in her fifties, a clean-shaven
+  teenage boy in a yellow t-shirt, a freckled red-haired man, an old Black woman with short white
+  hair); most men clean-shaven; everyday clothes of many colors; never rows, a wall or a scrum,
+  never two alike. In crowd shots: no character image whose face could spread to the extras
+  (describe that character in words), and no "desert town" or "concrete towers" wording.
 
 ## Sound grammar
 What the generated guide track carries, what stays silent.
