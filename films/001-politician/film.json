@@ -1832,6 +1832,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH050-d approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 38f2cec0-da76-4dba-a3e8-17185b49bdd3). No job in folder S07/SH050. A Seedance 2.5 spend of 15 credits appears at 15:26:28Z with no refund yet; I don't know if it is this refused request or another session's job (other sessions spend at the same time). Not retried; waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard approved resubmitting REQUEST S07-SH050-d ('go ahead', 15 credits). Folder checked first: no T04 job. T04 submitted, job 8f75d241-9108-4353-9d4a-10e99c6c94a0, same prompt and settings."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T04 done (job 8f75d241, 15 credits): 001_S07_SH050_T04.mp4. Thin rod, raw repeated blows with camera jolts, crowd close and yelling at the lens. Fails again: the crowd is all bearded dark-haired men like the fat person, no women. Text cannot override it: likely causes are the char_big-guy face reference bleeding into the extras and the words 'desert town' and 'concrete towers' priming the crowd [inference]. Waiting for Leonard."
     }
   ],
   "story_sync": {
