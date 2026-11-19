@@ -5746,8 +5746,33 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "8c77ea4a-9324-4e99-9730-7cc9076d04be",
+              "prompt": "05-generation/prompts/001_S07_SH030_T01.txt",
+              "file": "05-generation/takes/S07/SH030/001_S07_SH030_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "refs_d11_motion S07_SH030 as line drawing 37981167 (video_references; echoed under reference_images)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH030-a. Folder S07/SH030. Claude's read (frames, not heard): photoreal, golden late sun, weathered concrete wall across the frame, plain pole in the middle, handheld from behind heads at head height. He rises above the heads at about 2.5 s, upside down by one ankle, jacket falling, then turns and kicks left of the pole to the end. Misses: the light's arm is out of frame, the rope just drops from the top edge; nobody is seen hauling it; his head stays below the line of heads, the face never reads; the crowd is mostly men, many shaved heads in the same beige, the far rows stand still facing the camera like an audience."
+            }
+          ],
           "description": "Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.",
           "framing": "MEDIUM WIDE, 3 m away, the crowd between him and the camera",
           "movement": "Handheld",
