@@ -1876,6 +1876,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T01 rated 1 (inferred, 'pretty bad'): boxy bodies, the hanging man not at the lamp. Cause: the guide clip's previz mannequins (bodies copy their positions and rigid poses). Next proposed: no guide clip; a start frame from Leonard's Midjourney (prompt prompts/001_S08_SH040_REF_start-frame_midjourney.txt), then Seedance start_image, 7 s, 480p, about 21 credits. Not quoted, waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard: no start frame, Seedance from words. REQUEST S08-SH040-b prepared, not submitted: prompts/001_S08_SH040_T02.txt = T01 v2 without the guide clip, plus an exact composition in words (the building corner and the one lamp in the center of frame, the rope from the lamp arm to his ankle just left of the pole) and the bodies described one by one in loose real poses. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
