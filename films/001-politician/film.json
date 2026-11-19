@@ -2062,6 +2062,18 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH080 T01 rated 1 (inferred). Leonard 2026-11-19: nothing like the previz; the crowd looks fake and still; they all act the same; all Middle Eastern, he does not want that; it does not feel like a riot or a crowd. Cause: no guide and no start frame, so Seedance chose its own framing; 'desert town' plus the mosque/minaret exclusions and an all-brown wardrobe palette steered the crowd to one look; the prompt gave the crowd no individual actions before the first crack. REQUEST S07-SH080-ref prepared: start frame laid over the previz, seedream_v5_pro 2k 21:9 (as the S07 SH010 start frame), refs loc_square 62815a4f, previz frame 0 as line drawing (refs/001_S07_SH080_lines_d11_motion_f0.png, media 52c4a44e), char_big-guy 6228445b, char_politician_final 547bbfa3; prompt prompts/001_S07_SH080_REF_startframe.txt: a mixed crowd of every ethnicity, varied modern clothes, each person mid-action, riot debris and smoke. Quoted 2.5 credits, folder S07/SH080. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-b approved by Leonard ('approved, go with S07-SH040-b'; estimate 12 credits) and submitted: S07 SH040 T02 2ab4d6ba-60d4-4654-9903-3dac054501d7, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S07/SH040, prompt 001_S07_SH040_T02.txt, same refs as T01."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T02 downloaded (001_S07_SH040_T02.mp4, 12 credits): denser crowd, more movement; crowd faces look into the lens. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard asked for a sequel to S07 SH040 T02: hit with the pipe, pushed, people close, punching and kicking, violent. REQUEST S07-SH040-c prepared, not submitted: prompts/001_S07_SH040_T03.txt, seedance_2_5 video_extension forward of T02 (2ab4d6ba), 5 s, 480p, audio on, images char_politician_blood 0d0a5637 and char_big-guy 6228445b. [ASSUMPTION] 'the prop bar' is the metal pipe and the fat person swings it, as in the screenplay (S07 SH050/SH060). Filed as SH040 T03 (an extension of an SH040 take). Estimate 15 credits."
     }
   ],
   "story_sync": {
