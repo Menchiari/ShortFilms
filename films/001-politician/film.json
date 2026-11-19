@@ -2058,6 +2058,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH030-f approved by Leonard ('go ahead', 24 credits). First submit rejected by validation (extension_mode missing, request 1de1cd51), nothing charged. Resubmitted with extension_mode forward: S06 SH030 T04 job 68c8d816-adc3-47cb-8493-7bb3e8aa0b19, video_extension of SH020 T05 (c0bf1ae5), 480p, 8 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH080 T01 rated 1 (inferred). Leonard 2026-11-19: nothing like the previz; the crowd looks fake and still; they all act the same; all Middle Eastern, he does not want that; it does not feel like a riot or a crowd. Cause: no guide and no start frame, so Seedance chose its own framing; 'desert town' plus the mosque/minaret exclusions and an all-brown wardrobe palette steered the crowd to one look; the prompt gave the crowd no individual actions before the first crack. REQUEST S07-SH080-ref prepared: start frame laid over the previz, seedream_v5_pro 2k 21:9 (as the S07 SH010 start frame), refs loc_square 62815a4f, previz frame 0 as line drawing (refs/001_S07_SH080_lines_d11_motion_f0.png, media 52c4a44e), char_big-guy 6228445b, char_politician_final 547bbfa3; prompt prompts/001_S07_SH080_REF_startframe.txt: a mixed crowd of every ethnicity, varied modern clothes, each person mid-action, riot debris and smoke. Quoted 2.5 credits, folder S07/SH080. Waiting for approval."
     }
   ],
   "story_sync": {
