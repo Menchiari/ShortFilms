@@ -2142,6 +2142,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH050-a approved by Leonard ('ok go, 18 credits'): S09 SH050 T01, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 62815a4f, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T01.txt. Submitted twice, both refused by Higgsfield: 429 rate_limit_reached (request ids 68f8da7c-8145-4735-a234-7978fadc7741, a8f9f784-4476-425c-a8b7-92d199dfa04b), no job id, nothing generated. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-a prepared, not submitted: prompts/001_S08_SH040_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 7 s, audio on, folder Scenes/S08/SH040. Images: loc_square 62815a4f, char_politician_final 547bbfa3 (old man C hanging from the lamp, as in animatic d11), palette_sunset 1f563179. Video ref 6bfdd33e-a894-48fb-855e-e5cc7a0f94f4 (refs/001_S08_SH040_lines_d11_motion.mp4: refs_d11_motion/S08_SH040 as a line drawing). Three falls at about 1-2 s, 3-4 s and 5-6 s, all on the left half of the square, as in d11; the earlier dead stay at the foot of the building. [ASSUMPTION] sunset sun from screen left. No ACTING TASK: nobody close enough to read a face. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
