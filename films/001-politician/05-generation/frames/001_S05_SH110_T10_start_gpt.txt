@@ -1,0 +1,17 @@
+S05 SH110 T10 start frame. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S05/SH110 426ca3ac-94f5-4180-84ff-4de600d790e4.
+Images: 1 = the T09 start frame (001_S05_SH110_T09_start.jpg, media 9701d11a), 2 = loc_side-street (e728a9ae), the film's own side street.
+Change from T09: the place goes back to the film's town; people, framing and light stay; no paper in the sky.
+
+Prompt:
+
+Edit image 1. Keep exactly its camera position, height, angle, lens and framing, and every person in it: the same people, faces, clothes, poses and positions, all looking up. Change only the place.
+
+The place becomes the side street of image 2: take its buildings, materials and architecture: plain concrete apartment blocks of a dry, dusty modern town at the edge of the desert, faded and stained ochre plaster, small balconies, rolled-down metal shutters at street level, cables strung between the buildings, air-conditioner units, asphalt under a thin layer of dust and drifted sand along the walls. Take nothing else from image 2: not its framing, cars or people. The buildings stand where the buildings stand in image 1, at the same size and in the same perspective; the shop shutter under the awning at the right stays.
+
+Remove the paper from the sky: the sky is empty, pale and hazy.
+
+Light, natural and unstyled: afternoon sun out of frame behind the buildings at screen right, a pale hazy sky, the street in soft open shade, the upper floors at the left catching warm sun, dust in the air. Natural low-contrast light on the people. No lens flare, no glow. Warm ochre and brown palette. Deep brown shadows with detail, never black; highlights soft, never white.
+
+No readable writing, no logos, no flags, no landmark, no mosque, no minaret, no dome. No laundry, no trees, no palms, no greenery.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.

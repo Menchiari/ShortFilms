@@ -19,3 +19,7 @@ Method from REQUEST 018a (2026-11-17): the clip goes in as a line drawing, never
 `ffmpeg -i in.mp4 -vf "format=gray,edgedetect=low=0.08:high=0.25,negate,format=yuv420p" out_lines.mp4`, with the prompt's
 strict guide paragraph (take only camera position, movement, framing, rough positions, paths and timing). Both line and
 blurred versions came out photographic on S02 SH100; the line version kept real detail, the blurred one turned edges into slabs.
+
+Superseded 2026-11-19 (S05 SH110 T01 and T08 copied the box figures and the paper even as line drawings): no d11 clip goes
+in as a video reference. Use: one frame of the clip, turned into a photoreal still with gpt_image_2_6 (every shape named
+as a real thing), as the start frame (S05 SH110 T09, `05-generation/frames/001_S05_SH110_T09_start_gpt.txt`).

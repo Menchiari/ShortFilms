@@ -2486,6 +2486,70 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH120 approved: T05 (Leonard: 'this works', rating 4 inferred). 5 takes, 90 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-a approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T01 6a850e02. Previz look copied, bond text unreadable, hard cut at 3.3 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-b approved (12 credits, 480p draft, 21:9, 4 s, text only): S05 SH110 T02 547e4e5d. Photoreal, one take, the bond reads."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-c approved (15 credits, video_edit of T02): S05 SH110 T03 292822a5. No visible change: the bond is still the generic sheet."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-d approved (12 credits, 480p draft, 21:9, 4 s, bond image only): S05 SH110 T04 74a2ff10. Franklin layout on the sheets, $500,000 reads, title smeared."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-e approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T05 65634b5a. Backlight, anamorphic flare, one gust; too many sheets, look-alike men."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-f approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T06 ab8c06cc. Observational, the bond reads; ground-level camera, clear sky."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-g approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T07 f45e6399. Menacing crowd advancing; two sheets past the lens at the start, flake swarm overhead, period clothes."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-h approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T08 c4882ade. The animatic guide was copied again (box figure, paper across the lens): the line-drawing method fails for this shot."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-i still approved (1.5 credits): S05 SH110 T09 start frame, gpt_image_2_6 high 1k 21:9, job 0742a0d8-9133-4144-89a1-e0f97f5b3b97, over animatic d11 frame 0 (media 537e254c), every box named as a real person. Photoreal: the animatic composition held, modern European street, ten distinct modern people looking up, four small sheets in the sky. Files frames/001_S05_SH110_T09_start_src.png (1344x576) and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-i video approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T09 2ae60447 from the T09 start frame. Photoreal, no boxes, the still held, the paper stays high: the start-frame method works where the animatic video failed."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-j still approved (1.5 credits): S05 SH110 T10 start frame, gpt_image_2_6 high 1k 21:9, job 41de2b42-1525-4ae5-a526-9c618a83a0e1, edit of the T09 still with loc_side-street: the same people and framing, the film's dusty concrete town, empty sky. Files frames/001_S05_SH110_T10_start_src.png and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-j video approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T10 6bbc6108 from the T10 start frame. The film's town, the paper rises from the ground into the sky; it multiplies in the sky."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-k approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T11 d070aaef. Very low, sky and the town's blocks, heads at the edges; the paper rises from behind the far building as a cloud of forty or more and drifts away."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-l approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T12 5d23d579. Heads in silhouette, sheets scattered across the sky drifting away; no big sheet close."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-m approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T13 ca9f546d. Big sheets close above the silhouetted heads, then scattering away; dozens of small specks far up."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S05 SH110: Leonard chose T12 (5d23d579, 480p, rated 4 inferred) over T13. Shot approved."
     }
   ],
   "story_sync": {
