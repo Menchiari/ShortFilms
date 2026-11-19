@@ -1868,6 +1868,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-a approved by Leonard ('ok go', 21 credits), with his note: nobody may look like blocks, it must read as real live-action war documentary footage. Added as two realism paragraphs in prompts/001_S08_SH040_T01_v2.txt (settings unchanged). S08 SH040 T01 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, job e945d9ae-176d-471b-9bdb-580ff15bfcdc, seed 175111717, folder Scenes/S08/SH040. The submit call timed out on the client; the job was found queued once, not resubmitted."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T01 done (job e945d9ae, 21 credits): takes/S08/SH040/001_S08_SH040_T01.mp4. Photoreal, three cracks two seconds apart, three falls on the left half, earlier dead kept. Misses: the hanging man is not on the lamp arm, two lamps in frame, a few stiff bodies. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
