@@ -1792,6 +1792,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH040: REQUEST S07-SH040-a prepared, not submitted: prompts/001_S07_SH040_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s (model minimum, clamped [4, 30]; the shot is 3 s, trim in the edit), audio on. Images: char_politician_blood 0d0a5637 [ASSUMPTION: old man B, the screenplay note says C; question 5], loc_square 62815a4f; video ref 6f64e996-e149-4d68-87df-f4284f56b1b0 (refs/001_S07_SH040_lines_d11.mp4: d11 clip as a line drawing, last frame held to 4 s). Generated upside down in camera, not upright and rotated: the d11 frame keeps the facades upright behind him, so a 180 degree rotation would turn the square upside down. Estimate 12 credits (estimate_video_cost)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-a approved by Leonard ('approved, go with S07-SH040-a'; estimate 12 credits) and submitted: S07 SH040 T01 68dfef6f-7139-43c5-ae88-dc96de844180, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S07/SH040, prompt 001_S07_SH040_T01.txt. Refs: char_politician_blood 0d0a5637, loc_square 62815a4f, line guide 6f64e996 (the request echo lists it under reference_images)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T01 downloaded (001_S07_SH040_T01.mp4, 12 credits). Fails: Seedance rolled the camera, so the square and crowd are upside down and he reads as an upright man with raised arms. Not retaken; next fix proposed to Leonard."
     }
   ],
   "story_sync": {
