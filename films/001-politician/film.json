@@ -2410,6 +2410,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-b approved by Leonard ('ok go, 21 credits'): S08 SH040 T02 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, no guide clip, job 2d61a052-6987-46c5-a337-ac243d959080, folder Scenes/S08/SH040, prompt 001_S08_SH040_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-ref approved by Leonard ('try both', 2.5 + 1.5 = 4 credits): start frame v2 with prompts/001_S08_SH020_REF_start-frame_v2.txt, images MJ frame 7fec4fb7, char_sniper, char_boss, prop_rifle, folder Scenes/S08/SH020. Seedream 5.0 Pro 2k job c4c30973-6a46-4b0b-aa3d-03292d6701c7 (refs/001_S08_SH020_start-frame_v2_seedream.png, 3120x1328); GPT Image 2.6 high 1k job 2ef78fb3-32b7-4c48-8485-520675382829 (refs/001_S08_SH020_start-frame_v2_gpt.png, 1344x576). Claude's read: GPT matches the staging (cheek on the stock, lady in the front seat beside the pilot, rifle cut by the right edge, low sandy town); Seedream has the clearer face and smile but the rifle is held at the chest off his cheek, the whole rifle in frame, the lady large and closer to the door, and a brighter, cleaner look than the Midjourney frame. Waiting for Leonard's pick."
     }
   ],
   "story_sync": {
