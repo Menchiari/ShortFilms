@@ -7474,7 +7474,7 @@
               "prompt": "05-generation/prompts/001_S08_SH070_T03.txt",
               "file": "05-generation/takes/S08/SH070/001_S08_SH070_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH070_T03.jpg",
               "references": [
                 "palette_sunset 1f563179",
                 "no video reference"
