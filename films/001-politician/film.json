@@ -2178,6 +2178,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH030 T02 rated 4 (inferred: 'yea this works fine'). Shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-d approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 38f2cec0-da76-4dba-a3e8-17185b49bdd3). No job in folder S07/SH050. A Seedance 2.5 spend of 15 credits appears at 15:26:28Z with no refund yet; I don't know if it is this refused request or another session's job (other sessions spend at the same time). Not retried; waiting for Leonard."
     }
   ],
   "story_sync": {
