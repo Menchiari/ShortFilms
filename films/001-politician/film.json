@@ -1812,6 +1812,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH070: the head must split open from a large-caliber round from afar, realistic. REQUEST S07-SH070-b now uses prompts/001_S07_SH070_T02_v2.txt (T02 plus the wound in the generation: skull bursts open, red mist and fragments up and back against the sky, instant slack collapse; the round arrives before the crack, which follows a split second later). T02.txt kept as the filter-safe fallback. Same inputs and settings, get_cost 12 credits. Filter blocks on this account have been refunded (S02 SH050, S06 SH050)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-b approved by Leonard ('go with S07-SH070-b', 12 credits) and submitted: S07 SH070 T02 05ac8fc0-5b3c-419b-bf26-2771754ac1f3, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy 6228445b, prop_bar-weapon 8d69a591, loc_square 62815a4f, folder S07/SH070, prompt 001_S07_SH070_T02_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T02 done (12 credits, passed the filter with the wound in the generation), downloaded to takes/S07/SH070/001_S07_SH070_T02.mp4, recorded in shotlist.json, waiting for Leonard's read."
     }
   ],
   "story_sync": {
