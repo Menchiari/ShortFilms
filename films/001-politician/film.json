@@ -1401,6 +1401,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-d approved by Leonard ('go', 22 credits): T04 submitted, video_edit of T03 (55061ebc) plus char_politician_blood, 480p, 21:9, 6 s, audio on, job 8bc69232-6cc1-498d-8367-e2acbc69606e, folder S06/SH050, prompt 001_S06_SH050_T04.txt. The request echo lists T03 under reference_images (as in S04 SH130 T03)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 T04 downloaded (job 8bc69232, 22 credits): near identical to T03 (PSNR 41.9 dB at 4-6 s, same audio levels). The edit did not change the eye line or the sound."
     }
   ],
   "story_sync": {
