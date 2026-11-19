@@ -1455,6 +1455,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard, naming rule changed: '@char_politician_blood (@Image1)' is redundant; elements are written by name only (@char_ / @prop_ / @loc_), no (@ImageN) after them. Unnamed references keep @ImageN / @Video1 / @Audio1. Cause: Leonard's rule of 2026-11-18 above, written into docs/PROMPTING.md (e2da6bb) and the house template 001_S05_SH120_T01_v5, and repeated in the S06 session briefs. Docs fix on branch claude/prompting-ref-naming. REQUEST S06-SH020-a now uses prompts/001_S06_SH020_T01_v2.txt (only change: the four (@ImageN) tags removed); same media, order and cost (36 credits), waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH040 T01, Leonard: a wall in the background, more sweat, more grin, speaking with his teeth shut, rushed with adrenaline but keeping his cool, hatred in the micro-expressions, closer. T02 prompt (prompts/001_S06_SH040_T02.txt): those changes, plus facing screen right restated. REQUEST S06-SH040-b quoted at 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
