@@ -5954,7 +5954,7 @@
         },
         {
           "id": "SH080",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5975,7 +5975,10 @@
                 "loc_square 62815a4f",
                 "palette_sunset 1f563179"
               ],
-              "notes": "REQUEST S08-SH080-a, draft, no video guide. Claude's read from stills (4 fps): 0-1 s a taut twisted rope just left of center, lit by a low orange sun from screen left with god rays, concrete facade soft behind; at about 1 s the hit: a puff of fiber dust at mid frame; 1.25-1.5 s the whole rope is gone from frame (the upper part recoils up out of frame); about 1.75 s the frayed upper end drops back in from the top, swings and settles just above the middle of frame, fibers glowing. Photoreal, no people, no blood. Audio present (mean -27.6 dB), not checked by ear. Edit window about 0.5-2.5 s."
+              "notes": "REQUEST S08-SH080-a, draft, no video guide. Claude's read from stills (4 fps): 0-1 s a taut twisted rope just left of center, lit by a low orange sun from screen left with god rays, concrete facade soft behind; at about 1 s the hit: a puff of fiber dust at mid frame; 1.25-1.5 s the whole rope is gone from frame (the upper part recoils up out of frame); about 1.75 s the frayed upper end drops back in from the top, swings and settles just above the middle of frame, fibers glowing. Photoreal, no people, no blood. Audio present (mean -27.6 dB), not checked by ear. Edit window about 0.5-2.5 s. Leonard 2026-11-19: \"love it\".",
+              "rating": 5,
+              "love": true,
+              "rating_source": "inferred"
             }
           ],
           "description": "The rope snaps.",
