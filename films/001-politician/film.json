@@ -1812,6 +1812,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 T04 downloaded (job 8bc69232, 22 credits): near identical to T03 (PSNR 41.9 dB at 4-6 s, same audio levels). The edit did not change the eye line or the sound."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 plate v2, Leonard: go, but the wall should continue up with windows. REQUEST S06-SH030-ref3 prepared: start frame v1 = edit of plate v2 (0312506b): the wall becomes the ground floor of an apartment building rising out of frame, plus the old man at the wall by the pole, the five bodies per the SH020 T05 body map with the short pipe, and the front of a mixed crowd at screen right. prompts/001_S06_SH030_REF_start-frame_v1.txt, gpt_image_2_6 high 1k 21:9, images plate v2, char_politician_blood 0d0a5637, prop_gun 24875e9a, prop_briefcase 4bf36cb5, 1.5 credits. Waiting for approval."
     }
   ],
   "story_sync": {
