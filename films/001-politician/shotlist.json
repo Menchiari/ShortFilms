@@ -5746,7 +5746,7 @@
         },
         {
           "id": "SH030",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5818,8 +5818,9 @@
                 "wall frame from S06 SH060 T02 53f407e7 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH030-b. Folder S07/SH030. No guide clip. Claude's read (frames, not heard): the pullers read clearly right of the pole, hauling hand over hand from the first frame, the rope looped around the pole by about 4 s; he rises left of the pole, stiff and straight at first, then bends at the waist, arms hanging and grabbing, hands reaching up at him from below at the end; the camera tilts up with him. Wall: one long concrete wall across the frame, top edge visible with a building above at the right. Misses: the crowd is still almost all bearded Middle Eastern men in pale shirts, no women (the mix did not take); his face turns away, only the side and back of his head read; first 2 s he hangs rigid like a plank."
+              "rating": 4,
+              "notes": "REQUEST S07-SH030-b. Folder S07/SH030. No guide clip. Claude's read (frames, not heard): the pullers read clearly right of the pole, hauling hand over hand from the first frame, the rope looped around the pole by about 4 s; he rises left of the pole, stiff and straight at first, then bends at the waist, arms hanging and grabbing, hands reaching up at him from below at the end; the camera tilts up with him. Wall: one long concrete wall across the frame, top edge visible with a building above at the right. Misses: the crowd is still almost all bearded Middle Eastern men in pale shirts, no women (the mix did not take); his face turns away, only the side and back of his head read; first 2 s he hangs rigid like a plank. Leonard 2026-11-19: yea this works fine.",
+              "rating_source": "inferred"
             }
           ],
           "description": "Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.",
