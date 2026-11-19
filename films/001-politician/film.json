@@ -1631,6 +1631,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025: REQUEST S06-SH025-c (video_edit) withdrawn, never submitted: it broke the style.md rule (This film never: video_edit, Leonard 2026-11-19 10:17). The rule landed on main after this session pulled; the session did not pull again before proposing. Unsubmitted prompt kept as prompts/001_S06_SH025_T03.txt. REQUEST S06-SH025-d prepared: fresh take T03, prompts/001_S06_SH025_T03_v2.txt (T02 plus: concrete wall of loc_square about 2 m behind, no crowd; arm in free air, nothing under the hand), prop_gun, char_politician_blood, loc_square, 480p, 21:9, 4 s, audio on, estimate 12 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH060-b approved by Leonard ('go ahead'), 12 credits: S06 SH060 T02 submitted, job 4d7bbab6-9c56-4459-b6f1-33f5fad707ea, 480p, 21:9, 4 s, audio on, no guide clip, prompt 001_S06_SH060_T02.txt."
     }
   ],
   "story_sync": {
