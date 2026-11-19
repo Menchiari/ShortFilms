@@ -1369,6 +1369,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 gun still: production-plan rule 4 applied ('just do it'). Resubmissions 1-10 of the unchanged prompt (jobs 85724c06, d570e4ef, 2cc1affc, bc1b2685, 636fb0cc, 6aab8662, 8454edd5, 47248a6a, 063c6ea4, 2cd28ab0) all flagged nsfw, each 1.5 refunded (transactions 12:35-12:39). Net spend 0. Limit of 10 reached: stopped. T02 not submitted."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-ref-v2 approved by Leonard ('try the reworded v2'): gpt_image_2_6 high 1k 3:2, job 2ed39253-fa1c-45b4-b8a3-da2197fb974d, REFS, 1.5 credits, prompt prompts/001_S06_SH050_REF_gun-slide-locked_v2.txt. Passed. Slide reads locked back, barrel and port open. Saved as 03-bible/props/refs/prop_gun_slide-locked.png."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-b (approved with 'Do it'): S06 SH050 T02 submitted, 480p, 21:9, 6 s, audio on, 18 credits, refs char_politician_blood 0d0a5637, prop_gun 24875e9a, gun still 2ed39253, job b178242a-3395-4c78-809b-d3ad11f6b8a6, folder S06/SH050, prompt 001_S06_SH050_T02.txt."
     }
   ],
   "story_sync": {
