@@ -1962,6 +1962,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 closed by Leonard ('keep it the way it is'). [ASSUMPTION] edit = T03 0-3.58 s + T05; gunshot and cut grade fixed in post. SH050 credits today: T01 18, T02 18, T03 18, T04 22, T05 12, gun still 1.5 = 89.5 (all filter blocks refunded)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH020 T01 rated 4 (inferred: 'good, works'). Shot approved; edit window about 1.0-4.0 s."
     }
   ],
   "story_sync": {
