@@ -5125,7 +5125,7 @@
               "prompt": "05-generation/prompts/001_S06_SH010_T04.txt",
               "file": "05-generation/takes/S06/SH010/001_S06_SH010_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S06_SH010_T04.jpg",
               "references": [
                 "char_politician_blood 0d0a5637",
                 "prop_gun 24875e9a",
@@ -5423,7 +5423,7 @@
               "prompt": "05-generation/prompts/001_S06_SH030_T02_v2.txt",
               "file": "05-generation/takes/S06/SH030/001_S06_SH030_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S06_SH030_T02.jpg",
               "references": [
                 "char_politician_blood 0d0a5637",
                 "prop_gun 24875e9a",
