@@ -2474,6 +2474,14 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T02 rated 2 (inferred). REQUEST S08-SH040-c prepared, not submitted: prompts/001_S08_SH040_T03.txt. Height: rope wound round the pole itself as in S07 SH030 T02, he hangs beside the pole, head at the chest height of the standing crowd, plus @Image4 = frame 0.3 s of S07 SH080 T03 (refs/001_S08_SH040_ref_S07_SH080_T03_frame.jpg, media 79ccea2b) for his height and the crowd density only. People: about a hundred alive at the start (as S07 SH080 T03), ten dead lying scattered (fat man in brown with the pipe at the pole foot, red shirt right of the lamp), three new. Shots: from far left, person thrown right, round bursts the paving (dust, stone chips), no blood. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH100-a done (21 credits): S04 SH100 T01 in, 480p 7 s, file takes/S04/SH100/001_S04_SH100_T01.mp4. Photographic low angle, hard quiet stare, friend films then looks down at the phone at the end; fat man centered, not right half. Notes in shotlist.json. Awaiting Leonard's review."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH100 T01 rated 4 (inferred from Leonard: 'this works'), shot approved."
     }
   ],
   "story_sync": {
