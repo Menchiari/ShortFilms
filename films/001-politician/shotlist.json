@@ -6037,6 +6037,29 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH060-f (v2 wording; v1 as S07-SH060-e, job f86d621a, rendered then blocked nsfw, refunded). Leonard: a sequel, he keeps hitting, the politician keeps blocking with his hands, hurting himself at each block, gasping, resisting with anger. Forward extension of T02 (867641cb), returns only the new 5 s (120 frames, 992x432, 24 fps), audio peak -7.6 dB. Join: T04's first frame vs T02's last frame SSIM 0.84, same pose and framing. Joined preview of the whole shot (free, concat, crf 12): takes/S07/SH060/001_S07_SH060_T03_T02_T04_join.mp4, 14.08 s (prequel 0-5, big swing 5-9, sequel 9-14). Claude's read (frames every 1/8 s, not heard): two hits, not three. About 0.6 s: a short swing into his crossed forearms, the camera is knocked into a motion-blur whip (0.75 to 1.1 s). About 2.2 to 2.5 s: a second, longer swing, the bar meets his forearms, another whip. From about 3 s he holds his guard, arms crossed over his face, mouth open crying out, face very red; the big guy holds the bar upright and watches. No clear glare, no shove of the bar. The bar matches the element. Against the prompt: two blocks instead of three; the anger reads less than the pain; the last 2 s are a hold. Waiting for Leonard."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "2b116c7b-7455-4944-8c42-9556e6d393c8",
+              "prompt": "05-generation/prompts/001_S07_SH060_T05.txt",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame: Leonard's still (refs/001_S07_SH060_REF_startframe_leonard_992.png, upload 41984959)",
+                "char_politician_blood 0d0a5637"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH060-g. Leonard's frame as start image (upload 41984959; the job echo listed it under reference_images, the take does start on it), char_politician_blood for sleeves and hands. Draft 992x432, 24 fps, 5.06 s, audio peak -5.6 dB. Claude's read (frames every 1/8 s, not heard): opens exactly on Leonard's frame; his crowd holds (mixed ages and ethnicities, pointing). 0 to 1.1 s: a clear, readable wind-up, the heavy-set man lifts the bar over his right shoulder, snarling. About 1.15 s: the swing comes in and the old man's forearms shoot up from the bottom of frame, crossed, charcoal sleeves and white cuffs; the bar meets them behind a motion blur. From 1.25 s to the end the crossed forearms fill the lower two thirds of the frame, close and almost rigid; the heavy-set man is mostly hidden, only his head and the bar peek over them. About 2.6 to 3.3 s: a second swing behind the forearms, a jolt and blur at about 3.3 s. Against the prompt: after the first block the forearms barely move (no shaking, no buckling, no forcing back up), so the reaction reads as a frozen guard; they cover too much of the frame; the second hit is hidden. Upright, not upside down. Waiting for Leonard."
             }
           ],
           "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",
