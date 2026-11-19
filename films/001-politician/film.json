@@ -2126,6 +2126,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH010 T01 rejected by Leonard (rating 1, inferred): wants the helicopter fighting to stabilize, the sniper visible in the door, a real 3D chopper, not a sprite. Cause: the prop_helicopter image is a single side-profile photo and Seedance pasted its pose. REQUEST S08-SH010-b prepared, not submitted: prompts/001_S08_SH010_T02.txt, no helicopter element (described in words, three-quarter front view, raking side light), loc_square and palette_sunset; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-a approved by Leonard ('ok go, 12 credits'): S08 SH020 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, loc_heli-cabin 75f579e3, palette_sunset 1f563179, no previz clip (cabin set fills the frame), folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 6b2503e2-fe43-4a22-929e-8457de85b6a0), no job id returned, no credits spent. Not resubmitted: waiting for Leonard."
     }
   ],
   "story_sync": {
