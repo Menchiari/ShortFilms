@@ -187,7 +187,18 @@
       "S06/SH040": "4b5a5226-db91-4590-857e-e90a3c424ab7",
       "S06/SH050": "ed087653-fb3e-46ab-8557-cfc7773e18e1",
       "S06/SH030": "e4ad636e-af8e-438d-85e3-682a4756d286",
-      "S06/SH060": "3bb5a842-039d-44ad-b40c-73d57cf69bc2"
+      "S06/SH060": "3bb5a842-039d-44ad-b40c-73d57cf69bc2",
+      "S07": "84ed0d01-dd2c-47bf-bc9f-8f0e9a3c4b83",
+      "S07/SH010": "e18b071c-3f8f-4e86-9b23-7e7a385ef43b",
+      "S07/SH020": "ec89a62d-1f9a-4289-b15c-a7a69667b825",
+      "S07/SH030": "fc8145f0-f6d2-411c-b07e-03f962989a61",
+      "S07/SH040": "d4ec8f5e-cbd8-4339-9c6e-121d9c8c468e",
+      "S07/SH050": "79988327-bbbb-40bb-95a2-68fd0e046b41",
+      "S07/SH060": "6c39b23b-b3c8-4744-8aca-b05311d0d67d",
+      "S07/SH070": "a6bb5665-870f-4cbf-9b35-4e27d1ab5695",
+      "S07/SH080": "65521045-37a5-4386-9190-ac22c9e67065",
+      "S09": "b2e1fcd6-c49d-44b2-8f06-bcf74a1ba0b7",
+      "S09/SH010": "ce52aac5-c927-4805-a7e5-d5eb78bb051f"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1681,6 +1692,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH010-d approved by Leonard (18 credits) and submitted: S06 SH010 T04 job fcae437e-e854-47df-b1e4-7e9acb089d3c, folder S06/SH010, prompt 001_S06_SH010_T04.txt, no video guide."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Higgsfield folders checked: scene folders live inside Scenes (71e013a2) at the project root; extra S03, S05, S06 and loose SH folders sit in _EMPTY_DUPLICATES (left untouched). Created S07 inside Scenes with SH010 to SH080. S09 and S09/SH010 (found existing) recorded."
     }
   ],
   "story_sync": {
