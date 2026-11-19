@@ -3283,6 +3283,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH110-l. Folder S05/SH110. Leonard's notes on T11: scattered sheets, a few heads looking, nearer, more cinematic. loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). Five or six heads in dark silhouette across the bottom, looking up, one turning; the film's ochre blocks on both sides, hazy backlit sky, dust. The sheets are scattered across the whole sky, each on its own path, not one cloud: about twenty-five to thirty-five at the start, thinning as they drift up and out of the top of frame. Sizes are small to medium: no big sheet close above the heads. Restrained light, no flare. Leonard 2026-11-19: add a few sheets close above the heads."
+            },
+            {
+              "id": "T13",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "ca9f546d-ec7c-4c17-b954-8fd26c8bf523",
+              "prompt": "05-generation/prompts/001_S05_SH110_T13.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T13.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T13.jpg",
+              "references": [
+                "loc_side-street e728a9ae (buildings only)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-m. Folder S05/SH110. T12 plus three big sheets close above the heads (Leonard). loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). From 0 to about 2 s, big cream sheets with a green border flap and turn just above the silhouetted heads, close to the camera, never covering the lens; then the camera tilts up and the sheets scatter higher over the balconies and the cable, drifting away. Backlit hazy sky, the film's ochre blocks, five heads in silhouette. Besides the big and mid sheets, the far sky holds dozens of small specks (more than twenty-five in total)."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
