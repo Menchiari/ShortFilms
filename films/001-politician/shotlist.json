@@ -3260,6 +3260,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH110-k. Folder S05/SH110. Leonard: forget the reference; a very low shot, the people barely seen, a dozen or two sheets flying away, lost; match the location. loc_side-street as the only reference (buildings only), no start frame, no animatic. Claude's read: one continuous take (no cut detected). Low, tilted up: the film's ochre blocks lean in from both sides, a cable across the sky, two dark out-of-focus heads at the edges, no faces. The paper rises as one cloud from behind the far building (not from the bottom of frame), scatters and drifts away to small specks by the end. Count: about forty to sixty sheets, smaller than pages, not twenty. Leonard 2026-11-19: the sheets not all together; a few heads looking at them; sheets not as far away, scattered around, not in one place; a few more, a bit more scattered; more cinematic."
+            },
+            {
+              "id": "T12",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "5d23d579-8af3-44d4-b3f3-b95760785313",
+              "prompt": "05-generation/prompts/001_S05_SH110_T12.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T12.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T12.jpg",
+              "references": [
+                "loc_side-street e728a9ae (buildings only)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-l. Folder S05/SH110. Leonard's notes on T11: scattered sheets, a few heads looking, nearer, more cinematic. loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). Five or six heads in dark silhouette across the bottom, looking up, one turning; the film's ochre blocks on both sides, hazy backlit sky, dust. The sheets are scattered across the whole sky, each on its own path, not one cloud: about twenty-five to thirty-five at the start, thinning as they drift up and out of the top of frame. Sizes are small to medium: no big sheet close above the heads. Restrained light, no flare."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
