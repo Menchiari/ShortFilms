@@ -1403,6 +1403,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S04-SH080-c approved by Leonard ('ok go') and done (18 credits): S04 SH080 T03 5cf41d42-72ea-4608-b6c4-5b8e76ec6fd8, video_edit of T02. Failed: no visible change (SSIM about 0.96-0.98 against T02 on every frame, the grin still there). REQUEST S04-SH080-d prepared, not submitted: T04 new take, prompts/001_S04_SH080_T04.txt (T02 plus the mortified opening, element naming per PROMPTING.md), omni_reference, 480p, 21:9, 5 s, audio on, char_big-guy, loc_side-street, palette_afternoon. get_cost 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard: video_edit does nothing, never offer it again (written into 03-bible/style.md, This film never). Leonard approved REQUEST S04-SH080-d ('let's do it again'); the submit was blocked by the session's permission check before reaching Higgsfield: no job, no charge."
     }
   ],
   "story_sync": {

@@ -64,3 +64,5 @@ Gets a set or previz clip as a video reference for a frame filled by place: it c
 previz (refs_d11 README). Composition from words, a photoreal start frame, or the line drawing.
 Holds a shot where nothing happens, unless the frame is breathtaking (Leonard, 2026-11-17).
 Names a real director, film or artist in any prompt: it is a contest entry (Leonard, 2026-11-17).
+Uses `video_edit` to fix a take: it changes nothing visible and wastes credits (S04 SH080 T03, SSIM
+0.96-0.98 against its source). Fixes are new takes (Leonard, 2026-11-19).
