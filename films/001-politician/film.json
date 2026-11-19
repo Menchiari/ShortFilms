@@ -1864,6 +1864,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH050: Leonard chose to wait for SH020 and generate SH050 as a 4 s take (trimmed to 3 s in the edit) from the last frame of his chosen SH020 take, start_image plus char_boss and char_sniper. Draft prompt prompts/001_S08_SH050_T01.txt, lighting to be filled from the SH020 frame. [ASSUMPTION] American English for the lady. Nothing generated."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050: Leonard's mood still for S08 ('this is the vibe I'm going for') saved as 05-generation/refs/001_S08_SH050_vibe_leonard.webp: low golden sunset sun from the open door, gold rim on Roger's face, shallow focus, the town far below in haze with columns of black smoke, cream leather VIP seats. Added to the SH050 T01 prompt as @Image4 for color, light, lens and grain only. Open for Leonard: the still's cabin (cream leather) differs from the 2026-11-17 decision (bare military Black Hawk cabin); SH050 follows whatever SH020's frame shows."
     }
   ],
   "story_sync": {
