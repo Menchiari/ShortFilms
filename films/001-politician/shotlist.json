@@ -3237,6 +3237,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH110-j (video). Folder S05/SH110. Start frame: edit of the T09 still with loc_side-street (job 41de2b42, frames/001_S05_SH110_T10_start.jpg, start_image 86db906e), plus the bond image for the paper. Claude's read: one continuous take (no cut detected), the film's dusty concrete town, the same people as the still. The paper rises from the ground at the bottom left of frame, through the people and up into the sky (0-1.5 s), as asked; it never covers the lens. About fifteen sheets at the start, but in the sky they multiply into thirty or more small flakes from 1.5 s. The people follow it up, then lower their eyes; the heavy man in the dark jacket turns and looks down past the camera, hard; the hoodie shades his eyes. Credits: 12 video + 1.5 still. Leonard 2026-11-19: forget the reference. A very low shot, the people barely seen, the paper flying in the sky: a dozen or two sheets flying away, lost."
+            },
+            {
+              "id": "T11",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "d070aaef-2fd7-45eb-856b-a6e07cf09c7e",
+              "prompt": "05-generation/prompts/001_S05_SH110_T11.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T11.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T11.jpg",
+              "references": [
+                "loc_side-street e728a9ae (buildings only)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-k. Folder S05/SH110. Leonard: forget the reference; a very low shot, the people barely seen, a dozen or two sheets flying away, lost; match the location. loc_side-street as the only reference (buildings only), no start frame, no animatic. Claude's read: one continuous take (no cut detected). Low, tilted up: the film's ochre blocks lean in from both sides, a cable across the sky, two dark out-of-focus heads at the edges, no faces. The paper rises as one cloud from behind the far building (not from the bottom of frame), scatters and drifts away to small specks by the end. Count: about forty to sixty sheets, smaller than pages, not twenty."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
