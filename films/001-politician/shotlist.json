@@ -5802,8 +5802,31 @@
         },
         {
           "id": "SH070",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "3336c193-167a-4912-b671-3a98fd6667ca",
+              "prompt": "05-generation/prompts/001_S07_SH070_T01.txt",
+              "file": "05-generation/takes/S07/SH070/001_S07_SH070_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH070_T01.jpg",
+              "references": [
+                "char_big-guy 6228445b (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH070-a. Folder S07/SH070. Passed first submission (no filter block). Claude's read: low close against hazy cream sky only, sun behind him; 0-1.5 s the pipe comes up toward the lens and over his head, 1.5-2.9 s he holds it vertical behind his head with both hands, eyes down at the camera; about 2.7 s a sharp crack, he drops out of the bottom of frame by 3.3 s, an impact sound about 3.4 s; last 0.6 s empty sky. Weak point: at the top the pipe is foreshortened behind his head, only its end shows above his hands. No wound (head wound planned as a post composite)."
+            }
+          ],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
           "framing": "LOW, close on the fat person alone, the sky behind him",
           "movement": "Locked-off",

@@ -1792,6 +1792,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070: REQUEST S07-SH070-a prepared, not submitted: prompts/001_S07_SH070_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s, audio on, char_big-guy 6228445b only, sky behind him (no location element), folder S07/SH070 (existing). No guide clip: the d11 motion clip's figure has no arms (the pipe floats) and the hanging old man crosses the frame at 2.7-3.0 s; words hold a near-static low close. Filter-safe: no wound, he drops out of frame on the crack, final frame empty sky; head wound proposed as a composite in post. get_cost 12 credits, balance 27437.2."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-a approved by Leonard ('go with S07-SH070-a', 12 credits) and submitted: S07 SH070 T01 3336c193-167a-4912-b671-3a98fd6667ca, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy 6228445b, folder S07/SH070, prompt 001_S07_SH070_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T01 done (12 credits, no filter block), downloaded to takes/S07/SH070/001_S07_SH070_T01.mp4, recorded in shotlist.json, waiting for Leonard's read."
     }
   ],
   "story_sync": {
