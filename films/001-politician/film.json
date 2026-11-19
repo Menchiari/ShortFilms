@@ -1920,6 +1920,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-e approved by Leonard ('ok go, 21 credits'): S08 SH040 T05 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset, T04 frame 10fceb80, job 9e758336-9631-47b3-9225-0303e068a8ea, folder Scenes/S08/SH040, prompt 001_S08_SH040_T05.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T05 done (job 9e758336, 21 credits): takes/S08/SH040/001_S08_SH040_T05.mp4. Angle held, shots no longer from him. Misses: the puffs and the falls do not line up (hit 1 puff in mid crowd, hit 3 misses the runner), puffs still man-high, the earlier dead missing. Waiting for Leonard."
     }
   ],
   "story_sync": {
