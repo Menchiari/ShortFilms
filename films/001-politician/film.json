@@ -1888,6 +1888,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH030 T02 downloaded (job ea68eb92, 12 credits), takes/S08/SH030/001_S08_SH030_T02.mp4. Passed the filter. Real crowd of about thirty-five fleeing, first drop clear at 1 s, second drop small and far; sun faces the camera, the lens pulls back instead of holding, door edge at the right from 2 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T02 rated 1 (inferred, Leonard: 'no'): way further away, crosshair generated directly. REQUEST S08-SH030-c prepared, not submitted: T03, prompts/001_S08_SH030_T03.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Scope POV in camera: black frame, one round view as tall as the frame, a fixed thin black crosshair; extreme telephoto from very far, the whole square, about sixty tiny runners, two drop under the crosshair at 1 s and 3 s. Face boxes not in the prompt (post, if wanted). estimate_video_cost 12 credits, balance 26492.7. Waiting for approval."
     }
   ],
   "story_sync": {
