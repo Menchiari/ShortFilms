@@ -2722,6 +2722,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T03 rated 2 (inferred). REQUEST S08-SH040-d prepared, not submitted: prompts/001_S08_SH040_T04.txt = T03 with three changes: one sniper bullet per hit (the person jerks and drops on the spot, one small sharp spurt of dust from one point of the paving, head-sized, no explosion; audio a dry crack, the smack, the late distant thud); he hangs lower on purpose (head at the crowd's knees, fingertips on the paving, rope round the pole at head height), because Seedance has rendered him higher than asked in every take; a named mixed crowd (about half women, every age and build, listed one by one). S07 SH080 frame dropped. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T03 rated 2 (inferred, Leonard: 'horizontal...??'). REQUEST S08-SH070-d prepared: T04, prompts/001_S08_SH070_T04.txt = T03 plus: rope VERTICAL like a plumb line along the vertical crosshair line, never horizontal or diagonal; street from above, no sky or buildings; on the shot both ends visible, the upper springs up, the lower falls. palette_sunset only, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26480.7. 0-credit alternative tested: T03 rotated 90 degrees and cropped is 2.3x enlarged, soft, and loses the scope ring. Waiting for approval."
     }
   ],
   "story_sync": {

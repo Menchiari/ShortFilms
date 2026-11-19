@@ -7506,9 +7506,9 @@
                 "no video reference"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S08-SH070-c. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, scope ring and fine crosshair. Only the rope: one taut twisted rope runs horizontally across the frame just above center, its loose fibers backlit gold by the sunset; behind it a blurred facade and a bright sky patch at top left (eye level, not looking down; rope horizontal, not vertical). Steady with a slight drift 0-2.9 s. At about 2.9 s the rope vanishes in one or two frames with a faint puff of fibers, no visible two ends whipping away; then the empty blurred view with the crosshair to the end. Crack peak at 3.07 s, about 4 frames after the picture snap: slide the audio in the edit. Edit window: about 1.0-3.0 s plus a few frames of empty view."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH070-c. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, scope ring and fine crosshair. Only the rope: one taut twisted rope runs horizontally across the frame just above center, its loose fibers backlit gold by the sunset; behind it a blurred facade and a bright sky patch at top left (eye level, not looking down; rope horizontal, not vertical). Steady with a slight drift 0-2.9 s. At about 2.9 s the rope vanishes in one or two frames with a faint puff of fibers, no visible two ends whipping away; then the empty blurred view with the crosshair to the end. Crack peak at 3.07 s, about 4 frames after the picture snap: slide the audio in the edit. Edit window: about 1.0-3.0 s plus a few frames of empty view. Leonard 2026-11-19: 'horizontal...??' The rope must hang vertical. Cause: T03's prompt said top edge to bottom edge but never 'vertical', and with no post or lamp to hang from, Seedance laid it across the wide frame."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
