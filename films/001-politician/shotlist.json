@@ -3001,7 +3001,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3280,9 +3280,9 @@
                 "loc_side-street e728a9ae (buildings only)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH110-l. Folder S05/SH110. Leonard's notes on T11: scattered sheets, a few heads looking, nearer, more cinematic. loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). Five or six heads in dark silhouette across the bottom, looking up, one turning; the film's ochre blocks on both sides, hazy backlit sky, dust. The sheets are scattered across the whole sky, each on its own path, not one cloud: about twenty-five to thirty-five at the start, thinning as they drift up and out of the top of frame. Sizes are small to medium: no big sheet close above the heads. Restrained light, no flare. Leonard 2026-11-19: add a few sheets close above the heads."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH110-l. Folder S05/SH110. Leonard's notes on T11: scattered sheets, a few heads looking, nearer, more cinematic. loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). Five or six heads in dark silhouette across the bottom, looking up, one turning; the film's ochre blocks on both sides, hazy backlit sky, dust. The sheets are scattered across the whole sky, each on its own path, not one cloud: about twenty-five to thirty-five at the start, thinning as they drift up and out of the top of frame. Sizes are small to medium: no big sheet close above the heads. Restrained light, no flare. Leonard 2026-11-19: add a few sheets close above the heads. Leonard 2026-11-19: T12 works better than T13; chosen."
             },
             {
               "id": "T13",
@@ -3303,9 +3303,9 @@
                 "loc_side-street e728a9ae (buildings only)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH110-m. Folder S05/SH110. T12 plus three big sheets close above the heads (Leonard). loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). From 0 to about 2 s, big cream sheets with a green border flap and turn just above the silhouetted heads, close to the camera, never covering the lens; then the camera tilts up and the sheets scatter higher over the balconies and the cable, drifting away. Backlit hazy sky, the film's ochre blocks, five heads in silhouette. Besides the big and mid sheets, the far sky holds dozens of small specks (more than twenty-five in total)."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH110-m. Folder S05/SH110. T12 plus three big sheets close above the heads (Leonard). loc_side-street as the only reference. Claude's read: one continuous take (no cut detected). From 0 to about 2 s, big cream sheets with a green border flap and turn just above the silhouetted heads, close to the camera, never covering the lens; then the camera tilts up and the sheets scatter higher over the balconies and the cable, drifting away. Backlit hazy sky, the film's ochre blocks, five heads in silhouette. Besides the big and mid sheets, the far sky holds dozens of small specks (more than twenty-five in total). Leonard 2026-11-19: nah, T12 works better."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
