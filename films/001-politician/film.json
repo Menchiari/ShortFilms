@@ -2442,6 +2442,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH050 T05+T06 joined: 'very nice' (T06 rating 4 inferred)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH010 T02 rejected by Leonard (rating 1, inferred): wants exactly the animatic composition, realistic. REQUEST S08-SH010-c prepared, not submitted: prompts/001_S08_SH010_T03.txt, line-drawing guide of the d11 clip (refs/001_S08_SH010_lines_d11.mp4, media 4cd08648) as @Video1 for camera, framing and helicopter size, loc_square, palette_sunset, helicopter in words; estimate 12 credits."
     }
   ],
   "story_sync": {
