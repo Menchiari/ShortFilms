@@ -5785,6 +5785,28 @@
               "notes": "REQUEST S07-SH040-a, draft. Not blocked by the filter. Output 992x432, 4.06 s. Claude's read (frames at 2 fps, audio levels only, not listened: mean -31.6 dB, peak -12.3 dB): photoreal, golden backlit haze, his framing and head position follow the d11 guide, he sways and turns, arms move. Fails the core physics: the model flipped the whole frame, not just him. The skyline has its sky at the bottom of the frame and the crowd stands upside down at the top, so the take is an upright man with raised arms shot with the camera upside down; rotating it 180 degrees gives an upright man, not a hanging one. Also: the wounds (eyebrow, lip, ear) do not read at 480p, and both eyes look partly open. Cause (Claude's inference): the prompt places his feet above the frame and his body entering from the top, and the model met that by rolling the camera; the line 'camera and world are upright' was not enough. Leonard 2026-11-19: 'this works alright for now, maybe more wobble more movement, more chaos, more people around' (rating 4, inferred from 'works').",
               "rating": 4,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "2ab4d6ba-60d4-4654-9903-3dac054501d7",
+              "prompt": "05-generation/prompts/001_S07_SH040_T02.txt",
+              "file": "05-generation/takes/S07/SH040/001_S07_SH040_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH040_T02.jpg",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "loc_square 62815a4f",
+                "video lines_d11 6f64e996"
+              ],
+              "notes": "REQUEST S07-SH040-b, draft, Leonard's T01 notes applied (more wobble, movement, chaos, people). Not blocked by the filter. Output 992x432, 4.06 s. Claude's read (frames at 2 fps, audio levels only, not listened: mean -28.9 dB, peak -9.5 dB, louder than T01): same frame orientation as T01 (whole world upside down, which Leonard accepted on T01). The crowd is now packed close behind him, many more people, and around 2-3 s figures cross close to the camera at the edges; he sways and turns more than in T01, mouth open gasping in the second half. Possible faults: many crowd faces look straight into the lens; both his eyes open (the prompt asked for one); the wounds barely read at 480p."
             }
           ],
           "description": "His face: bruised, a split lip, blood from his ear. With effort, he opens one eye, and panic takes him: he twists on the rope, gasping, eyes darting for a way out.",
