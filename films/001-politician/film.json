@@ -2750,6 +2750,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T04 done (job d6b9da21, 21 credits): takes/S08/SH040/001_S08_SH040_T04.mp4. Sniper hits read (small ground spurts), he hangs at about chest height. Misses: traffic-light pole, place changed to an open crossroads, crowd in rows and not varied, the ten earlier dead missing. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S08 SH050 T01: add Roger firing once before she turns. REQUEST S08-SH050-b prepared, not submitted: T02, same start frame (1448763a) and refs (char_boss, char_sniper), seedance_2_5 omni_reference, 480p, 21:9, 5 s (one more second for the shot), audio on, folder S08/SH050, prompt prompts/001_S08_SH050_T02.txt. One change from T01: one shot at 1-2 s (muzzle flash out of the door, recoil, a casing falls, no hit seen), then her turn and line one second later. [ASSUMPTION] this shot is one of the three SH040 kills seen from the cabin, not a fourth. Quote 15 credits, balance 26417.7."
     }
   ],
   "story_sync": {
