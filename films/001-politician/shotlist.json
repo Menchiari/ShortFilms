@@ -5954,9 +5954,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S08-SH060-a. Folder S08/SH060. No previz clip. Claude's read from frames: Roger reads as the element, sunset through the open door and a window, real cabin. He starts with a grin, presses his lips into a sulk around 1 s, goes flat, then drops his cheek onto the stock and eye to the scope at about 3 s, the rifle edging right. Misses: medium close rather than close, his face in the left third; his eye is off the scope until the end; the shooting glasses read dark, his eyes are hard to see. Not yet watched with sound by Claude."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH060-a. Folder S08/SH060. No previz clip. Claude's read from frames: Roger reads as the element, sunset through the open door and a window, real cabin. He starts with a grin, presses his lips into a sulk around 1 s, goes flat, then drops his cheek onto the stock and eye to the scope at about 3 s, the rifle edging right. Misses: medium close rather than close, his face in the left third; his eye is off the scope until the end; the shooting glasses read dark, his eyes are hard to see. Not yet watched with sound by Claude. Leonard 2026-11-19: no. The background copies the cabin reference (we see the back of the cabin) instead of rebuilding it for this angle; needs very shallow focus, helicopter jitter and vibration, closer and more personal; expression: smiling while shooting, looks at the boss, 'ah fuck her, she always ruins my fun', then serious and a small aim shift."
             }
           ],
           "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",
