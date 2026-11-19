@@ -5944,8 +5944,35 @@
         },
         {
           "id": "SH070",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "6a64e4e3-2b9b-47a3-81a9-b2a60d17b6ef",
+              "prompt": "05-generation/prompts/001_S08_SH070_T01_v2.txt",
+              "file": "05-generation/takes/S08/SH070/001_S08_SH070_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 0d0a5637 (trousers and shoe)",
+                "palette_sunset 1f563179",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S08-SH070-a. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset light; high angle down onto the asphalt, a curved yellow line and the curb at right, no wall. The street light head and arm at top left, the frayed rope hangs from the arm through frame center with a knot at the crosshair, a black shoe heel-up with a dark trouser leg at the bottom edge. Seedance baked in a black scope ring and a fine crosshair with mil ticks, against the prompt. 0-3 s gentle sway, near still from about 2 s. Crack peak at 3.07 s, the view kicks at about 3.1 s and settles by 3.6 s; rope stays whole. Faults: the knot sits a third of the way above the shoe, not around the ankle; the rope runs on past the shoe. Edit window: about 1.6-3.6 s."
+            }
+          ],
           "description": "The crosshair settles on the rope. A crack.",
           "framing": "SCOPE POV",
           "movement": "Steady",
