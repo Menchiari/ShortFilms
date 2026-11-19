@@ -2226,6 +2226,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH060: make a sequel, he keeps hitting, the politician keeps blocking with his hands, hurting himself at each block, gasping, resisting with anger. REQUEST S07-SH060-e prepared, not submitted: T04 = forward extension of T02 (867641cb), 5 s, seedance_2_5 video_extension forward, 480p, audio on, images char_politician_blood, char_big-guy, prop_bar-weapon, folder S07/SH060, prompt prompts/001_S07_SH060_T04.txt: three quick chopping swings, three blocks on forearms and hands, he gasps, shakes, glares, keeps his guard up. Pain played in the acting, no pain words (T03 v1 nsfw block). Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH020-a approved by Leonard ('ok go, 39 credits'): S09 SH020 T01, seedance_2_5 omni_reference, 13 s, 480p, 21:9, audio on, refs prop_briefcase 4bf36cb5, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179, video lines 0a8504f0, folder Scenes/S09/SH020, prompt prompts/001_S09_SH020_T01.txt. Job f3eb6a38-5e0b-49fe-83c0-01d7ebf4a213."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH020 T01 delivered (job f3eb6a38, 39 credits), saved as 05-generation/takes/S09/SH020/001_S09_SH020_T01.mp4. Claude's read: wash, paper, helicopter landing and his walk to the case work; the case stays closed, two traffic cones in the left foreground, about five bodies, a figure in the helicopter door. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

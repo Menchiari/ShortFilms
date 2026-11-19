@@ -6507,8 +6507,34 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 13,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 39.0,
+              "job_id": "f3eb6a38-5e0b-49fe-83c0-01d7ebf4a213",
+              "prompt": "05-generation/prompts/001_S09_SH020_T01.txt",
+              "file": "05-generation/takes/S09/SH020/001_S09_SH020_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_final 547bbfa3",
+                "prop_helicopter 6c8efe25",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179",
+                "video lines_d11 0a8504f0"
+              ],
+              "notes": "REQUEST S09-SH020-a, draft. Claude's read from stills: photoreal, hazy sunset backlight, camera locked low, follows the previz timing. He gets up far back at 1 s, walks toward camera, ends standing right behind the case, framed from the chest down. The helicopter comes in at upper left at 4 s, sinks and lands at screen left behind him, clear of the bodies. Rotor wash tears the sheets off the ground and throws them past the lens, dust rolls, his jacket whips; some sheets read stiff like boards. Off: the case stays CLOSED for the whole take (script: open, seemingly empty). Two tipped-over rust-orange traffic cones in the left foreground (the previz's foreground body shapes turned into cones). Only about five bodies, all at screen right, with some debris and what reads as a chair among them. A figure sits inside the helicopter's open door. Background is towers and a long wall with a traffic light pole, not the S07 corner with the lamp. Trouser stain not clearly readable (trousers dusty and dark). Limp not confirmable from stills. Audio present (mean -28.9 dB); I cannot confirm absence of music from here."
+            }
+          ],
           "description": "The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it, slowly. Behind him the helicopter comes down into the square. Its rotor wash tears the certificates off the asphalt: they flip, tumble and fly off in the gusts. He reaches the case.",
           "framing": "LOW, the briefcase in the foreground, him far",
           "movement": "Locked-off",
