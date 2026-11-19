@@ -1930,6 +1930,14 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH040: line-drawing guide refs/001_S09_SH040_lines_d11.mp4 (edgedetect of refs_d11/S09_SH040.mp4) uploaded and filed in REFS (video a972756a-5e12-44e5-89db-8e8efe532d36). REQUEST S09-SH040-a prepared, not submitted: prompts/001_S09_SH040_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder Scenes/S09/SH040. Images: prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179. Estimate 12 credits. [ASSUMPTION] the dead count is twelve (seven he shot: 8 rounds minus the one into the air, per the gun count and S07 SH080 T01; plus the fat person, the second man, three from S08); the CLAUDE brief said 'his eight'. [ASSUMPTION] sun behind the scene at upper left, out of frame; door empty; he stands still by the street light with the folder."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-a approved by Leonard ('go ahead', 15 credits): T01 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job 3a691f5e-590d-4cc4-b1b6-4ec562dbe0ca, folder S07/SH050, prompt 001_S07_SH050_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T01 done (job 3a691f5e, 15 credits): 001_S07_SH050_T01.mp4. Hands at the top corners and the fat person's look work; the lift and hold read as a level lance held at shoulder height, the swing is only the last 4 to 5 frames with a jump, the crowd is a uniform wall in rows, a traffic light in frame. Waiting for Leonard."
     }
   ],
   "story_sync": {
