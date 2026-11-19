@@ -1864,6 +1864,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T05 notes: no sky behind him; a faster swing as he gets hit. 'No sky' in words failed in T02 to T05, so T06 changes the geometry instead: he stands with his back to one tall facade three meters behind him, which fills the background past the top of frame, roofline out of frame. REQUEST S07-SH070-f prepared, not submitted: prompts/001_S07_SH070_T06.txt = T05 plus that background and a fast, violent swing with the hit a split second in. Same inputs, 480p, 21:9, 5 s, audio on, draft true. get_cost 15 credits. Fallback if the sky comes back: a start frame made over a T05 frame (an image spend, model picked by Leonard)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-f approved by Leonard ('go with S07-SH070-f', 15 credits) and submitted: S07 SH070 T06 220d204b-a64e-4f27-89bb-62ec3f8064b8, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, draft true, char_big-guy, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T06.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T06 done (15 credits, passed the filter, draft true; about 10 min in Higgsfield's queue), downloaded to takes/S07/SH070/001_S07_SH070_T06.mp4, recorded in shotlist.json. The facade-behind-him wording removed the sky (one small sun corner left), where 'no sky' alone had failed four times. Waiting for Leonard's read."
     }
   ],
   "story_sync": {

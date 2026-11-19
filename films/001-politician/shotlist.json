@@ -5926,6 +5926,31 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH070-e. Folder S07/SH070. Passed the filter on first submission, draft true. Claude's read: the crowd packed around the lens and pointing into it: a gray-haired old woman in glasses, a bald older man in a blue work shirt, young and older men; mostly men, one clear woman. 0-3.3 s he holds the bar over his right shoulder like a bat (not overhead), eyes on the lens, handheld settling; about 3.3 s the roar starts and he begins the swing toward the lens; about 3.7 s, with the bar swinging forward, his head snaps back and thick dark chunks fly up from it (larger than T04); he falls back out of frame by about 4.4 s; the final frame is the crowd staring down where he fell. Misses: hazy sky and the sun flaring between the towers; fewer women than the reference. Audio: roar band about 2.8-3.6 s, loud transient about 3.65 s, a second one about 4.5 s (likely the bar or the body). Leonard 2026-11-19 (notes, no verdict): no sky behind him; make him swing faster as he gets hit."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "draft": true,
+              "credits": 15.0,
+              "job_id": "220d204b-a64e-4f27-89bb-62ec3f8064b8",
+              "prompt": "05-generation/prompts/001_S07_SH070_T06.txt",
+              "file": "05-generation/takes/S07/SH070/001_S07_SH070_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH070_T06.jpg",
+              "references": [
+                "char_big-guy 6228445b (image_references)",
+                "prop_bar-weapon 8d69a591 (image_references)",
+                "loc_square 62815a4f (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH070-f. Folder S07/SH070. Passed the filter on first submission, draft true. Claude's read: the facade method worked: one apartment wall fills the background, the only open patch is a small blown-out sun corner at the top left; warm glare and lens-flare discs on the left. The camera is near eye level, not steep; he stands right of center, bar overhead with both hands from about 1 s; the crowd packed at the lens pointing (the old woman in glasses prominent, mostly men). About 3.3 s the roar; about 3.5 s a fast downswing straight at the lens, motion-blurred; about 3.75 s, mid-swing, red spray from his head with streaks across the wall behind, his head snaps back and he falls back out of frame by about 4.4 s, the bar flying. Debris more spray than chunks. Audio: roar band before 3.5 s, loud transient about 3.65 s."
             }
           ],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
