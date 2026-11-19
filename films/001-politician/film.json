@@ -2786,6 +2786,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH050 T02 approved by Leonard ('awesome', rating 5 + love, inferred). What worked: start_image = last frame of the approved SH020 T02, only char_boss and char_sniper as references, one shot written as its own beat before her turn."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T04 rated 4 (inferred, Leonard: 'works'). Leonard asks for a prequel: motion-blurred whip pans across the town through the scope, searching, landing on the rope. REQUEST S08-SH070-e prepared: T05, video_extension backward of T04 (job e582e429), 4 s, 480p, audio on, prompts/001_S08_SH070_T05_extend-backward.txt, folder S08/SH070. get_cost 12 credits, balance 26363.7. 0-credit alternative: whip pans built in the edit from T01-T03 with directional blur (ring sizes differ). Waiting for approval."
     }
   ],
   "story_sync": {
