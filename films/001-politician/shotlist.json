@@ -4970,9 +4970,9 @@
                 "prop_gun slide locked still 2ed39253 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S06-SH050-e: 4 s tail patch for T03 from T03's frame at 3.6 s (start frame upload 575d062b) plus char_politician_blood and the gun still. Folder S06/SH050. 429 rate limit on the first call (nothing charged), then passed. Claude's read (frames at 6 fps, audio levels): frame 0 matches the start frame (pose, framing, wall); he lowers the gun to chin height, reads it, and from about 2 s his eyes come level to the lens line and go wide, held to the end. Audio quiet (max -21.8 dB), no transient. Joined at T03 frame 86 (3.58 s): pose continues; a slight jump in grade and blood brightness at the cut. Intended use: T03 0-3.58 s + T05."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S06-SH050-e: 4 s tail patch for T03 from T03's frame at 3.6 s (start frame upload 575d062b) plus char_politician_blood and the gun still. Folder S06/SH050. 429 rate limit on the first call (nothing charged), then passed. Claude's read (frames at 6 fps, audio levels): frame 0 matches the start frame (pose, framing, wall); he lowers the gun to chin height, reads it, and from about 2 s his eyes come level to the lens line and go wide, held to the end. Audio quiet (max -21.8 dB), no transient. Joined at T03 frame 86 (3.58 s): pose continues; a slight jump in grade and blood brightness at the cut. Intended use: T03 0-3.58 s + T05. Leonard 2026-11-19: 'whatever you can't do it let's keep it the way it is'. [ASSUMPTION] the shot is T03 0-3.58 s + T05 as in the joined preview; the gunshot in T03 (1.65-2.3 s) and the grade match at the cut are done in Leonard's edit and sound design. No more generations for SH050."
             }
           ],
           "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
