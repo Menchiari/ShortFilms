@@ -5510,6 +5510,26 @@
               "rating": 5,
               "love": true,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "topaz_video",
+              "mode": "upscale",
+              "duration_s": 8,
+              "resolution": "1080p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 6.0,
+              "job_id": "825287eb-3e01-4829-a0ba-63aa061efb0c",
+              "prompt": "",
+              "file": "05-generation/takes/S06/SH030/001_S06_SH030_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T04 68c8d816 (upscale source)"
+              ],
+              "notes": "Topaz upscale of the approved T04 to 1080p, 2560x1080, 8 s, 24 fps, audio kept, 6 credits (transaction log; no preflight exists). Same take as T04. Stretched about 3% wide against T04 (992x432 is 2.30:1, 2560x1080 is 2.37:1): fix in the edit. Detail sharper, faces slightly smoothed."
             }
           ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",

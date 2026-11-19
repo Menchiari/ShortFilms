@@ -2050,6 +2050,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030, Leonard picked A, then 'try B also'. A: Topaz upscale of T04 to 1080p, 21:9, job 825287eb-3e01-4829-a0ba-63aa061efb0c (no preflight exists), to become T05. B: REQUEST S06-SH030-g, 56 credits as quoted: new 720p video_extension forward of SH020 T05, same prompt as T04 (001_S06_SH030_T04.txt), job 39d7cc1a-3277-4368-b6fe-fb1f7a8d3d19, to become T06."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T05 in: Topaz 1080p upscale of T04 (job 825287eb, 6 credits), takes/S06/SH030/001_S06_SH030_T05.mp4, 2560x1080, 26 MB, about 3% horizontal stretch to fix in the edit. The 720p extension (T06, job 39d7cc1a, 56 credits) is still rendering."
     }
   ],
   "story_sync": {
