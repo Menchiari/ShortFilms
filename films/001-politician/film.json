@@ -1328,6 +1328,10 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH120 T04, Leonard: good; a bit more grin, less mouth movement, more in the eyes. T05 prompt (prompts/001_S04_SH120_T05.txt): one nervous pleading grin set early and held almost still, the eyes carry the squints, fear, hate and begging; rest as T04. REQUEST S04-SH120-e quoted at 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH080 T02 rated 3 (inferred): Leonard, less happy and more mortified, more human and realistic. REQUEST S04-SH080-c prepared, not submitted: T03 = video_edit of T02 (7e71c979), 0-2 s only (grin becomes a mortified, worried wince, hand reaching down), rest kept; prompts/001_S04_SH080_T03.txt, 480p, 21:9, 5 s, audio on, plus char_big-guy. get_cost 18 credits. Alternative: a new 5 s take, 15 credits, rerolls the confusion part too."
     }
   ],
   "story_sync": {
