@@ -1876,6 +1876,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH020-ref approved by Leonard ('try both', 2.5 + 1.5 = 4 credits): start frame v2 with prompts/001_S08_SH020_REF_start-frame_v2.txt, images MJ frame 7fec4fb7, char_sniper, char_boss, prop_rifle, folder Scenes/S08/SH020. Seedream 5.0 Pro 2k job c4c30973-6a46-4b0b-aa3d-03292d6701c7 (refs/001_S08_SH020_start-frame_v2_seedream.png, 3120x1328); GPT Image 2.6 high 1k job 2ef78fb3-32b7-4c48-8485-520675382829 (refs/001_S08_SH020_start-frame_v2_gpt.png, 1344x576). Claude's read: GPT matches the staging (cheek on the stock, lady in the front seat beside the pilot, rifle cut by the right edge, low sandy town); Seedream has the clearer face and smile but the rifle is held at the chest off his cheek, the whole rifle in frame, the lady large and closer to the door, and a brighter, cleaner look than the Midjourney frame. Waiting for Leonard's pick."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020 start frame v2, Leonard: both wrong, GPT better; camera angle as in the animatic; the lady on the left (she turns around to tell him to stop). REQUEST S08-SH020-ref3 prepared: edit of the GPT v2 frame (2ef78fb3) with the animatic d11 first frame as a line drawing (refs/001_S08_SH020_animatic_d11_lines_f0.png, media 658b8451) for camera angle and composition only, plus char_boss 7ef41962; prompt prompts/001_S08_SH020_REF_start-frame_v3.txt; gpt_image_2_6 high 1k 21:9, 1.5 credits. [ASSUMPTION] Leonard's left = the left front seat, screen left of the pilot. Waiting for approval."
     }
   ],
   "story_sync": {
