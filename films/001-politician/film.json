@@ -2098,6 +2098,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH030 T02 downloaded (job d5d6c593, 18 credits, passed the filter): pullers clearly hauling right of the pole, he rises and struggles left of it, hands reaching up at him; misses: crowd still almost all Middle Eastern men, no women; face turned away; rigid for the first 2 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-c approved by Leonard ('approved, go with S07-SH040-c'; estimate 15 credits) and submitted: S07 SH040 T03 11f6e743-ac0f-48c1-adb4-db40c4395a2b, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T03 (11f6e743) blocked as nsfw ('Your prompt may contain sensitive content'). A 15-credit Seedance 2.5 refund at 15:22:43 matches it (not tied to the job id). Not retried. Softened prompt prepared as 001_S07_SH040_T03_v2.txt (REQUEST S07-SH040-d): no punch, kick, blow, hate, beating or blood wording; same inputs and settings. Estimate 15 credits."
     }
   ],
   "story_sync": {
