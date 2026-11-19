@@ -1353,6 +1353,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH060 T01 rated 1 (inferred): Leonard, mannequins, street too wide, not cinematic, knocked down by air, not chaotic, all fake. Cause: the motion-only previz (fall before contact at about 2 s, stiff figures, open plaza). T02 prompt (001_S06_SH060_T02.txt): no guide clip; closer side view, long lens, wall across the whole background, crowd in contact, a still of the loved S05 SH140 T03 as @Image5 for the look of the people (media d6d48b68). REQUEST S06-SH060-b quoted at 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH060-b approved by Leonard ('go ahead'), 12 credits: S06 SH060 T02 submitted, job 4d7bbab6-9c56-4459-b6f1-33f5fad707ea, 480p, 21:9, 4 s, audio on, no guide clip, prompt 001_S06_SH060_T02.txt."
     }
   ],
   "story_sync": {
