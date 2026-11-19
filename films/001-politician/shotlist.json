@@ -6192,7 +6192,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -6237,8 +6237,9 @@
                 "end frame b428e5e5 (end_image, 05-generation/refs/001_S07_SH010_REF_startframe.png)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH010-b, draft, Leonard approved 15 credits ('ok go'). Folder Scenes/S07/SH010. Change from T01: start frame v3 (7ffdd6b5, he stands alone) and beats where the crowd reaches him and he goes down; end frame b428e5e5 as T01. Claude's read (contact sheet at 2 fps, crops around him, frame 0 vs the start still, audio levels only, not watched at speed or listened to): frame 0 matches start frame v3 (the video sits a touch wider). Locked-off, photoreal, golden low sun from screen left. He stands alone at the wall beside the lamp, still, until about 1.5 s while the crowd closes from every side; at about 2 s the first runners reach him and by about 2.5 s he is gone under them; the knot then swells into a dense mob and people keep streaming in to the end. The nearest bodies get covered by the knot as it grows; the farther ones stay still in their spots. Crowd still mostly men in beige and dark clothes. Audio a crowd bed rising from about -34 dB to -22 dB RMS at about 2 s with the impact; music not checked by ear. Not rated by Leonard yet."
+              "rating": 4,
+              "notes": "REQUEST S07-SH010-b, draft, Leonard approved 15 credits ('ok go'). Folder Scenes/S07/SH010. Change from T01: start frame v3 (7ffdd6b5, he stands alone) and beats where the crowd reaches him and he goes down; end frame b428e5e5 as T01. Claude's read (contact sheet at 2 fps, crops around him, frame 0 vs the start still, audio levels only, not watched at speed or listened to): frame 0 matches start frame v3 (the video sits a touch wider). Locked-off, photoreal, golden low sun from screen left. He stands alone at the wall beside the lamp, still, until about 1.5 s while the crowd closes from every side; at about 2 s the first runners reach him and by about 2.5 s he is gone under them; the knot then swells into a dense mob and people keep streaming in to the end. The nearest bodies get covered by the knot as it grows; the farther ones stay still in their spots. Crowd still mostly men in beige and dark clothes. Audio a crowd bed rising from about -34 dB to -22 dB RMS at about 2 s with the impact; music not checked by ear. Not rated by Leonard yet. Leonard 2026-11-19: 'ok cool works whatever' (rating 4 inferred).",
+              "rating_source": "inferred"
             }
           ],
           "description": "From far above, the mob closes over him at the corner of the square. More people keep coming from every street. Fists and kicks rise and fall. The dead lie where they fell.",
