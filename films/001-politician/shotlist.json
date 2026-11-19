@@ -3092,6 +3092,27 @@
                 "everything else in words"
               ],
               "notes": "REQUEST S05-SH020-k, 720p (not a draft), Leonard approved (\"ok go\" after Claude recommended 720p, 28 credits). Folder S05/SH020. Character: element char_politician_dusty (1ecc0e0b, image 98e1e69e) as @Image1; everything else in words. Prompt built on research: angle first (bird's eye, 90 degrees straight down, helicopter view from a war film, no sky or horizon), cafe life, parked car, slow overhead track. Claude's read: first true 90-degree top view without a guide clip. The camera tracks slowly left to right, rooftops with water tanks, AC units and cables sliding past; it holds him near the left-center as he jogs. Cafe on the bottom sidewalk: white tables, men seated with glasses, they get up and walk after him; a second cafe awning and a white sedan on the top side, mopeds, people in doorways. People foreshortened from above, real shadows, warm filmic light with a sunlit band across the street. Weak: the blocks read as two or three storeys, not tall (the canyon is shallow); at this size his white hair barely reads, he looks dark-headed in the shade; the people mostly follow behind him rather than drift in from every side. Audio not checked by ear."
+            },
+            {
+              "id": "T10",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "4f6d0c5e-6c33-4aff-9f21-23399387abeb",
+              "prompt": "05-generation/prompts/001_S05_SH020_T10.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T10.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T10.jpg",
+              "references": [
+                "element char_politician_dusty 1ecc0e0b (image 98e1e69e) as @Image1",
+                "everything else in words"
+              ],
+              "notes": "REQUEST S05-SH020-l, 720p, Leonard approved 28 credits (\"go\"). Folder S05/SH020. Character: element char_politician_dusty (1ecc0e0b, image 98e1e69e) as @Image1; everything else in words. Leonard's notes on T09: wider street, more realistic people, light, streets, lens, grain, movement, 35mm dolly feel. Claude's read: true top view, wide two-lane street filling the frame, slow even track left to right (the sedan slides out to the left). Street detail reads real: lane line, oil stains, manhole covers, litter, sand drifts. Hard natural sun with crisp long shadows, less orange than T09, darker corner vignette, visible grain. Cafe tables with people at the bottom, the sedan and a motorbike at the top. People get up and walk into the street after him, each on his own line, in muted mixed clothes. Weak: only one thin strip of rooftop at the bottom edge, no rooftops at the top, so the buildings read low and the tall blocks are lost; the old man reads as a dark figure, his white hair barely shows; most townspeople wear light beige or white. Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
