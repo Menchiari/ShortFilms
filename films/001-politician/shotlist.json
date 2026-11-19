@@ -4793,8 +4793,36 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 12,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 36.0,
+              "job_id": "4a54d7e8-4efe-4335-b15e-8f3c1559172a",
+              "prompt": "05-generation/prompts/001_S06_SH020_T01_v2.txt",
+              "file": "05-generation/takes/S06/SH020/001_S06_SH020_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH020_T01.jpg",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "loc_square 62815a4f",
+                "prop_briefcase 4bf36cb5",
+                "motion-only d11 S06_SH020 as line drawing a5d8701c (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH020-a, draft, not yet rated by Leonard. Claude's read: photographic, no previz look; over-the-shoulder framing and turns follow the guide. Loud audio events at 2.5, 5.4, 7.6, 9.3 and 10.5 s match the planned shots (2.6, 5.4, 7.6, 9.3, 10.6), plus peaks at 9.8 and 11.1 s, not checked by ear. Men drop and stay down; last frame shows three bodies in frame (one mid-distance center, one at the bottom near him, one bottom right). Briefcase in his left hand (visible in the last frame). Gun dark. DEFECT: his hair is dark brown and thinning, not white as char_politician_blood; cause not known (first take with element names without (@ImageN)). Parked cars and a street lamp in the background; the lamp is not beside him."
+            }
+          ],
           "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
           "framing": "THIRD PERSON, behind him, over his shoulder",
           "movement": "Handheld, close behind him, turning with him as he aims",
