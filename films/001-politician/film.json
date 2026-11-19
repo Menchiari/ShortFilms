@@ -1824,6 +1824,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T02 rated 3 (inferred from notes). REQUEST S07-SH070-c prepared, not submitted: prompts/001_S07_SH070_T03.txt (T02_v2 plus Leonard's four notes: background filled by the crowd and the tower facade, no sky; handheld drift with a slow-motion ramp as the swing begins [ASSUMPTION: 'slow down' means the action goes into slow motion, the camera drift slowing with it]; thick chunks of bone and blood instead of red mist; off-center, three-quarter, canted, uneven crowd; sun moved behind the camera at screen left, window glint on the facade beside his head). Same inputs and settings, get_cost 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on the T03 prompt: steep tilt is fine, just no sky: buildings and glass reflecting the sun, a flare behind him; the camera very handheld, slowing down at the end just as he is about to swing; he starts to roar with effort to show how strong the swing would have been. REQUEST S07-SH070-c now uses prompts/001_S07_SH070_T03_v2.txt (T03 kept unused): steep angle filled by towers, glass reflections flaring behind him, jostled handheld settling at 2-3 s, real time [ASSUMPTION: the camera slows, not the action; no slow motion], the roar cut off by the hit, thick debris, off-center. Same inputs and settings, get_cost 12 credits."
     }
   ],
   "story_sync": {
