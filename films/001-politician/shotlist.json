@@ -4888,9 +4888,9 @@
                 "guide lines 23abbe13 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S06-SH060-a. Folder S06/SH060. Guide: refs_d11_motion as line drawing (@Video1); the job echo listed it under reference_images, yet the framing follows the previz. Claude's read: photoreal, no previz look; wide locked-off from behind the crowd, huge weathered concrete wall, warm low sun, dust. Misses: the old man is tiny at the far left and the hit is not readable (around 1.8 s a figure buckles at the wall, nothing clear); the crowd spreads into separate runners instead of one mass and does not close over him; a traffic signal stands where the tall lamp with its arm should be; about four bodies read, not seven; all men, many in matching dark vests, almost a uniform look."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S06-SH060-a. Folder S06/SH060. Guide: refs_d11_motion as line drawing (@Video1); the job echo listed it under reference_images, yet the framing follows the previz. Claude's read: photoreal, no previz look; wide locked-off from behind the crowd, huge weathered concrete wall, warm low sun, dust. Misses: the old man is tiny at the far left and the hit is not readable (around 1.8 s a figure buckles at the wall, nothing clear); the crowd spreads into separate runners instead of one mass and does not close over him; a traffic signal stands where the tall lamp with its arm should be; about four bodies read, not seven; all men, many in matching dark vests, almost a uniform look. Leonard 2026-11-19: people look like mannequins, street too wide, not cinematic, he gets knocked down by air instead of the crowd, not chaotic enough, the crowd and everything look fake. Cause found: the d11 previz has him fall at about 2 s before the runners reach him, and its stiff box figures give the walk; the clip's open plaza gave the wide street. T02 drops the guide clip."
             }
           ],
           "description": "From the side, the crowd hits him like a wave and throws him to the ground.",
