@@ -5908,7 +5908,7 @@
               "prompt": "05-generation/prompts/001_S07_SH030_T02.txt",
               "file": "05-generation/takes/S07/SH030/001_S07_SH030_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH030_T02.jpg",
               "references": [
                 "char_politician_blood 0d0a5637 (image_references)",
                 "loc_square 62815a4f (image_references)",
