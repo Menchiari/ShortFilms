@@ -2714,6 +2714,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH050-a prepared, not submitted: S08 SH050 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (shot 3 s, trim in the edit), audio on, start_image 1448763a = last frame of the approved SH020 T02 (refs/001_S08_SH050_start_SH020-T02-last.png, frame 97), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050 78a595cb, prompt prompts/001_S08_SH050_T01.txt. Leonard's mood still left out of the request: the start frame already carries the approved SH020 look and a second grade source risks a mismatch at the cut. Quote 12 credits, balance 26480.7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-a approved by Leonard ('ok go, 12 credits'): T01 submitted, job 2e55db89-b197-40de-93bc-9a49722de6d8, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, start_image 1448763a (the job echo lists it under reference_images), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T01 downloaded (job 2e55db89, 12 credits): she turns over her right shoulder by 1.2 s and holds on Roger; voice-band burst at 2.0-2.9 s; framing a little wider than SH020 T02's last frame. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
