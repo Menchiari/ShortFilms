@@ -1874,6 +1874,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH010-a approved by Leonard ('ok go', 15 credits) and submitted: S07 SH010 T01 job e643b6c0-f37e-4b4d-b5ef-bd144bb606f0, folder Scenes/S07/SH010, prompt 001_S07_SH010_T01.txt, seedance_2_5 omni_reference 480p 21:9 5 s audio on, start_image 1a9129b2, end_image b428e5e5, no guide clip, no loc_square."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH020-a approved by Leonard ('go S07-SH020-a, 12 credits'): S07 SH020 T01, seedance_2_5 omni_reference 4 s 480p 21:9 audio on, job aa0ebe13-438a-4704-9ba8-0e5569348da6, folder Scenes/S07/SH020, 12 credits, ref loc_square 62815a4f, words only (no previz clip: the frame is filled by place). Saved as takes/S07/SH020/001_S07_SH020_T01.mp4. Claude's read: the rope flies up over the lamp arm and hangs doubled, straight down; sky shows at both edges of the tower. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

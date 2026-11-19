@@ -5756,8 +5756,32 @@
         },
         {
           "id": "SH020",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "aa0ebe13-438a-4704-9ba8-0e5569348da6",
+              "prompt": "05-generation/prompts/001_S07_SH020_T01.txt",
+              "file": "05-generation/takes/S07/SH020/001_S07_SH020_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S07-SH020-a. Folder S07/SH020. Passed first submission. Generated 4 s (seedance_2_5 minimum); the edit trims to 3 s, best window about 1.0-4.0 s. Claude's read (frames at 2 fps, audio levels only, not listened): low angle on the curved lamp arm with the lamp head at right, matching loc_square; a weathered concrete tower behind, soft, with pale hazy sky at both edges (prompt asked the facade edge to edge). 0-1 s empty arm; about 1 s a thick pale rope flies up and over the arm; 1.5-3 s it loops and swings; 3-4 s two lengths hang straight down side by side from the arm. No people, no ground. Audio quiet until about 1 s, loudest about 1.7-2 s (RMS about -24 dB)."
+            }
+          ],
           "description": "A rope whips around the arm of the street light and is pulled tight.",
           "framing": "INSERT",
           "movement": "Locked-off",
