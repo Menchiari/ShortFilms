@@ -3093,9 +3093,9 @@
                 "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH110-d. Folder S05/SH110. T02's prompt plus the Franklin bond (ref_bond_element_v8, 733c151a) as the only reference. Claude's read: one continuous take (no scene cut detected), photoreal street, a few women in long dresses in the crowd. The sheets are page-sized and carry the Franklin layout: green band, rosettes with 500, blackletter title, the green box. The hero sheet passes the lens at about 1.3-2.0 s: the large $500,000 reads (the $ blurs); the blackletter title only resembles County of Franklin and the smaller lines are smeared."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH110-d. Folder S05/SH110. T02's prompt plus the Franklin bond (ref_bond_element_v8, 733c151a) as the only reference. Claude's read: one continuous take (no scene cut detected), photoreal street, a few women in long dresses in the crowd. The sheets are page-sized and carry the Franklin layout: green band, rosettes with 500, blackletter title, the green box. The hero sheet passes the lens at about 1.3-2.0 s: the large $500,000 reads (the $ blurs); the blackletter title only resembles County of Franklin and the smaller lines are smeared. Leonard 2026-11-19: no. A dozen or two sheets, not more, all from one spot, a gust of wind blowing them over the people's heads. 35mm film, anamorphic, real lens artifacts: this looks fake. Neither interesting nor beautiful, wrong on many levels. Claude: the prompt also missed style.md (look line, realism paragraph, sun behind the scene)."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
