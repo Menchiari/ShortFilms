@@ -1880,6 +1880,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH030 T01 rated 1 (inferred, Leonard: 'no'). Notes: see people getting shot, steadier helicopter, more people, the hanging politician can go, panicked people fleeing while he shoots. REQUEST S08-SH030-b prepared, not submitted: T02, prompts/001_S08_SH030_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f and palette_sunset 1f563179 (char_politician_final dropped), about forty runners, lens almost still, two men drop at 1 s and 3 s in the middle of frame (where the crosshair goes), no poles, no traffic lights, nobody hanging. [ASSUMPTION] the two drops are two of the three S08 SH040 kills seen through the scope, so the body map does not grow. estimate_video_cost 12 credits, balance 26583.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-b approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T02, job ea68eb92-896e-45f7-b8cd-df2160119e43, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T02.txt."
     }
   ],
   "story_sync": {
