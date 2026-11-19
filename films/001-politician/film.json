@@ -2370,6 +2370,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070 T01 in (job 6a64e4e3, 12 credits), takes/S08/SH070/001_S08_SH070_T01.mp4. Photoreal sunset scope view of the street light arm, the rope and the shoe; scope ring and crosshair came baked in (asked clean); crack at 3.07 s with the kick in sync; knot above the ankle instead of around it. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-f approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 9a6c97c7-b11b-40e8-867b-6ecaac874fac). No new job in folder S07/SH050. Not retried; waiting for Leonard."
     }
   ],
   "story_sync": {
