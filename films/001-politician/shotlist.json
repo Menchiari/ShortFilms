@@ -5816,7 +5816,7 @@
         },
         {
           "id": "SH080",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5885,8 +5885,9 @@
                 "start frame v2 001_S07_SH080_T03_start.jpg 89efaeee (start_image), from refs/001_S07_SH080_REF_startframe_v2.png (job a9413cf0)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH080-d, draft, Leonard approved 2.5 + 15 credits ('ok go'). Start frame v2 refs/001_S07_SH080_REF_startframe_v2.png (edit job a9413cf0 of 7e4832d7), sent as frames/001_S07_SH080_T03_start.jpg (media 89efaeee, start_image). Prompt T03. Claude's read (frames at 2 fps, two full frames, audio levels only, not listened): photoreal, wider than the start frame again, same previz layout. Much denser crowd than T02, people now on the left along the sidewalk and behind the hanging man. 0-1 s riot in motion, the fat man drops by 1 s, pipe beside him (loud 0-1.2 s). 1.5-3 s the crowd mills and turns, quieter. Loud from 3.1 s. The man in the red shirt lies center-right by about 4.5 s. Misses: no third drop on the left is readable; the run at 4-5 s goes mostly to the right and top right, a few to the top left, not in every direction; skin still mostly light to olive at this size."
+              "rating": 4,
+              "notes": "REQUEST S07-SH080-d, draft, Leonard approved 2.5 + 15 credits ('ok go'). Start frame v2 refs/001_S07_SH080_REF_startframe_v2.png (edit job a9413cf0 of 7e4832d7), sent as frames/001_S07_SH080_T03_start.jpg (media 89efaeee, start_image). Prompt T03. Claude's read (frames at 2 fps, two full frames, audio levels only, not listened): photoreal, wider than the start frame again, same previz layout. Much denser crowd than T02, people now on the left along the sidewalk and behind the hanging man. 0-1 s riot in motion, the fat man drops by 1 s, pipe beside him (loud 0-1.2 s). 1.5-3 s the crowd mills and turns, quieter. Loud from 3.1 s. The man in the red shirt lies center-right by about 4.5 s. Misses: no third drop on the left is readable; the run at 4-5 s goes mostly to the right and top right, a few to the top left, not in every direction; skin still mostly light to olive at this size. Leonard 2026-11-19: 'this works'.",
+              "rating_source": "inferred"
             }
           ],
           "description": "A crack from the sky. The fat person drops. The pipe rings on the asphalt. The crowd takes a step back, confused, looking around. A few seconds later, another man drops. A few run. Then others.",
