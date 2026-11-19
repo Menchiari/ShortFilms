@@ -5530,6 +5530,26 @@
                 "T04 68c8d816 (upscale source)"
               ],
               "notes": "Topaz upscale of the approved T04 to 1080p, 2560x1080, 8 s, 24 fps, audio kept, 6 credits (transaction log; no preflight exists). Same take as T04. Stretched about 3% wide against T04 (992x432 is 2.30:1, 2560x1080 is 2.37:1): fix in the edit. Detail sharper, faces slightly smoothed."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 8,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 56.0,
+              "job_id": "39d7cc1a-3277-4368-b6fe-fb1f7a8d3d19",
+              "prompt": "05-generation/prompts/001_S06_SH030_T04.txt",
+              "file": "05-generation/takes/S06/SH030/001_S06_SH030_T06.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "S06 SH020 T05 c0bf1ae5 (video_references, extension forward)"
+              ],
+              "notes": "REQUEST S06-SH030-g, new 720p video_extension forward of SH020 T05, same prompt as T04 (001_S06_SH030_T04.txt), 56 credits. 1458x634, 8 s, no scene cut detected. Claude's read from full-size frames at 0.2, 1, 2, 3, 4, 5, 6, 7.9 s: continues SH020 T05; muzzle flash at about 1 s as a man charges from the right; at 3 s he raises the gun, at 4 s the gun is clearly at his temple, head bowed, seen from behind and over his shoulder; at 5 s men grab him at the wall, his bloodied face turned to the camera; 6 s a body covers the lens; 7.9 s dark. A different roll from T04: the gun at his head reads clearly here (T04: a hand). Crowd still mostly men; briefcase on the ground by about 2 s. I cannot confirm from stills that the second runner drops. Audio not listened to."
             }
           ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",

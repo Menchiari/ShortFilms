@@ -2054,6 +2054,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 T05 in: Topaz 1080p upscale of T04 (job 825287eb, 6 credits), takes/S06/SH030/001_S06_SH030_T05.mp4, 2560x1080, 26 MB, about 3% horizontal stretch to fix in the edit. The 720p extension (T06, job 39d7cc1a, 56 credits) is still rendering."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T06 in (job 39d7cc1a, 56 credits), takes/S06/SH030/001_S06_SH030_T06.mp4, 720p 1458x634, 8 s. A new roll of the T04 prompt: the gun clearly at his temple at about 4 s, then the crowd takes him and swallows the camera. Waiting for Leonard. SH030 total 126.5 credits (plus 12 if the blocked T02 job was not refunded)."
     }
   ],
   "story_sync": {
