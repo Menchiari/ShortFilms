@@ -1315,6 +1315,10 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH135 T04 approved: Leonard 'sure this works' (rating 4, inferred). SH135 total 48 credits over four 480p drafts."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S04-SH070-d approved by Leonard (28 credits): S04 SH070 T04 submitted, 720p, T02 as @Video1 performance reference, job d446c3ae-ed7e-4288-a9e2-7a7d3511556e, folder S04/SH070, prompt 001_S04_SH070_T04.txt."
     }
   ],
   "story_sync": {
