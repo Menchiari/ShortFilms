@@ -5160,8 +5160,36 @@
         },
         {
           "id": "SH060",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f6916e3b-3622-46ac-ae55-8c644ef88617",
+              "prompt": "05-generation/prompts/001_S06_SH060_T01.txt",
+              "file": "05-generation/takes/S06/SH060/001_S06_SH060_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_politician_blood 0d0a5637 (image_references)",
+                "prop_gun 24875e9a (image_references)",
+                "prop_briefcase 4bf36cb5 (image_references)",
+                "guide lines 23abbe13 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH060-a. Folder S06/SH060. Guide: refs_d11_motion as line drawing (@Video1); the job echo listed it under reference_images, yet the framing follows the previz. Claude's read: photoreal, no previz look; wide locked-off from behind the crowd, huge weathered concrete wall, warm low sun, dust. Misses: the old man is tiny at the far left and the hit is not readable (around 1.8 s a figure buckles at the wall, nothing clear); the crowd spreads into separate runners instead of one mass and does not close over him; a traffic signal stands where the tall lamp with its arm should be; about four bodies read, not seven; all men, many in matching dark vests, almost a uniform look."
+            }
+          ],
           "description": "From the side, the crowd hits him like a wave and throws him to the ground.",
           "framing": "WIDE, side view",
           "movement": "Locked-off",
