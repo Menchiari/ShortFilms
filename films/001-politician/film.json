@@ -1804,6 +1804,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH080 T01 rated 1 (inferred). Leonard 2026-11-19: nothing like the previz; the crowd looks fake and still; they all act the same; all Middle Eastern, he does not want that; it does not feel like a riot or a crowd. Cause: no guide and no start frame, so Seedance chose its own framing; 'desert town' plus the mosque/minaret exclusions and an all-brown wardrobe palette steered the crowd to one look; the prompt gave the crowd no individual actions before the first crack. REQUEST S07-SH080-ref prepared: start frame laid over the previz, seedream_v5_pro 2k 21:9 (as the S07 SH010 start frame), refs loc_square 62815a4f, previz frame 0 as line drawing (refs/001_S07_SH080_lines_d11_motion_f0.png, media 52c4a44e), char_big-guy 6228445b, char_politician_final 547bbfa3; prompt prompts/001_S07_SH080_REF_startframe.txt: a mixed crowd of every ethnicity, varied modern clothes, each person mid-action, riot debris and smoke. Quoted 2.5 credits, folder S07/SH080. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-ref approved by Leonard ('ok go', 2.5 credits): start frame, seedream_v5_pro 2k 21:9, job 7e4832d7-15a9-4df0-9a7a-d8dcfe407d9c, folder S07/SH080, saved as 05-generation/refs/001_S07_SH080_REF_startframe.png (3120x1328). Claude's read: follows the previz: lamp at the far left, sidewalk diagonal lower left, old man hanging upper left, fat man left of center with the pipe raised, crowd mid-action over center and right, women readable, smoke at right, rubble; mixed but still mostly olive and light skin, few clearly Black or East Asian faces; three to four bodies readable, not seven; the fat man reads medium build from above. Scaled to 1120x480 as frames/001_S07_SH080_T02_start.jpg (media 661e9bb7). REQUEST S07-SH080-c prepared: T02, start_image only, prompt prompts/001_S07_SH080_T02.txt, 5 s 480p 21:9 audio on, quoted 15 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
