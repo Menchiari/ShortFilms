@@ -5982,6 +5982,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S08-SH060-b. Folder S08/SH060. Cabin reference dropped, background in words. Claude's read from frames: behind him only a padded cabin wall and the door edge with the sunset sky, no view down the cabin. Grin at 0-1 s, his face turns toward the lens around 1-1.5 s with a smirk, lips pressed at about 2 s, serious and head lowering toward the scope at 3-4 s. Misses: still a medium close, face in the left half; the background is soft but readable, not extremely shallow; the scope sits beside his face, not at his eye; around 1.5 s he may look into the lens instead of off screen left. Jitter and sound not checked by Claude. Leonard 2026-11-19: fix all the misses above; start showing teeth, really enjoying it; one slow second where the smile turns into an annoyed grin; then concentrate; the shot may run 2 s longer. No rating given."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "8187a062-5c5d-47ba-a1cf-4a6781ce9b02",
+              "prompt": "05-generation/prompts/001_S08_SH060_T03.txt",
+              "file": "05-generation/takes/S08/SH060/001_S08_SH060_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_sniper 8716ad9f (image_references)",
+                "prop_rifle bb9db39b (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH060-c. Folder S08/SH060. Claude's read from frames: extreme close-up in profile, eye pressed to the scope eyepiece, sunset blur behind, no cabin readable. Toothy grin 0-2.5 s; at about 2-3 s he lifts off the scope and turns his face toward screen left, still grinning; the grin closes to a tight mouth by about 3.5 s; back on the scope and serious from about 4.5 s. Misses: the sour, annoyed grin is faint (the smile mostly just closes); his eyes stay hard to see behind the dark lenses; the top of his head is cropped; the aim shift is not readable in frames. Jitter and sound not checked by Claude."
             }
           ],
           "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",
