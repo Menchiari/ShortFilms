@@ -4876,6 +4876,26 @@
                 "char_politician_blood 0d0a5637"
               ],
               "notes": "REQUEST S06-SH040-b, draft. Claude's read from stills and audio levels: faces screen right now; out-of-focus concrete wall behind, no sky; skin soaked in sweat; several wet blood streaks down the cheek (heavier than the dried streak asked). Wide grin showing the teeth, but around 1.5 s the lips open and round on a word, so the teeth are not shut throughout; the grin can read as a smile rather than hatred. About the same scale as T01, only slightly closer. Loud transients at about 0.5 s and 1.45 s (the shots) and a smaller one at about 2.1 s; quiet after 2.3 s. I cannot hear the words here."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "e8be9124-e7a5-4c67-a540-bdcfcb7ba805",
+              "prompt": "05-generation/prompts/001_S06_SH040_T03.txt",
+              "file": "05-generation/takes/S06/SH040/001_S06_SH040_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637"
+              ],
+              "notes": "REQUEST S06-SH040-c, draft. Claude's read from stills and audio levels: faces right, concrete wall behind, soaked in sweat, one thin dry blood trace on the cheek (as asked). Mouth closed in a hard, down-turned set between words: grim, no smile. On the words the jaw opens and the teeth show (about 0.5 s and 3 s), so the teeth are not shut while speaking. Framing is WIDER than T02, not closer: nose, cheek and the edge of the eye area in frame; the macro wording did not hold. Loud transients at about 0.5 s and 1.55 s (the shots), another burst at about 2.05 s; quiet after 2.3 s."
             }
           ],
           "description": "A shot.",
