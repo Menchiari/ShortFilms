@@ -1874,6 +1874,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH110-a prepared, not submitted: S09 SH110 T01, prompts/001_S09_SH110_T01.txt, seedance_2_5 omni_reference, 4 s (shot is 3 s, trimmed in the edit), 480p, 21:9, audio on, folder Scenes/S09/SH110. Images loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179; no video reference (frame filled by place: composition in words from animatic d11 S09_SH110). [ASSUMPTION] body positions after S07 and S08 follow the d11 frame (S08 SH040 has no prompt yet). Cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH110-a approved by Leonard ('ok go, 12 credits'). Submission refused twice by Higgsfield: 429 rate_limit_reached (request ids 6d7e1347-8d48-483c-af96-1245f08e3fb1, 725d63a9-11c4-4cc1-8a5c-a1afaeda5945), no job id returned, nothing generated. Not resubmitted again: waiting for Leonard."
     }
   ],
   "story_sync": {
