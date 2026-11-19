@@ -1900,6 +1900,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070 T03 rated 2 (inferred, Leonard: 'horizontal...??'). REQUEST S08-SH070-d prepared: T04, prompts/001_S08_SH070_T04.txt = T03 plus: rope VERTICAL like a plumb line along the vertical crosshair line, never horizontal or diagonal; street from above, no sky or buildings; on the shot both ends visible, the upper springs up, the lower falls. palette_sunset only, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26480.7. 0-credit alternative tested: T03 rotated 90 degrees and cropped is 2.3x enlarged, soft, and loses the scope ring. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-d approved by Leonard ('go ahead', 12 credits): S08 SH070 T04 submitted, job e582e429-98ac-4b45-b1c7-82a4866bc5f2, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T04.txt."
     }
   ],
   "story_sync": {
