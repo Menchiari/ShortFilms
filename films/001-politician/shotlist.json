@@ -4899,6 +4899,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S06-SH050-b. Folder S06/SH050. First submission b178242a blocked (nsfw, 18 refunded 12:59:06); this is resubmission 1 under production-plan rule 4, passed. Refs: char_politician_blood 0d0a5637, prop_gun 24875e9a, gun still 2ed39253 (slide locked). Claude's read (frames at 8 fps, audio levels, not listened): no recoil, no flash, the gun stays black; the ejection port reads open at the temple and when lowered (about 4 s). One short sound at 1.65-1.75 s (RMS peak -20 dB, about 0.1 s) as the barrel reaches his temple, no visible jolt: contact or click, Leonard to listen. Framing tighter than asked, top of his head cut. Behind him a cracked concrete pillar, with a bright strip of open ground at the left edge (prompt said wall filling the background). At the end the gun sinks to the bottom edge, mostly out of frame, so the slide reads best at 3.8-4.5 s. His mouth opens slightly at the end."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "55061ebc-6ca8-4b2a-95c3-7f0238525019",
+              "prompt": "05-generation/prompts/001_S06_SH050_T03.txt",
+              "file": "05-generation/takes/S06/SH050/001_S06_SH050_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637 (image_references)",
+                "prop_gun 24875e9a (image_references)",
+                "prop_gun slide locked still 2ed39253 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH050-c. Folder S06/SH050. Passed first submission. Claude's read (frames at 8 fps, audio levels, not listened): 0-1.7 s clenched bared teeth, eyes shut, gun driven into the temple; a loud sound 1.7-2.3 s (RMS about -12 dB, decaying over 0.6 s: reads as the yell, not a shot transient), no jolt, no flash. Port open on the slide at the temple. About 3.5 s eyes open, gun comes off the temple; from about 4.3 s the gun turns from black to silver and points up by his chin (color fault again). Eyes go up and to screen right, wide, mouth open (prompt asked just past the left edge of the camera). Wall: concrete panels, closer to S05 SH140 than T02. Top of the head slightly cut."
             }
           ],
           "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
