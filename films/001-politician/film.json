@@ -2118,6 +2118,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070: REQUEST S08-SH070-a prepared, not submitted: fallback plate for the 2 s scope POV (the 0-credit method, a punch-in on SH030's take, waits for SH030). prompts/001_S08_SH070_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s (model minimum), audio on, folder S08/SH070. Refs: loc_square 62815a4f, char_politician_blood 0d0a5637 (trousers and shoe only), palette_sunset 1f563179. No video reference: refs_d11 has no S08_SH070; S08_SH030 (scope look) and S08_SH080 (rope) read for intent only. [ASSUMPTION] clean optics, no ring or crosshair: the scope overlay is added in post for SH030 and SH070 alike; sun from screen left as in S07 SH030. Rope stays whole (SH080 has the snap). get_cost 12 credits, balance 26990.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S10-SH010-a approved by Leonard ('ok go, 60 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 9670a68f-9de0-4150-8be9-6c92e9d748f3), no job id. No 60-credit spend in the transaction list (other scenes' sessions were generating at the same minute). Not resubmitted: waiting for Leonard."
     }
   ],
   "story_sync": {
