@@ -2002,6 +2002,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH010 T01: the first frame must have nobody around him. REQUEST S07-SH010-ref-v3 approved ('ok go'): start frame v3, Seedream 5.0 Pro 2k 21:9 edit of 1a9129b2 plus char_politician_blood 0d0a5637 (suit only), job 7ffdd6b5-7acf-4023-b06c-d7c0528aa229, folder Scenes/S07/SH010, 2.5 credits, prompt prompts/001_S07_SH010_REF_startframe_v3.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe_v3.png. Claude's read: he stands alone at the foot of the wall beside the lamp, charcoal suit, white shirt, rust tie, white hair; nobody near him; seven bodies readable (two lie across each other); the crowd closes in from every side, dense and fairly near; no gun or briefcase in his hands."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S10-SH010-a prepared, not submitted: S10 SH010 T01, seedance_2_5 omni_reference, 480p, 21:9, 20 s, audio on, folder Scenes/S10/SH010, prompt prompts/001_S10_SH010_T01.txt. Images: loc_car-interior 60a2aec8, loc_crossroads a5b52222, prop_helicopter 6c8efe25 (door empty), prop_wobblehead fa19c43f, palette_sunset 1f563179. No previz clip (the place fills the frame; refs_d11 README rule). Helicopter: matte black Black Hawk, confirmed by Leonard for S10. Preflight 60 credits, balance 27221.2. Waiting for approval."
     }
   ],
   "story_sync": {
