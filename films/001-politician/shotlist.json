@@ -5791,7 +5791,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
