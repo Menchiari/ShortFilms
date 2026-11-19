@@ -6060,6 +6060,28 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH060-g. Leonard's frame as start image (upload 41984959; the job echo listed it under reference_images, the take does start on it), char_politician_blood for sleeves and hands. Draft 992x432, 24 fps, 5.06 s, audio peak -5.6 dB. Claude's read (frames every 1/8 s, not heard): opens exactly on Leonard's frame; his crowd holds (mixed ages and ethnicities, pointing). 0 to 1.1 s: a clear, readable wind-up, the heavy-set man lifts the bar over his right shoulder, snarling. About 1.15 s: the swing comes in and the old man's forearms shoot up from the bottom of frame, crossed, charcoal sleeves and white cuffs; the bar meets them behind a motion blur. From 1.25 s to the end the crossed forearms fill the lower two thirds of the frame, close and almost rigid; the heavy-set man is mostly hidden, only his head and the bar peek over them. About 2.6 to 3.3 s: a second swing behind the forearms, a jolt and blur at about 3.3 s. Against the prompt: after the first block the forearms barely move (no shaking, no buckling, no forcing back up), so the reaction reads as a frozen guard; they cover too much of the frame; the second hit is hidden. Upright, not upside down. Waiting for Leonard."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "a43bbf5f-7298-4c54-9433-4a609e8a7364",
+              "prompt": "05-generation/prompts/001_S07_SH060_T06.txt",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T06.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame: Leonard's still (refs/001_S07_SH060_REF_startframe_leonard_992.png, upload 41984959)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH060-h. Leonard 'try again with the sequel, but no arms'. Leonard's frame as the start image, no other images. Draft 992x432, 24 fps, 5.06 s, audio peak -5.6 dB. Claude's read (frames every 1/8 s, not heard): opens on Leonard's frame. Nothing of the old man in frame for the whole take. Three overhead swings at the lens, each one a full wind-up over his head and a chop down, the frame jerking into a heavy motion blur on each landing: about 1.1 to 1.4 s, 2.4 to 2.6 s, 3.6 to 3.9 s; after each the frame comes back to face him, the second time lower and tilted. From about 4 s to the end he holds the bar diagonally across his body, snarling into the lens: no fourth wind-up. Against the prompt: the crowd points and shouts but barely moves (the same poses most of the take); the swings are overhead chops, not over the shoulder; the end is a hold. Waiting for Leonard."
             }
           ],
           "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",
