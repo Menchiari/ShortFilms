@@ -1663,6 +1663,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 T02 (job 4c3c9bac) blocked by Higgsfield as nsfw ('Something went wrong'). Refund not attributable from the transaction list (several S06 sessions share the account). No retry. T02_v2 prompt (prompts/001_S06_SH030_T02_v2.txt): six phrases softened ('where he shot them' to 'where they fell', crowbar to steel bar, 'refuses to die', 'lost count of his bullets', 'before he can fire again', 'Nobody fires'); rest identical. REQUEST S06-SH030-c quoted at 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T03 rated 2 (inferred): Leonard, still slow motion, still bullets instead of shells. REQUEST S06-SH025-e prepared: T04 new take, prompts/001_S06_SH025_T04.txt, mechanism detail removed, real-time 24 fps, five fast shots; same references, 480p, 21:9, 4 s, estimate 12 credits. Waiting for approval."
     }
   ],
   "story_sync": {
