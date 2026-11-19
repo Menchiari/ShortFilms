@@ -27,8 +27,9 @@
 
 References are Higgsfield Elements, named like the existing ones:
 `char_<name>`, `loc_<name>`, `prop_<name>` (lowercase, hyphens, 32 characters max).
-In an API prompt an element is written `<<<element_id>>>`; Higgsfield turns it into
-`@char_<name>` and attaches the image. Each element's id goes in its bible document
+With seedance_2_5 an element is passed by its image job id in `medias` (`image_references`);
+the prompt names it `@char_<name> (@Image1)`, in `medias` order (rules in `docs/PROMPTING.md`).
+Each element's id goes in its bible document
 (`03-bible/characters/<name>.md` and so on). The images come from the director's own pipeline.
 
 ## One project per film
