@@ -1926,6 +1926,10 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH020 T01 prompt prepared (prompts/001_S09_SH020_T01.txt), request S09-SH020-a, not submitted. Previz as line drawing refs/001_S09_SH020_lines_d11.mp4, upload 0a8504f0. Refs: prop_briefcase, char_politician_final (D: stain in words), prop_helicopter (door empty), loc_square, palette_sunset. Quoted 39 credits (13 s, 480p, 21:9, audio on). [ASSUMPTION] the limp is on the left foot (the ankle he was hung by in S07; the script does not say which)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH040: line-drawing guide refs/001_S09_SH040_lines_d11.mp4 (edgedetect of refs_d11/S09_SH040.mp4) uploaded and filed in REFS (video a972756a-5e12-44e5-89db-8e8efe532d36). REQUEST S09-SH040-a prepared, not submitted: prompts/001_S09_SH040_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder Scenes/S09/SH040. Images: prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179. Estimate 12 credits. [ASSUMPTION] the dead count is twelve (seven he shot: 8 rounds minus the one into the air, per the gun count and S07 SH080 T01; plus the fat person, the second man, three from S08); the CLAUDE brief said 'his eight'. [ASSUMPTION] sun behind the scene at upper left, out of frame; door empty; he stands still by the street light with the folder."
     }
   ],
   "story_sync": {
