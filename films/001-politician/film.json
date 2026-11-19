@@ -1409,6 +1409,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 T05 downloaded (job 0c8dccd1, 12 credits): starts on T03's 3.6 s frame, eyes come level to the lens line and go wide, no gunshot. Cut T03 0-3.58 s + T05 = 7.6 s; slight grade jump at the cut. Gunshot in T03 at 1.65-2.3 s stays for the sound design. Waiting for Leonard."
     }
   ],
   "story_sync": {
