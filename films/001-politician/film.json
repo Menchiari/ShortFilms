@@ -1829,6 +1829,10 @@
     {
       "date": "2026-11-19",
       "text": "Higgsfield: created S08 inside Scenes with SH010 to SH080."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-ref3 approved by Leonard ('go ahead', 1.5 credits): start frame v1, job 70fd4fb7-4831-4c51-b1a6-1255233de391, REFS, saved as 05-generation/refs/001_S06_SH030_start-frame_v1.png. The wall is now the ground floor of an apartment building with windows; he stands at it by the pole facing right, gun out, case in his left hand; five men on the asphalt with the pipe; a mixed crowd at screen right facing him. T03 prompt (prompts/001_S06_SH030_T03.txt): start_image = this still, plus char_politician_blood, prop_gun, prop_briefcase. REQUEST S06-SH030-d quoted at 12 credits, waiting for approval."
     }
   ],
   "story_sync": {

@@ -1,0 +1,29 @@
+Audio: only the shouts of the crowd rising again, running and scuffing feet on gritty asphalt, one man's hoarse roar as he breaks into a run, clothes rustling, the old man's ragged panicked breathing. No gunshot. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1 is the exact first frame of this shot: start on it and continue forward from that moment. Keep its camera position, framing, building, wall, pole, street, light, the old man's place and the five men on the asphalt exactly as they are. @char_politician_blood: the old man's face, thinning sweat-wet brown hair, heavy build, dusty charcoal suit, stained white shirt, rust tie and the wound on his right eyebrow only. @prop_gun: the toy gun's small shape and black finish only. @prop_briefcase: the briefcase's shape and dark leather only.
+
+A locked-off wide side view across a narrow street, live-action 35mm film footage: the old man stands at the wall at screen left with the toy gun out toward screen right; five men lie still on the asphalt in front of him where they fell; at screen right the crowd comes at him again, not together but one after another: one man breaks into a run, then another, then more.
+
+Camera: locked-off on a tripod, exactly the framing of @Image1, completely still for the whole shot.
+
+0-1s: as in @Image1. The old man breathes hard, the gun shaking at the crowd, his eyes going from face to face. The crowd at screen right shifts, shouts and edges forward, everyone moving a little all the time, like a real riot crowd in news footage.
+1-2s: a man in a faded blue shirt breaks out of the front of the crowd and runs at him along the street toward screen left. The old man swings the gun to him.
+2-3s: a second man, in a grey T-shirt, breaks out a beat later on the near side of the street and runs too. Behind them a few more start forward, each at his own moment, never in step.
+3-4s: more of the crowd surges forward, some walking fast, some running, weaving around the men on the asphalt. Final frame: the man in the blue shirt about four meters from the old man, still running, the man in the grey T-shirt a few steps behind him on the near side, the crowd coming behind them, the old man at the wall with the gun on the first runner, the five men still lying exactly where they were in @Image1, the camera unmoved.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, and he will walk out of this street.
+GOAL: stop the next one before he reaches him.
+OBSTACLE: they keep coming however many lie on the ground, the wall is at his back, and he has lost count.
+TACTIC: his eyes lock on the first man who runs and hold the gun on him, flick to the second as he breaks, measure which one reaches him first.
+The two runners: each has decided, alone, to be the one who reaches him first.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of guns: one, only in the old man's right hand. Count of briefcases: one, in his left hand. Count of men lying on the asphalt: five, none moves. Nobody falls in this shot. No vehicles. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the shouts of the crowd rising again, running and scuffing feet on gritty asphalt, one man's hoarse roar as he breaks into a run, clothes rustling, the old man's ragged panicked breathing. No gunshot. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
