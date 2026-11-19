@@ -1587,6 +1587,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH010 T02 done (18 credits): takes/S06/SH010/001_S06_SH010_T02.mp4. Strong crouch, he moves toward screen right to a concrete pillar; camera angle drifted from the animatic (open square behind him). Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH010 T02, Leonard: a bit less crouched; the people look lobotomized: they must face him, not the camera. REQUEST S06-SH010-c prepared, not submitted: prompts/001_S06_SH010_T03.txt = T02 with a half crouch and a townspeople paragraph (all turned toward him, eyes on him and the gun, reacting; runners look back at him). Same media and settings. get_cost 18 credits."
     }
   ],
   "story_sync": {
