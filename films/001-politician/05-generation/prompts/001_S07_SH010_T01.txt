@@ -1,0 +1,23 @@
+Audio: only a far roar of many shouting voices from the square below, hundreds of running footsteps on dusty pavement, the dull thuds and scuffles of the crowd at the wall, and a faint wind across the rooftop. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1 is the exact first frame and @Image2 the exact last frame of this one continuous shot: same camera, same place, same light, five seconds apart. Everything in the result comes from these two frames.
+
+Real documentary news footage, filmed from a rooftop high above the corner of a square in a dusty desert town: the knot of people at the foot of the concrete wall grows into a mob as more and more townspeople pour in from every street and pile onto it, while the men lying on the pavement stay where they fell. Locked-off camera, long lens.
+
+Camera: locked-off on a tripod, no movement, no zoom, the framing of @Image1 from the first frame to the last.
+
+Light, from the sun only: a low warm late afternoon sun from screen left, golden, as in both frames; every running person drags a long shadow across the paving; dust kicked up around the knot glows in the sun.
+
+0-2s: the knot of about fifteen people at the foot of the wall beside the lamp post shoves and heaves inward over the man hidden on the ground; arms rise and fall inside it. All over the square people run toward it from the edges of frame, each on their own path and at their own speed: some sprint, some jog, some walk fast, some stop for a moment and then run on. New people keep entering at every street opening.
+2-4s: the first runners reach the knot and push into its back, it swells and spreads along the wall and over the curb; more and more arrive behind them and press in. Inside the knot fists and kicks rise and fall, the whole mass rocking and surging.
+4-5s: the mob is a dense heaving mass of fifty or more at the corner, arms still rising and falling, people still streaming in from all sides. Final frame: @Image2, the camera unmoved.
+
+The men lying on the pavement: they never move, not once, from the first frame to the last. They stay exactly in the spots of @Image1. The running people swerve around them and step over them.
+
+The crowd: real, ordinary townspeople, men and women of every age and build, heavy and thin, faded mismatched everyday clothes. Constant, messy, overlapping movement, every person at their own pace: nobody moves in step, nobody moves stiffly, nobody stands still in a row. Real riot footage, not a choreographed crowd. Not graphic: no blood, no close injury, everything small and far below. Count of street lamps: one. No traffic lights. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a far roar of many shouting voices from the square below, hundreds of running footsteps on dusty pavement, the dull thuds and scuffles of the crowd at the wall, and a faint wind across the rooftop. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
