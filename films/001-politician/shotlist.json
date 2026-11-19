@@ -7378,6 +7378,30 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S08-SH050-a, approved 'ok go, 12 credits'. Folder Scenes/S08/SH050. Claude's read from frames: continues from the SH020 T02 last frame, framing a little wider (the whole rifle in frame, more of the town through the door); the lady in the left front seat turns over her right shoulder at 0-1.2 s and holds toward Roger through sunglasses to the end; the pilot faces forward; Roger stays on the scope; door empty. Her face is small in frame. Voice-band burst at 2.0-2.9 s, matching the line's slot; Claude cannot listen, so the words, the accent and the absence of music are unchecked. For the edit: 3 s from about 0.5 s or 1.0 s."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "9e57c6dc-26ae-4cc1-9372-d76ee030aeed",
+              "prompt": "05-generation/prompts/001_S08_SH050_T02.txt",
+              "file": "05-generation/takes/S08/SH050/001_S08_SH050_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame 1448763a (start_image, refs/001_S08_SH050_start_SH020-T02-last.png = SH020 T02 last frame)",
+                "char_boss 7ef41962 (image_references)",
+                "char_sniper 8716ad9f (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH050-b, approved 'ok go, 15 credits'. Leonard's change after T01: Roger fires once before she turns. Claude's read from frames: one muzzle flash out of the open door at about 0.75 s (earlier than the 1-2 s asked), with a loud transient on the same frame (peak -3 dBFS); small recoil, no casing seen at this size; she turns over her right shoulder at about 1.3-2 s and holds on Roger through sunglasses; voice-band burst at about 3.25-3.9 s; pilot faces forward; door empty; framing a little wider than SH020 T02's last frame, as in T01. Claude cannot listen: words, accent and the absence of music unchecked."
             }
           ],
           "description": "In the front seat, the lady turns around to him, over her right shoulder.",

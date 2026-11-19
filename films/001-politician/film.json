@@ -2774,6 +2774,14 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH060 T05 rated 4 (inferred from Leonard's 'works'). SH060 total spend 78 credits over T01 to T05."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-b approved by Leonard ('ok go, 15 credits'): T02 submitted, job 9e57c6dc-26ae-4cc1-9372-d76ee030aeed, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, start_image 1448763a, char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T02 downloaded (job 9e57c6dc, 15 credits): one shot with muzzle flash at about 0.75 s, her turn at about 1.3-2 s, line at about 3.25-3.9 s. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
