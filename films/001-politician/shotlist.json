@@ -4847,6 +4847,32 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S06-SH020-b, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, not watched at speed, audio not checked by ear): narrow street, facades close on both sides, backlit golden haze, photographic. He stands with his left shoulder against the wall, briefcase in his left hand, profile visible in some frames. Runners break out one at a time and drop; the last frame shows three men on the asphalt in frame (left sidewalk about 5 m, center about 6 m, center-right about 3 m). Weak: the crowd stands as a dense static wall of men in rows across the street, not the chaos asked for; his gun arm is still mostly held out straight. Leonard 2026-11-19: very good; camera, style and movement worked. Changes for T03: the first man charges with a crowbar; more people panic after each shot; a diverse crowd (Asian, white, Black, European, women); he fires only when it is the only thing he can do; start slow, speed up later."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 12,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 36.0,
+              "job_id": "c66f4c3a-9664-4e0c-b1ab-23386cc5f152",
+              "prompt": "05-generation/prompts/001_S06_SH020_T03.txt",
+              "file": "05-generation/takes/S06/SH020/001_S06_SH020_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH020_T03.jpg",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH020-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): slow start holds, the crowbar man walks out, raises the crowbar and is shot at about 4.5 s, the crowbar lies on the asphalt beside him to the end. After the first shot the crowd breaks and runs; later shots come faster. Briefcase in his left hand, his back to the wall at left. Weak: 0-4 s the crowd is still a still wall of men in rows; almost no women and little visible diversity; two parked cars appear as the street opens up behind (prompt said none); his gun arm is still mostly straight. Last frame: four men clearly lying in frame plus a body at the bottom right edge; a few living people crouch in the street."
             }
           ],
           "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
