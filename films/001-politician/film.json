@@ -1990,6 +1990,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH010 T01 delivered (job e643b6c0, 15 credits): saved as 05-generation/takes/S07/SH010/001_S07_SH010_T01.mp4, recorded in shotlist.json. The refs file 001_S07_SH010_REF_startframe.png is the END frame of this shot; startframe_v2.png is the start frame. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T03 rated 1 (inferred, Leonard: 'WHAT IS THIS?'). Claude misread it at first. It is a collage: SH060 T02's first frame glued beside SH020 T05's last frame, then a cut into the SH020 frame. Rule learned: Seedance copies full frames of other compositions as images; a frame from another angle cannot serve as a location reference for a new angle. Claude's proposed T04 (T03 frame as start frame) withdrawn: that frame is the collage."
     }
   ],
   "story_sync": {
