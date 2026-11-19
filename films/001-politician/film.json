@@ -2166,6 +2166,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH030-a prepared, not submitted: S08 SH030 T01 clean plate, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, count 1, refs loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179, no guide clip (place fills the frame), folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T01.txt. Scope mask, crosshair and the red and green face boxes are a post composite (free), not generated. Sun behind the camera (behind the helicopter, as in S08 SH010). Dead not counted in the prompt: S07 SH080 assumes 7 from S06, the screenplay body map says 8. estimate_video_cost 12 credits, balance 26990.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T03 (rating 2 inferred): crowd all Middle Eastern men, add women; a simple thin rod, not a big pipe; he hits the man many times; raw, violent, realistic rage, not epic; everyone closer. This changes the shot's action from the screenplay (slow lift, hold, one swing) to repeated blows: SH060 (one blow rebounding off the forearm) may need Leonard's call. REQUEST S07-SH050-d prepared: prompt 001_S07_SH050_T04.txt (thin rod, about six blows landing just below frame with camera jolts, crowd at arm's length, half women with ten named different faces, an anti-clone line on char_big-guy, flat hazy light, no blood), same settings and refs. Preflight 15 credits. Waiting for approval."
     }
   ],
   "story_sync": {
