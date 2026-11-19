@@ -5487,6 +5487,26 @@
               "notes": "REQUEST S06-SH030-e, draft, references only frames of approved takes (SH010 T04, SH020 T05 last, SH060 T02 first). Claude's read: the place now matches: the concrete wall at the corner of the street, the apartment building, the street going down at right into the golden haze, the five men lying with the pipe, as in SH020 T05. Faults: 0 to 2.7 s is a three-quarter high view of him at the wall, not a side view, and he stands slack, gun down by his thigh, looking at the ground, not aiming; at 2.7 s Seedance cuts (asked: no cuts) to an over-the-shoulder view that copies SH020 T05's last frame, runners coming; two parked cars from the reference. Audio not listened to. Correction after Leonard ('WHAT IS THIS?'): 0 to 2.7 s is not a three-quarter view but a collage: the SH060 T02 frame (him slack, gun down) pasted beside the SH020 T05 street frame, two perspectives in one image; then it plays the SH020 T05 frame itself. Cause: whole frames of other shots as references get copied as pictures, not read as a place.",
               "rating": 1,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 24.0,
+              "job_id": "68c8d816-adc3-47cb-8493-7bb3e8aa0b19",
+              "prompt": "05-generation/prompts/001_S06_SH030_T04.txt",
+              "file": "05-generation/takes/S06/SH030/001_S06_SH030_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "S06 SH020 T05 c0bf1ae5 (video_references, extension forward)"
+              ],
+              "notes": "REQUEST S06-SH030-f, video_extension forward of the approved SH020 T05, 8 s, 480p. Output holds only the new 8 s. Claude's read from full-size frames at 0.2, 1, 1.5, 2, 3, 3.5, 4, 5, 6, 7.9 s: one continuous take, no scene cut detected; the first frame continues SH020 T05's last frame (same street, wall, five bodies, pipe, cars). About 0.8 to 1.6 s: two runners hit, one drops by his feet at left, one at right; seven men on the asphalt from 2 s. 2.5 to 4 s: his gun hand at the side of his head, seen from behind, the crowd breaks toward him. 5 s: men grab him at the wall. 6 s: a body covers the lens. 7 to 8 s: dark, swallowed in the crowd. Faults: the crowd is all men, many bearded, the look Leonard objected to; the briefcase leaves his hand early and stands at his feet from about 1 s; the two shots land close together around 1 s; the gun-to-head reads as a hand on his head (gun not clear). Audio not listened to."
             }
           ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",
