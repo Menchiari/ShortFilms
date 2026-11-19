@@ -1860,6 +1860,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 start frame v1 rejected by Leonard: too posing, not realistic, not film quality, incoherent, looks like GPT, too many people, they look Middle Eastern. Cause: Claude picked gpt_image_2_6 for a story still (CLAUDE.md: images come from Leonard's pipeline, Midjourney for style; Claude does not pick image models), and asked for a full crowd. REQUEST S06-SH030-d (T03 on that still) withdrawn, never submitted. Two paths offered: (1) Leonard makes the start frame in Midjourney, prompt in prompts/001_S06_SH030_REF_start-frame_v2_midjourney.txt; (2) Seedance T03 without a start frame, frames of the approved SH020 T05 (2ec9392e) and SH060 T02 (663578f1) as location references, about a dozen mixed people, quoted 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070: REQUEST S08-SH070-a prepared, not submitted: fallback plate for the 2 s scope POV (the 0-credit method, a punch-in on SH030's take, waits for SH030). prompts/001_S08_SH070_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s (model minimum), audio on, folder S08/SH070. Refs: loc_square 62815a4f, char_politician_blood 0d0a5637 (trousers and shoe only), palette_sunset 1f563179. No video reference: refs_d11 has no S08_SH070; S08_SH030 (scope look) and S08_SH080 (rope) read for intent only. [ASSUMPTION] clean optics, no ring or crosshair: the scope overlay is added in post for SH030 and SH070 alike; sun from screen left as in S07 SH030. Rope stays whole (SH080 has the snap). get_cost 12 credits, balance 26990.7. Waiting for approval."
     }
   ],
   "story_sync": {
