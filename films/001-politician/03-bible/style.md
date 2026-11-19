@@ -49,6 +49,11 @@ Dense. Every shot prompt carries, besides the PROMPTING.md skeleton:
   walls), ending "Nothing looks like a box, a slab or a 3D model." (Leonard, 2026-11-18)
 - A task for every person in frame, extras included, so nobody looks into the lens or drifts.
 - "No cars" is not enough: name "no parked cars" when the street must be empty.
+- The crowd (Leonard, 2026-11-19, `style-refs/crowd_leonard.png`): "a packed crowd of men and
+  women of every age and every ethnicity: grey-haired old women in glasses, young women, old bald
+  men, young men; plain everyday clothes in muted browns and greys with a few strong colors (a
+  red jacket, a mustard t-shirt, a blue work shirt); shoulder to shoulder, leaning forward, arms
+  stretched out pointing at him, shouting, faces furious." Never a crowd of men only.
 
 ## Sound grammar
 What the generated guide track carries, what stays silent.

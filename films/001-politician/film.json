@@ -2018,6 +2018,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH060 T04 done (REQUEST S07-SH060-f, 15 credits, job 04795099): the 5 s sequel, takes/S07/SH060/001_S07_SH060_T04.mp4; whole shot joined as 001_S07_SH060_T03_T02_T04_join.mp4 (14.08 s). Join SSIM 0.84. Two blocks (not three), camera whips on each, then he holds his guard crying out. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060, with a still (heavy-set man with long curly hair and beard facing the lens with a dark bar, a mixed crowd pointing): you forgot the politician's reactions, protecting himself; make the character swing from this frame; I like this crowd, mark it down. Crowd rule added to 03-bible/style.md (Prompt density), still saved as 03-bible/style-refs/crowd_leonard.png and 05-generation/refs/001_S07_SH060_REF_startframe_leonard.png (+ _992 cropped 21:9, upload 41984959). REQUEST S07-SH060-g prepared: T05, omni_reference, start_image Leonard's frame, char_politician_blood for his sleeves and hands, 5 s 480p 21:9 audio on, prompt prompts/001_S07_SH060_T05.txt: his POV, two swings, his forearms come up into frame and block, he gasps and growls, camera jolts. [ASSUMPTION] POV, upright (rotate 180 in the edit if wanted), no char_big-guy or prop_bar-weapon (the frame differs). Estimate 15 credits."
     }
   ],
   "story_sync": {
