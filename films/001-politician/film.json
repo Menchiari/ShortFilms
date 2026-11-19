@@ -1611,6 +1611,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T02 rated 3 (inferred): Leonard, the gun is correct; hand rests on a wall, and the background must be a wall, not a crowd. REQUEST S06-SH025-c prepared: T03 = video_edit of T02 (f667821b) with loc_square 62815a4f for the wall, prompts/001_S06_SH025_T03.txt, 480p, 21:9, 4 s, audio on. Estimate 15 credits (a fresh take is 12 but rerolls the gun). Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH020-d approved by Leonard ('ok go', 36 credits): S06 SH020 T04 submitted, job a182fcd6-2aa1-49e5-b112-2a8a21f8ba60, seedance_2_5 omni_reference, 480p, 21:9, 12 s, audio on, folder S06/SH020, prompt 001_S06_SH020_T04.txt."
     }
   ],
   "story_sync": {
