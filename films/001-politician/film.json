@@ -1435,6 +1435,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-a approved by Leonard (18 credits): S06 SH050 T01 submitted, 480p, 21:9, 6 s, audio on, job 96a52076-84d7-4f79-92c5-0ed9be51be87, folder S06/SH050, prompt 001_S06_SH050_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH080 approved with T04 (Leonard: 'sure this works', rating 4 inferred). What made it work: a new take, not an edit; the mortified opening written as worry with 'no smile, no grin, no grin of embarrassment'; the confusion beat from T02; element naming per PROMPTING.md; char_big-guy, loc_side-street, palette_afternoon; 480p, 5 s."
     }
   ],
   "story_sync": {
