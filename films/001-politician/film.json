@@ -2106,6 +2106,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH040 T03 (11f6e743) blocked as nsfw ('Your prompt may contain sensitive content'). A 15-credit Seedance 2.5 refund at 15:22:43 matches it (not tied to the job id). Not retried. Softened prompt prepared as 001_S07_SH040_T03_v2.txt (REQUEST S07-SH040-d): no punch, kick, blow, hate, beating or blood wording; same inputs and settings. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050: Leonard chose to wait for SH020 and generate SH050 as a 4 s take (trimmed to 3 s in the edit) from the last frame of his chosen SH020 take, start_image plus char_boss and char_sniper. Draft prompt prompts/001_S08_SH050_T01.txt, lighting to be filled from the SH020 frame. [ASSUMPTION] American English for the lady. Nothing generated."
     }
   ],
   "story_sync": {
