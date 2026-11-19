@@ -36,17 +36,26 @@ Each element's id goes in its bible document
 
 ```
 Higgsfield project: "SF 001 Title"
-  REFS/            stills used for elements, start and end frames
-  S01/
-    SH010/         every take of shot 1 of scene 1
-    SH020/
-  S02/ ...
-  MUSIC/
+  Scenes/
+    S01/
+      SH010/       every take of shot 1 of scene 1
+      SH020/
+    S02/ ...
+  REFS/            uploaded stills: references, start and end frames
+  Elements/        element images
+  Documents/
   TESTS/           structure tests
+  MUSIC/           only when the film has music
 ```
 
 Folders are created when first needed. Project and folder ids are stored in
-`films/<film>/film.json` under `higgsfield`, so generations always land in the right place.
+`films/<film>/film.json` under `higgsfield.folders` (keys `Scenes`, `S01`, `S01/SH010`, `REFS`),
+so generations always land in the right place.
+
+- A new scene folder is created with `parent_folder_id` = `higgsfield.folders.Scenes`, a new shot
+  folder with its scene folder's id. Nothing scene-related goes at the project root.
+- Before creating any folder, list the parent's children (every page) and reuse the folder with
+  the same name. Never create a second folder with the same name.
 
 ## Approval protocol
 
