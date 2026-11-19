@@ -1373,6 +1373,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH010 T02, Leonard: a bit less crouched; the people look lobotomized: they must face him, not the camera. REQUEST S06-SH010-c prepared, not submitted: prompts/001_S06_SH010_T03.txt = T02 with a half crouch and a townspeople paragraph (all turned toward him, eyes on him and the gun, reacting; runners look back at him). Same media and settings. get_cost 18 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH010-c approved by Leonard (18 credits) and submitted: S06 SH010 T03 job a933ad04-4df1-4e26-969d-a6f574839994, folder S06/SH010, prompt 001_S06_SH010_T03.txt."
     }
   ],
   "story_sync": {
