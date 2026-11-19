@@ -21,18 +21,21 @@ Plain English prose. Settings (duration, resolution, aspect, audio flag) never g
    stinger at any moment. No subtitles.`
 2. **Elements,** in the order they first appear on screen. Each element's image job id goes in
    `medias` as an image reference (no `<<<element_id>>>` placeholders: Seedance 2.5 ignores them).
-   - Reference media are named by upload order: `@Image1`, `@Image2` ..., `@Video1` ...,
-     `@Audio1` ... Never "Image 1" or "VIDEO 1".
+   - Elements are written by name only: `@char_<name>`, `@prop_<name>`, `@loc_<name>`, never
+     followed by `(@ImageN)`. List them in the same order as their images in `medias`.
+   - References that are not elements (a palette image, a guide video, an audio clip) are named by
+     upload order: `@Image1` ..., `@Video1` ..., `@Audio1` ... Never "Image 1" or "VIDEO 1".
    - Characters are always `@char_<name>`, in the element version that matches the scene in the
      script (film 001: `stories/politician/elements.md`). Props `@prop_<name>`, locations
      `@loc_<name>` when used.
    - One line per element: what it gives, and what not to take from it.
-     `@char_marta (@Image1): face, hair and coat only, not pose or background.`
-     `@loc_corridor (@Image2): space and light only, empty of people.`
+     `@char_marta: face, hair and coat only, not pose or background.`
+     `@loc_corridor: space and light only, empty of people.`
    - In the body use only the `@char_` / `@prop_` / `@loc_` names. Name the character before
      each action. Say who holds each prop.
-   - Template: `films/001-politician/05-generation/prompts/001_S05_SH120_T01_v5.txt`. Older
-     prompts (for example `001_S03_SH010_T01.txt`) may use the old naming: never copy them.
+   - Template: `films/001-politician/05-generation/prompts/001_S06_SH020_T01_v2.txt` (on
+     branch `claude/s06-sh020` until film-sync merges it). Older prompts use older naming
+     (`(@Image1)` after a name, "Image 1", "VIDEO 1"): never copy their naming.
 3. **One sentence:** who, where, what happens, in the film's style, with which camera.
 4. **Timeline in whole seconds, no gaps:**
    `0-3s: medium shot, eye level. Camera: dolly slowly in, stop on a medium close-up.
