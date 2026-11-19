@@ -5084,6 +5084,30 @@
                 "video lines_d11 0001a18b"
               ],
               "notes": "REQUEST S06-SH010-b, draft, Leonard's notes on T01 (crouched, slow backward walk, scared, looking around, grouchy voice, heavy breath, sweaty). Claude's read from stills: the crouch reads strongly: knees bent, hunched, coiled, gun on a straight-ish arm toward screen left, briefcase low in his left hand, smoke at the muzzle for the first 2 s, mouth open shouting, head turning. He moves from left of center toward screen right and ends pressed beside a tall weathered concrete pillar/wall at right of frame; mostly in three-quarter profile, not facing camera. The camera angle drifted from the animatic: open hazy square behind him with a round sign on a pole beside him, not the wall filling the background; men at screen right reach toward him with arms out. Blood on his right eyebrow barely visible at 480p; sweat not readable at this size. Audio present (mean -26 dB); I cannot confirm the voice from here."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "a933ad04-4df1-4e26-969d-a6f574839994",
+              "prompt": "05-generation/prompts/001_S06_SH010_T03.txt",
+              "file": "05-generation/takes/S06/SH010/001_S06_SH010_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "prop_briefcase 4bf36cb5",
+                "loc_square 62815a4f",
+                "video lines_d11 0001a18b"
+              ],
+              "notes": "REQUEST S06-SH010-c, draft, Leonard's notes on T02 (a bit less crouched; townspeople face him, not the camera). Claude's read from stills: half crouch, knees bent, moderate; the concrete wall fills the background behind him, a plain pole at his right (screen left), an open hazy street with steps at far left. The two men at screen right are turned toward him, arms reaching toward him, in profile. The people at far left walk slowly toward the camera, faces roughly toward camera and him at once: their direction is ambiguous. He mostly holds his spot with small shifts, little backward walking. Smoke at the muzzle early; the gun catches a pale highlight around 1 s. One man near camera wears a white skullcap. Audio present (mean -25 dB), voice not checked by ear."
             }
           ],
           "description": "Standing at the corner, a wall a few steps behind him, he points the small nickel pistol at them, smoke curling from the muzzle. A few people near the camera run off past it. The rest have frozen.",
