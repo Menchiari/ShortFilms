@@ -2,7 +2,7 @@ Audio: only the creak of a heavy rope straining under a hanging weight, one shar
 
 @loc_square (@Image1): the dusty concrete apartment tower at the corner of the square: its weathered plaster, rows of small dark windows and rolled-down shutters only. Not its framing, open square, street lamp, traffic lights, people or parked cars. @palette_sunset (@Image2): color and light only, nothing else from it.
 
-A locked-off close shot at the corner of a dusty square in a desert town at sunset: a thick, rough rope hangs straight down through the frame, pulled tight by a heavy weight below, and a bullet from far away cuts it in two.
+A locked-off close shot at the corner of a dusty square in a desert town at sunset: a thick, rough rope hangs straight down through the frame, pulled tight by a heavy weight below, and a bullet from far away cuts it in two. The result is photorealistic live-action 35mm film footage shot on location, a real rope and a real wall, never a 3D render, previz, drawing or video game.
 
 Camera: locked-off, close, at the height of the rope, on a long lens. The rope runs straight down through the frame just left of center, from the top edge to the bottom edge, close and sharp: a thick rough rope of pale frayed fibers, the same rope that hangs from the arm of the street lamp. Behind it, soft and out of focus, the facade of the concrete apartment tower from @loc_square fills the background edge to edge: weathered plaster, small dark windows, rolled-down shutters. No people in frame, no lamp in frame, no ground or sky in frame.
 

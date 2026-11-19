@@ -1860,6 +1860,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 start frame v1 rejected by Leonard: too posing, not realistic, not film quality, incoherent, looks like GPT, too many people, they look Middle Eastern. Cause: Claude picked gpt_image_2_6 for a story still (CLAUDE.md: images come from Leonard's pipeline, Midjourney for style; Claude does not pick image models), and asked for a full crowd. REQUEST S06-SH030-d (T03 on that still) withdrawn, never submitted. Two paths offered: (1) Leonard makes the start frame in Midjourney, prompt in prompts/001_S06_SH030_REF_start-frame_v2_midjourney.txt; (2) Seedance T03 without a start frame, frames of the approved SH020 T05 (2ec9392e) and SH060 T02 (663578f1) as location references, about a dozen mixed people, quoted 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH080-a approved by Leonard and submitted: S08 SH080 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (to trim to 2 s), audio on, one take, 12 credits (quoted). Refs: loc_square 62815a4f, palette_sunset 1f563179, no video guide (place fills the frame). Job a5321411. Prompt prompts/001_S08_SH080_T01.txt, photorealism line added on Leonard's note."
     }
   ],
   "story_sync": {
