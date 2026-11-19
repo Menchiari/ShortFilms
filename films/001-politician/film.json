@@ -1900,6 +1900,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH030 T03 downloaded (job 590ea56c, 12 credits), takes/S08/SH030/001_S08_SH030_T03.mp4. In-camera scope and crosshair held fixed; two kills under the crosshair at about 1 s and 3 s, the second very clear; sun behind the camera. Closer than the 'way further' asked. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T03 accepted by Leonard ('good enough', rating 3 inferred). SH030 approved with T03. Lesson: the scope and crosshair work in camera with Seedance 2.5 when the prompt fixes the circle and reticle and says only the view inside moves; the kills read when the target is on the crosshair. The red and green face boxes and the hanging man are not in this shot (Leonard dropped the man); the green-box beat now lives only in SH070."
     }
   ],
   "story_sync": {
