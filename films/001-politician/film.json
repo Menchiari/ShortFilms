@@ -1415,6 +1415,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S05-SH020-k done (28 credits): S05 SH020 T09 86d940c8, 720p, 21:9, 4 s, element char_politician_dusty as @Image1 plus words. First true top view from words: slow overhead track, cafe tables, parked sedan, people get up and follow him. Blocks read low, not tall."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH060-a approved by Leonard ('go ahead'), 12 credits: S06 SH060 T01 submitted, job f6916e3b-3622-46ac-ae55-8c644ef88617, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S06/SH060, prompt 001_S06_SH060_T01.txt. The job echo lists the @Video1 media under reference_images: unclear whether the guide clip was read as a video."
     }
   ],
   "story_sync": {
