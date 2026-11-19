@@ -1495,6 +1495,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020 T01 rated 1 (inferred): Leonard: no, bad videogame movement, he must be angrier, panicking, warning and yelling, runners threatening revenge, denser chaotic crowd, the street a lot tighter. Claude's hair 'defect' withdrawn: the element image has thinning brown hair; the prompt's 'white' was wrong. REQUEST S06-SH020-b prepared, not submitted: prompts/001_S06_SH020_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 12 s, audio on, folder S06/SH020. Images: char_politician_blood 0d0a5637, prop_gun 24875e9a, loc_side-street e728a9ae, prop_briefcase 4bf36cb5; no guide clip. [ASSUMPTION] narrow street at the corner of the square; body map now along the street (about 10, 7, 6, 4 and 2-3 m), to be fixed from the take. Cost check 36 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH080-f approved (42 credits, 720p, 21:9, 6 s, seed 1823186076): S05 SH080 T06 3703a2a0. Narrow lane, cut at the outer right eyebrow only, look back, stumble, fall on his back; the drawn pebble in the guide was not copied (only a faint streak), parked cars back."
     }
   ],
   "story_sync": {
