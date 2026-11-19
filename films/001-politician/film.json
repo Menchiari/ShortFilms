@@ -1866,6 +1866,10 @@
     {
       "date": "2026-11-19",
       "text": "Higgsfield: created S10 inside Scenes with SH010. Every scene S01 to S10 now has its folder inside Scenes."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S10-SH010-a prepared, not submitted: S10 SH010 T01, seedance_2_5 omni_reference, 480p, 21:9, 20 s, audio on, folder Scenes/S10/SH010, prompt prompts/001_S10_SH010_T01.txt. Images: loc_car-interior 60a2aec8, loc_crossroads a5b52222, prop_helicopter 6c8efe25 (door empty), prop_wobblehead fa19c43f, palette_sunset 1f563179. No previz clip (the place fills the frame; refs_d11 README rule). Helicopter: matte black Black Hawk, confirmed by Leonard for S10. Preflight 60 credits, balance 27221.2. Waiting for approval."
     }
   ],
   "story_sync": {
