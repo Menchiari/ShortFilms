@@ -4821,6 +4821,32 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S06-SH020-a, draft, not yet rated by Leonard. Claude's read: photographic, no previz look; over-the-shoulder framing and turns follow the guide. Loud audio events at 2.5, 5.4, 7.6, 9.3 and 10.5 s match the planned shots (2.6, 5.4, 7.6, 9.3, 10.6), plus peaks at 9.8 and 11.1 s, not checked by ear. Men drop and stay down; last frame shows three bodies in frame (one mid-distance center, one at the bottom near him, one bottom right). Briefcase in his left hand (visible in the last frame). Gun dark. Hair: thinning brown, which matches the char_politician_blood image (Claude first called it a defect: the prompt wrongly said white, carried over from older prompts). Parked cars and a street lamp in the background; the lamp is not beside him. Leonard 2026-11-19: no. He moves like a bad videogame (Claude's prompt error: the cold, no-panic tactic, the rigid extended arm, the game-like guide clip); he must be much angrier and realistic, panicking, he does not want to shoot: he warns them, yells at them to stay back, they don't listen; after each kill another gets enraged and runs at him saying he will kill him; the crowd denser, chaos, some run away, some forward; the street a lot tighter. T02: no guide clip, loc_side-street instead of loc_square (narrow street), his yelled lines and a runner's threat, untrained trembling gun hand, jostled camera."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 12,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 36.0,
+              "job_id": "b22cb7b0-f15c-4210-aec4-7987dc9ff317",
+              "prompt": "05-generation/prompts/001_S06_SH020_T02.txt",
+              "file": "05-generation/takes/S06/SH020/001_S06_SH020_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH020_T02.jpg",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH020-b, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, not watched at speed, audio not checked by ear): narrow street, facades close on both sides, backlit golden haze, photographic. He stands with his left shoulder against the wall, briefcase in his left hand, profile visible in some frames. Runners break out one at a time and drop; the last frame shows three men on the asphalt in frame (left sidewalk about 5 m, center about 6 m, center-right about 3 m). Weak: the crowd stands as a dense static wall of men in rows across the street, not the chaos asked for; his gun arm is still mostly held out straight."
             }
           ],
           "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
