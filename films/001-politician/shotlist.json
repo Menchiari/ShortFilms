@@ -4836,7 +4836,28 @@
         {
           "id": "SH040",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "24886553-71fe-48b7-9918-069cd7c12c52",
+              "prompt": "05-generation/prompts/001_S06_SH040_T01.txt",
+              "file": "05-generation/takes/S06/SH040/001_S06_SH040_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637"
+              ],
+              "notes": "REQUEST S06-SH040-a, draft. Claude's read from stills and audio levels: photoreal locked-off profile extreme close of nose, lips and stubbled chin, golden backlit haze, blurred buildings behind. He faces screen LEFT, not right as asked (a horizontal flip in the edit fixes it: no text or wound in frame). No blood in frame. Two loud transients at about 0.5 s and 1.55 s (the shots), quieter sound between them and up to about 2.2 s, then near silence to the end: the count and shots come early, not on the prompt's timing. I cannot hear the audio here, so I cannot confirm the words."
+            }
+          ],
           "description": "A shot.",
           "framing": "EXTREME CLOSE, his lips, from the side",
           "movement": "Locked-off",
