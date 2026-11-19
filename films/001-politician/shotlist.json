@@ -6449,7 +6449,28 @@
         {
           "id": "SH070",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "composite",
+              "mode": "still_push",
+              "duration_s": 2,
+              "resolution": "3840x1646",
+              "aspect": "21:9",
+              "audio": false,
+              "credits": 0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S09_SH070_T01.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "notes": "Not generated, 0 credits. The Agreement's last page rendered from prop-agreement.txt with a scrawl signature, 21:9 frame, 2 s push 100 to 104%. Still: 001_S09_SH070_T01.png. Leonard asked for a scrawl, no name."
+            }
+          ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
           "framing": "INSERT, the last page",
           "movement": "Locked-off",
