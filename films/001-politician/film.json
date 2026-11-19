@@ -1760,6 +1760,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 T02 rated 2 (inferred): Leonard, far from the location; make the location first. The location for this side view is the approved S06 SH060 T02 (same side): first frame saved as refs/001_S06_SH030_loc_from_SH060_T02_f0.png (media 663578f1). REQUEST S06-SH030-ref prepared: empty wider location plate, edit of that frame (people removed, camera pulled back, wall edge to edge, pole in the left third, six meters of pavement), prompts/001_S06_SH030_REF_location-plate.txt, gpt_image_2_6 (the model used for the S06 SH050 still), high, 1k, 21:9, 1.5 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 T03 downloaded (job 55061ebc, 18 credits, passed first time): clenched teeth, yell 1.7-2.3 s, no shot; gun turns silver from about 4.3 s; eyes go up screen right and wide. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
