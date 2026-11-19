@@ -2782,6 +2782,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH050 T02 downloaded (job 9e57c6dc, 15 credits): one shot with muzzle flash at about 0.75 s, her turn at about 1.3-2 s, line at about 3.25-3.9 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T02 approved by Leonard ('awesome', rating 5 + love, inferred). What worked: start_image = last frame of the approved SH020 T02, only char_boss and char_sniper as references, one shot written as its own beat before her turn."
     }
   ],
   "story_sync": {

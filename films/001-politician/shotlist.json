@@ -7353,7 +7353,7 @@
         },
         {
           "id": "SH050",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7399,9 +7399,10 @@
                 "char_boss 7ef41962 (image_references)",
                 "char_sniper 8716ad9f (image_references)"
               ],
-              "love": false,
-              "rating": null,
-              "notes": "REQUEST S08-SH050-b, approved 'ok go, 15 credits'. Leonard's change after T01: Roger fires once before she turns. Claude's read from frames: one muzzle flash out of the open door at about 0.75 s (earlier than the 1-2 s asked), with a loud transient on the same frame (peak -3 dBFS); small recoil, no casing seen at this size; she turns over her right shoulder at about 1.3-2 s and holds on Roger through sunglasses; voice-band burst at about 3.25-3.9 s; pilot faces forward; door empty; framing a little wider than SH020 T02's last frame, as in T01. Claude cannot listen: words, accent and the absence of music unchecked."
+              "love": true,
+              "rating": 5,
+              "notes": "REQUEST S08-SH050-b, approved 'ok go, 15 credits'. Leonard's change after T01: Roger fires once before she turns. Claude's read from frames: one muzzle flash out of the open door at about 0.75 s (earlier than the 1-2 s asked), with a loud transient on the same frame (peak -3 dBFS); small recoil, no casing seen at this size; she turns over her right shoulder at about 1.3-2 s and holds on Roger through sunglasses; voice-band burst at about 3.25-3.9 s; pilot faces forward; door empty; framing a little wider than SH020 T02's last frame, as in T01. Claude cannot listen: words, accent and the absence of music unchecked. Leonard 2026-11-19: awesome.",
+              "rating_source": "inferred"
             }
           ],
           "description": "In the front seat, the lady turns around to him, over her right shoulder.",
