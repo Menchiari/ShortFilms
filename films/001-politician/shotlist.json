@@ -5769,8 +5769,9 @@
                 "refs_d11_motion S07_SH030 as line drawing 37981167 (video_references; echoed under reference_images)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH030-a. Folder S07/SH030. Claude's read (frames, not heard): photoreal, golden late sun, weathered concrete wall across the frame, plain pole in the middle, handheld from behind heads at head height. He rises above the heads at about 2.5 s, upside down by one ankle, jacket falling, then turns and kicks left of the pole to the end. Misses: the light's arm is out of frame, the rope just drops from the top edge; nobody is seen hauling it; his head stays below the line of heads, the face never reads; the crowd is mostly men, many shaved heads in the same beige, the far rows stand still facing the camera like an audience."
+              "rating": 2,
+              "notes": "REQUEST S07-SH030-a. Folder S07/SH030. Claude's read (frames, not heard): photoreal, golden late sun, weathered concrete wall across the frame, plain pole in the middle, handheld from behind heads at head height. He rises above the heads at about 2.5 s, upside down by one ankle, jacket falling, then turns and kicks left of the pole to the end. Misses: the light's arm is out of frame, the rope just drops from the top edge; nobody is seen hauling it; his head stays below the line of heads, the face never reads; the crowd is mostly men, many shaved heads in the same beige, the far rows stand still facing the camera like an audience. Leonard 2026-11-19: nobody is pulling him; he looks like a mannequin; the crowd is only Middle Eastern men, it needs to be mixed; the wall should continue like in other shots.",
+              "rating_source": "inferred"
             }
           ],
           "description": "Between heads and shoulders, they haul him up by one ankle. He hangs upside down from one foot, beside the curb, twisting, clawing at the rope, the other leg kicking.",

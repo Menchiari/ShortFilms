@@ -1800,6 +1800,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH030 T01 downloaded (job 8c77ea4a, 18 credits, passed the filter): photoreal, he comes up above the heads by one ankle at about 2.5 s and dangles, kicking, left of the pole; misses: no visible arm or hauling, face hidden below the heads, crowd mostly men in beige, far rows static. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T01 rated 2 (inferred): nobody pulling, he looks like a mannequin, crowd only Middle Eastern men, the wall should continue as in other shots. T02 prompt prompts/001_S07_SH030_T02.txt: guide clip dropped (its still figures, as in S06 SH060 T01); pullers at the pole always in view, the arm in frame; a living body, face readable at shoulder height; a mixed crowd from everywhere, men and women; wall from a S06 SH060 T02 frame (refs/001_S07_SH030_wall_from_S06_SH060_T02.jpg, media 53f407e7), one continuous wall past every edge [ASSUMPTION: 'continue' = one unbroken wall]. REQUEST S07-SH030-b quoted 18 credits, waiting for approval."
     }
   ],
   "story_sync": {
