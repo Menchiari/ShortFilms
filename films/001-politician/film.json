@@ -1912,6 +1912,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T04 done (job d6b9da21, 21 credits): takes/S08/SH040/001_S08_SH040_T04.mp4. Sniper hits read (small ground spurts), he hangs at about chest height. Misses: traffic-light pole, place changed to an open crossroads, crowd in rows and not varied, the ten earlier dead missing. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T04 rated 3 (inferred: the angle works, three fixes). REQUEST S08-SH040-e prepared, not submitted: prompts/001_S08_SH040_T05.txt = T04 plus: @Image4 = T04 frame 0.4 s (refs/001_S08_SH040_ref_T04_frame.jpg, media 10fceb80) for the angle, place, pole and his height only, not the crowd; the shots come steeply down from a helicopter off screen at the upper left, the old man unarmed, nothing from him or the pole; each hit a tiny low fist-size puff at the feet of the person who falls, in the same frame; exactly three people fall, everyone else stays on their feet. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
