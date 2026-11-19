@@ -218,7 +218,9 @@
       "S09/SH090": "c6fa8576-f660-4765-909b-50c5d777a92b",
       "S09/SH100": "bdbc8e30-e967-4dc2-aaf3-d822fc1d759c",
       "S09/SH110": "811bc305-4e63-49a2-9218-43daab761a06",
-      "S09/SH120": "b3cf719d-5a9a-48cb-870f-3e798f77a3e8"
+      "S09/SH120": "b3cf719d-5a9a-48cb-870f-3e798f77a3e8",
+      "S10": "985c8aa1-06b3-4fba-abb6-cd6d9bc878b3",
+      "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1860,6 +1862,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 start frame v1 rejected by Leonard: too posing, not realistic, not film quality, incoherent, looks like GPT, too many people, they look Middle Eastern. Cause: Claude picked gpt_image_2_6 for a story still (CLAUDE.md: images come from Leonard's pipeline, Midjourney for style; Claude does not pick image models), and asked for a full crowd. REQUEST S06-SH030-d (T03 on that still) withdrawn, never submitted. Two paths offered: (1) Leonard makes the start frame in Midjourney, prompt in prompts/001_S06_SH030_REF_start-frame_v2_midjourney.txt; (2) Seedance T03 without a start frame, frames of the approved SH020 T05 (2ec9392e) and SH060 T02 (663578f1) as location references, about a dozen mixed people, quoted 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Higgsfield: created S10 inside Scenes with SH010. Every scene S01 to S10 now has its folder inside Scenes."
     }
   ],
   "story_sync": {
