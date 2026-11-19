@@ -2462,6 +2462,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH080 T03 rated 4 (inferred, Leonard: 'this works'); shot approved. Body map from this take: the fat man and the man in the red shirt drop here (two, as in the brief); no third drop, so S08 SH040 keeps its three. Session spend on SH080: 15 (T01) + 2.5 + 15 (T02) + 2.5 + 15 (T03) = 50 credits; the blocked first T01 submission was refunded."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-ref prepared, not submitted: start frame over the animatic, prompts/001_S08_SH010_REF_start-frame_v1.txt, images: d11 frame 0 as line drawing (refs/001_S08_SH010_animatic_d11_lines_f0.png, media 46191d2e), loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH010. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Then T03 (12 credits) switches to start_image."
     }
   ],
   "story_sync": {
