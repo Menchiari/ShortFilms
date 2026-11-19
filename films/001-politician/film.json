@@ -2382,6 +2382,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard: no start frame, Seedance from words. REQUEST S08-SH040-b prepared, not submitted: prompts/001_S08_SH040_T02.txt = T01 v2 without the guide clip, plus an exact composition in words (the building corner and the one lamp in the center of frame, the rope from the lamp arm to his ankle just left of the pole) and the bodies described one by one in loose real poses. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020: Leonard's Midjourney frame saved as 05-generation/refs/001_S08_SH020_REF_midjourney_v1.webp (uploaded, media 7fec4fb7-08e0-47f4-9fb3-8e659b3e054d). Leonard: keep its vibe, colors and lens, remake the whole positioning in a Higgsfield image. REQUEST S08-SH020-ref prepared: prompts/001_S08_SH020_REF_start-frame_v2.txt, images MJ frame, char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, folder Scenes/S08/SH020. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Waiting for approval."
     }
   ],
   "story_sync": {
