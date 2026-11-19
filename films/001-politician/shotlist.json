@@ -5951,7 +5951,7 @@
               "prompt": "05-generation/prompts/001_S07_SH060_T01.txt",
               "file": "05-generation/takes/S07/SH060/001_S07_SH060_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH060_T01.jpg",
               "references": [
                 "char_politician_blood 0d0a5637",
                 "char_big-guy 6228445b"
