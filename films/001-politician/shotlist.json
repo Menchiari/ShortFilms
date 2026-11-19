@@ -5121,8 +5121,33 @@
         },
         {
           "id": "SH050",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "96a52076-84d7-4f79-92c5-0ed9be51be87",
+              "prompt": "05-generation/prompts/001_S06_SH050_T01.txt",
+              "file": "05-generation/takes/S06/SH050/001_S06_SH050_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637 (image_references)",
+                "prop_gun 24875e9a (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH050-a. Folder S06/SH050. Not blocked by the filter. Claude's read (frames, not audio): frontal close, concrete wall, golden sun from screen left, blood on his right eyebrow (screen left) all hold; eyes shut at the temple, open and look down at the gun from about 4 s. Fails the story beat: the slide is closed (forward) at the temple and after, never locked back, so the empty gun does not read. The gun also turns from black to silver when he lowers it (about 4.5 s). Prompt error of Claude's: 'white hair' (the element has dark grey-brown hair; the take follows the element). Audio not listened to by Claude: Leonard to check for music."
+            }
+          ],
           "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
           "framing": "CLOSE, his face, fully frontal",
           "movement": "Locked-off",
