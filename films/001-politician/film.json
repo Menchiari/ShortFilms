@@ -2274,6 +2274,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH040 T03: 'good, make the pipe metal and the punches clearer, make the camera move disorienting, more movement, more people moving' (rating 4, inferred). REQUEST S07-SH040-e prepared, not submitted: prompts/001_S07_SH040_T04.txt, a new forward extension of T02 (2ab4d6ba) replacing T03: steel pipe described, three readable punches, handheld disorienting camera inside the crowd (Leonard's direction; the screenplay note says locked-off), more people. Soft wording kept from T03_v2. seedance_2_5 video_extension, 5 s, 480p, audio on, char_politician_blood 0d0a5637, char_big-guy 6228445b. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T04: sideways swings left and right, not vertical; he hangs, he is not on the floor. REQUEST S07-SH050-e prepared: prompt 001_S07_SH050_T05.txt: flat sideways forehand and backhand swings that knock the camera spinning on the rope; camera in the air at the crowd's chest height, level, ground out of frame. [ASSUMPTION] Leonard did not pick between start frame (A) and text only (B) for the crowd: T05 takes B, the cheaper one: char_big-guy image dropped and the fat man described in words (risk: his face drifts from S04), 'desert town' and 'concrete towers' removed, most men clean-shaven. Refs: loc_square 62815a4f only. seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on. Preflight 15 credits. Waiting for approval."
     }
   ],
   "story_sync": {
