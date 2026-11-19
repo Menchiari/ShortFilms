@@ -7458,6 +7458,30 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH070-b. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset, scope ring and fine crosshair. A weathered metal post fills the center, the rope wound around it and knotted at the crosshair, running up taut out of frame; blurred building facade behind. No people, no feet. Crack peak at 3.04 s; at about 2.97 s a puff of fibers and dust at the knot, the rope parts, the long end is gone from frame, the view kicks and settles; the short knotted end hangs limp against the post to the end. Fault: the view is level with the post, not looking down from height. Edit window: about 1.8-3.8 s. Leonard 2026-11-19: no, show just the rope."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "6790c595-42e6-45d9-9950-40d6e790badb",
+              "prompt": "05-generation/prompts/001_S08_SH070_T03.txt",
+              "file": "05-generation/takes/S08/SH070/001_S08_SH070_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "palette_sunset 1f563179",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S08-SH070-c. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, scope ring and fine crosshair. Only the rope: one taut twisted rope runs horizontally across the frame just above center, its loose fibers backlit gold by the sunset; behind it a blurred facade and a bright sky patch at top left (eye level, not looking down; rope horizontal, not vertical). Steady with a slight drift 0-2.9 s. At about 2.9 s the rope vanishes in one or two frames with a faint puff of fibers, no visible two ends whipping away; then the empty blurred view with the crosshair to the end. Crack peak at 3.07 s, about 4 frames after the picture snap: slide the audio in the edit. Edit window: about 1.0-3.0 s plus a few frames of empty view."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
