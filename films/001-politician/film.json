@@ -2466,6 +2466,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH010-ref prepared, not submitted: start frame over the animatic, prompts/001_S08_SH010_REF_start-frame_v1.txt, images: d11 frame 0 as line drawing (refs/001_S08_SH010_animatic_d11_lines_f0.png, media 46191d2e), loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH010. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Then T03 (12 credits) switches to start_image."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-ref3 approved by Leonard ('ok go, 1.5 credits'): start frame v3, gpt_image_2_6 high 1k 21:9, job e0aa58d6-a2e7-472f-940f-f3fd6150034c, folder Scenes/S08/SH020, saved as refs/001_S08_SH020_start-frame_v3_gpt.png. Claude's read: the lady now sits in the left front seat, the pilot in the right; Roger seen from behind his left shoulder, cheek on the stock, the smile hidden; rifle cut by the right edge; door empty, low sandy town, sun at right. The angle is still a close over-the-shoulder, tighter and lower than the animatic (which sits higher and further back, the cabin ceiling large at the top, the rifle thin across the lower third)."
     }
   ],
   "story_sync": {
