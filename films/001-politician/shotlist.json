@@ -7419,6 +7419,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S08-SH060-c. Folder S08/SH060. Claude's read from frames: extreme close-up in profile, eye pressed to the scope eyepiece, sunset blur behind, no cabin readable. Toothy grin 0-2.5 s; at about 2-3 s he lifts off the scope and turns his face toward screen left, still grinning; the grin closes to a tight mouth by about 3.5 s; back on the scope and serious from about 4.5 s. Misses: the sour, annoyed grin is faint (the smile mostly just closes); his eyes stay hard to see behind the dark lenses; the top of his head is cropped; the aim shift is not readable in frames. Jitter and sound not checked by Claude. Leonard 2026-11-19: almost. He needs a quick one-second look back with his eye, so we understand the order reaches him; the grin becomes a very annoyed grin, almost disgusted, before he regains concentration and aims. No rating given."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "6b7d0594-e77c-45f0-b736-085d2821e48a",
+              "prompt": "05-generation/prompts/001_S08_SH060_T04.txt",
+              "file": "05-generation/takes/S08/SH060/001_S08_SH060_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_sniper 8716ad9f (image_references)",
+                "prop_rifle bb9db39b (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH060-d. Folder S08/SH060. Same as T03 except the middle beat. Claude's read from frames at 3 fps: extreme close-up in profile on the scope, toothy grin 0-2 s; at about 2-3 s his head lifts a little off the eyepiece and turns toward screen left, his eye readable through the lens for a moment, still grinning; back to the scope by about 3.3 s, the grin closes into a tight, pressed mouth around 3.7 s; serious and still on the scope from about 4 s to the end. Misses: the look back is a small head turn, not an eye-only flick; the disgust (lip curl, nose wrinkle) is not visible, it reads as a tight mouth; the aim shift is not readable in frames. Jitter and sound not checked by Claude."
             }
           ],
           "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",

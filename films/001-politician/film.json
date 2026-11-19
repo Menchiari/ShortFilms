@@ -2730,6 +2730,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-d approved by Leonard ('ok go, 21 credits'): S08 SH040 T04 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset, job d6b9da21-b3be-449e-b2cb-88b2693ebcbc, folder Scenes/S08/SH040, prompt 001_S08_SH040_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-d approved by Leonard ('ok go, 18 credits'): S08 SH060 T04, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle (eyepiece only), palette_sunset, folder Scenes/S08/SH060, job 6b7d0594-e77c-45f0-b736-085d2821e48a, prompt prompts/001_S08_SH060_T04.txt."
     }
   ],
   "story_sync": {
