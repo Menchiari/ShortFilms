@@ -4590,7 +4590,7 @@
               "prompt": "05-generation/prompts/001_S05_SH080_T06.txt",
               "file": "05-generation/takes/S05/SH080/001_S05_SH080_T06.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S05_SH080_T06.jpg",
               "references": [
                 "@char_politician_dusty 98e1e69e (@Image1), elbow tear excluded in words",
                 "@loc_side-street e728a9ae (@Image2)",
