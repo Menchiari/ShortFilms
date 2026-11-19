@@ -115,7 +115,9 @@
   "higgsfield": {
     "workspace_id": "3d8348de-0720-4519-9f26-435e8f2c5bd0",
     "project_id": "37733499-03c4-4405-8dee-fea3a2d3b96e",
+    "folders_note": "Scene folders live inside Scenes: Scenes/S07/SH010. A new scene folder gets parent_folder_id = folders.Scenes, a new shot folder gets its scene's id. Before creating a folder, list the parent's children and reuse one with the same name. Reorganized 2026-11-19.",
     "folders": {
+      "Scenes": "71e013a2-9726-4831-94fd-9de1cfe33341",
       "REFS": "7632ec77-b35c-49fd-9273-f78302b2d543",
       "Elements": "8a3f83dc-d7b1-47dd-a3d1-9e0b9200f300",
       "S01": "da1d6fd8-3208-4cb3-a2bd-9a1a09f3080e",
@@ -1651,6 +1653,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T03 delivered (job 858ba002, 12 credits): close concrete wall and free arm fixed; three shots in the first 2 s; slide cycle slower than T02. Waiting for Leonard. SH025 total so far 36 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Higgsfield folders reorganized (no credits, nothing deleted, folder ids unchanged): S04, S05, S06 moved from the project root into Scenes next to S01 to S03. Duplicate folders emptied into the real shot folders: Scenes/S03/SH010 (2 plates by Leonard), Scenes/S03/SH020 (6 images), S05/SH020 (story test takes 50fb4003, 0b6ce512), S06/SH060 (blocked test 8e7f71fb). The emptied duplicates (S03, S03/SH010, SH020, SH030, S05/SH020, S06/SH060) wait in _EMPTY_DUPLICATES (9e117002) for Leonard's decision. Audit: all 219 videos checked, every take logged in shotlist.json sits in its own shot folder."
     }
   ],
   "story_sync": {
