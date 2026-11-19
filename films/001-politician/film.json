@@ -2394,6 +2394,18 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH060-b approved by Leonard ('ok go, 12 credits'): S08 SH060 T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle, palette_sunset (loc_heli-cabin dropped: T01 copied its view), folder Scenes/S08/SH060, job b88d2761-649a-4ed2-b45c-0e9e2e396678, prompt prompts/001_S08_SH060_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-h approved by Leonard ('approved, go with S07-SH040-h'; estimate 15 credits). First call refused before start: 429 rate_limit_reached, no job id, no charge in the transactions. Submitted once more: 7b9b3d63-51c4-420f-8592-23458e452c8d, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T05_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T05 downloaded (001_S07_SH040_T05.mp4, 15 credits, 5 s extension of T02, new seconds only): steel pipe and fists from the frame edges, no attacker's body near the camera. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH040 T05: 'works' (rating 4, inferred). The working cut is T02 followed by T05 (9 s, one continuous take). Question 5 (old man B or C) still open."
     }
   ],
   "story_sync": {
