@@ -1393,6 +1393,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 T03 downloaded (job 55061ebc, 18 credits, passed first time): clenched teeth, yell 1.7-2.3 s, no shot; gun turns silver from about 4.3 s; eyes go up screen right and wide. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 T03 rated 4 (inferred: 'perfect aside from 2 things'): a gunshot is heard; at the end he looks away instead of at the crowd behind the camera. T04 prompt prompts/001_S06_SH050_T04.txt: video_edit of T03 (no gunshot at 1.5-2.5 s, eyes to the crowd just beside the lens at 4-6 s). REQUEST S06-SH050-d quoted 22 credits, waiting for approval."
     }
   ],
   "story_sync": {

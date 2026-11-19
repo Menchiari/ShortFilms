@@ -4921,9 +4921,9 @@
                 "prop_gun slide locked still 2ed39253 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S06-SH050-c. Folder S06/SH050. Passed first submission. Claude's read (frames at 8 fps, audio levels, not listened): 0-1.7 s clenched bared teeth, eyes shut, gun driven into the temple; a loud sound 1.7-2.3 s (RMS about -12 dB, decaying over 0.6 s: reads as the yell, not a shot transient), no jolt, no flash. Port open on the slide at the temple. About 3.5 s eyes open, gun comes off the temple; from about 4.3 s the gun turns from black to silver and points up by his chin (color fault again). Eyes go up and to screen right, wide, mouth open (prompt asked just past the left edge of the camera). Wall: concrete panels, closer to S05 SH140 than T02. Top of the head slightly cut."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S06-SH050-c. Folder S06/SH050. Passed first submission. Claude's read (frames at 8 fps, audio levels, not listened): 0-1.7 s clenched bared teeth, eyes shut, gun driven into the temple; a loud sound 1.7-2.3 s (RMS about -12 dB, decaying over 0.6 s: reads as the yell, not a shot transient), no jolt, no flash. Port open on the slide at the temple. About 3.5 s eyes open, gun comes off the temple; from about 4.3 s the gun turns from black to silver and points up by his chin (color fault again). Eyes go up and to screen right, wide, mouth open (prompt asked just past the left edge of the camera). Wall: concrete panels, closer to S05 SH140 than T02. Top of the head slightly cut. Leonard 2026-11-19: 'perfect aside from 2 things: you hear the gunshot; he looks away, he needs to look behind the camera.' Claude had read the 1.7-2.3 s sound as the yell from levels only; Leonard heard a gunshot."
             }
           ],
           "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
