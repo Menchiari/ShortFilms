@@ -5974,7 +5974,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "generating",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
