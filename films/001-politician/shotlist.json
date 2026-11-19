@@ -5914,6 +5914,30 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "Clean plate for the scope overlay (post). Claude's read: photographic, real long-lens footage feel, warm sunset light, runners with uneven gaits, the lens drifts and follows runners. Off-brief: the old man hangs upside down from a traffic light, not the street light (two traffic lights in frame against 'no traffic lights'); the place reads as a street corner by a long wall with steps, not the loc_square square; crowd small, about ten, mostly men in pale shirts; two bodies visible, not the full body map; a dark helicopter door edge at the right edge (outside the scope circle). 992x432, 24 fps, audio mean -28.2 dB. Leonard: no. We need to see people getting shot; the helicopter moves too much; more people; the hanging politician is not right, remove him if he is a problem; people run away in panic, the shooter shoots panicked people."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "ea68eb92-896e-45f7-b8cd-df2160119e43",
+              "prompt": "05-generation/prompts/001_S08_SH030_T02.txt",
+              "file": "05-generation/takes/S08/SH030/001_S08_SH030_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH030_T02.jpg",
+              "references": [
+                "62815a4f-296f-4467-8d4a-62d56c348066",
+                "1f563179-51a7-4e02-bcac-0affdd52a903"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Claude's read: photographic, about thirty-five people fleeing away from the camera across an open square, long backlit shadows, a dropped scarf. First drop reads clearly: a man in a white shirt falls mid-stride near the center at about 1 s and lies still. Two loud shot peaks in the audio (about 1 s and 3.5 s); the second drop is small and far at the upper right, hard to read. Off-brief: the sun faces the camera (prompt: behind it; S08 SH010 has the sun behind the helicopter), the lens pulls back and tilts up across the whole take instead of holding, the helicopter door edge appears at the right edge from about 2 s (outside the scope circle). Not graphic, passed the filter. Audio peak -4.5 dB."
             }
           ],
           "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
