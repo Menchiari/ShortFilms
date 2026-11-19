@@ -1792,6 +1792,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH060-a approved by Leonard ('ok go, 12 credits'): S07 SH060 T01, seedance_2_5 omni_reference, 4 s (the model minimum; the shot is 2 s, trimmed in the edit), 480p, 21:9, audio on, refs char_politician_blood 0d0a5637 and char_big-guy 6228445b, no previz clip, folder Scenes/S07/SH060, prompt prompts/001_S07_SH060_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 4bcd1a45-4223-443d-addd-eb48a2a3a207), no job id returned. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07-SH060-a resubmitted on Leonard's 'try again' (same request, 12 credits): job ac24ba37-d954-491a-b229-ad0476c161aa, folder Scenes/S07/SH060. Rendering."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T01 done: job ac24ba37, 12 credits, saved as 05-generation/takes/S07/SH060/001_S07_SH060_T01.mp4. Photographic, both characters right; the contact and rebound off the forearm are not clearly readable; bat-shaped pipe; static staring crowd. Waiting for Leonard."
     }
   ],
   "story_sync": {

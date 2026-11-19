@@ -5788,8 +5788,32 @@
         },
         {
           "id": "SH060",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "ac24ba37-d954-491a-b229-ad0476c161aa",
+              "prompt": "05-generation/prompts/001_S07_SH060_T01.txt",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "char_big-guy 6228445b"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH060-a, folder S07/SH060. First submission refused (429 rate limit, nothing created); resubmitted on Leonard's 'try again'. Elements only (@char_politician_blood, @char_big-guy), no previz clip. Draft, 992x432, 24 fps, 4.06 s, audio peak -3.6 dB. Claude's read (frames, not heard): photographic, no previz look. Old man B upside down in the left half, jacket fallen, tie hanging, blood on the brow, forearms crossed over his head; the fat person close in the right third, from behind his shoulder, matches the element. The hit: the swing comes in at about 1.8 s as a motion blur and by 1.9 s the pipe stands upright beside his forearm; a clear contact and bounce off the arm is not readable in the frames, it reads more as the swing stopping and snapping upright. From 2 s to the end the fat person holds the pipe upright and lowers it out of frame; the old man barely sways. Against the prompt: the pipe is a tapered grey bat shape, not a plain pipe; the crowd is a static packed audience staring at camera direction, mostly men, not messy riot movement. Waiting for Leonard."
+            }
+          ],
           "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",
           "framing": "CLOSE",
           "movement": "Handheld",
