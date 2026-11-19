@@ -2162,6 +2162,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH010-a approved by Leonard ('ok go'; quote 54 credits) and submitted: S09 SH010 T01 job 5a4fd608-528c-45b8-bfc0-07439ef1429e, seedance_2_5 omni_reference, 480p, 21:9, 18 s, audio on, folder Scenes/S09/SH010, prompt prompts/001_S09_SH010_T01.txt. The request echo lists the guide video under reference_images."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-a prepared, not submitted: S08 SH030 T01 clean plate, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, count 1, refs loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179, no guide clip (place fills the frame), folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T01.txt. Scope mask, crosshair and the red and green face boxes are a post composite (free), not generated. Sun behind the camera (behind the helicopter, as in S08 SH010). Dead not counted in the prompt: S07 SH080 assumes 7 from S06, the screenplay body map says 8. estimate_video_cost 12 credits, balance 26990.7. Waiting for approval."
     }
   ],
   "story_sync": {
