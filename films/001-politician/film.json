@@ -1812,6 +1812,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH030 T02 downloaded (job 4fd167a5, 18 credits, passed the filter): pullers clearly hauling at the pole, arm in frame, continuous wall, livelier body with his face readable; misses: no lift from the ground (he is already up at 0 s), a swing near 5 s that looks thrown, and the crowd is still all bearded men in matching beige, no women. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on the T02 prompt: the rope of T01 is right (from above, the arm out of frame), it only needs someone pulling from the opposite side. prompts/001_S07_SH030_T02_v2.txt: T01's rope kept, its other end comes back down on the opposite side of the pole to four or five pullers in view; the rest of T02 unchanged (no guide clip, mixed crowd, a living body, continuous wall). REQUEST S07-SH030-b now uses v2, quoted 18 credits, waiting for approval."
     }
   ],
   "story_sync": {
