@@ -2130,6 +2130,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH020-a approved by Leonard ('ok go, 12 credits'): S08 SH020 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, loc_heli-cabin 75f579e3, palette_sunset 1f563179, no previz clip (cabin set fills the frame), folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 6b2503e2-fe43-4a22-929e-8457de85b6a0), no job id returned, no credits spent. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH040-a approved by Leonard ('ok go, 12 credits'). First submission refused by Higgsfield: 429 rate_limit_reached (request id 161c6d62-e141-46a4-921d-1837942d7dd1), no job id, nothing charged. Resubmitted once: refused again, 429 rate_limit_reached (request id 83b97900-b707-4e19-b586-971289d9622c), no job id, nothing charged. Not resubmitted again: waiting for Leonard."
     }
   ],
   "story_sync": {
