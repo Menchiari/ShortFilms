@@ -1874,6 +1874,14 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH020 T01 prompt prepared (prompts/001_S09_SH020_T01.txt), request S09-SH020-a, not submitted. Previz as line drawing refs/001_S09_SH020_lines_d11.mp4, upload 0a8504f0. Refs: prop_briefcase, char_politician_final (D: stain in words), prop_helicopter (door empty), loc_square, palette_sunset. Quoted 39 credits (13 s, 480p, 21:9, audio on). [ASSUMPTION] the limp is on the left foot (the ankle he was hung by in S07; the script does not say which)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH020-a approved by Leonard ('ok go, 39 credits'): S09 SH020 T01, seedance_2_5 omni_reference, 13 s, 480p, 21:9, audio on, refs prop_briefcase 4bf36cb5, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179, video lines 0a8504f0, folder Scenes/S09/SH020, prompt prompts/001_S09_SH020_T01.txt. Job f3eb6a38-5e0b-49fe-83c0-01d7ebf4a213."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH020 T01 delivered (job f3eb6a38, 39 credits), saved as 05-generation/takes/S09/SH020/001_S09_SH020_T01.mp4. Claude's read: wash, paper, helicopter landing and his walk to the case work; the case stays closed, two traffic cones in the left foreground, about five bodies, a figure in the helicopter door. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
