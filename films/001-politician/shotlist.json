@@ -5268,6 +5268,28 @@
               "love": false,
               "rating": 3,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "858ba002-6e83-48e8-8c5f-6838920fbbc1",
+              "prompt": "05-generation/prompts/001_S06_SH025_T03_v2.txt",
+              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH025_T03.jpg",
+              "references": [
+                "prop_gun 24875e9a",
+                "char_politician_blood 0d0a5637",
+                "loc_square 62815a4f (wall only)"
+              ],
+              "notes": "REQUEST S06-SH025-d, draft, Leonard approved 12 credits (\"ok go\"). Folder S06/SH025. New take: T02's prompt plus a close concrete wall and the arm in free air. Claude's read: the out-of-focus concrete wall fills the whole background, a lit vertical edge at the far left; no people. The arm is held out in free air, nothing under it. Black PPK-style gun, now turned slightly toward camera (grip more visible), red indicator dot near the hammer. Three shots, not four (sound at 0.0, 0.87, 1.78 s), each with flash, slide back and a short brass casing flung up. The slide stays back about six frames per shot and the casings rise across eight or more frames: faster than T01, slower than T02's one-to-two-frame cycle. 2.0 to 4.0 s the gun just holds. Audio not yet checked by ear."
             }
           ],
           "description": "The pistol fires, again and again: the flash, the slide kicking back, a casing spinning away.",

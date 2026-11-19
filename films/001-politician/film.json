@@ -1643,6 +1643,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH010 T03, Leonard: all people look like muppets (rating 1, inferred). Cause: the animatic figures' stiff outstretched arms carried by the @Video1 line drawing, plus 'raise their hands toward him'. REQUEST S06-SH010-d prepared, not submitted: prompts/001_S06_SH010_T04.txt = T03 without the video guide (framing in words) and with a crowd paragraph for loose, natural, varied movement, arms loose, nobody with both arms stretched out. 4 images only. get_cost 18 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH025-d approved by Leonard (12 credits): S06 SH025 T03 submitted, new take, 480p, 21:9, 4 s, prop_gun, char_politician_blood, loc_square, job 858ba002-6e83-48e8-8c5f-6838920fbbc1, folder S06/SH025, prompt 001_S06_SH025_T03_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T03 delivered (job 858ba002, 12 credits): close concrete wall and free arm fixed; three shots in the first 2 s; slide cycle slower than T02. Waiting for Leonard. SH025 total so far 36 credits."
     }
   ],
   "story_sync": {
