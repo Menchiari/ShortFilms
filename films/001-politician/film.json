@@ -2450,6 +2450,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH020 start frame v2, Leonard: both wrong, GPT better; camera angle as in the animatic; the lady on the left (she turns around to tell him to stop). REQUEST S08-SH020-ref3 prepared: edit of the GPT v2 frame (2ef78fb3) with the animatic d11 first frame as a line drawing (refs/001_S08_SH020_animatic_d11_lines_f0.png, media 658b8451) for camera angle and composition only, plus char_boss 7ef41962; prompt prompts/001_S08_SH020_REF_start-frame_v3.txt; gpt_image_2_6 high 1k 21:9, 1.5 credits. [ASSUMPTION] Leonard's left = the left front seat, screen left of the pilot. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T02 in (job eb541f41, 12 credits), takes/S08/SH070/001_S08_SH070_T02.mp4. Rope tied around the post, no people; the rope snaps on the crack at about 3.0 s, the knotted end hangs limp. Angle level with the post rather than from above. Waiting for Leonard."
     }
   ],
   "story_sync": {

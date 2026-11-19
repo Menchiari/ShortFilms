@@ -6804,6 +6804,31 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH070-a. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset light; high angle down onto the asphalt, a curved yellow line and the curb at right, no wall. The street light head and arm at top left, the frayed rope hangs from the arm through frame center with a knot at the crosshair, a black shoe heel-up with a dark trouser leg at the bottom edge. Seedance baked in a black scope ring and a fine crosshair with mil ticks, against the prompt. 0-3 s gentle sway, near still from about 2 s. Crack peak at 3.07 s, the view kicks at about 3.1 s and settles by 3.6 s; rope stays whole. Faults: the knot sits a third of the way above the shoe, not around the ankle; the rope runs on past the shoe. Edit window: about 1.6-3.6 s. Leonard 2026-11-19: the rope is not a noose, it is tied around the post; the feet are not seen, they are tied far away; when the shot fires the rope should snap."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "eb541f41-02f8-40db-9fa0-69e840ad48d1",
+              "prompt": "05-generation/prompts/001_S08_SH070_T02.txt",
+              "file": "05-generation/takes/S08/SH070/001_S08_SH070_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S08-SH070-b. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset, scope ring and fine crosshair. A weathered metal post fills the center, the rope wound around it and knotted at the crosshair, running up taut out of frame; blurred building facade behind. No people, no feet. Crack peak at 3.04 s; at about 2.97 s a puff of fibers and dust at the knot, the rope parts, the long end is gone from frame, the view kicks and settles; the short knotted end hangs limp against the post to the end. Fault: the view is level with the post, not looking down from height. Edit window: about 1.8-3.8 s."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
