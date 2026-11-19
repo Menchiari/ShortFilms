@@ -2042,6 +2042,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 approved on T04 (Leonard: 'ok perfect'; rating 5, inferred). SH030 total 64.5 credits (plus 12 if the blocked T02 job was not refunded). What made it work: a forward video_extension of the approved SH020 T05, so place, camera, him, bodies and crowd carry over; no previz, no generated stills, no frames from other angles (T03 turned those into a collage). Continuity for SH040 to SH060 and S07: T04 shows shots 7 and 8 (two men drop near 1 s, seven men on the asphalt), his hand to his head with nothing firing, the crowd overwhelming him at the wall; the briefcase stands at his feet from about 1 s."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T04, Leonard: remake in 720p. T04 went out without draft: true (against the every-take-as-draft rule), so no finalize. Options: (A) Topaz upscale of T04 to 1080p, keeps the exact take, no cost preflight exists (S04 SH130 precedent: 5 credits for 5 s, about 3% horizontal stretch, waxy faces); (B) a new 720p extension of SH020 T05, quoted 56 credits, a new roll that will not repeat T04's performance. video_edit at 720p excluded (style.md, and S04 SH070 showed no added detail). Waiting for Leonard's pick."
     }
   ],
   "story_sync": {
