@@ -6335,7 +6335,7 @@
               "prompt": "05-generation/prompts/001_S07_SH060_T04_v2.txt",
               "file": "05-generation/takes/S07/SH060/001_S07_SH060_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH060_T04.jpg",
               "references": [
                 "forward extension of T02 (867641cb)",
                 "char_politician_blood 0d0a5637",
