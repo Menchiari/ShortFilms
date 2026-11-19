@@ -1677,6 +1677,10 @@
     {
       "date": "2026-11-19",
       "text": "Higgsfield folders reorganized (no credits, nothing deleted, folder ids unchanged): S04, S05, S06 moved from the project root into Scenes next to S01 to S03. Duplicate folders emptied into the real shot folders: Scenes/S03/SH010 (2 plates by Leonard), Scenes/S03/SH020 (6 images), S05/SH020 (story test takes 50fb4003, 0b6ce512), S06/SH060 (blocked test 8e7f71fb). The emptied duplicates (S03, S03/SH010, SH020, SH030, S05/SH020, S06/SH060) wait in _EMPTY_DUPLICATES (9e117002) for Leonard's decision. Audit: all 219 videos checked, every take logged in shotlist.json sits in its own shot folder."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH010-d approved by Leonard (18 credits) and submitted: S06 SH010 T04 job fcae437e-e854-47df-b1e4-7e9acb089d3c, folder S06/SH010, prompt 001_S06_SH010_T04.txt, no video guide."
     }
   ],
   "story_sync": {
