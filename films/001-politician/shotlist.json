@@ -5874,7 +5874,7 @@
         },
         {
           "id": "SH020",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5923,8 +5923,9 @@
                 "char_boss 7ef41962 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S08-SH020-b, approved 'ok go, 12 credits'. Folder Scenes/S08/SH020. Claude's read from frames: starts on the v3 start frame (slightly reframed); lady in the left front seat, pilot right, rifle out of the door at the right edge, door empty, low sandy town, sun at right; the framing sways and widens a little over the 4 s. Roger's smile does not read: his mouth stays hidden behind his cheek and the stock. Audio mean -30.7 dB; spectrum shows broadband noise with regular rotor-like pulses and no tonal lines, so no sign of music, but Claude cannot listen."
+              "rating": 4,
+              "notes": "REQUEST S08-SH020-b, approved 'ok go, 12 credits'. Folder Scenes/S08/SH020. Claude's read from frames: starts on the v3 start frame (slightly reframed); lady in the left front seat, pilot right, rifle out of the door at the right edge, door empty, low sandy town, sun at right; the framing sways and widens a little over the 4 s. Roger's smile does not read: his mouth stays hidden behind his cheek and the stock. Audio mean -30.7 dB; spectrum shows broadband noise with regular rotor-like pulses and no tonal lines, so no sign of music, but Claude cannot listen. Leonard 2026-11-19: looking good.",
+              "rating_source": "inferred"
             }
           ],
           "description": "ROGER, harnessed in, cheek on the stock of a long rifle, his face on the left. He is smiling. Beyond him, in the front seat beside the pilot, the BUSINESS LADY, a headset over her hair. On the right, the front half of the rifle runs out of frame toward the open door.",
