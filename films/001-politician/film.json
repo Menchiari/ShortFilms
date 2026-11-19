@@ -1377,6 +1377,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-b (approved with 'Do it'): S06 SH050 T02 submitted, 480p, 21:9, 6 s, audio on, 18 credits, refs char_politician_blood 0d0a5637, prop_gun 24875e9a, gun still 2ed39253, job b178242a-3395-4c78-809b-d3ad11f6b8a6, folder S06/SH050, prompt 001_S06_SH050_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 T02: job b178242a blocked (nsfw), 18 refunded 12:59:06; resubmitted unchanged (rule 4) as 479b3546-a2b3-4603-8b78-fa76b690f2ec, passed, 18 credits. Downloaded as takes/S06/SH050/001_S06_SH050_T02.mp4. No recoil, gun black, slide port open; tight framing, pillar instead of full wall. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
