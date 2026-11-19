@@ -5907,9 +5907,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S08-SH010-b. Folder S08/SH010. No helicopter element: the Black Hawk described in words; loc_square, palette_sunset. Claude's read: a real, solid UH-60 in three-quarter front view, nose to screen left, dark olive-black; it bobs and shifts a little in place (the stabilizing reads mildly); one figure sits in the open door, legs hanging out, the rifle not clearly readable at 480p; sun in frame at the right, warm haze, real rooftops with tanks, dishes and antennas. Misses: about 45% of frame width and low just above the near roofs, not far beyond them; the tall block at screen left is gone (d8 framing lost). Audio present (mean -30 dB); Claude cannot listen, music not verified."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH010-b. Folder S08/SH010. No helicopter element: the Black Hawk described in words; loc_square, palette_sunset. Claude's read: a real, solid UH-60 in three-quarter front view, nose to screen left, dark olive-black; it bobs and shifts a little in place (the stabilizing reads mildly); one figure sits in the open door, legs hanging out, the rifle not clearly readable at 480p; sun in frame at the right, warm haze, real rooftops with tanks, dishes and antennas. Misses: about 45% of frame width and low just above the near roofs, not far beyond them; the tall block at screen left is gone (d8 framing lost). Audio present (mean -30 dB); Claude cannot listen, music not verified. Leonard 2026-11-19: no; make it exactly the animatic composition, but realistic."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
