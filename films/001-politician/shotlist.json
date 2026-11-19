@@ -3162,9 +3162,9 @@
                 "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S05-SH110-g. Folder S05/SH110. Leonard's notes on T06: a menacing crowd, no paper filling the screen. Claude's read: one continuous take (no cut detected). A crowd of about twelve walks toward the low camera in a loose wall, slows, looks up at the paper, looks back down and comes on. Failures: in the first 0.3 s two sheets pass close in front of the lens at the top (my prompt sent them out of the lower right of frame); the paper overhead is a swarm of small flakes, not twelve sheets; the clothes read as period costume (waistcoats, flat caps), not a present-day town; a dark out-of-focus shape (a body or a shoulder) sits along the bottom edge."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH110-g. Folder S05/SH110. Leonard's notes on T06: a menacing crowd, no paper filling the screen. Claude's read: one continuous take (no cut detected). A crowd of about twelve walks toward the low camera in a loose wall, slows, looks up at the paper, looks back down and comes on. Failures: in the first 0.3 s two sheets pass close in front of the lens at the top (my prompt sent them out of the lower right of frame); the paper overhead is a swarm of small flakes, not twelve sheets; the clothes read as period costume (waistcoats, flat caps), not a present-day town; a dark out-of-focus shape (a body or a shoulder) sits along the bottom edge. Leonard 2026-11-19: they look like shepherds from a biblical film. Must be a modern-day place, a modern European city. Use the animatic as reference. Fewer papers."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
