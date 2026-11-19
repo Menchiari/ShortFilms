@@ -1900,6 +1900,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T03 done (job 99d38a87, 21 credits): takes/S08/SH040/001_S08_SH040_T03.mp4. Dense crowd, three powerful ground bursts, dead lying flat, he hangs lower than T02. Misses: still about a head too high, pole at the left edge instead of the corner, second burst in mid-air. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T03 rated 2 (inferred). REQUEST S08-SH040-d prepared, not submitted: prompts/001_S08_SH040_T04.txt = T03 with three changes: one sniper bullet per hit (the person jerks and drops on the spot, one small sharp spurt of dust from one point of the paving, head-sized, no explosion; audio a dry crack, the smack, the late distant thud); he hangs lower on purpose (head at the crowd's knees, fingertips on the paving, rope round the pole at head height), because Seedance has rendered him higher than asked in every take; a named mixed crowd (about half women, every age and build, listed one by one). S07 SH080 frame dropped. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
