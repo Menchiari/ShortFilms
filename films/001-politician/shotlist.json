@@ -5463,6 +5463,28 @@
               "notes": "REQUEST S06-SH030-c, draft, prompt T02_v2 (first T02 submission 4c3c9bac blocked as nsfw). Claude's read: photoreal narrow street, no previz look, sun low down the street at screen right as in SH020 T02. He stands at screen left on the sidewalk against the facade by a doorway, facing screen right, briefcase in his left hand, gun arm out. Faults: the camera looks down the street at an angle, not straight across; two parked cars; the five men lie clustered together in the middle of the street 5 to 10 m from him, not spread at the planned spots; the crowd stays a far wall of men, no women visible; the blue-shirt runner breaks at about 2.5 s and by 4 s is in the near foreground almost level with him; the grey runner in the middle; a blue-lit window behind him; the gun small. Audio not listened to. Leonard 2026-11-19: 'far from the location it should be. Make the location first.' The location is the one of the approved S06 SH060 T02 (same side view): the weathered concrete wall across the whole frame, the pole beside him, rubble at the foot of the wall.",
               "rating": 2,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "7b51d8cf-830a-43b0-8211-037501d7b7a8",
+              "prompt": "05-generation/prompts/001_S06_SH030_T03_v2.txt",
+              "file": "05-generation/takes/S06/SH030/001_S06_SH030_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "SH010 T04 frame 2.5 s f61e2fee",
+                "SH020 T05 last frame 2aa49ff6",
+                "SH060 T02 first frame 663578f1"
+              ],
+              "notes": "REQUEST S06-SH030-e, draft, references only frames of approved takes (SH010 T04, SH020 T05 last, SH060 T02 first). Claude's read: the place now matches: the concrete wall at the corner of the street, the apartment building, the street going down at right into the golden haze, the five men lying with the pipe, as in SH020 T05. Faults: 0 to 2.7 s is a three-quarter high view of him at the wall, not a side view, and he stands slack, gun down by his thigh, looking at the ground, not aiming; at 2.7 s Seedance cuts (asked: no cuts) to an over-the-shoulder view that copies SH020 T05's last frame, runners coming; two parked cars from the reference. Audio not listened to."
             }
           ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",
