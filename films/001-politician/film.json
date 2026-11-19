@@ -2282,6 +2282,14 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH030, Leonard: realistic people, not a video game, real military footage of a riot where everyone flees. REQUEST S08-SH030-a now uses prompts/001_S08_SH030_T01_v2.txt (v1 kept): the whole crowd flees in panic, varied gaits and actions, the lens follows one runner after another, real long-lens footage cues (telephoto compression, haze shimmer, focus breathing, small stabilizer lags), no HUD, no thermal, full natural color. Same settings and refs, estimate_video_cost 12 credits, balance 26813.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-e approved by Leonard ('approved, go with S07-SH040-e'; estimate 15 credits) and submitted: 893f9710-429b-4e58-816b-32a621322f41, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T04 downloaded (001_S07_SH040_T04.mp4, 15 credits, 5 s extension of T02, new seconds only): steel pipe, handheld disorienting camera. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
