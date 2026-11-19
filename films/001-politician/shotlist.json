@@ -3479,7 +3479,7 @@
         },
         {
           "id": "SH120",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -3612,9 +3612,9 @@
                 "no guide clip"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH120-e, 480p (992x432), 6.08 s, audio present (not listened to). Prompt T05 v2: held nervous grin, eyes do the work, element names in the prompt (media unchanged: element image jobs as image_references). Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: two fists on the collar the whole shot; a closed-mouth nervous grin that holds, the mouth moves much less than in T04 (teeth show once around 2 s); the eyes carry it: sideways looks, a hard squint around 2.5 s; from about 4.6 s to the end he looks up, pupils visible. Misses: his eyes already flick up to the windows around 1.5 s and 3.5 s, so the final look up is not the first; the big man's dark profile is at the right edge again; the grin at times reads smug more than pleading."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH120-e, 480p (992x432), 6.08 s, audio present (not listened to). Prompt T05 v2: held nervous grin, eyes do the work, element names in the prompt (media unchanged: element image jobs as image_references). Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: two fists on the collar the whole shot; a closed-mouth nervous grin that holds, the mouth moves much less than in T04 (teeth show once around 2 s); the eyes carry it: sideways looks, a hard squint around 2.5 s; from about 4.6 s to the end he looks up, pupils visible. Misses: his eyes already flick up to the windows around 1.5 s and 3.5 s, so the final look up is not the first; the big man's dark profile is at the right edge again; the grin at times reads smug more than pleading. Leonard 2026-11-19: 'this works'."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
