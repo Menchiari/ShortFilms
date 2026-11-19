@@ -1419,6 +1419,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH060-a approved by Leonard ('go ahead'), 12 credits: S06 SH060 T01 submitted, job f6916e3b-3622-46ac-ae55-8c644ef88617, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S06/SH060, prompt 001_S06_SH060_T01.txt. The job echo lists the @Video1 media under reference_images: unclear whether the guide clip was read as a video."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH010-a prepared, not submitted: prompts/001_S06_SH010_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 6 s, audio on, folder S06/SH010. Images: char_politician_blood 0d0a5637, prop_gun 24875e9a, prop_briefcase 4bf36cb5, loc_square 62815a4f. Video ref 0001a18b-76c8-4cb3-a0d9-4ad1c1ef2a85 (refs/001_S06_SH010_lines_d11.mp4: refs_d11_motion/S06_SH010 as a line drawing). Follows the animatic: gun aimed toward screen left. [ASSUMPTION] gun black, briefcase in his left hand. Estimate 18 credits."
     }
   ],
   "story_sync": {
