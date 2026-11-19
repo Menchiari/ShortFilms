@@ -1942,6 +1942,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 T05 downloaded (job 0c8dccd1, 12 credits): starts on T03's 3.6 s frame, eyes come level to the lens line and go wide, no gunshot. Cut T03 0-3.58 s + T05 = 7.6 s; slight grade jump at the cut. Gunshot in T03 at 1.65-2.3 s stays for the sound design. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07-SH060-a resubmitted on Leonard's 'try again' (same request, 12 credits): job ac24ba37-d954-491a-b229-ad0476c161aa, folder Scenes/S07/SH060. Rendering."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T01 done: job ac24ba37, 12 credits, saved as 05-generation/takes/S07/SH060/001_S07_SH060_T01.mp4. Photographic, both characters right; the contact and rebound off the forearm are not clearly readable; bat-shaped pipe; static staring crowd. Waiting for Leonard."
     }
   ],
   "story_sync": {
