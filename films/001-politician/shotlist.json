@@ -6176,6 +6176,31 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH060-b, folder S07/SH060. Leonard's five T01 notes, all applied: prop_bar-weapon as @Image3 (baseball-bat size), hangs low (head at crowd face height), constant movement, moshpit crowd, shoved camera. Draft, 992x432, 24 fps, 4.06 s, audio peak -2.9 dB. Claude's read (frames, not heard): photographic. He hangs low among the crowd, head at their chest height, and moves the whole time. The crowd is packed body to body, shoving, right at the frame edges, warm backlit dust. The camera moves throughout. The hit: at about 1.4 s the fat person swings the rusty bar level into his crossed forearms, contact readable at about 1.5 s with the bar angling up and back off the arm; at 1.6 to 1.9 s the camera is knocked into a heavy motion-blur whip, then lands on the fat person pulling the bar back, the old man swinging on the rope. From about 2.5 s to the end the fat person holds the bar upright, the old man clutches his arms over his face. Against the prompt: the bar's end collars are not readable at 480p (a long dark rusty rod); the crowd is almost all men; the first 0.5 s is his legs and jacket filling the top of frame. Waiting for Leonard."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "219ae42d-49ef-4e3e-bbf3-37e7e367f1c8",
+              "prompt": "05-generation/prompts/001_S07_SH060_T03_v2.txt",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "backward extension of T02 (867641cb)",
+                "char_politician_blood 0d0a5637",
+                "char_big-guy 6228445b",
+                "prop_bar-weapon 8d69a591"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH060-d (v2 wording; v1 as S07-SH060-c, job 63c706bd, blocked as nsfw and refunded). Leonard: a prequel, he reaches for the bar, the big guy hits him often, not hard, every time it hurts. Backward extension of T02 (867641cb), returns only the new 5 s (120 frames, 992x432, 24 fps), audio peak -8.3 dB. Join: T03's last frame matches T02's first frame (same composition, arms crossed over his face, jacket at top, crowd; SSIM 0.75, lower than S04 SH050's 0.95, the difference reads as grain and small motion in the frames). Joined preview (free, concat, crf 12): takes/S07/SH060/001_S07_SH060_T03_join.mp4, 9.06 s. Claude's read (frames every 1/8 s, not heard): the bar now matches prop_bar-weapon: a straight rusty pipe with a collar at the end, bat size. He hangs low in the left half, the big guy waist-up at the right holding the bar low, crowd packed behind. 0-1 s he reaches with his right hand and the bar flicks up into it, his hand jerks back; 1-2.5 s he reaches again with both hands, the bar end prods at his hands; at about 3.2 to 3.5 s the big guy flicks the bar up into his arm and shoulder, he pulls in; by 4.5 s arms crossed over his face, bar upright: T02 takes over. Against the prompt: the taps are small and the big guy's body barely moves (mostly wrist and bar), so the hurt reads from the old man's recoils more than from the hits; the camera is calmer than in T02; the crowd behind is static and almost all men. Waiting for Leonard."
             }
           ],
           "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",

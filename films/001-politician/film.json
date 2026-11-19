@@ -2182,6 +2182,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH050-d approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 38f2cec0-da76-4dba-a3e8-17185b49bdd3). No job in folder S07/SH050. A Seedance 2.5 spend of 15 credits appears at 15:26:28Z with no refund yet; I don't know if it is this refused request or another session's job (other sessions spend at the same time). Not retried; waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-d approved by Leonard ('try again'): T03 v2 submitted, job 219ae42d-49ef-4e3e-bbf3-37e7e367f1c8, backward extension of T02, 5 s 480p audio on, folder S07/SH060, prompt prompts/001_S07_SH060_T03_v2.txt, 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T03 done (REQUEST S07-SH060-d, 15 credits, job 219ae42d): the 5 s prequel, saved as takes/S07/SH060/001_S07_SH060_T03.mp4; joined with T02 as 001_S07_SH060_T03_join.mp4 (9.06 s). Join holds. Bar matches the element. Reaches and small taps readable; the big guy barely moves. Waiting for Leonard."
     }
   ],
   "story_sync": {
