@@ -1,0 +1,33 @@
+Audio: only his gasps and grunts, the creak of the rope, the dull thuds of fists on cloth, the ringing clank of a steel pipe on his forearm, the scuffle of many feet, and the loud shouting of the crowd close around him, no clear words. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 forward: continue straight on from its last frame, as one continuous take. Keep from @Video1: the orientation of the frame, the golden late-afternoon light from screen left, the color, the film grain, the old man's face, hair, suit and tie, and the dense crowd. Do not replay or recreate anything from @Video1.
+@char_politician_blood (@Image1): the old man's face, hair, suit and tie only, not his pose or background. @char_big-guy (@Image2): the fat man's face, build and clothes only, not his pose or background.
+
+The crowd closes in on the hanging old man and the camera is caught inside it: the fat man from @char_big-guy swings a steel pipe and the old man blocks it with his forearm, then the people around him grab, shove and punch him from every side as he swings on the rope.
+
+The pipe: a straight steel pipe, bare grey metal, a little rusty at the ends, shining where the sun hits it. It is metal, never wood.
+
+Camera: handheld, inside the crowd, disorienting. The operator is jostled by the people around him: the camera lurches, tilts and rolls a little off level, pushes in close to the old man and is shoved back, loses him for a moment behind a passing shoulder and finds him again, always returning to his face. The camera never stops moving.
+
+0-1s: from the last frame of @Video1 the camera comes loose: it lurches toward the old man as the crowd surges forward. People press in close around him from both sides of the frame, shoulders, heads and arms crossing the lens.
+1-2s: the fat man from @char_big-guy pushes in at screen right holding the steel pipe in both hands and swings it at the old man. The old man throws his forearm up over his face; the pipe clanks hard against his forearm and bounces back off it, the metal flashing in the sun. The old man's whole body swings away on the rope, and the camera is knocked sideways with it.
+2-4s: the people around him punch him, clear and readable: a man at screen left draws his fist back and drives it into the old man's shoulder, a woman behind him thumps his back with both fists, a young man swings a fist into his side. Each punch lands with a thud and knocks his body sideways on the rope, his arms flailing to cover his head. Between the punches hands shove him back and forth and he spins. The camera is shoved back, tilts, and pushes in again.
+4-5s: he keeps both forearms over his face, gasping, still swinging and turning on the rope; more people push in from every side, the whole crowd churning. Final frame: a close handheld frame, slightly tilted, the old man upside down near the middle of the frame, forearms over his face, swinging, the steel pipe in the fat man's hands at screen right, the crowd packed close and moving all around.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has been knocked down before and has always got back up.
+GOAL: protect his head and keep his wits.
+OBSTACLE: he hangs upside down and cannot get away from a single fist.
+TACTIC: between his arms his eye tracks the next fist and the pipe, reading where each one will come from, and he turns his arms and his body to take it on the forearm or the shoulder, never on the head.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the crowd: they have caught him at last and every one of them wants to get close; they shove each other to reach him, and nobody stands still.
+
+His face, skin and suit stay as in @Video1. Count of people hanging: one. Count of pipes: one, steel, held by the fat man. No cuts, no slow motion. All movement at real-life speed, chaotic but real, never cartoonish.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his gasps and grunts, the creak of the rope, the dull thuds of fists on cloth, the ringing clank of a steel pipe on his forearm, the scuffle of many feet, and the loud shouting of the crowd close around him, no clear words. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
