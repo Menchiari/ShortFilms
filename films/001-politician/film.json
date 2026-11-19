@@ -1567,6 +1567,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020 T03 downloaded (takes/S06/SH020/001_S06_SH020_T03.mp4, 12 s, 36 credits, job c66f4c3a). Crowbar, slow start and panic after the first shot read; crowd still a still wall at the start, few women. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T01 rated 1 (inferred, Leonard: 'so much is wrong', position must be consistent). Cause: every S06 take built on the d11 line guide put him in the open animatic square (SH010 T01, SH020 T01, SH030 T01, SH060 T01); SH020 T02, rated 4, has no guide and sets the place: a narrow street, his back to the facade. T02 prompt (prompts/001_S06_SH030_T02.txt): no guide, loc_side-street, side view straight across the street at the facade behind him, him in the left third large enough to read, SH020 T03's body map, mixed crowd, sun down the street behind the crowd, brown hair, naming by element name only. REQUEST S06-SH030-b quoted at 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
