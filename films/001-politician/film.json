@@ -1357,6 +1357,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050: REQUEST S06-SH050-ref (gun still, slide locked back; gpt_image_2_6 high 1k, edit of prop_gun image, into REFS; prompt prompts/001_S06_SH050_REF_gun-slide-locked.txt) quoted 1.5 credits; REQUEST S06-SH050-b (T02, prompts/001_S06_SH050_T02.txt, 480p 21:9 6 s audio on, plus the still as @Image3) quoted 18 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-ref approved by Leonard with -b ('Do it'): gun still submitted (gpt_image_2_6, job 3d549c5d-37d8-47c7-8910-934e85430c52, REFS) and flagged nsfw by Higgsfield's safety system. Refund of the 1.5 credits not verified. T02 (S06-SH050-b) not submitted: it needs the still. Reworded prompt ready: prompts/001_S06_SH050_REF_gun-slide-locked_v2.txt."
     }
   ],
   "story_sync": {
