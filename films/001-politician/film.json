@@ -2010,6 +2010,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH060 T04 (job f86d621a) blocked after about 5 minutes of rendering: status nsfw, 'Something went wrong. Please try again, or change your input files or prompt.' 15 credits refunded (15:39:34Z). Not retried. [ASSUMPTION] blocked on the rendered picture (repeated blows on a bloodied hanging man), the prompt had no pain words. REQUEST S07-SH060-f prepared: prompts/001_S07_SH060_T04_v2.txt, same settings, no blood or wound named, swings caught on the forearms, the last one shoved away. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-f approved by Leonard ('try again'): T04 v2 submitted, job 04795099-dfff-4c05-a148-927e294485d5, forward extension of T02, 5 s 480p audio on, folder S07/SH060, prompt prompts/001_S07_SH060_T04_v2.txt, 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T04 done (REQUEST S07-SH060-f, 15 credits, job 04795099): the 5 s sequel, takes/S07/SH060/001_S07_SH060_T04.mp4; whole shot joined as 001_S07_SH060_T03_T02_T04_join.mp4 (14.08 s). Join SSIM 0.84. Two blocks (not three), camera whips on each, then he holds his guard crying out. Waiting for Leonard."
     }
   ],
   "story_sync": {

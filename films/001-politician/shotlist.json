@@ -6012,6 +6012,31 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH060-d (v2 wording; v1 as S07-SH060-c, job 63c706bd, blocked as nsfw and refunded). Leonard: a prequel, he reaches for the bar, the big guy hits him often, not hard, every time it hurts. Backward extension of T02 (867641cb), returns only the new 5 s (120 frames, 992x432, 24 fps), audio peak -8.3 dB. Join: T03's last frame matches T02's first frame (same composition, arms crossed over his face, jacket at top, crowd; SSIM 0.75, lower than S04 SH050's 0.95, the difference reads as grain and small motion in the frames). Joined preview (free, concat, crf 12): takes/S07/SH060/001_S07_SH060_T03_join.mp4, 9.06 s. Claude's read (frames every 1/8 s, not heard): the bar now matches prop_bar-weapon: a straight rusty pipe with a collar at the end, bat size. He hangs low in the left half, the big guy waist-up at the right holding the bar low, crowd packed behind. 0-1 s he reaches with his right hand and the bar flicks up into it, his hand jerks back; 1-2.5 s he reaches again with both hands, the bar end prods at his hands; at about 3.2 to 3.5 s the big guy flicks the bar up into his arm and shoulder, he pulls in; by 4.5 s arms crossed over his face, bar upright: T02 takes over. Against the prompt: the taps are small and the big guy's body barely moves (mostly wrist and bar), so the hurt reads from the old man's recoils more than from the hits; the camera is calmer than in T02; the crowd behind is static and almost all men. Waiting for Leonard."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "04795099-dfff-4c05-a148-927e294485d5",
+              "prompt": "05-generation/prompts/001_S07_SH060_T04_v2.txt",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "forward extension of T02 (867641cb)",
+                "char_politician_blood 0d0a5637",
+                "char_big-guy 6228445b",
+                "prop_bar-weapon 8d69a591"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH060-f (v2 wording; v1 as S07-SH060-e, job f86d621a, rendered then blocked nsfw, refunded). Leonard: a sequel, he keeps hitting, the politician keeps blocking with his hands, hurting himself at each block, gasping, resisting with anger. Forward extension of T02 (867641cb), returns only the new 5 s (120 frames, 992x432, 24 fps), audio peak -7.6 dB. Join: T04's first frame vs T02's last frame SSIM 0.84, same pose and framing. Joined preview of the whole shot (free, concat, crf 12): takes/S07/SH060/001_S07_SH060_T03_T02_T04_join.mp4, 14.08 s (prequel 0-5, big swing 5-9, sequel 9-14). Claude's read (frames every 1/8 s, not heard): two hits, not three. About 0.6 s: a short swing into his crossed forearms, the camera is knocked into a motion-blur whip (0.75 to 1.1 s). About 2.2 to 2.5 s: a second, longer swing, the bar meets his forearms, another whip. From about 3 s he holds his guard, arms crossed over his face, mouth open crying out, face very red; the big guy holds the bar upright and watches. No clear glare, no shove of the bar. The bar matches the element. Against the prompt: two blocks instead of three; the anger reads less than the pain; the last 2 s are a hold. Waiting for Leonard."
             }
           ],
           "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",
