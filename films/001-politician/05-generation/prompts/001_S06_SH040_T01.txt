@@ -1,0 +1,39 @@
+Audio: only his three whispered words, his short breaths through the nose, two sharp close gunshots from the toy gun in his hand just out of frame, and a faint far murmur of a crowd under them. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_blood (@Image1): the old man's face, skin, white stubble, lips and the wound on his right eyebrow only, not his pose, framing or background.
+
+Extreme close-up in profile on a dusty square of a desert town: the old man from @char_politician_blood, his arm out in front of him aiming the toy gun past the edge of frame, whispers a countdown with his lips almost touching the lens, and the toy gun fires twice off screen, locked-off camera.
+
+Camera: locked-off, no movement at all. The lens sits very close to his mouth, much more to his side than to his front: a profile view of his right side, he faces screen right. His lips, the corner of his mouth, his white-stubbled chin and the lower edge of his nose fill the right two thirds of the frame, sharp; his right cheek runs out of the top of frame. The left third: the dusty square behind him, very far out of focus, warm soft shapes only. His arm and the toy gun stay out of frame the whole time.
+
+His wound, as in @char_politician_blood: blood from the split in his right eyebrow has run down his right cheek; a dried streak of it reaches the corner of his jaw at the upper edge of frame. Sweat and dust on his skin. Count of mouths in frame: one.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun turning golden from screen left, behind him: a warm golden rim along his lips, the tip of his chin and the fine white stubble; the side of his face toward the camera is filled softly by warm bounce from the sunlit ground. Golden dust hangs in the soft background. Deep brown shadows that keep their detail, highlights that roll off softly, never clipped.
+
+0-1s: his lips part and he whispers his first word, slow and precise, the breath barely moving his lips.
+1-1.5s: one sharp gunshot off screen at screen right: the recoil jolts through him, his head and lips jerk once a few millimeters and settle; his lips stay pressed together through the shot.
+1.5-2.3s: he whispers his second word, the same quiet rhythm.
+2.3-3s: the second gunshot off screen: the same small jolt, the same stillness after it.
+3-3.6s: he whispers his last word, softer, slower, his lips nearly closing on it.
+3.6-4s: his lips close and stay still; a slow breath goes out through his nose. Final frame: the same locked-off profile, his closed lips sharp in the right two thirds of frame, the golden rim on them, the blurred square at the left.
+
+Dialogue, English, a slight American accent, whispered, barely voiced, close to the lens:
+0-1s, his first line (counting the man in his sights): {Three...}
+1.5-2.3s, his second line (counting the next one): {Two...}
+3-3.6s, his third line (counting himself): {One.}
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes, here in the stillness of his mouth):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another and he has never once stopped halfway; he will not be taken by them.
+GOAL: keep count, so the last one stays his own.
+OBSTACLE: two more of them are running at him, his hands want to shake, and every shot takes him closer to the end of the count.
+TACTIC: he counts out loud only to himself, like a man checking his change at a counter: each word is a decision, quiet and exact, he spends one round on each runner and does not waste a breath on them. On the last word he is no longer counting them: he is telling himself, calmly, what is left and who it is for.
+(Safety: natural, small lip movement, no exaggerated mouthing, real-time speed.)
+
+Count of guns: one, the toy gun in his right hand, out of frame, fired twice, only by him. No other person in focus. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no flag, no readable writing, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun turning golden, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his three whispered words, his short breaths through the nose, two sharp close gunshots from the toy gun in his hand just out of frame, and a faint far murmur of a crowd under them. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

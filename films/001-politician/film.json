@@ -178,7 +178,8 @@
       "S04/SH135": "6cefbd72-bd45-4172-89a1-899cc4d14db0",
       "S04/SH070": "31a59886-72c9-4812-98e7-b49befa80736",
       "S05/SH120": "3865bb40-82b6-4a55-bcd0-2a7d928dd9b5",
-      "S06": "45d0df7c-5d00-4f67-96fd-f52794d7db15"
+      "S06": "45d0df7c-5d00-4f67-96fd-f52794d7db15",
+      "S06/SH040": "4b5a5226-db91-4590-857e-e90a3c424ab7"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1336,6 +1337,10 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH120: Leonard: 'using image instead of elements'. Checked: Higgsfield's element tool lists seedance_2_0, not seedance_2_5, as element-capable; seedance_2_5 has no element role (medias: start_image, end_image, image_references, video_references, audio_references); docs/PROMPTING.md says Seedance 2.5 ignores <<<element>>> placeholders. The images passed are each element's own image job. Fixed what was wrong: the prompt now names the elements as the house template does (@char_politician_dusty (@Image1) and so on): prompts/001_S04_SH120_T05_v2.txt. Same media and cost (18 credits), waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH040: Higgsfield folder S06/SH040 created (4b5a5226-db91-4590-857e-e90a3c424ab7). T01 prompt written (prompts/001_S06_SH040_T01.txt): text + @char_politician_blood, locked-off profile extreme close of his lips, 'Three... Two... One.' whispered, shots 7 and 8 off screen. REQUEST S06-SH040-a quoted at 12 credits (480p, 21:9, 4 s, audio on), waiting for approval."
     }
   ],
   "story_sync": {
