@@ -181,7 +181,8 @@
       "S06": "45d0df7c-5d00-4f67-96fd-f52794d7db15",
       "S06/SH025": "b8e674ec-f71b-4165-a1a1-394664830ade",
       "S06/SH010": "aa476f5c-8afe-4d46-9a7b-e521d282cfd5",
-      "S06/SH020": "53803a54-4201-44dd-b971-e16861446597"
+      "S06/SH020": "53803a54-4201-44dd-b971-e16861446597",
+      "S06/SH040": "4b5a5226-db91-4590-857e-e90a3c424ab7"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1355,6 +1356,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020: Higgsfield folder S06/SH020 created (53803a54-4201-44dd-b971-e16861446597). Body map of shots 2 to 6 written into the shotlist entry (from animatic d11, shots_s06.py VICTIMS)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH040: Higgsfield folder S06/SH040 created (4b5a5226-db91-4590-857e-e90a3c424ab7). T01 prompt written (prompts/001_S06_SH040_T01.txt): text + @char_politician_blood, locked-off profile extreme close of his lips, 'Three... Two... One.' whispered, shots 7 and 8 off screen. REQUEST S06-SH040-a quoted at 12 credits (480p, 21:9, 4 s, audio on), waiting for approval."
     }
   ],
   "story_sync": {
