@@ -1958,6 +1958,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH010-a prepared, not submitted: S09 SH010 T01, prompts/001_S09_SH010_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 18 s, one take, audio on, 54 credits (free quote). Refs: char_politician_final 547bbfa3 (old man D: the stain in words), loc_square 62815a4f, palette_sunset 1f563179, guide refs_d11_motion S09_SH010 as line drawing (refs/001_S09_SH010_motion_d11_lines.mp4, media 864bf115). Pose reference in words only. The fat person in words as a sleeping man, no char_big-guy image."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 closed by Leonard ('keep it the way it is'). [ASSUMPTION] edit = T03 0-3.58 s + T05; gunshot and cut grade fixed in post. SH050 credits today: T01 18, T02 18, T03 18, T04 22, T05 12, gun still 1.5 = 89.5 (all filter blocks refunded)."
     }
   ],
   "story_sync": {
