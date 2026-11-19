@@ -3096,6 +3096,29 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH110-d. Folder S05/SH110. T02's prompt plus the Franklin bond (ref_bond_element_v8, 733c151a) as the only reference. Claude's read: one continuous take (no scene cut detected), photoreal street, a few women in long dresses in the crowd. The sheets are page-sized and carry the Franklin layout: green band, rosettes with 500, blackletter title, the green box. The hero sheet passes the lens at about 1.3-2.0 s: the large $500,000 reads (the $ blurs); the blackletter title only resembles County of Franklin and the smaller lines are smeared. Leonard 2026-11-19: no. A dozen or two sheets, not more, all from one spot, a gust of wind blowing them over the people's heads. 35mm film, anamorphic, real lens artifacts: this looks fake. Neither interesting nor beautiful, wrong on many levels. Claude: the prompt also missed style.md (look line, realism paragraph, sun behind the scene)."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "65634b5a-5349-4f10-aa5d-7350198b89c8",
+              "prompt": "05-generation/prompts/001_S05_SH110_T05.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T05.jpg",
+              "references": [
+                "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-e. Folder S05/SH110. Rewritten on Leonard's notes and style.md: about 15 sheets from one spot, gust over the heads, backlight, anamorphic lens artifacts, look line from style.md. Claude's read: one continuous take (no cut detected). Backlit street with rim light, long shadows toward camera, haze, a horizontal anamorphic streak flare from about 1.3 s, soft far street. The flurry rises from one spot down the street and comes over the camera. The hero sheet passes at about 2.0-2.5 s with the Franklin layout: the title and $500,000 nearly read, smeared by motion. Failures: far more than 20 sheets (a swarm of small ones); the three foreground men look alike (same grey hair and shirts), no women; the camera sits near knee height, not chest height."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
