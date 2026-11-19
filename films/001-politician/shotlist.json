@@ -5980,6 +5980,30 @@
               "rating": 2,
               "notes": "REQUEST S08-SH040-c. Folder Scenes/S08/SH040. Refs loc_square, char_politician_final, palette_sunset, S07 SH080 T03 frame (79ccea2b). Claude's read (frames at 2 fps plus full frames, audio levels only): real people, dense crowd of about sixty at the start, no box shapes; three loud hits at about 0.9 s, 3.0 s and 5.1 to 5.4 s; each one a big burst of dust and stone, people thrown, the whole crowd flees to the right; the dead lie flat and scattered, nobody sitting; the old man hangs beside the pole, lower than T02. Misses: he is still higher than asked: his head at about the head height of the crowd, not their chest; the pole and he sit at the left edge of frame, not at the building corner in the center; the camera is closer and more inside the crowd than a far long lens; the second burst at about 3 s blooms in mid-air at chest height, like an explosion, not from the ground; fewer than ten earlier dead readable at the start. Leonard 2026-11-19: this is a mortar, I need a sniper bullet; he is still too high; the crowd is still not various enough.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "d6b9da21-b3be-449e-b2cb-88b2693ebcbc",
+              "prompt": "05-generation/prompts/001_S08_SH040_T04.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_politician_final 547bbfa3 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH040-d. Folder Scenes/S08/SH040. Refs loc_square, char_politician_final, palette_sunset. Claude's read (frames at 2 fps plus full first and last frames, audio levels only): the hits now read as single bullets: one small spurt of dust from the paving each time, no blast; three shots at about 1.1 s, 2.7 s (quieter) and 4.8 s; people drop on the spot; the crowd of several hundred flees to the left and into the back. He hangs lower than T03: his head at about the upper chest of the people standing near the pole. Misses: he hangs from a pole that carries two traffic lights, not a plain lamp at the building corner; the place changed: an open crossroads with towers in the back, the building only at the right, no corner in the center; the crowd stands in neat rows like an audience, mostly older bald or grey men in beige and grey, a few headscarves: not varied; the ten earlier dead are missing: at the end only the three new bodies lie on the paving."
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
