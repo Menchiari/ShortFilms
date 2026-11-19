@@ -2490,6 +2490,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070 T02 rated 1 (inferred, Leonard: 'no, show just the rope'). REQUEST S08-SH070-c prepared: T03, prompts/001_S08_SH070_T03.txt, only a plain length of taut rope through the scope against the blurred street from above, no post, no knot, no people; crack, the rope bursts and both ends leave frame. [ASSUMPTION] 'just the rope' means nothing else in frame. Refs palette_sunset 1f563179 only. seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26528.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-c approved by Leonard ('go ahead', 12 credits): S08 SH070 T03 submitted, job 6790c595-42e6-45d9-9950-40d6e790badb, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T03.txt."
     }
   ],
   "story_sync": {
