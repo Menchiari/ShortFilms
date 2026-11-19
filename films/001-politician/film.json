@@ -1896,6 +1896,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-c approved by Leonard ('ok go, 21 credits'): S08 SH040 T03 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs loc_square, char_politician_final, palette_sunset, S07 SH080 T03 frame 79ccea2b, job 99d38a87-0a9f-496a-a784-7046c47ad2e3, folder Scenes/S08/SH040, prompt 001_S08_SH040_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T03 done (job 99d38a87, 21 credits): takes/S08/SH040/001_S08_SH040_T03.mp4. Dense crowd, three powerful ground bursts, dead lying flat, he hangs lower than T02. Misses: still about a head too high, pole at the left edge instead of the corner, second burst in mid-air. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
