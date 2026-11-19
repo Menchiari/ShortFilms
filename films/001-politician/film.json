@@ -1874,6 +1874,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH100-a prepared, not submitted: S09 SH100+SH120 as one 13 s generation (SH100 0-7 s, SH120 7-13 s, SH110 cut between in the edit), prompts/001_S09_SH100_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, audio on, refs char_boss 7ef41962, char_politician_final 547bbfa3 (old man D: the stain in words), prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179; no previz clip (13 s clip over the 10 s reference guidance, and set clips turn place into 3D previz). No SH080 take exists yet: the frame is built in words from the d11 previz (her right half facing right, the helicopter door behind her at left). Folder Scenes/S09/SH100. Estimate 39 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH100-a approved by Leonard ('ok go, 39 credits'). Both submissions refused by Higgsfield: 429 rate_limit_reached (request ids 7fb2dfb6-9dd5-4404-bf18-03d5db482d7f and 2d8a63bc-d916-4851-829c-78a192489161), no job id, nothing in folder Scenes/S09/SH100, nothing charged (the 39-credit spend at 15:23:22 UTC is job f3eb6a38 in S09/SH020, another session). Several S07 to S09 sessions were submitting at the same time. Not resubmitted again: waiting for Leonard."
     }
   ],
   "story_sync": {
