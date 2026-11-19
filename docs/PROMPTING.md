@@ -88,8 +88,17 @@ Complex requests become several simple passes. One video model per film.
 - Images come from the director's own pipeline. Claude resizes them so they do not exceed the
   output resolution, saves them as standard JPEG (`ffmpeg -i in.jpg -pix_fmt yuvj420p out.jpg`)
   or PNG, and registers them as Elements (naming in `docs/HIGGSFIELD.md`).
-- Reference videos: 5 to 10 s, no subtitles.
+- Reference videos: 5 to 10 s and at least the output length, no subtitles.
 - Exact on-screen text: supplied as an image, or spelled letter by letter.
+- Every visible thing needs its own image source: an element, a reference image or the start frame.
+  What only a reference video shows is copied from it, look included (a previz box stays a box).
+- Previz and animatic clips never go in as video references. Their composition enters as a start
+  frame: a photoreal still made over one previz frame, every shape named as a real thing.
+- Each reference gets its job in positive words. Negative words do not remove what a reference
+  shows.
+- Counts of small loose things (paper, leaves) are not held from words: exact counts come from the
+  start frame or a composite.
+- After an edit, compare it with its source: an edit can come back unchanged.
 
 ## After every take
 
