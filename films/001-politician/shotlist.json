@@ -5478,7 +5478,7 @@
               "prompt": "05-generation/prompts/001_S06_SH030_T03_v2.txt",
               "file": "05-generation/takes/S06/SH030/001_S06_SH030_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S06_SH030_T03.jpg",
               "references": [
                 "SH010 T04 frame 2.5 s f61e2fee",
                 "SH020 T05 last frame 2aa49ff6",
