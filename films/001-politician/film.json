@@ -1792,6 +1792,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH050-a prepared (prompt prompts/001_S07_SH050_T01.txt): seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, refs char_big-guy 6228445b, char_politician_blood 0d0a5637 (sleeves and hands only), loc_square 62815a4f, no guide clip. Method: an upright low-angle POV about 1 m above the asphalt, rotated 180 degrees in the edit to read upside down; the old man's forearms hang into the top edge of the generated frame, which becomes the bottom edge after rotation (rising into frame). Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-a approved by Leonard ('go ahead', 15 credits): T01 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job 3a691f5e-590d-4cc4-b1b6-4ec562dbe0ca, folder S07/SH050, prompt 001_S07_SH050_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T01 done (job 3a691f5e, 15 credits): 001_S07_SH050_T01.mp4. Hands at the top corners and the fat person's look work; the lift and hold read as a level lance held at shoulder height, the swing is only the last 4 to 5 frames with a jump, the crowd is a uniform wall in rows, a traffic light in frame. Waiting for Leonard."
     }
   ],
   "story_sync": {
