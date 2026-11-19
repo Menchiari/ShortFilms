@@ -1780,6 +1780,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH010-ref approved by Leonard ('ok go'): S07 SH010 start frame, seedream_v5_pro 2k 21:9, job b428e5e5-2060-4462-8fb2-3ee7a03117c4, folder Scenes/S07/SH010, 2.5 credits, refs loc_square 62815a4f and the d11 motion previz frame 0 as line drawing (media 66a85ed9). Prompt prompts/001_S07_SH010_REF_startframe.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe.png. Claude's read: photoreal steep rooftop view, concrete wall corner with one lamp post, dense knot at its foot, people streaming in from all sides with long shadows; about six bodies readable (eight asked); crowd mostly men in beige and dark clothes, few women readable."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH020-a approved by Leonard ('go S07-SH020-a, 12 credits'): S07 SH020 T01, seedance_2_5 omni_reference 4 s 480p 21:9 audio on, job aa0ebe13-438a-4704-9ba8-0e5569348da6, folder Scenes/S07/SH020, 12 credits, ref loc_square 62815a4f, words only (no previz clip: the frame is filled by place). Saved as takes/S07/SH020/001_S07_SH020_T01.mp4. Claude's read: the rope flies up over the lamp arm and hangs doubled, straight down; sky shows at both edges of the tower. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
