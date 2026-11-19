@@ -6002,8 +6002,33 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "cf1abe22-5e07-41d9-8fda-1970f03a9bcb",
+              "prompt": "05-generation/prompts/001_S09_SH030_T01.txt",
+              "file": "05-generation/takes/S09/SH030/001_S09_SH030_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_briefcase 4bf36cb5 (image_references)",
+                "char_politician_final 547bbfa3 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH030-a. Folder S09/SH030. No previz clip. Rendered in about 65 minutes. Claude's read (contact sheet, 2 fps): photoreal, locked-off top-down, low warm sun from screen left, long shadows to the right; open dark leather case, lid at the top of frame; the hand enters from the bottom at 0.5 s, reaches into the lid pocket, pulls out a plain grey folder by 3 s and carries it out of frame at the bottom by 3.5 s; final frame the empty open case. Misses: the hand and the white cuff are clean (no dust, no blood); the sleeve reads grey-brown tweed, not charcoal; no loose papers and no visible wind or dust gusts at the frame edges. Audio not yet checked by ear."
+            }
+          ],
           "description": "He reaches into the pocket inside the lid and takes out a folder.",
           "framing": "INSERT",
           "movement": "Locked-off",
