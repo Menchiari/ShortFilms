@@ -3165,6 +3165,30 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH110-g. Folder S05/SH110. Leonard's notes on T06: a menacing crowd, no paper filling the screen. Claude's read: one continuous take (no cut detected). A crowd of about twelve walks toward the low camera in a loose wall, slows, looks up at the paper, looks back down and comes on. Failures: in the first 0.3 s two sheets pass close in front of the lens at the top (my prompt sent them out of the lower right of frame); the paper overhead is a swarm of small flakes, not twelve sheets; the clothes read as period costume (waistcoats, flat caps), not a present-day town; a dark out-of-focus shape (a body or a shoulder) sits along the bottom edge. Leonard 2026-11-19: they look like shepherds from a biblical film. Must be a modern-day place, a modern European city. Use the animatic as reference. Fewer papers."
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "c4882ade-b31b-402e-b4dc-f0cc22e15519",
+              "prompt": "05-generation/prompts/001_S05_SH110_T08.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T08.jpg",
+              "references": [
+                "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)",
+                "animatic d11 S05_SH110 line-drawing guide stretched to 4 s 47673025 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-h. Folder S05/SH110. Leonard: modern European city, modern clothes, the animatic as reference, fewer papers. Line-drawing guide stretched to 4 s (47673025). Claude's read: fails like T01. The animatic's box figure in the centre is copied as a black box-bodied giant; a swarm of small paper flakes, not six sheets; large sheets cross close to the lens at 2.3-3.3 s (the animatic's rectangle). What changed from T01: modern clothes (jeans, dark jackets), a present-day street with scooters and a bin, no hard cut (the 4 s guide fixed it). Conclusion: the animatic guide copies its figures even as a line drawing; this shot cannot use it."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
