@@ -1978,6 +1978,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH050 T01 (rating 2 inferred): pipe the size of a baseball bat; a regular guy, not a ninja; many more people, a chaotic riot, hard to follow; no hands of the old man; the camera very wobbly and swinging. REQUEST S07-SH050-b prepared: prompt 001_S07_SH050_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, refs char_big-guy 6228445b and loc_square 62815a4f, no guide clip. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T01 notes from Leonard: use the prop bar, he hangs too high, not moving enough, crowd too far (a moshpit in the chaos), more camera movement and energy (rating inferred 2). prop_bar-weapon (element 37fe2cf2, media 8d69a591, made by Leonard) registered in stories/politician/elements.md as baseball-bat size; image saved as 03-bible/props/refs/prop_bar-weapon.png. REQUEST S07-SH060-b prepared: T02, prompts/001_S07_SH060_T02.txt, seedance_2_5 omni_reference 4 s 480p 21:9 audio on, refs char_politician_blood, char_big-guy, prop_bar-weapon, 12 credits. Waiting for approval."
     }
   ],
   "story_sync": {
