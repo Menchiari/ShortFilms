@@ -2478,6 +2478,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-c approved by Leonard ('ok go, 21 credits'): S08 SH040 T03 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs loc_square, char_politician_final, palette_sunset, S07 SH080 T03 frame 79ccea2b, job 99d38a87-0a9f-496a-a784-7046c47ad2e3, folder Scenes/S08/SH040, prompt 001_S08_SH040_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020 start frame v3, Leonard: 'I like this image. Do it.' (wind, helicopter movement, slight handheld jitter, film realism). REQUEST S08-SH020-b prepared: T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, start_image = v3 frame e0aa58d6, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T02.txt, quoted 12 credits. Submission blocked in this session by the tool permission check (no job created, no credits spent): waiting for Leonard's explicit approval with the amount."
     }
   ],
   "story_sync": {
