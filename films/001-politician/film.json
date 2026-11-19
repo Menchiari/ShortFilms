@@ -1696,6 +1696,10 @@
     {
       "date": "2026-11-19",
       "text": "Higgsfield folders checked: scene folders live inside Scenes (71e013a2) at the project root; extra S03, S05, S06 and loose SH folders sit in _EMPTY_DUPLICATES (left untouched). Created S07 inside Scenes with SH010 to SH080. S09 and S09/SH010 (found existing) recorded."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH020 T04 rated 3 (inferred, 'getting closer'). REQUEST S06-SH020-e prepared, not submitted: prompts/001_S06_SH020_T05.txt = T04 with the location only changed: a perfectly flat vertical concrete wall at his back and left (loc_square 62815a4f added as @loc_square, wall only, the wall of S05 SH140 T03), street about twelve meters wall to wall instead of eight. Same settings, five images. Cost check 36 credits, waiting for approval."
     }
   ],
   "story_sync": {
