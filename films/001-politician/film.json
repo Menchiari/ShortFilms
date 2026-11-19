@@ -1349,6 +1349,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T01 delivered (job a26418ca, 12 credits): three firing cycles in 4 s (asked four), black gun, hand and sleeve right, nobody in frame. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T01 rated 2 (inferred): Leonard, background too distant, bullets with tips instead of shells, slow motion. T02 prompt written (prompts/001_S06_SH025_T02.txt). REQUEST S06-SH025-b quoted at 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
