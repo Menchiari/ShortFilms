@@ -5540,6 +5540,33 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S06-SH060-a. Folder S06/SH060. Guide: refs_d11_motion as line drawing (@Video1); the job echo listed it under reference_images, yet the framing follows the previz. Claude's read: photoreal, no previz look; wide locked-off from behind the crowd, huge weathered concrete wall, warm low sun, dust. Misses: the old man is tiny at the far left and the hit is not readable (around 1.8 s a figure buckles at the wall, nothing clear); the crowd spreads into separate runners instead of one mass and does not close over him; a traffic signal stands where the tall lamp with its arm should be; about four bodies read, not seven; all men, many in matching dark vests, almost a uniform look. Leonard 2026-11-19: people look like mannequins, street too wide, not cinematic, he gets knocked down by air instead of the crowd, not chaotic enough, the crowd and everything look fake. Cause found: the d11 previz has him fall at about 2 s before the runners reach him, and its stiff box figures give the walk; the clip's open plaza gave the wide street. T02 drops the guide clip."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "4d7bbab6-9c56-4459-b6f1-33f5fad707ea",
+              "prompt": "05-generation/prompts/001_S06_SH060_T02.txt",
+              "file": "05-generation/takes/S06/SH060/001_S06_SH060_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_politician_blood 0d0a5637 (image_references)",
+                "prop_gun 24875e9a (image_references)",
+                "prop_briefcase 4bf36cb5 (image_references)",
+                "S05 SH140 T03 still d6d48b68 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH060-b. Folder S06/SH060. No guide clip; still of S05 SH140 T03 as @Image5 (media d6d48b68). Claude's read: real people, the wall across the whole frame, plain lamp post, no traffic light. The hit reads: hands on him at about 1.4 s, the case wrenched out and flying at 2 s, down at the foot of the wall by 2.6 s, the crowd piling over, foreground bodies crossing the lens at the end. Two bodies at screen right. Misses: the crowd is all men, many heavy and bald in the same cream shirt (they read as copies); at about 1.4 s they come in a row with arms stretched out, a bit like a chain; the lamp post stands in the middle of frame, right of him, not between him and the camera."
             }
           ],
           "description": "From the side, the crowd hits him like a wave and throws him to the ground.",
