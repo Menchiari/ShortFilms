@@ -1868,6 +1868,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH010 T01 rejected by Leonard (rating 1, inferred): wants the helicopter fighting to stabilize, the sniper visible in the door, a real 3D chopper, not a sprite. Cause: the prop_helicopter image is a single side-profile photo and Seedance pasted its pose. REQUEST S08-SH010-b prepared, not submitted: prompts/001_S08_SH010_T02.txt, no helicopter element (described in words, three-quarter front view, raking side light), loc_square and palette_sunset; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-b approved by Leonard (\"just make the god damn shot\"; estimate 12 credits) and submitted: S08 SH010 T02 39ded370-375f-4b67-93bc-38348df288aa, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, no helicopter element (words only), loc_square, palette_sunset. A real 3D Black Hawk with a man in the door; it came out big and low over the roofs, and the tall block at screen left is gone."
     }
   ],
   "story_sync": {
