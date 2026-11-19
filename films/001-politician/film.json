@@ -1788,6 +1788,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-d approved by Leonard ('go', 22 credits): T04 submitted, video_edit of T03 (55061ebc) plus char_politician_blood, 480p, 21:9, 6 s, audio on, job 8bc69232-6cc1-498d-8367-e2acbc69606e, folder S06/SH050, prompt 001_S06_SH050_T04.txt. The request echo lists T03 under reference_images (as in S04 SH130 T03)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-a prepared: T01, text plus elements, no guide clip (S06 SH060 evidence: the motion line guide gave a mannequin crowd, rated 1; T02 without it rated 4). seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, refs loc_square 62815a4f, char_big-guy 6228445b, char_politician_final 547bbfa3, folder S07/SH080, prompt prompts/001_S07_SH080_T01.txt, quoted 15 credits. Motion line drawing made as fallback: refs/001_S07_SH080_lines_d11_motion.mp4. [ASSUMPTION] seven dead from S06 (gun count: 8 shots, 1 into the air), sun from screen left as in S06 SH060. Waiting for approval."
     }
   ],
   "story_sync": {
