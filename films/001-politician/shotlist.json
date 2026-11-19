@@ -4803,7 +4803,8 @@
           "animatic": {
             "file": "05-generation/animatic/d11/S06_SH020.mp4",
             "draft": "d11"
-          }
+          },
+          "body_map": "Body map (animatic d11, shots_s06.py VICTIMS). Bearings from his facing at the start of the shot (toward the SH010 camera), positive = to his left; every man drops where he is hit and stays there to the end of the film. Shot 2 at 2.6 s: 13 m, 70 deg left. Shot 3 at 5.4 s: 9.5 m, 110 deg left (behind his left side). Shot 4 at 7.6 s: 9 m, 42 deg left. Shot 5 at 9.3 s: 5.5 m, 86 deg left. Shot 6 at 10.6 s: 3.5 m, 83 deg left. Gaps 2.8, 2.2, 1.7, 1.3 s: closer and faster."
         },
         {
           "id": "SH025",
