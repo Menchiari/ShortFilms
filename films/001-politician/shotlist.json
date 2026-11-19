@@ -5911,9 +5911,9 @@
                 "1f563179-51a7-4e02-bcac-0affdd52a903"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Clean plate for the scope overlay (post). Claude's read: photographic, real long-lens footage feel, warm sunset light, runners with uneven gaits, the lens drifts and follows runners. Off-brief: the old man hangs upside down from a traffic light, not the street light (two traffic lights in frame against 'no traffic lights'); the place reads as a street corner by a long wall with steps, not the loc_square square; crowd small, about ten, mostly men in pale shirts; two bodies visible, not the full body map; a dark helicopter door edge at the right edge (outside the scope circle). 992x432, 24 fps, audio mean -28.2 dB."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "Clean plate for the scope overlay (post). Claude's read: photographic, real long-lens footage feel, warm sunset light, runners with uneven gaits, the lens drifts and follows runners. Off-brief: the old man hangs upside down from a traffic light, not the street light (two traffic lights in frame against 'no traffic lights'); the place reads as a street corner by a long wall with steps, not the loc_square square; crowd small, about ten, mostly men in pale shirts; two bodies visible, not the full body map; a dark helicopter door edge at the right edge (outside the scope circle). 992x432, 24 fps, audio mean -28.2 dB. Leonard: no. We need to see people getting shot; the helicopter moves too much; more people; the hanging politician is not right, remove him if he is a problem; people run away in panic, the shooter shoots panicked people."
             }
           ],
           "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
