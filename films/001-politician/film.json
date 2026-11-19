@@ -1848,6 +1848,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T04 done (12 credits, passed the filter, draft true), downloaded to takes/S07/SH070/001_S07_SH070_T04.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T04: Leonard's notes with a crowd reference image (saved as 05-generation/refs/001_S07_SH070_crowd_ref_leonard.webp). REQUEST S07-SH070-e prepared, not submitted: prompts/001_S07_SH070_T05.txt = T04 with the crowd in words from the image (men and women of every age, faded reds, yellows, blues, browns, pointing into the lens) and a new timeline: hold and roar 2-3.5 s, the swing starts at 3.5 s, the round hits a quarter of the way into the swing. Image not passed as a reference: it holds a different fat man with a pipe (identity bleed risk). 5 s for the extra room: get_cost 15 credits (4 s would be 12). Draft true."
     }
   ],
   "story_sync": {
