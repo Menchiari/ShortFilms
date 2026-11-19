@@ -4621,7 +4621,7 @@
         },
         {
           "id": "SH130",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -4661,8 +4661,9 @@
               "poster": "05-generation/web/001_S05_SH130_T02.jpg",
               "references": [],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S05-SH130-b. Folder S05/SH130. T01 prompt with only the camera changed: looks left, right, back to the front (Leonard on T01: the camera should be looking around). Passed first submission. Claude's read: the looking around works: front, left on men coming out of a dark doorway, right on the woman in the black headscarf and an old man, back front on the heavy man close. Off: each turn is a blurred whip pan despite the prompt; the crowd is thinner and further away than T01, so the faces do not press in; the last frame is a close-up of the heavy man, not his face filling the frame."
+              "rating": 3,
+              "notes": "REQUEST S05-SH130-b. Folder S05/SH130. T01 prompt with only the camera changed: looks left, right, back to the front (Leonard on T01: the camera should be looking around). Passed first submission. Claude's read: the looking around works: front, left on men coming out of a dark doorway, right on the woman in the black headscarf and an old man, back front on the heavy man close. Off: each turn is a blurred whip pan despite the prompt; the crowd is thinner and further away than T01, so the faces do not press in; the last frame is a close-up of the heavy man, not his face filling the frame. Leonard 2026-11-19: \"sure this works enough\". Selected take.",
+              "rating_source": "inferred"
             }
           ],
           "description": "Faces close in around him, slowly, from every side.",
