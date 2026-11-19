@@ -1405,6 +1405,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 T04 downloaded (job 8bc69232, 22 credits): near identical to T03 (PSNR 41.9 dB at 4-6 s, same audio levels). The edit did not change the eye line or the sound."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
     }
   ],
   "story_sync": {
