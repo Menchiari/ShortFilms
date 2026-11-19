@@ -1874,6 +1874,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH010-a prepared, not submitted: S09 SH010 T01, prompts/001_S09_SH010_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 18 s, one take, audio on, 54 credits (free quote). Refs: char_politician_final 547bbfa3 (old man D: the stain in words), loc_square 62815a4f, palette_sunset 1f563179, guide refs_d11_motion S09_SH010 as line drawing (refs/001_S09_SH010_motion_d11_lines.mp4, media 864bf115). Pose reference in words only. The fat person in words as a sleeping man, no char_big-guy image."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH010-a approved by Leonard ('ok go'; quote 54 credits) and submitted: S09 SH010 T01 job 5a4fd608-528c-45b8-bfc0-07439ef1429e, seedance_2_5 omni_reference, 480p, 21:9, 18 s, audio on, folder Scenes/S09/SH010, prompt prompts/001_S09_SH010_T01.txt. The request echo lists the guide video under reference_images."
     }
   ],
   "story_sync": {
