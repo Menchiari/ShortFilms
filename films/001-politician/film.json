@@ -1728,6 +1728,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH010 T02 delivered (job 87fabfce, 15 credits): saved as 05-generation/takes/S07/SH010/001_S07_SH010_T02.mp4, recorded in shotlist.json. He stands alone until about 1.5 s, the crowd closes over him at about 2 to 2.5 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH010 T02 rated 4 (inferred, Leonard: 'ok cool works whatever'); shot approved. T01 left unrated (Leonard's only note: the first frame must have nobody around him). Credits this shot: 2.5 + 2.5 + 2.5 (stills) + 15 + 15 (takes) = 37.5."
     }
   ],
   "story_sync": {
