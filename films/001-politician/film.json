@@ -2330,6 +2330,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard rejected S07 SH040 T04: only the old man may be upside down, the world and the pipe man upright. Fix proposed, not run: REQUEST S07-SH040-f (start frame, seedream_v5_pro 2k 21:9, refs char_politician_blood 0d0a5637, char_big-guy 6228445b, loc_square 62815a4f, prompt 001_S07_SH040_REF_startframe.txt, 2.5 credits) then REQUEST S07-SH040-g (seedance_2_5 omni_reference, start_image = that frame, 8 s, 480p, 21:9, audio on: panic, pipe on the forearm, punches, handheld; prompt 001_S07_SH040_T05.txt, 24 credits). No line drawing: the d11 guide did not stop the flip in T01. Video only after Leonard approves the frame."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH080-a approved by Leonard and submitted: S08 SH080 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (to trim to 2 s), audio on, one take, 12 credits (quoted). Refs: loc_square 62815a4f, palette_sunset 1f563179, no video guide (place fills the frame). Job a5321411. Prompt prompts/001_S08_SH080_T01.txt, photorealism line added on Leonard's note."
     }
   ],
   "story_sync": {
