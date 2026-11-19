@@ -1667,6 +1667,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T03 rated 2 (inferred): Leonard, still slow motion, still bullets instead of shells. REQUEST S06-SH025-e prepared: T04 new take, prompts/001_S06_SH025_T04.txt, mechanism detail removed, real-time 24 fps, five fast shots; same references, 480p, 21:9, 4 s, estimate 12 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH025-e approved by Leonard (12 credits): S06 SH025 T04 submitted, new take, 480p, 21:9, 4 s, job 8c2bceaf-d39e-4dfc-8ca7-6fb9e9471966, folder S06/SH025, prompt 001_S06_SH025_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T04 delivered (job 8c2bceaf, 12 credits): fastest recoil so far (two-frame blur); three shots from 1.1 s, not five; arm swings into frame at the start; wall ends at the left edge. SH025 total 48 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {

@@ -5319,6 +5319,28 @@
               "love": false,
               "rating": 2,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "8c2bceaf-d39e-4dfc-8ca7-6fb9e9471966",
+              "prompt": "05-generation/prompts/001_S06_SH025_T04.txt",
+              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH025_T04.jpg",
+              "references": [
+                "prop_gun 24875e9a",
+                "char_politician_blood 0d0a5637",
+                "loc_square 62815a4f (wall only)"
+              ],
+              "notes": "REQUEST S06-SH025-e, draft, Leonard approved 12 credits (\"ok go\"). Folder S06/SH025. Change from T03: the mechanism no longer described, real-time 24 fps, five fast shots asked. Claude's read: recoil now a two-frame motion blur, the closest to real speed of the four takes. Casings: small blurred brass cylinders with flat ends, some fly up, some drop below the hand; at 480p I cannot say for sure they read as empty casings. Three shots, not five, and late (sound at 1.1, 1.85, 2.6 s). 0 to 0.2 s the arm swings up into frame from the lower edge. The close wall holds, but at the left edge it ends and a strip of hazy distant buildings shows. Arm in free air. Audio not yet checked by ear."
             }
           ],
           "description": "The pistol fires, again and again: the flash, the slide kicking back, a casing spinning away.",
