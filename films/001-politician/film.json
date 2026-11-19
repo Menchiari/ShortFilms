@@ -2726,6 +2726,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S08 SH050 T01: add Roger firing once before she turns. REQUEST S08-SH050-b prepared, not submitted: T02, same start frame (1448763a) and refs (char_boss, char_sniper), seedance_2_5 omni_reference, 480p, 21:9, 5 s (one more second for the shot), audio on, folder S08/SH050, prompt prompts/001_S08_SH050_T02.txt. One change from T01: one shot at 1-2 s (muzzle flash out of the door, recoil, a casing falls, no hit seen), then her turn and line one second later. [ASSUMPTION] this shot is one of the three SH040 kills seen from the cabin, not a fourth. Quote 15 credits, balance 26417.7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-b approved by Leonard ('ok go, 15 credits'): T02 submitted, job 9e57c6dc-26ae-4cc1-9372-d76ee030aeed, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, start_image 1448763a, char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T02 downloaded (job 9e57c6dc, 15 credits): one shot with muzzle flash at about 0.75 s, her turn at about 1.3-2 s, line at about 3.25-3.9 s. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
