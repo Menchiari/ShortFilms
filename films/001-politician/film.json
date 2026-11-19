@@ -2214,6 +2214,14 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH010 T01 generated (job 5a4fd608, 54 credits), downloaded as takes/S09/SH010/001_S09_SH010_T01.mp4. Not yet rated by Leonard. Claude's read in shotlist.json: photoreal sunset, fall and curl work; misses: wide not medium close, the stain came out as a blood-like puddle on the asphalt, no slouched lean, the spit is a glowing streak."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-d approved by Leonard ('approved, go with S07-SH040-d'; estimate 15 credits) and submitted: 06d4a64e-ff43-4b84-9657-3656d30c2e32, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T03_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T03 downloaded (001_S07_SH040_T03.mp4, 15 credits, 5 s extension of T02, new seconds only). Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
