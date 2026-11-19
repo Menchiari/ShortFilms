@@ -6232,6 +6232,30 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH050-d (resubmitted after a 429 rate-limit refusal), 480p (992x432), 5.06 s, audio present (mean -23.2 dB, peak -2.6 dB; not listened to). Generated upright, to be rotated 180 degrees in the edit. Claude's read from frames every 8 frames: thin plain grey rod held in both fists; raw repeated overhead blows, about five or six, each one coming down past the bottom of frame with motion blur and the camera jolting and tilting; the fat person close, red-faced, grunting, ugly swings; the crowd packed right around the lens, yelling at the camera, arms reaching in. Not epic: flat hazy light against a pale sky. Fails: the crowd is still all dark-haired bearded men who look like the fat person, no women at all; the ten named faces and the anti-clone line did not work. One man at the right reaches toward the lens with a thumbs-up-like hand. The fat person reads more muscular than fat. Leonard on T04: swings left and right instead of vertical; he is hanging, not on the floor."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "2ffde0f1-01df-45ca-8680-f0335e48653d",
+              "prompt": "05-generation/prompts/001_S07_SH050_T05.txt",
+              "file": "05-generation/takes/S07/SH050/001_S07_SH050_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "@loc_square 62815a4f",
+                "fat man in words (no char_big-guy image)",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH050-e, 480p (992x432), 5.06 s, audio present (mean -24.1 dB, peak -4.3 dB; not listened to). Generated upright, to be rotated 180 degrees in the edit. No char_big-guy image: the fat man in words. Claude's read from frames every 8 frames: the crowd is finally mixed: women and men of many backgrounds and ages (a grey-haired woman in glasses, a young Black man in red, a blonde girl, a bald man in a blue work shirt, a red-haired man crossing the lens, an old woman with white hair), packed close, all yelling and pointing at the camera; shuttered facades behind. Camera level at about chest height, swaying, with two fast whip spins and heavy motion blur at about 1.8 s and 3.5 s when blows land, a red-haired man's head crossing the lens. The fat man: fat with a big belly, wild curly dark hair, grey-brown t-shirt, enraged; swings are mostly diagonal and sideways, short and ugly, not overhead chops. Weak: his face is not the S04 char_big-guy (rounder, wilder hair, moustache not clearly read: the cost of dropping his reference); the rod changes between thin grey and a thick black bat in several frames; the crowd's pointing arms are a bit uniform, like a chorus."
             }
           ],
           "description": "He pulls his arms over his head. The FAT PERSON from the side street steps in with a metal pipe in both hands and slowly lifts it back over his shoulder. He holds it there, waiting for the moment. Then he swings, hard, straight at him.",
