@@ -1511,6 +1511,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050: REQUEST S06-SH050-ref (gun still, slide locked back; gpt_image_2_6 high 1k, edit of prop_gun image, into REFS; prompt prompts/001_S06_SH050_REF_gun-slide-locked.txt) quoted 1.5 credits; REQUEST S06-SH050-b (T02, prompts/001_S06_SH050_T02.txt, 480p 21:9 6 s audio on, plus the still as @Image3) quoted 18 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH020-b approved by Leonard ('ok try', 36 credits): S06 SH020 T02 submitted, job b22cb7b0-f15c-4210-aec4-7987dc9ff317, seedance_2_5 omni_reference, 480p, 21:9, 12 s, audio on, folder S06/SH020, prompt 001_S06_SH020_T02.txt."
     }
   ],
   "story_sync": {
