@@ -1374,6 +1374,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 session: Higgsfield folder S06/SH030 created (e4ad636e-af8e-438d-85e3-682a4756d286). SH020 has no take yet: body map taken from animatic d11 (five dead between him and the crowd: two near him by the lamp, one behind the near runner, two mid-square)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH070 T04 in (job d446c3ae, 28 credits): T02's performance re-rendered at 720p almost frame for frame, but no sharper than T02 (edge energy 11.45 vs 12.45 for a bicubic upscale of T02). Lesson: a soft 480p take used as @Video1 passes its softness to the new render. SH070 total 83 credits."
     }
   ],
   "story_sync": {
