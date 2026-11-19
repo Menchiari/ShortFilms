@@ -2446,6 +2446,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH010 T02 rejected by Leonard (rating 1, inferred): wants exactly the animatic composition, realistic. REQUEST S08-SH010-c prepared, not submitted: prompts/001_S08_SH010_T03.txt, line-drawing guide of the d11 clip (refs/001_S08_SH010_lines_d11.mp4, media 4cd08648) as @Video1 for camera, framing and helicopter size, loc_square, palette_sunset, helicopter in words; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020 start frame v2, Leonard: both wrong, GPT better; camera angle as in the animatic; the lady on the left (she turns around to tell him to stop). REQUEST S08-SH020-ref3 prepared: edit of the GPT v2 frame (2ef78fb3) with the animatic d11 first frame as a line drawing (refs/001_S08_SH020_animatic_d11_lines_f0.png, media 658b8451) for camera angle and composition only, plus char_boss 7ef41962; prompt prompts/001_S08_SH020_REF_start-frame_v3.txt; gpt_image_2_6 high 1k 21:9, 1.5 credits. [ASSUMPTION] Leonard's left = the left front seat, screen left of the pilot. Waiting for approval."
     }
   ],
   "story_sync": {
