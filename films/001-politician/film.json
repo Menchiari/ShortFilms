@@ -1667,6 +1667,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T03 rated 2 (inferred): Leonard, still slow motion, still bullets instead of shells. REQUEST S06-SH025-e prepared: T04 new take, prompts/001_S06_SH025_T04.txt, mechanism detail removed, real-time 24 fps, five fast shots; same references, 480p, 21:9, 4 s, estimate 12 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-c approved by Leonard ('go ahead', 12 credits): S06 SH030 T02 resubmitted with prompt 001_S06_SH030_T02_v2.txt, job 874a4626-6273-4542-8754-edfa1f4c6b45, same images and settings as the blocked job."
     }
   ],
   "story_sync": {
