@@ -1914,6 +1914,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH100-a prepared, not submitted: S09 SH100+SH120 as one 13 s generation (SH100 0-7 s, SH120 7-13 s, SH110 cut between in the edit), prompts/001_S09_SH100_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, audio on, refs char_boss 7ef41962, char_politician_final 547bbfa3 (old man D: the stain in words), prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179; no previz clip (13 s clip over the 10 s reference guidance, and set clips turn place into 3D previz). No SH080 take exists yet: the frame is built in words from the d11 previz (her right half facing right, the helicopter door behind her at left). Folder Scenes/S09/SH100. Estimate 39 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH060-a prepared, not submitted: S09 SH060+SH080 as one 8 s generation (SH060 = 0-4 s, SH080 = 4-8 s, split in the edit; the SH070 insert is composited between), prompts/001_S09_SH060_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, audio on, text and elements only (char_boss 7ef41962, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179), no guide clip, folder Scenes/S09/SH060. [ASSUMPTION] sunglasses on (char_boss and the d11 clip), sun behind her upper left beyond the helicopter, his hand only at 0-1 s. Estimate 24 credits. Waiting for approval."
     }
   ],
   "story_sync": {

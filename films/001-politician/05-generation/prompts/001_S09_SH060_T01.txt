@@ -1,0 +1,46 @@
+Audio: only the steady turbine whine and heavy thump of the idling helicopter rotors behind her, the rush of rotor wash, her jacket and loose strands of hair flapping in it, and the dry rustle and flap of paper pages as she turns them and closes the folder. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_boss (@Image1): the business lady: her face, black hair in a low ponytail, thin gold-rimmed dark sunglasses, charcoal grey suit and white open-collar shirt only, not her pose, not her crossed arms, not the dark studio background or its light. @prop_helicopter (@Image2): the helicopter: a matte black Sikorsky UH-60 Black Hawk, its fuselage, matte black paint and open sliding side door only, not its crew, not its gunner, not its background. @loc_square (@Image3): the buildings: their cracked ochre plaster, small balconies and dark windows only, not their people, cars, lamp, framing or light. @palette_sunset (@Image4): color and light only.
+
+Close shot, locked-off, on a long lens in a dusty town square at sunset: the business lady from @char_boss stands just in front of the landed matte black helicopter from @prop_helicopter, its rotor wash whipping her hair and jacket; she takes a dark blue folder from a man off screen right, opens it to the last page, reads it, looks up at him, closes it, and holds his eyes without a word.
+
+Framing: the business lady in the left half of frame, from the middle of her chest up, her body and face in three-quarter view turned toward screen right, where the man stands just off screen. Her face is never covered: the folder always stays low, at the level of her chest, below her chin. Behind her at screen left, close and out of focus, the dark matte black side of the helicopter fills the left third of the background, its open side door a dark empty opening: nobody sitting in it, nobody in it, no door gun. Behind her at screen right, far and soft, the ochre facades of the square. Count of helicopters: one. Count of people in frame: one, the business lady, plus his hand at screen right in the first second only.
+
+The helicopter from @prop_helicopter: unmarked, no numbers, no insignia, no lights. Its rotors keep turning above, out of frame: their wash pours down and across her: strands of her black hair tear loose from the ponytail and whip toward screen right, the lapels and hem of her jacket flutter, fine dust streams past her in the warm light, for the whole shot.
+
+The square from @loc_square is a real, lived-in square photographed on location, never blocky or simplified: cracked and patched ochre plaster, facades of different heights, small balconies with worn railings, dark windows, sagging cables, dust on every ledge, all soft and far behind her. Nothing looks like a box, a slab or a 3D model. No people visible in the background.
+
+The folder: a plain dark blue card folder, A4 size, holding a few cream paper pages printed with dense small type. Count of folders: one.
+
+Lighting, motivated by the sun only: a low sunset sun behind her, just out of frame above the upper left, beyond the helicopter, facing the camera: a warm orange and amber haze glows in the background, dust glowing in it. The sun draws a warm rim along the left edge of her hair, her ear and her shoulder, and catches the loose flying strands. Her face is filled softly by warm bounce from the sunlit square in front of her, so her face, the gold rims of her sunglasses and the pages read clearly. The helicopter reads as a dark matte mass with a thin warm line of light along its edges. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+Lens and focus: long lens, shallow depth of field. Focus on her face for the whole shot. The helicopter and the square melt into soft dark and warm shapes behind her.
+
+0-1s: close shot, locked-off. She stands still in the left half of frame, facing screen right, her hands empty at her sides. From the right edge of frame, low at her chest height, a man's dusty, blood-smeared hand in a torn, dirty charcoal sleeve holds out the closed dark blue folder. Without hurry she takes it in both hands. His hand withdraws out of frame to the right and does not come back.
+1-2s: holding the folder low at her chest, she opens it and turns the pages straight to the last page, the rotor wash catching and fluttering the page edges; she pins the pages flat with her left thumb.
+2-4s: she reads the last page, her head tilted down toward it, the folder low and open at her chest, her face clear above it. She keeps her mouth closed.
+4-5s: she lifts her head from the page and looks straight at the man off screen right, at his eye level, a little lower than her own.
+5-6s: still looking at him, she closes the folder with one firm move of her right hand and holds it shut, low at her chest, in both hands.
+6-8s: she holds his eyes. Her lips part slightly, as if to speak; then she closes her mouth again without a sound and keeps looking at him, still. Final frame: the business lady in the left half of frame, chest up, three-quarter view toward screen right, the closed dark blue folder low at her chest in both hands, her eyes on the man off screen right, hair and jacket whipping in the rotor wash, the dark helicopter soft behind her at screen left, the camera unmoved.
+
+ACTING TASK, the business lady (she is fully invested in her tactic; the work happens in her eyes behind her sunglasses):
+SCENE DIRECTION (shared, unspoken): this is business: close the deal, and nobody names what happened in this square.
+MOTIVE (her fuel): she came for one thing, his signature on the last page, and she has never once let a man see her wanting anything.
+GOAL: make sure the deal is signed, and make him understand that from now on he belongs to her.
+OBSTACLE: he is standing in front of her covered in blood and dust, alive against every odds, daring her; one word from her, of comfort, of blame or of thanks, gives him back the upper hand.
+TACTIC: she answers him with nothing. She takes the folder as if he were a courier, finds the last page and checks the signature like an accountant checks a total, with him waiting in front of her. Then she lifts her eyes to his and measures him: what is left of him, what he still thinks he is worth. She starts to tell him so, decides he is not worth the words, and lets the silence finish the sentence while she holds his eyes.
+Moment to moment:
+- taking the folder: receives it like a delivery, her eyes already on the folder, not on him.
+- reading: hunts the page for the one line that matters, finds the signature, confirms it.
+- looking up: checks his eyes, weighing him.
+- closing the folder: closes the deal.
+- the parted lips: the sentence she chooses not to spend on him.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+She keeps her mouth closed: no words. She stays in the same place for the whole shot: she does not walk, turn away or look into the lens. No cuts, no slow motion: real time.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or aircraft, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the steady turbine whine and heavy thump of the idling helicopter rotors behind her, the rush of rotor wash, her jacket and loose strands of hair flapping in it, and the dry rustle and flap of paper pages as she turns them and closes the folder. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
