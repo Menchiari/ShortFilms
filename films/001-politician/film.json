@@ -2718,6 +2718,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH050-a prepared, not submitted: S08 SH050 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (shot 3 s, trim in the edit), audio on, start_image 1448763a = last frame of the approved SH020 T02 (refs/001_S08_SH050_start_SH020-T02-last.png, frame 97), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050 78a595cb, prompt prompts/001_S08_SH050_T01.txt. Leonard's mood still left out of the request: the start frame already carries the approved SH020 look and a second grade source risks a mismatch at the cut. Quote 12 credits, balance 26480.7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T03 rated 2 (inferred). REQUEST S08-SH040-d prepared, not submitted: prompts/001_S08_SH040_T04.txt = T03 with three changes: one sniper bullet per hit (the person jerks and drops on the spot, one small sharp spurt of dust from one point of the paving, head-sized, no explosion; audio a dry crack, the smack, the late distant thud); he hangs lower on purpose (head at the crowd's knees, fingertips on the paving, rope round the pole at head height), because Seedance has rendered him higher than asked in every take; a named mixed crowd (about half women, every age and build, listed one by one). S07 SH080 frame dropped. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
