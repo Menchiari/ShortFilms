@@ -2694,6 +2694,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH010-c approved by Leonard ('go with S08-SH010-c'; estimate 12 credits) and submitted: S08 SH010 T03 165d3c84-59d1-4351-ac10-144395ee1ab1, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, start frame v1 (8f2af3e5), loc_square, palette_sunset. The animatic composition held; a subtle hover; the man in the door visible, the rifle not readable."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-c approved by Leonard ('ok go, 18 credits'): S08 SH060 T03, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle (eyepiece only), palette_sunset, folder Scenes/S08/SH060, job 8187a062-5c5d-47ba-a1cf-4a6781ce9b02, prompt prompts/001_S08_SH060_T03.txt."
     }
   ],
   "story_sync": {
