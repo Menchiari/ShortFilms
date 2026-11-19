@@ -5149,7 +5149,7 @@
         },
         {
           "id": "SH020",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5279,9 +5279,9 @@
                 "loc_square 62815a4f (wall only)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S06-SH020-e, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the wall at his back and left is now flat and vertical, plain weathered concrete, no bulge. The street is about as narrow as T04, at most a little wider. Pipe man shot at about 5 s, the pipe lies on the asphalt; the charges escalate, the last frame has about five men running at him and four or five lying in front of him. Weak, unchanged: the opening crowd is a still wall of alike heavy-set men, no women; parked cars down the street; gun arm mostly straight."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S06-SH020-e, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the wall at his back and left is now flat and vertical, plain weathered concrete, no bulge. The street is about as narrow as T04, at most a little wider. Pipe man shot at about 5 s, the pipe lies on the asphalt; the charges escalate, the last frame has about five men running at him and four or five lying in front of him. Weak, unchanged: the opening crowd is a still wall of alike heavy-set men, no women; parked cars down the street; gun arm mostly straight. Leonard 2026-11-19: very nice."
             }
           ],
           "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
@@ -5293,7 +5293,7 @@
             "file": "05-generation/animatic/d11/S06_SH020.mp4",
             "draft": "d11"
           },
-          "body_map": "Body map (animatic d11, shots_s06.py VICTIMS). Bearings from his facing at the start of the shot (toward the SH010 camera), positive = to his left; every man drops where he is hit and stays there to the end of the film. Shot 2 at 2.6 s: 13 m, 70 deg left. Shot 3 at 5.4 s: 9.5 m, 110 deg left (behind his left side). Shot 4 at 7.6 s: 9 m, 42 deg left. Shot 5 at 9.3 s: 5.5 m, 86 deg left. Shot 6 at 10.6 s: 3.5 m, 83 deg left. Gaps 2.8, 2.2, 1.7, 1.3 s: closer and faster."
+          "body_map": "Body map from the approved take T05 (last frame, read by Claude, approximate; replaces the d11 map). He stands with his back and left side to a flat plain concrete wall at the mouth of a street about 8 to 12 m wide, facing down it. The five men lie in front of him, all within about 2 to 6 m, in the left half and middle of the street: one at about 1.5 m, front-left, legs toward the left curb; one at about 3 m, straight ahead, the short rusty pipe on the asphalt just to its right; one at about 5 m, center-left; one at about 5 m, center-right; one at about 2 m, front-right at the edge of frame. None on the far right sidewalk. The pipe stays where it fell."
         },
         {
           "id": "SH025",
