@@ -5238,7 +5238,10 @@
                 "prop_gun 24875e9a",
                 "char_politician_blood 0d0a5637"
               ],
-              "notes": "REQUEST S06-SH025-b, draft, Leonard approved 12 credits (\"ok go\"). Folder S06/SH025. Changes from T01: close background, empty shells, real-time speed. Claude's read: real speed now: each shot cycles in one or two frames with motion blur, the flash is a single blurred burst. Shells read as short brass tubes, flung up and out of frame in about six frames. Five shots, not four (sound transients at 0.1, 1.0, 1.7, 2.25, 2.7 s): the same count as SH020. Background NOT fixed: the crowd is still about 20 to 50 m away, small crouching and running figures across a wide square, a long wall far behind, hazy golden backlight with sun rays. The camera sits low: a blurred strip of sandy ground right under the hand. White French cuff with a small blue cufflink. Audio not yet checked by ear."
+              "notes": "REQUEST S06-SH025-b, draft, Leonard approved 12 credits (\"ok go\"). Folder S06/SH025. Changes from T01: close background, empty shells, real-time speed. Claude's read: real speed now: each shot cycles in one or two frames with motion blur, the flash is a single blurred burst. Shells read as short brass tubes, flung up and out of frame in about six frames. Five shots, not four (sound transients at 0.1, 1.0, 1.7, 2.25, 2.7 s): the same count as SH020. Background NOT fixed: the crowd is still about 20 to 50 m away, small crouching and running figures across a wide square, a long wall far behind, hazy golden backlight with sun rays. The camera sits low: a blurred strip of sandy ground right under the hand. White French cuff with a small blue cufflink. Audio not yet checked by ear. Leonard 2026-11-19: the gun is correct; the hand rests on a wall and must not; behind the gun there must be a wall, not a crowd. T03 (prompts/001_S06_SH025_T03.txt): video_edit of T02, background replaced by the plain weathered concrete wall of loc_square about two meters behind, the ledge under the hand removed, everything else kept.",
+              "love": false,
+              "rating": 3,
+              "rating_source": "inferred"
             }
           ],
           "description": "The pistol fires, again and again: the flash, the slide kicking back, a casing spinning away.",
