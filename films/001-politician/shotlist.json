@@ -4017,6 +4017,27 @@
                 "everything else in words"
               ],
               "notes": "REQUEST S05-SH020-i, draft, Leonard approved 12 credits (\"go\"). Folder S05/SH020. Words only plus char_politician_dusty as @Image1 (Leonard: only descriptions, no references; then: the old man must be char_politician_dusty). Claude's read: the most cinematic take so far: hazy golden backlight down the street, long shadows toward the camera, dust glowing, people read as real. But Seedance ignored the framing: not a top view and not left to right; a high angle looking down the length of the street, which runs into depth, and he comes toward the camera down the middle. He walks briskly rather than jogs. People stand along both sidewalks under the shutters, a few step out; behind him more people come into the street from the far end. Nobody closes him off. The buildings are low one-storey rows of shutters with flat roofs, not the six-storey blocks of the town. Audio not checked by ear."
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "daf7c05f-eae4-4643-87fc-c3d637104986",
+              "prompt": "05-generation/prompts/001_S05_SH020_T08.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T08.jpg",
+              "references": [
+                "element char_politician_dusty 1ecc0e0b (image 98e1e69e) as @Image1",
+                "everything else in words"
+              ],
+              "notes": "REQUEST S05-SH020-j, draft, Leonard approved 12 credits (\"just make the fucking shot and try to impress me\"; 480p chosen by Claude, finalizable at 720p). Folder S05/SH020. Character: element char_politician_dusty (1ecc0e0b, image 98e1e69e) as @Image1; everything else in words. Leonard's asks: film look, tall buildings, 35mm, anamorphic, grain, realistic crowd. Claude's read: the strongest film look so far: tall concrete apartment blocks with balconies, AC units and dishes on both sides, a horizontal anamorphic flare across the top, haze and a sun glow at the end of the street, long shadows. He jogs toward the camera down the middle with the case; people stand in doorways and on both sidewalks and turn, some step forward; nobody blocks him. Not as asked: again not a top view; a high angle down the length of the street with a vanishing point, he comes toward the lens instead of left to right. The crowd is almost all middle-aged men in light shirts, no women or boy visible. One white cloth hangs on a balcony at top right (reads like laundry). Grain hard to judge at 480p. Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
