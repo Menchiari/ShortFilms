@@ -6390,7 +6390,7 @@
               "prompt": "05-generation/prompts/001_S08_SH060_T01.txt",
               "file": "05-generation/takes/S08/SH060/001_S08_SH060_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH060_T01.jpg",
               "references": [
                 "char_sniper 8716ad9f (image_references)",
                 "prop_rifle bb9db39b (image_references)",
@@ -6489,7 +6489,7 @@
               "prompt": "05-generation/prompts/001_S09_SH030_T01.txt",
               "file": "05-generation/takes/S09/SH030/001_S09_SH030_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH030_T01.jpg",
               "references": [
                 "prop_briefcase 4bf36cb5 (image_references)",
                 "char_politician_final 547bbfa3 (image_references)",
