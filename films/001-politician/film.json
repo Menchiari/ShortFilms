@@ -1870,6 +1870,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "001: S09 SH090 T01 prompt prepared (request S09-SH090-a, not submitted): prompts/001_S09_SH090_T01.txt, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179, no previz clip (frame background is place: refs_d11 README rule), folder Scenes/S09/SH090. Estimate 12 credits. [ASSUMPTION] sunset sun behind him at upper right, rotor wash blowing screen left to right, her shoulder soft at the left edge as in the d11 clip."
     }
   ],
   "story_sync": {
