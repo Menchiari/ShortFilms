@@ -1,0 +1,37 @@
+Audio: only his quick footsteps and heavy breathing, the clink of small glasses on a metal table, a chair scraping on concrete, a few low voices, sandals on grit, the hot quiet street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Overhead bird's eye view, the camera pointing straight down at 90 degrees, like a helicopter shot from a war film: a godlike view from far above onto a narrow street in a hot, dusty modern desert town in the late afternoon. No sky, no horizon, no vanishing point anywhere in the frame. The street runs across the whole frame from left to right like a strip on a map. An old man in a suit hurries along it from left to right with a briefcase, past an ordinary afternoon: people sitting outside a small cafe, a parked car, people in doorways, who look up, leave what they are doing and drift slowly toward him.
+
+@Image1 (element char_politician_dusty), the old man: his face, white hair, build and dusty charcoal suit, white shirt and rust tie, exactly as in @Image1; not his pose or background. He carries a dark leather briefcase in his right hand. Seen from straight above: his white head, his shoulders, the briefcase, his long shadow.
+
+What the camera sees from straight above: the flat concrete rooftops of tall apartment blocks fill the top and bottom edges of the frame, close to the camera: water tanks, satellite dishes, air-conditioner units, tangled cables, a rusted antenna. Between them, far below, the narrow street lies at the bottom of a deep concrete canyon: only thin slivers of the tall facades show at the roof edges, balconies stacked one above the other, leaning outward toward the frame edges. Two power cables cross the canyon. On the street: asphalt buried in pale dust and drifted sand with tire tracks and footprints. On the bottom sidewalk, outside a small cafe with a faded awning: four white plastic tables and plastic chairs, men sitting with small glasses of tea and coffee, one table with a backgammon board, a man reading a newspaper. On the top sidewalk: a dusty white sedan parked half on the curb, a moped leaning on a wall, a woman sitting on a doorstep, an old man on a stool in the shade, a boy with a plastic bottle. The mouths of two narrow side streets. Rolled-down metal shutters, dark doorways. No laundry.
+
+The people: ordinary townspeople, about fifteen, each one different: men and women, young and old, heavy and thin, a woman in a faded house dress, a woman with a headscarf, a heavy man in a stained undershirt, a thin young man in a work shirt, an old man in a long robe, a boy. Worn, sun-faded, dusty clothes, real bodies with real weight, seen from straight above: tops of heads, shoulders, arms, long shadows.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from the top of the frame. The rooftops in hard warm sunlight; the canyon of the street mostly in deep warm shade, with a long blade of hazy golden sunlight lying along the street through a gap between the blocks; every person casts a long shadow toward the bottom of the frame; dust hangs in the light. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+The image: shot on 35mm motion picture film with anamorphic lenses, visible organic film grain, soft halation on the bright rooftops, the left and right edges of the frame slightly soft and gently curved, warm filmic color with muted, dusty tones, documentary realism. Not a video game, not a 3D render, not stock drone footage, not digital, not clean.
+
+0-1s: Camera: straight down, already moving: a slow, steady overhead track from left to right along the street, the rooftops sliding slowly under the lens. The old man hurries along the middle of the street at the left third of the frame: fast, a stiff old man's jog, not a sprint, the briefcase swinging, a little faster than the camera. At the cafe tables the men are drinking, talking, one moves a backgammon piece.
+1-3s: Camera: the same slow track, never tilting. As he passes, heads turn up and toward him, one at a time: a man at the cafe stops his glass halfway to his mouth; another stands up, his chair scraping back; the man with the newspaper lowers it. The woman on the doorstep gets up. Two people step out of a side street. Each one leaves the edge of the street and drifts slowly toward him, on his own line, never in step with anyone; others stay where they are and only watch. Nobody blocks him, nobody reaches for him.
+3-4s: Camera: the track slows to a stop. The ones near him keep drifting slowly or stand still. Only the people farthest away, near the edges of the frame, speed up to a quick walk. Final frame: straight down, the old man just right of center, still hurrying, a loose scattering of people in the street around him at different distances, the cafe tables behind them with an empty chair pushed back; the camera has stopped.
+
+How everyone moves: real people, filmed, unrehearsed. Each has his own body and rhythm; no two move alike, nobody repeats a movement: small hesitations, weight shifts, a hand shading the eyes, a glance at a neighbor.
+
+ACTING TASK, THE TOWNSPEOPLE (each invested in his own small task; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): something is happening in our street, and nobody wants to miss it.
+MOTIVE (their fuel): the face from the signs is running past their door.
+GOAL: see him with their own eyes.
+OBSTACLE: nobody wants to be the one who gets too close.
+TACTIC: each one checks what the others are doing before taking another step closer.
+ACTING TASK, THE OLD MAN:
+GOAL: get through this street to the square without anyone stopping him.
+OBSTACLE: heads are turning everywhere, and the case is heavy.
+TACTIC: he keeps his eyes on the end of the street and refuses to look at them.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of men in a suit: one. Count of briefcases: one. Count of parked cars: one. Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, awning or newspaper, no logos, no trees. No cuts, no slow motion, no text, no flicker.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his quick footsteps and heavy breathing, the clink of small glasses on a metal table, a chair scraping on concrete, a few low voices, sandals on grit, the hot quiet street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
