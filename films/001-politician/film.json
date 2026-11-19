@@ -1523,6 +1523,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020 T02 rated 4 (inferred, 'very good'). REQUEST S06-SH020-c prepared, not submitted: prompts/001_S06_SH020_T03.txt = T02 with Leonard's changes only (crowbar for the first man, panic waves after each shot, diverse crowd with women, he fires only at the last instant, slow start then faster: first shot at about 5 s). Same settings and images as T02. New body map in the prompt: crowbar man about 2 m in front of him (crowbar beside him), then about 4 m right curb, 5 m center, 4 m left sidewalk, 2 m bottom right. Cost check 36 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH025-a approved by Leonard (12 credits): S06 SH025 T01 submitted, 480p, 21:9, 4 s, omni_reference with prop_gun and char_politician_blood, job a26418ca-6a97-4ac7-ba41-95d8eb7f9c82, folder S06/SH025, prompt 001_S06_SH025_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH025 T01 delivered (job a26418ca, 12 credits): three firing cycles in 4 s (asked four), black gun, hand and sleeve right, nobody in frame. Waiting for Leonard."
     }
   ],
   "story_sync": {
