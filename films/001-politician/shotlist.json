@@ -5951,8 +5951,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S08-SH040-b. Folder Scenes/S08/SH040. No guide clip. Claude's read: real people, no box shapes; the old man hangs from the arm of the lamp at the building corner, near the center of frame, rope visible; three cracks at about 0.8 s, 2.7 s and 4.7 s; three new dead in natural poses on the left foreground; the crowd crouches and scatters for real. Misses: he hangs high, about two storeys up, not a meter above the paving (S07 has him low among the crowd); the earlier dead at the foot of the building sit in a row against the wall instead of lying; two traffic lights, a road sign and a second lamp at the left against the prompt; the corner sits a little left of center."
+              "rating": 2,
+              "notes": "REQUEST S08-SH040-b. Folder Scenes/S08/SH040. No guide clip. Claude's read: real people, no box shapes; the old man hangs from the arm of the lamp at the building corner, near the center of frame, rope visible; three cracks at about 0.8 s, 2.7 s and 4.7 s; three new dead in natural poses on the left foreground; the crowd crouches and scatters for real. Misses: he hangs high, about two storeys up, not a meter above the paving (S07 has him low among the crowd); the earlier dead at the foot of the building sit in a row against the wall instead of lying; two traffic lights, a road sign and a second lamp at the left against the prompt; the corner sits a little left of center. Leonard 2026-11-19: he's way too high; the shots must look powerful, from far distant left, show the bullet hitting the ground and the devastating impact; fix his height and the number of people. Cause of the height: Claude's own prompt put the rope on the lamp arm at first-floor height.",
+              "rating_source": "inferred"
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
