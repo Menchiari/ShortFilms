@@ -6040,8 +6040,33 @@
         },
         {
           "id": "SH080",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "ae9fecdd-2ab0-4496-b43d-8d2081c94a0e",
+              "prompt": "05-generation/prompts/001_S07_SH080_T01.txt",
+              "file": "05-generation/takes/S07/SH080/001_S07_SH080_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_big-guy 6228445b (image_references)",
+                "char_politician_final 547bbfa3 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH080-b-alt, draft. Leonard approved T01 (15 credits, 'ok go'); first submission 9cec1ce4 blocked nsfw (15 refunded 14:45:43, likely ours); resubmitted unchanged on Leonard's 'try again', passed. Text plus elements, no guide clip. Claude's read (frames at 2 fps and one full frame, audio levels only, not listened): photoreal steep high wide, warm hazy late sun, no previz look. Timing matches: the fat man swings the pipe up at 0-0.5 s, a loud event at 0.5 s, he drops to his knees by 1 s and lies face down by 1.5 s with the pipe beside him (loud 1.3-1.9 s); the crowd stands still 2-3.5 s; a second event at 3.3 s; a man in the middle falls at about 4-4.5 s; the crowd starts running screen left at 4-5 s. Misses: the street light stands at the right on a corner sidewalk, not the left, and carries traffic signals (asked none); the wall is at the right edge, not the corner; sun from behind at upper right, shadows toward the camera; the old man hangs rigid and straight like a handstand, close above the asphalt; about four other bodies read, not seven; the crowd is a dense, fairly uniform wall of men standing in rows, then runs almost in step: the static-wall look Leonard rejected in S06."
+            }
+          ],
           "description": "A crack from the sky. The fat person drops. The pipe rings on the asphalt. The crowd takes a step back, confused, looking around. A few seconds later, another man drops. A few run. Then others.",
           "framing": "WIDE, high above and in front of him",
           "movement": "Locked-off",
