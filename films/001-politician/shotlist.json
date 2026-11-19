@@ -5973,6 +5973,30 @@
               "rating": 2,
               "notes": "REQUEST S07-SH050-a, 480p (992x432), 5.06 s, audio present (mean -27.6 dB, peak -3.2 dB; not listened to). Generated upright, to be rotated 180 degrees in the edit. Claude's read from frames every 0.5 s and the last 1.3 s every 4 frames: photoreal, low angle, locked-off; the fat person matches char_big-guy (curls, moustache, grey t-shirt, cargo trousers). Works: the two charcoal sleeves and open hands hang into the top corners the whole shot, big and in focus (asked: out of focus); two bodies lie on the asphalt behind him; warm backlit late sun, the lamp at the corner. Fails: (1) the action timing: he walks in with a very long pole already level at 0.5 s, raises it to shoulder height by 2.5 s and holds it level beside his head, aimed like a lance, not cocked back over his shoulder, until about 4.8 s; the swing is only the last 4 to 5 frames. (2) The last frame or two jump: the hands vanish, the framing shifts and the pipe blurs across from the left: reads as a cut. (3) The crowd is a uniform wall of near-identical khaki figures in rows with arms up, not a messy documentary crowd. (4) A traffic light by the lamp. Usable at most as the first 4 s for the hold, if Leonard likes the look. Leonard on T01: the pipe should be the size of a baseball bat, not a fighting stick; he is a regular guy, not a ninja; many more people, a chaotic riot, hard to follow, people pushing and yelling; drop the old man's hands; the camera very wobbly and swinging.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "a66b7975-dffc-46dc-930d-2de1a885ae18",
+              "prompt": "05-generation/prompts/001_S07_SH050_T02.txt",
+              "file": "05-generation/takes/S07/SH050/001_S07_SH050_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "@char_big-guy 6228445b",
+                "@loc_square 62815a4f",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH050-b, 480p (992x432), 5.06 s, audio present (mean -23.1 dB, peak -2.6 dB; not listened to). Generated upright, to be rotated 180 degrees in the edit. Claude's read from frames every 0.5 s and the last 1.6 s every 4 frames: photoreal, low angle; the fat person matches char_big-guy and moves like an ordinary heavy man; the pipe is bat-sized, held in both hands like a bat; no hands of the old man; no traffic light. Timing: pipe low 0 to 0.5 s, raised over his right shoulder by about 1 s, held over the shoulder from about 2 to 4.3 s (a long, clear hold, a small step and settle), the swing from about 4.3 to 4.8 s, ending with the open end of the pipe coming straight into the lens and filling the frame black for the last 4 to 5 frames: no cut. Chaos: two big blurred bodies cross close in front of the lens at about 1.5 to 2 s, dust drifts across; three or four bodies lie on the asphalt behind him. Weak: the crowd still reads as a ring of people all shoving inward in one direction, like a scrum, mostly men in the same khaki and brown, few women; the camera sways only slightly, not the strong pendulum asked for."
             }
           ],
           "description": "He pulls his arms over his head. The FAT PERSON from the side street steps in with a metal pipe in both hands and slowly lifts it back over his shoulder. He holds it there, waiting for the moment. Then he swings, hard, straight at him.",
