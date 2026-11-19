@@ -5888,8 +5888,34 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "generated",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "fbd3e0fa-f5da-4ecd-9ccd-76b09e9fbf1f",
+              "prompt": "05-generation/prompts/001_S08_SH030_T01_v2.txt",
+              "file": "05-generation/takes/S08/SH030/001_S08_SH030_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH030_T01.jpg",
+              "references": [
+                "62815a4f-296f-4467-8d4a-62d56c348066",
+                "547bbfa3-b1b2-441e-b704-ae87c835eaec",
+                "1f563179-51a7-4e02-bcac-0affdd52a903"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Clean plate for the scope overlay (post). Claude's read: photographic, real long-lens footage feel, warm sunset light, runners with uneven gaits, the lens drifts and follows runners. Off-brief: the old man hangs upside down from a traffic light, not the street light (two traffic lights in frame against 'no traffic lights'); the place reads as a street corner by a long wall with steps, not the loc_square square; crowd small, about ten, mostly men in pale shirts; two bodies visible, not the full body map; a dark helicopter door edge at the right edge (outside the scope circle). 992x432, 24 fps, audio mean -28.2 dB."
+            }
+          ],
           "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
           "framing": "SCOPE POV",
           "movement": "Steady, stabilized",
