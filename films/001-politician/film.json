@@ -1868,6 +1868,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH020-a resubmitted on Leonard's new approval ('ok go again, 12 credits'): S08 SH020 T01, job 66732250-137b-4f97-8107-9309de1dd2f5, 12 credits, same prompt and refs, folder Scenes/S08/SH020, saved as takes/S08/SH020/001_S08_SH020_T01.mp4. Claude's read: photoreal Roger at the open door at sunset, but the lady and the pilot are missing, cheek off the stock, the whole rifle in frame, the town below reads as a big city with a dome-like tower. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020: Leonard's Midjourney frame saved as 05-generation/refs/001_S08_SH020_REF_midjourney_v1.webp (uploaded, media 7fec4fb7-08e0-47f4-9fb3-8e659b3e054d). Leonard: keep its vibe, colors and lens, remake the whole positioning in a Higgsfield image. REQUEST S08-SH020-ref prepared: prompts/001_S08_SH020_REF_start-frame_v2.txt, images MJ frame, char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, folder Scenes/S08/SH020. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Waiting for approval."
     }
   ],
   "story_sync": {
