@@ -2054,6 +2054,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH010 T02 delivered (job 87fabfce, 15 credits): saved as 05-generation/takes/S07/SH010/001_S07_SH010_T02.mp4, recorded in shotlist.json. He stands alone until about 1.5 s, the crowd closes over him at about 2 to 2.5 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-f approved by Leonard ('go ahead', 24 credits). First submit rejected by validation (extension_mode missing, request 1de1cd51), nothing charged. Resubmitted with extension_mode forward: S06 SH030 T04 job 68c8d816-adc3-47cb-8493-7bb3e8aa0b19, video_extension of SH020 T05 (c0bf1ae5), 480p, 8 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T04.txt."
     }
   ],
   "story_sync": {
