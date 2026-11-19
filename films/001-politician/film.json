@@ -1874,6 +1874,10 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH040: line-drawing guide refs/001_S09_SH040_lines_d11.mp4 (edgedetect of refs_d11/S09_SH040.mp4) uploaded and filed in REFS (video a972756a-5e12-44e5-89db-8e8efe532d36). REQUEST S09-SH040-a prepared, not submitted: prompts/001_S09_SH040_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder Scenes/S09/SH040. Images: prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179. Estimate 12 credits. [ASSUMPTION] the dead count is twelve (seven he shot: 8 rounds minus the one into the air, per the gun count and S07 SH080 T01; plus the fat person, the second man, three from S08); the CLAUDE brief said 'his eight'. [ASSUMPTION] sun behind the scene at upper left, out of frame; door empty; he stands still by the street light with the folder."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH040-a approved by Leonard ('ok go, 12 credits'). First submission refused by Higgsfield: 429 rate_limit_reached (request id 161c6d62-e141-46a4-921d-1837942d7dd1), no job id, nothing charged. Resubmitted once: refused again, 429 rate_limit_reached (request id 83b97900-b707-4e19-b586-971289d9622c), no job id, nothing charged. Not resubmitted again: waiting for Leonard."
     }
   ],
   "story_sync": {
