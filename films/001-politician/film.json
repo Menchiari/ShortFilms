@@ -2198,6 +2198,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH080 start frame approved by Leonard ('that frame works'), with notes: do not take it too literally (some people have multiple limbs); everyone acts differently, not a single repetition. T02 prompt revised as prompts/001_S07_SH080_T02_v2.txt: the frame gives composition, place, light and positions, not its flaws (one head, two arms, two legs each); a different action for each person in every beat; the shared crowd tactic replaced by individual ones; 'not a single repetition' line. REQUEST S07-SH080-c re-quoted, 15 credits. Waiting for Leonard's go."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH030 T01 done (job cf1abe22, about 65 minutes in queue), downloaded to takes/S09/SH030/001_S09_SH030_T01.mp4, recorded in shotlist.json. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
