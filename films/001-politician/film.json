@@ -1744,6 +1744,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-c approved by Leonard ('go', 18 credits): S06 SH050 T03 submitted, 480p, 21:9, 6 s, audio on, refs 0d0a5637, 24875e9a, 2ed39253, job 55061ebc-6ca8-4b2a-95c3-7f0238525019, folder S06/SH050, prompt 001_S06_SH050_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T02 rated 2 (inferred): Leonard, far from the location; make the location first. The location for this side view is the approved S06 SH060 T02 (same side): first frame saved as refs/001_S06_SH030_loc_from_SH060_T02_f0.png (media 663578f1). REQUEST S06-SH030-ref prepared: empty wider location plate, edit of that frame (people removed, camera pulled back, wall edge to edge, pole in the left third, six meters of pavement), prompts/001_S06_SH030_REF_location-plate.txt, gpt_image_2_6 (the model used for the S06 SH050 still), high, 1k, 21:9, 1.5 credits. Waiting for approval."
     }
   ],
   "story_sync": {
