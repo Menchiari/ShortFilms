@@ -2194,6 +2194,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH060-a approved by Leonard ('ok go, 12 credits'): S08 SH060 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle, loc_heli-cabin, palette_sunset, no previz clip, folder Scenes/S08/SH060, job 522491d4-7d70-4674-9c09-571d333e3196, prompt prompts/001_S08_SH060_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH080 start frame approved by Leonard ('that frame works'), with notes: do not take it too literally (some people have multiple limbs); everyone acts differently, not a single repetition. T02 prompt revised as prompts/001_S07_SH080_T02_v2.txt: the frame gives composition, place, light and positions, not its flaws (one head, two arms, two legs each); a different action for each person in every beat; the shared crowd tactic replaced by individual ones; 'not a single repetition' line. REQUEST S07-SH080-c re-quoted, 15 credits. Waiting for Leonard's go."
     }
   ],
   "story_sync": {
