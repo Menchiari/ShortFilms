@@ -6683,6 +6683,30 @@
               "rating": 1,
               "notes": "REQUEST S08-SH040-a. Folder Scenes/S08/SH040. Seed 175111717. Guide: refs_d11_motion/S08_SH040 as a line drawing (@Video1, media 6bfdd33e). Claude's read: photoreal throughout, real people with real gait, no blocky figures; low sunset sun from screen left behind dust, long shadows, the look holds. Three cracks in the audio at about 0.8 s, 2.9 s and 4.8 s, two seconds apart; three people drop on the left half of the square, the last one running, the rest run off; the earlier dead stay still in a line along the foot of the building. Misses: the old man hangs from a rope with no visible anchor, beside the facade, not from the lamp arm; two street lamps in frame (one left of center, one right) against count one; a few bodies on the ground read stiff, and one dark heap at the center (where the previz has the white body at the lamp foot) is hard to read. Not graphic: no blood. Leonard 2026-11-19: people are like boxes again, he is not at the right spot, pretty bad. Claude's first read (no blocky figures) was wrong. Cause: the line-drawing guide carries the previz mannequins; the bodies on the ground copy their exact positions and rigid poses, and the box at the center is the previz figure at the lamp foot. The corner and the lamp moved from the center of frame to the left, and the rope is not on the lamp.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "2d61a052-6987-46c5-a337-ac243d959080",
+              "prompt": "05-generation/prompts/001_S08_SH040_T02.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_politician_final 547bbfa3 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH040-b. Folder Scenes/S08/SH040. No guide clip. Claude's read: real people, no box shapes; the old man hangs from the arm of the lamp at the building corner, near the center of frame, rope visible; three cracks at about 0.8 s, 2.7 s and 4.7 s; three new dead in natural poses on the left foreground; the crowd crouches and scatters for real. Misses: he hangs high, about two storeys up, not a meter above the paving (S07 has him low among the crowd); the earlier dead at the foot of the building sit in a row against the wall instead of lying; two traffic lights, a road sign and a second lamp at the left against the prompt; the corner sits a little left of center."
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
