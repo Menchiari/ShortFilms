@@ -1,0 +1,44 @@
+Audio: only his hard breaths through clenched teeth, five sharp gunshots, men yelling as they run, running and scuffing footsteps on dusty pavement, bodies thudding onto the pavement, gasps, scattered shouts and screams of a crowd. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_blood: the old man's white hair, build, dusty charcoal suit, stained white shirt and the blood on the right side of his face only, not his pose or background. @prop_gun: the toy gun: its small shape, size and black finish only, not its background. @loc_square: the square: its dusty pavement, the buildings around it, the tall street lamp and the light only, not its framing, people or parked cars. @prop_briefcase: the dark leather briefcase: its shape, leather, handle and latches only.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style, and not the pose of the person in it. Its blank ground and small outlined figures are not the look. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+
+Handheld over-the-shoulder shot from close behind the old man from @char_politician_blood at the corner of a dusty square in a desert town: the toy gun from @prop_gun held out at the end of his extended right arm, he turns from one runner to the next as the crowd around him scatters, and each man who runs at him he shoots, and each one drops where he is and stays there.
+
+Camera: handheld at his shoulder height, about two steps behind him and a little to his right, framing his back, his right shoulder, the back of his white head and his extended right arm in the left third of frame, the gun pointing into the frame toward the center. A slight natural sway, never shaky. The camera turns with him, a beat behind him, every time he swings the gun to a new runner, so the gun and his arm always point into the frame. Camera position, turns and timing as in @Video1.
+
+The square from @loc_square, a real place photographed on location, never blocky or simplified: wide dusty pavement, old apartment buildings around it with ochre plaster, rolled-down metal shutters and balconies, cables across the street, sand drifted along the curbs. The tall street lamp stands a step to his left, at the left edge of frame. The plain concrete wall is behind him and behind the camera, never in frame.
+
+The crowd: about thirty townspeople, men and women of different ages in plain worn everyday clothes, spread across the square in front of him at different distances. Nobody stands still from the first frame to the last: some run away across the square, some crouch low with their hands over their heads, some creep toward him very slowly, half a step at a time, some panic and run into each other. Nobody looks into the lens.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun, warm and turning golden, raking across the square from screen right at the start, throwing long soft shadows of the people sideways across the pavement. Golden dust in the air. A warm rim of sun along the right edge of his white hair and his right shoulder. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-2s: he stands still, the gun aimed along his extended right arm at the crowd straight ahead, the briefcase from @prop_briefcase clamped in his left hand against his left side, mostly hidden by his body. Around him people run and crouch. Far ahead and to the left, a man in a light shirt yells and breaks into a run straight at him.
+2-3s: the old man swings to the left onto him, aims and fires: a small flash at the muzzle, his arm jolting up with the recoil. The man, about thirteen meters away, falls forward in mid-stride onto the pavement and lies still, as if sleeping.
+3-5s: the camera turns further left with him. People around him scream and scatter; some drop into a crouch. A second man runs at him from far over on his left, closer, yelling.
+5-6s: he fires. The second man, about nine meters away, drops onto his side and lies still, as if sleeping.
+6-7s: he swings back to the right, past the first man lying on the pavement, onto a third man already running at him from the right of frame.
+7-8s: he fires. The third man, about nine meters away, drops and lies still, as if sleeping.
+8-9s: he turns left again: a fourth man charges from the left, close.
+9-10s: he fires. The fourth man, about five meters away, drops onto the pavement and lies still, as if sleeping.
+10-11s: at once a fifth man lunges at him from almost the same side, very close; the old man fires again without a pause. The fifth man, about three meters away, drops at the bottom of frame and lies still, as if sleeping, a few meters in front of the fourth and in line with the first.
+11-12s: the old man holds the gun out, the muzzle smoking, his head turning slowly to the next faces. Final frame: from behind his right shoulder, his arm and the gun pointing into the frame, the fifth man lying still at the bottom of frame, the fourth and the first lying still farther away in line behind him, the crowd still moving at the edges: some backing away, some crouching, a few creeping slowly forward. The camera at his shoulder, still gently handheld.
+
+Each man who is hit drops exactly where he is hit, on a different spot of the pavement, and never moves again for the rest of the shot. Hits read as a flinch and a fall, no blood spray, no wounds shown.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, he has never once stopped halfway, and what he carries has to reach the other side of this town.
+GOAL: stay alive: nobody gets to touch him.
+OBSTACLE: they come from every side at once, he cannot watch all of them, and every man who falls makes the rest more desperate.
+TACTIC: he reads the crowd like a field: his eyes sweep the faces and pick out the one who commits to running before his feet do, the gun follows his eyes, he decides, he fires, and his eyes are already leaving the falling man to hunt for the next. No hesitation and no panic: each shot is a decision, cold and quick.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+He keeps his mouth closed: no words. Count of guns: one, the toy gun from @prop_gun, always in his right hand, fired five times, only by the old man. Count of briefcases: one, always in his left hand. Count of men lying on the pavement at the end: five, each in his own spot. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his hard breaths through clenched teeth, five sharp gunshots, men yelling as they run, running and scuffing footsteps on dusty pavement, bodies thudding onto the pavement, gasps, scattered shouts and screams of a crowd. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
