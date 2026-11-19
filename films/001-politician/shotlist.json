@@ -3071,6 +3071,27 @@
                 "everything else in words"
               ],
               "notes": "REQUEST S05-SH020-j, draft, Leonard approved 12 credits (\"just make the fucking shot and try to impress me\"; 480p chosen by Claude, finalizable at 720p). Folder S05/SH020. Character: element char_politician_dusty (1ecc0e0b, image 98e1e69e) as @Image1; everything else in words. Leonard's asks: film look, tall buildings, 35mm, anamorphic, grain, realistic crowd. Claude's read: the strongest film look so far: tall concrete apartment blocks with balconies, AC units and dishes on both sides, a horizontal anamorphic flare across the top, haze and a sun glow at the end of the street, long shadows. He jogs toward the camera down the middle with the case; people stand in doorways and on both sidewalks and turn, some step forward; nobody blocks him. Not as asked: again not a top view; a high angle down the length of the street with a vanishing point, he comes toward the lens instead of left to right. The crowd is almost all middle-aged men in light shirts, no women or boy visible. One white cloth hangs on a balcony at top right (reads like laundry). Grain hard to judge at 480p. Audio not checked by ear."
+            },
+            {
+              "id": "T09",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "86d940c8-afe8-424e-bf75-b59f53f7318c",
+              "prompt": "05-generation/prompts/001_S05_SH020_T09.txt",
+              "file": "05-generation/takes/S05/SH020/001_S05_SH020_T09.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH020_T09.jpg",
+              "references": [
+                "element char_politician_dusty 1ecc0e0b (image 98e1e69e) as @Image1",
+                "everything else in words"
+              ],
+              "notes": "REQUEST S05-SH020-k, 720p (not a draft), Leonard approved (\"ok go\" after Claude recommended 720p, 28 credits). Folder S05/SH020. Character: element char_politician_dusty (1ecc0e0b, image 98e1e69e) as @Image1; everything else in words. Prompt built on research: angle first (bird's eye, 90 degrees straight down, helicopter view from a war film, no sky or horizon), cafe life, parked car, slow overhead track. Claude's read: first true 90-degree top view without a guide clip. The camera tracks slowly left to right, rooftops with water tanks, AC units and cables sliding past; it holds him near the left-center as he jogs. Cafe on the bottom sidewalk: white tables, men seated with glasses, they get up and walk after him; a second cafe awning and a white sedan on the top side, mopeds, people in doorways. People foreshortened from above, real shadows, warm filmic light with a sunlit band across the street. Weak: the blocks read as two or three storeys, not tall (the canyon is shallow); at this size his white hair barely reads, he looks dark-headed in the shade; the people mostly follow behind him rather than drift in from every side. Audio not checked by ear."
             }
           ],
           "description": "From high above: the street, and him running down the middle of it. People step out of doorways and side streets and drift toward him, slowly, from every side.",
