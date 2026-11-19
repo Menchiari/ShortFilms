@@ -3213,6 +3213,30 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH110-i (video). Folder S05/SH110. Start frame method: gpt_image_2_6 still over animatic d11 frame 0 with every shape named (job 0742a0d8, frames/001_S05_SH110_T09_start.jpg, start_image 9701d11a), plus the bond image for the paper's look. No animatic video. Claude's read: works. One continuous take (no cut detected), photoreal, no box shapes, the same people and street as the still for the whole shot. About five small sheets cross high in the sky, never near the lens. The people follow them, then lower their eyes; the heavy man in the dark jacket turns and looks down past the camera, hard. The frame opens a little wider than the still (frame 0 SSIM to the still 0.56): the start image was taken partly as a reference. A few people end looking toward the camera. Credits: 12 video + 1.5 still. Leonard 2026-11-19: only four sheets, and they come from the sky: they must fly from the ground up into the sky. This is Europe: what happened to the film's town?"
+            },
+            {
+              "id": "T10",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 13.5,
+              "job_id": "6bbc6108-23a6-4ec0-a1e6-49a8279dccaa",
+              "prompt": "05-generation/prompts/001_S05_SH110_T10.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T10.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T10.jpg",
+              "references": [
+                "start frame 86db906e (start_image): frames/001_S05_SH110_T10_start.jpg, gpt_image_2_6 job 41de2b42 (T09 still + loc_side-street e728a9ae)",
+                "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-j (video). Folder S05/SH110. Start frame: edit of the T09 still with loc_side-street (job 41de2b42, frames/001_S05_SH110_T10_start.jpg, start_image 86db906e), plus the bond image for the paper. Claude's read: one continuous take (no cut detected), the film's dusty concrete town, the same people as the still. The paper rises from the ground at the bottom left of frame, through the people and up into the sky (0-1.5 s), as asked; it never covers the lens. About fifteen sheets at the start, but in the sky they multiply into thirty or more small flakes from 1.5 s. The people follow it up, then lower their eyes; the heavy man in the dark jacket turns and looks down past the camera, hard; the hoodie shades his eyes. Credits: 12 video + 1.5 still."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
