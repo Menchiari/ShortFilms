@@ -1860,6 +1860,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard: 'Maybe a sequel of the shot I don't know'. REQUEST S07-SH040-h prepared, not submitted: prompts/001_S07_SH040_T05_v2.txt, a forward extension of T02 (2ab4d6ba) built on T04 (handheld, steel pipe, punches) with one change: nobody's whole body near the camera, only the pipe, hands, fists and forearms enter from the frame edges, so the inverted orientation of T02's world never shows on the attackers. char_big-guy removed. seedance_2_5 video_extension, 5 s, 480p, audio on, char_politician_blood 0d0a5637. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-h approved by Leonard ('approved, go with S07-SH040-h'; estimate 15 credits). First call refused before start: 429 rate_limit_reached, no job id, no charge in the transactions. Submitted once more: 7b9b3d63-51c4-420f-8592-23458e452c8d, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T05_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T05 downloaded (001_S07_SH040_T05.mp4, 15 credits, 5 s extension of T02, new seconds only): steel pipe and fists from the frame edges, no attacker's body near the camera. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
