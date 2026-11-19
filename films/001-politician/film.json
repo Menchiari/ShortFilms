@@ -1836,6 +1836,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH040 T03: 'good, make the pipe metal and the punches clearer, make the camera move disorienting, more movement, more people moving' (rating 4, inferred). REQUEST S07-SH040-e prepared, not submitted: prompts/001_S07_SH040_T04.txt, a new forward extension of T02 (2ab4d6ba) replacing T03: steel pipe described, three readable punches, handheld disorienting camera inside the crowd (Leonard's direction; the screenplay note says locked-off), more people. Soft wording kept from T03_v2. seedance_2_5 video_extension, 5 s, 480p, audio on, char_politician_blood 0d0a5637, char_big-guy 6228445b. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-e approved by Leonard ('approved, go with S07-SH040-e'; estimate 15 credits) and submitted: 893f9710-429b-4e58-816b-32a621322f41, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T04 downloaded (001_S07_SH040_T04.mp4, 15 credits, 5 s extension of T02, new seconds only): steel pipe, handheld disorienting camera. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

@@ -5831,6 +5831,28 @@
               "notes": "REQUEST S07-SH040-d: forward extension of T02, Leonard's sequel (pipe hit, shoves, punches and kicks). First submission S07-SH040-c (11f6e743, prompt T03.txt) blocked as nsfw and refunded; this softened v2 passed. The file holds only the 5 new seconds (T02 is 4.06 s): play T02 then T03 for the continuous take. Claude's read (frames at 2 fps, audio levels only, not listened: mean -27.6 dB, peak -7.5 dB): continues T02's frame (world still upside down). About 1 s the fat man enters at screen right, also upside down like the world, and swings the pipe; the old man's arm comes up and he swings away. Through 1.5-4 s hands from the crowd shove him and he turns and swings on the rope, face often hidden. Red marks on his face read in the last second. Possible faults: the pipe reads brown, more like a wooden stick than metal; individual punches and kicks are not clearly readable at 2 fps, shoves are. Leonard 2026-11-19: 'good, make the pipe metal and the punches clearer, make the camera move disorienting, more movement, more people moving' (rating 4, inferred).",
               "rating": 4,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "893f9710-429b-4e58-816b-32a621322f41",
+              "prompt": "05-generation/prompts/001_S07_SH040_T04.txt",
+              "file": "05-generation/takes/S07/SH040/001_S07_SH040_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH040_T04.jpg",
+              "references": [
+                "video T02 2ab4d6ba (extended forward)",
+                "char_politician_blood 0d0a5637",
+                "char_big-guy 6228445b"
+              ],
+              "notes": "REQUEST S07-SH040-e: forward extension of T02 (replaces T03), Leonard's T03 notes (metal pipe, clearer punches, disorienting camera, more movement and people). Passed the filter first time. File holds the 5 new seconds only: play T02 then T04. Claude's read (frames at 3 fps, audio levels only, not listened: mean -24.8 dB, peak -5.0 dB, the loudest take): world still upside down as in T02. The pipe reads as bare silver steel at about 0.7 s. The camera is handheld from about 0.3 s: it tilts, lurches, pushes in; about 2.3-2.7 s a passing body blacks out the whole frame, then a foreground fist swings past the lens near 3 s. Denser crowd, more movement. Possible faults: the man swinging the pipe (mustache, grey T-shirt) may not match char_big-guy, to check against the element; blood on his face reads in the last second."
             }
           ],
           "description": "His face: bruised, a split lip, blood from his ear. With effort, he opens one eye, and panic takes him: he twists on the rope, gasping, eyes darting for a way out.",
