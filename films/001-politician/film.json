@@ -1575,6 +1575,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025 T02 delivered (job f667821b, 12 credits): real speed and empty shells fixed, five shots; background still distant. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 gun still: production-plan rule 4 applied ('just do it'). Resubmissions 1-10 of the unchanged prompt (jobs 85724c06, d570e4ef, 2cc1affc, bc1b2685, 636fb0cc, 6aab8662, 8454edd5, 47248a6a, 063c6ea4, 2cd28ab0) all flagged nsfw, each 1.5 refunded (transactions 12:35-12:39). Net spend 0. Limit of 10 reached: stopped. T02 not submitted."
     }
   ],
   "story_sync": {
