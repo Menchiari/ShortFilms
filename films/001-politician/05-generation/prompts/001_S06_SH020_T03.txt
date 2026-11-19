@@ -1,0 +1,48 @@
+Audio: only his hoarse yelling, the men's shouts and threats, five sharp gunshots, the screams and shouting of a crowd that turns to panic after every shot, running and scuffing feet on gritty asphalt, a steel crowbar clanging onto the asphalt, bodies thudding onto the asphalt, his ragged panicked breathing. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_blood: the old man's face, thinning sweat-wet brown hair, heavy build, dusty charcoal suit, stained white shirt, rust tie and the fresh wound on his right eyebrow only, not his pose or background. @prop_gun: the toy gun: its small shape, size and black finish only, not its background. @loc_side-street: the street: its cracked ochre plaster, rolled-down metal shutters, small balconies, sagging cables and gritty asphalt only, not its framing, people or cars. @prop_briefcase: the dark leather briefcase: its shape, leather, handle and latches only, not its background.
+
+Handheld over-the-shoulder shot, live-action 35mm film footage, from close behind the old man from @char_politician_blood, trapped against a wall at the mouth of a narrow street packed with an angry crowd: panicking and furious, he screams at them to stay back with the toy gun from @prop_gun shaking in his right hand; a man comes at him with a crowbar and he fires only when there is nothing else left; then they keep coming at him one after another, faster and faster, and five times in all he fires and a man drops where he is.
+
+He is an untrained old man who has never fired at anyone. He holds the gun out in his right hand with the elbow bent, the arm trembling, never locked straight and never steady; he jabs it at faces as he yells; each shot kicks the gun up and makes his whole body flinch, and he stumbles half a step back. His head whips from side to side, he never knows where the next one comes from. His left hand still clamps the briefcase from @prop_briefcase against his left side. All his movements are clumsy, heavy, real, never smooth.
+
+Camera: handheld at his shoulder height, about a step behind him and a little to his right, his back, right shoulder, the back of his head and his gun arm in the left third of frame. A real operator caught in the panic: the camera jolts on every shot, gets bumped, swings late after his gun when he turns, searches and recovers. Never smooth, never floating.
+
+The street from @loc_side-street, a real narrow street photographed on location: about eight meters from wall to wall, three- to five-storey buildings close on both sides, the facades filling the frame left and right, rolled-down shutters, balconies, cables sagging across, chipped curbs, grit and sand on the asphalt. Only a strip of hazy sky at the top of frame. No open square, no wide road, no towers, no parked cars.
+
+The crowd: a mixed crowd filling the street in front of him, loosely spread, never in rows, never a still wall: people of every background, Asian, white, Black, Mediterranean and Middle Eastern, men and many women, young and old, in plain worn everyday clothes. Every one of them moves all the time: shifting, edging forward, shouting, pulling at each other. After every shot more of them break and panic: a wave of screams, people turning and running back down the street, shoving and stumbling into each other, some dropping to a crouch with their hands over their heads, women dragging others away, while a few angry men push forward through them. Each shot leaves the crowd more broken and more chaotic. Nobody looks into the lens.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun turning golden, raking down the street from screen right, one side of the street in warm light, the other in deep shadow, golden dust hanging in the air. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-3s: slow. He backs into the wall behind him, gun shaking out in front of him, swinging it from face to face, yelling his first line. The crowd edges up the street toward him, shouting. A big man in a light shirt steps out of the front of the crowd with a steel crowbar in his right hand and walks slowly, steadily, straight at him, raising the crowbar.
+3-5s: the old man yells his second line at the man with the crowbar, backing until the wall stops him, the gun shaking at the man's chest, not firing, begging him with his eyes to stop. The man with the crowbar keeps coming, then breaks into a run and swings the crowbar up over his head, two steps away.
+5-6s: only now, with nowhere left to go, the old man fires: a flash, the gun kicks up, he flinches. The man with the crowbar collapses forward onto the asphalt about two meters in front of him and lies still, as if sleeping; the crowbar clangs onto the asphalt beside him. The crowd screams and a wave of people panics and runs back down the street.
+6-8s: out of the panic a second man bursts forward on the right, shoving people aside, pointing at the old man, roaring his line as he runs at him. The old man yells his third line, the gun shaking at him; the man keeps coming, close, and the old man fires. The second man drops about four meters away near the right-hand curb and lies still, as if sleeping. More screams, more people flee.
+8-10s: faster now. A third man runs straight up the middle; the old man screams at him to stop and fires; the man falls in the middle of the street about five meters away and lies still, as if sleeping. At once a fourth man charges from the left; the old man whips the gun to him and fires; the man drops on the left sidewalk about four meters away and lies still, as if sleeping. The crowd is in full chaos: people running in every direction.
+10-11s: a fifth man is already on him from the right; the old man swings back, stumbling, and fires almost point blank. The man drops at the bottom right of frame, two meters in front of him, and lies still, as if sleeping.
+11-12s: the old man, gasping, hoarse, the gun shaking at the crowd, yells his last line. Final frame: from behind his right shoulder, his trembling gun arm pointing into the frame, the five men lying still on the asphalt where they fell, the crowbar on the asphalt beside the first, the crowd beyond them scattered and panicking: many running away, some crouching, a few angry men still edging forward. The camera still at his shoulder, unsteady.
+
+Dialogue: everyone speaks English. The old man is American with a slight accent; the men in the crowd speak with strong accents nobody can place.
+0-2s, the old man's first line (warning them off, the gun up): {Stay back! Stay back!}
+3-5s, the old man's second line (begging the man with the crowbar to stop): {Don't! Don't do it!}
+6-7s, the second man's line (charging, out for revenge): {I'm going to kill you!}
+6-8s, the old man's third line (pleading and furious at once): {Go back! Go back!}
+8-9s, the old man's fourth line (screaming at the third man): {Stop!}
+11-12s, the old man's last line (hoarse, raging at all of them): {Get away from me!}
+Between their lines the men in the crowd shout over each other, no words clear. The men who are hit say nothing. The man with the crowbar keeps his mouth shut, his eyes on the old man.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): his whole life has been one fight after another, and he refuses to die on this street.
+GOAL: make them stop coming, without having to shoot anyone else.
+OBSTACLE: every man he shoots makes the rest angrier, there are more of them every second, the wall is at his back and there is nowhere left to go.
+TACTIC: he shouts them down and threatens with the gun to scare them off, his eyes jumping from face to face hunting for the one who is about to charge, begging each one with his eyes to turn back; he holds his fire as long as he can and fires only in the last instant, when a man is about to reach him and there is nothing else he can do; he hates that he did it, and his eyes are already on the next one, pleading, furious at them for forcing him.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Each man who is hit drops exactly where he is hit, on his own spot of the asphalt, and never moves again for the rest of the shot. Hits read as a flinch and a fall, no blood spray, no wounds shown. Count of guns: one, the toy gun from @prop_gun, always in his right hand, fired five times, only by the old man. Count of briefcases: one, always in his left hand. Count of crowbars: one, held only by the first man, then lying beside him. Count of men lying on the asphalt at the end: five. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his hoarse yelling, the men's shouts and threats, five sharp gunshots, the screams and shouting of a crowd that turns to panic after every shot, running and scuffing feet on gritty asphalt, a steel crowbar clanging onto the asphalt, bodies thudding onto the asphalt, his ragged panicked breathing. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

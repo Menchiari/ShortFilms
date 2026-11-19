@@ -1369,6 +1369,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020 T02 downloaded (takes/S06/SH020/001_S06_SH020_T02.mp4, 12 s, 36 credits, job b22cb7b0). Narrow street reads; crowd a static wall, not chaos. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH020 T02 rated 4 (inferred, 'very good'). REQUEST S06-SH020-c prepared, not submitted: prompts/001_S06_SH020_T03.txt = T02 with Leonard's changes only (crowbar for the first man, panic waves after each shot, diverse crowd with women, he fires only at the last instant, slow start then faster: first shot at about 5 s). Same settings and images as T02. New body map in the prompt: crowbar man about 2 m in front of him (crowbar beside him), then about 4 m right curb, 5 m center, 4 m left sidewalk, 2 m bottom right. Cost check 36 credits, waiting for approval."
     }
   ],
   "story_sync": {
