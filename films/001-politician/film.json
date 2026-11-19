@@ -1828,6 +1828,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH050 T03 (rating 2 inferred): crowd all Middle Eastern men, add women; a simple thin rod, not a big pipe; he hits the man many times; raw, violent, realistic rage, not epic; everyone closer. This changes the shot's action from the screenplay (slow lift, hold, one swing) to repeated blows: SH060 (one blow rebounding off the forearm) may need Leonard's call. REQUEST S07-SH050-d prepared: prompt 001_S07_SH050_T04.txt (thin rod, about six blows landing just below frame with camera jolts, crowd at arm's length, half women with ten named different faces, an anti-clone line on char_big-guy, flat hazy light, no blood), same settings and refs. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-d approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 38f2cec0-da76-4dba-a3e8-17185b49bdd3). No job in folder S07/SH050. A Seedance 2.5 spend of 15 credits appears at 15:26:28Z with no refund yet; I don't know if it is this refused request or another session's job (other sessions spend at the same time). Not retried; waiting for Leonard."
     }
   ],
   "story_sync": {
