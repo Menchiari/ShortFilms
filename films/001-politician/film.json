@@ -1856,6 +1856,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on the S07 SH040 plan (start frame cf9ae676 plus REQUEST S07-SH040-g, 8 s from the frame): 'no, I don't like this plan'. REQUEST S07-SH040-g dropped, not submitted. Reason not given yet."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard: 'Maybe a sequel of the shot I don't know'. REQUEST S07-SH040-h prepared, not submitted: prompts/001_S07_SH040_T05_v2.txt, a forward extension of T02 (2ab4d6ba) built on T04 (handheld, steel pipe, punches) with one change: nobody's whole body near the camera, only the pipe, hands, fists and forearms enter from the frame edges, so the inverted orientation of T02's world never shows on the attackers. char_big-guy removed. seedance_2_5 video_extension, 5 s, 480p, audio on, char_politician_blood 0d0a5637. Estimate 15 credits."
     }
   ],
   "story_sync": {
