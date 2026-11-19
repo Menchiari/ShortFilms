@@ -6562,6 +6562,30 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH010-a. Folder S08/SH010. Text and elements only, no guide clip. Claude's read: photoreal, d8 framing held (tall block at screen left, diagonal roofline with dishes, water tank and antennas at screen right, sunset haze). The helicopter holds still for 4 s, rotors turning, camera locked. Misses: it is about 30% of frame width, not 10%: it reads close and low over the roof, seen from below, not far beyond the rooftops; it reads grey-brown in the backlight, not matte black; a figure seems to sit in the open door (prompt said empty). Audio present (mean -31 dB); Claude cannot listen, so music is not verified. Leonard 2026-11-19: no, the shot doesn't work; show the helicopter trying to stabilize, the sniper inside, less like a 2D sprite, the same exact angle as the element. Cause (Claude, checked side by side): prop_helicopter is one photo in one pose (side profile, nose right, banked, backlit), and the take copied it like a cutout."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "39ded370-375f-4b67-93bc-38348df288aa",
+              "prompt": "05-generation/prompts/001_S08_SH010_T02.txt",
+              "file": "05-generation/takes/S08/SH010/001_S08_SH010_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH010-b. Folder S08/SH010. No helicopter element: the Black Hawk described in words; loc_square, palette_sunset. Claude's read: a real, solid UH-60 in three-quarter front view, nose to screen left, dark olive-black; it bobs and shifts a little in place (the stabilizing reads mildly); one figure sits in the open door, legs hanging out, the rifle not clearly readable at 480p; sun in frame at the right, warm haze, real rooftops with tanks, dishes and antennas. Misses: about 45% of frame width and low just above the near roofs, not far beyond them; the tall block at screen left is gone (d8 framing lost). Audio present (mean -30 dB); Claude cannot listen, music not verified."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
