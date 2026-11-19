@@ -1383,6 +1383,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH060: Higgsfield folder S06/SH060 created (3bb5a842-039d-44ad-b40c-73d57cf69bc2). Guide: refs_d11_motion/S06_SH060 as a line drawing (05-generation/refs/001_S06_SH060_lines_d11_motion.mp4, media 23abbe13). Body map from animatic d11 (SH020/SH030/SH040 have no takes yet). T01 prompt 001_S06_SH060_T01.txt: omni_reference, loc_square, char_politician_blood, prop_gun, prop_briefcase, @Video1 lines. REQUEST S06-SH060-a quoted at 12 credits (480p, 21:9, 4 s, audio on), waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH070 T04 in (job d446c3ae, 28 credits): T02's performance re-rendered at 720p almost frame for frame, but no sharper than T02 (edge energy 11.45 vs 12.45 for a bicubic upscale of T02). Lesson: a soft 480p take used as @Video1 passes its softness to the new render. SH070 total 83 credits."
     }
   ],
   "story_sync": {
