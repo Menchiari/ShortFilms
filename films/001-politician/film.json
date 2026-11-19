@@ -1772,6 +1772,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 T03 rated 4 (inferred: 'perfect aside from 2 things'): a gunshot is heard; at the end he looks away instead of at the crowd behind the camera. T04 prompt prompts/001_S06_SH050_T04.txt: video_edit of T03 (no gunshot at 1.5-2.5 s, eyes to the crowd just beside the lens at 4-6 s). REQUEST S06-SH050-d quoted 22 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 location plate v1, Leonard: does not look like a street. Cause: it copied only SH060 T02's close wall. Continuity now from the approved S06 SH020 T05 (shotlist body_map): a flat concrete wall at the mouth of a street 8 to 12 m wide, apartment facades beyond, sun down the street. REQUEST S06-SH030-ref2 prepared: plate v2, prompts/001_S06_SH030_REF_location-plate_v2.txt, gpt_image_2_6 high 1k 21:9, images plate v1 (c2998d8e, wall texture) and SH020 T05 frame at 1 s (refs/001_S06_SH030_street_from_SH020_T05.png, media 2ec9392e), 1.5 credits. Waiting for approval."
     }
   ],
   "story_sync": {
