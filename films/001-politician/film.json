@@ -183,7 +183,8 @@
       "S06/SH010": "aa476f5c-8afe-4d46-9a7b-e521d282cfd5",
       "S06/SH020": "53803a54-4201-44dd-b971-e16861446597",
       "S06/SH040": "4b5a5226-db91-4590-857e-e90a3c424ab7",
-      "S06/SH050": "ed087653-fb3e-46ab-8557-cfc7773e18e1"
+      "S06/SH050": "ed087653-fb3e-46ab-8557-cfc7773e18e1",
+      "S06/SH030": "e4ad636e-af8e-438d-85e3-682a4756d286"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1369,6 +1370,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S05-SH020-j done (12 credits): S05 SH020 T08 daf7c05f, element char_politician_dusty as @Image1 plus words, 480p draft, 21:9, 4 s. Tall blocks, anamorphic flare, haze: strongest film look so far; again a high angle down the street, not a top view; crowd almost all middle-aged men."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 session: Higgsfield folder S06/SH030 created (e4ad636e-af8e-438d-85e3-682a4756d286). SH020 has no take yet: body map taken from animatic d11 (five dead between him and the crowd: two near him by the lamp, one behind the near runner, two mid-square)."
     }
   ],
   "story_sync": {
