@@ -198,7 +198,16 @@
       "S07/SH070": "a6bb5665-870f-4cbf-9b35-4e27d1ab5695",
       "S07/SH080": "65521045-37a5-4386-9190-ac22c9e67065",
       "S09": "b2e1fcd6-c49d-44b2-8f06-bcf74a1ba0b7",
-      "S09/SH010": "ce52aac5-c927-4805-a7e5-d5eb78bb051f"
+      "S09/SH010": "ce52aac5-c927-4805-a7e5-d5eb78bb051f",
+      "S08": "2d172cf6-b332-40e2-b3aa-f34b1ea3a3b5",
+      "S08/SH010": "6d843175-0176-4446-97b9-4390b7a66f2a",
+      "S08/SH020": "04e746a2-441f-40c3-a221-97c43c793d12",
+      "S08/SH030": "81f7ed35-e542-41ec-8f48-daf8c20096ec",
+      "S08/SH040": "85621e5b-d021-4132-b712-85db8a01015a",
+      "S08/SH050": "78a595cb-1074-4a24-9157-d364ba63c414",
+      "S08/SH060": "002e09b1-a39f-47ed-be9e-f96f78db5261",
+      "S08/SH070": "7a96506e-3b26-4bd0-8ece-4e0b50d06f46",
+      "S08/SH080": "d77580f7-e4c6-4d1d-b5c5-94bb824265af"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1816,6 +1825,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 plate v2, Leonard: go, but the wall should continue up with windows. REQUEST S06-SH030-ref3 prepared: start frame v1 = edit of plate v2 (0312506b): the wall becomes the ground floor of an apartment building rising out of frame, plus the old man at the wall by the pole, the five bodies per the SH020 T05 body map with the short pipe, and the front of a mixed crowd at screen right. prompts/001_S06_SH030_REF_start-frame_v1.txt, gpt_image_2_6 high 1k 21:9, images plate v2, char_politician_blood 0d0a5637, prop_gun 24875e9a, prop_briefcase 4bf36cb5, 1.5 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Higgsfield: created S08 inside Scenes with SH010 to SH080."
     }
   ],
   "story_sync": {
