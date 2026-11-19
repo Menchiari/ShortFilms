@@ -1776,6 +1776,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 location plate v1, Leonard: does not look like a street. Cause: it copied only SH060 T02's close wall. Continuity now from the approved S06 SH020 T05 (shotlist body_map): a flat concrete wall at the mouth of a street 8 to 12 m wide, apartment facades beyond, sun down the street. REQUEST S06-SH030-ref2 prepared: plate v2, prompts/001_S06_SH030_REF_location-plate_v2.txt, gpt_image_2_6 high 1k 21:9, images plate v1 (c2998d8e, wall texture) and SH020 T05 frame at 1 s (refs/001_S06_SH030_street_from_SH020_T05.png, media 2ec9392e), 1.5 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH010-ref approved by Leonard ('ok go'): S07 SH010 start frame, seedream_v5_pro 2k 21:9, job b428e5e5-2060-4462-8fb2-3ee7a03117c4, folder Scenes/S07/SH010, 2.5 credits, refs loc_square 62815a4f and the d11 motion previz frame 0 as line drawing (media 66a85ed9). Prompt prompts/001_S07_SH010_REF_startframe.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe.png. Claude's read: photoreal steep rooftop view, concrete wall corner with one lamp post, dense knot at its foot, people streaming in from all sides with long shadows; about six bodies readable (eight asked); crowd mostly men in beige and dark clothes, few women readable."
     }
   ],
   "story_sync": {
