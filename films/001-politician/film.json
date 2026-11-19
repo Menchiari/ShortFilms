@@ -1346,6 +1346,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH010: Higgsfield folder S06/SH010 created inside S06 (aa476f5c-8afe-4d46-9a7b-e521d282cfd5)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH080: Leonard flagged images named instead of elements. Root cause in stories/MISTAKES.md (old template from the brief, PROMPTING.md read once before its 2026-11-18 17:36 naming rule, later prompts copied from T01). REQUEST S04-SH080-c now uses prompts/001_S04_SH080_T03_v2.txt: @char_big-guy (@Image1), body names only @char_big-guy. Same inputs, 18 credits."
     }
   ],
   "story_sync": {

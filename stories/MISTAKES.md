@@ -3,6 +3,18 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-19, Politician S04 SH080 T01 and T02 (27 credits)
+
+- **What:** both prompts named the reference as "@Image1" and the fat man as "the fat man from @Image1" instead of
+  the element `@char_big-guy (@Image1)` and `@char_big-guy` in the body (docs/PROMPTING.md step 2). The T03 draft
+  repeated it.
+- **Cause:** the session brief named an old prompt (001_S03_SH010_T01.txt) as house template. I read PROMPTING.md
+  once at session start; the naming rule changed in it at 17:36 UTC the same day, and every later prompt was a copy
+  of my own first one, so the old naming carried forward. The pulls brought the new rule; I never re-read it.
+- **Rule:** before writing or copying any prompt, re-read docs/PROMPTING.md step 2 from freshly pulled main and
+  start from the template it names, never from a brief's template or an older prompt. Before every cost preflight,
+  check: every reference line reads `@char_/@prop_/@loc_<name> (@ImageN)`, and the body uses only those names.
+
 ## 2026-11-18, Politician S02 SH050 T03 and T04 (24 credits)
 
 - **What:** in both takes the car reaches the foot of the towers in two seconds: the town reads as a toy model (Leonard).
