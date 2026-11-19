@@ -4,7 +4,7 @@ Audio: only his short, shaking breaths through his nose, the soft rustle of his 
 
 Close-up, fully frontal and locked-off, of the old man from @char_politician_blood with his back to a concrete wall at the corner of a dusty square in a desert town: eyes shut tight, he raises the empty toy gun from @prop_gun to his own temple and presses its dead trigger, nothing at all happens, he opens his eyes, looks at the gun in his hand and sees that it is empty.
 
-His face, as in @char_politician_blood: a split in his right eyebrow; dried and fresh blood runs from it down the right side of his face (screen left), past the outer corner of his right eye and down his cheek. Dust and sweat on his skin. His white hair messed and dusty.
+His face, as in @char_politician_blood: a split in his right eyebrow; dried and fresh blood runs from it down the right side of his face (screen left), past the outer corner of his right eye and down his cheek. Dust and sweat on his skin. His hair messed and dusty.
 
 The toy gun from @prop_gun is in his right hand (screen left) for the whole shot, black from the first frame to the last. It is empty and cannot fire: its slide is locked all the way back from the first frame to the last, exactly as in @Image3: the back of the slide stands out behind his hand and the short bare barrel shows in front of it. It never fires: no shot, no bang, no flash, no smoke, no recoil, no jolt of the hand or head, no casing, the slide never moves. Count of guns: one.
 
@@ -24,7 +24,7 @@ SCENE DIRECTION (shared, unspoken): just another day, another fight: get through
 MOTIVE (his fuel): he has never once let anyone else decide how a fight of his ends, and he has counted his bullets down to the last one, the one he kept for himself.
 GOAL: end it on his own terms, before the crowd gets its hands on him.
 OBSTACLE: his own hand trembles, and the crowd is coming closer every second.
-TACTIC: with his eyes shut he locks the whole world out and steadies the hand by will, the way he has always forced himself through the worst rooms; he commits and squeezes. When nothing happens he opens his eyes and checks the gun the way a professional checks his tools: he reads the slide, counts back the shots in his head, and finds that he counted wrong. He takes it in fully, without a word, and keeps his mouth closed.
+TACTIC: with his eyes shut he locks the whole world out and steadies the hand by will, the way he has always forced himself through the worst rooms; he commits and presses the trigger. When nothing happens he opens his eyes and checks the gun the way a professional checks his tools: he reads the slide, counts back the shots in his head, and finds that he counted wrong. He takes it in fully, without a word, and keeps his mouth closed.
 (Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
 
 He keeps his mouth closed: no words. Count of people in frame: one, the old man. Count of guns: one, the empty toy gun, never fired, its slide locked back, always black. Locked-off camera, no zoom, no push-in. All movement at real-life speed, no slow motion, no cuts.

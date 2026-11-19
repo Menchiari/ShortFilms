@@ -1615,6 +1615,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH020-d approved by Leonard ('ok go', 36 credits): S06 SH020 T04 submitted, job a182fcd6-2aa1-49e5-b112-2a8a21f8ba60, seedance_2_5 omni_reference, 480p, 21:9, 12 s, audio on, folder S06/SH020, prompt 001_S06_SH020_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-ref-v2 approved by Leonard ('try the reworded v2'): gpt_image_2_6 high 1k 3:2, job 2ed39253-fa1c-45b4-b8a3-da2197fb974d, REFS, 1.5 credits, prompt prompts/001_S06_SH050_REF_gun-slide-locked_v2.txt. Passed. Slide reads locked back, barrel and port open. Saved as 03-bible/props/refs/prop_gun_slide-locked.png."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-b (approved with 'Do it'): S06 SH050 T02 submitted, 480p, 21:9, 6 s, audio on, 18 credits, refs char_politician_blood 0d0a5637, prop_gun 24875e9a, gun still 2ed39253, job b178242a-3395-4c78-809b-d3ad11f6b8a6, folder S06/SH050, prompt 001_S06_SH050_T02.txt."
     }
   ],
   "story_sync": {
