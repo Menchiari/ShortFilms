@@ -1361,6 +1361,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-ref approved by Leonard with -b ('Do it'): gun still submitted (gpt_image_2_6, job 3d549c5d-37d8-47c7-8910-934e85430c52, REFS) and flagged nsfw by Higgsfield's safety system. Refund of the 1.5 credits not verified. T02 (S06-SH050-b) not submitted: it needs the still. Reworded prompt ready: prompts/001_S06_SH050_REF_gun-slide-locked_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 gun still (job 3d549c5d): 1.5 credits refunded 11:43:51 (transactions). Resubmission 1 of 10 under production-plan rule 4 (unchanged prompt) was denied by this session's auto-mode permission classifier before reaching Higgsfield: nothing submitted, nothing spent."
     }
   ],
   "story_sync": {
