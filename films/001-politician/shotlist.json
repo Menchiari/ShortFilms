@@ -5988,7 +5988,7 @@
               "prompt": "05-generation/prompts/001_S07_SH050_T02.txt",
               "file": "05-generation/takes/S07/SH050/001_S07_SH050_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH050_T02.jpg",
               "references": [
                 "@char_big-guy 6228445b",
                 "@loc_square 62815a4f",
