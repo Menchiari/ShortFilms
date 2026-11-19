@@ -7067,7 +7067,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7138,10 +7138,10 @@
                 "loc_square 62815a4f (image_references)",
                 "palette_sunset 1f563179 (image_references)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S08-SH010-c. Folder S08/SH010. Start frame v1 (Seedream 8f2af3e5) as start_image (the API echo listed it under reference_images; the takes's frames match the still, so it was used), loc_square, palette_sunset, no guide clip. Claude's read: the animatic composition held for the whole 4 s: the tall balconied block at screen left, the lower block's roof edge diagonal at right, the helicopter in the sky upper middle, nose left, a real UH-60, about a fifth of frame width. It drifts a little side to side and shifts its attitude slightly: a hover, the fight for stability subtle. A man is visible in the open door, the rifle not readable at 480p. Sky pale warm cream as in the start frame. Camera locked. Audio present (mean -29 dB); Claude cannot listen, music not verified."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH010-c. Folder S08/SH010. Start frame v1 (Seedream 8f2af3e5) as start_image (the API echo listed it under reference_images; the takes's frames match the still, so it was used), loc_square, palette_sunset, no guide clip. Claude's read: the animatic composition held for the whole 4 s: the tall balconied block at screen left, the lower block's roof edge diagonal at right, the helicopter in the sky upper middle, nose left, a real UH-60, about a fifth of frame width. It drifts a little side to side and shifts its attitude slightly: a hover, the fight for stability subtle. A man is visible in the open door, the rifle not readable at 480p. Sky pale warm cream as in the start frame. Camera locked. Audio present (mean -29 dB); Claude cannot listen, music not verified. Leonard 2026-11-19: awesome."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
