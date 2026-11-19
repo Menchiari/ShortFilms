@@ -2134,6 +2134,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH040-a approved by Leonard ('ok go, 12 credits'). First submission refused by Higgsfield: 429 rate_limit_reached (request id 161c6d62-e141-46a4-921d-1837942d7dd1), no job id, nothing charged. Resubmitted once: refused again, 429 rate_limit_reached (request id 83b97900-b707-4e19-b586-971289d9622c), no job id, nothing charged. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH110-a approved by Leonard ('ok go, 12 credits'). Submission refused twice by Higgsfield: 429 rate_limit_reached (request ids 6d7e1347-8d48-483c-af96-1245f08e3fb1, 725d63a9-11c4-4cc1-8a5c-a1afaeda5945), no job id returned, nothing generated. Not resubmitted again: waiting for Leonard."
     }
   ],
   "story_sync": {
