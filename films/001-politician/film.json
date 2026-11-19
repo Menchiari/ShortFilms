@@ -2554,6 +2554,34 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH010 T02 rated 4 (inferred, Leonard: 'ok cool works whatever'); shot approved. T01 left unrated (Leonard's only note: the first frame must have nobody around him). Credits this shot: 2.5 + 2.5 + 2.5 (stills) + 15 + 15 (takes) = 37.5."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060, with a still (heavy-set man with long curly hair and beard facing the lens with a dark bar, a mixed crowd pointing): you forgot the politician's reactions, protecting himself; make the character swing from this frame; I like this crowd, mark it down. Crowd rule added to 03-bible/style.md (Prompt density), still saved as 03-bible/style-refs/crowd_leonard.png and 05-generation/refs/001_S07_SH060_REF_startframe_leonard.png (+ _992 cropped 21:9, upload 41984959). REQUEST S07-SH060-g prepared: T05, omni_reference, start_image Leonard's frame, char_politician_blood for his sleeves and hands, 5 s 480p 21:9 audio on, prompt prompts/001_S07_SH060_T05.txt: his POV, two swings, his forearms come up into frame and block, he gasps and growls, camera jolts. [ASSUMPTION] POV, upright (rotate 180 in the edit if wanted), no char_big-guy or prop_bar-weapon (the frame differs). Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-g approved by Leonard ('ok go, 15 credits'): T05 submitted, job 2b116c7b-7455-4944-8c42-9556e6d393c8, omni_reference, start_image 41984959 (the job echo lists it under reference_images), char_politician_blood, 5 s 480p 21:9 audio on, folder S07/SH060."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T05 done (REQUEST S07-SH060-g, 15 credits, job 2b116c7b): POV from Leonard's frame, takes/S07/SH060/001_S07_SH060_T05.mp4. Clean wind-up, forearms come up and block at about 1.15 s, then they stay crossed and almost rigid over the lower two thirds of frame, hiding the second swing. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060 T05: try again with the sequel, but no arms. REQUEST S07-SH060-h prepared: T06, omni_reference from Leonard's frame (41984959) only, 5 s 480p 21:9 audio on, prompt prompts/001_S07_SH060_T06.txt: his POV, nothing of him in frame, three swings, each blow jerks the frame away and it fights back to face the man, gasps and growls. Estimate 15 credits. [ASSUMPTION] 'the sequel' = the take from his frame."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-h approved by Leonard ('ok go, 15 credits'): T06 submitted, job a43bbf5f-7298-4c54-9433-4a609e8a7364, omni_reference from Leonard's frame, no arms, 5 s 480p 21:9 audio on, folder S07/SH060."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T06 done (REQUEST S07-SH060-h, 15 credits, job a43bbf5f): POV from Leonard's frame with no arms, takes/S07/SH060/001_S07_SH060_T06.mp4. Three overhead chops at the lens with a frame jerk on each, no arms, ends on a hold. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T06, Leonard: 'very nice' (rating inferred 4)."
     }
   ],
   "story_sync": {

@@ -58,6 +58,11 @@ Dense. Every shot prompt carries, besides the PROMPTING.md skeleton:
   hair); most men clean-shaven; everyday clothes of many colors; never rows, a wall or a scrum,
   never two alike. In crowd shots: no character image whose face could spread to the extras
   (describe that character in words), and no "desert town" or "concrete towers" wording.
+- The crowd (Leonard, 2026-11-19, `style-refs/crowd_leonard.png`): "a packed crowd of men and
+  women of every age and every ethnicity: grey-haired old women in glasses, young women, old bald
+  men, young men; plain everyday clothes in muted browns and greys with a few strong colors (a
+  red jacket, a mustard t-shirt, a blue work shirt); shoulder to shoulder, leaning forward, arms
+  stretched out pointing at him, shouting, faces furious." Never a crowd of men only.
 
 ## Sound grammar
 What the generated guide track carries, what stays silent.
