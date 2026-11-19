@@ -3288,6 +3288,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S04-SH080-c, video_edit of T02, 0-2 s only: grin to mortified. Result: the edit changed nothing visible. SSIM against T02 about 0.96-0.98 on every frame, the same grin at 0-1.3 s, the same performance after. 5.04 s, 992x432. Lesson [inferred from one take]: video_edit did not change a facial expression inside a short window here."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "d3bdbe87-58e5-45aa-b15f-a3a20768185b",
+              "prompt": "05-generation/prompts/001_S04_SH080_T04.txt",
+              "file": "05-generation/takes/S04/SH080/001_S04_SH080_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_big-guy 6228445b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S04-SH080-d, new take (no video_edit). First prompt with element naming per PROMPTING.md. 5.06 s, 992x432, audio present. Claude's read (frames only, audio not heard): no smile anywhere. 0-0.5 s alarmed wince, teeth showing, eyes wide; to about 1.5 s worried brows; right hand reaches down open from about 0.5 s and holds; from about 1.5 s a hard frown, eyes searching, more suspicious than dazed; last second he leans his head down toward the lens. Line not verified. Framing: head at the top edge, buildings on both sides with balconies, a few balcony plants (prompt said no greenery), a dark out-of-focus shape at the bottom edge (the fallen man)."
             }
           ],
           "description": "The fat person looks down at him. He can't place him. Then his eyes widen with excitement.",
