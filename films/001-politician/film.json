@@ -184,7 +184,8 @@
       "S06/SH020": "53803a54-4201-44dd-b971-e16861446597",
       "S06/SH040": "4b5a5226-db91-4590-857e-e90a3c424ab7",
       "S06/SH050": "ed087653-fb3e-46ab-8557-cfc7773e18e1",
-      "S06/SH030": "e4ad636e-af8e-438d-85e3-682a4756d286"
+      "S06/SH030": "e4ad636e-af8e-438d-85e3-682a4756d286",
+      "S06/SH060": "3bb5a842-039d-44ad-b40c-73d57cf69bc2"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1378,6 +1379,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S05-SH080-d approved (56 credits, 720p, 21:9, 8 s, seed 1823186076): S05 SH080 T04 80660ebf. More agitated, looks back, faster run, small cut; no clear stumble, no pebble, parked cars back, lands on his front."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH060: Higgsfield folder S06/SH060 created (3bb5a842-039d-44ad-b40c-73d57cf69bc2). Guide: refs_d11_motion/S06_SH060 as a line drawing (05-generation/refs/001_S06_SH060_lines_d11_motion.mp4, media 23abbe13). Body map from animatic d11 (SH020/SH030/SH040 have no takes yet). T01 prompt 001_S06_SH060_T01.txt: omni_reference, loc_square, char_politician_blood, prop_gun, prop_briefcase, @Video1 lines. REQUEST S06-SH060-a quoted at 12 credits (480p, 21:9, 4 s, audio on), waiting for approval."
     }
   ],
   "story_sync": {
