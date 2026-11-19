@@ -1860,6 +1860,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 start frame v1 rejected by Leonard: too posing, not realistic, not film quality, incoherent, looks like GPT, too many people, they look Middle Eastern. Cause: Claude picked gpt_image_2_6 for a story still (CLAUDE.md: images come from Leonard's pipeline, Midjourney for style; Claude does not pick image models), and asked for a full crowd. REQUEST S06-SH030-d (T03 on that still) withdrawn, never submitted. Two paths offered: (1) Leonard makes the start frame in Midjourney, prompt in prompts/001_S06_SH030_REF_start-frame_v2_midjourney.txt; (2) Seedance T03 without a start frame, frames of the approved SH020 T05 (2ec9392e) and SH060 T02 (663578f1) as location references, about a dozen mixed people, quoted 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-a approved by Leonard ('ok go, 12 credits'): S08 SH020 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, loc_heli-cabin 75f579e3, palette_sunset 1f563179, no previz clip (cabin set fills the frame), folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 6b2503e2-fe43-4a22-929e-8457de85b6a0), no job id returned, no credits spent. Not resubmitted: waiting for Leonard."
     }
   ],
   "story_sync": {
