@@ -2122,6 +2122,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S10-SH010-a approved by Leonard ('ok go, 60 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 9670a68f-9de0-4150-8be9-6c92e9d748f3), no job id. No 60-credit spend in the transaction list (other scenes' sessions were generating at the same minute). Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH010 T01 rejected by Leonard (rating 1, inferred): wants the helicopter fighting to stabilize, the sniper visible in the door, a real 3D chopper, not a sprite. Cause: the prop_helicopter image is a single side-profile photo and Seedance pasted its pose. REQUEST S08-SH010-b prepared, not submitted: prompts/001_S08_SH010_T02.txt, no helicopter element (described in words, three-quarter front view, raking side light), loc_square and palette_sunset; estimate 12 credits."
     }
   ],
   "story_sync": {

@@ -6251,9 +6251,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S08-SH010-a. Folder S08/SH010. Text and elements only, no guide clip. Claude's read: photoreal, d8 framing held (tall block at screen left, diagonal roofline with dishes, water tank and antennas at screen right, sunset haze). The helicopter holds still for 4 s, rotors turning, camera locked. Misses: it is about 30% of frame width, not 10%: it reads close and low over the roof, seen from below, not far beyond the rooftops; it reads grey-brown in the backlight, not matte black; a figure seems to sit in the open door (prompt said empty). Audio present (mean -31 dB); Claude cannot listen, so music is not verified."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH010-a. Folder S08/SH010. Text and elements only, no guide clip. Claude's read: photoreal, d8 framing held (tall block at screen left, diagonal roofline with dishes, water tank and antennas at screen right, sunset haze). The helicopter holds still for 4 s, rotors turning, camera locked. Misses: it is about 30% of frame width, not 10%: it reads close and low over the roof, seen from below, not far beyond the rooftops; it reads grey-brown in the backlight, not matte black; a figure seems to sit in the open door (prompt said empty). Audio present (mean -31 dB); Claude cannot listen, so music is not verified. Leonard 2026-11-19: no, the shot doesn't work; show the helicopter trying to stabilize, the sniper inside, less like a 2D sprite, the same exact angle as the element. Cause (Claude, checked side by side): prop_helicopter is one photo in one pose (side profile, nose right, banked, backlit), and the take copied it like a cutout."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
