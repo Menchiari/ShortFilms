@@ -179,7 +179,8 @@
       "S04/SH070": "31a59886-72c9-4812-98e7-b49befa80736",
       "S05/SH120": "3865bb40-82b6-4a55-bcd0-2a7d928dd9b5",
       "S06": "45d0df7c-5d00-4f67-96fd-f52794d7db15",
-      "S06/SH025": "b8e674ec-f71b-4165-a1a1-394664830ade"
+      "S06/SH025": "b8e674ec-f71b-4165-a1a1-394664830ade",
+      "S06/SH010": "aa476f5c-8afe-4d46-9a7b-e521d282cfd5"
     },
     "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
     "elements": {
@@ -1341,6 +1342,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH025: Higgsfield folder S06/SH025 created (b8e674ec-f71b-4165-a1a1-394664830ade)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH010: Higgsfield folder S06/SH010 created inside S06 (aa476f5c-8afe-4d46-9a7b-e521d282cfd5)."
     }
   ],
   "story_sync": {
