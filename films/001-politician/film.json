@@ -293,6 +293,10 @@
       "palette_sunset": {
         "element": "",
         "image": "1f563179-51a7-4e02-bcac-0affdd52a903"
+      },
+      "prop_bar-weapon": {
+        "element": "37fe2cf2-2fec-431c-8a44-4a370e26e42b",
+        "image": "8d69a591-a811-4b07-9ef9-586a70f736ae"
       }
     },
     "animatic_refs_d11": {
@@ -1800,6 +1804,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T01 done (12 credits, no filter block), downloaded to takes/S07/SH070/001_S07_SH070_T01.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T01 rated 1 (inferred): Leonard 'no': show some of the crowd, chaos, the sun reflected in a window behind him, the last thing this guy will ever see. Leonard made prop_bar-weapon (element 37fe2cf2, image media 8d69a591, saved as 03-bible/props/refs/prop_bar-weapon.png). REQUEST S07-SH070-b prepared, not submitted: prompts/001_S07_SH070_T02.txt, omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy 6228445b, prop_bar-weapon 8d69a591, loc_square 62815a4f (towers only). [ASSUMPTION] 'this guy' is the hanging old man: the camera at his face height, the fat man looking down into the lens. Sun moved behind the camera at screen right so a window on the tower behind him can glint into the lens. get_cost 12 credits."
     }
   ],
   "story_sync": {

@@ -5823,8 +5823,9 @@
                 "char_big-guy 6228445b (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH070-a. Folder S07/SH070. Passed first submission (no filter block). Claude's read: low close against hazy cream sky only, sun behind him; 0-1.5 s the pipe comes up toward the lens and over his head, 1.5-2.9 s he holds it vertical behind his head with both hands, eyes down at the camera; about 2.7 s a sharp crack, he drops out of the bottom of frame by 3.3 s, an impact sound about 3.4 s; last 0.6 s empty sky. Weak point: at the top the pipe is foreshortened behind his head, only its end shows above his hands. No wound (head wound planned as a post composite)."
+              "rating": 1,
+              "notes": "REQUEST S07-SH070-a. Folder S07/SH070. Passed first submission (no filter block). Claude's read: low close against hazy cream sky only, sun behind him; 0-1.5 s the pipe comes up toward the lens and over his head, 1.5-2.9 s he holds it vertical behind his head with both hands, eyes down at the camera; about 2.7 s a sharp crack, he drops out of the bottom of frame by 3.3 s, an impact sound about 3.4 s; last 0.6 s empty sky. Weak point: at the top the pipe is foreshortened behind his head, only its end shows above his hands. No wound (head wound planned as a post composite). Leonard 2026-11-19: no. Show some of the crowd, chaos, the sun reflected in a window behind him, show this might be the last thing this guy will ever see. T02: crowd at the edges, a tower from loc_square with one window glint, prop_bar-weapon (new element).",
+              "rating_source": "inferred"
             }
           ],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
