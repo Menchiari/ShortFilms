@@ -5525,7 +5525,7 @@
               "prompt": "",
               "file": "05-generation/takes/S06/SH030/001_S06_SH030_T05.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S06_SH030_T05.jpg",
               "references": [
                 "T04 68c8d816 (upscale source)"
               ],
