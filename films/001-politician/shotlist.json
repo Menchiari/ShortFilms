@@ -5851,6 +5851,30 @@
               "rating": 3,
               "notes": "REQUEST S07-SH070-b. Folder S07/SH070. Passed the filter on first submission, wound in the generation. Claude's read: low angle, concrete tower screen left, crowd heads and raised fists along the bottom edge; pipe lifted and held vertical over his head. About 2.75 s a red mist burst with dark fragments erupts up from the top of his head, his head snaps back, then he sinks out of frame over about 1 s with his arms still raised (not an instant slack drop); red mist hangs against the sky to the end. Misses: no window glint, the sun itself is in frame behind him at screen right (flare); the crowd keeps pumping fists, no visible flinch. Audio: one loud transient cluster at the hit, impact-then-crack separation not verifiable from the spectrum. Leonard 2026-11-19 (notes, no verdict; 3 inferred): no sky behind him; the camera moves a bit and slows down just as he is about to hit; thicker pieces of debris, not so dusty; less symmetrical, less staged, more natural. T03 takes all four.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "7ef610eb-7f9c-43a0-ac6b-fd45f2c50873",
+              "prompt": "05-generation/prompts/001_S07_SH070_T03_v2.txt",
+              "file": "05-generation/takes/S07/SH070/001_S07_SH070_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH070_T03.jpg",
+              "references": [
+                "char_big-guy 6228445b (image_references)",
+                "prop_bar-weapon 8d69a591 (image_references)",
+                "loc_square 62815a4f (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH070-c. Folder S07/SH070. Passed the filter on first submission. Claude's read: 0-1.7 s rough handheld with a strong cant (about 30 degrees), he heaves the pipe up, a shoving crowd behind; about 1.7 s the camera rights itself and settles; 2-2.9 s pipe overhead, mouth wide in a roar; about 2.9 s thick dark chunks spray up from his head, his head snaps back, his arms fling out and the pipe swings sideways, he falls out of the bottom of frame by about 3.6 s; chunks keep falling to the end. Misses: hazy sky shows above the towers at screen right and the sun flares from behind a building at upper left (not glass); camera less steep than asked (crowd fills the middle band); the fall is a backward fling, not an instant slack drop. Audio: harmonic band 1.8-2.6 s (likely the roar), loud transient cluster about 2.7 s."
             }
           ],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
