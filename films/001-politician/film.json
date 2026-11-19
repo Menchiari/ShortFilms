@@ -2030,6 +2030,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH060 T05 done (REQUEST S07-SH060-g, 15 credits, job 2b116c7b): POV from Leonard's frame, takes/S07/SH060/001_S07_SH060_T05.mp4. Clean wind-up, forearms come up and block at about 1.15 s, then they stay crossed and almost rigid over the lower two thirds of frame, hiding the second swing. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060 T05: try again with the sequel, but no arms. REQUEST S07-SH060-h prepared: T06, omni_reference from Leonard's frame (41984959) only, 5 s 480p 21:9 audio on, prompt prompts/001_S07_SH060_T06.txt: his POV, nothing of him in frame, three swings, each blow jerks the frame away and it fights back to face the man, gasps and growls. Estimate 15 credits. [ASSUMPTION] 'the sequel' = the take from his frame."
     }
   ],
   "story_sync": {
