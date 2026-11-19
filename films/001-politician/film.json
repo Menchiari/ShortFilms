@@ -1864,6 +1864,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-a prepared, not submitted: prompts/001_S08_SH040_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 7 s, audio on, folder Scenes/S08/SH040. Images: loc_square 62815a4f, char_politician_final 547bbfa3 (old man C hanging from the lamp, as in animatic d11), palette_sunset 1f563179. Video ref 6bfdd33e-a894-48fb-855e-e5cc7a0f94f4 (refs/001_S08_SH040_lines_d11_motion.mp4: refs_d11_motion/S08_SH040 as a line drawing). Three falls at about 1-2 s, 3-4 s and 5-6 s, all on the left half of the square, as in d11; the earlier dead stay at the foot of the building. [ASSUMPTION] sunset sun from screen left. No ACTING TASK: nobody close enough to read a face. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-a approved by Leonard ('ok go', 21 credits), with his note: nobody may look like blocks, it must read as real live-action war documentary footage. Added as two realism paragraphs in prompts/001_S08_SH040_T01_v2.txt (settings unchanged). S08 SH040 T01 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, job e945d9ae-176d-471b-9bdb-580ff15bfcdc, seed 175111717, folder Scenes/S08/SH040. The submit call timed out on the client; the job was found queued once, not resubmitted."
     }
   ],
   "story_sync": {
