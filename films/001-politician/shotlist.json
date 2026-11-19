@@ -7393,7 +7393,7 @@
               "prompt": "05-generation/prompts/001_S08_SH050_T02.txt",
               "file": "05-generation/takes/S08/SH050/001_S08_SH050_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH050_T02.jpg",
               "references": [
                 "start frame 1448763a (start_image, refs/001_S08_SH050_start_SH020-T02-last.png = SH020 T02 last frame)",
                 "char_boss 7ef41962 (image_references)",
@@ -7648,7 +7648,7 @@
               "prompt": "05-generation/prompts/001_S08_SH070_T04.txt",
               "file": "05-generation/takes/S08/SH070/001_S08_SH070_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH070_T04.jpg",
               "references": [
                 "palette_sunset 1f563179",
                 "no video reference"
