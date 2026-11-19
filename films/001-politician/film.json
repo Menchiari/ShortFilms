@@ -2314,6 +2314,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH040-a approved by Leonard ('ok go', 21 credits), with his note: nobody may look like blocks, it must read as real live-action war documentary footage. Added as two realism paragraphs in prompts/001_S08_SH040_T01_v2.txt (settings unchanged). S08 SH040 T01 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, job e945d9ae-176d-471b-9bdb-580ff15bfcdc, seed 175111717, folder Scenes/S08/SH040. The submit call timed out on the client; the job was found queued once, not resubmitted."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-a resubmitted on Leonard's new approval ('ok go again, 12 credits'): S08 SH020 T01, job 66732250-137b-4f97-8107-9309de1dd2f5, 12 credits, same prompt and refs, folder Scenes/S08/SH020, saved as takes/S08/SH020/001_S08_SH020_T01.mp4. Claude's read: photoreal Roger at the open door at sunset, but the lady and the pilot are missing, cheek off the stock, the whole rifle in frame, the town below reads as a big city with a dome-like tower. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
