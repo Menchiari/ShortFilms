@@ -1170,6 +1170,10 @@
     {
       "date": "2026-11-18",
       "text": "Leonard, naming rule (restated 2026-11-18): reference images are @Image1, @Image2, @Image3 by upload order, the video @Video1, audio @Audio1. Characters ALWAYS as @char_<name> in the version that matches the scene in the script (S05 before the rock: @char_politician_dusty; after: @char_politician_blood), props @prop_<name>, locations @loc_<name> when used. Format: '@char_politician_dusty (@Image1): ...', then @char_ / @prop_ / @loc_ names in the body. S05 SH080 T04 prompt updated to it."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH080-d approved (56 credits, 720p, 21:9, 8 s, seed 1823186076): S05 SH080 T04 80660ebf. More agitated, looks back, faster run, small cut; no clear stumble, no pebble, parked cars back, lands on his front."
     }
   ],
   "story_sync": {
