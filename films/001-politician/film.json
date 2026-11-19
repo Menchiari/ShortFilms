@@ -1800,6 +1800,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH050 T01 done (job 3a691f5e, 15 credits): 001_S07_SH050_T01.mp4. Hands at the top corners and the fat person's look work; the lift and hold read as a level lance held at shoulder height, the swing is only the last 4 to 5 frames with a jump, the crowd is a uniform wall in rows, a traffic light in frame. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T01 (rating 2 inferred): pipe the size of a baseball bat; a regular guy, not a ninja; many more people, a chaotic riot, hard to follow; no hands of the old man; the camera very wobbly and swinging. REQUEST S07-SH050-b prepared: prompt 001_S07_SH050_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, refs char_big-guy 6228445b and loc_square 62815a4f, no guide clip. Preflight 15 credits. Waiting for approval."
     }
   ],
   "story_sync": {
