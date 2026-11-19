@@ -5653,6 +5653,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S06-SH050-d, video_edit of T03 (55061ebc) plus char_politician_blood. Passed first submission. Claude's check: the edit changed nothing that matters. 4-6 s vs T03: PSNR 41.9 dB (near identical), eyes still go up and to screen right. Audio 1.3-2.8 s: RMS values match T03 within 1-2 dB, so the gunshot is very likely still there (not listened). Lesson: a seedance_2_5 video_edit asking for a different eye line and a different sound returned the source almost unchanged."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "0c8dccd1-d0d6-49f2-85bc-52467bc1234f",
+              "prompt": "05-generation/prompts/001_S06_SH050_T05.txt",
+              "file": "05-generation/takes/S06/SH050/001_S06_SH050_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T03 frame 3.6 s 575d062b (start_image), refs/001_S06_SH050_T03_frame_3.6s.png",
+                "char_politician_blood 0d0a5637 (image_references)",
+                "prop_gun slide locked still 2ed39253 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH050-e: 4 s tail patch for T03 from T03's frame at 3.6 s (start frame upload 575d062b) plus char_politician_blood and the gun still. Folder S06/SH050. 429 rate limit on the first call (nothing charged), then passed. Claude's read (frames at 6 fps, audio levels): frame 0 matches the start frame (pose, framing, wall); he lowers the gun to chin height, reads it, and from about 2 s his eyes come level to the lens line and go wide, held to the end. Audio quiet (max -21.8 dB), no transient. Joined at T03 frame 86 (3.58 s): pose continues; a slight jump in grade and blood brightness at the cut. Intended use: T03 0-3.58 s + T05."
             }
           ],
           "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
