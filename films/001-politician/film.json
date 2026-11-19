@@ -1788,6 +1788,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-d approved by Leonard ('go', 22 credits): T04 submitted, video_edit of T03 (55061ebc) plus char_politician_blood, 480p, 21:9, 6 s, audio on, job 8bc69232-6cc1-498d-8367-e2acbc69606e, folder S06/SH050, prompt 001_S06_SH050_T04.txt. The request echo lists T03 under reference_images (as in S04 SH130 T03)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040: REQUEST S07-SH040-a prepared, not submitted: prompts/001_S07_SH040_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 4 s (model minimum, clamped [4, 30]; the shot is 3 s, trim in the edit), audio on. Images: char_politician_blood 0d0a5637 [ASSUMPTION: old man B, the screenplay note says C; question 5], loc_square 62815a4f; video ref 6f64e996-e149-4d68-87df-f4284f56b1b0 (refs/001_S07_SH040_lines_d11.mp4: d11 clip as a line drawing, last frame held to 4 s). Generated upside down in camera, not upright and rotated: the d11 frame keeps the facades upright behind him, so a 180 degree rotation would turn the square upside down. Estimate 12 credits (estimate_video_cost)."
     }
   ],
   "story_sync": {
