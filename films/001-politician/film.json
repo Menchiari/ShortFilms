@@ -1902,6 +1902,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH030 T01 downloaded (job 8c77ea4a, 18 credits, passed the filter): photoreal, he comes up above the heads by one ankle at about 2.5 s and dangles, kicking, left of the pole; misses: no visible arm or hauling, face hidden below the heads, crowd mostly men in beige, far rows static. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH050 T01 prompt prepared (request S09-SH050-a, not submitted): seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_politician_final 547bbfa3, char_boss 7ef41962, loc_square 62815a4f, palette_sunset 1f563179, no previz clip (frame filled by street), helicopter behind camera, prompt prompts/001_S09_SH050_T01.txt. Preflight 18 credits. [ASSUMPTION] the folder is a thin plain dark folder."
     }
   ],
   "story_sync": {
