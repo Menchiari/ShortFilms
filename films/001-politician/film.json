@@ -1804,6 +1804,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH050 T01 (rating 2 inferred): pipe the size of a baseball bat; a regular guy, not a ninja; many more people, a chaotic riot, hard to follow; no hands of the old man; the camera very wobbly and swinging. REQUEST S07-SH050-b prepared: prompt 001_S07_SH050_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, refs char_big-guy 6228445b and loc_square 62815a4f, no guide clip. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-b approved by Leonard ('go ahead', 15 credits): T02 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job a66b7975-dffc-46dc-930d-2de1a885ae18, folder S07/SH050, prompt 001_S07_SH050_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T02 done (job a66b7975, 15 credits): 001_S07_SH050_T02.mp4. Bat-sized pipe, ordinary heavy man, no hands, clear lift and long hold, swing ends with the pipe end into the lens, no cut. Weak: crowd a scrum ring of mostly men in the same colors, camera sway mild. Waiting for Leonard."
     }
   ],
   "story_sync": {
