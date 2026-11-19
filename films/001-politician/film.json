@@ -1387,6 +1387,10 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH070 T04 in (job d446c3ae, 28 credits): T02's performance re-rendered at 720p almost frame for frame, but no sharper than T02 (edge energy 11.45 vs 12.45 for a bicubic upscale of T02). Lesson: a soft 480p take used as @Video1 passes its softness to the new render. SH070 total 83 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-a approved by Leonard (\"go ahead\"), 12 credits: S06 SH030 T01 submitted, 480p, 21:9, 4 s, audio on, job fb214f7c-364a-46e4-9117-c4f86ea024db, folder S06/SH030, prompt 001_S06_SH030_T01.txt, @Video1 = 001_S06_SH030_lines_d11.mp4 (media 34ea124d). The job echo lists the guide clip under reference_images: to check whether it was read as video."
     }
   ],
   "story_sync": {
