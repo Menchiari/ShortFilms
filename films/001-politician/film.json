@@ -1712,6 +1712,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH010-a approved by Leonard ('ok go', 15 credits) and submitted: S07 SH010 T01 job e643b6c0-f37e-4b4d-b5ef-bd144bb606f0, folder Scenes/S07/SH010, prompt 001_S07_SH010_T01.txt, seedance_2_5 omni_reference 480p 21:9 5 s audio on, start_image 1a9129b2, end_image b428e5e5, no guide clip, no loc_square."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH010 T01 delivered (job e643b6c0, 15 credits): saved as 05-generation/takes/S07/SH010/001_S07_SH010_T01.mp4, recorded in shotlist.json. The refs file 001_S07_SH010_REF_startframe.png is the END frame of this shot; startframe_v2.png is the start frame. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

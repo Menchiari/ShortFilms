@@ -5539,7 +5539,31 @@
         {
           "id": "SH010",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "e643b6c0-f37e-4b4d-b5ef-bd144bb606f0",
+              "prompt": "05-generation/prompts/001_S07_SH010_T01.txt",
+              "file": "05-generation/takes/S07/SH010/001_S07_SH010_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH010_T01.jpg",
+              "references": [
+                "start frame 1a9129b2 (start_image, 05-generation/refs/001_S07_SH010_REF_startframe_v2.png)",
+                "end frame b428e5e5 (end_image, 05-generation/refs/001_S07_SH010_REF_startframe.png)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH010-a, draft, Leonard approved 15 credits ('ok go'). Folder Scenes/S07/SH010. Start frame 1a9129b2 (Seedream edit) and end frame b428e5e5 (Seedream), no guide clip, no loc_square; the job echo listed both under reference_images, yet frame 0 and the last frame match the stills closely (the video sits a touch wider). Claude's read (contact sheet, first and last frame, audio levels only, not watched at speed or listened to): photoreal, locked-off steep rooftop view, wall corner with the one lamp, golden low sun from screen left, long shadows. The knot at the wall grows from about fifteen into a dense mob; dozens of people run in from every edge at different paces and paths, many more than in the stills by the end. Bodies stay readable near the knot (about five or six, not eight). Crowd still reads mostly men in beige and dark clothes. Audio a steady crowd bed at about -35 to -27 dB RMS, rising at about 1.2 s and 3 s; music not checked by ear. Not rated by Leonard yet."
+            }
+          ],
           "description": "From far above, the mob closes over him at the corner of the square. More people keep coming from every street. Fists and kicks rise and fall. The dead lie where they fell.",
           "framing": "EXTREME WIDE, high",
           "movement": "Locked-off",
