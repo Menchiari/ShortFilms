@@ -4601,9 +4601,9 @@
                 "seed 1823186076"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S05-SH080-f, 720p (1470x630), 6.08 s, audio present (not listened to). Changes from T05: guide with a kiwi-sized pebble drawn on the animatic's path, narrow-street wording, no blood at nose or mouth. Claude's read from frames: the street is now a narrow lane with buildings close on both sides; he looks back at about 1.3 s; a stumble dip at about 2.3 s; agitated, mouth open, breathing. The pebble still does not read kiwi-sized: at frames 112-113 only a faint small streak near his brow, then eyes shut and the head snaps back. Fall onto his back; final frame: a short thin cut at the outer end of his right eyebrow with a little blood, none at the nose; briefcase beside him. Faults: parked cars on both sides of the lane again, a dumpster; briefcase at his side, not his chest; no visible kiwi-sized pebble."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH080-f, 720p (1470x630), 6.08 s, audio present (not listened to). Changes from T05: guide with a kiwi-sized pebble drawn on the animatic's path, narrow-street wording, no blood at nose or mouth. Claude's read from frames: the street is now a narrow lane with buildings close on both sides; he looks back at about 1.3 s; a stumble dip at about 2.3 s; agitated, mouth open, breathing. The pebble still does not read kiwi-sized: at frames 112-113 only a faint small streak near his brow, then eyes shut and the head snaps back. Fall onto his back; final frame: a short thin cut at the outer end of his right eyebrow with a little blood, none at the nose; briefcase beside him. Faults: parked cars on both sides of the lane again, a dumpster; briefcase at his side, not his chest; no visible kiwi-sized pebble. Leonard 2026-11-19: 'ok good'. Plan: the kiwi-sized pebble is composited in the edit (3-4 frames from screen left into the brow before frame 113)."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
