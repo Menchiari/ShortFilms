@@ -1888,6 +1888,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH020 start frame v3, Leonard: 'I like this image. Do it.' (wind, helicopter movement, slight handheld jitter, film realism). REQUEST S08-SH020-b prepared: T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, start_image = v3 frame e0aa58d6, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T02.txt, quoted 12 credits. Submission blocked in this session by the tool permission check (no job created, no credits spent): waiting for Leonard's explicit approval with the amount."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-b approved by Leonard ('ok go, 12 credits'): S08 SH020 T02, job 3d341a42-a61c-4da1-a854-467788ada1a7, 12 credits, start frame v3, saved as takes/S08/SH020/001_S08_SH020_T02.mp4. Claude's read: staging held (lady left seat, rifle out the right edge), sway and widening visible; Roger's smile hidden by the angle; no sign of music in the spectrum. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
