@@ -5540,7 +5540,7 @@
         },
         {
           "id": "SH060",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5592,9 +5592,9 @@
                 "S05 SH140 T03 still d6d48b68 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S06-SH060-b. Folder S06/SH060. No guide clip; still of S05 SH140 T03 as @Image5 (media d6d48b68). Claude's read: real people, the wall across the whole frame, plain lamp post, no traffic light. The hit reads: hands on him at about 1.4 s, the case wrenched out and flying at 2 s, down at the foot of the wall by 2.6 s, the crowd piling over, foreground bodies crossing the lens at the end. Two bodies at screen right. Misses: the crowd is all men, many heavy and bald in the same cream shirt (they read as copies); at about 1.4 s they come in a row with arms stretched out, a bit like a chain; the lamp post stands in the middle of frame, right of him, not between him and the camera."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S06-SH060-b. Folder S06/SH060. No guide clip; still of S05 SH140 T03 as @Image5 (media d6d48b68). Claude's read: real people, the wall across the whole frame, plain lamp post, no traffic light. The hit reads: hands on him at about 1.4 s, the case wrenched out and flying at 2 s, down at the foot of the wall by 2.6 s, the crowd piling over, foreground bodies crossing the lens at the end. Two bodies at screen right. Misses: the crowd is all men, many heavy and bald in the same cream shirt (they read as copies); at about 1.4 s they come in a row with arms stretched out, a bit like a chain; the lamp post stands in the middle of frame, right of him, not between him and the camera. Leonard 2026-11-19: I like this."
             }
           ],
           "description": "From the side, the crowd hits him like a wave and throws him to the ground.",
