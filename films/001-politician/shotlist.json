@@ -6158,6 +6158,30 @@
               "rating": 2,
               "notes": "REQUEST S07-SH050-c, 480p (992x432), 5.06 s, audio present (mean -24.0 dB, peak -2.9 dB; not listened to). Generated upright, to be rotated 180 degrees in the edit. Claude's read from frames every 0.5 s and the last 1.6 s every 4 frames: tighter lens, the crowd compressed and close behind him; the whole crowd now faces the camera, yelling, arms reaching and pointing at it; blurred heads and shoulders cross the lens at 0 s (the first frames fully blocked) and 1 s; the camera tilts and drifts a little. The fat person: no smirk, a grim, tense face; bat-sized pipe raised over his right shoulder by about 1 s, held from about 1.5 to 3.8 s, swing from about 4 s, the pipe coming at the lens and crossing the frame large and blurred in the last frames, no cut. Fails: the crowd is almost all dark-haired bearded men who look like the fat person (char_big-guy's face bleeds into the extras); no women readable; the mix of backgrounds did not happen. No bodies on the ground readable (the crowd covers the ground). Leonard on T03: all Middle Eastern men, add women; the pipe looks gigantic, it is a simple rod; make him hit the man many times; not epic: raw, violent, realistic, a real man hitting out of rage; everyone closer.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "8f75d241-9108-4353-9d4a-10e99c6c94a0",
+              "prompt": "05-generation/prompts/001_S07_SH050_T04.txt",
+              "file": "05-generation/takes/S07/SH050/001_S07_SH050_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "@char_big-guy 6228445b",
+                "@loc_square 62815a4f",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH050-d (resubmitted after a 429 rate-limit refusal), 480p (992x432), 5.06 s, audio present (mean -23.2 dB, peak -2.6 dB; not listened to). Generated upright, to be rotated 180 degrees in the edit. Claude's read from frames every 8 frames: thin plain grey rod held in both fists; raw repeated overhead blows, about five or six, each one coming down past the bottom of frame with motion blur and the camera jolting and tilting; the fat person close, red-faced, grunting, ugly swings; the crowd packed right around the lens, yelling at the camera, arms reaching in. Not epic: flat hazy light against a pale sky. Fails: the crowd is still all dark-haired bearded men who look like the fat person, no women at all; the ten named faces and the anti-clone line did not work. One man at the right reaches toward the lens with a thumbs-up-like hand. The fat person reads more muscular than fat."
             }
           ],
           "description": "He pulls his arms over his head. The FAT PERSON from the side street steps in with a metal pipe in both hands and slowly lifts it back over his shoulder. He holds it there, waiting for the moment. Then he swings, hard, straight at him.",

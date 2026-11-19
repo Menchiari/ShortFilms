@@ -2242,6 +2242,14 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 T05 in: Topaz 1080p upscale of T04 (job 825287eb, 6 credits), takes/S06/SH030/001_S06_SH030_T05.mp4, 2560x1080, 26 MB, about 3% horizontal stretch to fix in the edit. The 720p extension (T06, job 39d7cc1a, 56 credits) is still rendering."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard approved resubmitting REQUEST S07-SH050-d ('go ahead', 15 credits). Folder checked first: no T04 job. T04 submitted, job 8f75d241-9108-4353-9d4a-10e99c6c94a0, same prompt and settings."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T04 done (job 8f75d241, 15 credits): 001_S07_SH050_T04.mp4. Thin rod, raw repeated blows with camera jolts, crowd close and yelling at the lens. Fails again: the crowd is all bearded dark-haired men like the fat person, no women. Text cannot override it: likely causes are the char_big-guy face reference bleeding into the extras and the words 'desert town' and 'concrete towers' priming the crowd [inference]. Waiting for Leonard."
     }
   ],
   "story_sync": {
