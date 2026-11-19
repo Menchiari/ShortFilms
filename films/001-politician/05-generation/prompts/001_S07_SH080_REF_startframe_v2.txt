@@ -1,0 +1,11 @@
+Edit image 1. Keep exactly the same: the camera position, angle and framing, the street lamp, the old man hanging upside down from its arm, the fat man with the raised pipe, the men lying on the asphalt, the buildings, the rubble, the smoke, the light, the long shadows, the color and the film texture.
+
+Change only this: about half again as many people in the riot, filling the square all around, including the left side of frame: along the sidewalk and the curb on the left, around and behind the hanging old man, and in the open asphalt between him and the camera, with a few people at the bottom left near the ledge. Keep space around the fat man and around each man lying on the ground. The new people are part of the same riot, every one caught mid-action and doing something different from everyone else: screaming, throwing, shoving, filming, pointing, pulling someone back, walking in, turning away. No two in the same pose. Uneven spacing, clusters and gaps, nobody in a row.
+
+The new people: a mixed crowd from everywhere and nowhere: Black, white, Latino, South Asian, East Asian, mixed, light and dark skin side by side, no single ethnicity dominant; men and women in equal numbers, teenagers to old people, heavy and thin. Ordinary modern clothes, every one different, some color among the browns and greys. No uniforms, no traditional or religious dress.
+
+Every person has one head, exactly two arms and two legs, real human anatomy: fix any merged, doubled or extra limb in image 1.
+
+Count of street lamps: one, no traffic lights. Count of people hanging: one. Count of pipes: one. Not graphic: no blood, no visible injuries. No readable writing, no logos.
+
+Look: the same real photograph, documentary news footage of a riot, 35mm film look, warm late afternoon sun from screen left, fine film grain, not CGI, not a 3D render.
