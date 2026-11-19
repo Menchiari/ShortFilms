@@ -3196,9 +3196,9 @@
                 "@Video1 T02 82578f76 (performance reference)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH070-d: new 720p generation with T02 as @Video1 performance reference, element naming per PROMPTING.md. 1470x630, 4.06 s, audio mean -27.4 dB, peak -7.2 dB (not heard). Claude's read (frames every 0.25 s): the same action, framing and timing as T02 almost frame for frame (fall, grab, clutch, end pose); a new render, not a copy (SSIM 0.85 against T02 upscaled). Detail: edge energy 11.45, lower than T02 upscaled with bicubic (12.45) and T03 (11.90): no sharper than the 480p take. Seedance copies the reference video's softness along with its motion."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH070-d: new 720p generation with T02 as @Video1 performance reference, element naming per PROMPTING.md. 1470x630, 4.06 s, audio mean -27.4 dB, peak -7.2 dB (not heard). Claude's read (frames every 0.25 s): the same action, framing and timing as T02 almost frame for frame (fall, grab, clutch, end pose); a new render, not a copy (SSIM 0.85 against T02 upscaled). Detail: edge energy 11.45, lower than T02 upscaled with bicubic (12.45) and T03 (11.90): no sharper than the 480p take. Seedance copies the reference video's softness along with its motion. Leonard 2026-11-19: works fine."
             }
           ],
           "description": "He bounces off the big body and lands flat on his back on the ground.",
