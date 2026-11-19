@@ -1870,6 +1870,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH110-a prepared, not submitted: S09 SH110 T01, prompts/001_S09_SH110_T01.txt, seedance_2_5 omni_reference, 4 s (shot is 3 s, trimmed in the edit), 480p, 21:9, audio on, folder Scenes/S09/SH110. Images loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179; no video reference (frame filled by place: composition in words from animatic d11 S09_SH110). [ASSUMPTION] body positions after S07 and S08 follow the d11 frame (S08 SH040 has no prompt yet). Cost check 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
