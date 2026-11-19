@@ -4821,8 +4821,33 @@
         },
         {
           "id": "SH030",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "fb214f7c-364a-46e4-9117-c4f86ea024db",
+              "prompt": "05-generation/prompts/001_S06_SH030_T01.txt",
+              "file": "05-generation/takes/S06/SH030/001_S06_SH030_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "prop_briefcase 4bf36cb5",
+                "guide 001_S06_SH030_lines_d11.mp4 34ea124d"
+              ],
+              "notes": "REQUEST S06-SH030-a, draft. Claude's read: @Video1 was read as video (the d11 framing and the runner paths match the guide), photoreal, sun from screen left, golden haze. Five men lie where d11 has them. The near man walks toward him from the left foreground; one man runs out of the crowd across the middle at about 2.5 s. Faults: the crowd's torsos come out boxy and flat like cardboard vests (the previz blocks leaked through); the near walker reads as a dark jacket, not green; no concrete wall or tall lamp beside the old man (the wall sits at screen right behind the crowd, and there is a traffic-light pole); the old man is tiny and dark, the gun barely readable, the briefcase not visible. Audio: low, no music heard in the level check; not listened to."
+            }
+          ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",
           "framing": "WIDE, side view",
           "movement": "Locked-off",
