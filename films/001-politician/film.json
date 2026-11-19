@@ -1559,6 +1559,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH050 gun still (job 3d549c5d): 1.5 credits refunded 11:43:51 (transactions). Resubmission 1 of 10 under production-plan rule 4 (unchanged prompt) was denied by this session's auto-mode permission classifier before reaching Higgsfield: nothing submitted, nothing spent."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH010-b approved by Leonard (18 credits) and submitted: S06 SH010 T02 job 5b4dd34b-578a-4b1f-abe4-e14c9e074265, folder S06/SH010, prompt 001_S06_SH010_T02.txt."
     }
   ],
   "story_sync": {
