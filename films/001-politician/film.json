@@ -1708,6 +1708,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH010-ref-v2 approved by Leonard ('ok go'): S07 SH010 start frame as a Seedream 5.0 Pro 2k 21:9 edit of the first still (b428e5e5, which Leonard read as an end frame and is now the end frame), job 1a9129b2-4fc4-401f-87e0-171bb6dae96f, folder Scenes/S07/SH010, 2.5 credits. Prompt prompts/001_S07_SH010_REF_startframe_v2.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe_v2.png. Claude's read: same camera, wall, lamp, light and body spots; knot of about fifteen at the wall, scattered runners, open paving; six bodies readable; crowd still mostly men."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH010-a approved by Leonard ('ok go', 15 credits) and submitted: S07 SH010 T01 job e643b6c0-f37e-4b4d-b5ef-bd144bb606f0, folder Scenes/S07/SH010, prompt 001_S07_SH010_T01.txt, seedance_2_5 omni_reference 480p 21:9 5 s audio on, start_image 1a9129b2, end_image b428e5e5, no guide clip, no loc_square."
     }
   ],
   "story_sync": {
