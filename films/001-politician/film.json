@@ -2710,6 +2710,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH020 T02, Leonard: 'looking good'. Rated 4 (inferred), shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-a prepared, not submitted: S08 SH050 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (shot 3 s, trim in the edit), audio on, start_image 1448763a = last frame of the approved SH020 T02 (refs/001_S08_SH050_start_SH020-T02-last.png, frame 97), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050 78a595cb, prompt prompts/001_S08_SH050_T01.txt. Leonard's mood still left out of the request: the start frame already carries the approved SH020 look and a second grade source risks a mismatch at the cut. Quote 12 credits, balance 26480.7."
     }
   ],
   "story_sync": {
