@@ -2334,6 +2334,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH080-a approved by Leonard and submitted: S08 SH080 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (to trim to 2 s), audio on, one take, 12 credits (quoted). Refs: loc_square 62815a4f, palette_sunset 1f563179, no video guide (place fills the frame). Job a5321411. Prompt prompts/001_S08_SH080_T01.txt, photorealism line added on Leonard's note."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-f approved by Leonard ('approved, go with S07-SH040-f'; 2.5 credits) and run: start frame cf9ae676-6c92-4311-834c-587251ee5637, seedream_v5_pro 2k 21:9, folder S07/SH040, saved as refs/001_S07_SH040_REF_startframe.png (3120x1328) and _1120.jpg (1120x480, uploaded as media d55e02cc-dfda-41f2-b8c1-0aa363a39d7a). Claude's read: world upright (sky and towers at the top, crowd on their feet); he hangs head down with white hair, tie and arms hanging toward the ground; eyebrow wound, right eye open, left nearly shut; pipe man upright at screen right with a bare steel pipe (mustache, grey T-shirt, not obviously fat: same look as in T04). Crowd mostly men. REQUEST S07-SH040-g re-quoted with this frame as start_image: 24 credits."
     }
   ],
   "story_sync": {
