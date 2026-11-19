@@ -6766,7 +6766,7 @@
               "prompt": "05-generation/prompts/001_S07_SH060_T05.txt",
               "file": "05-generation/takes/S07/SH060/001_S07_SH060_T05.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH060_T05.jpg",
               "references": [
                 "start frame: Leonard's still (refs/001_S07_SH060_REF_startframe_leonard_992.png, upload 41984959)",
                 "char_politician_blood 0d0a5637"
@@ -6789,7 +6789,7 @@
               "prompt": "05-generation/prompts/001_S07_SH060_T06.txt",
               "file": "05-generation/takes/S07/SH060/001_S07_SH060_T06.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH060_T06.jpg",
               "references": [
                 "start frame: Leonard's still (refs/001_S07_SH060_REF_startframe_leonard_992.png, upload 41984959)"
               ],
