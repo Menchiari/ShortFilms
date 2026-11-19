@@ -5175,9 +5175,9 @@
                 "prop_briefcase 4bf36cb5"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S06-SH020-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): slow start holds, the crowbar man walks out, raises the crowbar and is shot at about 4.5 s, the crowbar lies on the asphalt beside him to the end. After the first shot the crowd breaks and runs; later shots come faster. Briefcase in his left hand, his back to the wall at left. Weak: 0-4 s the crowd is still a still wall of men in rows; almost no women and little visible diversity; two parked cars appear as the street opens up behind (prompt said none); his gun arm is still mostly straight. Last frame: four men clearly lying in frame plus a body at the bottom right edge; a few living people crouch in the street."
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "REQUEST S06-SH020-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): slow start holds, the crowbar man walks out, raises the crowbar and is shot at about 4.5 s, the crowbar lies on the asphalt beside him to the end. After the first shot the crowd breaks and runs; later shots come faster. Briefcase in his left hand, his back to the wall at left. Weak: 0-4 s the crowd is still a still wall of men in rows; almost no women and little visible diversity; two parked cars appear as the street opens up behind (prompt said none); his gun arm is still mostly straight. Last frame: four men clearly lying in frame plus a body at the bottom right edge; a few living people crouch in the street. Leonard 2026-11-19: better, but the crowbar is gigantic (make it a rusty pipe); he is against a car, he must be against a wall; not everyone runs away: at first they run, then for every man he drops two get furious and run at him and two get scared and flee."
             }
           ],
           "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
