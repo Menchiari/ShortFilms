@@ -5498,6 +5498,31 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S06-SH050-a. Folder S06/SH050. Not blocked by the filter. Claude's read (frames, not audio): frontal close, concrete wall, golden sun from screen left, blood on his right eyebrow (screen left) all hold; eyes shut at the temple, open and look down at the gun from about 4 s. Fails the story beat: the slide is closed (forward) at the temple and after, never locked back, so the empty gun does not read. The gun also turns from black to silver when he lowers it (about 4.5 s). Prompt error of Claude's: 'white hair' (the element has dark grey-brown hair; the take follows the element). Audio not listened to by Claude: Leonard to check for music. Leonard 2026-11-19: 'no. He's not supposed to shoot the gun. The gun should jam, out of bullets. It opens up.' Verified: at 1.8 s the gun jerks back in recoil and the loudest sound of the clip (peak -3.7 dB) plays: the take fires. Claude missed it (frames at 2 fps, audio not analysed). Fix: a reference still of the black PPK/S with the slide locked open (Leonard's pipeline), then a new take; the trigger written as dead, not as a squeeze that fires."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "479b3546-a2b3-4603-8b78-fa76b690f2ec",
+              "prompt": "05-generation/prompts/001_S06_SH050_T02.txt",
+              "file": "05-generation/takes/S06/SH050/001_S06_SH050_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637 (image_references)",
+                "prop_gun 24875e9a (image_references)",
+                "prop_gun slide locked still 2ed39253 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH050-b. Folder S06/SH050. First submission b178242a blocked (nsfw, 18 refunded 12:59:06); this is resubmission 1 under production-plan rule 4, passed. Refs: char_politician_blood 0d0a5637, prop_gun 24875e9a, gun still 2ed39253 (slide locked). Claude's read (frames at 8 fps, audio levels, not listened): no recoil, no flash, the gun stays black; the ejection port reads open at the temple and when lowered (about 4 s). One short sound at 1.65-1.75 s (RMS peak -20 dB, about 0.1 s) as the barrel reaches his temple, no visible jolt: contact or click, Leonard to listen. Framing tighter than asked, top of his head cut. Behind him a cracked concrete pillar, with a bright strip of open ground at the left edge (prompt said wall filling the background). At the end the gun sinks to the bottom edge, mostly out of frame, so the slide reads best at 3.8-4.5 s. His mouth opens slightly at the end."
             }
           ],
           "description": "Eyes shut tight, he raises the gun and presses it to his temple. He squeezes the trigger. Nothing fires. He opens his eyes and looks at the gun: the slide locked back, empty. He understands.",
