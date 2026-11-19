@@ -6852,9 +6852,9 @@
                 "no video reference"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S08-SH070-b. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset, scope ring and fine crosshair. A weathered metal post fills the center, the rope wound around it and knotted at the crosshair, running up taut out of frame; blurred building facade behind. No people, no feet. Crack peak at 3.04 s; at about 2.97 s a puff of fibers and dust at the knot, the rope parts, the long end is gone from frame, the view kicks and settles; the short knotted end hangs limp against the post to the end. Fault: the view is level with the post, not looking down from height. Edit window: about 1.8-3.8 s."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH070-b. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, warm sunset, scope ring and fine crosshair. A weathered metal post fills the center, the rope wound around it and knotted at the crosshair, running up taut out of frame; blurred building facade behind. No people, no feet. Crack peak at 3.04 s; at about 2.97 s a puff of fibers and dust at the knot, the rope parts, the long end is gone from frame, the view kicks and settles; the short knotted end hangs limp against the post to the end. Fault: the view is level with the post, not looking down from height. Edit window: about 1.8-3.8 s. Leonard 2026-11-19: no, show just the rope."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
