@@ -6365,7 +6365,7 @@
               "prompt": "05-generation/prompts/001_S07_SH080_T02_v2.txt",
               "file": "05-generation/takes/S07/SH080/001_S07_SH080_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S07_SH080_T02.jpg",
               "references": [
                 "start frame 001_S07_SH080_T02_start.jpg 661e9bb7 (start_image; echoed as reference_images), made from refs/001_S07_SH080_REF_startframe.png (job 7e4832d7)"
               ],
