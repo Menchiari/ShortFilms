@@ -1423,6 +1423,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH010-a prepared, not submitted: prompts/001_S06_SH010_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 6 s, audio on, folder S06/SH010. Images: char_politician_blood 0d0a5637, prop_gun 24875e9a, prop_briefcase 4bf36cb5, loc_square 62815a4f. Video ref 0001a18b-76c8-4cb3-a0d9-4ad1c1ef2a85 (refs/001_S06_SH010_lines_d11.mp4: refs_d11_motion/S06_SH010 as a line drawing). Follows the animatic: gun aimed toward screen left. [ASSUMPTION] gun black, briefcase in his left hand. Estimate 18 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH020-a prepared, not submitted: prompts/001_S06_SH020_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 12 s, audio on, folder S06/SH020. Images: char_politician_blood 0d0a5637, prop_gun 24875e9a, loc_square 62815a4f, prop_briefcase 4bf36cb5; video ref a5d8701c (refs/001_S06_SH020_motion_lines_d11.mp4: motion-only d11 clip as a line drawing, filed in REFS). [ASSUMPTION] gun black, briefcase in his left hand (questions 3, 4). Cost check 36 credits, waiting for approval."
     }
   ],
   "story_sync": {
