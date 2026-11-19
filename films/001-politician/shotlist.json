@@ -4779,7 +4779,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -4876,7 +4876,9 @@
                 "prop_briefcase 4bf36cb5",
                 "loc_square 62815a4f"
               ],
-              "notes": "REQUEST S06-SH010-d, draft, no video guide; Leonard's note: crowd like a real documentary riot crowd, not static. Claude's read from stills: the crowd opens dense and close, bodies overlapping, out-of-focus heads and shoulders crossing the lens in the foreground, heads turned toward him, arms natural at their sides, no outstretched arms; it thins out over the shot until a few walk away in the distance. He is half crouched, gun out toward screen left on his right arm, briefcase low in his left hand, and ends close to the wall behind him. The wall fills the background behind him; at screen left an open street with towers and a pole with round signs. All men in the crowd, no women. Audio present (mean -25 dB), voice not checked by ear."
+              "notes": "REQUEST S06-SH010-d, draft, no video guide; Leonard's note: crowd like a real documentary riot crowd, not static. Claude's read from stills: the crowd opens dense and close, bodies overlapping, out-of-focus heads and shoulders crossing the lens in the foreground, heads turned toward him, arms natural at their sides, no outstretched arms; it thins out over the shot until a few walk away in the distance. He is half crouched, gun out toward screen left on his right arm, briefcase low in his left hand, and ends close to the wall behind him. The wall fills the background behind him; at screen left an open street with towers and a pole with round signs. All men in the crowd, no women. Audio present (mean -25 dB), voice not checked by ear. Leonard 2026-11-19: \"this works\".",
+              "rating": 4,
+              "rating_source": "inferred"
             }
           ],
           "description": "Standing at the corner, a wall a few steps behind him, he points the small nickel pistol at them, smoke curling from the muzzle. A few people near the camera run off past it. The rest have frozen.",
