@@ -5253,6 +5253,33 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST S06-SH020-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): his back and left side against a rough concrete wall the whole shot, no car near him. The pipe is short. The pipe man walks out, charges with it raised and is shot at about 5 s; the pipe lies on the asphalt. From then on men break out and charge one after another, and at the end three men are running at him while others flee: the escalation reads. Last frame: four men lying in a cluster in the middle of the street plus one at the bottom right edge. Weak: 0-4 s the crowd is again a still wall of men in rows; no women visible, the crowd looks alike (heavy-set men in light shirts); two parked cars far down the street; his gun arm mostly straight. Leonard 2026-11-19: getting closer overall; the location is wrong: he must be near a flat wall, and the street slightly wider."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 12,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 36.0,
+              "job_id": "c0bf1ae5-c7e5-459c-8f7e-fd9deafd2394",
+              "prompt": "05-generation/prompts/001_S06_SH020_T05.txt",
+              "file": "05-generation/takes/S06/SH020/001_S06_SH020_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH020_T05.jpg",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "loc_square 62815a4f (wall only)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S06-SH020-e, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the wall at his back and left is now flat and vertical, plain weathered concrete, no bulge. The street is about as narrow as T04, at most a little wider. Pipe man shot at about 5 s, the pipe lies on the asphalt; the charges escalate, the last frame has about five men running at him and four or five lying in front of him. Weak, unchanged: the opening crowd is a still wall of alike heavy-set men, no women; parked cars down the street; gun arm mostly straight."
             }
           ],
           "description": "From behind him, over his shoulder, the gun out in front of him. Around him the crowd: some run, some crouch, some creep forward, slow and hesitant. A MAN yells and runs at him. He aims and fires. The man drops dead. Another runs, from another side. He fires. Another, and another, closer and closer together, until he is firing at one after another.",
