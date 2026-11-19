@@ -4281,6 +4281,35 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S05-SH080-e, 720p (1470x630), 6.08 s, audio present (not listened to). Changes from T04: 6 s, line once with heavy breathing, elbow tear excluded in words, no graffiti. Claude's read from frames: no tear visible on either sleeve in the sampled frames; he turns his whole head back at about 1 s; a clear stumble at about 2.3-2.7 s (he dips low and pitches forward, then recovers); the pebble shows for about 2 frames as a small light streak from screen left at his brow (frames 105-106, about 4.4 s), small, then he winces and his head snaps back; he falls onto his back, final frame with the briefcase and phone beside him. Faults: the blood ends up at his nose and upper lip in the final frame, not at the outer right eyebrow; the street reads as a wide, ruined boulevard with high-rises, not the narrow side street; the briefcase is at his left side, not his chest. No cars, no graffiti. Body impact peak at 5.25 s."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "3703a2a0-b9ee-45c1-90cd-80be268a42e6",
+              "prompt": "05-generation/prompts/001_S05_SH080_T06.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T06.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "@char_politician_dusty 98e1e69e (@Image1), elbow tear excluded in words",
+                "@loc_side-street e728a9ae (@Image2)",
+                "@prop_briefcase 4bf36cb5 (@Image3)",
+                "palette_afternoon 3bf30eee (@Image4)",
+                "guide with a kiwi-sized pebble drawn in (refs/001_S05_SH080_motion_d11_pebble.mp4) 7c24beb7 (@Video1)",
+                "voice from S03 SH020 T03 8cd83ab3 (@Audio1)",
+                "seed 1823186076"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-f, 720p (1470x630), 6.08 s, audio present (not listened to). Changes from T05: guide with a kiwi-sized pebble drawn on the animatic's path, narrow-street wording, no blood at nose or mouth. Claude's read from frames: the street is now a narrow lane with buildings close on both sides; he looks back at about 1.3 s; a stumble dip at about 2.3 s; agitated, mouth open, breathing. The pebble still does not read kiwi-sized: at frames 112-113 only a faint small streak near his brow, then eyes shut and the head snaps back. Fall onto his back; final frame: a short thin cut at the outer end of his right eyebrow with a little blood, none at the nose; briefcase beside him. Faults: parked cars on both sides of the lane again, a dumpster; briefcase at his side, not his chest; no visible kiwi-sized pebble."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
