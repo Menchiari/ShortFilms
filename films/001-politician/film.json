@@ -1336,6 +1336,10 @@
     {
       "date": "2026-11-19",
       "text": "S04 SH120: Leonard: 'using image instead of elements'. Checked: Higgsfield's element tool lists seedance_2_0, not seedance_2_5, as element-capable; seedance_2_5 has no element role (medias: start_image, end_image, image_references, video_references, audio_references); docs/PROMPTING.md says Seedance 2.5 ignores <<<element>>> placeholders. The images passed are each element's own image job. Fixed what was wrong: the prompt now names the elements as the house template does (@char_politician_dusty (@Image1) and so on): prompts/001_S04_SH120_T05_v2.txt. Same media and cost (18 credits), waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH080: Leonard flagged images named instead of elements. Root cause in stories/MISTAKES.md (old template from the brief, PROMPTING.md read once before its 2026-11-18 17:36 naming rule, later prompts copied from T01). REQUEST S04-SH080-c now uses prompts/001_S04_SH080_T03_v2.txt: @char_big-guy (@Image1), body names only @char_big-guy. Same inputs, 18 credits."
     }
   ],
   "story_sync": {
