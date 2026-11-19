@@ -5809,7 +5809,30 @@
         {
           "id": "SH040",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "68dfef6f-7139-43c5-ae88-dc96de844180",
+              "prompt": "05-generation/prompts/001_S07_SH040_T01.txt",
+              "file": "05-generation/takes/S07/SH040/001_S07_SH040_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH040_T01.jpg",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "loc_square 62815a4f",
+                "video lines_d11 6f64e996"
+              ],
+              "notes": "REQUEST S07-SH040-a, draft. Not blocked by the filter. Output 992x432, 4.06 s. Claude's read (frames at 2 fps, audio levels only, not listened: mean -31.6 dB, peak -12.3 dB): photoreal, golden backlit haze, his framing and head position follow the d11 guide, he sways and turns, arms move. Fails the core physics: the model flipped the whole frame, not just him. The skyline has its sky at the bottom of the frame and the crowd stands upside down at the top, so the take is an upright man with raised arms shot with the camera upside down; rotating it 180 degrees gives an upright man, not a hanging one. Also: the wounds (eyebrow, lip, ear) do not read at 480p, and both eyes look partly open. Cause (Claude's inference): the prompt places his feet above the frame and his body entering from the top, and the model met that by rolling the camera; the line 'camera and world are upright' was not enough."
+            }
+          ],
           "description": "His face: bruised, a split lip, blood from his ear. With effort, he opens one eye, and panic takes him: he twists on the rope, gasping, eyes darting for a way out.",
           "framing": "CLOSE, upside down, the front of his face",
           "movement": "Locked-off",
