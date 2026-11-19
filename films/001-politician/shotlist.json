@@ -4369,6 +4369,35 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S05-SH080-c, 720p (1470x630), 6.08 s, audio present (not listened to). Built on S05 SH030 T03 (seed, long lens, fast walk), stone painted out of the guide clip, kiwi-sized pebble in words, small cut only. Claude's read from every frame 100-123: chest-up frontal, briefcase held at his chest, phone at his right ear, fast walk close to SH030; a large crowd running toward him behind, no parked cars. No pebble is visible in any frame: at frame 108 (4.5 s) a cut simply appears at the outer end of his right eyebrow; audio peak at 4.50 s. Head knocked back, eyes shut, he falls backward, camera tilts down; final frame on his back, a short red cut at the outer right eyebrow with a thin trickle, briefcase and phone on the ground beside him. During 4.6-4.7 s the cut briefly reads longer, up toward the forehead."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 56.0,
+              "job_id": "80660ebf-ceb9-457f-a27c-bb9794ac2dcf",
+              "prompt": "05-generation/prompts/001_S05_SH080_T04.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "@char_politician_dusty 98e1e69e (@Image1)",
+                "@loc_side-street e728a9ae (@Image2)",
+                "@prop_briefcase 4bf36cb5 (@Image3)",
+                "palette_afternoon 3bf30eee (@Image4)",
+                "animatic d11 motion-only S05_SH080, stone painted out, run stretched to 8 s (refs/001_S05_SH080_motion_d11_nostone_8s.mp4) 24f966dd (@Video1)",
+                "voice from S03 SH020 T03 8cd83ab3 (@Audio1)",
+                "seed 1823186076"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-d, 720p (1470x630), 8.06 s, 3.4 MB, audio present (not listened to). Leonard's performance notes: agitated, looks back, walk to run to faster, stumble, heavy breathing, repeated words, hates begging. First prompt with @Image/@Video/@Audio and @char_/@prop_/@loc_ names. Claude's read from frames: at about 1 s he turns his whole head back over his shoulder, then shouts into the phone with grimaces, mouth wide; he moves faster through 2-6 s with the case bouncing under his left arm (at his side, not his chest); a forward lurch at about 3.5 s but no clear trip and catch. Hit at frame 162-164 (about 6.8 s): head snaps back, phone hand flies up, no pebble visible in any frame; audio peak 7.25 s. He spins and lands on his front and side, not on his back; final frame: a short red cut at the right brow and temple, his hand on the briefcase, phone on the ground. Faults: parked and wrecked cars along both sides of the street despite 'no cars at all', graffiti on a wall, no pebble."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
