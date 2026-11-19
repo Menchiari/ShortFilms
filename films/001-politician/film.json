@@ -1870,6 +1870,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH060-a prepared, not submitted: S09 SH060+SH080 as one 8 s generation (SH060 = 0-4 s, SH080 = 4-8 s, split in the edit; the SH070 insert is composited between), prompts/001_S09_SH060_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, audio on, text and elements only (char_boss 7ef41962, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179), no guide clip, folder Scenes/S09/SH060. [ASSUMPTION] sunglasses on (char_boss and the d11 clip), sun behind her upper left beyond the helicopter, his hand only at 0-1 s. Estimate 24 credits. Waiting for approval."
     }
   ],
   "story_sync": {
