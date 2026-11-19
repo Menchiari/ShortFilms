@@ -7609,6 +7609,30 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH070-c. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal, scope ring and fine crosshair. Only the rope: one taut twisted rope runs horizontally across the frame just above center, its loose fibers backlit gold by the sunset; behind it a blurred facade and a bright sky patch at top left (eye level, not looking down; rope horizontal, not vertical). Steady with a slight drift 0-2.9 s. At about 2.9 s the rope vanishes in one or two frames with a faint puff of fibers, no visible two ends whipping away; then the empty blurred view with the crosshair to the end. Crack peak at 3.07 s, about 4 frames after the picture snap: slide the audio in the edit. Edit window: about 1.0-3.0 s plus a few frames of empty view. Leonard 2026-11-19: 'horizontal...??' The rope must hang vertical. Cause: T03's prompt said top edge to bottom edge but never 'vertical', and with no post or lamp to hang from, Seedance laid it across the wide frame."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "e582e429-98ac-4b45-b1c7-82a4866bc5f2",
+              "prompt": "05-generation/prompts/001_S08_SH070_T04.txt",
+              "file": "05-generation/takes/S08/SH070/001_S08_SH070_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "palette_sunset 1f563179",
+                "no video reference"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S08-SH070-d. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal. The rope is vertical through the center of the scope, along the vertical crosshair line, against warm blurred asphalt seen from above, a darker shadow band across the top right. The scope circle is narrower than T01-T03: black on both sides of the frame. Steady 0-3.2 s. At about 3.23 s a small flash and puff at the crosshair center, the rope parts: the lower end drops out of the bottom of the frame within a few frames, the upper end springs up and swings, then hangs as a frayed stub at the top edge to the end. Crack peak at 3.26 s, in sync. Less gold backlight on the fibers than T03. Edit window: about 1.5-3.5 s."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
