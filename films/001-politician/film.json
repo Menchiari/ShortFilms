@@ -1575,6 +1575,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 T02 (job 4c3c9bac) blocked by Higgsfield as nsfw ('Something went wrong'). Refund not attributable from the transaction list (several S06 sessions share the account). No retry. T02_v2 prompt (prompts/001_S06_SH030_T02_v2.txt): six phrases softened ('where he shot them' to 'where they fell', crowbar to steel bar, 'refuses to die', 'lost count of his bullets', 'before he can fire again', 'Nobody fires'); rest identical. REQUEST S06-SH030-c quoted at 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-c approved by Leonard ('go ahead', 12 credits): S06 SH030 T02 resubmitted with prompt 001_S06_SH030_T02_v2.txt, job 874a4626-6273-4542-8754-edfa1f4c6b45, same images and settings as the blocked job."
     }
   ],
   "story_sync": {
