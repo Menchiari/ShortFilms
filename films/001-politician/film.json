@@ -1740,6 +1740,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH010 T04 done (18 credits): takes/S06/SH010/001_S06_SH010_T04.mp4. Crowd dense, overlapping, moving, turned toward him, no stiff arms; he half crouched, ends at the wall. Waiting for Leonard. SH010 total 72 credits over four 480p drafts."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-c approved by Leonard ('go', 18 credits): S06 SH050 T03 submitted, 480p, 21:9, 6 s, audio on, refs 0d0a5637, 24875e9a, 2ed39253, job 55061ebc-6ca8-4b2a-95c3-7f0238525019, folder S06/SH050, prompt 001_S06_SH050_T03.txt."
     }
   ],
   "story_sync": {
