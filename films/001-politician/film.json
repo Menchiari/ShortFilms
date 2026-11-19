@@ -1904,6 +1904,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T03 rated 2 (inferred). REQUEST S08-SH040-d prepared, not submitted: prompts/001_S08_SH040_T04.txt = T03 with three changes: one sniper bullet per hit (the person jerks and drops on the spot, one small sharp spurt of dust from one point of the paving, head-sized, no explosion; audio a dry crack, the smack, the late distant thud); he hangs lower on purpose (head at the crowd's knees, fingertips on the paving, rope round the pole at head height), because Seedance has rendered him higher than asked in every take; a named mixed crowd (about half women, every age and build, listed one by one). S07 SH080 frame dropped. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-d approved by Leonard ('ok go, 21 credits'): S08 SH040 T04 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset, job d6b9da21-b3be-449e-b2cb-88b2693ebcbc, folder Scenes/S08/SH040, prompt 001_S08_SH040_T04.txt."
     }
   ],
   "story_sync": {
