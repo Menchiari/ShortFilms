@@ -1535,6 +1535,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH040-b approved by Leonard (12 credits): S06 SH040 T02, job 1017174a-2e15-4a6d-ae77-fe0c3958e486, 480p, 21:9, 4 s, audio on, folder S06/SH040, prompt 001_S06_SH040_T02.txt. Faces right, wall behind, sweat; grin opens on a word around 1.5 s; shots again early (about 0.5 s and 1.45 s)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH050-ref approved by Leonard with -b ('Do it'): gun still submitted (gpt_image_2_6, job 3d549c5d-37d8-47c7-8910-934e85430c52, REFS) and flagged nsfw by Higgsfield's safety system. Refund of the 1.5 credits not verified. T02 (S06-SH050-b) not submitted: it needs the still. Reworded prompt ready: prompts/001_S06_SH050_REF_gun-slide-locked_v2.txt."
     }
   ],
   "story_sync": {
