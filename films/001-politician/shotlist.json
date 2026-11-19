@@ -3264,6 +3264,30 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH080-b. Higgsfield folder S04/SH080. Leonard's notes on T01: apologetic first, then confusion and stupor, 5 s, no smile. 5.06 s, 992x432, audio present. Claude's read (frames only, audio not heard): photographic; steeper low angle than T01, buildings converge on both sides, several cables across the sky, an out-of-focus dark head at the bottom edge (the fallen man, not asked for). 0-1.3 s: a broad squinting grin (reads as a sheepish apology, but it is a smile, against the note). About 0.5-3.5 s: right hand reaches down open toward the lens and holds, then drops back. From about 1.5 s: wide eyes, brows drawn, searching, the confusion reads. Mouth opens for the line around 3.5-4.5 s. Words not verified. Leonard 2026-11-19: less happy and more mortified, more human, a more realistic reaction (note on the opening)."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "video_edit",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "5cf41d42-72ea-4608-b6c4-5b8e76ec6fd8",
+              "prompt": "05-generation/prompts/001_S04_SH080_T03_v2.txt",
+              "file": "05-generation/takes/S04/SH080/001_S04_SH080_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T02 7e71c979 (video_references, edit source)",
+                "char_big-guy 6228445b"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S04-SH080-c, video_edit of T02, 0-2 s only: grin to mortified. Result: the edit changed nothing visible. SSIM against T02 about 0.96-0.98 on every frame, the same grin at 0-1.3 s, the same performance after. 5.04 s, 992x432. Lesson [inferred from one take]: video_edit did not change a facial expression inside a short window here."
             }
           ],
           "description": "The fat person looks down at him. He can't place him. Then his eyes widen with excitement.",
