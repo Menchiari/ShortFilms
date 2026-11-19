@@ -5954,8 +5954,30 @@
         },
         {
           "id": "SH080",
-          "status": "planned",
-          "takes": [],
+          "status": "generated",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a5321411-ccf6-4bfa-81f9-8efb52780b26",
+              "prompt": "05-generation/prompts/001_S08_SH080_T01.txt",
+              "file": "05-generation/takes/S08/SH080/001_S08_SH080_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "notes": "REQUEST S08-SH080-a, draft, no video guide. Claude's read from stills (4 fps): 0-1 s a taut twisted rope just left of center, lit by a low orange sun from screen left with god rays, concrete facade soft behind; at about 1 s the hit: a puff of fiber dust at mid frame; 1.25-1.5 s the whole rope is gone from frame (the upper part recoils up out of frame); about 1.75 s the frayed upper end drops back in from the top, swings and settles just above the middle of frame, fibers glowing. Photoreal, no people, no blood. Audio present (mean -27.6 dB), not checked by ear. Edit window about 0.5-2.5 s."
+            }
+          ],
           "description": "The rope snaps.",
           "framing": "CLOSE, the rope",
           "movement": "Locked-off",
