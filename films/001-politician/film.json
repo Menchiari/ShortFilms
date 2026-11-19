@@ -1840,6 +1840,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH050 T04 done (job 8f75d241, 15 credits): 001_S07_SH050_T04.mp4. Thin rod, raw repeated blows with camera jolts, crowd close and yelling at the lens. Fails again: the crowd is all bearded dark-haired men like the fat person, no women. Text cannot override it: likely causes are the char_big-guy face reference bleeding into the extras and the words 'desert town' and 'concrete towers' priming the crowd [inference]. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T04: sideways swings left and right, not vertical; he hangs, he is not on the floor. REQUEST S07-SH050-e prepared: prompt 001_S07_SH050_T05.txt: flat sideways forehand and backhand swings that knock the camera spinning on the rope; camera in the air at the crowd's chest height, level, ground out of frame. [ASSUMPTION] Leonard did not pick between start frame (A) and text only (B) for the crowd: T05 takes B, the cheaper one: char_big-guy image dropped and the fat man described in words (risk: his face drifts from S04), 'desert town' and 'concrete towers' removed, most men clean-shaven. Refs: loc_square 62815a4f only. seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on. Preflight 15 credits. Waiting for approval."
     }
   ],
   "story_sync": {
