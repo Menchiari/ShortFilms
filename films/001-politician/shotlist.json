@@ -5410,7 +5410,7 @@
         },
         {
           "id": "SH030",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -5506,7 +5506,10 @@
               "references": [
                 "S06 SH020 T05 c0bf1ae5 (video_references, extension forward)"
               ],
-              "notes": "REQUEST S06-SH030-f, video_extension forward of the approved SH020 T05, 8 s, 480p. Output holds only the new 8 s. Claude's read from full-size frames at 0.2, 1, 1.5, 2, 3, 3.5, 4, 5, 6, 7.9 s: one continuous take, no scene cut detected; the first frame continues SH020 T05's last frame (same street, wall, five bodies, pipe, cars). About 0.8 to 1.6 s: two runners hit, one drops by his feet at left, one at right; seven men on the asphalt from 2 s. 2.5 to 4 s: his gun hand at the side of his head, seen from behind, the crowd breaks toward him. 5 s: men grab him at the wall. 6 s: a body covers the lens. 7 to 8 s: dark, swallowed in the crowd. Faults: the crowd is all men, many bearded, the look Leonard objected to; the briefcase leaves his hand early and stands at his feet from about 1 s; the two shots land close together around 1 s; the gun-to-head reads as a hand on his head (gun not clear). Audio not listened to."
+              "notes": "REQUEST S06-SH030-f, video_extension forward of the approved SH020 T05, 8 s, 480p. Output holds only the new 8 s. Claude's read from full-size frames at 0.2, 1, 1.5, 2, 3, 3.5, 4, 5, 6, 7.9 s: one continuous take, no scene cut detected; the first frame continues SH020 T05's last frame (same street, wall, five bodies, pipe, cars). About 0.8 to 1.6 s: two runners hit, one drops by his feet at left, one at right; seven men on the asphalt from 2 s. 2.5 to 4 s: his gun hand at the side of his head, seen from behind, the crowd breaks toward him. 5 s: men grab him at the wall. 6 s: a body covers the lens. 7 to 8 s: dark, swallowed in the crowd. Faults: the crowd is all men, many bearded, the look Leonard objected to; the briefcase leaves his hand early and stands at his feet from about 1 s; the two shots land close together around 1 s; the gun-to-head reads as a hand on his head (gun not clear). Audio not listened to. Leonard 2026-11-19: 'ok perfect'.",
+              "rating": 5,
+              "love": true,
+              "rating_source": "inferred"
             }
           ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",
