@@ -6080,8 +6080,9 @@
                 "start frame: Leonard's still (refs/001_S07_SH060_REF_startframe_leonard_992.png, upload 41984959)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S07-SH060-h. Leonard 'try again with the sequel, but no arms'. Leonard's frame as the start image, no other images. Draft 992x432, 24 fps, 5.06 s, audio peak -5.6 dB. Claude's read (frames every 1/8 s, not heard): opens on Leonard's frame. Nothing of the old man in frame for the whole take. Three overhead swings at the lens, each one a full wind-up over his head and a chop down, the frame jerking into a heavy motion blur on each landing: about 1.1 to 1.4 s, 2.4 to 2.6 s, 3.6 to 3.9 s; after each the frame comes back to face him, the second time lower and tilted. From about 4 s to the end he holds the bar diagonally across his body, snarling into the lens: no fourth wind-up. Against the prompt: the crowd points and shouts but barely moves (the same poses most of the take); the swings are overhead chops, not over the shoulder; the end is a hold. Waiting for Leonard."
+              "rating": 4,
+              "notes": "REQUEST S07-SH060-h. Leonard 'try again with the sequel, but no arms'. Leonard's frame as the start image, no other images. Draft 992x432, 24 fps, 5.06 s, audio peak -5.6 dB. Claude's read (frames every 1/8 s, not heard): opens on Leonard's frame. Nothing of the old man in frame for the whole take. Three overhead swings at the lens, each one a full wind-up over his head and a chop down, the frame jerking into a heavy motion blur on each landing: about 1.1 to 1.4 s, 2.4 to 2.6 s, 3.6 to 3.9 s; after each the frame comes back to face him, the second time lower and tilted. From about 4 s to the end he holds the bar diagonally across his body, snarling into the lens: no fourth wind-up. Against the prompt: the crowd points and shouts but barely moves (the same poses most of the take); the swings are overhead chops, not over the shoulder; the end is a hold. Waiting for Leonard. Leonard 2026-11-19: 'very nice' (rating inferred 4).",
+              "rating_source": "inferred"
             }
           ],
           "description": "The pipe slams into his forearm, raised to cover his head, and bounces back off it.",
