@@ -4854,6 +4854,29 @@
               "notes": "REQUEST S06-SH010-c, draft, Leonard's notes on T02 (a bit less crouched; townspeople face him, not the camera). Claude's read from stills: half crouch, knees bent, moderate; the concrete wall fills the background behind him, a plain pole at his right (screen left), an open hazy street with steps at far left. The two men at screen right are turned toward him, arms reaching toward him, in profile. The people at far left walk slowly toward the camera, faces roughly toward camera and him at once: their direction is ambiguous. He mostly holds his spot with small shifts, little backward walking. Smoke at the muzzle early; the gun catches a pale highlight around 1 s. One man near camera wears a white skullcap. Audio present (mean -25 dB), voice not checked by ear. Leonard 2026-11-19: all the people look like muppets. Cause (Claude): the d11 animatic figures walk with both arms stretched out stiffly, and the line-drawing guide carries those poses; T03's own wording 'raise their hands toward him' added to it. Same stiff crowd in T01 and T02, not flagged by Claude.",
               "rating": 1,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "fcae437e-e854-47df-b1e4-7e9acb089d3c",
+              "prompt": "05-generation/prompts/001_S06_SH010_T04.txt",
+              "file": "05-generation/takes/S06/SH010/001_S06_SH010_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "prop_briefcase 4bf36cb5",
+                "loc_square 62815a4f"
+              ],
+              "notes": "REQUEST S06-SH010-d, draft, no video guide; Leonard's note: crowd like a real documentary riot crowd, not static. Claude's read from stills: the crowd opens dense and close, bodies overlapping, out-of-focus heads and shoulders crossing the lens in the foreground, heads turned toward him, arms natural at their sides, no outstretched arms; it thins out over the shot until a few walk away in the distance. He is half crouched, gun out toward screen left on his right arm, briefcase low in his left hand, and ends close to the wall behind him. The wall fills the background behind him; at screen left an open street with towers and a pole with round signs. All men in the crowd, no women. Audio present (mean -25 dB), voice not checked by ear."
             }
           ],
           "description": "Standing at the corner, a wall a few steps behind him, he points the small nickel pistol at them, smoke curling from the muzzle. A few people near the camera run off past it. The rest have frozen.",
