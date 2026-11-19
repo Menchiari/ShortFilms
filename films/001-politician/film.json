@@ -2030,6 +2030,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030, Leonard: make a sequel of SH020 until the crowd overwhelms him and the camera drowns with him in the crowd. T04 prompt prompts/001_S06_SH030_T04.txt: video_extension forward of the approved SH020 T05 (c0bf1ae5), 8 s, same handheld over-the-shoulder camera; 0-2 s the two runners charge, shots 7 and 8, both drop; 2-4 s his gun hand comes to the side of his head from behind, nothing fires (no click), the crowd breaks toward him; 4-6 s they flood over the bodies and slam into him, the case torn away; 6-8 s he goes down and the camera is pulled into the crush. Covers the beats of SH040 to SH060 as continuous coverage. REQUEST S06-SH030-f quoted 24 credits (480p, 21:9, 8 s, audio on), waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-f approved by Leonard ('go ahead', 24 credits). First submit rejected by validation (extension_mode missing, request 1de1cd51), nothing charged. Resubmitted with extension_mode forward: S06 SH030 T04 job 68c8d816-adc3-47cb-8493-7bb3e8aa0b19, video_extension of SH020 T05 (c0bf1ae5), 480p, 8 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T04.txt."
     }
   ],
   "story_sync": {
