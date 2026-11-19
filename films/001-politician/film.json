@@ -1922,6 +1922,10 @@
     {
       "date": "2026-11-19",
       "text": "001: S09 SH090 T01 prompt prepared (request S09-SH090-a, not submitted): prompts/001_S09_SH090_T01.txt, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179, no previz clip (frame background is place: refs_d11 README rule), folder Scenes/S09/SH090. Estimate 12 credits. [ASSUMPTION] sunset sun behind him at upper right, rotor wash blowing screen left to right, her shoulder soft at the left edge as in the d11 clip."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH020 T01 prompt prepared (prompts/001_S09_SH020_T01.txt), request S09-SH020-a, not submitted. Previz as line drawing refs/001_S09_SH020_lines_d11.mp4, upload 0a8504f0. Refs: prop_briefcase, char_politician_final (D: stain in words), prop_helicopter (door empty), loc_square, palette_sunset. Quoted 39 credits (13 s, 480p, 21:9, audio on). [ASSUMPTION] the limp is on the left foot (the ankle he was hung by in S07; the script does not say which)."
     }
   ],
   "story_sync": {
