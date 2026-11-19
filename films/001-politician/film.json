@@ -1840,6 +1840,14 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T03 rated 4 (inferred, 'this is good but'). REQUEST S07-SH070-d prepared, not submitted: prompts/001_S07_SH070_T04.txt = T03_v2 with two changes only: the crowd pressed around the lens, the nearest men yelling straight into the camera; the pipe the length of a baseball bat (about 75 cm, never a staff). New take, not video_edit (Leonard: video_edit does nothing). Same inputs, 480p, 21:9, 4 s, audio on, draft true so a 720p finalize stays possible (T01 to T03 went without it). get_cost 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-d approved by Leonard ('go with S07-SH070-d', 12 credits) and submitted: S07 SH070 T04 2330a2e5-bfc7-4310-851b-d75f6dccf803, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, draft true (echoed in the request), char_big-guy, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T04 done (12 credits, passed the filter, draft true), downloaded to takes/S07/SH070/001_S07_SH070_T04.mp4, recorded in shotlist.json, waiting for Leonard's read."
     }
   ],
   "story_sync": {
