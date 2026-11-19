@@ -1870,6 +1870,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH020 T01 prompt prepared (prompts/001_S09_SH020_T01.txt), request S09-SH020-a, not submitted. Previz as line drawing refs/001_S09_SH020_lines_d11.mp4, upload 0a8504f0. Refs: prop_briefcase, char_politician_final (D: stain in words), prop_helicopter (door empty), loc_square, palette_sunset. Quoted 39 credits (13 s, 480p, 21:9, audio on). [ASSUMPTION] the limp is on the left foot (the ankle he was hung by in S07; the script does not say which)."
     }
   ],
   "story_sync": {
