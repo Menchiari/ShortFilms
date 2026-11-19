@@ -3189,6 +3189,30 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH110-h. Folder S05/SH110. Leonard: modern European city, modern clothes, the animatic as reference, fewer papers. Line-drawing guide stretched to 4 s (47673025). Claude's read: fails like T01. The animatic's box figure in the centre is copied as a black box-bodied giant; a swarm of small paper flakes, not six sheets; large sheets cross close to the lens at 2.3-3.3 s (the animatic's rectangle). What changed from T01: modern clothes (jeans, dark jackets), a present-day street with scooters and a bin, no hard cut (the 4 s guide fixed it). Conclusion: the animatic guide copies its figures even as a line drawing; this shot cannot use it."
+            },
+            {
+              "id": "T09",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 13.5,
+              "job_id": "2ae60447-6747-4281-9961-dda7ab1beeda",
+              "prompt": "05-generation/prompts/001_S05_SH110_T09.txt",
+              "file": "05-generation/takes/S05/SH110/001_S05_SH110_T09.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH110_T09.jpg",
+              "references": [
+                "start frame 9701d11a (start_image): frames/001_S05_SH110_T09_start.jpg, from gpt_image_2_6 job 0742a0d8 over animatic d11 frame 0",
+                "bond County of Franklin A017 (ref_bond_element_v8, 733c151a)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH110-i (video). Folder S05/SH110. Start frame method: gpt_image_2_6 still over animatic d11 frame 0 with every shape named (job 0742a0d8, frames/001_S05_SH110_T09_start.jpg, start_image 9701d11a), plus the bond image for the paper's look. No animatic video. Claude's read: works. One continuous take (no cut detected), photoreal, no box shapes, the same people and street as the still for the whole shot. About five small sheets cross high in the sky, never near the lens. The people follow them, then lower their eyes; the heavy man in the dark jacket turns and looks down past the camera, hard. The frame opens a little wider than the still (frame 0 SSIM to the still 0.56): the start image was taken partly as a reference. A few people end looking toward the camera. Credits: 12 video + 1.5 still."
             }
           ],
           "description": "People stop and look up at the paper flying over their heads. One sheet tumbles past the lens: PUBLIC IMPROVEMENT BOND. $500,000.",
