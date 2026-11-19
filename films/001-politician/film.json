@@ -2734,6 +2734,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH060-d approved by Leonard ('ok go, 18 credits'): S08 SH060 T04, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle (eyepiece only), palette_sunset, folder Scenes/S08/SH060, job 6b7d0594-e77c-45f0-b736-085d2821e48a, prompt prompts/001_S08_SH060_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-a approved by Leonard ('ok go, 12 credits'): T01 submitted, job 2e55db89-b197-40de-93bc-9a49722de6d8, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, start_image 1448763a (the job echo lists it under reference_images), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T01 downloaded (job 2e55db89, 12 credits): she turns over her right shoulder by 1.2 s and holds on Roger; voice-band burst at 2.0-2.9 s; framing a little wider than SH020 T02's last frame. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
