@@ -1397,6 +1397,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020 T04 rated 3 (inferred, 'getting closer'). REQUEST S06-SH020-e prepared, not submitted: prompts/001_S06_SH020_T05.txt = T04 with the location only changed: a perfectly flat vertical concrete wall at his back and left (loc_square 62815a4f added as @loc_square, wall only, the wall of S05 SH140 T03), street about twelve meters wall to wall instead of eight. Same settings, five images. Cost check 36 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH020-e approved by Leonard ('ok go', 36 credits): S06 SH020 T05 submitted, job c0bf1ae5-c7e5-459c-8f7e-fd9deafd2394, seedance_2_5 omni_reference, 480p, 21:9, 12 s, audio on, folder S06/SH020, prompt 001_S06_SH020_T05.txt."
     }
   ],
   "story_sync": {
