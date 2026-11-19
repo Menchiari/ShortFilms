@@ -6668,6 +6668,31 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH060-a. Folder S08/SH060. No previz clip. Claude's read from frames: Roger reads as the element, sunset through the open door and a window, real cabin. He starts with a grin, presses his lips into a sulk around 1 s, goes flat, then drops his cheek onto the stock and eye to the scope at about 3 s, the rifle edging right. Misses: medium close rather than close, his face in the left third; his eye is off the scope until the end; the shooting glasses read dark, his eyes are hard to see. Not yet watched with sound by Claude. Leonard 2026-11-19: no. The background copies the cabin reference (we see the back of the cabin) instead of rebuilding it for this angle; needs very shallow focus, helicopter jitter and vibration, closer and more personal; expression: smiling while shooting, looks at the boss, 'ah fuck her, she always ruins my fun', then serious and a small aim shift."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "b88d2761-649a-4ed2-b45c-0e9e2e396678",
+              "prompt": "05-generation/prompts/001_S08_SH060_T02.txt",
+              "file": "05-generation/takes/S08/SH060/001_S08_SH060_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_sniper 8716ad9f (image_references)",
+                "prop_rifle bb9db39b (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH060-b. Folder S08/SH060. Cabin reference dropped, background in words. Claude's read from frames: behind him only a padded cabin wall and the door edge with the sunset sky, no view down the cabin. Grin at 0-1 s, his face turns toward the lens around 1-1.5 s with a smirk, lips pressed at about 2 s, serious and head lowering toward the scope at 3-4 s. Misses: still a medium close, face in the left half; the background is soft but readable, not extremely shallow; the scope sits beside his face, not at his eye; around 1.5 s he may look into the lens instead of off screen left. Jitter and sound not checked by Claude."
             }
           ],
           "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",

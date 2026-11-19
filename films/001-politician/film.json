@@ -2390,6 +2390,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070 T01 rated 2 (inferred from corrections): rope tied around the post, no feet in frame, the rope snaps on the shot (the snap moves into SH070; SH080 still lists it). REQUEST S08-SH070-b prepared: T02, prompts/001_S08_SH070_T02.txt, the post with the rope wound and knotted around it, crosshair just above the knot, crack, the rope bursts and the long end whips away; scope ring and crosshair now asked for as T01 had them [ASSUMPTION: Leonard did not object]. Refs loc_square 62815a4f, palette_sunset 1f563179; char_politician_blood dropped. seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26677.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-b approved by Leonard ('ok go, 12 credits'): S08 SH060 T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle, palette_sunset (loc_heli-cabin dropped: T01 copied its view), folder Scenes/S08/SH060, job b88d2761-649a-4ed2-b45c-0e9e2e396678, prompt prompts/001_S08_SH060_T02.txt."
     }
   ],
   "story_sync": {
