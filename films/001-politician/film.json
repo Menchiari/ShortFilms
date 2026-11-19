@@ -1876,6 +1876,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH010 T02 rejected by Leonard (rating 1, inferred): wants exactly the animatic composition, realistic. REQUEST S08-SH010-c prepared, not submitted: prompts/001_S08_SH010_T03.txt, line-drawing guide of the d11 clip (refs/001_S08_SH010_lines_d11.mp4, media 4cd08648) as @Video1 for camera, framing and helicopter size, loc_square, palette_sunset, helicopter in words; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-ref prepared, not submitted: start frame over the animatic, prompts/001_S08_SH010_REF_start-frame_v1.txt, images: d11 frame 0 as line drawing (refs/001_S08_SH010_animatic_d11_lines_f0.png, media 46191d2e), loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH010. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Then T03 (12 credits) switches to start_image."
     }
   ],
   "story_sync": {
