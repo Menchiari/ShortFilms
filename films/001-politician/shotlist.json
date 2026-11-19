@@ -5006,8 +5006,33 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "92a622ca-6e69-428d-9f5c-2e91ee1c62ee",
+              "prompt": "05-generation/prompts/001_S06_SH010_T01.txt",
+              "file": "05-generation/takes/S06/SH010/001_S06_SH010_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "prop_briefcase 4bf36cb5",
+                "loc_square 62815a4f",
+                "video lines_d11 0001a18b"
+              ],
+              "notes": "REQUEST S06-SH010-a, draft. Claude's read from stills: photoreal, golden low sun from screen left, follows the animatic blocking: he stands left of center facing camera, gun out along his right arm toward screen left, smoke at the muzzle for the first 2 s, briefcase in his left hand all through. Foreground people at screen right walk off; the people at screen left mostly stand and shift, few back away. Off: the wall is behind the sidewalk, several steps away, with sky and towers above it; a traffic light pole with a yield sign stands beside him instead of the tall street lamp with its long arm (continuity break with S05 SH140 T03). His hair reads dark and receding, not white (T03 used the old char_politician_blood image 73236f58, this take the current 0d0a5637). Blood on his forehead visible. Gun dark, catches a silver highlight at 1.5 s. Audio present (mean -25 dB); I cannot confirm the two lines from here."
+            }
+          ],
           "description": "Standing at the corner, a wall a few steps behind him, he points the small nickel pistol at them, smoke curling from the muzzle. A few people near the camera run off past it. The rest have frozen.",
           "framing": "MEDIUM, frontal, from the crowd's side",
           "movement": "Handheld",
