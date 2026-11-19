@@ -2474,6 +2474,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T02 rated 2 (inferred). REQUEST S08-SH040-c prepared, not submitted: prompts/001_S08_SH040_T03.txt. Height: rope wound round the pole itself as in S07 SH030 T02, he hangs beside the pole, head at the chest height of the standing crowd, plus @Image4 = frame 0.3 s of S07 SH080 T03 (refs/001_S08_SH040_ref_S07_SH080_T03_frame.jpg, media 79ccea2b) for his height and the crowd density only. People: about a hundred alive at the start (as S07 SH080 T03), ten dead lying scattered (fat man in brown with the pipe at the pole foot, red shirt right of the lamp), three new. Shots: from far left, person thrown right, round bursts the paving (dust, stone chips), no blood. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-c approved by Leonard ('ok go, 21 credits'): S08 SH040 T03 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs loc_square, char_politician_final, palette_sunset, S07 SH080 T03 frame 79ccea2b, job 99d38a87-0a9f-496a-a784-7046c47ad2e3, folder Scenes/S08/SH040, prompt 001_S08_SH040_T03.txt."
     }
   ],
   "story_sync": {
