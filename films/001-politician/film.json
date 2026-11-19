@@ -2258,6 +2258,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH060 T04 (job f86d621a) blocked after about 5 minutes of rendering: status nsfw, 'Something went wrong. Please try again, or change your input files or prompt.' 15 credits refunded (15:39:34Z). Not retried. [ASSUMPTION] blocked on the rendered picture (repeated blows on a bloodied hanging man), the prompt had no pain words. REQUEST S07-SH060-f prepared: prompts/001_S07_SH060_T04_v2.txt, same settings, no blood or wound named, swings caught on the forearms, the last one shoved away. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T06 in (job 39d7cc1a, 56 credits), takes/S06/SH030/001_S06_SH030_T06.mp4, 720p 1458x634, 8 s. A new roll of the T04 prompt: the gun clearly at his temple at about 4 s, then the crowd takes him and swallows the camera. Waiting for Leonard. SH030 total 126.5 credits (plus 12 if the blocked T02 job was not refunded)."
     }
   ],
   "story_sync": {
