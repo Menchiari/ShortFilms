@@ -1872,6 +1872,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T01 done (job e945d9ae, 21 credits): takes/S08/SH040/001_S08_SH040_T01.mp4. Photoreal, three cracks two seconds apart, three falls on the left half, earlier dead kept. Misses: the hanging man is not on the lamp arm, two lamps in frame, a few stiff bodies. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T01 rated 1 (inferred, 'pretty bad'): boxy bodies, the hanging man not at the lamp. Cause: the guide clip's previz mannequins (bodies copy their positions and rigid poses). Next proposed: no guide clip; a start frame from Leonard's Midjourney (prompt prompts/001_S08_SH040_REF_start-frame_midjourney.txt), then Seedance start_image, 7 s, 480p, about 21 credits. Not quoted, waiting for Leonard."
     }
   ],
   "story_sync": {
