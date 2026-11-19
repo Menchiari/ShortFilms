@@ -2790,6 +2790,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH070 T04 rated 4 (inferred, Leonard: 'works'). Leonard asks for a prequel: motion-blurred whip pans across the town through the scope, searching, landing on the rope. REQUEST S08-SH070-e prepared: T05, video_extension backward of T04 (job e582e429), 4 s, 480p, audio on, prompts/001_S08_SH070_T05_extend-backward.txt, folder S08/SH070. get_cost 12 credits, balance 26363.7. 0-credit alternative: whip pans built in the edit from T01-T03 with directional blur (ring sizes differ). Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T05 done (job 9e758336, 21 credits): takes/S08/SH040/001_S08_SH040_T05.mp4. Angle held, shots no longer from him. Misses: the puffs and the falls do not line up (hit 1 puff in mid crowd, hit 3 misses the runner), puffs still man-high, the earlier dead missing. Waiting for Leonard."
     }
   ],
   "story_sync": {

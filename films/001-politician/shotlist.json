@@ -7339,6 +7339,31 @@
               "rating": 3,
               "notes": "REQUEST S08-SH040-d. Folder Scenes/S08/SH040. Refs loc_square, char_politician_final, palette_sunset. Claude's read (frames at 2 fps plus full first and last frames, audio levels only): the hits now read as single bullets: one small spurt of dust from the paving each time, no blast; three shots at about 1.1 s, 2.7 s (quieter) and 4.8 s; people drop on the spot; the crowd of several hundred flees to the left and into the back. He hangs lower than T03: his head at about the upper chest of the people standing near the pole. Misses: he hangs from a pole that carries two traffic lights, not a plain lamp at the building corner; the place changed: an open crossroads with towers in the back, the building only at the right, no corner in the center; the crowd stands in neat rows like an audience, mostly older bald or grey men in beige and grey, a few headscarves: not varied; the ten earlier dead are missing: at the end only the three new bodies lie on the paving. Leonard 2026-11-19: the angle works; the bullets must come from the off-screen helicopter, not from the hanging man; the bullet power is still a bit excessive; some bullets did not hit people but they still fell. Claude's frame check: the first puff appears beside the pole at the hanging man's height, so it reads as fired by him; the puffs spread sideways into low clouds; people who crouch read as falls.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "9e758336-9631-47b3-9225-0303e068a8ea",
+              "prompt": "05-generation/prompts/001_S08_SH040_T05.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_politician_final 547bbfa3 (image_references)",
+                "palette_sunset 1f563179 (image_references)",
+                "T04 frame 10fceb80 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH040-e. Folder Scenes/S08/SH040. Refs loc_square, char_politician_final, palette_sunset, T04 frame 10fceb80. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): the T04 angle held (same place, pole, building at right, towers behind), he hangs at about the same height as T04; the puffs come straight up from below, nothing comes from him. Cracks at about 0.8 s, 2.9 s and 4.8 to 5.0 s. Misses: hit 1 (0.9 to 1.6 s): the puff hangs at chest height inside the crowd, nobody is seen falling, a body is visible only once the crowd breaks; hit 2 (about 3.3 s) is a low vertical spurt among the crouching crowd, the fall is not readable; hit 3 (about 5.0 s) misses: the man in the white shirt runs on and leaves the frame. The puffs are still man-high columns. At the end four bodies lie on the paving (three in front, one far), not the three new plus ten earlier. The crowd again stands in rows, mostly older men, a few headscarves. Traffic lights on the pole again."
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
