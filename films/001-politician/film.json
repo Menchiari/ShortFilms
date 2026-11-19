@@ -1906,6 +1906,10 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH050 T01 prompt prepared (request S09-SH050-a, not submitted): seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_politician_final 547bbfa3, char_boss 7ef41962, loc_square 62815a4f, palette_sunset 1f563179, no previz clip (frame filled by street), helicopter behind camera, prompt prompts/001_S09_SH050_T01.txt. Preflight 18 credits. [ASSUMPTION] the folder is a thin plain dark folder."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH110-a prepared, not submitted: S09 SH110 T01, prompts/001_S09_SH110_T01.txt, seedance_2_5 omni_reference, 4 s (shot is 3 s, trimmed in the edit), 480p, 21:9, audio on, folder Scenes/S09/SH110. Images loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179; no video reference (frame filled by place: composition in words from animatic d11 S09_SH110). [ASSUMPTION] body positions after S07 and S08 follow the d11 frame (S08 SH040 has no prompt yet). Cost check 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
