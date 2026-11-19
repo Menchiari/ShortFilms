@@ -1820,6 +1820,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH070 T02 done (12 credits, passed the filter with the wound in the generation), downloaded to takes/S07/SH070/001_S07_SH070_T02.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T02 rated 3 (inferred from notes). REQUEST S07-SH070-c prepared, not submitted: prompts/001_S07_SH070_T03.txt (T02_v2 plus Leonard's four notes: background filled by the crowd and the tower facade, no sky; handheld drift with a slow-motion ramp as the swing begins [ASSUMPTION: 'slow down' means the action goes into slow motion, the camera drift slowing with it]; thick chunks of bone and blood instead of red mist; off-center, three-quarter, canted, uneven crowd; sun moved behind the camera at screen left, window glint on the facade beside his head). Same inputs and settings, get_cost 12 credits."
     }
   ],
   "story_sync": {
