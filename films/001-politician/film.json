@@ -2742,6 +2742,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH050 T01 downloaded (job 2e55db89, 12 credits): she turns over her right shoulder by 1.2 s and holds on Roger; voice-band burst at 2.0-2.9 s; framing a little wider than SH020 T02's last frame. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-d approved by Leonard ('go ahead', 12 credits): S08 SH070 T04 submitted, job e582e429-98ac-4b45-b1c7-82a4866bc5f2, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T04.txt."
     }
   ],
   "story_sync": {
