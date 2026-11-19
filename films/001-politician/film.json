@@ -2418,6 +2418,14 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH080 T01 done (job a5321411, 12 credits, about 24 min in queue): the rope snaps at 1 s, the upper end recoils out of frame and drops back to swing; photoreal. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard approved resubmitting REQUEST S07-SH050-f ('try again', 15 credits). Folder checked first: no T06 job. T06 submitted, video_extension forward of T05, job 675fbdf1-d841-4138-966b-5ee8ef7ca784. The request echo lists T05 under reference_images (as in S06 SH050 T04)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T06 done (job 675fbdf1, 15 credits): 001_S07_SH050_T06.mp4, 5.00 s extension that follows T05. Same man and crowd; final wind-up, his head jerks at about 2 s and he drops out of frame, the crowd ducks from about 3.5 s. No gore: the head wound is a post composite. Waiting for Leonard."
     }
   ],
   "story_sync": {
