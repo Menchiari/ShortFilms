@@ -1780,6 +1780,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH010-ref approved by Leonard ('ok go'): S07 SH010 start frame, seedream_v5_pro 2k 21:9, job b428e5e5-2060-4462-8fb2-3ee7a03117c4, folder Scenes/S07/SH010, 2.5 credits, refs loc_square 62815a4f and the d11 motion previz frame 0 as line drawing (media 66a85ed9). Prompt prompts/001_S07_SH010_REF_startframe.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe.png. Claude's read: photoreal steep rooftop view, concrete wall corner with one lamp post, dense knot at its foot, people streaming in from all sides with long shadows; about six bodies readable (eight asked); crowd mostly men in beige and dark clothes, few women readable."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-ref2 approved by Leonard ('go ahead', 1.5 credits): plate v2, job 0312506b-6c6f-4ac5-8abe-336606918c48, REFS, saved as 05-generation/refs/001_S06_SH030_location-plate_v2.png. A street seen straight across: the concrete wall with the pole in the left half of the far side, apartment facades with shutters and balconies to the right receding into haze, sun low at screen right, empty asphalt and near curb. Waiting for Leonard."
     }
   ],
   "story_sync": {
