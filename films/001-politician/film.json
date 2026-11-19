@@ -2358,6 +2358,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T01 done (job e945d9ae, 21 credits): takes/S08/SH040/001_S08_SH040_T01.mp4. Photoreal, three cracks two seconds apart, three falls on the left half, earlier dead kept. Misses: the hanging man is not on the lamp arm, two lamps in frame, a few stiff bodies. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-a approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T01, job fbd3e0fa-f5da-4ecd-9ccd-76b09e9fbf1f, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T01_v2.txt."
     }
   ],
   "story_sync": {
