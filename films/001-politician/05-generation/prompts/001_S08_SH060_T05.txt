@@ -2,7 +2,7 @@ Audio: only the steady muffled thump and whine of the helicopter rotors and turb
 
 @char_sniper (@Image1): Roger's face, short spiky brown hair, stubble, light amber shooting glasses, in-ear headset and black hoodie only, not his pose, the panel layout or the background. @prop_rifle (@Image2): the scope's rear eyepiece only: its shape and black finish, not the rest of the rifle and not its background. @palette_sunset (@Image3): color and light only.
 
-Extreme close-up of Roger from @char_sniper inside a hovering helicopter at sunset, his eye pressed to the rear of the rifle scope: he grins, loving the shooting, looks back toward his boss as the order reaches him with a puzzled, questioning grin, the grin turns faintly disgusted, then slowly settles into concentration and he moves his aim a little. Every expression is natural and restrained, never exaggerated.
+Extreme close-up of Roger from @char_sniper inside a hovering helicopter at sunset, his eye pressed to the rear of the rifle scope: he grins, loving the shooting, and never takes his eye off the scope; as his boss's order reaches him his grin turns puzzled and questioning, then faintly disgusted, then slowly settles into concentration and he moves his aim a little. Every expression is natural and restrained, never exaggerated.
 
 Framing: extreme close-up, the camera almost touching him. His face fills the whole frame from his eyebrows to his chin, in near profile toward screen right. The black rear eyepiece of the scope enters from the right edge of frame and touches the lens of his glasses in front of his right eye: he is looking through it. The rest of the rifle is out of frame below and to the right; only that eyepiece is seen. His face is centered, never pushed to one side by the rifle.
 
@@ -13,8 +13,8 @@ Camera: rides the helicopter: constant small fast jitters and a fine engine vibr
 Lighting, motivated by the sun only: a low red-orange sunset sun from screen right, through the open door beyond the scope, hard and warm across his face, catching the stubble, the skin texture, his teeth and the rim of the glasses; the lenses are light and see-through, his eyes clearly visible behind them. The side of his face toward the camera's left falls into deep warm shadow with detail. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
 
 0-2s: his eye at the scope, the rifle just settling after a shot. He grins, his teeth just showing, a natural private grin of pleasure in the hunt, not a wide or forced one.
-2-3s: his eye leaves the scope and looks back toward screen left, over his shoulder toward his boss behind him, as her order reaches him. The grin stays but turns puzzled and questioning: his brows lift slightly, his head tilts a touch, the teeth still just showing: is she serious? He never looks into the lens.
-3-4.5s: he reads that she is. The grin sours slightly into a faint disgusted grin: one side of his upper lip lifts a little off his teeth, a short exhale through his nose. Small and restrained, never a grimace. His eye returns to the scope.
+2-3s: his eye stays in the scope and his head stays on the stock; he does not look away. Her order reaches him from behind. The grin stays but turns puzzled and questioning: his brows lift slightly, the teeth still just showing: is she serious? He never looks into the lens.
+3-4.5s: he understands she means it. The grin sours slightly into a faint disgusted grin: one side of his upper lip lifts a little off his teeth, a short exhale through his nose. Small and restrained, never a grimace. His eye never leaves the scope.
 4.5-6s: slowly, the disgusted grin melts away and his face settles into concentration: his mouth closes, his brow tightens, still and serious, his eye in the scope. With a small, controlled move of his head and shoulder he follows the scope a little to the right onto a new target and stops dead. Final frame: the same extreme close-up, his serious face in near profile toward screen right, near eye sharp behind the glasses and pressed to the scope's eyepiece at the right edge, the frame still trembling with the helicopter's vibration.
 
 ACTING TASK, Roger (he is fully invested in his tactic; the work happens in his eyes):
@@ -22,7 +22,7 @@ SCENE DIRECTION (shared, unspoken): a clean job from above: stay professional, n
 MOTIVE (his fuel): this is the part of the job he lives for, and she is the one who pays and decides.
 GOAL: keep doing what he loves without losing the job.
 OBSTACLE: she has just told him to stop, she always does, and talking back to her costs him the job.
-TACTIC: he looks to her to check if she really means it, half hoping it is a joke; he reads that she does, and his distaste for her ruining his fun leaks out for a moment; then he puts the feeling away and gives her the professional she pays for: his eye hunts the target she wants and locks on it.
+TACTIC: without taking his eye off the target he listens to her, half hoping it is a joke; he understands she means it, and his distaste for her ruining his fun leaks out for a moment; then he puts the feeling away and gives her the professional she pays for: his eye hunts the target she wants and locks on it.
 (Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
 
 Count of people in frame: one, Roger. Count of scopes: one. No text, no logos, no markings.
