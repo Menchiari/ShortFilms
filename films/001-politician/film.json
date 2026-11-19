@@ -1880,6 +1880,10 @@
     {
       "date": "2026-11-19",
       "text": "Leonard: no start frame, Seedance from words. REQUEST S08-SH040-b prepared, not submitted: prompts/001_S08_SH040_T02.txt = T01 v2 without the guide clip, plus an exact composition in words (the building corner and the one lamp in the center of frame, the rope from the lamp arm to his ankle just left of the pole) and the bodies described one by one in loose real poses. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-b approved by Leonard ('ok go, 21 credits'): S08 SH040 T02 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, no guide clip, job 2d61a052-6987-46c5-a337-ac243d959080, folder Scenes/S08/SH040, prompt 001_S08_SH040_T02.txt."
     }
   ],
   "story_sync": {
