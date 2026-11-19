@@ -2374,6 +2374,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S07-SH050-f approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 9a6c97c7-b11b-40e8-867b-6ecaac874fac). No new job in folder S07/SH050. Not retried; waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-ref2 and -d approved by Leonard ('ok go'): start frame v2, edit job a9413cf0-71ab-4ba3-81f5-25f3e36037df (2.5 credits), saved refs/001_S07_SH080_REF_startframe_v2.png; T03 job ea9b8ece-12bc-4ed1-990f-333e65358c08 (15 credits), folder S07/SH080, passed first time, downloaded as takes/S07/SH080/001_S07_SH080_T03.mp4. Denser crowd, left side filled; no third drop readable; the run goes mostly right. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
