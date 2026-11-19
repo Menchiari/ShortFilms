@@ -5385,6 +5385,30 @@
               "notes": "REQUEST S06-SH030-a, draft. Claude's read: @Video1 was read as video (the d11 framing and the runner paths match the guide), photoreal, sun from screen left, golden haze. Five men lie where d11 has them. The near man walks toward him from the left foreground; one man runs out of the crowd across the middle at about 2.5 s. Faults: the crowd's torsos come out boxy and flat like cardboard vests (the previz blocks leaked through); the near walker reads as a dark jacket, not green; no concrete wall or tall lamp beside the old man (the wall sits at screen right behind the crowd, and there is a traffic-light pole); the old man is tiny and dark, the gun barely readable, the briefcase not visible. Audio: low, no music heard in the level check; not listened to. Leonard 2026-11-19: 'so much is wrong', the character's position must be consistent. Cause: the place came from the d11 animatic (open square) and the line guide, not from the takes that work (S05 SH140 T03 wall; S06 SH020 T02 narrow street, wall at his side, no guide); wrong 'white hair'; long lens made him tiny.",
               "rating": 1,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "874a4626-6273-4542-8754-edfa1f4c6b45",
+              "prompt": "05-generation/prompts/001_S06_SH030_T02_v2.txt",
+              "file": "05-generation/takes/S06/SH030/001_S06_SH030_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_blood 0d0a5637",
+                "prop_gun 24875e9a",
+                "loc_side-street e728a9ae",
+                "prop_briefcase 4bf36cb5",
+                "no guide clip"
+              ],
+              "notes": "REQUEST S06-SH030-c, draft, prompt T02_v2 (first T02 submission 4c3c9bac blocked as nsfw). Claude's read: photoreal narrow street, no previz look, sun low down the street at screen right as in SH020 T02. He stands at screen left on the sidewalk against the facade by a doorway, facing screen right, briefcase in his left hand, gun arm out. Faults: the camera looks down the street at an angle, not straight across; two parked cars; the five men lie clustered together in the middle of the street 5 to 10 m from him, not spread at the planned spots; the crowd stays a far wall of men, no women visible; the blue-shirt runner breaks at about 2.5 s and by 4 s is in the near foreground almost level with him; the grey runner in the middle; a blue-lit window behind him; the gun small. Audio not listened to."
             }
           ],
           "description": "From the side: past the men lying where they fell, the crowd comes at him again, not all together: one breaks into a run, then another, then more.",
