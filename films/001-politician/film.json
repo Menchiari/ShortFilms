@@ -1864,6 +1864,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S08-SH020-a approved by Leonard ('ok go, 12 credits'): S08 SH020 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, loc_heli-cabin 75f579e3, palette_sunset 1f563179, no previz clip (cabin set fills the frame), folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 6b2503e2-fe43-4a22-929e-8457de85b6a0), no job id returned, no credits spent. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-a resubmitted on Leonard's new approval ('ok go again, 12 credits'): S08 SH020 T01, job 66732250-137b-4f97-8107-9309de1dd2f5, 12 credits, same prompt and refs, folder Scenes/S08/SH020, saved as takes/S08/SH020/001_S08_SH020_T01.mp4. Claude's read: photoreal Roger at the open door at sunset, but the lady and the pilot are missing, cheek off the stock, the whole rifle in frame, the town below reads as a big city with a dome-like tower. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
