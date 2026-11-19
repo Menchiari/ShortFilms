@@ -1756,6 +1756,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH020 T05 rated 4 (inferred, 'very nice'); shot set to approved [ASSUMPTION: no further changes asked]. SH020 total 180 credits over five 480p drafts. New continuity from SH020 for SH025, SH030, SH060, S07, S09: he is at a flat concrete wall at the mouth of a street about 8 to 12 m wide (not the open square); a short rusty iron pipe lies by the first body; the body map in the shotlist entry replaces the d11 map; his dialogue now includes yelled warnings."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T02 rated 2 (inferred): Leonard, far from the location; make the location first. The location for this side view is the approved S06 SH060 T02 (same side): first frame saved as refs/001_S06_SH030_loc_from_SH060_T02_f0.png (media 663578f1). REQUEST S06-SH030-ref prepared: empty wider location plate, edit of that frame (people removed, camera pulled back, wall edge to edge, pole in the left third, six meters of pavement), prompts/001_S06_SH030_REF_location-plate.txt, gpt_image_2_6 (the model used for the S06 SH050 still), high, 1k, 21:9, 1.5 credits. Waiting for approval."
     }
   ],
   "story_sync": {
