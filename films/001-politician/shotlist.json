@@ -6054,9 +6054,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S08-SH060-e. Folder S08/SH060. Leonard dropped the look back: he stays on the scope. Claude's read from frames at 3 fps: he never leaves the scope; restrained grin with teeth 0-3 s; the mouth closes into pressed lips with a slight downturn at about 3-3.7 s; serious from about 4 s; a small forward and rightward head move at about 5-5.5 s (the aim shift). Misses: the puzzled grin and the faint disgust are not clearly distinct in frames, the grin mostly holds and then closes; the scope barrel reads reddish in the sun; a few bright window shapes read in the background. Jitter and sound not checked by Claude."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH060-e. Folder S08/SH060. Leonard dropped the look back: he stays on the scope. Claude's read from frames at 3 fps: he never leaves the scope; restrained grin with teeth 0-3 s; the mouth closes into pressed lips with a slight downturn at about 3-3.7 s; serious from about 4 s; a small forward and rightward head move at about 5-5.5 s (the aim shift). Misses: the puzzled grin and the faint disgust are not clearly distinct in frames, the grin mostly holds and then closes; the scope barrel reads reddish in the sun; a few bright window shapes read in the background. Jitter and sound not checked by Claude. Leonard 2026-11-19: works."
             }
           ],
           "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",
