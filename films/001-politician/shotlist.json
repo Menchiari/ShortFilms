@@ -6157,8 +6157,34 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "08bb9655-e5a9-4fa2-9f82-d42cc5865369",
+              "prompt": "05-generation/prompts/001_S08_SH010_T01.txt",
+              "file": "05-generation/takes/S08/SH010/001_S08_SH010_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_helicopter 6c8efe25 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH010-a. Folder S08/SH010. Text and elements only, no guide clip. Claude's read: photoreal, d8 framing held (tall block at screen left, diagonal roofline with dishes, water tank and antennas at screen right, sunset haze). The helicopter holds still for 4 s, rotors turning, camera locked. Misses: it is about 30% of frame width, not 10%: it reads close and low over the roof, seen from below, not far beyond the rooftops; it reads grey-brown in the backlight, not matte black; a figure seems to sit in the open door (prompt said empty). Audio present (mean -31 dB); Claude cannot listen, so music is not verified."
+            }
+          ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
           "framing": "EXTREME WIDE, long lens",
           "movement": "Locked-off",
