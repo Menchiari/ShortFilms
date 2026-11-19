@@ -2002,6 +2002,14 @@
     {
       "date": "2026-11-19",
       "text": "Leonard on S07 SH060: make a sequel, he keeps hitting, the politician keeps blocking with his hands, hurting himself at each block, gasping, resisting with anger. REQUEST S07-SH060-e prepared, not submitted: T04 = forward extension of T02 (867641cb), 5 s, seedance_2_5 video_extension forward, 480p, audio on, images char_politician_blood, char_big-guy, prop_bar-weapon, folder S07/SH060, prompt prompts/001_S07_SH060_T04.txt: three quick chopping swings, three blocks on forearms and hands, he gasps, shakes, glares, keeps his guard up. Pain played in the acting, no pain words (T03 v1 nsfw block). Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-e approved by Leonard ('ok go, 15 credits'): T04 submitted, job f86d621a-2ebd-4619-a079-3fcfec5de553, forward extension of T02, 5 s 480p audio on, folder S07/SH060."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T04 (job f86d621a) blocked after about 5 minutes of rendering: status nsfw, 'Something went wrong. Please try again, or change your input files or prompt.' 15 credits refunded (15:39:34Z). Not retried. [ASSUMPTION] blocked on the rendered picture (repeated blows on a bloodied hanging man), the prompt had no pain words. REQUEST S07-SH060-f prepared: prompts/001_S07_SH060_T04_v2.txt, same settings, no blood or wound named, swings caught on the forearms, the last one shoved away. Estimate 15 credits."
     }
   ],
   "story_sync": {
