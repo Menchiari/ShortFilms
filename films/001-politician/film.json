@@ -2482,6 +2482,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH020 start frame v3, Leonard: 'I like this image. Do it.' (wind, helicopter movement, slight handheld jitter, film realism). REQUEST S08-SH020-b prepared: T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, start_image = v3 frame e0aa58d6, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T02.txt, quoted 12 credits. Submission blocked in this session by the tool permission check (no job created, no credits spent): waiting for Leonard's explicit approval with the amount."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-ref approved by Leonard ('both', 2.5 + 1.5 = 4 credits). Seedream 5.0 Pro 2k 21:9 job 8f2af3e5-80d2-42fc-b7e5-3f3636547988, folder S08/SH010, saved as refs/001_S08_SH010_start-frame_v1_seedream.png (3120x1328) and frames/001_S08_SH010_T03_start.jpg (1120x480). GPT Image 2.6 high 1k job 2cf64f83-81ac-44ff-b68a-cc2f6d8b52d1 blocked by the safety filter (nsfw flag; likely the armed man aiming at the town), not retried; I don't know whether credits were charged. Claude's read of the Seedream frame: the animatic layout held (tall balconied block at left, lower block's roof edge diagonal at right, helicopter upper middle, about one fifth of frame width, nose left); a real UH-60, dark, with one man seated in the open door, the rifle not clearly readable; sky pale warm cream, not deep orange. REQUEST S08-SH010-c re-prepared: prompts/001_S08_SH010_T03_v2.txt, start_image 8f2af3e5, loc_square, palette_sunset, no line guide; estimate 12 credits."
     }
   ],
   "story_sync": {
