@@ -2210,6 +2210,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 T04, Leonard: remake in 720p. T04 went out without draft: true (against the every-take-as-draft rule), so no finalize. Options: (A) Topaz upscale of T04 to 1080p, keeps the exact take, no cost preflight exists (S04 SH130 precedent: 5 credits for 5 s, about 3% horizontal stretch, waxy faces); (B) a new 720p extension of SH020 T05, quoted 56 credits, a new roll that will not repeat T04's performance. video_edit at 720p excluded (style.md, and S04 SH070 showed no added detail). Waiting for Leonard's pick."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH010 T01 generated (job 5a4fd608, 54 credits), downloaded as takes/S09/SH010/001_S09_SH010_T01.mp4. Not yet rated by Leonard. Claude's read in shotlist.json: photoreal sunset, fall and curl work; misses: wide not medium close, the stain came out as a blood-like puddle on the asphalt, no slouched lean, the spit is a glowing streak."
     }
   ],
   "story_sync": {

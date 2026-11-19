@@ -6445,8 +6445,34 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 18,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 54.0,
+              "job_id": "5a4fd608-528c-45b8-bfc0-07439ef1429e",
+              "prompt": "05-generation/prompts/001_S09_SH010_T01.txt",
+              "file": "05-generation/takes/S09/SH010/001_S09_SH010_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_final 547bbfa3 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)",
+                "refs_d11_motion S09_SH010 line drawing 864bf115 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH010-a, approved by Leonard ('ok go', 54 credits). Folder S09/SH010. Line-drawing guide refs_d11_motion (media 864bf115), listed by the echo under reference_images. Claude's read (frames at 1 fps plus crops, audio levels only, not listened): photoreal, no previz look, low sunset sun from screen left, long shadows, the square corner with the flaking concrete wall, two poles and hazy towers behind. The fat person lies at screen left along the curb, face toward the camera, eyes closed, the pipe by him; no second body at the right edge. 0-2 s he falls in upside down from above (reads as the rope snapping), lands by the curb, rolls; 2-8 s curled on his side facing camera, hands at his head; audio loud 0-4 s (RMS about -22 to -27 dB), quiet after. Misses: framing is a wide full-body shot, not medium close. The stain is not on his trousers: a dark red liquid runs out from under him across the asphalt and reads as blood. 10-14 s he sits up with both knees up, then legs out, propped on his right forearm: no slouched couch lean, elbows not on the sidewalk. The spit at about 17.4 s is a glowing yellow horizontal streak from his mouth over the fat person's legs toward screen left, like a beam, not landing on him. His face drifts younger near the end."
+            }
+          ],
           "description": "Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.",
           "framing": "MEDIUM CLOSE, camera almost on the ground across the street, long lens",
           "movement": "Locked-off",
