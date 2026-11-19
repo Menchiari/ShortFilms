@@ -6564,8 +6564,34 @@
         },
         {
           "id": "SH040",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "e945d9ae-176d-471b-9bdb-580ff15bfcdc",
+              "prompt": "05-generation/prompts/001_S08_SH040_T01_v2.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "char_politician_final 547bbfa3 (image_references)",
+                "palette_sunset 1f563179 (image_references)",
+                "S08_SH040 d11 motion lines 6bfdd33e (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH040-a. Folder Scenes/S08/SH040. Seed 175111717. Guide: refs_d11_motion/S08_SH040 as a line drawing (@Video1, media 6bfdd33e). Claude's read: photoreal throughout, real people with real gait, no blocky figures; low sunset sun from screen left behind dust, long shadows, the look holds. Three cracks in the audio at about 0.8 s, 2.9 s and 4.8 s, two seconds apart; three people drop on the left half of the square, the last one running, the rest run off; the earlier dead stay still in a line along the foot of the building. Misses: the old man hangs from a rope with no visible anchor, beside the facade, not from the lamp arm; two street lamps in frame (one left of center, one right) against count one; a few bodies on the ground read stiff, and one dark heap at the center (where the previz has the white body at the lamp foot) is hard to read. Not graphic: no blood."
+            }
+          ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
           "framing": "WIDE, from the street, long lens",
           "movement": "Locked-off",
