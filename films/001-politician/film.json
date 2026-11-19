@@ -1880,6 +1880,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH020 start frame v2, Leonard: both wrong, GPT better; camera angle as in the animatic; the lady on the left (she turns around to tell him to stop). REQUEST S08-SH020-ref3 prepared: edit of the GPT v2 frame (2ef78fb3) with the animatic d11 first frame as a line drawing (refs/001_S08_SH020_animatic_d11_lines_f0.png, media 658b8451) for camera angle and composition only, plus char_boss 7ef41962; prompt prompts/001_S08_SH020_REF_start-frame_v3.txt; gpt_image_2_6 high 1k 21:9, 1.5 credits. [ASSUMPTION] Leonard's left = the left front seat, screen left of the pilot. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-ref3 approved by Leonard ('ok go, 1.5 credits'): start frame v3, gpt_image_2_6 high 1k 21:9, job e0aa58d6-a2e7-472f-940f-f3fd6150034c, folder Scenes/S08/SH020, saved as refs/001_S08_SH020_start-frame_v3_gpt.png. Claude's read: the lady now sits in the left front seat, the pilot in the right; Roger seen from behind his left shoulder, cheek on the stock, the smile hidden; rifle cut by the right edge; door empty, low sandy town, sun at right. The angle is still a close over-the-shoulder, tighter and lower than the animatic (which sits higher and further back, the cabin ceiling large at the top, the rifle thin across the lower third)."
     }
   ],
   "story_sync": {
