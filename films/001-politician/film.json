@@ -1860,6 +1860,10 @@
     {
       "date": "2026-11-19",
       "text": "S06 SH030 start frame v1 rejected by Leonard: too posing, not realistic, not film quality, incoherent, looks like GPT, too many people, they look Middle Eastern. Cause: Claude picked gpt_image_2_6 for a story still (CLAUDE.md: images come from Leonard's pipeline, Midjourney for style; Claude does not pick image models), and asked for a full crowd. REQUEST S06-SH030-d (T03 on that still) withdrawn, never submitted. Two paths offered: (1) Leonard makes the start frame in Midjourney, prompt in prompts/001_S06_SH030_REF_start-frame_v2_midjourney.txt; (2) Seedance T03 without a start frame, frames of the approved SH020 T05 (2ec9392e) and SH060 T02 (663578f1) as location references, about a dozen mixed people, quoted 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-a prepared, not submitted: prompts/001_S08_SH040_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 7 s, audio on, folder Scenes/S08/SH040. Images: loc_square 62815a4f, char_politician_final 547bbfa3 (old man C hanging from the lamp, as in animatic d11), palette_sunset 1f563179. Video ref 6bfdd33e-a894-48fb-855e-e5cc7a0f94f4 (refs/001_S08_SH040_lines_d11_motion.mp4: refs_d11_motion/S08_SH040 as a line drawing). Three falls at about 1-2 s, 3-4 s and 5-6 s, all on the left half of the square, as in d11; the earlier dead stay at the foot of the building. [ASSUMPTION] sunset sun from screen left. No ACTING TASK: nobody close enough to read a face. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
