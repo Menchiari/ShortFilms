@@ -1571,6 +1571,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH030-b approved by Leonard ('go ahead', 12 credits): S06 SH030 T02 submitted, job 4c3c9bac-4812-4222-a11f-ac901c1b7d39, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T02.txt, no guide clip."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T02 (job 4c3c9bac) blocked by Higgsfield as nsfw ('Something went wrong'). Refund not attributable from the transaction list (several S06 sessions share the account). No retry. T02_v2 prompt (prompts/001_S06_SH030_T02_v2.txt): six phrases softened ('where he shot them' to 'where they fell', crowbar to steel bar, 'refuses to die', 'lost count of his bullets', 'before he can fire again', 'Nobody fires'); rest identical. REQUEST S06-SH030-c quoted at 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
