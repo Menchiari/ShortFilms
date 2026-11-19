@@ -5354,7 +5354,9 @@
               "references": [
                 "char_politician_blood 0d0a5637"
               ],
-              "notes": "REQUEST S06-SH040-c, draft. Claude's read from stills and audio levels: faces right, concrete wall behind, soaked in sweat, one thin dry blood trace on the cheek (as asked). Mouth closed in a hard, down-turned set between words: grim, no smile. On the words the jaw opens and the teeth show (about 0.5 s and 3 s), so the teeth are not shut while speaking. Framing is WIDER than T02, not closer: nose, cheek and the edge of the eye area in frame; the macro wording did not hold. Loud transients at about 0.5 s and 1.55 s (the shots), another burst at about 2.05 s; quiet after 2.3 s."
+              "notes": "REQUEST S06-SH040-c, draft. Claude's read from stills and audio levels: faces right, concrete wall behind, soaked in sweat, one thin dry blood trace on the cheek (as asked). Mouth closed in a hard, down-turned set between words: grim, no smile. On the words the jaw opens and the teeth show (about 0.5 s and 3 s), so the teeth are not shut while speaking. Framing is WIDER than T02, not closer: nose, cheek and the edge of the eye area in frame; the macro wording did not hold. Loud transients at about 0.5 s and 1.55 s (the shots), another burst at about 2.05 s; quiet after 2.3 s. Leonard 2026-11-19: \"yea this works whatever\".",
+              "rating": 4,
+              "rating_source": "inferred"
             }
           ],
           "description": "A shot.",
