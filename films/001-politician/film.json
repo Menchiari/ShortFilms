@@ -1954,6 +1954,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH030-e approved by Leonard ('go ahead', 12 credits): S06 SH030 T03 submitted, job 7b51d8cf-830a-43b0-8211-037501d7b7a8, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T03_v2.txt, refs f61e2fee, 2aa49ff6, 663578f1."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH010-a prepared, not submitted: S09 SH010 T01, prompts/001_S09_SH010_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 18 s, one take, audio on, 54 credits (free quote). Refs: char_politician_final 547bbfa3 (old man D: the stain in words), loc_square 62815a4f, palette_sunset 1f563179, guide refs_d11_motion S09_SH010 as line drawing (refs/001_S09_SH010_motion_d11_lines.mp4, media 864bf115). Pose reference in words only. The fat person in words as a sleeping man, no char_big-guy image."
     }
   ],
   "story_sync": {
