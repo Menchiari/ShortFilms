@@ -3303,7 +3303,7 @@
               "prompt": "05-generation/prompts/001_S04_SH080_T04.txt",
               "file": "05-generation/takes/S04/SH080/001_S04_SH080_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S04_SH080_T04.jpg",
               "references": [
                 "char_big-guy 6228445b",
                 "loc_side-street e728a9ae",
