@@ -2190,6 +2190,10 @@
     {
       "date": "2026-11-19",
       "text": "S07 SH060 T03 done (REQUEST S07-SH060-d, 15 credits, job 219ae42d): the 5 s prequel, saved as takes/S07/SH060/001_S07_SH060_T03.mp4; joined with T02 as 001_S07_SH060_T03_join.mp4 (9.06 s). Join holds. Bar matches the element. Reaches and small taps readable; the big guy barely moves. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-a approved by Leonard ('ok go, 12 credits'): S08 SH060 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle, loc_heli-cabin, palette_sunset, no previz clip, folder Scenes/S08/SH060, job 522491d4-7d70-4674-9c09-571d333e3196, prompt prompts/001_S08_SH060_T01.txt."
     }
   ],
   "story_sync": {

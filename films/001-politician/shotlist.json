@@ -6371,8 +6371,35 @@
         },
         {
           "id": "SH060",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-19",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "522491d4-7d70-4674-9c09-571d333e3196",
+              "prompt": "05-generation/prompts/001_S08_SH060_T01.txt",
+              "file": "05-generation/takes/S08/SH060/001_S08_SH060_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_sniper 8716ad9f (image_references)",
+                "prop_rifle bb9db39b (image_references)",
+                "loc_heli-cabin 75f579e3 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH060-a. Folder S08/SH060. No previz clip. Claude's read from frames: Roger reads as the element, sunset through the open door and a window, real cabin. He starts with a grin, presses his lips into a sulk around 1 s, goes flat, then drops his cheek onto the stock and eye to the scope at about 3 s, the rifle edging right. Misses: medium close rather than close, his face in the left third; his eye is off the scope until the end; the shooting glasses read dark, his eyes are hard to see. Not yet watched with sound by Claude."
+            }
+          ],
           "description": "Roger's face, for an instant: a child whose candy was taken. Then his face goes blank. He shifts his aim.",
           "framing": "CLOSE",
           "movement": "Locked-off",
