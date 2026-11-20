@@ -1910,6 +1910,14 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH040 T03 (rating 2, inferred): camera angle wrong, rotate to match SH020 (approved T03 c55d3708), where the helicopter is. Place reference refs/001_S09_SH040_REF_place_from_SH020_T03_8.5s.jpg (frame 8.5 s of S09 SH020 T03) uploaded and filed in REFS (image b5e22ffd-2c50-47af-a0c6-7fd9112ac38f). REQUEST S09-SH040-d prepared, not submitted: prompts/001_S09_SH040_T04.txt: same axis as SH020, pulled back to a head-height wide; helicopter at left nose to screen right, door toward camera, Roger seated in the cabin [ASSUMPTION: she exits by the front door beside the cockpit, Roger stays inside, matching SH020]; corner with traffic light pole and the slumped big man at right; him beside the open case right of center; sun in frame upper left. Images: SH020 frame b5e22ffd, prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, palette_sunset 1f563179 (loc_square dropped: the SH020 frame carries the place). 480p, 21:9, 4 s, audio on, 12 credits, balance 25,943.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-d approved by Leonard ('let's see it'): T04 job f5260b6c-6035-428f-8741-1ca7da368a59, 12 credits, folder Scenes/S09/SH040."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH040 T04 done (job f5260b6c), takes/S09/SH040/001_S09_SH040_T04.mp4. Place matches SH020; but it copied SH020's low camera with the case in the foreground, and she walks in from frame left instead of stepping out of the helicopter."
     }
   ],
   "story_sync": {
