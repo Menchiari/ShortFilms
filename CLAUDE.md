@@ -16,9 +16,10 @@ follows these rules. They override habits and defaults.
    must go, ask first and name the exact path. Exception: story drafts in `stories/` are versioned
    by git: edited in place, committed and pushed after every change.
 3. **Higgsfield folder discipline.** Every generation goes into the film's own Higgsfield project,
-   into the folder of its scene and shot (`S01/SH010`), reference stills into `REFS`, music into
-   `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into another
-   project. If a folder does not exist yet, create it in the right project first.
+   into the folder of its scene and shot (`Scenes/S01/SH010`), reference stills into `REFS`, music
+   into `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into
+   another project. If a folder does not exist yet, create it in the right project first, following
+   the folder rules in `docs/HIGGSFIELD.md`.
 4. **Never music in shot generations.** Every shot prompt starts and ends with the audio policy
    in `docs/PROMPTING.md`. Sound in generations stays flat and diegetic: dialogue, room tone,
    contact sounds. The user does the sound design. Music is generated only in the music stage
