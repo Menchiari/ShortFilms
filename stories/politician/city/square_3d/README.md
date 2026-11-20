@@ -28,8 +28,8 @@ Master frame: `../square_leonard_v1.webp` (Leonard). JPEG copy uploaded to Higgs
 | 6 | CAM_06_hero_corner_to_west_street | toward the west street mouth (S05 SH140 entrance). Framing blocked by a block: to fix |
 | 7 | CAM_07_top_down | straight down, north up (S08 aerial) |
 
-Files: `cam00..07.jpg`, `contact_sheet.jpg`, `square_blockout_tour_v1.mp4` (free blockout tour, 8 s, cuts every second).
-Seedance tour prompt: `prompt_square_tour_v1.txt` (start frame = Leonard's frame). Not generated: waiting for approval.
+Files: `cam00..07.jpg`, `contact_sheet.jpg`, `square_blockout_tour_v1.mp4` (cuts every second), `square_blockout_tour_v2_continuous.mp4` (Leonard 2026-11-20: no cuts. One continuous camera, one second per move, linear, no easing; camera CAM_TOUR_continuous, 3D revision 6).
+Seedance tour prompt: `prompt_square_tour_v2_continuous.txt` (v1 with cuts replaced). Not generated: waiting for approval.
 
 ## Conflict found
 
