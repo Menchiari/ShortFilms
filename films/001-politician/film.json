@@ -1934,6 +1934,14 @@
     {
       "date": "2026-11-20",
       "text": "Leonard picked grade B for the S09 SH050 T05 start frame: refs/001_S09_SH050_T02_frame_0s_grade-b.png, upload c019ba79, filed in REFS (placement 456a921c). Request S09-SH050-e final: start frame c019ba79, refs 547bbfa3, 7ef41962, prompt prompts/001_S09_SH050_T05.txt, 18 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-e approved by Leonard ('try'): S09 SH050 T05, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, start frame c019ba79 (grade B) plus refs 547bbfa3, 7ef41962, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T05.txt. Job c108331e-60e8-4fe0-8dd5-774c264e0610."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T05 done: job c108331e, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T05.mp4. Regraded start frame carried its grade (less orange, grain). Not yet rated by Leonard. SH050 total 90 credits over five 480p drafts."
     }
   ],
   "story_sync": {
