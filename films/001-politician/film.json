@@ -1878,6 +1878,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH100-a approved by Leonard ('ok go, 39 credits'). Both submissions refused by Higgsfield: 429 rate_limit_reached (request ids 7fb2dfb6-9dd5-4404-bf18-03d5db482d7f and 2d8a63bc-d916-4851-829c-78a192489161), no job id, nothing in folder Scenes/S09/SH100, nothing charged (the 39-credit spend at 15:23:22 UTC is job f3eb6a38 in S09/SH020, another session). Several S07 to S09 sessions were submitting at the same time. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH100-a, Leonard: 'try again'. Third submission refused (429, request id b8c4b5d6-a935-4bf4-a4ba-1684984d6094, nothing charged) while six Seedance jobs of other S08/S09 sessions were in progress: the limit looks like concurrent jobs per account [inferred]. Submitted once more after one of them completed: accepted, job cf5b1072-4fe8-4ee1-b761-1fe2dbdc2e17, folder Scenes/S09/SH100, 39 credits."
     }
   ],
   "story_sync": {
