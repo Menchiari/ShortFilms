@@ -7900,8 +7900,34 @@
         },
         {
           "id": "SH050",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "5624c7ee-6272-483b-8000-dee1307f40b4",
+              "prompt": "05-generation/prompts/001_S09_SH050_T01.txt",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_final 547bbfa3",
+                "char_boss 7ef41962",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH050-a, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear; continuous sound, no silences): photoreal, sunset backlight, her back and ponytail in the left third, him limping in from the street and holding a dark folder out to her with his right arm, ending waist-up facing her. Paper sheets blow past. Weak: the place is a wide open avenue with high-rise blocks, traffic lights and a road sign, not the narrow street of S06 SH020; one body visible (left), not two; she turns her head toward profile; the folder is held at waist height on a straight arm, not at the chest; the trouser stain does not read; little wind in his hair."
+            }
+          ],
           "description": "He limps toward her, close, and holds out the folder.",
           "framing": "MEDIUM, him, over her shoulders",
           "movement": "Locked-off",

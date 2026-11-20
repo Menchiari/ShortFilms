@@ -2850,6 +2850,14 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH060-a, Leonard: 'check errors and try again'. Transactions checked: no 24-credit charge from the 429 call. Resubmitted once, same params: job 8d9e0c0f-cc60-4b41-b8a3-d10b02a74025, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, folder Scenes/S09/SH060."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-a resubmitted on Leonard's 'go, try again': accepted, job 5624c7ee-6272-483b-8000-dee1307f40b4, folder Scenes/S09/SH050, same prompt and settings (18 credits)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T01 done: job 5624c7ee, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T01.mp4 (6.08 s, 992x432, audio). Shot status review. Not yet rated by Leonard."
     }
   ],
   "story_sync": {
