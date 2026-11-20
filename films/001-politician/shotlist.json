@@ -8325,7 +8325,7 @@
         },
         {
           "id": "SH090",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -8341,7 +8341,7 @@
               "prompt": "05-generation/prompts/001_S09_SH090_T01.txt",
               "file": "05-generation/takes/S09/SH090/001_S09_SH090_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH090_T01.jpg",
               "references": [
                 "char_politician_final 547bbfa3 (image_references)",
                 "loc_square 62815a4f (image_references)",
@@ -8395,7 +8395,7 @@
               "prompt": "05-generation/prompts/001_S09_SH110_T01.txt",
               "file": "05-generation/takes/S09/SH110/001_S09_SH110_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH110_T01.jpg",
               "references": [
                 "loc_square 62815a4f (image_references)",
                 "prop_car 42787b78 (image_references)",
