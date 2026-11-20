@@ -2842,6 +2842,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH010 elements double-checked against the live list (Leonard): the 21 politician elements and their images are unchanged; one new, prop_bar-weapon 37fe2cf2 (the fat person's pipe, Leonard 2026-11-19), now in elements.md once (duplicate row removed). main merged into s09-sh010 (style.md: no previz or line-drawing clip as video reference; T02 already had none). REQUEST S09-SH010-c replaced by S09-SH010-d, prepared, not submitted: prompts/001_S09_SH010_T02_v3.txt = T02_v2 plus char_big-guy f5cc12be (the sleeping man, continuity with S07) and prop_bar-weapon (his pipe beside him) as <<<id>>>; elements char_politician_final, loc_square, char_big-guy, prop_bar-weapon; palette_sunset image in medias, named in words; 480p, 21:9, 18 s, audio on, 54 credits (free quote)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH070-e approved by Leonard ('ok go', 12 credits): S08 SH070 T05 submitted, job 136607b2-ef6f-4321-8093-4c0daf744dfe, seedance_2_5 video_extension backward of T04 (e582e429), 480p, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T05_extend-backward.txt. The job echo lists T04 under reference_images."
     }
   ],
   "story_sync": {
