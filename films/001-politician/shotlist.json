@@ -6054,6 +6054,29 @@
               "rating": 2,
               "notes": "REQUEST S08-SH040-f. Folder Scenes/S08/SH040. Prompt T06_v2 (414 words), refs T04 frame 10fceb80 and char_politician_final. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): T04 angle, place and his height held; no blasts, only low dust; the crowd flees for real; the third kill reads cleanly: the man in the white shirt throws up an arm and drops at about 4.8 to 5 s. Cracks: loud at 0.8 s and 4.5 s, a quieter one at about 2.7 s. Misses: the crowd is again several hundred people in rows, mostly older men, the same as the T04 frame: the reference frame carries its crowd in, 'not its people' did not hold, the fifty from the prompt did not come through; the first kill is hidden behind the front rows (a body is seen only as they part); by about 2.5 s two bodies lie at the left, the second fall not readable; five bodies at the end. Leonard 2026-11-20: all the things Claude noticed, plus he is not hanging in the right position: he should hang from the street lamp post (he hangs from the traffic-light pole beside it).",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "325f2a8d-20b2-4043-9888-6a593a2680ee",
+              "prompt": "05-generation/prompts/001_S08_SH040_T07.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T07.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T04 last frame c732f495 (image_references)",
+                "char_politician_final 547bbfa3 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH040-g. Folder Scenes/S08/SH040. Prompt T07 (490 words), refs T04 last frame c732f495 and char_politician_final. Claude's read (frames at 4 fps, full first and last frames, audio levels only): the crowd is now spread out with open paving between people, not in rows, fewer and more mixed in clothes, still mostly men; the three kills read better: a puff and a drop in the left foreground at about 1 s, a second drop left of center at about 3 s, the man in the white shirt down by about 5.3 s; cracks at about 0.8 s, 2.7 s and 4.5 s, closer in level. Misses: he still hangs from the traffic-light pole, not the street lamp: the reference frame shows him there and Seedance kept it; a small helicopter is visible in the sky by the lamp at the start and around 4.5 s; the last frame copies the T04 last frame almost exactly (same bodies, same spots); no earlier dead near the lamp."
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
