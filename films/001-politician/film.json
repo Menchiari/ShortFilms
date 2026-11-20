@@ -1918,6 +1918,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH040 T04 done (job f5260b6c), takes/S09/SH040/001_S09_SH040_T04.mp4. Place matches SH020; but it copied SH020's low camera with the case in the foreground, and she walks in from frame left instead of stepping out of the helicopter."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH040: start-frame route chosen by Leonard after T04. Midjourney prompt written: prompts/001_S09_SH040_REF_start-frame_midjourney.txt (--sref the SH020 T03 frame, --oref char_boss, 21:9, style raw). Waiting for Leonard's still."
     }
   ],
   "story_sync": {
