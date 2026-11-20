@@ -3014,6 +3014,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH010 T02: 'this works, maybe we can do it better but this works for now' (rating 4, inferred). S09 SH010 approved with T02. Open for a later pass: the slouched lean, a spit that is barely visible, hair wording (element has graying brown hair, not white)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T01 delivered (job e3432dc6), downloaded as takes/S09/SH090/001_S09_SH090_T01.mp4 (992x432, 24 fps, 4.06 s, audio), recorded in shotlist.json, unrated."
     }
   ],
   "story_sync": {
