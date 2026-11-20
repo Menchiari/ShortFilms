@@ -6103,6 +6103,31 @@
               "rating": 1,
               "notes": "REQUEST S09-SH050-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): his face clearly angrier, a hard glare and tight mouth at the end; the folder now dark; a wide street now runs straight behind him into the haze, background softer than T02. Weak: the grade is more orange, not less: a heavy orange-red wash; the place reads as a ruined, rubble-strewn wide avenue with tall blocks and street lights, not the low-rise square of T02; no bodies readable; less wind in his tie; paper only on the ground at the left. Leonard 2026-11-20: no, the previous take (T02) was better.",
               "rating_source": "user"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "ddb88cc6-4481-4105-b29b-d0fbe16251e1",
+              "prompt": "05-generation/prompts/001_S09_SH050_T04.txt",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "start frame: T02 frame 0 b9d2e155 (refs/001_S09_SH050_T02_frame_0s.png)",
+                "char_politician_final 547bbfa3",
+                "char_boss 7ef41962",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH050-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the start frame held T02's background, light and color throughout; both bodies stay readable; rotor wind in his tie and jacket. He thrusts the folder at her on a straight arm at chest to shoulder height, a harder, more aggressive gesture than T02; his face a tight scowl. Weak: the folder is pale grey (from the start frame), not dark; he stops a little farther from her than in T02; the trouser stain does not read; her glasses show at the edge of her cheek."
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",

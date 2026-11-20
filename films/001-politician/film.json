@@ -1918,6 +1918,14 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T04 prompt prepared (request S09-SH050-d, not submitted) on Leonard's 'use the background from T02': T02's first frame (refs/001_S09_SH050_T02_frame_0s.png, upload b9d2e155, filed in REFS, placement 9f678e1c) as start_image, plus char_politician_final, char_boss, palette_sunset; T03 prompt without the Grade paragraph (T03's angrier acting kept). Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-d approved by Leonard ('ok go, 18 credits'): S09 SH050 T04, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, start frame b9d2e155 (T02 frame 0) plus refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T04.txt. Job ddb88cc6-4481-4105-b29b-d0fbe16251e1. The request echo lists the start frame under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 done: job ddb88cc6, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4. Not yet rated by Leonard. SH050 total 72 credits over four 480p drafts."
     }
   ],
   "story_sync": {
