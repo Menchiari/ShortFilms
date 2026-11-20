@@ -2886,6 +2886,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH070 T05 rated 4 (inferred, Leonard: 'works'). SH070 approved [ASSUMPTION: no further changes asked]: edit T05 then T04 (search, settle, snap). The snap now plays in SH070; SH080 (close, the rope snaps) still lists it: Leonard to decide whether SH080 stays."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T06 rated 2 (inferred). REQUEST S08-SH040-g prepared, not submitted: prompts/001_S08_SH040_T07.txt (about 470 words) = T06_v2 with: @Image1 = T04 last frame (refs/001_S08_SH040_ref_T04_lastframe.jpg, media c732f495, square almost empty) for the angle, street, buildings and the tall street lamp only; he hangs from the tall street lamp post (rope round the post at head height, head at the crowd's chest), no traffic lights; fifty people spread with open paving, never in rows; each victim alone in the open; three equally loud cracks. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs c732f495 and char_politician_final 547bbfa3. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
