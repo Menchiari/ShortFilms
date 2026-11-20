@@ -3302,6 +3302,14 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on the muted reference: try again. Three new grades of the SH050 T02 frame (refs/001_S09_SH110_REF_place_from_SH050_T02_gradeA/B/C.jpg). REQUEST S09-SH110-f prepared: T04 = prompts/001_S09_SH110_T04_v2.txt with grade A (natural late sun, upload 30eaaf24) as the only reference, same settings, cost check 12 credits, waiting for Leonard's pick and approval. S09-SH110-e withdrawn, never submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH110-f approved by Leonard ('just do the shot'): S09 SH110 T04 submitted, job abec4409-55ef-4843-aaa3-3040174797a9, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, reference grade A 30eaaf24, folder Scenes/S09/SH110, prompt 001_S09_SH110_T04_v2.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T04 done: job abec4409, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T04.mp4, still made, recorded in shotlist.json, waiting for Leonard's rating."
     }
   ],
   "story_sync": {
