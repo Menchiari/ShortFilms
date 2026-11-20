@@ -1878,6 +1878,10 @@
     {
       "date": "2026-11-19",
       "text": "S09 SH030 T01 done (job cf1abe22, about 65 minutes in queue), downloaded to takes/S09/SH030/001_S09_SH030_T01.mp4, recorded in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH030 T01 approved by Leonard ('this works', rating 4 inferred)."
     }
   ],
   "story_sync": {
