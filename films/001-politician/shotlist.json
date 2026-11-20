@@ -8906,8 +8906,37 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 20,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 60.0,
+              "job_id": "2cd023a3-ec4f-45c7-a2c0-e90921edacfc",
+              "prompt": "05-generation/prompts/001_S10_SH010_T02.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_car-interior 60a2aec8 (image_references)",
+                "loc_crossroads a5b52222 (image_references)",
+                "prop_helicopter 6c8efe25 (image_references)",
+                "prop_wobblehead fa19c43f (image_references)",
+                "palette_sunset 1f563179 (image_references)",
+                "d11 S10 SH010 as line drawing 53cc3d81 (video_references; the job echo lists it among reference_images)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S10-SH010-b. Folder S10/SH010. T01 was never generated (429). Claude's read: photographic, no previz look. Sun low at upper left with anamorphic streaks; the Black Hawk comes down the street toward the car from far away (it does not rise from below the hood), crosses close in front of the sun at about 8 s as a dark silhouette, then turns away and recedes; the camera sinks from about 9 s, the dashboard and the bobblehead rise into frame right of center; dust and paper sheets blow past at 13 to 17 s, the head wobbles (blurred at 13.5 s), one sheet lands on the dashboard; from about 16 s the whole bobblehead stands still lower right, rim-lit, finger up, helicopter a speck in the haze. Misses: the open driver's door never shows; no rise from below. Audio loudness rises to a peak at 12 to 14 s and falls to about -43 dB at the end (not listened to: check for music)."
+            }
+          ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
           "framing": "MEDIUM, from inside the car, through the windshield",
           "movement": "Holds, then a slow pedestal down, a little lower at the end",
