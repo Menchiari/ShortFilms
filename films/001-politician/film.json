@@ -3178,6 +3178,38 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH040-ref-v4 approved by Leonard ('try'): job b0c839c8-e82d-461f-85ed-f25c91a4ecfb, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v4.png. Claude's read: helicopter turned as asked (seen from behind, tail toward the camera), she steps out of its right side facing him, one old man. Lost: the animatic's camera and distance: the place became the SH020 corner (traffic light, yield sign, slumped man) and he stands close, about two meters from her, not far back."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 downloaded (job 344b204b, 12 credits, t2v, no references), takes/S08/SH030/001_S08_SH030_T04.mp4. Passed the filter with blood. Narrow dirty streets, packed crowd, three hits with blood pools, short kicks. Off-brief: low near-street-level angle instead of high from the helicopter, the scope circle drifts, faint crosshair. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 rated 1 (inferred, Leonard: 'no, it's supposed to be from high up, not in a narrow street'). REQUEST S08-SH030-e prepared, not submitted: T05, prompts/001_S08_SH030_T05.txt (T04 v3 plus: about 300 m up, looking steeply down at about sixty degrees, rooftops at the edges of the circle, no horizon or sky in the circle, never from street level; bigger recoil, a third of the circle off target). seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, estimate 12 credits, balance 26054.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-e approved by Leonard ('go, 12 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 1fdf43ac-4d2c-427e-8062-37e2c29146a1), no job id returned, nothing charged. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-e resubmission approved by Leonard ('go, 12 credits') after the 429 refusal and submitted: S08 SH030 T05, job 962697eb-ab58-424c-9436-88447b3e6596, seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T05.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T05 downloaded (job 962697eb, 12 credits, t2v), takes/S08/SH030/001_S08_SH030_T05.mp4. High steep angle over rooftops, no sky; three kicks, stronger than T04; blood; passed the filter. Off-brief: the scope ring is small and slides across the frame with the town visible outside it. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T05 rated 1 (inferred, Leonard: 'no, this is all wrong'). SH030 so far: 5 takes, 60 credits; T03 (approved, 'good enough') stays the chosen take. Nothing new prepared. Proposed: start from T03's own first frame (start_image) so its scope, angle, place and crowd carry over, and change only what Leonard asked on T03; open question: what 'tighter roads' meant (read twice as narrow streets, both rejected)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030, Leonard: 'everything is wrong'. No spend. Free comp on the approved T03: 05-generation/comp/001_S08_SH030_T03_kick_v1.mp4 (ffmpeg here): a recoil kick at each of T03's two shots (audio peaks 0.94 s and 3.06 s): the frame jumps up and sideways, 5-frame blur, a decaying shake over about 0.3 s. T03 itself unchanged."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 done: T03 with the recoil kick comp (comp/001_S08_SH030_T03_kick_v1.mp4), Leonard: 'this works' (rating 4 inferred). Two kills, no blood, the open square, as in T03. Lesson: after an approved take, change only what was asked, on top of that take (post first, then a start frame from it); rebuilding the prompt lost everything T03 had (T04, T05)."
     }
   ],
   "story_sync": {
