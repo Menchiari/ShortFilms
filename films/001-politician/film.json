@@ -1932,6 +1932,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH040-f approved by Leonard ('ok go, 21 credits, don't repeat elements'). Prompt cut to prompts/001_S08_SH040_T06_v2.txt (414 words): nothing described twice (the framing named once, the hits only in the timeline, the summary sentence and the hit paragraph merged); the audio line stays at start and end (CLAUDE.md rule 4). Unsubmitted v1 kept as 001_S08_SH040_T06.txt. S08 SH040 T06 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs T04 frame 10fceb80 and char_politician_final 547bbfa3, job 695f707d-0fe7-4e50-85d8-f92fb85464f0, folder Scenes/S08/SH040."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T06 done (job 695f707d, 21 credits): takes/S08/SH040/001_S08_SH040_T06.mp4. Angle held, no blasts, third kill clean. Misses: the T04 frame brings its crowd of hundreds in rows; first two kills hidden in the crowd. Waiting for Leonard."
     }
   ],
   "story_sync": {

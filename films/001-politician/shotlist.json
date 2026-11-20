@@ -6030,6 +6030,29 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S08-SH040-e. Folder Scenes/S08/SH040. Refs loc_square, char_politician_final, palette_sunset, T04 frame 10fceb80. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): the T04 angle held (same place, pole, building at right, towers behind), he hangs at about the same height as T04; the puffs come straight up from below, nothing comes from him. Cracks at about 0.8 s, 2.9 s and 4.8 to 5.0 s. Misses: hit 1 (0.9 to 1.6 s): the puff hangs at chest height inside the crowd, nobody is seen falling, a body is visible only once the crowd breaks; hit 2 (about 3.3 s) is a low vertical spurt among the crouching crowd, the fall is not readable; hit 3 (about 5.0 s) misses: the man in the white shirt runs on and leaves the frame. The puffs are still man-high columns. At the end four bodies lie on the paving (three in front, one far), not the three new plus ten earlier. The crowd again stands in rows, mostly older men, a few headscarves. Traffic lights on the pole again."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "695f707d-0fe7-4e50-85d8-f92fb85464f0",
+              "prompt": "05-generation/prompts/001_S08_SH040_T06_v2.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T06.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T04 frame 10fceb80 (image_references)",
+                "char_politician_final 547bbfa3 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH040-f. Folder Scenes/S08/SH040. Prompt T06_v2 (414 words), refs T04 frame 10fceb80 and char_politician_final. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): T04 angle, place and his height held; no blasts, only low dust; the crowd flees for real; the third kill reads cleanly: the man in the white shirt throws up an arm and drops at about 4.8 to 5 s. Cracks: loud at 0.8 s and 4.5 s, a quieter one at about 2.7 s. Misses: the crowd is again several hundred people in rows, mostly older men, the same as the T04 frame: the reference frame carries its crowd in, 'not its people' did not hold, the fifty from the prompt did not come through; the first kill is hidden behind the front rows (a body is seen only as they part); by about 2.5 s two bodies lie at the left, the second fall not readable; five bodies at the end."
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
