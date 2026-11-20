@@ -1922,6 +1922,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH040: start-frame route chosen by Leonard after T04. Midjourney prompt written: prompts/001_S09_SH040_REF_start-frame_midjourney.txt (--sref the SH020 T03 frame, --oref char_boss, 21:9, style raw). Waiting for Leonard's still."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: write the start frame for GPT Image or whatever model works best. Claude picked seedream_v5_pro (S07 SH010 start frame precedent; GPT Image 2.6 was rejected on S06 SH030 as posed). REQUEST S09-SH040-ref prepared, not submitted: prompts/001_S09_SH040_REF_start-frame.txt, 2k, 21:9, count 1, refs SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, folder Scenes/S09/SH040. Estimate 2.5 credits. The Midjourney version stays as an alternative."
     }
   ],
   "story_sync": {
