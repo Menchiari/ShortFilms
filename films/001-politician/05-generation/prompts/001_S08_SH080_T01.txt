@@ -1,0 +1,22 @@
+Audio: only the creak of a heavy rope straining under a hanging weight, one sharp crack from far away, the dry snap of the rope parting, and the soft rasp of loose fibers settling, with a distant roar of shouting voices from the crowd below, out of frame. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the dusty concrete apartment tower at the corner of the square: its weathered plaster, rows of small dark windows and rolled-down shutters only. Not its framing, open square, street lamp, traffic lights, people or parked cars. @palette_sunset (@Image2): color and light only, nothing else from it.
+
+A locked-off close shot at the corner of a dusty square in a desert town at sunset: a thick, rough rope hangs straight down through the frame, pulled tight by a heavy weight below, and a bullet from far away cuts it in two. The result is photorealistic live-action 35mm film footage shot on location, a real rope and a real wall, never a 3D render, previz, drawing or video game.
+
+Camera: locked-off, close, at the height of the rope, on a long lens. The rope runs straight down through the frame just left of center, from the top edge to the bottom edge, close and sharp: a thick rough rope of pale frayed fibers, the same rope that hangs from the arm of the street lamp. Behind it, soft and out of focus, the facade of the concrete apartment tower from @loc_square fills the background edge to edge: weathered plaster, small dark windows, rolled-down shutters. No people in frame, no lamp in frame, no ground or sky in frame.
+
+Lighting, motivated by the sun only: a low orange sunset sun from screen left, at a raking angle, catches the rope so every frayed fiber glows warm along its left side, its right side in soft brown shade. The facade behind is lit warm and low, long soft shadows under the windows and shutters. Fine dust drifts through the light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: the rope hangs taut and straight, trembling slightly and turning a little under the heavy weight below it; dust drifts through the light.
+1-2s: at the middle of the frame the rope is hit with a sharp crack: a small puff of fiber dust bursts from it, and the rope tears apart there, its fibers splitting and flying out in frayed strands.
+2-3s: the lower length drops straight down out of the bottom of frame in an instant, pulled by the weight. The upper length jerks up a little, freed, then swings back and forth, its torn frayed end bouncing just below the middle of the frame.
+3-4s: the upper length slows its swing and hangs nearly still, its frayed end loose and spread, a few loose fibers drifting down through the light. Final frame: the cut rope hanging from the top of frame, its frayed end just below the middle of frame, the lower half of the frame empty, only the soft facade behind, the camera unmoved.
+
+Physics: a real rope under a heavy load: taut and straight before the cut, the lower length gone at once when it parts, the upper length freed with a short recoil. Nothing stretches like rubber. Count of ropes: one. No people, no blood, no muzzle flash, no visible bullet. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the creak of a heavy rope straining under a hanging weight, one sharp crack from far away, the dry snap of the rope parting, and the soft rasp of loose fibers settling, with a distant roar of shouting voices from the crowd below, out of frame. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,38 @@
+Audio: only the old man's two shouted lines, his hard ragged breaths, running footsteps on dusty pavement fading away, shoes shuffling backward on grit, a few gasps and a low frightened murmur from the townspeople. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_blood (@Image1): the old man's face, white hair, build, dusty charcoal suit, stained white shirt, rust tie and the wound on his right eyebrow only, not his pose or background. @prop_gun (@Image2): the toy gun: its shape, size and black finish only, not its background. @prop_briefcase (@Image3): the dark leather briefcase: its shape, leather, handle and metal latches only, not its background. @loc_square (@Image4): the corner of the square: the plain weathered concrete wall, the tall street lamp on the curb with its long arm, the curb, sidewalk and dusty pavement only, not its framing, open space, towers or parked cars.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or circles, not its surfaces, colors, light or style, and not the poses of the people in it. Every wall, lamp, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+
+A handheld medium shot from among the townspeople at the corner of a dusty square in a desert town: cornered against a concrete wall, the old man from @char_politician_blood holds the toy gun from @prop_gun out at the frozen crowd, smoke still curling from its muzzle after his shot into the air, while the nearest people run off past the camera and the rest back away as he shouts at them.
+
+Camera: medium shot, frontal, at chest height from the crowd's side, as in @Video1. Handheld: a slight natural sway, as if the operator stands among the townspeople, never shaky, always framed on the old man. The weathered concrete wall from @loc_square fills the background a few steps behind him, edge to edge: no sky, no open square behind him. The tall street lamp stands a step to his side, beside him and never between him and the camera.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from screen left at a raking angle, warm and golden. It rakes across the wall, showing its cracks and dust, lights the left side of his face, and throws long soft shadows of the people sideways across the pavement. Golden dust in the air. Deep brown shadows that keep their detail, highlights that roll off softly, never clipped.
+
+His wound, as in @char_politician_blood: a split in his right eyebrow; blood runs from it down the right side of his face and has started to dry. The briefcase from @prop_briefcase stays clamped in his left hand against his side for the whole shot.
+
+0-2s: the old man stands a little left of center, facing the camera, a few steps out from the wall. His right arm is raised, the toy gun from @prop_gun held out at chest height toward the townspeople at screen left and in front of him, a thin curl of grey smoke still rising from its muzzle and drifting up past his head. In the foreground, close to the camera, a few townspeople in plain worn everyday clothes turn and run, brushing past the camera out of frame at both edges. Farther off, others stand frozen, stiff, hands half raised, staring at him. On his first line he thrusts the gun forward, his right arm extending straight toward the nearest frozen ones at screen left.
+2-4s: arm extended, he holds the gun on them. The frozen townspeople step backward, slowly, one by one, never in step, keeping their eyes on the gun, and back away toward the camera and out past it at the frame edges. The last of the smoke thins away above him.
+4-6s: on his second line he swings the gun from one retreating face to the next, then draws his arm back in, the gun held at chest height, still aimed at them. Final frame: the old man a little left of center, alone in front of the wall, the street lamp beside him, the gun at chest height aimed toward screen left, the briefcase clamped in his left hand, breathing hard; two or three townspeople far behind the camera's line walking away, nobody near him.
+
+Dialogue: English; the old man is American with a slight accent; both lines are shouted, raw and hoarse.
+1-2s, the old man's line (driving them back): {STAY BACK!!!}
+4-5s, the old man's line (pushing them farther): {Don't get close! Go away!}
+The townspeople keep their mouths closed: no words from them.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: make them back off without having to shoot anyone.
+OBSTACLE: the wall is at his back, he is an old man with a small gun, and if any one of them stops believing it, they all come at once.
+TACTIC: he makes the gun bigger than it is: the muzzle goes where his eyes go, and his eyes hunt the crowd for the one face still deciding whether to rush him, lock on it and hold it until it gives way, then move to the next. His voice is a weapon he fires instead of the gun; during his first line he picks out the nearest man, during his second he checks who is still coming and who has broken.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The toy gun does not fire in this shot: no flash, no gunshot, no recoil. Nobody falls, nobody is hurt, nobody touches him. Count of guns: one, the toy gun from @prop_gun, only in the old man's right hand. Count of briefcases: one, always in his left hand. Count of street lamps: one. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the old man's two shouted lines, his hard ragged breaths, running footsteps on dusty pavement fading away, shoes shuffling backward on grit, a few gasps and a low frightened murmur from the townspeople. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,20 @@
+Audio: only the engine rushing past overhead, the thump of the tires landing, the rush of air against the camera, grit ticking on the lens, then the engine fading toward the town. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the towers, the single gap between them and the road: architecture and materials only. Image 2: the black full-size luxury sedan: its body, grille, lights, black paint and light coat of desert dust only, not its background. Image 3: color and light only.
+
+A stunt camera sits low on an empty desert road facing the wall of towers at the edge of a town; a black sedan jumps a small bump and sails over the camera toward the gap, and the air of its passing rocks the camera.
+
+0-1s: low angle, the camera resting on the asphalt in the middle of the empty road, facing the town, camera position and framing from Video 1: the wall of real concrete towers across the frame with its single gap in the center, the road running into it. Camera: still.
+1-2s: timed as in Video 1, the black sedan comes from behind the camera at speed, lifts off a small bump and sails over the camera, clearing it by a wide margin: for an instant the dark shape of the car passes across the top of frame, all four wheels in the air. The rush of air rocks the camera a few centimeters, dust and grit swirl past the lens.
+2-4s: the camera keeps trembling a little as it settles. The car lands a few meters ahead, rear wheels first, then the front, bounces once on its springs and drives away toward the gap, dust rolling after it. Final frame: the camera still again, the car small, heading toward the gap, the dust settling over the road.
+
+Count of cars: one. No people anywhere in frame.
+
+Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the engine rushing past overhead, the thump of the tires landing, the rush of air against the camera, grit ticking on the lens, then the engine fading toward the town. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

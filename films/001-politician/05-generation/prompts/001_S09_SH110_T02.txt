@@ -1,0 +1,32 @@
+Audio: only the deafening chop and whine of helicopter rotors close behind the camera, hard gusts of wind, grit hissing across the asphalt, and paper sheets flapping, scraping and skittering over the street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@prop_car (@Image1): his car: its shape, color and body only, not its background, angle or size; in this shot it is tiny and far away. @palette_sunset (@Image2): color and light only.
+
+Her point of view, a locked-off wide shot at standing eye level from beside a helicopter idling behind the camera in the middle of a dusty town square at sunset, looking away from the helicopter across the open square: men lie still on the asphalt where they fell while the rotor wash tears large cream paper certificates off the ground and sends them tumbling away among them, and straight ahead a narrow street leads out of the square to a far crossroads where his car stands alone.
+
+The camera stands on the opposite side of the square from the street light: the street light, the traffic lights and the corner with the concrete wall are behind the camera, never in frame.
+
+Framing: camera at eye level, about one and a half meters above the asphalt, on a normal lens, locked-off, perfectly still, everything sharp from the near asphalt to the far crossroads. The lower half of frame is the open square: dusty, cracked asphalt and drifted sand, no road markings. Across the square, about twenty five meters away, runs a row of low-rise buildings of two to four floors, their cracked and patched ochre plaster, rolled-down dented metal shutters at street level, small balconies with worn railings and sagging cables, facades of different heights. Just right of center a narrow street opens between two of these low blocks and runs straight away from the camera, long and walled in, to a vanishing point; far down it, where it meets a cross street, the street widens into an empty crossroads. A thin strip of orange sunset sky shows above the far end of the street.
+
+The bodies: thirteen men lie still on the open asphalt of the square between the camera and the buildings, all small in frame, the nearest about eight meters away, face down or on their sides, arms and legs loose, like men asleep on the ground, faded everyday clothes in browns, greys and whites, each in his own spot, spread unevenly over the square, a few nearer the left, a few near the mouth of the street, none in a row. No blood, no wounds, no injuries readable at this distance. They do not move at all for the whole shot. Count of bodies: thirteen.
+
+The certificates: about thirty large cream paper sheets the size of an A4 page, scattered over the asphalt among the bodies. The rotor wash blows from behind the camera across the square, away from the lens: sheets rip off the asphalt, flip, tumble and skid fast away from the camera in hard gusts, some catching against the bodies and flapping there, some lifting a meter into the air and sliding down again, a few blowing into the mouth of the street. Dust and grit stream low across the asphalt in the same direction. Nothing floats slowly: the wind is hard and gusty.
+
+The far crossroads: in the middle of the empty crossroads far down the street, his car from @prop_car stands alone, tiny, about one fortieth of the frame width, its driver door open, parked where he left it. Count of cars: one, his car, far off.
+
+The people hiding: a few townspeople hide along the edges of the square, small and still: one crouches in a dark doorway at the left, peeking out; one leans out from behind the corner at the mouth of the street; two crouch low behind a parapet on a first-floor balcony at the right, only their heads showing. They stay hidden, frozen, watching the bodies: nobody steps out, nobody looks into the lens.
+
+The place is a real square photographed on location, never blocky or simplified: chipped curbs, sand along the walls, grit on every ledge. Nothing looks like a box, a slab or a 3D model. No tall towers, no high-rise blocks, no wide avenue, no traffic lights, no street lights, no road signs, no zebra crossings, no painted lines.
+
+Lighting, motivated by the sun only: a low sunset sun at the far end of the street, just above the rooftops, a little right of center, facing the camera: warm orange and amber haze glowing down the street and across the square, dust and flying paper backlit and glowing, long soft shadows of the bodies stretching toward the camera. The facades facing the camera sit in deep warm shade, only the roof edges catch the sunset. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: locked-off wide, the square, the bodies, the street opening and the far crossroads with the tiny car. A hard gust of rotor wash rolls across the square from behind the camera: sheets near the camera rip off the asphalt and tumble away, dust streams low over the ground, sheets further off flap against the bodies and slide.
+2-4s: a second gust: more sheets lift and fly away between the bodies, some skid into the mouth of the street, some flutter up and drop again. The bodies stay exactly where they lie. The hidden people stay behind their cover. Final frame: the same locked-off view: thirteen still bodies where they lay, sheets scattered and still tumbling away, dust hanging low in the backlight, the tiny car far off in the crossroads at the end of the street, the sunset glowing above it.
+
+No helicopter in frame, no part of it, no people standing in the open. No parked cars, no other vehicles. Real-life speed, no slow motion, no cuts, no camera shake.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, paper or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the deafening chop and whine of helicopter rotors close behind the camera, hard gusts of wind, grit hissing across the asphalt, and paper sheets flapping, scraping and skittering over the street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,33 @@
+Audio: only the murmur and shouting of a large crowd in an open square, shuffling footsteps on dusty asphalt, two sharp distant cracks from far away in the sky, a heavy body dropping onto the asphalt, a metal pipe clanging and ringing on the asphalt, gasps, and running footsteps. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the square: the weathered concrete wall at its corner, the tall plain metal street light on the curb with its arm reaching out over the sidewalk, the curbs, the dusty asphalt and the facades around it only, not its framing, towers or parked cars. @char_big-guy (@Image2): the fat man's face, build and clothes only, not his pose or background. @char_politician_final (@Image3): the old man's face, white hair, build, bruises and his torn dusty suit only, not his pose or background.
+
+A locked-off wide view from high above the square in a desert town, late afternoon: in front of the old man hanging upside down from the street light, the fat man with a raised metal pipe collapses at a sharp crack from the sky, and the crowd around them steps back confused, until a second man drops and people begin to run.
+
+Camera: locked-off, high above the square, looking down at a steep angle, about fifteen meters up and in front of the fat man, on a normal lens, everything sharp. The street light stands on the curb near the left edge of frame, the sidewalk runs along the left side of frame. From the end of its arm the old man from @char_politician_final hangs upside down by one ankle from a rope, beside the sidewalk, small in frame, his free leg bent, his arms hanging, twisting slowly on the rope. The crowd fills the rest of the square, spread all around in loose groups and single people, thicker toward the right and the back of frame.
+
+Light, from the sun only: a warm low late afternoon sun from screen left, golden, raking across the square, every person casting a long shadow toward screen right; dust hangs in the light. Deep brown shadows that keep their detail.
+
+Seven men he shot lie still on the asphalt, scattered in different spots of the square, sleeping where they fell, each in a different pose. They never move; the crowd stands and walks around them.
+
+0-1s: the fat man from @char_big-guy stands on the asphalt just in front of the hanging old man, lower left of center, holding a metal pipe high over his head with both hands, ready to swing. A sharp crack sounds from far away in the sky. The fat man's arms go loose, he collapses straight down onto the asphalt where he stood and lies still, face down.
+1-2s: the pipe drops from his hands and clangs on the asphalt beside him, bouncing once and ringing. The people nearest to him flinch and take a step back, away from him.
+2-3s: all over the square people stop, confused; heads turn up and around, looking for where the sound came from, some looking at the rooftops, some at the sky, some at each other. Nobody runs yet.
+3-4s: a second sharp crack from far away. A man standing in the crowd right of center, a few meters from the fat man, drops to the asphalt and lies still. The people around him jump back from him.
+4-5s: a few people turn and run toward the right edge of frame, then others start after them, each at their own pace, some still standing and looking up. Final frame: the fat man and the second man lie still on the asphalt, the pipe beside the fat man, the old man still hanging upside down from the street light, the crowd breaking apart and starting to run, the camera unmoved.
+
+ACTING TASK, the crowd (each person fully invested in their own tactic; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): the fight is won, finish him and go home.
+MOTIVE (their fuel): he shot their neighbors, and he is hanging right there.
+GOAL: understand what just happened and stay alive.
+OBSTACLE: nobody can see where the sound came from, and running first means admitting the danger.
+TACTIC: each one searches the rooftops, windows and sky for the shooter, checks the faces nearby to see if anyone knows, and backs away from the man on the ground; at the second crack the nearest ones stop searching and run, and the others follow when they see them run.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The crowd: a real riot crowd in documentary news footage, realistic but cinematic, constant messy overlapping movement, real ordinary townspeople, men and women of every age and build, heavy and thin, faded mismatched everyday clothes in dusty browns, greys, whites and muted colors, every one different, each moving loose and heavy at their own speed. Never a static wall of alike men, no uniforms, no matching clothes, nobody moves stiffly, nobody looks like a mannequin. Not graphic: no blood, no visible injuries. Count of street lights: one, no traffic lights. Count of pipes: one. Count of people hanging: one, the old man. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, warm low late afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI, not a 3D render.
+
+Audio: only the murmur and shouting of a large crowd in an open square, shuffling footsteps on dusty asphalt, two sharp distant cracks from far away in the sky, a heavy body dropping onto the asphalt, a metal pipe clanging and ringing on the asphalt, gasps, and running footsteps. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

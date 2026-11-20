@@ -1,0 +1,32 @@
+Audio: only the still room tone of a hot street and a faint low murmur of a few voices far off down the street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1: the side street: its plastered facades, windows, balconies with thin metal railings, rolled-down metal shutters and sagging cables only, not its people, cars, chairs or framing. @Image2: color and light only.
+
+A real photographed moment, like a frame from a war documentary shot on cinema cameras: from the street, low and looking straight up, locked-off on a tripod, the facade of an old apartment building in a desert town fills the frame, and from every window and balcony the neighbors stare down in silence at the street right below the camera, already there from the very first frame, as if the whole building had been waiting.
+
+Camera and lens: a 40mm anamorphic lens close to the ground, tilted steeply up, so the facade leans back and its vertical lines converge toward the top of the frame and the watchers loom above. Gentle anamorphic barrel curve at the frame edges, slight softness in the corners, one faint horizontal blue-amber streak where the sun grazes the top right edge of the building. Deep focus: the facade and every face sharp. No camera movement at all.
+
+The facade is a real, lived-in building photographed on location, never blocky or simplified: uneven sun-worn plaster with cracks, stains, patches and old repairs, deep window openings with dark rooms behind, two small balconies with thin rusted metal railings at the lower edge of the frame, one at the left and one at the right, some windows half closed by dusty shutters, one dark cable crossing the frame diagonally from the top center down toward the right balcony. Nothing looks like a box, a slab or a 3D model.
+
+The watchers (keep them exactly like this, all present from the first frame to the last): on the left balcony, two people side by side, their hands on the railing: a heavyset man in his fifties in a grey undershirt and a woman in her forties in a pale headscarf. On the right balcony, one man in his sixties in a white shirt, his forearms on the railing. In the window above the left balcony, an old woman in a dark dress. In the lower window at the center, a young man in a brown t-shirt, his hands on the sill. In the upper window at the right, a middle-aged woman holding the edge of the shutter. The upper window at the center is empty and dark. Ordinary townspeople in worn everyday clothes, real faces with real skin, no makeup, small in the frame but every face readable. They lean slightly forward over railings and sills and look down almost straight into the lens, at the two men standing just below the camera.
+
+Lighting, natural and motivated by the sun only, exposed like documentary footage: a low hazy afternoon sun from screen right at a raking angle. The top floor and the upper window frames catch hard warm sunlight that rakes across the cracked plaster and shows every texture; the lower floors and both balconies sit in warm shade, filled only by soft bounce from the sunlit street below, so the watchers' faces are lit gently from underneath, their eyes readable, the rooms behind them falling off to deep brown darkness. A soft glow of halation on the brightest sunlit edges. Fine dust hangs in the air. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped. No artificial light, no glossy or polished look.
+
+0-2s: low wide, locked-off, no camera movement. The facade fills the frame, the six watchers already in place, still, their eyes fixed on the street just below the camera. Nobody enters, nobody leaves, no shutter moves. The only movement is small and human: the man on the right balcony shifts his weight from one forearm to the other, the woman on the left balcony tightens her hand on the railing.
+2-4s: the camera stays locked. Everyone keeps staring down at the same spot, nearly motionless; the old woman in the upper left window narrows her eyes. Final frame: the camera exactly where it started, the same facade, the same six watchers in the same places, all staring down, nobody else.
+
+ACTING TASK, the watchers (they are fully invested in their tactic; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): the town that hid behind its shutters has come out to see.
+MOTIVE: the most famous face they know, the man they blame for everything, is standing in their street, alone and without guards.
+GOAL: see with their own eyes what happens to him.
+OBSTACLE: whatever happens down there, none of them wants to be the one who did it.
+TACTIC: they watch and wait: their eyes stay locked on the old man below, judging him, reading who will make the next move, each one silently leaving it to someone else. Nobody calls out, nobody looks away, nobody blinks first.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people: six, the watchers, all present from the first frame. Count of balconies: two. Count of cables: one. Nobody appears, nobody leaves. Everyone keeps their mouth closed. No cuts, no slow motion, no zoom.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, shutter or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the still room tone of a hot street and a faint low murmur of a few voices far off down the street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

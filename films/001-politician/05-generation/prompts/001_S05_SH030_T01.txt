@@ -1,0 +1,33 @@
+Audio: only his fast footsteps on the asphalt, his short heavy breaths, the rustle of his suit, his own line into the phone, and the distant soft scuffle of many feet behind him. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A MOTION DIAGRAM ONLY, NOT FOOTAGE. It gives the camera angle and the timing and paths of the people, nothing else. Take ONLY these things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of the man and of the people behind him. Its plain grey ground, flat sky, blocky shapes and small figures are not the look, and the pose of the figure in it is not his pose. The place is real and is described in this prompt. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1: the old man's face, hair, build, dusty charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the street: its apartment buildings, rolled-down metal shutters, balconies, cracked plaster, cables and street lamps only, not its parked cars, people, chairs or framing. Image 3: the dark leather briefcase: its shape, leather, handle and clasps only, not its background. Image 4: color and light only.
+
+Close frontal shot on a long lens of the old man from image 1 coming straight at the camera down the middle of a side street in a desert town, walking so fast he is nearly running, the briefcase from image 3 in his left hand; he puts his phone to his ear, calls, gets nothing, and pulls the case to his chest to dial again, while behind him, soft and out of focus, the street fills with people coming his way. Handheld camera backing away in front of him at his pace.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from behind the buildings at screen right. He walks in warm shade with soft warm bounce from the sunlit asphalt on his face, so his sweating skin and his eyes read clearly. Behind him the upper facades glow warm in the sun, the street level in deep warm shade, golden dust hanging in the light. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-1s: close shot from the chest up, the old man in the center of frame, the camera handheld and backing away at exactly his pace, so he stays the same size in frame the whole shot, with the small jolts of an operator moving fast. The old man walks very fast, almost running, his shoulders forward, the briefcase gripped by its handle in his left hand, swinging short and tight against his leg. Behind him, far down the street and out of focus, a few soft shapes of people step out of doorways.
+1-2s: still walking fast, the old man pulls a phone from his inside jacket pocket with his right hand and presses it hard against his right ear. The briefcase stays in his left hand.
+2-3s: still walking fast, phone at his right ear, he speaks his line. Behind him, out of focus, more people fill the street and come his way, each at his own speed, nobody in step.
+3-5s: nothing answers. Still walking fast, he pulls the phone away from his ear, holds it low in front of his chest and looks down at the screen. His left arm swings the briefcase up and clamps it flat against his chest, hugging it, his left hand still tight on the handle, and his right thumb jabs at the screen as he walks, the case pressed between his arm and his body. Final frame: close shot, the old man still centered and still coming at the camera, head down over the phone, the briefcase clamped to his chest under his left arm, the phone in his right hand, his thumb on the screen; behind him, soft and out of focus, the street full of people coming his way.
+
+Dialogue: American English, a slight foreign accent, breathless from walking fast, low enough not to be heard by the street but urgent.
+2-3s, the old man's line (demanding an answer): {Hello? Hello?!}
+Outside his line he keeps his mouth closed except to breathe.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): this call is the only thing left that can get him and the briefcase out of this town; there is no second plan.
+GOAL: get through to the voice on the other end before the street understands who he is.
+OBSTACLE: nobody answers, his hands are full, and every step he takes the street behind him gets fuller.
+TACTIC: he keeps up the walk of a busy man on a phone call, fast but not fleeing, so nobody on the street has a reason to look twice, and puts everything else into the phone. During his line his eyes stay fixed on the ground ahead, listening hard for any sound on the other end; when nothing comes, his eyes go straight to the screen, hunting for the number to dial again, and the briefcase goes to his chest so his hands can work without ever letting go of it. Once, during the line, his eyes flick up past the camera to check the street ahead, then straight back down.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people in focus: one, the old man. Count of briefcases: one, in his left hand until 3s, then clamped to his chest under his left arm, never set down, never in his right hand. Count of phones: one, in his right hand from 1s to the end. The people behind him stay soft and out of focus the whole shot, nobody passes him, nobody runs, nobody reaches him. The background stays out of focus, the old man stays sharp.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle, wall or the phone screen, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his fast footsteps on the asphalt, his short heavy breaths, the rustle of his suit, his own line into the phone, and the distant soft scuffle of many feet behind him. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

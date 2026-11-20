@@ -1,0 +1,13 @@
+Audio: keep the audio of @Video1 exactly: the gunshots, the clack of the slide, the shells and the crowd. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Edit @Video1. Change only two things, for the whole clip.
+
+First, the background behind the gun. Now it is a wide square with a crowd of small figures far away and a long wall in the distance. Replace all of it with a wall right behind the gun: the plain weathered concrete wall from @loc_square (@Image1), about two meters behind the gun, standing straight up and filling the whole background from edge to edge and from the top of the frame to the bottom. Out of focus but clearly a wall: soft cracks, dust and stains on warm grey-ochre concrete, lit by the same low golden sun as the gun. No people, no crowd, no square, no ground, no sky, no distant buildings behind the gun. @loc_square (@Image1): only the surface of its plain weathered concrete wall, not its street lamp, curb, road, towers, cars or framing.
+
+Second, under his hand. Now his hand and forearm rest on a sandy ledge or wall top along the bottom of the frame. Remove it: nothing is under the hand or the arm. His right arm is extended in free air, held up by himself, and below the hand there is only more of the out-of-focus concrete wall, down to the bottom edge of the frame.
+
+Keep everything else of @Video1 exactly as it is: the toy gun, its black worn finish, its size and side profile, its position in the frame, muzzle to screen right; his right hand, its grip and the trigger finger; the dusty charcoal sleeve, the white shirt cuff and the cufflink; every shot, its timing, the flash, the slide snapping back, the recoil and the empty brass shells flying out; the smoke; the real-time speed; the locked-off camera; the warm golden light on the gun and the hand; the film grain. No slow motion, no cuts. Nobody appears anywhere in the frame.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: keep the audio of @Video1 exactly: the gunshots, the clack of the slide, the shells and the crowd. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

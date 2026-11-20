@@ -3,17 +3,16 @@ name: film-sync
 # Merges every recent content-only branch into main (tools/mergebranches.sh: structure-aware JSON
 # merge, append-only logs keep both sides), keeps every film in step with its story folder
 # (tools/storysync.py), makes a still for every take that has none, then keeps the live site in
-# step with main. Runs after
-# every stories-sync run and on pushes to main, always with main's copy of this file, so work from
-# a session whose branch is out of date still reaches the site.
+# step with main.
+#
+# Runs on a clock only, never on a push (Leonard 2026-11-20: Actions minutes must never run out).
+# Schedule: minute 17 of every second hour, 07 to 23 UTC = 08:17 to 00:17 in Italy in winter,
+# 9 runs a day. Worst case 9 x 31 x 5 min = 1,395 min a month, under the 2,000 included.
+# A manual run (Run workflow) is only for Leonard. Scheduled runs always use main's copy.
 
 on:
-  workflow_run:
-    workflows: [stories-sync]
-    types: [completed]
-  push:
-    branches: [main]
-    paths: ["stories/**", "tools/storysync.py", "tools/mergebranches.sh", "tools/jsonmerge.py", ".github/workflows/film-sync.yml"]
+  schedule:
+    - cron: "17 7-23/2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,7 +24,10 @@ concurrency:
 
 jobs:
   sync:
+    # any copy of this file that still has a push trigger is skipped at no cost
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -60,10 +62,12 @@ jobs:
           # a still for every take that has none (ffmpeg installed only when one is needed)
           for d in films/*/; do
             [ -f "$d/film.json" ] || continue
+            # the install is capped: a slow mirror once held it 17 minutes (2026-11-20, billed)
             python3 tools/media/preview.py "$d" --all || {
-              [ $? -eq 3 ] && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null \
+              [ $? -eq 3 ] && timeout 60 sudo apt-get update -qq \
+                && timeout 90 sudo apt-get install -y -qq ffmpeg >/dev/null \
                 && python3 tools/media/preview.py "$d" --all
-            }
+            } || echo "Stills not made this run: the next run tries again."
           done
           if [ -n "$(git status --porcelain -- films films-index.json)" ]; then
             python3 tools/filmtool.py check

@@ -1,0 +1,7 @@
+001 S09 SH070 T05. NOT GENERATED: 0 credits. Rendered by stories/politician/props/agreement/make_insert_pan_v5.py.
+Leonard on T04: no zoom, use the last frame as reference, a slow pan down from the top of the contract to the signature.
+Her point of view into the dark blue folder of S09 SH060 T01, at the scale and framing of insert_end_v4.png (the T04
+end frame) for the whole shot. 0-0.4 s on the top of the page, 0.4-4.8 s slow eased tilt down with handheld drift and
+roll, 4.8-6.0 s settled on the signature, the sunlit ground beyond the folder entering at the end. Rotor wash: a
+travelling ripple with light changes on the upper page, fading to nothing at the bottom (pinned by her thumb, out of
+frame). Real text throughout. Lens: chromatic fringing, halation, vignette, 35 mm grain. 3840x1646, 24 fps, 144 frames, no audio.

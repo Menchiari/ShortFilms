@@ -1,0 +1,29 @@
+REQUEST S04-SH050-b, prepared, waiting for approval: S04 SH050 T02 = the prequel of T01 flipped. Source: T01 (job 227176c4) mirrored left to right and cut from 1.75 s (refs/001_S04_SH050_T01_flip_from1.75s.mp4, 2.31 s, upload 8facbda6, filed in REFS), extended backward 4 s. seedance_2_5, mode video_extension, extension_mode backward, 480p, audio on, folder S04/SH050. Images: 1 = char_politician (a7601ce4), 2 = prop_briefcase (4bf36cb5).
+Leonard 2026-11-18: flip the shot horizontally (the man must look left, not right) and make a prequel of the flipped shot: the politician walks by them fast from right to left in the foreground, so that the man who stops talking looks at him.
+Edit: the new 4 s, then the flipped T01 from 1.75 s (the join). In the flipped T01 Man 2 stops talking at about 2.5 s and looks off screen left.
+
+Prompt:
+
+Audio: only the low, unintelligible murmur of three men talking quietly, quick hard footsteps of one man on gritty pavement passing close to the camera from right to left, the faint clink of a small tea glass, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Generate the 4 seconds that come before the first frame of the video, the same shot: the same locked-off camera position, framing and long lens, the same bar under its cream scalloped awning, the same light and color, the same three men in the same chairs: on the left the wiry younger man with the short beard and the cigarette, in the middle the heavyset man with the shaved head, the olive green shirt and the tea glass, facing the camera, on the right the thin grey-haired man in the pale blue shirt, in profile facing left. The new 4 seconds end exactly on the first frame of the video. Image 1: the old man's face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. Image 2: the dark leather briefcase only, not its background.
+
+0-1s: the camera locked-off, no movement. The three men sit and talk low, as in the video: the man in the middle talks, the grey-haired man listens, the younger man smokes.
+1-3s: the old man from image 1 enters the frame from the right edge, in the foreground, much closer to the camera than the men, walking fast from right to left across the whole frame between the camera and the bar: short, quick, stiff steps, his head and shoulders fully in frame, seen from the waist up, his body passing in front of the men and hiding them for a moment one after the other. The briefcase from image 2 hangs from his left hand on the side nearest the camera, his grip tight on the handle. His face turned slightly toward the camera and away from the men, his eyes down on the pavement ahead. Focus stays on the men; he is close and slightly soft, his face still readable.
+3-4s: he leaves the frame at the left edge and is gone. The men behind him are exactly as they were: the man in the middle still talking, his eyes on the grey-haired man, not yet looking up. Final frame: the first frame of the video, with nobody but the three seated men in frame.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work is in his body and his eyes):
+SCENE DIRECTION (shared, unspoken): an ordinary hot afternoon in which nothing is supposed to happen.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he is sure that anyone who recognizes him will want it.
+GOAL: get past these three men before any of them looks up.
+OBSTACLE: the only way through is the sidewalk right in front of them.
+TACTIC: he gets it over with: he cuts across quick and close, eyes nailed to the pavement, the case on the far side of his body from them, as if the faster he passes the less of him they can see.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people: four, the three seated men and the old man passing through. Count of briefcases: one, in his left hand the whole time. Count of chairs: three. Nobody else in frame. The men keep their words low and unintelligible; the old man keeps his mouth closed.
+
+Unplaceable town: no landmark, no flag, no readable writing on any sign, awning, bottle label or wall, no logos.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the low, unintelligible murmur of three men talking quietly, quick hard footsteps of one man on gritty pavement passing close to the camera from right to left, the faint clink of a small tea glass, and the still room tone of a hot empty street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
