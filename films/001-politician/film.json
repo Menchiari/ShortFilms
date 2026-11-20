@@ -3110,6 +3110,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH040 stopped by Leonard after T08 ('forget it, I give up'). Eight takes, 168 credits, none approved. No request pending. Best partial takes by Claude's read: T04 (angle Leonard liked), T08 (on the street lamp, three readable kills). Open causes, in stories/MISTAKES.md: reference frames get copied, loc_square brings traffic lights, the old naming in docs/PROMPTING.md."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on start frame v1: 'no. Use the animatic.' Animatic d11 S09_SH040 frame 0 saved as 05-generation/refs/001_S09_SH040_REF_animatic_d11_f0.png, uploaded and filed in REFS (image 6397eefd-b096-4591-9011-8b15debd8cb7). REQUEST S09-SH040-ref-v2 prepared, not submitted: Seedream 5.0 Pro edit of the animatic frame into a photograph, keeping its camera, framing and positions (README method: photoreal start frame made over the animatic frame); look and light from the SH020 frame; prompts/001_S09_SH040_REF_start-frame_v2.txt; refs animatic 6397eefd, SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25; 2k, 21:9; 2.5 credits. He is moved from the street light to the case (Leonard's T02 note)."
     }
   ],
   "story_sync": {
