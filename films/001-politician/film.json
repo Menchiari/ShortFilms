@@ -1878,6 +1878,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH090-a approved by Leonard ('ok go, 12 credits'): S09 SH090 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id e975ef13-0dcf-4ac5-b895-38395f785fb3), no job id returned. A second submit was blocked by the session's permission check before reaching Higgsfield. Not submitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-a resubmitted on Leonard's word ('resubmit S09-SH090-a'): job e3432dc6-1d58-4056-b7e4-28fca33071c8, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, same prompt and refs, folder Scenes/S09/SH090, 12 credits."
     }
   ],
   "story_sync": {
