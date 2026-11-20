@@ -1,14 +1,8 @@
 name: site
 
+# Manual only (Leonard 2026-11-20: no workflow starts on a push). film-sync deploys the site on
+# its clock whenever the live build is behind main.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "films/**"
-      - "tools/site/**"
-      - "tools/filmlib.py"
-      - "site.json"
-      - ".github/workflows/site.yml"
   workflow_dispatch:
 
 concurrency:
@@ -22,20 +16,20 @@ jobs:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
-      # Light checkout: heavy media (takes, sfx, music takes, edit) is never downloaded.
+      # Takes are checked out (the site plays them). Other heavy media (sfx, music, edit) is not.
       - uses: actions/checkout@v4
         with:
           filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /*
-            !/films/*/05-generation/takes/
             !/films/*/06-sound/sfx/
             !/films/*/07-music/takes/
             !/films/*/07-music/input/
             !/films/*/08-edit/
             !/films/*/_local/
             !/docs/reference/
+            !/stories/
 
       - uses: actions/setup-python@v5
         with:
@@ -51,7 +45,8 @@ jobs:
         if: env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
         run: |
           npx --yes wrangler@4.151.2 pages project create filmai --production-branch=main || true
-          npx --yes wrangler@4.151.2 pages deploy dist --project-name=filmai --branch=main --commit-dirty=true
+          # --cwd: wrangler takes the Pages Functions from tools/site/functions (video byte ranges)
+          npx --yes wrangler@4.151.2 pages deploy "$GITHUB_WORKSPACE/dist" --cwd tools/site --project-name=filmai --branch=main --commit-dirty=true
 
       - name: Deploy skipped
         if: env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == ''
