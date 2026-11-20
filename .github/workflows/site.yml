@@ -1,14 +1,8 @@
 name: site
 
+# Manual only (Leonard 2026-11-20: no workflow starts on a push). film-sync deploys the site on
+# its clock whenever the live build is behind main.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "films/**"
-      - "tools/site/**"
-      - "tools/filmlib.py"
-      - "site.json"
-      - ".github/workflows/site.yml"
   workflow_dispatch:
 
 concurrency:
