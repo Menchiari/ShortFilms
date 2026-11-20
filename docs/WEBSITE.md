@@ -94,7 +94,8 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
    `film.json` and `shotlist.json` by structure (`tools/jsonmerge.py`: shots and takes by id,
    both sides' log entries kept), `MISTAKES.md` and `takes/log.md` keeping both sides,
    `films-index.json` regenerated. A real conflict or a failed `filmtool check` leaves that branch
-   out and is named in the run log.
+   out and is named in the run log, as is an older branch holding takes main lacks (NOT CHECKED).
+   A still not made yet never blocks a merge: the still is made right after it.
 2. Then it runs `tools/storysync.py`: a film with `story_sync` in `film.json` gets its shots from the screenplay,
    the takes logged in the story's `takes/log.md`, the animatic clip of each shot and its
    character elements (details in the script). It commits the

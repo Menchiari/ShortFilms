@@ -183,6 +183,7 @@ def cmd_log(args):
 
 def cmd_check(args):
     problems = []
+    stills = 0  # posters not made yet: film-sync makes them after the merge, so never a problem
     for d in film_dirs():
         try:
             film, shotlist = load_film(d)
@@ -202,7 +203,9 @@ def cmd_check(args):
             if shot.get("status") not in SHOT_STATUSES:
                 problems.append(f"{sid}: bad status '{shot.get('status')}'")
             for t in shot.get("takes", []):
-                for key in ["file", "preview", "poster", "prompt"]:
+                if t.get("poster") and not (d / t["poster"]).exists():
+                    stills += 1
+                for key in ["file", "preview", "prompt"]:
                     rel = t.get(key)
                     if rel and not (d / rel).exists():
                         problems.append(f"{sid} {t.get('id')}: {key} missing on disk ({rel})")
@@ -219,6 +222,8 @@ def cmd_check(args):
         print(f"WARNING: films take {total_gb:.2f} GB on disk, nearing GitHub's 5 GB guidance. Tell the user.")
     if update_index():
         print("films-index.json refreshed (commit it with the rest).")
+    if stills:
+        print(f"{stills} take stills not made yet (film-sync makes them after the merge).")
     if problems:
         print("\n".join(problems))
         raise SystemExit(1)
