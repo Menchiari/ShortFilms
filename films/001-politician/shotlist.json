@@ -6075,6 +6075,26 @@
               "love": false,
               "rating": null,
               "notes": "Not generated, 0 credits. The Agreement's last page rendered from prop-agreement.txt with a scrawl signature, 21:9 frame, 2 s push 100 to 104%. Still: 001_S09_SH070_T01.png. Leonard asked for a scrawl, no name."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "composite",
+              "mode": "still_push",
+              "duration_s": 2,
+              "resolution": "3840x1646",
+              "aspect": "21:9",
+              "audio": false,
+              "credits": 0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S09_SH070_T02.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "notes": "Not generated, 0 credits. Leonard on T01: use one of his signatures, much more realistic. His bottom-centre signature in blue-black ink, law-firm formatting, toner and paper texture, photographed in the folder at sunset. Still: 001_S09_SH070_T02.png."
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
