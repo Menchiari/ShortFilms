@@ -79,3 +79,9 @@ Blockout: `square_blockout_tour_v7_s09_norepeat.mp4` (v6: 9 s, still had two wes
 Claude's read: it opens on Leonard's frame, then the camera only drifts a few meters toward the corner building and
 back. No new angle is reached: none of the SH040, west street or reverse holds happen. Words alone did not move the
 camera across the square. Stills: `takes/001_city_square_tour_T01_*.jpg`.
+
+## Take T02 (2026-11-20): failed
+
+Job 551dcd00-e0e1-45b3-8822-e8b2a3f687bb (start image + the grey tour v7 as video reference, prompt
+`prompt_square_tour_v6_guide.txt`): Higgsfield status `nsfw`, "Something went wrong. Please try again, or change your
+input files or prompt." Not charged (balance unchanged). Cause unknown: nothing in the inputs is explicit.

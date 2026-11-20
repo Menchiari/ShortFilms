@@ -3303,6 +3303,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST city square tour T02 approved by Leonard ('go') and submitted: job 551dcd00-e0e1-45b3-8822-e8b2a3f687bb, seedance_2_5 omni_reference, 7 s, 720p, 21:9, audio on, 49 credits, start image 058651a0, video reference e5641a76 (the grey 3D tour v7, camera path only), folder REFS/LOC_square, prompt stories/politician/city/square_3d/prompt_square_tour_v6_guide.txt. The job echo lists both media under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T02 (job 551dcd00) failed: Higgsfield status 'nsfw', message 'Something went wrong. Please try again, or change your input files or prompt.' Balance unchanged at 25450.2 (not charged). No retry without Leonard's approval."
     }
   ],
   "story_sync": {
