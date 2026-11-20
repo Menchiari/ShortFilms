@@ -1954,6 +1954,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on start frame v3: 'ok but the helicopter needs to be rotated 90 counter clockwise'. Read by Claude as seen from above: nose from screen right to straight away from the camera, tail boom toward the camera [ASSUMPTION]; she exits by the right-hand door, facing him. T05 (S09-SH040-e) on hold. REQUEST S09-SH040-ref-v4 prepared, not submitted: fresh generation over the animatic, v3 prompt with the helicopter turned, prompts/001_S09_SH040_REF_start-frame_v4.txt, same five references, 2k, 21:9, 2.5 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'why so verbose all the time? It's a miracle the image generators can come up with something.' Start frame v4 prompt cut from about 450 words to about 110, same five references, same request S09-SH040-ref-v4, 2.5 credits, not submitted."
     }
   ],
   "story_sync": {
