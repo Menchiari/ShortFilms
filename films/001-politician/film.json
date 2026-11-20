@@ -2806,6 +2806,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH020 T01 rated 3 (inferred) from Leonard's notes: fake city like the animatic, dull cinematography, too many papers lifted unrealistically, case closed. Causes (Claude): the previz line drawing still carried the tower blocks and its foreground shapes (they became cones), so T02 drops the video reference and holds the composition and timing in words (README rule for frames filled by place); the prompt said deep focus and soft haze, so T02 asks for a backlit anamorphic frame with flare, contrast and focus on the case; T02 has about fifteen thin sheets that slide and skitter in gusts before a few lift; the case is described open from the first frame, with 'not its closed state' on the element line. Prompt prompts/001_S09_SH020_T02.txt, request S09-SH020-b quoted 39 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: start over, read the prompts that worked, simplify. Claude's count: the takes rated 4 or 5 in this film use prompts of about 600 to 1100 words, one subject, one action per beat, two or three references; SH040 grew from 1240 (T01) to 1780 words (T05). REQUEST S08-SH040-f prepared, not submitted: prompts/001_S08_SH040_T06.txt, about 440 words, two references only (T04 frame 10fceb80 for angle, place, pole and his height; char_politician_final), about fifty people instead of a hundred, one line each for the crowd, the dead and the hits. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
