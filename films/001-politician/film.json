@@ -3302,6 +3302,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S10-SH010-e approved by Leonard ('go', 60 credits) and submitted: S10 SH010 T04 (prompt v2), job 462ca649-b241-4e39-b9d3-cd796a91898e, folder Scenes/S10/SH010."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S10 SH010 T04 in (job 462ca649, 60 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T04.mp4, 20.06 s. Claude's read in shotlist.json. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
