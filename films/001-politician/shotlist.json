@@ -6144,6 +6144,28 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST approved by Leonard 2026-11-20. Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T03: her hands, the SH060 folder, her point of view. T04: her POV into the dark blue folder, both hands with grey sleeves and white cuffs, page top flapping, sunlit ground beyond, push in, lands on the end frame. Mid-skim text garbled; the edit dissolves onto insert_end_v4.png for the hold."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-20",
+              "model": "composite",
+              "mode": "procedural_pan",
+              "duration_s": 6,
+              "resolution": "3840x1646",
+              "aspect": "21:9",
+              "audio": false,
+              "credits": 0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S09_SH070_T05.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "insert_end_v4.png (T04 end frame)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Not generated, 0 credits. Leonard on T04: no zoom, the last frame as reference, a slow pan from the top of the contract to the signature. Her POV into the SH060 folder at the end-frame scale, slow handheld tilt, real text throughout, procedural wind ripple on the upper page."
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
