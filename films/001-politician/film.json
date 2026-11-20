@@ -3166,6 +3166,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard: 'why so verbose all the time? It's a miracle the image generators can come up with something.' Start frame v4 prompt cut from about 450 words to about 110, same five references, same request S09-SH040-ref-v4, 2.5 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T03 done: job b42f3a44, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T03.mp4, recorded in shotlist.json, waiting for Leonard's rating."
     }
   ],
   "story_sync": {
