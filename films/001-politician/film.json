@@ -2834,6 +2834,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard flagged '@element (@ImageN)' again in S09 SH020 T01 and T02. Root cause: his 2026-11-19 rule (elements by name only) was written to the log and to branch claude/prompting-ref-naming, which was never merged; film-sync does not merge docs, so main's PROMPTING.md, HIGGSFIELD.md, template v5 and MISTAKES.md kept the old form, and this session followed them. T01 (39 credits) was generated with the old naming. T02 superseded by prompts/001_S09_SH020_T02_v2.txt (only change: the (@ImageN) tags removed, the palette written @Image5 because it is not an element); same media, order and cost, request S09-SH020-b, 39 credits, not submitted. Docs fix plus a filmtool check guard on branch claude/docs-ref-naming-fix, waiting for Leonard to merge it into main (Claude's push to main was refused by the session permissions)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH010 elements double-checked against the live list (Leonard): the 21 politician elements and their images are unchanged; one new, prop_bar-weapon 37fe2cf2 (the fat person's pipe, Leonard 2026-11-19), now in elements.md once (duplicate row removed). main merged into s09-sh010 (style.md: no previz or line-drawing clip as video reference; T02 already had none). REQUEST S09-SH010-c replaced by S09-SH010-d, prepared, not submitted: prompts/001_S09_SH010_T02_v3.txt = T02_v2 plus char_big-guy f5cc12be (the sleeping man, continuity with S07) and prop_bar-weapon (his pipe beside him) as <<<id>>>; elements char_politician_final, loc_square, char_big-guy, prop_bar-weapon; palette_sunset image in medias, named in words; 480p, 21:9, 18 s, audio on, 54 credits (free quote)."
     }
   ],
   "story_sync": {
