@@ -6044,6 +6044,29 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH070-d. Higgsfield folder S08/SH070. 992x432, 24 fps, 4.06 s, audio present. Claude's read (frames and audio levels, not heard): photoreal. The rope is vertical through the center of the scope, along the vertical crosshair line, against warm blurred asphalt seen from above, a darker shadow band across the top right. The scope circle is narrower than T01-T03: black on both sides of the frame. Steady 0-3.2 s. At about 3.23 s a small flash and puff at the crosshair center, the rope parts: the lower end drops out of the bottom of the frame within a few frames, the upper end springs up and swings, then hangs as a frayed stub at the top edge to the end. Crack peak at 3.26 s, in sync. Less gold backlight on the fibers than T03. Edit window: about 1.5-3.5 s. Leonard 2026-11-19: works. Wants a prequel: heavy motion blur across different parts of the city, as if he searches for the rope."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "136607b2-ef6f-4321-8093-4c0daf744dfe",
+              "prompt": "05-generation/prompts/001_S08_SH070_T05_extend-backward.txt",
+              "file": "05-generation/takes/S08/SH070/001_S08_SH070_T05.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "T04 e582e429 (extended backward)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S08-SH070-e. Backward extension of T04: the file is the new 4.00 s only, its last frame matches T04's first frame (checked side by side). Play T05 then T04 for the full shot (8 s). 992x432, 24 fps, audio present, no crack in it. Claude's read (frames, not heard): same narrow scope ring and crosshair as T04, photoreal sunset. 0-0.5 s blurred whip over rooftops; about 0.5-0.8 s a stop on a cracked facade with a satellite dish, water tanks and a shutter; 1.0 s whip; about 1.2-1.6 s a stop on a sunlit street with shuttered shopfronts, a pole and the curb; 1.7-2.2 s blurred swing down; 2.3 s the rope enters over the street; 2.5-4.0 s settles on the vertical rope. No people."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
