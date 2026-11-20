@@ -19,20 +19,18 @@ Plain English prose. Settings (duration, resolution, aspect, audio flag) never g
    `Audio: only [the dialogue / room tone / named sounds]. No music, BGM, score, instrumental,
    melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or
    stinger at any moment. No subtitles.`
-2. **Elements,** in the order they first appear on screen. Each element's image job id goes in
-   `medias` as an image reference (no `<<<element_id>>>` placeholders: Seedance 2.5 ignores them).
-   - Reference media are named by upload order: `@Image1`, `@Image2` ..., `@Video1` ...,
-     `@Audio1` ... Never "Image 1" or "VIDEO 1".
-   - Characters are always `@char_<name>`, in the element version that matches the scene in the
-     script (film 001: `stories/politician/elements.md`). Props `@prop_<name>`, locations
-     `@loc_<name>` when used.
+2. **Elements,** in the order they first appear on screen. Use the element itself, never its image
+   (Leonard, 2026-11-20): `<<<element_id>>>` in the prompt; the backend attaches it and names it
+   `@<element name>` (seen on seedance_2_5, job 28fc84db). Never put an element's image job in `medias`.
+   - Characters are the `char_<name>` element in the version that matches the scene in the script
+     (film 001: `stories/politician/elements.md`). Props `prop_<name>`, locations `loc_<name>`.
    - One line per element: what it gives, and what not to take from it.
-     `@char_marta (@Image1): face, hair and coat only, not pose or background.`
-     `@loc_corridor (@Image2): space and light only, empty of people.`
-   - In the body use only the `@char_` / `@prop_` / `@loc_` names. Name the character before
-     each action. Say who holds each prop.
-   - Template: `films/001-politician/05-generation/prompts/001_S05_SH120_T01_v5.txt`. Older
-     prompts (for example `001_S03_SH010_T01.txt`) may use the old naming: never copy them.
+     `<<<id of char_marta>>> is Marta: face, hair and coat only, not pose or background.`
+   - Media that are not elements (palette images, guide clips, start frames) go in `medias`. Name
+     them in words ("the sunset color image", "the guide video"), never with an element name.
+   - In the body name each person plainly ("the old man") after the element line. Name the
+     character before each action. Say who holds each prop.
+   - Prompts before 2026-11-20 use the old `@char_<name> (@Image1)` naming: never copy it.
 3. **One sentence:** who, where, what happens, in the film's style, with which camera.
 4. **Timeline in whole seconds, no gaps:**
    `0-3s: medium shot, eye level. Camera: dolly slowly in, stop on a medium close-up.
