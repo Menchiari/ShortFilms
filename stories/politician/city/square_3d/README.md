@@ -85,3 +85,10 @@ camera across the square. Stills: `takes/001_city_square_tour_T01_*.jpg`.
 Job 551dcd00-e0e1-45b3-8822-e8b2a3f687bb (start image + the grey tour v7 as video reference, prompt
 `prompt_square_tour_v6_guide.txt`): Higgsfield status `nsfw`, "Something went wrong. Please try again, or change your
 input files or prompt." Not charged (balance unchanged). Cause unknown: nothing in the inputs is explicit.
+
+## Plates for Leonard's pipeline (2026-11-20, free)
+
+`plates/plate_1..6_*.jpg`, 1920x817, EEVEE from the 3D (revision 12), people and helicopter proxies hidden:
+1 SH040 wide, 2 SH050/SH090 west, 3 SH110 her POV, 4 SH060/080/100/120 reverse east, 5 reverse from the west street,
+6 long lens across from the south side. Each is a composition base: paint it keeping the composition, with
+`../square_leonard_v1.jpg` as the style reference.
