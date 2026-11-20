@@ -1882,6 +1882,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH110-a resubmitted on Leonard's 'try again, 12 credits': job da95fb1c-1b9a-4e61-b33b-378fb0ef3e0a, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T01.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T01 done: job da95fb1c, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T01.mp4, recorded in shotlist.json, waiting for Leonard's rating."
     }
   ],
   "story_sync": {
