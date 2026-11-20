@@ -7,8 +7,10 @@ Master frame: `../square_leonard_v1.webp` (Leonard). JPEG copy uploaded to Higgs
 
 - Paved plaza x -36..36, y -24..24; ring road to x +-43.5, y +-31.5; sidewalks 4 m; blocks of 6 to 10 floors.
 - West street: middle of the west side (|y| < 7), toward the sun. He comes out of it (sets.py).
-- North-east street: continues the north side of the square (y 17.5..31.5), toward the crossroads and the car
-  [ASSUMPTION: read from Leonard's frame, the road on the right runs straight along the north row].
+- North-east street: continues the north side of the square (y 17.5..31.5) [read from Leonard's frame].
+- The crossroads with his car: down the west street, x -215..-200 (d11 `shots_s09.far_city`, seen in S09 SH110).
+  The street runs to x -436 and ends at a row of blocks. Conflict: S10 SH010 T03 assumed the square lies toward the
+  sun from the car; d11 puts it east of the car (away from the sun).
 - Hero street lamp: south-west corner, (-44, -8.5), as sets.py.
 - Lamps: one model, every 12 m along the outer sidewalks (Leonard's frame is denser than the 30 m street rule).
 - Sun: low in the west, a little north (Leonard's frame: sun ahead, right of centre, camera looking west).
@@ -36,3 +38,20 @@ Seedance tour prompt: `prompt_square_tour_v2_continuous.txt` (v1 with cuts repla
 The S09 prompts (for example `05-generation/prompts/001_S09_SH050_T06_v2.txt`) describe the square as three to five
 floors, close and low, never a wide avenue, no parked cars, no traffic lights. Leonard's frame: six to ten floors,
 wide, parked cars. One of them changes.
+
+## S09 tour, after SH020 (Leonard 2026-11-20: only the shots needed after S09 SH020, a 1 s pause between moves)
+
+Camera `CAM_TOUR_S09_holds` (3D revision 10): hold 1 s, move 1 s, linear. Positions from d11 `animatic/src/shots_s09.py`.
+Blocking proxies (helicopter at PAD, her, him, the case) in collection `BLOCKING_S09`, hidden in the tour render.
+
+| s | Hold on | Shots |
+|---|---|---|
+| 0-1 | Leonard's frame | start |
+| 2-3 | wide from the north side, looking south over the west half | SH040 |
+| 4-5 | eye level looking west, the west street behind him | SH050 |
+| 6-7 | tighter, same axis | SH090 |
+| 8-9 | her POV down the west street | SH110 |
+| 10-11 | reverse, looking east, the helicopter's place behind her | SH060, SH080, SH100, SH120 |
+
+Inserts SH030 and SH070 need no place. Blockout: `square_blockout_tour_v5_s09_holds.mp4` (v3 and v4: the west street
+was blocked by a background tower and by the proxies). Prompt: `prompt_square_tour_v3_s09.txt`, 11 s.
