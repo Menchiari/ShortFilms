@@ -3046,6 +3046,26 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH040-h approved by Leonard ('ok go, 21 credits'): S08 SH040 T08 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final 547bbfa3 only, job ffe51115-7889-408b-a5e3-629f865c4a8a, folder Scenes/S08/SH040, prompt 001_S08_SH040_T08_v3.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T02 rated 4 (inferred, 'this works, not bad'). T03 prompt prepared (request S09-SH050-c, not submitted): T02 verbatim except the line reading and acting task (pissed, I told you so) and a new Grade paragraph (more cinematic, orange held back, richer contrast). Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-c approved by Leonard ('ok go, 18 credits'): S09 SH050 T03, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T03.txt. Job 6db71989-ec8f-4e47-9ede-e475dd6c0461."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T03 done: job 6db71989, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T03.mp4. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T03 rated 1 by Leonard ('no, the previous take was better'). T02 (rated 4) is the best take of SH050. Lesson: grade words in the prompt pushed the orange further (T03); grading belongs in Resolve. SH050 total 54 credits over three 480p drafts."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 prompt prepared (request S09-SH050-d, not submitted) on Leonard's 'use the background from T02': T02's first frame (refs/001_S09_SH050_T02_frame_0s.png, upload b9d2e155, filed in REFS, placement 9f678e1c) as start_image, plus char_politician_final, char_boss, palette_sunset; T03 prompt without the Grade paragraph (T03's angrier acting kept). Preflight 18 credits."
     }
   ],
   "story_sync": {
