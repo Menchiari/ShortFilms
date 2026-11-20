@@ -1,0 +1,36 @@
+Audio: only a riot crowd packed tight around the camera, many voices yelling and screaming at it from very close, over each other, with no words clear, bodies shoving and colliding, feet scuffing on gritty asphalt, the creak of a rope under strain, a man's ragged, furious grunts and panting, the short swish of a thin metal rod, and dull heavy thuds of the rod landing again and again. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_big-guy (@Image1): the fat person's face, curly dark hair, moustache, heavy build, dusty grey-brown short-sleeved t-shirt and dusty cargo trousers only, not his pose or background. Only the fat person has this face: nobody else in the crowd shares his face, hair, moustache, beard or build. @loc_square (@Image2): the square: its tall plain metal street lamp, weathered concrete apartment towers with shutters and small dark windows, and dusty asphalt only, not its framing, open space, traffic lights or parked cars.
+
+Raw documentary point-of-view footage from a man hanging on a rope just above the asphalt, in the middle of a riot at the corner of a dusty square in a desert town: the crowd is packed right on top of the camera, yelling into it, and the fat person from @char_big-guy, an ordinary heavy man in a blind rage, pushes in close with a thin metal rod and hits down at the camera again and again.
+
+Camera: a point of view hanging on a rope about one meter above the asphalt, tilted slightly up, a normal 50 mm lens, not wide. It is never still: it sways and twists on the rope, gets bumped and shoved by the people pressing around it, and jolts hard and swings away every time a blow lands, then swings back. Ugly, raw, real, like a phone video of a real fight: nothing composed, nothing heroic, nothing epic.
+
+The rod: one plain thin metal rod, about as long as an arm and as thin as a broom handle, dull grey and dusty, held in both of the fat person's fists. A simple, ordinary rod, never a bat, never a club, never big. It always looks thin and light.
+
+The fat person: an ordinary heavy man from the town, untrained, sweating, out of breath. He is not posing and not enjoying it: he is lost in rage, red-faced, teeth clenched, grunting with each blow, his swings fast, short, clumsy and ugly, his whole heavy body throwing itself behind each one. He stands close, about one meter from the camera, framed from the head to the chest.
+
+The crowd from @loc_square: a real riot crowd filmed like documentary news footage, packed so close that faces, shoulders and arms crowd the edges of the frame at arm's length from the camera, and more people jam in behind them. About half of them are women. Every face is different: a grey-haired white woman in a cardigan, a young Black man in a red hoodie, an East Asian woman in glasses, a bald white man in his sixties, a young woman with a blonde ponytail, a South Asian man in a blue work shirt, a heavy Latina woman in her fifties, a teenage boy in a yellow t-shirt, a freckled red-haired man, an old Black woman with short white hair. Plain worn everyday clothes of many colors. Everyone is yelling at the camera with open mouths, faces twisted with anger, pointing and jabbing at it, shoving each other to get closer. Bodies keep pushing across the lens, close and blurred, blocking parts of the view for a moment, so the action is hard to follow. Never in rows, never a wall, never a scrum, never two people alike, nobody still.
+
+Lighting, motivated by the sun only: hazy late afternoon sun, warm and slightly golden, falling flat across the crowd, no glowing halo, no lens flare, no dramatic backlight. Faces read clearly in plain warm light with dust in the air. Deep brown shadows that keep their detail, highlights that roll off softly, never clipped.
+
+0-1s: the camera sways in the crush, faces yelling into it from all sides, someone shoving across the lens. The fat person shoulders through the people in front and stops close, the thin rod in both fists, his chest heaving.
+1-2s: without waiting, he jerks the rod up over his right shoulder and brings it down hard at the camera: it lands just below the bottom edge of the frame with a dull thud, the camera jolts and swings away, then swings back.
+2-4s: in a blind rage he hits again and again, fast, short, ugly blows, one after another, about four more, grunting with each one; every blow lands just below the frame with a thud and jolts the camera, which swings and twists on the rope. The crowd presses closer and screams.
+4-5s: he lifts the rod once more over his shoulder, panting, and swings down hard again at the camera. Final frame: the rod coming down at the camera, the fat person behind it red-faced and gasping, the crowd jammed around him yelling, the camera swinging.
+
+ACTING TASK, the fat person (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): the square takes back today what this man took from all of them.
+MOTIVE (his fuel): his face is on every protest sign, everything the fat person had is gone because of him, and he walked out of his grip once already.
+GOAL: make him pay, right now, with his own hands.
+OBSTACLE: the man keeps swinging on the rope, his arms are in the way, and the crowd keeps shoving the fat person off his feet.
+TACTIC: he stops thinking and lets the rage drive the rod: his eyes lock on the hanging man and track him as he swings, and every time the man swings back into reach he hits again, harder, until his breath runs out. He keeps his mouth shut except for grunts.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of rods: one, thin, in both of the fat person's fists the whole shot. Count of street lamps: one. No traffic lights. No hands or arms of the hanging man in frame. No blood. One continuous shot: no cuts, no slow motion, real-life speed.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, shirt or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy late afternoon sun turning golden, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a riot crowd packed tight around the camera, many voices yelling and screaming at it from very close, over each other, with no words clear, bodies shoving and colliding, feet scuffing on gritty asphalt, the creak of a rope under strain, a man's ragged, furious grunts and panting, the short swish of a thin metal rod, and dull heavy thuds of the rod landing again and again. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,34 @@
+Audio: only a roar of many voices rising together, a stampede of running footsteps on dusty pavement, the heavy thud of bodies colliding, his one short gasp, and a small metal toy gun and a leather case clattering onto the pavement. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the corner of the square: the plain weathered concrete wall, the tall street lamp on the curb with its long arm over the road, the curb, sidewalk and dusty pavement only, not its framing, towers or parked cars. @char_politician_blood (@Image2): the old man's face, white hair, build, the blood on his face, his dusty charcoal suit and white shirt only, not his pose or background. @prop_gun (@Image3): a toy gun: its shape, size and black finish only, not its background. @prop_briefcase (@Image4): the dark leather briefcase: its shape, leather, handle and clasps only, not its background.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style, and not the pose of any person in it. Its plain empty ground and small figures are not the look. Every wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+
+A locked-off wide shot from the side at the corner of a dusty square in a desert town: the whole crowd of townspeople runs at the old man from @char_politician_blood as one body, past the men sleeping on the pavement, slams into him at the concrete wall and throws him to the ground.
+
+Camera: locked-off, wide, at chest height, behind the back edge of the crowd, on a long lens, framing as in @Video1. Nothing moves the camera. The old man stands small in the left third of frame, a few steps out from the concrete wall that fills the background behind him, the tall street lamp a step to his side, never between him and the camera. The crowd fills the right half of frame and the foreground.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from screen left at a raking angle, golden and warmer than before. It rakes across the wall and the pavement and throws long soft shadows of the running people across the ground. Golden dust kicked up into the air. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+The dead: seven men in plain everyday clothes lie still on the pavement where they fell, sleeping, each in a different spot: three on the ground close in front of the old man, the others spread across the pavement between him and the crowd. They never move. The crowd runs past and around them. Count of men lying on the ground: seven.
+
+0-1s: the old man stands alone in the left third of frame, blood on his face, the black toy gun from @prop_gun hanging empty in his right hand, its slide locked open, the briefcase from @prop_briefcase still clamped in his left hand. Thirty or forty townspeople, men and women in plain worn everyday clothes, their backs to the camera, burst forward all at once toward him, from the foreground and the right of frame, running hard, shoulders down, arms out.
+1-2s: the crowd crosses the square in one dense mass, flowing past the men sleeping on the pavement. The old man sees them coming and lifts his left arm with the briefcase in front of his chest.
+2-3s: the front of the crowd slams into him. His feet leave the ground and he is knocked backward off his feet; the toy gun flies from his right hand and the briefcase from his left, both skidding across the pavement. He lands on his back on the pavement at the foot of the wall.
+3-4s: the crowd piles in over him and closes around him; he disappears among legs and backs, the last runners still arriving from the right. Final frame: a dense knot of people at the foot of the wall beside the lamp post, the old man hidden on the ground in its middle, the seven men still lying where they fell, the camera unmoved.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and what he carries in the briefcase still has to reach the other side.
+GOAL: stay on his feet and keep the case.
+OBSTACLE: the gun is empty, the wall is at his back, and the whole square is coming at him at once.
+TACTIC: he squares up to the mass instead of turning away, his eyes picking the first man who will reach him and holding on him, the case raised as a shield; no begging, a hard closed face to the last moment.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Townspeople: they keep their mouths half open in a roar, no words. The fall reads clearly but is not graphic: no blood spray, no close injury. Count of guns: one, the toy gun from @prop_gun, empty, it does not fire. Count of briefcases: one. Count of street lamps: one. All movement at real-life speed, no slow motion, no cuts. Never copy the look of @Video1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a roar of many voices rising together, a stampede of running footsteps on dusty pavement, the heavy thud of bodies colliding, his one short gasp, and a small metal toy gun and a leather case clattering onto the pavement. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

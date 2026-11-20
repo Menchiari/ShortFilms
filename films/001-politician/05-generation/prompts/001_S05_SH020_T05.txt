@@ -1,0 +1,32 @@
+Audio: only his running footsteps and hard breathing, the scuff of other feet on grit, a few close voices and grunts as he passes, a far voice calling out, the hot quiet street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Start from the start image exactly: same camera, same street, same people in the same places, same light. The camera never moves. Image 1, the reference image of the old man: his white hair, build and dusty suit only. Image 2, the reference image of the briefcase: the dark leather briefcase only. Image 3: color and light only.
+
+From a rooftop looking steeply down on a narrow dusty street in a desert town in the late afternoon, the old man runs straight through the townspeople who are walking into the street toward him: he weaves between them and gets past, hands reach for him and miss, in one locked-off high-angle shot that looks like real unstaged footage of real people, never animation, never a crowd simulation.
+
+How everyone moves: real people, filmed, unrehearsed. Every person has his own body, his own rhythm and his own reason; no two people move alike, no two react at the same moment, nobody repeats a movement. Uneven walks, weight shifts, a hesitation, a half step back, a glance at the neighbor, a hand to the face. Paths are not straight lines: people drift, correct, speed up, stop.
+
+0-1s: Camera: locked-off, steep high angle, exactly the framing of the start image. The old man runs toward screen right at the same hard pace he keeps for the whole shot, a heavy, uneven old man's run, the briefcase swinging in his right hand. The townspeople keep coming toward him, each on his own line and at his own speed: out of the start image's forward lunge, most of them slow to an uncertain walk as he gets close, arms dropping, only one or two keep coming hard.
+1-2.5s: He reaches the first two. The one on his left side lunges and grabs at his sleeve; the old man twists his shoulder away without slowing and the hand slips off. The one on his right side hesitates, steps into his way too late and has to step back as he brushes past. Both turn after him.
+2.5-4s: He cuts between the people in the middle distance, changing direction once around a heavy man who spreads his arms; the briefcase knocks against someone's leg. A woman pulls back from him. The boy dodges sideways. Each one turns to follow him a moment after he passes, at his own pace.
+4-5s: Camera unchanged. He breaks through the last of them on the right side of the frame, still running, the briefcase still in his right hand. Behind him every person has turned and starts after him: one jogs heavily, one walks fast, one stands still and watches, one picks up his pace. Final frame: the old man near the right edge of the frame, still running, the people now behind him, turned toward him at different distances, the camera has not moved.
+
+ACTING TASK, THE TOWNSPEOPLE (each fully invested in his own tactic; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): he does not get away, and nobody has to be the first to really hold him.
+MOTIVE (their fuel): the man whose face is on every sign is running through their street.
+GOAL: stop him, without being the one who has to hold on to him.
+OBSTACLE: he is fast for his age, and touching him makes it real.
+TACTIC: each one tries to cut him off, then flinches at the last moment, then follows, checking the others to see who will commit.
+ACTING TASK, THE OLD MAN (fully invested in his tactic):
+GOAL: get through them to the open square at the end of the street.
+OBSTACLE: they are in his way, and the case is heavy.
+TACTIC: he reads the gaps between them, not their faces, and drives his shoulder through the first gap that opens.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Lighting, motivated by the sun only, as in the start image: a low hazy afternoon sun from the top of the frame, the top band of the street in deep warm shade, the rest in hazy warm sunlight, long soft shadows toward the bottom of the frame that move with each person, golden dust kicked up by the feet. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+Count of men in a suit: one. Count of briefcases: one. Count of townspeople: the ones in the start image, nobody new appears. Nobody falls, nobody fights, nobody hits him. No cuts, no slow motion, no text, no flicker, no morphing, nobody duplicating, nobody sliding without walking, no synchronized movement.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his running footsteps and hard breathing, the scuff of other feet on grit, a few close voices and grunts as he passes, a far voice calling out, the hot quiet street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -3,6 +3,95 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-20, Politician S08 SH040 T01 to T07 (147 credits) and the T08 draft
+
+- **What:** seven takes. T01 used the previz line guide (boxy bodies). T03 to T05 passed `loc_square` (its traffic
+  lights came in). T05 to T07 passed T04 frames as references (their crowd and the traffic-light pole were copied,
+  whatever the text said). Every prompt wrote `@char_politician_final (@Image1)`. Prompts grew from 1240 to 1780 words.
+  Leonard said "don't repeat elements"; Claude read it as "don't describe things twice" and kept the double naming
+  through T06, T07 and the T08 draft, then dropped the element name instead of `(@ImageN)`.
+- **Cause:** the session read only the last log entries of `film.json` and never opened this file, so it missed the
+  naming rule of 2026-11-19, the 2026-11-18 rule that a scene reference locks composition like a start frame, and the
+  S08 SH030 entry on `loc_square`. It followed `docs/PROMPTING.md` on main, which still teaches the old naming.
+- **Rule:** at session start read this whole file and every `film.json` log line that quotes Leonard, not only the
+  last entries. Elements by name only. A frame passed as a reference is copied: never pass one that shows anything
+  wrong. When Leonard's words can mean two things, take the meaning that matches a rule already logged.
+
+## 2026-11-20, Politician S08 SH030 T01 to T03 (36 credits) and the T04 draft
+
+- **What:** every prompt passed `loc_square` and `palette_sunset` and wrote `@loc_square (@Image1)`. T01 hung the old
+  man from a traffic light, T01 to T03 gave wide open roads; Leonard asked for tighter roads, then flagged the naming
+  and "two references alter the model".
+- **Cause:** (1) Leonard's naming rule of 2026-11-19 (elements by name only, no `(@ImageN)`) sat on unmerged docs
+  branches (`claude/prompting-ref-naming`, `claude/docs-ref-naming-fix`): film-sync never merges `docs/`, so main taught
+  the old form. (2) I passed the brief's "likely elements" without looking at them, against the 2026-11-18 rule below:
+  the `palette_sunset` image (1f563179, `stories/politician/look/palette_ref_2_sunset.jpg`) is a wide boulevard with
+  towers and street lights, and the `loc_square` image (62815a4f, `loc_square_v3`) has lamps all around, traffic lights
+  and an open space. Each "color only" or "surfaces only" image gave its place.
+- **Rule:** elements by name only (`@loc_square`), `@ImageN` only for references that are not elements. A reference goes
+  in only when its image shows what the shot needs; open it first. Film 001's palette images (`palette_afternoon`,
+  `palette_sunset`) are city streets: color and light come from the look line and the lighting paragraph. When a shot's
+  place differs from every location image, the place comes from words alone (`t2v`).
+## 2026-11-20, Politician S09 SH020 T01 (39 credits) and the T02 draft
+
+- **What:** both prompts wrote elements as `@prop_briefcase (@Image1)`. Leonard dropped the `(@ImageN)` after an
+  element name on 2026-11-19 (film.json log): elements by name only, `@Image1` only for references that are not
+  elements. Leonard had to flag it again.
+- **Cause:** the rule change lived only in the film.json log and on the unmerged branch
+  `claude/prompting-ref-naming`. film-sync merges only `stories/`, `films/` and `films-index.json`, so a docs branch
+  never reaches main by itself. Main kept teaching the old form in four places (PROMPTING.md step 2 and its template
+  v5, HIGGSFIELD.md, the rule in the entry below), and the session brief pointed to an even older template. I read
+  only the last log entries, followed the docs, and the docs were wrong.
+- **Rule:** a decision of Leonard's lands in the doc that teaches it, on main, in the same session; a docs branch is not
+  done until main has it. `filmtool check` now refuses changed prompts with `(@ImageN)` after an element name or
+  "Image 1" / "VIDEO 1" naming.
+
+## 2026-11-19, Politician S04 SH080 T01 and T02 (27 credits)
+
+- **What:** both prompts named the reference as "@Image1" and the fat man as "the fat man from @Image1" instead of
+  the element `@char_big-guy (@Image1)` and `@char_big-guy` in the body (docs/PROMPTING.md step 2). The T03 draft
+  repeated it.
+- **Cause:** the session brief named an old prompt (001_S03_SH010_T01.txt) as house template. I read PROMPTING.md
+  once at session start; the naming rule changed in it at 17:36 UTC the same day, and every later prompt was a copy
+  of my own first one, so the old naming carried forward. The pulls brought the new rule; I never re-read it.
+- **Rule:** before writing or copying any prompt, re-read docs/PROMPTING.md step 2 from freshly pulled main and
+  start from the template it names, never from a brief's template or an older prompt. Before every cost preflight,
+  check the naming against docs/PROMPTING.md step 2 as it stands on main (superseded 2026-11-19: elements by
+  name only, see the entry above).
+
+## 2026-11-18, Politician S02 SH050 T03 and T04 (24 credits)
+
+- **What:** in both takes the car reaches the foot of the towers in two seconds: the town reads as a toy model (Leonard).
+- **Cause:** my prompt ended on "the car small, racing toward the gap". For the car to look small next to a skyline about
+  1.5 km away it has to cover about 200 m in 2 s (about 340 km/h). The town's distance came from the loc_town-edge image
+  (a far skyline), not from the d11 clip (towers close, filling the frame); the end state was never checked against speed.
+- **Rule:** every end position of a moving object gets a distance that its speed can reach in the time ("about 60 m
+  away after 2 s"), and its size in frame against a fixed object ("as tall as half a tower").
+
+## 2026-11-18, Politician S02 SH110 T02 (96 credits, approved)
+
+- **What:** asked for a 720p final of a Seedance 2.5 draft; Higgsfield rendered it at 1080p and charged the 1080p price.
+- **Cause:** a draft final (`draft_job_id`) ignores `resolution`. The preflight showed it: 96 credits at 720p and at 1080p
+  alike, while a fresh 720p generation quoted 42. I flagged the gap as unknown instead of reading it as the answer.
+- **Rule:** a draft final costs the 1080p rate (16 credits per second) and comes out at 1080p. Present it that way. When two
+  quotes that should differ come back equal, the parameter that differs is being ignored.
+
+## 2026-11-18, Politician S02 SH100 T02 and T03 (24 credits)
+
+- **What:** Leonard: "the city doesn't look realistic, street signs everything is wrong". No lamp posts, lane lines,
+  traffic lights, signs, sidewalks or parked cars; storefronts sit on a dirt road; identical towers repeat to infinity.
+- **Cause:** the prompt carried none of the street rules ("Nobody in the street", furniture only named as "only" for
+  image 2), and the guide clip is the d11 animatic street, which has no furniture: the model took the layout from it.
+- **Rule:** a guide clip of a street that lacks the street rules is not used. Start from the location image that
+  carries them (start frame) and describe the camera in words.
+
+## 2026-11-18, Politician S02 SH080 T03 (12 credits)
+
+- **What:** the car skidded straight, but in a city street with towers and palms; the shot happens outside the city, desert only.
+- **Cause:** the "palette_afternoon" image (3bf30eee) is a city street. I passed it as "color and light only" without looking at it;
+  once the T01 video stopped carrying the place, the model copied the street.
+- **Rule:** look at every reference image before a preflight, palette images included. A "color only" image still gives its place.
+
 ## 2026-11-17, Politician S01 SH020 T03 to T06 (70.75 credits for one 2 s shot)
 
 - **What:** four takes. T03 edited the old take into an LED sign Leonard never asked for; T04 held still; T05 put the
@@ -148,3 +237,12 @@ the rule that prevents it. Newest first.
 - **Cause:** the list was written before draft 8 (2026-11-15 06:15) and edited after it (21:17)
   without being checked against it. Draft 8 moved the chase to a square.
 - **Rule:** after every new draft, recheck the asset list against the screenplay, scene by scene.
+
+## 2026-11-18 001 S02 SH010 T06: angle not changed, tripod in frame (28 credits)
+
+- **What:** asked for eye height with start frame v1 as an image reference. The take kept the reference's
+  camera height exactly, and a camera tripod stands on the road for the whole shot.
+- **Cause:** a Seedance image reference of a whole scene locks its composition like a start frame; the
+  prompt text cannot move the camera against it. "Locked-off on a tripod" was drawn as an object.
+- **Rule:** a new angle needs a new image at that angle (from Leonard's pipeline). Never write "tripod" in a
+  prompt: write "static camera".

@@ -1,0 +1,30 @@
+Audio: only the low steady thump of helicopter rotor blades and the whine of its turbine, heard from inside the cabin, one slow held breath let out through the nose, then one single sharp rifle crack. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the street light only: its tall metal post on the curb and its single arm reaching out over the pavement, and the dusty pavement around its foot, not its framing, people or parked cars. @palette_sunset (@Image2): color and light only.
+
+A magnified telephoto view through a rifle scope, from a helicopter high above and far from a square in a desert town: the view finds the metal post of the street light, where a rope is wound and knotted around it, settles the crosshair on the taut rope just above the knot, and on a rifle crack the rope bursts apart and snaps.
+
+What the frame holds: a very long lens from high above and far away, looking down at a steep angle, flat and compressed, a light warm haze between the lens and the street, seen through a real rifle scope as in the previous take: a soft black ring around the round image and a fine black crosshair. The metal post of the street light stands in the middle of frame. A thick, frayed, pale natural fiber rope is wound three times around the post at about chest height and tied off in a fat knot; from the knot the rope runs up and away, pulled hard and straight, toward the arm of the street light out of frame at the top. The rope is a tie-off around the post, never a noose, never a loop for a neck. Nobody is in frame: the man hanging on the other end is far away, out of frame, and no feet, legs or people are ever visible. Around the foot of the post, the dusty pavement and the curb.
+
+Photorealistic live-action footage, as if a real camera had been fixed behind a real rifle scope: real optics, real atmosphere, real textures, never CGI, never a 3D render, never a video game. The rope and the place are real and photographed, never simplified: the rope has real twist and loose fibers and is stretched straight by a heavy weight; the post is chipped, dusty painted metal; the pavement is cracked and gritty. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low sunset sun from screen left, deep gold and amber, raking across the post and the rope, putting a hot warm edge on the left side of the rope and the fibers that stick out of it, the post throwing a long shadow to the right across the pavement. Dust and haze glow gold between the lens and the street. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: the magnified view drifts slowly with the small sway of a long lens held from a hovering helicopter, finds the post, and slides the crosshair onto the taut rope a hand's width above the knot. The rope trembles very slightly with the weight on its far end.
+2-3s: the view settles: the crosshair sits exactly on the rope just above the knot, and the drift dies away until the image is almost still.
+3-4s: one rifle crack: the view kicks up and sideways in one short sharp jolt, and in the same instant the rope bursts at the crosshair in a puff of fibers and parts in two. The long end, freed of its tension, whips up and away out of the top of the frame; the short end with the knot drops slack against the post and hangs there. The view swings back and settles on the post. Final frame: the post in the middle of frame, the knot and a short frayed end of rope hanging limp from it, loose fibers drifting in the golden haze, the long end of the rope gone from frame.
+
+ACTING TASK, the shooter behind the scope (he is fully invested in his tactic; the work happens in the view):
+SCENE DIRECTION (shared, unspoken): the job is done, clean it up and go home.
+MOTIVE (his fuel): he was told to stop, and he will show her he can still make one perfect shot.
+GOAL: cut the rope with one bullet.
+OBSTACLE: the helicopter sways, and the rope is no thicker than a finger at this distance.
+TACTIC: he lets the view hunt the rope and slow down, lets his breath out, and takes the shot in the one still moment.
+
+Count of ropes: one, cut into two ends by the shot. Count of street lights: one. Count of knots: one. Nobody in frame: no people, no feet, no legs, no bodies, no cars. Real-life speed, no slow motion, no cuts. Not graphic: no injuries, no blood.
+
+Unplaceable town: no landmark, no flag, no readable writing, no logos. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the low steady thump of helicopter rotor blades and the whine of its turbine, heard from inside the cabin, one slow held breath let out through the nose, then one single sharp rifle crack. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

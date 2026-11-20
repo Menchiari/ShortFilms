@@ -1,0 +1,37 @@
+Audio: only the scuff and slap of shoes on dusty pavement, first a few, then more, one man's sharp shout as he breaks into a run, clothes rustling, low tense voices, and the old man's hard breathing far off. No gunshot. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines, not its blank ground or empty sky, not its surfaces, colors, light or style, and not the pose of any person in it. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+
+@loc_square (@Image1): the square: its corner, the tall street lamp on the curb, the plain weathered concrete wall, the facades, sidewalk and dusty pavement only, not its framing, people or parked cars. @char_politician_blood (@Image2): the old man's face, white hair, build, the blood on his face, his dusty charcoal suit and white shirt only, not his pose or background. @prop_gun (@Image3): the toy gun: its shape, small size and black finish only, not its background. @prop_briefcase (@Image4): the dark leather briefcase: its shape, leather, handle and clasps only, not its background.
+
+A wide, locked-off side view across a dusty square in a desert town: far at screen left the old man from @char_politician_blood stands by the concrete wall and the street lamp, aiming the toy gun from @prop_gun at screen right; between him and the crowd lie five men where they fell; from screen right the crowd starts toward him again, not together but one after another: one man breaks into a run, then another, then more begin to walk and run.
+
+Camera: wide side view at chest height, long lens, locked-off on a tripod, completely still for the whole shot, framing as in @Video1. The old man is small and far at screen left; the crowd fills the right third of the frame, the nearest people close to the camera. The facades of the square run across the whole background. The street lamp stands a step to his side, never between him and the camera.
+
+The old man, as in @char_politician_blood: blood on his face, his charcoal suit dusty. His right arm is stretched out toward screen right, the small black toy gun from @prop_gun in his hand, pointed at the crowd. His left hand still clamps the briefcase from @prop_briefcase against his side. He does not fire in this shot.
+
+The five men on the ground lie still exactly where they fell, spread on the pavement between him and the crowd: two close to him near the foot of the lamp, one a few steps in front of him, two in the open middle of the square. They lie face down or on their side like men sleeping, ordinary worn everyday clothes, no blood visible, nothing graphic. They never move.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from screen left, turning golden, raking across the square. Long soft shadows of the standing people stretch across the pavement toward screen right. Golden dust in the air. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-1s: the old man stands far at screen left by the lamp, gun arm out, frozen. The crowd at screen right stands and edges forward, men and women in plain worn everyday clothes, staring at him. In the near foreground at screen left, close to the camera and seen from behind, a man in a dark green shirt starts to walk toward the old man.
+1-2s: in the crowd at screen right one man shouts and breaks into a run toward the old man, leaving the others; the man in the green shirt keeps walking toward him.
+2-3s: a second man in the crowd starts walking fast, then a few more, each at his own moment and pace, never in step. The first runner runs left across the middle of the square, passing close to the two men lying in the open.
+3-4s: more of the crowd starts forward, some walking, some breaking into a run. Final frame: the first runner in the middle of the square at full run, the man in the green shirt a few steps closer to the old man, the crowd at screen right moving left, the old man still far at screen left by the lamp, gun aimed, the five men still lying where they fell, the camera unmoved.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes, small in frame, readable through his stillness and his gun arm):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): what he carries has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: stop the next one before he reaches him.
+OBSTACLE: they keep coming no matter how many lie on the ground, and he cannot count his bullets.
+TACTIC: he picks the man running first and holds the gun on him, his eyes jumping to the next one who moves, deciding which to stop first.
+ACTING TASK, the runners: each one has decided, alone, that he will be the one to reach the old man before he can fire again; they read the gap and go.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of guns: one, only in the old man's hand. Count of briefcases: one, in his left hand. Count of men lying on the ground: five, never more, never fewer, none moves. Nobody fires, nobody falls in this shot. All movement at real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the scuff and slap of shoes on dusty pavement, first a few, then more, one man's sharp shout as he breaks into a run, clothes rustling, low tense voices, and the old man's hard breathing far off. No gunshot. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

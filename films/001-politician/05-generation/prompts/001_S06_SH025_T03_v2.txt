@@ -1,0 +1,28 @@
+Audio: only four sharp, flat gunshots from the small pistol in quick real-time succession, the hard metallic clack of its slide with each shot, small empty brass shells tinkling onto stone pavement, and shouts and running footsteps of a crowd off screen, no words made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@prop_gun (@Image1): the toy gun: its shape, size, black worn finish, slide, grip and trigger guard only, not its background or framing. @char_politician_blood (@Image2): only the old man's hand, his dusty charcoal suit sleeve and his white shirt cuff, not his face, pose or background. @loc_square (@Image3): only the surface of its plain weathered concrete wall, not its street lamp, curb, road, towers, cars or framing.
+
+A locked-off close insert, filmed in real time, against a concrete wall at the corner of a dusty square in a desert town: the old man from @char_politician_blood grips the toy gun from @prop_gun in his right hand, his arm extended, and fires it four times, fast, each shot kicking the slide back and flinging an empty brass shell out of the gun.
+
+Framing: the toy gun in side profile, filling the middle of the frame, its muzzle pointing to screen right. His right hand wraps the grip from the lower left of frame, his index finger on the trigger, the end of his dusty charcoal sleeve and a sliver of white shirt cuff at the lower left edge. Count of guns: one. Count of hands: one, his right hand.
+
+The background is a wall, right behind the gun: the plain weathered concrete wall from @loc_square, about two meters behind the gun, standing straight up and filling the whole background from edge to edge and from the top of the frame to the bottom. Out of focus but clearly a wall: soft cracks, dust and stains on warm grey-ochre concrete, lit by the same low golden sun as the gun. No people, no crowd, no square, no ground, no sky, no distant buildings anywhere behind the gun. Nobody is in the frame.
+
+His arm is held out in free air: nothing is under his hand or his forearm, no ledge, no wall top, no table, no ground. Below the hand there is only more of the out-of-focus wall, down to the bottom edge of the frame. The camera is at the height of the gun, level with it, his arm held out at chest height.
+
+The ejected shells: each is an empty brass shell casing, a short hollow brass tube, open at the front end, flat at the back, no bullet in it, no pointed or rounded tip. It flips up out of the ejection port on top of the slide and flies up and away out of frame within a few frames.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from screen left, warm and turning golden, rakes across the gun: a warm glint along the top edge of the black slide, the worn edges and the trigger guard, the rest of the gun deep black with its detail kept. Warm light on the knuckles and the dusty sleeve. Golden dust in the air. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-1s: the camera locked off, still for the whole shot. The toy gun held level in his right hand, muzzle to screen right. He fires: a muzzle flash for a single frame, the slide snaps back and forward again in a blink, the gun jerks up with the recoil and his hand drives it straight back down, an empty brass shell flicks out and is gone.
+1-2s: he fires again, the same fast snap: flash, slide, recoil, shell flicked away.
+2-3s: he fires twice, one right after the other, two flashes, the slide snapping twice, two shells flicked away, grey smoke from the muzzle and the port.
+3-4s: he holds the gun level, finger on the trigger, smoke drifting off the muzzle, the soft wall behind. Final frame: the black toy gun in side profile in the middle of the frame, muzzle to screen right, gripped in his right hand from the lower left, the out-of-focus concrete wall close behind.
+
+Real-time speed for the whole shot, as filmed at normal speed by a normal cinema camera: every shot fires and cycles in a blink, the shells fly fast, the smoke drifts at normal speed. No slow motion, no high-speed camera look, no speed ramp, no cuts. The camera never moves, never shakes, never zooms. Only the old man fires.
+
+Unplaceable town: no landmark, no flag, no readable writing on the gun, any sign or wall, no logos.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only four sharp, flat gunshots from the small pistol in quick real-time succession, the hard metallic clack of its slide with each shot, small empty brass shells tinkling onto stone pavement, and shouts and running footsteps of a crowd off screen, no words made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

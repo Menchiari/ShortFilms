@@ -1,0 +1,8 @@
+001 S09 SH070 T01. NOT GENERATED: 0 credits. Composited still (the Agreement, last page).
+Source: stories/politician/props/agreement/ (make_agreement.py writes agreement.html and frame.html,
+render_agreement.js renders them with Playwright). Text: stories/politician/prop-agreement.txt plus four
+filler clauses (10.9, 11.1, 14.2, 15.4). Signature: procedural scrawl (signature_scrawl.svg), no name.
+Page: agreement_page_v1.png, 2550x3300 (US Letter, 300 dpi), warm cream paper, Libre Caslon Text.
+Frame: 3840x1646 (21:9), lower page turned -1.2 deg in a dark folder, warm light from frame left.
+Take: 2 s, 24 fps, 48 frames, slow push 100% to 104% toward the signature (ffmpeg zoompan), no audio.
+Grade and grain in Resolve to match SH060 and SH080. Her thumbs from SH060 can be laid on the edges later.

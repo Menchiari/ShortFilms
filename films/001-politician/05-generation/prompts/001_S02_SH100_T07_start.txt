@@ -1,0 +1,9 @@
+Turn @Image1 into a real photograph. Keep @Image1's camera position, lens, perspective, horizon and layout exactly: the road in the middle, the building masses on the left and right in the same places and sizes, the open sky at the far end of the street in the same place. Change only what everything is made of.
+
+The place: the entrance of a dry, dusty modern desert town, seen from the driver's seat of a car stopped on the road just outside it. The nearest building on each side is a tall plain concrete apartment tower of the town's outer wall, as in @Image2: the two towers stand at the very edges of frame and form the only gap into the town. In the foreground the desert road, cracked asphalt buried in dust and drifted sand, runs between them and becomes the main street, which runs straight and very deep into the town, its far end lost in haze.
+
+The main street is a real street a local would find nothing wrong with, as in @Image3: raised sidewalks and curbs on both sides, identical street lamps evenly spaced along the sidewalk edges with their arms over the road, worn white lane lines half buried in dust, traffic lights on poles at a junction further down, traffic signs on poles with no readable text, a few dusty cars parked along the curbs. Tall plain concrete apartment towers line both sides, all different from each other: balconies closed in with corrugated plastic, satellite dishes, air-conditioner units, rolled-down metal shutters at street level, faded and stained plaster. Nobody in the street.
+
+Unplaceable: no landmark, no mosque, no minaret, no dome, no flag, no readable writing, no logos. No laundry, no trees, no palms, no greenery. No car parts in frame.
+
+Look: color and light of @Image2: hazy late-afternoon sun from the left, warm ochre and brown palette, deep brown shadows, dust in the air. 35mm film photograph, anamorphic, fine film grain, documentary realism. Not CGI, not a 3D render.

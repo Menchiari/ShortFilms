@@ -1,0 +1,32 @@
+Audio: only a roar of shouting voices, a stampede of running footsteps on dusty pavement, the heavy thud of bodies colliding, cloth tearing, his one short grunt as he is hit, and a small metal toy gun and a leather case clattering onto the pavement. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the plain weathered concrete wall, the tall plain metal lamp post on the curb, the curb and dusty pavement only, not its framing, towers or parked cars. @char_politician_blood (@Image2): the old man's face, white hair, build, the blood on his face, his dusty charcoal suit and white shirt only, not his pose or background. @prop_gun (@Image3): a toy gun: its shape, size and black finish only. @prop_briefcase (@Image4): the dark leather briefcase: its shape, leather and handle only. @Image5: a frame from the same scene: the look of the people, their faces, clothes and bodies, the light, color and film texture only, not its framing or anyone's pose.
+
+A locked-off side view at the foot of a concrete wall in a desert town: a furious crowd of townspeople crashes into the old man from @char_politician_blood like a breaking wave, tears the briefcase from him and drives him down onto the pavement.
+
+Camera: locked-off, medium wide from the side, at chest height, about eight meters away, on a long lens with shallow depth of field. The concrete wall runs straight across the whole background from edge to edge, a few steps behind him: no open square, no wide street, no sky. The old man stands large in the left third of frame, seen from head to knees, the lamp post a step to his side, never between him and the camera. The crowd pours in from the right of frame; people sweep past very close to the lens, soft and out of focus, in the foreground.
+
+Light, from the sun only: a low hazy afternoon sun from screen left, golden, raking across the wall and the faces; dust kicked up by the crowd glows in it. Deep brown shadows that keep their detail.
+
+Two of the men he shot lie still on the pavement between him and the crowd, sleeping where they fell. They never move; the crowd runs over and around them.
+
+0-1s: the old man stands with the empty black toy gun from @prop_gun in his right hand, its slide locked open, the briefcase from @prop_briefcase clamped in his left hand. From the right edge of frame the crowd bursts in at a run, packed tight, shoulder to shoulder, shoving each other, one man stumbling over a body on the ground and pushed on by the people behind him.
+1-2s: he lifts his eyes from the gun, too late. The first man's shoulder slams into his chest; a second grabs his lapel, a third his left arm. His whole body jolts backward with the impact. The briefcase is wrenched out of his left hand and the gun drops from his right.
+2-3s: the weight of the mass carries him back toward the wall; his heels skid, his knees fold and he goes down on his back on the pavement, two men falling with him and on top of him.
+3-4s: the crowd piles in over him, arms rising and falling, more people shoving in from the right and sweeping close across the lens. Final frame: a heaving knot of backs and arms at the foot of the wall beside the lamp post, the old man hidden on the ground under them, dust hanging in the golden light, the camera unmoved.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and the case still has to reach the other side.
+GOAL: keep the case.
+OBSTACLE: the gun is empty and the whole square is already on him.
+TACTIC: he looks up from the dead gun straight into the first face and holds it, hauling the case in to his chest as they hit; no begging, a hard closed face to the last moment.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The crowd: real, ordinary townspeople, every face different, men and women of all ages, heavy and thin, sweat-stained faded mismatched everyday clothes. Each moves loose and heavy at his or her own speed, colliding, shoving, mouths open shouting; nobody moves in step, nobody moves stiffly, nobody looks like a mannequin. The hit is real body contact. Not graphic: no blood spray, no close injury. Count of guns: one, empty, it does not fire. Count of briefcases: one. Count of lamp posts: one, no traffic lights. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no flag, no readable writing, no logos. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a roar of shouting voices, a stampede of running footsteps on dusty pavement, the heavy thud of bodies colliding, cloth tearing, his one short grunt as he is hit, and a small metal toy gun and a leather case clattering onto the pavement. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

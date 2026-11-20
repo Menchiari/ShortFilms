@@ -48,7 +48,9 @@
   "higgsfield": {
     "workspace_id": "",
     "project_id": "",
-    "folders": {}
+    "folders": {
+      "Scenes": ""
+    }
   },
   "extra_costs": [],
   "links": {

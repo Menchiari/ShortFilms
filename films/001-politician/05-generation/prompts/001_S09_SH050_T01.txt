@@ -1,0 +1,40 @@
+Audio: only his one mumbled line, his uneven scuffing footsteps on the gritty asphalt, the loud steady beat and rushing wind of a helicopter idling close behind the camera, and loose sheets of paper flapping and skidding across the asphalt. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_final (@Image1): the old man's face, wounds, blood, hair, build and torn dusty charcoal suit, stained shirt and rust tie only, not his pose or background. @char_boss (@Image2): the woman's black hair in a low ponytail, her slim build and charcoal grey business suit only, seen from behind; not her pose, glasses or background. @loc_square (@Image3): the buildings: their cracked ochre plaster, small balconies, shutters and cables only, not their people, cars, lamp, framing or light. @palette_sunset (@Image4): color and light only.
+
+Medium shot over a woman's shoulders in a deserted desert-town street at sunset: @char_politician_final, beaten and bloodied, limps slowly toward her through the rotor wind of a helicopter behind the camera and holds out a folder to her, camera locked-off on a long lens.
+
+@char_boss stands with her back to the camera in the left third of frame, seen from the shoulders up, her head and shoulders soft in the foreground, filling the lower left of frame. She stays still the whole shot: she looks screen right at him. Her ponytail and the hem of her jacket whip in the wind.
+
+@char_politician_final is the old man from @Image1 plus one change: a large dark wet stain down the front of his trousers, from the crotch down the inside of both thighs. His right leg is hurt: every step on it is short and careful, his weight dropping onto the left leg, his left shoe scuffing the asphalt. In his right hand he holds a thin plain dark folder, closed. Nobody else holds it. Count of folders: one.
+
+The street is a real, lived-in street photographed on location, never blocky or simplified: facades of different heights on both sides, cracked and patched ochre plaster, rolled-down dented metal shutters, small balconies with worn railings, sagging cables across the street, chipped curbs, drifted sand along the walls. Nothing looks like a box, a slab or a 3D model. Two men lie still on the asphalt behind him, sleeping, where they fell: one at the far left curb, one in the middle distance at screen right. They never move.
+
+Wind: a helicopter idles behind the camera, out of frame. Its rotor wash blows from behind the camera, past her, toward him and down the street: his thin hair and his torn jacket blow back away from the camera, his tie flaps over his shoulder, dust streams low along the asphalt, and loose white paper sheets lie scattered on the street and skid, flip and tumble away from the camera down the street in gusts, never floating.
+
+Lighting, motivated by the sun only: a low sunset sun behind him, at the far end of the street, just above the rooftops, facing the camera: hazy orange backlight, a warm rim of light on his hair, shoulders and the edges of his jacket, the dust and the tumbling paper glowing in it, his long soft shadow stretching toward the camera. His face and front sit in shade, filled softly by warm bounce from the sunlit asphalt, so his eyes, the blood and the sweat read clearly. Her shoulders and hair are a dark soft silhouette with a thin warm rim. The upper floors catch the last sun, the street level in deep warm shade. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: medium shot, eye level, over her shoulders. Camera: locked-off, perfectly still, for the whole shot. @char_boss in the left third, her back to camera. @char_politician_final in the right half of frame, about four meters away in the street, shown from the knees up, limping slowly toward her, the folder in his right hand at his side, the wind pushing at him.
+2-4s: @char_politician_final keeps limping closer, two more short uneven steps, until he stops close to her, in the right half of frame, filling it from the waist up, facing screen left. He raises the folder in his right hand and holds it out to her, low, at his chest. She does not reach for it.
+4-6s: @char_politician_final says his line, holding the folder out, low, at his chest, his eyes on her face. @char_boss keeps still and keeps her mouth closed. Final frame: she is in the left third, her back to the camera; he stands close in the right half from the waist up, facing her, the folder held out in his right hand at chest height between them; the paper still skids away behind him in the wind; the camera has not moved.
+
+Dialogue, language: American English, a slight accent nobody can place, low, gravelly and tired.
+4-6s, the old man's line (handing her the bill): {It'll be national news now.} A grouchy exhausted mumble through clenched teeth, the jaw barely opening, never projected. @char_boss keeps her mouth closed.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just routine: the job is done, close it like any other deal.
+MOTIVE (his fuel): his whole life has been one fight after another, it has been eating him from the inside for years, and he has never once stopped; what he carried in the briefcase reached the other side, and it cost him everything he had today.
+GOAL: make her pay for what it cost him.
+OBSTACLE: he is shaking, pissed himself, bleeding and limping in front of the one person he cannot look weak in front of; one crack and he is just a wreck she came to collect.
+TACTIC: he walks the last meters at her as if he were walking into a negotiation, his eyes locked on her face, hunting for the first flicker that tells him she knows what it cost; he holds the folder out without lifting it to her, making her take it from him, and gives her the line the way he would hand over an invoice, checking her eyes for the moment it lands.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the woman (seen from behind): SCENE DIRECTION as above. TACTIC: she lets him come all the way to her and gives him nothing: she does not step forward, does not reach out, does not turn her head, she waits for him to finish.
+
+Count of people standing: two, her and him. Count of folders: one. No helicopter in frame. Nobody at the windows or on the balconies. No parked cars. No slow motion: real time.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or paper, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his one mumbled line, his uneven scuffing footsteps on the gritty asphalt, the loud steady beat and rushing wind of a helicopter idling close behind the camera, and loose sheets of paper flapping and skidding across the asphalt. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

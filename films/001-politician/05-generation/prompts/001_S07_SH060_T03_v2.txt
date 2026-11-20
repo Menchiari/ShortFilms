@@ -1,0 +1,34 @@
+REQUEST S07-SH060-d, prepared, waiting for approval: S07 SH060 T03 (v2 prompt) = the prequel of T02. Source: T02 (job 867641cb) as it is, extended backward 5 s. seedance_2_5, mode video_extension, extension_mode backward, 480p, audio on, folder S07/SH060. Images: 1 = char_politician_blood (0d0a5637), 2 = char_big-guy (6228445b), 3 = prop_bar-weapon (8d69a591).
+Leonard 2026-11-19: make a prequel: the politician tries to reach for the bar, and the big guy hits him often, not hard, but every time it hurts.
+Edit: the new 5 s, then T02 from its first frame (the join). [ASSUMPTION] The prequel belongs to SH060 (one continuous take ending in the big swing of T02); the screenplay is not changed until Leonard says so.
+
+v2: v1 (REQUEST S07-SH060-c, job 63c706bd) was blocked as nsfw and refunded. v2 softens the wording only: smacks and raps become light taps, no pain, sting, burn, beg or punish words, no 'land a blow'. Same action, same settings.
+Prompt:
+
+Audio: only quick light taps of the iron bar on his hands and arms, his hissed gasps and grunts, his ragged breaths, the creak of the rope, bodies shoving and colliding, and the close deafening roar of the crowd shouting right around the camera, with no words that can be made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Generate the 5 seconds that come before the first frame of the video, the same shot: the same violent handheld camera inside the packed crowd at his head height, the same warm low backlight through the dust, the same old man hanging upside down by one ankle low among the crowd, the same heavy-set man with the iron bar at the right. The new 5 seconds end exactly on the first frame of the video. @char_politician_blood (@Image1): the old man's face, hair, build, dusty charcoal suit, stained white shirt, rust tie and the wound on his right eyebrow only, not his pose or background. @char_big-guy (@Image2): the heavy-set man's curly dark hair, mustache, build, faded brown t-shirt and dusty cargo trousers only, not his pose or background. @prop_bar-weapon (@Image3): the iron bar's rusty brown iron surface and the raised collar at each end only, not its background or angle. It is the size of a baseball bat, about 80 cm long and as thick as a wrist. Count of bars: one, always this one, always in the heavy-set man's hands.
+
+The old man hangs upside down in the left half of frame, his head about one meter above the ground, his jacket fallen around his chest, blood from the split in his right eyebrow. The heavy-set man stands close at the right, holding the bar low in both hands like a bat, teasing him. The crowd presses body to body all around, shoving and shouting, heads and shoulders crossing the frame edges.
+
+0-2s: the camera shoved and jostled, never steady. The old man swings on the rope toward the heavy-set man and stretches his right hand out to grab the bar. The heavy-set man flicks the bar and taps the back of his reaching hand, a light quick tap, not a swing. The old man snatches the hand back with a gasp and shakes it out.
+2-4s: he twists on the rope and reaches again, with both hands this time, clawing for the end of the bar. The heavy-set man pulls the bar away and taps him once on the forearm, then once on the shoulder, two light quick taps with a flick of the wrists. Each time the old man flinches, grunts and pulls his arms in. The crowd roars and shoves closer.
+4-5s: the old man pulls both forearms up and crosses them over his face, swinging on the rope; the heavy-set man lifts the bar upright at the right edge of frame. Final frame: exactly the first frame of the video.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and a man who gets hold of the weapon is no longer the victim.
+GOAL: get his hands on that bar.
+OBSTACLE: he hangs upside down by one foot, every reach leaves him open, and every tap on his hands drives him back.
+TACTIC: his eyes lock on the end of the bar and measure the gap; he waits for the heavy-set man to look away, then lunges for it; each time he is tapped he pulls back, shakes it off and his eyes are already back on the bar, measuring the next try.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the heavy-set man: he is not in a hurry; he wants the crowd to watch; he keeps the bar just out of reach and answers every reach with a quick, almost lazy tap, his eyes on the old man's hands. He keeps his mouth closed.
+
+ACTING TASK, the crowd: every one of them wants to get closer and get a hand on him: they shove forward, elbow each other, shout at him, reach for him. Men and women of every age, nobody looking into the lens.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only quick light taps of the iron bar on his hands and arms, his hissed gasps and grunts, his ragged breaths, the creak of the rope, bodies shoving and colliding, and the close deafening roar of the crowd shouting right around the camera, with no words that can be made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
