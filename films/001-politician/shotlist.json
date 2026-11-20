@@ -6068,6 +6068,32 @@
               "rating": 2,
               "notes": "REQUEST S09-SH040-b, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): photographic, reads as live action: a real dark Black Hawk cut by the left edge, nose toward camera-left, open cabin door; she climbs out, walks a few steps clear and stops left of center facing him, hair and jacket moving in the wash; he stands upright at the street light right of center, folder not readable at this size; briefcase on the asphalt in front of him; warm sunset haze, long shadows. Off brief: two traffic lights and a yield sign by the street light (prompt said street lights one, did not forbid traffic lights); about six bodies, not twelve; a zebra crossing and a wide junction with tall tower blocks in the back rather than the enclosed S07 square; she barely crouches; no rotor-wash dust cloud, no visible anamorphic flare; a concrete wall at right with steps. Not checked against S07/S08 takes: none logged. Leonard 2026-11-20: position wrong: he must stand next to the briefcase, not next to the pole; she must step off the helicopter with much more professional grace.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a35cfc87-4df4-497c-91eb-77b39fd1c216",
+              "prompt": "05-generation/prompts/001_S09_SH040_T03.txt",
+              "file": "05-generation/takes/S09/SH040/001_S09_SH040_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_helicopter 6c8efe25",
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH040-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): his note applied: he stands out on the open asphalt with the case at his feet, away from the pole. Her exit is upright and composed, no ducking, but she stays one or two steps from the door instead of about four. About twelve bodies, but laid out in tidy rows like a grid. The case reads as a small dark box standing upright, not open and flat. Ignored: traffic lights, yield sign and zebra crossings are still there; the junction, towers, wall and steps are identical to T02 [inference: they come from the loc_square image, not yet checked]."
             }
           ],
           "description": "The BUSINESS LADY steps out, low under the rotors, and stops a few steps from the helicopter. She waits.",
