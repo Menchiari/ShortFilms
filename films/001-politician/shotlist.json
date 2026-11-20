@@ -7995,7 +7995,7 @@
               "prompt": "05-generation/prompts/001_S09_SH020_T03.txt",
               "file": "05-generation/takes/S09/SH020/001_S09_SH020_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH020_T03.jpg",
               "references": [
                 "prop_briefcase 4bf36cb5",
                 "char_politician_final 547bbfa3",
