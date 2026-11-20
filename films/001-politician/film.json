@@ -1890,6 +1890,14 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T01 rated 1 by Leonard ('no'): wrong background (the take copied the loc_square element image, a wide avenue with towers and traffic lights), he must stand in the center of the square opposite the street light with a street behind him, background out of focus, line too nice. T02 prompt prepared (request S09-SH050-b, not submitted): loc_square dropped, square in words, shallow focus, sour fed-up delivery. Preflight 18 credits. [ASSUMPTION] 'opposite side of the light post' = the street light is out of frame behind the camera side."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-b approved by Leonard ('ok go, 18 credits'): S09 SH050 T02, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T02.txt. Job e841fd97-bee7-4f35-93e8-09582eeb2b8e."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T02 done: job e841fd97, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T02.mp4. Not yet rated by Leonard."
     }
   ],
   "story_sync": {
