@@ -1956,6 +1956,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard 2026-11-20 (repeated, earlier as 'don't repeat elements'): never name a reference twice, as in '@char_politician_final (@Image1)'. Each reference gets one name only. Claude misread 'don't repeat elements' on 2026-11-20 as 'don't describe things twice'. Note: docs/PROMPTING.md (Elements, the @char_marta (@Image1) example) and docs/HIGGSFIELD.md line 31 prescribe the double naming, so every session repeats it until those docs change. [ASSUMPTION] the one name kept is @Image1, the name Seedance reads by upload order. REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v2.txt (only @Image1, no @char_ name). Same settings, 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Correction: Leonard's naming rule of 2026-11-19 is already in this log: elements by name only (@char_ / @prop_ / @loc_), no (@ImageN) after them; unnamed references keep @ImageN. Claude had read only the last log entries and missed it, misread 'don't repeat elements', and in T08_v2 kept the wrong name (@Image1). REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v3.txt: @char_politician_final only, no (@Image1). Same settings, 21 credits, waiting for approval. Entry in stories/MISTAKES.md."
     }
   ],
   "story_sync": {

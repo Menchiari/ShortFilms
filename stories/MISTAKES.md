@@ -3,6 +3,36 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-20, Politician S08 SH040 T01 to T07 (147 credits) and the T08 draft
+
+- **What:** seven takes. T01 used the previz line guide (boxy bodies). T03 to T05 passed `loc_square` (its traffic
+  lights came in). T05 to T07 passed T04 frames as references (their crowd and the traffic-light pole were copied,
+  whatever the text said). Every prompt wrote `@char_politician_final (@Image1)`. Prompts grew from 1240 to 1780 words.
+  Leonard said "don't repeat elements"; Claude read it as "don't describe things twice" and kept the double naming
+  through T06, T07 and the T08 draft, then dropped the element name instead of `(@ImageN)`.
+- **Cause:** the session read only the last log entries of `film.json` and never opened this file, so it missed the
+  naming rule of 2026-11-19, the 2026-11-18 rule that a scene reference locks composition like a start frame, and the
+  S08 SH030 entry on `loc_square`. It followed `docs/PROMPTING.md` on main, which still teaches the old naming.
+- **Rule:** at session start read this whole file and every `film.json` log line that quotes Leonard, not only the
+  last entries. Elements by name only. A frame passed as a reference is copied: never pass one that shows anything
+  wrong. When Leonard's words can mean two things, take the meaning that matches a rule already logged.
+
+## 2026-11-20, Politician S08 SH030 T01 to T03 (36 credits) and the T04 draft
+
+- **What:** every prompt passed `loc_square` and `palette_sunset` and wrote `@loc_square (@Image1)`. T01 hung the old
+  man from a traffic light, T01 to T03 gave wide open roads; Leonard asked for tighter roads, then flagged the naming
+  and "two references alter the model".
+- **Cause:** (1) Leonard's naming rule of 2026-11-19 (elements by name only, no `(@ImageN)`) sat on unmerged docs
+  branches (`claude/prompting-ref-naming`, `claude/docs-ref-naming-fix`): film-sync never merges `docs/`, so main taught
+  the old form. (2) I passed the brief's "likely elements" without looking at them, against the 2026-11-18 rule below:
+  the `palette_sunset` image (1f563179, `stories/politician/look/palette_ref_2_sunset.jpg`) is a wide boulevard with
+  towers and street lights, and the `loc_square` image (62815a4f, `loc_square_v3`) has lamps all around, traffic lights
+  and an open space. Each "color only" or "surfaces only" image gave its place.
+- **Rule:** elements by name only (`@loc_square`), `@ImageN` only for references that are not elements. A reference goes
+  in only when its image shows what the shot needs; open it first. Film 001's palette images (`palette_afternoon`,
+  `palette_sunset`) are city streets: color and light come from the look line and the lighting paragraph. When a shot's
+  place differs from every location image, the place comes from words alone (`t2v`).
+
 ## 2026-11-19, Politician S04 SH080 T01 and T02 (27 credits)
 
 - **What:** both prompts named the reference as "@Image1" and the fat man as "the fat man from @Image1" instead of
