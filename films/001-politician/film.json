@@ -3274,6 +3274,10 @@
     {
       "date": "2026-11-20",
       "text": "001: S09 SH050 T06 delivered (job adff67e3, 18 credits), takes/S09/SH050/001_S09_SH050_T06.mp4 (992x432, 6.08 s, audio), recorded in shotlist.json, unrated. Place and grade drifted again (wide ruined plaza, orange-red)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH050 T06: 'wrong background' (rating 2, inferred). Request S09-SH050-g (T07, the S06 location plate 0312506b as the place image) still waiting for his go."
     }
   ],
   "story_sync": {
