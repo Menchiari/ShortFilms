@@ -1878,6 +1878,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH060-a approved by Leonard ('ok go, 24 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id cf0894e6-f540-4692-bce3-20bc7d619092), no job id returned, nothing charged. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH060-a, Leonard: 'check errors and try again'. Transactions checked: no 24-credit charge from the 429 call. Resubmitted once, same params: job 8d9e0c0f-cc60-4b41-b8a3-d10b02a74025, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, folder Scenes/S09/SH060."
     }
   ],
   "story_sync": {
