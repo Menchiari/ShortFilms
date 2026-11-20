@@ -3190,6 +3190,34 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH060 T02: 'love it, use both (actually this last one is 080 while the t1 should be 060)'. T02 rating 5 + love. Edit: SH060 from T01 (0-4 s), SH080 from T02 ([ASSUMPTION] its 4-8 s). SH060 and SH080 approved. What made T02 work: the closer size and an acting task built on silence as punishment (the swallowed attack)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T01: background not right but it works, film quality there (rating 4, inferred). T02 prompt prepared (request S09-SH090-b, not submitted): prompts/001_S09_SH090_T02.txt, tighter close-up, 7 s (4 s hold on his expression, then he limps past her on the left side of the frame and out past the camera), long lens wide open with a heavy real blur on the background, limping footsteps in the audio; same refs and settings as T01. Estimate 21 credits. Background question logged as questions.md #6."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-b approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T02, job 32e5bfd4-b103-488e-b352-38810ba70f7a, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T02 delivered (job 32e5bfd4), takes/S09/SH090/001_S09_SH090_T02.mp4 (992x432, 7.07 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T02: likes it (rating 4, inferred); unsure he looks at her; he must pass on her far side, she between him and the camera. T03 prompt prepared (request S09-SH090-c, not submitted): prompts/001_S09_SH090_T03.txt, over her right shoulder (char_boss 7ef41962 added for her hair and jacket from behind), his eyeline on her face just right of her ponytail, he limps behind her and out frame left; 7 s, 480p, 21:9, audio on. Estimate 21 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-c approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T03, job bdd41913-1592-4578-bb76-97298fd1b528, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, char_boss, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T03.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T03 delivered (job bdd41913), takes/S09/SH090/001_S09_SH090_T03.mp4 (992x432, 7.07 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T03: 'good' (rating 4, inferred)."
     }
   ],
   "story_sync": {
