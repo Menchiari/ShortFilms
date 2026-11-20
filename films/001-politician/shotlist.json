@@ -5983,6 +5983,27 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "Text only, no references. Claude's read: narrow, dirty, dusty streets packed with a fleeing crowd; blood readable (dark red pools under the men who drop); three hits, the third very clear (the young man in white is thrown down and lies in a pool). Three shot peaks in the audio at about 0.3 s, 1.8 s and 3 s, each with a view jump (frame-difference spikes at frames 8 to 10, 41 to 44, 62 to 74): the kicks are there but short, about a quarter second, not violent. Off-brief: the angle is low, nearly street level down the street, not high above from a helicopter; the scope circle drifts left and right instead of staying fixed; the crosshair is thin and faint. Passed the filter with blood. Leonard: no, it is supposed to be from high up, not in a narrow street."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "962697eb-ab58-424c-9436-88447b3e6596",
+              "prompt": "05-generation/prompts/001_S08_SH030_T05.txt",
+              "file": "05-generation/takes/S08/SH030/001_S08_SH030_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH030_T05.jpg",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Text only. Claude's read: the angle is right this time: high and steep, flat rooftops with water tanks, a tight street between the buildings seen from above, no sky. Three view kicks, stronger than T04 (frame-difference spikes at frames 9 to 23, 35 to 42, 64 to 78); two loud shot peaks in the audio (about 0.45 s and 3.5 s), the middle one quieter. Men down with dark red blood in the street; the man in white thrown down at the end. Off-brief: the scope is a smaller black ring that slides left and right across the frame, and the town shows outside the ring instead of black (the view through a scope tube held in front of the camera, not a scope image); the crosshair is thin. Passed the filter with blood."
             }
           ],
           "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
