@@ -71,3 +71,11 @@ Leonard's reference frame itself.
 
 Blockout: `square_blockout_tour_v7_s09_norepeat.mp4` (v6: 9 s, still had two west views). Prompt:
 `prompt_square_tour_v5_s09_norepeat.txt`, 7 s.
+
+## Take T01 (2026-11-20)
+
+`takes/001_city_square_tour_T01.mp4`: job 4043c429-d77b-4542-a77b-fc3cd5bd7acc, seedance_2_5 omni_reference, 7 s, 720p
+(1470x630), 21:9, audio on, 49 credits, prompt `prompt_square_tour_v5_s09_norepeat.txt`, folder REFS/LOC_square. Unrated.
+Claude's read: it opens on Leonard's frame, then the camera only drifts a few meters toward the corner building and
+back. No new angle is reached: none of the SH040, west street or reverse holds happen. Words alone did not move the
+camera across the square. Stills: `takes/001_city_square_tour_T01_*.jpg`.

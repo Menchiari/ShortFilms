@@ -3295,6 +3295,10 @@
     {
       "date": "2026-11-20",
       "text": "City building: square 3D blockout from Leonard's square frame (3D Jutsu 67aff3d7, free). REQUEST city square tour T01 approved by Leonard ('ok do the video now'; Claude took the recommended option A) and submitted: job 4043c429-d77b-4542-a77b-fc3cd5bd7acc, seedance_2_5 omni_reference, 7 s, 720p, 21:9, audio on, 49 credits, start image media 058651a0, folder REFS/LOC_square (new, d2b24ce2), prompt stories/politician/city/square_3d/prompt_square_tour_v5_s09_norepeat.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T01 in (job 4043c429, 49 credits): stories/politician/city/square_3d/takes/001_city_square_tour_T01.mp4, 7.07 s, 1470x630. Opens on Leonard's frame; the camera only drifts near the corner and returns, none of the planned angles is reached. Unrated."
     }
   ],
   "story_sync": {
