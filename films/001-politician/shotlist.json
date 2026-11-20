@@ -8513,7 +8513,7 @@
               "prompt": "05-generation/prompts/001_S09_SH070_T06.txt",
               "file": "05-generation/takes/S09/SH070/001_S09_SH070_T06.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH070_T06.jpg",
               "references": [
                 "SH060 T01 frame at 3 s (media 13e7f27a)",
                 "agreement_page_v2.png (media 862610be)",
