@@ -6129,6 +6129,32 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S09-SH090-b. T01 plus Leonard's notes: closer, 7 s, longer hold, he walks past her on the left side and past the camera, blurrier background. Claude's read (stills at 2 fps, not listened): tighter close-up, he holds the stare about 4.5 s with his chin up, then turns and walks almost straight at the lens, passing beside her soft shoulder at the left edge, his face filling frame and going out of focus as he exits bottom left; the last frame is the empty street. His eyes cross close to the lens around 5 s. Background: softer than T01 but still readable, not heavily blurred; a small distant shape on the street may be a car. Same wounds as T01 (nose, left cheekbone), eyebrow split still missing. Leonard 2026-11-20: 'I like it, but I don't know if he's looking at her. Also he needs to pass by her side (she should be between him and the camera when he walks by).'"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "bdd41913-1592-4578-bb76-97298fd1b528",
+              "prompt": "05-generation/prompts/001_S09_SH090_T03.txt",
+              "file": "05-generation/takes/S09/SH090/001_S09_SH090_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_final 547bbfa3 (image_references)",
+                "char_boss 7ef41962 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S09-SH090-c. T02 plus Leonard's notes: over her shoulder so his eyeline lands on her, he passes on her far side. Claude's read (stills at 2 fps, not listened): over her right shoulder, her black ponytail and dark jacket in the left foreground, a sunglasses arm visible at her temple; his eyes go down slightly to her face and read as on her for the 4.5 s hold. Then he steps toward her and passes behind her on the far side, she stays between him and the camera, he comes out at her left and leaves frame left. His chin lowers on the turn and walk. She is fairly sharp, not soft; the background is only moderately blurred: a wide open square with flat facades, the bodies readable as dark shapes on the ground."
             }
           ],
           "description": "He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.",
