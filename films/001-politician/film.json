@@ -1890,6 +1890,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH090 T01: background not right but it works, film quality there (rating 4, inferred). T02 prompt prepared (request S09-SH090-b, not submitted): prompts/001_S09_SH090_T02.txt, tighter close-up, 7 s (4 s hold on his expression, then he limps past her on the left side of the frame and out past the camera), long lens wide open with a heavy real blur on the background, limping footsteps in the audio; same refs and settings as T01. Estimate 21 credits. Background question logged as questions.md #6."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-b approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T02, job 32e5bfd4-b103-488e-b352-38810ba70f7a, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T02.txt."
     }
   ],
   "story_sync": {
