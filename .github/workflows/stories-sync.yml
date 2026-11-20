@@ -4,10 +4,10 @@ name: stories-sync
 # merges every recent branch that changes only stories/, films/ and films-index.json into main,
 # syncs the films and deploys the site. A branch with other changes goes through a pull request.
 
+# Retired 2026-11-20: film-sync.yml now starts on branch pushes itself. This job only echoed and
+# cost a billed minute per push. Kept as a file (manual run only) so nothing is deleted.
 on:
-  push:
-    branches-ignore: [main]
-    paths: ["stories/**", "films/**", "films-index.json"]
+  workflow_dispatch:
 
 permissions:
   contents: read
