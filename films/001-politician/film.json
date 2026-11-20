@@ -1902,6 +1902,14 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T02 rated 4 (inferred, 'this works, not bad'). T03 prompt prepared (request S09-SH050-c, not submitted): T02 verbatim except the line reading and acting task (pissed, I told you so) and a new Grade paragraph (more cinematic, orange held back, richer contrast). Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-c approved by Leonard ('ok go, 18 credits'): S09 SH050 T03, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T03.txt. Job 6db71989-ec8f-4e47-9ede-e475dd6c0461."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T03 done: job 6db71989, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T03.mp4. Not yet rated by Leonard."
     }
   ],
   "story_sync": {

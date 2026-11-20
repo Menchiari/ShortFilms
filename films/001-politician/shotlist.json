@@ -6078,6 +6078,30 @@
               "rating": 4,
               "notes": "REQUEST S09-SH050-b, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): background now low-rise ochre facades with rolled-down shutters, open dusty ground, two bodies behind him, sun flaring at the upper right; strong rotor wind (tie and jacket blowing, paper skidding); his face harder, a scowl. Weak: the background is only slightly soft, not really out of focus; a facade fills the space behind him, no street opening straight behind him (the sunlit street is at the right edge); the folder is pale grey, not dark, held out on a near-straight arm at waist height; the trouser stain does not read; her glasses show at the edge of her cheek. Leonard 2026-11-20: this works, overall not bad; he needs to be more pissed, like 'I told you so'; the filter a bit more cinematic.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "6db71989-ec8f-4e47-9ede-e475dd6c0461",
+              "prompt": "05-generation/prompts/001_S09_SH050_T03.txt",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_final 547bbfa3",
+                "char_boss 7ef41962",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH050-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): his face clearly angrier, a hard glare and tight mouth at the end; the folder now dark; a wide street now runs straight behind him into the haze, background softer than T02. Weak: the grade is more orange, not less: a heavy orange-red wash; the place reads as a ruined, rubble-strewn wide avenue with tall blocks and street lights, not the low-rise square of T02; no bodies readable; less wind in his tie; paper only on the ground at the left."
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",
