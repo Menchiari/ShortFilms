@@ -1,0 +1,34 @@
+Audio: only his short gasping breaths, the creak of the taut rope as he twists, and the loud shouting and shoving of a dense crowd all around him, no clear words. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the framing, the upside-down position of his head and arms in the frame, and the timing of his movement. Take NOTHING else from it, ever: not its shapes as objects, not its lines, not its surfaces, colors, light or style. Every person, building and object in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+@char_politician_blood (@Image1): the old man's face, white hair, build, dusty charcoal suit, stained white shirt, rust tie and the wound on his right eyebrow only, not his pose or background. @loc_square (@Image2): the facades of the square, their color and texture only, far behind him and out of focus, not its framing.
+
+Close-up, locked-off, of the old man from @char_politician_blood hanging upside down by one ankle in a dusty square in a desert town, his face toward the camera, a dense riot crowd pressing and shoving all around him: he comes to, forces one eye open, and panic takes him; he swings and spins on the rope, gasping, his eye searching for a way out.
+
+He hangs head down. Camera and world are upright: the facades of the square stand upright behind him. His feet are up above the top of the frame; his chest and shoulders come in from the top of the frame, his upside-down head is in the middle of the frame, his forehead toward the bottom. Everything on him falls toward the ground, toward the bottom of the frame: his white hair hangs down from his scalp, his tie hangs out of his collar down past his chin and face, his jacket falls open down toward his shoulders, and both arms hang loose down past his head toward the bottom of the frame. No ground in frame.
+
+His face, as in @char_politician_blood: the split in his right eyebrow, plus a bruised cheekbone, a small split in his lower lip, and a thin line of dried blood from his left ear running down along his temple into his hair. Dust and sweat on his skin. One eye, his left, stays swollen almost shut for the whole shot; he opens only his right eye.
+
+All around him, packed close: the riot crowd, many people, real people, men and women of every age, shoving, shouting, arms raised, pushing past each other in constant messy movement, as in documentary news footage. Out of focus behind them, the sunlit facades of the square from @loc_square. Now and then a shoulder or a head of someone passing close to the camera crosses the edge of the frame in a soft blur for a moment, never covering his face. Dust kicked up by the crowd drifts through the light.
+
+Lighting, motivated by the sun only: a low warming late-afternoon sun from screen left, turning golden, raking across his upside-down face; the far side of his face in soft warm shade filled by warm bounce, so his open eye, the sweat and the bruises read clearly. Golden dust in the air. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped. Anamorphic lens, shallow depth of field, focus on his open eye.
+
+0-1s: close-up, locked-off, framing from @Video1: his upside-down face in the middle of the frame, both eyes shut, his body swinging on the rope from the shoves of the crowd, wobbling and turning left and right, never still. Short weak breaths.
+1-2s: still swinging, with effort his right eye opens, blinks, opens again. It catches the crowd pressing all around him and the world upside down.
+2-4s: panic takes him. He thrashes on the rope: his whole body spins a quarter turn one way, swings wide, and wobbles back, someone in the crowd shoves him and he swings again, his hanging arms flailing with it, never resting; he gasps fast through his split lip; his open eye darts from the rope above him, to the ground below, to the crowd, hunting for a way out. Final frame: the same locked-off close-up, his upside-down face near the middle of the frame, still swinging and turning on the rope, the crowd churning all around, his right eye wide and searching, his left eye swollen almost shut, his arms hanging toward the bottom of the frame.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has climbed out of every corner anyone ever put him in, and he has never once accepted that a fight was over.
+GOAL: find a way out of this rope before they come back for him.
+OBSTACLE: he is upside down, tied by one foot, his body will not answer, and the crowd is all around.
+TACTIC: the moment his eye opens he reads the situation like a room he must escape: his eye checks the rope, then the ground, then the gaps in the crowd, measuring each one and throwing it away; his body tries the only thing it has, a twist on the rope, and his eye looks again.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+No words from him: only breath. Count of people hanging: one. Count of ropes: one. No cuts, no slow motion, no zoom. All movement at real-life speed, chaotic but real, never cartoonish. Never copy the look of @Video1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his short gasping breaths, the creak of the taut rope as he twists, and the loud shouting and shoving of a dense crowd all around him, no clear words. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

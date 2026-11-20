@@ -1,0 +1,32 @@
+Audio: only a crowd of shouting voices, shuffling and scuffing shoes on dusty pavement, a rope creaking and rubbing against a metal pole, and his short ragged gasps and grunts. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style, not the stiff standing figures, and not the pose of anyone in it. Every building, wall, pole, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+@char_politician_blood (@Image1): the old man's face, white hair, build, the blood on his face, his dusty charcoal suit and white shirt only, not his pose or background. @loc_square (@Image2): the corner of the square only: the plain weathered concrete wall, the tall metal street light on the curb with its single arm reaching out over the pavement, the curb and the dusty pavement, not its framing, people or parked cars.
+
+A handheld medium wide shot from inside a riot crowd at the corner of a square in a desert town: between the heads and shoulders of the people in front of the camera, the crowd lifts the old man from @char_politician_blood off the ground by one ankle with a rope over the arm of the street light, and he dangles upside down beside the curb, twisting and clawing at the rope.
+
+Camera: handheld at head height, about three meters from the street light, standing among the crowd, on a normal lens. The backs of three or four heads and shoulders fill the bottom third of frame, close and soft, always moving, as in @Video1. Beyond them the street light rises on the curb in the middle of frame, its arm reaching out over the pavement, the concrete wall behind it. The camera sways and bobs gently with the jostling of the people around it, small restless corrections, never a big move, and keeps the old man near the center.
+
+Light, from the sun only: a warm low late afternoon sun from screen left, more golden than an hour ago, raking across the wall and the people, rimming hair and shoulders; dust kicked up by the crowd glows in it. Deep brown shadows that keep their detail, never crushed to black.
+
+0-2s: between the heads, a rope runs from the arm of the street light down into the crowd beside the curb, pulled taut. People in the crowd haul on it hand over hand, leaning their weight back, shoving each other for room. The old man is still below the line of heads, out of sight.
+2-3s: his shoe and the leg with the rope around its ankle rise above the heads, then his whole body comes up after it, heavy, upside down, his suit jacket falling down over his chest, his arms trailing down. He comes up in jerks, one pull at a time, a dead weight with real mass; the rope stays straight and tight, nothing stretches, nothing bounces.
+3-6s: he stops with his head about a meter above the pavement, beside the curb, and dangles there upside down by one foot, his body slowly turning on the rope and swinging a little from the last pull. He curls up at the waist and claws at the rope above his ankle with both hands, cannot reach it, drops back down; his free leg kicks and bends; he twists the other way. The crowd keeps surging around him, arms reaching in. Final frame: the old man dangling upside down by one ankle from the arm of the street light beside the curb, still turning, hands reaching up toward the rope, the heads and shoulders of the crowd moving in the foreground, the camera still handheld among them.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and a knot is just a problem with a solution.
+GOAL: get his foot out of the rope and back onto the ground.
+OBSTACLE: he is upside down, his own weight pulls against him, and every time he curls up to reach his ankle the rope turns him away.
+TACTIC: he hunts the knot at his ankle with his eyes, measures the distance, and throws himself up at it with both hands; when he falls short his eyes snap to the faces below, searching for whoever holds the rope, then go straight back up to the knot to try again.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The crowd: a real riot crowd in documentary news footage, realistic but cinematic. Men and women of every age and build, heavy and thin, old and young, sweat-stained faded mismatched everyday clothes in dusty browns, greys, whites and muted colors, every face different. Constant messy overlapping movement: people pushing in, shouting, reaching up, turning to each other, stepping back and in again, each at his or her own speed. Never a static wall of people, never matching clothes, nobody stiff, nobody looks like a mannequin. If the pavement shows anywhere between the people, the men already lying on it stay still where they are, sleeping. Not graphic: no new injuries, no gore.
+
+Physics: a real human body lifted by one ankle, heavy, with real weight and inertia; the rope never stretches or bounces. Count of ropes: one. Count of street lights: one, with one arm, no traffic lights. Count of people lifted: one. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no flag, no readable writing, no logos. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, warm late afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a crowd of shouting voices, shuffling and scuffing shoes on dusty pavement, a rope creaking and rubbing against a metal pole, and his short ragged gasps and grunts. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

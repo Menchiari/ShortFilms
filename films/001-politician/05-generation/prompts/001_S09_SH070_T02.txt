@@ -1,0 +1,10 @@
+001 S09 SH070 T02. NOT GENERATED: 0 credits. Composited still (the Agreement, last page), v2.
+Leonard's note on T01: use one of his signatures, the document must feel much more realistic.
+Signature: Leonard's sheet (stories/politician/props/agreement/signature_sheet_leonard.webp), bottom centre
+one (big oval capital, falling run, heavy underline swoop), extracted by make_signature_v2.py, blue-black ink.
+Page: make_agreement_v2.py + render_page_v2.js. Law-firm format (Tinos, 11 pt, Section numbers, underlined
+headings, hanging sub-clauses), the page starts mid-sentence in 17.1, Article 18 General Provisions, 18.4
+Survival lists the clauses of prop-agreement.txt by title, two-column signature blocks, doc id and page 64.
+Toner spread and density, paper fibre. Frame 3840x1646: page on its stack in a dark folder, slight tilt and
+bow, low sun from frame left, folder-flap shadow, soft far edge, vignette, grain.
+Take: 2 s, 24 fps, 48 frames, slow push 100% to 104% toward the signature (ffmpeg zoompan), no audio.

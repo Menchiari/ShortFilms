@@ -1,0 +1,33 @@
+Audio: only the constant roar of a riot crowd all around, shouting and jeering with no words clear, many feet scuffing on gritty asphalt, a man's short heavy breaths through the nose, the creak of a rope under strain, and one fast heavy whoosh of a metal pipe cutting the air toward the camera at the very end. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_big-guy (@Image1): the fat person's face, curly dark hair, moustache, heavy build, dusty grey-brown short-sleeved t-shirt and dusty cargo trousers only, not his pose or background. @char_politician_blood (@Image2): only the dusty charcoal suit sleeves, white shirt cuffs and the old man's hands, not his face, pose or background. @loc_square (@Image3): the square: its tall plain metal street lamp, weathered concrete apartment towers with shutters and small dark windows, and dusty asphalt only, not its framing, open space, traffic lights or parked cars.
+
+A locked-off point-of-view shot from very low, close to the asphalt, at the corner of a dusty square in a desert town packed with a rioting crowd: the fat person from @char_big-guy steps out of the crowd toward the camera with a long metal pipe in both hands, slowly lifts it back over his right shoulder, holds it there, then swings it hard straight at the camera.
+
+Camera: locked-off, about one meter above the asphalt, tilted slightly up, a wide lens. The fat person stands two to three meters from the camera, framed from head to knees, larger than everyone else in frame, the towers and the hazy sky behind him. The camera never moves.
+
+The crowd from @loc_square: a real riot crowd filmed like documentary news footage, men and women of every age, in plain worn everyday clothes, packed around the square three to fifteen meters behind him, in constant messy movement: shoving, shouting, pointing, raising fists, pushing forward and back, nobody still, never in rows. Nobody looks into the lens. Between their legs, on the asphalt, two men lie still where they fell, as if sleeping. Behind them the tall plain metal street lamp and the sunlit concrete towers.
+
+Lighting, motivated by the sun only: a low warm late afternoon sun, turning golden, from behind the crowd at screen right, backlighting the square: warm rims on heads and shoulders, golden dust in the air, long shadows on the asphalt reaching toward the camera. The fat person's face and chest are in soft shade, filled by warm bounce from the sunlit asphalt, so his eyes and the sweat on his skin read clearly. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: the crowd churns in the background. Two forearms in dusty charcoal suit sleeves, the old man's hands from @char_politician_blood, come down into the top of the frame from above the camera, one at the top left corner and one at the top right corner, close and out of focus, fingers spread, and stay there at the top edge, trembling, leaving the middle of the frame clear. At the same time the fat person shoulders his way out of the crowd at screen left, the metal pipe held low across his body in both hands.
+1-2s: he walks two heavy steps toward the camera and stops in the center of frame, two to three meters away, feet planted wide, his eyes on the camera.
+2-3s: slowly, with both hands on the pipe, he lifts it up and back over his right shoulder, his elbows rising, his chest opening, his weight shifting onto his back foot.
+3-4s: he holds it there, the pipe cocked over his shoulder in both hands, perfectly still, his eyes on the camera, waiting for the moment, breathing through his nose. The crowd keeps churning behind him.
+4-5s: he swings, hard and fast: his hips and shoulders whip around, both hands drive the pipe forward, and the pipe comes flat and straight at the camera, filling the right half of the frame, a blur. Final frame: the pipe close to the lens crossing the frame, a moment before it reaches the camera, the fat person behind it at full stretch, the forearms still at the top edge, the camera unmoved.
+
+ACTING TASK, the fat person (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): the square settles this with him today, in front of everyone.
+MOTIVE (his fuel): this old man walked out of his grip in the side street in front of his neighbors, and he will not be made a fool of twice.
+GOAL: finish it himself, with one clean swing everyone sees.
+OBSTACLE: the old man's arms are up, and a swing that does not land makes him a fool again in front of the whole square.
+TACTIC: he takes his time, because the time is his: he plants his feet, lifts the pipe slowly so everyone watching sees it go up, and while he holds it his eyes go to the raised arms and hunt for the gap between them, measuring it; the moment he finds it he swings. He keeps his mouth shut.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of pipes: one, in both of the fat person's hands the whole shot. Count of forearms at the top edge: two. Count of street lamps: one. Both his hands stay on the pipe from the first frame to the last. No cuts, no slow motion, real-life speed.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, shirt or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy late afternoon sun turning golden, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the constant roar of a riot crowd all around, shouting and jeering with no words clear, many feet scuffing on gritty asphalt, a man's short heavy breaths through the nose, the creak of a rope under strain, and one fast heavy whoosh of a metal pipe cutting the air toward the camera at the very end. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,24 @@
+Audio: only a light dry wind across the rooftops and, far below in the streets, the distant panicked shouts and running footsteps of a scattering crowd. No helicopter sound. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@prop_helicopter (@Image1): the helicopter: a matte black Sikorsky UH-60 Black Hawk, its shape, matte black paint and open sliding side door only, not its crew, not its gunner, not its background. @loc_square (@Image2): the buildings: their cracked ochre plaster, small balconies, flat rooftops and rooftop clutter only, not their people, cars, lamp, framing or light. @palette_sunset (@Image3): color and light only.
+
+Extreme wide shot on a long lens from a rooftop deep inside a desert town at sunset: high above and far beyond the rooftops, a small matte black military helicopter from @prop_helicopter hangs perfectly still in the hazy sky, framed between the buildings, locked-off.
+
+The helicopter from @prop_helicopter: unmarked, no numbers, no insignia, no lights, its rotor blades turning in a soft blur. It is far away, small in frame, about one tenth of the frame width, in side view, nose to screen right. Its sliding side door facing the camera is open: a dark empty opening, nobody sitting in it, nobody hanging out of it, no door gun. It holds its position in the air for the whole shot: it does not climb, sink, turn or drift. Count of helicopters: one.
+
+The buildings from @loc_square are real, lived-in apartment blocks photographed on location, never blocky or simplified: a tall block close at screen left, filling the left third of frame, its cracked and patched ochre plaster, small balconies with worn railings and dark windows; across the right half of frame the flat roofline of a lower block runs diagonally up from the lower middle to the right edge, with water tanks, cables, satellite dishes, rusted antennas and low parapets of different heights along it. Facades of different heights, chipped edges, dust on every ledge. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low sunset sun behind the helicopter, just out of frame above the right edge, facing the camera: a warm orange and amber haze fills the sky, brightest toward the upper right, dust glowing in it. The helicopter reads as a dark matte silhouette with a thin warm rim of light along its top edge and rotor blur. The facades facing the camera sit in deep warm shade, the roofline edges and parapet tops catch a thin line of warm sunset light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+Lens: long lens, flat and compressed, the helicopter and the rooftops both sharp enough to read, a soft haze between them.
+
+0-2s: extreme wide, low angle from a rooftop, camera locked-off and perfectly still. The tall block at screen left, the diagonal roofline at screen right, open sunset sky between them. The small black helicopter hangs in the sky in the upper middle of frame, just left of center, above and beyond the roofline, rotor blades blurring. A few fine dust motes drift through the sunlit air.
+2-4s: nothing moves but the rotor blur and the drifting dust: the helicopter holds still in the same place, the camera holds still. Final frame: same as the first: the tall block at screen left, the roofline at screen right, the small matte black helicopter hanging in the upper middle of frame, its open side door a dark empty opening, the sunset haze glowing behind it.
+
+Nobody on the rooftops, nobody on the balconies or at the windows. No birds. No slow motion: real time.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or aircraft, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a light dry wind across the rooftops and, far below in the streets, the distant panicked shouts and running footsteps of a scattering crowd. No helicopter sound. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,22 @@
+Audio: only his short, shaken breaths through parted lips, the soft rustle of his sleeve, and the murmur of a crowd in front of him rising and coming closer, no words. No gunshot, no bang, no shot, no click, no yell, no mechanical sound from the toy gun at any moment. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1 is the exact first frame: continue forward from that moment, keeping its framing, lens, light, color and grain. Do not replay or recreate anything before this frame. @char_politician_blood (@Image2): the old man's face, hair, blood on his right eyebrow, suit and tie only, not his pose or background. @prop_gun (@Image3): the small black toy gun as it is in this shot: empty, its slide locked all the way back, the bare barrel exposed; its shape and finish only, not its background.
+
+Close-up, fully frontal and locked-off, of the old man from @char_politician_blood against a concrete wall in low golden late-afternoon sun from screen left: he lowers the empty toy gun from his temple, reads it, then looks up at the crowd behind the camera and his eyes go wide: they are about to rush him.
+
+0-1.5s: locked-off frontal close-up exactly as in @Image1. He lowers the toy gun from beside his temple to the height of his chin at screen left, turning it so he can see its side: the slide locked all the way back, the bare barrel exposed, empty. His eyes read it.
+1.5-4s: his eyes snap up from the gun and look straight ahead toward the camera, focused a few meters past it, on the crowd standing behind the camera and coming at him: his eye line is level and runs just beside the lens, never up, never to the side, never at the sky, never into the lens. His eyes go wide on them and stay locked on them. He stays frozen, lips parted, the empty toy gun still at chin height at screen left. Final frame: the same locked-off frontal close-up, his face centered, eyes wide and fixed on the crowd just beside the lens, the toy gun at chin height at screen left with its slide locked back, the concrete wall soft behind him.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once let anyone else decide how a fight of his ends.
+GOAL: end it on his own terms, before the crowd gets its hands on him.
+OBSTACLE: the gun is empty and the crowd is coming at him.
+TACTIC: he reads the slide and knows he counted wrong; then his eyes go to the crowd behind the camera and measure them: how close the first ones are, how fast they are coming. He understands that the one thing left to him has been taken away, and he cannot move.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+No words. Count of people in frame: one. Count of guns: one, never fired, always black. Locked-off camera, no zoom, no push-in, no cuts, no slow motion.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his short, shaken breaths through parted lips, the soft rustle of his sleeve, and the murmur of a crowd in front of him rising and coming closer, no words. No gunshot, no bang, no shot, no click, no yell, no mechanical sound from the toy gun at any moment. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

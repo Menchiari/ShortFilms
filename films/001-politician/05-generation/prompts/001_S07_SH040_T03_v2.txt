@@ -1,0 +1,29 @@
+Audio: only his gasps and grunts, the creak of the rope, the dull thuds of hands on cloth, the hollow knock of a metal pipe on his forearm, and the loud shouting of the crowd close around him, no clear words. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 forward: continue straight on from its last frame, as one continuous take. Keep everything that is in @Video1 exactly the same: the locked-off close-up, the framing, the orientation of the frame, the golden late-afternoon light from screen left, the color, the film grain, the old man's face, hair, suit and tie, and the dense crowd behind him. Do not replay or recreate anything from @Video1.
+@char_politician_blood (@Image1): the old man's face, hair, suit and tie only, not his pose or background. @char_big-guy (@Image2): the fat man's face, build and clothes only, not his pose or background.
+
+The crowd closes in on the hanging old man: the fat man from @char_big-guy swings a metal pipe and the old man blocks it with his forearm, then the people around him grab and shove him from every side as he swings on the rope.
+
+0-1s: the same locked-off close-up as the last frame of @Video1, the old man hanging upside down, swinging, his eye darting. The crowd behind him surges forward, and people press in close around him from both sides of the frame, shoulders and arms filling the edges.
+1-2s: the fat man from @char_big-guy pushes into the frame at screen right holding a metal pipe in both hands and swings it at the old man. The old man throws his forearm up over his face; the pipe knocks hard against his forearm and bounces back off it. The old man's whole body swings away on the rope.
+2-4s: hands shove him from every side: he swings back and forth on the rope between them, spinning. Fists thump his shoulders and back, a boot shoves his side, each push knocks his body sideways on the rope, his arms flailing to cover his head. Nobody stands still: the crowd pushes and churns around him.
+4-5s: he keeps both forearms over his face, gasping, still swinging and turning on the rope, people still crowding and shoving all around him. Final frame: the same locked-off close-up, the old man upside down in the middle of the frame, forearms over his face, swinging, the fat man with the pipe at screen right, the crowd packed close all around.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has been knocked down before and has always got back up.
+GOAL: protect his head and keep his wits.
+OBSTACLE: he hangs upside down and cannot get away from a single shove.
+TACTIC: between his arms his eye tracks the next fist and the pipe, reading where each one will come from, and he turns his arms and his body to take it on the forearm or the shoulder, never on the head.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the crowd: they have caught him at last and every one of them wants to get close; they shove each other to reach him.
+
+His face, skin and suit stay exactly as in @Video1 from the first frame to the last. Count of people hanging: one. Count of pipes: one, held by the fat man. No cuts, no slow motion, no zoom. All movement at real-life speed, chaotic but real, never cartoonish.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his gasps and grunts, the creak of the rope, the dull thuds of hands on cloth, the hollow knock of a metal pipe on his forearm, and the loud shouting of the crowd close around him, no clear words. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
