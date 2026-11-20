@@ -3,6 +3,20 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-20, Politician S08 SH040 T01 to T07 (147 credits) and the T08 draft
+
+- **What:** seven takes. T01 used the previz line guide (boxy bodies). T03 to T05 passed `loc_square` (its traffic
+  lights came in). T05 to T07 passed T04 frames as references (their crowd and the traffic-light pole were copied,
+  whatever the text said). Every prompt wrote `@char_politician_final (@Image1)`. Prompts grew from 1240 to 1780 words.
+  Leonard said "don't repeat elements"; Claude read it as "don't describe things twice" and kept the double naming
+  through T06, T07 and the T08 draft, then dropped the element name instead of `(@ImageN)`.
+- **Cause:** the session read only the last log entries of `film.json` and never opened this file, so it missed the
+  naming rule of 2026-11-19, the 2026-11-18 rule that a scene reference locks composition like a start frame, and the
+  S08 SH030 entry on `loc_square`. It followed `docs/PROMPTING.md` on main, which still teaches the old naming.
+- **Rule:** at session start read this whole file and every `film.json` log line that quotes Leonard, not only the
+  last entries. Elements by name only. A frame passed as a reference is copied: never pass one that shows anything
+  wrong. When Leonard's words can mean two things, take the meaning that matches a rule already logged.
+
 ## 2026-11-20, Politician S08 SH030 T01 to T03 (36 credits) and the T04 draft
 
 - **What:** every prompt passed `loc_square` and `palette_sunset` and wrote `@loc_square (@Image1)`. T01 hung the old

@@ -3026,6 +3026,26 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH100 T01 downloaded (job cf5b1072, 39 credits, 13.06 s, 992x432, 24 fps): SH100 + SH120 in one take. Rack focus works; he looks back toward her at 4-5 s (against the note); she is frontal in sunglasses, so the squint does not read. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T07 done (job 325f2a8d, 21 credits): takes/S08/SH040/001_S08_SH040_T07.mp4. Crowd spread out, kills readable, cracks even. Misses: still on the traffic-light pole (copied from the reference frame), a small helicopter in frame, last frame copies T04's. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T07 rated 1 (inferred). REQUEST S08-SH040-h prepared, not submitted: prompts/001_S08_SH040_T08.txt = T07 with no reference frame (only char_politician_final as @Image1), the T04 angle written in words, one tall street lamp with the rope round its post, no traffic lights or other poles, no aircraft in the sky. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard 2026-11-20 (repeated, earlier as 'don't repeat elements'): never name a reference twice, as in '@char_politician_final (@Image1)'. Each reference gets one name only. Claude misread 'don't repeat elements' on 2026-11-20 as 'don't describe things twice'. Note: docs/PROMPTING.md (Elements, the @char_marta (@Image1) example) and docs/HIGGSFIELD.md line 31 prescribe the double naming, so every session repeats it until those docs change. [ASSUMPTION] the one name kept is @Image1, the name Seedance reads by upload order. REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v2.txt (only @Image1, no @char_ name). Same settings, 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Correction: Leonard's naming rule of 2026-11-19 is already in this log: elements by name only (@char_ / @prop_ / @loc_), no (@ImageN) after them; unnamed references keep @ImageN. Claude had read only the last log entries and missed it, misread 'don't repeat elements', and in T08_v2 kept the wrong name (@Image1). REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v3.txt: @char_politician_final only, no (@Image1). Same settings, 21 credits, waiting for approval. Entry in stories/MISTAKES.md."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH040-h approved by Leonard ('ok go, 21 credits'): S08 SH040 T08 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final 547bbfa3 only, job ffe51115-7889-408b-a5e3-629f865c4a8a, folder Scenes/S08/SH040, prompt 001_S08_SH040_T08_v3.txt."
     }
   ],
   "story_sync": {
