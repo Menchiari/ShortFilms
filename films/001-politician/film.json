@@ -3106,6 +3106,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH040 T08 done (job ffe51115, 21 credits): takes/S08/SH040/001_S08_SH040_T08.mp4. On the street lamp at last, no traffic lights, three readable kills. Misses: hangs high from the lamp arm, the place drifted to an open plaza, crowd of men in suits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 stopped by Leonard after T08 ('forget it, I give up'). Eight takes, 168 credits, none approved. No request pending. Best partial takes by Claude's read: T04 (angle Leonard liked), T08 (on the street lamp, three readable kills). Open causes, in stories/MISTAKES.md: reference frames get copied, loc_square brings traffic lights, the old naming in docs/PROMPTING.md."
     }
   ],
   "story_sync": {

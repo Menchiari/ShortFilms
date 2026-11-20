@@ -7506,8 +7506,9 @@
                 "char_politician_final 547bbfa3 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S08-SH040-h. Folder Scenes/S08/SH040. Prompt T08_v3, element char_politician_final only, no scene reference. Claude's read (frames at 4 fps, full frames at 0.3 s, 4.5 s and 6.6 s, audio levels only): he hangs from the street lamp (rope from the end of its curved arm); one lamp, no traffic lights, no aircraft. Three readable kills with a small dust puff: a man in the foreground at about 1 s, a figure left of center at about 3.2 s, the man in the white shirt at about 5 s; cracks at about 0.8 s, 2.9 s and 4.7 s. Misses: he hangs high, his head about 2.5 to 3 m up, above the heads of the crowd; the place changed to an open empty plaza with a brutalist building at right and a row of towers at left, not the T04 street corner; the crowd is about forty men, mostly in dark suits, bunched under the lamp, no women readable."
+              "rating": 1,
+              "notes": "REQUEST S08-SH040-h. Folder Scenes/S08/SH040. Prompt T08_v3, element char_politician_final only, no scene reference. Claude's read (frames at 4 fps, full frames at 0.3 s, 4.5 s and 6.6 s, audio levels only): he hangs from the street lamp (rope from the end of its curved arm); one lamp, no traffic lights, no aircraft. Three readable kills with a small dust puff: a man in the foreground at about 1 s, a figure left of center at about 3.2 s, the man in the white shirt at about 5 s; cracks at about 0.8 s, 2.9 s and 4.7 s. Misses: he hangs high, his head about 2.5 to 3 m up, above the heads of the crowd; the place changed to an open empty plaza with a brutalist building at right and a row of towers at left, not the T04 street corner; the crowd is about forty men, mostly in dark suits, bunched under the lamp, no women readable. Leonard 2026-11-20: 'forget it, you fucked up and flopped. I give up.'",
+              "rating_source": "inferred"
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
