@@ -7462,6 +7462,53 @@
               "rating": 2,
               "notes": "REQUEST S08-SH040-f. Folder Scenes/S08/SH040. Prompt T06_v2 (414 words), refs T04 frame 10fceb80 and char_politician_final. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): T04 angle, place and his height held; no blasts, only low dust; the crowd flees for real; the third kill reads cleanly: the man in the white shirt throws up an arm and drops at about 4.8 to 5 s. Cracks: loud at 0.8 s and 4.5 s, a quieter one at about 2.7 s. Misses: the crowd is again several hundred people in rows, mostly older men, the same as the T04 frame: the reference frame carries its crowd in, 'not its people' did not hold, the fifty from the prompt did not come through; the first kill is hidden behind the front rows (a body is seen only as they part); by about 2.5 s two bodies lie at the left, the second fall not readable; five bodies at the end. Leonard 2026-11-20: all the things Claude noticed, plus he is not hanging in the right position: he should hang from the street lamp post (he hangs from the traffic-light pole beside it).",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "325f2a8d-20b2-4043-9888-6a593a2680ee",
+              "prompt": "05-generation/prompts/001_S08_SH040_T07.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH040_T07.jpg",
+              "references": [
+                "T04 last frame c732f495 (image_references)",
+                "char_politician_final 547bbfa3 (image_references)"
+              ],
+              "love": false,
+              "rating": 1,
+              "notes": "REQUEST S08-SH040-g. Folder Scenes/S08/SH040. Prompt T07 (490 words), refs T04 last frame c732f495 and char_politician_final. Claude's read (frames at 4 fps, full first and last frames, audio levels only): the crowd is now spread out with open paving between people, not in rows, fewer and more mixed in clothes, still mostly men; the three kills read better: a puff and a drop in the left foreground at about 1 s, a second drop left of center at about 3 s, the man in the white shirt down by about 5.3 s; cracks at about 0.8 s, 2.7 s and 4.5 s, closer in level. Misses: he still hangs from the traffic-light pole, not the street lamp: the reference frame shows him there and Seedance kept it; a small helicopter is visible in the sky by the lamp at the start and around 4.5 s; the last frame copies the T04 last frame almost exactly (same bodies, same spots); no earlier dead near the lamp. Leonard 2026-11-20: 'what is that? You did zero of what I asked.' Claude's account: the main ask (hang him from the street lamp) failed because Claude kept a reference frame that shows him on the traffic-light pole; Claude flagged the risk but still proposed that version instead of one without the frame.",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "ffe51115-7889-408b-a5e3-629f865c4a8a",
+              "prompt": "05-generation/prompts/001_S08_SH040_T08_v3.txt",
+              "file": "05-generation/takes/S08/SH040/001_S08_SH040_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH040_T08.jpg",
+              "references": [
+                "char_politician_final 547bbfa3 (image_references)"
+              ],
+              "love": false,
+              "rating": 1,
+              "notes": "REQUEST S08-SH040-h. Folder Scenes/S08/SH040. Prompt T08_v3, element char_politician_final only, no scene reference. Claude's read (frames at 4 fps, full frames at 0.3 s, 4.5 s and 6.6 s, audio levels only): he hangs from the street lamp (rope from the end of its curved arm); one lamp, no traffic lights, no aircraft. Three readable kills with a small dust puff: a man in the foreground at about 1 s, a figure left of center at about 3.2 s, the man in the white shirt at about 5 s; cracks at about 0.8 s, 2.9 s and 4.7 s. Misses: he hangs high, his head about 2.5 to 3 m up, above the heads of the crowd; the place changed to an open empty plaza with a brutalist building at right and a row of towers at left, not the T04 street corner; the crowd is about forty men, mostly in dark suits, bunched under the lamp, no women readable. Leonard 2026-11-20: 'forget it, you fucked up and flopped. I give up.'",
+              "rating_source": "inferred"
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
@@ -7859,7 +7906,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7896,12 +7943,12 @@
               "resolution": "480p",
               "aspect": "21:9",
               "audio": true,
-              "credits": 0.0,
-              "job_id": "36038951-a5bb-453b-bde8-730709d37577",
+              "credits": 54.0,
+              "job_id": "7414bb42-616f-45ce-85fa-4eeae71d8480",
               "prompt": "05-generation/prompts/001_S09_SH010_T02_v3.txt",
-              "file": "",
+              "file": "05-generation/takes/S09/SH010/001_S09_SH010_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH010_T02.jpg",
               "references": [
                 "char_politician_final f4279c8f (element)",
                 "loc_square 4eff3268 (element)",
@@ -7910,8 +7957,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH010-d, approved by Leonard ('ok go', 54 credits). The job record listed all four elements under reference_elements (first deliberate element use on seedance_2_5). Blocked by the filter: status nsfw, 'Output may contain sensitive content'. 54 credits refunded 2026-11-20 12:04 UTC. Resubmission under production-plan rule 4 was refused by the session's permission check, not sent; waiting for Leonard."
+              "rating": 4,
+              "notes": "REQUEST S09-SH010-d. First submission 36038951 blocked as nsfw (54 refunded 12:04 UTC); resubmission 1 (Leonard 'try again'), job 7414bb42, passed. Elements as <<<id>>> (char_politician_final, loc_square, char_big-guy, prop_bar-weapon), palette_sunset image; no guide clip. Claude's read (frames at 1 fps plus crops, audio levels only, not listened): closer than T01 (medium wide, the pipe and the sleeping man in the foreground at left), photoreal, sunset sun from screen left. Movement loose and organic, no animatic stiffness. Asphalt dry, no liquid. 0-1 s he falls in and lands; 1-6 s curled facing camera, hands at his head, loud 0-4 s (RMS about -20 to -26 dB); 7-10 s rolls onto his back, knee up, drags to the curb; 11 s head back on the curb; 13-15 s sits propped on his right hand, looks toward the sleeping man; about 15.2 s a small spit, a short puff of spray in the air toward screen left, not seen landing; 17-18 s pushes up onto one knee, head leaving the top of frame. Cut rope knotted on his ankle visible. His face and hair match the char_politician_final image (graying brown hair, heavy face, tie): the element works. The prompt's 'white hair' was Claude's error (also in T01); the element has graying brown hair. Misses: no slouched couch lean with both elbows on the sidewalk (he props on one hand); the spit is still a visible puff, smaller than T01; the sleeping man's face shows to camera. Leonard 2026-11-20: 'this works, maybe we can do it better but this works for now'.",
+              "rating_source": "inferred"
             }
           ],
           "description": "Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.",
@@ -7926,7 +7974,7 @@
         },
         {
           "id": "SH020",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7979,6 +8027,32 @@
               ],
               "notes": "REQUEST S09-SH020-b, draft, no previz clip. Claude's read from stills: sunset sun in frame at upper left with a blue anamorphic flare, hard backlight and long shadows, more filmic than T01. The case sits close in the lower middle and reads as open (its inner rim and lining from a low angle), but the lid lying back is not visible: it could read as an open box. He gets up at 0-2 s, walks to camera, ends behind the case framed from the chest down. Helicopter comes in from upper left at 3-4 s and lands at screen left behind him, clear of the bodies. Fewer sheets; a few lift and hop in the wash, most stay down; at the start the sheets lie in neat even rows, like placed tiles. Off: the city is still tall 8 to 12 storey apartment blocks around a wide empty plaza, with street lamps and a parked car, not the small old square; six bodies lie in an even row across the frame; a figure is visible inside the helicopter. Audio present (mean -28.4 dB), not listened to. Leonard (2026-11-20): almost; the city could be more realistic; he should start on the right side, next to the light post, not in the middle of the square; more film look, lens artifacts and cinematic feel.",
               "rating": 3,
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 13,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 39.0,
+              "job_id": "c55d3708-0d67-423a-ac1c-5142b172453c",
+              "prompt": "05-generation/prompts/001_S09_SH020_T03.txt",
+              "file": "05-generation/takes/S09/SH020/001_S09_SH020_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH020_T03.jpg",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_final 547bbfa3",
+                "prop_helicopter 6c8efe25",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179 (@Image5)"
+              ],
+              "notes": "REQUEST S09-SH020-c, draft. Claude's read from stills: he starts at screen right on one knee at the foot of a pole on the curb, pulls himself up on it and limps on a diagonal to the case; ends behind it from the chest down with the rope end coiled at his ankle. The case is clearly open (lid standing up toward the camera, the tray behind it). Stronger lens character: blue anamorphic flare streaks across the frame, sun in frame at upper left, haze, backlit rims. Sheets scattered at random, a few lift and skitter, most stay down. Helicopter comes in from upper left at 2 s, lands at screen left. Off: the pole is a traffic light pole with a yield sign, not the street lamp with its arm (no rope on an arm); the big man sits up against the pole instead of lying still; only two or three bodies visible, not a dozen; a figure sits inside the helicopter cabin; a parked car at the far left; the city is still the loc_square towers. Audio present (mean -28.6 dB), not listened to. Leonard (2026-11-20): 'this works'. Approved as the SH020 take.",
+              "rating": 4,
               "rating_source": "inferred"
             }
           ],
@@ -8086,6 +8160,59 @@
               "rating": 2,
               "notes": "REQUEST S09-SH040-b, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): photographic, reads as live action: a real dark Black Hawk cut by the left edge, nose toward camera-left, open cabin door; she climbs out, walks a few steps clear and stops left of center facing him, hair and jacket moving in the wash; he stands upright at the street light right of center, folder not readable at this size; briefcase on the asphalt in front of him; warm sunset haze, long shadows. Off brief: two traffic lights and a yield sign by the street light (prompt said street lights one, did not forbid traffic lights); about six bodies, not twelve; a zebra crossing and a wide junction with tall tower blocks in the back rather than the enclosed S07 square; she barely crouches; no rotor-wash dust cloud, no visible anamorphic flare; a concrete wall at right with steps. Not checked against S07/S08 takes: none logged. Leonard 2026-11-20: position wrong: he must stand next to the briefcase, not next to the pole; she must step off the helicopter with much more professional grace.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a35cfc87-4df4-497c-91eb-77b39fd1c216",
+              "prompt": "05-generation/prompts/001_S09_SH040_T03.txt",
+              "file": "05-generation/takes/S09/SH040/001_S09_SH040_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH040_T03.jpg",
+              "references": [
+                "prop_helicopter 6c8efe25",
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": 2,
+              "notes": "REQUEST S09-SH040-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): his note applied: he stands out on the open asphalt with the case at his feet, away from the pole. Her exit is upright and composed, no ducking, but she stays one or two steps from the door instead of about four. About twelve bodies, but laid out in tidy rows like a grid. The case reads as a small dark box standing upright, not open and flat. Ignored: traffic lights, yield sign and zebra crossings are still there; the junction, towers, wall and steps are identical to T02 [inference: they come from the loc_square image, not yet checked]. Leonard 2026-11-20: no, the camera angle is wrong: rotate around to match the previous shot (S09 SH020), where the helicopter sits.",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f5260b6c-6035-428f-8741-1ca7da368a59",
+              "prompt": "05-generation/prompts/001_S09_SH040_T04.txt",
+              "file": "05-generation/takes/S09/SH040/001_S09_SH040_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH040_T04.jpg",
+              "references": [
+                "SH020 T03 frame 8.5 s b5e22ffd (place)",
+                "prop_helicopter 6c8efe25",
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH040-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): the place, sun, flare, helicopter position and corner now match SH020 T03 exactly, with strong film look. Failure: it copied SH020's camera too (low on the asphalt, the open case big in the foreground), despite the 'do not copy its camera position' line, so it is not a wide. She does not step out of the helicopter: she enters from the left edge of frame close to camera and walks in front of it; the helicopter stays far behind, still looking airborne. He stands behind the case, facing the camera, not beside it facing her. Graceful walk on heels, which reads well."
             }
           ],
           "description": "The BUSINESS LADY steps out, low under the rotors, and stops a few steps from the helicopter. She waits.",
@@ -8127,6 +8254,82 @@
               "rating": 1,
               "notes": "REQUEST S09-SH050-a, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear; continuous sound, no silences): photoreal, sunset backlight, her back and ponytail in the left third, him limping in from the street and holding a dark folder out to her with his right arm, ending waist-up facing her. Paper sheets blow past. Weak: the place is a wide open avenue with high-rise blocks, traffic lights and a road sign, not the narrow street of S06 SH020; one body visible (left), not two; she turns her head toward profile; the folder is held at waist height on a straight arm, not at the chest; the trouser stain does not read; little wind in his hair. Leonard 2026-11-20: no. He must stand in the center of the square, on the opposite side from the street light, a street behind him; background out of focus; he acts too nice: the line is 'here we go, another bad thing happening to us'; mainly the background is wrong. Cause of the background (Claude): the loc_square element image (62815a4f) is this very wide avenue with towers and traffic lights, and the take copied it.",
               "rating_source": "user"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "e841fd97-bee7-4f35-93e8-09582eeb2b8e",
+              "prompt": "05-generation/prompts/001_S09_SH050_T02.txt",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH050_T02.jpg",
+              "references": [
+                "char_politician_final 547bbfa3",
+                "char_boss 7ef41962",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "REQUEST S09-SH050-b, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): background now low-rise ochre facades with rolled-down shutters, open dusty ground, two bodies behind him, sun flaring at the upper right; strong rotor wind (tie and jacket blowing, paper skidding); his face harder, a scowl. Weak: the background is only slightly soft, not really out of focus; a facade fills the space behind him, no street opening straight behind him (the sunlit street is at the right edge); the folder is pale grey, not dark, held out on a near-straight arm at waist height; the trouser stain does not read; her glasses show at the edge of her cheek. Leonard 2026-11-20: this works, overall not bad; he needs to be more pissed, like 'I told you so'; the filter a bit more cinematic.",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "6db71989-ec8f-4e47-9ede-e475dd6c0461",
+              "prompt": "05-generation/prompts/001_S09_SH050_T03.txt",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH050_T03.jpg",
+              "references": [
+                "char_politician_final 547bbfa3",
+                "char_boss 7ef41962",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": 1,
+              "notes": "REQUEST S09-SH050-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): his face clearly angrier, a hard glare and tight mouth at the end; the folder now dark; a wide street now runs straight behind him into the haze, background softer than T02. Weak: the grade is more orange, not less: a heavy orange-red wash; the place reads as a ruined, rubble-strewn wide avenue with tall blocks and street lights, not the low-rise square of T02; no bodies readable; less wind in his tie; paper only on the ground at the left. Leonard 2026-11-20: no, the previous take (T02) was better.",
+              "rating_source": "user"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "ddb88cc6-4481-4105-b29b-d0fbe16251e1",
+              "prompt": "05-generation/prompts/001_S09_SH050_T04.txt",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH050_T04.jpg",
+              "references": [
+                "start frame: T02 frame 0 b9d2e155 (refs/001_S09_SH050_T02_frame_0s.png)",
+                "char_politician_final 547bbfa3",
+                "char_boss 7ef41962",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": 2,
+              "notes": "REQUEST S09-SH050-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the start frame held T02's background, light and color throughout; both bodies stay readable; rotor wind in his tie and jacket. He thrusts the folder at her on a straight arm at chest to shoulder height, a harder, more aggressive gesture than T02; his face a tight scowl. Weak: the folder is pale grey (from the start frame), not dark; he stops a little farther from her than in T02; the trouser stain does not read; her glasses show at the edge of her cheek. Leonard 2026-11-20: folder too big, light too orange, scene too fake looking, must feel more organic, more like 35mm film.",
+              "rating_source": "inferred"
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",
@@ -8224,6 +8427,77 @@
               "love": false,
               "rating": null,
               "notes": "Not generated, 0 credits. Leonard on T01: use one of his signatures, much more realistic. His bottom-centre signature in blue-black ink, law-firm formatting, toner and paper texture, photographed in the folder at sunset. Still: 001_S09_SH070_T02.png."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12,
+              "job_id": "0da86c8a-01ce-42a9-8ed2-1f5af9906d08",
+              "prompt": "05-generation/prompts/001_S09_SH070_T03.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH070_T03.jpg",
+              "references": [
+                "char_boss",
+                "palette_sunset",
+                "end_image: props/agreement/insert_end_v3.png (media 05e8e30c)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST approved by Leonard 2026-11-20. Draft 480p (draft: true, can be finalized at a higher resolution). Higgsfield folder S09/SH070. Passed first submission. Her hands hold the page against the sunset ground, skim down, lands on the end frame (signature readable). Mid-skim text is garbled under the motion: the edit dissolves onto insert_end_v3.png for the hold."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12,
+              "job_id": "6516db02-3e98-47e0-9b55-ac239fd5f28e",
+              "prompt": "05-generation/prompts/001_S09_SH070_T04.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH070_T04.jpg",
+              "references": [
+                "char_boss",
+                "SH060 T01 frame at 3 s (props/agreement/ref_sh060_T01_3s.png, media 13e7f27a)",
+                "palette_sunset",
+                "end_image: props/agreement/insert_end_v4.png (media fc1fa7c6)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST approved by Leonard 2026-11-20. Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T03: her hands, the SH060 folder, her point of view. T04: her POV into the dark blue folder, both hands with grey sleeves and white cuffs, page top flapping, sunlit ground beyond, push in, lands on the end frame. Mid-skim text garbled; the edit dissolves onto insert_end_v4.png for the hold."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-20",
+              "model": "composite",
+              "mode": "procedural_pan",
+              "duration_s": 6,
+              "resolution": "3840x1646",
+              "aspect": "21:9",
+              "audio": false,
+              "credits": 0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S09_SH070_T05.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH070_T05.jpg",
+              "references": [
+                "insert_end_v4.png (T04 end frame)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Not generated, 0 credits. Leonard on T04: no zoom, the last frame as reference, a slow pan from the top of the contract to the signature. Her POV into the SH060 folder at the end-frame scale, slow handheld tilt, real text throughout, procedural wind ripple on the upper page."
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
@@ -8248,8 +8522,34 @@
         },
         {
           "id": "SH090",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "e3432dc6-1d58-4056-b7e4-28fca33071c8",
+              "prompt": "05-generation/prompts/001_S09_SH090_T01.txt",
+              "file": "05-generation/takes/S09/SH090/001_S09_SH090_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH090_T01.jpg",
+              "references": [
+                "char_politician_final 547bbfa3 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S09-SH090-a. First submit refused (429), second blocked by the session permission check, resubmitted 2026-11-20 on Leonard's word. No previz clip. Claude's read (stills at 2 fps, not listened): photoreal, sunset backlight from the upper right as asked, open square with shuttered facades, two bodies soft at the right edge, her dark shoulder soft at the left edge. He holds a look just left of the lens for about 3 s, then turns toward screen left and starts walking out, head dropping (chin down, not up, on the exit). Face: blood under the nose and a bruise on his left cheekbone; the eyebrow split from S05 does not read. Wind in his hair is light, not hard rotor wash."
+            }
+          ],
           "description": "He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.",
           "framing": "CLOSE, him",
           "movement": "Locked-off",
@@ -8262,8 +8562,36 @@
         },
         {
           "id": "SH100",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 13,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 39.0,
+              "job_id": "cf5b1072-4fe8-4ee1-b761-1fe2dbdc2e17",
+              "prompt": "05-generation/prompts/001_S09_SH100_T01.txt",
+              "file": "05-generation/takes/S09/SH100/001_S09_SH100_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH100_T01.jpg",
+              "references": [
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "prop_helicopter 6c8efe25",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S09-SH100-a, Higgsfield folder S09/SH100, approved by Leonard ('ok go, 39 credits'), submitted 2026-11-20 after three 429 refusals (nothing charged). One generation for SH100 (0-7 s) and SH120 (7-13 s); SH110 cuts between them. Claude's read from frames (not yet heard): the rack focus works (him sharp at the door, her soft, then her sharp from about 7 s); he limps in from screen right to the door and climbs in; she looks down, turns and walks to the door at the end. Defects: at 4-5 s he looks back over his shoulder toward her and the camera (the note says he never faces her), then turns to profile toward frame left; she stands near center, almost frontal, looking at the lens, not three-quarter toward screen right; she wears sunglasses, so the squint at the money does not read; the helicopter reads dark olive grey, not matte black; few sheets on the street. Audio levels: mean -31.6 dB, peak -11.7 dB."
+            }
+          ],
           "description": "He limps past her. She doesn't move. At the door he half turns, away from her, and points his chin at the street without a look at her.",
           "framing": "CLOSE, her, same frame as SH080",
           "movement": "Locked-off, rack focus",
@@ -8276,8 +8604,58 @@
         },
         {
           "id": "SH110",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "da95fb1c-1b9a-4e61-b33b-378fb0ef3e0a",
+              "prompt": "05-generation/prompts/001_S09_SH110_T01.txt",
+              "file": "05-generation/takes/S09/SH110/001_S09_SH110_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH110_T01.jpg",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "prop_car 42787b78 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": 1,
+              "notes": "REQUEST S09-SH110-a (two 429 refusals on 2026-11-19, submitted 2026-11-20 on 'try again, 12 credits'). Folder Scenes/S09/SH110. No guide clip. 992x432, 4.06 s, audio mean -32 dB, max -15 dB (not heard). Claude's read (frames, not watched at speed): photoreal, no 3D look; sunset backlight down the street works, long shadows toward camera. Misses against the prompt: the street opens into a wide open square with far towers, not a long street to a far crossroads; the wall and the one street light stand at screen RIGHT, not left; traffic lights and a give-way sign at the right corner (the square has none in S07/S08); several more street lights along the left sidewalk. His car (door open) sits mid-distance at the left curb, facing the camera, much bigger than asked and not at a crossroads; two more parked cars far back. About fourteen bodies (asked thirteen), spread over the whole street, two close in the foreground at the left and one at the right, no wounds readable. Paper: about ten sheets, they flip and flutter in the middle of the street, then settle by about 3 s; weaker wash than asked. Hidden townspeople: none readable at this size. Leonard 2026-11-20: no, it is supposed to be the opposite angle. Claude's check against the S09 takes: T01 shows the street-light corner (wall, traffic lights, give-way sign, towers), the SH040 view, copied from the loc_square image (the same cause as S09 SH050 T01). Her POV looks the other way, away from the helicopter and the street light: the direction of SH050 (low ochre facades, a street opening behind him), the reverse of SH060/SH120.",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f3c2f6b1-f401-4226-a48e-6ba762af74fe",
+              "prompt": "05-generation/prompts/001_S09_SH110_T02.txt",
+              "file": "05-generation/takes/S09/SH110/001_S09_SH110_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH110_T02.jpg",
+              "references": [
+                "prop_car 42787b78 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": 3,
+              "notes": "REQUEST S09-SH110-b. Folder Scenes/S09/SH110. No guide clip, loc_square dropped. 992x432, 4.06 s, audio mean -29.5 dB, max -8.9 dB (not heard). Claude's read (frames at 2 fps plus one full frame, not watched at speed): the reversed angle reads: low ochre blocks of two to three floors with rolled-down shutters, a street straight ahead to the sun at the vanishing point, no towers, no traffic lights, no street light. Strong hazy backlight, long shadows toward the camera. His dark car with the driver door open stands in the street just past the mouth of the square, about a twentieth of the frame width: closer and bigger than the far crossroads asked. Hidden people read: one crouching at the left wall, two on a balcony at the upper right, one at the right corner. Misses: about thirteen bodies, but most lie spread-eagled face down in similar poses, close to each other in the middle of the street, a little arranged. The paper: many sheets on the ground at 0 s; at 0.5-1.5 s the gust turns them into white puffs that read as dust or smoke, and by about 2.5 s almost all the paper is gone from the ground (it vanishes rather than blows away). A shop sign at the right edge carries lettering (writing on a sign, against the unplaceable rule). The place reads as a street junction more than an open square. Leonard 2026-11-20: that's fine, but it does not look like a cinematic shot, more of an AI composition. Cause (Claude): dead-center one-point perspective, sun on the vanishing point, bodies in a near-symmetric grid, and a normal lens where style.md asks wides on a long lens.",
+              "rating_source": "inferred"
+            }
+          ],
           "description": "The certificates flutter among the bodies in the rotor wash.",
           "framing": "HER POV, WIDE",
           "movement": "Locked-off",
