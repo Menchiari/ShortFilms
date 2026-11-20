@@ -55,3 +55,19 @@ Blocking proxies (helicopter at PAD, her, him, the case) in collection `BLOCKING
 
 Inserts SH030 and SH070 need no place. Blockout: `square_blockout_tour_v5_s09_holds.mp4` (v3 and v4: the west street
 was blocked by a background tower and by the proxies). Prompt: `prompt_square_tour_v3_s09.txt`, 11 s.
+
+## S09 tour, no repeats (Leonard 2026-11-20: start with the reference frame, do not repeat shots)
+
+Camera `CAM_TOUR_S09_v2` (3D revision 12). One hold per distinct view: SH050, SH090 and SH110 all look west at the
+same street mouth, so they share one wide hold (SH050 and SH090 are crops of it). The first second of the blockout is
+Leonard's reference frame itself.
+
+| s | Hold on | Shots |
+|---|---|---|
+| 0-1 | Leonard's reference frame | start |
+| 2-3 | wide from the north side, looking south over the west half | SH040 |
+| 4-5 | eye level, wide, looking west down the west street | SH050, SH090, SH110 |
+| 6-7 | reverse, looking east, the helicopter's place behind her | SH060, SH080, SH100, SH120 |
+
+Blockout: `square_blockout_tour_v7_s09_norepeat.mp4` (v6: 9 s, still had two west views). Prompt:
+`prompt_square_tour_v5_s09_norepeat.txt`, 7 s.
