@@ -1,0 +1,39 @@
+Audio: only the steady muffled thrum of a helicopter cabin around the camera, the dry wind past its open door, three loud heavy rifle shots right beside the camera, each with the metal clack of the bolt, and very far below the faint panicked shouts of a fleeing crowd. No voices close by. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the town: its facades, ground-floor shutters, curbs and dusty asphalt only, not its framing, street light, towers, parked cars or light. @palette_sunset (@Image2): color and light only.
+
+Point of view through the telescopic sight of a sniper rifle, from a helicopter hovering far away and high above a desert town at sunset: through the round scope, the crosshair finds three running men one after another in the narrow streets leading out of the square, packed with people fleeing in panic; at each heavy rifle shot the whole view kicks hard, and when it settles the man under the crosshair is down in the dirt, bleeding.
+
+The scope: a real rifle scope view. The frame is black except for one large round view in the exact middle of the frame, its circle as tall as the frame, with a thin dark soft-edged ring at its border. Inside the circle, a thin black crosshair reticle with a fine ranging scale: one vertical line and one horizontal line crossing at the exact center of the circle, the lines thicker toward the edge of the circle. The circle and the crosshair are fixed in the frame: they never change size, shape or position, never flicker; only the view of the town inside the circle moves. No numbers, no text, no boxes, no colored marks, no HUD, no thermal or night vision: full natural color inside the circle.
+
+The view inside the scope: long telephoto from far away, high above, looking down at a steep angle of about forty degrees, the perspective flat and compressed, a shimmer of warm air and dust haze, the people about one eighth of the circle's height. Between shots the view stays almost still, with only small, slow corrections to keep a runner on the crosshair and a quick short shift to the next runner.
+
+The recoil: each shot is a powerful rifle firing right beside the camera. At each shot the whole view inside the circle kicks violently upward and to the side, smeared with motion blur for a few frames, shaking, then drops back and settles on the target within half a second. The kick is hard and sudden every time, never gentle.
+
+The town: narrow streets, tight and crowded, leaving the corner of the square between close, tall, old buildings: each street only a few meters wide, walls close on both sides, cracked and patched ochre plaster, dark windows, dented rolled-down metal shutters, sagging cables across the street, broken curbs, the asphalt buried in dirt, grit, sand and trash, dust hanging in the air. A real, dirty, lived-in town photographed on location, never blocky or simplified. Nothing looks like a box, a slab or a 3D model. No traffic lights, no street lights, no poles, no hanging rope, nobody hanging.
+
+The crowd: real people, never game characters: dozens of ordinary townspeople jammed into the narrow streets, men and women of every age and build, dusty, sweaty, dirty, faded mismatched everyday clothes in browns, greys, whites, blues and muted colors, every one different. Everyone is fleeing in panic, shoving and squeezing through the tight streets, some running, some stumbling and falling and scrambling up, some pressing flat against the walls, some dragging others by the arm, some looking back at the sky. Each runs with their own uneven gait, feet kicking up dirt; nobody runs in step, nobody moves like an animation. A few men already lie still in the dirt, and the runners jump over them.
+
+The hits, real and brutal, like real combat footage: at each shot the man under the crosshair is struck hard: his body jerks, a puff of dark red blood and dust bursts from him, and he crumples heavily into the dirt and lies still, a dark red pool spreading in the dust under him. Blood on his clothes and on the ground, dirt on his face and hands.
+
+Lighting, motivated by the sun only: a low sunset sun behind the camera, golden orange, raking down the narrow streets: long soft shadows stretching away from the camera; the lower walls and street floors in deep warm shade, the upper floors and rooftops glowing orange; dust hangs glowing in the low light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: the crosshair rests on a man in a pale blue shirt running away down a narrow street, the lines crossing on his back, people shoving past him. At 1s the first heavy shot: the view kicks hard upward and shakes.
+1-2s: the view drops back and settles: the man in the pale blue shirt is down in the dirt under the crosshair, blood spreading under him, the people around him scattering against the walls. The view shifts quickly to the right onto a heavy man in a brown jacket pushing through the crowd. At 2s the second heavy shot: the view kicks hard and shakes.
+2-3s: the view settles: the heavy man is down in the dirt under the crosshair, bleeding, people scrambling over him. The view shifts quickly down and left onto a young man in a white shirt sprinting toward a side alley.
+3-4s: at 3s the third heavy shot: the view kicks hard and shakes, then settles: the young man is sprawled in the dirt under the crosshair at the mouth of the alley, blood pooling under him. Final frame: the round scope view, the crosshair on the young man lying still in the dirt, people fleeing away from him down the narrow street, dust hanging in the light.
+
+ACTING TASK, the crowd (each person fully invested in their own tactic; the work happens in their bodies at this distance):
+SCENE DIRECTION (shared, unspoken): something is killing people out of nowhere, and anyone could be next.
+MOTIVE (their fuel): they came to finish him, and now they are the ones in the open.
+GOAL: get out of the open and behind a wall alive.
+OBSTACLE: the streets are jammed, there is no shooter to see, and people keep dropping beside them.
+TACTIC: each one fights for a way through: some shove and climb over others, some press against the walls and edge along them, some drop low and crawl, some drag the person beside them; when someone near them is hit, they recoil from him and push harder to get away.
+
+Count of rifle shots: three. Count of men hit: three: the man in the pale blue shirt, the heavy man in the brown jacket, the young man in the white shirt. Count of crosshairs: one. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low golden sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the steady muffled thrum of a helicopter cabin around the camera, the dry wind past its open door, three loud heavy rifle shots right beside the camera, each with the metal clack of the bolt, and very far below the faint panicked shouts of a fleeing crowd. No voices close by. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

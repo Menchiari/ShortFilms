@@ -222,7 +222,7 @@
       "S10": "985c8aa1-06b3-4fba-abb6-cd6d9bc878b3",
       "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f"
     },
-    "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
+    "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
       "char_politician": {
         "element": "1d544095-f1c6-4865-8e97-e09dbadcabc7",
@@ -315,6 +315,10 @@
       "palette_sunset": {
         "element": "",
         "image": "1f563179-51a7-4e02-bcac-0affdd52a903"
+      },
+      "prop_bar-weapon": {
+        "element": "37fe2cf2-2fec-431c-8a44-4a370e26e42b",
+        "image": "8d69a591-a811-4b07-9ef9-586a70f736ae"
       }
     },
     "animatic_refs_d11": {
@@ -1870,6 +1874,1414 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S06-SH050-e approved by Leonard (12 credits): T05 = 4 s tail patch from T03's frame at 3.6 s (refs/001_S06_SH050_T03_frame_3.6s.png, upload 575d062b) as start_image, plus char_politician_blood and the gun still; 480p, 21:9, audio on, prompt 001_S06_SH050_T05.txt. First call refused by Higgsfield (429 rate limit, nothing charged), resubmitted: job 0c8dccd1-d0d6-49f2-85bc-52467bc1234f, folder S06/SH050. The request echo lists the start frame under reference_images, mode omni_reference."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH010-a approved by Leonard ('ok go', 15 credits) and submitted: S07 SH010 T01 job e643b6c0-f37e-4b4d-b5ef-bd144bb606f0, folder Scenes/S07/SH010, prompt 001_S07_SH010_T01.txt, seedance_2_5 omni_reference 480p 21:9 5 s audio on, start_image 1a9129b2, end_image b428e5e5, no guide clip, no loc_square."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH020-a approved by Leonard ('go S07-SH020-a, 12 credits'): S07 SH020 T01, seedance_2_5 omni_reference 4 s 480p 21:9 audio on, job aa0ebe13-438a-4704-9ba8-0e5569348da6, folder Scenes/S07/SH020, 12 credits, ref loc_square 62815a4f, words only (no previz clip: the frame is filled by place). Saved as takes/S07/SH020/001_S07_SH020_T01.mp4. Claude's read: the rope flies up over the lamp arm and hangs doubled, straight down; sky shows at both edges of the tower. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-a approved by Leonard ('ok go', 15 credits): T01 submitted, job 9cec1ce4-3016-4b31-8416-1c7fa7f69063, folder S07/SH080, prompt 001_S07_SH080_T01.txt. Blocked by Higgsfield as nsfw ('Something went wrong'). A 15-credit Seedance refund shows at 14:45:43; not attributable with certainty (other sessions share the account and spent 15 at 14:40). No resubmission (this session's brief: never retry without approval). Softened prompt ready: prompts/001_S07_SH080_T01_v2.txt (7 phrases: 'he shot' removed twice, 'shooter' to 'where the sound came from', 'collapses/drops' to 'slumps ... as if asleep', 'finish him' to 'teach him a lesson'). Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030, Leonard: rip frames from approved rendered shots. T03 prompt prompts/001_S06_SH030_T03_v2.txt: references are three frames of approved takes only, no generated stills, no element images: SH010 T04 at 2.5 s (refs/001_S06_SH030_him_from_SH010_T04_2.5s.png, media f61e2fee: him, gun, case, wall), SH020 T05 last frame (refs/001_S06_SH030_bodies_from_SH020_T05_last.png, media 2aa49ff6: street, building wall, body map, pipe, runners), SH060 T02 first frame (663578f1: wall and pole from the side). About ten to fifteen people. REQUEST S06-SH030-e quoted 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-a approved by Leonard ('approved, go with S07-SH040-a'; estimate 12 credits) and submitted: S07 SH040 T01 68dfef6f-7139-43c5-ae88-dc96de844180, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S07/SH040, prompt 001_S07_SH040_T01.txt. Refs: char_politician_blood 0d0a5637, loc_square 62815a4f, line guide 6f64e996 (the request echo lists it under reference_images)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T01 downloaded (001_S07_SH040_T01.mp4, 12 credits). Fails: Seedance rolled the camera, so the square and crowd are upside down and he reads as an upright man with raised arms. Not retaken; next fix proposed to Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH030-a approved by Leonard ('go ahead', 18 credits): S07 SH030 T01 submitted, seedance_2_5 omni_reference 480p 21:9 6 s audio on, job 8c77ea4a-9324-4e99-9730-7cc9076d04be, folder Scenes/S07/SH030, prompt 001_S07_SH030_T01.txt. The request echo lists the line-drawing guide under reference_images (as in S06 SH060)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T01 downloaded (job 8c77ea4a, 18 credits, passed the filter): photoreal, he comes up above the heads by one ankle at about 2.5 s and dangles, kicking, left of the pole; misses: no visible arm or hauling, face hidden below the heads, crowd mostly men in beige, far rows static. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH050 T01 prompt prepared (request S09-SH050-a, not submitted): seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_politician_final 547bbfa3, char_boss 7ef41962, loc_square 62815a4f, palette_sunset 1f563179, no previz clip (frame filled by street), helicopter behind camera, prompt prompts/001_S09_SH050_T01.txt. Preflight 18 credits. [ASSUMPTION] the folder is a thin plain dark folder."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH110-a prepared, not submitted: S09 SH110 T01, prompts/001_S09_SH110_T01.txt, seedance_2_5 omni_reference, 4 s (shot is 3 s, trimmed in the edit), 480p, 21:9, audio on, folder Scenes/S09/SH110. Images loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179; no video reference (frame filled by place: composition in words from animatic d11 S09_SH110). [ASSUMPTION] body positions after S07 and S08 follow the d11 frame (S08 SH040 has no prompt yet). Cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH100-a prepared, not submitted: S09 SH100+SH120 as one 13 s generation (SH100 0-7 s, SH120 7-13 s, SH110 cut between in the edit), prompts/001_S09_SH100_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, audio on, refs char_boss 7ef41962, char_politician_final 547bbfa3 (old man D: the stain in words), prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179; no previz clip (13 s clip over the 10 s reference guidance, and set clips turn place into 3D previz). No SH080 take exists yet: the frame is built in words from the d11 previz (her right half facing right, the helicopter door behind her at left). Folder Scenes/S09/SH100. Estimate 39 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH060-a prepared, not submitted: S09 SH060+SH080 as one 8 s generation (SH060 = 0-4 s, SH080 = 4-8 s, split in the edit; the SH070 insert is composited between), prompts/001_S09_SH060_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, audio on, text and elements only (char_boss 7ef41962, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179), no guide clip, folder Scenes/S09/SH060. [ASSUMPTION] sunglasses on (char_boss and the d11 clip), sun behind her upper left beyond the helicopter, his hand only at 0-1 s. Estimate 24 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "001: S09 SH090 T01 prompt prepared (request S09-SH090-a, not submitted): prompts/001_S09_SH090_T01.txt, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179, no previz clip (frame background is place: refs_d11 README rule), folder Scenes/S09/SH090. Estimate 12 credits. [ASSUMPTION] sunset sun behind him at upper right, rotor wash blowing screen left to right, her shoulder soft at the left edge as in the d11 clip."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH020 T01 prompt prepared (prompts/001_S09_SH020_T01.txt), request S09-SH020-a, not submitted. Previz as line drawing refs/001_S09_SH020_lines_d11.mp4, upload 0a8504f0. Refs: prop_briefcase, char_politician_final (D: stain in words), prop_helicopter (door empty), loc_square, palette_sunset. Quoted 39 credits (13 s, 480p, 21:9, audio on). [ASSUMPTION] the limp is on the left foot (the ankle he was hung by in S07; the script does not say which)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH040: line-drawing guide refs/001_S09_SH040_lines_d11.mp4 (edgedetect of refs_d11/S09_SH040.mp4) uploaded and filed in REFS (video a972756a-5e12-44e5-89db-8e8efe532d36). REQUEST S09-SH040-a prepared, not submitted: prompts/001_S09_SH040_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder Scenes/S09/SH040. Images: prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179. Estimate 12 credits. [ASSUMPTION] the dead count is twelve (seven he shot: 8 rounds minus the one into the air, per the gun count and S07 SH080 T01; plus the fat person, the second man, three from S08); the CLAUDE brief said 'his eight'. [ASSUMPTION] sun behind the scene at upper left, out of frame; door empty; he stands still by the street light with the folder."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-a approved by Leonard ('go ahead', 15 credits): T01 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job 3a691f5e-590d-4cc4-b1b6-4ec562dbe0ca, folder S07/SH050, prompt 001_S07_SH050_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T01 done (job 3a691f5e, 15 credits): 001_S07_SH050_T01.mp4. Hands at the top corners and the fat person's look work; the lift and hold read as a level lance held at shoulder height, the swing is only the last 4 to 5 frames with a jump, the crowd is a uniform wall in rows, a traffic light in frame. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 T05 downloaded (job 0c8dccd1, 12 credits): starts on T03's 3.6 s frame, eyes come level to the lens line and go wide, no gunshot. Cut T03 0-3.58 s + T05 = 7.6 s; slight grade jump at the cut. Gunshot in T03 at 1.65-2.3 s stays for the sound design. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07-SH060-a resubmitted on Leonard's 'try again' (same request, 12 credits): job ac24ba37-d954-491a-b229-ad0476c161aa, folder Scenes/S07/SH060. Rendering."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T01 done: job ac24ba37, 12 credits, saved as 05-generation/takes/S07/SH060/001_S07_SH060_T01.mp4. Photographic, both characters right; the contact and rebound off the forearm are not clearly readable; bat-shaped pipe; static staring crowd. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-e approved by Leonard ('go ahead', 12 credits): S06 SH030 T03 submitted, job 7b51d8cf-830a-43b0-8211-037501d7b7a8, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T03_v2.txt, refs f61e2fee, 2aa49ff6, 663578f1."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH010-a prepared, not submitted: S09 SH010 T01, prompts/001_S09_SH010_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 18 s, one take, audio on, 54 credits (free quote). Refs: char_politician_final 547bbfa3 (old man D: the stain in words), loc_square 62815a4f, palette_sunset 1f563179, guide refs_d11_motion S09_SH010 as line drawing (refs/001_S09_SH010_motion_d11_lines.mp4, media 864bf115). Pose reference in words only. The fat person in words as a sleeping man, no char_big-guy image."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH050 closed by Leonard ('keep it the way it is'). [ASSUMPTION] edit = T03 0-3.58 s + T05; gunshot and cut grade fixed in post. SH050 credits today: T01 18, T02 18, T03 18, T04 22, T05 12, gun still 1.5 = 89.5 (all filter blocks refunded)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH020 T01 rated 4 (inferred: 'good, works'). Shot approved; edit window about 1.0-4.0 s."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH040 T01: 'this works alright for now, maybe more wobble more movement, more chaos, more people around' (rating 4, inferred). REQUEST S07-SH040-b prepared, not submitted: prompts/001_S07_SH040_T02.txt = T01 with more swing and spin on the rope, a dense shoving crowd close around him, blurred passers crossing the frame edges. Same inputs and settings (480p, 21:9, 4 s, audio on). [ASSUMPTION] 'wobble' means his body on the rope; the camera stays locked-off as in the screenplay. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T01 rated 2 (inferred): nobody pulling, he looks like a mannequin, crowd only Middle Eastern men, the wall should continue as in other shots. T02 prompt prompts/001_S07_SH030_T02.txt: guide clip dropped (its still figures, as in S06 SH060 T01); pullers at the pole always in view, the arm in frame; a living body, face readable at shoulder height; a mixed crowd from everywhere, men and women; wall from a S06 SH060 T02 frame (refs/001_S07_SH030_wall_from_S06_SH060_T02.jpg, media 53f407e7), one continuous wall past every edge [ASSUMPTION: 'continue' = one unbroken wall]. REQUEST S07-SH030-b quoted 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T01 (rating 2 inferred): pipe the size of a baseball bat; a regular guy, not a ninja; many more people, a chaotic riot, hard to follow; no hands of the old man; the camera very wobbly and swinging. REQUEST S07-SH050-b prepared: prompt 001_S07_SH050_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, refs char_big-guy 6228445b and loc_square 62815a4f, no guide clip. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T01 notes from Leonard: use the prop bar, he hangs too high, not moving enough, crowd too far (a moshpit in the chaos), more camera movement and energy (rating inferred 2). prop_bar-weapon (element 37fe2cf2, media 8d69a591, made by Leonard) registered in stories/politician/elements.md as baseball-bat size; image saved as 03-bible/props/refs/prop_bar-weapon.png. REQUEST S07-SH060-b prepared: T02, prompts/001_S07_SH060_T02.txt, seedance_2_5 omni_reference 4 s 480p 21:9 audio on, refs char_politician_blood, char_big-guy, prop_bar-weapon, 12 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T03 in (job 7b51d8cf, 12 credits), takes/S06/SH030/001_S06_SH030_T03.mp4. Place matches SH020 T05 for the first time; a cut at 2.7 s to a copy of SH020 T05's last frame; before it a three-quarter view with him slack, gun down. Waiting for Leonard. SH030 total 40.5 credits (3 videos at 12, 3 stills at 1.5), plus 12 for the blocked T02 job if it was not refunded (not verified)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH010 T01 delivered (job e643b6c0, 15 credits): saved as 05-generation/takes/S07/SH010/001_S07_SH010_T01.mp4, recorded in shotlist.json. The refs file 001_S07_SH010_REF_startframe.png is the END frame of this shot; startframe_v2.png is the start frame. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T03 rated 1 (inferred, Leonard: 'WHAT IS THIS?'). Claude misread it at first. It is a collage: SH060 T02's first frame glued beside SH020 T05's last frame, then a cut into the SH020 frame. Rule learned: Seedance copies full frames of other compositions as images; a frame from another angle cannot serve as a location reference for a new angle. Claude's proposed T04 (T03 frame as start frame) withdrawn: that frame is the collage."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-b-alt approved by Leonard ('try again', 15 credits): T01 prompt resubmitted unchanged, job ae9fecdd-2ab0-4496-b43d-8d2081c94a0e, folder S07/SH080, passed. Downloaded as takes/S07/SH080/001_S07_SH080_T01.mp4. Timing of both drops and the run works; misses: lamp post on the right with traffic signals, the hanging man rigid, about four other bodies, a static uniform crowd. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH010 T01: the first frame must have nobody around him. REQUEST S07-SH010-ref-v3 approved ('ok go'): start frame v3, Seedream 5.0 Pro 2k 21:9 edit of 1a9129b2 plus char_politician_blood 0d0a5637 (suit only), job 7ffdd6b5-7acf-4023-b06c-d7c0528aa229, folder Scenes/S07/SH010, 2.5 credits, prompt prompts/001_S07_SH010_REF_startframe_v3.txt, saved as 05-generation/refs/001_S07_SH010_REF_startframe_v3.png. Claude's read: he stands alone at the foot of the wall beside the lamp, charcoal suit, white shirt, rust tie, white hair; nobody near him; seven bodies readable (two lie across each other); the crowd closes in from every side, dense and fairly near; no gun or briefcase in his hands."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S10-SH010-a prepared, not submitted: S10 SH010 T01, seedance_2_5 omni_reference, 480p, 21:9, 20 s, audio on, folder Scenes/S10/SH010, prompt prompts/001_S10_SH010_T01.txt. Images: loc_car-interior 60a2aec8, loc_crossroads a5b52222, prop_helicopter 6c8efe25 (door empty), prop_wobblehead fa19c43f, palette_sunset 1f563179. No previz clip (the place fills the frame; refs_d11 README rule). Helicopter: matte black Black Hawk, confirmed by Leonard for S10. Preflight 60 credits, balance 27221.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH010-b approved by Leonard ('ok go', 15 credits) and submitted: S07 SH010 T02 job 87fabfce-0ea6-4629-99ff-e6d424d7a094, folder Scenes/S07/SH010, prompt 001_S07_SH010_T02.txt, seedance_2_5 omni_reference 480p 21:9 5 s audio on, start_image 7ffdd6b5 (start frame v3, he stands alone), end_image b428e5e5."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-b approved by Leonard ('go ahead', 15 credits): T02 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job a66b7975-dffc-46dc-930d-2de1a885ae18, folder S07/SH050, prompt 001_S07_SH050_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T02 done (job a66b7975, 15 credits): 001_S07_SH050_T02.mp4. Bat-sized pipe, ordinary heavy man, no hands, clear lift and long hold, swing ends with the pipe end into the lens, no cut. Weak: crowd a scrum ring of mostly men in the same colors, camera sway mild. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH030-b approved by Leonard ('go ahead', 18 credits): S07 SH030 T02 submitted, seedance_2_5 omni_reference 480p 21:9 6 s audio on, job 4fd167a5-1c5a-4a6a-853d-efac7b8971f3, folder Scenes/S07/SH030, prompt 001_S07_SH030_T02.txt, refs char_politician_blood 0d0a5637, loc_square 62815a4f, wall frame 53f407e7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T02 downloaded (job 4fd167a5, 18 credits, passed the filter): pullers clearly hauling at the pole, arm in frame, continuous wall, livelier body with his face readable; misses: no lift from the ground (he is already up at 0 s), a swing near 5 s that looks thrown, and the crowd is still all bearded men in matching beige, no women. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-b approved by Leonard ('ok go, 12 credits'): S07 SH060 T02, job 867641cb-42db-4259-ae11-b7396179334f, folder S07/SH060, saved as 05-generation/takes/S07/SH060/001_S07_SH060_T02.mp4. Low, moving, moshpit crowd, shoved camera; the bar hits his forearms at about 1.5 s and angles back, then a motion-blur whip. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030, Leonard: make a sequel of SH020 until the crowd overwhelms him and the camera drowns with him in the crowd. T04 prompt prompts/001_S06_SH030_T04.txt: video_extension forward of the approved SH020 T05 (c0bf1ae5), 8 s, same handheld over-the-shoulder camera; 0-2 s the two runners charge, shots 7 and 8, both drop; 2-4 s his gun hand comes to the side of his head from behind, nothing fires (no click), the crowd breaks toward him; 4-6 s they flood over the bodies and slam into him, the case torn away; 6-8 s he goes down and the camera is pulled into the crush. Covers the beats of SH040 to SH060 as continuous coverage. REQUEST S06-SH030-f quoted 24 credits (480p, 21:9, 8 s, audio on), waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on the T02 prompt: the rope of T01 is right (from above, the arm out of frame), it only needs someone pulling from the opposite side. prompts/001_S07_SH030_T02_v2.txt: T01's rope kept, its other end comes back down on the opposite side of the pole to four or five pullers in view; the rest of T02 unchanged (no guide clip, mixed crowd, a living body, continuous wall). REQUEST S07-SH030-b now uses v2, quoted 18 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-a approved by Leonard (\"approved, go with S08-SH010-a\"; estimate 12 credits) and submitted: S08 SH010 T01 08bb9655-e5a9-4fa2-9f82-d42cc5865369, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, text and elements only (prop_helicopter, loc_square, palette_sunset), no previz clip. Framing and the still hover hold; the helicopter came out about three times too big and close, and grey in the backlight."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T02 (rating 3 inferred): crowd all yelling at the camera, less wide, the big guy less of an asshole, fewer Middle Eastern people. REQUEST S07-SH050-c prepared: prompt 001_S07_SH050_T03.txt (T02 plus: 50 mm lens framed head to waist, the whole crowd turned to the camera yelling, a mixed crowd with only a few Middle Eastern faces, no smirk: grim and serious, a regular man who never hit anyone like this), same settings and refs. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060 T02: make a prequel, he reaches for the bar and the big guy hits him often, not hard, every time it hurts. REQUEST S07-SH060-c prepared, not submitted: T03 = backward extension of T02 (867641cb) as it is, 5 s, seedance_2_5 video_extension backward, 480p, audio on, images char_politician_blood, char_big-guy, prop_bar-weapon, folder S07/SH060, prompt prompts/001_S07_SH060_T03.txt: three short raps (hand, forearm, shoulder) on his reaches, ending on T02's first frame. Estimate 15 credits. [ASSUMPTION] the prequel belongs to SH060; screenplay unchanged."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH010 T02 delivered (job 87fabfce, 15 credits): saved as 05-generation/takes/S07/SH010/001_S07_SH010_T02.mp4, recorded in shotlist.json. He stands alone until about 1.5 s, the crowd closes over him at about 2 to 2.5 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S06-SH030-f approved by Leonard ('go ahead', 24 credits). First submit rejected by validation (extension_mode missing, request 1de1cd51), nothing charged. Resubmitted with extension_mode forward: S06 SH030 T04 job 68c8d816-adc3-47cb-8493-7bb3e8aa0b19, video_extension of SH020 T05 (c0bf1ae5), 480p, 8 s, audio on, folder S06/SH030, prompt 001_S06_SH030_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH080 T01 rated 1 (inferred). Leonard 2026-11-19: nothing like the previz; the crowd looks fake and still; they all act the same; all Middle Eastern, he does not want that; it does not feel like a riot or a crowd. Cause: no guide and no start frame, so Seedance chose its own framing; 'desert town' plus the mosque/minaret exclusions and an all-brown wardrobe palette steered the crowd to one look; the prompt gave the crowd no individual actions before the first crack. REQUEST S07-SH080-ref prepared: start frame laid over the previz, seedream_v5_pro 2k 21:9 (as the S07 SH010 start frame), refs loc_square 62815a4f, previz frame 0 as line drawing (refs/001_S07_SH080_lines_d11_motion_f0.png, media 52c4a44e), char_big-guy 6228445b, char_politician_final 547bbfa3; prompt prompts/001_S07_SH080_REF_startframe.txt: a mixed crowd of every ethnicity, varied modern clothes, each person mid-action, riot debris and smoke. Quoted 2.5 credits, folder S07/SH080. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-b approved by Leonard ('approved, go with S07-SH040-b'; estimate 12 credits) and submitted: S07 SH040 T02 2ab4d6ba-60d4-4654-9903-3dac054501d7, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S07/SH040, prompt 001_S07_SH040_T02.txt, same refs as T01."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T02 downloaded (001_S07_SH040_T02.mp4, 12 credits): denser crowd, more movement; crowd faces look into the lens. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard asked for a sequel to S07 SH040 T02: hit with the pipe, pushed, people close, punching and kicking, violent. REQUEST S07-SH040-c prepared, not submitted: prompts/001_S07_SH040_T03.txt, seedance_2_5 video_extension forward of T02 (2ab4d6ba), 5 s, 480p, audio on, images char_politician_blood 0d0a5637 and char_big-guy 6228445b. [ASSUMPTION] 'the prop bar' is the metal pipe and the fat person swings it, as in the screenplay (S07 SH050/SH060). Filed as SH040 T03 (an extension of an SH040 take). Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-c approved by Leonard ('go ahead', 15 credits): T03 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job 62093154-5750-4e56-855e-5d71278a9022, folder S07/SH050, prompt 001_S07_SH050_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T03 done (job 62093154, 15 credits): 001_S07_SH050_T03.mp4. Tighter lens, crowd faces and yells at the camera, no smirk, clear lift, hold and swing into the lens. Fails: the crowd is near-clones of the fat person (bearded dark-haired men, his reference bleeds into the extras), no women. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-ref approved by Leonard ('ok go', 2.5 credits): start frame, seedream_v5_pro 2k 21:9, job 7e4832d7-15a9-4df0-9a7a-d8dcfe407d9c, folder S07/SH080, saved as 05-generation/refs/001_S07_SH080_REF_startframe.png (3120x1328). Claude's read: follows the previz: lamp at the far left, sidewalk diagonal lower left, old man hanging upper left, fat man left of center with the pipe raised, crowd mid-action over center and right, women readable, smoke at right, rubble; mixed but still mostly olive and light skin, few clearly Black or East Asian faces; three to four bodies readable, not seven; the fat man reads medium build from above. Scaled to 1120x480 as frames/001_S07_SH080_T02_start.jpg (media 661e9bb7). REQUEST S07-SH080-c prepared: T02, start_image only, prompt prompts/001_S07_SH080_T02.txt, 5 s 480p 21:9 audio on, quoted 15 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-c approved by Leonard ('ok go, 15 credits'): job 63c706bd-7f69-4c74-b31d-940d34415adf, backward extension of T02, blocked as nsfw ('Your prompt may contain sensitive content'); 15 credits refunded (transaction 15:18:52Z). Not retried. REQUEST S07-SH060-d prepared: prompts/001_S07_SH060_T03_v2.txt, same action and settings, wording softened (light taps; no smack, rap, pain, sting, burn, beg, punish, blow). Estimate 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH030-b approved by Leonard ('go ahead', 18 credits): S07 SH030 T02 submitted, seedance_2_5 omni_reference 480p 21:9 6 s audio on, job d5d6c593-a63a-43a6-af52-270b1a8f1fa1, folder Scenes/S07/SH030, prompt 001_S07_SH030_T02_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T02 downloaded (job d5d6c593, 18 credits, passed the filter): pullers clearly hauling right of the pole, he rises and struggles left of it, hands reaching up at him; misses: crowd still almost all Middle Eastern men, no women; face turned away; rigid for the first 2 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-c approved by Leonard ('approved, go with S07-SH040-c'; estimate 15 credits) and submitted: S07 SH040 T03 11f6e743-ac0f-48c1-adb4-db40c4395a2b, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T03 (11f6e743) blocked as nsfw ('Your prompt may contain sensitive content'). A 15-credit Seedance 2.5 refund at 15:22:43 matches it (not tied to the job id). Not retried. Softened prompt prepared as 001_S07_SH040_T03_v2.txt (REQUEST S07-SH040-d): no punch, kick, blow, hate, beating or blood wording; same inputs and settings. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050: Leonard chose to wait for SH020 and generate SH050 as a 4 s take (trimmed to 3 s in the edit) from the last frame of his chosen SH020 take, start_image plus char_boss and char_sniper. Draft prompt prompts/001_S08_SH050_T01.txt, lighting to be filled from the SH020 frame. [ASSUMPTION] American English for the lady. Nothing generated."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH060-a approved by Leonard ('ok go, 24 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id cf0894e6-f540-4692-bce3-20bc7d619092), no job id returned, nothing charged. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070: REQUEST S08-SH070-a prepared, not submitted: fallback plate for the 2 s scope POV (the 0-credit method, a punch-in on SH030's take, waits for SH030). prompts/001_S08_SH070_T01.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s (model minimum), audio on, folder S08/SH070. Refs: loc_square 62815a4f, char_politician_blood 0d0a5637 (trousers and shoe only), palette_sunset 1f563179. No video reference: refs_d11 has no S08_SH070; S08_SH030 (scope look) and S08_SH080 (rope) read for intent only. [ASSUMPTION] clean optics, no ring or crosshair: the scope overlay is added in post for SH030 and SH070 alike; sun from screen left as in S07 SH030. Rope stays whole (SH080 has the snap). get_cost 12 credits, balance 26990.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S10-SH010-a approved by Leonard ('ok go, 60 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 9670a68f-9de0-4150-8be9-6c92e9d748f3), no job id. No 60-credit spend in the transaction list (other scenes' sessions were generating at the same minute). Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH010 T01 rejected by Leonard (rating 1, inferred): wants the helicopter fighting to stabilize, the sniper visible in the door, a real 3D chopper, not a sprite. Cause: the prop_helicopter image is a single side-profile photo and Seedance pasted its pose. REQUEST S08-SH010-b prepared, not submitted: prompts/001_S08_SH010_T02.txt, no helicopter element (described in words, three-quarter front view, raking side light), loc_square and palette_sunset; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-a approved by Leonard ('ok go, 12 credits'): S08 SH020 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, loc_heli-cabin 75f579e3, palette_sunset 1f563179, no previz clip (cabin set fills the frame), folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id 6b2503e2-fe43-4a22-929e-8457de85b6a0), no job id returned, no credits spent. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH040-a approved by Leonard ('ok go, 12 credits'). First submission refused by Higgsfield: 429 rate_limit_reached (request id 161c6d62-e141-46a4-921d-1837942d7dd1), no job id, nothing charged. Resubmitted once: refused again, 429 rate_limit_reached (request id 83b97900-b707-4e19-b586-971289d9622c), no job id, nothing charged. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH110-a approved by Leonard ('ok go, 12 credits'). Submission refused twice by Higgsfield: 429 rate_limit_reached (request ids 6d7e1347-8d48-483c-af96-1245f08e3fb1, 725d63a9-11c4-4cc1-8a5c-a1afaeda5945), no job id returned, nothing generated. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH050-a approved by Leonard ('ok go, 18 credits'): S09 SH050 T01, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 62815a4f, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T01.txt. Submitted twice, both refused by Higgsfield: 429 rate_limit_reached (request ids 68f8da7c-8145-4735-a234-7978fadc7741, a8f9f784-4476-425c-a8b7-92d199dfa04b), no job id, nothing generated. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-a prepared, not submitted: prompts/001_S08_SH040_T01.txt, seedance_2_5 omni_reference, 480p draft, 21:9, 7 s, audio on, folder Scenes/S08/SH040. Images: loc_square 62815a4f, char_politician_final 547bbfa3 (old man C hanging from the lamp, as in animatic d11), palette_sunset 1f563179. Video ref 6bfdd33e-a894-48fb-855e-e5cc7a0f94f4 (refs/001_S08_SH040_lines_d11_motion.mp4: refs_d11_motion/S08_SH040 as a line drawing). Three falls at about 1-2 s, 3-4 s and 5-6 s, all on the left half of the square, as in d11; the earlier dead stay at the foot of the building. [ASSUMPTION] sunset sun from screen left. No ACTING TASK: nobody close enough to read a face. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH090-a approved by Leonard ('ok go, 12 credits'): S09 SH090 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, char_politician_final 547bbfa3, loc_square 62815a4f, palette_sunset 1f563179, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T01.txt. Submission refused by Higgsfield: 429 rate_limit_reached (request id e975ef13-0dcf-4ac5-b895-38395f785fb3), no job id returned. A second submit was blocked by the session's permission check before reaching Higgsfield. Not submitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH100-a approved by Leonard ('ok go, 39 credits'). Both submissions refused by Higgsfield: 429 rate_limit_reached (request ids 7fb2dfb6-9dd5-4404-bf18-03d5db482d7f and 2d8a63bc-d916-4851-829c-78a192489161), no job id, nothing in folder Scenes/S09/SH100, nothing charged (the 39-credit spend at 15:23:22 UTC is job f3eb6a38 in S09/SH020, another session). Several S07 to S09 sessions were submitting at the same time. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH030-a approved by Leonard ('ok go, 12 credits'): S09 SH030 T01, seedance_2_5 omni_reference, 4 s (model minimum; the shot is 3 s, trimmed in the edit), 480p, 21:9, audio on, refs prop_briefcase 4bf36cb5, char_politician_final 547bbfa3, palette_sunset 1f563179, no previz clip, folder Scenes/S09/SH030, prompt prompts/001_S09_SH030_T01.txt. Job cf1abe22-5e07-41d9-8fda-1970f03a9bcb."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH010-a approved by Leonard ('ok go'; quote 54 credits) and submitted: S09 SH010 T01 job 5a4fd608-528c-45b8-bfc0-07439ef1429e, seedance_2_5 omni_reference, 480p, 21:9, 18 s, audio on, folder Scenes/S09/SH010, prompt prompts/001_S09_SH010_T01.txt. The request echo lists the guide video under reference_images."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-a prepared, not submitted: S08 SH030 T01 clean plate, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, count 1, refs loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179, no guide clip (place fills the frame), folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T01.txt. Scope mask, crosshair and the red and green face boxes are a post composite (free), not generated. Sun behind the camera (behind the helicopter, as in S08 SH010). Dead not counted in the prompt: S07 SH080 assumes 7 from S06, the screenplay body map says 8. estimate_video_cost 12 credits, balance 26990.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T03 (rating 2 inferred): crowd all Middle Eastern men, add women; a simple thin rod, not a big pipe; he hits the man many times; raw, violent, realistic rage, not epic; everyone closer. This changes the shot's action from the screenplay (slow lift, hold, one swing) to repeated blows: SH060 (one blow rebounding off the forearm) may need Leonard's call. REQUEST S07-SH050-d prepared: prompt 001_S07_SH050_T04.txt (thin rod, about six blows landing just below frame with camera jolts, crowd at arm's length, half women with ten named different faces, an anti-clone line on char_big-guy, flat hazy light, no blood), same settings and refs. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T04 in (job 68c8d816, 24 credits), takes/S06/SH030/001_S06_SH030_T04.mp4: continuous 8 s after SH020 T05, two runners drop near 1 s, hand to his head 2.5 to 4 s, the crowd floods him at the wall, the camera is swallowed by 6 to 8 s. Faults: all-male bearded crowd, case at his feet from 1 s, gun not clear at his head. Waiting for Leonard. SH030 total 64.5 credits (plus 12 if the blocked T02 job was not refunded)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH030 T02 rated 4 (inferred: 'yea this works fine'). Shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-d approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 38f2cec0-da76-4dba-a3e8-17185b49bdd3). No job in folder S07/SH050. A Seedance 2.5 spend of 15 credits appears at 15:26:28Z with no refund yet; I don't know if it is this refused request or another session's job (other sessions spend at the same time). Not retried; waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-d approved by Leonard ('try again'): T03 v2 submitted, job 219ae42d-49ef-4e3e-bbf3-37e7e367f1c8, backward extension of T02, 5 s 480p audio on, folder S07/SH060, prompt prompts/001_S07_SH060_T03_v2.txt, 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T03 done (REQUEST S07-SH060-d, 15 credits, job 219ae42d): the 5 s prequel, saved as takes/S07/SH060/001_S07_SH060_T03.mp4; joined with T02 as 001_S07_SH060_T03_join.mp4 (9.06 s). Join holds. Bar matches the element. Reaches and small taps readable; the big guy barely moves. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-a approved by Leonard ('ok go, 12 credits'): S08 SH060 T01, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle, loc_heli-cabin, palette_sunset, no previz clip, folder Scenes/S08/SH060, job 522491d4-7d70-4674-9c09-571d333e3196, prompt prompts/001_S08_SH060_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH080 start frame approved by Leonard ('that frame works'), with notes: do not take it too literally (some people have multiple limbs); everyone acts differently, not a single repetition. T02 prompt revised as prompts/001_S07_SH080_T02_v2.txt: the frame gives composition, place, light and positions, not its flaws (one head, two arms, two legs each); a different action for each person in every beat; the shared crowd tactic replaced by individual ones; 'not a single repetition' line. REQUEST S07-SH080-c re-quoted, 15 credits. Waiting for Leonard's go."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH030 T01 done (job cf1abe22, about 65 minutes in queue), downloaded to takes/S09/SH030/001_S09_SH030_T01.mp4, recorded in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 approved on T04 (Leonard: 'ok perfect'; rating 5, inferred). SH030 total 64.5 credits (plus 12 if the blocked T02 job was not refunded). What made it work: a forward video_extension of the approved SH020 T05, so place, camera, him, bodies and crowd carry over; no previz, no generated stills, no frames from other angles (T03 turned those into a collage). Continuity for SH040 to SH060 and S07: T04 shows shots 7 and 8 (two men drop near 1 s, seven men on the asphalt), his hand to his head with nothing firing, the crowd overwhelming him at the wall; the briefcase stands at his feet from about 1 s."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T04, Leonard: remake in 720p. T04 went out without draft: true (against the every-take-as-draft rule), so no finalize. Options: (A) Topaz upscale of T04 to 1080p, keeps the exact take, no cost preflight exists (S04 SH130 precedent: 5 credits for 5 s, about 3% horizontal stretch, waxy faces); (B) a new 720p extension of SH020 T05, quoted 56 credits, a new roll that will not repeat T04's performance. video_edit at 720p excluded (style.md, and S04 SH070 showed no added detail). Waiting for Leonard's pick."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH010 T01 generated (job 5a4fd608, 54 credits), downloaded as takes/S09/SH010/001_S09_SH010_T01.mp4. Not yet rated by Leonard. Claude's read in shotlist.json: photoreal sunset, fall and curl work; misses: wide not medium close, the stain came out as a blood-like puddle on the asphalt, no slouched lean, the spit is a glowing streak."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-d approved by Leonard ('approved, go with S07-SH040-d'; estimate 15 credits) and submitted: 06d4a64e-ff43-4b84-9657-3656d30c2e32, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T03_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T03 downloaded (001_S07_SH040_T03.mp4, 15 credits, 5 s extension of T02, new seconds only). Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060: make a sequel, he keeps hitting, the politician keeps blocking with his hands, hurting himself at each block, gasping, resisting with anger. REQUEST S07-SH060-e prepared, not submitted: T04 = forward extension of T02 (867641cb), 5 s, seedance_2_5 video_extension forward, 480p, audio on, images char_politician_blood, char_big-guy, prop_bar-weapon, folder S07/SH060, prompt prompts/001_S07_SH060_T04.txt: three quick chopping swings, three blocks on forearms and hands, he gasps, shakes, glares, keeps his guard up. Pain played in the acting, no pain words (T03 v1 nsfw block). Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S09-SH020-a approved by Leonard ('ok go, 39 credits'): S09 SH020 T01, seedance_2_5 omni_reference, 13 s, 480p, 21:9, audio on, refs prop_briefcase 4bf36cb5, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179, video lines 0a8504f0, folder Scenes/S09/SH020, prompt prompts/001_S09_SH020_T01.txt. Job f3eb6a38-5e0b-49fe-83c0-01d7ebf4a213."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S09 SH020 T01 delivered (job f3eb6a38, 39 credits), saved as 05-generation/takes/S09/SH020/001_S09_SH020_T01.mp4. Claude's read: wash, paper, helicopter landing and his walk to the case work; the case stays closed, two traffic cones in the left foreground, about five bodies, a figure in the helicopter door. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030, Leonard picked A, then 'try B also'. A: Topaz upscale of T04 to 1080p, 21:9, job 825287eb-3e01-4829-a0ba-63aa061efb0c (no preflight exists), to become T05. B: REQUEST S06-SH030-g, 56 credits as quoted: new 720p video_extension forward of SH020 T05, same prompt as T04 (001_S06_SH030_T04.txt), job 39d7cc1a-3277-4368-b6fe-fb1f7a8d3d19, to become T06."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T05 in: Topaz 1080p upscale of T04 (job 825287eb, 6 credits), takes/S06/SH030/001_S06_SH030_T05.mp4, 2560x1080, 26 MB, about 3% horizontal stretch to fix in the edit. The 720p extension (T06, job 39d7cc1a, 56 credits) is still rendering."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard approved resubmitting REQUEST S07-SH050-d ('go ahead', 15 credits). Folder checked first: no T04 job. T04 submitted, job 8f75d241-9108-4353-9d4a-10e99c6c94a0, same prompt and settings."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T04 done (job 8f75d241, 15 credits): 001_S07_SH050_T04.mp4. Thin rod, raw repeated blows with camera jolts, crowd close and yelling at the lens. Fails again: the crowd is all bearded dark-haired men like the fat person, no women. Text cannot override it: likely causes are the char_big-guy face reference bleeding into the extras and the words 'desert town' and 'concrete towers' priming the crowd [inference]. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-e approved by Leonard ('ok go, 15 credits'): T04 submitted, job f86d621a-2ebd-4619-a079-3fcfec5de553, forward extension of T02, 5 s 480p audio on, folder S07/SH060."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T04 (job f86d621a) blocked after about 5 minutes of rendering: status nsfw, 'Something went wrong. Please try again, or change your input files or prompt.' 15 credits refunded (15:39:34Z). Not retried. [ASSUMPTION] blocked on the rendered picture (repeated blows on a bloodied hanging man), the prompt had no pain words. REQUEST S07-SH060-f prepared: prompts/001_S07_SH060_T04_v2.txt, same settings, no blood or wound named, swings caught on the forearms, the last one shoved away. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030 T06 in (job 39d7cc1a, 56 credits), takes/S06/SH030/001_S06_SH030_T06.mp4, 720p 1458x634, 8 s. A new roll of the T04 prompt: the gun clearly at his temple at about 4 s, then the crowd takes him and swallows the camera. Waiting for Leonard. SH030 total 126.5 credits (plus 12 if the blocked T02 job was not refunded)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-c approved by Leonard ('ok go', 15 credits): T02 submitted, job f4c6269e-c073-475b-b22e-a95b0883ff60, folder S07/SH080, prompt 001_S07_SH080_T02_v2.txt, passed first time. Downloaded as takes/S07/SH080/001_S07_SH080_T02.mp4. Follows the previz layout, both drops and a scatter in several directions; framing wider than the start frame. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S06 SH030: Leonard loves both T05 (1080p upscale of T04) and T06 (720p roll); both rated 5 + love, inferred. Shot approved; the edit picks. SH030 total 126.5 credits (plus 12 if the blocked T02 job was not refunded). Lesson for every shot: a forward extension of an approved take is the cheapest way to keep place and continuity; send 480p takes with draft: true so they can be finalized."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH040 T03: 'good, make the pipe metal and the punches clearer, make the camera move disorienting, more movement, more people moving' (rating 4, inferred). REQUEST S07-SH040-e prepared, not submitted: prompts/001_S07_SH040_T04.txt, a new forward extension of T02 (2ab4d6ba) replacing T03: steel pipe described, three readable punches, handheld disorienting camera inside the crowd (Leonard's direction; the screenplay note says locked-off), more people. Soft wording kept from T03_v2. seedance_2_5 video_extension, 5 s, 480p, audio on, char_politician_blood 0d0a5637, char_big-guy 6228445b. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T04: sideways swings left and right, not vertical; he hangs, he is not on the floor. REQUEST S07-SH050-e prepared: prompt 001_S07_SH050_T05.txt: flat sideways forehand and backhand swings that knock the camera spinning on the rope; camera in the air at the crowd's chest height, level, ground out of frame. [ASSUMPTION] Leonard did not pick between start frame (A) and text only (B) for the crowd: T05 takes B, the cheaper one: char_big-guy image dropped and the fat man described in words (risk: his face drifts from S04), 'desert town' and 'concrete towers' removed, most men clean-shaven. Refs: loc_square 62815a4f only. seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on. Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030, Leonard: realistic people, not a video game, real military footage of a riot where everyone flees. REQUEST S08-SH030-a now uses prompts/001_S08_SH030_T01_v2.txt (v1 kept): the whole crowd flees in panic, varied gaits and actions, the lens follows one runner after another, real long-lens footage cues (telephoto compression, haze shimmer, focus breathing, small stabilizer lags), no HUD, no thermal, full natural color. Same settings and refs, estimate_video_cost 12 credits, balance 26813.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-e approved by Leonard ('approved, go with S07-SH040-e'; estimate 15 credits) and submitted: 893f9710-429b-4e58-816b-32a621322f41, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T04 downloaded (001_S07_SH040_T04.mp4, 15 credits, 5 s extension of T02, new seconds only): steel pipe, handheld disorienting camera. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050: Leonard's mood still for S08 ('this is the vibe I'm going for') saved as 05-generation/refs/001_S08_SH050_vibe_leonard.webp: low golden sunset sun from the open door, gold rim on Roger's face, shallow focus, the town far below in haze with columns of black smoke, cream leather VIP seats. Added to the SH050 T01 prompt as @Image4 for color, light, lens and grain only. Open for Leonard: the still's cabin (cream leather) differs from the 2026-11-17 decision (bare military Black Hawk cabin); SH050 follows whatever SH020's frame shows."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-f approved by Leonard ('try again'): T04 v2 submitted, job 04795099-dfff-4c05-a148-927e294485d5, forward extension of T02, 5 s 480p audio on, folder S07/SH060, prompt prompts/001_S07_SH060_T04_v2.txt, 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T04 done (REQUEST S07-SH060-f, 15 credits, job 04795099): the 5 s sequel, takes/S07/SH060/001_S07_SH060_T04.mp4; whole shot joined as 001_S07_SH060_T03_T02_T04_join.mp4 (14.08 s). Join SSIM 0.84. Two blocks (not three), camera whips on each, then he holds his guard crying out. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-e approved by Leonard ('go ahead', 15 credits): T05 submitted, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, job 2ffde0f1-01df-45ca-8680-f0335e48653d, folder S07/SH050, prompt 001_S07_SH050_T05.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T05 done (job 2ffde0f1, 15 credits): 001_S07_SH050_T05.mp4. Mixed crowd with women at last (dropping the char_big-guy image and 'desert town' worked), camera at chest height with whip spins on the blows, sideways and diagonal swings. Weak: the fat man's face is not the S04 man, the rod switches between thin grey and a thick black bat. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-a approved by Leonard ('ok go', 21 credits), with his note: nobody may look like blocks, it must read as real live-action war documentary footage. Added as two realism paragraphs in prompts/001_S08_SH040_T01_v2.txt (settings unchanged). S08 SH040 T01 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, job e945d9ae-176d-471b-9bdb-580ff15bfcdc, seed 175111717, folder Scenes/S08/SH040. The submit call timed out on the client; the job was found queued once, not resubmitted."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-a resubmitted on Leonard's new approval ('ok go again, 12 credits'): S08 SH020 T01, job 66732250-137b-4f97-8107-9309de1dd2f5, 12 credits, same prompt and refs, folder Scenes/S08/SH020, saved as takes/S08/SH020/001_S08_SH020_T01.mp4. Claude's read: photoreal Roger at the open door at sunset, but the lady and the pilot are missing, cheek off the stock, the whole rifle in frame, the town below reads as a big city with a dome-like tower. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-a approved by Leonard ('go ahead, just remember photorealism is key', 12 credits): S08 SH070 T01 submitted, job 6a64e4e3-2b9b-47a3-81a9-b2a60d17b6ef, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. Prompt 001_S08_SH070_T01_v2.txt: T01 plus one photorealism sentence (Leonard's note); same refs and settings as quoted."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard likes the S07 SH050 T05 crowd (T05 rating 4 inferred). Crowd recipe written into 03-bible/style.md (Prompt density, Crowds) on his instruction."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard rejected S07 SH040 T04: only the old man may be upside down, the world and the pipe man upright. Fix proposed, not run: REQUEST S07-SH040-f (start frame, seedream_v5_pro 2k 21:9, refs char_politician_blood 0d0a5637, char_big-guy 6228445b, loc_square 62815a4f, prompt 001_S07_SH040_REF_startframe.txt, 2.5 credits) then REQUEST S07-SH040-g (seedance_2_5 omni_reference, start_image = that frame, 8 s, 480p, 21:9, audio on: panic, pipe on the forearm, punches, handheld; prompt 001_S07_SH040_T05.txt, 24 credits). No line drawing: the d11 guide did not stop the flip in T01. Video only after Leonard approves the frame."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH080-a approved by Leonard and submitted: S08 SH080 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (to trim to 2 s), audio on, one take, 12 credits (quoted). Refs: loc_square 62815a4f, palette_sunset 1f563179, no video guide (place fills the frame). Job a5321411. Prompt prompts/001_S08_SH080_T01.txt, photorealism line added on Leonard's note."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-f approved by Leonard ('approved, go with S07-SH040-f'; 2.5 credits) and run: start frame cf9ae676-6c92-4311-834c-587251ee5637, seedream_v5_pro 2k 21:9, folder S07/SH040, saved as refs/001_S07_SH040_REF_startframe.png (3120x1328) and _1120.jpg (1120x480, uploaded as media d55e02cc-dfda-41f2-b8c1-0aa363a39d7a). Claude's read: world upright (sky and towers at the top, crowd on their feet); he hangs head down with white hair, tie and arms hanging toward the ground; eyebrow wound, right eye open, left nearly shut; pipe man upright at screen right with a bare steel pipe (mustache, grey T-shirt, not obviously fat: same look as in T04). Crowd mostly men. REQUEST S07-SH040-g re-quoted with this frame as start_image: 24 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on the S07 SH040 plan (start frame cf9ae676 plus REQUEST S07-SH040-g, 8 s from the frame): 'no, I don't like this plan'. REQUEST S07-SH040-g dropped, not submitted. Reason not given yet."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH080 T02 rated 3 (inferred). Leonard 2026-11-19: 'I don't mind it'; wishes for more people all around, also on the left side; maybe another person drops; all run in different directions. Body map: a third drop here makes the sniper's count six with S08 SH040's three, unless S08 SH040 drops to two (open, Leonard decides). Prepared: REQUEST S07-SH080-ref2, edit of the start frame (job 7e4832d7) with about half again as many people, the left side filled, limbs fixed, seedream_v5_pro 2k 21:9, prompt prompts/001_S07_SH080_REF_startframe_v2.txt, quoted 2.5 credits; then REQUEST S07-SH080-d, T03 from that frame, prompt prompts/001_S07_SH080_T03.txt (three cracks, a third man drops at the left, the crowd runs in every direction), 5 s 480p 21:9 audio on, 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard: a sequel to S07 SH050 T05 where the fat man is about to give a final blow and his head is blown off. REQUEST S07-SH050-f prepared: prompt 001_S07_SH050_T06.txt, seedance_2_5 video_extension forward of T05 (job 2ffde0f1), 480p, 5 s, audio on: final wind-up, hold, a crack from above, his head snaps, he drops out of frame, rod clatters, crowd recoils and looks up. Written without gore (S06 SH030 T02 was blocked as nsfw); the head wound is a post composite, as the screenplay note on SH070 plans. This covers SH070/SH080 action from the POV: which shot it serves is Leonard's call in the edit. Filed under SH050 as T06 (an extension of T05). Preflight 15 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard: 'Maybe a sequel of the shot I don't know'. REQUEST S07-SH040-h prepared, not submitted: prompts/001_S07_SH040_T05_v2.txt, a forward extension of T02 (2ab4d6ba) built on T04 (handheld, steel pipe, punches) with one change: nobody's whole body near the camera, only the pipe, hands, fists and forearms enter from the frame edges, so the inverted orientation of T02's world never shows on the attackers. char_big-guy removed. seedance_2_5 video_extension, 5 s, 480p, audio on, char_politician_blood 0d0a5637. Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T01 done (job e945d9ae, 21 credits): takes/S08/SH040/001_S08_SH040_T01.mp4. Photoreal, three cracks two seconds apart, three falls on the left half, earlier dead kept. Misses: the hanging man is not on the lamp arm, two lamps in frame, a few stiff bodies. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-a approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T01, job fbd3e0fa-f5da-4ecd-9ccd-76b09e9fbf1f, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T01_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T01 rated 1 (inferred, 'pretty bad'): boxy bodies, the hanging man not at the lamp. Cause: the guide clip's previz mannequins (bodies copy their positions and rigid poses). Next proposed: no guide clip; a start frame from Leonard's Midjourney (prompt prompts/001_S08_SH040_REF_start-frame_midjourney.txt), then Seedance start_image, 7 s, 480p, about 21 credits. Not quoted, waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T01 in (job 6a64e4e3, 12 credits), takes/S08/SH070/001_S08_SH070_T01.mp4. Photoreal sunset scope view of the street light arm, the rope and the shoe; scope ring and crosshair came baked in (asked clean); crack at 3.07 s with the kick in sync; knot above the ankle instead of around it. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH050-f approved by Leonard ('go ahead', 15 credits), submission refused by Higgsfield: seedance_2_5 backend 429 rate_limit_reached (request 9a6c97c7-b11b-40e8-867b-6ecaac874fac). No new job in folder S07/SH050. Not retried; waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH080-ref2 and -d approved by Leonard ('ok go'): start frame v2, edit job a9413cf0-71ab-4ba3-81f5-25f3e36037df (2.5 credits), saved refs/001_S07_SH080_REF_startframe_v2.png; T03 job ea9b8ece-12bc-4ed1-990f-333e65358c08 (15 credits), folder S07/SH080, passed first time, downloaded as takes/S07/SH080/001_S07_SH080_T03.mp4. Denser crowd, left side filled; no third drop readable; the run goes mostly right. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard: no start frame, Seedance from words. REQUEST S08-SH040-b prepared, not submitted: prompts/001_S08_SH040_T02.txt = T01 v2 without the guide clip, plus an exact composition in words (the building corner and the one lamp in the center of frame, the rope from the lamp arm to his ankle just left of the pole) and the bodies described one by one in loose real poses. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square 62815a4f, char_politician_final 547bbfa3, palette_sunset 1f563179. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020: Leonard's Midjourney frame saved as 05-generation/refs/001_S08_SH020_REF_midjourney_v1.webp (uploaded, media 7fec4fb7-08e0-47f4-9fb3-8e659b3e054d). Leonard: keep its vibe, colors and lens, remake the whole positioning in a Higgsfield image. REQUEST S08-SH020-ref prepared: prompts/001_S08_SH020_REF_start-frame_v2.txt, images MJ frame, char_sniper 8716ad9f, char_boss 7ef41962, prop_rifle bb9db39b, folder Scenes/S08/SH020. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T01 rated 2 (inferred from corrections): rope tied around the post, no feet in frame, the rope snaps on the shot (the snap moves into SH070; SH080 still lists it). REQUEST S08-SH070-b prepared: T02, prompts/001_S08_SH070_T02.txt, the post with the rope wound and knotted around it, crosshair just above the knot, crack, the rope bursts and the long end whips away; scope ring and crosshair now asked for as T01 had them [ASSUMPTION: Leonard did not object]. Refs loc_square 62815a4f, palette_sunset 1f563179; char_politician_blood dropped. seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26677.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-b approved by Leonard ('ok go, 12 credits'): S08 SH060 T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle, palette_sunset (loc_heli-cabin dropped: T01 copied its view), folder Scenes/S08/SH060, job b88d2761-649a-4ed2-b45c-0e9e2e396678, prompt prompts/001_S08_SH060_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH040-h approved by Leonard ('approved, go with S07-SH040-h'; estimate 15 credits). First call refused before start: 429 rate_limit_reached, no job id, no charge in the transactions. Submitted once more: 7b9b3d63-51c4-420f-8592-23458e452c8d, seedance_2_5 video_extension forward of T02 2ab4d6ba, 5 s, 480p, audio on, folder S07/SH040, prompt 001_S07_SH040_T05_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH040 T05 downloaded (001_S07_SH040_T05.mp4, 15 credits, 5 s extension of T02, new seconds only): steel pipe and fists from the frame edges, no attacker's body near the camera. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH040 T05: 'works' (rating 4, inferred). The working cut is T02 followed by T05 (9 s, one continuous take). Question 5 (old man B or C) still open."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-b approved by Leonard ('ok go, 21 credits'): S08 SH040 T02 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, no guide clip, job 2d61a052-6987-46c5-a337-ac243d959080, folder Scenes/S08/SH040, prompt 001_S08_SH040_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-ref approved by Leonard ('try both', 2.5 + 1.5 = 4 credits): start frame v2 with prompts/001_S08_SH020_REF_start-frame_v2.txt, images MJ frame 7fec4fb7, char_sniper, char_boss, prop_rifle, folder Scenes/S08/SH020. Seedream 5.0 Pro 2k job c4c30973-6a46-4b0b-aa3d-03292d6701c7 (refs/001_S08_SH020_start-frame_v2_seedream.png, 3120x1328); GPT Image 2.6 high 1k job 2ef78fb3-32b7-4c48-8485-520675382829 (refs/001_S08_SH020_start-frame_v2_gpt.png, 1344x576). Claude's read: GPT matches the staging (cheek on the stock, lady in the front seat beside the pilot, rifle cut by the right edge, low sandy town); Seedream has the clearer face and smile but the rifle is held at the chest off his cheek, the whole rifle in frame, the lady large and closer to the door, and a brighter, cleaner look than the Midjourney frame. Waiting for Leonard's pick."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH080 T01 done (job a5321411, 12 credits, about 24 min in queue): the rope snaps at 1 s, the upper end recoils out of frame and drops back to swing; photoreal. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard approved resubmitting REQUEST S07-SH050-f ('try again', 15 credits). Folder checked first: no T06 job. T06 submitted, video_extension forward of T05, job 675fbdf1-d841-4138-966b-5ee8ef7ca784. The request echo lists T05 under reference_images (as in S06 SH050 T04)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH050 T06 done (job 675fbdf1, 15 credits): 001_S07_SH050_T06.mp4, 5.00 s extension that follows T05. Same man and crowd; final wind-up, his head jerks at about 2 s and he drops out of frame, the crowd ducks from about 3.5 s. No gore: the head wound is a post composite. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH080 T01 loved by Leonard (5, love, inferred from \"love it\"); shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-b approved by Leonard (\"just make the god damn shot\"; estimate 12 credits) and submitted: S08 SH010 T02 39ded370-375f-4b67-93bc-38348df288aa, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, no helicopter element (words only), loc_square, palette_sunset. A real 3D Black Hawk with a man in the door; it came out big and low over the roofs, and the tall block at screen left is gone."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-b approved by Leonard ('go ahead', 12 credits): S08 SH070 T02 submitted, job eb541f41-02f8-40db-9fa0-69e840ad48d1, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH050 T05+T06 joined: 'very nice' (T06 rating 4 inferred)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH010 T02 rejected by Leonard (rating 1, inferred): wants exactly the animatic composition, realistic. REQUEST S08-SH010-c prepared, not submitted: prompts/001_S08_SH010_T03.txt, line-drawing guide of the d11 clip (refs/001_S08_SH010_lines_d11.mp4, media 4cd08648) as @Video1 for camera, framing and helicopter size, loc_square, palette_sunset, helicopter in words; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020 start frame v2, Leonard: both wrong, GPT better; camera angle as in the animatic; the lady on the left (she turns around to tell him to stop). REQUEST S08-SH020-ref3 prepared: edit of the GPT v2 frame (2ef78fb3) with the animatic d11 first frame as a line drawing (refs/001_S08_SH020_animatic_d11_lines_f0.png, media 658b8451) for camera angle and composition only, plus char_boss 7ef41962; prompt prompts/001_S08_SH020_REF_start-frame_v3.txt; gpt_image_2_6 high 1k 21:9, 1.5 credits. [ASSUMPTION] Leonard's left = the left front seat, screen left of the pilot. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T02 in (job eb541f41, 12 credits), takes/S08/SH070/001_S08_SH070_T02.mp4. Rope tied around the post, no people; the rope snaps on the crack at about 3.0 s, the knotted end hangs limp. Angle level with the post rather than from above. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T02 done (job 2d61a052, 21 credits): takes/S08/SH040/001_S08_SH040_T02.mp4. Real people, he hangs from the lamp arm at the corner, three cracks and three falls. Misses: he hangs two storeys up, the earlier dead sit against the wall, traffic lights in frame. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH080 T03 rated 4 (inferred, Leonard: 'this works'); shot approved. Body map from this take: the fat man and the man in the red shirt drop here (two, as in the brief); no third drop, so S08 SH040 keeps its three. Session spend on SH080: 15 (T01) + 2.5 + 15 (T02) + 2.5 + 15 (T03) = 50 credits; the blocked first T01 submission was refunded."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-ref prepared, not submitted: start frame over the animatic, prompts/001_S08_SH010_REF_start-frame_v1.txt, images: d11 frame 0 as line drawing (refs/001_S08_SH010_animatic_d11_lines_f0.png, media 46191d2e), loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH010. Quotes: seedream_v5_pro 2k 21:9 2.5 credits, gpt_image_2_6 high 1k 21:9 1.5 credits. Model choice left to Leonard. Then T03 (12 credits) switches to start_image."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-ref3 approved by Leonard ('ok go, 1.5 credits'): start frame v3, gpt_image_2_6 high 1k 21:9, job e0aa58d6-a2e7-472f-940f-f3fd6150034c, folder Scenes/S08/SH020, saved as refs/001_S08_SH020_start-frame_v3_gpt.png. Claude's read: the lady now sits in the left front seat, the pilot in the right; Roger seen from behind his left shoulder, cheek on the stock, the smile hidden; rifle cut by the right edge; door empty, low sandy town, sun at right. The angle is still a close over-the-shoulder, tighter and lower than the animatic (which sits higher and further back, the cabin ceiling large at the top, the rifle thin across the lower third)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T02 rated 2 (inferred). REQUEST S08-SH040-c prepared, not submitted: prompts/001_S08_SH040_T03.txt. Height: rope wound round the pole itself as in S07 SH030 T02, he hangs beside the pole, head at the chest height of the standing crowd, plus @Image4 = frame 0.3 s of S07 SH080 T03 (refs/001_S08_SH040_ref_S07_SH080_T03_frame.jpg, media 79ccea2b) for his height and the crowd density only. People: about a hundred alive at the start (as S07 SH080 T03), ten dead lying scattered (fat man in brown with the pipe at the pole foot, red shirt right of the lamp), three new. Shots: from far left, person thrown right, round bursts the paving (dust, stone chips), no blood. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-c approved by Leonard ('ok go, 21 credits'): S08 SH040 T03 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs loc_square, char_politician_final, palette_sunset, S07 SH080 T03 frame 79ccea2b, job 99d38a87-0a9f-496a-a784-7046c47ad2e3, folder Scenes/S08/SH040, prompt 001_S08_SH040_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020 start frame v3, Leonard: 'I like this image. Do it.' (wind, helicopter movement, slight handheld jitter, film realism). REQUEST S08-SH020-b prepared: T02, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, start_image = v3 frame e0aa58d6, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T02.txt, quoted 12 credits. Submission blocked in this session by the tool permission check (no job created, no credits spent): waiting for Leonard's explicit approval with the amount."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-ref approved by Leonard ('both', 2.5 + 1.5 = 4 credits). Seedream 5.0 Pro 2k 21:9 job 8f2af3e5-80d2-42fc-b7e5-3f3636547988, folder S08/SH010, saved as refs/001_S08_SH010_start-frame_v1_seedream.png (3120x1328) and frames/001_S08_SH010_T03_start.jpg (1120x480). GPT Image 2.6 high 1k job 2cf64f83-81ac-44ff-b68a-cc2f6d8b52d1 blocked by the safety filter (nsfw flag; likely the armed man aiming at the town), not retried; I don't know whether credits were charged. Claude's read of the Seedream frame: the animatic layout held (tall balconied block at left, lower block's roof edge diagonal at right, helicopter upper middle, about one fifth of frame width, nose left); a real UH-60, dark, with one man seated in the open door, the rifle not clearly readable; sky pale warm cream, not deep orange. REQUEST S08-SH010-c re-prepared: prompts/001_S08_SH010_T03_v2.txt, start_image 8f2af3e5, loc_square, palette_sunset, no line guide; estimate 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T02 rated 1 (inferred, Leonard: 'no, show just the rope'). REQUEST S08-SH070-c prepared: T03, prompts/001_S08_SH070_T03.txt, only a plain length of taut rope through the scope against the blurred street from above, no post, no knot, no people; crack, the rope bursts and both ends leave frame. [ASSUMPTION] 'just the rope' means nothing else in frame. Refs palette_sunset 1f563179 only. seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26528.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-c approved by Leonard ('go ahead', 12 credits): S08 SH070 T03 submitted, job 6790c595-42e6-45d9-9950-40d6e790badb, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T03.txt."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S04-SH100-a done (21 credits): S04 SH100 T01 in, 480p 7 s, file takes/S04/SH100/001_S04_SH100_T01.mp4. Photographic low angle, hard quiet stare, friend films then looks down at the phone at the end; fat man centered, not right half. Notes in shotlist.json. Awaiting Leonard's review."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "S04 SH100 T01 rated 4 (inferred from Leonard: 'this works'), shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S04 SH120 approved: T05 (Leonard: 'this works', rating 4 inferred). 5 takes, 90 credits."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-a approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T01 6a850e02. Previz look copied, bond text unreadable, hard cut at 3.3 s."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-b approved (12 credits, 480p draft, 21:9, 4 s, text only): S05 SH110 T02 547e4e5d. Photoreal, one take, the bond reads."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-c approved (15 credits, video_edit of T02): S05 SH110 T03 292822a5. No visible change: the bond is still the generic sheet."
+    },
+    {
+      "date": "2026-11-18",
+      "text": "REQUEST S05-SH110-d approved (12 credits, 480p draft, 21:9, 4 s, bond image only): S05 SH110 T04 74a2ff10. Franklin layout on the sheets, $500,000 reads, title smeared."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-e approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T05 65634b5a. Backlight, anamorphic flare, one gust; too many sheets, look-alike men."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-f approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T06 ab8c06cc. Observational, the bond reads; ground-level camera, clear sky."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-g approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T07 f45e6399. Menacing crowd advancing; two sheets past the lens at the start, flake swarm overhead, period clothes."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-h approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T08 c4882ade. The animatic guide was copied again (box figure, paper across the lens): the line-drawing method fails for this shot."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-i still approved (1.5 credits): S05 SH110 T09 start frame, gpt_image_2_6 high 1k 21:9, job 0742a0d8-9133-4144-89a1-e0f97f5b3b97, over animatic d11 frame 0 (media 537e254c), every box named as a real person. Photoreal: the animatic composition held, modern European street, ten distinct modern people looking up, four small sheets in the sky. Files frames/001_S05_SH110_T09_start_src.png (1344x576) and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-i video approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T09 2ae60447 from the T09 start frame. Photoreal, no boxes, the still held, the paper stays high: the start-frame method works where the animatic video failed."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-j still approved (1.5 credits): S05 SH110 T10 start frame, gpt_image_2_6 high 1k 21:9, job 41de2b42-1525-4ae5-a526-9c618a83a0e1, edit of the T09 still with loc_side-street: the same people and framing, the film's dusty concrete town, empty sky. Files frames/001_S05_SH110_T10_start_src.png and _start.jpg (1120x480)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-j video approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T10 6bbc6108 from the T10 start frame. The film's town, the paper rises from the ground into the sky; it multiplies in the sky."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-k approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T11 d070aaef. Very low, sky and the town's blocks, heads at the edges; the paper rises from behind the far building as a cloud of forty or more and drifts away."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-l approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T12 5d23d579. Heads in silhouette, sheets scattered across the sky drifting away; no big sheet close."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S05-SH110-m approved (12 credits, 480p draft, 21:9, 4 s): S05 SH110 T13 ca9f546d. Big sheets close above the silhouetted heads, then scattering away; dozens of small specks far up."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S05 SH110: Leonard chose T12 (5d23d579, 480p, rated 4 inferred) over T13. Shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH010 T02 rated 4 (inferred, Leonard: 'ok cool works whatever'); shot approved. T01 left unrated (Leonard's only note: the first frame must have nobody around him). Credits this shot: 2.5 + 2.5 + 2.5 (stills) + 15 + 15 (takes) = 37.5."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060, with a still (heavy-set man with long curly hair and beard facing the lens with a dark bar, a mixed crowd pointing): you forgot the politician's reactions, protecting himself; make the character swing from this frame; I like this crowd, mark it down. Crowd rule added to 03-bible/style.md (Prompt density), still saved as 03-bible/style-refs/crowd_leonard.png and 05-generation/refs/001_S07_SH060_REF_startframe_leonard.png (+ _992 cropped 21:9, upload 41984959). REQUEST S07-SH060-g prepared: T05, omni_reference, start_image Leonard's frame, char_politician_blood for his sleeves and hands, 5 s 480p 21:9 audio on, prompt prompts/001_S07_SH060_T05.txt: his POV, two swings, his forearms come up into frame and block, he gasps and growls, camera jolts. [ASSUMPTION] POV, upright (rotate 180 in the edit if wanted), no char_big-guy or prop_bar-weapon (the frame differs). Estimate 15 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-g approved by Leonard ('ok go, 15 credits'): T05 submitted, job 2b116c7b-7455-4944-8c42-9556e6d393c8, omni_reference, start_image 41984959 (the job echo lists it under reference_images), char_politician_blood, 5 s 480p 21:9 audio on, folder S07/SH060."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T05 done (REQUEST S07-SH060-g, 15 credits, job 2b116c7b): POV from Leonard's frame, takes/S07/SH060/001_S07_SH060_T05.mp4. Clean wind-up, forearms come up and block at about 1.15 s, then they stay crossed and almost rigid over the lower two thirds of frame, hiding the second swing. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH060 T05: try again with the sequel, but no arms. REQUEST S07-SH060-h prepared: T06, omni_reference from Leonard's frame (41984959) only, 5 s 480p 21:9 audio on, prompt prompts/001_S07_SH060_T06.txt: his POV, nothing of him in frame, three swings, each blow jerks the frame away and it fights back to face the man, gasps and growls. Estimate 15 credits. [ASSUMPTION] 'the sequel' = the take from his frame."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH060-h approved by Leonard ('ok go, 15 credits'): T06 submitted, job a43bbf5f-7298-4c54-9433-4a609e8a7364, omni_reference from Leonard's frame, no arms, 5 s 480p 21:9 audio on, folder S07/SH060."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T06 done (REQUEST S07-SH060-h, 15 credits, job a43bbf5f): POV from Leonard's frame with no arms, takes/S07/SH060/001_S07_SH060_T06.mp4. Three overhead chops at the lens with a frame jerk on each, no arms, ends on a hold. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH060 T06, Leonard: 'very nice' (rating inferred 4)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-a approved by Leonard ('go with S07-SH070-a', 12 credits) and submitted: S07 SH070 T01 3336c193-167a-4912-b671-3a98fd6667ca, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy 6228445b, folder S07/SH070, prompt 001_S07_SH070_T01.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T01 done (12 credits, no filter block), downloaded to takes/S07/SH070/001_S07_SH070_T01.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T01 rated 1 (inferred): Leonard 'no': show some of the crowd, chaos, the sun reflected in a window behind him, the last thing this guy will ever see. Leonard made prop_bar-weapon (element 37fe2cf2, image media 8d69a591, saved as 03-bible/props/refs/prop_bar-weapon.png). REQUEST S07-SH070-b prepared, not submitted: prompts/001_S07_SH070_T02.txt, omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy 6228445b, prop_bar-weapon 8d69a591, loc_square 62815a4f (towers only). [ASSUMPTION] 'this guy' is the hanging old man: the camera at his face height, the fat man looking down into the lens. Sun moved behind the camera at screen right so a window on the tower behind him can glint into the lens. get_cost 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S07 SH070: the head must split open from a large-caliber round from afar, realistic. REQUEST S07-SH070-b now uses prompts/001_S07_SH070_T02_v2.txt (T02 plus the wound in the generation: skull bursts open, red mist and fragments up and back against the sky, instant slack collapse; the round arrives before the crack, which follows a split second later). T02.txt kept as the filter-safe fallback. Same inputs and settings, get_cost 12 credits. Filter blocks on this account have been refunded (S02 SH050, S06 SH050)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-b approved by Leonard ('go with S07-SH070-b', 12 credits) and submitted: S07 SH070 T02 05ac8fc0-5b3c-419b-bf26-2771754ac1f3, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy 6228445b, prop_bar-weapon 8d69a591, loc_square 62815a4f, folder S07/SH070, prompt 001_S07_SH070_T02_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T02 done (12 credits, passed the filter with the wound in the generation), downloaded to takes/S07/SH070/001_S07_SH070_T02.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T02 rated 3 (inferred from notes). REQUEST S07-SH070-c prepared, not submitted: prompts/001_S07_SH070_T03.txt (T02_v2 plus Leonard's four notes: background filled by the crowd and the tower facade, no sky; handheld drift with a slow-motion ramp as the swing begins [ASSUMPTION: 'slow down' means the action goes into slow motion, the camera drift slowing with it]; thick chunks of bone and blood instead of red mist; off-center, three-quarter, canted, uneven crowd; sun moved behind the camera at screen left, window glint on the facade beside his head). Same inputs and settings, get_cost 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on the T03 prompt: steep tilt is fine, just no sky: buildings and glass reflecting the sun, a flare behind him; the camera very handheld, slowing down at the end just as he is about to swing; he starts to roar with effort to show how strong the swing would have been. REQUEST S07-SH070-c now uses prompts/001_S07_SH070_T03_v2.txt (T03 kept unused): steep angle filled by towers, glass reflections flaring behind him, jostled handheld settling at 2-3 s, real time [ASSUMPTION: the camera slows, not the action; no slow motion], the roar cut off by the hit, thick debris, off-center. Same inputs and settings, get_cost 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-c approved by Leonard ('go with S07-SH070-c', 12 credits) and submitted: S07 SH070 T03 7ef610eb-7f9c-43a0-ac6b-fd45f2c50873, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, char_big-guy, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T03_v2.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T03 done (12 credits, passed the filter), downloaded to takes/S07/SH070/001_S07_SH070_T03.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T03 rated 4 (inferred, 'this is good but'). REQUEST S07-SH070-d prepared, not submitted: prompts/001_S07_SH070_T04.txt = T03_v2 with two changes only: the crowd pressed around the lens, the nearest men yelling straight into the camera; the pipe the length of a baseball bat (about 75 cm, never a staff). New take, not video_edit (Leonard: video_edit does nothing). Same inputs, 480p, 21:9, 4 s, audio on, draft true so a 720p finalize stays possible (T01 to T03 went without it). get_cost 12 credits."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-d approved by Leonard ('go with S07-SH070-d', 12 credits) and submitted: S07 SH070 T04 2330a2e5-bfc7-4310-851b-d75f6dccf803, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, draft true (echoed in the request), char_big-guy, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T04 done (12 credits, passed the filter, draft true), downloaded to takes/S07/SH070/001_S07_SH070_T04.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T04: Leonard's notes with a crowd reference image (saved as 05-generation/refs/001_S07_SH070_crowd_ref_leonard.webp). REQUEST S07-SH070-e prepared, not submitted: prompts/001_S07_SH070_T05.txt = T04 with the crowd in words from the image (men and women of every age, faded reds, yellows, blues, browns, pointing into the lens) and a new timeline: hold and roar 2-3.5 s, the swing starts at 3.5 s, the round hits a quarter of the way into the swing. Image not passed as a reference: it holds a different fat man with a pipe (identity bleed risk). 5 s for the extra room: get_cost 15 credits (4 s would be 12). Draft true."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-e approved by Leonard ('go with S07-SH070-e', 15 credits) and submitted: S07 SH070 T05 13ef503a-69a2-4724-a557-fd682566a29a, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, draft true, char_big-guy, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T05.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T05 done (15 credits, passed the filter, draft true), downloaded to takes/S07/SH070/001_S07_SH070_T05.mp4, recorded in shotlist.json, waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T05 notes: no sky behind him; a faster swing as he gets hit. 'No sky' in words failed in T02 to T05, so T06 changes the geometry instead: he stands with his back to one tall facade three meters behind him, which fills the background past the top of frame, roofline out of frame. REQUEST S07-SH070-f prepared, not submitted: prompts/001_S07_SH070_T06.txt = T05 plus that background and a fast, violent swing with the hit a split second in. Same inputs, 480p, 21:9, 5 s, audio on, draft true. get_cost 15 credits. Fallback if the sky comes back: a start frame made over a T05 frame (an image spend, model picked by Leonard)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S07-SH070-f approved by Leonard ('go with S07-SH070-f', 15 credits) and submitted: S07 SH070 T06 220d204b-a64e-4f27-89bb-62ec3f8064b8, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, draft true, char_big-guy, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T06.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 T06 done (15 credits, passed the filter, draft true; about 10 min in Higgsfield's queue), downloaded to takes/S07/SH070/001_S07_SH070_T06.mp4, recorded in shotlist.json. The facade-behind-him wording removed the sky (one small sun corner left), where 'no sky' alone had failed four times. Waiting for Leonard's read."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S07 SH070 approved with T06 (Leonard: 'perfect'; rating 5 and love inferred). What made it work: a facade 3 m behind him instead of 'no sky'; the crowd described in words from Leonard's reference image, pointing into the lens; hold and roar, then a fast swing with the hit a split second in; the wound in the generation passed the filter every time (T02 to T06). T06 is a draft (draft true), so a 720p finalize of the same take stays possible. SH070 total: 81 credits (T01 to T04 12 each, T05 and T06 15 each)."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH020-b approved by Leonard ('ok go, 12 credits'): S08 SH020 T02, job 3d341a42-a61c-4da1-a854-467788ada1a7, 12 credits, start frame v3, saved as takes/S08/SH020/001_S08_SH020_T02.mp4. Claude's read: staging held (lady left seat, rifle out the right edge), sway and widening visible; Roger's smile hidden by the angle; no sign of music in the spectrum. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH010-c approved by Leonard ('go with S08-SH010-c'; estimate 12 credits) and submitted: S08 SH010 T03 165d3c84-59d1-4351-ac10-144395ee1ab1, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, start frame v1 (8f2af3e5), loc_square, palette_sunset. The animatic composition held; a subtle hover; the man in the door visible, the rifle not readable."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-c approved by Leonard ('ok go, 18 credits'): S08 SH060 T03, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle (eyepiece only), palette_sunset, folder Scenes/S08/SH060, job 8187a062-5c5d-47ba-a1cf-4a6781ce9b02, prompt prompts/001_S08_SH060_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T03 in (job 6790c595, 12 credits), takes/S08/SH070/001_S08_SH070_T03.mp4. Only the rope, horizontal, fibers backlit gold; at about 2.9 s it vanishes in a puff, crack audio at 3.07 s. Eye level, not from above. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH010 T03 approved by Leonard ('awesome'; rating 5 and love, inferred). What made it work: a start frame laid over the animatic frame (line drawing, Seedream 5.0 Pro 2k), no helicopter element (its single-pose photo was pasted as a sprite in T01), the Black Hawk described in words."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH020 T02, Leonard: 'looking good'. Rated 4 (inferred), shot approved."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T03 done (job 99d38a87, 21 credits): takes/S08/SH040/001_S08_SH040_T03.mp4. Dense crowd, three powerful ground bursts, dead lying flat, he hangs lower than T02. Misses: still about a head too high, pole at the left edge instead of the corner, second burst in mid-air. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-a prepared, not submitted: S08 SH050 T01, seedance_2_5 omni_reference, 480p, 21:9, 4 s (shot 3 s, trim in the edit), audio on, start_image 1448763a = last frame of the approved SH020 T02 (refs/001_S08_SH050_start_SH020-T02-last.png, frame 97), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050 78a595cb, prompt prompts/001_S08_SH050_T01.txt. Leonard's mood still left out of the request: the start frame already carries the approved SH020 look and a second grade source risks a mismatch at the cut. Quote 12 credits, balance 26480.7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T03 rated 2 (inferred). REQUEST S08-SH040-d prepared, not submitted: prompts/001_S08_SH040_T04.txt = T03 with three changes: one sniper bullet per hit (the person jerks and drops on the spot, one small sharp spurt of dust from one point of the paving, head-sized, no explosion; audio a dry crack, the smack, the late distant thud); he hangs lower on purpose (head at the crowd's knees, fingertips on the paving, rope round the pole at head height), because Seedance has rendered him higher than asked in every take; a named mixed crowd (about half women, every age and build, listed one by one). S07 SH080 frame dropped. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T03 rated 2 (inferred, Leonard: 'horizontal...??'). REQUEST S08-SH070-d prepared: T04, prompts/001_S08_SH070_T04.txt = T03 plus: rope VERTICAL like a plumb line along the vertical crosshair line, never horizontal or diagonal; street from above, no sky or buildings; on the shot both ends visible, the upper springs up, the lower falls. palette_sunset only, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070. get_cost 12 credits, balance 26480.7. 0-credit alternative tested: T03 rotated 90 degrees and cropped is 2.3x enlarged, soft, and loses the scope ring. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-d approved by Leonard ('ok go, 21 credits'): S08 SH040 T04 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset, job d6b9da21-b3be-449e-b2cb-88b2693ebcbc, folder Scenes/S08/SH040, prompt 001_S08_SH040_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-d approved by Leonard ('ok go, 18 credits'): S08 SH060 T04, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle (eyepiece only), palette_sunset, folder Scenes/S08/SH060, job 6b7d0594-e77c-45f0-b736-085d2821e48a, prompt prompts/001_S08_SH060_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-a approved by Leonard ('ok go, 12 credits'): T01 submitted, job 2e55db89-b197-40de-93bc-9a49722de6d8, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, start_image 1448763a (the job echo lists it under reference_images), char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T01 downloaded (job 2e55db89, 12 credits): she turns over her right shoulder by 1.2 s and holds on Roger; voice-band burst at 2.0-2.9 s; framing a little wider than SH020 T02's last frame. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH070-d approved by Leonard ('go ahead', 12 credits): S08 SH070 T04 submitted, job e582e429-98ac-4b45-b1c7-82a4866bc5f2, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T04.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T04 done (job d6b9da21, 21 credits): takes/S08/SH040/001_S08_SH040_T04.mp4. Sniper hits read (small ground spurts), he hangs at about chest height. Misses: traffic-light pole, place changed to an open crossroads, crowd in rows and not varied, the ten earlier dead missing. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Leonard on S08 SH050 T01: add Roger firing once before she turns. REQUEST S08-SH050-b prepared, not submitted: T02, same start frame (1448763a) and refs (char_boss, char_sniper), seedance_2_5 omni_reference, 480p, 21:9, 5 s (one more second for the shot), audio on, folder S08/SH050, prompt prompts/001_S08_SH050_T02.txt. One change from T01: one shot at 1-2 s (muzzle flash out of the door, recoil, a casing falls, no hit seen), then her turn and line one second later. [ASSUMPTION] this shot is one of the three SH040 kills seen from the cabin, not a fourth. Quote 15 credits, balance 26417.7."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T04 rated 3 (inferred: the angle works, three fixes). REQUEST S08-SH040-e prepared, not submitted: prompts/001_S08_SH040_T05.txt = T04 plus: @Image4 = T04 frame 0.4 s (refs/001_S08_SH040_ref_T04_frame.jpg, media 10fceb80) for the angle, place, pole and his height only, not the crowd; the shots come steeply down from a helicopter off screen at the upper left, the old man unarmed, nothing from him or the pole; each hit a tiny low fist-size puff at the feet of the person who falls, in the same frame; exactly three people fall, everyone else stays on their feet. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH060-e approved by Leonard ('ok go, 18 credits'): S08 SH060 T05, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs char_sniper, prop_rifle (eyepiece only), palette_sunset, folder Scenes/S08/SH060, job 6169e86d-823c-4cb9-bc47-cd8bbc1d858a, prompt prompts/001_S08_SH060_T05.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH040-e approved by Leonard ('ok go, 21 credits'): S08 SH040 T05 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_square, char_politician_final, palette_sunset, T04 frame 10fceb80, job 9e758336-9631-47b3-9225-0303e068a8ea, folder Scenes/S08/SH040, prompt 001_S08_SH040_T05.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T04 in (job e582e429, 12 credits), takes/S08/SH070/001_S08_SH070_T04.mp4. Rope vertical against the street from above; snaps at about 3.23 s, lower end falls out, upper end springs up and stays as a stub at the top edge; crack in sync. Scope circle narrower than earlier takes. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH060 T05 rated 4 (inferred from Leonard's 'works'). SH060 total spend 78 credits over T01 to T05."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH050-b approved by Leonard ('ok go, 15 credits'): T02 submitted, job 9e57c6dc-26ae-4cc1-9372-d76ee030aeed, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, start_image 1448763a, char_boss 7ef41962, char_sniper 8716ad9f, folder S08/SH050."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T02 downloaded (job 9e57c6dc, 15 credits): one shot with muzzle flash at about 0.75 s, her turn at about 1.3-2 s, line at about 3.25-3.9 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH050 T02 approved by Leonard ('awesome', rating 5 + love, inferred). What worked: start_image = last frame of the approved SH020 T02, only char_boss and char_sniper as references, one shot written as its own beat before her turn."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH070 T04 rated 4 (inferred, Leonard: 'works'). Leonard asks for a prequel: motion-blurred whip pans across the town through the scope, searching, landing on the rope. REQUEST S08-SH070-e prepared: T05, video_extension backward of T04 (job e582e429), 4 s, 480p, audio on, prompts/001_S08_SH070_T05_extend-backward.txt, folder S08/SH070. get_cost 12 credits, balance 26363.7. 0-credit alternative: whip pans built in the edit from T01-T03 with directional blur (ring sizes differ). Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH040 T05 done (job 9e758336, 21 credits): takes/S08/SH040/001_S08_SH040_T05.mp4. Angle held, shots no longer from him. Misses: the puffs and the falls do not line up (hit 1 puff in mid crowd, hit 3 misses the runner), puffs still man-high, the earlier dead missing. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH010 T01: 'not too bad' (rating 3, inferred). Notes: motion too static and robotic (from the animatic); no liquid at all (Leonard: unnecessary, so the trouser stain is dropped from the shot); one small disrespectful spit, then one last breath and he gets up. REQUEST S09-SH010-b prepared, not submitted: prompts/001_S09_SH010_T02.txt, no guide clip, motion written as loose and uneven, the asphalt dry, ends with him getting up; framing described in words as T01 had it [ASSUMPTION: Leonard did not object to T01's wider framing]; refs char_politician_final, loc_square, palette_sunset; 480p, 21:9, 18 s, audio on, 54 credits (free quote)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH030 T01 approved by Leonard ('this works', rating 4 inferred)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 T01 rated 3 (inferred) from Leonard's notes: fake city like the animatic, dull cinematography, too many papers lifted unrealistically, case closed. Causes (Claude): the previz line drawing still carried the tower blocks and its foreground shapes (they became cones), so T02 drops the video reference and holds the composition and timing in words (README rule for frames filled by place); the prompt said deep focus and soft haze, so T02 asks for a backlit anamorphic frame with flare, contrast and focus on the case; T02 has about fifteen thin sheets that slide and skitter in gusts before a few lift; the case is described open from the first frame, with 'not its closed state' on the element line. Prompt prompts/001_S09_SH020_T02.txt, request S09-SH020-b quoted 39 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: start over, read the prompts that worked, simplify. Claude's count: the takes rated 4 or 5 in this film use prompts of about 600 to 1100 words, one subject, one action per beat, two or three references; SH040 grew from 1240 (T01) to 1780 words (T05). REQUEST S08-SH040-f prepared, not submitted: prompts/001_S08_SH040_T06.txt, about 440 words, two references only (T04 frame 10fceb80 for angle, place, pole and his height; char_politician_final), about fifty people instead of a hundred, one line each for the crowd, the dead and the hits. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-a resubmitted on Leonard's word ('try again'): accepted, job 8aa6cae0-6627-4c85-b8eb-57735c9e6265, folder Scenes/S09/SH040, 12 credits. The request echo lists the guide clip under reference_images (as on S06 SH030)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH040 T01 done (job 8aa6cae0), downloaded as takes/S09/SH040/001_S09_SH040_T01.mp4. Blocking right, look wrong: the line guide's geometry came out as 3D (box helicopter, box buildings). Proposed T02: same prompt without @Video1, words only, 12 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-b prepared, not submitted: prompts/001_S09_SH040_T02.txt (T01 minus the @Video1 guide paragraph, nothing else changed), seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, same five images, no video. Estimate 12 credits, balance 26,336.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH040 T01 (rating 1, inferred from 'this is awful'): looks like an animatic, a toy render; the animatic must never give the film look; wants a 2010s high-budget action movie: lens filter, grain, anamorphic. REQUEST S09-SH040-b revised: no @Video1, plus a film-look paragraph (anamorphic flare and edge softness, Black Pro-Mist bloom and halation, 35mm grain, real helicopter detail, rotor-wash dust). Look line from style.md kept word for word. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard flagged '@element (@ImageN)' again in S09 SH020 T01 and T02. Root cause: his 2026-11-19 rule (elements by name only) was written to the log and to branch claude/prompting-ref-naming, which was never merged; film-sync does not merge docs, so main's PROMPTING.md, HIGGSFIELD.md, template v5 and MISTAKES.md kept the old form, and this session followed them. T01 (39 credits) was generated with the old naming. T02 superseded by prompts/001_S09_SH020_T02_v2.txt (only change: the (@ImageN) tags removed, the palette written @Image5 because it is not an element); same media, order and cost, request S09-SH020-b, 39 credits, not submitted. Docs fix plus a filmtool check guard on branch claude/docs-ref-naming-fix, waiting for Leonard to merge it into main (Claude's push to main was refused by the session permissions)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH040-f approved by Leonard ('ok go, 21 credits, don't repeat elements'). Prompt cut to prompts/001_S08_SH040_T06_v2.txt (414 words): nothing described twice (the framing named once, the hits only in the timeline, the summary sentence and the hit paragraph merged); the audio line stays at start and end (CLAUDE.md rule 4). Unsubmitted v1 kept as 001_S08_SH040_T06.txt. S08 SH040 T06 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs T04 frame 10fceb80 and char_politician_final 547bbfa3, job 695f707d-0fe7-4e50-85d8-f92fb85464f0, folder Scenes/S08/SH040."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: palette_sunset is not an element; use the element, not its image, and fix the rule at the root; simplify the prompt. Checked: the S01 SH010 T02 job (28fc84db, seedance_2_5) shows the backend took <<<char_politician>>> as a reference_elements entry, so the old rule 'Seedance 2.5 ignores placeholders' had no evidence. Fixed: stories/politician/elements.md here; docs/PROMPTING.md and docs/HIGGSFIELD.md on branch claude/elements-not-images (needs merging into main). REQUEST S09-SH010-b replaced by S09-SH010-c, prepared, not submitted: prompts/001_S09_SH010_T02_v2.txt (about half of T02's length), elements char_politician_final and loc_square as <<<id>>> in the prompt, palette_sunset 1f563179 as the only image in medias, named in words; no guide clip; 480p, 21:9, 18 s, audio on, 54 credits (free quote). T02.txt was never submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH010 elements double-checked against the live list (Leonard): the 21 politician elements and their images are unchanged; one new, prop_bar-weapon 37fe2cf2 (the fat person's pipe, Leonard 2026-11-19), now in elements.md once (duplicate row removed). main merged into s09-sh010 (style.md: no previz or line-drawing clip as video reference; T02 already had none). REQUEST S09-SH010-c replaced by S09-SH010-d, prepared, not submitted: prompts/001_S09_SH010_T02_v3.txt = T02_v2 plus char_big-guy f5cc12be (the sleeping man, continuity with S07) and prop_bar-weapon (his pipe beside him) as <<<id>>>; elements char_politician_final, loc_square, char_big-guy, prop_bar-weapon; palette_sunset image in medias, named in words; 480p, 21:9, 18 s, audio on, 54 credits (free quote)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH070-e approved by Leonard ('ok go', 12 credits): S08 SH070 T05 submitted, job 136607b2-ef6f-4321-8093-4c0daf744dfe, seedance_2_5 video_extension backward of T04 (e582e429), 480p, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T05_extend-backward.txt. The job echo lists T04 under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH060-a, Leonard: 'check errors and try again'. Transactions checked: no 24-credit charge from the 429 call. Resubmitted once, same params: job 8d9e0c0f-cc60-4b41-b8a3-d10b02a74025, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, folder Scenes/S09/SH060."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-a resubmitted on Leonard's 'go, try again': accepted, job 5624c7ee-6272-483b-8000-dee1307f40b4, folder Scenes/S09/SH050, same prompt and settings (18 credits)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T01 done: job 5624c7ee, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T01.mp4 (6.08 s, 992x432, audio). Shot status review. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-b approved by Leonard ('let's see it'): T02 job 70330fae-025b-4405-838e-c92b3def8263, 12 credits, folder Scenes/S09/SH040, downloaded as takes/S09/SH040/001_S09_SH040_T02.mp4. Photographic this time; off brief: traffic lights, about six bodies instead of twelve, a wide junction with tower blocks instead of the enclosed square."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH060 T01 downloaded (job 8d9e0c0f, 24 credits): 8.06 s, 992x432, audio present. Covers SH060 (0-4 s) and SH080 (4-8 s). Handover, reading, look up, close and parted lips all present; folder sinks to the frame bottom from 6 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH070 T05 in (job 136607b2, 12 credits), takes/S08/SH070/001_S08_SH070_T05.mp4: the 4 s prequel alone, ending on T04's first frame. Whip pans over rooftops, a facade and a street, then lands on the rope. SH070 total 60 credits over five 480p takes. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH020-b approved by Leonard ('ok go, 39 credits'): S09 SH020 T02, seedance_2_5 omni_reference, 13 s, 480p, 21:9, audio on, refs prop_briefcase 4bf36cb5, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179 (@Image5), no video, folder Scenes/S09/SH020, prompt prompts/001_S09_SH020_T02_v2.txt. Job 1eae9eeb-4d97-44dd-bbbe-da0afd0f929e."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 T02 delivered (job 1eae9eeb, 39 credits), saved as 05-generation/takes/S09/SH020/001_S09_SH020_T02.mp4. Claude's read: better light and flare, case reads open, fewer sheets; the city is still tall blocks around a wide plaza, sheets start in neat rows, bodies in a row. Waiting for Leonard's rating. SH020 total so far 78 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T06 done (job 695f707d, 21 credits): takes/S08/SH040/001_S08_SH040_T06.mp4. Angle held, no blasts, third kill clean. Misses: the T04 frame brings its crowd of hundreds in rows; first two kills hidden in the crowd. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH070 T05 rated 4 (inferred, Leonard: 'works'). SH070 approved [ASSUMPTION: no further changes asked]: edit T05 then T04 (search, settle, snap). The snap now plays in SH070; SH080 (close, the rope snaps) still lists it: Leonard to decide whether SH080 stays."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T06 rated 2 (inferred). REQUEST S08-SH040-g prepared, not submitted: prompts/001_S08_SH040_T07.txt (about 470 words) = T06_v2 with: @Image1 = T04 last frame (refs/001_S08_SH040_ref_T04_lastframe.jpg, media c732f495, square almost empty) for the angle, street, buildings and the tall street lamp only; he hangs from the tall street lamp post (rope round the post at head height, head at the crowd's chest), no traffic lights; fifty people spread with open paving, never in rows; each victim alone in the open; three equally loud cracks. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs c732f495 and char_politician_final 547bbfa3. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T01 downloaded (job fbd3e0fa, 12 credits), takes/S08/SH030/001_S08_SH030_T01.mp4. Photographic, real footage feel, sunset light, runners. Off-brief: he hangs from a traffic light (two in frame), the place reads as a street corner by a wall, not the square, about ten runners, two bodies visible. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T01 rated 1 (inferred, Leonard: 'no'). Notes: see people getting shot, steadier helicopter, more people, the hanging politician can go, panicked people fleeing while he shoots. REQUEST S08-SH030-b prepared, not submitted: T02, prompts/001_S08_SH030_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f and palette_sunset 1f563179 (char_politician_final dropped), about forty runners, lens almost still, two men drop at 1 s and 3 s in the middle of frame (where the crosshair goes), no poles, no traffic lights, nobody hanging. [ASSUMPTION] the two drops are two of the three S08 SH040 kills seen through the scope, so the body map does not grow. estimate_video_cost 12 credits, balance 26583.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-b approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T02, job ea68eb92-896e-45f7-b8cd-df2160119e43, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T02 downloaded (job ea68eb92, 12 credits), takes/S08/SH030/001_S08_SH030_T02.mp4. Passed the filter. Real crowd of about thirty-five fleeing, first drop clear at 1 s, second drop small and far; sun faces the camera, the lens pulls back instead of holding, door edge at the right from 2 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T02 rated 1 (inferred, Leonard: 'no'): way further away, crosshair generated directly. REQUEST S08-SH030-c prepared, not submitted: T03, prompts/001_S08_SH030_T03.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Scope POV in camera: black frame, one round view as tall as the frame, a fixed thin black crosshair; extreme telephoto from very far, the whole square, about sixty tiny runners, two drop under the crosshair at 1 s and 3 s. Face boxes not in the prompt (post, if wanted). estimate_video_cost 12 credits, balance 26492.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-c approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T03, job 590ea56c-07c2-4fb9-aefb-a2a89c21887e, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T03 downloaded (job 590ea56c, 12 credits), takes/S08/SH030/001_S08_SH030_T03.mp4. In-camera scope and crosshair held fixed; two kills under the crosshair at about 1 s and 3 s, the second very clear; sun behind the camera. Closer than the 'way further' asked. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T03 accepted by Leonard ('good enough', rating 3 inferred). SH030 approved with T03. Lesson: the scope and crosshair work in camera with Seedance 2.5 when the prompt fixes the circle and reticle and says only the view inside moves; the kills read when the target is on the crosshair. The red and green face boxes and the hanging man are not in this shot (Leonard dropped the man); the green-box beat now lives only in SH070."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030, Leonard's changes on T03: tighter roads, three shots instead of two, stronger jolts (the shots are powerful), blood, realism and dirt. REQUEST S08-SH030-d prepared, not submitted: T04, prompts/001_S08_SH030_T04.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Same in-camera scope as T03; narrow, crowded, dirty streets leaving the square; three hits at 1, 2 and 3 s with a violent recoil kick and blur each time; blood puff, blood pool, dirt. [ASSUMPTION] 'tighter roads' = the narrow streets out of the square; the three hits are the three S08 SH040 kills seen through the scope. Filter risk raised by the blood (Leonard's call). estimate_video_cost 12 credits, balance 26336.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 draft, Leonard: '@loc_square (@Image1) is wrong; two references alter the model.' Root causes: (1) his naming rule of 2026-11-19 is still only on unmerged docs branches (claude/docs-ref-naming-fix has the full fix with a filmtool check that refuses the old naming); film-sync never merges docs/ or tools/, and pushing to main from this session was refused by the permission system, so Leonard has to merge that branch. (2) both reference images carry the wrong place: palette_sunset is a wide boulevard with towers and street lights, loc_square has lamps, traffic lights and an open space (the traffic light and the wide roads of T01 to T03). Entry in stories/MISTAKES.md. REQUEST S08-SH030-d now text only: prompts/001_S08_SH030_T04_v3.txt (v1 and v2 kept), seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, estimate_video_cost 12 credits, balance 26315.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-d approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T04, job 344b204b-e9fc-4eeb-a0f4-1407167824a4, seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T04_v3.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH010-d approved by Leonard ('ok go'; quote 54 credits) and submitted: S09 SH010 T02 job 36038951-a5bb-453b-bde8-730709d37577, seedance_2_5 omni_reference, 480p, 21:9, 18 s, audio on, folder Scenes/S09/SH010, prompt prompts/001_S09_SH010_T02_v3.txt; elements char_politician_final, loc_square, char_big-guy, prop_bar-weapon as <<<id>>>, palette_sunset 1f563179 as the only medias image."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 T02 rated 3 (inferred, Leonard: 'almost'). T03 prompt (prompts/001_S09_SH020_T03.txt): loc_square kept (towers, Leonard did not ask to change the place) with more real-world wear in words; he starts at screen right on one knee at the foot of the street light he hung from, beside the big sleeping man, pulls himself up the pole (continuity with S09 SH010 T02: cut rope knotted round his right ankle); limp moved to the right foot to match that ankle (was an [ASSUMPTION] on the left); snapped rope end on the lamp arm; sheets scattered at random, bodies never in a line; lens artifacts named (anamorphic flare and ghosts, halation, soft bent edges, vignette, oval bokeh, focus breathing, grain, gate weave). Same media and settings. REQUEST S09-SH020-c quoted 39 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH040 T02 (rating 2, inferred): he stands next to the briefcase, not the pole; she steps off with much more professional grace. REQUEST S09-SH040-c prepared, not submitted: prompts/001_S09_SH040_T03.txt = T02 with the case out on open asphalt and him right beside it, the street light at the far right; her exit upright and composed; plus 'no traffic lights, no road signs, no crossings'. Same settings and images, 12 credits, balance 26,144.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH010 T02 (job 36038951) blocked as nsfw, 54 credits refunded at 12:04 UTC. The job record confirms the four elements attached as reference_elements. Resubmission under production-plan rule 4 refused by this session's permission check (not sent); Leonard to decide."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH060 T01 (SH060+SH080), Leonard: 'good, works' (rating 4, inferred). What worked: text and elements only, no guide clip, char_boss, prop_helicopter, loc_square, palette_sunset, the sun behind her upper left, one 8 s generation for the pair."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH040-g approved by Leonard ('ok go, 21 credits'): S08 SH040 T07 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs T04 last frame c732f495 and char_politician_final 547bbfa3, job 325f2a8d-20b2-4043-9888-6a593a2680ee, folder Scenes/S08/SH040, prompt 001_S08_SH040_T07.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T01 rated 1 by Leonard ('no'): wrong background (the take copied the loc_square element image, a wide avenue with towers and traffic lights), he must stand in the center of the square opposite the street light with a street behind him, background out of focus, line too nice. T02 prompt prepared (request S09-SH050-b, not submitted): loc_square dropped, square in words, shallow focus, sour fed-up delivery. Preflight 18 credits. [ASSUMPTION] 'opposite side of the light post' = the street light is out of frame behind the camera side."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'try again'. S09 SH010 T02 resubmission 1 (unchanged, production-plan rule 4, after the 12:04 refund): job 7414bb42-616f-45ce-85fa-4eeae71d8480."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH060-b prepared, not submitted (Leonard: closer on her face, even more pissed, still silent): T02 = T01 with a tight face close-up (chin to top of head; the handover and the folder below frame, only the page edge rising in), and an angrier acting task (she punishes him with silence, the attack swallowed). prompts/001_S09_SH060_T02.txt, same settings and references as T01, 8 s, 480p, 21:9, audio on. Estimate 24 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH020-c approved by Leonard ('ok go, 39 credits'): S09 SH020 T03, seedance_2_5 omni_reference, 13 s, 480p, 21:9, audio on, same five references as T02, folder Scenes/S09/SH020, prompt prompts/001_S09_SH020_T03.txt. Job c55d3708-0d67-423a-ac1c-5142b172453c."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 T03 delivered (job c55d3708, 39 credits), saved as 05-generation/takes/S09/SH020/001_S09_SH020_T03.mp4. Claude's read: starts at the right by a pole, case open, stronger anamorphic look; the pole is a traffic light, the big man sits up, few bodies, figure in the helicopter. SH020 total 117 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-c approved by Leonard ('let's see it'): T03 job a35cfc87-4df4-497c-91eb-77b39fd1c216, 12 credits, folder Scenes/S09/SH040, downloaded as takes/S09/SH040/001_S09_SH040_T03.mp4. He stands by the case in the open; her exit composed; traffic lights and crossings still there."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-b approved by Leonard ('ok go, 18 credits'): S09 SH050 T02, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T02.txt. Job e841fd97-bee7-4f35-93e8-09582eeb2b8e."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T02 done: job e841fd97, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T02.mp4. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 approved on T03 (Leonard: 'this works', rating 4 inferred). SH020 total 117 credits over three 480p drafts. What made it work: no previz clip (the line drawing still carried the animatic towers and its foreground shapes), the case written open from the first frame with 'not its closed state' on the element line, the sun in frame with anamorphic flare and lens faults named, sheets scattered at random and lifted in gusts, him starting at the foot of the post at screen right. Continuity for S09 SH030 on: the post he starts at reads as a traffic light pole with a yield sign; the big man sits against it; the case lid stands open toward camera; the rope end at his right ankle; a figure shows in the helicopter cabin (prop_helicopter image has a gunner). Not finalized at 720p."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH010 T02 generated (job 7414bb42, 54 credits), downloaded as takes/S09/SH010/001_S09_SH010_T02.mp4. The face matches char_politician_final: elements passed as <<<id>>> work on seedance_2_5. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-a resubmitted on Leonard's word ('resubmit S09-SH090-a'): job e3432dc6-1d58-4056-b7e4-28fca33071c8, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, same prompt and refs, folder Scenes/S09/SH090, 12 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH110-a resubmitted on Leonard's 'try again, 12 credits': job da95fb1c-1b9a-4e61-b33b-378fb0ef3e0a, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T01.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH100-a, Leonard: 'try again'. Third submission refused (429, request id b8c4b5d6-a935-4bf4-a4ba-1684984d6094, nothing charged) while six Seedance jobs of other S08/S09 sessions were in progress: the limit looks like concurrent jobs per account [inferred]. Submitted once more after one of them completed: accepted, job cf5b1072-4fe8-4ee1-b761-1fe2dbdc2e17, folder Scenes/S09/SH100, 39 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH010 T02: 'this works, maybe we can do it better but this works for now' (rating 4, inferred). S09 SH010 approved with T02. Open for a later pass: the slouched lean, a spit that is barely visible, hair wording (element has graying brown hair, not white)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T01 delivered (job e3432dc6), downloaded as takes/S09/SH090/001_S09_SH090_T01.mp4 (992x432, 24 fps, 4.06 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T01 done: job da95fb1c, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T01.mp4, recorded in shotlist.json, waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH100 T01 downloaded (job cf5b1072, 39 credits, 13.06 s, 992x432, 24 fps): SH100 + SH120 in one take. Rack focus works; he looks back toward her at 4-5 s (against the note); she is frontal in sunglasses, so the squint does not read. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T07 done (job 325f2a8d, 21 credits): takes/S08/SH040/001_S08_SH040_T07.mp4. Crowd spread out, kills readable, cracks even. Misses: still on the traffic-light pole (copied from the reference frame), a small helicopter in frame, last frame copies T04's. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T07 rated 1 (inferred). REQUEST S08-SH040-h prepared, not submitted: prompts/001_S08_SH040_T08.txt = T07 with no reference frame (only char_politician_final as @Image1), the T04 angle written in words, one tall street lamp with the rope round its post, no traffic lights or other poles, no aircraft in the sky. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard 2026-11-20 (repeated, earlier as 'don't repeat elements'): never name a reference twice, as in '@char_politician_final (@Image1)'. Each reference gets one name only. Claude misread 'don't repeat elements' on 2026-11-20 as 'don't describe things twice'. Note: docs/PROMPTING.md (Elements, the @char_marta (@Image1) example) and docs/HIGGSFIELD.md line 31 prescribe the double naming, so every session repeats it until those docs change. [ASSUMPTION] the one name kept is @Image1, the name Seedance reads by upload order. REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v2.txt (only @Image1, no @char_ name). Same settings, 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Correction: Leonard's naming rule of 2026-11-19 is already in this log: elements by name only (@char_ / @prop_ / @loc_), no (@ImageN) after them; unnamed references keep @ImageN. Claude had read only the last log entries and missed it, misread 'don't repeat elements', and in T08_v2 kept the wrong name (@Image1). REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v3.txt: @char_politician_final only, no (@Image1). Same settings, 21 credits, waiting for approval. Entry in stories/MISTAKES.md."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH040-h approved by Leonard ('ok go, 21 credits'): S08 SH040 T08 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final 547bbfa3 only, job ffe51115-7889-408b-a5e3-629f865c4a8a, folder Scenes/S08/SH040, prompt 001_S08_SH040_T08_v3.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T02 rated 4 (inferred, 'this works, not bad'). T03 prompt prepared (request S09-SH050-c, not submitted): T02 verbatim except the line reading and acting task (pissed, I told you so) and a new Grade paragraph (more cinematic, orange held back, richer contrast). Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-c approved by Leonard ('ok go, 18 credits'): S09 SH050 T03, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T03.txt. Job 6db71989-ec8f-4e47-9ede-e475dd6c0461."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T03 done: job 6db71989, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T03.mp4. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T03 rated 1 by Leonard ('no, the previous take was better'). T02 (rated 4) is the best take of SH050. Lesson: grade words in the prompt pushed the orange further (T03); grading belongs in Resolve. SH050 total 54 credits over three 480p drafts."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 prompt prepared (request S09-SH050-d, not submitted) on Leonard's 'use the background from T02': T02's first frame (refs/001_S09_SH050_T02_frame_0s.png, upload b9d2e155, filed in REFS, placement 9f678e1c) as start_image, plus char_politician_final, char_boss, palette_sunset; T03 prompt without the Grade paragraph (T03's angrier acting kept). Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH040 T03 (rating 2, inferred): camera angle wrong, rotate to match SH020 (approved T03 c55d3708), where the helicopter is. Place reference refs/001_S09_SH040_REF_place_from_SH020_T03_8.5s.jpg (frame 8.5 s of S09 SH020 T03) uploaded and filed in REFS (image b5e22ffd-2c50-47af-a0c6-7fd9112ac38f). REQUEST S09-SH040-d prepared, not submitted: prompts/001_S09_SH040_T04.txt: same axis as SH020, pulled back to a head-height wide; helicopter at left nose to screen right, door toward camera, Roger seated in the cabin [ASSUMPTION: she exits by the front door beside the cockpit, Roger stays inside, matching SH020]; corner with traffic light pole and the slumped big man at right; him beside the open case right of center; sun in frame upper left. Images: SH020 frame b5e22ffd, prop_helicopter 6c8efe25, char_boss 7ef41962, char_politician_final 547bbfa3, palette_sunset 1f563179 (loc_square dropped: the SH020 frame carries the place). 480p, 21:9, 4 s, audio on, 12 credits, balance 25,943.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-d approved by Leonard ('let's see it'): T04 job f5260b6c-6035-428f-8741-1ca7da368a59, 12 credits, folder Scenes/S09/SH040."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH040 T04 done (job f5260b6c), takes/S09/SH040/001_S09_SH040_T04.mp4. Place matches SH020; but it copied SH020's low camera with the case in the foreground, and she walks in from frame left instead of stepping out of the helicopter."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH040: start-frame route chosen by Leonard after T04. Midjourney prompt written: prompts/001_S09_SH040_REF_start-frame_midjourney.txt (--sref the SH020 T03 frame, --oref char_boss, 21:9, style raw). Waiting for Leonard's still."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: write the start frame for GPT Image or whatever model works best. Claude picked seedream_v5_pro (S07 SH010 start frame precedent; GPT Image 2.6 was rejected on S06 SH030 as posed). REQUEST S09-SH040-ref prepared, not submitted: prompts/001_S09_SH040_REF_start-frame.txt, 2k, 21:9, count 1, refs SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, folder Scenes/S09/SH040. Estimate 2.5 credits. The Midjourney version stays as an alternative."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref approved by Leonard ('let's see it'): seedream_v5_pro, 2k, 21:9, job 526ae7eb-1779-46d9-9383-bad41ec535be, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v1.png (3120x1328). Claude's read: SH020's place, corner, slumped man and sun with flare; helicopter landed nose right with the gunner inside; she steps down beside the cockpit, one heel down; he in profile facing her with the folder, open case at his feet, rope at the ankle. Off: tighter than asked (he is nearer the camera than the helicopter, about five meters from her), she wears sunglasses, a liquid puddle at his feet."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T01 rated 1 (inferred): Leonard, opposite angle. REQUEST S09-SH110-b prepared, not submitted: T02, prompts/001_S09_SH110_T02.txt, her POV away from the helicopter and the street light, across the square to the street opening of SH050 with the car at the far crossroads; loc_square dropped (its image is the street-light corner with traffic lights and towers), place in words as in SH050 T02; refs prop_car 42787b78, palette_sunset 1f563179. [ASSUMPTION] the pipe and the S06 wall are on the street-light side, out of frame. seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on. Cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH110-b approved by Leonard ('ok go, 12 credits'): S09 SH110 T02 submitted, job f3c2f6b1-f401-4226-a48e-6ba762af74fe, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T02 done: job f3c2f6b1, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T02.mp4, recorded in shotlist.json, waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T08 done (job ffe51115, 21 credits): takes/S08/SH040/001_S08_SH040_T08.mp4. On the street lamp at last, no traffic lights, three readable kills. Misses: hangs high from the lamp arm, the place drifted to an open plaza, crowd of men in suits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 stopped by Leonard after T08 ('forget it, I give up'). Eight takes, 168 credits, none approved. No request pending. Best partial takes by Claude's read: T04 (angle Leonard liked), T08 (on the street lamp, three readable kills). Open causes, in stories/MISTAKES.md: reference frames get copied, loc_square brings traffic lights, the old naming in docs/PROMPTING.md."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on start frame v1: 'no. Use the animatic.' Animatic d11 S09_SH040 frame 0 saved as 05-generation/refs/001_S09_SH040_REF_animatic_d11_f0.png, uploaded and filed in REFS (image 6397eefd-b096-4591-9011-8b15debd8cb7). REQUEST S09-SH040-ref-v2 prepared, not submitted: Seedream 5.0 Pro edit of the animatic frame into a photograph, keeping its camera, framing and positions (README method: photoreal start frame made over the animatic frame); look and light from the SH020 frame; prompts/001_S09_SH040_REF_start-frame_v2.txt; refs animatic 6397eefd, SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25; 2k, 21:9; 2.5 credits. He is moved from the street light to the case (Leonard's T02 note)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T02 rated 3 (inferred: 'fine, but not cinematic, an AI composition'). REQUEST S09-SH110-c prepared, not submitted: T03, prompts/001_S09_SH110_T03.txt = T02 angle with a long lens (about 75mm anamorphic, style.md camera grammar), off-axis unbalanced frame (near corner of a block filling the left half, street opening in the right third), sun hidden behind the corner flaring, untidy varied body poses cut by the frame edges, paper skids along the ground and stays solid, no shop signs. Same refs and settings as T02. Cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref-v2 approved by Leonard ('let's see it'): seedream_v5_pro edit over the animatic, job a1ee1a66-a520-4c92-82a1-fce080768ca0, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v2.png (3120x1328). Claude's read: the animatic camera and layout held (helicopter left nose right, corner of the square behind, tall pole at right), photographic, sunset backlight with flare; she steps out by the cockpit; he right of center near the open case, facing her; bodies scattered. Off: an extra man standing in the background by the corner; he stands a step from the case, not right at it; he is a little larger than in the animatic."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-d approved by Leonard ('ok go, 18 credits'): S09 SH050 T04, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, start frame b9d2e155 (T02 frame 0) plus refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T04.txt. Job ddb88cc6-4481-4105-b29b-d0fbe16251e1. The request echo lists the start frame under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 done: job ddb88cc6, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4. Not yet rated by Leonard. SH050 total 72 credits over four 480p drafts."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S10-SH010-b prepared, not submitted (Leonard: use the animatic as a reference, not frame by frame, a cinematic ending shot). S10 SH010 T02, prompt prompts/001_S10_SH010_T02.txt: T01's references plus the d11 clip as a line drawing (refs/001_S10_SH010_lines_d11.mp4, media 53cc3d81) with a loose-guide paragraph (idea, rough path, order and pace; positions and timing free). Added: the helicopter crosses the low sun (silhouette, flare), the camera sinks later (8 s), rim light on the bobblehead, dust hanging in the sun shafts, rotor fading to near silence, a 5 s still closing image. Risk: the README rule (a set clip on a place-filled frame came out as previz on S02); Leonard asked for the clip. seedance_2_5 omni_reference, 480p, 21:9, 20 s, audio on, preflight 60 credits, balance 25803.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on start frame v2: more distant; the old man and the politician are the same element. Claude's review: v2 has him twice: the small standing man by the corner is the animatic's figure at the right distance, and the large old man in the right foreground is a second copy, caused by the v2 prompt describing 'the standing figure' and then 'the old man from image 4 ... beside a briefcase' as if separate, plus 'not at the street light'. REQUEST S09-SH040-ref-v3 prepared, not submitted: Seedream 5.0 Pro edit of v2 (job a1ee1a66) with char_politician_final 547bbfa3: remove the foreground old man and his case, the far standing figure becomes him with the open case at his feet; prompts/001_S09_SH040_REF_start-frame_v3.txt; 2k, 21:9; 2.5 credits, balance 25,803.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 rated 2 (inferred: folder too big, too orange, too fake, needs to feel like 35mm). Two free ffmpeg regrades of the T02 start frame made (refs/001_S09_SH050_T02_frame_0s_grade-a.png milder, grade-b stronger: less orange, more contrast, grain), sent to Leonard to pick. T05 prompt prepared (request S09-SH050-e, not submitted): T04 with palette_sunset dropped, a small thin folder, pale gold instead of orange, an organic film paragraph; the start frame becomes the picked grade. Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'no edits, I thought we've been through this already': start frames are generated fresh, never as edits of a previous still. Claude found no written record of this rule in docs/ or the bible. The edit request (v3 edit of v2) is withdrawn, never submitted. REQUEST S09-SH040-ref-v3 replaced: a fresh Seedream 5.0 Pro generation over the animatic frame, same five references as v2 (animatic 6397eefd, SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25), prompt prompts/001_S09_SH040_REF_start-frame_v3.txt = v2 with one fix: the far standing figure is the politician, at the animatic's size and distance, the only old man, case at his feet, standing people two. 2k, 21:9, 2.5 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard picked grade B for the S09 SH050 T05 start frame: refs/001_S09_SH050_T02_frame_0s_grade-b.png, upload c019ba79, filed in REFS (placement 456a921c). Request S09-SH050-e final: start frame c019ba79, refs 547bbfa3, 7ef41962, prompt prompts/001_S09_SH050_T05.txt, 18 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH110-c approved by Leonard ('ok go, 12 credits'): S09 SH110 T03 submitted, job b42f3a44-52ca-4133-9f67-2086c980e69e, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T03.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref-v3 approved by Leonard ('let's see'): fresh seedream_v5_pro generation over the animatic, job e0dce43e-d39d-46b1-90c7-9c511d3b8781, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v3.png. Claude's read: one old man only, far back right of center by the corner at the animatic's distance, folder at his chest, in profile facing left, open case about a step from him; she steps out at the helicopter's nose; animatic camera and layout; sunset backlight. REQUEST S09-SH040-e prepared, not submitted: T05, seedance_2_5 omni_reference with v3 as start_image (e0dce43e), char_boss 7ef41962, char_politician_final 547bbfa3, prompts/001_S09_SH040_T05.txt, 4 s, 480p, 21:9, audio on, 12 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on start frame v3: 'ok but the helicopter needs to be rotated 90 counter clockwise'. Read by Claude as seen from above: nose from screen right to straight away from the camera, tail boom toward the camera [ASSUMPTION]; she exits by the right-hand door, facing him. T05 (S09-SH040-e) on hold. REQUEST S09-SH040-ref-v4 prepared, not submitted: fresh generation over the animatic, v3 prompt with the helicopter turned, prompts/001_S09_SH040_REF_start-frame_v4.txt, same five references, 2k, 21:9, 2.5 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'why so verbose all the time? It's a miracle the image generators can come up with something.' Start frame v4 prompt cut from about 450 words to about 110, same five references, same request S09-SH040-ref-v4, 2.5 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T03 done: job b42f3a44, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T03.mp4, recorded in shotlist.json, waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S10-SH010-b approved by Leonard ('let's see what comes out', 60 credits) and submitted: S10 SH010 T02, job 2cd023a3-ec4f-45c7-a2c0-e90921edacfc, folder Scenes/S10/SH010. The job echo lists the guide clip 53cc3d81 among reference_images, not as a video reference: check whether the clip acted as a motion guide."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref-v4 approved by Leonard ('try'): job b0c839c8-e82d-461f-85ed-f25c91a4ecfb, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v4.png. Claude's read: helicopter turned as asked (seen from behind, tail toward the camera), she steps out of its right side facing him, one old man. Lost: the animatic's camera and distance: the place became the SH020 corner (traffic light, yield sign, slumped man) and he stands close, about two meters from her, not far back."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 downloaded (job 344b204b, 12 credits, t2v, no references), takes/S08/SH030/001_S08_SH030_T04.mp4. Passed the filter with blood. Narrow dirty streets, packed crowd, three hits with blood pools, short kicks. Off-brief: low near-street-level angle instead of high from the helicopter, the scope circle drifts, faint crosshair. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 rated 1 (inferred, Leonard: 'no, it's supposed to be from high up, not in a narrow street'). REQUEST S08-SH030-e prepared, not submitted: T05, prompts/001_S08_SH030_T05.txt (T04 v3 plus: about 300 m up, looking steeply down at about sixty degrees, rooftops at the edges of the circle, no horizon or sky in the circle, never from street level; bigger recoil, a third of the circle off target). seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, estimate 12 credits, balance 26054.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-e approved by Leonard ('go, 12 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 1fdf43ac-4d2c-427e-8062-37e2c29146a1), no job id returned, nothing charged. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-e resubmission approved by Leonard ('go, 12 credits') after the 429 refusal and submitted: S08 SH030 T05, job 962697eb-ab58-424c-9436-88447b3e6596, seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T05.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T05 downloaded (job 962697eb, 12 credits, t2v), takes/S08/SH030/001_S08_SH030_T05.mp4. High steep angle over rooftops, no sky; three kicks, stronger than T04; blood; passed the filter. Off-brief: the scope ring is small and slides across the frame with the town visible outside it. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T05 rated 1 (inferred, Leonard: 'no, this is all wrong'). SH030 so far: 5 takes, 60 credits; T03 (approved, 'good enough') stays the chosen take. Nothing new prepared. Proposed: start from T03's own first frame (start_image) so its scope, angle, place and crowd carry over, and change only what Leonard asked on T03; open question: what 'tighter roads' meant (read twice as narrow streets, both rejected)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030, Leonard: 'everything is wrong'. No spend. Free comp on the approved T03: 05-generation/comp/001_S08_SH030_T03_kick_v1.mp4 (ffmpeg here): a recoil kick at each of T03's two shots (audio peaks 0.94 s and 3.06 s): the frame jumps up and sideways, 5-frame blur, a decaying shake over about 0.3 s. T03 itself unchanged."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 done: T03 with the recoil kick comp (comp/001_S08_SH030_T03_kick_v1.mp4), Leonard: 'this works' (rating 4 inferred). Two kills, no blood, the open square, as in T03. Lesson: after an approved take, change only what was asked, on top of that take (post first, then a start frame from it); rebuilding the prompt lost everything T03 had (T04, T05)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH060-b approved by Leonard ('ok go, 24 credits') and submitted: S09 SH060 T02, job 02079cd7-04d0-4fe5-8491-38e1a9e928b9, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, refs char_boss, prop_helicopter, loc_square, palette_sunset, no guide clip, folder Scenes/S09/SH060, prompt prompts/001_S09_SH060_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH060 T02 downloaded (job 02079cd7, 24 credits): 8.06 s, audio present. Closer and harder than T01; the page is held up beside her face at 1-4 s, the blurred edge of his head sits at the right frame edge. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH060 T02: 'love it, use both (actually this last one is 080 while the t1 should be 060)'. T02 rating 5 + love. Edit: SH060 from T01 (0-4 s), SH080 from T02 ([ASSUMPTION] its 4-8 s). SH060 and SH080 approved. What made T02 work: the closer size and an acting task built on silence as punishment (the swallowed attack)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T01: background not right but it works, film quality there (rating 4, inferred). T02 prompt prepared (request S09-SH090-b, not submitted): prompts/001_S09_SH090_T02.txt, tighter close-up, 7 s (4 s hold on his expression, then he limps past her on the left side of the frame and out past the camera), long lens wide open with a heavy real blur on the background, limping footsteps in the audio; same refs and settings as T01. Estimate 21 credits. Background question logged as questions.md #6."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-b approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T02, job 32e5bfd4-b103-488e-b352-38810ba70f7a, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T02 delivered (job 32e5bfd4), takes/S09/SH090/001_S09_SH090_T02.mp4 (992x432, 7.07 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T02: likes it (rating 4, inferred); unsure he looks at her; he must pass on her far side, she between him and the camera. T03 prompt prepared (request S09-SH090-c, not submitted): prompts/001_S09_SH090_T03.txt, over her right shoulder (char_boss 7ef41962 added for her hair and jacket from behind), his eyeline on her face just right of her ponytail, he limps behind her and out frame left; 7 s, 480p, 21:9, audio on. Estimate 21 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-c approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T03, job bdd41913-1592-4578-bb76-97298fd1b528, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, char_boss, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T03.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T03 delivered (job bdd41913), takes/S09/SH090/001_S09_SH090_T03.mp4 (992x432, 7.07 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T03: 'good' (rating 4, inferred)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-e approved by Leonard ('try'): S09 SH050 T05, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, start frame c019ba79 (grade B) plus refs 547bbfa3, 7ef41962, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T05.txt. Job c108331e-60e8-4fe0-8dd5-774c264e0610."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T05 done: job c108331e, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T05.mp4. Regraded start frame carried its grade (less orange, grain). Not yet rated by Leonard. SH050 total 90 credits over five 480p drafts."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-f prepared, not submitted (new session, from scratch, branch s09-sh050-v2): S09 SH050 T06, prompts/001_S09_SH050_T06.txt, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, no start frame, elements char_politician_final and char_boss (<<<id>>>), palette_sunset 1f563179 as image reference, no loc_square (its image is the wide avenue), folder Scenes/S09/SH050. Folder upright against his chest as in animatic d11; dusty pale trousers so the wet stain reads. Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S10 SH010 T02 in (job 2cd023a3, 60 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T02.mp4, 20.06 s, 992x432, 24 fps. Claude's read in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard's notes on request S09-SH050-f before submitting: he is arrogant and superior to her, the line grumpy as a warning repeated many times that came true, the folder given dismissively, the folder the same as S09 SH030. Prompt v2: prompts/001_S09_SH050_T06_v2.txt (folder matte warm grey card as in SH030 T01, held by one corner, flexing in the wind). Same settings, preflight 18 credits. Conflict: SH060 T01 (approved) shows a dark blue folder, SH030 T01 a grey one."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-f (v2) approved by Leonard ('let's see') and submitted: S09 SH050 T06, job adff67e3-e22c-48d8-8c8f-ae16120c71eb, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, char_politician_final, char_boss, palette_sunset 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T06_v2.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S10 SH010 T02 rated 1 (inferred, Leonard: so many things wrong; notes in shotlist.json). REQUEST S10-SH010-c prepared, not submitted: T03, prompts/001_S10_SH010_T03.txt, no guide clip (the d11 clip carries the early bobblehead and the rise from below), same five images. Lift-off seen in the sky beyond the rooftops ahead [ASSUMPTION: the square lies ahead of the car, toward the sun], closest pass in a bank at 10 s, the wash sways the car, paper stays outside, pedestal down from 14 s, bobblehead from 15 s, still from 17 s. 480p, 21:9, 20 s, audio on, preflight 60 credits, balance 25658.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S10-SH010-c approved by Leonard ('let's see', 60 credits) and submitted: S10 SH010 T03, job e29dc213-60ce-481e-a3b3-529804f8db4b, folder Scenes/S10/SH010."
     }
   ],
   "story_sync": {

@@ -1,0 +1,32 @@
+Audio: only three sharp, flat, distant rifle cracks from high above, the shouting and screaming of a crowd with no clear words, many running footsteps scattering on dusty paving, and the soft wind of the square. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Video1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position and framing, the rough positions of the people and of the bodies on the ground, the paths of the runners, and the timing of the three falls. Take NOTHING else from it, ever: not its shapes as objects, not its lines, not its surfaces, colors, light or style. Every person, building and object in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+@loc_square (@Image1): the square at the corner of the building: its facades, shuttered ground floor, balconies, the single street lamp at the corner, the paving and curbs, their color and texture only, not its people or framing. @char_politician_final (@Image2): the old man's white hair, build, torn dusty charcoal suit, stained white shirt and rust tie only, not his pose or background. @palette_sunset (@Image3): the color and light of the sunset only, nothing else from it.
+
+Wide locked-off shot on a long lens from the street, across the square of a desert town at sunset: the old man from @char_politician_final hangs upside down by one ankle from the street lamp at the corner, men already lie still on the paving around it, and a scattered crowd crosses the square; a sharp crack comes from the sky, then another every two seconds, and three people drop one after another, the last one while he runs, while everyone else runs away.
+
+The square from @loc_square is a real, lived-in place photographed on location, never blocky or simplified: the corner of a four-storey apartment building of cracked and patched ochre plaster across the frame, dented rolled-down metal shutters on the ground floor, small balconies, chipped curbs, drifted sand and grit on the old paving. One street lamp on a tall pole at the corner, left of center. Nothing looks like a box, a slab or a 3D model.
+
+The old man hangs head down from a rope tied to the arm of the street lamp, small in the frame at this distance, left of center, his arms hanging toward the ground, turning slowly on the rope. Below him and to the right, along the foot of the building, the men already lying still on the paving, where they fell earlier: they stay exactly where they are for the whole shot and never move.
+
+The crowd: about twenty real, ordinary townspeople, men and women of every age and build, in faded mismatched everyday clothes in dusty browns, greys, whites and muted colors, spread across the square at different distances, small at this distance. Nobody looks into the lens.
+
+The falls stay far and soft, seen through dust and haze: each person simply drops to the paving at the moment of a crack and lies still. Not graphic: no blood, no visible wounds, no impact on the body, no close detail. At this distance only the sudden drop and the stillness read.
+
+Lighting, motivated by the sun only: a low sunset sun from screen left, raking across the square, deep orange and gold; long soft shadows of the people, the lamp pole and the hanging man stretch across the paving toward screen right; the facades glow warm orange on their sunlit side; golden dust hangs in the air and softens the whole square. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped. Long lens: the square looks compressed and flat, heat shimmer and haze over the far paving, everyone small.
+
+0-1s: wide, locked-off, framing from @Video1. The square at sunset: the old man hanging upside down from the lamp, the men lying still at the foot of the building, the townspeople in loose groups across the square, some walking, some standing, some shouting toward the hanging man.
+1-2s: a sharp crack from the sky. A man in the left foreground, walking toward screen right, drops straight down onto the paving and lies still. The people nearest him jump and turn their heads up toward the sky.
+2-3s: the crowd breaks: people start running in every direction, toward screen left and screen right, away from the lamp; some crouch and cover their heads.
+3-4s: a second crack. A woman running toward screen left, left of the lamp, drops onto the paving and lies still. The others run faster, past her.
+4-5s: the runners spread out toward the edges of frame; a man in a white shirt sprints toward screen left across the middle of the square.
+5-6s: a third crack. The running man in the white shirt drops mid-stride, slides a little on the paving and lies still, at the left of frame.
+6-7s: the last runners leave the frame at both edges. Final frame: the same locked-off wide shot, the square almost empty, the three new bodies lying still on the left half of the paving where they fell, the earlier dead still at the foot of the building, the old man still hanging upside down from the lamp, turning slowly, golden dust drifting in the low sunlight.
+
+Count of street lamps: one. Count of people hanging: one. Count of ropes: one. Count of people who fall in this shot: three, one at each crack, never more. No helicopter in frame, no shooter in frame, no muzzle flash. No cuts, no slow motion, no zoom, no camera shake. All movement at real-life speed. Never copy the look of @Video1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery. No traffic lights, no cars.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only three sharp, flat, distant rifle cracks from high above, the shouting and screaming of a crowd with no clear words, many running footsteps scattering on dusty paving, and the soft wind of the square. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

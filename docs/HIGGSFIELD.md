@@ -23,12 +23,25 @@
   be "re-rendered" at 1080p: a new generation is a new performance. Choose the final resolution
   before generating the take you hope to keep.
 
+## Drafts and finalizing
+
+- A 480p seedance_2_5 take is sent with `draft: true` only when the job allows it. Same price
+  as a plain 480p render.
+- Only a draft job can be finalized: a new job with `draft_job_id`, within seven days of the
+  draft. The final renders the draft's full duration at the final resolution's price.
+- A take sent without the flag can never be finalized.
+- A `video_edit` at a higher resolution is not a substitute for finalizing: it keeps the
+  performance but adds no detail (001 S04 SH070 T03: SSIM 0.972 against a bicubic upscale of
+  the 480p take, edge energy slightly lower, 31 credits).
+- Not allowed: image inputs with no video reference (001: 3 of 3 failed, refunded). Those takes
+  go out without the flag, and the approval request says they cannot be finalized.
+
 ## Elements (characters, locations, props)
 
 References are Higgsfield Elements, named like the existing ones:
 `char_<name>`, `loc_<name>`, `prop_<name>` (lowercase, hyphens, 32 characters max).
-With seedance_2_5 an element is passed by its image job id in `medias` (`image_references`);
-the prompt names it `@char_<name> (@Image1)`, in `medias` order (rules in `docs/PROMPTING.md`).
+An element goes into the prompt as `<<<element_id>>>`, never as its image job in `medias`
+(rules in `docs/PROMPTING.md`).
 Each element's id goes in its bible document
 (`03-bible/characters/<name>.md` and so on). The images come from the director's own pipeline.
 
@@ -36,17 +49,26 @@ Each element's id goes in its bible document
 
 ```
 Higgsfield project: "SF 001 Title"
-  REFS/            stills used for elements, start and end frames
-  S01/
-    SH010/         every take of shot 1 of scene 1
-    SH020/
-  S02/ ...
-  MUSIC/
+  Scenes/
+    S01/
+      SH010/       every take of shot 1 of scene 1
+      SH020/
+    S02/ ...
+  REFS/            uploaded stills: references, start and end frames
+  Elements/        element images
+  Documents/
   TESTS/           structure tests
+  MUSIC/           only when the film has music
 ```
 
 Folders are created when first needed. Project and folder ids are stored in
-`films/<film>/film.json` under `higgsfield`, so generations always land in the right place.
+`films/<film>/film.json` under `higgsfield.folders` (keys `Scenes`, `S01`, `S01/SH010`, `REFS`),
+so generations always land in the right place.
+
+- A new scene folder is created with `parent_folder_id` = `higgsfield.folders.Scenes`, a new shot
+  folder with its scene folder's id. Nothing scene-related goes at the project root.
+- Before creating any folder, list the parent's children (every page) and reuse the folder with
+  the same name. Never create a second folder with the same name.
 
 ## Approval protocol
 

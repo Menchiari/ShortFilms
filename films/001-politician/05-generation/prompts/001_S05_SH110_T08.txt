@@ -1,0 +1,39 @@
+Audio: only a short gust of wind, the dry flapping of a few paper sheets high overhead, distant city traffic, shoes scuffing on the pavement and a couple of low muttered wordless voices. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of the people. Take NOTHING else from it, ever: not its shapes as objects, not its boxy figures, not its lines, surfaces, colors, light or style, and not the large rectangle that crosses the frame: no paper ever passes in front of the lens. Every building, street, object and person in the result is real and photographed, and comes only from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1, the reference image of the bond: the look of the paper only (cream sheet, green border), not its framing or its background.
+
+Unstaged documentary footage, low angle, handheld, in a side street of a present-day European city in the afternoon: a crowd of townspeople has gathered around a man lying on the street, they stop and look up at a few sheets of paper blowing high over their heads, then look back down at him, hard.
+
+This must look like real footage of a real moment, filmed by a camera operator who happened to be there: nothing posed, nothing arranged, nothing beautified.
+
+The street is a real, lived-in side street of a present-day European city photographed on location, never blocky or simplified: five- and six-storey apartment buildings with worn plaster facades in faded ochre and grey, iron balconies, tall windows with roller shutters, a few closed shopfronts with metal shutters, cables and a street lamp, parked scooters, a dented rubbish bin, cobbles and patched asphalt. Nothing looks like a box, a slab or a 3D model.
+
+The crowd: about ten present-day townspeople, each a different person, in ordinary modern clothes: jeans, hoodies, a leather jacket, a tracksuit, work trousers, a fleece, sneakers, a woman in a parka with a shopping bag, a man in a plain shirt and a cheap tie, a young man with a phone in his hand. Different ages, builds and faces; nobody looks alike. Nothing old-fashioned: no waistcoats, no robes, no flat caps, no costumes. Hard, tired, angry faces, jaws set, nobody smiling.
+
+The paper: six loose sheets from the bond in image 1, each the size of an A4 page. Count of sheets: six. They blow high overhead, at the height of the second-floor balconies, far from the camera, never in front of the lens, never covering the frame.
+
+Lighting, natural and unstyled: afternoon sun out of frame behind the buildings at screen right, a pale hazy sky; the street in soft open shade, only the upper floors at the left catch the sun. Natural low-contrast light on the faces. No lens flare, no glow, no light rays. Muted natural colors. Deep brown shadows that keep their detail, highlights that roll off softly, never clipped.
+
+Lens: anamorphic on 35mm film, used plainly: slight softness and stretch toward the frame edges, fine organic grain, true-to-life color. Real and imperfect, never polished.
+
+0-1s: low angle from just above the pavement, camera position, framing and movement from Video 1: the people stand around the camera, the nearest ones big in frame looking down past it, others further back in the street. A gust lifts the six sheets high up the street behind them. Camera: handheld, small natural movement, as in Video 1.
+1-2s: the six sheets flap high over their heads at balcony height. The people look up and follow them with their eyes, a couple of them turn their heads after the paper.
+2-3s: the sheets drift on up the street. One by one the people lower their eyes from the paper back down to the man on the ground just beside the camera, and the look hardens. One man at screen right steps in closer, as the figure in Video 1 does.
+3-4s: one continuous take, no cut. The people stand over the camera, close, looking down just past it, the sheets small and far behind them in the sky. Final frame: low angle, the people standing over the camera in a tight ring of faces looking down, two or three sheets drifting far behind them.
+
+ACTING TASK, the crowd (each one fully invested; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): a thief is running through our street: stop him.
+MOTIVE (their fuel): this is their street, and the man on the ground is a stranger who ran through it.
+GOAL: keep him down until they know what he took.
+OBSTACLE: the paper over their heads looks like money, and every one of them wants to look.
+TACTIC: each one lets the paper pull his eyes up for a moment, catches himself, and drags his eyes back down to the man on the ground, checking that the others are still with him.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence. Nobody looks into the lens: their eyes go to the ground just beside it.)
+
+One single continuous shot from the first frame to the last: no cuts, no slow motion. Count of sheets: six, always far from the camera, none readable. Never copy the look of Video 1.
+
+No readable writing on any sign, vehicle, shop or wall, no logos, no flags, no landmark. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a short gust of wind, the dry flapping of a few paper sheets high overhead, distant city traffic, shoes scuffing on the pavement and a couple of low muttered wordless voices. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

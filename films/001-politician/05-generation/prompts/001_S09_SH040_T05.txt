@@ -1,0 +1,36 @@
+Audio: only the heavy thudding beat of helicopter rotor blades slowing at idle close by, the whine of its engine, gusts of wind and grit hissing across the asphalt, and loose paper sheets flapping and skittering on the ground. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1 is the exact first frame of this shot: start from it and keep its camera, framing, place, light, film look and every person and object exactly where it is. @char_boss (@Image2): the woman's face, hair, build and clothes only, not her pose or background. @char_politician_final (@Image3): the old man's face, white hair, build and torn dusty suit only, not his pose or background.
+
+A locked-off wide shot from a big-budget live-action action film, continuing from @Image1: in a square of a desert town at sunset, the woman from @char_boss finishes stepping down out of the landed black helicopter at the left, walks a few composed steps clear of it and stops, waiting, while far back by the corner of the square the old man from @char_politician_final stands still beside his open briefcase, the folder at his chest.
+
+The helicopter stays exactly where it is in @Image1, on its wheels at the left, unmarked, its rotor blades turning slowly in a soft blur for the whole shot; the dim seated man inside the open cabin door stays in his seat. Count of helicopters: one.
+
+The old man stays exactly where he is in @Image1, far back right of center by the corner, small in frame, in profile facing left toward her, the folder at his chest, the open briefcase on the asphalt beside him. He does not walk. He is the only old man in the shot. Count of standing people: two, the woman and the old man.
+
+The bodies lie still where they are in @Image1 for the whole shot. A few loose paper sheets on the asphalt skitter and flip in the gusts from the rotor; fine dust drifts low across the ground.
+
+Lighting, as in @Image1: the low orange sunset sun at the upper left above the rooftops, hard backlight, warm rims along the helicopter and the people, long shadows reaching toward the camera, dust glowing in the air, the anamorphic flare. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-1s: camera locked-off and perfectly still for the whole shot, the framing of @Image1. The woman from @char_boss brings her second heel down onto the asphalt beside the helicopter's nose and lets go of the door frame, back straight, chin level, her head dipped only slightly under the blades, one hand smoothing her jacket closed.
+1-3s: she walks four steps toward screen right, toward the old man, at an even, unhurried pace, upright and composed, sure-footed on her heels, never stumbling, never shielding her face, her hair and jacket stirred by the wash while she ignores it. Clear of the blades she stops cleanly, feet together, still much closer to the helicopter than to him.
+3-4s: she stands still and waits, her hands at her sides, her eyes on him. He stays still beside the briefcase, far back. Final frame: the framing of @Image1; the helicopter at the left, rotor still turning; the woman standing upright a few steps right of the helicopter's nose, facing screen right; the old man small and far back by the corner, beside the open briefcase, facing her; the camera unmoved.
+
+ACTING TASK, the woman (she is fully invested in her tactic; the work happens in her eyes):
+SCENE DIRECTION (shared, unspoken): business as usual: close it clean and leave.
+MOTIVE (her fuel): she has paid for this day and everything in it, and the man across the square is an account to settle, nothing more.
+GOAL: make him come to her.
+OBSTACLE: the square is full of the dead she paid for, and one step toward him would mean she needs something from him.
+TACTIC: she plants herself and lets the distance do the asking: her eyes find him across the square at once and stay on him, check his hands for the folder, check his legs for how far he can still walk, and wait for him to move first. She gives him nothing: a calm, closed face.
+ACTING TASK, the old man: he does not move toward her yet; his eyes hold hers across the square, measuring what she will make him pay to cross it.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Both keep their mouths closed: no words. Nobody looks into the lens. No other vehicles. Not graphic: no blood pools, no visible wounds at this distance. No slow motion: real time, no cuts.
+
+Film look: a real live-action frame from a high-budget 2010s Hollywood action movie, shot on location with a real full-size helicopter and real actors, never a render, previz, toy model or video game. Panavision anamorphic lenses: a long horizontal amber lens flare streaking across the frame from the low sun, oval bokeh, gentle barrel distortion and softness toward the frame edges. A Black Pro-Mist diffusion filter: highlights bloom softly, a warm halation glows around the sunlit edges of the helicopter, the people and the rooftops. Visible organic 35mm film grain over the whole frame, rich contrast, deep blacks lifted slightly into brown. Real-world mess and texture everywhere: the helicopter's matte paint scuffed and dusty, rivets, panel seams, antennas and exhaust ports, a heat shimmer above its engines, a big cloud of dust and grit thrown up off the asphalt by the rotor wash and rolling across the square, uneven worn asphalt with oil stains, cracks and rubbish, weathered facades with irregular windows, pipes, wires and air-conditioning units.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or aircraft, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the heavy thudding beat of helicopter rotor blades slowing at idle close by, the whine of its engine, gusts of wind and grit hissing across the asphalt, and loose paper sheets flapping and skittering on the ground. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

@@ -1,0 +1,30 @@
+Audio: only the low steady thump of helicopter rotor blades and the whine of its turbine, heard from inside the cabin, one slow held breath let out through the nose, then one single sharp rifle crack. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the corner of the square only: the tall metal street light on the curb with its single arm reaching out over the pavement, the plain weathered concrete wall behind it and the dusty pavement, not its framing, people or parked cars. @char_politician_blood (@Image2): the old man's dusty charcoal suit trousers and black leather shoe only, not his face, pose or background. @palette_sunset (@Image3): color and light only.
+
+A magnified telephoto view through a rifle scope, from a helicopter high above and far from a square in a desert town: the view drifts across the arm of the street light, settles on the taut rope that hangs from it down to the ankle of the old man from @char_politician_blood, who dangles upside down beside the curb, holds dead still on the rope, and a rifle crack jolts the view.
+
+What the frame holds: a very long lens from high above and far away, looking down at a steep angle, flat and compressed, a light warm haze between the lens and the street. One taut rope runs vertically through the middle of the frame, from the metal arm of the street light at the top edge down to a tight knot around the ankle of a dusty charcoal trouser leg and a black leather shoe in the bottom third of frame; the rest of his body hangs below the bottom edge, out of frame. Behind the rope, out of focus, the weathered concrete wall and the dusty pavement. The image is clean optical footage: no scope ring, no crosshair, no boxes, no numbers, no overlay of any kind. The image fills the whole frame edge to edge.
+
+The rope and the place are real and photographed, never simplified: a thick, frayed, pale natural fiber rope with real twist and texture, stretched straight by a real body's weight; the street light's arm is chipped and dusty painted metal; the wall is pitted, stained concrete. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low sunset sun from screen left, deep gold and amber, raking across the rope, the trouser leg and the shoe, putting a hot warm edge on the left side of the rope and the fibers that stick out of it; the wall behind sits in long warm shade. Dust and haze glow gold between the lens and the street. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: the magnified view drifts slowly down along the arm of the street light toward the rope, with the small slow sway of a long lens held from a hovering helicopter, and finds the rope. The rope turns very slightly on itself, the leg below it swinging a few centimeters, slower and slower.
+2-3s: the view settles: the rope sits exactly in the vertical center of frame, the knot and the shoe in the bottom third, and the drift dies away until the image is almost still, only the faint hum of the helicopter in it.
+3-4s: one rifle crack: the whole view jolts up and sideways in one short sharp kick, then swings back and settles near the same framing, the rope still in frame, still whole and taut. Final frame: the rope vertical near the middle of frame, the knot and the shoe in the bottom third, the wall soft behind, the view swaying gently back to rest.
+
+ACTING TASK, the shooter behind the scope (he is fully invested in his tactic; the work happens in the view):
+SCENE DIRECTION (shared, unspoken): the job is done, clean it up and go home.
+MOTIVE (his fuel): he was told to stop, and he will show her he can still make one perfect shot.
+GOAL: put one bullet through the rope.
+OBSTACLE: the helicopter sways, the rope turns, and the man on it is still swinging.
+TACTIC: he waits the swing out, letting the view hunt the rope and slow down with it, lets his breath out, and takes the shot in the one still moment.
+
+Count of ropes: one. Count of street lights: one, with one arm. Count of people in frame: one, only his leg and shoe. Nobody else, no other bodies, no cars in the frame. Real-life speed, no slow motion, no cuts. Not graphic: no injuries, no blood in frame.
+
+Unplaceable town: no landmark, no flag, no readable writing, no logos. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the low steady thump of helicopter rotor blades and the whine of its turbine, heard from inside the cabin, one slow held breath let out through the nose, then one single sharp rifle crack. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

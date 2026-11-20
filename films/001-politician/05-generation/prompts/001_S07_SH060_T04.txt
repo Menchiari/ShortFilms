@@ -1,0 +1,31 @@
+REQUEST S07-SH060-e, prepared, waiting for approval: S07 SH060 T04 = the sequel of T02. Source: T02 (job 867641cb) as it is, extended forward 5 s. seedance_2_5, mode video_extension, extension_mode forward, 480p, audio on, folder S07/SH060. Images: 1 = char_politician_blood (0d0a5637), 2 = char_big-guy (6228445b), 3 = prop_bar-weapon (8d69a591).
+Leonard 2026-11-19: make a sequel: he keeps hitting him repeatedly and the politician keeps blocking the hits with his hands, hurting himself at each block, gasping, resisting the overwhelming pain with anger.
+Edit: T03 (prequel), T02, then the new 5 s. [ASSUMPTION] The sequel belongs to SH060 (one continuous take: prequel, big swing, sequel); the screenplay is not changed until Leonard says so. Wording kept soft (T03 v1 was blocked as nsfw): the strain is played in his acting, not named with pain words.
+
+Prompt:
+
+Audio: only the dull clangs of the iron bar on his forearms and hands, one after another, his sharp gasps and strained grunts through clenched teeth, his ragged breaths, the creak of the rope, bodies shoving and colliding, and the close deafening roar of the crowd shouting right around the camera, with no words that can be made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Continue the video forward from its last frame for 5 more seconds, the same shot without a cut: the same violent handheld camera inside the packed crowd at his head height, shoved and jostled, never steady, the same warm low backlight through the dust, the same old man hanging upside down by one ankle low among the crowd in the left half of frame, the same heavy-set man with the iron bar at the right. @char_politician_blood (@Image1): the old man's face, hair, build, dusty charcoal suit, stained white shirt, rust tie and the wound on his right eyebrow only, not his pose or background. @char_big-guy (@Image2): the heavy-set man's curly dark hair, mustache, build, faded brown t-shirt and dusty cargo trousers only, not his pose or background. @prop_bar-weapon (@Image3): the iron bar's rusty brown iron surface and the raised collar at each end only, not its background or angle. It is the size of a baseball bat, about 80 cm long and as thick as a wrist. Count of bars: one, always this one, always in the heavy-set man's hands.
+
+0-2s: the heavy-set man swings the bar down again with both hands, a quick chopping swing; the old man throws his forearms up and blocks it, the bar clangs on his forearms and bounces off. The block jolts through his arms: he gasps, his face twists, his arms shake, but he keeps them up. Straight away the heavy-set man brings the bar down again, and again the old man blocks it with his forearms, grunting through his teeth, swinging back on the rope.
+2-4s: a third quick swing; he catches it on his hands and forearms, his fingers spreading, a sharp gasp. He pulls his arms back up in front of his face, trembling, and glares at the heavy-set man through his arms, teeth clenched, breathing hard, refusing to drop his guard.
+4-5s: the heavy-set man lifts the bar again; the old man, swinging on the rope, his arms shaking, holds his forearms up, eyes locked on the bar. Final frame: the old man close in the left half of frame, upside down, forearms up in front of his face, glaring between them; the heavy-set man at the right with the bar raised in both hands; heads and shoulders of the crowd pressing in at every edge of frame; the camera handheld and shoved.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and he will not give this crowd the sight of him giving up.
+GOAL: keep his guard up until the man tires.
+OBSTACLE: every block jolts deeper into his arms, they shake more each time, and the man does not stop.
+TACTIC: his eyes never leave the bar: he reads every swing and meets it with his forearms; after each block he swallows the gasp, forces his shaking arms back up, and glares at the man to tell him he is still here and still fighting.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the heavy-set man: he wants the guard to break; each swing is quick and steady, his eyes on the old man's arms, waiting for them to drop; he keeps his mouth closed.
+
+ACTING TASK, the crowd: every one of them wants to get closer and get a hand on him: they shove forward, elbow each other, shout at him, reach for him. Men and women of every age, nobody looking into the lens.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the dull clangs of the iron bar on his forearms and hands, one after another, his sharp gasps and strained grunts through clenched teeth, his ragged breaths, the creak of the rope, bodies shoving and colliding, and the close deafening roar of the crowd shouting right around the camera, with no words that can be made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
