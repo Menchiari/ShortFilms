@@ -1914,6 +1914,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T03 rated 1 by Leonard ('no, the previous take was better'). T02 (rated 4) is the best take of SH050. Lesson: grade words in the prompt pushed the orange further (T03); grading belongs in Resolve. SH050 total 54 credits over three 480p drafts."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 prompt prepared (request S09-SH050-d, not submitted) on Leonard's 'use the background from T02': T02's first frame (refs/001_S09_SH050_T02_frame_0s.png, upload b9d2e155, filed in REFS, placement 9f678e1c) as start_image, plus char_politician_final, char_boss, palette_sunset; T03 prompt without the Grade paragraph (T03's angrier acting kept). Preflight 18 credits."
     }
   ],
   "story_sync": {
