@@ -7606,7 +7606,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7726,9 +7726,9 @@
                 "T04 e582e429 (extended backward)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S08-SH070-e. Backward extension of T04: the file is the new 4.00 s only, its last frame matches T04's first frame (checked side by side). Play T05 then T04 for the full shot (8 s). 992x432, 24 fps, audio present, no crack in it. Claude's read (frames, not heard): same narrow scope ring and crosshair as T04, photoreal sunset. 0-0.5 s blurred whip over rooftops; about 0.5-0.8 s a stop on a cracked facade with a satellite dish, water tanks and a shutter; 1.0 s whip; about 1.2-1.6 s a stop on a sunlit street with shuttered shopfronts, a pole and the curb; 1.7-2.2 s blurred swing down; 2.3 s the rope enters over the street; 2.5-4.0 s settles on the vertical rope. No people."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH070-e. Backward extension of T04: the file is the new 4.00 s only, its last frame matches T04's first frame (checked side by side). Play T05 then T04 for the full shot (8 s). 992x432, 24 fps, audio present, no crack in it. Claude's read (frames, not heard): same narrow scope ring and crosshair as T04, photoreal sunset. 0-0.5 s blurred whip over rooftops; about 0.5-0.8 s a stop on a cracked facade with a satellite dish, water tanks and a shutter; 1.0 s whip; about 1.2-1.6 s a stop on a sunlit street with shuttered shopfronts, a pole and the curb; 1.7-2.2 s blurred swing down; 2.3 s the rope enters over the street; 2.5-4.0 s settles on the vertical rope. No people. Leonard 2026-11-20: works."
             }
           ],
           "description": "The crosshair settles on the rope. A crack.",
