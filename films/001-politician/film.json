@@ -2822,6 +2822,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH040-b prepared, not submitted: prompts/001_S09_SH040_T02.txt (T01 minus the @Video1 guide paragraph, nothing else changed), seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, same five images, no video. Estimate 12 credits, balance 26,336.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard flagged '@element (@ImageN)' again in S09 SH020 T01 and T02. Root cause: his 2026-11-19 rule (elements by name only) was written to the log and to branch claude/prompting-ref-naming, which was never merged; film-sync does not merge docs, so main's PROMPTING.md, HIGGSFIELD.md, template v5 and MISTAKES.md kept the old form, and this session followed them. T01 (39 credits) was generated with the old naming. T02 superseded by prompts/001_S09_SH020_T02_v2.txt (only change: the (@ImageN) tags removed, the palette written @Image5 because it is not an element); same media, order and cost, request S09-SH020-b, 39 credits, not submitted. Docs fix plus a filmtool check guard on branch claude/docs-ref-naming-fix, waiting for Leonard to merge it into main (Claude's push to main was refused by the session permissions)."
     }
   ],
   "story_sync": {
