@@ -1886,6 +1886,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH010 T01: 'not too bad' (rating 3, inferred). Notes: motion too static and robotic (from the animatic); no liquid at all (Leonard: unnecessary, so the trouser stain is dropped from the shot); one small disrespectful spit, then one last breath and he gets up. REQUEST S09-SH010-b prepared, not submitted: prompts/001_S09_SH010_T02.txt, no guide clip, motion written as loose and uneven, the asphalt dry, ends with him getting up; framing described in words as T01 had it [ASSUMPTION: Leonard did not object to T01's wider framing]; refs char_politician_final, loc_square, palette_sunset; 480p, 21:9, 18 s, audio on, 54 credits (free quote)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: palette_sunset is not an element; use the element, not its image, and fix the rule at the root; simplify the prompt. Checked: the S01 SH010 T02 job (28fc84db, seedance_2_5) shows the backend took <<<char_politician>>> as a reference_elements entry, so the old rule 'Seedance 2.5 ignores placeholders' had no evidence. Fixed: stories/politician/elements.md here; docs/PROMPTING.md and docs/HIGGSFIELD.md on branch claude/elements-not-images (needs merging into main). REQUEST S09-SH010-b replaced by S09-SH010-c, prepared, not submitted: prompts/001_S09_SH010_T02_v2.txt (about 40% of T02's length), elements char_politician_final and loc_square as <<<id>>> in the prompt, palette_sunset 1f563179 as the only image in medias, named in words; no guide clip; 480p, 21:9, 18 s, audio on, 54 credits (free quote). T02.txt was never submitted."
     }
   ],
   "story_sync": {
