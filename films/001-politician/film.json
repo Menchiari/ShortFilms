@@ -2870,6 +2870,14 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH070 T05 in (job 136607b2, 12 credits), takes/S08/SH070/001_S08_SH070_T05.mp4: the 4 s prequel alone, ending on T04's first frame. Whip pans over rooftops, a facade and a street, then lands on the rope. SH070 total 60 credits over five 480p takes. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH020-b approved by Leonard ('ok go, 39 credits'): S09 SH020 T02, seedance_2_5 omni_reference, 13 s, 480p, 21:9, audio on, refs prop_briefcase 4bf36cb5, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, loc_square 62815a4f, palette_sunset 1f563179 (@Image5), no video, folder Scenes/S09/SH020, prompt prompts/001_S09_SH020_T02_v2.txt. Job 1eae9eeb-4d97-44dd-bbbe-da0afd0f929e."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 T02 delivered (job 1eae9eeb, 39 credits), saved as 05-generation/takes/S09/SH020/001_S09_SH020_T02.mp4. Claude's read: better light and flare, case reads open, fewer sheets; the city is still tall blocks around a wide plaza, sheets start in neat rows, bodies in a row. Waiting for Leonard's rating. SH020 total so far 78 credits."
     }
   ],
   "story_sync": {
