@@ -3298,6 +3298,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on the T04 plan: too colorful, it needs to look realistic. REQUEST S09-SH110-d withdrawn, never submitted. REQUEST S09-SH110-e prepared: T04 = prompts/001_S09_SH110_T04_v2.txt (muted, desaturated, documentary color, no orange or golden cast), reference = the SH050 T02 frame desaturated and neutralized with ffmpeg (refs/001_S09_SH110_REF_place_from_SH050_T02_muted.jpg, upload 51ed9b35). Same settings, cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on the muted reference: try again. Three new grades of the SH050 T02 frame (refs/001_S09_SH110_REF_place_from_SH050_T02_gradeA/B/C.jpg). REQUEST S09-SH110-f prepared: T04 = prompts/001_S09_SH110_T04_v2.txt with grade A (natural late sun, upload 30eaaf24) as the only reference, same settings, cost check 12 credits, waiting for Leonard's pick and approval. S09-SH110-e withdrawn, never submitted."
     }
   ],
   "story_sync": {
