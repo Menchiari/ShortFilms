@@ -1904,6 +1904,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH030 T03 accepted by Leonard ('good enough', rating 3 inferred). SH030 approved with T03. Lesson: the scope and crosshair work in camera with Seedance 2.5 when the prompt fixes the circle and reticle and says only the view inside moves; the kills read when the target is on the crosshair. The red and green face boxes and the hanging man are not in this shot (Leonard dropped the man); the green-box beat now lives only in SH070."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030, Leonard's changes on T03: tighter roads, three shots instead of two, stronger jolts (the shots are powerful), blood, realism and dirt. REQUEST S08-SH030-d prepared, not submitted: T04, prompts/001_S08_SH030_T04.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Same in-camera scope as T03; narrow, crowded, dirty streets leaving the square; three hits at 1, 2 and 3 s with a violent recoil kick and blur each time; blood puff, blood pool, dirt. [ASSUMPTION] 'tighter roads' = the narrow streets out of the square; the three hits are the three S08 SH040 kills seen through the scope. Filter risk raised by the blood (Leonard's call). estimate_video_cost 12 credits, balance 26336.7. Waiting for approval."
     }
   ],
   "story_sync": {
