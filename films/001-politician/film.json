@@ -2962,6 +2962,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T01 rated 1 by Leonard ('no'): wrong background (the take copied the loc_square element image, a wide avenue with towers and traffic lights), he must stand in the center of the square opposite the street light with a street behind him, background out of focus, line too nice. T02 prompt prepared (request S09-SH050-b, not submitted): loc_square dropped, square in words, shallow focus, sour fed-up delivery. Preflight 18 credits. [ASSUMPTION] 'opposite side of the light post' = the street light is out of frame behind the camera side."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'try again'. S09 SH010 T02 resubmission 1 (unchanged, production-plan rule 4, after the 12:04 refund): job 7414bb42-616f-45ce-85fa-4eeae71d8480."
     }
   ],
   "story_sync": {
