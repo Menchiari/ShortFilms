@@ -7857,8 +7857,36 @@
         },
         {
           "id": "SH040",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "8aa6cae0-6627-4c85-b8eb-57735c9e6265",
+              "prompt": "05-generation/prompts/001_S09_SH040_T01.txt",
+              "file": "05-generation/takes/S09/SH040/001_S09_SH040_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_helicopter 6c8efe25",
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179",
+                "video guide a972756a (refs/001_S09_SH040_lines_d11.mp4)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH040-a, draft, not yet rated by Leonard. Claude's read (contact sheet, audio level only, not heard): blocking and timing follow the guide: she ducks out of the helicopter at the left, walks a few steps clear and stops left of center, facing him; he stands by the street light at right of center, bodies and papers scattered, sunset haze from the upper left, long shadows toward the camera. Failure: the picture copied the line guide's geometry as 3D: the helicopter is the previz block shape (a dark box with a tail stub, not a Black Hawk), the buildings are clean stacked boxes, the ground a cracked render. Cause: a place-filling guide clip, the same failure as S02 (refs_d11/README), here even as a line drawing. Fix for T02 (one change): drop @Video1, words only."
+            }
+          ],
           "description": "The BUSINESS LADY steps out, low under the rotors, and stops a few steps from the helicopter. She waits.",
           "framing": "WIDE",
           "movement": "Locked-off",
