@@ -1960,6 +1960,10 @@
     {
       "date": "2026-11-20",
       "text": "Correction: Leonard's naming rule of 2026-11-19 is already in this log: elements by name only (@char_ / @prop_ / @loc_), no (@ImageN) after them; unnamed references keep @ImageN. Claude had read only the last log entries and missed it, misread 'don't repeat elements', and in T08_v2 kept the wrong name (@Image1). REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v3.txt: @char_politician_final only, no (@Image1). Same settings, 21 credits, waiting for approval. Entry in stories/MISTAKES.md."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH040-h approved by Leonard ('ok go, 21 credits'): S08 SH040 T08 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final 547bbfa3 only, job ffe51115-7889-408b-a5e3-629f865c4a8a, folder Scenes/S08/SH040, prompt 001_S08_SH040_T08_v3.txt."
     }
   ],
   "story_sync": {
