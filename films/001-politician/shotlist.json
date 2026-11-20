@@ -7896,10 +7896,10 @@
               "resolution": "480p",
               "aspect": "21:9",
               "audio": true,
-              "credits": 0.0,
-              "job_id": "36038951-a5bb-453b-bde8-730709d37577",
+              "credits": 54.0,
+              "job_id": "7414bb42-616f-45ce-85fa-4eeae71d8480",
               "prompt": "05-generation/prompts/001_S09_SH010_T02_v3.txt",
-              "file": "",
+              "file": "05-generation/takes/S09/SH010/001_S09_SH010_T02.mp4",
               "preview": "",
               "poster": "",
               "references": [
@@ -7911,7 +7911,7 @@
               ],
               "love": false,
               "rating": null,
-              "notes": "REQUEST S09-SH010-d, approved by Leonard ('ok go', 54 credits). The job record listed all four elements under reference_elements (first deliberate element use on seedance_2_5). Blocked by the filter: status nsfw, 'Output may contain sensitive content'. 54 credits refunded 2026-11-20 12:04 UTC. Resubmission under production-plan rule 4 was refused by the session's permission check, not sent; waiting for Leonard."
+              "notes": "REQUEST S09-SH010-d. First submission 36038951 blocked as nsfw (54 refunded 12:04 UTC); resubmission 1 (Leonard 'try again'), job 7414bb42, passed. Elements as <<<id>>> (char_politician_final, loc_square, char_big-guy, prop_bar-weapon), palette_sunset image; no guide clip. Claude's read (frames at 1 fps plus crops, audio levels only, not listened): closer than T01 (medium wide, the pipe and the sleeping man in the foreground at left), photoreal, sunset sun from screen left. Movement loose and organic, no animatic stiffness. Asphalt dry, no liquid. 0-1 s he falls in and lands; 1-6 s curled facing camera, hands at his head, loud 0-4 s (RMS about -20 to -26 dB); 7-10 s rolls onto his back, knee up, drags to the curb; 11 s head back on the curb; 13-15 s sits propped on his right hand, looks toward the sleeping man; about 15.2 s a small spit, a short puff of spray in the air toward screen left, not seen landing; 17-18 s pushes up onto one knee, head leaving the top of frame. Cut rope knotted on his ankle visible. His face and hair match the char_politician_final image (graying brown hair, heavy face, tie): the element works. The prompt's 'white hair' was Claude's error (also in T01); the element has graying brown hair. Misses: no slouched couch lean with both elbows on the sidewalk (he props on one hand); the spit is still a visible puff, smaller than T01; the sleeping man's face shows to camera."
             }
           ],
           "description": "Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.",
