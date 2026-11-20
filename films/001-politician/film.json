@@ -1902,6 +1902,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH110 T02 rated 3 (inferred: 'fine, but not cinematic, an AI composition'). REQUEST S09-SH110-c prepared, not submitted: T03, prompts/001_S09_SH110_T03.txt = T02 angle with a long lens (about 75mm anamorphic, style.md camera grammar), off-axis unbalanced frame (near corner of a block filling the left half, street opening in the right third), sun hidden behind the corner flaring, untidy varied body poses cut by the frame edges, paper skids along the ground and stays solid, no shop signs. Same refs and settings as T02. Cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH110-c approved by Leonard ('ok go, 12 credits'): S09 SH110 T03 submitted, job b42f3a44-52ca-4133-9f67-2086c980e69e, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T03.txt."
     }
   ],
   "story_sync": {
