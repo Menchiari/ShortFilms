@@ -2846,6 +2846,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH010 T02 (job 36038951) blocked as nsfw, 54 credits refunded at 12:04 UTC. The job record confirms the four elements attached as reference_elements. Resubmission under production-plan rule 4 refused by this session's permission check (not sent); Leonard to decide."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'try again'. S09 SH010 T02 resubmission 1 (unchanged, production-plan rule 4, after the 12:04 refund): job 7414bb42-616f-45ce-85fa-4eeae71d8480."
     }
   ],
   "story_sync": {
