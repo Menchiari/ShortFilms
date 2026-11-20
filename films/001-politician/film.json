@@ -3122,6 +3122,14 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH040-ref-v2 approved by Leonard ('let's see it'): seedream_v5_pro edit over the animatic, job a1ee1a66-a520-4c92-82a1-fce080768ca0, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v2.png (3120x1328). Claude's read: the animatic camera and layout held (helicopter left nose right, corner of the square behind, tall pole at right), photographic, sunset backlight with flare; she steps out by the cockpit; he right of center near the open case, facing her; bodies scattered. Off: an extra man standing in the background by the corner; he stands a step from the case, not right at it; he is a little larger than in the animatic."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-d approved by Leonard ('ok go, 18 credits'): S09 SH050 T04, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, start frame b9d2e155 (T02 frame 0) plus refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T04.txt. Job ddb88cc6-4481-4105-b29b-d0fbe16251e1. The request echo lists the start frame under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 done: job ddb88cc6, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4. Not yet rated by Leonard. SH050 total 72 credits over four 480p drafts."
     }
   ],
   "story_sync": {
