@@ -40,8 +40,8 @@
 
 References are Higgsfield Elements, named like the existing ones:
 `char_<name>`, `loc_<name>`, `prop_<name>` (lowercase, hyphens, 32 characters max).
-With seedance_2_5 an element is passed by its image job id in `medias` (`image_references`);
-the prompt names it `@char_<name> (@Image1)`, in `medias` order (rules in `docs/PROMPTING.md`).
+An element goes into the prompt as `<<<element_id>>>`, never as its image job in `medias`
+(rules in `docs/PROMPTING.md`).
 Each element's id goes in its bible document
 (`03-bible/characters/<name>.md` and so on). The images come from the director's own pipeline.
 
