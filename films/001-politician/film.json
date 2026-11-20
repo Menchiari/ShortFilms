@@ -2846,6 +2846,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH070-e approved by Leonard ('ok go', 12 credits): S08 SH070 T05 submitted, job 136607b2-ef6f-4321-8093-4c0daf744dfe, seedance_2_5 video_extension backward of T04 (e582e429), 480p, 4 s, audio on, folder S08/SH070, prompt 001_S08_SH070_T05_extend-backward.txt. The job echo lists T04 under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH060-a, Leonard: 'check errors and try again'. Transactions checked: no 24-credit charge from the 429 call. Resubmitted once, same params: job 8d9e0c0f-cc60-4b41-b8a3-d10b02a74025, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, folder Scenes/S09/SH060."
     }
   ],
   "story_sync": {
