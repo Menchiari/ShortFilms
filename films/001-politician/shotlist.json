@@ -7765,6 +7765,32 @@
               "rating": 3,
               "notes": "REQUEST S09-SH010-a, approved by Leonard ('ok go', 54 credits). Folder S09/SH010. Line-drawing guide refs_d11_motion (media 864bf115), listed by the echo under reference_images. Claude's read (frames at 1 fps plus crops, audio levels only, not listened): photoreal, no previz look, low sunset sun from screen left, long shadows, the square corner with the flaking concrete wall, two poles and hazy towers behind. The fat person lies at screen left along the curb, face toward the camera, eyes closed, the pipe by him; no second body at the right edge. 0-2 s he falls in upside down from above (reads as the rope snapping), lands by the curb, rolls; 2-8 s curled on his side facing camera, hands at his head; audio loud 0-4 s (RMS about -22 to -27 dB), quiet after. Misses: framing is a wide full-body shot, not medium close. The stain is not on his trousers: a dark red liquid runs out from under him across the asphalt and reads as blood. 10-14 s he sits up with both knees up, then legs out, propped on his right forearm: no slouched couch lean, elbows not on the sidewalk. The spit at about 17.4 s is a glowing yellow horizontal streak from his mouth over the fat person's legs toward screen left, like a beam, not landing on him. His face drifts younger near the end. Leonard 2026-11-20: 'it's not too bad, except': the movement is very static and robotic, taken from the animatic; get rid of the liquid, it does not work and is unnecessary; the spit looks like the exorcist: one small disrespectful spit, then one last breath and he gets up.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 18,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "36038951-a5bb-453b-bde8-730709d37577",
+              "prompt": "05-generation/prompts/001_S09_SH010_T02_v3.txt",
+              "file": "",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_final f4279c8f (element)",
+                "loc_square 4eff3268 (element)",
+                "char_big-guy f5cc12be (element)",
+                "prop_bar-weapon 37fe2cf2 (element)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH010-d, approved by Leonard ('ok go', 54 credits). The job record listed all four elements under reference_elements (first deliberate element use on seedance_2_5). Blocked by the filter: status nsfw, 'Output may contain sensitive content'. 54 credits refunded 2026-11-20 12:04 UTC. Resubmission under production-plan rule 4 was refused by the session's permission check, not sent; waiting for Leonard."
             }
           ],
           "description": "Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.",
