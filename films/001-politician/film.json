@@ -1902,6 +1902,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH090 T02: likes it (rating 4, inferred); unsure he looks at her; he must pass on her far side, she between him and the camera. T03 prompt prepared (request S09-SH090-c, not submitted): prompts/001_S09_SH090_T03.txt, over her right shoulder (char_boss 7ef41962 added for her hair and jacket from behind), his eyeline on her face just right of her ponytail, he limps behind her and out frame left; 7 s, 480p, 21:9, audio on. Estimate 21 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH090-c approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T03, job bdd41913-1592-4578-bb76-97298fd1b528, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, char_boss, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T03.txt."
     }
   ],
   "story_sync": {
