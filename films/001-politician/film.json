@@ -3138,6 +3138,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on start frame v2: more distant; the old man and the politician are the same element. Claude's review: v2 has him twice: the small standing man by the corner is the animatic's figure at the right distance, and the large old man in the right foreground is a second copy, caused by the v2 prompt describing 'the standing figure' and then 'the old man from image 4 ... beside a briefcase' as if separate, plus 'not at the street light'. REQUEST S09-SH040-ref-v3 prepared, not submitted: Seedream 5.0 Pro edit of v2 (job a1ee1a66) with char_politician_final 547bbfa3: remove the foreground old man and his case, the far standing figure becomes him with the open case at his feet; prompts/001_S09_SH040_REF_start-frame_v3.txt; 2k, 21:9; 2.5 credits, balance 25,803.7."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 rated 2 (inferred: folder too big, too orange, too fake, needs to feel like 35mm). Two free ffmpeg regrades of the T02 start frame made (refs/001_S09_SH050_T02_frame_0s_grade-a.png milder, grade-b stronger: less orange, more contrast, grain), sent to Leonard to pick. T05 prompt prepared (request S09-SH050-e, not submitted): T04 with palette_sunset dropped, a small thin folder, pale gold instead of orange, an organic film paragraph; the start frame becomes the picked grade. Preflight 18 credits."
     }
   ],
   "story_sync": {
