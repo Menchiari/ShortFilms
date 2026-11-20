@@ -2826,6 +2826,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard on S09 SH040 T01 (rating 1, inferred from 'this is awful'): looks like an animatic, a toy render; the animatic must never give the film look; wants a 2010s high-budget action movie: lens filter, grain, anamorphic. REQUEST S09-SH040-b revised: no @Video1, plus a film-look paragraph (anamorphic flare and edge softness, Black Pro-Mist bloom and halation, 35mm grain, real helicopter detail, rotor-wash dust). Look line from style.md kept word for word. Estimate 12 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard flagged '@element (@ImageN)' again in S09 SH020 T01 and T02. Root cause: his 2026-11-19 rule (elements by name only) was written to the log and to branch claude/prompting-ref-naming, which was never merged; film-sync does not merge docs, so main's PROMPTING.md, HIGGSFIELD.md, template v5 and MISTAKES.md kept the old form, and this session followed them. T01 (39 credits) was generated with the old naming. T02 superseded by prompts/001_S09_SH020_T02_v2.txt (only change: the (@ImageN) tags removed, the palette written @Image5 because it is not an element); same media, order and cost, request S09-SH020-b, 39 credits, not submitted. Docs fix plus a filmtool check guard on branch claude/docs-ref-naming-fix, waiting for Leonard to merge it into main (Claude's push to main was refused by the session permissions)."
     }
   ],
   "story_sync": {
