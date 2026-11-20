@@ -3307,6 +3307,10 @@
     {
       "date": "2026-11-20",
       "text": "City square tour T02 (job 551dcd00) failed: Higgsfield status 'nsfw', message 'Something went wrong. Please try again, or change your input files or prompt.' Balance unchanged at 25450.2 (not charged). No retry without Leonard's approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T02 resubmitted unchanged, chosen by Leonard (option 'Resubmit T02 video', 49 credits stated): job ee12b7c9-8300-492e-b9a0-3e80cb03b67b, same settings and inputs as job 551dcd00, folder REFS/LOC_square."
     }
   ],
   "story_sync": {
