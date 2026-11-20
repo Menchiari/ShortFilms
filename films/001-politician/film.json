@@ -3299,6 +3299,10 @@
     {
       "date": "2026-11-20",
       "text": "City square tour T01 in (job 4043c429, 49 credits): stories/politician/city/square_3d/takes/001_city_square_tour_T01.mp4, 7.07 s, 1470x630. Opens on Leonard's frame; the camera only drifts near the corner and returns, none of the planned angles is reached. Unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST city square tour T02 approved by Leonard ('go') and submitted: job 551dcd00-e0e1-45b3-8822-e8b2a3f687bb, seedance_2_5 omni_reference, 7 s, 720p, 21:9, audio on, 49 credits, start image 058651a0, video reference e5641a76 (the grey 3D tour v7, camera path only), folder REFS/LOC_square, prompt stories/politician/city/square_3d/prompt_square_tour_v6_guide.txt. The job echo lists both media under reference_images."
     }
   ],
   "story_sync": {
