@@ -1938,6 +1938,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH040-ref-v2 approved by Leonard ('let's see it'): seedream_v5_pro edit over the animatic, job a1ee1a66-a520-4c92-82a1-fce080768ca0, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v2.png (3120x1328). Claude's read: the animatic camera and layout held (helicopter left nose right, corner of the square behind, tall pole at right), photographic, sunset backlight with flare; she steps out by the cockpit; he right of center near the open case, facing her; bodies scattered. Off: an extra man standing in the background by the corner; he stands a step from the case, not right at it; he is a little larger than in the animatic."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on start frame v2: more distant; the old man and the politician are the same element. Claude's review: v2 has him twice: the small standing man by the corner is the animatic's figure at the right distance, and the large old man in the right foreground is a second copy, caused by the v2 prompt describing 'the standing figure' and then 'the old man from image 4 ... beside a briefcase' as if separate, plus 'not at the street light'. REQUEST S09-SH040-ref-v3 prepared, not submitted: Seedream 5.0 Pro edit of v2 (job a1ee1a66) with char_politician_final 547bbfa3: remove the foreground old man and his case, the far standing figure becomes him with the open case at his feet; prompts/001_S09_SH040_REF_start-frame_v3.txt; 2k, 21:9; 2.5 credits, balance 25,803.7."
     }
   ],
   "story_sync": {
