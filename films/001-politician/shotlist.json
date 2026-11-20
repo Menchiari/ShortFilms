@@ -7833,6 +7833,30 @@
               "notes": "REQUEST S09-SH020-b, draft, no previz clip. Claude's read from stills: sunset sun in frame at upper left with a blue anamorphic flare, hard backlight and long shadows, more filmic than T01. The case sits close in the lower middle and reads as open (its inner rim and lining from a low angle), but the lid lying back is not visible: it could read as an open box. He gets up at 0-2 s, walks to camera, ends behind the case framed from the chest down. Helicopter comes in from upper left at 3-4 s and lands at screen left behind him, clear of the bodies. Fewer sheets; a few lift and hop in the wash, most stay down; at the start the sheets lie in neat even rows, like placed tiles. Off: the city is still tall 8 to 12 storey apartment blocks around a wide empty plaza, with street lamps and a parked car, not the small old square; six bodies lie in an even row across the frame; a figure is visible inside the helicopter. Audio present (mean -28.4 dB), not listened to. Leonard (2026-11-20): almost; the city could be more realistic; he should start on the right side, next to the light post, not in the middle of the square; more film look, lens artifacts and cinematic feel.",
               "rating": 3,
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 13,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 39.0,
+              "job_id": "c55d3708-0d67-423a-ac1c-5142b172453c",
+              "prompt": "05-generation/prompts/001_S09_SH020_T03.txt",
+              "file": "05-generation/takes/S09/SH020/001_S09_SH020_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "prop_briefcase 4bf36cb5",
+                "char_politician_final 547bbfa3",
+                "prop_helicopter 6c8efe25",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179 (@Image5)"
+              ],
+              "notes": "REQUEST S09-SH020-c, draft. Claude's read from stills: he starts at screen right on one knee at the foot of a pole on the curb, pulls himself up on it and limps on a diagonal to the case; ends behind it from the chest down with the rope end coiled at his ankle. The case is clearly open (lid standing up toward the camera, the tray behind it). Stronger lens character: blue anamorphic flare streaks across the frame, sun in frame at upper left, haze, backlit rims. Sheets scattered at random, a few lift and skitter, most stay down. Helicopter comes in from upper left at 2 s, lands at screen left. Off: the pole is a traffic light pole with a yield sign, not the street lamp with its arm (no rope on an arm); the big man sits up against the pole instead of lying still; only two or three bodies visible, not a dozen; a figure sits inside the helicopter cabin; a parked car at the far left; the city is still the loc_square towers. Audio present (mean -28.6 dB), not listened to."
             }
           ],
           "description": "The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it, slowly. Behind him the helicopter comes down into the square. Its rotor wash tears the certificates off the asphalt: they flip, tumble and fly off in the gusts. He reaches the case.",
