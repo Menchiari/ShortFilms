@@ -3,8 +3,10 @@
 All made by Leonard inside the project "Talent Contest - Politician" (37733499-03c4-4405-8dee-fea3a2d3b96e).
 Checked against the live element list 2026-11-17: 21 elements. Claude never creates elements.
 
-Seedance 2.5 does not resolve `<<<id>>>` placeholders: pass the element's image job id in `medias` as
-`image_references` and name it in the prompt as "the reference image of ...".
+Prompts use the element itself: `<<<element id>>>` in the prompt text, never its image job in `medias`
+(Leonard, 2026-11-20). The backend attaches it as a reference element and names it `@<element name>`
+(seen on seedance_2_5, job 28fc84db). Images that are not elements (`palette_*`) go in `medias` as
+`image_references` and are named in words, never with an element name.
 
 | Element | Element id | Image job id | Use |
 |---|---|---|---|

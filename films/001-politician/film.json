@@ -2834,6 +2834,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH040-f approved by Leonard ('ok go, 21 credits, don't repeat elements'). Prompt cut to prompts/001_S08_SH040_T06_v2.txt (414 words): nothing described twice (the framing named once, the hits only in the timeline, the summary sentence and the hit paragraph merged); the audio line stays at start and end (CLAUDE.md rule 4). Unsubmitted v1 kept as 001_S08_SH040_T06.txt. S08 SH040 T06 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs T04 frame 10fceb80 and char_politician_final 547bbfa3, job 695f707d-0fe7-4e50-85d8-f92fb85464f0, folder Scenes/S08/SH040."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: palette_sunset is not an element; use the element, not its image, and fix the rule at the root; simplify the prompt. Checked: the S01 SH010 T02 job (28fc84db, seedance_2_5) shows the backend took <<<char_politician>>> as a reference_elements entry, so the old rule 'Seedance 2.5 ignores placeholders' had no evidence. Fixed: stories/politician/elements.md here; docs/PROMPTING.md and docs/HIGGSFIELD.md on branch claude/elements-not-images (needs merging into main). REQUEST S09-SH010-b replaced by S09-SH010-c, prepared, not submitted: prompts/001_S09_SH010_T02_v2.txt (about half of T02's length), elements char_politician_final and loc_square as <<<id>>> in the prompt, palette_sunset 1f563179 as the only image in medias, named in words; no guide clip; 480p, 21:9, 18 s, audio on, 54 credits (free quote). T02.txt was never submitted."
     }
   ],
   "story_sync": {
