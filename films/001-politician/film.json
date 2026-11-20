@@ -2934,6 +2934,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH030-d approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T04, job 344b204b-e9fc-4eeb-a0f4-1407167824a4, seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T04_v3.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH010-d approved by Leonard ('ok go'; quote 54 credits) and submitted: S09 SH010 T02 job 36038951-a5bb-453b-bde8-730709d37577, seedance_2_5 omni_reference, 480p, 21:9, 18 s, audio on, folder Scenes/S09/SH010, prompt prompts/001_S09_SH010_T02_v3.txt; elements char_politician_final, loc_square, char_big-guy, prop_bar-weapon as <<<id>>>, palette_sunset 1f563179 as the only medias image."
     }
   ],
   "story_sync": {
