@@ -3134,6 +3134,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S10-SH010-b prepared, not submitted (Leonard: use the animatic as a reference, not frame by frame, a cinematic ending shot). S10 SH010 T02, prompt prompts/001_S10_SH010_T02.txt: T01's references plus the d11 clip as a line drawing (refs/001_S10_SH010_lines_d11.mp4, media 53cc3d81) with a loose-guide paragraph (idea, rough path, order and pace; positions and timing free). Added: the helicopter crosses the low sun (silhouette, flare), the camera sinks later (8 s), rim light on the bobblehead, dust hanging in the sun shafts, rotor fading to near silence, a 5 s still closing image. Risk: the README rule (a set clip on a place-filled frame came out as previz on S02); Leonard asked for the clip. seedance_2_5 omni_reference, 480p, 21:9, 20 s, audio on, preflight 60 credits, balance 25803.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on start frame v2: more distant; the old man and the politician are the same element. Claude's review: v2 has him twice: the small standing man by the corner is the animatic's figure at the right distance, and the large old man in the right foreground is a second copy, caused by the v2 prompt describing 'the standing figure' and then 'the old man from image 4 ... beside a briefcase' as if separate, plus 'not at the street light'. REQUEST S09-SH040-ref-v3 prepared, not submitted: Seedream 5.0 Pro edit of v2 (job a1ee1a66) with char_politician_final 547bbfa3: remove the foreground old man and his case, the far standing figure becomes him with the open case at his feet; prompts/001_S09_SH040_REF_start-frame_v3.txt; 2k, 21:9; 2.5 credits, balance 25,803.7."
     }
   ],
   "story_sync": {
