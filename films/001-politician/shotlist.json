@@ -8632,7 +8632,7 @@
               "prompt": "05-generation/prompts/001_S09_SH070_T07.txt",
               "file": "05-generation/takes/S09/SH070/001_S09_SH070_T07.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH070_T07.jpg",
               "references": [
                 "char_boss",
                 "SH060 T01 frame at 3 s (media 13e7f27a)",
