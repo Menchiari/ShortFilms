@@ -2802,6 +2802,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH030 T01 approved by Leonard ('this works', rating 4 inferred)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH020 T01 rated 3 (inferred) from Leonard's notes: fake city like the animatic, dull cinematography, too many papers lifted unrealistically, case closed. Causes (Claude): the previz line drawing still carried the tower blocks and its foreground shapes (they became cones), so T02 drops the video reference and holds the composition and timing in words (README rule for frames filled by place); the prompt said deep focus and soft haze, so T02 asks for a backlit anamorphic frame with flare, contrast and focus on the case; T02 has about fifteen thin sheets that slide and skitter in gusts before a few lift; the case is described open from the first frame, with 'not its closed state' on the element line. Prompt prompts/001_S09_SH020_T02.txt, request S09-SH020-b quoted 39 credits, not submitted."
     }
   ],
   "story_sync": {
