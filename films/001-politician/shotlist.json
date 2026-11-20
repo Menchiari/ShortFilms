@@ -6100,8 +6100,9 @@
                 "palette_sunset 1f563179"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH050-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): his face clearly angrier, a hard glare and tight mouth at the end; the folder now dark; a wide street now runs straight behind him into the haze, background softer than T02. Weak: the grade is more orange, not less: a heavy orange-red wash; the place reads as a ruined, rubble-strewn wide avenue with tall blocks and street lights, not the low-rise square of T02; no bodies readable; less wind in his tie; paper only on the ground at the left."
+              "rating": 1,
+              "notes": "REQUEST S09-SH050-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): his face clearly angrier, a hard glare and tight mouth at the end; the folder now dark; a wide street now runs straight behind him into the haze, background softer than T02. Weak: the grade is more orange, not less: a heavy orange-red wash; the place reads as a ruined, rubble-strewn wide avenue with tall blocks and street lights, not the low-rise square of T02; no bodies readable; less wind in his tie; paper only on the ground at the left. Leonard 2026-11-20: no, the previous take (T02) was better.",
+              "rating_source": "user"
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",
