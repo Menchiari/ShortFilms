@@ -65,9 +65,9 @@ follows these rules. They override habits and defaults.
   automatically by film-sync), the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
-- Every push starts a billed GitHub Actions run (minutes are limited). When the newest commit of a
-  push changes nothing the site must show now (a prompt draft, a "submitted" note), end its
-  message with `[skip ci]`. Nothing is lost: the next run merges every branch.
+- GitHub Actions minutes are capped. No push starts a run: film-sync runs on a clock (every two
+  hours, 08:17 to 00:17 Italian time) and merges every branch then. Never start, re-run or add a
+  workflow run or trigger, and never edit `.github/`: only Leonard does that.
 
 ## Story development
 
@@ -87,7 +87,7 @@ follows these rules. They override habits and defaults.
 - Developing an existing film: story work goes in `stories/<film-slug>/`; the film folder is read,
   and edited only on explicit instruction. One automatic exception: a film with `story_sync` in
   `film.json` takes its shots, logged takes, per-shot animatic clips and character elements from
-  the story (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` after every push).
+  the story (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` on every sync run).
   When a character element is registered, save its image as
   `films/<film>/03-bible/characters/refs/<element name>.<ext>` (GitHub cannot reach Higgsfield).
 - Pipeline export: the story bible's "Pipeline export" table maps story outputs to the film's
