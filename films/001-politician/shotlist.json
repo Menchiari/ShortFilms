@@ -8429,7 +8429,7 @@
               "prompt": "05-generation/prompts/001_S09_SH060_T02.txt",
               "file": "05-generation/takes/S09/SH060/001_S09_SH060_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH060_T02.jpg",
               "references": [
                 "char_boss 7ef41962",
                 "prop_helicopter 6c8efe25",
@@ -8609,7 +8609,7 @@
           "framing": "CLOSE, her",
           "movement": "Locked-off",
           "duration_s": 4,
-          "note": "Starts on her looking up. One generation with SH060 SH080 is the second half (4-8 s) of SH060 T01 (job 8d9e0c0f) and of SH060 T02 (job 02079cd7), files in 05-generation/takes/S09/SH060/. Leonard 2026-11-20: SH080 = SH060 T02 (job 02079cd7, file 05-generation/takes/S09/SH060/001_S09_SH060_T02.mp4, loved), [ASSUMPTION] its 4-8 s; SH060 = SH060 T01 (job 8d9e0c0f), its 0-4 s.",
+          "note": "Starts on her looking up. One generation with SH060",
           "animatic": {
             "file": "05-generation/animatic/d11/S09_SH080.mp4",
             "draft": "d11"
@@ -8658,7 +8658,7 @@
               "prompt": "05-generation/prompts/001_S09_SH090_T02.txt",
               "file": "05-generation/takes/S09/SH090/001_S09_SH090_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH090_T02.jpg",
               "references": [
                 "char_politician_final 547bbfa3 (image_references)",
                 "loc_square 62815a4f (image_references)",
@@ -8683,7 +8683,7 @@
               "prompt": "05-generation/prompts/001_S09_SH090_T03.txt",
               "file": "05-generation/takes/S09/SH090/001_S09_SH090_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH090_T03.jpg",
               "references": [
                 "char_politician_final 547bbfa3 (image_references)",
                 "char_boss 7ef41962 (image_references)",
