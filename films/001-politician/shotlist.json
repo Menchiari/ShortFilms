@@ -8379,8 +8379,33 @@
         },
         {
           "id": "SH110",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "da95fb1c-1b9a-4e61-b33b-378fb0ef3e0a",
+              "prompt": "05-generation/prompts/001_S09_SH110_T01.txt",
+              "file": "05-generation/takes/S09/SH110/001_S09_SH110_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "loc_square 62815a4f (image_references)",
+                "prop_car 42787b78 (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH110-a (two 429 refusals on 2026-11-19, submitted 2026-11-20 on 'try again, 12 credits'). Folder Scenes/S09/SH110. No guide clip. 992x432, 4.06 s, audio mean -32 dB, max -15 dB (not heard). Claude's read (frames, not watched at speed): photoreal, no 3D look; sunset backlight down the street works, long shadows toward camera. Misses against the prompt: the street opens into a wide open square with far towers, not a long street to a far crossroads; the wall and the one street light stand at screen RIGHT, not left; traffic lights and a give-way sign at the right corner (the square has none in S07/S08); several more street lights along the left sidewalk. His car (door open) sits mid-distance at the left curb, facing the camera, much bigger than asked and not at a crossroads; two more parked cars far back. About fourteen bodies (asked thirteen), spread over the whole street, two close in the foreground at the left and one at the right, no wounds readable. Paper: about ten sheets, they flip and flutter in the middle of the street, then settle by about 3 s; weaker wash than asked. Hidden townspeople: none readable at this size."
+            }
+          ],
           "description": "The certificates flutter among the bodies in the rotor wash.",
           "framing": "HER POV, WIDE",
           "movement": "Locked-off",

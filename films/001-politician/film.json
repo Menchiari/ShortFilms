@@ -3018,6 +3018,10 @@
     {
       "date": "2026-11-20",
       "text": "001: S09 SH090 T01 delivered (job e3432dc6), downloaded as takes/S09/SH090/001_S09_SH090_T01.mp4 (992x432, 24 fps, 4.06 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T01 done: job da95fb1c, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T01.mp4, recorded in shotlist.json, waiting for Leonard's rating."
     }
   ],
   "story_sync": {
