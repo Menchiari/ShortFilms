@@ -1894,6 +1894,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH090-b approved by Leonard ('ok go, 21 credits') and submitted: S09 SH090 T02, job 32e5bfd4-b103-488e-b352-38810ba70f7a, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, char_politician_final, loc_square, palette_sunset, folder Scenes/S09/SH090, prompt prompts/001_S09_SH090_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH090 T02 delivered (job 32e5bfd4), takes/S09/SH090/001_S09_SH090_T02.mp4 (992x432, 7.07 s, audio), recorded in shotlist.json, unrated."
     }
   ],
   "story_sync": {

@@ -6104,6 +6104,31 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S09-SH090-a. First submit refused (429), second blocked by the session permission check, resubmitted 2026-11-20 on Leonard's word. No previz clip. Claude's read (stills at 2 fps, not listened): photoreal, sunset backlight from the upper right as asked, open square with shuttered facades, two bodies soft at the right edge, her dark shoulder soft at the left edge. He holds a look just left of the lens for about 3 s, then turns toward screen left and starts walking out, head dropping (chin down, not up, on the exit). Face: blood under the nose and a bruise on his left cheekbone; the eyebrow split from S05 does not read. Wind in his hair is light, not hard rotor wash. Leonard 2026-11-20: 'The background isn't right, but it works, the film quality is there.' Wants closer, a longer hold on his expression, him walking past her on the left side of the frame and past the camera, a blurrier but realistic background."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "32e5bfd4-b103-488e-b352-38810ba70f7a",
+              "prompt": "05-generation/prompts/001_S09_SH090_T02.txt",
+              "file": "05-generation/takes/S09/SH090/001_S09_SH090_T02.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_politician_final 547bbfa3 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S09-SH090-b. T01 plus Leonard's notes: closer, 7 s, longer hold, he walks past her on the left side and past the camera, blurrier background. Claude's read (stills at 2 fps, not listened): tighter close-up, he holds the stare about 4.5 s with his chin up, then turns and walks almost straight at the lens, passing beside her soft shoulder at the left edge, his face filling frame and going out of focus as he exits bottom left; the last frame is the empty street. His eyes cross close to the lens around 5 s. Background: softer than T01 but still readable, not heavily blurred; a small distant shape on the street may be a car. Same wounds as T01 (nose, left cheekbone), eyebrow split still missing."
             }
           ],
           "description": "He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.",
