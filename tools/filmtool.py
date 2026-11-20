@@ -181,6 +181,36 @@ def cmd_log(args):
     print("Logged.")
 
 
+PROMPT_NAMING_ERRORS = [
+    (r"@(?:char|prop|loc|veh)_[\w-]+\s*\(\s*@(?:Image|Video|Audio)\d+\s*\)",
+     "element name followed by (@ImageN): write the element by name only"),
+    (r"(?i)\b(?:image|video|audio) \d+\b", "'Image 1' / 'VIDEO 1' naming: use @Image1, @Video1, @Audio1"),
+]
+
+
+def changed_prompt_files():
+    """Prompt files new or changed against origin/main (older prompts keep their old naming)."""
+    names = set()
+    for cmd in (["diff", "--name-only", "origin/main...HEAD"], ["diff", "--name-only", "HEAD"],
+                ["ls-files", "--others", "--exclude-standard"]):
+        r = git(*cmd)
+        if r.returncode == 0:
+            names.update(r.stdout.split())
+    return sorted(ROOT / n for n in names
+                  if "/05-generation/prompts/" in n and n.endswith(".txt") and (ROOT / n).is_file())
+
+
+def prompt_naming_problems():
+    import re
+    out = []
+    for f in changed_prompt_files():
+        text = f.read_text(encoding="utf-8", errors="replace")
+        for pattern, why in PROMPT_NAMING_ERRORS:
+            for m in re.finditer(pattern, text):
+                out.append(f"{f.relative_to(ROOT)}: '{m.group(0)}': {why} (docs/PROMPTING.md step 2)")
+    return out
+
+
 def cmd_check(args):
     problems = []
     for d in film_dirs():
@@ -214,6 +244,7 @@ def cmd_check(args):
             mb = path.stat().st_size / 1_000_000
             if mb > MAX_FILE_MB:
                 problems.append(f"{path.relative_to(ROOT)}: {mb:.1f} MB is over {MAX_FILE_MB} MB")
+    problems += prompt_naming_problems()
     total_gb = sum(disk_mb(d) for d in film_dirs()) / 1000
     if total_gb > WARN_TOTAL_GB:
         print(f"WARNING: films take {total_gb:.2f} GB on disk, nearing GitHub's 5 GB guidance. Tell the user.")

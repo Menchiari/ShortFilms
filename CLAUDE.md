@@ -41,6 +41,8 @@ follows these rules. They override habits and defaults.
 - References are Higgsfield Elements (`docs/HIGGSFIELD.md`). Images come from the user's own
   pipeline (the user picks the image model, Midjourney for style); Claude does not pick image
   models.
+- When Leonard changes a rule, the doc that teaches it changes on main in the same session. Film-sync
+  never merges `docs/`, `tools/` or `CLAUDE.md`: a branch with those is not done until main has it.
 - Docs state rules only: no comparisons of sources, no debates. Keep every document as short as
   it can be.
 - After every generation: download the file, name it `<filmid>_<S##>_<SH###>_<T##>.mp4`, record the
