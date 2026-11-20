@@ -1946,6 +1946,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard: 'no edits, I thought we've been through this already': start frames are generated fresh, never as edits of a previous still. Claude found no written record of this rule in docs/ or the bible. The edit request (v3 edit of v2) is withdrawn, never submitted. REQUEST S09-SH040-ref-v3 replaced: a fresh Seedream 5.0 Pro generation over the animatic frame, same five references as v2 (animatic 6397eefd, SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25), prompt prompts/001_S09_SH040_REF_start-frame_v3.txt = v2 with one fix: the far standing figure is the politician, at the animatic's size and distance, the only old man, case at his feet, standing people two. 2k, 21:9, 2.5 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref-v3 approved by Leonard ('let's see'): fresh seedream_v5_pro generation over the animatic, job e0dce43e-d39d-46b1-90c7-9c511d3b8781, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v3.png. Claude's read: one old man only, far back right of center by the corner at the animatic's distance, folder at his chest, in profile facing left, open case about a step from him; she steps out at the helicopter's nose; animatic camera and layout; sunset backlight. REQUEST S09-SH040-e prepared, not submitted: T05, seedance_2_5 omni_reference with v3 as start_image (e0dce43e), char_boss 7ef41962, char_politician_final 547bbfa3, prompts/001_S09_SH040_T05.txt, 4 s, 480p, 21:9, audio on, 12 credits."
     }
   ],
   "story_sync": {
