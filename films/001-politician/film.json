@@ -1886,6 +1886,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH060 T01 downloaded (job 8d9e0c0f, 24 credits): 8.06 s, 992x432, audio present. Covers SH060 (0-4 s) and SH080 (4-8 s). Handover, reading, look up, close and parted lips all present; folder sinks to the frame bottom from 6 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH060 T01 (SH060+SH080), Leonard: 'good, works' (rating 4, inferred). What worked: text and elements only, no guide clip, char_boss, prop_helicopter, loc_square, palette_sunset, the sun behind her upper left, one 8 s generation for the pair."
     }
   ],
   "story_sync": {

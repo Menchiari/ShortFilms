@@ -6065,9 +6065,9 @@
                 "no guide clip"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S09-SH060-a, one 8 s generation for SH060 (0-4 s) and SH080 (4-8 s), split in the edit. 480p (992x432), 8.06 s, 24 fps, audio present (mean -33.4 dB; not listened to). Claude's read from frames at every second and face crops at 4.5, 6, 7, 8 s: identity, sunglasses, ponytail and suit match char_boss; rotor wash in her hair throughout; helicopter close behind at screen left, nose to screen right, no gunner visible; warm sunset haze upper left; photographic, not previz. 0 s: his bloody hand in a dusty sleeve hands her the folder from screen right. 1-4 s: she opens it, one cream page lifted, reads with head down, face clear. 5 s: folder closed, she looks right toward him. 6-8 s: she holds his eyes; lips part at about 7 s and close by 8 s. Misses: the folder sinks to the bottom edge of frame from 6 s, lower than the chest; the background is one large flat apartment block, sharper than asked; no bodies in the background (none were asked for)."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S09-SH060-a, one 8 s generation for SH060 (0-4 s) and SH080 (4-8 s), split in the edit. 480p (992x432), 8.06 s, 24 fps, audio present (mean -33.4 dB; not listened to). Claude's read from frames at every second and face crops at 4.5, 6, 7, 8 s: identity, sunglasses, ponytail and suit match char_boss; rotor wash in her hair throughout; helicopter close behind at screen left, nose to screen right, no gunner visible; warm sunset haze upper left; photographic, not previz. 0 s: his bloody hand in a dusty sleeve hands her the folder from screen right. 1-4 s: she opens it, one cream page lifted, reads with head down, face clear. 5 s: folder closed, she looks right toward him. 6-8 s: she holds his eyes; lips part at about 7 s and close by 8 s. Misses: the folder sinks to the bottom edge of frame from 6 s, lower than the chest; the background is one large flat apartment block, sharper than asked; no bodies in the background (none were asked for). Leonard: 'good, works' (rating 4, inferred)."
             }
           ],
           "description": "She doesn't answer. She takes the folder and opens it to the last page.",
