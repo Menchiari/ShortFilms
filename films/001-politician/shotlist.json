@@ -6054,7 +6054,7 @@
         },
         {
           "id": "SH070",
-          "status": "planned",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -6215,8 +6215,9 @@
                 "end_image: props/agreement/insert_end_v4.png (media fc1fa7c6)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST approved by Leonard 2026-11-20 ('let's see'). Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T06: worse than before. T04 setup (no start frame) with a slow tilt, no zoom. Opens on the top of the page held by her right hand, the sun through the paper, the square soft behind; tilts down at nearly the same size, lands on the end frame. All text above the signature block is fake glyphs."
+              "rating": 4,
+              "notes": "REQUEST approved by Leonard 2026-11-20 ('let's see'). Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T06: worse than before. T04 setup (no start frame) with a slow tilt, no zoom. Opens on the top of the page held by her right hand, the sun through the paper, the square soft behind; tilts down at nearly the same size, lands on the end frame. All text above the signature block is fake glyphs. Leonard 2026-11-20: 'ok cool, worked' (rating 4, inferred).",
+              "rating_source": "inferred"
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
