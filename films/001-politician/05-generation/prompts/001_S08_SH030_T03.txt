@@ -1,0 +1,34 @@
+Audio: only the steady muffled thrum of a helicopter cabin around the camera, the dry wind past its open door, two loud sharp rifle shots right beside the camera, and very far below the faint panicked shouts of a fleeing crowd. No voices close by. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@loc_square (@Image1): the square: its facades, ground-floor shutters, curbs and dusty asphalt only, not its framing, street light, towers, parked cars or light. @palette_sunset (@Image2): color and light only.
+
+Point of view through the telescopic sight of a sniper rifle, from a helicopter hovering very far away and high above a desert town at sunset: through the round scope, the crosshair rests on a tiny running man far below in a wide open square full of people fleeing in panic; at a sharp rifle shot he drops, the scope moves to the next runner, and he drops too.
+
+The scope: a real rifle scope view. The frame is black except for one large round view in the exact middle of the frame, its circle as tall as the frame, with a thin dark soft-edged ring at its border. Inside the circle, a thin black crosshair reticle: one fine vertical line and one fine horizontal line crossing at the exact center of the circle, the lines a little thicker toward the edge of the circle. The circle and the crosshair are fixed: they never move, never change size, never flicker, from the first frame to the last; only the view of the square inside the circle moves. No numbers, no text, no boxes, no colored marks, no HUD, no thermal or night vision: full natural color inside the circle.
+
+The view inside the scope: extreme telephoto from very far away, high above and well back, looking down at a steep angle of about forty degrees, the perspective very flat and compressed, a strong shimmer of warm air and dust haze between the scope and the square, slight softness from the distance. The square is seen whole: wide open cracked asphalt with the facades of the surrounding buildings at its far edges. The people are tiny, each about one fifteenth of the circle's height, like real footage filmed from very far away. The helicopter hovers: the view inside the circle stays almost still, with only small, slow, smooth corrections to keep the runner on the crosshair, and one short smooth shift to the next runner. No shake, no sweeping, no zoom, no pull-back.
+
+The square from @loc_square is a real town square photographed on location, never blocky or simplified: open cracked asphalt covered in grit and litter, chipped curbs, and at its edges the facades with cracked and patched ochre plaster, dark windows and dented rolled-down metal shutters. Nothing looks like a box, a slab or a 3D model. No traffic lights, no street lights, no poles, no hanging rope, nobody hanging.
+
+The crowd: real people, never game characters: about sixty ordinary townspeople spread across the whole square, men and women of every age and build, faded mismatched everyday clothes in dusty browns, greys, whites, blues and muted colors, every one different. Everyone is fleeing in panic, scattering across the square toward the side streets in every direction, some sprinting, some stumbling, some pulling others along, some looking back at the sky; each runs with their own uneven gait, feet kicking up dust; nobody runs in step, nobody moves like an animation. Several men already lie still on the asphalt in different spots, sleeping; they never move, and the runners swerve around them.
+
+Lighting, motivated by the sun only: a low sunset sun behind the camera, golden orange, raking across the square: every person casting a long soft shadow stretching away from the camera across the asphalt; the base of the facades in deep warm shade, their upper floors glowing orange; dust hangs glowing in the low light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: the crosshair rests on a tiny man in a pale blue shirt running across the open asphalt, the lines crossing on his back; the view follows him slowly so he stays on the crosshair, other tiny people fleeing all around him. At 1s a loud sharp rifle shot beside the camera and a small jolt of the view: he slumps forward onto the asphalt mid-stride, right under the crosshair, and lies still. The people nearest to him swerve away and run harder.
+2-3s: the view inside the circle makes one short smooth shift up and to the right and settles the crosshair on a tiny heavy man in a brown jacket running toward a side street.
+3-4s: the crosshair stays on him. At 3s a second loud sharp rifle shot and a small jolt of the view: he slumps to the asphalt right under the crosshair and lies still. Final frame: the round scope view with the crosshair crossing on the heavy man lying still, tiny people scattering away from him in every direction, long shadows and dust.
+
+ACTING TASK, the crowd (each person fully invested in their own tactic; the work happens in their bodies at this distance):
+SCENE DIRECTION (shared, unspoken): something is killing people out of nowhere, and anyone could be next.
+MOTIVE (their fuel): they came to finish him, and now they are the ones in the open.
+GOAL: get out of the square and behind a wall alive.
+OBSTACLE: there is no shooter to see and the side streets are far, across open asphalt.
+TACTIC: each one picks the nearest way out and runs for it, choosing their own way: some run straight and fast, some weave and duck, some glance back at the sky, some drag others along; when someone near them drops, they swerve away without stopping.
+
+Not graphic: no blood, no visible injuries, the men who drop simply go limp. Count of rifle shots: two. Count of men who drop: two. Count of crosshairs: one. Real-life speed, no slow motion, no cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low golden sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the steady muffled thrum of a helicopter cabin around the camera, the dry wind past its open door, two loud sharp rifle shots right beside the camera, and very far below the faint panicked shouts of a fleeing crowd. No voices close by. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

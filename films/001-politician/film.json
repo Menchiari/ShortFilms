@@ -2882,6 +2882,50 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH040 T06 done (job 695f707d, 21 credits): takes/S08/SH040/001_S08_SH040_T06.mp4. Angle held, no blasts, third kill clean. Misses: the T04 frame brings its crowd of hundreds in rows; first two kills hidden in the crowd. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T01 downloaded (job fbd3e0fa, 12 credits), takes/S08/SH030/001_S08_SH030_T01.mp4. Photographic, real footage feel, sunset light, runners. Off-brief: he hangs from a traffic light (two in frame), the place reads as a street corner by a wall, not the square, about ten runners, two bodies visible. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T01 rated 1 (inferred, Leonard: 'no'). Notes: see people getting shot, steadier helicopter, more people, the hanging politician can go, panicked people fleeing while he shoots. REQUEST S08-SH030-b prepared, not submitted: T02, prompts/001_S08_SH030_T02.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f and palette_sunset 1f563179 (char_politician_final dropped), about forty runners, lens almost still, two men drop at 1 s and 3 s in the middle of frame (where the crosshair goes), no poles, no traffic lights, nobody hanging. [ASSUMPTION] the two drops are two of the three S08 SH040 kills seen through the scope, so the body map does not grow. estimate_video_cost 12 credits, balance 26583.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-b approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T02, job ea68eb92-896e-45f7-b8cd-df2160119e43, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T02.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T02 downloaded (job ea68eb92, 12 credits), takes/S08/SH030/001_S08_SH030_T02.mp4. Passed the filter. Real crowd of about thirty-five fleeing, first drop clear at 1 s, second drop small and far; sun faces the camera, the lens pulls back instead of holding, door edge at the right from 2 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T02 rated 1 (inferred, Leonard: 'no'): way further away, crosshair generated directly. REQUEST S08-SH030-c prepared, not submitted: T03, prompts/001_S08_SH030_T03.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Scope POV in camera: black frame, one round view as tall as the frame, a fixed thin black crosshair; extreme telephoto from very far, the whole square, about sixty tiny runners, two drop under the crosshair at 1 s and 3 s. Face boxes not in the prompt (post, if wanted). estimate_video_cost 12 credits, balance 26492.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "REQUEST S08-SH030-c approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T03, job 590ea56c-07c2-4fb9-aefb-a2a89c21887e, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T03.txt."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T03 downloaded (job 590ea56c, 12 credits), takes/S08/SH030/001_S08_SH030_T03.mp4. In-camera scope and crosshair held fixed; two kills under the crosshair at about 1 s and 3 s, the second very clear; sun behind the camera. Closer than the 'way further' asked. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "S08 SH030 T03 accepted by Leonard ('good enough', rating 3 inferred). SH030 approved with T03. Lesson: the scope and crosshair work in camera with Seedance 2.5 when the prompt fixes the circle and reticle and says only the view inside moves; the kills read when the target is on the crosshair. The red and green face boxes and the hanging man are not in this shot (Leonard dropped the man); the green-box beat now lives only in SH070."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030, Leonard's changes on T03: tighter roads, three shots instead of two, stronger jolts (the shots are powerful), blood, realism and dirt. REQUEST S08-SH030-d prepared, not submitted: T04, prompts/001_S08_SH030_T04.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Same in-camera scope as T03; narrow, crowded, dirty streets leaving the square; three hits at 1, 2 and 3 s with a violent recoil kick and blur each time; blood puff, blood pool, dirt. [ASSUMPTION] 'tighter roads' = the narrow streets out of the square; the three hits are the three S08 SH040 kills seen through the scope. Filter risk raised by the blood (Leonard's call). estimate_video_cost 12 credits, balance 26336.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 draft, Leonard: '@loc_square (@Image1) is wrong; two references alter the model.' Root causes: (1) his naming rule of 2026-11-19 is still only on unmerged docs branches (claude/docs-ref-naming-fix has the full fix with a filmtool check that refuses the old naming); film-sync never merges docs/ or tools/, and pushing to main from this session was refused by the permission system, so Leonard has to merge that branch. (2) both reference images carry the wrong place: palette_sunset is a wide boulevard with towers and street lights, loc_square has lamps, traffic lights and an open space (the traffic light and the wide roads of T01 to T03). Entry in stories/MISTAKES.md. REQUEST S08-SH030-d now text only: prompts/001_S08_SH030_T04_v3.txt (v1 and v2 kept), seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, estimate_video_cost 12 credits, balance 26315.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-d approved by Leonard ('go, 12 credits') and submitted: S08 SH030 T04, job 344b204b-e9fc-4eeb-a0f4-1407167824a4, seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T04_v3.txt."
     }
   ],
   "story_sync": {
