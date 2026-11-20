@@ -87,10 +87,10 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 
 ### Live updates
 
-1. Every push with content (`stories/`, `films/`) starts `.github/workflows/film-sync.yml` once,
-   unless its newest commit says `[skip ci]`. The job checks out main and runs main's scripts, and
-   stops after 10 minutes at most. `tools/mergebranches.sh` merges every branch pushed in the last 48
-   hours that is ahead of main and changes only `stories/`, `films/` and `films-index.json`:
+1. `.github/workflows/film-sync.yml` runs on a clock, never on a push: minute 17 of every second
+   hour, 07 to 23 UTC (9 runs a day, at most 5 minutes each), plus manual runs by Leonard. It
+   checks out main and runs main's scripts. `tools/mergebranches.sh` merges every branch pushed in
+   the last 48 hours that is ahead of main and changes only `stories/`, `films/` and `films-index.json`:
    `film.json` and `shotlist.json` by structure (`tools/jsonmerge.py`: shots and takes by id,
    both sides' log entries kept), `MISTAKES.md` and `takes/log.md` keeping both sides,
    `films-index.json` regenerated. A real conflict or a failed `filmtool check` leaves that branch
@@ -100,8 +100,8 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
    the takes logged in the story's `takes/log.md`, the animatic clip of each shot and its
    character elements (details in the script). It commits the
    result to main and starts the site deploy whenever the live build is behind main. It always
-   runs main's copy, so a session on an old branch still reaches the site. Push to live: about
-   2 minutes.
+   runs main's copy, so a session on an old branch still reaches the site. Push to live: up
+   to 2 hours.
 3. An open page checks `data/site.json` every minute and redraws when a new build is there (never
    while a video plays: it waits until it stops). The board shows when the data was built and from
    which commit.
