@@ -49,9 +49,11 @@ follows these rules. They override habits and defaults.
 - Docs state rules only: no comparisons of sources, no debates. Keep every document as short as
   it can be.
 - After every generation: download the file, name it `<filmid>_<S##>_<SH###>_<T##>.mp4`, record the
-  take in `shotlist.json` (job id, settings, credits, prompt file), and commit. **Every take goes
-  into git, loved or not** (user decision 2026-11-10: scraps can be reused). Watch the repository
-  size with `filmtool.py status` and tell the user before it nears GitHub's 5 GB guidance.
+  take in `shotlist.json` (job id, settings, credits, prompt file), make its still
+  (`python3 tools/media/preview.py 001 S01 SH010 T03`: the sync run then skips installing ffmpeg),
+  and commit. **Every take goes into git, loved or not** (user decision 2026-11-10: scraps can be
+  reused). Watch the repository size with `filmtool.py status` and tell the user before it nears
+  GitHub's 5 GB guidance.
 - **Show every generated file in the chat, always** (user decision 2026-11-18): right after the
   download, send it with `SendUserFile` (`display: "render"`), every video, still and audio take.
   A take that is not shown in the chat counts as not delivered.
