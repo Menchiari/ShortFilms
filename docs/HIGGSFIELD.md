@@ -23,6 +23,19 @@
   be "re-rendered" at 1080p: a new generation is a new performance. Choose the final resolution
   before generating the take you hope to keep.
 
+## Drafts and finalizing
+
+- A 480p seedance_2_5 take is sent with `draft: true` only when the job allows it. Same price
+  as a plain 480p render.
+- Only a draft job can be finalized: a new job with `draft_job_id`, within seven days of the
+  draft. The final renders the draft's full duration at the final resolution's price.
+- A take sent without the flag can never be finalized.
+- A `video_edit` at a higher resolution is not a substitute for finalizing: it keeps the
+  performance but adds no detail (001 S04 SH070 T03: SSIM 0.972 against a bicubic upscale of
+  the 480p take, edge energy slightly lower, 31 credits).
+- Not allowed: image inputs with no video reference (001: 3 of 3 failed, refunded). Those takes
+  go out without the flag, and the approval request says they cannot be finalized.
+
 ## Elements (characters, locations, props)
 
 References are Higgsfield Elements, named like the existing ones:
