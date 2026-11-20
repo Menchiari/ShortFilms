@@ -6050,8 +6050,9 @@
                 "palette_sunset 1f563179"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH050-a, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear; continuous sound, no silences): photoreal, sunset backlight, her back and ponytail in the left third, him limping in from the street and holding a dark folder out to her with his right arm, ending waist-up facing her. Paper sheets blow past. Weak: the place is a wide open avenue with high-rise blocks, traffic lights and a road sign, not the narrow street of S06 SH020; one body visible (left), not two; she turns her head toward profile; the folder is held at waist height on a straight arm, not at the chest; the trouser stain does not read; little wind in his hair."
+              "rating": 1,
+              "notes": "REQUEST S09-SH050-a, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear; continuous sound, no silences): photoreal, sunset backlight, her back and ponytail in the left third, him limping in from the street and holding a dark folder out to her with his right arm, ending waist-up facing her. Paper sheets blow past. Weak: the place is a wide open avenue with high-rise blocks, traffic lights and a road sign, not the narrow street of S06 SH020; one body visible (left), not two; she turns her head toward profile; the folder is held at waist height on a straight arm, not at the chest; the trouser stain does not read; little wind in his hair. Leonard 2026-11-20: no. He must stand in the center of the square, on the opposite side from the street light, a street behind him; background out of focus; he acts too nice: the line is 'here we go, another bad thing happening to us'; mainly the background is wrong. Cause of the background (Claude): the loc_square element image (62815a4f) is this very wide avenue with towers and traffic lights, and the take copied it.",
+              "rating_source": "user"
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",

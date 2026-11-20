@@ -1886,6 +1886,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T01 done: job 5624c7ee, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T01.mp4 (6.08 s, 992x432, audio). Shot status review. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T01 rated 1 by Leonard ('no'): wrong background (the take copied the loc_square element image, a wide avenue with towers and traffic lights), he must stand in the center of the square opposite the street light with a street behind him, background out of focus, line too nice. T02 prompt prepared (request S09-SH050-b, not submitted): loc_square dropped, square in words, shallow focus, sour fed-up delivery. Preflight 18 credits. [ASSUMPTION] 'opposite side of the light post' = the street light is out of frame behind the camera side."
     }
   ],
   "story_sync": {
