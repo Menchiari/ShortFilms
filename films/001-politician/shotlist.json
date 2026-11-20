@@ -8498,6 +8498,32 @@
               "love": false,
               "rating": null,
               "notes": "Not generated, 0 credits. Leonard on T04: no zoom, the last frame as reference, a slow pan from the top of the contract to the signature. Her POV into the SH060 folder at the end-frame scale, slow handheld tilt, real text throughout, procedural wind ripple on the upper page."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12,
+              "job_id": "0203257e-7a6d-471c-ae53-1d33d2f4bd35",
+              "prompt": "05-generation/prompts/001_S09_SH070_T06.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T06.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "SH060 T01 frame at 3 s (media 13e7f27a)",
+                "agreement_page_v2.png (media 862610be)",
+                "palette_sunset",
+                "start_image: props/agreement/insert_start_v5.png (media 59fdb692)",
+                "end_image: props/agreement/insert_end_v4.png (media fc1fa7c6)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST approved by Leonard 2026-11-20 ('do it seedance'). Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T05: not realistic, 4 s fine. Slow tilt, no zoom, start and end frames real text; the clauses in between (18.2 to 18.6, the witness line) come out as fake glyphs in the right layout; motion blur and depth of field look photographic."
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
