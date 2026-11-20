@@ -6051,8 +6051,9 @@
                 "char_politician_final 547bbfa3 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S08-SH040-f. Folder Scenes/S08/SH040. Prompt T06_v2 (414 words), refs T04 frame 10fceb80 and char_politician_final. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): T04 angle, place and his height held; no blasts, only low dust; the crowd flees for real; the third kill reads cleanly: the man in the white shirt throws up an arm and drops at about 4.8 to 5 s. Cracks: loud at 0.8 s and 4.5 s, a quieter one at about 2.7 s. Misses: the crowd is again several hundred people in rows, mostly older men, the same as the T04 frame: the reference frame carries its crowd in, 'not its people' did not hold, the fifty from the prompt did not come through; the first kill is hidden behind the front rows (a body is seen only as they part); by about 2.5 s two bodies lie at the left, the second fall not readable; five bodies at the end."
+              "rating": 2,
+              "notes": "REQUEST S08-SH040-f. Folder Scenes/S08/SH040. Prompt T06_v2 (414 words), refs T04 frame 10fceb80 and char_politician_final. Claude's read (frames at 4 and 6 fps, full last frame, audio levels only): T04 angle, place and his height held; no blasts, only low dust; the crowd flees for real; the third kill reads cleanly: the man in the white shirt throws up an arm and drops at about 4.8 to 5 s. Cracks: loud at 0.8 s and 4.5 s, a quieter one at about 2.7 s. Misses: the crowd is again several hundred people in rows, mostly older men, the same as the T04 frame: the reference frame carries its crowd in, 'not its people' did not hold, the fifty from the prompt did not come through; the first kill is hidden behind the front rows (a body is seen only as they part); by about 2.5 s two bodies lie at the left, the second fall not readable; five bodies at the end. Leonard 2026-11-20: all the things Claude noticed, plus he is not hanging in the right position: he should hang from the street lamp post (he hangs from the traffic-light pole beside it).",
+              "rating_source": "inferred"
             }
           ],
           "description": "A crack from the sky, then another every two seconds. Three people drop, one after another, the last one while he runs. The rest run.",
