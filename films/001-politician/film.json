@@ -1944,6 +1944,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH030, Leonard: 'everything is wrong'. No spend. Free comp on the approved T03: 05-generation/comp/001_S08_SH030_T03_kick_v1.mp4 (ffmpeg here): a recoil kick at each of T03's two shots (audio peaks 0.94 s and 3.06 s): the frame jumps up and sideways, 5-frame blur, a decaying shake over about 0.3 s. T03 itself unchanged."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 done: T03 with the recoil kick comp (comp/001_S08_SH030_T03_kick_v1.mp4), Leonard: 'this works' (rating 4 inferred). Two kills, no blood, the open square, as in T03. Lesson: after an approved take, change only what was asked, on top of that take (post first, then a start frame from it); rebuilding the prompt lost everything T03 had (T04, T05)."
     }
   ],
   "story_sync": {
