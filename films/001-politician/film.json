@@ -1928,6 +1928,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH030-e approved by Leonard ('go, 12 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 1fdf43ac-4d2c-427e-8062-37e2c29146a1), no job id returned, nothing charged. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH030-e resubmission approved by Leonard ('go, 12 credits') after the 429 refusal and submitted: S08 SH030 T05, job 962697eb-ab58-424c-9436-88447b3e6596, seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, folder S08/SH030 81f7ed35, prompt prompts/001_S08_SH030_T05.txt."
     }
   ],
   "story_sync": {
