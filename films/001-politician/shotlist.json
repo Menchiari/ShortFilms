@@ -7779,7 +7779,7 @@
         },
         {
           "id": "SH020",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7856,7 +7856,9 @@
                 "loc_square 62815a4f",
                 "palette_sunset 1f563179 (@Image5)"
               ],
-              "notes": "REQUEST S09-SH020-c, draft. Claude's read from stills: he starts at screen right on one knee at the foot of a pole on the curb, pulls himself up on it and limps on a diagonal to the case; ends behind it from the chest down with the rope end coiled at his ankle. The case is clearly open (lid standing up toward the camera, the tray behind it). Stronger lens character: blue anamorphic flare streaks across the frame, sun in frame at upper left, haze, backlit rims. Sheets scattered at random, a few lift and skitter, most stay down. Helicopter comes in from upper left at 2 s, lands at screen left. Off: the pole is a traffic light pole with a yield sign, not the street lamp with its arm (no rope on an arm); the big man sits up against the pole instead of lying still; only two or three bodies visible, not a dozen; a figure sits inside the helicopter cabin; a parked car at the far left; the city is still the loc_square towers. Audio present (mean -28.6 dB), not listened to."
+              "notes": "REQUEST S09-SH020-c, draft. Claude's read from stills: he starts at screen right on one knee at the foot of a pole on the curb, pulls himself up on it and limps on a diagonal to the case; ends behind it from the chest down with the rope end coiled at his ankle. The case is clearly open (lid standing up toward the camera, the tray behind it). Stronger lens character: blue anamorphic flare streaks across the frame, sun in frame at upper left, haze, backlit rims. Sheets scattered at random, a few lift and skitter, most stay down. Helicopter comes in from upper left at 2 s, lands at screen left. Off: the pole is a traffic light pole with a yield sign, not the street lamp with its arm (no rope on an arm); the big man sits up against the pole instead of lying still; only two or three bodies visible, not a dozen; a figure sits inside the helicopter cabin; a parked car at the far left; the city is still the loc_square towers. Audio present (mean -28.6 dB), not listened to. Leonard (2026-11-20): 'this works'. Approved as the SH020 take.",
+              "rating": 4,
+              "rating_source": "inferred"
             }
           ],
           "description": "The briefcase lies flat and open in the foreground, seemingly empty. Far back, he gets up and limps toward it, slowly. Behind him the helicopter comes down into the square. Its rotor wash tears the certificates off the asphalt: they flip, tumble and fly off in the gusts. He reaches the case.",
