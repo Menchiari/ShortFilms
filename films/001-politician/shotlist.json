@@ -5962,6 +5962,27 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "Scope and crosshair generated in camera (Leonard's call): a round scope view, black outside, a fine reticle with a ranging scale, held in place for the whole take. Two shot peaks in the audio at about 1 s and 3 s. Kill 1: a man drops near the crosshair around 1 s and lies there. Kill 2 reads clearly: the heavy man in brown runs on the crosshair, then folds and drops right under it at about 3.2 to 3.7 s. Sun behind the camera (shadows run away from it), matching S08 SH010. Distance: closer than asked (people about one eighth of the circle, not one fifteenth); most runners flee away from the camera, crowd mostly men. Not graphic, passed the filter. Leonard: 'good enough' (rating 3 inferred, read as 'usable'). Chosen take for SH030."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "344b204b-e9fc-4eeb-a0f4-1407167824a4",
+              "prompt": "05-generation/prompts/001_S08_SH030_T04_v3.txt",
+              "file": "05-generation/takes/S08/SH030/001_S08_SH030_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH030_T04.jpg",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Text only, no references. Claude's read: narrow, dirty, dusty streets packed with a fleeing crowd; blood readable (dark red pools under the men who drop); three hits, the third very clear (the young man in white is thrown down and lies in a pool). Three shot peaks in the audio at about 0.3 s, 1.8 s and 3 s, each with a view jump (frame-difference spikes at frames 8 to 10, 41 to 44, 62 to 74): the kicks are there but short, about a quarter second, not violent. Off-brief: the angle is low, nearly street level down the street, not high above from a helicopter; the scope circle drifts left and right instead of staying fixed; the crosshair is thin and faint. Passed the filter with blood."
             }
           ],
           "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
