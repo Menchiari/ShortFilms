@@ -1,0 +1,17 @@
+Audio: only the steady turbine whine and heavy thump of the idling helicopter rotors behind her, the rush of rotor wash, and the dry rattle and flap of the paper page in it. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1 is a frame of the shot just before this one: the business lady holding the open dark blue card folder low at her chest. It gives the folder, the cream paper and the sunset light only, not its camera angle and not her face.
+@Image2 is the exact page in the folder, the last page of the contract: its text, layout and blue ink signature must stay exactly as printed, every line in its place.
+@palette_sunset (@Image3): color and light only, not its composition.
+The start image is the exact first frame: the top of the page. The end image is the exact final frame: the signature at the bottom of the same page.
+
+Her point of view, at sunset in a dusty town square beside a landed helicopter: looking down at the last page of a contract lying in the open dark blue folder she holds low at her chest, the camera tilts slowly down the page from the top to the signature, shot like a serious thriller.
+
+0-4s: Camera: one slow, steady handheld tilt down the page, from the first frame to the final frame, at the same distance and the same size the whole time: no zoom, no push in, no pull back. The page slides upward through the frame line by line at an even pace, the printed text sharp and unchanged, exactly the page of @Image2. The rotor wash from behind her: the upper part of the page lifts slightly, ripples and trembles against the folder, catching the light as it bends; the bottom of the page stays flat, pinned by her thumb out of frame. In the last second the bottom edge of the page and a strip of the blue folder come into view, the sunlit ground far below and out of focus beyond them, and the camera settles on the signature. Final frame: exactly the end image.
+
+Lighting, motivated by the sun only: the low sunset sun is behind her, so the folder and the page lie in her soft shade, lit by warm bounce from the sunlit square; the ground beyond glows warm and bright with dust in the light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI. Real paper, slightly curved and never perfectly flat, with soft fibre texture. Shallow depth of field: the line under the eye in focus, the far edge of the page a touch soft, the ground fully defocused into soft oval anamorphic bokeh. Lens character: mild chromatic fringing toward the frame edges, gentle halation on the bright ground, natural vignette. Real 35mm grain.
+Continuity: one folder, dark blue. One single cream page. No hands, no person, no face in frame. No new text appears, no text changes, no logo, no subtitles. No cuts, no slow motion, no zoom.
+
+Audio: only the steady turbine whine and heavy thump of the idling helicopter rotors behind her, the rush of rotor wash, and the dry rattle and flap of the paper page in it. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
