@@ -1926,6 +1926,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard: write the start frame for GPT Image or whatever model works best. Claude picked seedream_v5_pro (S07 SH010 start frame precedent; GPT Image 2.6 was rejected on S06 SH030 as posed). REQUEST S09-SH040-ref prepared, not submitted: prompts/001_S09_SH040_REF_start-frame.txt, 2k, 21:9, count 1, refs SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25, folder Scenes/S09/SH040. Estimate 2.5 credits. The Midjourney version stays as an alternative."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref approved by Leonard ('let's see it'): seedream_v5_pro, 2k, 21:9, job 526ae7eb-1779-46d9-9383-bad41ec535be, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v1.png (3120x1328). Claude's read: SH020's place, corner, slumped man and sun with flare; helicopter landed nose right with the gunner inside; she steps down beside the cockpit, one heel down; he in profile facing her with the folder, open case at his feet, rope at the ankle. Off: tighter than asked (he is nearer the camera than the helicopter, about five meters from her), she wears sunglasses, a liquid puddle at his feet."
     }
   ],
   "story_sync": {
