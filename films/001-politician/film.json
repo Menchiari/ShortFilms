@@ -3290,6 +3290,10 @@
     {
       "date": "2026-11-20",
       "text": "S10 SH010 T03 in (job e29dc213, 60 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T03.mp4, 20.06 s. Claude's read in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S10 SH010 T03 rated 1 (inferred, Leonard: no no no, start with the sky only, it looks super fake). REQUEST S10-SH010-d prepared, not submitted: T04, prompts/001_S10_SH010_T04.txt. Elements as <<<element_id>>> (PROMPTING.md 2026-11-20), the sunset palette as the only media. Opens on sky only through the windshield; the helicopter rises into it from below (lift-off beyond the roofs), banks closest at 9 s, the wash sways the car; camera tilts down and sinks from 11 s [ASSUMPTION: a tilt is needed to go from sky only to the street]; bobblehead from 16 s; speck against the low sun at the end. Realism paragraph: real windshield glass, exposure, scale, motion blur, heat shimmer, depth of field, weathered irregular buildings, matte dusty resin bobblehead, random papers. 480p 60 credits (720p 140), balance 25571.2. Waiting for approval."
     }
   ],
   "story_sync": {
