@@ -3118,6 +3118,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH110 T02 rated 3 (inferred: 'fine, but not cinematic, an AI composition'). REQUEST S09-SH110-c prepared, not submitted: T03, prompts/001_S09_SH110_T03.txt = T02 angle with a long lens (about 75mm anamorphic, style.md camera grammar), off-axis unbalanced frame (near corner of a block filling the left half, street opening in the right third), sun hidden behind the corner flaring, untidy varied body poses cut by the frame edges, paper skids along the ground and stays solid, no shop signs. Same refs and settings as T02. Cost check 12 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref-v2 approved by Leonard ('let's see it'): seedream_v5_pro edit over the animatic, job a1ee1a66-a520-4c92-82a1-fce080768ca0, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v2.png (3120x1328). Claude's read: the animatic camera and layout held (helicopter left nose right, corner of the square behind, tall pole at right), photographic, sunset backlight with flare; she steps out by the cockpit; he right of center near the open case, facing her; bodies scattered. Off: an extra man standing in the background by the corner; he stands a step from the case, not right at it; he is a little larger than in the animatic."
     }
   ],
   "story_sync": {
