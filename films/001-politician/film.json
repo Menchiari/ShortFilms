@@ -2830,6 +2830,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard flagged '@element (@ImageN)' again in S09 SH020 T01 and T02. Root cause: his 2026-11-19 rule (elements by name only) was written to the log and to branch claude/prompting-ref-naming, which was never merged; film-sync does not merge docs, so main's PROMPTING.md, HIGGSFIELD.md, template v5 and MISTAKES.md kept the old form, and this session followed them. T01 (39 credits) was generated with the old naming. T02 superseded by prompts/001_S09_SH020_T02_v2.txt (only change: the (@ImageN) tags removed, the palette written @Image5 because it is not an element); same media, order and cost, request S09-SH020-b, 39 credits, not submitted. Docs fix plus a filmtool check guard on branch claude/docs-ref-naming-fix, waiting for Leonard to merge it into main (Claude's push to main was refused by the session permissions)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S08-SH040-f approved by Leonard ('ok go, 21 credits, don't repeat elements'). Prompt cut to prompts/001_S08_SH040_T06_v2.txt (414 words): nothing described twice (the framing named once, the hits only in the timeline, the summary sentence and the hit paragraph merged); the audio line stays at start and end (CLAUDE.md rule 4). Unsubmitted v1 kept as 001_S08_SH040_T06.txt. S08 SH040 T06 submitted: seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs T04 frame 10fceb80 and char_politician_final 547bbfa3, job 695f707d-0fe7-4e50-85d8-f92fb85464f0, folder Scenes/S08/SH040."
     }
   ],
   "story_sync": {
