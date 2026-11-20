@@ -6152,9 +6152,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S09-SH090-c. T02 plus Leonard's notes: over her shoulder so his eyeline lands on her, he passes on her far side. Claude's read (stills at 2 fps, not listened): over her right shoulder, her black ponytail and dark jacket in the left foreground, a sunglasses arm visible at her temple; his eyes go down slightly to her face and read as on her for the 4.5 s hold. Then he steps toward her and passes behind her on the far side, she stays between him and the camera, he comes out at her left and leaves frame left. His chin lowers on the turn and walk. She is fairly sharp, not soft; the background is only moderately blurred: a wide open square with flat facades, the bodies readable as dark shapes on the ground."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S09-SH090-c. T02 plus Leonard's notes: over her shoulder so his eyeline lands on her, he passes on her far side. Claude's read (stills at 2 fps, not listened): over her right shoulder, her black ponytail and dark jacket in the left foreground, a sunglasses arm visible at her temple; his eyes go down slightly to her face and read as on her for the 4.5 s hold. Then he steps toward her and passes behind her on the far side, she stays between him and the camera, he comes out at her left and leaves frame left. His chin lowers on the turn and walk. She is fairly sharp, not soft; the background is only moderately blurred: a wide open square with flat facades, the bodies readable as dark shapes on the ground. Leonard 2026-11-20: 'good'."
             }
           ],
           "description": "He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.",

@@ -1910,6 +1910,10 @@
     {
       "date": "2026-11-20",
       "text": "001: S09 SH090 T03 delivered (job bdd41913), takes/S09/SH090/001_S09_SH090_T03.mp4 (992x432, 7.07 s, audio), recorded in shotlist.json, unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH090 T03: 'good' (rating 4, inferred)."
     }
   ],
   "story_sync": {
