@@ -8319,7 +8319,7 @@
               "prompt": "05-generation/prompts/001_S09_SH050_T04.txt",
               "file": "05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH050_T04.jpg",
               "references": [
                 "start frame: T02 frame 0 b9d2e155 (refs/001_S09_SH050_T02_frame_0s.png)",
                 "char_politician_final 547bbfa3",
