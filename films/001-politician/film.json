@@ -1940,6 +1940,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH030 T05 rated 1 (inferred, Leonard: 'no, this is all wrong'). SH030 so far: 5 takes, 60 credits; T03 (approved, 'good enough') stays the chosen take. Nothing new prepared. Proposed: start from T03's own first frame (start_image) so its scope, angle, place and crowd carry over, and change only what Leonard asked on T03; open question: what 'tighter roads' meant (read twice as narrow streets, both rejected)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030, Leonard: 'everything is wrong'. No spend. Free comp on the approved T03: 05-generation/comp/001_S08_SH030_T03_kick_v1.mp4 (ffmpeg here): a recoil kick at each of T03's two shots (audio peaks 0.94 s and 3.06 s): the frame jumps up and sideways, 5-frame blur, a decaying shake over about 0.3 s. T03 itself unchanged."
     }
   ],
   "story_sync": {
