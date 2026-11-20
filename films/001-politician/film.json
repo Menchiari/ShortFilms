@@ -3178,6 +3178,18 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH040-ref-v4 approved by Leonard ('try'): job b0c839c8-e82d-461f-85ed-f25c91a4ecfb, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v4.png. Claude's read: helicopter turned as asked (seen from behind, tail toward the camera), she steps out of its right side facing him, one old man. Lost: the animatic's camera and distance: the place became the SH020 corner (traffic light, yield sign, slumped man) and he stands close, about two meters from her, not far back."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH060-b approved by Leonard ('ok go, 24 credits') and submitted: S09 SH060 T02, job 02079cd7-04d0-4fe5-8491-38e1a9e928b9, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, refs char_boss, prop_helicopter, loc_square, palette_sunset, no guide clip, folder Scenes/S09/SH060, prompt prompts/001_S09_SH060_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH060 T02 downloaded (job 02079cd7, 24 credits): 8.06 s, audio present. Closer and harder than T01; the page is held up beside her face at 1-4 s, the blurred edge of his head sits at the right frame edge. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard on S09 SH060 T02: 'love it, use both (actually this last one is 080 while the t1 should be 060)'. T02 rating 5 + love. Edit: SH060 from T01 (0-4 s), SH080 from T02 ([ASSUMPTION] its 4-8 s). SH060 and SH080 approved. What made T02 work: the closer size and an acting task built on silence as punishment (the swallowed attack)."
     }
   ],
   "story_sync": {
