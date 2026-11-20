@@ -1,0 +1,43 @@
+Audio: only the old man's screams and swearing, his ragged breathing and gasps, the thud of his body hitting the asphalt, the scrape of his shoes and hands on the asphalt and the curb, one small spit, and the quiet room tone of an emptied square with faint distant shouting. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_politician_final (@Image1): the old man's face with its bruises and dried blood, his white hair, build, and his torn dusty charcoal suit and white shirt only, not his pose or background. @loc_square (@Image2): the corner of the square only: the plain weathered concrete wall, the tall metal street light on the curb, the chipped curb, the sidewalk and the dusty asphalt, not its framing, people or parked cars. @palette_sunset (@Image3): color and light only, nothing else.
+
+A locked-off long-lens shot from the ground across the street at sunset: the old man from @char_politician_final falls onto the asphalt beside the curb at the corner of a desert-town square, screams, curls up shaking, then turns over and lounges back against the curb, catches his breath, nearly smiles at the sky, gives the sleeping man beside him one small contemptuous spit, takes a last breath and gets up.
+
+Camera: locked-off, the lens low, close to the asphalt across the street, on a long lens. The camera does not move at any moment. The curb runs straight across the frame from left to right a little below the middle; above it the sidewalk, and behind the sidewalk the flaking concrete wall of the square, soft and compressed, two street light poles at the left of center, hazy tall apartment blocks far behind at the left. The asphalt in front of the curb fills the bottom of the frame, slightly out of focus in the foreground. Both men are seen full length, the sleeping man in the left half of frame, the old man right of center.
+
+The sleeping man: in the left half of frame, along the curb, a big heavy man lies still on his side on the asphalt, sleeping, his head toward the left edge of frame, curly dark hair, a beard, a worn brown t-shirt and dusty cargo trousers; an old rusty metal pipe lies on the asphalt beside him. He does not move at any moment. The space on the asphalt to the right of his legs is empty: that is where the old man lands.
+
+The street is a real, lived-in street photographed on location, never blocky or simplified: cracked and patched asphalt buried in dust and drifted sand, a chipped and broken curb, rubble and sand along the foot of the wall, flaking paint and stains on the weathered concrete, grit in the gutter. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low hazy sunset sun from screen left, almost level with the ground, rakes along the street and the curb, warm amber and orange, throwing long soft shadows toward screen right. The old man's face is lit from the side by the low sun and filled by warm bounce from the sunlit asphalt and the wall, so his eyes read clearly. Dust hangs in the low light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+How he moves, the whole shot: like a real, exhausted, beaten old man filmed by a documentary camera, never like an animation. Loose and uneven: every movement has its own speed, he starts and stops, fumbles, slips, tries again, shifts his weight several times before he finds a position, his head, hands and feet never still for long. Nothing mechanical, nothing in sync, no clean poses held like a mannequin.
+
+0-2s: the camera holds. @char_politician_final falls into frame from above, upside down, and lands on the empty asphalt beside the curb, right of center, shoulder first, then his hip, a heavy dead fall with real weight, his body rolling half over and stopping against the curb. A short length of cut rope is still knotted around his right ankle and lies loose on the asphalt.
+2-6s: the camera holds. @char_politician_final curls up on his side facing the camera, knees pulled up, hands clutching his head, and screams his line, his whole body shaking, rocking a little, his feet scraping on the asphalt.
+6-10s: the camera holds. The shaking slowly eases. @char_politician_final breathes in ragged gasps, then rolls onto his back with a groan, drags himself back against the curb with his hands and heels in clumsy uneven shoves, slips once, and slumps into a loose, slouched lean: his back against the curb, his spine curved, sunk low, both elbows resting on the sidewalk behind him like the edge of a short couch, one knee up, the other leg out on the asphalt. His shoulders, hips and elbows stay in contact with the asphalt, the curb and the sidewalk; nothing floats.
+10-13s: the camera holds. Slumped against the curb, @char_politician_final catches his breath, his chest rising and falling slower each time, wiping his mouth with the back of his hand. He lets his head fall back and looks up at the sky. The corners of his mouth lift: nearly a smile.
+13-15s: the camera holds. @char_politician_final rolls his weight onto one elbow, propping himself up, and turns his head to the sleeping man beside him on his left. He looks him over with disgust.
+15-16s: the camera holds. @char_politician_final spits once at the sleeping man: one small, quick, disrespectful spit, a little flick of the lips, a tiny bit of saliva that drops onto the sleeping man's arm. Nothing more: no stream, no spray, no glow, his face calm and cold.
+16-18s: the camera holds. @char_politician_final takes one last long breath, plants a hand on the curb, and with effort pushes himself up: onto one knee, then slowly to his feet, unsteady, one hand still on his knee. Final frame: the same locked-off framing, the old man nearly upright beside the curb, right of center, bent forward, catching his balance, the sleeping man still where he lay, the low sunset sun raking from screen left.
+
+Dialogue: American English with a slight accent nobody can place, hoarse.
+2-5s, the old man's line (screaming it out of his body, at nobody, then running out of air): {Fuck! FUCK! Fuck fuck fuck...}
+After the line he keeps his mouth closed except to breathe and to spit.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and he has just been dropped from the rope alive.
+GOAL: get his body back under his own control, then get back on his feet and on with his business.
+OBSTACLE: his body betrays him: it shakes, it will not stop gasping, and the man who tried to kill him lies right there beside him.
+TACTIC: first he screams the fear out of his body to empty it; then he forces his breathing down, one breath at a time, his eyes fixed on the sky as if it were the only thing that holds still; once he owns his breath again, his eyes come down to the man beside him, take him in for a moment, and dismiss him with one small spit, the way you would at a dog; then his eyes leave him for good and look for his footing.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Physics: a real human body falling about a meter onto asphalt, heavy, with real weight; every contact with the ground is solid. Count of old men: one. Count of sleeping men: one, still at every moment. Count of pipes: one. Count of ropes: one short cut piece at his ankle. The asphalt stays dry: no liquid, no puddle, no stain, no blood on the ground or on his trousers. No new wounds, no gore. Real-life speed, no slow motion, no cuts, no repeated action.
+
+Unplaceable town: no landmark, no flag, no readable writing, no logos. No laundry, no trees, no greenery, no parked cars.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the old man's screams and swearing, his ragged breathing and gasps, the thud of his body hitting the asphalt, the scrape of his shoes and hands on the asphalt and the curb, one small spit, and the quiet room tone of an emptied square with faint distant shouting. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
