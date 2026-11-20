@@ -222,7 +222,7 @@
       "S10": "985c8aa1-06b3-4fba-abb6-cd6d9bc878b3",
       "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f"
     },
-    "elements_note": "Live element list checked 2026-11-17 12:00 UTC. Seedance 2.5 ignores <<<element>>> placeholders: pass the image job id in medias as image_references.",
+    "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
       "char_politician": {
         "element": "1d544095-f1c6-4865-8e97-e09dbadcabc7",
