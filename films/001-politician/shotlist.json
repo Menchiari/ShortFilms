@@ -7379,7 +7379,7 @@
               "prompt": "05-generation/prompts/001_S08_SH040_T06_v2.txt",
               "file": "05-generation/takes/S08/SH040/001_S08_SH040_T06.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH040_T06.jpg",
               "references": [
                 "T04 frame 10fceb80 (image_references)",
                 "char_politician_final 547bbfa3 (image_references)"
@@ -7868,7 +7868,7 @@
               "prompt": "05-generation/prompts/001_S09_SH020_T02_v2.txt",
               "file": "05-generation/takes/S09/SH020/001_S09_SH020_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH020_T02.jpg",
               "references": [
                 "prop_briefcase 4bf36cb5",
                 "char_politician_final 547bbfa3",
