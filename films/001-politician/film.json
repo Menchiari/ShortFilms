@@ -1894,6 +1894,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH110-b approved by Leonard ('ok go, 12 credits'): S09 SH110 T02 submitted, job f3c2f6b1-f401-4226-a48e-6ba762af74fe, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T02.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T02 done: job f3c2f6b1, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T02.mp4, recorded in shotlist.json, waiting for Leonard's rating."
     }
   ],
   "story_sync": {
