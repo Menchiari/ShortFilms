@@ -8378,6 +8378,55 @@
               "love": false,
               "rating": null,
               "notes": "Not generated, 0 credits. Leonard on T01: use one of his signatures, much more realistic. His bottom-centre signature in blue-black ink, law-firm formatting, toner and paper texture, photographed in the folder at sunset. Still: 001_S09_SH070_T02.png."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12,
+              "job_id": "0da86c8a-01ce-42a9-8ed2-1f5af9906d08",
+              "prompt": "05-generation/prompts/001_S09_SH070_T03.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_boss",
+                "palette_sunset",
+                "end_image: props/agreement/insert_end_v3.png (media 05e8e30c)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST approved by Leonard 2026-11-20. Draft 480p (draft: true, can be finalized at a higher resolution). Higgsfield folder S09/SH070. Passed first submission. Her hands hold the page against the sunset ground, skim down, lands on the end frame (signature readable). Mid-skim text is garbled under the motion: the edit dissolves onto insert_end_v3.png for the hold."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12,
+              "job_id": "6516db02-3e98-47e0-9b55-ac239fd5f28e",
+              "prompt": "05-generation/prompts/001_S09_SH070_T04.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_boss",
+                "SH060 T01 frame at 3 s (props/agreement/ref_sh060_T01_3s.png, media 13e7f27a)",
+                "palette_sunset",
+                "end_image: props/agreement/insert_end_v4.png (media fc1fa7c6)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST approved by Leonard 2026-11-20. Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T03: her hands, the SH060 folder, her point of view. T04: her POV into the dark blue folder, both hands with grey sleeves and white cuffs, page top flapping, sunlit ground beyond, push in, lands on the end frame. Mid-skim text garbled; the edit dissolves onto insert_end_v4.png for the hold."
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
