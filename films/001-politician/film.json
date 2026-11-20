@@ -1908,6 +1908,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH030, Leonard's changes on T03: tighter roads, three shots instead of two, stronger jolts (the shots are powerful), blood, realism and dirt. REQUEST S08-SH030-d prepared, not submitted: T04, prompts/001_S08_SH030_T04.txt, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, refs loc_square 62815a4f, palette_sunset 1f563179. Same in-camera scope as T03; narrow, crowded, dirty streets leaving the square; three hits at 1, 2 and 3 s with a violent recoil kick and blur each time; blood puff, blood pool, dirt. [ASSUMPTION] 'tighter roads' = the narrow streets out of the square; the three hits are the three S08 SH040 kills seen through the scope. Filter risk raised by the blood (Leonard's call). estimate_video_cost 12 credits, balance 26336.7. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 draft, Leonard: '@loc_square (@Image1) is wrong; two references alter the model.' Root causes: (1) his naming rule of 2026-11-19 is still only on unmerged docs branches (claude/docs-ref-naming-fix has the full fix with a filmtool check that refuses the old naming); film-sync never merges docs/ or tools/, and pushing to main from this session was refused by the permission system, so Leonard has to merge that branch. (2) both reference images carry the wrong place: palette_sunset is a wide boulevard with towers and street lights, loc_square has lamps, traffic lights and an open space (the traffic light and the wide roads of T01 to T03). Entry in stories/MISTAKES.md. REQUEST S08-SH030-d now text only: prompts/001_S08_SH030_T04_v3.txt (v1 and v2 kept), seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, estimate_video_cost 12 credits, balance 26315.7. Waiting for approval."
     }
   ],
   "story_sync": {
