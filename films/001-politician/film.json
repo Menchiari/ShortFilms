@@ -2838,6 +2838,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard: palette_sunset is not an element; use the element, not its image, and fix the rule at the root; simplify the prompt. Checked: the S01 SH010 T02 job (28fc84db, seedance_2_5) shows the backend took <<<char_politician>>> as a reference_elements entry, so the old rule 'Seedance 2.5 ignores placeholders' had no evidence. Fixed: stories/politician/elements.md here; docs/PROMPTING.md and docs/HIGGSFIELD.md on branch claude/elements-not-images (needs merging into main). REQUEST S09-SH010-b replaced by S09-SH010-c, prepared, not submitted: prompts/001_S09_SH010_T02_v2.txt (about half of T02's length), elements char_politician_final and loc_square as <<<id>>> in the prompt, palette_sunset 1f563179 as the only image in medias, named in words; no guide clip; 480p, 21:9, 18 s, audio on, 54 credits (free quote). T02.txt was never submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH010 elements double-checked against the live list (Leonard): the 21 politician elements and their images are unchanged; one new, prop_bar-weapon 37fe2cf2 (the fat person's pipe, Leonard 2026-11-19), now in elements.md once (duplicate row removed). main merged into s09-sh010 (style.md: no previz or line-drawing clip as video reference; T02 already had none). REQUEST S09-SH010-c replaced by S09-SH010-d, prepared, not submitted: prompts/001_S09_SH010_T02_v3.txt = T02_v2 plus char_big-guy f5cc12be (the sleeping man, continuity with S07) and prop_bar-weapon (his pipe beside him) as <<<id>>>; elements char_politician_final, loc_square, char_big-guy, prop_bar-weapon; palette_sunset image in medias, named in words; 480p, 21:9, 18 s, audio on, 54 credits (free quote)."
     }
   ],
   "story_sync": {
