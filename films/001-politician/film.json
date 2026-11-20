@@ -1878,6 +1878,14 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S09-SH040-a approved by Leonard ('ok go, 12 credits'). First submission refused by Higgsfield: 429 rate_limit_reached (request id 161c6d62-e141-46a4-921d-1837942d7dd1), no job id, nothing charged. Resubmitted once: refused again, 429 rate_limit_reached (request id 83b97900-b707-4e19-b586-971289d9622c), no job id, nothing charged. Not resubmitted again: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-a resubmitted on Leonard's word ('try again'): accepted, job 8aa6cae0-6627-4c85-b8eb-57735c9e6265, folder Scenes/S09/SH040, 12 credits. The request echo lists the guide clip under reference_images (as on S06 SH030)."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH040 T01 done (job 8aa6cae0), downloaded as takes/S09/SH040/001_S09_SH040_T01.mp4. Blocking right, look wrong: the line guide's geometry came out as 3D (box helicopter, box buildings). Proposed T02: same prompt without @Video1, words only, 12 credits, not submitted."
     }
   ],
   "story_sync": {
