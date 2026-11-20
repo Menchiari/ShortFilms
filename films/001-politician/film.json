@@ -3270,6 +3270,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH050-f (v2) approved by Leonard ('let's see') and submitted: S09 SH050 T06, job adff67e3-e22c-48d8-8c8f-ae16120c71eb, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, char_politician_final, char_boss, palette_sunset 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T06_v2.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "001: S09 SH050 T06 delivered (job adff67e3, 18 credits), takes/S09/SH050/001_S09_SH050_T06.mp4 (992x432, 6.08 s, audio), recorded in shotlist.json, unrated. Place and grade drifted again (wide ruined plaza, orange-red)."
     }
   ],
   "story_sync": {
