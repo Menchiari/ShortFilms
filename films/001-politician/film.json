@@ -3006,6 +3006,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH110-a resubmitted on Leonard's 'try again, 12 credits': job da95fb1c-1b9a-4e61-b33b-378fb0ef3e0a, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, loc_square 62815a4f, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T01.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH100-a, Leonard: 'try again'. Third submission refused (429, request id b8c4b5d6-a935-4bf4-a4ba-1684984d6094, nothing charged) while six Seedance jobs of other S08/S09 sessions were in progress: the limit looks like concurrent jobs per account [inferred]. Submitted once more after one of them completed: accepted, job cf5b1072-4fe8-4ee1-b761-1fe2dbdc2e17, folder Scenes/S09/SH100, 39 credits."
     }
   ],
   "story_sync": {
