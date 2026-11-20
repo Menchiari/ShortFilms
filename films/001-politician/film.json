@@ -1886,6 +1886,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH040 T01 done (job 8aa6cae0), downloaded as takes/S09/SH040/001_S09_SH040_T01.mp4. Blocking right, look wrong: the line guide's geometry came out as 3D (box helicopter, box buildings). Proposed T02: same prompt without @Video1, words only, 12 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-b prepared, not submitted: prompts/001_S09_SH040_T02.txt (T01 minus the @Video1 guide paragraph, nothing else changed), seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, same five images, no video. Estimate 12 credits, balance 26,336.7."
     }
   ],
   "story_sync": {
