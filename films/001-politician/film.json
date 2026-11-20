@@ -1874,6 +1874,10 @@
     {
       "date": "2026-11-19",
       "text": "REQUEST S10-SH010-a approved by Leonard ('ok go, 60 credits'). Submission refused by Higgsfield: 429 rate_limit_reached (request id 9670a68f-9de0-4150-8be9-6c92e9d748f3), no job id. No 60-credit spend in the transaction list (other scenes' sessions were generating at the same minute). Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S10-SH010-b prepared, not submitted (Leonard: use the animatic as a reference, not frame by frame, a cinematic ending shot). S10 SH010 T02, prompt prompts/001_S10_SH010_T02.txt: T01's references plus the d11 clip as a line drawing (refs/001_S10_SH010_lines_d11.mp4, media 53cc3d81) with a loose-guide paragraph (idea, rough path, order and pace; positions and timing free). Added: the helicopter crosses the low sun (silhouette, flare), the camera sinks later (8 s), rim light on the bobblehead, dust hanging in the sun shafts, rotor fading to near silence, a 5 s still closing image. Risk: the README rule (a set clip on a place-filled frame came out as previz on S02); Leonard asked for the clip. seedance_2_5 omni_reference, 480p, 21:9, 20 s, audio on, preflight 60 credits, balance 25803.7. Waiting for approval."
     }
   ],
   "story_sync": {
