@@ -3170,6 +3170,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH110 T03 done: job b42f3a44, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T03.mp4, recorded in shotlist.json, waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S10-SH010-b approved by Leonard ('let's see what comes out', 60 credits) and submitted: S10 SH010 T02, job 2cd023a3-ec4f-45c7-a2c0-e90921edacfc, folder Scenes/S10/SH010. The job echo lists the guide clip 53cc3d81 among reference_images, not as a video reference: check whether the clip acted as a motion guide."
     }
   ],
   "story_sync": {
