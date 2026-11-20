@@ -1920,6 +1920,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH030 T04 downloaded (job 344b204b, 12 credits, t2v, no references), takes/S08/SH030/001_S08_SH030_T04.mp4. Passed the filter with blood. Narrow dirty streets, packed crowd, three hits with blood pools, short kicks. Off-brief: low near-street-level angle instead of high from the helicopter, the scope circle drifts, faint crosshair. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T04 rated 1 (inferred, Leonard: 'no, it's supposed to be from high up, not in a narrow street'). REQUEST S08-SH030-e prepared, not submitted: T05, prompts/001_S08_SH030_T05.txt (T04 v3 plus: about 300 m up, looking steeply down at about sixty degrees, rooftops at the edges of the circle, no horizon or sky in the circle, never from street level; bigger recoil, a third of the circle off target). seedance_2_5 t2v, no references, 480p, 21:9, 4 s, audio on, estimate 12 credits, balance 26054.7. Waiting for approval."
     }
   ],
   "story_sync": {

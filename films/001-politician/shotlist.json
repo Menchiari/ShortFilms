@@ -5980,9 +5980,9 @@
               "poster": "05-generation/web/001_S08_SH030_T04.jpg",
               "references": [],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Text only, no references. Claude's read: narrow, dirty, dusty streets packed with a fleeing crowd; blood readable (dark red pools under the men who drop); three hits, the third very clear (the young man in white is thrown down and lies in a pool). Three shot peaks in the audio at about 0.3 s, 1.8 s and 3 s, each with a view jump (frame-difference spikes at frames 8 to 10, 41 to 44, 62 to 74): the kicks are there but short, about a quarter second, not violent. Off-brief: the angle is low, nearly street level down the street, not high above from a helicopter; the scope circle drifts left and right instead of staying fixed; the crosshair is thin and faint. Passed the filter with blood."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "Text only, no references. Claude's read: narrow, dirty, dusty streets packed with a fleeing crowd; blood readable (dark red pools under the men who drop); three hits, the third very clear (the young man in white is thrown down and lies in a pool). Three shot peaks in the audio at about 0.3 s, 1.8 s and 3 s, each with a view jump (frame-difference spikes at frames 8 to 10, 41 to 44, 62 to 74): the kicks are there but short, about a quarter second, not violent. Off-brief: the angle is low, nearly street level down the street, not high above from a helicopter; the scope circle drifts left and right instead of staying fixed; the crosshair is thin and faint. Passed the filter with blood. Leonard: no, it is supposed to be from high up, not in a narrow street."
             }
           ],
           "description": "The square through his scope. A thin box frames every face: red. One box, upside down under the street light, is green. The crosshair moves from red box to red box.",
