@@ -1936,6 +1936,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH030 T05 downloaded (job 962697eb, 12 credits, t2v), takes/S08/SH030/001_S08_SH030_T05.mp4. High steep angle over rooftops, no sky; three kicks, stronger than T04; blood; passed the filter. Off-brief: the scope ring is small and slides across the frame with the town visible outside it. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH030 T05 rated 1 (inferred, Leonard: 'no, this is all wrong'). SH030 so far: 5 takes, 60 credits; T03 (approved, 'good enough') stays the chosen take. Nothing new prepared. Proposed: start from T03's own first frame (start_image) so its scope, angle, place and crowd carry over, and change only what Leonard asked on T03; open question: what 'tighter roads' meant (read twice as narrow streets, both rejected)."
     }
   ],
   "story_sync": {
