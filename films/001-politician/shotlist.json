@@ -8161,8 +8161,35 @@
                 "palette_sunset 1f563179"
               ],
               "love": false,
+              "rating": 2,
+              "notes": "REQUEST S09-SH040-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): his note applied: he stands out on the open asphalt with the case at his feet, away from the pole. Her exit is upright and composed, no ducking, but she stays one or two steps from the door instead of about four. About twelve bodies, but laid out in tidy rows like a grid. The case reads as a small dark box standing upright, not open and flat. Ignored: traffic lights, yield sign and zebra crossings are still there; the junction, towers, wall and steps are identical to T02 [inference: they come from the loc_square image, not yet checked]. Leonard 2026-11-20: no, the camera angle is wrong: rotate around to match the previous shot (S09 SH020), where the helicopter sits.",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f5260b6c-6035-428f-8741-1ca7da368a59",
+              "prompt": "05-generation/prompts/001_S09_SH040_T04.txt",
+              "file": "05-generation/takes/S09/SH040/001_S09_SH040_T04.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "SH020 T03 frame 8.5 s b5e22ffd (place)",
+                "prop_helicopter 6c8efe25",
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
               "rating": null,
-              "notes": "REQUEST S09-SH040-c, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): his note applied: he stands out on the open asphalt with the case at his feet, away from the pole. Her exit is upright and composed, no ducking, but she stays one or two steps from the door instead of about four. About twelve bodies, but laid out in tidy rows like a grid. The case reads as a small dark box standing upright, not open and flat. Ignored: traffic lights, yield sign and zebra crossings are still there; the junction, towers, wall and steps are identical to T02 [inference: they come from the loc_square image, not yet checked]."
+              "notes": "REQUEST S09-SH040-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not heard): the place, sun, flare, helicopter position and corner now match SH020 T03 exactly, with strong film look. Failure: it copied SH020's camera too (low on the asphalt, the open case big in the foreground), despite the 'do not copy its camera position' line, so it is not a wide. She does not step out of the helicopter: she enters from the left edge of frame close to camera and walks in front of it; the helicopter stays far behind, still looking airborne. He stands behind the case, facing the camera, not beside it facing her. Graceful walk on heels, which reads well."
             }
           ],
           "description": "The BUSINESS LADY steps out, low under the rotors, and stops a few steps from the helicopter. She waits.",
