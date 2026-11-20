@@ -63,6 +63,9 @@ follows these rules. They override habits and defaults.
   automatically by film-sync), the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
+- Every push starts a billed GitHub Actions run (minutes are limited). When the newest commit of a
+  push changes nothing the site must show now (a prompt draft, a "submitted" note), end its
+  message with `[skip ci]`. Nothing is lost: the next run merges every branch.
 
 ## Story development
 

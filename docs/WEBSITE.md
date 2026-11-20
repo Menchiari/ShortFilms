@@ -87,9 +87,9 @@ in review; no takes = its status (`planned`, `ready`); `cut` shots are left out 
 
 ### Live updates
 
-1. Every push to a working branch starts `.github/workflows/film-sync.yml` (through
-   `stories-sync.yml`; also on pushes to main touching `stories/`). It runs main's copy, so old
-   branches cannot block it. `tools/mergebranches.sh` merges every branch pushed in the last 48
+1. Every push with content (`stories/`, `films/`) starts `.github/workflows/film-sync.yml` once,
+   unless its newest commit says `[skip ci]`. The job checks out main and runs main's scripts, and
+   stops after 10 minutes at most. `tools/mergebranches.sh` merges every branch pushed in the last 48
    hours that is ahead of main and changes only `stories/`, `films/` and `films-index.json`:
    `film.json` and `shotlist.json` by structure (`tools/jsonmerge.py`: shots and takes by id,
    both sides' log entries kept), `MISTAKES.md` and `takes/log.md` keeping both sides,
