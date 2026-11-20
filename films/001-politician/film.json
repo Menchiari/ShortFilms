@@ -2982,6 +2982,14 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH040-c approved by Leonard ('let's see it'): T03 job a35cfc87-4df4-497c-91eb-77b39fd1c216, 12 credits, folder Scenes/S09/SH040, downloaded as takes/S09/SH040/001_S09_SH040_T03.mp4. He stands by the case in the open; her exit composed; traffic lights and crossings still there."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH050-b approved by Leonard ('ok go, 18 credits'): S09 SH050 T02, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, refs 547bbfa3, 7ef41962, 1f563179, folder Scenes/S09/SH050, prompt prompts/001_S09_SH050_T02.txt. Job e841fd97-bee7-4f35-93e8-09582eeb2b8e."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T02 done: job e841fd97, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T02.mp4. Not yet rated by Leonard."
     }
   ],
   "story_sync": {
