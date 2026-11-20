@@ -1924,6 +1924,10 @@
     {
       "date": "2026-11-19",
       "text": "S08 SH040 T05 done (job 9e758336, 21 credits): takes/S08/SH040/001_S08_SH040_T05.mp4. Angle held, shots no longer from him. Misses: the puffs and the falls do not line up (hit 1 puff in mid crowd, hit 3 misses the runner), puffs still man-high, the earlier dead missing. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: start over, read the prompts that worked, simplify. Claude's count: the takes rated 4 or 5 in this film use prompts of about 600 to 1100 words, one subject, one action per beat, two or three references; SH040 grew from 1240 (T01) to 1780 words (T05). REQUEST S08-SH040-f prepared, not submitted: prompts/001_S08_SH040_T06.txt, about 440 words, two references only (T04 frame 10fceb80 for angle, place, pole and his height; char_politician_final), about fifty people instead of a hundred, one line each for the crowd, the dead and the hits. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
