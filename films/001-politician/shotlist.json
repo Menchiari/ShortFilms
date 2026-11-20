@@ -7901,7 +7901,7 @@
               "prompt": "05-generation/prompts/001_S09_SH010_T02_v3.txt",
               "file": "05-generation/takes/S09/SH010/001_S09_SH010_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH010_T02.jpg",
               "references": [
                 "char_politician_final f4279c8f (element)",
                 "loc_square 4eff3268 (element)",
@@ -8127,7 +8127,7 @@
               "prompt": "05-generation/prompts/001_S09_SH040_T03.txt",
               "file": "05-generation/takes/S09/SH040/001_S09_SH040_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH040_T03.jpg",
               "references": [
                 "prop_helicopter 6c8efe25",
                 "char_boss 7ef41962",
@@ -8194,7 +8194,7 @@
               "prompt": "05-generation/prompts/001_S09_SH050_T02.txt",
               "file": "05-generation/takes/S09/SH050/001_S09_SH050_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH050_T02.jpg",
               "references": [
                 "char_politician_final 547bbfa3",
                 "char_boss 7ef41962",
