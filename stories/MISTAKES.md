@@ -32,6 +32,19 @@ the rule that prevents it. Newest first.
   in only when its image shows what the shot needs; open it first. Film 001's palette images (`palette_afternoon`,
   `palette_sunset`) are city streets: color and light come from the look line and the lighting paragraph. When a shot's
   place differs from every location image, the place comes from words alone (`t2v`).
+## 2026-11-20, Politician S09 SH020 T01 (39 credits) and the T02 draft
+
+- **What:** both prompts wrote elements as `@prop_briefcase (@Image1)`. Leonard dropped the `(@ImageN)` after an
+  element name on 2026-11-19 (film.json log): elements by name only, `@Image1` only for references that are not
+  elements. Leonard had to flag it again.
+- **Cause:** the rule change lived only in the film.json log and on the unmerged branch
+  `claude/prompting-ref-naming`. film-sync merges only `stories/`, `films/` and `films-index.json`, so a docs branch
+  never reaches main by itself. Main kept teaching the old form in four places (PROMPTING.md step 2 and its template
+  v5, HIGGSFIELD.md, the rule in the entry below), and the session brief pointed to an even older template. I read
+  only the last log entries, followed the docs, and the docs were wrong.
+- **Rule:** a decision of Leonard's lands in the doc that teaches it, on main, in the same session; a docs branch is not
+  done until main has it. `filmtool check` now refuses changed prompts with `(@ImageN)` after an element name or
+  "Image 1" / "VIDEO 1" naming.
 
 ## 2026-11-19, Politician S04 SH080 T01 and T02 (27 credits)
 
@@ -43,7 +56,8 @@ the rule that prevents it. Newest first.
   of my own first one, so the old naming carried forward. The pulls brought the new rule; I never re-read it.
 - **Rule:** before writing or copying any prompt, re-read docs/PROMPTING.md step 2 from freshly pulled main and
   start from the template it names, never from a brief's template or an older prompt. Before every cost preflight,
-  check: every reference line reads `@char_/@prop_/@loc_<name> (@ImageN)`, and the body uses only those names.
+  check the naming against docs/PROMPTING.md step 2 as it stands on main (superseded 2026-11-19: elements by
+  name only, see the entry above).
 
 ## 2026-11-18, Politician S02 SH050 T03 and T04 (24 credits)
 
