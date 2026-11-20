@@ -6101,9 +6101,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S09-SH090-a. First submit refused (429), second blocked by the session permission check, resubmitted 2026-11-20 on Leonard's word. No previz clip. Claude's read (stills at 2 fps, not listened): photoreal, sunset backlight from the upper right as asked, open square with shuttered facades, two bodies soft at the right edge, her dark shoulder soft at the left edge. He holds a look just left of the lens for about 3 s, then turns toward screen left and starts walking out, head dropping (chin down, not up, on the exit). Face: blood under the nose and a bruise on his left cheekbone; the eyebrow split from S05 does not read. Wind in his hair is light, not hard rotor wash."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S09-SH090-a. First submit refused (429), second blocked by the session permission check, resubmitted 2026-11-20 on Leonard's word. No previz clip. Claude's read (stills at 2 fps, not listened): photoreal, sunset backlight from the upper right as asked, open square with shuttered facades, two bodies soft at the right edge, her dark shoulder soft at the left edge. He holds a look just left of the lens for about 3 s, then turns toward screen left and starts walking out, head dropping (chin down, not up, on the exit). Face: blood under the nose and a bruise on his left cheekbone; the eyebrow split from S05 does not read. Wind in his hair is light, not hard rotor wash. Leonard 2026-11-20: 'The background isn't right, but it works, the film quality is there.' Wants closer, a longer hold on his expression, him walking past her on the left side of the frame and past the camera, a blurrier but realistic background."
             }
           ],
           "description": "He stares back at her, chin up. A challenge. Then he limps off toward the helicopter.",
