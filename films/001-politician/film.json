@@ -1898,6 +1898,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH110 T02 done: job f3c2f6b1, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T02.mp4, recorded in shotlist.json, waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T02 rated 3 (inferred: 'fine, but not cinematic, an AI composition'). REQUEST S09-SH110-c prepared, not submitted: T03, prompts/001_S09_SH110_T03.txt = T02 angle with a long lens (about 75mm anamorphic, style.md camera grammar), off-axis unbalanced frame (near corner of a block filling the left half, street opening in the right third), sun hidden behind the corner flaring, untidy varied body poses cut by the frame edges, paper skids along the ground and stays solid, no shop signs. Same refs and settings as T02. Cost check 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
