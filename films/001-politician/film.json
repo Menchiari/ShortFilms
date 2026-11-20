@@ -3310,6 +3310,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH110 T04 done: job abec4409, 12 credits, saved as 05-generation/takes/S09/SH110/001_S09_SH110_T04.mp4, still made, recorded in shotlist.json, waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T04 rated 4 (inferred: 'fine'), shot approved."
     }
   ],
   "story_sync": {

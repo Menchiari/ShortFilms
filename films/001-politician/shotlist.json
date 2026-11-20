@@ -8874,7 +8874,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -8968,8 +8968,9 @@
                 "SH050 T02 frame, grade A 30eaaf24 (image_references; refs/001_S09_SH110_REF_place_from_SH050_T02_gradeA.jpg)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH110-f (Leonard: 'just do the shot'). Folder Scenes/S09/SH110. Only reference: the SH050 T02 frame in grade A (upload 30eaaf24); no elements, no palette. 992x432, 4.06 s, audio mean -34.4 dB, max -17.2 dB (not heard). Claude's read (frames at 2 fps plus one full frame, not watched at speed): the first take that reads as plain, ungraded footage: muted grey-beige, washed sky, soft low sun at the upper right, dust streaming across the ground toward the street. The place matches SH050 T02 (the same shuttered facade across the back, the sunlit street at the right). Riot debris on the ground: shoes, a can, scraps. Paper: about a dozen sheets tumble and skid at 0-2 s, then thin out; few left by 3 s. Misses: only three bodies (the map has twelve in this view); his car (door open) parked at the left in front of the shutters, mid-distance, not far down the street; no street light or corner at the left edge; hidden people not readable; the paper runs out again."
+              "rating": 4,
+              "notes": "REQUEST S09-SH110-f (Leonard: 'just do the shot'). Folder Scenes/S09/SH110. Only reference: the SH050 T02 frame in grade A (upload 30eaaf24); no elements, no palette. 992x432, 4.06 s, audio mean -34.4 dB, max -17.2 dB (not heard). Claude's read (frames at 2 fps plus one full frame, not watched at speed): the first take that reads as plain, ungraded footage: muted grey-beige, washed sky, soft low sun at the upper right, dust streaming across the ground toward the street. The place matches SH050 T02 (the same shuttered facade across the back, the sunlit street at the right). Riot debris on the ground: shoes, a can, scraps. Paper: about a dozen sheets tumble and skid at 0-2 s, then thin out; few left by 3 s. Misses: only three bodies (the map has twelve in this view); his car (door open) parked at the left in front of the shutters, mid-distance, not far down the street; no street light or corner at the left edge; hidden people not readable; the paper runs out again. Leonard 2026-11-20: fine (rating 4, inferred). Shot approved.",
+              "rating_source": "inferred"
             }
           ],
           "description": "The certificates flutter among the bodies in the rotor wash.",
