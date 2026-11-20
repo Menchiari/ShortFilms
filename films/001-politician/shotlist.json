@@ -7477,7 +7477,7 @@
               "prompt": "05-generation/prompts/001_S08_SH040_T07.txt",
               "file": "05-generation/takes/S08/SH040/001_S08_SH040_T07.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH040_T07.jpg",
               "references": [
                 "T04 last frame c732f495 (image_references)",
                 "char_politician_final 547bbfa3 (image_references)"
@@ -8179,7 +8179,7 @@
               "prompt": "05-generation/prompts/001_S09_SH040_T04.txt",
               "file": "05-generation/takes/S09/SH040/001_S09_SH040_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH040_T04.jpg",
               "references": [
                 "SH020 T03 frame 8.5 s b5e22ffd (place)",
                 "prop_helicopter 6c8efe25",
@@ -8271,7 +8271,7 @@
               "prompt": "05-generation/prompts/001_S09_SH050_T03.txt",
               "file": "05-generation/takes/S09/SH050/001_S09_SH050_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH050_T03.jpg",
               "references": [
                 "char_politician_final 547bbfa3",
                 "char_boss 7ef41962",
@@ -8393,7 +8393,7 @@
               "prompt": "05-generation/prompts/001_S09_SH070_T03.txt",
               "file": "05-generation/takes/S09/SH070/001_S09_SH070_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH070_T03.jpg",
               "references": [
                 "char_boss",
                 "palette_sunset",
@@ -8417,7 +8417,7 @@
               "prompt": "05-generation/prompts/001_S09_SH070_T04.txt",
               "file": "05-generation/takes/S09/SH070/001_S09_SH070_T04.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH070_T04.jpg",
               "references": [
                 "char_boss",
                 "SH060 T01 frame at 3 s (props/agreement/ref_sh060_T01_3s.png, media 13e7f27a)",
@@ -8491,7 +8491,7 @@
         },
         {
           "id": "SH100",
-          "status": "planned",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -8507,7 +8507,7 @@
               "prompt": "05-generation/prompts/001_S09_SH100_T01.txt",
               "file": "05-generation/takes/S09/SH100/001_S09_SH100_T01.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH100_T01.jpg",
               "references": [
                 "char_boss 7ef41962",
                 "char_politician_final 547bbfa3",
@@ -8574,7 +8574,7 @@
               "prompt": "05-generation/prompts/001_S09_SH110_T02.txt",
               "file": "05-generation/takes/S09/SH110/001_S09_SH110_T02.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S09_SH110_T02.jpg",
               "references": [
                 "prop_car 42787b78 (image_references)",
                 "palette_sunset 1f563179 (image_references)"
@@ -8602,7 +8602,7 @@
           "framing": "CLOSE, her face, same frame as SH100",
           "movement": "Locked-off",
           "duration_s": 6,
-          "note": "She looks past the lens at the money. One generation with SH100 SH120 is the later part (7-13 s) of SH100 T01 (takes/S09/SH100/001_S09_SH100_T01.mp4, job cf5b1072): no separate generation.",
+          "note": "She looks past the lens at the money. One generation with SH100",
           "animatic": {
             "file": "05-generation/animatic/d11/S09_SH120.mp4",
             "draft": "d11"
