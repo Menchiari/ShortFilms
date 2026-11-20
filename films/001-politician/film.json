@@ -1958,6 +1958,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard: 'why so verbose all the time? It's a miracle the image generators can come up with something.' Start frame v4 prompt cut from about 450 words to about 110, same five references, same request S09-SH040-ref-v4, 2.5 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH040-ref-v4 approved by Leonard ('try'): job b0c839c8-e82d-461f-85ed-f25c91a4ecfb, 2.5 credits, folder Scenes/S09/SH040, saved as 05-generation/refs/001_S09_SH040_REF_start-frame_v4.png. Claude's read: helicopter turned as asked (seen from behind, tail toward the camera), she steps out of its right side facing him, one old man. Lost: the animatic's camera and distance: the place became the SH020 corner (traffic light, yield sign, slumped man) and he stands close, about two meters from her, not far back."
     }
   ],
   "story_sync": {
