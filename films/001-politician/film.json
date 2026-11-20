@@ -1882,6 +1882,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH100-a, Leonard: 'try again'. Third submission refused (429, request id b8c4b5d6-a935-4bf4-a4ba-1684984d6094, nothing charged) while six Seedance jobs of other S08/S09 sessions were in progress: the limit looks like concurrent jobs per account [inferred]. Submitted once more after one of them completed: accepted, job cf5b1072-4fe8-4ee1-b761-1fe2dbdc2e17, folder Scenes/S09/SH100, 39 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH100 T01 downloaded (job cf5b1072, 39 credits, 13.06 s, 992x432, 24 fps): SH100 + SH120 in one take. Rack focus works; he looks back toward her at 4-5 s (against the note); she is frontal in sunglasses, so the squint does not read. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

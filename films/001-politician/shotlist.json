@@ -6093,7 +6093,35 @@
         {
           "id": "SH100",
           "status": "planned",
-          "takes": [],
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 13,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 39.0,
+              "job_id": "cf5b1072-4fe8-4ee1-b761-1fe2dbdc2e17",
+              "prompt": "05-generation/prompts/001_S09_SH100_T01.txt",
+              "file": "05-generation/takes/S09/SH100/001_S09_SH100_T01.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "prop_helicopter 6c8efe25",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S09-SH100-a, Higgsfield folder S09/SH100, approved by Leonard ('ok go, 39 credits'), submitted 2026-11-20 after three 429 refusals (nothing charged). One generation for SH100 (0-7 s) and SH120 (7-13 s); SH110 cuts between them. Claude's read from frames (not yet heard): the rack focus works (him sharp at the door, her soft, then her sharp from about 7 s); he limps in from screen right to the door and climbs in; she looks down, turns and walks to the door at the end. Defects: at 4-5 s he looks back over his shoulder toward her and the camera (the note says he never faces her), then turns to profile toward frame left; she stands near center, almost frontal, looking at the lens, not three-quarter toward screen right; she wears sunglasses, so the squint at the money does not read; the helicopter reads dark olive grey, not matte black; few sheets on the street. Audio levels: mean -31.6 dB, peak -11.7 dB."
+            }
+          ],
           "description": "He limps past her. She doesn't move. At the door he half turns, away from her, and points his chin at the street without a look at her.",
           "framing": "CLOSE, her, same frame as SH080",
           "movement": "Locked-off, rack focus",
@@ -6126,7 +6154,7 @@
           "framing": "CLOSE, her face, same frame as SH100",
           "movement": "Locked-off",
           "duration_s": 6,
-          "note": "She looks past the lens at the money. One generation with SH100",
+          "note": "She looks past the lens at the money. One generation with SH100 SH120 is the later part (7-13 s) of SH100 T01 (takes/S09/SH100/001_S09_SH100_T01.mp4, job cf5b1072): no separate generation.",
           "animatic": {
             "file": "05-generation/animatic/d11/S09_SH120.mp4",
             "draft": "d11"
