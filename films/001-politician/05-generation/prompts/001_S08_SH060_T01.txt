@@ -1,0 +1,27 @@
+Audio: only the steady muffled thump and whine of the helicopter rotors and turbine through the cabin, wind buffeting past the open sliding door, the creak of his harness straps and a soft click of the rifle as he shifts it. No dialogue. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_sniper (@Image1): Roger's face, short spiky brown hair, stubble, amber wraparound shooting glasses, in-ear headset, black hoodie and black plate carrier with harness straps only, not his pose, the panel layout or the background. @prop_rifle (@Image2): the long rifle with its scope: shape, black finish and scope only, not its background. @loc_heli-cabin (@Image3): the bare military cabin of a matte black helicopter: its dark ribbed walls, cable runs and window frames only, not its people or framing. @palette_sunset (@Image4): color and light only.
+
+Locked-off close shot inside the bare dark cabin of a hovering matte black military helicopter at sunset: Roger from @char_sniper, harnessed in, his cheek on the stock of the rifle from @prop_rifle, has just been told to stop; for an instant he is a child whose candy was taken, then his face goes blank and he moves his aim to a new target.
+
+Framing: Roger's head and shoulders fill the center of frame, his face in three-quarter view toward screen right, his right eye at the scope. The rifle runs diagonally across the lower half of frame from his cheek out toward the lower right edge, toward the open door, its barrel leaving frame. Behind him, out of focus, the dark cabin wall and one small window glowing orange with the sunset sky. His amber glasses have see-through tinted lenses: his eyes read clearly behind them.
+
+Lighting, motivated by the sun only: a low red-orange sunset sun pours in through the open sliding door at screen right, hard and warm across the right side of his face, the scope and the rifle, catching the stubble and the edge of the glasses. The cabin behind him is deep warm shadow with detail. A soft warm bounce from the cabin floor fills the left side of his face. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: locked-off close shot, the camera never moves. Roger holds his cheek on the stock, his right eye at the scope, the rifle steady. His mouth is still caught in the end of a smile. Without lifting his cheek from the stock he slides his eyes off the scope toward screen left, to where she sits in the front seat out of frame, and his lower lip pushes out: a sulking boy denied.
+1-2s: he holds that look on her for a beat, waiting for her to take it back. She does not. His face empties: the sulk drains out, his jaw sets, his face goes blank and flat.
+2-4s: he brings his eye back to the scope and with small, precise movements of his shoulders and hands he swings the rifle a little down and to the right, onto a new target, and settles, perfectly still. Final frame: same locked-off close shot, Roger's blank face in three-quarter view toward screen right, right eye at the scope, cheek on the stock, the rifle still and steady, aimed a little lower and further right than at the start, the orange window soft behind him.
+
+ACTING TASK, Roger (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): a clean job from above: stay professional, no fuss, it is just work.
+MOTIVE (his fuel): he loves this part of the job, and she is the one who pays and decides.
+GOAL: keep his place as her best shooter.
+OBSTACLE: she has just told him to stop in the middle of what he enjoys, and arguing with her costs him the job.
+TACTIC: his eyes go to her to plead without a word, a boy checking if the no is final; when he reads in her that it is, he swallows the hurt whole, closes his face like a door and goes back to the scope to show her he is a professional who obeys: his eye hunts the next target she wants and locks on it.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people in frame: one, Roger. Count of rifles: one. Nobody else in the cabin is visible. No text, no logos, no markings.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the steady muffled thump and whine of the helicopter rotors and turbine through the cabin, wind buffeting past the open sliding door, the creak of his harness straps and a soft click of the rifle as he shifts it. No dialogue. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

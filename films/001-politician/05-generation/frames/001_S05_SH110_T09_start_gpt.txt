@@ -1,0 +1,19 @@
+S05 SH110 T09 start frame. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S05/SH110 426ca3ac-94f5-4180-84ff-4de600d790e4.
+Images: 1 = guide frame 0 of animatic d11 S05_SH110 (001_S05_SH110_T09_guide.png).
+Method (root-cause note 2026-11-19): every shape in the guide frame is named as a real thing, so the video model never sees a box.
+
+Prompt:
+
+Image 1 is a rough 3D previz frame. Keep exactly its camera position, height, angle, lens and framing, and the position, size and pose of every figure and building in it. Turn it into a real photograph: nothing of its flat 3D look stays, no figure keeps a box shape.
+
+What the shapes are: every figure is a real present-day person in ordinary modern clothes, standing still in the street, head tipped back, looking up at the sky. The big figure in the middle, close to the camera and seen from below, is a heavy-set man in his fifties in a dark zip-up jacket and jeans, his back half to us. The figure just left of him, a little further away, is a thin young man in a grey hoodie. The two figures at the far left are a woman in a parka and an older man in a work jacket. The small figures further down the street are a mix of men and women in jeans, hoodies, a leather jacket, a tracksuit, a fleece. The figure at the far right edge is a young man in a white T-shirt. Every person is different in age, build, face and clothes; nobody looks alike. No costumes, no waistcoats, no robes, no flat caps.
+
+The buildings are a side street of a present-day European city: five- and six-storey apartment buildings with worn plaster facades in faded ochre and grey, iron balconies, tall windows with roller shutters, a closed shopfront with a metal shutter under the awning at the right, a street lamp, cables, a parked scooter, a dented rubbish bin, patched asphalt. Real, lived-in, never blocky.
+
+High in the sky over the street, small and far away, four sheets of cream paper fluttering. Nothing near the camera.
+
+Light, natural and unstyled: afternoon sun out of frame behind the buildings at screen right, a pale hazy sky, the street in soft open shade, the upper floors at the left catching warm sun. Natural low-contrast light on the people. No lens flare, no glow. Muted natural colors, warm ochre and brown palette. Deep brown shadows with detail, never black; highlights soft, never white.
+
+No readable writing, no logos, no flags, no landmark. No laundry, no trees.
+
+Photographic film still, 35mm film, anamorphic, fine grain, documentary realism, not CGI.

@@ -1,0 +1,35 @@
+REQUEST S07-SH060-h, prepared, waiting for approval: S07 SH060 T06 = T05 again with no arms. seedance_2_5, mode omni_reference, start_image = Leonard's frame (upload 41984959). No other images. 5 s, 480p, 21:9, audio on, folder S07/SH060.
+Leonard 2026-11-19 on T05: try again with the sequel, but no arms. [ASSUMPTION] 'the sequel' = the take that continues from his frame (T05); nothing of the old man in frame, his reactions carried by the camera (his head jerking with each blow and fighting back to face the man) and his breath. Three swings.
+
+Prompt:
+
+Audio: only the fat man's snarl and hard breath, the whoosh of the bar, three dull knocks right at the microphone as the bar lands, the old man's sharp gasps and growls through clenched teeth right at the microphone, and the close deafening roar of the crowd shouting at him, with no words that can be made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Use @Image1 as the exact first frame and continue forward from that moment: the same heavy-set man with long curly hair and a beard in the brown t-shirt, the same dark bar in his hands, the same packed crowd behind him, the same narrow street with rolled-down shutters, the same warm light.
+
+Point of view of the old man: the camera is his eyes, close in front of the heavy-set man, handheld, never steady. Nothing of the old man is ever in frame: no arms, no hands, no sleeves, no body. His reactions are only the camera and his breath: each time the bar lands, the whole frame jerks back and to the side and swings, then struggles back up to face the heavy-set man.
+
+The crowd stays exactly as in @Image1: a packed crowd of men and women of every age and every ethnicity, grey-haired old women in glasses, young women, old bald men, young men, plain everyday clothes in muted browns and greys with a few strong colors, a red jacket, a mustard t-shirt, a blue work shirt; shoulder to shoulder, leaning forward, arms stretched out pointing at him, shouting, faces furious. They keep moving, pointing and shouting the whole time.
+
+0-1s: the heavy-set man glares into the lens, teeth bared, and pulls the bar back over his right shoulder with both hands, winding up.
+1-2s: he swings the bar at the lens; it lands just below the frame with a dull knock, the frame jerks back and tilts, a sharp gasp; the frame swings back up to him.
+2-3s: he is already winding up again, snarling; he swings, the bar lands below the frame, the frame jerks to the other side, a growl through clenched teeth.
+3-4s: the frame fights its way back up to face him, shaking, breathing hard; he winds up and swings a third time, the frame jerks again, a gasp.
+4-5s: the frame comes back up once more, trembling but facing him; he lifts the bar again over his shoulder, the crowd pointing and roaring behind him. Final frame: the heavy-set man in the center, close, the bar drawn back over his shoulder, glaring into the lens; the crowd pressing in on both sides; the frame shaking.
+
+ACTING TASK, the old man (felt only through the camera and his breath):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): he has never once stopped halfway through a fight, and he will not give this crowd the sight of him giving up.
+GOAL: keep facing the man.
+OBSTACLE: every blow knocks him away and the man does not stop.
+TACTIC: after every blow he fights his way back to face him, growling, refusing to look away.
+
+ACTING TASK, the heavy-set man: he wants the old man to stop looking at him; he glares into the lens, winds up and swings, each time harder; when the old man comes back to face him, he snarls and goes again.
+
+ACTING TASK, the crowd: every one of them wants him to fall: they point at him, shout at him, lean in, push forward.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the fat man's snarl and hard breath, the whoosh of the bar, three dull knocks right at the microphone as the bar lands, the old man's sharp gasps and growls through clenched teeth right at the microphone, and the close deafening roar of the crowd shouting at him, with no words that can be made out. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

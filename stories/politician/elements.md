@@ -19,8 +19,10 @@ Prompts use the element itself: `<<<element id>>>` in the prompt text, never its
 | char_sniper | 5f97e15f-91bf-446c-b457-aaf95231f22f | 8716ad9f-ce08-4d86-8aa3-b6dbf0e0c2e3 | Roger (S08) |
 | prop_briefcase | 1f5eb35a-c180-4c28-a0ca-3b4ac49ec939 | 4bf36cb5-5acb-401b-bfd0-8dee52e64d25 | The briefcase, dark leather |
 | prop_gun | 8c5ae0e6-7b29-4e4d-acd3-f3bf423254a0 | 24875e9a-80ba-4b38-b970-3aede1a48c1b | The PPK/S, black and worn (in prompts: a toy gun) |
+| prop_bar-weapon | 37fe2cf2-2fec-431c-8a44-4a370e26e42b | 8d69a591-a811-4b07-9ef9-586a70f736ae | The fat person's pipe (S07 SH050 to SH080, S09): a rusty iron pipe with a raised collar at each end, the size of a baseball bat (about 80 cm long, as thick as a wrist), swung with both hands. The image id is an uploaded media, not an image job: pass it in `medias` the same way. Added by Leonard, registered 2026-11-19 |
 | prop_wobblehead | 79dc8b10-0969-4c09-b152-f1bfd0a92490 | fa19c43f-6118-4229-b27e-9094c0351770 | The bobblehead (S02, S10) |
 | prop_rifle | 1ba45df5-3781-4aa4-a647-2fa4a63af43c | bb9db39b-9cde-4f92-af18-92d3c3dd74c3 | Roger's rifle (S08) |
+| prop_bar-weapon | 37fe2cf2-2fec-431c-8a44-4a370e26e42b | 8d69a591-a811-4b07-9ef9-586a70f736ae (media upload) | The fat person's metal pipe (S07). Leonard 2026-11-19 |
 | prop_car | 4fb2b9be-e3bf-4122-be00-0c098818122e | 42787b78-4682-4c84-953a-f89d853f105d | His car, outside (S02, S03, S10) |
 | prop_instrument-cluster | 3befe9ae-a3a2-4a51-be69-06976021afa8 | 4025ee1a-fb17-4220-9842-2967dc102054 | Fuel needle on E (S02 SH170, S03 SH040) |
 | prop_helicopter | 7a86dade-e435-46ab-95bd-80a76b1e0900 | 6c8efe25-fd49-4797-a086-047c9c7ca372 | Matte black Black Hawk (S08 to S10). A gunner sits in the door: the prompt says the door is empty or Roger's |

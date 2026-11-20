@@ -1,0 +1,23 @@
+Audio: only the low steady thump of helicopter rotor blades and the whine of its turbine, heard from inside the cabin, and short quick breaths through the nose. No rifle shot in this part. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 backward: generate the moments before its first frame, ending exactly on its first frame. Keep the same rifle scope view: the same soft black ring, the same narrow round image, the same fine black crosshair in the same place, the same lens, grain, sunset color and light. Photorealistic live-action footage seen through a real rifle scope, never CGI, never a 3D render, never a video game.
+
+The shooter is searching for the rope. The magnified view swings fast and hard across a desert town at sunset, seen from a helicopter high above: fast whip pans, each one a streak of heavy motion blur, stopping for only an instant on a different part of the town before swinging on.
+
+0-1s: a fast blurred whip across flat rooftops with water tanks and satellite dishes, golden sunset light streaking, then a brief stop on a cracked ochre facade with closed metal shutters.
+1-2s: another hard whip, everything smeared into streaks of amber and brown, a brief stop on a strip of empty dusty street with a curb, then a whip across a sunlit wall and the top of a street light.
+2-3s: a shorter, slower swing down toward the street, the blur easing, the view hunting left and right in small corrections.
+3-4s: the view finds the rope and settles on it: one thick frayed pale rope hanging straight down, vertical, along the vertical line of the crosshair, against the warm blurred asphalt seen from above, exactly the framing of the first frame of @Video1. Final frame: identical to the first frame of @Video1.
+
+ACTING TASK, the shooter behind the scope (he is fully invested in his tactic; the work happens in the view):
+SCENE DIRECTION (shared, unspoken): the job is done, clean it up and go home.
+MOTIVE (his fuel): he was told to stop, and he will show her he can still make one perfect shot.
+GOAL: find the rope before she tells him to stop again.
+OBSTACLE: from this height the town is a maze of roofs and walls, and the scope shows only a coin of it at a time.
+TACTIC: he throws the view from place to place, checks each one in a heartbeat and rejects it, and narrows in the moment he senses the street below the lamp.
+
+Nobody readable in any frame: no faces, no people, no bodies. No readable writing, no logos, no landmarks, no flags. No slow motion, no cuts: one continuous view through the scope.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the low steady thump of helicopter rotor blades and the whine of its turbine, heard from inside the cabin, and short quick breaths through the nose. No rifle shot in this part. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

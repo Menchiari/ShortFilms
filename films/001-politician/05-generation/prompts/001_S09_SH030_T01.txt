@@ -1,0 +1,28 @@
+Audio: only gusts of rotor wind buffeting the scene, loose paper sheets flapping and skidding on the asphalt, the creak of the briefcase leather and the dry scrape of a cardboard folder sliding out of a leather pocket, the old man's short hoarse breaths. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@prop_briefcase (@Image1): the briefcase: its dark leather, shape, stitching and hardware only, not its background or light. @char_politician_final (@Image2): the old man's charcoal suit sleeve, white shirt cuff and hand only: the dust and dried blood on them; not his pose, face or background. @palette_sunset (@Image3): color and light only.
+
+An insert on the asphalt of a dusty square at sunset: the open briefcase from @prop_briefcase lies flat, and the hand of @char_politician_final reaches into the leather pocket inside its lid and pulls out a folder, while the rotor wash of a helicopter landing nearby whips loose papers across the edges of frame. Locked-off, live-action 35mm film footage, never a 3D render.
+
+The briefcase lies flat on the asphalt, wide open, its lid folded back flat on the ground at the top of frame, the inside of the lid facing up toward the camera. The body of the case at the bottom of frame is empty, its dark lining bare. On the inside of the lid, a flat leather pocket; in it, the top edge of a plain dark grey cardboard folder. The folder is closed, thin, with no writing on its cover. Count of briefcases: one. Count of folders: one.
+
+The hand of @char_politician_final: an old man's right hand, thin and spotted, knuckles skinned, dust and dried blood on the skin; the charcoal suit sleeve dusty and torn at the cuff, the white shirt cuff grey with dust and stained with blood.
+
+Lighting, motivated by the sun only: a low sunset sun from screen left at a raking angle, warm orange light skimming across the asphalt and the leather, every scratch and crease in the leather and every grain of grit on the ground catching it; long soft shadows falling to screen right; his hand throws a long shadow across the open case. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: insert, high angle looking straight down onto the open case, camera locked-off and perfectly still, the case filling the middle two thirds of frame, asphalt around it. Gusts of rotor wind sweep across the ground from screen right: dust streams over the asphalt in low sheets; a few loose sheets of paper skid and tumble fast along the asphalt across the corners of frame and out, flat to the ground, never floating. The case is heavy and stays put. The old man's right hand and sleeve enter from the bottom of frame, reaching across the empty case toward the lid.
+1-2.5s: his fingers slide into the pocket of the lid, grip the folder by its edge and pull it out in one steady drag, the leather of the pocket flexing; the hand shakes slightly, the knuckles tight. The sleeve flaps in a gust.
+2.5-4s: the hand lifts the folder off the lid and carries it out of frame at the bottom, the folder's edge rattling in the wind. Final frame: the open briefcase alone on the asphalt, the lid pocket empty and slack, a few sheets of paper skidding past at the frame edges, dust streaming low across the ground, camera unmoved.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his hand):
+SCENE DIRECTION (shared, unspoken): just another day, another job: finish it.
+MOTIVE (his fuel): he has never once left a job halfway, and this folder is the job.
+GOAL: get the folder out and keep it in his hand.
+OBSTACLE: his hand will not stop shaking, the wind tears at everything, and the pocket grips the folder tight.
+TACTIC: he goes straight for the one thing that matters and ignores everything else on the ground: one sure grab, one firm pull, no second look at the case.
+
+Nobody else in frame, no face, no bodies in frame. No readable writing on the folder or on any paper, no logos. No slow motion: real time. No cuts.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only gusts of rotor wind buffeting the scene, loose paper sheets flapping and skidding on the asphalt, the creak of the briefcase leather and the dry scrape of a cardboard folder sliding out of a leather pocket, the old man's short hoarse breaths. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
