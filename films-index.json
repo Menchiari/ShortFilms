@@ -6,8 +6,13 @@
       "id": "001",
       "title": "Routine",
       "status": "generation",
+<<<<<<< HEAD
       "takes": 297,
       "size_mb": 694.6
+=======
+      "takes": 305,
+      "size_mb": 714.0
+>>>>>>> origin/claude/s09-sh110
     }
   ]
 }
