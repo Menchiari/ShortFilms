@@ -2958,6 +2958,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S08-SH040-g approved by Leonard ('ok go, 21 credits'): S08 SH040 T07 submitted, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, refs T04 last frame c732f495 and char_politician_final 547bbfa3, job 325f2a8d-20b2-4043-9888-6a593a2680ee, folder Scenes/S08/SH040, prompt 001_S08_SH040_T07.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T01 rated 1 by Leonard ('no'): wrong background (the take copied the loc_square element image, a wide avenue with towers and traffic lights), he must stand in the center of the square opposite the street light with a street behind him, background out of focus, line too nice. T02 prompt prepared (request S09-SH050-b, not submitted): loc_square dropped, square in words, shallow focus, sour fed-up delivery. Preflight 18 credits. [ASSUMPTION] 'opposite side of the light post' = the street light is out of frame behind the camera side."
     }
   ],
   "story_sync": {
