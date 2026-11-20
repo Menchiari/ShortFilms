@@ -3311,6 +3311,10 @@
     {
       "date": "2026-11-20",
       "text": "City square tour T02 resubmitted unchanged, chosen by Leonard (option 'Resubmit T02 video', 49 credits stated): job ee12b7c9-8300-492e-b9a0-3e80cb03b67b, same settings and inputs as job 551dcd00, folder REFS/LOC_square."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T02 resubmit in (job ee12b7c9, 49 credits): stories/politician/city/square_3d/takes/001_city_square_tour_T02.mp4. The camera follows the 3D guide, no grey shapes: holds on the south row (SH040) and the west street into the sun (SH050, SH090, SH110). The last hold is not the reverse (the sun stays in frame). Unrated."
     }
   ],
   "story_sync": {

@@ -92,3 +92,11 @@ input files or prompt." Not charged (balance unchanged). Cause unknown: nothing 
 1 SH040 wide, 2 SH050/SH090 west, 3 SH110 her POV, 4 SH060/080/100/120 reverse east, 5 reverse from the west street,
 6 long lens across from the south side. Each is a composition base: paint it keeping the composition, with
 `../square_leonard_v1.jpg` as the style reference.
+
+## Take T02 resubmit (2026-11-20): works
+
+`takes/001_city_square_tour_T02.mp4`: job ee12b7c9-8300-492e-b9a0-3e80cb03b67b, same inputs as 551dcd00 (start image +
+grey tour v7 as video reference), 7.07 s, 1470x630, 49 credits. Unrated. Claude's read: the camera now follows the guide.
+No grey shapes. Holds: 2.5 s a real view across the square to the south row (SH040); 4.5 s the west street with its
+zebra crossing into the low sun (SH050/SH090/SH110); 6.5 s open paving, but the sun is still in frame top right, so it is
+not the reverse looking east (SH060 to SH120 still missing). Motion blur during the moves. Stills: `takes/001_city_square_tour_T02_*s.jpg`.
