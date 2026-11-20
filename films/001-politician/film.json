@@ -1926,6 +1926,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T04 done: job ddb88cc6, 18 credits, saved as 05-generation/takes/S09/SH050/001_S09_SH050_T04.mp4. Not yet rated by Leonard. SH050 total 72 credits over four 480p drafts."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH050 T04 rated 2 (inferred: folder too big, too orange, too fake, needs to feel like 35mm). Two free ffmpeg regrades of the T02 start frame made (refs/001_S09_SH050_T02_frame_0s_grade-a.png milder, grade-b stronger: less orange, more contrast, grain), sent to Leonard to pick. T05 prompt prepared (request S09-SH050-e, not submitted): T04 with palette_sunset dropped, a small thin folder, pale gold instead of orange, an organic film paragraph; the start frame becomes the picked grade. Preflight 18 credits."
     }
   ],
   "story_sync": {

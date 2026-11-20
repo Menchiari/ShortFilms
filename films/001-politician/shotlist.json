@@ -6126,8 +6126,9 @@
                 "palette_sunset 1f563179"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH050-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the start frame held T02's background, light and color throughout; both bodies stay readable; rotor wind in his tie and jacket. He thrusts the folder at her on a straight arm at chest to shoulder height, a harder, more aggressive gesture than T02; his face a tight scowl. Weak: the folder is pale grey (from the start frame), not dark; he stops a little farther from her than in T02; the trouser stain does not read; her glasses show at the edge of her cheek."
+              "rating": 2,
+              "notes": "REQUEST S09-SH050-d, draft, not yet rated by Leonard. Claude's read (contact sheet and last frame, audio not checked by ear): the start frame held T02's background, light and color throughout; both bodies stay readable; rotor wind in his tie and jacket. He thrusts the folder at her on a straight arm at chest to shoulder height, a harder, more aggressive gesture than T02; his face a tight scowl. Weak: the folder is pale grey (from the start frame), not dark; he stops a little farther from her than in T02; the trouser stain does not read; her glasses show at the edge of her cheek. Leonard 2026-11-20: folder too big, light too orange, scene too fake looking, must feel more organic, more like 35mm film.",
+              "rating_source": "inferred"
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",
