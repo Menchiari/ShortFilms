@@ -7819,7 +7819,7 @@
         },
         {
           "id": "SH030",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7842,8 +7842,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH030-a. Folder S09/SH030. No previz clip. Rendered in about 65 minutes. Claude's read (contact sheet, 2 fps): photoreal, locked-off top-down, low warm sun from screen left, long shadows to the right; open dark leather case, lid at the top of frame; the hand enters from the bottom at 0.5 s, reaches into the lid pocket, pulls out a plain grey folder by 3 s and carries it out of frame at the bottom by 3.5 s; final frame the empty open case. Misses: the hand and the white cuff are clean (no dust, no blood); the sleeve reads grey-brown tweed, not charcoal; no loose papers and no visible wind or dust gusts at the frame edges. Audio not yet checked by ear."
+              "rating": 4,
+              "notes": "REQUEST S09-SH030-a. Folder S09/SH030. No previz clip. Rendered in about 65 minutes. Claude's read (contact sheet, 2 fps): photoreal, locked-off top-down, low warm sun from screen left, long shadows to the right; open dark leather case, lid at the top of frame; the hand enters from the bottom at 0.5 s, reaches into the lid pocket, pulls out a plain grey folder by 3 s and carries it out of frame at the bottom by 3.5 s; final frame the empty open case. Misses: the hand and the white cuff are clean (no dust, no blood); the sleeve reads grey-brown tweed, not charcoal; no loose papers and no visible wind or dust gusts at the frame edges. Audio not yet checked by ear. Leonard 2026-11-20: this works.",
+              "rating_source": "inferred"
             }
           ],
           "description": "He reaches into the pocket inside the lid and takes out a folder.",
