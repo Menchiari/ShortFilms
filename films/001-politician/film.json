@@ -3278,6 +3278,10 @@
     {
       "date": "2026-11-20",
       "text": "S10 SH010 T02 rated 1 (inferred, Leonard: so many things wrong; notes in shotlist.json). REQUEST S10-SH010-c prepared, not submitted: T03, prompts/001_S10_SH010_T03.txt, no guide clip (the d11 clip carries the early bobblehead and the rise from below), same five images. Lift-off seen in the sky beyond the rooftops ahead [ASSUMPTION: the square lies ahead of the car, toward the sun], closest pass in a bank at 10 s, the wash sways the car, paper stays outside, pedestal down from 14 s, bobblehead from 15 s, still from 17 s. 480p, 21:9, 20 s, audio on, preflight 60 credits, balance 25658.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S10-SH010-c approved by Leonard ('let's see', 60 credits) and submitted: S10 SH010 T03, job e29dc213-60ce-481e-a3b3-529804f8db4b, folder Scenes/S10/SH010."
     }
   ],
   "story_sync": {
