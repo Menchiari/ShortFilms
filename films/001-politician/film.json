@@ -3290,6 +3290,10 @@
     {
       "date": "2026-11-20",
       "text": "S10 SH010 T03 in (job e29dc213, 60 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T03.mp4, 20.06 s. Claude's read in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S09 SH110 T03 rated 1 (inferred: 'looks like shit'). REQUEST S09-SH110-d prepared, not submitted: T04, prompts/001_S09_SH110_T04.txt, after the take review (02-analysis/take-review_2026-11-20_v2.md) and the square map (03-bible/locations/square_map.md): place and light from a frame of the approved S09 SH050 T02 (refs/001_S09_SH110_REF_place_from_SH050_T02.jpg, upload 227917fd) as the only reference, no palette image, no element images; 40mm, the street-light corner cut at the left edge, the shuttered row across the back, the street at the right; riot debris on the ground; the paper as the subject. seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on. Cost check 12 credits, waiting for approval."
     }
   ],
   "story_sync": {
