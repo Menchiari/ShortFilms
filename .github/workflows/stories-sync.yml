@@ -1,44 +1,19 @@
 name: stories-sync
 
-# Story writing needs no git steps from the user: when a working branch changes only files in
-# stories/, it is merged into main automatically. Anything else on the branch: nothing happens,
-# that branch goes through a normal pull request.
+# The push trigger for working branches. When it finishes, film-sync.yml (always main's copy)
+# merges every recent branch that changes only stories/, films/ and films-index.json into main,
+# syncs the films and deploys the site. A branch with other changes goes through a pull request.
 
+# Retired 2026-11-20: film-sync.yml now starts on branch pushes itself. This job only echoed and
+# cost a billed minute per push. Kept as a file (manual run only) so nothing is deleted.
 on:
-  push:
-    branches-ignore: [main]
-    paths: ["stories/**"]
+  workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: stories-sync
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  merge:
+  trigger:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Merge story-only branch into main
-        env:
-          BRANCH: ${{ github.ref_name }}
-        run: |
-          set -eu
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          sha=$(git rev-parse HEAD)
-          git fetch origin main
-          other=$(git diff --name-only "$(git merge-base origin/main "$sha")" "$sha" | grep -v '^stories/' || true)
-          if [ -n "$other" ]; then
-            echo "Branch also changes files outside stories/, not merged automatically:"
-            echo "$other"
-            exit 0
-          fi
-          git checkout -B main origin/main
-          git merge --ff-only "$sha" || git merge --no-edit -m "stories: merge $BRANCH" "$sha"
-          git push origin main
+      - run: echo "film-sync merges ${{ github.ref_name }} into main if it changes only content."
