@@ -1952,6 +1952,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH040 T07 rated 1 (inferred). REQUEST S08-SH040-h prepared, not submitted: prompts/001_S08_SH040_T08.txt = T07 with no reference frame (only char_politician_final as @Image1), the T04 angle written in words, one tall street lamp with the rope round its post, no traffic lights or other poles, no aircraft in the sky. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard 2026-11-20 (repeated, earlier as 'don't repeat elements'): never name a reference twice, as in '@char_politician_final (@Image1)'. Each reference gets one name only. Claude misread 'don't repeat elements' on 2026-11-20 as 'don't describe things twice'. Note: docs/PROMPTING.md (Elements, the @char_marta (@Image1) example) and docs/HIGGSFIELD.md line 31 prescribe the double naming, so every session repeats it until those docs change. [ASSUMPTION] the one name kept is @Image1, the name Seedance reads by upload order. REQUEST S08-SH040-h now uses prompts/001_S08_SH040_T08_v2.txt (only @Image1, no @char_ name). Same settings, 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
