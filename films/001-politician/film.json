@@ -3150,6 +3150,10 @@
     {
       "date": "2026-11-20",
       "text": "Leonard picked grade B for the S09 SH050 T05 start frame: refs/001_S09_SH050_T02_frame_0s_grade-b.png, upload c019ba79, filed in REFS (placement 456a921c). Request S09-SH050-e final: start frame c019ba79, refs 547bbfa3, 7ef41962, prompt prompts/001_S09_SH050_T05.txt, 18 credits, not submitted."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST S09-SH110-c approved by Leonard ('ok go, 12 credits'): S09 SH110 T03 submitted, job b42f3a44-52ca-4133-9f67-2086c980e69e, seedance_2_5 omni_reference, 4 s, 480p, 21:9, audio on, prop_car 42787b78, palette_sunset 1f563179, folder Scenes/S09/SH110, prompt 001_S09_SH110_T03.txt."
     }
   ],
   "story_sync": {
