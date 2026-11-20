@@ -3142,6 +3142,10 @@
     {
       "date": "2026-11-20",
       "text": "S09 SH050 T04 rated 2 (inferred: folder too big, too orange, too fake, needs to feel like 35mm). Two free ffmpeg regrades of the T02 start frame made (refs/001_S09_SH050_T02_frame_0s_grade-a.png milder, grade-b stronger: less orange, more contrast, grain), sent to Leonard to pick. T05 prompt prepared (request S09-SH050-e, not submitted): T04 with palette_sunset dropped, a small thin folder, pale gold instead of orange, an organic film paragraph; the start frame becomes the picked grade. Preflight 18 credits."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "Leonard: 'no edits, I thought we've been through this already': start frames are generated fresh, never as edits of a previous still. Claude found no written record of this rule in docs/ or the bible. The edit request (v3 edit of v2) is withdrawn, never submitted. REQUEST S09-SH040-ref-v3 replaced: a fresh Seedream 5.0 Pro generation over the animatic frame, same five references as v2 (animatic 6397eefd, SH020 frame b5e22ffd, char_boss 7ef41962, char_politician_final 547bbfa3, prop_helicopter 6c8efe25), prompt prompts/001_S09_SH040_REF_start-frame_v3.txt = v2 with one fix: the far standing figure is the politician, at the animatic's size and distance, the only old man, case at his feet, standing people two. 2k, 21:9, 2.5 credits."
     }
   ],
   "story_sync": {
