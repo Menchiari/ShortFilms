@@ -1948,6 +1948,10 @@
     {
       "date": "2026-11-20",
       "text": "S08 SH040 T07 done (job 325f2a8d, 21 credits): takes/S08/SH040/001_S08_SH040_T07.mp4. Crowd spread out, kills readable, cracks even. Misses: still on the traffic-light pole (copied from the reference frame), a small helicopter in frame, last frame copies T04's. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "S08 SH040 T07 rated 1 (inferred). REQUEST S08-SH040-h prepared, not submitted: prompts/001_S08_SH040_T08.txt = T07 with no reference frame (only char_politician_final as @Image1), the T04 angle written in words, one tall street lamp with the rope round its post, no traffic lights or other poles, no aircraft in the sky. seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on. Cost check 21 credits, waiting for approval."
     }
   ],
   "story_sync": {
