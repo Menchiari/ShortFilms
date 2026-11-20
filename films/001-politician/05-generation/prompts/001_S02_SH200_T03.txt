@@ -1,0 +1,20 @@
+Audio: only the engine at low revs going away, tires crunching on grit, the wind dropping as the car enters the street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+<<<image_1>>>: the towers at the edge of the town: architecture only, not its framing. <<<image_2>>>: the main street: its buildings, road, curbs and street furniture, not its framing. <<<4fb2b9be-e3bf-4122-be00-0c098818122e>>>: the black full-size luxury sedan: its body, black paint and light coat of desert dust only, not its background. <<<image_4>>>: color and lighting.
+<<<video_1>>> IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style.
+
+The result must look like a live-action 35mm film footage shot on location. It must never resemble a 3D render, previz, drawing or video game.
+
+Seen from behind, the black sedan <<<4fb2b9be-e3bf-4122-be00-0c098818122e>>> rolls slowly through the only gap in the wall of towers and away down the town's only street.
+
+0-5s: wide shot from behind the <<<4fb2b9be-e3bf-4122-be00-0c098818122e>>>, low, camera position and framing from <<<video_1>>>: the main street running straight and deep into the town, the street in shade. Camera: locked-off. The black sedan @<<<4fb2b9be-e3bf-4122-be00-0c098818122e>>> rolls slowly away from the camera down the middle of the street, getting smaller, its dust settling behind it. Shutters down, nobody outside. Final frame: the car small and far down the shaded street, about to be lost between the buildings.
+
+Count of cars: one. Nobody in the street.
+
+Never copy the look of <<<video_1>>>.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the engine at low revs going away, tires crunching on grit, the wind dropping as the car enters the street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

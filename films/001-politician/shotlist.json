@@ -2305,6 +2305,31 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "Approved by Leonard 2026-11-18 (\"go T02\"). No reference video. Draft, seed 313531424. Claude's read: photographic, no previz look; real sedan, street rules all present (curbs, lamps, lane lines, lights, signs, parked cars). The street copies the loc_main-street image almost frame for frame, framing included; no tower corners framing a gap. The car rises into frame from below the lens at 0s, then rolls away and gets small; it reads dusty grey in the sun, not clearly black; a row of letters on the trunk lid (not readable at 480p). Sun low on the left, behind the towers, as written. Leonard 2026-11-18: \"works, save\". Approved."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": null,
+              "job_id": "db6de815-934f-4745-b981-59bed80f32d6",
+              "prompt": "05-generation/prompts/001_S02_SH200_T03.txt",
+              "file": "05-generation/takes/S02/SH200/001_S02_SH200_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH200_T03.jpg",
+              "references": [
+                "prop_car 4fb2b9be (element)",
+                "loc_town-edge 146470dd, loc_main-street c30451ef, prop_car image 42787b78, palette_afternoon 3bf30eee (image_references)",
+                "guide video 54161b25 (video_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Generated 2026-11-17 15:35 UTC (draft) and never logged by the session that made it; found in Higgsfield folder Scenes/S02/SH200 and logged 2026-11-20. Numbered T03 although it is older than T02. Credits not recorded (cost table: 15 at 480p for 5 s). Unrated.",
+              "rating_source": null
             }
           ],
           "description": "The car rolls through the gap and into the only street. The town swallows it.",
@@ -8002,6 +8027,31 @@
               "rating": 4,
               "notes": "REQUEST S09-SH010-d. First submission 36038951 blocked as nsfw (54 refunded 12:04 UTC); resubmission 1 (Leonard 'try again'), job 7414bb42, passed. Elements as <<<id>>> (char_politician_final, loc_square, char_big-guy, prop_bar-weapon), palette_sunset image; no guide clip. Claude's read (frames at 1 fps plus crops, audio levels only, not listened): closer than T01 (medium wide, the pipe and the sleeping man in the foreground at left), photoreal, sunset sun from screen left. Movement loose and organic, no animatic stiffness. Asphalt dry, no liquid. 0-1 s he falls in and lands; 1-6 s curled facing camera, hands at his head, loud 0-4 s (RMS about -20 to -26 dB); 7-10 s rolls onto his back, knee up, drags to the curb; 11 s head back on the curb; 13-15 s sits propped on his right hand, looks toward the sleeping man; about 15.2 s a small spit, a short puff of spray in the air toward screen left, not seen landing; 17-18 s pushes up onto one knee, head leaving the top of frame. Cut rope knotted on his ankle visible. His face and hair match the char_politician_final image (graying brown hair, heavy face, tie): the element works. The prompt's 'white hair' was Claude's error (also in T01); the element has graying brown hair. Misses: no slouched couch lean with both elbows on the sidewalk (he props on one hand); the spit is still a visible puff, smaller than T01; the sleeping man's face shows to camera. Leonard 2026-11-20: 'this works, maybe we can do it better but this works for now'.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-17",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 18,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": null,
+              "job_id": "f885e1c5-df63-4290-a5cb-cf83c78c8a41",
+              "prompt": "05-generation/prompts/001_S09_SH010_T03.txt",
+              "file": "05-generation/takes/S09/SH010/001_S09_SH010_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH010_T03.jpg",
+              "references": [
+                "char_politician_final f4279c8f (element)",
+                "char_big-guy f5cc12be (element)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Generated 2026-11-17 14:01 UTC (draft, story test era) and never logged; found in Higgsfield folder Scenes/S09/SH010 and logged 2026-11-20. Numbered T03 although it is older than T01 and T02. Credits not recorded (cost table: 54 at 480p for 18 s). Unrated; the shot stays approved on T02.",
+              "rating_source": null
             }
           ],
           "description": "Across the street, THE OLD MAN drops onto the asphalt beside the curb, shoulder first, and screams.",
@@ -8529,7 +8579,7 @@
         },
         {
           "id": "SH070",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -8667,6 +8717,32 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST approved by Leonard 2026-11-20 ('do it seedance'). Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T05: not realistic, 4 s fine. Slow tilt, no zoom, start and end frames real text; the clauses in between (18.2 to 18.6, the witness line) come out as fake glyphs in the right layout; motion blur and depth of field look photographic."
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12,
+              "job_id": "de21fe3d-2655-4083-94e0-c3eab3a98ab6",
+              "prompt": "05-generation/prompts/001_S09_SH070_T07.txt",
+              "file": "05-generation/takes/S09/SH070/001_S09_SH070_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH070_T07.jpg",
+              "references": [
+                "char_boss",
+                "SH060 T01 frame at 3 s (media 13e7f27a)",
+                "palette_sunset",
+                "end_image: props/agreement/insert_end_v4.png (media fc1fa7c6)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "REQUEST approved by Leonard 2026-11-20 ('let's see'). Draft 480p (draft: true). Folder S09/SH070. Passed first submission. Leonard on T06: worse than before. T04 setup (no start frame) with a slow tilt, no zoom. Opens on the top of the page held by her right hand, the sun through the paper, the square soft behind; tilts down at nearly the same size, lands on the end frame. All text above the signature block is fake glyphs. Leonard 2026-11-20: 'ok cool, worked' (rating 4, inferred).",
+              "rating_source": "inferred"
             }
           ],
           "description": "Dense clauses. At the bottom, his signature, large and clear.",
@@ -8931,13 +9007,69 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T02",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 20,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 60.0,
+              "job_id": "2cd023a3-ec4f-45c7-a2c0-e90921edacfc",
+              "prompt": "05-generation/prompts/001_S10_SH010_T02.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T02.jpg",
+              "references": [
+                "loc_car-interior 60a2aec8 (image_references)",
+                "loc_crossroads a5b52222 (image_references)",
+                "prop_helicopter 6c8efe25 (image_references)",
+                "prop_wobblehead fa19c43f (image_references)",
+                "palette_sunset 1f563179 (image_references)",
+                "d11 S10 SH010 as line drawing 53cc3d81 (video_references; the job echo lists it among reference_images)"
+              ],
+              "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S10-SH010-b. Folder S10/SH010. T01 was never generated (429). Claude's read: photographic, no previz look. Sun low at upper left with anamorphic streaks; the Black Hawk comes down the street toward the car from far away (it does not rise from below the hood), crosses close in front of the sun at about 8 s as a dark silhouette, then turns away and recedes; the camera sinks from about 9 s, the dashboard and the bobblehead rise into frame right of center; dust and paper sheets blow past at 13 to 17 s, the head wobbles (blurred at 13.5 s), one sheet lands on the dashboard; from about 16 s the whole bobblehead stands still lower right, rim-lit, finger up, helicopter a speck in the haze. Misses: the open driver's door never shows; no rise from below. Audio loudness rises to a peak at 12 to 14 s and falls to about -43 dB at the end (not listened to: check for music). Leonard 2026-11-20: so many things wrong. The helicopter must start where it took off: see it lift off in the sky through the windshield; the bobblehead only at the very end; the wind moves (sways) the car, never a strike; the paper never enters the car; it must play as a final shot. Claude's causes: the d11 clip shows the bobblehead at about 10 s and the helicopter rising close from below, and the prompt put the bobblehead at 10-13 s (draft 9 note: only at the end, held 5 s); the prompt said the gust 'hits the car', read as a camera jolt at 12.5-13.25 s; the open door plus 'tumble past the windshield' put a sheet on the dashboard; the helicopter hovers mid-street at 10-14 s; dust fills the frame 12-17 s; flare streaks the whole shot."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 20,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 60.0,
+              "job_id": "e29dc213-60ce-481e-a3b3-529804f8db4b",
+              "prompt": "05-generation/prompts/001_S10_SH010_T03.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T03.jpg",
+              "references": [
+                "loc_car-interior 60a2aec8 (image_references)",
+                "loc_crossroads a5b52222 (image_references)",
+                "prop_helicopter 6c8efe25 (image_references)",
+                "prop_wobblehead fa19c43f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S10-SH010-c. Folder S10/SH010. No guide clip. Claude's read against Leonard's T02 notes: still empty street 0-2 s; the helicopter appears small in the sky far down the street at about 2-3 s and climbs, but no clear lift-off from behind the rooftops; it comes straight down the street, drops to just above the asphalt at the crossroads at about 9 s (reads close to landing), the papers on the asphalt lift; closest at 10-10.5 s above the windshield crossing the sun with a flare; it turns and flies away down the street 11-16 s. No jolt seen. Paper stays outside; dashboard clean. The open driver's door frame shows at the left edge the whole shot. The bobblehead appears at about 15 s, whole from 16 s, still to the end; the helicopter is gone by about 17 s. Loudness peaks at 8-10 s and falls to about -41 dB at the end (not listened to: check for music)."
+            }
+          ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
           "framing": "MEDIUM, from inside the car, through the windshield",
           "movement": "Holds, then a slow pedestal down, a little lower at the end",
           "duration_s": 20,
-          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks and turns away, closest to the camera in the turn: a reckless pilot flying it perfectly, real helicopter flight, heavy, slow and smooth, a big machine: the matte black, unmarked Black Hawk of S08 (Leonard confirmed for S10, 2026-11-19). As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. At the end the camera is low enough for the whole bobblehead; hold the composition while the helicopter shrinks to a speck and melts into the haze over the horizon",
+          "note": "[ASSUMPTION] The square is a few blocks from the crossroads: after lift-off the helicopter passes low over the crossroads on its way out. The helicopter rises into frame from the bottom, close, banks and turns away, closest to the camera in the turn: a reckless pilot flying it perfectly, real helicopter flight, heavy, slow and smooth, a big machine: the matte black, unmarked Black Hawk of S08 (Leonard confirmed for S10, 2026-11-19). As it turns, the camera sinks until the bobblehead rises into frame from the bottom. The rotor wash rolls down the street, lifts the paper, reaches the car: the head wobbles to a stop. Open sky behind the helicopter. At the end the camera is low enough for the whole bobblehead; hold the composition while the helicopter shrinks to a speck and melts into the haze over the horizon  Leonard on T02 (2026-11-20): see it lift off where it landed, in the sky through the windshield; the bobblehead only at the very end; the wash sways the car, never a strike; the paper never enters the car; a final shot",
           "animatic": {
             "file": "05-generation/animatic/d11/S10_SH010.mp4",
             "draft": "d11"
