@@ -3383,6 +3383,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S04 SH090 T03 delivered (job fa64d054, 15 credits), takes/S04/SH090/001_S04_SH090_T03.mp4 (992x432, 5.00 s, audio), still made, recorded in shotlist.json, unrated. Seamless from T02; the big man is the SH110 man; camera ends at eye level on a plain wall instead of high over the street."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "Leonard: make a prequel of S04 SH135 where he starts by looking up above him, then calms down and proceeds with the shot. REQUEST S04-SH135-e prepared, not submitted: SH135 T05 = video_extension backward of T04 (a598eba5), 4 s, 480p draft, audio on, no dialogue, no elements (identity from T04 only, so the seam holds), folder S04/SH135, prompt prompts/001_S04_SH135_T05_extend-backward.txt. 0-2 s he looks up at the windows and balconies, 2-4 s one long breath, eyes back to the fat person, ends on T04's first frame. [ASSUMPTION] 'above him' = the watchers at the windows (SH130). Preflight 12 credits, balance 25386.2. Waiting for approval."
     }
   ],
   "story_sync": {
