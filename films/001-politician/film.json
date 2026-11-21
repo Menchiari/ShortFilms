@@ -221,7 +221,8 @@
       "S09/SH120": "b3cf719d-5a9a-48cb-870f-3e798f77a3e8",
       "S10": "985c8aa1-06b3-4fba-abb6-cd6d9bc878b3",
       "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f",
-      "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1"
+      "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1",
+      "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3371,6 +3372,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH050-h prepared, not submitted: T08 = T07 with one change, the folder: shut tight, never its pages (the T07 cream-pages line likely turned it into an open white folder), held only by one top corner hanging from his fingertips, never flat on his hand. prompts/001_S09_SH050_T08.txt. Same settings and references as T07, preflight 18 credits."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "New shot S05 SH115 (Leonard): between S05 SH110 T13 and SH120: a bond sheet falls to the street, a white or Asian woman picks it up, disbelief, then looks forward with enraged eyes at the politician off screen. Higgsfield folder Scenes/S05/SH115 created."
     }
   ],
   "story_sync": {
