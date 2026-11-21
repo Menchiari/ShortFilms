@@ -5749,8 +5749,54 @@
                 "palette_afternoon 3bf30eee"
               ],
               "love": false,
+              "rating": 1,
+              "notes": "REQUEST S05-SH145-c, not yet rated by Leonard. Three changes from T01 (Leonard's notes): modern building, roof out of sight, documentary camera. Claude's read (stills at 2 fps and 10 fps over 3.3-4.5 s; 1470x630, 6.08 s, audio present, mean -33.8 dB, not listened to): a plain 1970s block, beige render, aluminium windows, roller blinds, thin railings: reads modern. The roof edge is in frame (not out of sight as asked) and at 0 s a few pigeons stand spread along it, not a tidy row; they burst at about 0.5 s with motion-blurred wings and scatter, gone by about 2.5 s. The camera drifts up with them, holds on the sky edge, then at about 3.5 s she appears tiny at a lower right window and the camera snaps in on her in about 0.4 s with motion blur, focus catching up a beat late, ending on a medium shot of her at the window: a fast reactive crash zoom, not a tilt. She holds the curtain, half in view, and looks almost into the lens rather than down past it. The building is a different design from the S06 plate facades. Grade warm and soft, pale sky. Leonard 2026-11-21: \"I ask for realism, for documentary feel, what the fuck was that\".",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "f8cfc18a-04e0-4c02-8a29-5b04a4317a38",
+              "prompt": "05-generation/prompts/001_S05_SH145_T03.txt",
+              "file": "05-generation/takes/S05/SH145/001_S05_SH145_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH145_T03.jpg",
+              "references": [
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": 1,
+              "notes": "REQUEST S05-SH145-d, not yet rated by Leonard. Claude's read (stills at 2 fps, 10 fps over 0-1.2 s, a crop of her at 5.5 s; 1470x630, 6.08 s, audio present, mean -32.3 dB, not listened to): a tall modern slab block with ribbon windows, roller blinds and curtains, seen crooked from below: reads modern, more than five floors. No zoom: the lens holds; the frame drifts down and sits tilted, a plain handheld look. The roof edge is in frame again and at 0 to 0.3 s a long tight line of pigeons sits along it; they lift at about 0.3 s, a big flock hugging the roof edge until about 0.8 s, then scattered sky, gone by about 2.5 s. Possible edit: cut in at about 0.8 s, after the line has broken (5.3 s left). She appears at about 4.5 s, tiny in a window in the right half, half behind the curtain: long dark hair, not the ash-blonde woman described; at that size she reads neutral but not fair. Leonard 2026-11-21: \"still looks fake\".",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "a666a76b-d381-4b02-b9c8-edeb72e49bcb",
+              "prompt": "05-generation/prompts/001_S05_SH145_T04.txt",
+              "file": "05-generation/takes/S05/SH145/001_S05_SH145_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH145_T04.jpg",
+              "references": [
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
               "rating": null,
-              "notes": "REQUEST S05-SH145-c, not yet rated by Leonard. Three changes from T01 (Leonard's notes): modern building, roof out of sight, documentary camera. Claude's read (stills at 2 fps and 10 fps over 3.3-4.5 s; 1470x630, 6.08 s, audio present, mean -33.8 dB, not listened to): a plain 1970s block, beige render, aluminium windows, roller blinds, thin railings: reads modern. The roof edge is in frame (not out of sight as asked) and at 0 s a few pigeons stand spread along it, not a tidy row; they burst at about 0.5 s with motion-blurred wings and scatter, gone by about 2.5 s. The camera drifts up with them, holds on the sky edge, then at about 3.5 s she appears tiny at a lower right window and the camera snaps in on her in about 0.4 s with motion blur, focus catching up a beat late, ending on a medium shot of her at the window: a fast reactive crash zoom, not a tilt. She holds the curtain, half in view, and looks almost into the lens rather than down past it. The building is a different design from the S06 plate facades. Grade warm and soft, pale sky."
+              "notes": "Leonard: 'just try again and approve the shot' (spend approved), not yet rated. Claude's read (stills at 2 fps and a frame at 5.6 s; 1470x630, 6.08 s, audio present, mean -31.8 dB, not listened to): low angle on a plain modern block, the facade fills the frame; only a sliver of hazy sky and a sun flare at the top right corner, no roof edge and no birds perched anywhere. About twenty pigeons drop into frame from above at about 0.5 s and flap down and across past the windows, a few large and blurred close to the lens, gone by about 2 s. The frame drifts slightly, no zoom. At about 4 s a window in the upper middle opens outward and the woman leans into the gap: short ash-blonde hair, pale skin, pale blue dress, cardigan, readable at the end; she looks down to the left. One open window."
             }
           ]
         }
