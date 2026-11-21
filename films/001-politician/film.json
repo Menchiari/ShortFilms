@@ -3399,6 +3399,14 @@
     {
       "date": "2026-11-21",
       "text": "Leonard: make a prequel of S05 SH010 T02 where he walks before he starts running, a bit paranoid, fixing his tie. REQUEST S05-SH010-c prepared, not submitted: SH010 T03 = video_extension backward of T02 (25d91c21), 5 s, 480p draft, audio on, no dialogue, no elements (identity from T02), folder S05/SH010, prompt prompts/001_S05_SH010_T03_extend-backward.txt. 0-2 s ordinary walk, left hand fixes the tie knot and jacket, a glance back; 2-4 s quick looks at doorways, shutters, a balcony; 4-5 s speeds into T02's fast walk, ends on T02's first frame. Preflight 15 credits, balance 25374.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S04 SH135 T05 rated 5 (inferred, Leonard: 'perfect'). REQUEST S05-SH010-c approved by Leonard ('go with this one', 15 credits) and submitted: S05 SH010 T03 69f7a3e6-311e-4cad-b0cf-2c689ef131e4, seedance_2_5 video_extension backward of T02 (25d91c21), 480p draft, 5 s, audio on, folder Scenes/S05/SH010, prompt 001_S05_SH010_T03_extend-backward.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH010 T03 delivered (job 69f7a3e6, 15 credits), takes/S05/SH010/001_S05_SH010_T03.mp4 (992x432, 5.00 s, audio), still made, recorded in shotlist.json, unrated. Tie fix, paranoid looks; the end frame is near T02's first frame, a small jump at the cut is possible."
     }
   ],
   "story_sync": {

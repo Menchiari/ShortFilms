@@ -4081,8 +4081,9 @@
                 "T04 a598eba5 (extended backward)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S04-SH135-e, Leonard: a prequel where he first looks up above him, then calms down and goes on with the shot. 480p draft. File holds the 4 new seconds only (992x432, audio mean -34.3 dB, peak -11.2 dB, not listened to): play T05 then T04. Last frame matches T04's first frame side by side. Claude's read (frames every 0.5 s): 0-2.5 s head back, eyes up past the camera, mouth a little open; about 3 s his eyes come down; 3.5-4 s level, on the fat person, as T04 starts. Identity inherited from T04 (slimmer bearded fat person, not the SH110 man). The eye scan from window to window is small; it reads as one long look up."
+              "rating": 5,
+              "notes": "REQUEST S04-SH135-e, Leonard: a prequel where he first looks up above him, then calms down and goes on with the shot. 480p draft. File holds the 4 new seconds only (992x432, audio mean -34.3 dB, peak -11.2 dB, not listened to): play T05 then T04. Last frame matches T04's first frame side by side. Claude's read (frames every 0.5 s): 0-2.5 s head back, eyes up past the camera, mouth a little open; about 3 s his eyes come down; 3.5-4 s level, on the fat person, as T04 starts. Identity inherited from T04 (slimmer bearded fat person, not the SH110 man). The eye scan from window to window is small; it reads as one long look up. Leonard 2026-11-21: 'perfect'.",
+              "rating_source": "inferred"
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
@@ -4228,6 +4229,28 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH010-b. One change from T01: waist-up framing. Claude's read of frames: 0-2s waist up as asked, case below frame; about 2.5-3s he hauls the case up in front of his waist with both hands and looks back over his shoulder; about 3.5-4.5s the camera falls back and he reads near full figure (the distance does not hold); 5-6s close again, chest up, running at the lens, eyes up. Face more strained than T01. Audio peaks near 1-2s and 5s; words not verified by Claude."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "69f7a3e6-311e-4cad-b0cf-2c689ef131e4",
+              "prompt": "05-generation/prompts/001_S05_SH010_T03_extend-backward.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH010_T03.jpg",
+              "references": [
+                "T02 25d91c21 (extended backward)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH010-c, Leonard: a prequel where he walks before he runs, a bit paranoid, fixing his tie. 480p draft. File holds the 5 new seconds only (992x432, audio mean -39.3 dB, peak -19.1 dB, quiet, not listened to): play T03 then T02. Claude's read (frames every 0.5 s): 0-1.5 s his left hand on the tie knot, pulling it straight, eyes up and around; about 2-2.5 s a look back over his shoulder; 2.5-5 s walking, quick looks to both sides and up, arms swinging more. Same man, suit and street as T02. Seam: the last frame is close to T02's first frame but not exact: he sits slightly left and his left arm is in a different place, so a small jump may show at the cut."
             }
           ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
