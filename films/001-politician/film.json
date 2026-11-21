@@ -3396,6 +3396,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T02 delivered (job c383813d, 42 credits), takes/S05/SH145/001_S05_SH145_T02.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Modern block reads; pigeons real-looking but the roof edge is in frame; the camera snaps in on her with a fast crash zoom at about 3.5-4 s; she looks almost into the lens. SH145 total so far 84 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH145 T02 rated 1 (inferred, Leonard: 'I ask for realism, for documentary feel, what the fuck was that'). Claude's cause: the T02 prompt choreographed the camera (jerk, overshoot, late focus), which the model played as a stylized crash zoom into a composed medium shot, and naming the camera made her look into the lens. REQUEST S05-SH145-d prepared, not submitted: T03, prompts/001_S05_SH145_T03.txt: one fixed wide lens (no zoom, no push-in, no focus pull), an amateur holding the camera across the street, birds spraying down from a roof above the frame, she stays small and looks down to the left, never at the camera. Same settings as T02, preflight 42 credits. Balance 25,201.2, 74 below the 25,275.2 expected after T02: spent elsewhere, source unknown."
     }
   ],
   "story_sync": {
