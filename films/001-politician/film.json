@@ -3392,6 +3392,14 @@
     {
       "date": "2026-11-21",
       "text": "S05 SH115 T01 rated 2 (inferred from Leonard's list of faults). REQUEST S05-SH115-b prepared, not submitted: T02, prompts/001_S05_SH115_T02.txt: light sheet floating down in a zigzag, plain heavy-set woman of about fifty, hesitation then eyes widen then rage just past the lens, about eight puzzled people out of focus behind her, 55mm shallow focus; the narrow street named without crosswalk, signs, poles or vehicles (T01 drifted to a wider road). 7 s, 480p, 21:9, audio on, same refs. Preflight 21 credits, balance 25,222.2."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH115-b approved by Leonard ('go', 21 credits) and submitted: S05 SH115 T02, job d288df92-0bed-4ff2-b15b-278e47cb6b37, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_side-street element 8787643a, bond 93b84cd4, folder Scenes/S05/SH115, prompt prompts/001_S05_SH115_T02.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH115 T02 delivered (job d288df92, 21 credits), takes/S05/SH115/001_S05_SH115_T02.mp4 (992x432, 24 fps, 7.07 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: lighter tumbling fall, plain heavy-set woman, hesitation works; gasp with open mouth; end look stunned more than enraged; crowd stares at the camera instead of looking around."
     }
   ],
   "story_sync": {

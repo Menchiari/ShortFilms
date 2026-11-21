@@ -5363,6 +5363,30 @@
               "rating": 2,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH115-a, approved by Leonard ('ok go'). Not a draft. 992x432, 24 fps, 6.08 s, audio mean -38.4 dB, max -8.6 dB (not heard). Folder Scenes/S05/SH115. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The sheet does not fall from the sky: it already lies face up on the asphalt at 0 s, her shoes walk in, her hand picks it up at about 1.5 s; the green border and the bond layout read on the ground, the title does not. The camera rises fast past her legs and skirt (about 2-3 s, motion blur) to a medium close-up. 3-6 s: she holds the sheet with its printed face toward the camera (not toward her), $500,000 reads, the title is smeared; she reads, mouth slightly open, then turns her head to screen left in near profile with a hard, closed look: the eyeline matches SH120 (he is screen left). Woman as described (dark-blond knot, blue shirt, bag strap). Continuity risk: the background is a wider street with a crosswalk, a street sign, a pole and a parked car, not the narrow side street of SH110 and SH120; grade and backlight match. Leonard 2026-11-21: the paper falls like an envelope (must float like a light sheet); the woman is too pretty (realistic, a bit overweight); reaction not real (hesitate before picking it up, look a moment, eyes widen, then look straight behind the camera with rising rage); more puzzled people out of focus behind her; 55mm, shallower focus."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "d288df92-0bed-4ff2-b15b-278e47cb6b37",
+              "prompt": "05-generation/prompts/001_S05_SH115_T02.txt",
+              "file": "05-generation/takes/S05/SH115/001_S05_SH115_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH115_T02.jpg",
+              "references": [
+                "loc_side-street 8787643a (element in the prompt)",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg, image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH115-b, approved by Leonard ('go'). Not a draft. 992x432, 24 fps, 7.07 s, audio mean -36.3 dB, max -12.5 dB (not heard). Changes from T01: Leonard's five notes (light paper, plain heavy-set woman, hesitation and rage, puzzled crowd, 55mm). Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The sheet tumbles in at an angle and rocks before it lands at about 1 s, lighter than T01; on the ground the layout and $500,000 show, the title is smeared. Her hand hovers, then picks it up at about 2.5 s; the camera rises with the sheet to a medium close-up by about 4 s. The woman is plain and heavy-set as asked. Reading: her mouth drops open in a gasp at about 4.5 s (stronger than the eyes-only note). End: she looks just past the lens, slightly up and left; the face reads stunned more than enraged. Street: shuttered ochre fronts at the left, closer to SH110/SH120 than T01. Background: about ten people, mostly older men, standing in a line and staring toward her and the camera, not looking around puzzled, and only moderately soft."
             }
           ]
         },
