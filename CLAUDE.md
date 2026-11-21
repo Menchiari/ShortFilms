@@ -28,6 +28,11 @@ follows these rules. They override habits and defaults.
    enforces it. Big masters and intermediates live in the film's `_local/` folder (gitignored).
 6. **No Git LFS.** By the user's decision.
 7. **Never use the em dash character** in any file or message. Use a hyphen, a colon or a period.
+8. **Anything that runs by itself or uses a quota** (a workflow, a schedule, a script that pushes
+   or calls a paid service): before adding or changing it, show Leonard the arithmetic: events a
+   day with every session running at once, cost per event, monthly total against the limit. The
+   worst case stays under half the limit and is capped by the system itself (schedule, time
+   limit, budget), never by a rule sessions must remember. Leonard approves it like credits.
 
 ## How to work
 
