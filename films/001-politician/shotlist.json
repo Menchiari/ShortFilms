@@ -9058,9 +9058,36 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S10-SH010-c. Folder S10/SH010. No guide clip. Claude's read against Leonard's T02 notes: still empty street 0-2 s; the helicopter appears small in the sky far down the street at about 2-3 s and climbs, but no clear lift-off from behind the rooftops; it comes straight down the street, drops to just above the asphalt at the crossroads at about 9 s (reads close to landing), the papers on the asphalt lift; closest at 10-10.5 s above the windshield crossing the sun with a flare; it turns and flies away down the street 11-16 s. No jolt seen. Paper stays outside; dashboard clean. The open driver's door frame shows at the left edge the whole shot. The bobblehead appears at about 15 s, whole from 16 s, still to the end; the helicopter is gone by about 17 s. Loudness peaks at 8-10 s and falls to about -41 dB at the end (not listened to: check for music). Leonard 2026-11-20: no no no; start with the sky only; increase the realism, it looks all super fake. Claude's causes: the opening frame shows the street, so the helicopter arrives from the end of the street instead of lifting off into the sky; papers laid out in an even grid; clean, repeated building blocks; glossy bobblehead; no glass, exposure or depth-of-field cues of a real camera in a real car; the helicopter element image is a painted-looking still with smoke and a gunner."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 20,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 60.0,
+              "job_id": "462ca649-b241-4e39-b9d3-cd796a91898e",
+              "prompt": "05-generation/prompts/001_S10_SH010_T04_v2.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T04.jpg",
+              "references": [
+                "loc_car-interior efd956ba (element)",
+                "loc_crossroads 3b11ad9c (element)",
+                "prop_helicopter 7a86dade (element)",
+                "prop_wobblehead 79dc8b10 (element)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": "",
-              "notes": "REQUEST S10-SH010-c. Folder S10/SH010. No guide clip. Claude's read against Leonard's T02 notes: still empty street 0-2 s; the helicopter appears small in the sky far down the street at about 2-3 s and climbs, but no clear lift-off from behind the rooftops; it comes straight down the street, drops to just above the asphalt at the crossroads at about 9 s (reads close to landing), the papers on the asphalt lift; closest at 10-10.5 s above the windshield crossing the sun with a flare; it turns and flies away down the street 11-16 s. No jolt seen. Paper stays outside; dashboard clean. The open driver's door frame shows at the left edge the whole shot. The bobblehead appears at about 15 s, whole from 16 s, still to the end; the helicopter is gone by about 17 s. Loudness peaks at 8-10 s and falls to about -41 dB at the end (not listened to: check for music)."
+              "notes": "REQUEST S10-SH010-e. Folder S10/SH010. First take with elements as <<<id>>>. Claude's read: 0-3 s sky only through the dusty windshield, rooftop corners at the bottom, sun glow low; 3-7 s the rotor, then the Black Hawk rise into the sky from the bottom edge in silhouette, dust behind it; 7-11 s it banks over the car, the belly filling the frame; 11-16 s the camera tilts down following it as it flies straight into the low sun, paper sheets tumbling high in the light outside; the bobblehead rises into the lower right from about 14.75 s, whole from about 16.5 s, sharp against the soft street; the helicopter crosses the sun disc at about 16-18 s and is gone by 19 s. Backlit throughout, depth of field real. Not seen: the car's sway (no visible roll in 1 s frames); the end of the street has a modern tower block. Loudness peaks at 4-6 s and falls to about -40 dB at the end (not listened to: check for music)."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
