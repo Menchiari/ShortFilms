@@ -5521,6 +5521,40 @@
             "file": "05-generation/animatic/d11/S05_SH140.mp4",
             "draft": "d11"
           }
+        },
+        {
+          "id": "SH145",
+          "status": "generated",
+          "description": "Pigeons burst off the rooftops above the corner and scatter into the sky. Above, a shutter opens a crack: a woman looks down at the street.",
+          "framing": "LOW ANGLE, from the foot of the building, looking up at the roof edge",
+          "movement": "Slow push-in on the window",
+          "duration_s": 6,
+          "note": "The reaction to the shot in the air: pigeons burst off the roof, then one woman opens a shutter a crack and looks down at the corner. Shot from below (Leonard, 2026-11-21). The building of S06 (the S06 location plate v2 as the image of the place). [ASSUMPTION] S05, right after SH140",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "57a72f02-98be-466f-b4a7-c757af7512a0",
+              "prompt": "05-generation/prompts/001_S05_SH145_T01_v2.txt",
+              "file": "05-generation/takes/S05/SH145/001_S05_SH145_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH145_T01.jpg",
+              "references": [
+                "S06 location plate v2 0312506b (refs/001_S06_SH030_location-plate_v2.png)",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH145 (Leonard: 'ok generate it 720, be sure it's shot from below looking at one of the buildings'). No start frame: a view from below needs a new angle, so the location plate went in as the image of the place. Claude's read (stills at 2 fps; 1470x630, 6.08 s, audio present, mean -33.8 dB, not listened to): steep low angle on an ochre concrete block with jutting balconies, the S06 wall along the bottom of the frame, hazy cream sky. At 0 s the pigeons sit in a neat even row on the roof edge (too tidy); they burst at about 0.5 s and scatter unevenly, gone by about 2.5 s. A balcony door with dark shutters is already open from the first frame; she appears in it at about 4 s and stands at the railing, more in view than half hidden: white-blonde hair, pale skin, pale blue dress. She is small in frame: the push-in is slight. Same building type as the plate (concrete, balconies), not the same facade: plain framed windows, few louvered shutters, almost no cables. Brighter and flatter than SH140 T03: a pale sky, softer shadows."
+            }
+          ]
         }
       ]
     },
