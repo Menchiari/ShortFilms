@@ -3400,6 +3400,14 @@
     {
       "date": "2026-11-21",
       "text": "S05 SH145 T02 rated 1 (inferred, Leonard: 'I ask for realism, for documentary feel, what the fuck was that'). Claude's cause: the T02 prompt choreographed the camera (jerk, overshoot, late focus), which the model played as a stylized crash zoom into a composed medium shot, and naming the camera made her look into the lens. REQUEST S05-SH145-d prepared, not submitted: T03, prompts/001_S05_SH145_T03.txt: one fixed wide lens (no zoom, no push-in, no focus pull), an amateur holding the camera across the street, birds spraying down from a roof above the frame, she stays small and looks down to the left, never at the camera. Same settings as T02, preflight 42 credits. Balance 25,201.2, 74 below the 25,275.2 expected after T02: spent elsewhere, source unknown."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH145-d approved by Leonard ('let's try this time, go') and submitted: S05 SH145 T03, job f8cfc18a-04e0-4c02-8a29-5b04a4317a38, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee only, folder Scenes/S05/SH145, prompt prompts/001_S05_SH145_T03.txt, 42 credits (preflight)."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH145 T03 delivered (job f8cfc18a, 42 credits), takes/S05/SH145/001_S05_SH145_T03.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No zoom, plain crooked handheld; modern slab block; the pigeons again start in a line on a visible roof edge (cut in at about 0.8 s removes it); the woman is tiny, long dark hair, not as described. SH145 total 126 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
