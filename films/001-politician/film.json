@@ -3380,6 +3380,14 @@
     {
       "date": "2026-11-21",
       "text": "REQUEST S05-SH115-a prepared, not submitted: S05 SH115 T01, prompts/001_S05_SH115_T01.txt, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on (no music). loc_side-street element 8787643a in the prompt, bond image 93b84cd4-22b6-431c-a908-f9d3b736f376 (refs/001_S05_SH090_bond_v3.jpg, Leonard's image) as image reference. Not a draft (image inputs with no video reference cannot take the flag). Continuity frames: frames/001_S05_SH115_continuity_SH110-T12T13_SH120-T01.jpg. Woman: white, about 45, dark-blond knot, dusty-blue work shirt; she ends in the right half of frame looking screen left past the lens (the old man is screen left in SH120). Preflight 18 credits, balance 25,317.2. Waiting for Leonard's approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH115-a approved by Leonard ('ok go', 18 credits) and submitted: S05 SH115 T01, job 434046d6-3e2b-4e04-82fc-4c74a112638d, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on, loc_side-street element 8787643a, bond 93b84cd4, folder Scenes/S05/SH115, prompt prompts/001_S05_SH115_T01.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH115 T01 delivered (job 434046d6, 18 credits), takes/S05/SH115/001_S05_SH115_T01.mp4 (992x432, 24 fps, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: the sheet is already on the ground at 0 s (no fall); bond layout and $500,000 read, title smeared; end look screen left matches SH120; background is a wider street with a crosswalk and a parked car, not the narrow side street."
     }
   ],
   "story_sync": {

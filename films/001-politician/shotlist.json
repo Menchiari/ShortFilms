@@ -5332,6 +5332,41 @@
           }
         },
         {
+          "id": "SH115",
+          "status": "review",
+          "description": "One sheet drops to the asphalt, face up: PUBLIC IMPROVEMENT BOND. $500,000. A WOMAN of the street picks it up and reads it. She does not believe it. Then she lifts her eyes toward him, enraged.",
+          "framing": "LOW on the asphalt, rising to MEDIUM CLOSE, her",
+          "movement": "Handheld, rises with the sheet",
+          "duration_s": 6,
+          "note": "The bond reads when it lands and when she holds it (Leonard's image, Franklin County A 017). She looks screen left past the lens, toward him (he is screen left in SH120)",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "434046d6-3e2b-4e04-82fc-4c74a112638d",
+              "prompt": "05-generation/prompts/001_S05_SH115_T01.txt",
+              "file": "05-generation/takes/S05/SH115/001_S05_SH115_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH115_T01.jpg",
+              "references": [
+                "loc_side-street 8787643a (element in the prompt)",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg, image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH115-a, approved by Leonard ('ok go'). Not a draft. 992x432, 24 fps, 6.08 s, audio mean -38.4 dB, max -8.6 dB (not heard). Folder Scenes/S05/SH115. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The sheet does not fall from the sky: it already lies face up on the asphalt at 0 s, her shoes walk in, her hand picks it up at about 1.5 s; the green border and the bond layout read on the ground, the title does not. The camera rises fast past her legs and skirt (about 2-3 s, motion blur) to a medium close-up. 3-6 s: she holds the sheet with its printed face toward the camera (not toward her), $500,000 reads, the title is smeared; she reads, mouth slightly open, then turns her head to screen left in near profile with a hard, closed look: the eyeline matches SH120 (he is screen left). Woman as described (dark-blond knot, blue shirt, bag strap). Continuity risk: the background is a wider street with a crosswalk, a street sign, a pole and a parked car, not the narrow side street of SH110 and SH120; grade and backlight match."
+            }
+          ]
+        },
+        {
           "id": "SH120",
           "status": "approved",
           "takes": [
