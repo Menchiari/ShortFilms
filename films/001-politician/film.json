@@ -3388,6 +3388,14 @@
     {
       "date": "2026-11-21",
       "text": "S05 SH145 T01 rated 1 (inferred, Leonard: 'no'): building too Middle Eastern, wants it more modern; pigeons fake, on an awkward line, put them on a roof out of frame; camera must be natural, documentary, the woman unexpected, no intentional slow zoom. REQUEST S05-SH145-c prepared, not submitted: T02, prompts/001_S05_SH145_T02.txt: the location plate dropped (it carried the old facade), a plain 1970s modern apartment block in words, roof never in frame, pigeons rising from behind the top edge, handheld documentary camera that jerks down to her window when she opens the curtain; palette_afternoon 3bf30eee only. seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, preflight 42 credits."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH145-c approved by Leonard ('go') and submitted: S05 SH145 T02, job c383813d-c1cc-43be-b4f7-8772c30f0fb6, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee only, folder Scenes/S05/SH145, prompt prompts/001_S05_SH145_T02.txt, 42 credits (preflight)."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH145 T02 delivered (job c383813d, 42 credits), takes/S05/SH145/001_S05_SH145_T02.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Modern block reads; pigeons real-looking but the roof edge is in frame; the camera snaps in on her with a fast crash zoom at about 3.5-4 s; she looks almost into the lens. SH145 total so far 84 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
