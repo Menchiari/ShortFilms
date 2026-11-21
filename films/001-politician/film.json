@@ -221,7 +221,8 @@
       "S09/SH120": "b3cf719d-5a9a-48cb-870f-3e798f77a3e8",
       "S10": "985c8aa1-06b3-4fba-abb6-cd6d9bc878b3",
       "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f",
-      "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1"
+      "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1",
+      "S05/SH145": "5445bbdd-9a91-4293-a7f8-1c89181ee331"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3371,6 +3372,10 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH050-h prepared, not submitted: T08 = T07 with one change, the folder: shut tight, never its pages (the T07 cream-pages line likely turned it into an open white folder), held only by one top corner hanging from his fingertips, never flat on his hand. prompts/001_S09_SH050_T08.txt. Same settings and references as T07, preflight 18 credits."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH145 (new, pigeons off the roofs, a woman peeks from a shutter; after S05 SH140 T03). Folder Scenes/S05/SH145 5445bbdd recorded. Start frame v1: crop of the S06 location plate v2 (0312506b), refs/001_S05_SH145_start-frame_v1.png, uploaded as media ec5ed077. REQUEST S05-SH145-a (push-in, prompts/001_S05_SH145_T01.txt) and S05-SH145-b (locked-off, prompts/001_S05_SH145_T01_b.txt) prepared, not submitted: seedance_2_5 omni_reference, start_image, 6 s, 480p, 21:9, audio on, 18 credits each (preflight), no draft flag (image input without video reference). Waiting for Leonard."
     }
   ],
   "story_sync": {
