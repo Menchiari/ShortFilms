@@ -3445,6 +3445,30 @@
     {
       "date": "2026-11-21",
       "text": "S05 SH115 T01 rated 2 (inferred from Leonard's list of faults). REQUEST S05-SH115-b prepared, not submitted: T02, prompts/001_S05_SH115_T02.txt: light sheet floating down in a zigzag, plain heavy-set woman of about fifty, hesitation then eyes widen then rage just past the lens, about eight puzzled people out of focus behind her, 55mm shallow focus; the narrow street named without crosswalk, signs, poles or vehicles (T01 drifted to a wider road). 7 s, 480p, 21:9, audio on, same refs. Preflight 21 credits, balance 25,222.2."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH145 (new, pigeons off the roofs, a woman peeks from a shutter; after S05 SH140 T03). Folder Scenes/S05/SH145 5445bbdd recorded. Start frame v1: crop of the S06 location plate v2 (0312506b), refs/001_S05_SH145_start-frame_v1.png, uploaded as media ec5ed077. REQUEST S05-SH145-a (push-in, prompts/001_S05_SH145_T01.txt) and S05-SH145-b (locked-off, prompts/001_S05_SH145_T01_b.txt) prepared, not submitted: seedance_2_5 omni_reference, start_image, 6 s, 480p, 21:9, audio on, 18 credits each (preflight), no draft flag (image input without video reference). Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH145 approved by Leonard ('ok generate it 720, be sure it's shot from below looking at one of the buildings'). The start frame cannot give a view from below, so the method changed: no start frame; the S06 location plate v2 (0312506b) as the image of the place and palette_afternoon (3bf30eee) for color; low angle from the sidewalk at the foot of the building up to the roof edge, push-in to the window. prompts/001_S05_SH145_T01_v2.txt. Preflight 42 credits (as quoted). Submitted: S05 SH145 T01, job 57a72f02-98be-466f-b4a7-c757af7512a0, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, folder Scenes/S05/SH145."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH145 T01 delivered (job 57a72f02, 42 credits), takes/S05/SH145/001_S05_SH145_T01.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Low angle held; pigeons start in a too-neat row on the roof edge, then scatter well; she appears at an already-open balcony door at about 4 s, small in frame, more visible than half hidden; same building type as the plate, not the same facade; brighter and flatter than SH140 T03. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH145 T01 rated 1 (inferred, Leonard: 'no'): building too Middle Eastern, wants it more modern; pigeons fake, on an awkward line, put them on a roof out of frame; camera must be natural, documentary, the woman unexpected, no intentional slow zoom. REQUEST S05-SH145-c prepared, not submitted: T02, prompts/001_S05_SH145_T02.txt: the location plate dropped (it carried the old facade), a plain 1970s modern apartment block in words, roof never in frame, pigeons rising from behind the top edge, handheld documentary camera that jerks down to her window when she opens the curtain; palette_afternoon 3bf30eee only. seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, preflight 42 credits."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH145-c approved by Leonard ('go') and submitted: S05 SH145 T02, job c383813d-c1cc-43be-b4f7-8772c30f0fb6, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee only, folder Scenes/S05/SH145, prompt prompts/001_S05_SH145_T02.txt, 42 credits (preflight)."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH145 T02 delivered (job c383813d, 42 credits), takes/S05/SH145/001_S05_SH145_T02.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Modern block reads; pigeons real-looking but the roof edge is in frame; the camera snaps in on her with a fast crash zoom at about 3.5-4 s; she looks almost into the lens. SH145 total so far 84 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
