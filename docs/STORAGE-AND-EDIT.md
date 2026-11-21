@@ -95,8 +95,11 @@ stop.
 
 First time for a film:
 
-1. New project in Resolve named like the film folder (`001-title`), timeline 24 fps, resolution
-   and aspect from `film.json`.
+1. Project Manager, Project Libraries (Databases in older versions): add a new local library in
+   `08-edit\_local\library`. New project in it, named like the film folder (`001-title`),
+   timeline 24 fps, resolution and aspect from `film.json`. Project Settings, Master Settings,
+   Working Folders: cache and gallery in `08-edit\_local\cache`. The library is a live database
+   Resolve rewrites at every save: it is never committed, the `.drp` is the versioned copy.
 2. Drag `05-generation\takes`, `06-sound\sfx` and `07-music\takes` into the Media Pool.
    The bins mirror the folders: scene, then shot.
 3. Edit.
