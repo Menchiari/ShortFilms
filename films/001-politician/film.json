@@ -3379,6 +3379,10 @@
     {
       "date": "2026-11-21",
       "text": "REQUEST S05-SH080-g approved by Leonard ('ok go', 35 credits): S05 SH080 T07 submitted, job 4bfdd139-492e-4910-9624-a88bbaa9196c, seedance_2_5 video_extension backward of T06 (3703a2a0), 720p, 5 s, audio on, folder S05/SH080, prompt 001_S05_SH080_T07_extend-backward.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH080 T07 delivered (job 4bfdd139, 35 credits), takes/S05/SH080/001_S05_SH080_T07.mp4 (1470x630, 5.00 s, audio), backward extension of T06: its last frame matches T06's first frame. Still made, recorded in shotlist.json, unrated."
     }
   ],
   "story_sync": {
