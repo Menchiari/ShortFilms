@@ -3371,6 +3371,42 @@
     {
       "date": "2026-11-20",
       "text": "REQUEST S09-SH050-h prepared, not submitted: T08 = T07 with one change, the folder: shut tight, never its pages (the T07 cream-pages line likely turned it into an open white folder), held only by one top corner hanging from his fingertips, never flat on his hand. prompts/001_S09_SH050_T08.txt. Same settings and references as T07, preflight 18 credits."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "Leonard: make a sequel shot where the big guy grabs him up. REQUEST S04-SH090-c prepared, not submitted: SH090 T03 = video_extension forward of T02 (b1cb13c9), 5 s, 480p, draft, audio on, no dialogue, folder S04/SH090, prompt prompts/001_S04_SH090_T03.txt, elements char_politician_dusty 1ecc0e0b (face only, clothes from T02) and char_big-guy f5cc12be. The big man enters from below camera at lower right, both fists on the collar and lapels as in SH110 T01, hauls him to his feet, ends face to face, old man screen left, big man screen right (SH110 eyelines). Continuity check: SH110 T01 matches char_big-guy (curly hair, mustache); SH080 T04 has short straight hair; SH135 T04 is a slimmer bearded man and a thinner old man. SH090 T02 used clean char_politician, not dusty. Preflight 15 credits, balance 25401.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S04-SH090-c approved by Leonard ('go', 15 credits) and submitted: S04 SH090 T03 fa64d054-54a3-4f9d-81e6-e95ded055f92, seedance_2_5 video_extension forward of T02 (b1cb13c9), 480p draft, 5 s, audio on, folder Scenes/S04/SH090, prompt 001_S04_SH090_T03.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S04 SH090 T03 delivered (job fa64d054, 15 credits), takes/S04/SH090/001_S04_SH090_T03.mp4 (992x432, 5.00 s, audio), still made, recorded in shotlist.json, unrated. Seamless from T02; the big man is the SH110 man; camera ends at eye level on a plain wall instead of high over the street."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "Leonard: make a prequel of S04 SH135 where he starts by looking up above him, then calms down and proceeds with the shot. REQUEST S04-SH135-e prepared, not submitted: SH135 T05 = video_extension backward of T04 (a598eba5), 4 s, 480p draft, audio on, no dialogue, no elements (identity from T04 only, so the seam holds), folder S04/SH135, prompt prompts/001_S04_SH135_T05_extend-backward.txt. 0-2 s he looks up at the windows and balconies, 2-4 s one long breath, eyes back to the fat person, ends on T04's first frame. [ASSUMPTION] 'above him' = the watchers at the windows (SH130). Preflight 12 credits, balance 25386.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S04-SH135-e approved by Leonard ('go', 12 credits) and submitted: S04 SH135 T05 a5b5bd30-8ff6-4644-8d57-51e9293a1bce, seedance_2_5 video_extension backward of T04 (a598eba5), 480p draft, 4 s, audio on, folder Scenes/S04/SH135, prompt 001_S04_SH135_T05_extend-backward.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S04 SH135 T05 delivered (job a5b5bd30, 12 credits), takes/S04/SH135/001_S04_SH135_T05.mp4 (992x432, 4.00 s, audio), still made, recorded in shotlist.json, unrated. Ends on T04's first frame."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "Leonard: make a prequel of S05 SH010 T02 where he walks before he starts running, a bit paranoid, fixing his tie. REQUEST S05-SH010-c prepared, not submitted: SH010 T03 = video_extension backward of T02 (25d91c21), 5 s, 480p draft, audio on, no dialogue, no elements (identity from T02), folder S05/SH010, prompt prompts/001_S05_SH010_T03_extend-backward.txt. 0-2 s ordinary walk, left hand fixes the tie knot and jacket, a glance back; 2-4 s quick looks at doorways, shutters, a balcony; 4-5 s speeds into T02's fast walk, ends on T02's first frame. Preflight 15 credits, balance 25374.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S04 SH135 T05 rated 5 (inferred, Leonard: 'perfect'). REQUEST S05-SH010-c approved by Leonard ('go with this one', 15 credits) and submitted: S05 SH010 T03 69f7a3e6-311e-4cad-b0cf-2c689ef131e4, seedance_2_5 video_extension backward of T02 (25d91c21), 480p draft, 5 s, audio on, folder Scenes/S05/SH010, prompt 001_S05_SH010_T03_extend-backward.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH010 T03 delivered (job 69f7a3e6, 15 credits), takes/S05/SH010/001_S05_SH010_T03.mp4 (992x432, 5.00 s, audio), still made, recorded in shotlist.json, unrated. Tie fix, paranoid looks; the end frame is near T02's first frame, a small jump at the cut is possible."
     }
   ],
   "story_sync": {

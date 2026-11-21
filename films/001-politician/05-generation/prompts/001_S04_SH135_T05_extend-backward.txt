@@ -1,0 +1,25 @@
+Audio: only short strained breaths through the nose, one long slow breath out, the soft creak of a cotton shirt collar twisted in two fists, the creak of the leather briefcase handle, and the still room tone of a hot empty street. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 backward: generate the moments before its first frame, ending exactly on its first frame. Keep everything that is in @Video1 exactly the same: the handheld over-the-shoulder medium close-up, the framing, the backlit hazy afternoon sun high at screen left, the soft pale street behind him, the color and the film grain, the old man's face, hair, dusty dark suit and collar, the fat person's dark head, profile and grey-brown t-shirt at the right edge, his two bare forearms and both fists twisting the old man's collar under his chin, and the dark leather briefcase low at the bottom of frame. Do not replay or recreate anything from @Video1.
+
+Over the fat person's shoulder in the hot empty side street, the old man, held by the collar in both fists, looks up above him at the windows and balconies where the neighbors are watching, then calms himself and brings his eyes back down to the fat person, on the same handheld camera.
+
+0-2s: the same over-the-shoulder medium close-up as the first frame of @Video1, the fat person's fists twisting the old man's collar the whole time. The old man's head tilts back and his eyes go up, above him and past the camera, to the windows and balconies over the street: they move from one window to the next, a quick sharp look at each, counting the faces up there, his chest rising with short breaths through the nose. Nothing above the frame is shown; we only see his eyes go up.
+2-4s: he lets out one long slow breath through the nose, his shoulders drop a little, his chin comes down level, and his eyes come down from the windows and settle on the fat person's eyes, calm and steady. Final frame: exactly the first frame of @Video1: the old man at the left of frame facing screen right, his head level, his eyes on the fat person, both of the fat person's fists at his collar, the fat person's profile at the right edge, the camera in the same position.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): this stays a conversation between two men in front of the whole street; nobody makes the first violent move.
+MOTIVE (his fuel): a lifetime of rooms where the man who stays calm walks out with what he came with.
+GOAL: get out of these fists and leave with the briefcase, without a fight.
+OBSTACLE: the man holding him is twice his size and has just promised to rip him open in front of everyone.
+TACTIC: he checks the audience before he plays: his eyes go up and take stock of every window and balcony, measuring how many are watching and whether anyone up there would step in; he reads in them that the street is the fat person's weak point, a man will not want to be the brute in front of his neighbors; with that settled he drops his eyes back to the fat person and goes calm on purpose, choosing courtesy as his weapon.
+ACTING TASK, the fat person (seen from behind and in profile): he holds the collar tight and waits for an answer, his eyes on the old man's face. He keeps his mouth closed.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people in frame: two, the old man and the fat person. Count of briefcases: one, low in front of the old man. Count of hands on the collar: two, the fat person's fists, the whole shot. Nobody speaks. No cuts, no slow motion, no zoom. All movement at real-life speed.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, shutter or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only short strained breaths through the nose, one long slow breath out, the soft creak of a cotton shirt collar twisted in two fists, the creak of the leather briefcase handle, and the still room tone of a hot empty street. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

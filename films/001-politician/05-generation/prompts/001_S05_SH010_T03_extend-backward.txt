@@ -1,0 +1,25 @@
+Audio: only his footsteps on the dusty asphalt, walking, then quicker, his breathing through the nose, the rustle of his suit and tie, the creak of the leather briefcase handle, and the still room tone of a hot empty street. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 backward: generate the moments before its first frame, ending exactly on its first frame. Keep everything that is in @Video1 exactly the same: the medium close frontal shot from the waist up, the handheld camera backing away in front of him at his pace, the narrow side street with its plastered walls, rolled-down metal shutters, balconies and cables, the low hazy afternoon sun glowing at the far end of the street behind him, the color and the film grain, the old man's face, hair, dusty charcoal suit, stained white shirt and loose brown tie. Do not replay or recreate anything from @Video1.
+
+The old man walks toward the camera down the empty side street, not yet in a hurry, a bit paranoid, fixing his tie as he goes, until his walk speeds up into the fast walk of @Video1, on the same handheld camera backing away in front of him.
+
+0-2s: medium close frontal shot from the waist up, the old man centered, his head in the upper third, the street behind him. Camera: handheld, backing away in front of him at his pace, a light natural sway, always at the same distance. He walks at an ordinary pace, the briefcase hanging from his right hand at his side, below the frame. His left hand comes up to his collar: he pulls the knot of his tie up and straightens it, smooths the tie down his shirt with his flat hand, tugs the front of his jacket straight. While his hand works, his eyes keep moving: a quick glance over his left shoulder behind him, then forward again.
+2-4s: his left hand drops back to his side. Still walking, he glances to one side of the street, then the other, quick looks at a doorway and at a shuttered shop, then up at a balcony; each look is short and sharp, then he makes his face ordinary again and looks ahead. His pace picks up a little after each look.
+4-5s: his walk speeds up into a fast walk, his left arm starting to swing, his eyes going up to the windows and balconies on the left. Final frame: exactly the first frame of @Video1: the old man centered, from the waist up, walking fast at the camera, his left arm swinging, his eyes up at the balconies on the left, the street behind him.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): an ordinary hot afternoon in which nothing is supposed to happen.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: get down this street looking like nobody, a respectable man on an errand.
+OBSTACLE: the street has already seen him once, and he can feel the windows; one wrong look gives him away.
+TACTIC: he makes himself presentable on purpose, tie straight, jacket straight, the way he would before walking into a meeting, so nobody looking would see a man on the run; under it his eyes check every doorway, every shutter, every balcony and what is behind him, and each time they find nothing he puts the calm face back on, a little less sure each time, and his legs go a little faster.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of people in frame: one, the old man. Count of briefcases: one, in his right hand, mostly below the frame. No cars on the street. No cuts, no slow motion, no zoom. All movement at real-life speed.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, shutter or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his footsteps on the dusty asphalt, walking, then quicker, his breathing through the nose, the rustle of his suit and tie, the creak of the leather briefcase handle, and the still room tone of a hot empty street. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

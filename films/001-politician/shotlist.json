@@ -3545,6 +3545,30 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH090-b, 480p (992x432), 5.06 s, audio present (mean -27.4 dB, sound from about 0.4 s to 4.9 s; not listened to, I don't know if the full line is there). Changes from T01 (Leonard's notes): case on his chest from SH070 T02's last frame, he hides his face, agitated, a fox planning his escape; no guide clip, clean element as in SH070 T02. Claude's read from frames every 0.5 s: photographic. 0-0.5 s: on his back, head up off the ground, case on his chest, glaring up with an open mouth. By 1 s he curls up into a ball toward the camera: forearm across his nose and mouth, wristwatch hand at his cheek, eyes uncovered above the sleeve, narrowed and glaring up at the camera, holding through the end. The case is hard to read after 1 s (a dark shape under his arms, it may be his knees); his mouth is hidden by the sleeve, so lip sync does not show. Angle lower and more oblique than T01, the curb behind him on a diagonal. Shot sent to Leonard in chat. Leonard 2026-11-18: love it."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "fa64d054-54a3-4f9d-81e6-e95ded055f92",
+              "prompt": "05-generation/prompts/001_S04_SH090_T03.txt",
+              "file": "05-generation/takes/S04/SH090/001_S04_SH090_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH090_T03.jpg",
+              "references": [
+                "T02 b1cb13c9 (extended forward)",
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH090-c, Leonard: a sequel where the big guy grabs him up. 480p draft (finalizable within 7 days). File holds the 5 new seconds only (992x432, 24 fps, audio mean -33.2 dB, peak -7.3 dB, not listened to): play T02 then T03. First frame matches T02's last frame. Claude's read (frames every 0.5 s): the big man's curly head enters lower right at 0.5 s, both fists on the lapels by 1.5 s, hauls him up 2-3.5 s, face to face from 3.5 s, old man screen left, big man screen right (SH110 eyelines). Big man matches SH110 T01 and char_big-guy (curly hair, mustache, brown t-shirt). Old man keeps T02's face; rust tie now visible. Misses: the camera drops to eye level as he rises instead of staying high, and the end background is a plain pale wall, not the street; briefcase reads only as a dark edge at the bottom after 3 s."
             }
           ],
           "description": "On the ground, the old man covers his face with his hand.",
@@ -4037,6 +4061,29 @@
               "rating": 4,
               "notes": "REQUEST S04-SH135-d (prompt T04_v2, current @char_/@Image naming), 480p (992x432), 4.06 s, audio present (mean -35.1 dB, peak -10.8 dB; not listened to). Leonard on T03: still two hands, he must hold the briefcase with one hand. Claude's read from frames every 1/3 s and frames 12, 48, 78, 96: photographic medium close-up, SH120 light. Hands now read clearly: the fat person's two bare forearms come from the right, and the old man works on them with ONE hand only (charcoal sleeve, shirt cuff) gripping the fat person's wrist; his other hand never comes to the collar. Struggle 0 to about 3.2 s with a strained half smile around 1.5 to 2.7 s. The release lands about 3.4 s: he ducks out and ends free, collar open, rust tie, the briefcase in his arms at the bottom right. Misses: the briefcase is mostly hidden behind the fat person's forearm during the struggle (a dark corner with the handle shows at chest height) and his left hand on it is not clearly seen; at the end he holds it lower right, not at frame left. The fat person's face shows in profile (mouth open, beard). A white parked car edge at frame left and distant cars in the street at the end. Leonard 2026-11-19: 'sure this works'.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "a5b5bd30-8ff6-4644-8d57-51e9293a1bce",
+              "prompt": "05-generation/prompts/001_S04_SH135_T05_extend-backward.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T05.jpg",
+              "references": [
+                "T04 a598eba5 (extended backward)"
+              ],
+              "love": false,
+              "rating": 5,
+              "notes": "REQUEST S04-SH135-e, Leonard: a prequel where he first looks up above him, then calms down and goes on with the shot. 480p draft. File holds the 4 new seconds only (992x432, audio mean -34.3 dB, peak -11.2 dB, not listened to): play T05 then T04. Last frame matches T04's first frame side by side. Claude's read (frames every 0.5 s): 0-2.5 s head back, eyes up past the camera, mouth a little open; about 3 s his eyes come down; 3.5-4 s level, on the fat person, as T04 starts. Identity inherited from T04 (slimmer bearded fat person, not the SH110 man). The eye scan from window to window is small; it reads as one long look up. Leonard 2026-11-21: 'perfect'.",
+              "rating_source": "inferred"
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
@@ -4182,6 +4229,28 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH010-b. One change from T01: waist-up framing. Claude's read of frames: 0-2s waist up as asked, case below frame; about 2.5-3s he hauls the case up in front of his waist with both hands and looks back over his shoulder; about 3.5-4.5s the camera falls back and he reads near full figure (the distance does not hold); 5-6s close again, chest up, running at the lens, eyes up. Face more strained than T01. Audio peaks near 1-2s and 5s; words not verified by Claude."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "69f7a3e6-311e-4cad-b0cf-2c689ef131e4",
+              "prompt": "05-generation/prompts/001_S05_SH010_T03_extend-backward.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH010_T03.jpg",
+              "references": [
+                "T02 25d91c21 (extended backward)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH010-c, Leonard: a prequel where he walks before he runs, a bit paranoid, fixing his tie. 480p draft. File holds the 5 new seconds only (992x432, audio mean -39.3 dB, peak -19.1 dB, quiet, not listened to): play T03 then T02. Claude's read (frames every 0.5 s): 0-1.5 s his left hand on the tie knot, pulling it straight, eyes up and around; about 2-2.5 s a look back over his shoulder; 2.5-5 s walking, quick looks to both sides and up, arms swinging more. Same man, suit and street as T02. Seam: the last frame is close to T02's first frame but not exact: he sits slightly left and his left arm is in a different place, so a small jump may show at the cut."
             }
           ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
