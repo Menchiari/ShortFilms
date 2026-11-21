@@ -8874,7 +8874,7 @@
         },
         {
           "id": "SH110",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -8945,8 +8945,32 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH110-c. Folder Scenes/S09/SH110. Same refs as T02; long lens, off-axis frame. 992x432, 4.06 s, audio mean -33.2 dB, max -17.2 dB (not heard). Claude's read (frames at 2 fps plus one full frame, not watched at speed): far less of an AI composition: the corner of a low ochre block fills the left half at an angle, the sun flares off its edge with a horizontal red anamorphic streak and veiling glare, the long lens stacks bodies, car and buildings, haze behind. Bodies in varied untidy poses (curled, face down, one on his back), clustered along the curb and spilling into the street, about twelve readable. Hidden people: one at the dark doorway at left, a few on the balcony above. Misses: his car (door open, headlights on, facing camera) sits mid-distance just beyond the bodies, about a twelfth of the frame width, not far off at a crossroads. Paper: about ten sheets on the ground near the camera at 0 s, sliding away; by about 2 s only a few remain and by the end almost none (they leave or vanish rather than stay on the ground). The curb is painted in yellow and dark stripes. No foreground soft paper near the lens. It reads as a street corner more than an open square."
+              "rating": 1,
+              "notes": "REQUEST S09-SH110-c. Folder Scenes/S09/SH110. Same refs as T02; long lens, off-axis frame. 992x432, 4.06 s, audio mean -33.2 dB, max -17.2 dB (not heard). Claude's read (frames at 2 fps plus one full frame, not watched at speed): far less of an AI composition: the corner of a low ochre block fills the left half at an angle, the sun flares off its edge with a horizontal red anamorphic streak and veiling glare, the long lens stacks bodies, car and buildings, haze behind. Bodies in varied untidy poses (curled, face down, one on his back), clustered along the curb and spilling into the street, about twelve readable. Hidden people: one at the dark doorway at left, a few on the balcony above. Misses: his car (door open, headlights on, facing camera) sits mid-distance just beyond the bodies, about a twelfth of the frame width, not far off at a crossroads. Paper: about ten sheets on the ground near the camera at 0 s, sliding away; by about 2 s only a few remain and by the end almost none (they leave or vanish rather than stay on the ground). The curb is painted in yellow and dark stripes. No foreground soft paper near the lens. It reads as a street corner more than an open square. Leonard 2026-11-20: looks like shit (asked for a review of every shot).",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-20",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "abec4409-55ef-4843-aaa3-3040174797a9",
+              "prompt": "05-generation/prompts/001_S09_SH110_T04_v2.txt",
+              "file": "05-generation/takes/S09/SH110/001_S09_SH110_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH110_T04.jpg",
+              "references": [
+                "SH050 T02 frame, grade A 30eaaf24 (image_references; refs/001_S09_SH110_REF_place_from_SH050_T02_gradeA.jpg)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "REQUEST S09-SH110-f (Leonard: 'just do the shot'). Folder Scenes/S09/SH110. Only reference: the SH050 T02 frame in grade A (upload 30eaaf24); no elements, no palette. 992x432, 4.06 s, audio mean -34.4 dB, max -17.2 dB (not heard). Claude's read (frames at 2 fps plus one full frame, not watched at speed): the first take that reads as plain, ungraded footage: muted grey-beige, washed sky, soft low sun at the upper right, dust streaming across the ground toward the street. The place matches SH050 T02 (the same shuttered facade across the back, the sunlit street at the right). Riot debris on the ground: shoes, a can, scraps. Paper: about a dozen sheets tumble and skid at 0-2 s, then thin out; few left by 3 s. Misses: only three bodies (the map has twelve in this view); his car (door open) parked at the left in front of the shutters, mid-distance, not far down the street; no street light or corner at the left edge; hidden people not readable; the paper runs out again. Leonard 2026-11-20: fine (rating 4, inferred). Shot approved.",
+              "rating_source": "inferred"
             }
           ],
           "description": "The certificates flutter among the bodies in the rotor wash.",
