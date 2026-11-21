@@ -3545,6 +3545,30 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH090-b, 480p (992x432), 5.06 s, audio present (mean -27.4 dB, sound from about 0.4 s to 4.9 s; not listened to, I don't know if the full line is there). Changes from T01 (Leonard's notes): case on his chest from SH070 T02's last frame, he hides his face, agitated, a fox planning his escape; no guide clip, clean element as in SH070 T02. Claude's read from frames every 0.5 s: photographic. 0-0.5 s: on his back, head up off the ground, case on his chest, glaring up with an open mouth. By 1 s he curls up into a ball toward the camera: forearm across his nose and mouth, wristwatch hand at his cheek, eyes uncovered above the sleeve, narrowed and glaring up at the camera, holding through the end. The case is hard to read after 1 s (a dark shape under his arms, it may be his knees); his mouth is hidden by the sleeve, so lip sync does not show. Angle lower and more oblique than T01, the curb behind him on a diagonal. Shot sent to Leonard in chat. Leonard 2026-11-18: love it."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 15.0,
+              "job_id": "fa64d054-54a3-4f9d-81e6-e95ded055f92",
+              "prompt": "05-generation/prompts/001_S04_SH090_T03.txt",
+              "file": "05-generation/takes/S04/SH090/001_S04_SH090_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH090_T03.jpg",
+              "references": [
+                "T02 b1cb13c9 (extended forward)",
+                "char_politician_dusty 98e1e69e",
+                "char_big-guy 6228445b"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH090-c, Leonard: a sequel where the big guy grabs him up. 480p draft (finalizable within 7 days). File holds the 5 new seconds only (992x432, 24 fps, audio mean -33.2 dB, peak -7.3 dB, not listened to): play T02 then T03. First frame matches T02's last frame. Claude's read (frames every 0.5 s): the big man's curly head enters lower right at 0.5 s, both fists on the lapels by 1.5 s, hauls him up 2-3.5 s, face to face from 3.5 s, old man screen left, big man screen right (SH110 eyelines). Big man matches SH110 T01 and char_big-guy (curly hair, mustache, brown t-shirt). Old man keeps T02's face; rust tie now visible. Misses: the camera drops to eye level as he rises instead of staying high, and the end background is a plain pale wall, not the street; briefcase reads only as a dark edge at the bottom after 3 s."
             }
           ],
           "description": "On the ground, the old man covers his face with his hand.",

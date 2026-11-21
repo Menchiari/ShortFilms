@@ -3375,6 +3375,14 @@
     {
       "date": "2026-11-21",
       "text": "Leonard: make a sequel shot where the big guy grabs him up. REQUEST S04-SH090-c prepared, not submitted: SH090 T03 = video_extension forward of T02 (b1cb13c9), 5 s, 480p, draft, audio on, no dialogue, folder S04/SH090, prompt prompts/001_S04_SH090_T03.txt, elements char_politician_dusty 1ecc0e0b (face only, clothes from T02) and char_big-guy f5cc12be. The big man enters from below camera at lower right, both fists on the collar and lapels as in SH110 T01, hauls him to his feet, ends face to face, old man screen left, big man screen right (SH110 eyelines). Continuity check: SH110 T01 matches char_big-guy (curly hair, mustache); SH080 T04 has short straight hair; SH135 T04 is a slimmer bearded man and a thinner old man. SH090 T02 used clean char_politician, not dusty. Preflight 15 credits, balance 25401.2. Waiting for approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S04-SH090-c approved by Leonard ('go', 15 credits) and submitted: S04 SH090 T03 fa64d054-54a3-4f9d-81e6-e95ded055f92, seedance_2_5 video_extension forward of T02 (b1cb13c9), 480p draft, 5 s, audio on, folder Scenes/S04/SH090, prompt 001_S04_SH090_T03.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S04 SH090 T03 delivered (job fa64d054, 15 credits), takes/S04/SH090/001_S04_SH090_T03.mp4 (992x432, 5.00 s, audio), still made, recorded in shotlist.json, unrated. Seamless from T02; the big man is the SH110 man; camera ends at eye level on a plain wall instead of high over the street."
     }
   ],
   "story_sync": {
