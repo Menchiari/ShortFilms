@@ -4863,6 +4863,29 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH080-f, 720p (1470x630), 6.08 s, audio present (not listened to). Changes from T05: guide with a kiwi-sized pebble drawn on the animatic's path, narrow-street wording, no blood at nose or mouth. Claude's read from frames: the street is now a narrow lane with buildings close on both sides; he looks back at about 1.3 s; a stumble dip at about 2.3 s; agitated, mouth open, breathing. The pebble still does not read kiwi-sized: at frames 112-113 only a faint small streak near his brow, then eyes shut and the head snaps back. Fall onto his back; final frame: a short thin cut at the outer end of his right eyebrow with a little blood, none at the nose; briefcase beside him. Faults: parked cars on both sides of the lane again, a dumpster; briefcase at his side, not his chest; no visible kiwi-sized pebble. Leonard 2026-11-19: 'ok good'. Plan: the kiwi-sized pebble is composited in the edit (3-4 frames from screen left into the brow before frame 113)."
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "4bfdd139-492e-4910-9624-a88bbaa9196c",
+              "prompt": "05-generation/prompts/001_S05_SH080_T07_extend-backward.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH080_T07.jpg",
+              "references": [
+                "T06 3703a2a0 (extended backward)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S05-SH080-g. Prequel: backward extension of T06; the file is the new 5.00 s only. Play T07 then T06 for the full shot (11 s). 1470x630, 24 fps, audio present (not listened to; mean -35 dB, max -19.5 dB). Join: T07's last frame and T06's first frame match side by side (same pose, phone at right ear, framing, cars); SSIM 0.82. Claude's read from frames (2 and 3 fps): 0-1.5 s he hurries forward looking down at the phone low in his right hand, the briefcase against his chest under his left arm; about 1.5-2.2 s he turns his head back over his left shoulder; then back down to the phone, thumb on the screen (the tap itself is not clearly readable at this sampling); about 4.5-5 s the phone goes up to his right ear. Torn right elbow visible, as in T06. Faults: the first 1.5 s are brighter and hazier, with awnings, shop fronts and a red round road sign in the background, drifting into T06's darker lane with parked cars; the street reads wider at the start."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
