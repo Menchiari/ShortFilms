@@ -976,6 +976,29 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "Approved by Leonard 2026-11-18 (28 credits). Folder S02/SH010. File 1470x630, 24 fps, 4.06 s, wind only. Claude's read: FAILED the ask. The camera did not go to eye height: the image reference overrode the prompt and the framing is the same as start frame v1. A camera tripod stands on the road in the foreground for the whole shot: the model drew the words 'on a tripod' as an object. Towers held well. Never write 'tripod' in a prompt; an image reference fixes the angle as strongly as a start frame. Tripod removed for free with ffmpeg delogo (box x726 y498 w60 h118), libx264 crf 12, audio copied: 05-generation/takes/S02/SH010/001_S02_SH010_T06_v2.mp4. Leonard 2026-11-18, after seeing the cleaned version: this shot works. [ASSUMPTION] 'this shot' = T06_v2 (the last file shown). Optional finish: paint the soft patch in Resolve Fusion."
+            },
+            {
+              "id": "T06_v2",
+              "date": "2026-11-18",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S02/SH010/001_S02_SH010_T06_v2.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH010_T06_v2.jpg",
+              "references": [
+                "T06 c0043f42 (edit source)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "T06 with the tripod removed (free: ffmpeg delogo, crf 12, audio copied). Leonard 2026-11-18 after seeing it: 'this shot works' (T06's note: [ASSUMPTION] 'this shot' = this file). The version for the edit. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": "inferred"
             }
           ],
           "description": "Silence. A dry, dusty town on the edge of the desert, its outer towers standing shoulder to shoulder like a wall. The sun on the rooftops.",
@@ -2640,6 +2663,29 @@
               "notes": "REQUEST 050f, 720p, no draft flag, passed first submission. 1470x630, 14.08 s. Claude's read (frames and audio levels, not heard): the frame opens wider and higher than the start frame (start image taken as a reference, not the exact first frame); door open by 5 s, he leans out and looks around 6-10 s, gets out with the briefcase 11-12 s, walks left from 12 s, door left open; whether he goes around the door edge or through the gap is not readable at this size. The smoker smokes and watches, partly in profile at the end. Audio quiet (mean -38 dB) with two louder events; music not checked by ear. Leonard 2026-11-18: this shot works; not fully convinced by the street, maybe some cars: a modified still for post (he adds it in post). Composite 2026-11-18 (Leonard): street plate v2 laid into every part of T01 that does not move, file takes/S03/SH050/001_S03_SH050_T01_comp_v1.mp4, script 05-generation/comp/001_S03_SH050_T01_comp.py. Camera measured static (under 0.2 px drift), plate aligned by edge matching; the old man, the door and the smoker come from the video, his shadow and the smoke are added as differences onto the plate; matched grain and flicker. Leonard 2026-11-18 on composite v1: works (inferred 4)."
             },
             {
+              "id": "T01_comp_v1",
+              "date": "2026-11-18",
+              "model": "comp",
+              "mode": "comp",
+              "duration_s": 14,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S03/SH050/001_S03_SH050_T01_comp_v1.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH050_T01_comp_v1.jpg",
+              "references": [
+                "T01 (comp source)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "Composite (free, Leonard's request 2026-11-18): street plate v2 laid into every static part of T01, script 05-generation/comp/001_S03_SH050_T01_comp.py. Leonard 2026-11-18 on composite v1: works. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": "inferred"
+            },
+            {
               "id": "T02",
               "date": "2026-11-18",
               "model": "seedance_2_5",
@@ -2984,6 +3030,29 @@
               "notes": "REQUEST S04-SH050-a, 480p (992x432), 4.06 s, 24 fps, passed first submission. Audio present (mean -36.9 dB, max -17.4 dB; not listened to). Claude's read from frames every 0.5 s and face crops of Man 2: photographic, no previz look; locked-off; the SH040 bar held: cream scalloped awning, bottle shelves, hanging bulbs. All three heads fully in frame, men from the knees up. Man 1 grey hair, pale blue shirt, profile facing right; Man 2 shaved head, olive polo, tea glass, facing camera; Man 3 short beard and mustache, brown shirt, cigarette, but his hair is curly and fuller than in SH040. Man 2 talks with eyes down 0-2 s; from about 2.5 s his eyes come up and lock off screen to the right of the lens, mouth half open, head turned slightly toward screen right; he holds that look to the end. The slow head turn from right to left of the lens did not happen: the final eyeline is to screen right, not just left of the lens. Man 1 and Man 3 stay turned to each other. No parked cars, no extra people. Leonard 2026-11-18: flip it horizontally (he must look left, not right) and make a prequel where the politician passes fast right to left in the foreground. Flipped version (free, ffmpeg hflip, same audio): takes/S04/SH050/001_S04_SH050_T01_flip.mp4."
             },
             {
+              "id": "T01_flip",
+              "date": "2026-11-18",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T01_flip.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T01_flip.jpg",
+              "references": [
+                "T01 (edit source)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "T01 flipped horizontally (free: ffmpeg hflip, same audio), Leonard 2026-11-18: he must look left. Intermediate: the edit version is T02_join_v2. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": null
+            },
+            {
               "id": "T02",
               "date": "2026-11-18",
               "model": "seedance_2_5",
@@ -3007,6 +3076,75 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH050-b approved by Leonard, passed first submission. Returns only the new 4 s (96 frames, 992x432). Join with the flipped T01 holds: last frame vs source first frame SSIM 0.95, same men, poses and light. Joined preview (free, concat): takes/S04/SH050/001_S04_SH050_T02_join.mp4, 6.34 s. Audio present (mean -40.2 dB; not listened to). Claude's read from frames every 0.25 s: the men talk 0-1 s; he enters at the right edge at about 1 s at mid-distance, his face sharp and readable for about half a second, then walks toward the lens on a diagonal and crosses right to left very close, body nearly frontal, so from about 1.75 s his head is cut off by the top of the frame and he is a soft blur of suit and rust tie from the chest down, hiding the men; gone at the left edge by about 3.75 s. Miss: his head not in frame during the cross. Claude's read said no briefcase; Leonard 2026-11-18: he does have the briefcase (Claude's read was wrong). Man 2 keeps talking and does not look up, as asked. Leonard 2026-11-18: 'The whole shot works'; the shared preview had heavy compression artifacts. Rebuilt from the original downloads in one pass (flip, trim and join together, crf 10): takes/S04/SH050/001_S04_SH050_T02_join_v2.mp4 (480p) and _join_720p.mp4 (lanczos to 1470x630, crf 12). The 720p file adds no detail: the sources are 480p at 418 kb/s (T01) and 888 kb/s (T02)."
+            },
+            {
+              "id": "T02_join",
+              "date": "2026-11-18",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_join.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_join.jpg",
+              "references": [
+                "T01_flip + T02 (join sources)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "First join of the flipped T01 and T02 (free, concat). Preview with heavy compression artifacts, superseded by T02_join_v2. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": null
+            },
+            {
+              "id": "T02_join_720p",
+              "date": "2026-11-18",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_join_720p.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_join_720p.jpg",
+              "references": [
+                "T02_join_v2 (scale source)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "T02_join_v2 scaled to 1470x630 (lanczos, crf 12). Adds no detail: the sources are 480p. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": null
+            },
+            {
+              "id": "T02_join_v2",
+              "date": "2026-11-18",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_join_v2.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_join_v2.jpg",
+              "references": [
+                "T01 + T02 (join sources)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "Flip, trim and join rebuilt from the original downloads in one pass (crf 10). Leonard 2026-11-18 on the joined shot: 'The whole shot works'. The version for the edit. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": "inferred"
             }
           ],
           "description": "One of the men stops talking and looks at him.",
@@ -6753,6 +6891,52 @@
               "notes": "REQUEST S07-SH060-d (v2 wording; v1 as S07-SH060-c, job 63c706bd, blocked as nsfw and refunded). Leonard: a prequel, he reaches for the bar, the big guy hits him often, not hard, every time it hurts. Backward extension of T02 (867641cb), returns only the new 5 s (120 frames, 992x432, 24 fps), audio peak -8.3 dB. Join: T03's last frame matches T02's first frame (same composition, arms crossed over his face, jacket at top, crowd; SSIM 0.75, lower than S04 SH050's 0.95, the difference reads as grain and small motion in the frames). Joined preview (free, concat, crf 12): takes/S07/SH060/001_S07_SH060_T03_join.mp4, 9.06 s. Claude's read (frames every 1/8 s, not heard): the bar now matches prop_bar-weapon: a straight rusty pipe with a collar at the end, bat size. He hangs low in the left half, the big guy waist-up at the right holding the bar low, crowd packed behind. 0-1 s he reaches with his right hand and the bar flicks up into it, his hand jerks back; 1-2.5 s he reaches again with both hands, the bar end prods at his hands; at about 3.2 to 3.5 s the big guy flicks the bar up into his arm and shoulder, he pulls in; by 4.5 s arms crossed over his face, bar upright: T02 takes over. Against the prompt: the taps are small and the big guy's body barely moves (mostly wrist and bar), so the hurt reads from the old man's recoils more than from the hits; the camera is calmer than in T02; the crowd behind is static and almost all men. Waiting for Leonard."
             },
             {
+              "id": "T03_T02_T04_join",
+              "date": "2026-11-19",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 14,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T03_T02_T04_join.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH060_T03_T02_T04_join.jpg",
+              "references": [
+                "T03 + T02 + T04 (join sources)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "The whole shot: prequel T03, T02, sequel T04 (free, concat, crf 12). Waiting for Leonard. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": null
+            },
+            {
+              "id": "T03_join",
+              "date": "2026-11-19",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 9,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S07/SH060/001_S07_SH060_T03_join.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH060_T03_join.jpg",
+              "references": [
+                "T03 + T02 (join sources)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "Prequel T03 joined to T02 (free, concat, crf 12). Waiting for Leonard. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": null
+            },
+            {
               "id": "T04",
               "date": "2026-11-19",
               "model": "seedance_2_5",
@@ -7321,6 +7505,29 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "Scope and crosshair generated in camera (Leonard's call): a round scope view, black outside, a fine reticle with a ranging scale, held in place for the whole take. Two shot peaks in the audio at about 1 s and 3 s. Kill 1: a man drops near the crosshair around 1 s and lies there. Kill 2 reads clearly: the heavy man in brown runs on the crosshair, then folds and drops right under it at about 3.2 to 3.7 s. Sun behind the camera (shadows run away from it), matching S08 SH010. Distance: closer than asked (people about one eighth of the circle, not one fifteenth); most runners flee away from the camera, crowd mostly men. Not graphic, passed the filter. Leonard: 'good enough' (rating 3 inferred, read as 'usable'). Chosen take for SH030. 2026-11-20: with recoil kicks added in post (05-generation/comp/001_S08_SH030_T03_kick_v1.mp4, free), Leonard: 'this works' (rating 4 inferred, was 3). The kick version is the one for the edit."
+            },
+            {
+              "id": "T03_kick_v1",
+              "date": "2026-11-20",
+              "model": "comp",
+              "mode": "comp",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S08/SH030/001_S08_SH030_T03_kick_v1.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH030_T03_kick_v1.jpg",
+              "references": [
+                "T03 (comp source)"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "T03 with recoil kicks added in post (free; working copy in 05-generation/comp/). Leonard 2026-11-20: 'this works', the version for the edit. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
+              "rating_source": "inferred"
             },
             {
               "id": "T04",
