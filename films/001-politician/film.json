@@ -3388,6 +3388,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH115 T01 delivered (job 434046d6, 18 credits), takes/S05/SH115/001_S05_SH115_T01.mp4 (992x432, 24 fps, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: the sheet is already on the ground at 0 s (no fall); bond layout and $500,000 read, title smeared; end look screen left matches SH120; background is a wider street with a crosswalk and a parked car, not the narrow side street."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH115 T01 rated 2 (inferred from Leonard's list of faults). REQUEST S05-SH115-b prepared, not submitted: T02, prompts/001_S05_SH115_T02.txt: light sheet floating down in a zigzag, plain heavy-set woman of about fifty, hesitation then eyes widen then rage just past the lens, about eight puzzled people out of focus behind her, 55mm shallow focus; the narrow street named without crosswalk, signs, poles or vehicles (T01 drifted to a wider road). 7 s, 480p, 21:9, audio on, same refs. Preflight 21 credits, balance 25,222.2."
     }
   ],
   "story_sync": {
