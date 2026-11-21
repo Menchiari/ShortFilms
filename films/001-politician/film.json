@@ -220,7 +220,8 @@
       "S09/SH110": "811bc305-4e63-49a2-9218-43daab761a06",
       "S09/SH120": "b3cf719d-5a9a-48cb-870f-3e798f77a3e8",
       "S10": "985c8aa1-06b3-4fba-abb6-cd6d9bc878b3",
-      "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f"
+      "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f",
+      "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3290,6 +3291,30 @@
     {
       "date": "2026-11-20",
       "text": "S10 SH010 T03 in (job e29dc213, 60 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T03.mp4, 20.06 s. Claude's read in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City building: square 3D blockout from Leonard's square frame (3D Jutsu 67aff3d7, free). REQUEST city square tour T01 approved by Leonard ('ok do the video now'; Claude took the recommended option A) and submitted: job 4043c429-d77b-4542-a77b-fc3cd5bd7acc, seedance_2_5 omni_reference, 7 s, 720p, 21:9, audio on, 49 credits, start image media 058651a0, folder REFS/LOC_square (new, d2b24ce2), prompt stories/politician/city/square_3d/prompt_square_tour_v5_s09_norepeat.txt."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T01 in (job 4043c429, 49 credits): stories/politician/city/square_3d/takes/001_city_square_tour_T01.mp4, 7.07 s, 1470x630. Opens on Leonard's frame; the camera only drifts near the corner and returns, none of the planned angles is reached. Unrated."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "REQUEST city square tour T02 approved by Leonard ('go') and submitted: job 551dcd00-e0e1-45b3-8822-e8b2a3f687bb, seedance_2_5 omni_reference, 7 s, 720p, 21:9, audio on, 49 credits, start image 058651a0, video reference e5641a76 (the grey 3D tour v7, camera path only), folder REFS/LOC_square, prompt stories/politician/city/square_3d/prompt_square_tour_v6_guide.txt. The job echo lists both media under reference_images."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T02 (job 551dcd00) failed: Higgsfield status 'nsfw', message 'Something went wrong. Please try again, or change your input files or prompt.' Balance unchanged at 25450.2 (not charged). No retry without Leonard's approval."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T02 resubmitted unchanged, chosen by Leonard (option 'Resubmit T02 video', 49 credits stated): job ee12b7c9-8300-492e-b9a0-3e80cb03b67b, same settings and inputs as job 551dcd00, folder REFS/LOC_square."
+    },
+    {
+      "date": "2026-11-20",
+      "text": "City square tour T02 resubmit in (job ee12b7c9, 49 credits): stories/politician/city/square_3d/takes/001_city_square_tour_T02.mp4. The camera follows the 3D guide, no grey shapes: holds on the south row (SH040) and the west street into the sun (SH050, SH090, SH110). The last hold is not the reverse (the sun stays in frame). Unrated."
     }
   ],
   "story_sync": {
