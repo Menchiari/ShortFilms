@@ -3376,6 +3376,10 @@
     {
       "date": "2026-11-21",
       "text": "New shot S05 SH115 (Leonard): between S05 SH110 T13 and SH120: a bond sheet falls to the street, a white or Asian woman picks it up, disbelief, then looks forward with enraged eyes at the politician off screen. Higgsfield folder Scenes/S05/SH115 created."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH115-a prepared, not submitted: S05 SH115 T01, prompts/001_S05_SH115_T01.txt, seedance_2_5 omni_reference, 6 s, 480p, 21:9, audio on (no music). loc_side-street element 8787643a in the prompt, bond image 93b84cd4-22b6-431c-a908-f9d3b736f376 (refs/001_S05_SH090_bond_v3.jpg, Leonard's image) as image reference. Not a draft (image inputs with no video reference cannot take the flag). Continuity frames: frames/001_S05_SH115_continuity_SH110-T12T13_SH120-T01.jpg. Woman: white, about 45, dark-blond knot, dusty-blue work shirt; she ends in the right half of frame looking screen left past the lens (the old man is screen left in SH120). Preflight 18 credits, balance 25,317.2. Waiting for Leonard's approval."
     }
   ],
   "story_sync": {
