@@ -3375,6 +3375,10 @@
     {
       "date": "2026-11-21",
       "text": "Leonard on S05 SH080 T06: make a prequel, he struggles to press the phone, succeeds, and puts it to his ear at the very end. REQUEST S05-SH080-g prepared, not submitted: T07 = video_extension backward of T06 (3703a2a0), 5 s, seedance_2_5, audio on, no elements (T06's first frame carries face, torn right elbow, case and lane), folder S05/SH080, prompt prompts/001_S05_SH080_T07_extend-backward.txt. Estimate 35 credits at 720p (15 at 480p), balance 25317.2. T06 frame 0: phone already at his right ear in his right hand, case against his chest under his left forearm, parked cars both sides, torn right elbow visible. Waiting for approval."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH080-g approved by Leonard ('ok go', 35 credits): S05 SH080 T07 submitted, job 4bfdd139-492e-4910-9624-a88bbaa9196c, seedance_2_5 video_extension backward of T06 (3703a2a0), 720p, 5 s, audio on, folder S05/SH080, prompt 001_S05_SH080_T07_extend-backward.txt."
     }
   ],
   "story_sync": {
