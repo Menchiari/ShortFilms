@@ -3408,6 +3408,14 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T03 delivered (job f8cfc18a, 42 credits), takes/S05/SH145/001_S05_SH145_T03.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No zoom, plain crooked handheld; modern slab block; the pigeons again start in a line on a visible roof edge (cut in at about 0.8 s removes it); the woman is tiny, long dark hair, not as described. SH145 total 126 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH145 T03 rated 1 (inferred, Leonard: 'still looks fake'). Leonard: 'just try again and approve the shot' (another take approved, same settings, preflight 42 credits). T04 changes: no sky and no roof in frame (middle floors only, normal lens), about fifteen pigeons dropping across the facade instead of a flock off a roof edge, her light hair and pale skin stated in the action. prompts/001_S05_SH145_T04.txt. Submitted: job a666a76b-d381-4b02-b9c8-edeb72e49bcb, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee, folder Scenes/S05/SH145."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
