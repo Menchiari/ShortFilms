@@ -3469,6 +3469,26 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T02 delivered (job c383813d, 42 credits), takes/S05/SH145/001_S05_SH145_T02.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Modern block reads; pigeons real-looking but the roof edge is in frame; the camera snaps in on her with a fast crash zoom at about 3.5-4 s; she looks almost into the lens. SH145 total so far 84 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "REQUEST S05-SH115-b approved by Leonard ('go', 21 credits) and submitted: S05 SH115 T02, job d288df92-0bed-4ff2-b15b-278e47cb6b37, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_side-street element 8787643a, bond 93b84cd4, folder Scenes/S05/SH115, prompt prompts/001_S05_SH115_T02.txt."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH115 T02 delivered (job d288df92, 21 credits), takes/S05/SH115/001_S05_SH115_T02.mp4 (992x432, 24 fps, 7.07 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: lighter tumbling fall, plain heavy-set woman, hesitation works; gasp with open mouth; end look stunned more than enraged; crowd stares at the camera instead of looking around."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "Crowd rule check (style.md 'Crowds', 'The crowd', raised by another session): SH115 T01 and T02 prompts broke it ('desert town', mosque/minaret exclusions, crowd not named one by one); T02 came back with a line of older men. Fixed from T03 on; T01/T02 prompt files kept as sent."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "S05 SH115 T02 rated 2 (inferred: 'the gasp is ridiculous'). REQUEST S05-SH115-c: T03, prompts/001_S05_SH115_T03.txt = T02 plus a contained reaction (mouth closed, slight widening, jaw sets, eyes harden) and the crowd rule (eight people named one by one, half women, mixed ethnicities; no desert town, no mosque wording). Preflight 21 credits, balance 25,159.2. Leonard: 'render the shot directly, don't wait for my approval, just go'. Submitted: job ba4806d0-0ac3-430d-b69d-efbe9069f730, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_side-street 8787643a, bond 93b84cd4, folder Scenes/S05/SH115. Video_edit not used: three logged edits of a face (S04 SH080 T03, S06 SH050 T04, S05 SH110 T03) changed nothing."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "001: S05 SH115 T03 delivered (job ba4806d0, 21 credits), takes/S05/SH115/001_S05_SH115_T03.mp4 (992x432, 7.07 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: no gasp, contained reaction, hard look screen left; mixed crowd half women as named, but standing still and not very soft; the sheet is banknote-shaped, title unreadable."
     }
   ],
   "story_sync": {
