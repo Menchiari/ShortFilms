@@ -12,6 +12,7 @@ CacheClip/
 .gallery/
 ProxyMedia/
 OptimizedMedia/
+Proxy/
 *.dra/
 
 # Tools
