@@ -5384,9 +5384,33 @@
                 "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg, image_references)"
               ],
               "love": false,
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S05-SH115-b, approved by Leonard ('go'). Not a draft. 992x432, 24 fps, 7.07 s, audio mean -36.3 dB, max -12.5 dB (not heard). Changes from T01: Leonard's five notes (light paper, plain heavy-set woman, hesitation and rage, puzzled crowd, 55mm). Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The sheet tumbles in at an angle and rocks before it lands at about 1 s, lighter than T01; on the ground the layout and $500,000 show, the title is smeared. Her hand hovers, then picks it up at about 2.5 s; the camera rises with the sheet to a medium close-up by about 4 s. The woman is plain and heavy-set as asked. Reading: her mouth drops open in a gasp at about 4.5 s (stronger than the eyes-only note). End: she looks just past the lens, slightly up and left; the face reads stunned more than enraged. Street: shuttered ochre fronts at the left, closer to SH110/SH120 than T01. Background: about ten people, mostly older men, standing in a line and staring toward her and the camera, not looking around puzzled, and only moderately soft. Leonard 2026-11-21: the gasp is ridiculous and not realistic; be realistic, not theatrical."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-21",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "ba4806d0-0ac3-430d-b69d-efbe9069f730",
+              "prompt": "05-generation/prompts/001_S05_SH115_T03.txt",
+              "file": "05-generation/takes/S05/SH115/001_S05_SH115_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH115_T03.jpg",
+              "references": [
+                "loc_side-street 8787643a (element in the prompt)",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg, image_references)"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "REQUEST S05-SH115-b, approved by Leonard ('go'). Not a draft. 992x432, 24 fps, 7.07 s, audio mean -36.3 dB, max -12.5 dB (not heard). Changes from T01: Leonard's five notes (light paper, plain heavy-set woman, hesitation and rage, puzzled crowd, 55mm). Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The sheet tumbles in at an angle and rocks before it lands at about 1 s, lighter than T01; on the ground the layout and $500,000 show, the title is smeared. Her hand hovers, then picks it up at about 2.5 s; the camera rises with the sheet to a medium close-up by about 4 s. The woman is plain and heavy-set as asked. Reading: her mouth drops open in a gasp at about 4.5 s (stronger than the eyes-only note). End: she looks just past the lens, slightly up and left; the face reads stunned more than enraged. Street: shuttered ochre fronts at the left, closer to SH110/SH120 than T01. Background: about ten people, mostly older men, standing in a line and staring toward her and the camera, not looking around puzzled, and only moderately soft."
+              "notes": "REQUEST S05-SH115-c, Leonard: 'render the shot directly, just go'. Not a draft. 992x432, 7.07 s, audio mean -40.4 dB, max -14.5 dB (not heard). Changes from T02: contained reaction (mouth closed) and the style.md crowd rule. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. No gasp: she reads with her mouth closed, the reaction stays small, and at the end she lifts her eyes to screen left past the lens with a hard, set face; eyeline matches SH120. The named crowd came through: grey-haired woman in a brown cardigan, young Black man in red, East Asian woman in mustard, bald white man, young woman, South Asian man in a grey work shirt, boy in yellow; but they stand still in a loose group looking toward her and the camera, not around, and they are only slightly soft (the 55mm shallow focus did not hold for the background). The sheet came out banknote-shaped (wide and narrow, smaller than A4); it tumbles in at an angle and lands at about 1 s; the bond title does not read, $500,000 is faint. Street: shuttered fronts at the left, ochre blocks, matches SH110/SH120."
             }
           ]
         },
