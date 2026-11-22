@@ -3509,6 +3509,18 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH135 T06 logged: Leonard's own run of his draft (job c92fd536, seedance_2_5 omni_reference, 720p, 21:9, 4 s, seed 21052258, char_bigger-guy element attached), found in Higgsfield Scenes/S04/SH135, downloaded; prompt saved as prompts/001_S04_SH135_T06_draft.txt. Leonard: 'it's not the right guy, should be bigger guy' (rating 1, inferred)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH135 T06 cause. Checked: the elements were attached (the job's reference_elements list char_bigger-guy 4017a781), so syntax was not the cause; the look line matches style.md word for word. Found: image 3 (SH120 T02 frame 94b4d5ee) holds a slim dark bearded man's profile at the right edge, the exact slot of the fat person; T06's man matches that man and T04's, not the element (refs/001_S04_SH135_T06_cause.jpg: image 3, T06 at 1.5 s, element). The element line asked only for his hair, back of head, shoulders, forearms and t-shirt, and the prompt never says obese, fair or curly, so build and skin were free to come from image 3 [inferred]. Also: loc_side-street was given twice (element and its image as image 1); 'desert town' and 'mosque, minaret' still in."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH135-f prepared, not submitted: SH135 T07 = video_edit of T05_join (T05 then T04, 8.00 s, media 77db2e64 filed in REFS), prompts/001_S04_SH135_T07.txt: replace only the man at the right edge with char_bigger-guy (traits in words), keep the old man, camera, light and timing. seedance_2_5 video_edit, 480p, audio on, folder Scenes/S04/SH135. Preflight 28 credits, balance 24,691.2. Compared: two separate edits of T04 and T05 15 + 14 = 29 and two different men at the seam; Genjutsu hf_mult_replace_object on the join 24, but it takes no prompt (cannot be told which of the two men to replace) and needs the element image in medias; a new omni take from the fixed prompt (prompts/001_S04_SH135_T06_v2.txt) 12, but a new performance, and T05's loved look-up would need another backward extension (12 more). Waiting for Leonard."
     }
   ],
   "story_sync": {

@@ -4084,6 +4084,58 @@
               "rating": 5,
               "notes": "REQUEST S04-SH135-e, Leonard: a prequel where he first looks up above him, then calms down and goes on with the shot. 480p draft. File holds the 4 new seconds only (992x432, audio mean -34.3 dB, peak -11.2 dB, not listened to): play T05 then T04. Last frame matches T04's first frame side by side. Claude's read (frames every 0.5 s): 0-2.5 s head back, eyes up past the camera, mouth a little open; about 3 s his eyes come down; 3.5-4 s level, on the fat person, as T04 starts. Identity inherited from T04 (slimmer bearded fat person, not the SH110 man). The eye scan from window to window is small; it reads as one long look up. Leonard 2026-11-21: 'perfect'.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "c92fd536-287b-45fa-8bea-5ffc7961d361",
+              "prompt": "05-generation/prompts/001_S04_SH135_T06_draft.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T06.jpg",
+              "references": [
+                "char_bigger-guy 4017a781 (element)",
+                "char_politician_dusty 1ecc0e0b (element)",
+                "prop_briefcase 1f5eb35a (element)",
+                "loc_side-street 8787643a (element) and its image e728a9ae (image_1)",
+                "palette_afternoon 3bf30eee (image_2)",
+                "S04 SH120 T02 frame 1.5 s 94b4d5ee (image_3)"
+              ],
+              "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "Submitted by Leonard himself on Higgsfield (no request label), 720p (1470x630), 4.06 s, seed 21052258, draft false; credits 28 from the 720p get_cost of the same settings (not read from the transaction). The job's stored params show all four elements attached, char_bigger-guy included, plus three images. Claude's read, frames every 0.5 s: the over-the-shoulder framing, the one-hand pry and the release work; the briefcase is not visible; the man at the right edge is not char_bigger-guy: slim, olive skin, short beard, the build and face of the man in image 3 (SH120 T02 frame, whose right edge holds that man's profile) and of SH135 T04. Leonard 2026-11-22: 'This isn't working there is a mistake there it's not the right guy, should be bigger guy' (rating 1, inferred). Cause in film.json log 2026-11-22."
+            },
+            {
+              "id": "T05_join",
+              "date": "2026-11-22",
+              "model": "ffmpeg",
+              "mode": "edit",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T05_join.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T05_join.jpg",
+              "references": [
+                "T05 a5b5bd30 (all 96 frames)",
+                "T04 a598eba5 (first 96 frames)",
+                "uploaded to Higgsfield REFS as media 77db2e64"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "T05 then T04, cut on T04's first frame (T05 ends on it), 8.00 s exactly (192 frames: T04's last 1.5 frames dropped so a video_edit bills 8 s), x264 crf 14, audio joined. Made as the source for a one-pass video_edit (REQUEST S04-SH135-f) so the new big man is the same across the seam."
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
