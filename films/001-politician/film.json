@@ -3533,6 +3533,10 @@
     {
       "date": "2026-11-22",
       "text": "Leonard on SH110 T02: 'you changed too much'. Claude's check: T02 added action, size and acting wording beyond the brief (one heave, belly, weighed nothing, new obstacle and tactic, dust, sweat). Likely snarl source [inferred]: the char_bigger-guy image bares its teeth in all three views. REQUEST S04-SH110-c prepared, not submitted: T03, prompts/001_S04_SH110_T03.txt = T01 word for word plus only: elements as <<<id>>> (T01 order), the new man's element line (long curly hair, full beard, obese, tan t-shirt; not his expression), no image numbers in the body, 'desert town' to 'small town', 'long curls' in the rim light, mosque/minaret removed [proposal], style.md look line. Same settings as T02. Preflight 15 credits, balance 24,715.2. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard: 'you changed too much, he should pick up with both hands'; then asked for 720p. Frames: T01 shows one fist at the collar, T02 hides the grip at the bottom of frame. Prompt 001_S04_SH110_T03_v2.txt = T03 plus only the 1-2s line: lifting with both hands, one fist on each side of the collar, both hands in frame. REQUEST S04-SH110-c at 720p prepared, not submitted: preflight 35 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
