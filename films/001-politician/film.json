@@ -3561,6 +3561,14 @@
     {
       "date": "2026-11-22",
       "text": "Leonard on S04 SH080 (T08 prompt): act a bit better, not shake his head as much, more realistic movement, bare minimum change. Prompt 001_S04_SH080_T09.txt = T08 with two edits only: 2-4s head tilt and head shake removed ('he blinks and looks again, harder, his head still'); one sentence added to the underplayed line (head almost still, no shaking or nodding, only breathing and small weight shifts). Given to Leonard to run; nothing submitted by Claude."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH080-T09 approved by Leonard ('ok go'; preflight 42 credits) and submitted: S04 SH080 T09 15286a42-51df-4ed5-840c-69720e27ce06, prompts/001_S04_SH080_T09.txt with <<<image_1>>> sent as 'Image 1', palette_afternoon 3bf30eee as the image [ASSUMPTION: T08's UI Image 1 was the palette], seedance_2_5 omni_reference, 720p, 21:9, 6 s, audio on, folder S04/SH080."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH080 T09 done (42 credits): takes/S04/SH080/001_S04_SH080_T09.mp4, 720p 6 s. Framing as T08, hand out longer. Unrated."
     }
   ],
   "story_sync": {
