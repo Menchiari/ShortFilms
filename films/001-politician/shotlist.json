@@ -6700,7 +6700,7 @@
         },
         {
           "id": "SH140",
-          "status": "approved",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -6780,6 +6780,33 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH140-c, draft. Claude's read: frontal on the wall, light handheld drift (the pole shifts in frame). Men walk in at him from the start; by 5 s the crowd is dense, his right hand at his jacket at about 5 to 6 s; from about 6.5 s he is hidden behind the backs; the gun rises above the heads at about 7 s and fires at about 7.4 s. On the shot the nearest flinch and lunge back, many run past camera; final frame him at the wall, gun up, briefcase in hand, people still at the edges. The gun reads dark (black), from the prop_gun element, not nickel. The crowd is all men again. Near silence for the first 3.7 s. I cannot confirm the backward steps from stills. Leonard 2026-11-18: \"love it\"."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "5b562822-52a4-4c08-8468-035943bb501b",
+              "prompt": "05-generation/prompts/001_S05_SH140_T04.txt",
+              "file": "05-generation/takes/S05/SH140/001_S05_SH140_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH140_T04.jpg",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 73236f58",
+                "prop_briefcase 4bf36cb5",
+                "prop_gun 24875e9a",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH140-d, T03 prompt with only the crowd and place words changed (diverse crowd, a city, no mosque/minaret/dome line). Claude's read: same staging and timing as T03. The crowd is more mixed than T03: several Black men, a few women, modern t-shirts and jeans; still mostly men, many still read Mediterranean or Middle Eastern, no clearly East Asian face visible at 480p. Gun still black."
             }
           ],
           "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",
