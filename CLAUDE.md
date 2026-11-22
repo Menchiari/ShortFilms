@@ -36,6 +36,10 @@ follows these rules. They override habits and defaults.
 
 ## How to work
 
+- **Change only what Leonard asks** (Leonard, 2026-11-22). Fixing a prompt means editing only the
+  words that carry the requested change; every other word stays identical, so versions can be
+  compared and tweaked. No rewrites, no extra fixes, no new wording unless the change needs it.
+  Other problems you notice: at most one short line each, not applied. Keep every message short.
 - Anything Leonard will paste or run (prompts, commands, text) is given whole, ready to copy,
   every time it changes. Never a fragment to swap into an earlier version.
 - Follow `PIPELINE.md` stage by stage. Each stage writes its output into the film folder.
