@@ -1,4 +1,4 @@
-<!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 8 -->
+<!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 10 -->
 # char_sniper
 
 Roger (S08)
