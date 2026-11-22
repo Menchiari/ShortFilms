@@ -3801,6 +3801,26 @@
     {
       "date": "2026-11-22",
       "text": "S04 SH080 T09 rated 5, loved (inferred, Leonard: 'awesome')."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH145 T04 rated 1 (inferred, Leonard: 'no'). His notes: Alexa footage, real pigeon flight, not all the same; more people come out to look, not just one. T05 (prompts/001_S05_SH145_T05.txt): Alexa Mini on the shoulder, fixed 35mm, real image qualities; pigeons each different in plumage and flight (clatter, glide, bank, one tumbles, one flies away); four neighbors one by one: the woman, a heavy bald man in a white vest on a balcony, a young red-haired man, a blonde girl of about fifteen. Approved by 'try again', preflight 42 credits, submitted: job d38efec2-496a-4af6-9ac4-c9c2fc3b1302, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee, folder Scenes/S05/SH145."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH145 T05 delivered (job d38efec2, 42 credits), takes/S05/SH145/001_S05_SH145_T05.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Varied pigeons, close blurred birds; five neighbors appear one by one (one more than asked; the girl has dark hair); low angle on a modern block corner, no roof edge. SH145 total 210 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH145 T05 rated 1 (inferred: 'scrap it and start over'). Leonard's notes: pigeons like an action movie, should simply fly off roofs and poles scared; neighbors synchronized like a musical, should wonder and peek each at their own time and place; building not real, needs cables, antennas, balconies, plants, decorations. New prompt from scratch, REQUEST S05-SH145-e prepared, not submitted: T06, prompts/001_S05_SH145_T06.txt: one fixed long-lens framing from across the street with roofline, antennas, an electric pole and wires; pigeons already scattered on roof, antennas, wires, railing, take off at staggered moments and climb away from the camera; four neighbors at 3, 4, 6 and 7 s in different places and ways; a lived-in 1970s building (stains, mixed blinds, potted plants, chair, awning, bicycle, cables, antennas, one dish, water tank). Potted plants allowed by Leonard's request (the 'no greenery' line now keeps only no trees, no palms). 8 s (people need time), 720p, 21:9, audio on, palette_afternoon 3bf30eee, preflight 56 credits. Balance 23,929.2: about 1,146 below what this session's takes leave; spent elsewhere, source unknown."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S05-SH145-e approved by Leonard ('try') and submitted: S05 SH145 T06, job 665f9651-307c-4404-ba81-08a3f9e5937a, seedance_2_5 omni_reference, 8 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee, folder Scenes/S05/SH145, prompt prompts/001_S05_SH145_T06.txt, 56 credits (preflight)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH145 T06 delivered (job 665f9651, 56 credits), takes/S05/SH145/001_S05_SH145_T06.mp4 (1470x630, 8.06 s, audio), still made, recorded in shotlist.json, unrated. Lived-in building with pole, wires, antennas, plants; people staggered over 3.5 to 7 s; pigeons again start in an even row on the roof edges, lift at about 1 s. SH145 total 266 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
