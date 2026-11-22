@@ -3709,6 +3709,10 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST 050l (1.25 credits, Leonard: edit the original image): S03 SH050 T03 start frame pass A v2, job 75740e4b-4f90-428c-a9fd-35e881f51fbb, edit of plate v2. Framing against plate v2: under 2 px shift (edge ECC). File frames/001_S03_SH050_T03_start_a_v2.png."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST 050k (98 credits, 720p, 14 s, 21:9, audio on; Leonard: try with this) submitted: S03 SH050 T03 job 6cfc9a77-54ce-422d-bfd7-586a94e91414, on Leonard's start frame (media 07b596ff), elements char_politician and prop_briefcase in the prompt. 050m (pass B v2) not run."
     }
   ],
   "story_sync": {
