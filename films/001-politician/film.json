@@ -3557,6 +3557,10 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST S04-SH110-d done (35 credits): S04 SH110 T04 in, 720p 5 s, takes/S04/SH110/001_S04_SH110_T04.mp4. Street back as in T01; one fist visible; snarl again. Unrated."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard on S04 SH080 (T08 prompt): act a bit better, not shake his head as much, more realistic movement, bare minimum change. Prompt 001_S04_SH080_T09.txt = T08 with two edits only: 2-4s head tilt and head shake removed ('he blinks and looks again, harder, his head still'); one sentence added to the underplayed line (head almost still, no shaking or nodding, only breathing and small weight shifts). Given to Leonard to run; nothing submitted by Claude."
     }
   ],
   "story_sync": {
