@@ -1,7 +1,7 @@
 <!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 5 -->
 # char_big-guy
 
-The fat person (S04, the pipe in S07, S09)
+The fat person (S04, the pipe in S07, S09). To be replaced by char_bigger-guy (Leonard, 2026-11-22)
 
 | Higgsfield element | Image job |
 |---|---|

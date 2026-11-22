@@ -281,7 +281,7 @@
       },
       "prop_helicopter": {
         "element": "7a86dade-e435-46ab-95bd-80a76b1e0900",
-        "image": "6c8efe25-fd49-4797-a086-047c9c7ca372"
+        "image": "a64e5f09-22a5-499f-9aa1-1420d05761c9"
       },
       "loc_town-edge": {
         "element": "3ecccf45-3aa3-4ac3-82fe-81297889d6fa",
@@ -322,6 +322,10 @@
       "prop_bar-weapon": {
         "element": "37fe2cf2-2fec-431c-8a44-4a370e26e42b",
         "image": "8d69a591-a811-4b07-9ef9-586a70f736ae"
+      },
+      "char_bigger-guy": {
+        "element": "4017a781-5a07-4f87-929d-578380c83bbd",
+        "image": "1d925d6b-c418-4dc3-ba34-dc35200d5863"
       }
     },
     "animatic_refs_d11": {
@@ -3509,6 +3513,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Element char_bigger-guy registered (Leonard made it in Higgsfield): element 4017a781, image 1d925d6b, saved as 03-bible/characters/refs/char_bigger-guy.webp. It replaces char_big-guy as the fat person in new takes (S04, S07, S09). prop_helicopter image corrected to the live a64e5f09 (records said 6c8efe25)."
     }
   ],
   "story_sync": {
