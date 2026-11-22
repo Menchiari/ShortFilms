@@ -4243,6 +4243,35 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S04-SH140-e. T04 plus the old man's moves from S04 SH135 T04 (briefcase by its handle in his left hand at his chest, polite nod, right hand on the fat person's right wrist, prying finger by finger, one yank, ducks out to the left), squeezed into 0-2 s [ASSUMPTION]."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "c08ac220-6a3d-4669-a5e7-79cf4bae69b8",
+              "prompt": "05-generation/prompts/001_S04_SH140_T05_v3.txt",
+              "file": "05-generation/takes/S04/SH140/001_S04_SH140_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH140_T05.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_bigger-guy 1d925d6b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip",
+                "seed 431679478 (T01's)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH140-e (prompt T05_v3). T04 plus the old man's moves from S04 SH135 T04 made gentle per Leonard: briefcase by its handle in his left hand, a polite nod, his right hand on the fat person's wrist gently and very cordially easing it away, then moving out of the grip to the left; no yank, no struggle; the fat person's hands open gently, almost out of courtesy."
             }
           ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
