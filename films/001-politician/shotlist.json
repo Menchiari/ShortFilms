@@ -3677,6 +3677,31 @@
               ],
               "love": false,
               "notes": "REQUEST S04-SH110-b, approved by Leonard ('ok go'), T01 with char_bigger-guy in place of char_big-guy plus current prompt rules. No draft flag (image input without video reference): cannot be finalized. 992x432, 24 fps, 5.06 s, audio mean -32.1 dB, peak -11.6 dB, no silence over 0.3 s at -35 dB (not listened to; the spoken line not checked by ear). Claude's read (frames every 0.5 s, 1.8-5 s at 3 fps on his face): the big man reads as char_bigger-guy (long curls, full beard, tan t-shirt, heavy build). 0-0.5 s he is bent forward over the old man; the haul-up at about 0.5-1.5 s; from 1.5 s a close profile two-shot like T01 (old man screen left looking right, big man screen right looking left), not over the shoulder. Sun rim through his curls, hazy street behind, grade matches T01. 2-5 s: eyes lowered and narrowed toward the old man's chest and case, teeth bared in a snarl: harder than the 'low, not shouted' line asked; a clear look down then back up is not readable. Briefcase shows as a dark corner with a metal clasp at the bottom center. Unrated, waiting for Leonard."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "a8d68391-81a5-45c5-b442-8b66b4bcfefe",
+              "prompt": "05-generation/prompts/001_S04_SH110_T03_v2.txt",
+              "file": "05-generation/takes/S04/SH110/001_S04_SH110_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH110_T03.jpg",
+              "references": [
+                "<<<char_politician_dusty 1ecc0e0b>>> (element in prompt)",
+                "<<<char_bigger-guy 4017a781>>> (element in prompt)",
+                "<<<prop_briefcase 1f5eb35a>>> (element in prompt)",
+                "<<<loc_side-street 8787643a>>> (element in prompt)",
+                "palette_afternoon 3bf30eee (image_references)"
+              ],
+              "love": false,
+              "notes": "REQUEST S04-SH110-c, approved by Leonard ('let's see it', preflight 35). Prompt T03_v2 = T01 with only the new man, element syntax, rule fixes and both hands. 1470x630, 24 fps, 5.06 s, audio mean -31.8 dB, peak -12.9 dB, no silence over 0.3 s at -35 dB (not listened to). Claude's read (frames every 0.5 s, grab at 4 fps): char_bigger-guy reads (curls, beard, tan t-shirt). Haul-up at about 0.5-1.5 s; from 1.5 s the same close profile two-shot as T01 and T02. Only one fist (his right) visible at the collar, the second hand not readable: the both-hands note did not land. Teeth bared in a snarl from about 2 s, as in T02: the 'not his expression' line did not stop it. Background does not match S04: an open sandy lot with distant high-rise towers, not the narrow side street of T01, SH120-SH140. Unrated, waiting for Leonard."
             }
           ],
           "description": "The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.",
