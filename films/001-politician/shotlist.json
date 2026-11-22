@@ -4269,9 +4269,9 @@
                 "seed 431679478 (T01's)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH140-e (prompt T05_v3). T04 plus the old man's moves from S04 SH135 T04 made gentle per Leonard: briefcase by its handle in his left hand, a polite nod, his right hand on the fat person's wrist gently and very cordially easing it away, then moving out of the grip to the left; no yank, no struggle; the fat person's hands open gently, almost out of courtesy."
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH140-e (prompt T05_v3). T04 plus the old man's moves from S04 SH135 T04 made gentle per Leonard: briefcase by its handle in his left hand, a polite nod, his right hand on the fat person's wrist gently and very cordially easing it away, then moving out of the grip to the left; no yank, no struggle; the fat person's hands open gently, almost out of courtesy. Leonard 2026-11-22: 'perfect'."
             }
           ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
