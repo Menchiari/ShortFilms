@@ -3436,6 +3436,14 @@
     {
       "date": "2026-11-22",
       "text": "001: S05 SH115 T05 delivered (job 8bf05468, 24 credits), takes/S05/SH115/001_S05_SH115_T05.mp4 (992x432, 8.06 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: the bond reads on the ground ($500,000 clear 1.2-3 s, bond-shaped), closer than any take so far but not frame-filling, feet in frame; title smeared; acting holds; crowd came back men only."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH115 T05 rated 3 (inferred: two errors named, the rest accepted). REQUEST S05-SH115-f: T06, prompts/001_S05_SH115_T06.txt = T05 plus the real bond size from props/bond/make_bond_wide.py (11.5 x 8.5 in landscape, a little longer than her shoe, nearly as wide as her chest), the sheet right way up on the ground and turned the right way up for her as she lifts it, read with its printed face toward her, and the two nearest people behind her named as women. Leonard asked for 720p 21:9. Preflight 56 credits, balance 24,656.2. Submitted on Leonard's 'try again ... render at 720p 21:9': job 4fc2a04a-331e-4f4a-b743-0684fe231fe5, seedance_2_5 omni_reference, 8 s, 720p, 21:9, audio on, loc_side-street 8787643a, bond 93b84cd4, folder Scenes/S05/SH115."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH115 T06 delivered (job 4fc2a04a, 56 credits, 720p), takes/S05/SH115/001_S05_SH115_T06.mp4 (1470x630, 8.06 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: bond size right; on the ground it lies upside down to the camera; acting holds; crowd mixed and half women but sharp, not blurred."
     }
   ],
   "story_sync": {
