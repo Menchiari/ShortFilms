@@ -4866,6 +4866,56 @@
               "rating": null,
               "rating_source": null,
               "notes": "Made 2026-11-22 directly in Higgsfield (no Claude request logged), folder Scenes/S04/SH135; recorded by the Scene 3 hub. 1470x630, 4.00 s. Credits inferred from the 720p price (7 per second). Backward extension; its stored prompt leaves the source clip unnamed. Probably of T08 [inferred]."
+            },
+            {
+              "id": "T10",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "0b8535a1-5c2a-4bf7-9c79-08d9d85b6944",
+              "prompt": "05-generation/prompts/001_S04_SH135_T10.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T10.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T10.jpg",
+              "references": [
+                "char_bigger-guy 4017a781 (element)",
+                "char_politician_dusty 1ecc0e0b (element)",
+                "prop_briefcase 1f5eb35a (element)",
+                "loc_side-street 8787643a (element) and its image e728a9ae (image 1)",
+                "palette_afternoon 3bf30eee (image 2)",
+                "no SH120 frame"
+              ],
+              "love": false,
+              "rating": 4,
+              "notes": "REQUEST S04-SH135-g, 480p (992x432), 4.06 s, audio present (not listened to). Prompt = T04_v2 with only the new character (prompts/001_S04_SH135_T06_v4.txt, sent in API element form). Claude's read, frames every 0.5 s: the fat person now reads as char_bigger-guy from behind: long dark curls, heavy body, fair skin, tan t-shirt, thick fair forearms; his face stays turned away. Both fists on the collar, the old man's one hand on a wrist, strained apologetic half smile; release about 3.5 s, he ducks out and ends free with both hands on the briefcase at his chest. Misses: the briefcase is not visible during the grip (0 to 3 s); a parked car behind him at screen left from about 1.5 s; road markings in the street. Unrated. Leonard 2026-11-22: 'works' (rating 4, inferred).",
+              "rating_source": "inferred"
+            },
+            {
+              "id": "T11",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "08c876c5-1068-46fa-8897-3e52c2605e18",
+              "prompt": "05-generation/prompts/001_S04_SH135_T11_extend-backward.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T11.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T11.jpg",
+              "references": [
+                "T10 0b8535a1 (extended backward)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH135-h, prequel of T10 (same method as T05 from T04). File holds the 4 new seconds only (992x432, 4.00 s, audio mean -42.6 dB, peak -24.8 dB; not listened to): play T11 then T10. Last frame matches T10's first frame side by side. Claude's read (frames every 0.5 s): 0 to about 3 s his head is back, eyes up above the camera; about 3.5 s his eyes come down; by 4 s level on the big man, as T10 starts. Same new big man (curls, tan t-shirt, face turned away). The eye scan from window to window is small: it reads as one long look up, as in T05. A parked car behind at screen left, as in T10. Unrated."
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",

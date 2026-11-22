@@ -3741,6 +3741,26 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST 050o approved (98 credits, 720p, 14 s) and submitted: S03 SH050 T05 job 9aa01c20-a233-4265-bd5b-7ceebe49578a, T04 prompt plus Count of cigarettes: one."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH135-g approved by Leonard ('ok go', preflight 12 credits, balance 24,049.2) and submitted: S04 SH135 T10 0b8535a1-5c2a-4bf7-9c79-08d9d85b6944, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, no draft flag (images without a video reference), folder Scenes/S04/SH135. Prompt prompts/001_S04_SH135_T06_v4.txt, sent as prompts/001_S04_SH135_T10.txt (same words, API element form). Images: street e728a9ae, palette 3bf30eee; no SH120 frame. T06 to T09 already taken (T07 is the unsent edit prompt)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S04 SH135 T10 delivered (job 0b8535a1, 12 credits), takes/S04/SH135/001_S04_SH135_T10.mp4 (992x432, 4.06 s, audio), still made, recorded in shotlist.json, unrated. The new big man reads from behind (curls, heavy body, fair skin); briefcase hidden during the grip; a parked car behind."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH135 T10 rated 4 (inferred, Leonard: 'works'). Leonard: now the prequel where he looks up at the people. REQUEST S04-SH135-h prepared, not submitted: SH135 T11 = video_extension backward of T10 (0b8535a1), 4 s, 480p, audio on, no dialogue, folder Scenes/S04/SH135, prompt prompts/001_S04_SH135_T11_extend-backward.txt = T05's prompt with only the fat person's description changed to the new man (curls, tan t-shirt, face turned away, thick forearms; back of his head in the final frame; 'seen from behind'). Same method as T05 (from T04). Preflight 12 credits, balance 23,995.2. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH135-h approved by Leonard ('ok go', preflight 12 credits) and submitted: S04 SH135 T11 08c876c5-1068-46fa-8897-3e52c2605e18, seedance_2_5 video_extension backward of T10 (0b8535a1), 480p, 4 s, audio on, folder Scenes/S04/SH135, prompt 001_S04_SH135_T11_extend-backward.txt."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S04 SH135 T11 delivered (job 08c876c5, 12 credits), takes/S04/SH135/001_S04_SH135_T11.mp4 (992x432, 4.00 s, audio), still made, recorded in shotlist.json, unrated. Ends on T10's first frame."
     }
   ],
   "story_sync": {
