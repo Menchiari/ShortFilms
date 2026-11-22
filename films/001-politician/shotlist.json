@@ -2757,6 +2757,31 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST 050k. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): door open by 5 s, he gets out about 10 s and walks left toward the long street; the smoker drags and rests his hand on the railing; the briefcase hug at the very end is not clear in frames. Audio mean -39 dB. Leonard 2026-11-22: wrong: all doors of the car opened (frames show the far rear door open too); wrong start frame."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 14,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 98.0,
+              "job_id": "4d0d8072-515f-48e1-a64c-0e1e3e3fbf09",
+              "prompt": "05-generation/prompts/001_S03_SH050_T04.txt",
+              "file": "05-generation/takes/S03/SH050/001_S03_SH050_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH050_T04.jpg",
+              "references": [
+                "Leonard's start frame: 05-generation/frames/001_S03_SH050_T04_start_leonard.jpg, media 6cd1367b",
+                "char_politician element 1d544095",
+                "prop_briefcase element 1f5eb35a"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST 050n. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): the front driver door and the rear door behind it on the same side are both open from about 6 s to the end, despite 'only the front driver door' and 'Count of open doors: one'. He gets out about 10 s, walks left, the case comes up toward his chest in the last second. Audio mean -37 dB."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
