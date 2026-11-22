@@ -223,7 +223,8 @@
       "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f",
       "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1",
       "S05/SH145": "5445bbdd-9a91-4293-a7f8-1c89181ee331",
-      "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af"
+      "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af",
+      "S06/SH026": "562ea98f-e218-4de0-a8e8-3dbb6715f91d"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3849,6 +3850,10 @@
     {
       "date": "2026-11-22",
       "text": "S06 SH026 added (Leonard): close on char_citizen1 falling dead, shot in the cheek, whip tilt up to char_citizen2, shock to rage, sprints off at the old man. 4 s. Asked as SH025, which is the approved gun insert: new number SH026 (no renumbering rule)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S06 SH026: Higgsfield folder S06/SH026 created (562ea98f-e218-4de0-a8e8-3dbb6715f91d). Prompt 001_S06_SH026_T01.txt written (text + elements, 480p draft, 4 s, 12 credits quoted). Not generated: waiting for Leonard's approval."
     }
   ],
   "story_sync": {
