@@ -5646,6 +5646,28 @@
               "rating": 1,
               "notes": "Not yet rated by Leonard. Claude's read (stills at 2 fps and a frame at 5.8 s; 1470x630, 6.08 s, audio present, mean -31.1 dB, not listened to): steep low angle on the corner of a tall modern block with deep stacked balconies, a strip of hazy sky at the right, no roof edge. Pigeons differ: blue-grey, checkered, one white, some close to the lens and blurred, a big one fills the top right at about 1 s; gone by about 2.5 s. From about 2.5 s people appear one by one; final frame has five, not four: the bald man in a white vest at the lower left railing, the girl (dark hair, not blonde) behind a curtain, the woman in pale blue with curly ash-blonde hair at the lower right, the red-haired young man on the upper balcony, and an extra blonde woman at an upper right window. All look down to the left; nobody looks at the camera. Slight drift, no zoom. Leonard 2026-11-22: scrap it, start over. Pigeons fly like an action movie; they should be pigeons on roofs and electric poles flying away scared by a gunshot. People all come out at the same moment like a musical; real people wonder, go to the window, peek, each in a different place and time. The building does not feel real: more cables, antennas, balconies, plants, decorations, life.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 56.0,
+              "job_id": "665f9651-307c-4404-ba81-08a3f9e5937a",
+              "prompt": "05-generation/prompts/001_S05_SH145_T06.txt",
+              "file": "05-generation/takes/S05/SH145/001_S05_SH145_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH145_T06.jpg",
+              "references": [
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "New prompt from scratch, not yet rated by Leonard. Claude's read (stills at 2 fps and a frame at 7.8 s; 1470x630, 8.06 s, audio present, mean -34.6 dB, not listened to): low angle on the corner of a small lived-in block (only two to three floors visible, not six): stained patched plaster, a wooden electric pole with sagging wires at left, several antennas, red geraniums, a plastic chair, an air conditioner, a striped awning. Locked framing with a slight sway, no camera move. Pigeons: at 0 s they sit in an evenly spaced row along both roof edges (the line again), a few on the pole; they lift at about 1 s, loosely, and are gone by about 3 s, flying away over the roof, none at the camera. People come one at a time: a curtain or figure at the right window by the air conditioner around 3.5 s, the bald man in a white vest in a doorway around 5.5 s, the woman (grey curly hair, pale blue dress, cardigan) on the geranium balcony around 6.5 s with a hand raised to her head, the red-haired young man on the roof edge, not at a window, around 7 s. Final frame: three people, all looking down to the left."
             }
           ]
         }
