@@ -3525,6 +3525,10 @@
     {
       "date": "2026-11-22",
       "text": "New rule (CLAUDE.md: change only what Leonard asks). REQUEST S04-SH120-g prepared, not submitted: T07, prompts/001_S04_SH120_T07.txt = T05_v2 with only the big man changed: @char_big-guy to @char_bigger-guy (2 places), olive skin to fair, ruddy skin. Media as T05: image jobs 98e1e69e, 1d925d6b (char_bigger-guy), e728a9ae, 3bf30eee as image_references. 480p draft, 21:9, 6 s, audio on, folder S04/SH120; quote 18 credits, balance 24547.2. T06 (made before the rule) stays as a take."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH120-g approved (Leonard: \"try\"; 18 credits, 480p draft, 21:9, 6 s) and submitted: S04 SH120 T07 job ada40328-dcb0-4164-aabd-7252099d9aa9, prompt T07, folder S04/SH120."
     }
   ],
   "story_sync": {
