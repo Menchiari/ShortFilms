@@ -326,6 +326,14 @@
       "char_bigger-guy": {
         "element": "4017a781-5a07-4f87-929d-578380c83bbd",
         "image": "1d925d6b-c418-4dc3-ba34-dc35200d5863"
+      },
+      "char_citizen1": {
+        "element": "6f316a04-6a34-4945-a238-13c5c0c5cb8a",
+        "image": "e782c45a-c53e-4809-9a44-7f97cee673db"
+      },
+      "char_citizen2": {
+        "element": "ee520fc8-19c1-43f2-8520-c9aa86acfec7",
+        "image": "daa5d6b7-164a-428e-a20c-d358f0b46067"
       }
     },
     "animatic_refs_d11": {
@@ -3833,6 +3841,10 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST 050p rejected by Higgsfield (copyright restrictions), job 22e27dce; balance after the check 23,518.95. S03 SH050 T05_comp made without credits: the balcony man's turn replaced by his own earlier frames in his region only. takes/S03/SH050/001_S03_SH050_T05_comp.mp4."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Elements char_citizen1 (6f316a04, image e782c45a) and char_citizen2 (ee520fc8, image daa5d6b7) registered (Leonard made them in Higgsfield); images in 03-bible/characters/refs/."
     }
   ],
   "story_sync": {
