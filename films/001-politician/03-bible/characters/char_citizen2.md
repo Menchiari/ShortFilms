@@ -1,7 +1,7 @@
 <!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 8 -->
 # char_citizen2
 
-A townsman: heavy-set, balding, thick moustache, beige shirt, dark trousers. Use not set yet. Registered 2026-11-22
+A townsman: heavy-set, balding, thick moustache, beige shirt, dark trousers. S06 SH025: Citizen 1's friend, sprints at the old man. Registered 2026-11-22
 
 | Higgsfield element | Image job |
 |---|---|

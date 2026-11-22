@@ -181,7 +181,7 @@
       "S04/SH070": "31a59886-72c9-4812-98e7-b49befa80736",
       "S05/SH120": "3865bb40-82b6-4a55-bcd0-2a7d928dd9b5",
       "S06": "45d0df7c-5d00-4f67-96fd-f52794d7db15",
-      "S06/SH025": "b8e674ec-f71b-4165-a1a1-394664830ade",
+      "S06/SH025": "562ea98f-e218-4de0-a8e8-3dbb6715f91d",
       "S06/SH010": "aa476f5c-8afe-4d46-9a7b-e521d282cfd5",
       "S06/SH020": "53803a54-4201-44dd-b971-e16861446597",
       "S06/SH040": "4b5a5226-db91-4590-857e-e90a3c424ab7",
@@ -223,7 +223,8 @@
       "S10/SH010": "5d162f43-f6a9-41ef-a5d7-9da1201ffa3f",
       "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1",
       "S05/SH145": "5445bbdd-9a91-4293-a7f8-1c89181ee331",
-      "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af"
+      "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af",
+      "S06/SH026": "b8e674ec-f71b-4165-a1a1-394664830ade"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3853,6 +3854,18 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST S05-SH130-c approved in advance by Leonard (12 credits, 480p draft, 21:9, 4 s, text only): S05 SH130 T03 c0e82a99-79b7-4ae7-b2d2-a6ae88985442, a diverse crowd per the style.md crowd rule. Shot approved on T03 at Leonard's instruction. Flaw: blood on the forehead of the man in the last frame."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S06 SH026 added (Leonard): close on char_citizen1 falling dead, shot in the cheek, whip tilt up to char_citizen2, shock to rage, sprints off at the old man. 4 s. Asked as SH025, which is the approved gun insert: new number SH026 (no renumbering rule)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S06 SH026: Higgsfield folder S06/SH026 created (562ea98f-e218-4de0-a8e8-3dbb6715f91d). Prompt 001_S06_SH026_T01.txt written (text + elements, 480p draft, 4 s, 12 credits quoted). Not generated: waiting for Leonard's approval."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S06 renumbered (Leonard: \"just do it\"): the Citizen 1 / Citizen 2 shot is SH025, the gun insert is SH026. Gun insert files renamed SH025 to SH026 (takes T01 to T04, posters, prompts, animatic d10/d11 clips), nothing deleted; its shot entry keeps its takes. Higgsfield folders renamed in place: S06/SH025 = 562ea98f (citizens, empty), S06/SH026 = b8e674ec (gun insert takes). Citizen prompt now 001_S06_SH025_T01.txt. Older log lines name the shots by their old numbers."
     }
   ],
   "story_sync": {
