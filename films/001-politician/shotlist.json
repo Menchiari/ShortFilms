@@ -4211,9 +4211,9 @@
                 "seed 431679478 (T01's)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH140-d. T03 plus Leonard's two notes: the old man's free hand lightly holds the fat person's wrist (briefcase in one arm) [ASSUMPTION: whose wrist, questions.md 8]; the fat person lets him go as the bigger man letting a pathetic old man off, a look of contempt and pity."
+              "rating": 2,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH140-d. T03 plus Leonard's two notes: the old man's free hand lightly holds the fat person's wrist (briefcase in one arm) [ASSUMPTION: whose wrist, questions.md 8]; the fat person lets him go as the bigger man letting a pathetic old man off, a look of contempt and pity. Leonard 2026-11-22: 'goofy but whatever.'"
             }
           ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
