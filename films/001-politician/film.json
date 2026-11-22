@@ -3444,6 +3444,10 @@
     {
       "date": "2026-11-22",
       "text": "001: S05 SH115 T06 delivered (job 4fc2a04a, 56 credits, 720p), takes/S05/SH115/001_S05_SH115_T06.mp4 (1470x630, 8.06 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: bond size right; on the ground it lies upside down to the camera; acting holds; crowd mixed and half women but sharp, not blurred."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH115: T06 rated 4 (inferred: 'ok it works'), shot approved. In the edit: track Leonard's bond image (refs/001_S05_SH090_bond_v3.jpg) over the sheet at 0-3 s to fix its orientation and text."
     }
   ],
   "story_sync": {
