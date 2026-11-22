@@ -3424,6 +3424,10 @@
     {
       "date": "2026-11-22",
       "text": "001: S05 SH145 T05 delivered (job d38efec2, 42 credits), takes/S05/SH145/001_S05_SH145_T05.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Varied pigeons, close blurred birds; five neighbors appear one by one (one more than asked; the girl has dark hair); low angle on a modern block corner, no roof edge. SH145 total 210 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH145 T05 rated 1 (inferred: 'scrap it and start over'). Leonard's notes: pigeons like an action movie, should simply fly off roofs and poles scared; neighbors synchronized like a musical, should wonder and peek each at their own time and place; building not real, needs cables, antennas, balconies, plants, decorations. New prompt from scratch, REQUEST S05-SH145-e prepared, not submitted: T06, prompts/001_S05_SH145_T06.txt: one fixed long-lens framing from across the street with roofline, antennas, an electric pole and wires; pigeons already scattered on roof, antennas, wires, railing, take off at staggered moments and climb away from the camera; four neighbors at 3, 4, 6 and 7 s in different places and ways; a lived-in 1970s building (stains, mixed blinds, potted plants, chair, awning, bicycle, cables, antennas, one dish, water tank). Potted plants allowed by Leonard's request (the 'no greenery' line now keeps only no trees, no palms). 8 s (people need time), 720p, 21:9, audio on, palette_afternoon 3bf30eee, preflight 56 credits. Balance 23,929.2: about 1,146 below what this session's takes leave; spent elsewhere, source unknown."
     }
   ],
   "story_sync": {
