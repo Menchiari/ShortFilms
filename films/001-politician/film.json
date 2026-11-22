@@ -3537,6 +3537,10 @@
     {
       "date": "2026-11-22",
       "text": "Leonard on T05_v2: no yanks, a gentle movement, almost out of courtesy, he feels superior letting him go. prompts/001_S04_SH140_T05_v3.txt = T05_v2 without the yank, the fat person's hands open gently, almost out of courtesy; 'no struggle' restored. Not submitted, 12 credits."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH140-e (prompt T05_v3) approved by Leonard (\"approved\"; get_cost 12 credits) and submitted: S04 SH140 T05 c08ac220-6a3d-4669-a5e7-79cf4bae69b8, seed 431679478, same references as T04, folder S04/SH140."
     }
   ],
   "story_sync": {
