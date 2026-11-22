@@ -3541,6 +3541,14 @@
     {
       "date": "2026-11-22",
       "text": "S04 SH135 T10 rated 4 (inferred, Leonard: 'works'). Leonard: now the prequel where he looks up at the people. REQUEST S04-SH135-h prepared, not submitted: SH135 T11 = video_extension backward of T10 (0b8535a1), 4 s, 480p, audio on, no dialogue, folder Scenes/S04/SH135, prompt prompts/001_S04_SH135_T11_extend-backward.txt = T05's prompt with only the fat person's description changed to the new man (curls, tan t-shirt, face turned away, thick forearms; back of his head in the final frame; 'seen from behind'). Same method as T05 (from T04). Preflight 12 credits, balance 23,995.2. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH135-h approved by Leonard ('ok go', preflight 12 credits) and submitted: S04 SH135 T11 08c876c5-1068-46fa-8897-3e52c2605e18, seedance_2_5 video_extension backward of T10 (0b8535a1), 480p, 4 s, audio on, folder Scenes/S04/SH135, prompt 001_S04_SH135_T11_extend-backward.txt."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S04 SH135 T11 delivered (job 08c876c5, 12 credits), takes/S04/SH135/001_S04_SH135_T11.mp4 (992x432, 4.00 s, audio), still made, recorded in shotlist.json, unrated. Ends on T10's first frame."
     }
   ],
   "story_sync": {
