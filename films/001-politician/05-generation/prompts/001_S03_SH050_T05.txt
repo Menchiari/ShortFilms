@@ -1,4 +1,4 @@
-REQUEST 050o (pending approval): S03 SH050 T05. The T04 prompt (050n) with one change: Count of cigarettes: one (T04 showed two). Same start frame (media 6cd1367b), seedance_2_5, omni_reference, 14 s, 720p, 21:9, audio on, folder S03/SH050. 98 credits.
+REQUEST 050o, approved, job 9aa01c20-a233-4265-bd5b-7ceebe49578a: S03 SH050 T05. The T04 prompt (050n) with one change: Count of cigarettes: one (T04 showed two). Same start frame (media 6cd1367b), seedance_2_5, omni_reference, 14 s, 720p, 21:9, audio on, folder S03/SH050. 98 credits.
 
 Prompt:
 
