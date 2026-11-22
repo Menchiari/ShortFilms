@@ -3537,6 +3537,10 @@
     {
       "date": "2026-11-22",
       "text": "001: S04 SH135 T10 delivered (job 0b8535a1, 12 credits), takes/S04/SH135/001_S04_SH135_T10.mp4 (992x432, 4.06 s, audio), still made, recorded in shotlist.json, unrated. The new big man reads from behind (curls, heavy body, fair skin); briefcase hidden during the grip; a parked car behind."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH135 T10 rated 4 (inferred, Leonard: 'works'). Leonard: now the prequel where he looks up at the people. REQUEST S04-SH135-h prepared, not submitted: SH135 T11 = video_extension backward of T10 (0b8535a1), 4 s, 480p, audio on, no dialogue, folder Scenes/S04/SH135, prompt prompts/001_S04_SH135_T11_extend-backward.txt = T05's prompt with only the fat person's description changed to the new man (curls, tan t-shirt, face turned away, thick forearms; back of his head in the final frame; 'seen from behind'). Same method as T05 (from T04). Preflight 12 credits, balance 23,995.2. Waiting for Leonard."
     }
   ],
   "story_sync": {

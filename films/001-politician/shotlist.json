@@ -4161,8 +4161,9 @@
                 "no SH120 frame"
               ],
               "love": false,
-              "rating": null,
-              "notes": "REQUEST S04-SH135-g, 480p (992x432), 4.06 s, audio present (not listened to). Prompt = T04_v2 with only the new character (prompts/001_S04_SH135_T06_v4.txt, sent in API element form). Claude's read, frames every 0.5 s: the fat person now reads as char_bigger-guy from behind: long dark curls, heavy body, fair skin, tan t-shirt, thick fair forearms; his face stays turned away. Both fists on the collar, the old man's one hand on a wrist, strained apologetic half smile; release about 3.5 s, he ducks out and ends free with both hands on the briefcase at his chest. Misses: the briefcase is not visible during the grip (0 to 3 s); a parked car behind him at screen left from about 1.5 s; road markings in the street. Unrated."
+              "rating": 4,
+              "notes": "REQUEST S04-SH135-g, 480p (992x432), 4.06 s, audio present (not listened to). Prompt = T04_v2 with only the new character (prompts/001_S04_SH135_T06_v4.txt, sent in API element form). Claude's read, frames every 0.5 s: the fat person now reads as char_bigger-guy from behind: long dark curls, heavy body, fair skin, tan t-shirt, thick fair forearms; his face stays turned away. Both fists on the collar, the old man's one hand on a wrist, strained apologetic half smile; release about 3.5 s, he ducks out and ends free with both hands on the briefcase at his chest. Misses: the briefcase is not visible during the grip (0 to 3 s); a parked car behind him at screen left from about 1.5 s; road markings in the street. Unrated. Leonard 2026-11-22: 'works' (rating 4, inferred).",
+              "rating_source": "inferred"
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",
