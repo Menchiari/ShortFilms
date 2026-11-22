@@ -4837,6 +4837,35 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH140-b, 480p (992x432), 4.06 s. Leonard's notes on T01: two hands on the collar; the friend questions the big guy instead of screaming. Claude's read (frames every 0.25 s and audio levels, not listened to): framed wider than T01 (medium, not close) and the street behind is sharper, with parked cars down the street. The fat person hauls the jacket collar up to the old man's chin; one gripping hand is clearly visible, the second is not readable in the frames. The old man sinks into the jacket and drops out of the bottom left at about 2 s; his cheek and ear show in profile. Release: both hands open, palms up, held out toward where he went (about 1.75-2.5 s), then lowered: no fist, nothing reads as a blow. The friend walks forward from the deep background to the mid-ground and opens one hand palm up at his side (3-4 s); no pointing. Audio quiet to 3 s (about -38 to -45 dB), about -27.5 dB at 3-4 s, a little quieter than T01's peak (-24 dB); the line's delivery not verified by ear. Leonard 2026-11-18: 'works, nice.' Approved as the SH140 take."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "ce8b5af8-6136-43d8-a23c-06650d8e2eb1",
+              "prompt": "05-generation/prompts/001_S04_SH140_T03.txt",
+              "file": "05-generation/takes/S04/SH140/001_S04_SH140_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH140_T03.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_bigger-guy 1d925d6b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip",
+                "seed 431679478 (T01's)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH140-c. T02 with only the actor swapped to char_bigger-guy (@Image2) and 'with a strong accent nobody can place' removed from the dialogue line [ASSUMPTION: 'no accent']. Leonard 2026-11-22 (notes for T04): the politician holds his wrist a bit; the fat man: 'I'm a bigger person, I'll let you go because you're so pathetic'."
             }
           ],
           "description": "The old man shrinks and slides, slowly, out of the grip. The fat person lets him go. The old man runs.",
