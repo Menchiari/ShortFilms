@@ -3521,6 +3521,10 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST S04-SH135-f prepared, not submitted: SH135 T07 = video_edit of T05_join (T05 then T04, 8.00 s, media 77db2e64 filed in REFS), prompts/001_S04_SH135_T07.txt: replace only the man at the right edge with char_bigger-guy (traits in words), keep the old man, camera, light and timing. seedance_2_5 video_edit, 480p, audio on, folder Scenes/S04/SH135. Preflight 28 credits, balance 24,691.2. Compared: two separate edits of T04 and T05 15 + 14 = 29 and two different men at the seam; Genjutsu hf_mult_replace_object on the join 24, but it takes no prompt (cannot be told which of the two men to replace) and needs the element image in medias; a new omni take from the fixed prompt (prompts/001_S04_SH135_T06_v2.txt) 12, but a new performance, and T05's loved look-up would need another backward extension (12 more). Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH135: per the new rule (change only what Leonard asks), prompts/001_S04_SH135_T06_v3.txt = the T06 draft word for word minus image 3 (the SH120 T02 frame) and with the fat person's traits in words (element line, curls, forearms). T06_v2 (wider rewrite) superseded, not used. For a run: image 1 street e728a9ae, image 2 palette 3bf30eee, no image 3. 480p 4 s: 12 credits. The T07 edit request (28) stands as the alternative that keeps the loved T05+T04 performance."
     }
   ],
   "story_sync": {
