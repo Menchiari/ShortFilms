@@ -5435,6 +5435,30 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH115-d, Leonard: 'just fix it and give me the result'. Not a draft. 992x432, 7.07 s, audio mean -35 dB, max -15.2 dB (not heard). One change from T03: the bond lands close to the lens. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The change did not take: the sheet lands at about the same distance as T03, small in the lower middle of frame, banknote-shaped again; $500,000 is legible on the ground at 1-2 s, the title smeared. Her pickup, contained read (lips part slightly at about 4.5 s) and the hard look screen left at the end work; in the last second the sheet drops below the frame. Background softer than T03 (the 55mm blur holds), people less distinct, mostly men by silhouette."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 8,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 24.0,
+              "job_id": "8bf05468-1b4c-4165-bdf6-8098f2196acd",
+              "prompt": "05-generation/prompts/001_S05_SH115_T05.txt",
+              "file": "05-generation/takes/S05/SH115/001_S05_SH115_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH115_T05.jpg",
+              "references": [
+                "loc_side-street 8787643a (element in the prompt)",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg, image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH115-e, Leonard: 'ok try'. Not a draft. 992x432, 8.06 s, audio mean -37.7 dB, max -16.3 dB (not heard). Change from T03/T04: the opening rebuilt as a close-up of the bond on the asphalt. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The camera now looks down at the asphalt; the sheet tumbles in and lands at about 1 s, bond-shaped (about 4:3) with the green ornamental border; $500,000 reads clearly on the ground from about 1.2 to 3 s; the title is still smeared. The sheet fills about a quarter of the frame width, not the whole frame, and her feet stay in frame. Hand hovers, picks it up at about 3.5 s; rise to a medium close-up by about 5 s. Contained reading, lips pressed, then the eyes go up to screen left past the lens with a hard set face. Crowd: about ten men, no women visible, standing and staring toward her (the named crowd did not come through this time). Background a market street with awnings, ochre blocks."
             }
           ]
         },
