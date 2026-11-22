@@ -3349,9 +3349,9 @@
                 "guide v2 refs/001_S04_SH060_lines_d11_v2.mp4 8b375053 (video_references)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S04-SH060-f, 720p (1470x630), 5.06 s, audio present (mean -28.4 dB, peak -2.6 dB; not listened to). T06 plus Leonard's phone change. Claude's read, frames every 0.25 s and every 3 frames from 3.25 s: the big man walks in from the right edge at about 3 s, looking down at a phone in his right hand; impact at about 4.0 s with the phone still in hand; the old man rebounds and falls out of the bottom-left by about 4.8 s; the phone goes down to his pocket at about 4.5 s; final frame the big man center-right, hands empty, frowning, looking down to the left. At about 3 s the old man's right hand flicks out once as the case comes up."
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH060-f, 720p (1470x630), 5.06 s, audio present (mean -28.4 dB, peak -2.6 dB; not listened to). T06 plus Leonard's phone change. Claude's read, frames every 0.25 s and every 3 frames from 3.25 s: the big man walks in from the right edge at about 3 s, looking down at a phone in his right hand; impact at about 4.0 s with the phone still in hand; the old man rebounds and falls out of the bottom-left by about 4.8 s; the phone goes down to his pocket at about 4.5 s; final frame the big man center-right, hands empty, frowning, looking down to the left. At about 3 s the old man's right hand flicks out once as the case comes up. Leonard 2026-11-22: 'perfect'. Approved as the SH060 take."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",
