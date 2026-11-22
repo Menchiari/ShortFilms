@@ -3541,6 +3541,10 @@
     {
       "date": "2026-11-22",
       "text": "Leonard: 'no heavy accent'. REQUEST S04-SH120-h now uses prompts/001_S04_SH120_T08_v2.txt = T08 with 'a thick accent nobody could place' changed to 'no heavy accent'. Same media and settings; 18 credits, balance 24228.2. Not submitted."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH120-h approved (Leonard: \"go\"; 18 credits, 480p draft, 21:9, 6 s) and submitted: S04 SH120 T08 job 5fe8e455-f995-490c-a664-06789b3065a6, prompt T08_v2, folder S04/SH120."
     }
   ],
   "story_sync": {
