@@ -2807,6 +2807,30 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST 050o. 1470x630, 14.08 s. Claude's read (frames every 0.5 s and levels, not heard): one cigarette seen throughout; the front driver door and the rear door on the camera side both open again from about 5 s; at about 11-12 s the smoker turns his face toward the camera; he walks off left with the case in the last seconds. Audio mean -37 dB."
+            },
+            {
+              "id": "T05_comp",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "comp",
+              "duration_s": 14,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S03_SH050_T05.txt",
+              "file": "05-generation/takes/S03/SH050/001_S03_SH050_T05_comp.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH050_T05_comp.jpg",
+              "references": [
+                "T05 (9aa01c20)",
+                "script 05-generation/comp/001_S03_SH050_T05_comp.py"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "Leonard 2026-11-22: the balcony man turns with the politician's face; fix only that moment, blend only his region. The face edit (REQUEST 050p, job 22e27dce) was rejected by Higgsfield ('copyright restrictions'), no file. Done instead without credits: from 8.33 s to 13.71 s his head and shoulders (soft ellipse) come from the same take 5.33 s earlier, where he faces away; the window ends where his pose matches best (mean difference about 1 grey level), 8-frame fades. Everything else is T05 untouched, audio included."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
