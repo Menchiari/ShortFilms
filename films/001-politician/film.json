@@ -3416,6 +3416,14 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH145 T04 rated 1 (inferred, Leonard: 'no'). His notes: Alexa footage, real pigeon flight, not all the same; more people come out to look, not just one. T05 (prompts/001_S05_SH145_T05.txt): Alexa Mini on the shoulder, fixed 35mm, real image qualities; pigeons each different in plumage and flight (clatter, glide, bank, one tumbles, one flies away); four neighbors one by one: the woman, a heavy bald man in a white vest on a balcony, a young red-haired man, a blonde girl of about fifteen. Approved by 'try again', preflight 42 credits, submitted: job d38efec2-496a-4af6-9ac4-c9c2fc3b1302, seedance_2_5 omni_reference, 6 s, 720p, 21:9, audio on, palette_afternoon 3bf30eee, folder Scenes/S05/SH145."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH145 T05 delivered (job d38efec2, 42 credits), takes/S05/SH145/001_S05_SH145_T05.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. Varied pigeons, close blurred birds; five neighbors appear one by one (one more than asked; the girl has dark hair); low angle on a modern block corner, no roof edge. SH145 total 210 credits. Waiting for Leonard."
     }
   ],
   "story_sync": {
