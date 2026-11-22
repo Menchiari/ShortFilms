@@ -3705,6 +3705,10 @@
     {
       "date": "2026-11-22",
       "text": "S03 SH050 T03 start frame (050i, 050j): Leonard, no: camera height, angle and perspective wrong (rating 1, inferred). Pass A v2 and B v2 prepared (050l, 050m)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST 050l (1.25 credits, Leonard: edit the original image): S03 SH050 T03 start frame pass A v2, job 75740e4b-4f90-428c-a9fd-35e881f51fbb, edit of plate v2. Framing against plate v2: under 2 px shift (edge ECC). File frames/001_S03_SH050_T03_start_a_v2.png."
     }
   ],
   "story_sync": {

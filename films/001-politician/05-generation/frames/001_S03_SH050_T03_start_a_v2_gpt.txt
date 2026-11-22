@@ -1,4 +1,4 @@
-S03 SH050 T03 start frame, pass A v2, REQUEST 050l (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
+S03 SH050 T03 start frame, pass A v2, REQUEST 050l, approved, job 75740e4b-4f90-428c-a9fd-35e881f51fbb. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
 Image 1 = street plate v2 (job c34fb281, 001_S03_SH050_T01_plate_v2_src.png).
 Leonard 2026-11-22 on pass A (050i): camera height, angle and perspective are wrong. Change from 050i: the words that moved the camera and the street layout are removed (one lane each way, four to nine floors); the keep line now names the layout.
 
