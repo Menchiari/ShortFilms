@@ -3509,6 +3509,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH140-c prepared, not submitted: prompts/001_S04_SH140_T03.txt = T02 with one line changed (line 14 'Dialogue, English with a strong accent nobody can place:' -> 'Dialogue, English:' [ASSUMPTION] Leonard's 'no accent'). @Image2 = char_bigger-guy 1d925d6b instead of char_big-guy 6228445b; other references, seed 431679478 and settings as T02. get_cost 12 credits, balance 24210.2. Waiting for Leonard."
     }
   ],
   "story_sync": {
