@@ -2754,9 +2754,9 @@
                 "prop_briefcase element 1f5eb35a"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST 050k. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): door open by 5 s, he gets out about 10 s and walks left toward the long street; the smoker drags and rests his hand on the railing; the briefcase hug at the very end is not clear in frames. Audio mean -39 dB."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 050k. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): door open by 5 s, he gets out about 10 s and walks left toward the long street; the smoker drags and rests his hand on the railing; the briefcase hug at the very end is not clear in frames. Audio mean -39 dB. Leonard 2026-11-22: wrong: all doors of the car opened (frames show the far rear door open too); wrong start frame."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
