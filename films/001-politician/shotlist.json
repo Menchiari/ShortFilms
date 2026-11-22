@@ -4136,6 +4136,33 @@
               "love": false,
               "rating": null,
               "notes": "T05 then T04, cut on T04's first frame (T05 ends on it), 8.00 s exactly (192 frames: T04's last 1.5 frames dropped so a video_edit bills 8 s), x264 crf 14, audio joined. Made as the source for a one-pass video_edit (REQUEST S04-SH135-f) so the new big man is the same across the seam."
+            },
+            {
+              "id": "T10",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "0b8535a1-5c2a-4bf7-9c79-08d9d85b6944",
+              "prompt": "05-generation/prompts/001_S04_SH135_T10.txt",
+              "file": "05-generation/takes/S04/SH135/001_S04_SH135_T10.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH135_T10.jpg",
+              "references": [
+                "char_bigger-guy 4017a781 (element)",
+                "char_politician_dusty 1ecc0e0b (element)",
+                "prop_briefcase 1f5eb35a (element)",
+                "loc_side-street 8787643a (element) and its image e728a9ae (image 1)",
+                "palette_afternoon 3bf30eee (image 2)",
+                "no SH120 frame"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S04-SH135-g, 480p (992x432), 4.06 s, audio present (not listened to). Prompt = T04_v2 with only the new character (prompts/001_S04_SH135_T06_v4.txt, sent in API element form). Claude's read, frames every 0.5 s: the fat person now reads as char_bigger-guy from behind: long dark curls, heavy body, fair skin, tan t-shirt, thick fair forearms; his face stays turned away. Both fists on the collar, the old man's one hand on a wrist, strained apologetic half smile; release about 3.5 s, he ducks out and ends free with both hands on the briefcase at his chest. Misses: the briefcase is not visible during the grip (0 to 3 s); a parked car behind him at screen left from about 1.5 s; road markings in the street. Unrated."
             }
           ],
           "description": "Cordial, almost apologetic, the old man slowly, gently slides himself out of the grip.",

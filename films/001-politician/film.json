@@ -3529,6 +3529,14 @@
     {
       "date": "2026-11-22",
       "text": "Leonard: take the original prompt and change only the new character. prompts/001_S04_SH135_T06_v4.txt = T04_v2 (the prompt of approved T04) word for word, except: char_big-guy replaced by char_bigger-guy with his traits in words, the forearms in the hands line described as his, image 6 (SH120 T02 frame, the cause of the wrong man in T06) removed with its lighting reference, references in Leonard's UI form (@[name](id), street image 1, palette image 2). 480p, 4 s, 21:9, audio on: 12 credits. Supersedes T06_v2, T06_v3 and the T07 edit request."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH135-g approved by Leonard ('ok go', preflight 12 credits, balance 24,049.2) and submitted: S04 SH135 T10 0b8535a1-5c2a-4bf7-9c79-08d9d85b6944, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, no draft flag (images without a video reference), folder Scenes/S04/SH135. Prompt prompts/001_S04_SH135_T06_v4.txt, sent as prompts/001_S04_SH135_T10.txt (same words, API element form). Images: street e728a9ae, palette 3bf30eee; no SH120 frame. T06 to T09 already taken (T07 is the unsent edit prompt)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S04 SH135 T10 delivered (job 0b8535a1, 12 credits), takes/S04/SH135/001_S04_SH135_T10.mp4 (992x432, 4.06 s, audio), still made, recorded in shotlist.json, unrated. The new big man reads from behind (curls, heavy body, fair skin); briefcase hidden during the grip; a parked car behind."
     }
   ],
   "story_sync": {
