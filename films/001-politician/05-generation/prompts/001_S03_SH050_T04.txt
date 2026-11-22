@@ -1,4 +1,4 @@
-REQUEST 050n (pending approval): S03 SH050 T04. Same as T03 (050k) with two changes: the start frame is the one Leonard meant, and only the driver door opens (T03 also opened the rear door on the far side) (frames/001_S03_SH050_T04_start_leonard.jpg, media 6cd1367b). seedance_2_5, omni_reference, 14 s, 720p, 21:9, audio on, folder S03/SH050. Elements in the prompt: char_politician 1d544095, prop_briefcase 1f5eb35a. 98 credits.
+REQUEST 050n, approved, job 4d0d8072-515f-48e1-a64c-0e1e3e3fbf09: S03 SH050 T04. Same as T03 (050k) with two changes: the start frame is the one Leonard meant, and only the driver door opens (T03 also opened the rear door on the far side) (frames/001_S03_SH050_T04_start_leonard.jpg, media 6cd1367b). seedance_2_5, omni_reference, 14 s, 720p, 21:9, audio on, folder S03/SH050. Elements in the prompt: char_politician 1d544095, prop_briefcase 1f5eb35a. 98 credits.
 Leonard 2026-11-22: real city, car in its lane, Korean man on a decorated balcony with dead plants, realistic smoking, awkward briefcase to the chest at the very end, ARRI Alexa anamorphic 35mm film look.
 
 Prompt:
