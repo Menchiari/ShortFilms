@@ -281,7 +281,7 @@
       },
       "prop_helicopter": {
         "element": "7a86dade-e435-46ab-95bd-80a76b1e0900",
-        "image": "6c8efe25-fd49-4797-a086-047c9c7ca372"
+        "image": "a64e5f09-22a5-499f-9aa1-1420d05761c9"
       },
       "loc_town-edge": {
         "element": "3ecccf45-3aa3-4ac3-82fe-81297889d6fa",
@@ -322,6 +322,10 @@
       "prop_bar-weapon": {
         "element": "37fe2cf2-2fec-431c-8a44-4a370e26e42b",
         "image": "8d69a591-a811-4b07-9ef9-586a70f736ae"
+      },
+      "char_bigger-guy": {
+        "element": "4017a781-5a07-4f87-929d-578380c83bbd",
+        "image": "1d925d6b-c418-4dc3-ba34-dc35200d5863"
       }
     },
     "animatic_refs_d11": {
@@ -3565,6 +3569,42 @@
     {
       "date": "2026-11-22",
       "text": "S05 SH115: T06 rated 4 (inferred: 'ok it works'), shot approved. In the edit: track Leonard's bond image (refs/001_S05_SH090_bond_v3.jpg) over the sheet at 0-3 s to fix its orientation and text."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Element char_bigger-guy registered (Leonard made it in Higgsfield): element 4017a781, image 1d925d6b, saved as 03-bible/characters/refs/char_bigger-guy.webp. It replaces char_big-guy as the fat person in new takes (S04, S07, S09). prop_helicopter image corrected to the live a64e5f09 (records said 6c8efe25)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH110-b prepared, not submitted: SH110 T02, prompts/001_S04_SH110_T02.txt = T01 with char_bigger-guy (4017a781) in place of char_big-guy, elements as <<<id>>> in the prompt (bigger-guy, side street, politician_dusty, briefcase), palette_afternoon 3bf30eee the only media (image_references), no 'desert town', mosque/minaret/dome removed from the unplaceable line [proposal], style.md look line and realism paragraph, no parked cars. seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, no draft flag (image input without video reference: cannot be finalized), folder S04/SH110 c7222bc7. Preflight 15 credits, balance 24,891.2. Waiting for Leonard's approval."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH110-b approved by Leonard (\"ok go\"; preflight 15 credits) and submitted: S04 SH110 T02 7782a540-fd7a-4426-a33c-ef3590bccd81, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, no draft flag, folder S04/SH110."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH110-b done (15 credits): S04 SH110 T02 in, 480p 5 s, takes/S04/SH110/001_S04_SH110_T02.mp4. The new big man (char_bigger-guy) reads; profile two-shot like T01; he snarls with teeth instead of speaking low. Unrated. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard on SH110 T02: 'you changed too much'. Claude's check: T02 added action, size and acting wording beyond the brief (one heave, belly, weighed nothing, new obstacle and tactic, dust, sweat). Likely snarl source [inferred]: the char_bigger-guy image bares its teeth in all three views. REQUEST S04-SH110-c prepared, not submitted: T03, prompts/001_S04_SH110_T03.txt = T01 word for word plus only: elements as <<<id>>> (T01 order), the new man's element line (long curly hair, full beard, obese, tan t-shirt; not his expression), no image numbers in the body, 'desert town' to 'small town', 'long curls' in the rim light, mosque/minaret removed [proposal], style.md look line. Same settings as T02. Preflight 15 credits, balance 24,715.2. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard: 'you changed too much, he should pick up with both hands'; then asked for 720p. Frames: T01 shows one fist at the collar, T02 hides the grip at the bottom of frame. Prompt 001_S04_SH110_T03_v2.txt = T03 plus only the 1-2s line: lifting with both hands, one fist on each side of the collar, both hands in frame. REQUEST S04-SH110-c at 720p prepared, not submitted: preflight 35 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH110-c approved by Leonard (\"let's see it\"; preflight 35 credits) and submitted: S04 SH110 T03 a8d68391-81a5-45c5-b442-8b66b4bcfefe, prompt T03_v2, seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, folder S04/SH110."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH110-c done (35 credits): S04 SH110 T03 in, 720p 5 s, takes/S04/SH110/001_S04_SH110_T03.mp4. New man reads; one fist visible, not two; snarl again; background an open lot with distant towers, not the S04 side street. Unrated."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "New rule on main (change only what Leonard asks). REQUEST S04-SH110-d prepared, not submitted: T04, prompts/001_S04_SH110_T04.txt = T01 word for word except the Image 2 line (char_bigger-guy) and the 1-2s both-hands line. Same five images as T01, Image 2 = char_bigger-guy image 1d925d6b. 720p, 21:9, 5 s, audio on. Preflight 35 credits, balance 24,547.2. Waiting for Leonard."
     }
   ],
   "story_sync": {
