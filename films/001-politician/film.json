@@ -3605,6 +3605,26 @@
     {
       "date": "2026-11-22",
       "text": "New rule on main (change only what Leonard asks). REQUEST S04-SH110-d prepared, not submitted: T04, prompts/001_S04_SH110_T04.txt = T01 word for word except the Image 2 line (char_bigger-guy) and the 1-2s both-hands line. Same five images as T01, Image 2 = char_bigger-guy image 1d925d6b. 720p, 21:9, 5 s, audio on. Preflight 35 credits, balance 24,547.2. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH060 T04 logged: Leonard's own run of his draft (job b020f0f4, seedance_2_5 omni_reference, 720p, 21:9, 5 s, char_bigger-guy, guide v2 8b375053), found in Higgsfield Scenes/S04/SH060, downloaded. Leonard: the fat man must walk, the politician a bit funky, not too bad (rating 3, inferred). REQUEST S04-SH060-d prepared, not submitted: prompts/001_S04_SH060_T05.txt (big man strolls around a blind corner into the bump, OBSTACLE names the man from the bar, plainer walk, loc_side-street as element, no 'desert town'). get_cost: 720p 35 credits, 480p 15 credits."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH060-d approved by Leonard (\"ok do it 720p\"; get_cost 35 credits) and submitted: S04 SH060 T05 2e36d856-ac54-47d3-aaa4-8dd568ba384b, seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, folder Scenes/S04/SH060, elements char_politician, prop_briefcase, loc_side-street, char_bigger-guy (each once as <<<id>>>), palette_afternoon 3bf30eee (image_references), guide v2 8b375053 (video_references)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH060-d done (35 credits): S04 SH060 T05 in, 720p 5 s, file takes/S04/SH060/001_S04_SH060_T05.mp4. The big man now walks into the bump (in from the right edge at about 3.5 s); the old man's walk is smooth, no arm flail. Notes in shotlist.json. Total on SH060: 118 credits (T01 15, T02 15, T03 18, T04 35, T05 35)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH060-e approved by Leonard (\"just make this prompt\"; get_cost 35 credits) and submitted: S04 SH060 T06 4dd5fa6c-8714-4062-a8f0-d98dad78d668, prompts/001_S04_SH060_T06.txt (T04 prompt, only the walking big man, the OBSTACLE line and the old man's walk changed), seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, same references as T04."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH060-e done (35 credits): S04 SH060 T06 in, 720p 5 s, file takes/S04/SH060/001_S04_SH060_T06.mp4. Notes in shotlist.json."
     }
   ],
   "story_sync": {
