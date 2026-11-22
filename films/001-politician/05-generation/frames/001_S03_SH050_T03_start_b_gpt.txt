@@ -1,0 +1,15 @@
+S03 SH050 T03 start frame, pass B, REQUEST 050j (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
+Image 1 = the pass A result (REQUEST 050i).
+Leonard 2026-11-22: the man on the balcony looks Middle Eastern, make him Korean; the balcony a bit more decorated, dead plants.
+
+Prompt:
+
+Edit image 1. Keep exactly its camera position, height, angle, lens and framing, the whole street, the buildings, the black sedan and the light. Change only the balcony at the left and the man on it.
+
+The man: an old Korean man in his late sixties, thin grey hair combed back over a balding crown, lean, sun-browned skin, in a worn white sleeveless undershirt and grey trousers. Seen from behind and slightly from the side, he leans forward on the railing on both forearms, looking down at the street, a lit cigarette resting between two fingers of his right hand, a thin thread of smoke. His face turned away: only his ear, cheek line and the back of his head. He stays at the far left, about one fifth of the frame wide, never in front of the car.
+
+His balcony: the same small balcony and its short piece of rusty metal railing, now lived in: two or three clay and plastic pots of dead, dried-out plants with brown leaves along the railing, a dead geranium in a cracked pot, an old coffee tin used as an ashtray on the ledge, a faded plastic stool behind him, peeling paint and rust on the railing. Nothing on the balcony covers the street or the car.
+
+Count of people: one, the man on the balcony. No readable writing, no logos, no laundry.
+
+Photographic film still, shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, fine film grain, documentary realism, not CGI.
