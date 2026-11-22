@@ -4049,6 +4049,31 @@
               "notes": "REQUEST S04-SH110-c, approved by Leonard ('let's see it', preflight 35). Prompt T03_v2 = T01 with only the new man, element syntax, rule fixes and both hands. 1470x630, 24 fps, 5.06 s, audio mean -31.8 dB, peak -12.9 dB, no silence over 0.3 s at -35 dB (not listened to). Claude's read (frames every 0.5 s, grab at 4 fps): char_bigger-guy reads (curls, beard, tan t-shirt). Haul-up at about 0.5-1.5 s; from 1.5 s the same close profile two-shot as T01 and T02. Only one fist (his right) visible at the collar, the second hand not readable: the both-hands note did not land. Teeth bared in a snarl from about 2 s, as in T02: the 'not his expression' line did not stop it. Background does not match S04: an open sandy lot with distant high-rise towers, not the narrow side street of T01, SH120-SH140. Unrated, waiting for Leonard."
             },
             {
+              "id": "T04",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "ac11b152-0ea9-44c9-9050-49c2398128fc",
+              "prompt": "05-generation/prompts/001_S04_SH110_T04.txt",
+              "file": "05-generation/takes/S04/SH110/001_S04_SH110_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH110_T04.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_bigger-guy 1d925d6b",
+                "prop_briefcase 4bf36cb5",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "notes": "REQUEST S04-SH110-d, approved by Leonard ('let's see it', preflight 35). Prompt = T01 word for word except the Image 2 line and the 1-2s both-hands line; T01's five images with Image 2 = char_bigger-guy. 1470x630, 5.06 s, audio mean -30.8 dB, peak -12.7 dB, no silence over 0.3 s at -35 dB (not listened to). Claude's read (frames every 0.5 s): char_bigger-guy reads. The side street is back: plastered walls, windows, close facades, warm haze, like T01. Both arms reach down at 0-0.5 s; from 1 s only his right fist shows at the collar, the second hand not readable. Profile two-shot as in T01. Teeth bared in a snarl from about 1.5 s, as in T02 and T03. Unrated, waiting for Leonard."
+            },
+            {
               "id": "T05",
               "date": "2026-11-22",
               "model": "seedance_2_5",
