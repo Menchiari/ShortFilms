@@ -3847,6 +3847,32 @@
               "rating": null,
               "rating_source": null,
               "notes": "Made 2026-11-22 directly in Higgsfield (no Claude request logged), folder Scenes/S04/SH080; recorded by the Scene 3 hub. 1470x630, 6.08 s. Credits inferred from the 720p price (7 per second). Liked in Higgsfield."
+            },
+            {
+              "id": "T09",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 42.0,
+              "job_id": "15286a42-51df-4ed5-840c-69720e27ce06",
+              "prompt": "05-generation/prompts/001_S04_SH080_T09.txt",
+              "file": "05-generation/takes/S04/SH080/001_S04_SH080_T09.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH080_T09.jpg",
+              "references": [
+                "<<<char_bigger-guy 4017a781>>> (element in prompt)",
+                "<<<loc_side-street 8787643a>>> (element in prompt)",
+                "<<<char_politician 1d544095>>> (element in prompt)",
+                "palette_afternoon 3bf30eee (image_references, sent as Image 1) [ASSUMPTION: T08's UI image was the palette]"
+              ],
+              "love": true,
+              "notes": "REQUEST approved by Leonard ('ok go', preflight 42). T08 prompt with two edits only: head tilt and head shake removed at 2-4s; head almost still, only breathing and weight shifts. 1470x630, 6.08 s, audio mean -34.1 dB, peak -11.2 dB (not listened to). Claude's read (frames every 0.5 s, side by side with T08): same low angle up at him between facades, same full figure framing as T08, sky a little brighter. Right hand reaches out open from about 0.5 s and stays out until about 4.5 s, then drops. Head position near the same spot in every sampled frame; 2 fps frames cannot show whether the small shake is gone: Leonard to judge. Unrated. Leonard 2026-11-22: 'awesome'.",
+              "rating": 5,
+              "rating_source": "inferred"
             }
           ],
           "description": "The fat person looks down at him. He can't place him. Then his eyes widen with excitement.",
