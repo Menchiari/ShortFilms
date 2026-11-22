@@ -3533,6 +3533,10 @@
     {
       "date": "2026-11-22",
       "text": "S04 SH120 T07 delivered (job ada40328, 18 credits), takes/S04/SH120/001_S04_SH120_T07.mp4, still made, recorded in shotlist.json, unrated. The big man's curly profile shows at the right edge from about 1 s; look up only from about 4.5 s. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard on S04 SH120 T07: 'no smile, it's different'. [ASSUMPTION] he means a pained clenched-teeth grimace, not a smile. REQUEST S04-SH120-h prepared, not submitted: T08, prompts/001_S04_SH120_T08.txt = T07 with 'grin' changed to 'grimace' (10 places) and 'never a wide happy grin' changed to 'never a smile'. Same media and settings as T07; quote 18 credits, balance 24228.2."
     }
   ],
   "story_sync": {
