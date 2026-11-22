@@ -3669,6 +3669,10 @@
     {
       "date": "2026-11-22",
       "text": "S04 SH120 T08 rated 5 + love (inferred, Leonard: 'perfect')."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "15 takes made today directly in Higgsfield and not yet in git, recorded by the Scene 3 hub (Leonard: commit all new shots from today): S04 SH070 T05-T07, SH080 T05-T08, SH090 T04, SH100 T02-T03, SH110 T05-T06, SH120 T09, SH135 T08-T09; 720p, prompts saved from Higgsfield, credits inferred (7 per second). SH110 T04 and SH135 T07 numbers left to the prompts those sessions prepared."
     }
   ],
   "story_sync": {
