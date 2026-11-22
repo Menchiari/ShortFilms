@@ -3525,6 +3525,10 @@
     {
       "date": "2026-11-22",
       "text": "S04 SH135: per the new rule (change only what Leonard asks), prompts/001_S04_SH135_T06_v3.txt = the T06 draft word for word minus image 3 (the SH120 T02 frame) and with the fat person's traits in words (element line, curls, forearms). T06_v2 (wider rewrite) superseded, not used. For a run: image 1 street e728a9ae, image 2 palette 3bf30eee, no image 3. 480p 4 s: 12 credits. The T07 edit request (28) stands as the alternative that keeps the loved T05+T04 performance."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard: take the original prompt and change only the new character. prompts/001_S04_SH135_T06_v4.txt = T04_v2 (the prompt of approved T04) word for word, except: char_big-guy replaced by char_bigger-guy with his traits in words, the forearms in the hands line described as his, image 6 (SH120 T02 frame, the cause of the wrong man in T06) removed with its lighting reference, references in Leonard's UI form (@[name](id), street image 1, palette image 2). 480p, 4 s, 21:9, audio on: 12 credits. Supersedes T06_v2, T06_v3 and the T07 edit request."
     }
   ],
   "story_sync": {
