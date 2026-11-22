@@ -1,4 +1,4 @@
-S03 SH050 T03 start frame, pass B, REQUEST 050j (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
+S03 SH050 T03 start frame, pass B, REQUEST 050j, approved, job 88210d58-2576-42dc-945f-befdd9a23565. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
 Image 1 = the pass A result (REQUEST 050i).
 Leonard 2026-11-22: the man on the balcony looks Middle Eastern, make him Korean; the balcony a bit more decorated, dead plants.
 

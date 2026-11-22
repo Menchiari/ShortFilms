@@ -1,4 +1,4 @@
-S03 SH050 T03 start frame, pass A, REQUEST 050i (pending approval). gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
+S03 SH050 T03 start frame, pass A, REQUEST 050i, approved, job 5c384fa5-719e-4218-a9b5-6695afb018b2. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
 Image 1 = street plate v2 (job c34fb281, 001_S03_SH050_T01_plate_v2_src.png).
 Leonard 2026-11-22: the city does not look like a real city; the car should be in its lane.
 
