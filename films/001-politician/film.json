@@ -3412,6 +3412,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH115 T03 delivered (job ba4806d0, 21 credits), takes/S05/SH115/001_S05_SH115_T03.mp4 (992x432, 7.07 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: no gasp, contained reaction, hard look screen left; mixed crowd half women as named, but standing still and not very soft; the sheet is banknote-shaped, title unreadable."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH115 T03 rated 4 (inferred: 'very good'). REQUEST S05-SH115-d prepared, not submitted: T04, prompts/001_S05_SH115_T04.txt = T03 with one change, the bond: it lands right in front of the lens filling the lower two thirds of the frame, the camera holds on it until 2 s, and the sheet has the bond image's proportions (about 4:3, twice a banknote; T03 came out banknote-shaped). Same refs and settings. Preflight 21 credits, balance 25,096.2."
     }
   ],
   "story_sync": {
