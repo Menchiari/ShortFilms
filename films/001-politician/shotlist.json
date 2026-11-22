@@ -3856,6 +3856,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S04-SH120-g, 480p draft (992x432), 6.04 s, audio present (not listened to). T05_v2 with only the big man changed to char_bigger-guy. Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: three-quarter angle as T05; the big man's curly hair, beard and nose at the right edge from about 1 s to the end (bigger than a sliver); two fists on the collar from about 0.5 s (one hand at 0 s); eyes level until about 4.5 s, then up to the end with irises visible; the grin reads friendly, almost happy, at 0-1 s."
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "5fe8e455-f995-490c-a664-06789b3065a6",
+              "prompt": "05-generation/prompts/001_S04_SH120_T08_v2.txt",
+              "file": "05-generation/takes/S04/SH120/001_S04_SH120_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH120_T08.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_bigger-guy 1d925d6b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH120-h, 480p draft (992x432), 6.04 s, audio present (not listened to; accent not checked). T07 with 'grimace' for 'grin' and no heavy accent. Claude's read from frames every 0.5 s and 4.2-6 s at 5 fps: no smile: a pained clenched-teeth grimace close to crying the whole shot; two fists on the collar; hard squint around 2 s; eyes level until about 4.5 s, then up to the end, irises visible, lips parted. Miss: the big man's curly hair and beard at the right edge from about 0.5 s, more than a sliver."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
