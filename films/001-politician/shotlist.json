@@ -840,6 +840,29 @@
               "rating": 3,
               "rating_source": "inferred",
               "notes": "REQUEST 007. Folder S01/SH120. Passed first submission. Downloaded to takes/S01/. News graphics to be composited. Leonard 2026-11-17: ok."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 30,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 90.0,
+              "job_id": "bb504071-150e-4276-88d2-c563ce209a43",
+              "prompt": "05-generation/prompts/001_S01_SH120_T02.txt",
+              "file": "05-generation/takes/S01/SH120/001_S01_SH120_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S01_SH120_T02.jpg",
+              "references": [
+                "T01 06c11b3b (backward extension source)"
+              ],
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Leonard 2026-11-22: reporter talks a lot more, a 30 s news report before T01. Backward extension of T01, folder S01/SH120, approved 'perfect, go'. 854x480, 24 fps, 30.0 s, the new part only (T01 not attached). Claude's read from frames (audio not heard, mean -26 dB, peak -7 dB): last frame matches T01's first frame (same reporter, rooftop, two smoke columns, cracked window, TV). Mouth moves throughout. Play T02 then T01. Leonard 2026-11-22: 'it's perfect'."
             }
           ],
           "description": "A television behind a cracked shop window. A news channel: a polished logo, a red BREAKING bar, a ticker of red numbers. In the corner, his official portrait: the same old face, clean, smiling. A REPORTER, sexy, every hair in place, on a rooftop with smoke behind her.",

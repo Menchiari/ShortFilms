@@ -87,11 +87,10 @@ follows these rules. They override habits and defaults.
   skill. Review every stage with the `braintrust` subagent.
 - Stories live in `stories/<slug>/`, one file per stage, versions in git. The site never reads
   `stories/`.
-- A pushed branch that changes only `stories/`, `films/` and `films-index.json` is merged into
-  main automatically by `.github/workflows/film-sync.yml` (`tools/mergebranches.sh`: film JSON
-  merged by structure, append-only logs keep both sides), and the site redeploys: no pull request
-  needed. Keep story and production work on their own branch, without tool or doc changes. The
-  run log names any branch it could not merge (a real conflict, or `filmtool check`): tell the
+- Push every commit directly to `main` (Leonard, 2026-11-22): no new branches, no pull requests.
+  Pull main first, `git pull --rebase` before each push; on a conflict in film JSON keep both
+  sides (append-only logs keep every entry). Older branches are still merged by
+  `.github/workflows/film-sync.yml`; its run log names any branch it could not merge: tell the
   user and fix it.
 - A story becomes a film only when the user says so: `python3 tools/filmtool.py new "Title"`, then
   the locked screenplay is copied (never moved) into the film's `01-story/source/` and PIPELINE.md
