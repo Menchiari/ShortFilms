@@ -3509,6 +3509,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH120-f prepared, not submitted: S04 SH120 T06, prompts/001_S04_SH120_T06.txt. Big man is now char_bigger-guy (4017a781, as <<<id>>>); elements as <<<id>>> only, palette_afternoon 3bf30eee in medias named in words; no 'desert town'; mosque/minaret dropped from the exclusions [proposal]; realism paragraph added; his head and hair fully behind the camera (no sliver: T01, T02, T04, T05 all showed his head at the right edge); faces level so a look at his eyes is not a look up (T05 up-glances at 1.5 and 3.5 s); pleading brows, never a smirk (T05 smug grin); 'savoring' dropped and line timed 0.5-4.5 s (T05 voice ran about 1.25-5.0 s). Look line unchanged: it already matches style.md word for word. seedance_2_5 omni_reference, 480p draft, 21:9, 6 s, audio on, folder Scenes/S04/SH120 5e489526; quote 18 credits, balance 24863.2. Waiting for approval."
     }
   ],
   "story_sync": {
