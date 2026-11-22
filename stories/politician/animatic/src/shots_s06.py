@@ -292,35 +292,35 @@ def S06_SH020(nf):
     return {"cam": {"fn": camfn, "hh": 0.9}, "actors": [him] + acts, "sticks": arm_sticks(him),
             "callbacks": [gun_hand_cb(G, him, shots=[k["ts"] for k in ks], flash_scale=1.6)], "cues": cues}
 
-# ---------------------------------------------------------------- SH025: insert, the pistol firing again and again
-SH025_SHOTS = [4 / 12, 11 / 12, 17 / 12, 24 / 12, 30 / 12]
-def S06_SH025(nf):
+# ---------------------------------------------------------------- SH026: insert, the pistol firing again and again
+SH026_SHOTS = [4 / 12, 11 / 12, 17 / 12, 24 / 12, 30 / 12]
+def S06_SH026(nf):
     """Insert, locked-off, on the ejection-port side: the flash, the slide kicking back, a casing spinning away, five times."""
     ya = 72.0; fw = np.array((-math.sin(math.radians(ya)), math.cos(math.radians(ya)), 0.0)); rt = np.array((fw[1], -fw[0], 0.0))
     g0 = np.array((FALL[0], FALL[1], 1.42)) + fw * 0.55 + rt * 0.12
     p = tuple(g0 + rt * 0.52 + fw * 0.1 + np.array((0, 0, 0.05))); sq(p)
     G = pistol("gun", hand=True); root = G["root"]
     R = np.stack([rt, fw, np.array((0, 0, 1.0))], 1)
-    cas = [casing(f"casing{i}") for i in range(len(SH025_SHOTS))]; rng = np.random.default_rng(25)
+    cas = [casing(f"casing{i}") for i in range(len(SH026_SHOTS))]; rng = np.random.default_rng(25)
     cv = [rt * rng.uniform(1.0, 1.4) - fw * rng.uniform(0.2, 0.5) + np.array((0, 0, rng.uniform(0.5, 0.8))) for _ in cas]
     crowd = street_crowd(18, 251, nf, near=9.0, lam=3.0)
     def cb(f):
         t = f / core.FPS; kick = 0.0; back = 0.0; fl = False
-        for s in SH025_SHOTS:
+        for s in SH026_SHOTS:
             dt = t - s
             if -0.01 <= dt < 0.25: kick = max(kick, math.exp(-max(0.0, dt) / 0.07))
             if abs(dt) < 0.01: back, fl = 1.0, True
             elif 0.07 < dt < 0.1: back = max(back, 0.5)
         Rk = R @ core.rotx(math.radians(11 * kick))
         root.matrix_world = Puppet.M(Rk, g0 - fw * 0.018 * kick); G["show"](True); G["set"](back, fl)
-        for i, (o, s) in enumerate(zip(cas, SH025_SHOTS)):
+        for i, (o, s) in enumerate(zip(cas, SH026_SHOTS)):
             dt = t - s - 0.04
             if dt < 0: o.hide_render = True; continue
             port = g0 + rt * 0.014 + fw * 0.045 + np.array((0, 0, 0.02))
             q = port + cv[i] * dt + np.array((0, 0, -4.9 * dt * dt)); o.hide_render = bool(q[2] < 0.0)
             o.location = tuple(q); o.rotation_euler = (dt * 31, dt * 17, dt * 9)
     return {"cam": cam(p, tuple(g0 + fw * 0.06), 50, focus=float(np.linalg.norm(np.array(p) - g0)), fstop=2.8), "actors": crowd, "callbacks": [cb],
-            "cues": [[s, s + 0.15, "SHOT"] for s in SH025_SHOTS]}
+            "cues": [[s, s + 0.15, "SHOT"] for s in SH026_SHOTS]}
 
 # ---------------------------------------------------------------- SH030: the side view: past the dead, they come at him again, one after another
 def S06_SH030(nf):

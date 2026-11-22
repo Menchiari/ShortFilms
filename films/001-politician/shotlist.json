@@ -6700,7 +6700,7 @@
         },
         {
           "id": "SH140",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -7238,6 +7238,16 @@
         },
         {
           "id": "SH025",
+          "status": "planned",
+          "takes": [],
+          "description": "A bearded man in a beige linen shirt slams face first onto the pavement, a small dark hole in his cheek, his head bouncing hard off the ground. Lifeless. The view whips up in a blur to his friend, balding, thick moustache, staring down at him in shock. He understands. The horror turns to rage. He looks up at the old man, roars and sprints at him, out of frame.",
+          "framing": "CLOSE, low, on the ground, then a fast whip tilt up to CLOSE on Citizen 2",
+          "movement": "Locked-off, then a fast blurred whip up",
+          "duration_s": 4,
+          "note": "ELEMENTS: char_citizen1 (the dead man), char_citizen2 (his friend). Citizen 1 is one of the five shot in SH020: no new round. A simple hole in his cheek, not graphic. He drops where he is and stays there for the rest of the film. Citizen 2 sprints off screen toward the old man"
+        },
+        {
+          "id": "SH026",
           "status": "approved",
           "takes": [
             {
@@ -7251,10 +7261,10 @@
               "audio": true,
               "credits": 12.0,
               "job_id": "a26418ca-6a97-4ac7-ba41-95d8eb7f9c82",
-              "prompt": "05-generation/prompts/001_S06_SH025_T01.txt",
-              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T01.mp4",
+              "prompt": "05-generation/prompts/001_S06_SH026_T01.txt",
+              "file": "05-generation/takes/S06/SH026/001_S06_SH026_T01.mp4",
               "preview": "",
-              "poster": "05-generation/web/001_S06_SH025_T01.jpg",
+              "poster": "05-generation/web/001_S06_SH026_T01.jpg",
               "references": [
                 "prop_gun 24875e9a",
                 "char_politician_blood 0d0a5637"
@@ -7275,10 +7285,10 @@
               "audio": true,
               "credits": 12.0,
               "job_id": "f667821b-e593-4ec8-b23d-95565cc654b1",
-              "prompt": "05-generation/prompts/001_S06_SH025_T02.txt",
-              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T02.mp4",
+              "prompt": "05-generation/prompts/001_S06_SH026_T02.txt",
+              "file": "05-generation/takes/S06/SH026/001_S06_SH026_T02.mp4",
               "preview": "",
-              "poster": "05-generation/web/001_S06_SH025_T02.jpg",
+              "poster": "05-generation/web/001_S06_SH026_T02.jpg",
               "references": [
                 "prop_gun 24875e9a",
                 "char_politician_blood 0d0a5637"
@@ -7299,10 +7309,10 @@
               "audio": true,
               "credits": 12.0,
               "job_id": "858ba002-6e83-48e8-8c5f-6838920fbbc1",
-              "prompt": "05-generation/prompts/001_S06_SH025_T03_v2.txt",
-              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T03.mp4",
+              "prompt": "05-generation/prompts/001_S06_SH026_T03_v2.txt",
+              "file": "05-generation/takes/S06/SH026/001_S06_SH026_T03.mp4",
               "preview": "",
-              "poster": "05-generation/web/001_S06_SH025_T03.jpg",
+              "poster": "05-generation/web/001_S06_SH026_T03.jpg",
               "references": [
                 "prop_gun 24875e9a",
                 "char_politician_blood 0d0a5637",
@@ -7324,10 +7334,10 @@
               "audio": true,
               "credits": 12.0,
               "job_id": "8c2bceaf-d39e-4dfc-8ca7-6fb9e9471966",
-              "prompt": "05-generation/prompts/001_S06_SH025_T04.txt",
-              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T04.mp4",
+              "prompt": "05-generation/prompts/001_S06_SH026_T04.txt",
+              "file": "05-generation/takes/S06/SH026/001_S06_SH026_T04.mp4",
               "preview": "",
-              "poster": "05-generation/web/001_S06_SH025_T04.jpg",
+              "poster": "05-generation/web/001_S06_SH026_T04.jpg",
               "references": [
                 "prop_gun 24875e9a",
                 "char_politician_blood 0d0a5637",
@@ -7345,19 +7355,9 @@
           "duration_s": 3,
           "note": "Coverage for the edit: the same shots",
           "animatic": {
-            "file": "05-generation/animatic/d11/S06_SH025.mp4",
+            "file": "05-generation/animatic/d11/S06_SH026.mp4",
             "draft": "d11"
           }
-        },
-        {
-          "id": "SH026",
-          "status": "planned",
-          "takes": [],
-          "description": "A bearded man in a beige linen shirt slams face first onto the pavement, a small dark hole in his cheek, his head bouncing hard off the ground. Lifeless. The view whips up in a blur to his friend, balding, thick moustache, staring down at him in shock. He understands. The horror turns to rage. He looks up at the old man, roars and sprints at him, out of frame.",
-          "framing": "CLOSE, low, on the ground, then a fast whip tilt up to CLOSE on Citizen 2",
-          "movement": "Locked-off, then a fast blurred whip up",
-          "duration_s": 4,
-          "note": "ELEMENTS: char_citizen1 (the dead man), char_citizen2 (his friend). Citizen 1 is one of the five shot in SH020: no new round. A simple hole in his cheek, not graphic. He drops where he is and stays there for the rest of the film. Citizen 2 sprints off screen toward the old man"
         },
         {
           "id": "SH030",

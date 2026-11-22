@@ -1,7 +1,7 @@
 <!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 7 -->
 # char_citizen1
 
-A townsman: heavy-set, dark curly hair, full beard, beige linen shirt, jeans. Use not set yet. Registered 2026-11-22
+A townsman: heavy-set, dark curly hair, full beard, beige linen shirt, jeans. S06 SH025: shot in the cheek, one of the five dead of SH020. Registered 2026-11-22
 
 | Higgsfield element | Image job |
 |---|---|
