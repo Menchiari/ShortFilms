@@ -3725,6 +3725,18 @@
     {
       "date": "2026-11-22",
       "text": "REQUEST 050n done (98 credits): S03 SH050 T04 in. Two doors open again (front and rear, camera side)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH060-f approved by Leonard (\"go\"; get_cost 35 credits) and submitted: S04 SH060 T07 33f865cf-e47f-42e4-9605-953465aab741, prompts/001_S04_SH060_T07.txt (T06 plus the big man on his phone, putting it away mortified at the bump), seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, same references as T06."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH060-f done (35 credits): S04 SH060 T07 in, 720p 5 s, file takes/S04/SH060/001_S04_SH060_T07.mp4. Notes in shotlist.json."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "Leonard on S04 SH060 T07: 'perfect' (rating 5, inferred). SH060 approved with T07 (720p, 5 s). Total on SH060: 188 credits (T01 15, T02 15, T03 18, T04 35, T05 35, T06 35, T07 35)."
     }
   ],
   "story_sync": {
