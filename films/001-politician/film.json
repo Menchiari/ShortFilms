@@ -3517,6 +3517,10 @@
     {
       "date": "2026-11-22",
       "text": "Element char_bigger-guy registered (Leonard made it in Higgsfield): element 4017a781, image 1d925d6b, saved as 03-bible/characters/refs/char_bigger-guy.webp. It replaces char_big-guy as the fat person in new takes (S04, S07, S09). prop_helicopter image corrected to the live a64e5f09 (records said 6c8efe25)."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S04-SH110-b prepared, not submitted: SH110 T02, prompts/001_S04_SH110_T02.txt = T01 with char_bigger-guy (4017a781) in place of char_big-guy, elements as <<<id>>> in the prompt (bigger-guy, side street, politician_dusty, briefcase), palette_afternoon 3bf30eee the only media (image_references), no 'desert town', mosque/minaret/dome removed from the unplaceable line [proposal], style.md look line and realism paragraph, no parked cars. seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, no draft flag (image input without video reference: cannot be finalized), folder S04/SH110 c7222bc7. Preflight 15 credits, balance 24,891.2. Waiting for Leonard's approval."
     }
   ],
   "story_sync": {
