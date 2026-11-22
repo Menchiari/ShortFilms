@@ -2732,6 +2732,31 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST 050g. Returns only the new 4 s (96 frames, 1470x630), cut after T01's last frame. Claude's read (frames and levels, not heard): the join with T01 holds; he walks up and left into the depth of the crossroads, the case held high against his chest and shoulder; the camera, car, open door and smoker hold. Defect: from about frame 93 (3.9 s) he vanishes and the door is closed; use frames 0-92 (3.875 s). Audio mean -35 dB."
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 14,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 98.0,
+              "job_id": "6cfc9a77-54ce-422d-bfd7-586a94e91414",
+              "prompt": "05-generation/prompts/001_S03_SH050_T03.txt",
+              "file": "05-generation/takes/S03/SH050/001_S03_SH050_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S03_SH050_T03.jpg",
+              "references": [
+                "Leonard's start frame (sent first by mistake; he meant the T04 frame): 05-generation/frames/001_S03_SH050_T03_start_leonard.jpg, media 07b596ff",
+                "char_politician element 1d544095",
+                "prop_briefcase element 1f5eb35a"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST 050k. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): door open by 5 s, he gets out about 10 s and walks left toward the long street; the smoker drags and rests his hand on the railing; the briefcase hug at the very end is not clear in frames. Audio mean -39 dB."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
