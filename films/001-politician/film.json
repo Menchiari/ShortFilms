@@ -3529,6 +3529,42 @@
     {
       "date": "2026-11-22",
       "text": "Leonard: take the original prompt and change only the new character. prompts/001_S04_SH135_T06_v4.txt = T04_v2 (the prompt of approved T04) word for word, except: char_big-guy replaced by char_bigger-guy with his traits in words, the forearms in the hands line described as his, image 6 (SH120 T02 frame, the cause of the wrong man in T06) removed with its lighting reference, references in Leonard's UI form (@[name](id), street image 1, palette image 2). 480p, 4 s, 21:9, audio on: 12 credits. Supersedes T06_v2, T06_v3 and the T07 edit request."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH115 T03 rated 4 (inferred: 'very good'). REQUEST S05-SH115-d prepared, not submitted: T04, prompts/001_S05_SH115_T04.txt = T03 with one change, the bond: it lands right in front of the lens filling the lower two thirds of the frame, the camera holds on it until 2 s, and the sheet has the bond image's proportions (about 4:3, twice a banknote; T03 came out banknote-shaped). Same refs and settings. Preflight 21 credits, balance 25,096.2."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S05-SH115-d approved by Leonard ('just fix it and give me the result', 21 credits) and submitted: S05 SH115 T04, job d5db4eaa-068a-4e1d-8b8e-cc9d05882ad4, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_side-street 8787643a, bond 93b84cd4, folder Scenes/S05/SH115, prompt prompts/001_S05_SH115_T04.txt."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH115 T04 delivered (job d5db4eaa, 21 credits), takes/S05/SH115/001_S05_SH115_T04.mp4 (992x432, 7.07 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: the close landing did not take (same distance as T03, banknote-shaped); words alone have not controlled the sheet's size or text in four takes."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S05-SH115-e prepared, not submitted (the session's permission check stopped the submit: no approval of this exact request and price). T05, prompts/001_S05_SH115_T05.txt: rebuilt opening, 0-1 s close-up framing only a patch of asphalt the size of the sheet (no feet), the sheet settles filling the frame; 1-3 s held still like an insert, $500,000 biggest in the center; 3-4 s her hand enters and lifts it; 4-5 s camera rises to her; 5-8 s as T03. 8 s, 480p, 21:9, audio on, same refs. Preflight 24 credits."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S05-SH115-e approved by Leonard ('ok try', 24 credits) and submitted: S05 SH115 T05, job 8bf05468-1b4c-4165-bdf6-8098f2196acd, seedance_2_5 omni_reference, 8 s, 480p, 21:9, audio on, loc_side-street 8787643a, bond 93b84cd4, folder Scenes/S05/SH115, prompt prompts/001_S05_SH115_T05.txt."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH115 T05 delivered (job 8bf05468, 24 credits), takes/S05/SH115/001_S05_SH115_T05.mp4 (992x432, 8.06 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: the bond reads on the ground ($500,000 clear 1.2-3 s, bond-shaped), closer than any take so far but not frame-filling, feet in frame; title smeared; acting holds; crowd came back men only."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH115 T05 rated 3 (inferred: two errors named, the rest accepted). REQUEST S05-SH115-f: T06, prompts/001_S05_SH115_T06.txt = T05 plus the real bond size from props/bond/make_bond_wide.py (11.5 x 8.5 in landscape, a little longer than her shoe, nearly as wide as her chest), the sheet right way up on the ground and turned the right way up for her as she lifts it, read with its printed face toward her, and the two nearest people behind her named as women. Leonard asked for 720p 21:9. Preflight 56 credits, balance 24,656.2. Submitted on Leonard's 'try again ... render at 720p 21:9': job 4fc2a04a-331e-4f4a-b743-0684fe231fe5, seedance_2_5 omni_reference, 8 s, 720p, 21:9, audio on, loc_side-street 8787643a, bond 93b84cd4, folder Scenes/S05/SH115."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH115 T06 delivered (job 4fc2a04a, 56 credits, 720p), takes/S05/SH115/001_S05_SH115_T06.mp4 (1470x630, 8.06 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: bond size right; on the ground it lies upside down to the camera; acting holds; crowd mixed and half women but sharp, not blurred."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S05 SH115: T06 rated 4 (inferred: 'ok it works'), shot approved. In the edit: track Leonard's bond image (refs/001_S05_SH090_bond_v3.jpg) over the sheet at 0-3 s to fix its orientation and text."
     }
   ],
   "story_sync": {
