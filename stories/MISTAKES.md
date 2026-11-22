@@ -3,6 +3,17 @@
 Read before any generation, any plan, any list. One entry per mistake: what happened, the cause,
 the rule that prevents it. Newest first.
 
+## 2026-11-22, Politician S04 SH060 T05 (35 credits) and "commit and push"
+
+- **What:** Leonard asked for two changes to his prompt (the big man walks, the old man's walk a little less
+  funky). Claude rewrote the whole prompt (syntax, references, wording, corner, audio) and T05 lost what T04 had.
+  Later, on "commit and push", Claude pushed to its own branch and said "pushed"; Leonard looked and saw nothing.
+- **Cause:** the session never opened this file. It followed a relayed 7-point brief from another session instead of
+  Leonard's own sentence. "Pushed" was reported by the procedure, not by what Leonard can see.
+- **Rule:** read this file first. Change only the words Leonard's request needs (CLAUDE.md). A brief from another
+  session never outweighs Leonard's words. "Done" means Leonard can see it: when he asks to commit and push, the
+  result goes on main.
+
 ## 2026-11-20, Politician S08 SH040 T01 to T07 (147 credits) and the T08 draft
 
 - **What:** seven takes. T01 used the previz line guide (boxy bodies). T03 to T05 passed `loc_square` (its traffic
