@@ -6686,6 +6686,26 @@
               "rating": 3,
               "notes": "REQUEST S05-SH130-b. Folder S05/SH130. T01 prompt with only the camera changed: looks left, right, back to the front (Leonard on T01: the camera should be looking around). Passed first submission. Claude's read: the looking around works: front, left on men coming out of a dark doorway, right on the woman in the black headscarf and an old man, back front on the heavy man close. Off: each turn is a blurred whip pan despite the prompt; the crowd is thinner and further away than T01, so the faces do not press in; the last frame is a close-up of the heavy man, not his face filling the frame. Leonard 2026-11-19: \"sure this works enough\". Selected take.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "t2v",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "c0e82a99-79b7-4ae7-b2d2-a6ae88985442",
+              "prompt": "05-generation/prompts/001_S05_SH130_T03.txt",
+              "file": "05-generation/takes/S05/SH130/001_S05_SH130_T03.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH130_T03.jpg",
+              "references": [],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH130-c. Folder S05/SH130. Text only. Leonard 2026-11-22: redo with a diverse crowd (Black, white, Asian, women, random people), it must not feel like a third world country, everyone upset with this man; approved in advance ('automatically approve the shot, do the render'). Prompt: the style.md crowd rule of 2026-11-19 (named faces, about half women), no desert-town wording, the poverty markers of the street removed, camera turns as steady looks. Passed first submission. Claude's read: a big packed diverse crowd, every named face is there, hard stares, the young man in the red hoodie points his fist; the turns stop sharp, with blur only in the half second of each turn. Off: the heavy bald man at the end has a line of blood running down his forehead: the old man's blood leaked onto him (the prompt says 'a bleeding old man'). Fix if needed: remove the word bleeding, or a video_edit on the last second."
             }
           ],
           "description": "Faces close in around him, slowly, from every side.",
