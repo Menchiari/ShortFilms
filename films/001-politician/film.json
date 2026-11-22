@@ -3701,6 +3701,10 @@
     {
       "date": "2026-11-22",
       "text": "REQUESTs 050i and 050j approved (1.25 credits each): S03 SH050 T03 start frame. Pass A job 5c384fa5-719e-4218-a9b5-6695afb018b2 (real city, car in its lane), pass B job 88210d58-2576-42dc-945f-befdd9a23565 (old Korean smoker, balcony with dead plants). Files frames/001_S03_SH050_T03_start_a.png, _start_b.png, _start.jpg."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S03 SH050 T03 start frame (050i, 050j): Leonard, no: camera height, angle and perspective wrong (rating 1, inferred). Pass A v2 and B v2 prepared (050l, 050m)."
     }
   ],
   "story_sync": {
