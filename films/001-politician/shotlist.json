@@ -2779,9 +2779,9 @@
                 "prop_briefcase element 1f5eb35a"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST 050n. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): the front driver door and the rear door behind it on the same side are both open from about 6 s to the end, despite 'only the front driver door' and 'Count of open doors: one'. He gets out about 10 s, walks left, the case comes up toward his chest in the last second. Audio mean -37 dB."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST 050n. 1470x630, 14.08 s. Claude's read (frames and levels, not heard): the front driver door and the rear door behind it on the same side are both open from about 6 s to the end, despite 'only the front driver door' and 'Count of open doors: one'. He gets out about 10 s, walks left, the case comes up toward his chest in the last second. Audio mean -37 dB. Leonard 2026-11-22: the old man on the balcony smokes two cigarettes. Claude's crops at 0.5, 2, 4, 7, 10, 12, 13.9 s show one; at 10 s he turns his face to the camera."
             }
           ],
           "description": "The car sits alone in the middle of a large, empty crossroads. Silence. The driver door opens. He peeks out and looks around. Empty.",
