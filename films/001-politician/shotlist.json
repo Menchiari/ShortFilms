@@ -5411,6 +5411,30 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S05-SH115-c, Leonard: 'render the shot directly, just go'. Not a draft. 992x432, 7.07 s, audio mean -40.4 dB, max -14.5 dB (not heard). Changes from T02: contained reaction (mouth closed) and the style.md crowd rule. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. No gasp: she reads with her mouth closed, the reaction stays small, and at the end she lifts her eyes to screen left past the lens with a hard, set face; eyeline matches SH120. The named crowd came through: grey-haired woman in a brown cardigan, young Black man in red, East Asian woman in mustard, bald white man, young woman, South Asian man in a grey work shirt, boy in yellow; but they stand still in a loose group looking toward her and the camera, not around, and they are only slightly soft (the 55mm shallow focus did not hold for the background). The sheet came out banknote-shaped (wide and narrow, smaller than A4); it tumbles in at an angle and lands at about 1 s; the bond title does not read, $500,000 is faint. Street: shuttered fronts at the left, ochre blocks, matches SH110/SH120. Leonard 2026-11-22: very good, except the bond is not as visible as it should be; let it land closer to the camera."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "d5db4eaa-068a-4e1d-8b8e-cc9d05882ad4",
+              "prompt": "05-generation/prompts/001_S05_SH115_T04.txt",
+              "file": "05-generation/takes/S05/SH115/001_S05_SH115_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH115_T04.jpg",
+              "references": [
+                "loc_side-street 8787643a (element in the prompt)",
+                "bond from Leonard 93b84cd4 (refs/001_S05_SH090_bond_v3.jpg, image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH115-d, Leonard: 'just fix it and give me the result'. Not a draft. 992x432, 7.07 s, audio mean -35 dB, max -15.2 dB (not heard). One change from T03: the bond lands close to the lens. Claude's read (frames at 2 fps, not watched at speed): no hard cut detected. The change did not take: the sheet lands at about the same distance as T03, small in the lower middle of frame, banknote-shaped again; $500,000 is legible on the ground at 1-2 s, the title smeared. Her pickup, contained read (lips part slightly at about 4.5 s) and the hard look screen left at the end work; in the last second the sheet drops below the frame. Background softer than T03 (the 55mm blur holds), people less distinct, mostly men by silhouette."
             }
           ]
         },

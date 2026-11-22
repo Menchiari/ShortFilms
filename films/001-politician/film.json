@@ -3416,6 +3416,14 @@
     {
       "date": "2026-11-22",
       "text": "S05 SH115 T03 rated 4 (inferred: 'very good'). REQUEST S05-SH115-d prepared, not submitted: T04, prompts/001_S05_SH115_T04.txt = T03 with one change, the bond: it lands right in front of the lens filling the lower two thirds of the frame, the camera holds on it until 2 s, and the sheet has the bond image's proportions (about 4:3, twice a banknote; T03 came out banknote-shaped). Same refs and settings. Preflight 21 credits, balance 25,096.2."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "REQUEST S05-SH115-d approved by Leonard ('just fix it and give me the result', 21 credits) and submitted: S05 SH115 T04, job d5db4eaa-068a-4e1d-8b8e-cc9d05882ad4, seedance_2_5 omni_reference, 7 s, 480p, 21:9, audio on, loc_side-street 8787643a, bond 93b84cd4, folder Scenes/S05/SH115, prompt prompts/001_S05_SH115_T04.txt."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "001: S05 SH115 T04 delivered (job d5db4eaa, 21 credits), takes/S05/SH115/001_S05_SH115_T04.mp4 (992x432, 7.07 s, audio), still made, recorded in shotlist.json, unrated. Claude's read: the close landing did not take (same distance as T03, banknote-shaped); words alone have not controlled the sheet's size or text in four takes."
     }
   ],
   "story_sync": {
