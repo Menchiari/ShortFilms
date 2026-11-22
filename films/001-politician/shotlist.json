@@ -3240,6 +3240,34 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S04-SH060-c, 480p (992x432), 5.04 s, audio present (mean -27.3 dB, peak -2.6 dB; not listened to). Claude's read, frames 0, 48, 84, 96, 104, 110, 119 side by side with T02: the old man, the big man, the case, the timing, the impact and the fall match T02. Behind the big man the sandy lot is now a street: shuttered shops and barred doorways, sidewalk and curb, an asphalt road with markings at screen right, apartment blocks in the haze. The edit also changed the plain wall beside the old man from about 2 s into a facade with shutters and barred windows, so there is no wall corner any more: the facade runs on. The road at right is sunlit and brighter than T02. A small box or bin on the sidewalk at about 3.5 s; possible small parked vehicles far down the road at the end. Leonard 2026-11-18: 'sure this is fine.' Approved as the SH060 take."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-22",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 35.0,
+              "job_id": "b020f0f4-c70a-4d7b-870c-d8542577ef0b",
+              "prompt": "05-generation/prompts/001_S04_SH060_T04.txt",
+              "file": "05-generation/takes/S04/SH060/001_S04_SH060_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH060_T04.jpg",
+              "references": [
+                "char_politician 1d544095 (element)",
+                "prop_briefcase 1f5eb35a (element)",
+                "char_bigger-guy 4017a781 (element)",
+                "loc_side-street image e728a9ae (image_references)",
+                "palette_afternoon 3bf30eee (image_references)",
+                "guide v2 refs/001_S04_SH060_lines_d11_v2.mp4 8b375053 (video_references)"
+              ],
+              "love": false,
+              "rating": 3,
+              "rating_source": "inferred",
+              "notes": "Submitted by Leonard himself on Higgsfield (no request label), 720p (1470x630), 5.06 s, seed 1410619975, draft false; credits 35 from the 720p get_cost of the same settings (not read from the transaction). First take with char_bigger-guy. Claude's read, frames every 0.25 s: the old man looks back toward the lens from 0.25 s; the case is not seen in his left hand at first, and at 2.5 to 3 s his right arm swings out wide in a flailing move before the case comes up into both arms; the big man walks in at the right edge at about 3.5 s, then stands still from about 3.75 s to the end; impact at about 4.2 s, hard rebound, the old man falls out of the bottom-left of frame by about 4.7 s; final frame the big man alone right of center, standing still, frowning. A red no-entry road sign at screen right from about 4 s. Leonard 2026-11-22: the fat man must be casually walking, not standing like a rock; the politician seems a bit funky, fix it a little, but it is not too bad. T05."
             }
           ],
           "description": "The old man glances back over his shoulder. Their eyes meet. He walks faster, then faster, still looking back. Out of nowhere, a big, robust FAT PERSON is right in front of him. Impact.",

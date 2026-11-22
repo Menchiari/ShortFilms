@@ -3509,6 +3509,10 @@
     {
       "date": "2026-11-21",
       "text": "001: S05 SH145 T04 delivered (job a666a76b, 42 credits), takes/S05/SH145/001_S05_SH145_T04.mp4 (1470x630, 6.08 s, audio), still made, recorded in shotlist.json, unrated. No roof edge or perched line; about twenty pigeons drop across the facade; plain drift, no zoom; the woman matches the description and reads at the end. SH145 total 168 credits. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-22",
+      "text": "S04 SH060 T04 logged: Leonard's own run of his draft (job b020f0f4, seedance_2_5 omni_reference, 720p, 21:9, 5 s, char_bigger-guy, guide v2 8b375053), found in Higgsfield Scenes/S04/SH060, downloaded. Leonard: the fat man must walk, the politician a bit funky, not too bad (rating 3, inferred). REQUEST S04-SH060-d prepared, not submitted: prompts/001_S04_SH060_T05.txt (big man strolls around a blind corner into the bump, OBSTACLE names the man from the bar, plainer walk, loc_side-street as element, no 'desert town'). get_cost: 720p 35 credits, 480p 15 credits."
     }
   ],
   "story_sync": {
