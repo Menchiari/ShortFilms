@@ -3326,6 +3326,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: extend T04 forward with Seedance instead of the reversed hold. REQUEST S08-SH010-f prepared, not submitted: seedance_2_5 video_extension forward, source T04 (job b105ecef), 4 s, 480p, audio on, prompts/001_S08_SH010_T06_extend-T04.txt (a steady hover, no turn or drift); estimate 12 credits."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S08-SH010-f approved by Leonard ('go with S08-SH010-f'; estimate 12 credits) and submitted: S08 SH010 T06 f5b04eb8-60a4-4cb8-8264-e0bf56fe9efa, seedance_2_5 video_extension forward of T04, 4 s, 480p, audio on. A steady hover continuing T04's last frame. Joined with the T04 cut as takes/S08/SH010/001_S08_SH010_T04_cut-from-1s3_plus_T06.mp4."
     }
   ],
   "story_sync": {
