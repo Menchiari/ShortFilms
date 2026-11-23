@@ -4670,6 +4670,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "Made 2026-11-22 directly in Higgsfield (no Claude request logged), folder Scenes/S04/SH120; recorded by the Scene 3 hub. 1470x630, 6.08 s. Credits inferred from the 720p price (7 per second). Liked in Higgsfield."
+            },
+            {
+              "id": "T10",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 18.0,
+              "job_id": "a91dd45f-1b5e-4580-a9a9-b88dfae719df",
+              "prompt": "05-generation/prompts/001_S04_SH120_T10.txt",
+              "file": "05-generation/takes/S04/SH120/001_S04_SH120_T10.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH120_T10.jpg",
+              "references": [
+                "char_politician_dusty 98e1e69e",
+                "char_bigger-guy 1d925d6b",
+                "loc_side-street e728a9ae",
+                "palette_afternoon 3bf30eee",
+                "no guide clip"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S04-SH120-i, 480p draft (992x432), 6.04 s, audio present (not listened to). T08 plus: already close face to face, no jerk, a second before the line. Claude's read from frames at 6 fps for 0-1.5 s and every 0.5 s after: he is held close from the first frame, no jerk at the start; the clenched-teeth grimace as T08; eyes level until about 4.5 s, then up to the end. Audio quiet until about 0.75 s, then sound (likely the voice) until about 4.5 s: the pause is about 0.75 s, not a full second. The big man's curly hair at the right edge from about 1.5 s."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
