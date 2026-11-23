@@ -4386,6 +4386,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard asked for an ElevenLabs composition plan (generated outside Higgsfield, by Leonard). Written: prompts/music_80s-action-synth_T09_eleven_plan.json, 8 sections, 35 s: drums 0-6 s, explosion at 6.00 s, final E power chord at 27.00 s, 8 s tail. Post plan: explosion placed at 10.98 s of the join (plan starts at 4.98 s over T02, T02 cut at 10.98 s); final chord at 31.98 s. No credits spent here."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard declined an ElevenLabs API key; ElevenLabs only through Higgsfield (prompt mode, no composition plan). Solution: the plan split into three short ElevenLabs generations, each with one job, joined on the 80 BPM grid in post. MUSIC REQUEST 018g prepared, not submitted: music_80s-action-synth_T09_eleven_drums (7 s, instrumental, 1.02 credits), _body (24 s, vocals allowed, 3.49 credits), _chord (8 s, instrumental, 1.17 credits); total 5.68 credits; prompts in prompts/music_80s-action-synth_T09_eleven_*.txt. Post: drums 4.98-10.98 s over T02, T02 cut at 10.98 s, body from 10.98 s, chord at 31.98 s. Waiting for Leonard's approval."
     }
   ],
   "story_sync": {
