@@ -4214,6 +4214,10 @@
     {
       "date": "2026-11-23",
       "text": "T02_v3 resubmission (job b212525b) blocked as nsfw again. T02_v3 is now 0 of 2 today."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: 'go T01, 54 credits'. T01 resubmitted unchanged as a filter test (same prompt and media as job 5a4fd608): job d882e475-d32c-42d9-8530-7b6541c16d4d."
     }
   ],
   "story_sync": {
