@@ -3891,6 +3891,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard on S04 SH110 T06: too much side by side; same shot, focused on the big guy's face, the politician off screen or only the back of his head, struggling; everything else the same. Prompt 001_S04_SH110_T07.txt = T06 with three edits: the one-sentence camera line (framed on the big man's face while the old man struggles), the 2-5s staging (big man's face toward camera, old man only back of head and shoulder, struggling), the old man's TACTIC (struggles instead of letting himself be lifted). Preflight 35 credits (720p, 5 s), balance 23,239.95. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S04-SH110-T07 approved by Leonard ('ok go'; preflight 35 credits) and submitted: S04 SH110 T07 8236f73c-d5f5-491d-81f1-c5a2b0d069ab, prompts/001_S04_SH110_T07.txt (<<<image_1>>> sent as 'Image 1', palette_afternoon 3bf30eee [ASSUMPTION]), seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, folder S04/SH110."
     }
   ],
   "story_sync": {
