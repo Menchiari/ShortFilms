@@ -10263,9 +10263,9 @@
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": null,
-              "notes": "Generated 2026-11-17 14:01 UTC (draft, story test era) and never logged; found in Higgsfield folder Scenes/S09/SH010 and logged 2026-11-20. Numbered T03 although it is older than T01 and T02. Credits not recorded (cost table: 54 at 480p for 18 s). Unrated; the shot stays approved on T02.",
-              "rating_source": null
+              "rating": 5,
+              "notes": "Generated 2026-11-17 14:01 UTC (draft, story test era) and never logged; found in Higgsfield folder Scenes/S09/SH010 and logged 2026-11-20. Numbered T03 although it is older than T01 and T02. Credits not recorded (cost table: 54 at 480p for 18 s). Unrated; the shot stays approved on T02. Leonard 2026-11-23: 'awesome'.",
+              "rating_source": "inferred"
             },
             {
               "id": "T03",

@@ -4306,6 +4306,10 @@
     {
       "date": "2026-11-23",
       "text": "S09 SH010 T03 PASSED on retry 6 (job 7441ad82, 54 credits, prompt T03_v2), downloaded as takes/S09/SH010/001_S09_SH010_T03.mp4, still made. Retries 1-5 (jobs d4d6dc2f, 31a11aab, 807bf57b, 4de50ea9, a723a667) blocked and refunded. Not yet rated by Leonard."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S09 SH010 T03: 'awesome' (rating 5, inferred). S09 SH010 approved with T03."
     }
   ],
   "story_sync": {
