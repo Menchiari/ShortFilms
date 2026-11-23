@@ -2314,6 +2314,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "Replaces the brake insert in SH180 T01 (Leonard 2026-11-23: he was pressing the brake). Claude's read: wide brake pedal on the left stays empty the whole shot; the shoe sits to its right and tips down slowly, heel on the mat. The accelerator itself is hidden under the shoe, so the press reads from the foot, not the pedal."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "72ad862c-c5e4-4b98-8a89-960b6c2c2f27",
+              "prompt": "05-generation/prompts/001_S02_SH190_T02.txt",
+              "file": "05-generation/takes/S02/SH190/001_S02_SH190_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH190_T02.jpg",
+              "references": [
+                "<<<char_politician 1d544095>>> (element in prompt)",
+                "<<<loc_car-interior efd956ba>>> (element in prompt)",
+                "afternoon color image: uploaded in the Higgsfield UI, not identified"
+              ],
+              "love": false,
+              "notes": "Made by Leonard directly in Higgsfield 2026-11-23 09:32 UTC, folder Scenes/S02/SH190; prompt read from Higgsfield. Credits inferred from the 720p price (7 per second). 1470x630, 4.06 s, audio mean -33.7 dB, peak -17.4 dB (not listened to). Claude's read (frames every 0.5 s): low footwell view; the shoe starts on the right pedal, moves left and presses the wide pedal by about 1 s and holds it; the narrow pedal empty at the right from then on. Prompt asks for a hard brake press. Unrated."
             }
           ],
           "description": "His shoe presses the accelerator, gently.",
@@ -4351,8 +4374,10 @@
                 "<<<loc_side-street 8787643a>>> (element in prompt)",
                 "palette_afternoon 3bf30eee (image_references, sent as Image 1) [ASSUMPTION]"
               ],
-              "love": false,
-              "notes": "REQUEST approved by Leonard ('ok go', preflight 35). T06 prompt with three edits: framed on the big man's face, old man only back of head and shoulder, old man struggling. 1470x630, 5.06 s, audio mean -31.1 dB, peak -12.3 dB (not listened to). Claude's read (frames every 0.5 s): 0-1 s he bends down, a white parked car soft at the left of the street; haul-up about 1-1.5 s; from 1.5 s over the old man's shoulder: the old man is the back of his head and shoulder, his ear and the edge of his nose still visible in some frames; the big man's face three quarters toward camera, sharper and larger in frame than T06. One fist visible at the collar. Teeth bared. Unrated."
+              "love": true,
+              "notes": "REQUEST approved by Leonard ('ok go', preflight 35). T06 prompt with three edits: framed on the big man's face, old man only back of head and shoulder, old man struggling. 1470x630, 5.06 s, audio mean -31.1 dB, peak -12.3 dB (not listened to). Claude's read (frames every 0.5 s): 0-1 s he bends down, a white parked car soft at the left of the street; haul-up about 1-1.5 s; from 1.5 s over the old man's shoulder: the old man is the back of his head and shoulder, his ear and the edge of his nose still visible in some frames; the big man's face three quarters toward camera, sharper and larger in frame than T06. One fist visible at the collar. Teeth bared. Unrated. Leonard 2026-11-23: 'perfect'.",
+              "rating": 5,
+              "rating_source": "inferred"
             }
           ],
           "description": "The fat person grabs him by the collar and hauls him up, face to face. He looks down at the briefcase in the old man's arms.",
