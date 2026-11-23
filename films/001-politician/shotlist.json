@@ -9003,6 +9003,31 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S07-SH070-g. Folder S07/SH070. Passed the filter, draft true. T06 prompt with only char_bigger-guy. Claude's read: the new man reads (heavy, long curly hair, beard, tan t-shirt). Different from T06: a steep low angle again (like T03), the tower only at the left, hazy sky and the sun behind him over the right half; he is centered-right with the bar overhead from 0.5 s. Crowd packed at the lens pointing, old woman in glasses, bald man, red and blue jackets. About 3.4 s the roar, about 3.6 s a fast swing, about 3.75 s thick dark chunks fly up from his head, he falls back out of the bottom of frame by about 4.5 s. Leonard 2026-11-23: try again; the chunks of head are a bit excessive, not realistic."
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 5,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "draft": true,
+              "credits": 15.0,
+              "job_id": "0705da0d-b004-4e5c-8f07-53d751ce382e",
+              "prompt": "05-generation/prompts/001_S07_SH070_T08.txt",
+              "file": "05-generation/takes/S07/SH070/001_S07_SH070_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S07_SH070_T08.jpg",
+              "references": [
+                "char_bigger-guy 1d925d6b (image_references)",
+                "prop_bar-weapon 8d69a591 (image_references)",
+                "loc_square 62815a4f (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S07-SH070-h. Folder S07/SH070. Passed the filter, draft true. T07 with only smaller debris. Claude's read: the debris is now a small, brief spray of dark specks over his head at about 3.9 s, no chunks (subtle at 480p). Steep low angle, the tower at the left and hazy sky with the sun at the right half again. char_bigger-guy reads; bar overhead from about 1 s; the crowd is mostly arms pointing in from both sides, fewer faces than T07. About 3.3 s the roar, about 3.5 s a fast swing, about 3.85 s the hit, his head snaps back and he falls back out of frame by about 4.5 s."
             }
           ],
           "description": "The fat person slowly lifts the pipe high over his head with both hands, taking his time, ready. As he is about to swing: a crack. He drops where he stands, the top of his head split open.",
