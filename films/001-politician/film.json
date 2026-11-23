@@ -4194,6 +4194,10 @@
     {
       "date": "2026-11-23",
       "text": "T03_v8 (job d2680230, without 'tried to kill him' and 'beaten') blocked as nsfw. Ninth block today, control included."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: 'go 4 s fall test, 12 credits'. prompts/001_S09_SH010_T03_test4s.txt = T03_v2 cut to 0-4 s (fall and scream): job ef65e9cb-76fa-41b9-974a-4910f03dbd75, 4 s, 12 credits."
     }
   ],
   "story_sync": {
