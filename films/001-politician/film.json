@@ -3889,6 +3889,54 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S05-SH130-e approved (28 credits quoted, 720p, 21:9, 4 s, omni_reference with loc_side-street e728a9ae): job d305e7db-7507-41b5-bdad-701a4a09b638 rejected by Higgsfield moderation (status nsfw) after about 9 minutes. No credits charged (balance unchanged at 23325.95). Prompt: 05-generation/prompts/001_S05_SH130_T05.txt. Cause unknown."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S04 SH110 T06: too much side by side; same shot, focused on the big guy's face, the politician off screen or only the back of his head, struggling; everything else the same. Prompt 001_S04_SH110_T07.txt = T06 with three edits: the one-sentence camera line (framed on the big man's face while the old man struggles), the 2-5s staging (big man's face toward camera, old man only back of head and shoulder, struggling), the old man's TACTIC (struggles instead of letting himself be lifted). Preflight 35 credits (720p, 5 s), balance 23,239.95. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S04-SH110-T07 approved by Leonard ('ok go'; preflight 35 credits) and submitted: S04 SH110 T07 8236f73c-d5f5-491d-81f1-c5a2b0d069ab, prompts/001_S04_SH110_T07.txt (<<<image_1>>> sent as 'Image 1', palette_afternoon 3bf30eee [ASSUMPTION]), seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, folder S04/SH110."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S05-SH140-f approved (30 credits, 480p, 21:9, 10 s): S05 SH140 T06 6cc70eb7-4dc1-4eda-aac3-ad5236423fc8, English lines in braces. Crowd back to mostly Middle Eastern-looking men; open sky at the left of the wall."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S05-SH130-e resent unchanged (28 credits, 720p): S05 SH130 T05 9a8a08cf-6128-4455-afe4-9b3ba70db3d9. Bigger, nobody leading, the street matches; the crowd reads less diverse than T04."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: S08 SH020 T02 sequel, he just starts shooting, 4 s, 720p, an actual sequel. REQUEST S08-SH020-c prepared, not submitted: SH020 T03 = video_extension forward of T02 (3d341a42), seedance_2_5, 720p, 21:9, 4 s, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T03_extend-forward.txt: two shots (1-2 s and 3-4 s), recoil, flash and smoke torn by the wind, casings on the floor, nothing seen hit below, the lady keeps watching. Preflight 28 credits, balance 23,297.95. Waiting for approval."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S08-SH020-c approved by Leonard ('ok go, 28 credits'): S08 SH020 T03, job c85d6533-6399-4745-a61a-faad43687196, video_extension forward of T02, 720p, 4 s, 28 credits, saved as takes/S08/SH020/001_S08_SH020_T03.mp4 (new 4 s only, continuous with T02's last frame). Two shots at about 0.9 s and 3.1 s. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S05-SH130-f approved (12 credits, 480p): S05 SH130 T06 c5160648-56d6-4a4c-a0c1-98e698a11caa. Asked for about fifteen people; about thirty appear."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S04 SH110 T07 done (35 credits): takes/S04/SH110/001_S04_SH110_T07.mp4, 720p 5 s. Over the old man's shoulder, the big man's face toward camera; a white parked car at 0-1 s. Unrated."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S05-SH130-g approved (12 credits, 480p): S05 SH130 T07 480b0023-85f9-4e9b-be7f-8b2a0891c2d6. About twelve people, mostly men; parked cars far behind."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S04 SH110 T07 rated 5, loved (inferred, Leonard: 'perfect')."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S02 SH190 T02 recorded: Leonard's own Higgsfield run, job 72ad862c, 720p 4 s, brake press insert; file takes/S02/SH190/001_S02_SH190_T02.mp4, prompt saved from Higgsfield. Unrated."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S05 SH130 approved on T07 (Leonard), replacing T03."
     }
   ],
   "story_sync": {
