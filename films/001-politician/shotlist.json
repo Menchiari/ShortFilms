@@ -10049,9 +10049,10 @@
                 "prop_helicopter 7a86dade (element)",
                 "palette_sunset 1f563179"
               ],
-              "love": false,
-              "rating": null,
-              "notes": "REQUEST S09-SH045-a, approved by Leonard 2026-11-23. Not a draft (image input without a video reference): cannot be finalized. 480p (992x432), 7.07 s, 24 fps, audio present (mean -31.2 dB; not listened to). Claude's read from frames every 0.5 s: the crane works as one continuous move from her heels to a close-up of her face, stopping centered; black patent pointed pumps, charcoal suit, white shirt, gold-rimmed sunglasses and ponytail match char_boss; warm sunset backlight, hair moving in the wash. Off brief: at 0 s her right foot is already planted, so there is no step-down from the cabin, only the left foot stepping forward; the ground reads as dusty dirt more than asphalt; the helicopter wheel, step and cabin stay fairly readable through the middle of the crane, softer than sharp but not melted; at the end the helicopter reads olive-khaki rather than matte black. Not yet rated by Leonard."
+              "love": true,
+              "rating": 5,
+              "notes": "REQUEST S09-SH045-a, approved by Leonard 2026-11-23. Not a draft (image input without a video reference): cannot be finalized. 480p (992x432), 7.07 s, 24 fps, audio present (mean -31.2 dB; not listened to). Claude's read from frames every 0.5 s: the crane works as one continuous move from her heels to a close-up of her face, stopping centered; black patent pointed pumps, charcoal suit, white shirt, gold-rimmed sunglasses and ponytail match char_boss; warm sunset backlight, hair moving in the wash. Off brief: at 0 s her right foot is already planted, so there is no step-down from the cabin, only the left foot stepping forward; the ground reads as dusty dirt more than asphalt; the helicopter wheel, step and cabin stay fairly readable through the middle of the crane, softer than sharp but not melted; at the end the helicopter reads olive-khaki rather than matte black. Leonard 2026-11-23: \"perfect\".",
+              "rating_source": "inferred"
             }
           ]
         },
