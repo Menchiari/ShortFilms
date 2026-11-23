@@ -9124,7 +9124,7 @@
               "prompt": "05-generation/prompts/001_S08_SH020_T03_extend-forward.txt",
               "file": "05-generation/takes/S08/SH020/001_S08_SH020_T03.mp4",
               "preview": "",
-              "poster": "",
+              "poster": "05-generation/web/001_S08_SH020_T03.jpg",
               "references": [
                 "extension forward of SH020 T02 (3d341a42)",
                 "char_sniper 8716ad9f (image_references)",
