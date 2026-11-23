@@ -7238,10 +7238,10 @@
               "references": [
                 "T04 b105ecef (video_references, extension forward)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S08-SH010-f. Folder Scenes/S08/SH010. video_extension forward of T04 (b105ecef), 4 s; the file holds only the new 4 s, its first frame matching T04's last (SSIM 0.95). Claude's read: a steady side-view hover, nose right, T04's framing and light; a barely visible float, rotor turning, the man in the door. Joined edit: takes/S08/SH010/001_S08_SH010_T04_cut-from-1s3_plus_T06.mp4 (T04 from 1.3 s, then T06 without its first frame). Audio present; Claude cannot listen, music not verified."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S08-SH010-f. Folder Scenes/S08/SH010. video_extension forward of T04 (b105ecef), 4 s; the file holds only the new 4 s, its first frame matching T04's last (SSIM 0.95). Claude's read: a steady side-view hover, nose right, T04's framing and light; a barely visible float, rotor turning, the man in the door. Joined edit: takes/S08/SH010/001_S08_SH010_T04_cut-from-1s3_plus_T06.mp4 (T04 from 1.3 s, then T06 without its first frame). Audio present; Claude cannot listen, music not verified. Leonard 2026-11-23: perfect (the joined edit, T04 from 1.3 s plus T06)."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
