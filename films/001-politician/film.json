@@ -4114,6 +4114,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: 'go T03_v4, 54 credits'. Filter test 2 (T03_v4 = T03_v2 with char_big-guy instead of char_bigger-guy) submitted: job 02267f8a-3821-4bc6-96e4-4d7a1a1515d9."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S07 SH070 T06: change only the main man to char_bigger-guy. REQUEST S07-SH070-g prepared, not submitted: prompts/001_S07_SH070_T07.txt = T06 word for word except @char_big-guy to @char_bigger-guy (10 places) and his element line traits (long curly hair, full beard, sweat-stained tan t-shirt, brown work trousers instead of curly hair, mustache, worn brown t-shirt, cargo trousers). Media as T06 with @Image1 = char_bigger-guy image 1d925d6b (form of S04 SH120 T07 and SH140 T03). Same settings: 480p, 21:9, 5 s, audio on, draft true, folder S07/SH070. get_cost 15 credits. A new take: the performance re-rolls."
     }
   ],
   "story_sync": {
