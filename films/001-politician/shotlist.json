@@ -4693,10 +4693,10 @@
                 "palette_afternoon 3bf30eee",
                 "no guide clip"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "REQUEST S04-SH120-i, 480p draft (992x432), 6.04 s, audio present (not listened to). T08 plus: already close face to face, no jerk, a second before the line. Claude's read from frames at 6 fps for 0-1.5 s and every 0.5 s after: he is held close from the first frame, no jerk at the start; the clenched-teeth grimace as T08; eyes level until about 4.5 s, then up to the end. Audio quiet until about 0.75 s, then sound (likely the voice) until about 4.5 s: the pause is about 0.75 s, not a full second. The big man's curly hair at the right edge from about 1.5 s."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "REQUEST S04-SH120-i, 480p draft (992x432), 6.04 s, audio present (not listened to). T08 plus: already close face to face, no jerk, a second before the line. Claude's read from frames at 6 fps for 0-1.5 s and every 0.5 s after: he is held close from the first frame, no jerk at the start; the clenched-teeth grimace as T08; eyes level until about 4.5 s, then up to the end. Audio quiet until about 0.75 s, then sound (likely the voice) until about 4.5 s: the pause is about 0.75 s, not a full second. The big man's curly hair at the right edge from about 1.5 s. Leonard 2026-11-23: 'perfect'."
             }
           ],
           "description": "The old man, face to face with him, says nothing.",
