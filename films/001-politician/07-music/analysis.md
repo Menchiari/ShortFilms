@@ -74,6 +74,7 @@ Where music enters, where it must stay silent, what it does to the scene (never 
 | music_clancy-loop_T01_eleven | test, no picture range yet | 30 s | prompts/music_clancy-loop_T01_eleven.txt | 1 (inferred: Leonard "absolute crap") | ElevenLabs Music v2.5, instrumental, 4.36 credits, job c0f2eeaa-8680-49f8-b8ff-c01dabfab778, Higgsfield MUSIC. No-repetition version: 10 different chords, ends on G# major. Level -34 dB 0-11 s, jumps to -19 dB at 12 s, then rises slowly to -17 dB at 28.5 s. mp3 44.1 kHz + wav. |
 | music_hybrid-thriller_T01 | test, no picture range yet | 30 s | prompts/music_hybrid-thriller_T01.txt | 2 (inferred: Leonard "this is what happens when you give no notes" = too vague) | Seedance 2.5, 480p 16:9, 90 credits, job f5e8db80-01bc-4464-bfff-c52e4452355c, Higgsfield MUSIC. Through-composed hybrid (orchestra + electronics) from the 7 Minutes first-part analysis. Level per 3 s: -30, -40, -42, -31, -34, -38, -33, -32, -17, -18, -26 dB: the drop at 13-18 s and the climax at 24-27 s are there. Audio 32 kHz. |
 | music_hybrid-thriller_T02 | test, no picture range yet | 30 s | prompts/music_hybrid-thriller_T02.txt | not rated | Seedance 2.5, 480p 16:9, 90 credits, job 16ce2ae4-bdc2-4646-81b8-08961bb9d49a, Higgsfield MUSIC. Full bar-by-bar score. Measured bass per half bar: C# (bars 1-2), E (3), A/E (4), E (5-6), G/C# (7), G/A (8), G/E (9), B/E (10); score asked G#-G-F#-F-E-D#-D-C#. The C# centre and the final cut (-46 dB at 28.5 s) came through; the falling bass line did not. Audio 32 kHz. |
+| music_hybrid-thriller_T03 | test, no picture range yet | 30 s | prompts/music_hybrid-thriller_T03.txt | not rated | Seedance 2.5 omni_reference, 480p 16:9, 90 credits, job 6800c145-8044-44d8-a5a0-469a7068daca, Higgsfield MUSIC. @audio1 = input/music_hybrid-thriller_T02_sketch (MIDI render of the T02 score, media b7590404). Measured bass per half bar: G#/G, G#-G, F#, F-E, D# (drop), E, D#, D-C#, C#: follows the score except the drop bars 5-6. Chroma correlation with the sketch 0.87 (T02 without reference: -0.01). Waveform correlation 0.05: not a copy of the sketch audio. Timbre not measurable: needs listening. Audio 32 kHz. |
 
 ## Composition plan: music_political-thriller_T03 (Leonard 2026-11-23: orchestra only, no synth, no sfx, exact notes, political thriller not soap opera)
 
@@ -144,4 +145,8 @@ What drives it: pedal basses, half-step clashes (F# vs G, A vs G#), a repeated h
 - Percussion: 0:10-0:35 and 1:20-1:35 very dense, about 11 onsets a second (sixteenths at about 152 BPM); in the loud blocks 0:40-1:10 and 1:50-2:50 sparser, one every 0.2 to 0.4 s.
 - Bass never sits still in the first minute: A1, D2, G#2 to G2, F#2, F3, G2 to F#1. Half steps down. Then a long B1 pedal 1:20-1:50.
 - Top line is fragments, never a repeated tune: C#4 and E4 (0:10), D#5 jumping an octave to D#6 then A#5 (0:30), a held B5 (1:15), C#6 to F#5 (1:30).
+
+## Method that follows the notes (2026-11-23)
+
+Text prompts with exact notes are not followed (music_hybrid-thriller_T02: chroma correlation -0.01 with the score). Writing the score as MIDI (input/*_score.py), rendering it with FluidSynth and the FluidR3 General MIDI soundfont, and giving the render to Seedance 2.5 omni_reference as @audio1 does make it follow (T03: chroma 0.87, bass line matches bar by bar).
 
