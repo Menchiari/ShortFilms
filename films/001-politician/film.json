@@ -3966,6 +3966,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard on S04 SH120 T08: start closer face to face, no jerking, a second before the line; everything else works. REQUEST S04-SH120-i prepared, not submitted: T10 (T09 is Leonard's own run e04730bf), prompts/001_S04_SH120_T10.txt = T08_v2 with three edits: 'follows his small jerks' removed; the twist that jerks him closer replaced by 'already holding him close, face to face with the big man' plus 'The big man says nothing for the first second.'; line timed 1-4.5s. Same media and settings; 18 credits, balance 23010.95."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S04-SH120-i approved (Leonard: \"you can move on\"; 18 credits, 480p draft, 21:9, 6 s) and submitted: S04 SH120 T10 job a91dd45f-1b5e-4580-a9a9-b88dfae719df, prompt T10, folder S04/SH120."
     }
   ],
   "story_sync": {
