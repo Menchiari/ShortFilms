@@ -1481,7 +1481,7 @@
         },
         {
           "id": "SH075",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -1503,10 +1503,10 @@
                 "loc_car-interior element efd956ba",
                 "palette_afternoon 3bf30eee"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Leonard 2026-11-23: new shot, foot from accelerator to brake all at once, as if he saw something. Claude's read: 0-2s the shoe sits on the hidden accelerator right of the empty wide brake; at about 2.0s it lifts, swings left with real motion blur and lands on the brake at about 2.4s, driving it down; 2.4-4s it holds the brake, accelerator visible empty behind. The switch is about half a second later than written. The road shake is mild."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Leonard 2026-11-23: new shot, foot from accelerator to brake all at once, as if he saw something. Claude's read: 0-2s the shoe sits on the hidden accelerator right of the empty wide brake; at about 2.0s it lifts, swings left with real motion blur and lands on the brake at about 2.4s, driving it down; 2.4-4s it holds the brake, accelerator visible empty behind. The switch is about half a second later than written. The road shake is mild. Leonard 2026-11-23: \"perfect\" (rating inferred 5, love)."
             }
           ],
           "description": "His foot jumps off the accelerator and slams the brake.",
