@@ -4154,6 +4154,10 @@
     {
       "date": "2026-11-23",
       "text": "Filter test 3 (T03_v5, sleeping man visible, job 247ceba7) blocked as nsfw, 54 refunded 13:54 UTC. Sixth block for T03. Test 4 (T03_v6 = v5 without the head impact) refused by the session's permission check: each spend needs Leonard's message naming it. A scheduled check that would resubmit by itself was also refused (no scheduled spending)."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "MUSIC REQUEST 007 approved (90 credits) and submitted: music_80s-tension-strings_T03 75622f09-cee1-49e4-a969-1e7910cb7b55. Blocked by the output filter (status nsfw), 90 credits refunded. No file. Second block on the string-section prompts (T02 first run, T03); synth-only prompts never blocked."
     }
   ],
   "story_sync": {
