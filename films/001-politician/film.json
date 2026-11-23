@@ -4162,6 +4162,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 008 approved (\"go\", 90 credits) and submitted after approval (the earlier prompt commit message saying \"submitted\" was wrong): music_80s-tension-strings_T04 f87c2817-1488-4c26-abcc-67fc0cbbee17. Blocked by the output filter (status nsfw), 90 credits refunded. No file. Blocks: T02 first run, T03, T04; all three carry \"No hands, no people in frame\" and \"orchestral string section\". T02 passed once with the same text."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: 'go T03_v7, 54 credits'. T03_v7 = T03_v2 with the 0-2s fall line back to T02's wording. The submit call timed out; the S09/SH010 folder shows job eb4a05c0-af21-4287-b91f-176813d56767 created 14:21 UTC [ASSUMPTION: this is T03_v7, by time]. The folder also holds job 36f24921 (14:00 UTC, not submitted by this session): T02's prompt with char_bigger-guy and 'one subtle victorious stare', also blocked as nsfw, refunded 14:09."
     }
   ],
   "story_sync": {
