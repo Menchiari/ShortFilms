@@ -6752,6 +6752,28 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S05-SH130-d, approved by Leonard at 720p ('ok go, 720'). Folder S05/SH130. T03 prompt with 'bleeding' removed, 'every face in the crowd is clean and unhurt', 15 named faces, the tall Black woman with braids as the final face (Leonard: a new shot without the blood, the crowd even more diverse). Passed first submission. Claude's read: no blood on anyone; a big mixed crowd, every skin tone, nurses in scrubs, the young man in the red hoodie pointing; ends on the woman with braids filling the center. Her face is dark against the backlight. The turns still blur for about half a second each."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "9a8a08cf-6128-4455-afe4-9b3ba70db3d9",
+              "prompt": "05-generation/prompts/001_S05_SH130_T05.txt",
+              "file": "05-generation/takes/S05/SH130/001_S05_SH130_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH130_T05.jpg",
+              "references": [
+                "loc_side-street e728a9ae (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH130-e, approved by Leonard (720p). Leonard on T04: not scary enough, no single person walking toward the camera, the location seems different. First submission d305e7db rejected by moderation (nsfw, no charge); resent unchanged at Leonard's word ('try again prompt unchanged'), passed after about 16 minutes. Claude's read: a huge crowd filling the street wall to wall, nobody leading, closing in at every look; the street now matches loc_side-street (dusty concrete blocks, shutters). Off: the street image pulled the crowd back toward muted grey-brown clothes and mostly brown skin with several bearded men, so it reads less diverse than T04; the frame does not darken at the end."
             }
           ],
           "description": "Faces close in around him, slowly, from every side.",
