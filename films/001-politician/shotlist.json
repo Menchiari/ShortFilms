@@ -8860,6 +8860,33 @@
               "rating": 4,
               "rating_source": "inferred",
               "notes": "REQUEST S09-SH100-a, Higgsfield folder S09/SH100, approved by Leonard ('ok go, 39 credits'), submitted 2026-11-20 after three 429 refusals (nothing charged). One generation for SH100 (0-7 s) and SH120 (7-13 s); SH110 cuts between them. Claude's read from frames (not yet heard): the rack focus works (him sharp at the door, her soft, then her sharp from about 7 s); he limps in from screen right to the door and climbs in; she looks down, turns and walks to the door at the end. Defects: at 4-5 s he looks back over his shoulder toward her and the camera (the note says he never faces her), then turns to profile toward frame left; she stands near center, almost frontal, looking at the lens, not three-quarter toward screen right; she wears sunglasses, so the squint at the money does not read; the helicopter reads dark olive grey, not matte black; few sheets on the street. Audio levels: mean -31.6 dB, peak -11.7 dB. Leonard 2026-11-23: works pretty well; only problem: the helicopter's position. Less city, the helicopter directly behind her, more like the animatic. Her line: as if she knew this would happen, a bit annoyed, this is as good as it gets. Cause: the T01 prompt put the helicopter in the left half of frame. T02: helicopter behind her, line direction; everything else unchanged."
+            },
+            {
+              "id": "T02",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 13,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 39.0,
+              "job_id": "5f745edb-898f-4e14-9c9b-6fda0175fd5f",
+              "prompt": "05-generation/prompts/001_S09_SH100_T02.txt",
+              "file": "05-generation/takes/S09/SH100/001_S09_SH100_T02.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH100_T02.jpg",
+              "references": [
+                "char_boss 7ef41962",
+                "char_politician_final 547bbfa3",
+                "prop_helicopter 6c8efe25",
+                "loc_square 62815a4f",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S09-SH100-b, folder S09/SH100, approved by Leonard ('ok go, 39 credits'), accepted first submission. SH100 (0-7 s) + SH120 (7-13 s). Changes from T01: helicopter directly behind her, her line read as 'I knew this would happen'. Claude's read from frames (not heard): the helicopter now stands behind her, door just left of her, fuselage filling the left half; the open square and towers still fill the right half (less than T01, more than the strip asked). He limps behind her to the door, looks back over his shoulder toward her and the camera at 4-5 s (as in T01), climbs in by 9 s. Her line at about 10-10.5 s: mouth wide, brows up, facing the lens, more open than T01. 11-13 s she turns and climbs in; the framing drifts left at the end. Audio: mean -31.1 dB, peak -9.2 dB."
             }
           ],
           "description": "He limps past her. She doesn't move. At the door he half turns, away from her, and points his chin at the street without a look at her.",
