@@ -4170,6 +4170,10 @@
     {
       "date": "2026-11-23",
       "text": "T03_v7 (job eb4a05c0, fall line as in T02) blocked as nsfw. Seventh block. Every variant since T02 is blocked, including Leonard's own 14:00 job (T02 prompt plus char_bigger-guy). Next decisive test proposed: T02_v3 unchanged as a control; if it is blocked today, the filter changed, not the prompt."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: 'go T02_v3 control, 54 credits'. Control: T02_v3 resubmitted unchanged (passed 2026-11-20 as T02): job 5a0f8eed-3a64-4dcb-88b9-716bd2414526."
     }
   ],
   "story_sync": {
