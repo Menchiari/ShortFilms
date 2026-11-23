@@ -225,7 +225,8 @@
       "S05/SH145": "5445bbdd-9a91-4293-a7f8-1c89181ee331",
       "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af",
       "S06/SH026": "b8e674ec-f71b-4165-a1a1-394664830ade",
-      "S09/SH045": "0579eb40-dbc2-4685-9b4e-1162de708d89"
+      "S09/SH045": "0579eb40-dbc2-4685-9b4e-1162de708d89",
+      "S02/SH190": "07118a9b-17f1-4961-aa82-112127af26ee"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3895,6 +3896,14 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S04-SH110-T07 approved by Leonard ('ok go'; preflight 35 credits) and submitted: S04 SH110 T07 8236f73c-d5f5-491d-81f1-c5a2b0d069ab, prompts/001_S04_SH110_T07.txt (<<<image_1>>> sent as 'Image 1', palette_afternoon 3bf30eee [ASSUMPTION]), seedance_2_5 omni_reference, 720p, 21:9, 5 s, audio on, folder S04/SH110."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S05-SH140-f approved (30 credits, 480p, 21:9, 10 s): S05 SH140 T06 6cc70eb7-4dc1-4eda-aac3-ad5236423fc8, English lines in braces. Crowd back to mostly Middle Eastern-looking men; open sky at the left of the wall."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S05-SH130-e resent unchanged (28 credits, 720p): S05 SH130 T05 9a8a08cf-6128-4455-afe4-9b3ba70db3d9. Bigger, nobody leading, the street matches; the crowd reads less diverse than T04."
     }
   ],
   "story_sync": {
