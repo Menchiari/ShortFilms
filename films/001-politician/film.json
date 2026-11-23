@@ -224,7 +224,8 @@
       "REFS/LOC_square": "d2b24ce2-4349-430b-aa0e-f480c327e3b1",
       "S05/SH145": "5445bbdd-9a91-4293-a7f8-1c89181ee331",
       "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af",
-      "S06/SH026": "b8e674ec-f71b-4165-a1a1-394664830ade"
+      "S06/SH026": "b8e674ec-f71b-4165-a1a1-394664830ade",
+      "S09/SH045": "0579eb40-dbc2-4685-9b4e-1162de708d89"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
@@ -3870,6 +3871,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S05-SH130-d approved (28 credits, 720p, 21:9, 4 s, text only): S05 SH130 T04 2c7d579b-6797-4895-8fbe-42c6df2ce520. No blood, a wider mixed crowd, ends on the woman with braids."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S09 SH045 added (Leonard approved the shot directly): feet touching down from the helicopter, crane up to her face. Higgsfield folder S09/SH045 (0579eb40-dbc2-4685-9b4e-1162de708d89). Prompt 001_S09_SH045_T01.txt written (text + elements, 480p, 7 s, 21 credits quoted). Not generated: waiting for Leonard's approval."
     }
   ],
   "story_sync": {

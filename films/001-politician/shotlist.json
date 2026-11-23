@@ -10021,6 +10021,16 @@
           }
         },
         {
+          "id": "SH045",
+          "status": "approved",
+          "description": "Close on her shoes stepping down from the helicopter onto the asphalt; the camera cranes up her whole body and stops close on her face, serious, waiting, the rotor wash on her.",
+          "framing": "CLOSE on her feet to CLOSE on her face",
+          "movement": "Crane up, one continuous take",
+          "duration_s": 7,
+          "note": "Added and approved by Leonard 2026-11-23 (no screenplay change). Sits after SH040, before SH050; final order in the edit. Everything except her out of focus, very shallow depth of field. Look: ARRI Alexa large format crossed with IMAX, 35mm film grain (Leonard).",
+          "takes": []
+        },
+        {
           "id": "SH050",
           "status": "review",
           "takes": [
