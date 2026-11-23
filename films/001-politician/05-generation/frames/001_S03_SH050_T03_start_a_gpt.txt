@@ -1,0 +1,17 @@
+S03 SH050 T03 start frame, pass A, REQUEST 050i, approved, job 5c384fa5-719e-4218-a9b5-6695afb018b2. gpt_image_2_6 (Sunburst), quality high, 1k, 21:9, Higgsfield folder S03/SH050 44d8f62f-bd10-4da4-8129-f10d7f886a4b. 1.25 credits.
+Image 1 = street plate v2 (job c34fb281, 001_S03_SH050_T01_plate_v2_src.png).
+Leonard 2026-11-22: the city does not look like a real city; the car should be in its lane.
+
+Prompt:
+
+Edit image 1. Keep exactly its camera position, height, angle, lens and framing, the man on the balcony at the left and his railing, and the black sedan itself. Change two things.
+
+First, the car: the same black sedan, nose toward the street at the upper left, now stopped in its own lane, as if it died while driving straight through the crossroads: on the right-hand side of the faded center line of its street, parallel to the lane lines, its driver door facing the camera. It stays about the same size and close to its current place, just right of the center of the frame. Its shadow falls to the right.
+
+Second, the city. The street is a real, lived-in street of a poor, dusty modern town at the edge of the desert, photographed on location, never blocky or simplified: apartment blocks of different heights, from four to nine floors, and of different ages and materials, some faded ochre plaster, some grey concrete, some with old tiles; balconies closed with glass, corrugated plastic or metal grilles, potted plants and clutter on some of them; ground-floor shops with rolled-down dented shutters, faded blank sign boards with no writing, torn awnings; air-conditioner units with rust streaks, satellite dishes, water tanks on the roofs; power and phone cables sagging across the streets; a few old dusty cars parked along the far curbs, all empty and still; a kiosk with its shutter down on one corner; trash bags by a wall. The streets are ordinary streets with one lane each way and wide cracked sidewalks, sand along the curbs. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from screen left; the left building throws its long shadow across the near part of the street; the far streets and the upper floors in warm sun; shade with a faint cool fill from the open sky; dust in the air, not a heavy orange fog. Natural colors: grey asphalt, off-white and ochre walls, faded blues and greens on shutters and balconies. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+Count of people: one, the man on the balcony. Nobody in the street or at the windows. No readable writing, no logos, no laundry, no trees, no palms, no mosque, minaret, dome or flag.
+
+Photographic film still, shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, fine film grain, documentary realism, not CGI.

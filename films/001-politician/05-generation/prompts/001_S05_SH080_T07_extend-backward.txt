@@ -1,0 +1,21 @@
+Audio: only his footsteps on the asphalt, his loud heavy exhausted breathing through his open mouth, the rustle of his suit, two soft taps of his thumb on the phone glass, and the scuffle and murmur of many feet far behind him. He says no words in this part. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 backward: generate the moments before its first frame, ending exactly on its first frame. Keep everything of @Video1: the same old man with the same face, hair, sweat and dust, the same dusty charcoal suit with the same torn right elbow, white shirt and rust tie, the same one briefcase pressed against his chest by his left forearm, the same narrow lane, the same parked cars on both sides, the same low hazy afternoon light from screen right, the same long lens, framing, grain and color. Handheld camera backing away in front of him at his pace, chest-up close shot, as in @Video1. Live-action 35mm film footage, never CGI, never a 3D render.
+
+0-2s: he hurries toward the camera down the middle of the lane, out of breath, the briefcase clamped to his chest by his left forearm, the phone held low in his right hand in front of his chest, the screen lit. He jabs at the screen with his right thumb. Nothing happens. He glares at the screen and jabs again, his thumb slipping on the sweaty glass, still walking fast.
+2-3.5s: he throws one quick look back over his left shoulder at the street behind him, then back down at the phone. He wipes his thumb on his lapel and presses the green call button once, hard. It works.
+3.5-5s: he lifts the phone and presses it to his right ear, still hurrying forward, mouth open, chest heaving, his eyes snapping forward to the street ahead. Final frame: identical to the first frame of @Video1, the phone at his right ear in his right hand, the briefcase against his chest.
+
+ACTING TASK, the old man (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): this call is the only thing left that can get him and the briefcase out of this town.
+GOAL: get the call through, now, before the people behind him close the gap.
+OBSTACLE: he hates making this call, his hands shake, the screen will not answer his sweaty thumb, and every second he looks down the people behind him come closer.
+TACTIC: he attacks the phone as if it were refusing him on purpose: each jab is an order. His eyes split between the screen, hunting for the one button, and the street behind him, measuring how close they are. When it finally works he does not relax: he gets the phone to his ear and his eyes go straight forward, looking for a way out.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The phone screen reads only as a lit dark screen with one green round button: no readable text, numbers or names. Count of people in focus: one, the old man. Count of phones: one, in his right hand. Count of briefcases: exactly one, against his chest. The people far behind him stay soft and out of focus. No cuts, no slow motion, no repeated action, no identity change, no logos.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only his footsteps on the asphalt, his loud heavy exhausted breathing through his open mouth, the rustle of his suit, two soft taps of his thumb on the phone glass, and the scuffle and murmur of many feet far behind him. He says no words in this part. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

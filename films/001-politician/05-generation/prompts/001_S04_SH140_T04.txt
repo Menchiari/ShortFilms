@@ -1,0 +1,49 @@
+Audio: only the soft slide of suit cloth through two hands, the old man's quick running footsteps on gritty asphalt fading away to screen left, the friend's one line from the background, asked in a puzzled voice, not shouted, and the still room tone of a hot side street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@Image1: the old man's hair, build, dusty charcoal suit, white shirt and rust tie only, not his pose or background. @Image2: the fat person's face, hair, build and clothes only, not his pose or background. @Image3: the dark leather briefcase only. @Image4: the side street: its buildings, rolled-down metal shutters, balconies, cracked plaster, cables and street lamps only, not its framing. @Image5: color and light only.
+
+Close handheld shot over the old man's left shoulder in a narrow side street of a desert town: the fat person from @Image2 holds the old man from @Image1 by the collar with both hands, face to face, and the old man shrinks, slides slowly out of the grip and runs away to screen left, while the fat person lets him go and his friend, in the deep street behind them, asks him about it.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun from screen right, above the rooftops. The fat person's face is lit warm and soft from screen right, with warm bounce from the sunlit asphalt filling it from below, his eyes clearly readable. The back of the old man's head and shoulder in the foreground sit in soft shade, a warm rim of sun along his hair and collar. The street behind them is a soft, out-of-focus blur of warm sunlit facades and deep brown shade, with dust hanging in the air. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-1s: close, eye level, handheld and tight, a gentle breathing sway. The old man fills the left third of the frame in the foreground, seen from behind over his left shoulder, the back of his head and his dusty shoulder sharp and close, his face turned away to screen right toward the fat person. The fat person stands at screen right, center right, facing screen left, his face and chest in frame, both his hands gripping the old man's collar, one on each lapel, his two forearms in frame. The briefcase from @Image3 is hugged to the old man's chest with one arm, below frame; his other hand lightly holds the fat person's wrist. Behind them, deep down the street and out of focus, his friend stands between them, small in frame, his phone held in both hands at his chest. The old man slowly lowers his head and drops his shoulders, shrinking down inside his jacket, and the collar starts to slide up through the fat person's two hands.
+1-2s: still slowly, almost politely, the old man keeps sinking and eases his body down and to the left, out from under the hands: both of the fat person's hands open, fingers loose, and the lapels slide out of them; his two open hands stay in the air for a moment, palms toward each other at chest height, and he does not reach after him. The old man's head and shoulder drop out of the bottom left of frame. No pushing, no pulling, no blow.
+2-3s: off screen at the left, the old man turns and runs back the way he came, his quick footsteps heard going away to screen left. The fat person stays where he stands, his two open hands lowering slowly to his sides, his eyes following the old man off to screen left. The camera holds on him, the same framing, a slight handheld drift toward screen left with his eyes, then settles. In the background, the friend lowers his phone to his chest and takes two slow steps toward the fat person, looking from the fat person to the empty street and back, puzzled.
+3-4s: the friend asks his line of the fat person from the background, at a normal speaking volume, his free hand opening at his side, palm up. The fat person keeps his mouth closed and does not turn to the friend, his eyes still on the street at screen left. Final frame: the fat person alone at center right in close-up, facing screen left, both hands down at his sides; the left half of the frame open, empty street, soft and out of focus; the friend small and soft in the background, standing still, his eyes on the fat person, his phone at his chest.
+
+Dialogue, English:
+3-4s, the friend's line, from the background (puzzled, asking him, not shouting): {You let him get away?}
+Everyone else keeps their mouth closed for the whole shot.
+
+ACTING TASK, the fat person (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day on a hot street: nobody here wants a scene in front of the whole neighbourhood.
+MOTIVE (his fuel): he grabbed the most hated man on television to make him answer, and the faces at the windows are now watching him do it.
+GOAL: get an answer out of this man, a real one, face to face.
+OBSTACLE: the old man gives him no fight to push against, only a polite, almost apologetic retreat, and holding a frail old man by the collar in front of the windows starts to look like his own shame, not the old man's.
+TACTIC: he searches the old man's face for the answer he demanded, waiting for a word, a defiance, anything to hold on to; finding only courtesy, he opens both hands and lets the collar go rather than drag an old man, the bigger man letting a pathetic old man off, a look of contempt and pity, and his eyes follow him down the street, measuring how far he gets and what he has just let happen.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the old man (he is fully invested in his tactic; his face is never seen, the work happens in his shoulders and head):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: get out of this grip and away with the briefcase, without giving anyone a reason to strike him.
+OBSTACLE: two hands on his collar, a big body a step away, and windows full of watching faces.
+TACTIC: he makes himself small and harmless, a courteous little bow of the head and shoulders, offering nothing to fight, and slides out the moment the hands loosen; then he runs.
+
+ACTING TASK, the friend (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): just another day on a hot street: nobody here wants a scene in front of the whole neighbourhood.
+MOTIVE (his fuel): he filmed the man and already sent it out; now the man is gone.
+GOAL: understand what his friend just did.
+OBSTACLE: his friend is bigger than him and still staring down the street, and he does not want to start a fight with him.
+TACTIC: he asks, he does not accuse: his eyes go from the empty street to his friend's face and stay there, looking for the reason.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The friend (keep him exactly like this): a thin man in his late twenties, short black hair, clean-shaven, an olive green short-sleeved shirt, faded blue jeans, a black smartphone held in both hands.
+
+Count of people: three, the old man, the fat person and the friend. Count of briefcases: one, with the old man, gone with him. Nobody else on the street. No violence: no punch, no shove, no struggle. The old man's face never turns to the camera. Everything is real, live-action footage, never a 3D render.
+
+Unplaceable town: no landmark, no flag, no readable writing on any sign, shutter or wall, no logos. No laundry, no trees, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the soft slide of suit cloth through two hands, the old man's quick running footsteps on gritty asphalt fading away to screen left, the friend's one line from the background, asked in a puzzled voice, not shouted, and the still room tone of a hot side street. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

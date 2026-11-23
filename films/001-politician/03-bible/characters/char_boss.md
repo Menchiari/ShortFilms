@@ -1,4 +1,4 @@
-<!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 6 -->
+<!-- written by tools/storysync.py from stories/politician/elements.md: edit the source, not this file. order: 9 -->
 # char_boss
 
 The business lady (S08 to S10)

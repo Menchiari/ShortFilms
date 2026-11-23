@@ -1,0 +1,8 @@
+REQUEST 050p, approved, job 22e27dce-3e93-4e87-86d6-92b815b4b0fc: S03 SH050 T05_edit. seedance_2_5, mode video_edit, 720p, audio on, folder S03/SH050. Video 1 = T05 cut 8.0-12.0 s (media e0554564, takes/S03/SH050/001_S03_SH050_T05_cut0812.mp4). Image 1 = Leonard's start frame (media 6cd1367b), for the balcony man's face only. 30 credits. The edited 4 s go back into T05 only in the area of the man on the balcony (composite), so nothing else in the shot changes.
+Leonard 2026-11-22: when the man on the balcony turns, he has the politician's face; give him an Asian face, he says nothing; only that.
+
+Prompt:
+
+Edit video 1. Change only the face of the man on the balcony at the left, in the white sleeveless undershirt: when he turns his head toward the camera, his face is the old Korean man of image 1: an old East Asian man in his late sixties, lean face, sun-browned skin, thin grey hair combed back over a balding crown. His mouth stays closed the whole time: he says nothing. Keep everything else in video 1 exactly as it is: his body, his movement and timing, the cigarette, the balcony, the street, the car, the other man, the camera, the light and the color.
+
+Audio: only the near silence of an empty town from high above: a faint dry wind, footsteps on grit far below. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

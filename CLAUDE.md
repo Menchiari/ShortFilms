@@ -28,9 +28,18 @@ follows these rules. They override habits and defaults.
    enforces it. Big masters and intermediates live in the film's `_local/` folder (gitignored).
 6. **No Git LFS.** By the user's decision.
 7. **Never use the em dash character** in any file or message. Use a hyphen, a colon or a period.
+8. **Anything that runs by itself or uses a quota** (a workflow, a schedule, a script that pushes
+   or calls a paid service): before adding or changing it, show Leonard the arithmetic: events a
+   day with every session running at once, cost per event, monthly total against the limit. The
+   worst case stays under half the limit and is capped by the system itself (schedule, time
+   limit, budget), never by a rule sessions must remember. Leonard approves it like credits.
 
 ## How to work
 
+- **Change only what Leonard asks** (Leonard, 2026-11-22). Fixing a prompt means editing only the
+  words that carry the requested change; every other word stays identical, so versions can be
+  compared and tweaked. No rewrites, no extra fixes, no new wording unless the change needs it.
+  Other problems you notice: at most one short line each, not applied. Keep every message short.
 - Anything Leonard will paste or run (prompts, commands, text) is given whole, ready to copy,
   every time it changes. Never a fragment to swap into an earlier version.
 - Follow `PIPELINE.md` stage by stage. Each stage writes its output into the film folder.
@@ -54,6 +63,9 @@ follows these rules. They override habits and defaults.
   and commit. **Every take goes into git, loved or not** (user decision 2026-11-10: scraps can be
   reused). Watch the repository size with `filmtool.py status` and tell the user before it nears
   GitHub's 5 GB guidance.
+- An edited version of a take (cleanup, flip, join, comp, upscale) is a take of its own: it sits in
+  the shot's `takes/` folder, its id is its file suffix (`T06_v2`, `T02_join`), mode `edit` or
+  `comp`, the source take in `references`. A file named only in notes never reaches the site.
 - **Show every generated file in the chat, always** (user decision 2026-11-18): right after the
   download, send it with `SendUserFile` (`display: "render"`), every video, still and audio take.
   A take that is not shown in the chat counts as not delivered.
@@ -75,11 +87,10 @@ follows these rules. They override habits and defaults.
   skill. Review every stage with the `braintrust` subagent.
 - Stories live in `stories/<slug>/`, one file per stage, versions in git. The site never reads
   `stories/`.
-- A pushed branch that changes only `stories/`, `films/` and `films-index.json` is merged into
-  main automatically by `.github/workflows/film-sync.yml` (`tools/mergebranches.sh`: film JSON
-  merged by structure, append-only logs keep both sides), and the site redeploys: no pull request
-  needed. Keep story and production work on their own branch, without tool or doc changes. The
-  run log names any branch it could not merge (a real conflict, or `filmtool check`): tell the
+- Push every commit directly to `main` (Leonard, 2026-11-22): no new branches, no pull requests.
+  Pull main first, `git pull --rebase` before each push; on a conflict in film JSON keep both
+  sides (append-only logs keep every entry). Older branches are still merged by
+  `.github/workflows/film-sync.yml`; its run log names any branch it could not merge: tell the
   user and fix it.
 - A story becomes a film only when the user says so: `python3 tools/filmtool.py new "Title"`, then
   the locked screenplay is copied (never moved) into the film's `01-story/source/` and PIPELINE.md
@@ -107,7 +118,7 @@ follows these rules. They override habits and defaults.
   credits. Audio and bitrate mode do not change the price.
 - The user works on a PC (Windows) and a Mac, DaVinci Resolve Free. Each computer has its own
   light clone on whichever of its own drives has room, with only the film in progress; paths
-  differ per computer (Resolve Mapped Mount or relink). PC clone: `D:\ShortFilms`. Mac: not set up yet. User-facing commands: `python` on
+  differ per computer (Resolve Mapped Mount or relink). PC clone: `D:\ShortFilms`. Mac clone: `/Volumes/Rapid Joe/ShortFilms` (external drive, GitHub Desktop). User-facing commands: `python` on
   Windows (PowerShell), `python3` on Mac.
 - `films-index.json` (film sizes for `filmtool space`) is refreshed by `filmtool check`: commit it.
 

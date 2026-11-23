@@ -1,0 +1,43 @@
+REQUEST 050o, approved, job 9aa01c20-a233-4265-bd5b-7ceebe49578a: S03 SH050 T05. The T04 prompt (050n) with one change: Count of cigarettes: one (T04 showed two). Same start frame (media 6cd1367b), seedance_2_5, omni_reference, 14 s, 720p, 21:9, audio on, folder S03/SH050. 98 credits.
+
+Prompt:
+
+Audio: only the near silence of an empty town from high above: a faint dry wind, the click of the driver door latch, the creak of the door hinge, his small far voice, his shoes on grit, and the smoker's slow exhale close by. No engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Image 1 is the exact first frame. Keep the camera position, height and steep downward angle, the framing, the crossroads and its buildings, the black sedan and its position, the man on the balcony at the far left, the light and the color exactly as they are in image 1. <<<1d544095-f1c6-4865-8e97-e09dbadcabc7>>> is the old man: face, hair, build, charcoal suit, white shirt and rust tie only, not his pose or background. <<<1f5eb35a-c180-4c28-a0ca-3b4ac49ec939>>> is the briefcase: the dark leather briefcase only, not its background.
+
+Seen from high on a balcony across an empty crossroads in a desert town, the old man opens the door of his dead car, peeks out, looks around, takes his briefcase and walks away down the street on the left, while the man on the balcony in the foreground smokes and watches: one locked-off extreme wide shot with a slight handheld drift.
+
+The street is a real, lived-in street photographed on location, never blocky or simplified, exactly as in image 1: apartment blocks of different heights and materials, cracked plaster, dented shutters, faded blank sign boards, sagging cables, chipped curbs, sand along the walls, a few old dusty cars parked empty and still along the far curbs. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only: a low hazy afternoon sun at the far end of the long street at the upper left, behind the buildings, facing the camera; long soft shadows fall toward the camera across the street; the car and the near street in warm shade, the sunlit facades and the far street glowing in the haze; the old men's faces and shirts lit by warm bounce from the sunlit street; dust in the air. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-4s: extreme wide, high, framing from image 1. Camera: locked-off with a very slight, slow handheld drift, as if held by someone standing on the balcony; it never pans, tilts or zooms, and the car stays just right of the center of frame, in the lower half, for the whole shot. The car sits alone and still in its lane in the empty crossroads, all doors closed. Nothing moves in the street. At the far left the old Korean man on the balcony leans on his forearms on his railing, looking down at the car. At 1 second he lifts the cigarette, takes one short drag, lowers his hand back onto the railing and at 3 seconds lets the smoke out in one easy breath; the thin smoke drifts up and to the left, away from the car.
+4-6s: only the front driver door of the car, on the side facing the camera, opens slowly outward a little way, then wider, and stays open. The other three doors and the trunk stay closed for the whole shot.
+6-9s: the old man leans out past the open door, his head and shoulders out of the car, small and far below, and looks around: first up the street ahead of the car, then across to the corner buildings and up at the windows and balconies, then back over the roof of the car.
+9-11s: he ducks back in and comes out holding the briefcase in his right hand. On the balcony the old Korean man taps the ash off his cigarette on the coffee tin, his eyes on the car. He gets out and stands by the car, then steps back around the rear edge of the open door, toward the trunk, never through the gap between the door and the car. He leaves the door open.
+11-13s: he walks away from the car toward screen left, toward the street on the left side of the frame, at a steady walking pace, never running, the briefcase in his right hand, his back half to the camera. On the balcony the old Korean man takes a second short drag and rests his hand back on the railing.
+13-14s: still walking, the old man pulls the briefcase up against his chest with both arms, awkwardly, the case crooked, one corner digging under his chin, hugging it like something that might be taken from him. Final frame: the car still in the same place with its driver door wide open, the old man small and far, a few car lengths to the left of the car, still walking left with the briefcase clutched to his chest, the man on the balcony at the far left still leaning on his forearms, watching him go, the camera in its first position.
+
+Language: American English with a slight accent nobody can place. His voice is small and far away, heard faintly from high above, low and tired, never projected.
+9-10s, the old man's line (refusing the place): {Not here, no...}
+The man on the balcony keeps his mouth closed.
+
+ACTING TASK, the old man (he is fully invested in his tactic; at this distance the work is in his head and body):
+SCENE DIRECTION (shared, unspoken): just another day, another fight: get through it and stay focused.
+MOTIVE (his fuel): what he carries in the briefcase has to reach the other side of this town, and he has never once stopped halfway through a fight.
+GOAL: get out of this open crossroads with the case before anyone sees his face.
+OBSTACLE: the car is dead in the most exposed spot in town, every window above could hold a watcher, and on foot he is slower and visible from all sides.
+TACTIC: he reads the crossroads the way he reads a hostile room: his head sweeps each street and each line of windows, measures it and dismisses it, then he decides in one beat and goes, taking only the case, leaving the car as if it never mattered, walking, not running, so that nothing about him draws a glance.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the old Korean man on the balcony (silent):
+TACTIC: he decides whether the stranger below is worth anything to him; he watches without hurry, only his head following the old man, smoking the way a man smokes every afternoon of his life, a short drag now and then, the cigarette mostly resting in his fingers, never calling out, keeping what he sees for himself.
+
+Count of moving cars: none; the black sedan and the parked cars never move. Count of people: two, the old man and the man on the balcony. Count of briefcases: one. Count of open doors: one, the front driver door. Count of cigarettes: one, always the same one. Nobody in the street, at the windows or on the other balconies. The man on the balcony stays in profile as in image 1, his face turned toward the street, and never moves in front of the car.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the near silence of an empty town from high above: a faint dry wind, the click of the driver door latch, the creak of the door hinge, his small far voice, his shoes on grit, and the smoker's slow exhale close by. No engine. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
