@@ -4106,6 +4106,10 @@
     {
       "date": "2026-11-23",
       "text": "Filter test 1 (T03_v3, job c92cde2f) blocked as nsfw, 54 refunded 13:25 UTC. The head impact alone is not the trigger. Fourth block for T03."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "MUSIC REQUEST 006 approved (90 credits) and submitted: music_80s-tension-strings_T02 238c0c52-7ae1-470f-a046-b05e64e1b02c. Blocked by the output filter (status nsfw), 90 credits refunded. No file."
     }
   ],
   "story_sync": {
