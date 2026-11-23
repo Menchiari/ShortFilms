@@ -226,7 +226,8 @@
       "S05/SH115": "34c4ddfb-cf4e-47a9-b576-9d961ccf31af",
       "S06/SH026": "b8e674ec-f71b-4165-a1a1-394664830ade",
       "S09/SH045": "0579eb40-dbc2-4685-9b4e-1162de708d89",
-      "S02/SH190": "07118a9b-17f1-4961-aa82-112127af26ee"
+      "S02/SH190": "07118a9b-17f1-4961-aa82-112127af26ee",
+      "S02/SH075": "5020ce15-c502-457e-96d4-1c9c9e887de1"
     },
     "elements_note": "Leonard 2026-11-20: an element goes into the prompt as <<<element_id>>>, never its image job in medias (works on seedance_2_5: S09 SH010 T02, job 7414bb42). The image ids below are for reference only. Rules: docs/PROMPTING.md step 2.",
     "elements": {
