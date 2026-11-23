@@ -3998,6 +3998,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S10-SH010-g approved by Leonard ('if you didn't start start', 30 credits) and submitted: S10 SH010 T06, job cb192262-0452-432c-aaed-e0b59b356146, forward extension of T04, prompt 001_S10_SH010_T05_extend-forward_v2.txt, 480p, 10 s, folder S10/SH010."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S09 SH010, try again with only these changes: the man on the floor is char_bigger-guy, facing the other way, only his feet showing; a real, hard fall that hurts to watch, not a 1920s stunt bounce; he is a bit happy when he realizes he is alive; no spit, a look that says 'I won, you fucker'. REQUEST S09-SH010-e prepared, not submitted: prompts/001_S09_SH010_T03.txt = T02_v3 with those four changes only; elements char_politician_final, loc_square, char_bigger-guy 4017a781, prop_bar-weapon; palette_sunset image; 480p, 21:9, 18 s, audio on, 54 credits (free quote). main merged into s09-sh010."
     }
   ],
   "story_sync": {
