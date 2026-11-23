@@ -52,7 +52,7 @@ Where music enters, where it must stay silent, what it does to the scene (never 
 | music_political-thriller_T03 | test, no picture range yet | 30 s | prompts/music_political-thriller_T03.txt | not rated | Resubmit of the blocked job, prompt unchanged: passed. Seedance 2.5, 480p 16:9, 90 credits, job b8e780e9-65ed-4f44-a34f-a1f299fe4287, Higgsfield MUSIC. Composed: D minor 80 BPM, strings and two horns. Audio 32 kHz. |
 | music_7min-style_T01 | test, no picture range yet | 30 s | prompts/music_7min-style_T01.txt | not rated | Seedance 2.5, 480p 16:9, 90 credits, job d1dae924-69e2-4778-9a03-2c2f1b9ccbcc, Higgsfield MUSIC. Built on the 7 Minutes reference analysis. Level -37 dB 0-11 s, rises to -24 dB at 18 s, holds to 26 s, then drops to -44 dB at 28.5 s: the planned loudest point at 24-30 s did not happen. Audio 32 kHz. |
 | music_clancy-loop_T01 | test, no picture range yet | 30 s | prompts/music_clancy-loop_T01.txt | not rated | Seedance 2.5, 480p 16:9, 90 credits, job 515721f5-4d4a-4bae-8ced-cb92f7c5c59f, Higgsfield MUSIC. Orchestral military version of the 7 Minutes 3:22 loop (B-flat minor, F#, G, C#), 80 BPM asked. Level -39 dB at the start, pulsing every 3 s (-29 / -35 dB), rising to -19 dB at 27 s. Audio 32 kHz. |
-| music_clancy-loop_T01_eleven | test, no picture range yet | 30 s | prompts/music_clancy-loop_T01_eleven.txt | not rated | ElevenLabs Music v2.5, instrumental, 4.36 credits, job c0f2eeaa-8680-49f8-b8ff-c01dabfab778, Higgsfield MUSIC. No-repetition version: 10 different chords, ends on G# major. Level -34 dB 0-11 s, jumps to -19 dB at 12 s, then rises slowly to -17 dB at 28.5 s. mp3 44.1 kHz + wav. |
+| music_clancy-loop_T01_eleven | test, no picture range yet | 30 s | prompts/music_clancy-loop_T01_eleven.txt | 1 (inferred: Leonard "absolute crap") | ElevenLabs Music v2.5, instrumental, 4.36 credits, job c0f2eeaa-8680-49f8-b8ff-c01dabfab778, Higgsfield MUSIC. No-repetition version: 10 different chords, ends on G# major. Level -34 dB 0-11 s, jumps to -19 dB at 12 s, then rises slowly to -17 dB at 28.5 s. mp3 44.1 kHz + wav. |
 
 ## Composition plan: music_political-thriller_T03 (Leonard 2026-11-23: orchestra only, no synth, no sfx, exact notes, political thriller not soap opera)
 
@@ -116,4 +116,11 @@ Measured with librosa and ffmpeg (file kept out of git: commercial recording). M
 | L | 6:34-6:46 | -22 dB | A minor, last low E hit | outro |
 
 What drives it: pedal basses, half-step clashes (F# vs G, A vs G#), a repeated high C#, and in section G a 4-chord loop with a tritone (G inside C#) that repeats while the level rises 11 dB.
+
+### First part in detail (0:00-2:50): pitch tracking on the harmonic layer, bass tracking, percussive onsets per 10 s
+
+- A middle G (G3) sounds almost all the time under everything: a drone. Against the C# centres of the track it is a tritone.
+- Percussion: 0:10-0:35 and 1:20-1:35 very dense, about 11 onsets a second (sixteenths at about 152 BPM); in the loud blocks 0:40-1:10 and 1:50-2:50 sparser, one every 0.2 to 0.4 s.
+- Bass never sits still in the first minute: A1, D2, G#2 to G2, F#2, F3, G2 to F#1. Half steps down. Then a long B1 pedal 1:20-1:50.
+- Top line is fragments, never a repeated tune: C#4 and E4 (0:10), D#5 jumping an octave to D#6 then A#5 (0:30), a held B5 (1:15), C#6 to F#5 (1:30).
 
