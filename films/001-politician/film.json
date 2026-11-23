@@ -4218,6 +4218,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: 'go T01, 54 credits'. T01 resubmitted unchanged as a filter test (same prompt and media as job 5a4fd608): job d882e475-d32c-42d9-8530-7b6541c16d4d."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "T01 resubmitted unchanged (job d882e475) blocked as nsfw. T01 passed on 2026-11-19 at first try and T02 on 2026-11-20; today every version of S09 SH010 is blocked (12 jobs). The filter changed, not the prompts."
     }
   ],
   "story_sync": {
