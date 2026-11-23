@@ -4110,6 +4110,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 006 approved (90 credits) and submitted: music_80s-tension-strings_T02 238c0c52-7ae1-470f-a046-b05e64e1b02c. Blocked by the output filter (status nsfw), 90 credits refunded. No file."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: 'go T03_v4, 54 credits'. Filter test 2 (T03_v4 = T03_v2 with char_big-guy instead of char_bigger-guy) submitted: job 02267f8a-3821-4bc6-96e4-4d7a1a1515d9."
     }
   ],
   "story_sync": {
