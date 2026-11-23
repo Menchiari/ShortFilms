@@ -4430,6 +4430,10 @@
     {
       "date": "2026-11-23",
       "text": "music_80s-action-synth_T11_comp rated 1 (inferred: Leonard \"what the fuck is this... no absolutely not. this is not how you edit music, just putting the pieces like that cut as lego\"). Lesson: parts from different generations differ in tone, mix and arrangement; splicing them on bar lines reads as a collage. A music edit keeps one recording and changes as little as possible."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Built music_80s-action-synth_T12_v9edit (0 credits), 37.0 s, one recording: T02_end 0-10.98 s; T09 drums 0-5.98 s from 4.96 s (build only, its final hit left out); T10 v9 whole from 7.95 s (its swell over the build, its own first hit at 10.98 s), uncut for 6 bars, cut at its 21.02 s (before its ending) = 28.97 s; T09 chord at 28.98 s; limiter -1 dB. Tuning: v9 E2 at +15 cents, T02 +5, chord +6 (within 10 cents). Level does not jump at 10.98 s (drum build -15/-16 dB, v9 -15 dB). Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
