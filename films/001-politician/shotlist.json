@@ -8940,6 +8940,30 @@
               "rating": 4,
               "notes": "REQUEST S08-SH020-b, approved 'ok go, 12 credits'. Folder Scenes/S08/SH020. Claude's read from frames: starts on the v3 start frame (slightly reframed); lady in the left front seat, pilot right, rifle out of the door at the right edge, door empty, low sandy town, sun at right; the framing sways and widens a little over the 4 s. Roger's smile does not read: his mouth stays hidden behind his cheek and the stock. Audio mean -30.7 dB; spectrum shows broadband noise with regular rotor-like pulses and no tonal lines, so no sign of music, but Claude cannot listen. Leonard 2026-11-19: looking good.",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "c85d6533-6399-4745-a61a-faad43687196",
+              "prompt": "05-generation/prompts/001_S08_SH020_T03_extend-forward.txt",
+              "file": "05-generation/takes/S08/SH020/001_S08_SH020_T03.mp4",
+              "preview": "",
+              "poster": "",
+              "references": [
+                "extension forward of SH020 T02 (3d341a42)",
+                "char_sniper 8716ad9f (image_references)",
+                "char_boss 7ef41962 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S08-SH020-c, approved 'ok go, 28 credits'. Folder Scenes/S08/SH020. Sequel of T02: returns only the new 4 s (96 frames, 1458x634, 24 fps). Its first frame matches T02's last frame. Claude's read from frames and waveform: two shots, audio transients at about 0.9 s and 3.1 s (max -3.3 dB, mean -24.7 dB); recoil jolts the frame on both, smoke at the muzzle and a casing in the air at about 3.0 to 3.3 s; the lady stays in the left front seat looking down, the pilot flies, the door stays empty. Not listened to; music unchecked by ear. Cut note: T02 is 480p, T03 720p."
             }
           ],
           "description": "ROGER, harnessed in, cheek on the stock of a long rifle, his face on the left. He is smiling. Beyond him, in the front seat beside the pilot, the BUSINESS LADY, a headset over her hair. On the right, the front half of the rifle runs out of frame toward the open door.",

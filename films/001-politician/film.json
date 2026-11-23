@@ -3891,6 +3891,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: S08 SH020 T02 sequel, he just starts shooting, 4 s, 720p, an actual sequel. REQUEST S08-SH020-c prepared, not submitted: SH020 T03 = video_extension forward of T02 (3d341a42), seedance_2_5, 720p, 21:9, 4 s, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T03_extend-forward.txt: two shots (1-2 s and 3-4 s), recoil, flash and smoke torn by the wind, casings on the floor, nothing seen hit below, the lady keeps watching. Preflight 28 credits, balance 23,297.95. Waiting for approval."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S08-SH020-c approved by Leonard ('ok go, 28 credits'): S08 SH020 T03, job c85d6533-6399-4745-a61a-faad43687196, video_extension forward of T02, 720p, 4 s, 28 credits, saved as takes/S08/SH020/001_S08_SH020_T03.mp4 (new 4 s only, continuous with T02's last frame). Two shots at about 0.9 s and 3.1 s. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
