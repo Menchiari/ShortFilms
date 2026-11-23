@@ -10244,28 +10244,29 @@
             },
             {
               "id": "T03",
-              "date": "2026-11-17",
+              "date": "2026-11-23",
               "model": "seedance_2_5",
               "mode": "omni_reference",
               "duration_s": 18,
               "resolution": "480p",
               "aspect": "21:9",
               "audio": true,
-              "credits": null,
-              "job_id": "f885e1c5-df63-4290-a5cb-cf83c78c8a41",
-              "prompt": "05-generation/prompts/001_S09_SH010_T03.txt",
+              "credits": 54.0,
+              "job_id": "7441ad82-700a-468e-b1dd-1cb0332164c0",
+              "prompt": "05-generation/prompts/001_S09_SH010_T03_v2.txt",
               "file": "05-generation/takes/S09/SH010/001_S09_SH010_T03.mp4",
               "preview": "",
               "poster": "05-generation/web/001_S09_SH010_T03.jpg",
               "references": [
                 "char_politician_final f4279c8f (element)",
-                "char_big-guy f5cc12be (element)",
+                "loc_square 4eff3268 (element)",
+                "char_bigger-guy 4017a781 (element)",
+                "prop_bar-weapon 37fe2cf2 (element)",
                 "palette_sunset 1f563179 (image_references)"
               ],
               "love": false,
-              "rating": 5,
-              "notes": "Generated 2026-11-17 14:01 UTC (draft, story test era) and never logged; found in Higgsfield folder Scenes/S09/SH010 and logged 2026-11-20. Numbered T03 although it is older than T01 and T02. Credits not recorded (cost table: 54 at 480p for 18 s). Unrated; the shot stays approved on T02. Leonard 2026-11-23: 'awesome'.",
-              "rating_source": "inferred"
+              "rating": null,
+              "notes": "Leonard's four changes (char_bigger-guy face down, only boots in frame; a hard real fall; happy to be alive; a winner's look instead of the spit), prompt T03_v2 (element names, no 'old man'). Passed on retry 6 of Leonard's series of 10, after 17 filter blocks today on T01, T02_v3, T03 and its variants (all refunded). Claude's read (frames at 1 fps, not listened): the sleeping man's boots and the rusty pipe in the left foreground, his body out of frame; the man drops in upside down at 0-1 s and lands by the curb, curls up facing camera holding his head 1-6 s, rolls and drags himself to the curb 6-9 s, leans back with one knee up and looks at the sky 10-12 s, a broad smile 12-15 s, turns toward the boots, gets onto one knee at 17-18 s. Asphalt dry."
             },
             {
               "id": "T03",
