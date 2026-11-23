@@ -4070,6 +4070,10 @@
     {
       "date": "2026-11-23",
       "text": "S10 SH010 T08 rated 1 (inferred). REQUEST S10-SH010-j prepared, not submitted: T09, forward extension of T04, prompts/001_S10_SH010_T09_extend-forward.txt = T08 with three changes: silhouette-only dog description (no coat or face details), place and size anchored to things in the frame (at the foot of the tall square building under the sun, smaller than the sun disc, never closer), entry from a side street at the very far end. 480p, 12 s, 36 credits, balance 22602.95. Waiting for approval."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: he is not an old man; name him by the element; fix only the essential and try again. prompts/001_S09_SH010_T03_v2.txt = T03 with every 'old man' replaced by the char_politician_final element placeholder ('beaten old man' > 'beaten man'), nothing else changed. Submitted on Leonard's 'try again' (same settings and media, 54 credits): job d8c4d594-83cb-4f7a-8ffb-20720d7515a1."
     }
   ],
   "story_sync": {
