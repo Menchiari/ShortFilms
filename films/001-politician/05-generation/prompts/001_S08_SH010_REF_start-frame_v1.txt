@@ -1,0 +1,17 @@
+Image 1: a rough line drawing, not a picture: take only the camera position and angle, the framing, where the two buildings and their edges sit in frame, and the position and size of the helicopter in the sky. Take nothing else from it: not its lines, its blank white areas, its flat boxy shapes or its toy-like helicopter. Image 2: the buildings of the town: their cracked ochre plaster, concrete balconies, windows and flat rooftops only, not its camera angle, framing, people, cars or lamp. Image 3: color and light only.
+
+A real photograph, a still from 35mm film shot on location in a dusty desert town at sunset, 21:9. Low-angle extreme wide shot on a long lens, looking up from the street between two apartment blocks into a wedge of sunset sky.
+
+Framing, exactly as in image 1: a tall apartment block very close at screen left, seen from below at an angle, filling the left third of frame from top to bottom, its rows of jutting concrete balconies receding toward the right. The right two thirds of frame hold a lower apartment block: its flat roof edge runs diagonally up from the lower middle of frame to the upper right, with a row of windows and small balconies under it, and the corner of a third block at the far right edge. The open sky fills the wedge between them.
+
+The helicopter: in the sky in the upper middle of frame, just left of center, above the diagonal roof edge, small, about one sixth of the frame width, far away and high above the rooftops. A real Sikorsky UH-60 Black Hawk, matte black, unmarked, no numbers, no insignia: long low fuselage, two engine housings on top, four-blade main rotor blurred by its spin, a tall tail with its tail rotor. A solid, three-dimensional machine: side view with its nose to screen left, turned slightly toward the camera so its nose and side recede in perspective. Its sliding side door facing the camera is open; in the doorway sits one small figure, a man in black tactical gear with a long rifle at his shoulder, aimed down at the town. Nobody else in the doorway, no door gun. A thin warm haze between it and the camera. Count of helicopters: one.
+
+The buildings are real, lived-in apartment blocks, never blocky or simplified: cracked and patched ochre plaster, stained concrete balcony slabs with worn metal railings and dark doorways, dented shutters, sagging cables, chipped roof edges, a rusted antenna or two, dust on every ledge, facades of different heights. Nothing looks like a box, a slab or a 3D model.
+
+Light, from the sun only: a low sunset sun out of frame at the upper right, behind the right block. The sky is a warm orange and amber haze, brightest toward the right. The facades facing the camera sit in deep warm shade with their detail intact; the roof edge and the tops of the balconies catch a thin warm line of sunset light. The sun rakes across the helicopter from the right: warm highlights along its nose, engine housings and tail, its matte black body dull, never shiny. Deep brown shadows that keep their detail, highlights that roll off softly.
+
+Nobody on the balconies, at the windows or on the rooftops. No birds.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or aircraft, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI, not a 3D render, not a drawing.

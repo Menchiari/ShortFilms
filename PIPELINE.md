@@ -115,7 +115,7 @@ For each shot, in order:
 1. Claude writes the prompt (`docs/PROMPTING.md` and the film's `style.md`) into
    `05-generation/prompts/<film>_<S>_<SH>_<T>.txt` with the settings line.
 2. Claude runs the free cost preflight and asks: shot, settings, credits, balance after.
-3. You approve. Claude generates into the Higgsfield folder `S01/SH010` of this film.
+3. You approve. Claude generates into the Higgsfield folder `Scenes/S01/SH010` of this film.
 4. Claude downloads, names the file, records the take and commits it.
 5. You react. Claude records love and rating (inferred from your words when you do not give one)
    (the site plays every take; film-sync makes its still).

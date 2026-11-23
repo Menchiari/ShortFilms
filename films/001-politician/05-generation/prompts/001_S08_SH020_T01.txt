@@ -1,0 +1,38 @@
+Audio: only the steady heavy thump of the helicopter rotor overhead, the high whine of its turbines, wind rushing past the open side door, the fine rattle of the bare cabin and the creak of a harness strap. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_sniper (@Image1): Roger's face, short hair, tinted sport sunglasses, earpiece, black hoodie and black plate carrier only, not his pose or background; the sheet shows three views of one single man. @char_boss (@Image2): the business lady's face, black hair in a low ponytail, sunglasses and charcoal suit only, not her pose or background; the sheet shows three views of one single woman. @prop_rifle (@Image3): the long sniper rifle: its shape, stock, scope and long barrel only, not its background. @loc_heli-cabin (@Image4): the cabin of the helicopter: its bare military interior, metal floor, webbing, seats and sliding door only, empty of people, not its framing. @palette_sunset (@Image5): color and light only.
+
+Close handheld shot inside the cabin of a matte black military helicopter hovering high above a desert town at sunset: Roger from @char_sniper, harnessed in, rests his cheek on the stock of the rifle from @prop_rifle and smiles, while beyond him the business lady from @char_boss sits in the front seat beside the pilot, and the front half of the rifle runs out of frame toward the open side door.
+
+The cabin from @loc_heli-cabin is a real, used military cabin photographed on location, never blocky or simplified: scuffed matte black and dark grey panels, worn metal floor, olive webbing and cargo straps, bolts, cables and grab handles, a bare red-brown canvas seat bench. The sliding door on the right side of the cabin is slid wide open and nobody sits in it: no door gunner, no mounted gun, only Roger's rifle pointing out of it. Nothing looks like a box, a slab or a 3D model.
+
+The people: Roger, harnessed in, kneeling low on the cabin floor at the left, the rifle in both his hands. The business lady in the front seat on the right side of the cockpit, a headset with its ear cups over her hair. The pilot in the front seat on the left side of the cockpit, seen only from behind, a dark flight helmet, both hands on the controls, his eyes on the sky ahead. Count of people: three. Count of rifles: one.
+
+Lighting, motivated by the sun only: a low red-orange sunset sun at screen right, outside the open door, slanting into the cabin. It draws a hard warm line along the right side of Roger's face, his sunglasses, his cheek on the stock and the top of the rifle; the left side of his face sits in soft warm shade, filled by warm bounce from the sunlit floor and the inside of the door frame, so his smile and the skin around his eyes read clearly. Beyond him the cockpit windshield glows hazy orange, and the lady's head and shoulders are rimmed by it, her face softly lit from the side. Through the open door: a hazy orange sky, and far below, small and soft, the flat rooftops of a sandy town. Dust motes float in the shaft of sun across the cabin. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+0-2s: close shot from a step behind and to the left of Roger, low in the rear of the cabin, looking forward. Camera: handheld, a slow drift to the right with the fine shake of the cabin vibration, nothing faster. Roger fills the left third of frame, close, his face in three-quarter profile turned toward screen right, his right cheek pressed on the rifle stock, his right eye at the scope, smiling. The lady sits in the center of frame, beyond him, in the front seat, small and slightly soft, looking down out of the cockpit's side window toward the town below. The pilot's helmet sits at the left edge of the cockpit, partly behind Roger. The rifle runs from Roger's shoulder across the right third of frame, its barrel angled a little downward, its front half out of frame through the open door.
+2-4s: the camera keeps its slow drift to the right and settles. Roger's smile widens a little as he follows something far below through the scope, his cheek still on the stock, the rifle moving only a hair with him. The lady keeps her eyes on the town below, still. Final frame: Roger close in the left third, three-quarter profile, cheek on the stock, smiling; the lady small in the center of frame in the front seat, headset on, looking down out of the window; the rifle running out of frame at the right toward the open door, the sunset sky behind it; the camera a little to the right of where it started, still gently shaking with the cabin.
+
+ACTING TASK, Roger (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): a quiet job well done, clean and on schedule: nobody up here makes a fuss.
+MOTIVE (his fuel): this is the one thing he is the best in the world at, and today he finally gets to do it.
+GOAL: enjoy every second of the hunt and pick the best one.
+OBSTACLE: the lady is right behind him, and one sign that he enjoys it too much and she takes the gun away.
+TACTIC: he picks his target down there like a kid choosing a candy: his eye in the scope slides from face to face, weighing each one, savoring it, then rests on the one he likes best. The smile leaks out of him; he does not hide it, he does not show it off either.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the business lady (she is fully invested in her tactic; the work happens in her eyes):
+SCENE DIRECTION (shared, unspoken): a quiet job well done, clean and on schedule: nobody up here makes a fuss.
+MOTIVE (her fuel): the town is her business, and a business runs on time.
+GOAL: see the job finished without lifting a finger.
+OBSTACLE: she knows what Roger is like when nobody stops him.
+TACTIC: she watches the square below like a board meeting she already knows the result of: her eyes check the crowd, measure it, and wait; she never looks back at Roger, she does not need to.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The pilot flies: eyes ahead, hands on the controls. Everyone keeps their mouth closed: no words. Nobody looks into the lens. No slow motion: real time. No cuts.
+
+Unmarked helicopter: no insignia, no numbers, no flag, no readable writing, no logos anywhere. Unplaceable town below: no landmark, no mosque, no minaret, no dome, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy low sunset sun, warm ochre, orange and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the steady heavy thump of the helicopter rotor overhead, the high whine of its turbines, wind rushing past the open side door, the fine rattle of the bare cabin and the creak of a harness strap. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

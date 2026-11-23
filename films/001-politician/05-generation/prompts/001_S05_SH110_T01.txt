@@ -1,0 +1,29 @@
+Audio: only the dry flutter and rustle of paper in the air, a light gust of wind, a few shuffling footsteps on the asphalt and the low wordless murmur of the people. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+VIDEO 1 IS A ROUGH GUIDE (a line drawing), NOT FOOTAGE. Take ONLY these four things from it: the camera position, the camera movement, the framing, and the rough positions, paths and timing of what moves. Take NOTHING else from it, ever: not its shapes as objects, not its lines or blurs, not its surfaces, colors, light or style, and not the pose of any person in it. Every building, wall, road, object and person in the result is real and photographed, and comes only from the reference images and from this prompt. The result is live-action 35mm film footage shot on location, never a 3D render, previz, drawing or video game.
+Image 1, the reference image of the side street: its apartment buildings, facades, balconies, shutters, cables and street lamps only, not its framing, cars or people. Image 2: color and light only. Image 3, the reference image of the bond: the exact look and printed text of one paper certificate only, a cream sheet with a green engraved border, not its flat framing.
+
+Low angle, handheld, from among a crowd standing in a sun-baked side street of a desert town: the people have stopped dead and stare up at loose paper certificates fluttering down over their heads, and one certificate tumbles right past the lens.
+
+Lighting, motivated by the sun only: a hazy afternoon sun high behind the buildings at screen right. The sky above the street is pale and bright, the facades warm ochre, the people seen from below lit by warm bounce from the sunlit asphalt, their faces readable, deep brown shadows that keep their detail, highlights that roll off softly.
+
+0-1s: low angle from just above the asphalt, looking up past the people, camera position and framing from Video 1: men and women in plain everyday clothes stand still in the street, some near the lens and some far down the street, heads tipped back, all looking up. Dozens of cream paper certificates drift and tumble down through the air between them and the buildings. Camera: handheld, small natural shake, slowly drifting as in Video 1.
+1-2s: one certificate, the one from image 3, swings down close in front of the lens from upper left, flat to the camera for a moment, filling the left half of the frame, and its printed face reads clearly, exactly as in image 3: PUBLIC IMPROVEMENT BOND, spelled P-U-B-L-I-C I-M-P-R-O-V-E-M-E-N-T B-O-N-D, and below it the large green figure $500,000, spelled dollar sign, five, zero, zero, comma, zero, zero, zero. It keeps tumbling down and out of frame at the bottom.
+2-3s: the people keep staring up; one man near the lens at screen right reaches a hand up toward the falling paper. More certificates flutter down around them and settle on the asphalt. Camera: the same slow handheld drift.
+3-4s: the people still stand looking up, the paper still falling. Final frame: low angle, the crowd standing in the street with their faces turned up, certificates drifting down across the bright sky and the facades, a few lying on the asphalt.
+
+ACTING TASK, the people in the street (each one fully invested; the work happens in their eyes):
+SCENE DIRECTION (shared, unspoken): a thief is running through our street: stop him.
+MOTIVE (their fuel): this is their street, and the old man is a stranger running through it.
+GOAL: work out what is falling on them before anyone else does.
+OBSTACLE: the paper is everywhere at once and none of it lands where they can read it.
+TACTIC: their eyes chase one sheet down through the air, then jump to the next, then to each other's faces to see if anyone understands, then back up to the paper.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+Count of readable certificates: one, the one that passes the lens. The other sheets are seen from too far or edge-on to read. Never copy the look of Video 1.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, vehicle or wall, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: 35mm film, anamorphic, hazy afternoon sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the dry flutter and rustle of paper in the air, a light gust of wind, a few shuffling footsteps on the asphalt and the low wordless murmur of the people. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.

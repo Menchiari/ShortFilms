@@ -16,9 +16,10 @@ follows these rules. They override habits and defaults.
    must go, ask first and name the exact path. Exception: story drafts in `stories/` are versioned
    by git: edited in place, committed and pushed after every change.
 3. **Higgsfield folder discipline.** Every generation goes into the film's own Higgsfield project,
-   into the folder of its scene and shot (`S01/SH010`), reference stills into `REFS`, music into
-   `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into another
-   project. If a folder does not exist yet, create it in the right project first.
+   into the folder of its scene and shot (`Scenes/S01/SH010`), reference stills into `REFS`, music
+   into `MUSIC`. IDs live in `films/<film>/film.json` under `higgsfield`. Nothing bleeds into
+   another project. If a folder does not exist yet, create it in the right project first, following
+   the folder rules in `docs/HIGGSFIELD.md`.
 4. **Never music in shot generations.** Every shot prompt starts and ends with the audio policy
    in `docs/PROMPTING.md`. Sound in generations stays flat and diegetic: dialogue, room tone,
    contact sounds. The user does the sound design. Music is generated only in the music stage
@@ -30,6 +31,8 @@ follows these rules. They override habits and defaults.
 
 ## How to work
 
+- Anything Leonard will paste or run (prompts, commands, text) is given whole, ready to copy,
+  every time it changes. Never a fragment to swap into an earlier version.
 - Follow `PIPELINE.md` stage by stage. Each stage writes its output into the film folder.
 - When something is unclear: write the question into `02-analysis/questions.md`, send it to the
   user, then **keep going** on the best-reasoned assumption, marked `[ASSUMPTION]` in the docs so it
@@ -41,12 +44,19 @@ follows these rules. They override habits and defaults.
 - References are Higgsfield Elements (`docs/HIGGSFIELD.md`). Images come from the user's own
   pipeline (the user picks the image model, Midjourney for style); Claude does not pick image
   models.
+- When Leonard changes a rule, the doc that teaches it changes on main in the same session. Film-sync
+  never merges `docs/`, `tools/` or `CLAUDE.md`: a branch with those is not done until main has it.
 - Docs state rules only: no comparisons of sources, no debates. Keep every document as short as
   it can be.
 - After every generation: download the file, name it `<filmid>_<S##>_<SH###>_<T##>.mp4`, record the
-  take in `shotlist.json` (job id, settings, credits, prompt file), and commit. **Every take goes
-  into git, loved or not** (user decision 2026-11-10: scraps can be reused). Watch the repository
-  size with `filmtool.py status` and tell the user before it nears GitHub's 5 GB guidance.
+  take in `shotlist.json` (job id, settings, credits, prompt file), make its still
+  (`python3 tools/media/preview.py 001 S01 SH010 T03`: the sync run then skips installing ffmpeg),
+  and commit. **Every take goes into git, loved or not** (user decision 2026-11-10: scraps can be
+  reused). Watch the repository size with `filmtool.py status` and tell the user before it nears
+  GitHub's 5 GB guidance.
+- **Show every generated file in the chat, always** (user decision 2026-11-18): right after the
+  download, send it with `SendUserFile` (`display: "render"`), every video, still and audio take.
+  A take that is not shown in the chat counts as not delivered.
 - Ratings: the user's word wins. If the user only reacts, infer the rating and mark
   `"rating_source": "inferred"`: "love it" = 5 + love, "good/works" = 4, "usable" = 3,
   "meh" = 2, "no/bad" = 1.
@@ -55,6 +65,9 @@ follows these rules. They override habits and defaults.
   automatically by film-sync), the finished film is linked (YouTube or Vimeo).
 - Before committing, run `python3 tools/filmtool.py check` (schema and size sanity).
 - Commit messages: short, factual, film id first, for example `001: S01 SH010 T03 loved`.
+- GitHub Actions minutes are capped. No push starts a run: film-sync runs on a clock (every two
+  hours, 08:17 to 00:17 Italian time) and merges every branch then. Never start, re-run or add a
+  workflow run or trigger, and never edit `.github/`: only Leonard does that.
 
 ## Story development
 
@@ -74,7 +87,7 @@ follows these rules. They override habits and defaults.
 - Developing an existing film: story work goes in `stories/<film-slug>/`; the film folder is read,
   and edited only on explicit instruction. One automatic exception: a film with `story_sync` in
   `film.json` takes its shots, logged takes, per-shot animatic clips and character elements from
-  the story (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` after every push).
+  the story (`tools/storysync.py`, run by `.github/workflows/film-sync.yml` on every sync run).
   When a character element is registered, save its image as
   `films/<film>/03-bible/characters/refs/<element name>.<ext>` (GitHub cannot reach Higgsfield).
 - Pipeline export: the story bible's "Pipeline export" table maps story outputs to the film's

@@ -181,8 +181,39 @@ def cmd_log(args):
     print("Logged.")
 
 
+PROMPT_NAMING_ERRORS = [
+    (r"@(?:char|prop|loc|veh)_[\w-]+\s*\(\s*@(?:Image|Video|Audio)\d+\s*\)",
+     "element named with its image: use <<<element_id>>>, never the element's image"),
+    (r"(?i)\b(?:image|video|audio) \d+\b", "'Image 1' / 'VIDEO 1' naming: name non-element media in words"),
+]
+
+
+def changed_prompt_files():
+    """Prompt files new or changed against origin/main (older prompts keep their old naming)."""
+    names = set()
+    for cmd in (["diff", "--name-only", "origin/main...HEAD"], ["diff", "--name-only", "HEAD"],
+                ["ls-files", "--others", "--exclude-standard"]):
+        r = git(*cmd)
+        if r.returncode == 0:
+            names.update(r.stdout.split())
+    return sorted(ROOT / n for n in names
+                  if "/05-generation/prompts/" in n and n.endswith(".txt") and (ROOT / n).is_file())
+
+
+def prompt_naming_problems():
+    import re
+    out = []
+    for f in changed_prompt_files():
+        text = f.read_text(encoding="utf-8", errors="replace")
+        for pattern, why in PROMPT_NAMING_ERRORS:
+            for m in re.finditer(pattern, text):
+                out.append(f"{f.relative_to(ROOT)}: '{m.group(0)}': {why} (docs/PROMPTING.md step 2)")
+    return out
+
+
 def cmd_check(args):
     problems = []
+    stills = 0  # posters not made yet: film-sync makes them after the merge, so never a problem
     for d in film_dirs():
         try:
             film, shotlist = load_film(d)
@@ -202,7 +233,9 @@ def cmd_check(args):
             if shot.get("status") not in SHOT_STATUSES:
                 problems.append(f"{sid}: bad status '{shot.get('status')}'")
             for t in shot.get("takes", []):
-                for key in ["file", "preview", "poster", "prompt"]:
+                if t.get("poster") and not (d / t["poster"]).exists():
+                    stills += 1
+                for key in ["file", "preview", "prompt"]:
                     rel = t.get(key)
                     if rel and not (d / rel).exists():
                         problems.append(f"{sid} {t.get('id')}: {key} missing on disk ({rel})")
@@ -214,11 +247,16 @@ def cmd_check(args):
             mb = path.stat().st_size / 1_000_000
             if mb > MAX_FILE_MB:
                 problems.append(f"{path.relative_to(ROOT)}: {mb:.1f} MB is over {MAX_FILE_MB} MB")
+    # a warning, never a block: a refused merge would only hide takes already generated
+    for line in prompt_naming_problems():
+        print(f"WARNING: {line}")
     total_gb = sum(disk_mb(d) for d in film_dirs()) / 1000
     if total_gb > WARN_TOTAL_GB:
         print(f"WARNING: films take {total_gb:.2f} GB on disk, nearing GitHub's 5 GB guidance. Tell the user.")
     if update_index():
         print("films-index.json refreshed (commit it with the rest).")
+    if stills:
+        print(f"{stills} take stills not made yet (film-sync makes them after the merge).")
     if problems:
         print("\n".join(problems))
         raise SystemExit(1)

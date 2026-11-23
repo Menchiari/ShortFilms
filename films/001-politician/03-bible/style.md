@@ -49,6 +49,20 @@ Dense. Every shot prompt carries, besides the PROMPTING.md skeleton:
   walls), ending "Nothing looks like a box, a slab or a 3D model." (Leonard, 2026-11-18)
 - A task for every person in frame, extras included, so nobody looks into the lens or drifts.
 - "No cars" is not enough: name "no parked cars" when the street must be empty.
+- Crowds (Leonard, 2026-11-19, from S07 SH050 T05): a real riot crowd filmed like documentary
+  news footage, packed close; about half women; every face different, named one by one (a
+  grey-haired white woman in a cardigan, a young Black man in a red hoodie, an East Asian woman in
+  glasses, a bald clean-shaven white man in his sixties, a young woman with a blonde ponytail, a
+  South Asian man in a blue work shirt, a heavy Latina woman in her fifties, a clean-shaven
+  teenage boy in a yellow t-shirt, a freckled red-haired man, an old Black woman with short white
+  hair); most men clean-shaven; everyday clothes of many colors; never rows, a wall or a scrum,
+  never two alike. In crowd shots: no character image whose face could spread to the extras
+  (describe that character in words), and no "desert town" or "concrete towers" wording.
+- The crowd (Leonard, 2026-11-19, `style-refs/crowd_leonard.png`): "a packed crowd of men and
+  women of every age and every ethnicity: grey-haired old women in glasses, young women, old bald
+  men, young men; plain everyday clothes in muted browns and greys with a few strong colors (a
+  red jacket, a mustard t-shirt, a blue work shirt); shoulder to shoulder, leaning forward, arms
+  stretched out pointing at him, shouting, faces furious." Never a crowd of men only.
 
 ## Sound grammar
 What the generated guide track carries, what stays silent.
@@ -60,8 +74,9 @@ How much is said, how much is held back, how characters listen and overlap.
 Images that set the look (Midjourney or other), in `style-refs/`. Stills and plates: GPT Image 2.6 Sunburst, quality high, 1k (Leonard, 2026-11-17).
 
 ## This film never
-Gets a set or previz clip as a video reference for a frame filled by place: it comes out as 3D
-previz (refs_d11 README). Composition from words, a photoreal start frame, or the line drawing.
+Gets an animatic or previz clip as a video reference, line drawing included: what the clip alone
+shows (people, street, paper) is copied as boxes (S02 SH030, SH100 T01; S05 SH110 T01, T08). An
+animatic composition enters only as a photoreal start frame made over its frame (S05 SH110 T09).
 Holds a shot where nothing happens, unless the frame is breathtaking (Leonard, 2026-11-17).
 Names a real director, film or artist in any prompt: it is a contest entry (Leonard, 2026-11-17).
 Uses `video_edit` to fix a take: it changes nothing visible and wastes credits (S04 SH080 T03, SSIM
