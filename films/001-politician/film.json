@@ -3986,6 +3986,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S10-SH010-f approved by Leonard ('go', 30 credits). First submit rejected by validation (extension_mode missing, request bdded84c), nothing charged. Resubmitted with extension_mode forward: S10 SH010 T05 job 1e06c4b9-df5e-4215-9f6e-521e87fbc684, video_extension of T04 (462ca649), 480p, 10 s, audio on, folder S10/SH010."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S10 SH010 T05 in (job 1e06c4b9, 30 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T05.mp4, 10 s extension of T04. Claude's read in shotlist.json. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {

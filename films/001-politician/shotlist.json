@@ -11189,6 +11189,29 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S10-SH010-e. Folder S10/SH010. First take with elements as <<<id>>>. Claude's read: 0-3 s sky only through the dusty windshield, rooftop corners at the bottom, sun glow low; 3-7 s the rotor, then the Black Hawk rise into the sky from the bottom edge in silhouette, dust behind it; 7-11 s it banks over the car, the belly filling the frame; 11-16 s the camera tilts down following it as it flies straight into the low sun, paper sheets tumbling high in the light outside; the bobblehead rises into the lower right from about 14.75 s, whole from about 16.5 s, sharp against the soft street; the helicopter crosses the sun disc at about 16-18 s and is gone by 19 s. Backlit throughout, depth of field real. Not seen: the car's sway (no visible roll in 1 s frames); the end of the street has a modern tower block. Loudness peaks at 4-6 s and falls to about -40 dB at the end (not listened to: check for music)."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "1e06c4b9-df5e-4215-9f6e-521e87fbc684",
+              "prompt": "05-generation/prompts/001_S10_SH010_T05_extend-forward.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T05.jpg",
+              "references": [
+                "T04 462ca649 (video_references, extended forward)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S10-SH010-f. Folder S10/SH010. Sequel of T04: returns only the new 10 s, continuous from T04's last frame, camera locked. Claude's read: people pass the car on both sides from about 0.5 s and walk into the street, backs to the camera, heads raised to the sunset; they stop by about 6 s. Misses: eight people, not six; they stop only a few meters past the hood, large in frame, not distant; the focus drifts from the bobblehead to the people, so by the end the people are sharp and the bobblehead is soft; the blonde girl in yellow turns only at about 9.5 s and her face is sharp. Faces seen: white, Black, East Asian; no Middle Eastern look seen. Audio quiet, about -38 to -42 dB (not listened to)."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
