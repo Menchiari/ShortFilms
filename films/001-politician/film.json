@@ -4142,6 +4142,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 006b approved (\"resubmit\", 90 credits): music_80s-tension-strings_T02 resubmitted unchanged, job a8569973-9aab-4740-bc81-cafc993a8dd4, passed the filter. Higgsfield MUSIC."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Filter test 2 (T03_v4, char_big-guy, job 02267f8a) blocked as nsfw, 54 refunded 13:42 UTC. The new element alone is not the trigger. Fifth block for T03."
     }
   ],
   "story_sync": {
