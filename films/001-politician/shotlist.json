@@ -11285,6 +11285,29 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S10-SH010-h. Folder S10/SH010. Sequel of T04, the dog. Claude's read: focus holds on the bobblehead the whole time; the dog appears at about 3 s rising from just beyond the hood line, not from a side street, then stands and turns, soft, small but nearer than asked (tens of meters, not 150). Leonard 2026-11-23: the dog should arrive from the side, then walk to the horizon with a couple of extra seconds, like an actual dog, the S02 dog; maybe a gust of wind; background out of focus; nothing else changes."
+            },
+            {
+              "id": "T08",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 12,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 36.0,
+              "job_id": "5d9afdd7-6e88-4b68-a733-85b535d65d38",
+              "prompt": "05-generation/prompts/001_S10_SH010_T08_extend-forward.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T08.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T08.jpg",
+              "references": [
+                "T04 462ca649 (video_references, extended forward)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S10-SH010-i. Folder S10/SH010. Sequel of T04, the dog. Claude's read: the dog enters at the left edge at about 2 s right in front of the hood, large in frame, sniffing the ground, stands and looks around at 6-9 s a few meters from the car, then walks away down the street and is small at 11-12 s. Real dog gait and the S02 look (mange, curled tail). Focus stays on the bobblehead; the dog is soft but big. Miss: it is close, not a far dot. Claude's cause: 'trots into frame from the left side' (the frame edge is close to the camera), the same cause named after T06."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
