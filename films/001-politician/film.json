@@ -3310,6 +3310,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S08-SH010-e re-approved by Leonard ('try again, go with S08-SH010-e') and submitted: S08 SH010 T05 f5e81e7a-a2f6-4d42-a51f-cd613e779ab0, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, end_image T01 last frame, prop_helicopter, loc_square, palette_sunset. Side view throughout; a small sink, nose dip and rotor tilt, then it levels on T01's frame."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S08 SH010 T05 rated 1 (inferred): Leonard, looks fake. Likely cause [ASSUMPTION]: the end frame and the single-pose helicopter element pin the aircraft to one image, so the model can only tilt and shift that image, which reads as a 2D move. No new request prepared."
     }
   ],
   "story_sync": {
