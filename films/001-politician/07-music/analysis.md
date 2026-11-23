@@ -53,6 +53,8 @@ D minor, 4/4, 80 BPM: one bar = 240 / 80 = 3 s, 30 s = 10 bars exactly. Orchestr
 | 9-10 | 24-30 s | Horns repeat the motif a step higher: E3 half, G3 quarter, F3 quarter, then hold E3; violin tremolo A5 continues | stays on A, never resolves to D |
 
 Why it should read political thriller, not soap opera: no melody that sings, no warm major resolution, no swells; the only melodic idea is a three-note horn cell (D-F-E), the minor-second sigh in the violins and the dominant that never resolves.
+| music_political-thriller_T03_sequel | sequel of T03 | 30 s | prompts/music_political-thriller_T03_sequel.txt | not rated | Seedance 2.5 video_extension forward of T03, 480p, 90 credits, job bedd31c8-7614-42aa-ac0f-ac9752ad8e60, Higgsfield MUSIC. Audio 32 kHz. |
+| music_political-thriller_T03_full | complete 60 s, no picture range yet | 60 s | T03 + T03_sequel prompts | not rated | edit: T03 frames 0-719 + sequel end to end, no crossfade. Sequel starts at 30.00 s. Level -39 dB just before the join, -31 dB just after: an 8 dB step at 30 s. Sequel mean level stays -26 to -37 dB: it does not reach forte. |
 
 ## Composition plan: music_political-thriller_T03_sequel (Leonard 2026-11-23: a real 30 s sequel, Tom Clancy political thriller)
 
