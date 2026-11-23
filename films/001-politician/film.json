@@ -4166,6 +4166,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: 'go T03_v7, 54 credits'. T03_v7 = T03_v2 with the 0-2s fall line back to T02's wording. The submit call timed out; the S09/SH010 folder shows job eb4a05c0-af21-4287-b91f-176813d56767 created 14:21 UTC [ASSUMPTION: this is T03_v7, by time]. The folder also holds job 36f24921 (14:00 UTC, not submitted by this session): T02's prompt with char_bigger-guy and 'one subtle victorious stare', also blocked as nsfw, refunded 14:09."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "T03_v7 (job eb4a05c0, fall line as in T02) blocked as nsfw. Seventh block. Every variant since T02 is blocked, including Leonard's own 14:00 job (T02 prompt plus char_bigger-guy). Next decisive test proposed: T02_v3 unchanged as a control; if it is blocked today, the filter changed, not the prompt."
     }
   ],
   "story_sync": {
