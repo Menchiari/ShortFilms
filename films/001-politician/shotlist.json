@@ -6821,6 +6821,28 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S05-SH130-f, approved by Leonard (480p). Leonard on T05: too many people, the same amount as in his two reference frames (about 14 around him at a wall); back to 480p. T05 prompt with only the count changed to about fifteen. Passed first submission. Claude's read: fewer than T05 but still about 30 visible in the first second, so the count is not held; the crowd is more mixed again than T05 (red hoodie, nurse in scrubs, braids, white-haired women); the frame darkens at the end with faces close from edge to edge."
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "480b0023-85f9-4e9b-be7f-8b2a0891c2d6",
+              "prompt": "05-generation/prompts/001_S05_SH130_T07.txt",
+              "file": "05-generation/takes/S05/SH130/001_S05_SH130_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH130_T07.jpg",
+              "references": [
+                "loc_side-street e728a9ae (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH130-g, approved by Leonard (480p). Leonard on T06: too many people, too many women. T06 prompt with about twelve people, mostly men with two or three women, four named women made men, three named people cut, an empty street behind them. Passed first submission. Claude's read: the count holds, about twelve to fourteen; mostly men, two or three women; still mixed (braids, red hoodie, nurse, red-haired man, white-haired old woman). Off: two or three dusty parked cars from the street image show far behind them; a small lens flare dot sits low in the frame from about 2 s."
             }
           ],
           "description": "Faces close in around him, slowly, from every side.",
