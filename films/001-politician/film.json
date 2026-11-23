@@ -4150,6 +4150,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: 'keep trying again and again until it's not blocked, and when you succeed warn me clearly'. Filter test 3 (T03_v5 = T03_v2 with the sleeping man visible on his side, turned away) submitted: job 247ceba7-1069-47f8-909e-bf2ed2927657, 54 credits. Next if blocked: T03_v6 = T03_v5 without the head impact."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Filter test 3 (T03_v5, sleeping man visible, job 247ceba7) blocked as nsfw, 54 refunded 13:54 UTC. Sixth block for T03. Test 4 (T03_v6 = v5 without the head impact) refused by the session's permission check: each spend needs Leonard's message naming it. A scheduled check that would resubmit by itself was also refused (no scheduled spending)."
     }
   ],
   "story_sync": {
