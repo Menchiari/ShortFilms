@@ -4294,6 +4294,10 @@
     {
       "date": "2026-11-23",
       "text": "Retry series T03_v2: retry 1 job d4d6dc2f blocked (refund 15:57), retry 2 job 31a11aab blocked (refund 16:07), retry 3 job 807bf57b-e7a7-46bf-beaf-ff814507c853 submitted."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Retry series T03_v2: retry 3 job 807bf57b blocked (refund 16:16), retry 4 job 4de50ea9 blocked (refund 16:22), retry 5 job a723a667-6420-4aad-8468-6ca91161b1f3 submitted."
     }
   ],
   "story_sync": {
