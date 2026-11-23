@@ -36,4 +36,19 @@ Where music enters, where it must stay silent, what it does to the scene (never 
 | music_90s-crescendo_T02 | part 1 of 2, no picture range yet | 30 s | prompts/music_90s-crescendo_T02.txt | 1 (inferred: Leonard "horrific"); extension 011b dropped | Seedance 2.5, 480p 16:9, 90 credits, job 82a03900-8a9b-4c63-90b9-586863e0b2f8, Higgsfield MUSIC. Hybrid orchestra + synth crescendo, E minor 100 BPM asked. Mean level -26.6 dB at 2 s rising to -20.4 dB at 29 s. Audio 32 kHz. |
 | music_late80s-synth-underscore_T01 | test, no picture range yet | 30 s | prompts/music_late80s-synth-underscore_T01.txt | not rated | Seedance 2.5, 480p 16:9, 90 credits, job 58266983-ea92-4ae4-932e-216d45550d1a, Higgsfield MUSIC. Late 1980s digital synth underscore (sampler, FM, mallet ostinato, synth pan flute), E minor 96 BPM asked. Audio 32 kHz. |
 | music_political-thriller_T01 | test, no picture range yet | 30 s | prompts/music_political-thriller_T01.txt | not rated | Seedance 2.5, 480p 16:9, 90 credits, job aa329c5e-24d2-4846-94d2-8e9360c287c7, Higgsfield MUSIC. Fresh start: late 80s to 90s orchestral political thriller underscore over synth bed and muted electronic loop, D minor 92 BPM asked. Audio 32 kHz. |
-| music_political-thriller_T02 | test, no picture range yet | 30 s | prompts/music_political-thriller_T02.txt | not rated | Seedance 2.5, 480p 16:9, 90 credits, job 0a206bb2-e059-4b62-95f8-a97f3e0ed6b4, Higgsfield MUSIC. T01 without rhythm: held chords, no ostinato, no percussion, no tempo. Audio 32 kHz. |
+| music_political-thriller_T02 | test, no picture range yet | 30 s | prompts/music_political-thriller_T02.txt | 1 (inferred: Leonard "horrendous, sounds like default background music") | Seedance 2.5, 480p 16:9, 90 credits, job 0a206bb2-e059-4b62-95f8-a97f3e0ed6b4, Higgsfield MUSIC. T01 without rhythm: held chords, no ostinato, no percussion, no tempo. Audio 32 kHz. |
+
+## Composition plan: music_political-thriller_T03 (Leonard 2026-11-23: orchestra only, no synth, no sfx, exact notes, political thriller not soap opera)
+
+D minor, 4/4, 80 BPM: one bar = 240 / 80 = 3 s, 30 s = 10 bars exactly. Orchestra only: strings and two horns. No percussion, no synth, no piano, no choir. Dynamics pp to mp, never louder. Ends unresolved on the dominant.
+
+| Bars | Time | Notes and instruments | Harmony |
+|---|---|---|---|
+| 1-2 | 0-6 s | Basses and cellos hold low D (D2) pp; violas add A3 on bar 2 | open fifth D-A, no third: cold |
+| 3-4 | 6-12 s | Second violins: half notes F4 down to E4, twice (a minor second sigh) | D minor revealed |
+| 5-6 | 12-18 s | Two horns in unison: D3 half note, F3 quarter, E3 quarter, then A2 whole note; basses move D2 to B-flat1 on bar 6 | D minor to B-flat major |
+| 7-8 | 18-24 s | First violins: high A5 tremolo sul ponticello pp; basses step B-flat1 to A1; violas C-sharp4 | A major (dominant): tension |
+| 9-10 | 24-30 s | Horns repeat the motif a step higher: E3 half, G3 quarter, F3 quarter, then hold E3; violin tremolo A5 continues | stays on A, never resolves to D |
+
+Why it should read political thriller, not soap opera: no melody that sings, no warm major resolution, no swells; the only melodic idea is a three-note horn cell (D-F-E), the minor-second sigh in the violins and the dominant that never resolves.
+
