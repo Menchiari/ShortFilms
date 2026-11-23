@@ -4038,6 +4038,18 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S10-SH010-i approved by Leonard ('do t08', 36 credits) and submitted: S10 SH010 T08, job 5d9afdd7-6e88-4b68-a733-85b535d65d38, forward extension of T04, prompt 001_S10_SH010_T08_extend-forward.txt, 480p, 12 s, folder S10/SH010."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S09 SH010, try again with only these changes: the man on the floor is char_bigger-guy, facing the other way, only his feet showing; a real, hard fall that hurts to watch, not a 1920s stunt bounce; he is a bit happy when he realizes he is alive; no spit, a look that says 'I won, you fucker'. REQUEST S09-SH010-e prepared, not submitted: prompts/001_S09_SH010_T03.txt = T02_v3 with those four changes only; elements char_politician_final, loc_square, char_bigger-guy 4017a781, prop_bar-weapon; palette_sunset image; 480p, 21:9, 18 s, audio on, 54 credits (free quote). main merged into s09-sh010."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S09-SH010-e approved by Leonard ('ok go'; quote 54 credits) and submitted: S09 SH010 T03 job f42cb95a-567d-483c-ac2e-b65dc4519526, prompt prompts/001_S09_SH010_T03.txt, folder Scenes/S09/SH010."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S09 SH010 T03 (job f42cb95a) waited about 26 min in the Higgsfield queue, then was blocked as nsfw ('Output may contain sensitive content'). 54 credits refunded 12:43 UTC. Not resubmitted: waiting for Leonard."
     }
   ],
   "story_sync": {
