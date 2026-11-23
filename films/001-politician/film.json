@@ -3306,6 +3306,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S08-SH010-e approved by Leonard ('go with S08-SH010-e'). Submit timed out twice (Higgsfield MCP, 60 s); the generation history shows no new job after either attempt, so nothing was generated and, as far as the history shows, nothing was charged. Not retried a third time; waiting for Leonard."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S08-SH010-e re-approved by Leonard ('try again, go with S08-SH010-e') and submitted: S08 SH010 T05 f5e81e7a-a2f6-4d42-a51f-cd613e779ab0, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, end_image T01 last frame, prop_helicopter, loc_square, palette_sunset. Side view throughout; a small sink, nose dip and rotor tilt, then it levels on T01's frame."
     }
   ],
   "story_sync": {

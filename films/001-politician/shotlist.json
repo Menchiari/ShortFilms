@@ -7193,6 +7193,32 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S08-SH010-d. Folder Scenes/S08/SH010. end_image = T01's last frame (media 2a469527), plus prop_helicopter, loc_square, palette_sunset, as T01. Claude's read: T01's framing and light; the last frame lands on T01's (side view, nose right, level). The motion is one big 3D turn rather than a wobble: it opens in three-quarter front view, nose toward the camera, higher and smaller, sunlit tan on its front, yaws about 90 degrees through 0.3 to 1.3 s while sinking into place, then rocks slightly and holds still from about 2.5 s. A real rotation in perspective, not a flat move. Figure in the door. Audio present (mean -33 dB); Claude cannot listen, music not verified."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "f5e81e7a-a2f6-4d42-a51f-cd613e779ab0",
+              "prompt": "05-generation/prompts/001_S08_SH010_T05.txt",
+              "file": "05-generation/takes/S08/SH010/001_S08_SH010_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH010_T05.jpg",
+              "references": [
+                "T01 last frame 2a469527 (end_image)",
+                "prop_helicopter 6c8efe25 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH010-e (first two submits timed out with no job; third submit went through). Folder Scenes/S08/SH010. end_image T01 last frame (2a469527), prop_helicopter, loc_square, palette_sunset; prompt T04 with the motion limited to a few degrees in side view. Claude's read: T01's framing, light and size throughout; the helicopter stays in side view, nose right, the whole time. Small 3D moves: nose a little high at the start, around 1.3 to 2.3 s it sinks slightly, dips its nose and tilts its rotor, the tail swinging a little, then it levels and holds on T01's last frame. Subtle, not a turn. Figure in the door. Audio present (mean -33 dB); Claude cannot listen, music not verified."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
