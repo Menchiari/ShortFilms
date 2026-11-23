@@ -11305,9 +11305,9 @@
                 "T04 462ca649 (video_references, extended forward)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S10-SH010-i. Folder S10/SH010. Sequel of T04, the dog. Claude's read: the dog enters at the left edge at about 2 s right in front of the hood, large in frame, sniffing the ground, stands and looks around at 6-9 s a few meters from the car, then walks away down the street and is small at 11-12 s. Real dog gait and the S02 look (mange, curled tail). Focus stays on the bobblehead; the dog is soft but big. Miss: it is close, not a far dot. Claude's cause: 'trots into frame from the left side' (the frame edge is close to the camera), the same cause named after T06."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "REQUEST S10-SH010-i. Folder S10/SH010. Sequel of T04, the dog. Claude's read: the dog enters at the left edge at about 2 s right in front of the hood, large in frame, sniffing the ground, stands and looks around at 6-9 s a few meters from the car, then walks away down the street and is small at 11-12 s. Real dog gait and the S02 look (mange, curled tail). Focus stays on the bobblehead; the dog is soft but big. Miss: it is close, not a far dot. Claude's cause: 'trots into frame from the left side' (the frame edge is close to the camera), the same cause named after T06. Leonard 2026-11-23: no, he must be tiny in the distance, not a giant dog. Claude's analysis: T07 (short description, 'out from a side street at the end') gave a dog about 60 px tall mid-street; T08 added close-range details (mange, torn ear, ribs, nose to the ground, ears turning) and 'into frame from the left side', and the dog came to the hood. Details only visible up close make the model bring the subject close; a 150 m dog would be 3 to 5 px at 480p, so numeric distance is ignored."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
