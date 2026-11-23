@@ -6900,6 +6900,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH140-e, 720p, T04 prompt with only the voice words changed (shouts in English, mixed accents, never Arabic). Claude's read (stills only, audio language not checked): same staging and timing as T03/T04; the crowd is clearly more mixed: Black and white people, many women, modern t-shirts, jeans, plaid shirts. Gun still black."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "6cc70eb7-4dc1-4eda-aac3-ad5236423fc8",
+              "prompt": "05-generation/prompts/001_S05_SH140_T06.txt",
+              "file": "05-generation/takes/S05/SH140/001_S05_SH140_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH140_T06.jpg",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 73236f58",
+                "prop_briefcase 4bf36cb5",
+                "prop_gun 24875e9a",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH140-f, T05 prompt with only the voice words changed (American English lines in braces, 'never Arabic' removed). Claude's read (stills only, audio language not checkable here): worse than T05 on two counts: the wall ends at the left and open sky with towers shows behind him, and the crowd is again mostly bearded men who read Middle Eastern, a few Black men, two women. Staging, gun and scatter as T03."
             }
           ],
           "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",

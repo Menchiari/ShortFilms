@@ -3888,6 +3888,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S05-SH130-e approved (28 credits quoted, 720p, 21:9, 4 s, omni_reference with loc_side-street e728a9ae): job d305e7db-7507-41b5-bdad-701a4a09b638 rejected by Higgsfield moderation (status nsfw) after about 9 minutes. No credits charged (balance unchanged at 23325.95). Prompt: 05-generation/prompts/001_S05_SH130_T05.txt. Cause unknown."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S05-SH140-f approved (30 credits, 480p, 21:9, 10 s): S05 SH140 T06 6cc70eb7-4dc1-4eda-aac3-ad5236423fc8, English lines in braces. Crowd back to mostly Middle Eastern-looking men; open sky at the left of the wall."
     }
   ],
   "story_sync": {
