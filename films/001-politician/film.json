@@ -3322,6 +3322,10 @@
     {
       "date": "2026-11-23",
       "text": "S08 SH010: Leonard likes the T04 cut from 1.3 s and wants it extended to hold steady. Free edit, no credits: takes/S08/SH010/001_S08_SH010_T04_cut-from-1s3_hold.mp4 (4.22 s) = T04 from 1.3 s to the end, then T04's settled stretch (2.6 s to the end) played backward from its last frame, so the seam is exact. A cut into T01 was not used: T04's last frame does not match T01's (framing shifted, SSIM 0.68). Audio: T04 from 1.3 s, then T04's first 1.46 s forward (a possible small seam in the wind and crowd bed). T06 start frame from T01 uploaded (media d34d69bb) and not used: no request made."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: extend T04 forward with Seedance instead of the reversed hold. REQUEST S08-SH010-f prepared, not submitted: seedance_2_5 video_extension forward, source T04 (job b105ecef), 4 s, 480p, audio on, prompts/001_S08_SH010_T06_extend-T04.txt (a steady hover, no turn or drift); estimate 12 credits."
     }
   ],
   "story_sync": {
