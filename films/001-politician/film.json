@@ -3866,6 +3866,10 @@
     {
       "date": "2026-11-22",
       "text": "S06 renumbered (Leonard: \"just do it\"): the Citizen 1 / Citizen 2 shot is SH025, the gun insert is SH026. Gun insert files renamed SH025 to SH026 (takes T01 to T04, posters, prompts, animatic d10/d11 clips), nothing deleted; its shot entry keeps its takes. Higgsfield folders renamed in place: S06/SH025 = 562ea98f (citizens, empty), S06/SH026 = b8e674ec (gun insert takes). Citizen prompt now 001_S06_SH025_T01.txt. Older log lines name the shots by their old numbers."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S05-SH130-d approved (28 credits, 720p, 21:9, 4 s, text only): S05 SH130 T04 2c7d579b-6797-4895-8fbe-42c6df2ce520. No blood, a wider mixed crowd, ends on the woman with braids."
     }
   ],
   "story_sync": {
