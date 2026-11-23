@@ -87,3 +87,22 @@ Measured with librosa and ffmpeg (file kept out of git: commercial recording). M
   - 6:40 ends on percussive hits (91 % percussive).
 - Instruments: not measurable from these numbers. Fan wiki credits synthesizer, string section and chorus (not verified).
 
+### Full-track analysis (2 s chord windows, bass and top pitch, automatic segmentation). Automated estimates, noisy.
+
+| Section | Time | Level | Harmony and bass | Character |
+|---|---|---|---|---|
+| A | 0:00-0:43 | -21 to -32 dB | F# major area, bass moves A#, F#, C#, D | quiet intro |
+| B | 0:43-1:06 | -12 dB | E-flat minor, bass pedal F# and G (half step against each other), top note C#5 repeated | first loud block |
+| C | 1:06-1:19 | -17 to -20 dB | G / G minor, A-flat | transition |
+| D | 1:19-1:52 | -20 to -26 dB | B minor over a constant B1 pedal | held, darker |
+| B2 | 1:52-2:27 | -12 dB | E-flat minor block returns, same F#/G bass, same repeated C#5 | return of B |
+| E | 2:27-2:50 | -11 dB | F / F minor over bass A and G# alternating (half step) | first climax |
+| F | 2:50-3:22 | -26 to -36 dB | C# minor pedal, near silence about 3:12 | drop |
+| G | 3:22-4:46 | -26 rising to -15 dB | repeating 4-chord loop about every 10 s: B-flat minor, F#, G, C# (G is a tritone from C#), bass A#, A#, G, C# | long build on a loop |
+| H | 4:46-5:15 | -24 to -40 dB | C#, near silence at 5:12 | breath before the peak |
+| I | 5:15-5:50 | -11 dB | F / F minor / A minor over bass A and G# (half step) | main climax |
+| J-K | 5:50-6:34 | -15 to -11 dB | A minor, then G minor / B-flat over a B-flat pedal | sustained loud ending |
+| L | 6:34-6:46 | -22 dB | A minor, last low E hit | outro |
+
+What drives it: pedal basses, half-step clashes (F# vs G, A vs G#), a repeated high C#, and in section G a 4-chord loop with a tritone (G inside C#) that repeats while the level rises 11 dB.
+
