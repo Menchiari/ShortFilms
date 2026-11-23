@@ -4426,6 +4426,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard on T10 bodies: \"first 6 seconds of v5. v9 has good energy but no buildup and bad end. v10 great bass, could be a layer. v7 has good ending power, bad little guitar riff. All it needs is a guitar end chord.\" Ratings left unset (notes, not ratings). Built music_80s-action-synth_T11_comp (0 credits), 40.0 s: T02_end 0-10.98 s; T09 drums from 4.96 s; v5 0-6.03 s at 10.95 s (first hit 10.98 s); v9 9.03-18.03 s at 16.98 s; v7 18.03-24.03 s at 25.98 s; v10 0.03-12.03 s low-passed at 150 Hz, -4.4 dB, under 10.98-22.98 s with a 1 s fade (v10 bass leaves E after 12 s); T09 chord + drums' final hit at 31.98 s; limiter -1 dB. [ASSUMPTION] order v5, v9, v7 and v9's bars 3-5 chosen for its middle; grid of each part assumed from its first hit (0.03 s, v9 3.03 s). Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "music_80s-action-synth_T11_comp rated 1 (inferred: Leonard \"what the fuck is this... no absolutely not. this is not how you edit music, just putting the pieces like that cut as lego\"). Lesson: parts from different generations differ in tone, mix and arrangement; splicing them on bar lines reads as a collage. A music edit keeps one recording and changes as little as possible."
     }
   ],
   "story_sync": {
