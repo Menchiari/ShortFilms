@@ -4078,6 +4078,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S10-SH010-j approved by Leonard ('go approve', 36 credits) and submitted: S10 SH010 T09, job 2ae669ec-bdb5-4cc2-81c6-bb1a42b1f900, forward extension of T04, prompt 001_S10_SH010_T09_extend-forward.txt, 480p, 12 s, folder S10/SH010."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S09 SH010 T03_v2 (job d8c4d594) blocked as nsfw, 54 credits refunded 13:03 UTC. Third block for T03. Not resubmitted: waiting for Leonard."
     }
   ],
   "story_sync": {
