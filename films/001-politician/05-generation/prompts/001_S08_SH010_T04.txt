@@ -1,0 +1,25 @@
+Audio: only a light dry wind across the rooftops and, far below in the streets, the distant panicked shouts and running footsteps of a scattering crowd. No helicopter sound. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+The end image is the last frame of the shot: the shot arrives exactly on it, with the same camera, framing, buildings, light and the helicopter in the same place, pose and size. Everything before it builds toward that frame.
+
+@prop_helicopter (@Image1): the helicopter: a matte black Sikorsky UH-60 Black Hawk, its shape, matte black paint and open sliding side door only, not its pose, not its gunner, not its background. @loc_square (@Image2): the buildings: their cracked ochre plaster, small balconies, flat rooftops and rooftop clutter only, not their people, cars, lamp, framing or light. @palette_sunset (@Image3): color and light only.
+
+Extreme wide shot on a long lens from a rooftop inside a desert town at sunset, locked-off: above the rooftops a matte black military helicopter, still unsettled from its approach, swings and wobbles while the pilot fights it steady, until it comes to a halt and hangs still in the sky, a man sitting in its open side door.
+
+The helicopter is a real, heavy, three-dimensional machine with weight and inertia: every movement is a rotation of the whole aircraft in space, so the fuselage turns in perspective, its nose, side and tail boom changing angle to the camera, the rotor disc tilting with it. Never a flat image sliding or rotating on the screen. Count of helicopters: one. In its open side door sits one man, riding every movement. No door gun.
+
+0-1s: camera locked-off and perfectly still. The helicopter has just arrived over its spot and is still unsettled: its tail swings out toward the camera, the whole fuselage yawing so its nose turns a little away from us and its side opens up in perspective, the body rolling to one side, the rotor disc tilting; it drifts a little past its spot.
+1-2.5s: the pilot catches it: the tail swings back the other way, past center, less far than before; the nose dips and comes up; the body rolls back and levels; the tail rotor working hard. Each swing smaller and slower than the last, with the heavy inertia of a big machine.
+2.5-4s: one last small sway of the tail, then the helicopter settles and comes to a complete halt, holding perfectly still in the sky. Final frame: exactly the end image: the helicopter in side view with its nose to screen right, level, hanging in the sky between the tall block at screen left and the rooftop with dishes, water tank and antennas at screen right, rotor blurred.
+
+The buildings from @loc_square are real, lived-in apartment blocks photographed on location, never blocky or simplified: cracked and patched ochre plaster, small balconies with worn railings, dark windows, water tanks, cables, satellite dishes, rusted antennas and low parapets of different heights. Nothing looks like a box, a slab or a 3D model.
+
+Lighting, motivated by the sun only, as in the end image: a low sunset sun behind the helicopter, a warm orange and amber haze filling the sky, dust glowing in it; the helicopter a dark matte shape with a thin warm rim of light along its top edge, catching a little more light on its side as it yaws toward the sun; the facades facing the camera in deep warm shade, the roof edges catching a thin line of light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+No slow motion: real time. Nobody on the rooftops, nobody on the balconies or at the windows. No birds.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or aircraft, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only a light dry wind across the rooftops and, far below in the streets, the distant panicked shouts and running footsteps of a scattering crowd. No helicopter sound. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
