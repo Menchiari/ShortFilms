@@ -3887,6 +3887,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S05-SH130-e approved (28 credits quoted, 720p, 21:9, 4 s, omni_reference with loc_side-street e728a9ae): job d305e7db-7507-41b5-bdad-701a4a09b638 rejected by Higgsfield moderation (status nsfw) after about 9 minutes. No credits charged (balance unchanged at 23325.95). Prompt: 05-generation/prompts/001_S05_SH130_T05.txt. Cause unknown."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: S08 SH020 T02 sequel, he just starts shooting, 4 s, 720p, an actual sequel. REQUEST S08-SH020-c prepared, not submitted: SH020 T03 = video_extension forward of T02 (3d341a42), seedance_2_5, 720p, 21:9, 4 s, audio on, refs char_sniper 8716ad9f, char_boss 7ef41962, folder Scenes/S08/SH020, prompt prompts/001_S08_SH020_T03_extend-forward.txt: two shots (1-2 s and 3-4 s), recoil, flash and smoke torn by the wind, casings on the floor, nothing seen hit below, the lady keeps watching. Preflight 28 credits, balance 23,297.95. Waiting for approval."
     }
   ],
   "story_sync": {

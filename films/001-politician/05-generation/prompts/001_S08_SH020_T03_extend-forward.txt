@@ -1,0 +1,32 @@
+Audio: only the steady heavy thump of the helicopter rotor overhead, the high whine of its turbines, strong wind roaring past the open side door, the fine rattle of the bare cabin, two sharp loud cracks of the rifle firing, each with a hard metallic clack of the action, and brass casings bouncing and rolling on the metal floor. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+Extend @Video1 forward: continue from its last frame, starting exactly on it, with no cut and no jump. Keep everything of @Video1: the same cabin of the matte black military helicopter at sunset, the same Roger from @char_sniper (@Image1) in the left foreground with the same sunglasses, earpiece, black hoodie and plate carrier, his cheek on the stock of the same one scoped rifle running out of the open door at the right edge, the same business lady from @char_boss (@Image2) in the left front seat with her headset, the same pilot in the right seat, the same low sunset sun at screen right, the same low sandy town far below, the same framing, lens, color and grain. The same helicopter sway, the same wind at the door, the same slight handheld jitter and cabin vibration carry on for the whole shot. Live-action 35mm film footage, never CGI, never a 3D render.
+
+0-1s: Roger settles the crosshair, breathes out, still smiling, cheek on the stock, the barrel still against the drifting town.
+1-2s: he fires. A short bright muzzle flash and a puff of smoke at the end of the barrel outside the door, the wind tearing the smoke away at once. The recoil punches into his shoulder and rocks his head and upper body back a few centimeters, the barrel jumps up and settles. A brass casing flips out of the right side of the rifle, glints in the sun and bounces on the metal floor. The handheld camera jolts with the shot.
+2-3s: without lifting his cheek from the stock he brings the barrel back down on line, the smile back at the corner of his mouth, his eye already hunting the next one through the scope.
+3-4s: he fires again: the same flash, smoke torn away by the wind, recoil into his shoulder, a second casing bouncing across the floor, the camera jolting. Final frame: Roger back on the scope, cheek on the stock, the rifle settling out through the door at the right edge, two brass casings on the floor; the lady in the left front seat still looking down out of her window, her head turned a touch toward the sound; the pilot flying; the camera still gently jittering with the cabin.
+
+ACTING TASK, Roger (he is fully invested in his tactic; the work happens in his eyes):
+SCENE DIRECTION (shared, unspoken): a quiet job well done, clean and on schedule: nobody up here makes a fuss.
+MOTIVE (his fuel): this is the one thing he is the best in the world at, and today he finally gets to do it.
+GOAL: take them one by one, each shot perfect, and enjoy every one.
+OBSTACLE: the lady is right in front of him; one sign that he enjoys it too much and she takes the gun away.
+TACTIC: he works like a craftsman at his bench: after each shot his eye is already back in the scope, hunting the next one, picking it, savoring the choice before he squeezes. The recoil is nothing to him. The smile keeps leaking out; he does not hide it, he does not show it off either.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the business lady (she is fully invested in her tactic; the work happens in her eyes):
+SCENE DIRECTION (shared, unspoken): a quiet job well done, clean and on schedule: nobody up here makes a fuss.
+MOTIVE (her fuel): the town is her business, and a business runs on time.
+GOAL: see the job finished without lifting a finger.
+OBSTACLE: she knows what Roger is like when nobody stops him.
+TACTIC: she keeps watching the square below like a board meeting she already knows the result of; at each crack her eyes check what fell, count it, and wait; she does not turn to Roger, not yet.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+The pilot flies: eyes ahead, hands on the controls. Everyone keeps their mouth closed: no words. Nobody looks into the lens. The door stays empty apart from Roger's rifle: no door gunner, no mounted gun. Count of people: three. Count of rifles: one. Nothing is seen hit below: the town stays far, small and soft. Real time, no slow motion, no cuts, no repeated action, no identity change.
+
+Unmarked helicopter: no insignia, no numbers, no flag, no readable writing, no logos anywhere. Unplaceable town below: no landmark, no mosque, no minaret, no dome, no towers, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, hazy low sunset sun, warm ochre, orange and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the steady heavy thump of the helicopter rotor overhead, the high whine of its turbines, strong wind roaring past the open side door, the fine rattle of the bare cabin, two sharp loud cracks of the rifle firing, each with a hard metallic clack of the action, and brass casings bouncing and rolling on the metal floor. Nobody speaks. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
