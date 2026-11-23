@@ -4178,6 +4178,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 009 approved (\"generate\", 4.36 credits): music_80s-tension-strings_T05_eleven, elevenlabs_music_v2_5, 30 s instrumental, job 671133be-70db-4c24-bc02-c0d14e25e0ea, Higgsfield MUSIC. Switched from Seedance after three filter blocks on the string prompts."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Control T02_v3 (job 5a0f8eed, the prompt that passed on 2026-11-20) blocked as nsfw today. The block is not caused by Leonard's T03 changes: the filter blocks this scene today even with the old prompt."
     }
   ],
   "story_sync": {
