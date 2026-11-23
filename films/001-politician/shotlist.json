@@ -1480,42 +1480,6 @@
           }
         },
         {
-          "id": "SH075",
-          "status": "approved",
-          "takes": [
-            {
-              "id": "T01",
-              "date": "2026-11-23",
-              "model": "seedance_2_5",
-              "mode": "omni_reference",
-              "duration_s": 4,
-              "resolution": "720p",
-              "aspect": "21:9",
-              "audio": true,
-              "credits": 28.0,
-              "job_id": "2f2df6a2-c294-4889-a9d3-6f0a81bce28e",
-              "prompt": "05-generation/prompts/001_S02_SH075_T01.txt",
-              "file": "05-generation/takes/S02/SH075/001_S02_SH075_T01.mp4",
-              "preview": "",
-              "poster": "05-generation/web/001_S02_SH075_T01.jpg",
-              "references": [
-                "char_politician element 1d544095",
-                "loc_car-interior element efd956ba",
-                "palette_afternoon 3bf30eee"
-              ],
-              "love": true,
-              "rating": 5,
-              "rating_source": "inferred",
-              "notes": "Leonard 2026-11-23: new shot, foot from accelerator to brake all at once, as if he saw something. Claude's read: 0-2s the shoe sits on the hidden accelerator right of the empty wide brake; at about 2.0s it lifts, swings left with real motion blur and lands on the brake at about 2.4s, driving it down; 2.4-4s it holds the brake, accelerator visible empty behind. The switch is about half a second later than written. The road shake is mild. Leonard 2026-11-23: \"perfect\" (rating inferred 5, love)."
-            }
-          ],
-          "description": "His foot jumps off the accelerator and slams the brake.",
-          "framing": "CLOSE, footwell",
-          "movement": "Locked-off",
-          "duration_s": 4,
-          "note": "[ASSUMPTION] placed before SH080 (the skid); Leonard decides the cut point."
-        },
-        {
           "id": "SH080",
           "status": "approved",
           "takes": [
@@ -2472,6 +2436,42 @@
             "file": "05-generation/animatic/d11/S02_SH200.mp4",
             "draft": "d11"
           }
+        },
+        {
+          "id": "SH075",
+          "status": "cut",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "2f2df6a2-c294-4889-a9d3-6f0a81bce28e",
+              "prompt": "05-generation/prompts/001_S02_SH075_T01.txt",
+              "file": "05-generation/takes/S02/SH075/001_S02_SH075_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH075_T01.jpg",
+              "references": [
+                "char_politician element 1d544095",
+                "loc_car-interior element efd956ba",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Leonard 2026-11-23: new shot, foot from accelerator to brake all at once, as if he saw something. Claude's read: 0-2s the shoe sits on the hidden accelerator right of the empty wide brake; at about 2.0s it lifts, swings left with real motion blur and lands on the brake at about 2.4s, driving it down; 2.4-4s it holds the brake, accelerator visible empty behind. The switch is about half a second later than written. The road shake is mild. Leonard 2026-11-23: \"perfect\" (rating inferred 5, love)."
+            }
+          ],
+          "description": "His foot jumps off the accelerator and slams the brake.",
+          "framing": "CLOSE, footwell",
+          "movement": "Locked-off",
+          "duration_s": 4,
+          "note": "[ASSUMPTION] placed before SH080 (the skid); Leonard decides the cut point."
         }
       ]
     },
@@ -6945,7 +6945,7 @@
         },
         {
           "id": "SH140",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T01",
@@ -10559,42 +10559,6 @@
           }
         },
         {
-          "id": "SH045",
-          "status": "approved",
-          "description": "Close on her shoes stepping down from the helicopter onto the asphalt; the camera cranes up her whole body and stops close on her face, serious, waiting, the rotor wash on her.",
-          "framing": "CLOSE on her feet to CLOSE on her face",
-          "movement": "Crane up, one continuous take",
-          "duration_s": 7,
-          "note": "Added and approved by Leonard 2026-11-23 (no screenplay change). Sits after SH040, before SH050; final order in the edit. Everything except her out of focus, very shallow depth of field. Look: ARRI Alexa large format crossed with IMAX, 35mm film grain (Leonard).",
-          "takes": [
-            {
-              "id": "T01",
-              "date": "2026-11-23",
-              "model": "seedance_2_5",
-              "mode": "omni_reference",
-              "duration_s": 7,
-              "resolution": "480p",
-              "aspect": "21:9",
-              "audio": true,
-              "credits": 21.0,
-              "job_id": "309678f4-a5c9-4409-9b00-887bfb0c93f7",
-              "prompt": "05-generation/prompts/001_S09_SH045_T01.txt",
-              "file": "05-generation/takes/S09/SH045/001_S09_SH045_T01.mp4",
-              "preview": "",
-              "poster": "05-generation/web/001_S09_SH045_T01.jpg",
-              "references": [
-                "char_boss 69d22ecb (element)",
-                "prop_helicopter 7a86dade (element)",
-                "palette_sunset 1f563179"
-              ],
-              "love": true,
-              "rating": 5,
-              "notes": "REQUEST S09-SH045-a, approved by Leonard 2026-11-23. Not a draft (image input without a video reference): cannot be finalized. 480p (992x432), 7.07 s, 24 fps, audio present (mean -31.2 dB; not listened to). Claude's read from frames every 0.5 s: the crane works as one continuous move from her heels to a close-up of her face, stopping centered; black patent pointed pumps, charcoal suit, white shirt, gold-rimmed sunglasses and ponytail match char_boss; warm sunset backlight, hair moving in the wash. Off brief: at 0 s her right foot is already planted, so there is no step-down from the cabin, only the left foot stepping forward; the ground reads as dusty dirt more than asphalt; the helicopter wheel, step and cabin stay fairly readable through the middle of the crane, softer than sharp but not melted; at the end the helicopter reads olive-khaki rather than matte black. Leonard 2026-11-23: \"perfect\".",
-              "rating_source": "inferred"
-            }
-          ]
-        },
-        {
           "id": "SH050",
           "status": "review",
           "takes": [
@@ -11326,6 +11290,42 @@
             "file": "05-generation/animatic/d11/S09_SH120.mp4",
             "draft": "d11"
           }
+        },
+        {
+          "id": "SH045",
+          "status": "cut",
+          "description": "Close on her shoes stepping down from the helicopter onto the asphalt; the camera cranes up her whole body and stops close on her face, serious, waiting, the rotor wash on her.",
+          "framing": "CLOSE on her feet to CLOSE on her face",
+          "movement": "Crane up, one continuous take",
+          "duration_s": 7,
+          "note": "Added and approved by Leonard 2026-11-23 (no screenplay change). Sits after SH040, before SH050; final order in the edit. Everything except her out of focus, very shallow depth of field. Look: ARRI Alexa large format crossed with IMAX, 35mm film grain (Leonard).",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "309678f4-a5c9-4409-9b00-887bfb0c93f7",
+              "prompt": "05-generation/prompts/001_S09_SH045_T01.txt",
+              "file": "05-generation/takes/S09/SH045/001_S09_SH045_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH045_T01.jpg",
+              "references": [
+                "char_boss 69d22ecb (element)",
+                "prop_helicopter 7a86dade (element)",
+                "palette_sunset 1f563179"
+              ],
+              "love": true,
+              "rating": 5,
+              "notes": "REQUEST S09-SH045-a, approved by Leonard 2026-11-23. Not a draft (image input without a video reference): cannot be finalized. 480p (992x432), 7.07 s, 24 fps, audio present (mean -31.2 dB; not listened to). Claude's read from frames every 0.5 s: the crane works as one continuous move from her heels to a close-up of her face, stopping centered; black patent pointed pumps, charcoal suit, white shirt, gold-rimmed sunglasses and ponytail match char_boss; warm sunset backlight, hair moving in the wash. Off brief: at 0 s her right foot is already planted, so there is no step-down from the cabin, only the left foot stepping forward; the ground reads as dusty dirt more than asphalt; the helicopter wheel, step and cabin stay fairly readable through the middle of the crane, softer than sharp but not melted; at the end the helicopter reads olive-khaki rather than matte black. Leonard 2026-11-23: \"perfect\".",
+              "rating_source": "inferred"
+            }
+          ]
         }
       ]
     },
