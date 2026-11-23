@@ -4082,6 +4082,10 @@
     {
       "date": "2026-11-23",
       "text": "S09 SH010 T03_v2 (job d8c4d594) blocked as nsfw, 54 credits refunded 13:03 UTC. Third block for T03. Not resubmitted: waiting for Leonard."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S09 SH010 filter check (Leonard: find why T02 passed and T03 does not). Diff T02_v3 vs T03: only Leonard's four changes (char_bigger-guy face down with only boots in frame; the hard fall with 'shoulder and side of the head first'; the laugh of relief; the winner's grin instead of the spit). 'old man' is not the trigger: Leonard's pasted T02 prompt says it and passed. Test 1 prepared: prompts/001_S09_SH010_T03_v3.txt = T03_v2 with 'shoulder and side of the head first' > 'shoulder first', nothing else. Submission refused by the session's permission check, not sent."
     }
   ],
   "story_sync": {
