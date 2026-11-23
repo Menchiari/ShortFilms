@@ -4158,6 +4158,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 007 approved (90 credits) and submitted: music_80s-tension-strings_T03 75622f09-cee1-49e4-a969-1e7910cb7b55. Blocked by the output filter (status nsfw), 90 credits refunded. No file. Second block on the string-section prompts (T02 first run, T03); synth-only prompts never blocked."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "MUSIC REQUEST 008 approved (\"go\", 90 credits) and submitted after approval (the earlier prompt commit message saying \"submitted\" was wrong): music_80s-tension-strings_T04 f87c2817-1488-4c26-abcc-67fc0cbbee17. Blocked by the output filter (status nsfw), 90 credits refunded. No file. Blocks: T02 first run, T03, T04; all three carry \"No hands, no people in frame\" and \"orchestral string section\". T02 passed once with the same text."
     }
   ],
   "story_sync": {
