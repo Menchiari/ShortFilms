@@ -4290,6 +4290,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 015 approved (\"let's hear it\", 90 credits): music_political-thriller_T03 (composed, orchestra only), job dacdfcd1-8e15-4a49-9826-3a9b390df250, blocked by the output filter (status nsfw), 90 credits refunded. No file."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Retry series T03_v2: retry 1 job d4d6dc2f blocked (refund 15:57), retry 2 job 31a11aab blocked (refund 16:07), retry 3 job 807bf57b-e7a7-46bf-beaf-ff814507c853 submitted."
     }
   ],
   "story_sync": {
