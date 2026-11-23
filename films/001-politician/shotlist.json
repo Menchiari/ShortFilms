@@ -11133,7 +11133,7 @@
       "shots": [
         {
           "id": "SH010",
-          "status": "review",
+          "status": "approved",
           "takes": [
             {
               "id": "T02",
@@ -11328,9 +11328,9 @@
                 "T04 462ca649 (video_references, extended forward)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": "",
-              "notes": "REQUEST S10-SH010-j. Folder S10/SH010. Sequel of T04, the tiny dog. Claude's read: the dog is tiny, about 20 px tall at 992x432 (T07 about 60 px, T08 filled a third of the frame), at the far end of the street near the horizon; it enters from the left at about 4 s, crosses to the middle, stands, turns, and walks away at 10-12 s until it is a speck. Miss: from about 3 s the focus flips: the street and the dog turn sharp and the bobblehead turns soft, so the background is not out of focus."
+              "rating": 4,
+              "rating_source": "inferred",
+              "notes": "REQUEST S10-SH010-j. Folder S10/SH010. Sequel of T04, the tiny dog. Claude's read: the dog is tiny, about 20 px tall at 992x432 (T07 about 60 px, T08 filled a third of the frame), at the far end of the street near the horizon; it enters from the left at about 4 s, crosses to the middle, stands, turns, and walks away at 10-12 s until it is a speck. Miss: from about 3 s the focus flips: the street and the dog turn sharp and the bobblehead turns soft, so the background is not out of focus. Leonard 2026-11-23: fine, works."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
