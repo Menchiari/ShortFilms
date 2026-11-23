@@ -3942,6 +3942,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S06-SH025-a approved by Leonard (\"ok go\", 12 credits): S06 SH025 T01 submitted from the hub, job 0506cbe5-6891-4bc4-8bd7-64aeb4041aa0, seedance_2_5 omni_reference draft, 480p, 21:9, 4 s, audio on, palette_afternoon 3bf30eee as image reference, folder S06/SH025, prompt 001_S06_SH025_T01_v2.txt."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S06 SH025 T01 delivered (job 0506cbe5, 12 credits). Leonard's notes became REQUEST S06-SH025-b, prepared, not submitted: prompts/001_S06_SH025_T02.txt (T01_v2 with only these changes: location and point of view from his frame refs/001_S06_SH025_REF_place_leonard.jpg, uploaded as media c97a2ab6, replacing loc_side-street; the fall from a top view; a tight close-up after the whip; rage in his eyes, ready to kill; he charges past the lens). Same settings, quote 12 credits."
     }
   ],
   "story_sync": {

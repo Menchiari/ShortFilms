@@ -7510,8 +7510,35 @@
         },
         {
           "id": "SH025",
-          "status": "planned",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "0506cbe5-6891-4bc4-8bd7-64aeb4041aa0",
+              "prompt": "05-generation/prompts/001_S06_SH025_T01_v2.txt",
+              "file": "05-generation/takes/S06/SH025/001_S06_SH025_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S06_SH025_T01.jpg",
+              "references": [
+                "char_citizen1 6f316a04",
+                "char_citizen2 ee520fc8",
+                "loc_side-street 8787643a",
+                "palette_afternoon 3bf30eee"
+              ],
+              "notes": "REQUEST S06-SH025-a, draft, Leonard approved 12 credits (\"ok go\"), submitted from the S06 hub. Leonard 2026-11-23 for T02: the location as in his reference frame (the street of the S06 killings, crowd facing the old man), the camera much closer, the point of view like that frame, the friend with rage in his eyes ready to kill, everything closer up, the fall seen from a top view, not a side view.",
+              "love": false,
+              "rating": null,
+              "rating_source": null
+            }
+          ],
           "description": "A bearded man in a beige linen shirt slams face first onto the pavement, a small dark hole in his cheek, his head bouncing hard off the ground. Lifeless. The view whips up in a blur to his friend, balding, thick moustache, staring down at him in shock. He understands. The horror turns to rage. He looks up at the old man, roars and sprints at him, out of frame.",
           "framing": "CLOSE, low, on the ground, then a fast whip tilt up to CLOSE on Citizen 2",
           "movement": "Locked-off, then a fast blurred whip up",
