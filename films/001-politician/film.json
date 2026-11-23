@@ -4270,6 +4270,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 012 approved (\"let's hear it\", 90 credits): music_late80s-synth-underscore_T01, Seedance 2.5 30 s 480p, job 58266983-ea92-4ae4-932e-216d45550d1a, passed the filter, Higgsfield MUSIC. Crescendo T02 rated 1 (inferred, \"horrific\"), extension 011b dropped."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S08 SH010 T07 (a02e1aa0) and T08 (fe50642a), made in Higgsfield and not in git, recorded by the Scene 3 hub; same prompt run twice, 480p 4 s, credits inferred 12 each."
     }
   ],
   "story_sync": {
