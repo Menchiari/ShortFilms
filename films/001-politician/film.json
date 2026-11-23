@@ -3314,6 +3314,10 @@
     {
       "date": "2026-11-23",
       "text": "S08 SH010 T05 rated 1 (inferred): Leonard, looks fake. Likely cause [ASSUMPTION]: the end frame and the single-pose helicopter element pin the aircraft to one image, so the model can only tilt and shift that image, which reads as a 2D move. No new request prepared."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S08 SH010: free edit test made for Leonard ('go'): T04 cut from 1.3 s to the end, takes/S08/SH010/001_S08_SH010_T04_cut-from-1s3.mp4 (2.76 s, ffmpeg re-encode, no credits). Holds the last part of the 3D turn into side view and the settle on T01's frame."
     }
   ],
   "story_sync": {
