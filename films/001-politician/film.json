@@ -3990,6 +3990,10 @@
     {
       "date": "2026-11-23",
       "text": "S10 SH010 T05 in (job 1e06c4b9, 30 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T05.mp4, 10 s extension of T04. Claude's read in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S10 SH010 T05 rated 1 (inferred, Leonard: no). REQUEST S10-SH010-g prepared, not submitted: T06, forward extension of T04 (462ca649), prompts/001_S10_SH010_T05_extend-forward_v2.txt (only Leonard's changes: far, scared, always out of focus, scattered entries from the screen sides, dull clothes, barely noticed; the turning girl far and soft). 480p, 10 s, 30 credits, balance 22833.95. Waiting for approval."
     }
   ],
   "story_sync": {
