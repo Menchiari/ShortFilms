@@ -6774,6 +6774,28 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S05-SH130-e, approved by Leonard (720p). Leonard on T04: not scary enough, no single person walking toward the camera, the location seems different. First submission d305e7db rejected by moderation (nsfw, no charge); resent unchanged at Leonard's word ('try again prompt unchanged'), passed after about 16 minutes. Claude's read: a huge crowd filling the street wall to wall, nobody leading, closing in at every look; the street now matches loc_side-street (dusty concrete blocks, shutters). Off: the street image pulled the crowd back toward muted grey-brown clothes and mostly brown skin with several bearded men, so it reads less diverse than T04; the frame does not darken at the end."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "c5160648-56d6-4a4c-a0c1-98e698a11caa",
+              "prompt": "05-generation/prompts/001_S05_SH130_T06.txt",
+              "file": "05-generation/takes/S05/SH130/001_S05_SH130_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH130_T06.jpg",
+              "references": [
+                "loc_side-street e728a9ae (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S05-SH130-f, approved by Leonard (480p). Leonard on T05: too many people, the same amount as in his two reference frames (about 14 around him at a wall); back to 480p. T05 prompt with only the count changed to about fifteen. Passed first submission. Claude's read: fewer than T05 but still about 30 visible in the first second, so the count is not held; the crowd is more mixed again than T05 (red hoodie, nurse in scrubs, braids, white-haired women); the frame darkens at the end with faces close from edge to edge."
             }
           ],
           "description": "Faces close in around him, slowly, from every side.",
