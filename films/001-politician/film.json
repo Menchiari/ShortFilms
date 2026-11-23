@@ -3946,6 +3946,10 @@
     {
       "date": "2026-11-23",
       "text": "S06 SH025 T01 delivered (job 0506cbe5, 12 credits). Leonard's notes became REQUEST S06-SH025-b, prepared, not submitted: prompts/001_S06_SH025_T02.txt (T01_v2 with only these changes: location and point of view from his frame refs/001_S06_SH025_REF_place_leonard.jpg, uploaded as media c97a2ab6, replacing loc_side-street; the fall from a top view; a tight close-up after the whip; rage in his eyes, ready to kill; he charges past the lens). Same settings, quote 12 credits."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S06-SH025-b approved by Leonard (\"ok go\", 12 credits): S06 SH025 T02 submitted, job fec78db3-3f6c-467b-96ab-8196af7d03d8, prompt 001_S06_SH025_T02.txt, folder S06/SH025."
     }
   ],
   "story_sync": {
