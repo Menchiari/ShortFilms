@@ -11239,6 +11239,29 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S10-SH010-f. Folder S10/SH010. Sequel of T04: returns only the new 10 s, continuous from T04's last frame, camera locked. Claude's read: people pass the car on both sides from about 0.5 s and walk into the street, backs to the camera, heads raised to the sunset; they stop by about 6 s. Misses: eight people, not six; they stop only a few meters past the hood, large in frame, not distant; the focus drifts from the bobblehead to the people, so by the end the people are sharp and the bobblehead is soft; the blonde girl in yellow turns only at about 9.5 s and her face is sharp. Faces seen: white, Black, East Asian; no Middle Eastern look seen. Audio quiet, about -38 to -42 dB (not listened to). Leonard 2026-11-23: no. Far away, a bit scared, always out of focus, not all at once: scattered, from the sides of the screen, like mice sneaking out of their nests, curious; part of the background, normal clothes blending in, almost unnoticed."
+            },
+            {
+              "id": "T06",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "cb192262-0452-432c-aaed-e0b59b356146",
+              "prompt": "05-generation/prompts/001_S10_SH010_T05_extend-forward_v2.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T06.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T06.jpg",
+              "references": [
+                "T04 462ca649 (video_references, extended forward)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S10-SH010-g. Folder S10/SH010. Sequel of T04, new 10 s only. Claude's read: empty street to about 3 s; people enter from the left and right edges one or two at a time from about 3 s, dull clothes, looking up at the sky; one girl turns toward the camera at the end. Misses, same as T05: they end only a few meters past the hood, large in frame; seven people; the focus drifts to them, so by the end they are sharp and the bobblehead is soft."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
