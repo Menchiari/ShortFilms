@@ -3294,6 +3294,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: T01 is still the best-looking S08 SH010 take; only the helicopter is too static: make it wobble and stabilize in 3D, the tail correcting itself and coming to a halt. REQUEST S08-SH010-d prepared, not submitted: prompts/001_S08_SH010_T04.txt, end_image = T01's last frame (frames/001_S08_SH010_T04_end_from_T01.png, media 2a469527) so the take ends on T01's look, plus T01's references (prop_helicopter, loc_square, palette_sunset); estimate 12 credits."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S08-SH010-d approved by Leonard ('go with S08-SH010-d'; estimate 12 credits) and submitted: S08 SH010 T04 b105ecef-7874-4e4a-9eef-6d76b182969f, seedance_2_5 omni_reference, 480p, 21:9, 4 s, audio on, end_image T01 last frame, prop_helicopter, loc_square, palette_sunset. Ends on T01's frame; the helicopter yaws about 90 degrees in 3D from a front three-quarter view into place, then settles."
     }
   ],
   "story_sync": {

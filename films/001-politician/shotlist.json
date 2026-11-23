@@ -7167,6 +7167,32 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST S08-SH010-c. Folder S08/SH010. Start frame v1 (Seedream 8f2af3e5) as start_image (the API echo listed it under reference_images; the takes's frames match the still, so it was used), loc_square, palette_sunset, no guide clip. Claude's read: the animatic composition held for the whole 4 s: the tall balconied block at screen left, the lower block's roof edge diagonal at right, the helicopter in the sky upper middle, nose left, a real UH-60, about a fifth of frame width. It drifts a little side to side and shifts its attitude slightly: a hover, the fight for stability subtle. A man is visible in the open door, the rifle not readable at 480p. Sky pale warm cream as in the start frame. Camera locked. Audio present (mean -29 dB); Claude cannot listen, music not verified. Leonard 2026-11-19: awesome."
+            },
+            {
+              "id": "T04",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 12.0,
+              "job_id": "b105ecef-7874-4e4a-9eef-6d76b182969f",
+              "prompt": "05-generation/prompts/001_S08_SH010_T04.txt",
+              "file": "05-generation/takes/S08/SH010/001_S08_SH010_T04.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH010_T04.jpg",
+              "references": [
+                "T01 last frame 2a469527 (end_image)",
+                "prop_helicopter 6c8efe25 (image_references)",
+                "loc_square 62815a4f (image_references)",
+                "palette_sunset 1f563179 (image_references)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S08-SH010-d. Folder Scenes/S08/SH010. end_image = T01's last frame (media 2a469527), plus prop_helicopter, loc_square, palette_sunset, as T01. Claude's read: T01's framing and light; the last frame lands on T01's (side view, nose right, level). The motion is one big 3D turn rather than a wobble: it opens in three-quarter front view, nose toward the camera, higher and smaller, sunlit tan on its front, yaws about 90 degrees through 0.3 to 1.3 s while sinking into place, then rocks slightly and holds still from about 2.5 s. A real rotation in perspective, not a flat move. Figure in the door. Audio present (mean -33 dB); Claude cannot listen, music not verified."
             }
           ],
           "description": "High above and far beyond the rooftops, a helicopter holds still in the sky: a matte black Black Hawk, unmarked, its sliding door open.",
