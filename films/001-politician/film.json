@@ -4298,6 +4298,10 @@
     {
       "date": "2026-11-23",
       "text": "Retry series T03_v2: retry 3 job 807bf57b blocked (refund 16:16), retry 4 job 4de50ea9 blocked (refund 16:22), retry 5 job a723a667-6420-4aad-8468-6ca91161b1f3 submitted."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S09 SH010 T03 PASSED on retry 6 (job 7441ad82, 54 credits, prompt T03_v2), downloaded as takes/S09/SH010/001_S09_SH010_T03.mp4, still made. Retries 1-5 (jobs d4d6dc2f, 31a11aab, 807bf57b, 4de50ea9, a723a667) blocked and refunded. Not yet rated by Leonard."
     }
   ],
   "story_sync": {
