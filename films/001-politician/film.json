@@ -4102,6 +4102,10 @@
     {
       "date": "2026-11-23",
       "text": "S10 SH010 T09 rated 4 (inferred, Leonard: fine, works). S10 SH010 approved: T04 followed by its extension T09."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Filter test 1 (T03_v3, job c92cde2f) blocked as nsfw, 54 refunded 13:25 UTC. The head impact alone is not the trigger. Fourth block for T03."
     }
   ],
   "story_sync": {
