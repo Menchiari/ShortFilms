@@ -3982,6 +3982,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: a 10 s sequel of S10 SH010 T04 (no cheats): townspeople walk in from off screen, out of focus, look into the sunset confused, stop; one turns and looks into the camera, out of focus. REQUEST S10-SH010-f prepared, not submitted: T05, video_extension forward of T04 (462ca649), prompts/001_S10_SH010_T05_extend-forward.txt, 480p 30 credits (720p 70), balance 22992.95. [ASSUMPTION] they come from behind the camera past both sides of the car; six people, the faces of the S07 crowd; the blonde girl in yellow turns. Waiting for Leonard."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S10-SH010-f approved by Leonard ('go', 30 credits). First submit rejected by validation (extension_mode missing, request bdded84c), nothing charged. Resubmitted with extension_mode forward: S10 SH010 T05 job 1e06c4b9-df5e-4215-9f6e-521e87fbc684, video_extension of T04 (462ca649), 480p, 10 s, audio on, folder S10/SH010."
     }
   ],
   "story_sync": {
