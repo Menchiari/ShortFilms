@@ -68,3 +68,19 @@ Seedance video_extension forward of T03, so the same orchestra and recording con
 | 17-18 | 18-24 s | Violins take the figure an octave up; timpani on every downbeat | B-flat, C, A major |
 | 19-20 | 24-30 s | Full orchestra forte: horns and trumpets D-F-E, long A over snare roll and ostinato | A, unresolved |
 
+## Reference analysis: "7 Minutes" (Seatbelts, Knockin' on Heaven's Door OST), Leonard's upload 2026-11-23
+
+Measured with librosa and ffmpeg (file kept out of git: commercial recording). Measurements, not listening. Key estimates are weak (correlation 0.56).
+
+- Length 6:46 (406 s). Tempo: tempogram peaks 74 to 76 BPM with a strong double-time 152 layer; 99 BPM is a weaker alternative.
+- Harmony: no stable key. Centers move C#/F# (0:00-0:40), G and B minor (1:00-2:20), C# (2:40-4:40), A minor / B-flat (5:20-6:40). The strongest pitch pairs are half steps (A-B-flat, G-A-flat, C#-D): chromatic half-step tension.
+- Arc (mean level, percussive share):
+  - 0:00-0:40 quiet, low, -28 dB; percussive bursts at 0:20.
+  - 0:40-1:20 first loud section, -14 dB, bright.
+  - 1:20 drops to -23 dB, almost no percussion, low and heavy.
+  - 1:40-2:40 back up to -13 dB with drums.
+  - 3:00-4:40 long dark low section, high band under 3 %, low band up to 69 %.
+  - 5:00-6:20 the loudest stretch, -11 dB, brightest.
+  - 6:40 ends on percussive hits (91 % percussive).
+- Instruments: not measurable from these numbers. Fan wiki credits synthesizer, string section and chorus (not verified).
+
