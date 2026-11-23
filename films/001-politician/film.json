@@ -4418,6 +4418,10 @@
     {
       "date": "2026-11-23",
       "text": "MUSIC REQUEST 018i approved (\"let's hear it\", 27.92 credits): music_80s-action-synth_T10_eleven_body v5-v12, prompt unchanged, elevenlabs_music_v2_5, 24 s, two batch-4 requests, Higgsfield MUSIC. Jobs: v5 8d78cf30-5ca6-4d24-b211-279788e5a253, v6 5fb7dcdd-ddb1-4f08-ab1c-20b478bb104d, v7 780c7a59-70d7-4fed-bc18-4c1af4ddf6e9, v8 f6de978c-4b17-424f-af3d-0adbb9afb03b, v9 bb8c5db5-a20c-4874-9f11-af426b992957, v10 80ee90cf-ddab-4e7a-800e-b0da0f058399, v11 1bbbc398-c461-47ed-b991-329ac2bd1a3d, v12 98c35f24-55f6-4886-a69b-73ca4006eeeb. Bass on E (share of low-band energy on E): v7 0.78, v11 0.48, v12 0.38; v8 moves to G from 12 s, v9 sits between E and F, v10 drifts from 12 s. A download-loop error briefly overwrote local copies of v1 and v2; restored from git, verified, nothing lost."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "MUSIC REQUEST 022 approved (\"let's hear it\", 90 credits): music_hybrid-thriller_T02 (full bar-by-bar score), Seedance 2.5 30 s 480p, job 16ce2ae4-bdc2-4646-81b8-08961bb9d49a, passed the filter, Higgsfield MUSIC. Measured: Seedance did not follow the written bass line."
     }
   ],
   "story_sync": {
