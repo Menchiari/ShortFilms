@@ -10028,7 +10028,32 @@
           "movement": "Crane up, one continuous take",
           "duration_s": 7,
           "note": "Added and approved by Leonard 2026-11-23 (no screenplay change). Sits after SH040, before SH050; final order in the edit. Everything except her out of focus, very shallow depth of field. Look: ARRI Alexa large format crossed with IMAX, 35mm film grain (Leonard).",
-          "takes": []
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 7,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 21.0,
+              "job_id": "309678f4-a5c9-4409-9b00-887bfb0c93f7",
+              "prompt": "05-generation/prompts/001_S09_SH045_T01.txt",
+              "file": "05-generation/takes/S09/SH045/001_S09_SH045_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH045_T01.jpg",
+              "references": [
+                "char_boss 69d22ecb (element)",
+                "prop_helicopter 7a86dade (element)",
+                "palette_sunset 1f563179"
+              ],
+              "love": false,
+              "rating": null,
+              "notes": "REQUEST S09-SH045-a, approved by Leonard 2026-11-23. Not a draft (image input without a video reference): cannot be finalized. 480p (992x432), 7.07 s, 24 fps, audio present (mean -31.2 dB; not listened to). Claude's read from frames every 0.5 s: the crane works as one continuous move from her heels to a close-up of her face, stopping centered; black patent pointed pumps, charcoal suit, white shirt, gold-rimmed sunglasses and ponytail match char_boss; warm sunset backlight, hair moving in the wash. Off brief: at 0 s her right foot is already planted, so there is no step-down from the cabin, only the left foot stepping forward; the ground reads as dusty dirt more than asphalt; the helicopter wheel, step and cabin stay fairly readable through the middle of the crane, softer than sharp but not melted; at the end the helicopter reads olive-khaki rather than matte black. Not yet rated by Leonard."
+            }
+          ]
         },
         {
           "id": "SH050",
