@@ -2288,8 +2288,34 @@
         },
         {
           "id": "SH190",
-          "status": "approved",
-          "takes": [],
+          "status": "review",
+          "takes": [
+            {
+              "id": "T01",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 4,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 28.0,
+              "job_id": "27c035e7-2891-4e17-979b-9ae0f5e08be7",
+              "prompt": "05-generation/prompts/001_S02_SH190_T01.txt",
+              "file": "05-generation/takes/S02/SH190/001_S02_SH190_T01.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S02_SH190_T01.jpg",
+              "references": [
+                "char_politician element 1d544095",
+                "loc_car-interior element efd956ba",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Replaces the brake insert in SH180 T01 (Leonard 2026-11-23: he was pressing the brake). Claude's read: wide brake pedal on the left stays empty the whole shot; the shoe sits to its right and tips down slowly, heel on the mat. The accelerator itself is hidden under the shoe, so the press reads from the foot, not the pedal."
+            }
+          ],
           "description": "His shoe presses the accelerator, gently.",
           "framing": "INSERT, footwell",
           "movement": "Locked-off",
