@@ -6740,7 +6740,7 @@
         },
         {
           "id": "SH140",
-          "status": "approved",
+          "status": "review",
           "takes": [
             {
               "id": "T01",
@@ -6847,6 +6847,33 @@
               "rating": null,
               "rating_source": null,
               "notes": "REQUEST S05-SH140-d, T03 prompt with only the crowd and place words changed (diverse crowd, a city, no mosque/minaret/dome line). Claude's read: same staging and timing as T03. The crowd is more mixed than T03: several Black men, a few women, modern t-shirts and jeans; still mostly men, many still read Mediterranean or Middle Eastern, no clearly East Asian face visible at 480p. Gun still black."
+            },
+            {
+              "id": "T05",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "omni_reference",
+              "duration_s": 10,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 70.0,
+              "job_id": "c63e5d79-29e4-4186-b204-f53aad007624",
+              "prompt": "05-generation/prompts/001_S05_SH140_T05.txt",
+              "file": "05-generation/takes/S05/SH140/001_S05_SH140_T05.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH140_T05.jpg",
+              "references": [
+                "loc_square 62815a4f",
+                "char_politician_blood 73236f58",
+                "prop_briefcase 4bf36cb5",
+                "prop_gun 24875e9a",
+                "palette_afternoon 3bf30eee"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "REQUEST S05-SH140-e, 720p, T04 prompt with only the voice words changed (shouts in English, mixed accents, never Arabic). Claude's read (stills only, audio language not checked): same staging and timing as T03/T04; the crowd is clearly more mixed: Black and white people, many women, modern t-shirts, jeans, plaid shirts. Gun still black."
             }
           ],
           "description": "At the corner where the street opens into the square, under a tall street light, the crowd closes in on him, slowly: backs, arms, heads. He disappears inside it. A gunshot. Everyone flinches. Some run at once, others a moment later; the crowd comes apart.",
