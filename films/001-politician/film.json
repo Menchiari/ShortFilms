@@ -4182,6 +4182,10 @@
     {
       "date": "2026-11-23",
       "text": "Control T02_v3 (job 5a0f8eed, the prompt that passed on 2026-11-20) blocked as nsfw today. The block is not caused by Leonard's T03 changes: the filter blocks this scene today even with the old prompt."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: 'go option 2, 54 credits'. T03_v8 = T03_v2 without 'and the man who tried to kill him lies right beside him' and without 'beaten': job d2680230-4fc2-4bab-b263-7f6b47424630."
     }
   ],
   "story_sync": {
