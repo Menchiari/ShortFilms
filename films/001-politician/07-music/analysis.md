@@ -54,3 +54,15 @@ D minor, 4/4, 80 BPM: one bar = 240 / 80 = 3 s, 30 s = 10 bars exactly. Orchestr
 
 Why it should read political thriller, not soap opera: no melody that sings, no warm major resolution, no swells; the only melodic idea is a three-note horn cell (D-F-E), the minor-second sigh in the violins and the dominant that never resolves.
 
+## Composition plan: music_political-thriller_T03_sequel (Leonard 2026-11-23: a real 30 s sequel, Tom Clancy political thriller)
+
+Seedance video_extension forward of T03, so the same orchestra and recording continue. D minor, 80 BPM, bars 11-20. Grows mezzo piano to forte; adds trumpets, trombones, timpani, military snare.
+
+| Bars | Time after T03 | Notes and instruments | Harmony |
+|---|---|---|---|
+| 11-12 | 0-6 s | T03's held A resolves: low strings on D, soft timpani roll on D, snare enters quietly with a march pattern | D minor (the arrival T03 withheld) |
+| 13-14 | 6-12 s | Cellos and basses: eighth-note ostinato on D, F, E; horns repeat T03's figure D-F-E, firm | D minor |
+| 15-16 | 12-18 s | Trumpets and trombones: D-F-E then hold A, broad; snare stronger | D minor to B-flat |
+| 17-18 | 18-24 s | Violins take the figure an octave up; timpani on every downbeat | B-flat, C, A major |
+| 19-20 | 24-30 s | Full orchestra forte: horns and trumpets D-F-E, long A over snare roll and ostinato | A, unresolved |
+
