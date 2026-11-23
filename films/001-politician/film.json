@@ -3970,6 +3970,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S04-SH120-i approved (Leonard: \"you can move on\"; 18 credits, 480p draft, 21:9, 6 s) and submitted: S04 SH120 T10 job a91dd45f-1b5e-4580-a9a9-b88dfae719df, prompt T10, folder S04/SH120."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S04 SH120 T10 delivered (job a91dd45f, 18 credits), takes/S04/SH120/001_S04_SH120_T10.mp4, still made, recorded in shotlist.json, unrated. No jerk, held close from frame one; the line starts at about 0.75 s. Waiting for Leonard."
     }
   ],
   "story_sync": {
