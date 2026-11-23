@@ -4034,6 +4034,10 @@
     {
       "date": "2026-11-23",
       "text": "S07 SH070 T07 done (15 credits, passed the filter, draft true, about 9 min in queue), downloaded to takes/S07/SH070/001_S07_SH070_T07.mp4, recorded in shotlist.json. Same prompt as T06 except the man, but the steep low angle and the sky came back (T06's wall framing was that take's roll, not held by the words)."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S07 SH070 T07: try again, the head chunks are excessive, not realistic. REQUEST S07-SH070-h prepared, not submitted: prompts/001_S07_SH070_T08.txt = T07 word for word except the debris: a short sharp burst of dark blood and a few small fragments, gone in a fraction of a second, no large chunks (was thick heavy pieces, solid chunks); final frame 'last drops of blood' (was 'last chunks of debris'). Same media and settings, 480p, 21:9, 5 s, audio on, draft true. get_cost 15 credits, balance 22,563.95."
     }
   ],
   "story_sync": {
