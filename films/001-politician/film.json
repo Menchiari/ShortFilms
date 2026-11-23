@@ -3302,6 +3302,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: make the subtle version, just a few degrees of tail sway. REQUEST S08-SH010-e prepared, not submitted: prompts/001_S08_SH010_T05.txt (T04 with the motion limited to a few degrees of tail sway in side view, nose right throughout), end_image T01 last frame, prop_helicopter, loc_square, palette_sunset; estimate 12 credits. Waiting for approval."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S08-SH010-e approved by Leonard ('go with S08-SH010-e'). Submit timed out twice (Higgsfield MCP, 60 s); the generation history shows no new job after either attempt, so nothing was generated and, as far as the history shows, nothing was charged. Not retried a third time; waiting for Leonard."
     }
   ],
   "story_sync": {
