@@ -4074,6 +4074,10 @@
     {
       "date": "2026-11-23",
       "text": "Leonard: he is not an old man; name him by the element; fix only the essential and try again. prompts/001_S09_SH010_T03_v2.txt = T03 with every 'old man' replaced by the char_politician_final element placeholder ('beaten old man' > 'beaten man'), nothing else changed. Submitted on Leonard's 'try again' (same settings and media, 54 credits): job d8c4d594-83cb-4f7a-8ffb-20720d7515a1."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S10-SH010-j approved by Leonard ('go approve', 36 credits) and submitted: S10 SH010 T09, job 2ae669ec-bdb5-4cc2-81c6-bb1a42b1f900, forward extension of T04, prompt 001_S10_SH010_T09_extend-forward.txt, 480p, 12 s, folder S10/SH010."
     }
   ],
   "story_sync": {
