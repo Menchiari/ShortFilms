@@ -3887,6 +3887,10 @@
     {
       "date": "2026-11-23",
       "text": "REQUEST S05-SH130-e approved (28 credits quoted, 720p, 21:9, 4 s, omni_reference with loc_side-street e728a9ae): job d305e7db-7507-41b5-bdad-701a4a09b638 rejected by Higgsfield moderation (status nsfw) after about 9 minutes. No credits charged (balance unchanged at 23325.95). Prompt: 05-generation/prompts/001_S05_SH130_T05.txt. Cause unknown."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S04 SH110 T06: too much side by side; same shot, focused on the big guy's face, the politician off screen or only the back of his head, struggling; everything else the same. Prompt 001_S04_SH110_T07.txt = T06 with three edits: the one-sentence camera line (framed on the big man's face while the old man struggles), the 2-5s staging (big man's face toward camera, old man only back of head and shoulder, struggling), the old man's TACTIC (struggles instead of letting himself be lifted). Preflight 35 credits (720p, 5 s), balance 23,239.95. Waiting for Leonard."
     }
   ],
   "story_sync": {
