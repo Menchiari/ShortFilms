@@ -1,0 +1,45 @@
+Audio: only the heavy idling thump of the helicopter rotor overhead and the rush of its wash, grit ticking on the fuselage, loose paper sheets skittering on the asphalt, his slow uneven footsteps, the creak of the cabin floor as he climbs in, her footsteps at the end, and the two spoken lines, clear over the rotor. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
+
+@char_boss (@Image1): the business lady's face, hair, build and clothes only, not her pose, headset or background. @char_politician_final (@Image2): the old man's face, hair, build, wounds and torn suit only, not his pose or background. @prop_helicopter (@Image3): the helicopter: a matte black Sikorsky UH-60 Black Hawk, its fuselage, matte black paint and open sliding side door only, not its crew, not its gunner, not its background. @loc_square (@Image4): the square's buildings: cracked ochre plaster, small balconies and dusty asphalt only, not their people, cars, lamp, framing or light. @palette_sunset (@Image5): color and light only.
+
+Close locked-off shot in a dusty town square at sunset, under the rotor wash of a landed helicopter: the business lady from @char_boss stands still in the foreground holding a closed folder, while behind her the old man from @char_politician_final limps past her to the open door of the helicopter from @prop_helicopter, says one line without looking at her and climbs in; the focus pulls to her, she looks out at the street, says two words to herself, then turns and follows him into the helicopter.
+
+The business lady from @char_boss: close, her head and shoulders in the right half of frame, her face in three-quarter view turned toward screen right, the closed folder held low at her chest in both hands. The rotor wash whips her hair and the collar of her clothes the whole time.
+
+The old man from @char_politician_final: bruised, a split lip, dried blood from his ear, his torn dusty suit, and a dark wet stain down the front of his trousers. He limps heavily on his right leg, slow. He never looks at her.
+
+The helicopter from @prop_helicopter stands on the asphalt directly behind her, a few steps back, side-on to the camera: its matte black fuselage fills the background behind her from the left edge of frame to past her right shoulder, like a dark wall behind her. Its sliding side door is open toward the camera just to the left of her head: the cabin a dark empty opening, nobody sitting in it, no door gun. Matte black, unmarked, no numbers, no insignia. The rotor is above frame, its shadow flickering over the fuselage. The town shows only in a narrow strip at the right edge of frame and above the fuselage: a little hazy sky and a few far rooftops, nothing more; no open square, no wide view of the city. Count of helicopters: one. Count of folders: one, in her hands.
+
+Lighting, motivated by the sun only: a low sunset sun behind the helicopter, just out of frame at the upper right, facing the camera at a raking angle: hazy orange backlight over the fuselage, dust and grit whipped up by the rotor wash glowing in it, a warm rim along her hair, the side of her face and her shoulder; her face filled softly by warm bounce from the sunlit asphalt, so her eyes read clearly. The black fuselage holds a thin warm edge of light. Deep brown shadows that keep their detail, never crushed to black, highlights that roll off softly, never clipped.
+
+Lens and focus: anamorphic lens, shallow depth of field, a slow rack focus between the two planes, oval bokeh on bright points.
+
+0-3s: close, eye level, camera locked-off. She stands just right of center, soft and out of focus in the foreground, still, looking toward screen right, the black fuselage behind her. The old man limps into frame from screen right, between her and the helicopter, passes behind her shoulder without a glance and limps on to the open helicopter door just left of her head. The focus is on him and follows him to the door; she stays soft and does not move.
+3-6s: at the door he stops and turns only halfway, away from her, until his face is in profile toward screen left, chin up, pointing his chin out at the street. He stays sharp, she stays soft. During his line he keeps his face toward screen left and never turns toward her.
+6-8s: the focus pulls slowly from him to her face. Her face sharp, her expression unchanged. Behind her, now soft, he grips the door frame and climbs into the dark cabin, his body still in the doorway, in frame.
+8-10s: she holds still, then narrows her eyes and looks past the lens toward the street in front of her, at the money blowing across it, almost disgusted. She keeps her mouth closed.
+10-11s: she says her line quietly, to herself, still looking past the lens.
+11-13s: she turns around, away from the camera, and walks slowly the few steps to the open door behind her, the folder in her hand; the focus follows her. Final frame: she stands at the open door, just left of center, one foot on the step, climbing in after him, her back to the camera; the dark cabin behind the door, the black fuselage around it; the camera locked-off at the same height and framing as the first frame.
+
+Dialogue, language English; the old man is American with a slight accent, his voice rough and tired:
+4-6s, the old man's line (rubbing it in, without looking at her): {That's your money right there.}
+10-11s, the business lady's line (to herself, low, confirming what she saw coming, a little annoyed, settling for it): {Not anymore.}
+During his line she keeps her mouth closed. During her line he is inside the helicopter, silent.
+
+ACTING TASK, the business lady (she is fully invested in her tactic; the work happens in her eyes):
+SCENE DIRECTION (shared, unspoken): the deal is done: close it like any other, no scene, nothing more to say.
+MOTIVE (her fuel): she has closed a hundred of these; she owes him nothing, and anything she gives him now would be a gift.
+GOAL: walk away from this square owing him nothing, not even a reaction.
+OBSTACLE: he is trying to get the last word, the street is full of what this cost, and one flicker on her face would hand it to him.
+TACTIC: she gives him a closed, patient stillness while he limps past and talks: her eyes stay on the place where he stood, refusing to follow him, waiting him out. When the focus finds her she lets nothing show. Then, once he is gone, she lets her eyes go to the street on her own terms: she looks at the money the way a buyer looks at goods that are worth nothing, weighs it, and writes it off with her two words: she knew it would end like this, she is a little irritated to be proven right, and she settles for it, because this is as good as it gets. Then she turns her back on it.
+(Safety: gaze always engaged in the task, never a frozen glassy unfocused stare; natural blink cadence.)
+
+ACTING TASK, the old man: SCENE DIRECTION: same. GOAL: leave with the last word. TACTIC: he denies her his face: he talks to the street, chin up, as if she were not worth turning around for, and climbs in without waiting for an answer.
+
+Count of people in frame: two, the business lady and the old man. Nobody inside the helicopter is visible. No slow motion: real time. No cuts.
+
+Unplaceable town: no landmark, no mosque, no minaret, no dome, no flag, no readable writing on any sign, wall or aircraft, no logos. No laundry, no trees, no palms, no greenery.
+
+Look: shot on an ARRI Alexa with vintage anamorphic lenses, 35mm film look, low sunset sun, warm ochre and brown palette, deep brown shadows, dust in the air, fine film grain, documentary realism, not CGI.
+
+Audio: only the heavy idling thump of the helicopter rotor overhead and the rush of its wash, grit ticking on the fuselage, loose paper sheets skittering on the asphalt, his slow uneven footsteps, the creak of the cabin floor as he climbs in, her footsteps at the end, and the two spoken lines, clear over the rotor. No music, BGM, score, instrumental, melody, soundtrack, synth, ambient pad, drone, swelling tone, crescendo, musical build or stinger at any moment. No subtitles.
