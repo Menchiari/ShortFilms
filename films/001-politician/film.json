@@ -3294,6 +3294,10 @@
     {
       "date": "2026-11-23",
       "text": "S09 SH100 T01 rated 4 (inferred, 'works pretty well'). REQUEST S09-SH100-b prepared, not submitted: T02, prompts/001_S09_SH100_T02.txt = T01 with two changes: the helicopter directly behind her, fuselage filling the background, door just left of her head, only a strip of town at the right edge (Leonard); her line read as 'I knew this would happen', a little annoyed, settling for it. Same refs and settings, 13 s, 480p, 21:9, audio on, folder S09/SH100. Line-drawing guide clips tested and dropped: the edges lose the helicopter. Estimate 39 credits."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S09-SH100-b approved by Leonard ('ok go, 39 credits'): submitted, accepted first time, job 5f745edb-898f-4e14-9c9b-6fda0175fd5f, folder Scenes/S09/SH100."
     }
   ],
   "story_sync": {
