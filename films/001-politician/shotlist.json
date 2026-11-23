@@ -11262,6 +11262,29 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "REQUEST S10-SH010-g. Folder S10/SH010. Sequel of T04, new 10 s only. Claude's read: empty street to about 3 s; people enter from the left and right edges one or two at a time from about 3 s, dull clothes, looking up at the sky; one girl turns toward the camera at the end. Misses, same as T05: they end only a few meters past the hood, large in frame; seven people; the focus drifts to them, so by the end they are sharp and the bobblehead is soft. Leonard 2026-11-23: exactly the opposite of what he asked. Claude's share: 'straight into the lens' and 'from the side of the screen' pull people close and into focus; no concrete distance or size."
+            },
+            {
+              "id": "T07",
+              "date": "2026-11-23",
+              "model": "seedance_2_5",
+              "mode": "video_extension",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 30.0,
+              "job_id": "edde4c70-2496-460a-a503-1f04b3ed690e",
+              "prompt": "05-generation/prompts/001_S10_SH010_T07_extend-forward.txt",
+              "file": "05-generation/takes/S10/SH010/001_S10_SH010_T07.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S10_SH010_T07.jpg",
+              "references": [
+                "T04 462ca649 (video_references, extended forward)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": "",
+              "notes": "REQUEST S10-SH010-h. Folder S10/SH010. Sequel of T04, the dog. Claude's read: focus holds on the bobblehead the whole time; the dog appears at about 3 s rising from just beyond the hood line, not from a side street, then stands and turns, soft, small but nearer than asked (tens of meters, not 150). Leonard 2026-11-23: the dog should arrive from the side, then walk to the horizon with a couple of extra seconds, like an actual dog, the S02 dog; maybe a gust of wind; background out of focus; nothing else changes."
             }
           ],
           "description": "Inside the empty car, the door still open. Through the windshield, close, the helicopter rises into view from below, nose down, and swings around in a heavy, slow bank that brings it closest to the car before it heads for the horizon: too low, perfectly controlled. As it turns, the camera sinks, and the bobblehead, giving the finger, rises into the bottom of the frame. The rotor wash rolls down th",
