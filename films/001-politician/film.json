@@ -4118,6 +4118,14 @@
     {
       "date": "2026-11-23",
       "text": "Leonard on S07 SH070 T06: change only the main man to char_bigger-guy. REQUEST S07-SH070-g prepared, not submitted: prompts/001_S07_SH070_T07.txt = T06 word for word except @char_big-guy to @char_bigger-guy (10 places) and his element line traits (long curly hair, full beard, sweat-stained tan t-shirt, brown work trousers instead of curly hair, mustache, worn brown t-shirt, cargo trousers). Media as T06 with @Image1 = char_bigger-guy image 1d925d6b (form of S04 SH120 T07 and SH140 T03). Same settings: 480p, 21:9, 5 s, audio on, draft true, folder S07/SH070. get_cost 15 credits. A new take: the performance re-rolls."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "REQUEST S07-SH070-g approved by Leonard ('go with S07-SH070-g', 15 credits) and submitted: S07 SH070 T07 b1d7fe4f-155e-42b2-b909-8e29b0a74750, seedance_2_5 omni_reference, 480p, 21:9, 5 s, audio on, draft true, char_bigger-guy 1d925d6b, prop_bar-weapon, loc_square, folder S07/SH070, prompt 001_S07_SH070_T07.txt."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "S07 SH070 T07 done (15 credits, passed the filter, draft true, about 9 min in queue), downloaded to takes/S07/SH070/001_S07_SH070_T07.mp4, recorded in shotlist.json. Same prompt as T06 except the man, but the steep low angle and the sky came back (T06's wall framing was that take's roll, not held by the words)."
     }
   ],
   "story_sync": {
