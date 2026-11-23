@@ -4022,6 +4022,10 @@
     {
       "date": "2026-11-23",
       "text": "S10 SH010 T06 rated 1 (inferred). Leonard drops the crowd: a single dog, the S02 stray, alone and far as a dot, walks in, stops, stares at the horizon, turns toward the car, always out of focus. REQUEST S10-SH010-h prepared, not submitted: T07, forward extension of T04 (462ca649), prompts/001_S10_SH010_T07_extend-forward.txt (dog from the S02 SH020 T03 description; about 150 m away, no bigger than the bobblehead's fingertip; enters from a side street at the far end; turns toward the car, no look into the lens). 480p, 10 s, 30 credits, balance 22659.95. Waiting for approval."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard on S07 SH070 T06: change only the main man to char_bigger-guy. REQUEST S07-SH070-g prepared, not submitted: prompts/001_S07_SH070_T07.txt = T06 word for word except @char_big-guy to @char_bigger-guy (10 places) and his element line traits (long curly hair, full beard, sweat-stained tan t-shirt, brown work trousers instead of curly hair, mustache, worn brown t-shirt, cargo trousers). Media as T06 with @Image1 = char_bigger-guy image 1d925d6b (form of S04 SH120 T07 and SH140 T03). Same settings: 480p, 21:9, 5 s, audio on, draft true, folder S07/SH070. get_cost 15 credits. A new take: the performance re-rolls."
     }
   ],
   "story_sync": {
