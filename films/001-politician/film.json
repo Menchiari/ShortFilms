@@ -3290,6 +3290,10 @@
     {
       "date": "2026-11-20",
       "text": "S10 SH010 T03 in (job e29dc213, 60 credits): 05-generation/takes/S10/SH010/001_S10_SH010_T03.mp4, 20.06 s. Claude's read in shotlist.json. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-23",
+      "text": "Leonard: T01 is still the best-looking S08 SH010 take; only the helicopter is too static: make it wobble and stabilize in 3D, the tail correcting itself and coming to a halt. REQUEST S08-SH010-d prepared, not submitted: prompts/001_S08_SH010_T04.txt, end_image = T01's last frame (frames/001_S08_SH010_T04_end_from_T01.png, media 2a469527) so the take ends on T01's look, plus T01's references (prop_helicopter, loc_square, palette_sunset); estimate 12 credits."
     }
   ],
   "story_sync": {
