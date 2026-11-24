@@ -25,3 +25,6 @@ dist/
 # Downloaded model weights (tools/media/rife.py setup)
 tools/media/_models/
 films/001-politician/exports/ROUTINE_Nov24.mov
+films/001-politician/exports/Audio.wav
+films/001-politician/exports/ROUTINE_Nov24_2026.mov
+films/001-politician/exports/ROUTINE_Nov24_wrong.mov
