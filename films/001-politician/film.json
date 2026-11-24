@@ -381,7 +381,7 @@
   "links": {
     "final": "https://youtu.be/78drMyh_RVU?si=v-Ph4BJzGcVmKO9m",
     "discord": "",
-    "higgsfield": "https://higgsfield.ai/generate/@lmenchiari/talent-contest?projectPreview=1"
+    "higgsfield": "https://higgsfield.ai/@lmenchiari/projects/routine?from=%2Fcontests%2Ftalent-contest%3Ftab%3Dsubmissions"
   },
   "log": [
     {
@@ -4587,6 +4587,10 @@
     {
       "date": "2026-11-24",
       "text": "Site poster back to 03-bible/style-refs/mood_4_town-edge.webp (Leonard: it looks better). poster.webp kept in the film folder, unused."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Higgsfield project link corrected (links.higgsfield): the public project page of Routine."
     }
   ],
   "story_sync": {
