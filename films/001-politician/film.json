@@ -24,7 +24,7 @@
     "resolution": "720p",
     "target_runtime_s": 420
   },
-  "poster": "03-bible/style-refs/mood_4_town-edge.webp",
+  "poster": "poster.webp",
   "schedule": {
     "source": "production plan v4 (2026-11-15), written for draft 8",
     "deadline": "2026-11-25",
@@ -4579,6 +4579,10 @@
     {
       "date": "2026-11-24",
       "text": "Routine completed: status released (site stamp 'Now showing'), every stage done, film on YouTube (links.final), Higgsfield project linked (links.higgsfield). Site: the old man's sheet moved to private/ (off the site, file kept), the shooting script (draft 11 PDF, copied from stories/politician/) in the Bible tab, credits shown rounded."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Site poster: Leonard's title poster (poster.webp, ROUTINE over the desert city) replaces 03-bible/style-refs/mood_4_town-edge.webp (kept)."
     }
   ],
   "story_sync": {
