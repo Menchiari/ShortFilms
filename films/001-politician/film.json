@@ -4474,6 +4474,10 @@
     {
       "date": "2026-11-24",
       "text": "Leonard: take one more 4/4 bar out of the final part of music_80s-action-synth_T14_eleven_v3_join_v3 and mix it so it is nice and soft. Built music_80s-action-synth_T14_eleven_v3_join_v4 (0 credits) from the sources, 30.0 s: as join_v3, plus v3's bar 7 (24.01-27.01 s) removed (cut 24.005 to 26.99 s, 15 ms crossfade before the downbeat at join 26.02 s); the last bar fades on a quarter-sine from 26.0 s to silence at about 29.4 s, replacing v3's dead stop; treble shelf -2 dB at 6 kHz on the whole mix; limiter -1 dB. No compressor. [ASSUMPTION] \"soft\" = a soft ending and a less harsh top. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Leonard on join_v4: take one more beat off the beginning, remove the fade-out at the end. [ASSUMPTION] \"beat\" = one 4/4 bar (3 s), as in the two previous requests. Built music_80s-action-synth_T14_eleven_v3_join_v5 (0 credits), 29.0 s: as join_v4 but T02 starts at its 3.00 s (same 0.5 s lead before its first beat, 50 ms fade-in), so everything moves 3 s earlier and the hit is at 8.00 s; the fade-out removed, v3's own stop back at about 26.4 s; treble -2 dB and limiter kept. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
