@@ -4514,6 +4514,10 @@
     {
       "date": "2026-11-24",
       "text": "S01 SH110 T02_dj: dropped frames in the pan rebuilt with tools/media/dejudder.py (59 skips found, 0 after), no credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S04 SH050 T02_dj: dropped and uneven frames in the people rebuilt with tools/media/dejudder.py --metric flow (two passes), no credits. Tool now has --metric pan|flow."
     }
   ],
   "story_sync": {

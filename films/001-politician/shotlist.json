@@ -3375,6 +3375,29 @@
               "rating": 4,
               "notes": "Flip, trim and join rebuilt from the original downloads in one pass (crf 10). Leonard 2026-11-18 on the joined shot: 'The whole shot works'. The version for the edit. Registered as its own take 2026-11-21 (it was only named in the notes, so the site did not show it).",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T02_dj",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_dj.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_dj.jpg",
+              "references": [
+                "T02 (source)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Dropped-frame fix of T02 (tools/media/dejudder.py --metric flow, two passes, free). Locked-off shot: the skips were in the people, 4 clear double steps (frames 23, 32, 46, 71) plus uneven half steps. After: largest step 1.27x its neighbours (was 2.02x). Same 96 frames, audio from T02. Risk: faint ghosting on the blurred foreground man."
             }
           ],
           "description": "One of the men stops talking and looks at him.",

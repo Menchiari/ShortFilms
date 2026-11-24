@@ -34,7 +34,7 @@ python tools/media/fps.py fit take.mov --max-mb 95
   - `blend`: same, with frame blending. Faster, ghosts on fast motion.
   For heavy cases a dedicated interpolator (RIFE, Topaz, Resolve Speed Warp in Studio) does
   better than ffmpeg. Your own tools plug in here.
-- Dropped frames (motion jumps double every few frames, no duplicates): `python tools/media/dejudder.py in.mp4 out.mp4` (needs `pip install opencv-python-headless numpy`). Writes `<take>_dj.mp4`, same frames and duration.
+- Dropped frames (motion jumps double every few frames, no duplicates): `python tools/media/dejudder.py in.mp4 out.mp4 --metric pan` for camera moves, `--metric flow` for locked-off shots, run twice (needs `pip install opencv-python-headless numpy`). Writes `<take>_dj.mp4`, same frames and duration.
 - `fit` encodes H.264 high profile at CRF 16 (visually near lossless). If that is still over the
   cap, it re-encodes in two passes at the bitrate that lands under it. Files already under the cap
   are left alone (no needless quality loss) unless `--force`.
