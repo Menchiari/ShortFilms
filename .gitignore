@@ -21,3 +21,6 @@ __pycache__/
 node_modules/
 dist/
 .wrangler/
+
+# Downloaded model weights (tools/media/rife.py setup)
+tools/media/_models/

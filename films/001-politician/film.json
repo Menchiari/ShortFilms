@@ -4554,6 +4554,10 @@
     {
       "date": "2026-11-24",
       "text": "S04 SH050 T02_ins: originals kept, one blended frame inserted at each of the 3 skips, audio stretched 3%, no warping. No credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "New tool tools/media/rife.py: RIFE v4.26 AI frame interpolation (own copy of the published network, only the weights downloaded, into tools/media/_models/, gitignored). S05 SH090 T07_rife: frames 2 and 12 rebuilt, last frozen frame dropped. No credits."
     }
   ],
   "story_sync": {

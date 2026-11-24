@@ -6553,6 +6553,29 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "From the original in one pass: the three frozen frames fixed. Frames 2 and 12 replaced by a 50/50 blend of their neighbours (no warping); frame 96, a frozen copy of 95 at the very end, dropped. Original timing and audio kept, 96 frames, 0 duplicates. Leonard 2026-11-24: 'it's all blended instead of proper movement' (he wants real in-between motion, not a cross-fade)."
+            },
+            {
+              "id": "T07_rife",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S05_SH090_T07.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T07_rife.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T07_rife.jpg",
+              "references": [
+                "T07 (source, original)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Frozen frames 2 and 12 rebuilt with RIFE v4.26 AI interpolation (tools/media/rife.py), frozen last frame dropped; every other frame original (40 dB), timing and audio kept, 0 frozen frames. In frame 12 the case turns about 60 degrees between its neighbours: RIFE renders it as a dark motion blur, not a crisp case."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
