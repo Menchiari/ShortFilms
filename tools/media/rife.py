@@ -12,7 +12,7 @@ Use:
   python tools/media/rife.py frame take.mp4 out.mp4 2 12 --drop-last
 Frame numbers start at 0. Every other frame stays the original; timing and audio are kept.
 """
-import os, sys, zipfile, urllib.request
+import os, sys, zipfile, urllib.request, urllib.error
 import numpy as np, torch, torch.nn as nn, torch.nn.functional as F
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -110,7 +110,10 @@ def interp(A, B, t=0.5, scale=1.0):
 
 def setup():
     os.makedirs(MODEL_DIR, exist_ok=True)
-    z = os.path.join(MODEL_DIR, 'rife.zip'); urllib.request.urlretrieve(URL, z)
+    z = os.path.join(MODEL_DIR, 'rife.zip')
+    try: urllib.request.urlretrieve(URL, z)
+    except urllib.error.URLError:  # Python from python.org on a Mac has no certificates: the Mac's own curl has them
+        import subprocess; subprocess.run(['curl', '-fL', '-o', z, URL], check=True)
     with zipfile.ZipFile(z) as f, open(WEIGHTS, 'wb') as out:
         out.write(f.read('RIFEv4.26_0921/flownet.pkl'))  # weights only, no code is extracted
     os.remove(z); net(); print('RIFE ready:', WEIGHTS)
