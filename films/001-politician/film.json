@@ -4550,6 +4550,10 @@
     {
       "date": "2026-11-24",
       "text": "S05 SH090 T07_blend: frozen frames 2 and 12 blended from their neighbours, frozen last frame dropped, timing and audio kept; replaces T07_cut (rated 1). No credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S04 SH050 T02_ins: originals kept, one blended frame inserted at each of the 3 skips, audio stretched 3%, no warping. No credits."
     }
   ],
   "story_sync": {

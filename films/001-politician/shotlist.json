@@ -3467,6 +3467,29 @@
               "rating": 1,
               "rating_source": "inferred",
               "notes": "As T02_fix without the frame 72 point: skips at 24, 33, 47 fixed (frames 22-25, 31-34, 45-48 rebuilt), everything else original, from the original in one pass. Leonard 2026-11-24: 'this broke more things'."
+            },
+            {
+              "id": "T02_ins",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_ins.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_ins.jpg",
+              "references": [
+                "T02 (source, original)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "From the original in one pass, no warping: all 96 original frames kept; at the three skips (before frames 24, 33, 47) one 50/50 blend of the two neighbouring frames inserted. 99 frames (4.125 s), audio stretched 3% (atempo 0.97) to stay in sync. The 3 s moment (frame 72, an uncovering) untouched."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
