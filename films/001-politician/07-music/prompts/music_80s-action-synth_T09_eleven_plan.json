@@ -1,0 +1,95 @@
+{
+  "positive_global_styles": [
+    "early 1990s rap-rock crossed with industrial rock",
+    "instrumental film cue, not a song",
+    "E minor",
+    "80 BPM",
+    "4/4",
+    "built on the notes E, G, A and B, low E as home",
+    "dry punchy close-miked live drums",
+    "crunchy dry amp-distorted electric guitar with a cutting midrange",
+    "growling distorted bass guitar",
+    "grinding distorted analog synth bass",
+    "industrial electronics: distorted drum machine, noise bursts, clipped synth stabs",
+    "cool, confident, swaggering, aggressive",
+    "raw live band recording, polished mix, loud drums and loud guitars"
+  ],
+  "negative_global_styles": [
+    "heavy metal",
+    "double kick drum",
+    "blast beats",
+    "palm-muted chugging",
+    "guitar solo shredding",
+    "fuzz pedal",
+    "singing",
+    "lyrics",
+    "rap vocals",
+    "orchestra",
+    "strings",
+    "piano",
+    "reverb wash",
+    "verse chorus structure",
+    "looping song form",
+    "repeated riff",
+    "key change",
+    "fade out"
+  ],
+  "sections": [
+    {
+      "section_name": "Drums alone",
+      "positive_local_styles": ["solo live drum kit", "funky hip-hop groove", "tight closed hi-hat", "ghost notes on the snare", "deep kick"],
+      "negative_local_styles": ["guitar", "bass", "synth", "vocals"],
+      "duration_ms": 3000,
+      "lines": []
+    },
+    {
+      "section_name": "Drum build",
+      "positive_local_styles": ["drums only", "open hi-hat", "distorted drum machine layered on the offbeats", "snare roll growing in volume", "tom fill into the downbeat"],
+      "negative_local_styles": ["guitar", "bass", "synth", "vocals"],
+      "duration_ms": 3000,
+      "lines": []
+    },
+    {
+      "section_name": "Explosion",
+      "positive_local_styles": ["whole band hits on the downbeat", "huge kick, snare and crash", "crunchy guitar riff on low E", "growling bass on low E", "one raw shouted wordless male yell on the downbeat"],
+      "negative_local_styles": ["build up", "sparse", "words"],
+      "duration_ms": 3000,
+      "lines": []
+    },
+    {
+      "section_name": "Groove riff on E",
+      "positive_local_styles": ["hard funky groove", "guitar riff on E and G syncopated against the kick", "scratchy muted string rhythm between the notes", "bass locked with the guitar", "grinding analog synth bass underneath"],
+      "negative_local_styles": ["vocals", "half-time"],
+      "duration_ms": 6000,
+      "lines": []
+    },
+    {
+      "section_name": "New riff with pitch-shift squeals",
+      "positive_local_styles": ["new riff on G, A and B resolving to low E", "guitar jumps an octave with a whammy pedal pitch-shift squeal", "toggle-switch stutter cutting the guitar on and off in rhythm", "harsh industrial noise bursts on the snare"],
+      "negative_local_styles": ["the previous riff", "vocals"],
+      "duration_ms": 6000,
+      "lines": []
+    },
+    {
+      "section_name": "Half-time crush",
+      "positive_local_styles": ["heavier half-time drum groove", "crushed distorted drum machine hits", "screaming pitch-shifted guitar noise over the bass riff on E", "clipped synth stab on the downbeat"],
+      "negative_local_styles": ["the previous riff", "vocals"],
+      "duration_ms": 3000,
+      "lines": []
+    },
+    {
+      "section_name": "Drive into the final hit",
+      "positive_local_styles": ["full band at full power", "rising snare roll", "noise sweep rising", "cymbals opening up", "swell in volume", "same tempo"],
+      "negative_local_styles": ["slowing down", "ritardando", "breakdown", "vocals"],
+      "duration_ms": 3000,
+      "lines": []
+    },
+    {
+      "section_name": "Final guitar slam",
+      "positive_local_styles": ["one single huge distorted guitar E power chord on the downbeat with one kick and one crash", "the chord rings out alone with feedback and decays naturally"],
+      "negative_local_styles": ["drums continue", "bass continues", "synth continues", "any melody", "second chord", "vocals"],
+      "duration_ms": 8000,
+      "lines": []
+    }
+  ]
+}
