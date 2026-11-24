@@ -61,7 +61,7 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
   - Shots by scene: one tile per shot. Fill = best rating (red 1 to 2, gray 3, blue 4 to 5, the
     number printed), dashed = not shot, ring and heart = approved. A tile opens the shot.
   - Quality: rating spread, strong shots with no select yet, weak shots, takes waiting for a
-    rating. Then stages and the production log.
+    rating. Then stages. The production log in `film.json` is not shown.
 - **Shotlist tab**: every shot with its takes, rating and cost. The shot's animatic clip, when
   there is one, is the first row. Each shot shows and opens on its face take: the approved one,
   else the best rated (3 or more, newest on a tie), else the newest; without takes, the animatic.
@@ -70,6 +70,10 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
   image, use, Higgsfield ids.
 - Other tabs: Story, Analysis, Questions, Bible, Budget, Sound, Music, Edit. Tabs appear as their
   stage starts.
+- **Bible tab**: a PDF at the top of `03-bible/` (the shooting script) comes first, as a card that
+  opens the PDF.
+- **Links** in `film.json` `links`: `final` (the finished film, "Watch the film") and `higgsfield`
+  (the Higgsfield project), shown as buttons under Stages. Credit totals are shown rounded.
 
 Shot state on the site: a loved take (or status `approved`) = approved; takes without a select =
 in review; no takes = its status (`planned`, `ready`); `cut` shots are left out of every count.
