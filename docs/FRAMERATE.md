@@ -35,7 +35,7 @@ python tools/media/fps.py fit take.mov --max-mb 95
   For heavy cases a dedicated interpolator (RIFE, Topaz, Resolve Speed Warp in Studio) does
   better than ffmpeg. Your own tools plug in here.
 - Dropped frames (motion jumps double every few frames, no duplicates): `python tools/media/dejudder.py in.mp4 out.mp4 --metric pan` for camera moves, `--metric flow` for locked-off shots, run twice (needs `pip install opencv-python-headless numpy`). Writes `<take>_dj.mp4`, same frames and duration.
-- Skips at known frames (best for people and handheld shots): `python tools/media/fixframes.py find take.mp4` lists them, `python tools/media/fixframes.py fix take.mp4 out.mp4 24 48 72` rebuilds only the frames around them; `smooth take.mp4 out.mp4 10 32` evens out a stretch where frozen frames and jumps alternate. Always run on the original take, never on a fixed file. Seedance often loses one frame at every second (24, 48, 72...).
+- Skips at known frames (best for people and handheld shots): `python tools/media/fixframes.py find take.mp4` lists them, `python tools/media/fixframes.py fix take.mp4 out.mp4 24 48 72` rebuilds only the frames around them; `smooth take.mp4 out.mp4 10 32` evens out a stretch where frozen frames and jumps alternate. Always run on the original take, never on a fixed file. `find` also flags a moving person uncovering a face: check each frame before fixing it, or the face smears. Seedance often loses one frame at every second (24, 48, 72...).
 - `fit` encodes H.264 high profile at CRF 16 (visually near lossless). If that is still over the
   cap, it re-encodes in two passes at the bitrate that lands under it. Files already under the cap
   are left alone (no needless quality loss) unless `--force`.

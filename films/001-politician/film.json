@@ -4534,6 +4534,10 @@
     {
       "date": "2026-11-24",
       "text": "S04 SH050 T02_fix: skips at frames 24, 33, 47, 72 fixed with fixframes.py from the original (replaces the failed T02_dj), no credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S04 SH050 T02_fix_v2: T02_fix had a smeared face at 3 s (frame 72, an uncovering, not a skip); v2 fixes only 24, 33, 47. Lesson for fixframes: a jump where a moving person uncovers a face is not a skip."
     }
   ],
   "story_sync": {

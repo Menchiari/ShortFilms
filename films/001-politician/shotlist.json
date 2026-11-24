@@ -3443,7 +3443,30 @@
               "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "Skipped frames fixed (tools/media/fixframes.py fix 24 33 47 72), made in one pass from the original: only frames 22-25, 31-34, 45-48, 70-73 rebuilt, all others original (about 40 dB PSNR). Replaces the failed T02_dj."
+              "notes": "Skipped frames fixed (tools/media/fixframes.py fix 24 33 47 72), made in one pass from the original: only frames 22-25, 31-34, 45-48, 70-73 rebuilt, all others original (about 40 dB PSNR). Replaces the failed T02_dj. Leonard 2026-11-24: a glitch on the background man's face at 3 s (frame 72 was the walking man uncovering him, not a skip; the rebuilt frames smeared the face). Replaced by T02_fix_v2."
+            },
+            {
+              "id": "T02_fix_v2",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_fix_v2.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_fix_v2.jpg",
+              "references": [
+                "T02 (source, original)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "As T02_fix without the frame 72 point: skips at 24, 33, 47 fixed (frames 22-25, 31-34, 45-48 rebuilt), everything else original, from the original in one pass."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
