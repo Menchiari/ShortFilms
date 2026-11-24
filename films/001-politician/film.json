@@ -4510,6 +4510,10 @@
     {
       "date": "2026-11-24",
       "text": "music_heroic-arrival_T02 rated 1 (inferred: Leonard \"nah\"). Leonard asked to commit and push everything and check for conflicts with files he may have pasted: origin/main had no commits beyond this session's, no conflict."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S01 SH110 T02_dj: dropped frames in the pan rebuilt with tools/media/dejudder.py (59 skips found, 0 after), no credits."
     }
   ],
   "story_sync": {

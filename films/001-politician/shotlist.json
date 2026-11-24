@@ -808,6 +808,29 @@
               "rating": 5,
               "rating_source": "inferred",
               "notes": "REQUEST 006. Folder S01/SH110. Passed first submission. Downloaded to takes/S01/. Leonard: great. Leonard 2026-11-17: ok."
+            },
+            {
+              "id": "T02_dj",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S01_SH110_T02.txt",
+              "file": "05-generation/takes/S01/SH110/001_S01_SH110_T02_dj.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S01_SH110_T02_dj.jpg",
+              "references": [
+                "T02 (source)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Dropped-frame fix of T02 (tools/media/dejudder.py, free): the pan skipped one frame every 3 to 4 frames (59 double steps, about 30 fps thinned to 24); each frame placed at its true time and the gaps rebuilt by optical flow. Same 241 frames, same duration, audio from T02. After: 0 double steps."
             }
           ],
           "description": "Sunset. A skyline under columns of smoke. Sirens far away.",
