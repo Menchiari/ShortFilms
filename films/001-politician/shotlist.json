@@ -11174,6 +11174,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "Frames 49 to 68 evened out (tools/media/fixframes.py smooth 49 68), from the original in one pass: frames 51, 54, 57, 60, 63, 66 were frozen copies each followed by a double jump. Now 0 duplicates; faces checked frame by frame. Same 145 frames and timing, audio from T07."
+            },
+            {
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 6.04,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "prompt": "05-generation/prompts/001_S09_SH050_T07.txt",
+              "preview": "",
+              "poster": "05-generation/web/001_S09_SH050_T07_ff.jpg",
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "id": "T07_ff",
+              "resolution": "992x432",
+              "job_id": "",
+              "file": "05-generation/takes/S09/SH050/001_S09_SH050_T07_ff.mp4",
+              "references": [
+                "T07 (source)"
+              ],
+              "notes": "Leonard's own frame repair of T07 with framefix.py (RIFE), marked by hand on the Mac and rendered from the original: 145 frames, 6.04 s, 992x432 h264, audio kept (T07 is 6.08 s). Marks file not uploaded. On Higgsfield as media bd78d73c (uploaded for the Topaz upscale)."
             }
           ],
           "description": "He limps toward her, close, and holds out the folder.",
