@@ -3,6 +3,7 @@
 Usage:
   python tools/media/fixframes.py find take.mp4              list likely skips (frame numbers)
   python tools/media/fixframes.py fix take.mp4 out.mp4 24 48 72   fix the skips that land on these frames
+  add --drop-last N to cut a frozen tail of N frames (audio cut to match)
   add --rife to rebuild them with RIFE AI interpolation (best quality, needs tools/media/rife.py setup)
   python tools/media/fixframes.py fix take.mp4 out.mp4 --every 24 fix a skip at every second
   python tools/media/fixframes.py smooth take.mp4 out.mp4 5 19     even out frames 5 to 19 (held frames and skips mixed)
@@ -22,7 +23,8 @@ def read(path):
     return fr, fps
 
 def motion(frames):
-    g = [cv2.cvtColor(f, cv2.COLOR_BGR2GRAY) for f in frames]; d = []
+    sc = min(1.0, 1000.0 / frames[0].shape[1])  # measure at about 1000 px wide: same numbers for SD and upscaled files
+    g = [cv2.cvtColor(cv2.resize(f, None, fx=sc, fy=sc, interpolation=cv2.INTER_AREA) if sc < 1 else f, cv2.COLOR_BGR2GRAY) for f in frames]; d = []
     for a, b in zip(g, g[1:]):
         fl = cv2.calcOpticalFlowFarneback(a, b, None, 0.5, 4, 25, 4, 7, 1.5, 0)
         d.append(np.percentile(np.hypot(fl[..., 0], fl[..., 1]), 95))
@@ -48,21 +50,22 @@ def interp(A, B, t):
     return cv2.addWeighted(wa, 1 - t, wb, t, 0)
 
 def write(out, fps, src, dst):
+    """(audio is cut to the video length)"""
     """Raw frames piped straight into x264 at near-lossless quality, audio copied from the source."""
     h, w = out[0].shape[:2]
     p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{w}x{h}', '-r', str(fps),
                           '-i', '-', '-i', src, '-map', '0:v', '-map', '1:a?', '-c:v', 'libx264', '-preset', 'slow',
-                          '-crf', '12', '-pix_fmt', 'yuv420p', '-c:a', 'copy', dst], stdin=subprocess.PIPE)
+                          '-crf', '12', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-t', '%.6f' % (len(out) / fps), dst], stdin=subprocess.PIPE)
     for f in out: p.stdin.write(f.tobytes())
     p.stdin.close()
     if p.wait(): raise SystemExit('ffmpeg failed')
 
-def smooth(src, dst, a, b):
+def smooth_frames(frames, a, b, engine='dis'):
     """Frames a..b: each step gets its measured length (a held frame ~0, a skip ~2), then the stretch
     is resampled to even motion. Frames a and b and everything outside stay original."""
-    frames, fps = read(src); n = len(frames); b = min(b, n - 1)
-    d = motion(frames)
-    seg = d[a:b]
+    n = len(frames); b = min(b, n - 1)
+    d = motion(frames[a:b + 1])
+    seg = d
     base = np.median(seg[seg > 0.2 * np.median(seg)])
     units = np.clip(seg / base, 0, 2.5)
     t = np.concatenate([[0], np.cumsum(units)])
@@ -73,11 +76,15 @@ def smooth(src, dst, a, b):
         span = t[i + 1] - t[i]
         x = 0.0 if span < 1e-6 else float((T[k] - t[i]) / span)
         A, B = frames[a + i], frames[a + i + 1]
-        out[a + k] = A if x < 1e-3 else B if x > 1 - 1e-3 else interp(A, B, x)
-    write(out, fps, src, dst)
-    print('smoothed frames %d to %d (steps measured: %s) - wrote %s' % (a, b, ' '.join('%.1f' % u for u in units), dst))
+        ip = interp if engine == 'dis' else __import__('rife').interp
+        out[a + k] = A if x < 1e-3 else B if x > 1 - 1e-3 else ip(A, B, x)
+    print('smoothed frames %d to %d (steps measured: %s)' % (a, b, ' '.join('%.1f' % u for u in units)))
+    return out
 
-def fix(src, dst, marks, engine='dis'):
+def smooth(src, dst, a, b, engine='dis'):
+    frames, fps = read(src); write(smooth_frames(frames, a, b, engine), fps, src, dst)
+
+def fix(src, dst, marks, engine='dis', drop_last=0):
     frames, fps = read(src); n = len(frames)
     units = np.ones(n - 1)
     for m in marks:
@@ -98,17 +105,22 @@ def fix(src, dst, marks, engine='dis'):
             ip = interp if engine == 'dis' else __import__('rife').interp
             out[k] = frames[i] if a < 1e-3 else frames[i + 1] if a > 1 - 1e-3 else ip(frames[i], frames[i + 1], a)
             done.append(k)
+    if drop_last: out = out[:-drop_last]
     write(out, fps, src, dst)
     print('fixed skips at frames', sorted(marks), '- rebuilt frames', sorted(set(done)), '- wrote', dst)
 
 if __name__ == '__main__':
     if len(sys.argv) >= 3 and sys.argv[1] == 'find': find(sys.argv[2])
-    elif len(sys.argv) == 6 and sys.argv[1] == 'smooth': smooth(sys.argv[2], sys.argv[3], int(sys.argv[4]), int(sys.argv[5]))
+    elif len(sys.argv) >= 6 and sys.argv[1] == 'smooth': smooth(sys.argv[2], sys.argv[3], int(sys.argv[4]), int(sys.argv[5]), 'rife' if '--rife' in sys.argv else 'dis')
     elif len(sys.argv) >= 5 and sys.argv[1] == 'fix':
         src, dst, rest = sys.argv[2], sys.argv[3], sys.argv[4:]
-        if rest[0] == '--every':
+        drop = 0
+        if '--drop-last' in rest:
+            i = rest.index('--drop-last'); drop = int(rest[i + 1]); rest = rest[:i] + rest[i + 2:]
+        engine = 'rife' if '--rife' in rest else 'dis'; rest = [x for x in rest if x != '--rife']
+        if rest and rest[0] == '--every':
             step = int(rest[1]); cap = cv2.VideoCapture(src); n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
             marks = list(range(step, n, step))
-        else: marks = [int(x) for x in rest if not x.startswith('--')]
-        fix(src, dst, marks, 'rife' if '--rife' in rest else 'dis')
+        else: marks = [int(x) for x in rest]
+        fix(src, dst, marks, engine, drop)
     else: print(__doc__)

@@ -4562,6 +4562,10 @@
     {
       "date": "2026-11-24",
       "text": "S04 SH050: Leonard's upscale T02_up (1918x836) committed; T02_up_rife = its three skips (24, 33, 47) fixed with RIFE. fixframes.py fix now takes --rife. No credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S04 SH050 T02_up_rife_v2: frozen tail (92-95) cut on top of the three RIFE skip fixes. 57, 60, 72 measured as local jumps of one figure, not missing frames: frame retiming cannot fix them. fixframes.py now measures motion at about 1000 px wide (upscaled files gave wrong numbers)."
     }
   ],
   "story_sync": {

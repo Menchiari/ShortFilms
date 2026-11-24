@@ -3535,7 +3535,30 @@
               "references": [
                 "T02_up (source)"
               ],
-              "notes": "Skips at frames 24, 33, 47 fixed with RIFE v4.26 (tools/media/fixframes.py fix 24 33 47 --rife), from T02_up in one pass: frames 22-25, 31-34, 45-48 rebuilt, all others original (39 dB or more). Frame 72 (the man uncovering the background face) left original. Same 96 frames and audio. H.264."
+              "notes": "Skips at frames 24, 33, 47 fixed with RIFE v4.26 (tools/media/fixframes.py fix 24 33 47 --rife), from T02_up in one pass: frames 22-25, 31-34, 45-48 rebuilt, all others original (39 dB or more). Frame 72 (the man uncovering the background face) left original. Same 96 frames and audio. H.264. Leonard 2026-11-24: counted 4 duplicates (the frozen last frames 92-95) and 3 skips (57, 60, 72). Replaced by T02_up_rife_v2."
+            },
+            {
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_up_rife_v2.jpg",
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "id": "T02_up_rife_v2",
+              "resolution": "1918x836",
+              "job_id": "",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_up_rife_v2.mp4",
+              "references": [
+                "T02_up (source)"
+              ],
+              "notes": "As T02_up_rife (skips 24, 33, 47 rebuilt with RIFE) plus the frozen tail cut: frames 92-95 were copies of 91, removed with the matching audio. 92 frames, from T02_up in one pass. Not fixed: 57, 60, 72 are local jumps (one figure jumps while the rest of the frame moves normally), not missing frames; retiming tried (v2 draft) moved the jump to 61-62 and made it worse."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
