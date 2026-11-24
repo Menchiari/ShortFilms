@@ -3464,9 +3464,9 @@
                 "T02 (source, original)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "As T02_fix without the frame 72 point: skips at 24, 33, 47 fixed (frames 22-25, 31-34, 45-48 rebuilt), everything else original, from the original in one pass."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "As T02_fix without the frame 72 point: skips at 24, 33, 47 fixed (frames 22-25, 31-34, 45-48 rebuilt), everything else original, from the original in one pass. Leonard 2026-11-24: 'this broke more things'."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
