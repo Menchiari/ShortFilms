@@ -4530,6 +4530,10 @@
     {
       "date": "2026-11-24",
       "text": "music_groove-build_T02 recorded by the Scene 3 hub: Seedance 2.5 job 9dc86e62-5660-493b-a19d-2576aab1c325, made 2026-11-24 09:19 in Higgsfield MUSIC with no request logged, 30 s 480p (credits about 90, inferred). Its stored prompt names no audio reference (the \"following :\" is blank). Files in 07-music/takes/ (.mp4, .wav, .jpg), prompt 07-music/prompts/music_groove-build_T02.txt. [ASSUMPTION] named groove-build from its content (same stage, D, 9.6 s crash, tutti at 28.8 s). Unrated."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S04 SH050 T02_fix: skips at frames 24, 33, 47, 72 fixed with fixframes.py from the original (replaces the failed T02_dj), no credits."
     }
   ],
   "story_sync": {
