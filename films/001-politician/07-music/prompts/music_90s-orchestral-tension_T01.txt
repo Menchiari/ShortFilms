@@ -1,0 +1,12 @@
+A locked-off static wide shot from the back of a dark film scoring stage: a symphony orchestra of strings, French horns, trombones, a tuba and timpani recording, seen from behind in dim warm light, music stands with small lamps. No close faces. The camera never moves. The image is realistic, low key.
+
+@audio1 is the exact composition: a 30 second sketch played with cheap synthetic instrument sounds. Play exactly the same notes, the same rhythm, the same timing and the same structure as @audio1, from its first second to its last, with nothing added and nothing left out, but performed by a real acoustic symphony orchestra recorded on a film scoring stage. Use @audio1 only for the notes, rhythm, timing and structure; do not copy its cheap synthetic instrument sounds.
+
+Music: C minor, 4/4, 80 BPM, one bar every 3 seconds. Pianissimo at the start, growing very slowly to mezzo forte at the end.
+0-6s: cellos play a soft, steady spiccato eighth-note ostinato on C, C, G, C, D-flat, C, G, C, repeating every bar to the end; double basses hold a low C; violas and second violins hold a quiet C minor chord.
+6-12s: first violins enter very high on a quiet trembling G (tremolo). French horns in unison play long notes: C held a whole bar, then E-flat, then D. The held chord becomes A-flat major over the low C.
+12-18s: horns hold D-flat a whole bar, then C, then A-flat; trombones and tuba enter with long low notes; the chord becomes D-flat major over the low C; the high violin tremolo moves up to A-flat; soft timpani on C on every downbeat.
+18-24s: horns hold B a whole bar, then C, then D; the chord becomes C minor with a B on top, dark and unstable; the violin tremolo falls back to G; the ostinato and timpani continue, slightly stronger.
+24-30s: the basses, tuba and the ostinato move down to G; horns hold E-flat a whole bar, then D; G major chord with the E-flat clashing against it; the timpani on G; the violin tremolo rises to A-flat again; unresolved, still holding at the final frame.
+
+Sound: only this orchestral music, (instrumental 1990s Hollywood thriller film score underscore, live acoustic orchestra, long sustained brass and strings, slow harmonic tension, a steady string ostinato pulse, dark, restrained, suspenseful, no synthesizer, no electronic sounds, no piano, no drums, no snare, no choir, no vocals, no guitars, no warm melody, no climax, no sound effects, no room noise, no page turns, no voices, no fade out, no ending chord). No subtitles, no text, no cuts.
