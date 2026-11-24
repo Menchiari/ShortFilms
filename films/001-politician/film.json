@@ -4498,6 +4498,14 @@
     {
       "date": "2026-11-24",
       "text": "Ratings inferred: music_heroic-arrival_T01 (Seedance) 4 (\"very nice\"); music_heroic-arrival_T01_eleven v1-v4 2 (\"completely ignored the silence part at 10s\"). Leonard: \"let's try something different, but keep the same instructions.\" Prepared music_heroic-arrival_T02 (prompts/music_heroic-arrival_T02.txt): same timing and intent, changed only the music: rock band leads with two harmonized lead guitars, orchestra and snare line behind, E minor, 144 BPM (bar 1.67 s, so 10.00, 13.33 and 20.00 s stay on bar lines). Seedance 2.5 t2v, 26 s, 480p, preflight 78 credits. Waiting for Leonard's approval."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "MUSIC REQUEST approved (\"go, 78 credits approved\"): music_heroic-arrival_T02, Seedance 2.5 t2v, 26 s, 480p, 78 credits, job eed3cb72-c71a-4aae-94ca-9835298f73bf, Higgsfield MUSIC."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "music_heroic-arrival_T02 downloaded (job eed3cb72-c71a-4aae-94ca-9835298f73bf). Measured: break early and short (9.25-11.2 s, down to -41 dB), then a lower level (-25 to -30 dB) to 16 s; build 16-19.5 s; stop about 19.75 s, echo to -50 dB by 23 s; centre E. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
