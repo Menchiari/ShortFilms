@@ -3395,9 +3395,9 @@
                 "T02 (source)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Dropped-frame fix of T02 (tools/media/dejudder.py --metric flow, two passes, free). Locked-off shot: the skips were in the people, 4 clear double steps (frames 23, 32, 46, 71) plus uneven half steps. After: largest step 1.27x its neighbours (was 2.02x). Same 96 frames, audio from T02. Risk: faint ghosting on the blurred foreground man."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "Dropped-frame fix of T02 (tools/media/dejudder.py --metric flow, two passes, free). Locked-off shot: the skips were in the people, 4 clear double steps (frames 23, 32, 46, 71) plus uneven half steps. After: largest step 1.27x its neighbours (was 2.02x). Same 96 frames, audio from T02. Risk: faint ghosting on the blurred foreground man. Leonard 2026-11-24: 'did not work at all'."
             }
           ],
           "description": "One of the men stops talking and looks at him.",
