@@ -24,7 +24,7 @@
     "resolution": "720p",
     "target_runtime_s": 420
   },
-  "poster": "poster.webp",
+  "poster": "03-bible/style-refs/mood_4_town-edge.webp",
   "schedule": {
     "source": "production plan v4 (2026-11-15), written for draft 8",
     "deadline": "2026-11-25",
@@ -4583,6 +4583,10 @@
     {
       "date": "2026-11-24",
       "text": "Site poster: Leonard's title poster (poster.webp, ROUTINE over the desert city) replaces 03-bible/style-refs/mood_4_town-edge.webp (kept)."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Site poster back to 03-bible/style-refs/mood_4_town-edge.webp (Leonard: it looks better). poster.webp kept in the film folder, unused."
     }
   ],
   "story_sync": {
