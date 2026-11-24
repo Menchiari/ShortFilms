@@ -12,7 +12,16 @@ Frame N means the first frame after the jump (0 = first frame of the clip; frame
 Around each skip a 6-frame window is retimed so the lost step is shared out; the first and last
 frames of the window and every frame outside it stay original. Same frame count, same duration,
 audio copied. Needs: pip install opencv-python-headless numpy (and ffmpeg)."""
-import cv2, numpy as np, sys, subprocess
+import cv2, numpy as np, sys, subprocess, shutil
+
+def ffmpeg_exe():
+    """ffmpeg from PATH, else the copy that comes with pip install imageio-ffmpeg (no Homebrew needed)."""
+    exe = shutil.which('ffmpeg')
+    if exe: return exe
+    try:
+        import imageio_ffmpeg; return imageio_ffmpeg.get_ffmpeg_exe()
+    except ImportError:
+        raise SystemExit('ffmpeg not found: run  python3 -m pip install imageio-ffmpeg')
 
 def read(path):
     cap = cv2.VideoCapture(path); fps = cap.get(cv2.CAP_PROP_FPS); fr = []
@@ -53,7 +62,7 @@ def write(out, fps, src, dst):
     """(audio is cut to the video length)"""
     """Raw frames piped straight into x264 at near-lossless quality, audio copied from the source."""
     h, w = out[0].shape[:2]
-    p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{w}x{h}', '-r', str(fps),
+    p = subprocess.Popen([ffmpeg_exe(), '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{w}x{h}', '-r', str(fps),
                           '-i', '-', '-i', src, '-map', '0:v', '-map', '1:a?', '-c:v', 'libx264', '-preset', 'slow',
                           '-crf', '12', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-t', '%.6f' % (len(out) / fps), dst], stdin=subprocess.PIPE)
     for f in out: p.stdin.write(f.tobytes())

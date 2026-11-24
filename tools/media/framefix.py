@@ -11,15 +11,14 @@ Keys:   right / left arrow (or . and ,)  one frame        shift+arrow (or > and 
         q  quit
 Without the window (same marks): python3 tools/media/framefix.py take.mp4 --marks "d:12 s:24 s:33 x:92-95"
 
-Setup once on a Mac:  brew install ffmpeg
-                      python3 -m pip install torch numpy opencv-python
+Setup once on a Mac:  python3 -m pip install torch numpy opencv-python imageio-ffmpeg
                       python3 tools/media/rife.py setup
 """
 import os, sys, subprocess
 import numpy as np, cv2
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fixframes import read
+from fixframes import read, ffmpeg_exe
 
 LEFT = {63234, 65361, 2424832, ord(',')}; RIGHT = {63235, 65363, 2555904, ord('.')}
 LEFT10 = {ord('<')}; RIGHT10 = {ord('>')}
@@ -73,7 +72,7 @@ def render(src, frames, fps, marks):
     h, w = frames[0].shape[:2]
     gone = ''.join('+between(t,%.6f,%.6f)' % (c / fps, (c + 1) / fps - 1e-6) for c in cuts)
     afilter = ['-af', "aselect='not(0%s)',asetpts=N/SR/TB" % gone] if cuts else []
-    p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{w}x{h}', '-r', str(fps),
+    p = subprocess.Popen([ffmpeg_exe(), '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{w}x{h}', '-r', str(fps),
                           '-i', '-', '-i', src, '-map', '0:v', '-map', '1:a?', '-c:v', 'libx264', '-preset', 'slow', '-crf', '12',
                           '-pix_fmt', 'yuv420p', *afilter, '-c:a', 'aac', '-b:a', '256k', '-t', '%.6f' % (len(keep) / fps), dst],
                          stdin=subprocess.PIPE)
@@ -118,7 +117,10 @@ def gui(src, frames, fps):
         elif c == ord('r'):
             if not marks: msg = 'no marks yet'; continue
             msg = 'rendering...'; cv2.waitKey(1)
-            dst = render(src, frames, fps, marks); msg = 'saved ' + os.path.basename(dst)
+            try:
+                dst = render(src, frames, fps, marks); msg = 'saved ' + os.path.basename(dst)
+            except BaseException as e:  # show the problem, keep the window and the marks
+                import traceback; traceback.print_exc(); msg = 'render failed: %s (details in Terminal)' % (str(e)[:80] or type(e).__name__)
         elif c in (ord('q'), 27): break
     cv2.destroyAllWindows()
 
