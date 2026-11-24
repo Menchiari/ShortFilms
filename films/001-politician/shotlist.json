@@ -3490,6 +3490,52 @@
               "rating": null,
               "rating_source": null,
               "notes": "From the original in one pass, no warping: all 96 original frames kept; at the three skips (before frames 24, 33, 47) one 50/50 blend of the two neighbouring frames inserted. 99 frames (4.125 s), audio stretched 3% (atempo 0.97) to stay in sync. The 3 s moment (frame 72, an uncovering) untouched."
+            },
+            {
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_up.jpg",
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "id": "T02_up",
+              "resolution": "1918x836",
+              "job_id": "be777a82-01ef-4589-856a-4928abed24f7",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_up.mp4",
+              "references": [
+                "T02 (source)"
+              ],
+              "notes": "Upscale of T02 by Leonard (Higgsfield job be777a82, file name hf_20261124_145324), 1918x836 HEVC, 96 frames. Committed unchanged. Credits not known."
+            },
+            {
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "prompt": "05-generation/prompts/001_S04_SH050_T02.txt",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH050_T02_up_rife.jpg",
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "id": "T02_up_rife",
+              "resolution": "1918x836",
+              "job_id": "",
+              "file": "05-generation/takes/S04/SH050/001_S04_SH050_T02_up_rife.mp4",
+              "references": [
+                "T02_up (source)"
+              ],
+              "notes": "Skips at frames 24, 33, 47 fixed with RIFE v4.26 (tools/media/fixframes.py fix 24 33 47 --rife), from T02_up in one pass: frames 22-25, 31-34, 45-48 rebuilt, all others original (39 dB or more). Frame 72 (the man uncovering the background face) left original. Same 96 frames and audio. H.264."
             }
           ],
           "description": "One of the men stops talking and looks at him.",

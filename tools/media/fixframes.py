@@ -3,6 +3,7 @@
 Usage:
   python tools/media/fixframes.py find take.mp4              list likely skips (frame numbers)
   python tools/media/fixframes.py fix take.mp4 out.mp4 24 48 72   fix the skips that land on these frames
+  add --rife to rebuild them with RIFE AI interpolation (best quality, needs tools/media/rife.py setup)
   python tools/media/fixframes.py fix take.mp4 out.mp4 --every 24 fix a skip at every second
   python tools/media/fixframes.py smooth take.mp4 out.mp4 5 19     even out frames 5 to 19 (held frames and skips mixed)
 
@@ -76,7 +77,7 @@ def smooth(src, dst, a, b):
     write(out, fps, src, dst)
     print('smoothed frames %d to %d (steps measured: %s) - wrote %s' % (a, b, ' '.join('%.1f' % u for u in units), dst))
 
-def fix(src, dst, marks):
+def fix(src, dst, marks, engine='dis'):
     frames, fps = read(src); n = len(frames)
     units = np.ones(n - 1)
     for m in marks:
@@ -94,7 +95,8 @@ def fix(src, dst, marks):
         for k in range(w0 + 1, w1):
             i = min(np.searchsorted(t, T[k - w0], side='right') - 1, n - 2)
             a = float((T[k - w0] - t[i]) / (t[i + 1] - t[i]))
-            out[k] = frames[i] if a < 1e-3 else frames[i + 1] if a > 1 - 1e-3 else interp(frames[i], frames[i + 1], a)
+            ip = interp if engine == 'dis' else __import__('rife').interp
+            out[k] = frames[i] if a < 1e-3 else frames[i + 1] if a > 1 - 1e-3 else ip(frames[i], frames[i + 1], a)
             done.append(k)
     write(out, fps, src, dst)
     print('fixed skips at frames', sorted(marks), '- rebuilt frames', sorted(set(done)), '- wrote', dst)
@@ -107,6 +109,6 @@ if __name__ == '__main__':
         if rest[0] == '--every':
             step = int(rest[1]); cap = cv2.VideoCapture(src); n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
             marks = list(range(step, n, step))
-        else: marks = [int(x) for x in rest]
-        fix(src, dst, marks)
+        else: marks = [int(x) for x in rest if not x.startswith('--')]
+        fix(src, dst, marks, 'rife' if '--rife' in rest else 'dis')
     else: print(__doc__)

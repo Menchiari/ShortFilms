@@ -4558,6 +4558,10 @@
     {
       "date": "2026-11-24",
       "text": "New tool tools/media/rife.py: RIFE v4.26 AI frame interpolation (own copy of the published network, only the weights downloaded, into tools/media/_models/, gitignored). S05 SH090 T07_rife: frames 2 and 12 rebuilt, last frozen frame dropped. No credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S04 SH050: Leonard's upscale T02_up (1918x836) committed; T02_up_rife = its three skips (24, 33, 47) fixed with RIFE. fixframes.py fix now takes --rife. No credits."
     }
   ],
   "story_sync": {
