@@ -4478,6 +4478,10 @@
     {
       "date": "2026-11-24",
       "text": "Leonard on join_v4: take one more beat off the beginning, remove the fade-out at the end. [ASSUMPTION] \"beat\" = one 4/4 bar (3 s), as in the two previous requests. Built music_80s-action-synth_T14_eleven_v3_join_v5 (0 credits), 29.0 s: as join_v4 but T02 starts at its 3.00 s (same 0.5 s lead before its first beat, 50 ms fade-in), so everything moves 3 s earlier and the hit is at 8.00 s; the fade-out removed, v3's own stop back at about 26.4 s; treble -2 dB and limiter kept. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "music_80s-action-synth_T14_eleven_v3_join_v5 rated 2 (inferred: \"you messed up the editing somehow\"). Found: v5 started at T02 3.00 s, 0.52 s before a beat, in the middle of a sustained note (T02's first note is at 0.52 s, its next bar at 3.52 s), so the cue opened on a chopped note fragment. The two band cuts checked on the sixteenth-note grid: on time. Built music_80s-action-synth_T14_eleven_v3_join_v6 (0 credits), 29.0 s: T02's own lead-in 0-0.52 s spliced to T02 from 3.51 s (10 ms crossfade just before the transient at 3.52 s), the rest identical to join_v5; first beat 0.53 s, hit 8.02 s. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
