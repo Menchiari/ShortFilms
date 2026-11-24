@@ -6550,9 +6550,9 @@
                 "T07 (source, original)"
               ],
               "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "From the original in one pass: the three frozen frames fixed. Frames 2 and 12 replaced by a 50/50 blend of their neighbours (no warping); frame 96, a frozen copy of 95 at the very end, dropped. Original timing and audio kept, 96 frames, 0 duplicates."
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "From the original in one pass: the three frozen frames fixed. Frames 2 and 12 replaced by a 50/50 blend of their neighbours (no warping); frame 96, a frozen copy of 95 at the very end, dropped. Original timing and audio kept, 96 frames, 0 duplicates. Leonard 2026-11-24: 'it's all blended instead of proper movement' (he wants real in-between motion, not a cross-fade)."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
