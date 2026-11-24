@@ -268,16 +268,12 @@
       var v = (f.stages || {})[s[0]] || "todo";
       return '<li class="' + esc(v) + '"><span class="box ' + esc(v) + '"></span>' + s[1] + "</li>";
     }).join("") + "</ul>";
-    var log = (f.log || []).map(function (l, i) { return [l, i]; }).sort(function (a, b) {
-      return (b[0].date || "").localeCompare(a[0].date || "") || b[1] - a[1];
-    }).map(function (p) { return "<li><time>" + esc(p[0].date) + "</time><span>" + esc(p[0].text) + "</span></li>"; }).join("");
     var final = f.links && f.links.final ? '<a class="btn" href="' + esc(f.links.final) + '" target="_blank" rel="noopener">Watch the film</a>' : "";
     if (f.links && f.links.higgsfield) final += '<a class="btn" href="' + esc(f.links.higgsfield) + '" target="_blank" rel="noopener">Higgsfield project</a>';
 
     html += '<div class="grid-2 lower">' + qualityPanel(f) +
       '<div class="panel"><div class="label" style="margin-bottom:10px">Stages ' + f.stats.stages_done + "/" + f.stats.stages_total + "</div>" + stages +
-      '<div class="links">' + final + discordBtn() + "</div></div></div>" +
-      (log ? '<h2 class="h2">Production log</h2><ul class="log">' + log + "</ul>" : "");
+      '<div class="links">' + final + discordBtn() + "</div></div></div>";
     return html;
   }
 

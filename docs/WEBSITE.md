@@ -61,7 +61,7 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
   - Shots by scene: one tile per shot. Fill = best rating (red 1 to 2, gray 3, blue 4 to 5, the
     number printed), dashed = not shot, ring and heart = approved. A tile opens the shot.
   - Quality: rating spread, strong shots with no select yet, weak shots, takes waiting for a
-    rating. Then stages and the production log.
+    rating. Then stages. The production log in `film.json` is not shown.
 - **Shotlist tab**: every shot with its takes, rating and cost. The shot's animatic clip, when
   there is one, is the first row. Each shot shows and opens on its face take: the approved one,
   else the best rated (3 or more, newest on a tie), else the newest; without takes, the animatic.
