@@ -4494,6 +4494,10 @@
     {
       "date": "2026-11-24",
       "text": "music_heroic-arrival_T01 (Seedance, job 0f60d0c7-33ce-476e-a832-a04f5624aac2) downloaded. Measured: break at 10.0-10.5 s (to about -37 dB), held to about 15 s; build 15-19.5 s; stop about 20.5 s, echo decays to -52 dB by 22 s. Leonard on the ElevenLabs batch: \"completely ignored the silence part at 10s\" (all four measured flat at 10-13 s). Waiting for Leonard's ratings."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Ratings inferred: music_heroic-arrival_T01 (Seedance) 4 (\"very nice\"); music_heroic-arrival_T01_eleven v1-v4 2 (\"completely ignored the silence part at 10s\"). Leonard: \"let's try something different, but keep the same instructions.\" Prepared music_heroic-arrival_T02 (prompts/music_heroic-arrival_T02.txt): same timing and intent, changed only the music: rock band leads with two harmonized lead guitars, orchestra and snare line behind, E minor, 144 BPM (bar 1.67 s, so 10.00, 13.33 and 20.00 s stay on bar lines). Seedance 2.5 t2v, 26 s, 480p, preflight 78 credits. Waiting for Leonard's approval."
     }
   ],
   "story_sync": {
