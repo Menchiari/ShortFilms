@@ -20,7 +20,7 @@
     ["generation", "Generation"], ["framerate", "Framerate fix"], ["edit", "Edit"],
     ["sound_design", "Sound design"], ["music", "Music"], ["release", "Release"]
   ];
-  var GROUPS = { style: "Style", world: "World", characters: "Characters", locations: "Locations", props: "Props", vehicles: "Vehicles" };
+  var GROUPS = { script: "Script", style: "Style", world: "World", characters: "Characters", locations: "Locations", props: "Props", vehicles: "Vehicles" };
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -28,6 +28,7 @@
     });
   }
   function num(n) { return (n || 0).toLocaleString("en-US"); }
+  function credits(n) { return num(Math.round(n || 0)); }
   function getJSON(p) {
     return fetch(p, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(p); return r.json(); });
   }
@@ -68,7 +69,7 @@
   }
   function numbers(st, withCredits) {
     var items = [["Shots", st.shots_done + "/" + st.shots_total], ["Takes", num(st.takes)], ["Loved", num(st.loved)]];
-    if (withCredits && st.credits != null) items.push(["Credits", num(st.credits)]);
+    if (withCredits && st.credits != null) items.push(["Credits", credits(st.credits)]);
     return '<dl class="numbers">' + items.map(function (i) {
       return "<div><dt>" + i[0] + "</dt><dd>" + i[1] + "</dd></div>";
     }).join("") + "</dl>";
@@ -222,7 +223,7 @@
       var dl = daysBetween(today, sched.deadline);
       tiles.push(["Deadline", dl >= 0 ? dl + (dl === 1 ? "<small> day</small>" : "<small> days</small>") : "passed", dayLabel(sched.deadline)]);
     }
-    if (f.stats.credits != null) tiles.push(["Credits spent", num(f.stats.credits), all.takes + " takes"]);
+    if (f.stats.credits != null) tiles.push(["Credits spent", credits(f.stats.credits), all.takes + " takes"]);
 
     var pace = "";
     if (due_by && left) {
@@ -271,6 +272,7 @@
       return (b[0].date || "").localeCompare(a[0].date || "") || b[1] - a[1];
     }).map(function (p) { return "<li><time>" + esc(p[0].date) + "</time><span>" + esc(p[0].text) + "</span></li>"; }).join("");
     var final = f.links && f.links.final ? '<a class="btn" href="' + esc(f.links.final) + '" target="_blank" rel="noopener">Watch the film</a>' : "";
+    if (f.links && f.links.higgsfield) final += '<a class="btn" href="' + esc(f.links.higgsfield) + '" target="_blank" rel="noopener">Higgsfield project</a>';
 
     html += '<div class="grid-2 lower">' + qualityPanel(f) +
       '<div class="panel"><div class="label" style="margin-bottom:10px">Stages ' + f.stats.stages_done + "/" + f.stats.stages_total + "</div>" + stages +
@@ -336,6 +338,7 @@
       return '<section class="bible-group"><h2 class="label" style="margin:0 0 12px">' + esc(GROUPS[g.name] || g.name) + "</h2>" +
         '<div class="bible-cards">' + g.items.map(function (it, i) {
           var img = it.images && it.images[0];
+          if (it.pdf) return '<a class="bcard pdf" href="' + esc(it.pdf) + '" target="_blank" rel="noopener"><h4>' + esc(it.title) + "</h4><p>" + esc(it.summary) + "</p></a>";
           return '<details class="bcard' + (g.name === "characters" ? " char" : "") + '" data-doc="' + esc(g.name + ":" + i) + '"><summary>' +
             (img ? '<img src="' + esc(img) + '" alt="' + esc(it.title) + '" loading="lazy">' : (g.name === "world" || g.name === "style" ? "" : '<div class="noimg">No reference yet</div>')) +
             "<h4>" + esc(it.title) + "</h4><p>" + esc(it.summary) + '</p></summary><div class="doc-slot"></div></details>';

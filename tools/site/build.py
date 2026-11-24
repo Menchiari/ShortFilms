@@ -102,6 +102,11 @@ class Builder:
 
     def bible(self, film_dir):
         groups = []
+        pdfs = sorted((film_dir / "03-bible").glob("*.pdf"))  # the shooting script, published as is
+        if pdfs:
+            groups.append({"name": "script", "items": [
+                {"title": p.stem.replace("-", " ").replace("_", " ").capitalize(), "summary": "PDF, opens in a new tab.",
+                 "pdf": self.copy(film_dir, f"03-bible/{p.name}"), "images": []} for p in pdfs]})
         for name in ["style", "world"]:
             item = self.doc(film_dir, f"03-bible/{name}.md")
             if item:

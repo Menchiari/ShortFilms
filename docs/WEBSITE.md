@@ -70,6 +70,10 @@ python -m http.server -d dist 8000      (then open http://localhost:8000)
   image, use, Higgsfield ids.
 - Other tabs: Story, Analysis, Questions, Bible, Budget, Sound, Music, Edit. Tabs appear as their
   stage starts.
+- **Bible tab**: a PDF at the top of `03-bible/` (the shooting script) comes first, as a card that
+  opens the PDF.
+- **Links** in `film.json` `links`: `final` (the finished film, "Watch the film") and `higgsfield`
+  (the Higgsfield project), shown as buttons under Stages. Credit totals are shown rounded.
 
 Shot state on the site: a loved take (or status `approved`) = approved; takes without a select =
 in review; no takes = its status (`planned`, `ready`); `cut` shots are left out of every count.

@@ -4,7 +4,7 @@
   "title": "Routine",
   "project": "Politician",
   "logline": "",
-  "status": "generation",
+  "status": "released",
   "created": "2026-11-17",
   "public": true,
   "publish": {
@@ -98,19 +98,19 @@
     ]
   },
   "stages": {
-    "story": "in-progress",
-    "analysis": "todo",
-    "bible": "in-progress",
-    "shotlist": "in-progress",
-    "shot_plan": "todo",
-    "sound_list": "todo",
-    "references": "in-progress",
-    "generation": "in-progress",
-    "framerate": "todo",
-    "edit": "todo",
-    "sound_design": "todo",
-    "music": "todo",
-    "release": "todo"
+    "story": "done",
+    "analysis": "done",
+    "bible": "done",
+    "shotlist": "done",
+    "shot_plan": "done",
+    "sound_list": "done",
+    "references": "done",
+    "generation": "done",
+    "framerate": "done",
+    "edit": "done",
+    "sound_design": "done",
+    "music": "done",
+    "release": "done"
   },
   "higgsfield": {
     "workspace_id": "3d8348de-0720-4519-9f26-435e8f2c5bd0",
@@ -379,8 +379,9 @@
   },
   "extra_costs": [],
   "links": {
-    "final": "",
-    "discord": ""
+    "final": "https://youtu.be/78drMyh_RVU?si=v-Ph4BJzGcVmKO9m",
+    "discord": "",
+    "higgsfield": "https://higgsfield.ai/generate/@lmenchiari/talent-contest?projectPreview=1"
   },
   "log": [
     {
@@ -4574,6 +4575,10 @@
     {
       "date": "2026-11-24",
       "text": "S09 SH050: T07_ff (Leonard's framefix repair of T07) committed; T07_ff_up = Topaz 1080p upscale of it (job d6773df8), 5 credits, approved by Leonard. 2560x1080, stretched about 3% wide (no bars, unlike S08 SH050 T02_up). Attaching it to Scenes/S09/SH050 returned 403."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Routine completed: status released (site stamp 'Now showing'), every stage done, film on YouTube (links.final), Higgsfield project linked (links.higgsfield). Site: the old man's sheet moved to private/ (off the site, file kept), the shooting script (draft 11 PDF, copied from stories/politician/) in the Bible tab, credits shown rounded."
     }
   ],
   "story_sync": {
