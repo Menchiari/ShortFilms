@@ -4570,6 +4570,10 @@
     {
       "date": "2026-11-24",
       "text": "S08 SH050 T02_up: Topaz Video upscale of T02 on Higgsfield (job 418efe5b), 5 credits, approved by Leonard. 2560x1080 with 40 px black bars left and right (picture 2480x1080). Placed in Scenes/S08/SH050."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S09 SH050: T07_ff (Leonard's framefix repair of T07) committed; T07_ff_up = Topaz 1080p upscale of it (job d6773df8), 5 credits, approved by Leonard. 2560x1080, stretched about 3% wide (no bars, unlike S08 SH050 T02_up). Attaching it to Scenes/S09/SH050 returned 403."
     }
   ],
   "story_sync": {
