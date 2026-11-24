@@ -4518,6 +4518,10 @@
     {
       "date": "2026-11-24",
       "text": "S04 SH050 T02_dj: dropped and uneven frames in the people rebuilt with tools/media/dejudder.py --metric flow (two passes), no credits. Tool now has --metric pan|flow."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "New tool tools/media/fixframes.py (find / fix at given frames, only the frames around each skip rebuilt). S05 SH010 T02_fix (a skip at every second: Seedance chunk joins) and S05 SH080 T06_fix (frames 7 to 17), no credits."
     }
   ],
   "story_sync": {

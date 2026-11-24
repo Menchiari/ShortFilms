@@ -5459,6 +5459,29 @@
               "love": false,
               "rating": null,
               "notes": "REQUEST S05-SH010-c, Leonard: a prequel where he walks before he runs, a bit paranoid, fixing his tie. 480p draft. File holds the 5 new seconds only (992x432, audio mean -39.3 dB, peak -19.1 dB, quiet, not listened to): play T03 then T02. Claude's read (frames every 0.5 s): 0-1.5 s his left hand on the tie knot, pulling it straight, eyes up and around; about 2-2.5 s a look back over his shoulder; 2.5-5 s walking, quick looks to both sides and up, arms swinging more. Same man, suit and street as T02. Seam: the last frame is close to T02's first frame but not exact: he sits slightly left and his left arm is in a different place, so a small jump may show at the cut."
+            },
+            {
+              "id": "T02_fix",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S05_SH010_T02.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T02_fix.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH010_T02_fix.jpg",
+              "references": [
+                "T02 (source)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Skipped frames fixed (tools/media/fixframes.py, free): one frame lost at every second (frames 24, 48, 72, 96, 120, 144, the joins between Seedance's 1-second chunks). Only the 3 to 4 frames around each join rebuilt, all others original. Same 145 frames, audio from T02. After: no skips found."
             }
           ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
@@ -6094,6 +6117,29 @@
               "rating": null,
               "rating_source": "",
               "notes": "REQUEST S05-SH080-g. Prequel: backward extension of T06; the file is the new 5.00 s only. Play T07 then T06 for the full shot (11 s). 1470x630, 24 fps, audio present (not listened to; mean -35 dB, max -19.5 dB). Join: T07's last frame and T06's first frame match side by side (same pose, phone at right ear, framing, cars); SSIM 0.82. Claude's read from frames (2 and 3 fps): 0-1.5 s he hurries forward looking down at the phone low in his right hand, the briefcase against his chest under his left arm; about 1.5-2.2 s he turns his head back over his left shoulder; then back down to the phone, thumb on the screen (the tap itself is not clearly readable at this sampling); about 4.5-5 s the phone goes up to his right ear. Torn right elbow visible, as in T06. Faults: the first 1.5 s are brighter and hazier, with awnings, shop fronts and a red round road sign in the background, drifting into T06's darker lane with parked cars; the street reads wider at the start."
+            },
+            {
+              "id": "T06_fix",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S05_SH080_T06.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T06_fix.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH080_T06_fix.jpg",
+              "references": [
+                "T06 (source)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Skipped frames fixed (tools/media/fixframes.py, free) at frames 7, 10, 14 and 17 (the opening run); frames 5 to 18 rebuilt, all others original. Frames 118 to 121 left alone: that is the fast fall after the hit, real motion. Same 145 frames, audio from T06."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",
