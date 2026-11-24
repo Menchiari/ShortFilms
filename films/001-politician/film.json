@@ -4486,6 +4486,26 @@
     {
       "date": "2026-11-24",
       "text": "MUSIC REQUEST approved (\"go, 90 credits approved\"): music_90s-orchestral-tension_T01, Leonard's 90s orchestral thriller tension under the old man's walk (S04 SH010-SH060, 19 s). Claude wrote the cue (C minor 80 BPM, 10 bars: Cm, Ab/C, Db/C, Cm(maj7), G; horns in long notes; cello eighth-note ostinato), MIDI rendered with FluidR3 GM as @audio1 (media 362a2def). Seedance 2.5 omni_reference, 480p, job 6a034aea-a9ef-440c-be19-49e0089e4dab, Higgsfield MUSIC. Measured: bars 1-4 follow the score; D-flat and B chords missing, bars 7-10 on E-flat major; chroma correlation 0.49. Waiting for Leonard's rating."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "MUSIC REQUEST approved (\"go, defaults are fine, except do both elevenlabs and seedance\"): music_heroic-arrival_T01, heroic military arrival intro (72 BPM, D, full power 0-10 s, break 10-13.3 s, build to a final hit at 20.00 s, echo to 25 s). Defaults kept: final hit, low held D in the break. ElevenLabs Music v2.5 batch 4, 26 s, 15.12 credits: v1 2b6b7650-d5b2-4f3f-b14e-b251ec9edf35, v2 9bdb4ad4-de54-4af1-b364-dcd371f75644, v3 102c48c8-d964-4123-b0bb-427eb859a2fb, v4 2c7371d6-ff3d-4b11-bfbb-8ad949746504 (generate_audio returned only v1's id; the rest found in MUSIC). Measured: no version has the 10-13 s break; v3 stops closest to 20 s (20.75 s), v1 21.25 s, v2 22.25 s, v4 about 24 s. Seedance 2.5 t2v, 26 s, 480p, 78 credits (quoted 90 per take before approval), job 0f60d0c7-33ce-476e-a832-a04f5624aac2, prompt prompts/music_heroic-arrival_T01.txt."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "music_heroic-arrival_T01 (Seedance, job 0f60d0c7-33ce-476e-a832-a04f5624aac2) downloaded. Measured: break at 10.0-10.5 s (to about -37 dB), held to about 15 s; build 15-19.5 s; stop about 20.5 s, echo decays to -52 dB by 22 s. Leonard on the ElevenLabs batch: \"completely ignored the silence part at 10s\" (all four measured flat at 10-13 s). Waiting for Leonard's ratings."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Ratings inferred: music_heroic-arrival_T01 (Seedance) 4 (\"very nice\"); music_heroic-arrival_T01_eleven v1-v4 2 (\"completely ignored the silence part at 10s\"). Leonard: \"let's try something different, but keep the same instructions.\" Prepared music_heroic-arrival_T02 (prompts/music_heroic-arrival_T02.txt): same timing and intent, changed only the music: rock band leads with two harmonized lead guitars, orchestra and snare line behind, E minor, 144 BPM (bar 1.67 s, so 10.00, 13.33 and 20.00 s stay on bar lines). Seedance 2.5 t2v, 26 s, 480p, preflight 78 credits. Waiting for Leonard's approval."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "MUSIC REQUEST approved (\"go, 78 credits approved\"): music_heroic-arrival_T02, Seedance 2.5 t2v, 26 s, 480p, 78 credits, job eed3cb72-c71a-4aae-94ca-9835298f73bf, Higgsfield MUSIC."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "music_heroic-arrival_T02 downloaded (job eed3cb72-c71a-4aae-94ca-9835298f73bf). Measured: break early and short (9.25-11.2 s, down to -41 dB), then a lower level (-25 to -30 dB) to 16 s; build 16-19.5 s; stop about 19.75 s, echo to -50 dB by 23 s; centre E. Waiting for Leonard's rating."
     }
   ],
   "story_sync": {
