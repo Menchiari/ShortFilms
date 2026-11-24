@@ -4542,6 +4542,10 @@
     {
       "date": "2026-11-24",
       "text": "S05 SH090 T07_cut: one frozen frame (12) removed, audio cut to match, no invented frames, no credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S09 SH050 T07_fix: freeze-and-jump stretch (frames 49 to 68) evened out with fixframes.py smooth, no credits."
     }
   ],
   "story_sync": {
