@@ -4546,6 +4546,10 @@
     {
       "date": "2026-11-24",
       "text": "S09 SH050 T07_fix: freeze-and-jump stretch (frames 49 to 68) evened out with fixframes.py smooth, no credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S05 SH090 T07_blend: frozen frames 2 and 12 blended from their neighbours, frozen last frame dropped, timing and audio kept; replaces T07_cut (rated 1). No credits."
     }
   ],
   "story_sync": {

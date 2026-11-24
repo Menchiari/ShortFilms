@@ -6504,9 +6504,32 @@
                 "T07 (source, original)"
               ],
               "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "Frame 12 (a frozen copy of frame 11 in the middle of the case slam) removed, and the same 1/24 s cut from the audio at 0.5 s. No invented frames: an optical-flow rebuild of that frame smeared the case. 96 frames, every frame an original (47 dB, one encode). The other flagged moments are the real impact and fall, untouched. Leonard 2026-11-24: not blended (a hard jump where the frame was removed) and still duplicates (frames 2 and 96 were left). Replaced by T07_blend."
+            },
+            {
+              "id": "T07_blend",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S05_SH090_T07.txt",
+              "file": "05-generation/takes/S05/SH090/001_S05_SH090_T07_blend.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH090_T07_blend.jpg",
+              "references": [
+                "T07 (source, original)"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "Frame 12 (a frozen copy of frame 11 in the middle of the case slam) removed, and the same 1/24 s cut from the audio at 0.5 s. No invented frames: an optical-flow rebuild of that frame smeared the case. 96 frames, every frame an original (47 dB, one encode). The other flagged moments are the real impact and fall, untouched."
+              "notes": "From the original in one pass: the three frozen frames fixed. Frames 2 and 12 replaced by a 50/50 blend of their neighbours (no warping); frame 96, a frozen copy of 95 at the very end, dropped. Original timing and audio kept, 96 frames, 0 duplicates."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
