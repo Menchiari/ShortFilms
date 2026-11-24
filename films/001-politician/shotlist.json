@@ -6572,10 +6572,10 @@
               "references": [
                 "T07 (source, original)"
               ],
-              "love": false,
-              "rating": null,
-              "rating_source": null,
-              "notes": "Frozen frames 2 and 12 rebuilt with RIFE v4.26 AI interpolation (tools/media/rife.py), frozen last frame dropped; every other frame original (40 dB), timing and audio kept, 0 frozen frames. In frame 12 the case turns about 60 degrees between its neighbours: RIFE renders it as a dark motion blur, not a crisp case."
+              "love": true,
+              "rating": 5,
+              "rating_source": "inferred",
+              "notes": "Frozen frames 2 and 12 rebuilt with RIFE v4.26 AI interpolation (tools/media/rife.py), frozen last frame dropped; every other frame original (40 dB), timing and audio kept, 0 frozen frames. In frame 12 the case turns about 60 degrees between its neighbours: RIFE renders it as a dark motion blur, not a crisp case. Leonard 2026-11-24: 'perfect'."
             }
           ],
           "description": "The briefcase slams into the asphalt at speed, bounces and bursts open. He crashes down beside it. A gust takes the certificates.",
