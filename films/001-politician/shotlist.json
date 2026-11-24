@@ -10245,6 +10245,29 @@
               "rating": 5,
               "notes": "REQUEST S08-SH050-b, approved 'ok go, 15 credits'. Leonard's change after T01: Roger fires once before she turns. Claude's read from frames: one muzzle flash out of the open door at about 0.75 s (earlier than the 1-2 s asked), with a loud transient on the same frame (peak -3 dBFS); small recoil, no casing seen at this size; she turns over her right shoulder at about 1.3-2 s and holds on Roger through sunglasses; voice-band burst at about 3.25-3.9 s; pilot faces forward; door empty; framing a little wider than SH020 T02's last frame, as in T01. Claude cannot listen: words, accent and the absence of music unchecked. Leonard 2026-11-19: awesome.",
               "rating_source": "inferred"
+            },
+            {
+              "date": "2026-11-24",
+              "model": "topaz_video",
+              "mode": "edit",
+              "duration_s": 5.06,
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 5.0,
+              "prompt": "05-generation/prompts/001_S08_SH050_T02.txt",
+              "preview": "",
+              "poster": "05-generation/web/001_S08_SH050_T02_up.jpg",
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "id": "T02_up",
+              "resolution": "2560x1080",
+              "job_id": "418efe5b-c388-4536-90bd-78d614b3721d",
+              "file": "05-generation/takes/S08/SH050/001_S08_SH050_T02_up.mp4",
+              "references": [
+                "T02 (source)"
+              ],
+              "notes": "Topaz Video upscale of T02 on Higgsfield (job 418efe5b, provider topaz, resolution 1080p, aspect auto), approved by Leonard ('go'), 5 credits (estimate given was 11-12). Output 2560x1080 HEVC, 24 fps, 121 frames, 5.06 s, audio kept: the picture is 2480x1080 (source aspect kept) with black bars 40 px wide left and right. Placed in Scenes/S08/SH050."
             }
           ],
           "description": "In the front seat, the lady turns around to him, over her right shoulder.",

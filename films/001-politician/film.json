@@ -4566,6 +4566,10 @@
     {
       "date": "2026-11-24",
       "text": "S04 SH050 T02_up_rife_v2: frozen tail (92-95) cut on top of the three RIFE skip fixes. 57, 60, 72 measured as local jumps of one figure, not missing frames: frame retiming cannot fix them. fixframes.py now measures motion at about 1000 px wide (upscaled files gave wrong numbers)."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "S08 SH050 T02_up: Topaz Video upscale of T02 on Higgsfield (job 418efe5b), 5 credits, approved by Leonard. 2560x1080 with 40 px black bars left and right (picture 2480x1080). Placed in Scenes/S08/SH050."
     }
   ],
   "story_sync": {
