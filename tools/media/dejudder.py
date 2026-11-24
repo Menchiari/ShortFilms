@@ -35,8 +35,10 @@ T = np.linspace(0, t[-1], n)  # same frame count and duration, uniform true time
 def flow(a, b): return cv2.calcOpticalFlowFarneback(a, b, None, 0.5, 4, 25, 4, 7, 1.5, 0)
 gx, gy = np.meshgrid(np.arange(w), np.arange(h)); gx = gx.astype(np.float32); gy = gy.astype(np.float32)
 cache = {}
-tmp = dst + '.video.mp4'
-vw = cv2.VideoWriter(tmp, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
+out = []
+class _W:
+    def write(self, f): out.append(f)
+vw = _W()
 for k, tk in enumerate(T):
     i = min(np.searchsorted(t, tk, side='right') - 1, n - 2)
     a = float((tk - t[i]) / max(t[i+1] - t[i], 1e-6))
@@ -47,7 +49,6 @@ for k, tk in enumerate(T):
     A = cv2.remap(frames[i], (gx - a * fab[..., 0]).astype(np.float32), (gy - a * fab[..., 1]).astype(np.float32), cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
     B = cv2.remap(frames[i+1], (gx - (1 - a) * fba[..., 0]).astype(np.float32), (gy - (1 - a) * fba[..., 1]).astype(np.float32), cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
     vw.write(cv2.addWeighted(A, 1 - a, B, a, 0))
-vw.release()
-subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-i', src, '-map', '0:v', '-map', '1:a?', '-c:v', 'libx264',
-                '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-crf', '16', '-r', str(fps), '-c:a', 'copy', dst], check=True)
-os.remove(tmp); print('wrote', dst)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from fixframes import write
+write(out, fps, src, dst); print('wrote', dst)

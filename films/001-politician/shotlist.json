@@ -831,6 +831,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "Dropped-frame fix of T02 (tools/media/dejudder.py, free): the pan skipped one frame every 3 to 4 frames (59 double steps, about 30 fps thinned to 24); each frame placed at its true time and the gaps rebuilt by optical flow. Same 241 frames, same duration, audio from T02. After: 0 double steps."
+            },
+            {
+              "id": "T02_dj_v2",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 10,
+              "resolution": "480p",
+              "aspect": "16:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S01_SH110_T02.txt",
+              "file": "05-generation/takes/S01/SH110/001_S01_SH110_T02_dj_v2.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S01_SH110_T02_dj_v2.jpg",
+              "references": [
+                "T02 (source, original)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Same fix as T02_dj (the pan's dropped frames) without the quality loss of T02_dj. Made in one pass from the original take, near-lossless (untouched frames about 40 dB PSNR against the original)."
             }
           ],
           "description": "Sunset. A skyline under columns of smoke. Sirens far away.",
@@ -4874,6 +4897,29 @@
               "rating": 4,
               "notes": "Option B (Leonard 2026-11-18: \"try B curious\", then \"ok let's try it\" after the first call was blocked by the session's permission check): Topaz Video upscale of T03 5f723cad, 1080p, 21:9. No cost preflight exists for upscales; charge read from the transaction log: 5 credits. Output 2560x1080, 24 fps, 4.04 s. Not filed in the Higgsfield folder: the upscale tool takes no folder and attaching it to S04/SH130 was refused (403, Cinema action is not permitted). Claude's read: frame-exact T03 content, but STRETCHED about 3% horizontally (T03 is 992x432, 2.30:1; Topaz output is 2.37:1). Checked by PSNR against T03: squeezed back to 992x432 = 36.1 dB, cropped instead = 26.3 dB. Fix in Resolve: scale width to 2480 at 1080 high, or set the clip's horizontal scale to about 0.969. Look, from a crop against T04: sharper than T04, with upscaler artifacts: faces a little waxy, plaster smoothed and oversharpened edges; T04 reads more like film. Leonard 2026-11-18: \"works\".",
               "rating_source": "inferred"
+            },
+            {
+              "id": "T03_fix",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 4,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S04_SH130_T03.txt",
+              "file": "05-generation/takes/S04/SH130/001_S04_SH130_T03_fix.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S04_SH130_T03_fix.jpg",
+              "references": [
+                "T03 (source, original)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Frames 10 to 32 evened out (tools/media/fixframes.py smooth 10 32): six frozen frames each followed by a double jump; now a steady 2.0 to 2.2 px per frame, 0 duplicates. Made in one pass from the original take, near-lossless (untouched frames about 40 dB PSNR against the original)."
             }
           ],
           "description": "Above them, at the windows and on the balconies, faces are already watching.",
@@ -5482,6 +5528,29 @@
               "rating": null,
               "rating_source": null,
               "notes": "Skipped frames fixed (tools/media/fixframes.py, free): one frame lost at every second (frames 24, 48, 72, 96, 120, 144, the joins between Seedance's 1-second chunks). Only the 3 to 4 frames around each join rebuilt, all others original. Same 145 frames, audio from T02. After: no skips found."
+            },
+            {
+              "id": "T02_fix_v2",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "480p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S05_SH010_T02.txt",
+              "file": "05-generation/takes/S05/SH010/001_S05_SH010_T02_fix_v2.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH010_T02_fix_v2.jpg",
+              "references": [
+                "T02 (source, original)"
+              ],
+              "love": false,
+              "rating": null,
+              "rating_source": null,
+              "notes": "Same fix as T02_fix (a skip at every second, frames 24 to 144) without the quality loss of T02_fix. Made in one pass from the original take, near-lossless (untouched frames about 40 dB PSNR against the original)."
             }
           ],
           "description": "He runs. The buildings wake up. Someone bangs a pot on a balcony railing. A whistle.",
@@ -6137,9 +6206,32 @@
                 "T06 (source)"
               ],
               "love": false,
+              "rating": 1,
+              "rating_source": "inferred",
+              "notes": "Skipped frames fixed (tools/media/fixframes.py, free) at frames 7, 10, 14 and 17 (the opening run); frames 5 to 18 rebuilt, all others original. Frames 118 to 121 left alone: that is the fast fall after the hit, real motion. Same 145 frames, audio from T06. Leonard 2026-11-24: still jitters and lost a lot of quality (cause: a low-quality intermediate inside the tool, fixed). Replaced by T06_fix_v2."
+            },
+            {
+              "id": "T06_fix_v2",
+              "date": "2026-11-24",
+              "model": "seedance_2_5",
+              "mode": "edit",
+              "duration_s": 6,
+              "resolution": "720p",
+              "aspect": "21:9",
+              "audio": true,
+              "credits": 0.0,
+              "job_id": "",
+              "prompt": "05-generation/prompts/001_S05_SH080_T06.txt",
+              "file": "05-generation/takes/S05/SH080/001_S05_SH080_T06_fix_v2.mp4",
+              "preview": "",
+              "poster": "05-generation/web/001_S05_SH080_T06_fix_v2.jpg",
+              "references": [
+                "T06 (source, original)"
+              ],
+              "love": false,
               "rating": null,
               "rating_source": null,
-              "notes": "Skipped frames fixed (tools/media/fixframes.py, free) at frames 7, 10, 14 and 17 (the opening run); frames 5 to 18 rebuilt, all others original. Frames 118 to 121 left alone: that is the fast fall after the hit, real motion. Same 145 frames, audio from T06."
+              "notes": "Opening frames 4 to 20 evened out (tools/media/fixframes.py smooth 4 20): frames 6, 9, 12, 15, 18 were frozen copies followed by double jumps; now steady. Fall after the hit left as it is. Made in one pass from the original take, near-lossless (untouched frames about 40 dB PSNR against the original)."
             }
           ],
           "description": "A rock slams into his right eyebrow. His head snaps sideways and he drops to the asphalt.",

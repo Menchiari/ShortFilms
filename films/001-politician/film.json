@@ -4522,6 +4522,10 @@
     {
       "date": "2026-11-24",
       "text": "New tool tools/media/fixframes.py (find / fix at given frames, only the frames around each skip rebuilt). S05 SH010 T02_fix (a skip at every second: Seedance chunk joins) and S05 SH080 T06_fix (frames 7 to 17), no credits."
+    },
+    {
+      "date": "2026-11-24",
+      "text": "Frame tools: quality bug fixed (a low-quality intermediate file inside fixframes.py and dejudder.py; now frames go straight into one near-lossless encode). New fixframes.py smooth for frozen-frame-plus-jump stretches. New versions from the originals: S05 SH080 T06_fix_v2, S05 SH010 T02_fix_v2, S01 SH110 T02_dj_v2, S04 SH130 T03_fix. No credits."
     }
   ],
   "story_sync": {
