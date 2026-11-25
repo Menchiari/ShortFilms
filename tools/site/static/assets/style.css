@@ -333,3 +333,7 @@ a.bcard.pdf:hover, a.bcard.pdf:focus-visible { border-color: var(--bone-2); outl
 .bcard.char img { aspect-ratio: 4 / 3; object-fit: contain; background: #0b0a09; filter: none; }
 .bible-cards:has(.char) { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
 .takes tr.anim td { color: var(--bone-2); font-style: italic; }
+
+/* a released film: the board is a record, not a to-do list */
+.tiles.done .tile-stat:first-child .val { font-size: clamp(26px, 3.2vw, 40px); color: var(--amber); white-space: nowrap; }
+.panel.wrap .links { margin-top: 10px; }

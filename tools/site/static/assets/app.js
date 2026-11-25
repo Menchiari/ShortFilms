@@ -136,15 +136,16 @@
       '<span class="q">' + (sh.loved ? "♥" : "") + (q || (sh.takes.length ? "?" : "")) + "</span></a>";
   }
 
-  function scheduleRows(f, byScene, today) {
+  function scheduleRows(f, byScene, today, done) {
     var days = (f.schedule && f.schedule.days) || [];
     return days.map(function (d) {
       var sts = (d.scenes || []).map(function (id) { return byScene[id]; }).filter(Boolean);
       var tot = sts.reduce(function (a, s) { return a + s.total; }, 0);
       var ok = sts.reduce(function (a, s) { return a + s.approved; }, 0);
-      var state = d.date === today ? "today" : (d.date < today ? "past" : "next");
+      var state = done ? "past" : (d.date === today ? "today" : (d.date < today ? "past" : "next"));
       var flag = "";
-      if (tot) {
+      if (done) flag = "";
+      else if (tot) {
         if (ok === tot) flag = '<span class="flag done">✓ Done</span>';
         else if (d.date < today) flag = '<span class="flag late">! Behind ' + (tot - ok) + "</span>";
         else if (d.date === today) flag = '<span class="flag now">● Today</span>';
@@ -157,7 +158,7 @@
     }).join("");
   }
 
-  function qualityPanel(f) {
+  function qualityPanel(f, done) {
     var counts = { 5: 0, 4: 0, 3: 0, 2: 0, 1: 0, u: 0 };
     var weak = [], pick = [], unrated = [];
     f.scenes.forEach(function (sc) {
@@ -186,7 +187,7 @@
         var n = counts[r[0]];
         return "<tr><th>" + r[1] + '</th><td><span class="qbar ' + (r[0] === "u" ? "qu" : "q" + r[0]) + '" style="width:' + (n / max * 100) + '%"></span></td><td class="v">' + n + "</td></tr>";
       }).join("") + "</table>" +
-      list(pick, "Strong, no select yet") + list(weak, "Weak, retake or cut") + list(unrated, "Takes waiting for a rating") + "</div>";
+      (done ? "" : list(pick, "Strong, no select yet") + list(weak, "Weak, retake or cut") + list(unrated, "Takes waiting for a rating")) + "</div>";
   }
 
   function renderProduction(f) {
@@ -210,44 +211,54 @@
     Object.keys(dueIds).forEach(function (id) { if (byScene[id]) { due += byScene[id].total; dueOk += byScene[id].approved; } });
     var left = all.total - all.approved;
 
+    var done = f.status === "released";
     var tiles = [];
-    tiles.push(["Approved", pct(all.approved, all.total) + "<small>%</small>", all.approved + " of " + all.total + " shots"]);
-    tiles.push(["Left", left, left === 1 ? "shot to approve" : "shots to approve"]);
+    if (done) {
+      tiles.push(["Status", "Completed", "released, " + f.stats.stages_done + " of " + f.stats.stages_total + " stages done"]);
+      tiles.push(["Shots approved", all.approved + "<small> of " + all.total + "</small>", "with a loved take"]);
+      tiles.push(["Takes", num(all.takes), "generated"]);
+      if (f.stats.credits != null) tiles.push(["Credits spent", credits(f.stats.credits), "whole production"]);
+    }
+    if (!done) tiles.push(["Approved", pct(all.approved, all.total) + "<small>%</small>", all.approved + " of " + all.total + " shots"]);
+    if (!done) tiles.push(["Left", left, left === 1 ? "shot to approve" : "shots to approve"]);
     var due_by = sched.shots_due || lastGen;
-    if (sched.shots_due) {
+    if (sched.shots_due && !done) {
       var sd = daysBetween(today, sched.shots_due);
       tiles.push(["Shots due", sd >= 0 ? sd + (sd === 1 ? "<small> day</small>" : "<small> days</small>") : "passed", dayLabel(sched.shots_due) + ", then edit"]);
     }
-    tiles.push(["Runtime approved", mmss(all.secDone), "of " + mmss(all.sec) + " planned"]);
-    if (sched.deadline) {
+    if (!done) tiles.push(["Runtime approved", mmss(all.secDone), "of " + mmss(all.sec) + " planned"]);
+    if (sched.deadline && !done) {
       var dl = daysBetween(today, sched.deadline);
       tiles.push(["Deadline", dl >= 0 ? dl + (dl === 1 ? "<small> day</small>" : "<small> days</small>") : "passed", dayLabel(sched.deadline)]);
     }
-    if (f.stats.credits != null) tiles.push(["Credits spent", credits(f.stats.credits), all.takes + " takes"]);
+    if (f.stats.credits != null && !done) tiles.push(["Credits spent", credits(f.stats.credits), all.takes + " takes"]);
 
     var pace = "";
-    if (due_by && left) {
+    if (due_by && left && !done) {
       var genDays = daysBetween(today, due_by) + 1;
       pace = genDays > 0
         ? "To approve every shot by " + dayLabel(due_by) + ": <b>" + Math.ceil(left / genDays) + " shots a day</b>, today included."
         : "Shots were due " + dayLabel(due_by) + ": " + left + " still to approve.";
     }
-    var plan = due
+    var plan = due && !done
       ? "Plan up to today: <b>" + due + "</b> shots approved. Actual: <b>" + dueOk + "</b>" + (due > dueOk ? ", behind by <b>" + (due - dueOk) + "</b>." : ", on plan.")
       : "";
 
     var html = '<div class="board-head"><span class="live" title="The page checks for new data every minute">Live</span>' +
       '<span class="label">Data from the repository, built ' + esc(ago(SITE.built)) + (SITE.commit ? " · " + esc(SITE.commit) : "") + "</span></div>" +
-      '<div class="tiles">' + tiles.map(function (t) {
+      '<div class="tiles' + (done ? " done" : "") + '">' + tiles.map(function (t) {
         return '<div class="tile-stat"><div class="label">' + t[0] + '</div><div class="val">' + t[1] + '</div><div class="sub2">' + esc(t[2]) + "</div></div>";
       }).join("") + "</div>" +
-      '<div class="panel">' + segbar(all, true) +
-      '<div class="legend"><span><i class="sw approved"></i>Approved (a loved take)</span><span><i class="sw review"></i>In review (takes, no select)</span><span><i class="sw todo"></i>Not shot</span></div>' +
-      (plan || pace ? '<p class="plan">' + plan + (plan && pace ? "<br>" : "") + pace + "</p>" : "") + "</div>";
+      (done
+        ? '<div class="panel wrap"><p class="plan">Production completed. The numbers below are the production record; the film itself is the final cut.</p>' +
+          '<div class="links">' + (f.links && f.links.final ? '<a class="btn red" href="' + esc(f.links.final) + '" target="_blank" rel="noopener">Watch the film</a>' : "") + "</div></div>"
+        : '<div class="panel">' + segbar(all, true) +
+          '<div class="legend"><span><i class="sw approved"></i>Approved (a loved take)</span><span><i class="sw review"></i>In review (takes, no select)</span><span><i class="sw todo"></i>Not shot</span></div>' +
+          (plan || pace ? '<p class="plan">' + plan + (plan && pace ? "<br>" : "") + pace + "</p>" : "") + "</div>");
 
     if (days.length) {
-      html += '<h2 class="h2">Schedule</h2>' + (sched.source ? '<p class="hint">' + esc(sched.source) + "</p>" : "") +
-        '<ol class="schedule">' + scheduleRows(f, byScene, today) + "</ol>";
+      html += '<h2 class="h2">Schedule' + (done ? " as planned" : "") + "</h2>" + (sched.source ? '<p class="hint">' + esc(sched.source) + "</p>" : "") +
+        '<ol class="schedule">' + scheduleRows(f, byScene, today, done) + "</ol>";
     }
 
     html += '<h2 class="h2">Shots by scene</h2>' +
@@ -258,7 +269,7 @@
         var planned = days.filter(function (d) { return (d.scenes || []).indexOf(sc.id) >= 0; }).map(function (d) { return dayLabel(d.date); });
         return '<section class="srow" id="scene-' + esc(sc.id) + '"><div class="srow-head"><h3>' + esc(sc.id) + "</h3>" +
           '<div class="srow-meta"><div class="stitle">' + esc(sc.title || "") + "</div>" +
-          '<div class="label">' + s.approved + "/" + s.total + " approved · " + s.review + " in review · " + mmss(s.secDone) + " of " + mmss(s.sec) +
+          '<div class="label">' + s.approved + "/" + s.total + " approved · " + (done ? s.takes + " takes" : s.review + " in review · " + mmss(s.secDone) + " of " + mmss(s.sec)) +
           (planned.length ? " · planned " + esc(planned.join(", ")) : "") + "</div></div></div>" +
           segbar(s, false) +
           '<div class="tiles-grid">' + sc.shots.filter(function (sh) { return sh.status !== "cut"; }).map(function (sh) { return tile(f, sc, sh); }).join("") + "</div></section>";
@@ -271,7 +282,7 @@
     var final = f.links && f.links.final ? '<a class="btn" href="' + esc(f.links.final) + '" target="_blank" rel="noopener">Watch the film</a>' : "";
     if (f.links && f.links.higgsfield) final += '<a class="btn" href="' + esc(f.links.higgsfield) + '" target="_blank" rel="noopener">Higgsfield project</a>';
 
-    html += '<div class="grid-2 lower">' + qualityPanel(f) +
+    html += '<div class="grid-2 lower">' + qualityPanel(f, done) +
       '<div class="panel"><div class="label" style="margin-bottom:10px">Stages ' + f.stats.stages_done + "/" + f.stats.stages_total + "</div>" + stages +
       '<div class="links">' + final + discordBtn() + "</div></div></div>";
     return html;
