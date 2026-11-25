@@ -337,3 +337,7 @@ a.bcard.pdf:hover, a.bcard.pdf:focus-visible { border-color: var(--bone-2); outl
 /* a released film: the board is a record, not a to-do list */
 .tiles.done .tile-stat:first-child .val { font-size: clamp(26px, 3.2vw, 40px); color: var(--amber); white-space: nowrap; }
 .panel.wrap .links { margin-top: 10px; }
+
+/* the finished film, first thing on its page */
+.hero-film { margin: 18px 0 4px; background: #000; border: 1px solid var(--line); }
+.hero-film iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }

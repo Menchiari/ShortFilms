@@ -290,6 +290,7 @@
 
   // ---------- index ----------
   function renderIndex() {
+    app.dataset.film = "";
     document.title = SITE.title || "SHORT FILMS";
     var films = SITE.films || [];
     var html = '<header class="masthead">' +
@@ -489,6 +490,15 @@
     }).join("");
   }
 
+  // the finished film, embedded: YouTube (privacy-enhanced) or Vimeo; anything else stays a link
+  function embedURL(u) {
+    if (!u) return "";
+    var m = /(?:youtu\.be\/|youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/))([\w-]{11})/.exec(u);
+    if (m) return "https://www.youtube-nocookie.com/embed/" + m[1] + "?rel=0";
+    m = /vimeo\.com\/(?:video\/)?(\d+)/.exec(u);
+    return m ? "https://player.vimeo.com/video/" + m[1] : "";
+  }
+
   function renderFilm(slug, tab, focus, keepScroll) {
     var load = FILMS[slug] ? Promise.resolve(FILMS[slug]) : getJSON("data/films/" + encodeURIComponent(slug) + ".json");
     load.then(function (f) {
@@ -497,14 +507,26 @@
       var tabs = tabsFor(f);
       if (!tabs.some(function (t) { return t[0] === tab; })) tab = "production";
       var fmt = f.format || {};
+      var embed = embedURL(f.links && f.links.final);
+      var hero = document.getElementById("film-hero");
+      var nav = '<nav class="tabs">' + tabs.map(function (t) {
+          return '<a href="#/film/' + esc(slug) + "/" + t[0] + '"' + (t[0] === tab ? ' aria-current="page"' : "") + ">" + t[1] + "</a>";
+        }).join("") + "</nav>";
+      if (embed && hero && app.dataset.film === slug && hero.dataset.src === embed) {
+        // same film, player already on the page: redraw below it only, so the film keeps playing
+        app.querySelector("nav.tabs").outerHTML = nav;
+        document.getElementById("tab").innerHTML = "";
+      } else {
+      app.dataset.film = slug;
       app.innerHTML = '<a class="back label" href="#/">&larr; All films</a>' +
+        (embed ? '<div class="hero-film" id="film-hero" data-src="' + esc(embed) + '"><iframe src="' + esc(embed) + '" title="' + esc(f.title) +
+          '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>' : "") +
         '<header class="film-head"><div class="label">No. ' + esc(f.id) + (f.project && f.project !== f.title ? " / Project " + esc(f.project) : "") + "</div><h1>" + esc(f.title) + "</h1>" +
         (f.logline ? '<p class="logline">' + esc(f.logline) + "</p>" : "") +
         '<div class="film-meta">' + stamp(f.status) + '<span class="label">' +
         esc([fmt.aspect, fmt.fps ? fmt.fps + " fps" : "", fmt.resolution].filter(Boolean).join(" / ")) + "</span></div></header>" +
-        '<nav class="tabs">' + tabs.map(function (t) {
-          return '<a href="#/film/' + esc(slug) + "/" + t[0] + '"' + (t[0] === tab ? ' aria-current="page"' : "") + ">" + t[1] + "</a>";
-        }).join("") + '</nav><section id="tab"></section>';
+        nav + '<section id="tab"></section>';
+      }
       var box = document.getElementById("tab");
       if (tab === "production") box.innerHTML = renderProduction(f);
       else if (tab === "story") renderDoc(box, f.docs.story, true);
@@ -531,6 +553,7 @@
       else if (target) target.scrollIntoView();
       else window.scrollTo(0, 0);
     }).catch(function () {
+      app.dataset.film = "";
       app.innerHTML = '<a class="back label" href="#/">&larr; All films</a><div class="empty-state" style="margin-top:30px">This reel is missing.</div>';
     });
   }
